@@ -6,6 +6,7 @@ export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"]
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.EntityId, type: "string", group: "Model" },
+  { key: "FullName", label: "Full Name", getValue: (t) => `${t.Brand} ${t.ModelName} (${t.ModelId})`, type: "string", group: "Model", computed: true },
   { key: "Brand", label: "Brand", getValue: (t) => t.Brand, type: "enum", enumValues: ["HUION", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Model" },
@@ -55,14 +56,14 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   { key: "DisplayResponseTime", label: "Response Time (ms)", getValue: (t) => t.DisplayResponseTime ?? "", type: "number", group: "Display" },
   { key: "DisplayRefreshRate", label: "Refresh Rate (Hz)", getValue: (t) => t.DisplayRefreshRate ?? "", type: "number", group: "Display" },
   {
-    key: "DisplayResolution", label: "Display Resolution", group: "Display",
-    getValue: (t) => { const d = t.DisplayResolution; return d ? `${d.Width} x ${d.Height}` : ""; },
+    key: "DisplayPixelDimensions", label: "Pixel Dimensions", group: "Display",
+    getValue: (t) => { const d = t.DisplayPixelDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
   {
     key: "DisplayDiagonal", label: "Diagonal (mm)", group: "Display", computed: true, type: "number", unit: "mm",
     getValue: (t) => {
-      const res = t.DisplayResolution;
+      const res = t.DisplayPixelDimensions;
       const dim = t.DigitizerDimensions;
       if (!res || !dim || !dim.Width || !dim.Height || t.ModelType !== "PENDISPLAY") return "";
       return Math.sqrt(dim.Width * dim.Width + dim.Height * dim.Height).toFixed(1);
@@ -71,7 +72,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   {
     key: "DisplayDensity", label: "Density (px/mm)", group: "Display", computed: true, type: "number", unit: "px/mm",
     getValue: (t) => {
-      const res = t.DisplayResolution;
+      const res = t.DisplayPixelDimensions;
       const dim = t.DigitizerDimensions;
       if (!res || !dim || !res.Width || !dim.Width) return "";
       return (res.Width / dim.Width).toFixed(2);
@@ -93,7 +94,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
 export const TABLET_DEFAULT_COLUMNS = [
   "EntityId", "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
   "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions",
-  "DisplayResolution", "PhysicalWeight", "ModelStatus",
+  "DisplayPixelDimensions", "PhysicalWeight", "ModelStatus",
 ];
 
 export const TABLET_DEFAULT_VIEW: Step[] = [
@@ -102,7 +103,7 @@ export const TABLET_DEFAULT_VIEW: Step[] = [
     fields: [
       "EntityId", "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age", "ModelStatus",
       "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions", "DigitizerDiagonal",
-      "DisplayResolution", "DisplayDiagonal",
+      "DisplayPixelDimensions", "DisplayDiagonal",
       "PhysicalWeight",
     ],
   },

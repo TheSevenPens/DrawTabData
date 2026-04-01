@@ -507,10 +507,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "275",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "ModelAudience": "Consumer",
       "ModelFamily": "WACOM ONE",
       "ModelId": "DTC-121",
@@ -523,7 +519,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
       "EntityId": "WACOM.TABLET.DTC121",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -541,10 +541,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "AHVA",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "26",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -568,7 +564,11 @@
       "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
       "EntityId": "WACOM.TABLET.DTC133",
       "DigitizerDensity": "100",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -586,10 +586,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "16",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -611,7 +607,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
       "EntityId": "WACOM.TABLET.DTC141",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -627,10 +627,6 @@
         "ADOBERGB": 87
       },
       "DisplayContrast": "930",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "20",
       "DisplayViewingAngleHorizontal": "160",
       "DisplayViewingAngleVertical": "160",
@@ -652,7 +648,11 @@
       "_id": "3b565a01-0544-4dee-bbd2-aeba06af96b4",
       "EntityId": "WACOM.TABLET.DTH1320",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -663,10 +663,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "320",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "ModelAudience": "Consumer",
       "ModelId": "DTH-134",
       "ModelIncludedPen": "CP-923",
@@ -678,7 +674,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
       "EntityId": "WACOM.TABLET.DTH134",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -698,10 +698,6 @@
       "DisplayContrast": "100000",
       "DisplayPanelTech": "OLED",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "0.2",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -723,7 +719,11 @@
       "_id": "8d4308af-a529-453e-a394-1a739a337785",
       "EntityId": "WACOM.TABLET.DTH135",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -739,10 +739,6 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "176",
       "DisplayViewingAngleVertical": "176",
@@ -765,7 +761,11 @@
       "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
       "EntityId": "WACOM.TABLET.DTH1620",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {
@@ -785,10 +785,6 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "30",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -810,7 +806,11 @@
       "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
       "EntityId": "WACOM.TABLET.DTH167",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerPressureLevels": "8192",
@@ -818,10 +818,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "400",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "ModelAudience": "Professional",
       "ModelId": "DTH-172",
       "ModelIncludedPen": "ACP-500",
@@ -833,7 +829,11 @@
       "_ModifiedDate": "2025-12-12T18:50:43.683Z",
       "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
       "EntityId": "WACOM.TABLET.DTH172",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerPressureLevels": "8192",
@@ -841,10 +841,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "ModelAudience": "Professional",
       "ModelId": "DTH-227",
       "ModelIncludedPen": "ACP-500",
@@ -856,7 +852,11 @@
       "_ModifiedDate": "2025-12-12T18:50:48.521Z",
       "_id": "f74b002f-cac5-4490-9ace-943893d53427",
       "EntityId": "WACOM.TABLET.DTH227",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {
@@ -876,10 +876,6 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -902,7 +898,11 @@
       "EntityId": "WACOM.TABLET.DTH2420",
       "DigitizerDensity": "200",
       "Brand": "WACOM",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {
@@ -923,10 +923,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "12",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -948,7 +944,11 @@
       "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
       "EntityId": "WACOM.TABLET.DTH246",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerDimensions": {
@@ -969,10 +969,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "10",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -994,7 +990,11 @@
       "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
       "EntityId": "WACOM.TABLET.DTH271",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1014,10 +1014,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "8",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1040,7 +1036,11 @@
       "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
       "EntityId": "WACOM.TABLET.DTH3220",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1056,10 +1056,6 @@
         "ADOBERGB": 75
       },
       "DisplayContrast": "700",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1080,7 +1076,11 @@
       "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d",
       "EntityId": "WACOM.TABLET.DTK1300",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1098,10 +1098,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1124,7 +1120,11 @@
       "EntityId": "WACOM.TABLET.DTK1660",
       "DigitizerDensity": "200",
       "Brand": "WACOM",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1145,10 +1145,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1600
-      },
       "DisplayResponseTime": "8",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1170,15 +1166,15 @@
       "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
       "EntityId": "WACOM.TABLET.DTK168",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1600
+      }
     },
     {
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": {
-        "Width": 1600,
-        "Height": 1200
-      },
       "ModelId": "DTK-2100",
       "ModelLaunchYear": "2010",
       "ModelName": "Cintiq 21UX 2010",
@@ -1188,7 +1184,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
       "EntityId": "WACOM.TABLET.DTK2100",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1600,
+        "Height": 1200
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1205,10 +1205,6 @@
       },
       "DisplayContrast": "900",
       "DisplayPanelTech": "H-IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelId": "DTK-2200",
@@ -1229,7 +1225,11 @@
       "_id": "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
       "EntityId": "WACOM.TABLET.DTK2200",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1248,10 +1248,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "22",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1273,7 +1269,11 @@
       "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
       "EntityId": "WACOM.TABLET.DTK2260",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1288,10 +1288,6 @@
         "ADOBERGB": 92
       },
       "DisplayContrast": "550",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelId": "DTK-2400",
@@ -1304,7 +1300,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0c884705-370d-47f8-ad60-ae939de51c2d",
       "EntityId": "WACOM.TABLET.DTK2400",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1323,10 +1323,6 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1349,7 +1345,11 @@
       "EntityId": "WACOM.TABLET.DTK2420",
       "DigitizerDensity": "200",
       "Brand": "WACOM",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1369,10 +1369,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "12",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1394,7 +1390,11 @@
       "_id": "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c",
       "EntityId": "WACOM.TABLET.DTK246",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1411,10 +1411,6 @@
       },
       "DisplayContrast": "970",
       "DisplayPanelTech": "AHVA",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "12",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1435,7 +1431,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
       "EntityId": "WACOM.TABLET.DTK2700",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1444,10 +1444,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": {
-        "Width": 1280,
-        "Height": 800
-      },
       "ModelId": "DTZ-1200W",
       "ModelLaunchYear": "2007",
       "ModelName": "Cintiq 12WX",
@@ -1457,15 +1453,15 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4",
       "EntityId": "WACOM.TABLET.DTZ1200W",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1280,
+        "Height": 800
+      }
     },
     {
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": {
-        "Width": 1600,
-        "Height": 1200
-      },
       "ModelId": "DTZ-2100",
       "ModelLaunchYear": "2005",
       "ModelName": "Cintiq 21UX 2005",
@@ -1475,7 +1471,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
       "EntityId": "WACOM.TABLET.DTZ2100",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1600,
+        "Height": 1200
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1484,10 +1484,6 @@
       },
       "DigitizerType": "PASSIVE_EMR",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 1600,
-        "Height": 1200
-      },
       "ModelId": "DTZ-2100D",
       "ModelLaunchYear": "2007",
       "ModelName": "Cintiq 21UX 2007",
@@ -1497,15 +1493,15 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "5067122f-01f1-4721-aa24-022acaa68d4c",
       "EntityId": "WACOM.TABLET.DTZ2100D",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1600,
+        "Height": 1200
+      }
     },
     {
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": {
-        "Width": 1680,
-        "Height": 1050
-      },
       "ModelId": "DTZ-22000W",
       "ModelLaunchYear": "2007",
       "ModelName": "Cintiq 20WSX",
@@ -1515,7 +1511,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
       "EntityId": "WACOM.TABLET.DTZ22000W",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1680,
+        "Height": 1050
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1684,10 +1684,6 @@
       "DigitizerPressureLevels": "512",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayPanelTech": "TFT",
-      "DisplayResolution": {
-        "Width": 1024,
-        "Height": 768
-      },
       "ModelId": "PL-550",
       "ModelLaunchYear": "2001",
       "ModelName": "Cintiq 15X",
@@ -1697,7 +1693,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7ad4460a-8600-4c14-9916-69d0a7bab344",
       "EntityId": "WACOM.TABLET.PL550",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1024,
+        "Height": 768
+      }
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1744,10 +1744,6 @@
       "DigitizerPressureLevels": "512",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayPanelTech": "TFT",
-      "DisplayResolution": {
-        "Width": 1280,
-        "Height": 1024
-      },
       "ModelId": "PL-800",
       "ModelIncludedPen": "UP-911E",
       "ModelLaunchYear": "2002",
@@ -1758,7 +1754,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "26177b6b-1a01-4059-a67e-323e78fd650f",
       "EntityId": "WACOM.TABLET.PL800",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DisplayPixelDimensions": {
+        "Width": 1280,
+        "Height": 1024
+      }
     },
     {
       "DigitizerDimensions": {

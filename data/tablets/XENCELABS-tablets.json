@@ -72,10 +72,6 @@
         "DCIP3": 93
       },
       "DisplayLamination": "YES",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "ModelAudience": "Professional",
       "ModelId": "LPH2412U-A",
       "ModelIncludedPen": "PH5-A",
@@ -94,7 +90,11 @@
       "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
       "EntityId": "XENCELABS.TABLET.LPH2412UA",
       "DigitizerDensity": "200",
-      "Brand": "XENCELABS"
+      "Brand": "XENCELABS",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     }
   ]
 }

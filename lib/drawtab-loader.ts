@@ -37,7 +37,7 @@ export interface Tablet {
   DigitizerAccuracyCorner?: string;
   DigitizerMaxHover?: string;
   DigitizerSupportsTouch?: string;
-  DisplayResolution?: Dimensions;
+  DisplayPixelDimensions?: Dimensions;
   DisplayPanelTech?: string;
   DisplayBrightness?: string;
   DisplayContrast?: string;

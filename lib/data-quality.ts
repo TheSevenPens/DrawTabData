@@ -86,7 +86,7 @@ const NUMERIC_FIELDS = [
 
 const COMPLEX_FIELDS: Record<string, string[]> = {
   DigitizerDimensions: ["Width", "Height"],
-  DisplayResolution: ["Width", "Height"],
+  DisplayPixelDimensions: ["Width", "Height"],
   PhysicalDimensions: ["Width", "Height", "Depth"],
 };
 
@@ -101,7 +101,7 @@ const DISPLAY_ONLY_FIELDS = [
   "DisplayLamination",
   "DisplayPanelTech",
   "DisplayRefreshRate",
-  "DisplayResolution",
+  "DisplayPixelDimensions",
   "DisplayResponseTime",
   "DisplayViewingAngleHorizontal",
   "DisplayViewingAngleVertical",

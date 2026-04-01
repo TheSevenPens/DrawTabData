@@ -14,10 +14,6 @@
         "NTSC": 72
       },
       "DisplayContrast": "700",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -38,7 +34,11 @@
       "_id": "f1b5e880-3313-483c-892d-8ffc3ba0a3f1",
       "EntityId": "XPPEN.TABLET.ARTIST12",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -56,10 +56,6 @@
         "NTSC": 72
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -80,7 +76,11 @@
       "_id": "f19b0c47-2b3c-4130-8854-977149267fd4",
       "EntityId": "XPPEN.TABLET.ARTIST12PRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -100,10 +100,6 @@
         "ADOBERGB": 91
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -125,7 +121,11 @@
       "_id": "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
       "EntityId": "XPPEN.TABLET.ARTIST133PRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -138,10 +138,6 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
         "ADOBERGB": 75
-      },
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
       },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -163,7 +159,11 @@
       "_id": "90a67454-8ccd-4d62-a8d1-f849fce201bf",
       "EntityId": "XPPEN.TABLET.ARTIST156",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -177,10 +177,6 @@
       "DisplayColorGamuts": {
         "NTSC": 88,
         "SRGB": 120
-      },
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
       },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -200,7 +196,11 @@
       "_id": "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
       "EntityId": "XPPEN.TABLET.ARTIST156PRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -213,10 +213,6 @@
         "SRGB": 89
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -231,7 +227,11 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a94b8c39-fcaa-4a7b-8de4-1f91859fa292",
       "EntityId": "XPPEN.TABLET.ARTIST16",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -246,10 +246,6 @@
         "ADOBERGB": 92
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -270,7 +266,11 @@
       "_id": "3678e50b-e349-43b5-a90b-72792614a1f2",
       "EntityId": "XPPEN.TABLET.ARTIST16PRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -287,10 +287,6 @@
         "ADOBERGB": 77
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -312,7 +308,11 @@
       "_id": "3f6e570c-d6af-4b2f-80f8-1f0ee8b2ead6",
       "EntityId": "XPPEN.TABLET.ARTIST22PRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -332,10 +332,6 @@
         "ADOBERGB": 90
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "ModelAudience": "Professional",
       "ModelId": "Artist22RPro",
@@ -354,7 +350,11 @@
       "_id": "e2d983ee-d901-4945-a1ea-3fd59a722e72",
       "EntityId": "XPPEN.TABLET.ARTIST22RPRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -372,10 +372,6 @@
         "ADOBERGB": 90
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -396,7 +392,11 @@
       "_id": "3ba56e15-bbcc-4944-a784-0b4d9363945d",
       "EntityId": "XPPEN.TABLET.ARTIST24PRO",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -415,10 +415,6 @@
         "SRGB": 127
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -438,7 +434,11 @@
       "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
       "EntityId": "XPPEN.TABLET.CD120FH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -460,10 +460,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -483,7 +479,11 @@
       "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
       "EntityId": "XPPEN.TABLET.CD130FH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -502,10 +502,6 @@
         "SRGB": 127
       },
       "DisplayContrast": "1000",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -525,7 +521,11 @@
       "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
       "EntityId": "XPPEN.TABLET.CD160FH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -545,10 +545,6 @@
       },
       "DisplayContrast": "800",
       "DisplayLamination": "YES",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -568,7 +564,11 @@
       "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
       "EntityId": "XPPEN.TABLET.CD220F",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -587,10 +587,6 @@
       "DisplayContrast": "3000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "MVA",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -610,7 +606,11 @@
       "_id": "0fb7b995-4aba-49ee-b6bf-cc75b9578a57",
       "EntityId": "XPPEN.TABLET.CD240F",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -632,10 +632,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -655,7 +651,11 @@
       "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
       "EntityId": "XPPEN.TABLET.CD240Q",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1066,10 +1066,6 @@
         "ADOBERGB": 92
       },
       "DisplayContrast": "1200",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "16.4",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1090,7 +1086,11 @@
       "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
       "EntityId": "XPPEN.TABLET.ID160F",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1112,10 +1112,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1135,7 +1131,11 @@
       "_id": "8da13172-0f45-487d-bb26-e0a53d40c25a",
       "EntityId": "XPPEN.TABLET.ID160FE",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1292,10 +1292,6 @@
       "DisplayContrast": "800",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1200
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1317,7 +1313,11 @@
       "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
       "EntityId": "XPPEN.TABLET.MD140FH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1200
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1335,10 +1335,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1600
-      },
       "DisplayResponseTime": "20",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1359,7 +1355,11 @@
       "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
       "EntityId": "XPPEN.TABLET.MD160QH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1600
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1380,10 +1380,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1403,7 +1399,11 @@
       "_id": "6a36faea-988a-4411-8f0b-6cea204c1207",
       "EntityId": "XPPEN.TABLET.MD160U",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1428,10 +1428,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "OLED",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Professional",
       "ModelFamily": "ARTISTULTRA",
@@ -1452,7 +1448,11 @@
       "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
       "EntityId": "XPPEN.TABLET.MD160UH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1471,10 +1471,6 @@
       "DisplayColorBitDepth": "10",
       "DisplayLamination": "YES",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1494,7 +1490,11 @@
       "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
       "EntityId": "XPPEN.TABLET.MD180UH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1516,10 +1516,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "ModelAudience": "Consumer",
       "ModelId": "MD220FH",
       "ModelIncludedPen": "X3PRO",
@@ -1537,7 +1533,11 @@
       "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
       "EntityId": "XPPEN.TABLET.MD220FH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1562,10 +1562,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1586,7 +1582,11 @@
       "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
       "EntityId": "XPPEN.TABLET.MD220QH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1609,10 +1609,6 @@
       },
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "ModelAudience": "Professional",
       "ModelId": "MD240QH",
       "ModelIncludedPen": "X3PRO,X3PROSLIM",
@@ -1632,7 +1628,11 @@
       "_id": "c7d5b405-28c2-4256-ae0a-6b7cb2d5711d",
       "EntityId": "XPPEN.TABLET.MD240QH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1655,10 +1655,6 @@
       },
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "ModelAudience": "Professional",
       "ModelId": "MD240UH",
       "ModelIncludedPen": "X3PRO,X3PROSLIM",
@@ -1678,7 +1674,11 @@
       "_id": "c1b05341-5d43-4003-bb7e-f8b6a5ca0181",
       "EntityId": "XPPEN.TABLET.MD240UH",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerDimensions": {

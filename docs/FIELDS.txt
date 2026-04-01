@@ -135,8 +135,8 @@ Required: no
 
 These fields apply only to tablets where ModelType is PENDISPLAY.
 
-### DisplayResolution
-The screen resolution.
+### DisplayPixelDimensions
+The screen pixel dimensions.
 Format: object { "Width": number, "Height": number }
 Unit: pixels
 Required: no

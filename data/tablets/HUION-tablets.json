@@ -51,10 +51,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -76,7 +72,11 @@
       "_id": "0cb64320-e097-486a-8537-ea48d10076e3",
       "EntityId": "HUION.TABLET.GS1161",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -99,10 +99,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -124,7 +120,11 @@
       "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
       "EntityId": "HUION.TABLET.GS1331",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -141,10 +141,6 @@
         "SRGB": 99,
         "ADOBERGB": 90,
         "REC709": 99
-      },
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
       },
       "DisplayViewingAngleHorizontal": "165",
       "DisplayViewingAngleVertical": "165",
@@ -165,7 +161,11 @@
       "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
       "EntityId": "HUION.TABLET.GS1333",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -188,10 +188,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -213,7 +209,11 @@
       "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
       "EntityId": "HUION.TABLET.GS1562",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -236,10 +236,6 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -261,7 +257,11 @@
       "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
       "EntityId": "HUION.TABLET.GS1563",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -284,10 +284,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -310,7 +306,11 @@
       "_id": "737d63f7-a797-4ce2-b813-14c00d2be899",
       "EntityId": "HUION.TABLET.GS2201",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -333,10 +333,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -359,7 +355,11 @@
       "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
       "EntityId": "HUION.TABLET.GS2202",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -378,10 +378,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "24",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -399,7 +395,11 @@
       "_id": "e0166391-4204-4fbf-8a33-932c643dc733",
       "EntityId": "HUION.TABLET.GS2401",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -423,10 +423,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -449,7 +445,11 @@
       "_id": "37a6dd3c-5e82-44c9-9cef-c08aee9dcbfb",
       "EntityId": "HUION.TABLET.GS2402",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -473,10 +473,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -498,7 +494,11 @@
       "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
       "EntityId": "HUION.TABLET.GT156V2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -521,10 +521,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "30",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -547,7 +543,11 @@
       "_id": "08e4e2c1-5332-4979-a105-a0b79986cc1e",
       "EntityId": "HUION.TABLET.GT156HDV2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerDimensions": {
@@ -561,10 +561,6 @@
       "DisplayColorBitDepth": "8",
       "DisplayContrast": "700",
       "DisplayPanelTech": "TFT",
-      "DisplayResolution": {
-        "Width": 1440,
-        "Height": 900
-      },
       "DisplayResponseTime": "5",
       "DisplayViewingAngleHorizontal": "160",
       "DisplayViewingAngleVertical": "120",
@@ -586,7 +582,11 @@
       "_id": "056de896-c23f-4c31-b057-8fa49fe759ba",
       "EntityId": "HUION.TABLET.GT190",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1440,
+        "Height": 900
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -613,10 +613,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "15",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -639,7 +635,11 @@
       "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
       "EntityId": "HUION.TABLET.GT1902",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -661,10 +661,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -687,7 +683,11 @@
       "_id": "4d2be310-8277-45c6-bdc8-0065fb41a689",
       "EntityId": "HUION.TABLET.GT220V2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -713,10 +713,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -739,7 +735,11 @@
       "_id": "28db076b-a8af-4681-abef-9b3018b0df04",
       "EntityId": "HUION.TABLET.GT2701",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -762,10 +762,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -788,7 +784,11 @@
       "_id": "8dae172b-105b-47a5-82a6-5c3c2e377935",
       "EntityId": "HUION.TABLET.GT116",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -812,10 +812,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -837,7 +833,11 @@
       "_id": "c228176c-d5f1-485d-982e-79a114ead86a",
       "EntityId": "HUION.TABLET.GT1302",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -860,10 +860,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -886,7 +882,11 @@
       "_id": "202d284e-921c-424d-aeaa-1a491c49d2a0",
       "EntityId": "HUION.TABLET.GT133",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -909,10 +909,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -934,7 +930,11 @@
       "_id": "ffe844ea-86e7-42d7-8904-f62294276f6e",
       "EntityId": "HUION.TABLET.GT1561",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -957,10 +957,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -982,7 +978,11 @@
       "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
       "EntityId": "HUION.TABLET.GT1562",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1006,10 +1006,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1031,7 +1027,11 @@
       "_id": "a7a353cc-052c-4be6-abae-d4370d67d1fe",
       "EntityId": "HUION.TABLET.GT1602",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1053,10 +1053,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1080,7 +1076,11 @@
       "_id": "d4ef79e8-754b-4b99-8af4-336a81e6b211",
       "EntityId": "HUION.TABLET.GT1901",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1102,10 +1102,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1129,7 +1125,11 @@
       "_id": "478ce434-6f08-43d8-865e-c76ec9777e4f",
       "EntityId": "HUION.TABLET.GT191",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1151,10 +1151,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1177,7 +1173,11 @@
       "_id": "53363949-0e82-4c88-b231-e1e77cd95c89",
       "EntityId": "HUION.TABLET.GT191V2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1198,10 +1198,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "8",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1225,7 +1221,11 @@
       "_id": "7b6cdaf8-ddf9-4815-8589-92c60403a717",
       "EntityId": "HUION.TABLET.GT2201",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1247,10 +1247,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1273,7 +1269,11 @@
       "_id": "6e0f82e2-69a7-476b-813c-fc67eb22f38c",
       "EntityId": "HUION.TABLET.GT221",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1296,10 +1296,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1322,7 +1318,11 @@
       "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
       "EntityId": "HUION.TABLET.GT240",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1345,10 +1345,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "10",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1371,7 +1367,11 @@
       "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
       "EntityId": "HUION.TABLET.GT2401",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1396,10 +1396,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1424,7 +1420,11 @@
       "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
       "EntityId": "HUION.TABLET.GT2402",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1449,10 +1449,6 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "144",
-      "DisplayResolution": {
-        "Width": 3840,
-        "Height": 2160
-      },
       "DisplayResponseTime": "5",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1476,7 +1472,11 @@
       "_id": "83578dc4-b766-4ca8-85b7-04f16b68caa6",
       "EntityId": "HUION.TABLET.GT2702",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2256,10 +2256,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -2282,7 +2278,11 @@
       "_id": "5ef9fa8b-f4f0-4bfb-a1dd-2032a570178d",
       "EntityId": "HUION.TABLET.RDS160",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2305,10 +2305,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 2560,
-        "Height": 1440
-      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -2330,7 +2326,11 @@
       "_id": "84631815-e88d-4c66-a75e-385e077ce38a",
       "EntityId": "HUION.TABLET.RDS220",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2446,10 +2446,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -2472,7 +2468,11 @@
       "_id": "57514e2a-d827-4282-b13f-961d77c63ce7",
       "EntityId": "HUION.TABLET.UNKKAMVAS162019",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2493,10 +2493,6 @@
       },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -2519,7 +2515,11 @@
       "_id": "3ead65af-c913-4243-8b60-dc83e13ed3d2",
       "EntityId": "HUION.TABLET.UNKKAMVAS202019",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2542,10 +2542,6 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -2568,7 +2564,11 @@
       "_id": "2633b9d4-991f-4d72-b170-85a7b9fb4ebf",
       "EntityId": "HUION.TABLET.UNKKAMVASPRO162019",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2591,10 +2591,6 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": {
-        "Width": 1920,
-        "Height": 1080
-      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -2616,7 +2612,11 @@
       "_id": "397197ea-56f3-45e7-8196-8ef3ef0e716b",
       "EntityId": "HUION.TABLET.UNKKAMVASPRO16PREMIUM",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
