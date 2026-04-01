@@ -4,6 +4,7 @@
 	import {
 		type Step,
 		DEFAULT_COLUMNS,
+		DEFAULT_VIEW,
 		executePipeline,
 	} from '$lib/pipeline.js';
 	import FilterStep from '$lib/components/FilterStep.svelte';
@@ -14,7 +15,7 @@
 	import SavedViews from '$lib/components/SavedViews.svelte';
 
 	let allTablets: Tablet[] = $state([]);
-	let steps: Step[] = $state([]);
+	let steps: Step[] = $state(JSON.parse(JSON.stringify(DEFAULT_VIEW)));
 	let tick = $state(0);
 
 	let result = $derived.by(() => {

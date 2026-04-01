@@ -144,6 +144,19 @@ export const DEFAULT_COLUMNS = [
   "DisplayResolution", "PhysicalWeight", "ModelStatus",
 ];
 
+export const DEFAULT_VIEW: Step[] = [
+  {
+    kind: "select",
+    fields: [
+      "ModelBrand", "ModelName", "ModelType", "ModelLaunchYear", "Age", "ModelStatus",
+      "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions", "DigitizerDiagonal",
+      "DisplayResolution", "DisplayDiagonal",
+      "PhysicalWeight",
+    ],
+  },
+  { kind: "sort", field: "ModelBrand", direction: "asc" },
+];
+
 // --- Operators ---
 
 export function getOperatorsForField(fieldDef: FieldDef): { value: string; label: string }[] {

@@ -1,39 +1,39 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Step } from '$lib/pipeline.js';
+	import { DEFAULT_VIEW } from '$lib/pipeline.js';
 	import { type SavedView, loadViews, saveView, deleteView, renameView } from '$lib/views.js';
 
 	let { steps, onload }: { steps: Step[]; onload: (steps: Step[]) => void } = $props();
 
-	let views = $state<SavedView[]>([]);
-	let saveName = $state('');
-	let selectedName = $state('');
+	const BUILTIN_VIEWS: SavedView[] = [
+		{ name: 'Default', steps: DEFAULT_VIEW },
+	];
+
+	let userViews = $state<SavedView[]>([]);
+	let selectedName = $state('Default');
 	let renaming = $state(false);
 	let renameValue = $state('');
 
+	let allViews = $derived([...BUILTIN_VIEWS, ...userViews]);
+	let isBuiltin = $derived(BUILTIN_VIEWS.some((v) => v.name === selectedName));
+
 	onMount(() => {
-		views = loadViews();
+		userViews = loadViews();
 	});
 
 	function refreshViews() {
-		views = loadViews();
+		userViews = loadViews();
 	}
 
-	let selectedView = $derived(views.find((v) => v.name === selectedName) ?? null);
+	let selectedView = $derived(allViews.find((v) => v.name === selectedName) ?? null);
 
-	function handleSave() {
-		const name = saveName.trim();
-		if (!name) return;
-		saveView(name, steps);
-		saveName = '';
+	function handleCreate() {
+		const name = prompt('View name:');
+		if (!name || !name.trim()) return;
+		saveView(name.trim(), steps);
 		refreshViews();
-		selectedName = name;
-	}
-
-	function handleLoad() {
-		if (selectedView) {
-			onload(JSON.parse(JSON.stringify(selectedView.steps)));
-		}
+		selectedName = name.trim();
 	}
 
 	function handleDelete() {
@@ -71,15 +71,23 @@
 	<div class="views-row">
 		<select
 			bind:value={selectedName}
-			onchange={() => { renaming = false; }}
+			onchange={() => {
+				renaming = false;
+				if (selectedView) {
+					onload(JSON.parse(JSON.stringify(selectedView.steps)));
+				}
+			}}
 		>
-			<option value="">-- Saved Views --</option>
-			{#each views as view}
+			{#each BUILTIN_VIEWS as view}
 				<option value={view.name}>{view.name}</option>
 			{/each}
+			{#if userViews.length > 0}
+				<option disabled>──────────</option>
+				{#each userViews as view}
+					<option value={view.name}>{view.name}</option>
+				{/each}
+			{/if}
 		</select>
-
-		<button class="action-btn load" onclick={handleLoad} disabled={selectedView === null}>Load</button>
 
 		{#if renaming}
 			<input
@@ -94,19 +102,13 @@
 			<button class="action-btn" onclick={finishRename}>OK</button>
 			<button class="action-btn" onclick={cancelRename}>Cancel</button>
 		{:else}
-			<button class="action-btn" onclick={startRename} disabled={selectedView === null}>Rename</button>
-			<button class="action-btn delete" onclick={handleDelete} disabled={selectedView === null}>Delete</button>
+			<button class="action-btn" onclick={startRename} disabled={selectedView === null || isBuiltin}>Rename</button>
+			<button class="action-btn delete" onclick={handleDelete} disabled={selectedView === null || isBuiltin}>Delete</button>
 		{/if}
 
 		<span class="separator"></span>
 
-		<input
-			type="text"
-			placeholder="New view name..."
-			bind:value={saveName}
-			onkeydown={(e) => { if (e.key === 'Enter') handleSave(); }}
-		/>
-		<button class="action-btn save" onclick={handleSave} disabled={!saveName.trim()}>Save</button>
+		<button class="action-btn save" onclick={handleCreate}>Create View</button>
 	</div>
 </div>
 
