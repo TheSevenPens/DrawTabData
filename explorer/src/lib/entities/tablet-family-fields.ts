@@ -26,7 +26,7 @@ export const TABLET_FAMILY_DEFAULT_COLUMNS = [
 export const TABLET_FAMILY_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["FamilyId", "FamilyName"],
+    fields: ["EntityId", "FamilyId", "FamilyName"],
   },
   { kind: "sort", field: "FamilyId", direction: "asc" },
 ];
