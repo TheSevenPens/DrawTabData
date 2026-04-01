@@ -1,14 +1,7 @@
+import type { PenFamily } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
-export interface PenFamily {
-  EntityId: string;
-  Brand: string;
-  FamilyId: string;
-  FamilyName: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+export type { PenFamily } from "../drawtab-loader.js";
 
 export const PEN_FAMILY_FIELD_GROUPS = ["Pen Family"];
 

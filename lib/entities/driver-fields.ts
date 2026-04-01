@@ -1,20 +1,7 @@
+import type { Driver } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
-export interface Driver {
-  EntityId: string;
-  Brand: string;
-  DriverVersion: string;
-  DriverName: string;
-  DriverUID: string;
-  OSFamily: string;
-  ReleaseDate: string;
-  DriverURLWacom: string;
-  DriverURLArchiveDotOrg: string;
-  ReleaseNotesURL: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+export type { Driver } from "../drawtab-loader.js";
 
 export const DRIVER_FIELD_GROUPS = ["Driver", "Links"];
 

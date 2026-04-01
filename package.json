@@ -1,14 +1,40 @@
 {
   "name": "drawtabdata",
   "version": "1.0.0",
-  "description": "Drawing tablet unified dataset with typed loader and pipeline engine",
-  "scripts": {
-    "data-quality": "tsx lib/run-data-quality.ts"
+  "description": "Unified drawing tablet dataset with typed loaders, pipeline query engine, and entity field definitions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheSevenPens/DrawTabData.git"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "data-quality": "tsx lib/run-data-quality.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "drawing-tablet",
+    "wacom",
+    "huion",
+    "xppen",
+    "pen-tablet",
+    "pen-display"
+  ],
   "license": "ISC",
   "type": "module",
+  "exports": {
+    "./loader": "./lib/drawtab-loader.js",
+    "./loader-node": "./lib/drawtab-loader-node.js",
+    "./all": "./lib/drawtab-all.js",
+    "./all-node": "./lib/drawtab-all-node.js",
+    "./compat": "./lib/compat-helpers.js",
+    "./pipeline": "./lib/pipeline/index.js",
+    "./units": "./lib/units.js",
+    "./entities/tablet": "./lib/entities/tablet-fields.js",
+    "./entities/pen": "./lib/entities/pen-fields.js",
+    "./entities/driver": "./lib/entities/driver-fields.js",
+    "./entities/pen-family": "./lib/entities/pen-family-fields.js",
+    "./entities/tablet-family": "./lib/entities/tablet-family-fields.js",
+    "./entities/pen-compat": "./lib/entities/pen-compat-fields.js"
+  },
   "devDependencies": {
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",

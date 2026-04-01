@@ -1,14 +1,7 @@
+import type { TabletFamily } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
-export interface TabletFamily {
-  EntityId: string;
-  Brand: string;
-  FamilyId: string;
-  FamilyName: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+export type { TabletFamily } from "../drawtab-loader.js";
 
 export const TABLET_FAMILY_FIELD_GROUPS = ["Tablet Family"];
 

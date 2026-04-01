@@ -1,13 +1,7 @@
+import type { PenCompat } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
-export interface PenCompat {
-  Brand: string;
-  TabletId: string;
-  PenId: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+export type { PenCompat } from "../drawtab-loader.js";
 
 export const PEN_COMPAT_FIELD_GROUPS = ["Compatibility"];
 

@@ -1,4 +1,23 @@
-.claude/settings.local.json
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
 .svelte-kit/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Project
+.claude/settings.local.json
