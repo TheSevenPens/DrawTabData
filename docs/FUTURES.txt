@@ -17,9 +17,6 @@ Driver versions, OS support, release dates, linked to brands.
 Navigate between tablets, pens, nibs. e.g. click a tablet's included pen
 to see its specs, or see which tablets ship with a given pen.
 
-### DisplayColorGamuts complex field conversion
-Already done. Converted to nested objects with canonical uppercase gamut names.
-
 ### Aggregation in the pipeline (summarize step)
 KQL-style summarize: count, min, max, avg grouped by a field.
 e.g. count tablets by brand, average pressure levels by type.
