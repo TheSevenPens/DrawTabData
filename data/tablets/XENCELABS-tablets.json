@@ -9,7 +9,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
-      "ModelBrand": "XENCELABS",
       "ModelId": "BPH0812W-A",
       "ModelIncludedPen": "PH5-A",
       "ModelLaunchYear": "2021",
@@ -25,8 +24,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
-      "EntityId": "XENCELABS.BPH0812WA",
-      "DigitizerDensity": "200"
+      "EntityId": "XENCELABS.TABLET.BPH0812WA",
+      "DigitizerDensity": "200",
+      "Brand": "XENCELABS"
     },
     {
       "DigitizerDimensions": {
@@ -37,7 +37,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
-      "ModelBrand": "XENCELABS",
       "ModelId": "BPH1212W-A",
       "ModelIncludedPen": "PH5-A",
       "ModelLaunchYear": "2020",
@@ -53,8 +52,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
-      "EntityId": "XENCELABS.BPH1212WA",
-      "DigitizerDensity": "200"
+      "EntityId": "XENCELABS.TABLET.BPH1212WA",
+      "DigitizerDensity": "200",
+      "Brand": "XENCELABS"
     },
     {
       "DigitizerDimensions": {
@@ -77,7 +77,6 @@
         "Height": 2160
       },
       "ModelAudience": "Professional",
-      "ModelBrand": "XENCELABS",
       "ModelId": "LPH2412U-A",
       "ModelIncludedPen": "PH5-A",
       "ModelLaunchYear": "2023",
@@ -93,8 +92,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
-      "EntityId": "XENCELABS.LPH2412UA",
-      "DigitizerDensity": "200"
+      "EntityId": "XENCELABS.TABLET.LPH2412UA",
+      "DigitizerDensity": "200",
+      "Brand": "XENCELABS"
     }
   ]
 }

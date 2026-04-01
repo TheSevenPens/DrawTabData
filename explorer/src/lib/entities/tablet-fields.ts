@@ -6,7 +6,7 @@ export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"]
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.EntityId, type: "string", group: "Model" },
-  { key: "ModelBrand", label: "Brand", getValue: (t) => t.ModelBrand, type: "enum", enumValues: ["HUION", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
+  { key: "Brand", label: "Brand", getValue: (t) => t.Brand, type: "enum", enumValues: ["HUION", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Model" },
   { key: "ModelType", label: "Type", getValue: (t) => t.ModelType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY"], group: "Model" },
@@ -91,7 +91,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
 ];
 
 export const TABLET_DEFAULT_COLUMNS = [
-  "EntityId", "ModelBrand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
+  "EntityId", "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
   "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions",
   "DisplayResolution", "PhysicalWeight", "ModelStatus",
 ];
@@ -100,11 +100,11 @@ export const TABLET_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "ModelBrand", "ModelName", "ModelType", "ModelLaunchYear", "Age", "ModelStatus",
+      "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age", "ModelStatus",
       "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions", "DigitizerDiagonal",
       "DisplayResolution", "DisplayDiagonal",
       "PhysicalWeight",
     ],
   },
-  { kind: "sort", field: "ModelBrand", direction: "asc" },
+  { kind: "sort", field: "Brand", direction: "asc" },
 ];

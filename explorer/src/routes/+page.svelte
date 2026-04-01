@@ -31,10 +31,10 @@
 	function addStep(kind: Step['kind']) {
 		switch (kind) {
 			case 'filter':
-				steps.push({ kind: 'filter', field: 'ModelBrand', operator: '==', value: '' });
+				steps.push({ kind: 'filter', field: 'Brand', operator: '==', value: '' });
 				break;
 			case 'sort':
-				steps.push({ kind: 'sort', field: 'ModelBrand', direction: 'asc' });
+				steps.push({ kind: 'sort', field: 'Brand', direction: 'asc' });
 				break;
 			case 'select':
 				if (!steps.some((s) => s.kind === 'select')) {

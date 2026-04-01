@@ -15,12 +15,11 @@ They are not intended to be shown to end users.
 ## Model fields
 
 ### EntityId
-A user-facing unique identifier for the tablet, derived from the brand and model ID.
-Non-alphanumeric characters are stripped from ModelId and the result is uppercased.
-Format: "BRAND.MODELID" (e.g. "WACOM.PTK870", "HUION.GS1161")
+A user-facing unique identifier, including entity type.
+Format: "BRAND.ENTITYTYPE.ID" (e.g. "WACOM.TABLET.PTK870", "WACOM.DRIVER.6.3.45-2_WINDOWS")
 Required: yes
 
-### ModelBrand
+### Brand
 The manufacturer brand.
 Values: HUION, WACOM, XENCELABS, XPPEN
 Required: yes

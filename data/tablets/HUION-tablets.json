@@ -12,7 +12,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "G930L",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2022",
@@ -28,8 +27,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
-      "EntityId": "HUION.G930L",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.G930L",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -59,7 +59,6 @@
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS1161",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -75,8 +74,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0cb64320-e097-486a-8537-ea48d10076e3",
-      "EntityId": "HUION.GS1161",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS1161",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -107,7 +107,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS1331",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2020",
@@ -123,8 +122,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
-      "EntityId": "HUION.GS1331",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS1331",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerDimensions": {
@@ -149,7 +149,6 @@
       "DisplayViewingAngleHorizontal": "165",
       "DisplayViewingAngleVertical": "165",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS1333",
       "ModelIncludedPen": "PW600L",
       "ModelLaunchYear": "2024",
@@ -164,8 +163,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
-      "EntityId": "HUION.GS1333",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS1333",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -196,7 +196,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS1562",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -212,8 +211,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
-      "EntityId": "HUION.GS1562",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS1562",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -243,7 +243,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS1563",
       "ModelIncludedPen": "PW600L",
       "ModelLaunchYear": "2025",
@@ -260,8 +259,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
-      "EntityId": "HUION.GS1563",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS1563",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -292,7 +292,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS2201",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2020",
@@ -309,8 +308,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "737d63f7-a797-4ce2-b813-14c00d2be899",
-      "EntityId": "HUION.GS2201",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS2201",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -341,7 +341,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS2202",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2020",
@@ -358,8 +357,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
-      "EntityId": "HUION.GS2202",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS2202",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -386,7 +386,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS2401",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -398,8 +397,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e0166391-4204-4fbf-8a33-932c643dc733",
-      "EntityId": "HUION.GS2401",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS2401",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -431,7 +431,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GS2402",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -448,8 +447,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "37a6dd3c-5e82-44c9-9cef-c08aee9dcbfb",
-      "EntityId": "HUION.GS2402",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GS2402",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -481,7 +481,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT-156 V2",
       "ModelIncludedPen": "PW600A",
       "ModelLaunchYear": "2025",
@@ -497,8 +496,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
-      "EntityId": "HUION.GT156V2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT156V2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -529,7 +529,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GT-156HDV2",
       "ModelIncludedPen": "PE330",
       "ModelLaunchYear": "2017",
@@ -546,8 +545,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "08e4e2c1-5332-4979-a105-a0b79986cc1e",
-      "EntityId": "HUION.GT156HDV2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT156HDV2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerDimensions": {
@@ -568,7 +568,6 @@
       "DisplayResponseTime": "5",
       "DisplayViewingAngleHorizontal": "160",
       "DisplayViewingAngleVertical": "120",
-      "ModelBrand": "HUION",
       "ModelId": "GT-190",
       "ModelIncludedPen": "PEN68D",
       "ModelLaunchYear": "2015",
@@ -585,8 +584,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "056de896-c23f-4c31-b057-8fa49fe759ba",
-      "EntityId": "HUION.GT190",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT190",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -621,7 +621,6 @@
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT-1902",
       "ModelIncludedPen": "PW600,PW600S",
       "ModelLaunchYear": "2024",
@@ -638,8 +637,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:53:46.334Z",
       "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
-      "EntityId": "HUION.GT1902",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT1902",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -668,7 +668,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GT-220V2",
       "ModelIncludedPen": "PE330",
       "ModelLaunchYear": "2016",
@@ -686,8 +685,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "4d2be310-8277-45c6-bdc8-0065fb41a689",
-      "EntityId": "HUION.GT220V2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT220V2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -721,7 +721,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT-2701",
       "ModelIncludedPen": "PW600",
       "ModelLaunchYear": "2024",
@@ -738,8 +737,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "28db076b-a8af-4681-abef-9b3018b0df04",
-      "EntityId": "HUION.GT2701",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT2701",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -770,7 +770,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT116",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2018",
@@ -787,8 +786,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "8dae172b-105b-47a5-82a6-5c3c2e377935",
-      "EntityId": "HUION.GT116",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT116",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -820,7 +820,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT1302",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2022",
@@ -836,8 +835,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c228176c-d5f1-485d-982e-79a114ead86a",
-      "EntityId": "HUION.GT1302",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT1302",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -868,7 +868,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT133",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2018",
@@ -885,8 +884,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "202d284e-921c-424d-aeaa-1a491c49d2a0",
-      "EntityId": "HUION.GT133",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT133",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -917,7 +917,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT1561",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -933,8 +932,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "ffe844ea-86e7-42d7-8904-f62294276f6e",
-      "EntityId": "HUION.GT1561",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT1561",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -965,7 +965,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT1562",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -981,8 +980,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
-      "EntityId": "HUION.GT1562",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT1562",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1014,7 +1014,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT1602",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2022",
@@ -1030,8 +1029,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a7a353cc-052c-4be6-abae-d4370d67d1fe",
-      "EntityId": "HUION.GT1602",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT1602",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1061,7 +1061,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT1901",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2019",
@@ -1079,8 +1078,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d4ef79e8-754b-4b99-8af4-336a81e6b211",
-      "EntityId": "HUION.GT1901",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT1901",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1110,7 +1110,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GT191",
       "ModelIncludedPen": "PE330",
       "ModelLaunchYear": "2017",
@@ -1128,8 +1127,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "478ce434-6f08-43d8-865e-c76ec9777e4f",
-      "EntityId": "HUION.GT191",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT191",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1159,7 +1159,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "GT191V2",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2018",
@@ -1176,8 +1175,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "53363949-0e82-4c88-b231-e1e77cd95c89",
-      "EntityId": "HUION.GT191V2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT191V2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1206,7 +1206,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT2201",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2019",
@@ -1224,8 +1223,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7b6cdaf8-ddf9-4815-8589-92c60403a717",
-      "EntityId": "HUION.GT2201",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT2201",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1255,7 +1255,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT221",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2019",
@@ -1272,8 +1271,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6e0f82e2-69a7-476b-813c-fc67eb22f38c",
-      "EntityId": "HUION.GT221",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT221",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1304,7 +1304,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT240",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -1321,8 +1320,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
-      "EntityId": "HUION.GT240",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT240",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1353,7 +1353,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT2401",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -1370,8 +1369,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
-      "EntityId": "HUION.GT2401",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT2401",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1404,7 +1404,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelFamily": "GEN3",
       "ModelId": "GT2402",
       "ModelIncludedPen": "PW600,PW600S",
@@ -1423,8 +1422,9 @@
       "_CreateDate": "2025-12-13T16:20:23.250Z",
       "_ModifiedDate": "2025-12-13T16:25:47.159Z",
       "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
-      "EntityId": "HUION.GT2402",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT2402",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1457,7 +1457,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "GT2702",
       "ModelIncludedPen": "PW600,PW600S",
       "ModelLaunchYear": "2025",
@@ -1475,8 +1474,9 @@
       "_CreateDate": "2025-12-13T16:26:14.354Z",
       "_ModifiedDate": "2025-12-13T16:30:35.521Z",
       "_id": "83578dc4-b766-4ca8-85b7-04f16b68caa6",
-      "EntityId": "HUION.GT2702",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.GT2702",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1489,7 +1489,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H1060P",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2015",
@@ -1506,8 +1505,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7eee1b16-3b9d-4a8b-ad10-95d083fd652e",
-      "EntityId": "HUION.H1060P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H1060P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1521,7 +1521,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "H1061P",
       "ModelIncludedPen": "PW110",
       "ModelLaunchYear": "2023",
@@ -1537,8 +1536,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "44cb8880-a0d6-40d6-9d85-79ec87203849",
-      "EntityId": "HUION.H1061P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H1061P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1551,7 +1551,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H1161",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2019",
@@ -1567,8 +1566,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "dd399ee1-ce80-4f6c-867f-7ef47f8f624f",
-      "EntityId": "HUION.H1161",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H1161",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1581,7 +1581,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H320M",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2019",
@@ -1597,8 +1596,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "72568bb0-376a-4a39-a909-b95c1ae4af83",
-      "EntityId": "HUION.H320M",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H320M",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1611,7 +1611,6 @@
       "DigitizerReportRate": "200",
       "DigitizerType": "ACTIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "H420",
       "ModelIncludedPen": "PEN68",
       "ModelLaunchYear": "2016",
@@ -1628,8 +1627,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a6c1a9a1-8338-4004-9c2a-da4e3d3fce8e",
-      "EntityId": "HUION.H420",
-      "DigitizerDensity": "157.4"
+      "EntityId": "HUION.TABLET.H420",
+      "DigitizerDensity": "157.4",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1641,7 +1641,6 @@
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H420X",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2021",
@@ -1657,8 +1656,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "480407c4-377a-432c-aa89-fdb3139c66d6",
-      "EntityId": "HUION.H420X",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H420X",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1671,7 +1671,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H430P",
       "ModelIncludedPen": "PW201",
       "ModelLaunchYear": "2017",
@@ -1688,8 +1687,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "61aef1d3-4824-4c09-8c87-f4e958b98e67",
-      "EntityId": "HUION.H430P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H430P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1702,7 +1702,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H610",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2017",
@@ -1719,8 +1718,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "959ca285-e3e4-4791-a35e-781a9ee000ae",
-      "EntityId": "HUION.H610",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H610",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1733,7 +1733,6 @@
       "DigitizerReportRate": "266",
       "DigitizerTilt": "0",
       "DigitizerType": "ACTIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H610PRO",
       "ModelIncludedPen": "PEN80",
       "ModelLaunchYear": "2016",
@@ -1750,8 +1749,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "9679f7c4-6bb5-4be6-936c-3798700f0f0b",
-      "EntityId": "HUION.H610PRO",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H610PRO",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1764,7 +1764,6 @@
       "DigitizerReportRate": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H610PRO V2",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2018",
@@ -1780,8 +1779,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6cf4f9bd-488f-48d3-a551-37c38a5ec77f",
-      "EntityId": "HUION.H610PROV2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H610PROV2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1794,7 +1794,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H610X",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2021",
@@ -1810,8 +1809,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "79529177-2e4c-49d9-a014-30a73569f047",
-      "EntityId": "HUION.H610X",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H610X",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1824,7 +1824,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H640P",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2017",
@@ -1841,8 +1840,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3079d659-46c5-4e8f-a0f0-b47fe608246b",
-      "EntityId": "HUION.H640P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H640P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1856,7 +1856,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "H641P",
       "ModelIncludedPen": "PW110",
       "ModelLaunchYear": "2023",
@@ -1872,8 +1871,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fdd476e6-e631-4605-988c-166803a1df5e",
-      "EntityId": "HUION.H641P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H641P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1885,7 +1885,6 @@
       "DigitizerPressureLevels": "8192",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "H950P",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2018",
@@ -1901,8 +1900,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "356a2e97-a2f1-46bc-8562-c917c5d00f75",
-      "EntityId": "HUION.H950P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H950P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1916,7 +1916,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "H951P",
       "ModelIncludedPen": "PW110",
       "ModelLaunchYear": "2023",
@@ -1932,8 +1931,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "76feb9b1-d4f4-40ae-8add-a023946db39a",
-      "EntityId": "HUION.H951P",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.H951P",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1946,7 +1946,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "HS610",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2019",
@@ -1962,8 +1961,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "198f8590-7929-441e-bc0c-312cb32f06f9",
-      "EntityId": "HUION.HS610",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.HS610",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1976,7 +1976,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "HS611",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2019",
@@ -1992,8 +1991,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
-      "EntityId": "HUION.HS611",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.HS611",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2006,7 +2006,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "HS64",
       "ModelIncludedPen": "PW100",
       "ModelLaunchYear": "2019",
@@ -2022,8 +2021,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "416c2abb-94fd-4564-87c1-c93e6fba1877",
-      "EntityId": "HUION.HS64",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.HS64",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerDimensions": {
@@ -2036,7 +2036,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "L310",
       "ModelIncludedPen": "PW550S",
       "ModelLaunchYear": "2024",
@@ -2051,8 +2050,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "eca5c731-2985-42cb-8c3b-b5dc047788a4",
-      "EntityId": "HUION.L310",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.L310",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerDimensions": {
@@ -2065,7 +2065,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "L610",
       "ModelIncludedPen": "PW550S",
       "ModelLaunchYear": "2024",
@@ -2080,8 +2079,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0d85fd3d-7029-43c7-bd1e-3b6f0f1110d6",
-      "EntityId": "HUION.L610",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.L610",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2094,7 +2094,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "0",
       "DigitizerType": "ACTIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "NEW 1060 PLUS",
       "ModelIncludedPen": "PEN80",
       "ModelLaunchYear": "2020",
@@ -2110,8 +2109,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e1784c20-a81a-49ed-8f1a-d80c506b8100",
-      "EntityId": "HUION.NEW1060PLUS",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.NEW1060PLUS",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2124,7 +2124,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "0",
       "DigitizerType": "ACTIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "Q11K",
       "ModelIncludedPen": "PF150",
       "ModelLaunchYear": "2017",
@@ -2141,8 +2140,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "918b88cd-b6f1-4da3-a962-55bfb04d7463",
-      "EntityId": "HUION.Q11K",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.Q11K",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2155,7 +2155,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "80",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "Q11KV2",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2020",
@@ -2171,8 +2170,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "46cf628f-1a5d-420e-864e-3c8bb3076aee",
-      "EntityId": "HUION.Q11KV2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.Q11KV2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2185,7 +2185,6 @@
       "DigitizerReportRate": "233",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "Q620M",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2019",
@@ -2201,8 +2200,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c9520e0b-5457-4474-8b10-109c08c153c6",
-      "EntityId": "HUION.Q620M",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.Q620M",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2216,7 +2216,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "Q630M",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2022",
@@ -2232,8 +2231,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d238bade-9633-4b9f-a4ad-dc9f8472808f",
-      "EntityId": "HUION.Q630M",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.Q630M",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2264,7 +2264,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "RDS-160",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2021",
@@ -2281,8 +2280,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "5ef9fa8b-f4f0-4bfb-a1dd-2032a570178d",
-      "EntityId": "HUION.RDS160",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.RDS160",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2313,7 +2313,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "RDS-220",
       "ModelIncludedPen": "PW517",
       "ModelLaunchYear": "2022",
@@ -2329,8 +2328,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "84631815-e88d-4c66-a75e-385e077ce38a",
-      "EntityId": "HUION.RDS220",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.RDS220",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2344,7 +2344,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "RTM500",
       "ModelIncludedPen": "PW400",
       "ModelLaunchYear": "2022",
@@ -2360,8 +2359,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "86333a6a-0a5d-43ef-bd01-72b719b09dae",
-      "EntityId": "HUION.RTM500",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.RTM500",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2375,7 +2375,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "RTP700",
       "ModelIncludedPen": "PW400",
       "ModelLaunchYear": "2022",
@@ -2391,8 +2390,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
-      "EntityId": "HUION.RTP700",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.RTP700",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2406,7 +2406,6 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "RTS300",
       "ModelIncludedPen": "PW400",
       "ModelLaunchYear": "2022",
@@ -2422,8 +2421,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
-      "EntityId": "HUION.RTS300",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.RTS300",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2454,7 +2454,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "UNK Kamvas 16 (2019)",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2019",
@@ -2471,8 +2470,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "57514e2a-d827-4282-b13f-961d77c63ce7",
-      "EntityId": "HUION.UNKKAMVAS162019",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.UNKKAMVAS162019",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2501,7 +2501,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
-      "ModelBrand": "HUION",
       "ModelId": "UNK Kamvas 20 (2019)",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2019",
@@ -2518,8 +2517,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3ead65af-c913-4243-8b60-dc83e13ed3d2",
-      "EntityId": "HUION.UNKKAMVAS202019",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.UNKKAMVAS202019",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2550,7 +2550,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "UNK Kamvas Pro 16 (2019)",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2019",
@@ -2567,8 +2566,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2633b9d4-991f-4d72-b170-85a7b9fb4ebf",
-      "EntityId": "HUION.UNKKAMVASPRO162019",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.UNKKAMVASPRO162019",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2599,7 +2599,6 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
-      "ModelBrand": "HUION",
       "ModelId": "UNK Kamvas Pro 16 Premium",
       "ModelIncludedPen": "PW507",
       "ModelLaunchYear": "2020",
@@ -2615,8 +2614,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "397197ea-56f3-45e7-8196-8ef3ef0e716b",
-      "EntityId": "HUION.UNKKAMVASPRO16PREMIUM",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.UNKKAMVASPRO16PREMIUM",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2629,7 +2629,6 @@
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "WH1409 V2",
       "ModelIncludedPen": "PW500",
       "ModelLaunchYear": "2018",
@@ -2646,8 +2645,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "92357328-ae20-40a4-b570-af719320c879",
-      "EntityId": "HUION.WH1409V2",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.WH1409V2",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2659,7 +2659,6 @@
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
       "DigitizerType": "ACTIVE_EMR",
-      "ModelBrand": "HUION",
       "ModelId": "WH1409(8192)",
       "ModelIncludedPen": "PE150",
       "ModelLaunchYear": "2016",
@@ -2676,8 +2675,9 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "18bc12f9-b379-4747-955b-611af15a992a",
-      "EntityId": "HUION.WH14098192",
-      "DigitizerDensity": "200"
+      "EntityId": "HUION.TABLET.WH14098192",
+      "DigitizerDensity": "200",
+      "Brand": "HUION"
     }
   ]
 }

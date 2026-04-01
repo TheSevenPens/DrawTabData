@@ -17,7 +17,7 @@ export interface ColorGamuts {
 
 export interface Tablet {
   EntityId: string;
-  ModelBrand: string;
+  Brand: string;
   ModelId: string;
   ModelName: string;
   ModelType: "PENTABLET" | "PENDISPLAY";
@@ -94,11 +94,11 @@ export async function loadTablets(dataBaseUrl: string): Promise<Tablet[]> {
 // --- Accessors ---
 
 export function getBrands(tablets: Tablet[]): string[] {
-  return [...new Set(tablets.map((t) => t.ModelBrand))].sort();
+  return [...new Set(tablets.map((t) => t.Brand))].sort();
 }
 
 export function filterByBrand(tablets: Tablet[], brand: string): Tablet[] {
-  return tablets.filter((t) => t.ModelBrand === brand);
+  return tablets.filter((t) => t.Brand === brand);
 }
 
 export function filterByType(tablets: Tablet[], type: Tablet["ModelType"]): Tablet[] {

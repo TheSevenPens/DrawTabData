@@ -44,7 +44,7 @@ function getEntityId(tablet: Tablet): string {
 
 const REQUIRED_FIELDS = [
   "EntityId",
-  "ModelBrand",
+  "Brand",
   "ModelId",
   "ModelName",
   "ModelType",
@@ -55,7 +55,7 @@ const REQUIRED_FIELDS = [
 ];
 
 const ENUM_FIELDS: Record<string, string[]> = {
-  ModelBrand: ["HUION", "WACOM", "XENCELABS", "XPPEN"],
+  Brand: ["HUION", "WACOM", "XENCELABS", "XPPEN"],
   ModelType: ["PENTABLET", "PENDISPLAY"],
   ModelAudience: ["Consumer", "Enthusiast", "Professional"],
   ModelStatus: ["ACTIVE", "AVAILABLE", "DISCONTINUED"],
@@ -110,7 +110,7 @@ const DISPLAY_ONLY_FIELDS = [
 
 const ALL_KNOWN_FIELDS = [
   "EntityId",
-  "ModelBrand",
+  "Brand",
   "ModelId",
   "ModelName",
   "ModelType",
@@ -291,13 +291,13 @@ function checkColorGamuts(tablet: Tablet, file: string): Issue[] {
 function checkEntityId(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
   const eid = getEntityId(tablet);
-  const brand = getString(tablet, "ModelBrand");
+  const brand = getString(tablet, "Brand");
   const modelId = getString(tablet, "ModelId");
   const entityId = getString(tablet, "EntityId");
   if (brand && modelId) {
     const expected =
       brand.toUpperCase() +
-      "." +
+      ".TABLET." +
       modelId.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
     if (entityId !== expected) {
       issues.push({
