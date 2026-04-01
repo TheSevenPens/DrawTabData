@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { unitPreference, toggleUnits } from '$lib/unit-store.js';
 
 	const links = [
 		{ href: '/', label: 'Tablets' },
@@ -12,16 +13,29 @@
 </script>
 
 <nav>
-	{#each links as link}
-		<a href={link.href} class:active={page.url.pathname === link.href}>{link.label}</a>
-	{/each}
+	<div class="nav-links">
+		{#each links as link}
+			<a href={link.href} class:active={page.url.pathname === link.href}>{link.label}</a>
+		{/each}
+	</div>
+	<button class="unit-toggle" onclick={toggleUnits}>
+		{$unitPreference === 'metric' ? 'Metric' : 'Imperial'}
+	</button>
 </nav>
 
 <style>
 	nav {
 		display: flex;
-		gap: 4px;
+		align-items: center;
+		justify-content: space-between;
 		margin-bottom: 16px;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
+
+	.nav-links {
+		display: flex;
+		gap: 4px;
 		flex-wrap: wrap;
 	}
 
@@ -44,5 +58,21 @@
 		background: #2563eb;
 		color: #fff;
 		border-color: #2563eb;
+	}
+
+	.unit-toggle {
+		padding: 5px 12px;
+		font-size: 13px;
+		border: 1px solid #16a34a;
+		border-radius: 4px;
+		background: #fff;
+		color: #16a34a;
+		cursor: pointer;
+		font-weight: 600;
+	}
+
+	.unit-toggle:hover {
+		background: #16a34a;
+		color: #fff;
 	}
 </style>

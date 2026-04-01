@@ -25,20 +25,20 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Digitizer
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.DigitizerType ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
   { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.DigitizerPressureLevels ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerReportRate", label: "Report Rate", getValue: (t) => t.DigitizerReportRate ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerDensity", label: "Density", getValue: (t) => t.DigitizerDensity ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerTilt", label: "Tilt", getValue: (t) => t.DigitizerTilt ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerAccuracyCenter", label: "Accuracy (Center)", getValue: (t) => t.DigitizerAccuracyCenter ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerAccuracyCorner", label: "Accuracy (Corner)", getValue: (t) => t.DigitizerAccuracyCorner ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerMaxHover", label: "Max Hover", getValue: (t) => t.DigitizerMaxHover ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerReportRate", label: "Report Rate (Hz)", getValue: (t) => t.DigitizerReportRate ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerDensity", label: "Density (LPmm)", getValue: (t) => t.DigitizerDensity ?? "", type: "number", group: "Digitizer", unit: "LPmm" },
+  { key: "DigitizerTilt", label: "Tilt (degrees)", getValue: (t) => t.DigitizerTilt ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerAccuracyCenter", label: "Accuracy Center (mm)", getValue: (t) => t.DigitizerAccuracyCenter ?? "", type: "number", group: "Digitizer", unit: "mm" },
+  { key: "DigitizerAccuracyCorner", label: "Accuracy Corner (mm)", getValue: (t) => t.DigitizerAccuracyCorner ?? "", type: "number", group: "Digitizer", unit: "mm" },
+  { key: "DigitizerMaxHover", label: "Max Hover (mm)", getValue: (t) => t.DigitizerMaxHover ?? "", type: "number", group: "Digitizer", unit: "mm" },
   { key: "DigitizerSupportsTouch", label: "Touch", getValue: (t) => t.DigitizerSupportsTouch ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Digitizer" },
   {
-    key: "DigitizerDimensions", label: "Dimensions", group: "Digitizer",
+    key: "DigitizerDimensions", label: "Dimensions (mm)", group: "Digitizer", unit: "mm",
     getValue: (t) => { const d = t.DigitizerDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
   {
-    key: "DigitizerDiagonal", label: "Diagonal (mm)", group: "Digitizer", computed: true, type: "number",
+    key: "DigitizerDiagonal", label: "Diagonal (mm)", group: "Digitizer", computed: true, type: "number", unit: "mm",
     getValue: (t) => {
       const d = t.DigitizerDimensions;
       if (!d || d.Width == null || d.Height == null) return "";
@@ -47,20 +47,20 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   },
   // Display
   { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => t.DisplayPanelTech ?? "", type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"], group: "Display" },
-  { key: "DisplayBrightness", label: "Brightness", getValue: (t) => t.DisplayBrightness ?? "", type: "number", group: "Display" },
+  { key: "DisplayBrightness", label: "Brightness (cd/m²)", getValue: (t) => t.DisplayBrightness ?? "", type: "number", group: "Display" },
   { key: "DisplayContrast", label: "Contrast", getValue: (t) => t.DisplayContrast ?? "", type: "number", group: "Display" },
   { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => t.DisplayColorBitDepth ?? "", type: "number", group: "Display" },
   { key: "DisplayLamination", label: "Lamination", getValue: (t) => t.DisplayLamination ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Display" },
   { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => t.DisplayAntiGlare ?? "", type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"], group: "Display" },
-  { key: "DisplayResponseTime", label: "Response Time", getValue: (t) => t.DisplayResponseTime ?? "", type: "number", group: "Display" },
-  { key: "DisplayRefreshRate", label: "Refresh Rate", getValue: (t) => t.DisplayRefreshRate ?? "", type: "number", group: "Display" },
+  { key: "DisplayResponseTime", label: "Response Time (ms)", getValue: (t) => t.DisplayResponseTime ?? "", type: "number", group: "Display" },
+  { key: "DisplayRefreshRate", label: "Refresh Rate (Hz)", getValue: (t) => t.DisplayRefreshRate ?? "", type: "number", group: "Display" },
   {
     key: "DisplayResolution", label: "Display Resolution", group: "Display",
     getValue: (t) => { const d = t.DisplayResolution; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
   {
-    key: "DisplayDiagonal", label: "Diagonal (mm)", group: "Display", computed: true, type: "number",
+    key: "DisplayDiagonal", label: "Diagonal (mm)", group: "Display", computed: true, type: "number", unit: "mm",
     getValue: (t) => {
       const res = t.DisplayResolution;
       const dim = t.DigitizerDimensions;
@@ -69,7 +69,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
   },
   {
-    key: "DisplayDensity", label: "Density (px/mm)", group: "Display", computed: true, type: "number",
+    key: "DisplayDensity", label: "Density (px/mm)", group: "Display", computed: true, type: "number", unit: "px/mm",
     getValue: (t) => {
       const res = t.DisplayResolution;
       const dim = t.DigitizerDimensions;
@@ -78,9 +78,9 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
   },
   // Physical
-  { key: "PhysicalWeight", label: "Weight (g)", getValue: (t) => t.PhysicalWeight ?? "", type: "number", group: "Physical" },
+  { key: "PhysicalWeight", label: "Weight (g)", getValue: (t) => t.PhysicalWeight ?? "", type: "number", group: "Physical", unit: "g" },
   {
-    key: "PhysicalDimensions", label: "Physical Dimensions", group: "Physical",
+    key: "PhysicalDimensions", label: "Dimensions (mm)", group: "Physical", unit: "mm",
     getValue: (t) => {
       const d = t.PhysicalDimensions;
       if (!d) return "";

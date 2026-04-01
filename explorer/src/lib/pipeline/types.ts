@@ -37,4 +37,5 @@ export interface FieldDef<T> {
   enumValues?: string[];
   computed?: boolean;
   group: string;
+  unit?: string;
 }

@@ -1,5 +1,7 @@
 <script lang="ts">
 	import type { FieldDef } from '$lib/pipeline/index.js';
+	import { unitPreference } from '$lib/unit-store.js';
+	import { formatValue, getFieldLabel } from '$lib/units.js';
 
 	let { item, fields, fieldGroups, backHref, backLabel }: {
 		item: Record<string, any> | null;
@@ -28,14 +30,15 @@
 				<dl>
 					{#each groupFields as f}
 						{@const val = f.getValue(item)}
+						{@const displayVal = formatValue(val, f.unit, $unitPreference)}
 						{#if val}
 							<div class="field-row">
-								<dt>{f.label}</dt>
+								<dt>{getFieldLabel(f.label, f.unit, $unitPreference)}</dt>
 								<dd>
 									{#if isUrl(val)}
 										<a href={val} target="_blank" rel="noopener">{val}</a>
 									{:else}
-										{val}
+										{displayVal}
 									{/if}
 									{#if f.computed}
 										<span class="computed-badge">computed</span>
