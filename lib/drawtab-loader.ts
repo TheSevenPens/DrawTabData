@@ -133,7 +133,7 @@ export interface PenCompat {
 
 // --- Generic loader ---
 
-const BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
+const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 
 export async function loadBrandPartitionedDataFromURL<T>(
   dataBaseUrl: string,

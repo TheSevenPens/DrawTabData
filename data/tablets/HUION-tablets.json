@@ -2678,6 +2678,17 @@
       "EntityId": "HUION.TABLET.WH14098192",
       "DigitizerDensity": "200",
       "Brand": "HUION"
+    },
+    {
+      "EntityId": "HUION.TABLET.GS2203",
+      "Brand": "HUION",
+      "ModelId": "GS2203",
+      "ModelName": "Kamvas 22 GEN3",
+      "ModelType": "PENDISPLAY",
+      "ModelLaunchYear": "",
+      "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
+      "_CreateDate": "2026-04-01T21:44:35.000Z",
+      "_ModifiedDate": "2026-04-01T21:44:35.000Z"
     }
   ]
 }

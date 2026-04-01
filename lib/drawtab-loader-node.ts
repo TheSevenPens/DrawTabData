@@ -4,7 +4,7 @@ import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat } from "./
 
 // --- Generic loader ---
 
-const BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
+const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 
 export function loadBrandPartitionedDataFromDisk<T>(
   dataDir: string,

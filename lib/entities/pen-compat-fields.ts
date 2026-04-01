@@ -6,7 +6,7 @@ export type { PenCompat } from "../drawtab-loader.js";
 export const PEN_COMPAT_FIELD_GROUPS = ["Compatibility"];
 
 export const PEN_COMPAT_FIELDS: FieldDef<PenCompat>[] = [
-  { key: "Brand", label: "Brand", getValue: (c) => c.Brand, type: "enum", enumValues: ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"], group: "Compatibility" },
+  { key: "Brand", label: "Brand", getValue: (c) => c.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Compatibility" },
   { key: "TabletId", label: "Tablet", getValue: (c) => c.TabletId, type: "string", group: "Compatibility" },
   { key: "PenId", label: "Pen", getValue: (c) => c.PenId, type: "string", group: "Compatibility" },
 ];
