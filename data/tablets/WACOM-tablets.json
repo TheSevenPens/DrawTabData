@@ -482,7 +482,9 @@
       "DisplayAntiGlare": "AGFILM",
       "DisplayBrightness": "200",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:72%",
+      "DisplayColorGamuts": {
+        "NTSC": 72
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "AHVA",
       "DisplayResolution": {
@@ -524,7 +526,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "285",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "SRGB:98%",
+      "DisplayColorGamuts": {
+        "SRGB": 98
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayResolution": {
@@ -565,7 +569,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:87%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 87
+      },
       "DisplayContrast": "930",
       "DisplayResolution": {
         "Width": 1920,
@@ -631,7 +637,10 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "350",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "DCI-P3:100%, AdobeRGB:95%",
+      "DisplayColorGamuts": {
+        "DCIP3": 100,
+        "ADOBERGB": 95
+      },
       "DisplayContrast": "100000",
       "DisplayPanelTech": "OLED",
       "DisplayRefreshRate": "60",
@@ -716,7 +725,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "300",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:95%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 95
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
@@ -805,7 +816,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "235",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "AdobeRGB:99%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 99
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
@@ -848,7 +861,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "350",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "SRGB:100%",
+      "DisplayColorGamuts": {
+        "SRGB": 100
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
@@ -892,7 +907,10 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "400",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "DCI-P3:98%, AdobeRGB:99%",
+      "DisplayColorGamuts": {
+        "DCIP3": 98,
+        "ADOBERGB": 99
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
@@ -934,7 +952,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "310",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "AdobeRGB:98%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 98
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
@@ -977,7 +997,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:75%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 75
+      },
       "DisplayContrast": "700",
       "DisplayResolution": {
         "Width": 1920,
@@ -1015,7 +1037,10 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:72%, SRGB:96%",
+      "DisplayColorGamuts": {
+        "NTSC": 72,
+        "SRGB": 96
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayResolution": {
@@ -1056,7 +1081,10 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "290",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "SRGB:100%, DCIP3:99%",
+      "DisplayColorGamuts": {
+        "SRGB": 100,
+        "DCIP3": 99
+      },
       "DisplayContrast": "1400",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
@@ -1116,7 +1144,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:72%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 72
+      },
       "DisplayContrast": "900",
       "DisplayPanelTech": "H-IPS",
       "DisplayResolution": {
@@ -1155,7 +1185,10 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:72%, SRGB:96%",
+      "DisplayColorGamuts": {
+        "NTSC": 72,
+        "SRGB": 96
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
@@ -1194,7 +1227,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "190",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:92%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 92
+      },
       "DisplayContrast": "550",
       "DisplayResolution": {
         "Width": 1920,
@@ -1226,7 +1261,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "235",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "AdobeRGB:99%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 99
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
@@ -1268,7 +1305,9 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "350",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "SRGB:100%",
+      "DisplayColorGamuts": {
+        "SRGB": 100
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
@@ -1309,7 +1348,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "330",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "AdobeRGB:97%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 97
+      },
       "DisplayContrast": "970",
       "DisplayPanelTech": "AHVA",
       "DisplayResolution": {

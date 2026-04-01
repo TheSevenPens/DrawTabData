@@ -9,8 +9,12 @@ interface DimensionValue {
   Depth?: number;
 }
 
+interface GamutValue {
+  [gamut: string]: number;
+}
+
 interface Tablet {
-  [key: string]: string | DimensionValue | undefined;
+  [key: string]: string | DimensionValue | GamutValue | undefined;
 }
 
 interface TabletFile {
@@ -86,6 +90,8 @@ const COMPLEX_FIELDS: Record<string, string[]> = {
   DisplayResolution: ["Width", "Height"],
   PhysicalDimensions: ["Width", "Height", "Depth"],
 };
+
+const VALID_GAMUT_NAMES = ["SRGB", "ADOBERGB", "DCIP3", "DISPLAYP3", "NTSC", "REC709"];
 
 const DISPLAY_ONLY_FIELDS = [
   "DisplayAntiGlare",
@@ -244,6 +250,44 @@ function checkComplexFields(tablet: Tablet, file: string): Issue[] {
   return issues;
 }
 
+function checkColorGamuts(tablet: Tablet, file: string): Issue[] {
+  const issues: Issue[] = [];
+  const eid = getEntityId(tablet);
+  const value = tablet["DisplayColorGamuts"];
+  if (value === undefined) return issues;
+  if (typeof value !== "object" || value === null) {
+    issues.push({
+      file,
+      entityId: eid,
+      field: "DisplayColorGamuts",
+      issue: "expected an object",
+      value: JSON.stringify(value),
+    });
+    return issues;
+  }
+  const obj = value as Record<string, unknown>;
+  for (const [key, v] of Object.entries(obj)) {
+    if (!VALID_GAMUT_NAMES.includes(key)) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "DisplayColorGamuts",
+        issue: `unknown gamut name "${key}", expected one of: ${VALID_GAMUT_NAMES.join(", ")}`,
+      });
+    }
+    if (typeof v !== "number" || isNaN(v)) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "DisplayColorGamuts",
+        issue: `value for "${key}" should be a number`,
+        value: JSON.stringify(v),
+      });
+    }
+  }
+  return issues;
+}
+
 function checkEntityId(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
   const eid = getEntityId(tablet);
@@ -368,6 +412,7 @@ export function runDataQuality(dataDir: string): Issue[] {
         ...checkEnums(tablet, file),
         ...checkNumeric(tablet, file),
         ...checkComplexFields(tablet, file),
+        ...checkColorGamuts(tablet, file),
         ...checkEntityId(tablet, file),
         ...checkDisplayFieldsOnPenTablet(tablet, file),
         ...checkUnknownFields(tablet, file),

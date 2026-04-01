@@ -20,12 +20,40 @@ typed objects, so the added JSON complexity is not exposed directly.
 - DigitizerDimensions -> { "Width": number, "Height": number }
 - DisplayResolution   -> { "Width": number, "Height": number }
 
-### Deferred
-- DisplayColorGamuts has a different multi-part structure (gamut:coverage pairs)
-  and will be handled separately in a future change.
-
 ### Key details
 - Property names use long form: Width, Height, Depth (not W, H, D)
 - Values are numbers, not strings
 - Missing components are omitted from the object (e.g. if Depth is unknown,
   the key is simply absent)
+
+
+## 2026-04-01: DisplayColorGamuts as a complex field with normalized gamut names
+
+### Context
+DisplayColorGamuts was a comma-delimited string of gamut:coverage pairs with
+inconsistent naming (e.g. "sRGB" vs "SRGB", "DCI-P3" vs "DCIP3" vs "DCIPR"),
+inconsistent delimiters, and some corrupted entries using Chinese commas.
+
+### Decision
+Convert DisplayColorGamuts to a nested object keyed by canonical gamut name,
+with numeric percentage values.
+
+### Canonical gamut names (all uppercase)
+- SRGB       (normalizes: sRGB, SRGB)
+- ADOBERGB   (normalizes: AdobeRGB, ADOBERGB, Adobe)
+- DCIP3      (normalizes: DCI-P3, DCIP3, DCIPR)
+- DISPLAYP3  (normalizes: DisplayP3, DISPLAYP3)
+- NTSC
+- REC709
+
+Note: DCIP3 and DISPLAYP3 are distinct color spaces.
+
+### Format
+{ "SRGB": 120, "AdobeRGB": 90, "NTSC": 88 }
+Values are numbers representing coverage percentage (without % sign).
+
+### Data corrections applied
+Two HUION entries had Chinese commas and swapped gamut/percentage:
+- "NTSC，127%:90%" interpreted as NTSC:90%, SRGB:127%
+- "NTSC，130%:92%" interpreted as NTSC:92%, SRGB:130%
+This matches the pattern of other HUION entries in the same product line.

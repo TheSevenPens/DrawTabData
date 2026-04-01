@@ -165,8 +165,10 @@ Unit: bits
 Required: no
 
 ### DisplayColorGamuts
-Color gamut coverage. One or more gamut:coverage pairs, comma-separated.
-Format: "GAMUT:PERCENT%" (e.g. "SRGB:120%", "AdobeRGB:96%,SRGB:99%,DCIPR:98%")
+Color gamut coverage keyed by canonical gamut name.
+Format: object { "GamutName": number, ... } (e.g. { "SRGB": 120, "AdobeRGB": 90 })
+Unit: % coverage
+Canonical gamut names: SRGB, ADOBERGB, DCIP3, DISPLAYP3, NTSC, REC709
 Required: no
 
 ### DisplayLamination

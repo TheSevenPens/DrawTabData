@@ -11,7 +11,9 @@
       "DigitizerReportRate": "266",
       "DigitizerResolution": "200",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:72%",
+      "DisplayColorGamuts": {
+        "NTSC": 72
+      },
       "DisplayContrast": "700",
       "DisplayResolution": {
         "Width": 1920,
@@ -51,7 +53,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:72%",
+      "DisplayColorGamuts": {
+        "NTSC": 72
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -91,7 +95,11 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:88%, SRGB:123%, AdobeRGB:91%",
+      "DisplayColorGamuts": {
+        "NTSC": 88,
+        "SRGB": 123,
+        "ADOBERGB": 91
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -129,7 +137,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:75%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 75
+      },
       "DisplayResolution": {
         "Width": 1920,
         "Height": 1080
@@ -165,7 +175,10 @@
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayColorGamuts": "NTSC:88%, sRGB:120%",
+      "DisplayColorGamuts": {
+        "NTSC": 88,
+        "SRGB": 120
+      },
       "DisplayResolution": {
         "Width": 1920,
         "Height": 1080
@@ -196,7 +209,9 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "ACTIVE_EMR",
-      "DisplayColorGamuts": "SRGB:89%",
+      "DisplayColorGamuts": {
+        "SRGB": 89
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -228,7 +243,9 @@
       "DigitizerResolution": "200",
       "DigitizerType": "ACTIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:92%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 92
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -267,7 +284,9 @@
       "DigitizerResolution": "200",
       "DigitizerType": "ACTIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:77%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 77
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -308,7 +327,11 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:88%, SRGB:120%, AdobeRGB:90%",
+      "DisplayColorGamuts": {
+        "NTSC": 88,
+        "SRGB": 120,
+        "ADOBERGB": 90
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -346,7 +369,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "AdobeRGB:90%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 90
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -387,7 +412,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "220",
-      "DisplayColorGamuts": "SRGB:127%",
+      "DisplayColorGamuts": {
+        "SRGB": 127
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -428,7 +455,10 @@
       "DisplayAntiGlare": "AGFILM",
       "DisplayBrightness": "220",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC\u00ef\u00bc\u0152130%:92%",
+      "DisplayColorGamuts": {
+        "NTSC": 92,
+        "SRGB": 130
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayResolution": {
@@ -468,7 +498,10 @@
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayColorGamuts": "NTSC\u00ef\u00bc\u0152127%:90%",
+      "DisplayColorGamuts": {
+        "NTSC": 90,
+        "SRGB": 127
+      },
       "DisplayContrast": "1000",
       "DisplayResolution": {
         "Width": 1920,
@@ -508,7 +541,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
-      "DisplayColorGamuts": "SRGB:122%",
+      "DisplayColorGamuts": {
+        "SRGB": 122
+      },
       "DisplayContrast": "800",
       "DisplayLamination": "YES",
       "DisplayResolution": {
@@ -591,7 +626,11 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
-      "DisplayColorGamuts": "NTSC:90%, SRGB:127%, AdobeRGB:94%",
+      "DisplayColorGamuts": {
+        "NTSC": 90,
+        "SRGB": 127,
+        "ADOBERGB": 94
+      },
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayResolution": {
@@ -1022,7 +1061,11 @@
       "DigitizerTilt": "60",
       "DisplayBrightness": "250",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:88%, SRGB:125%, AdobeRGB:92%",
+      "DisplayColorGamuts": {
+        "NTSC": 88,
+        "SRGB": 125,
+        "ADOBERGB": 92
+      },
       "DisplayContrast": "1200",
       "DisplayResolution": {
         "Width": 1920,
@@ -1063,7 +1106,11 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "NTSC:94%, SRGB:133%, AdobeRGB:99%",
+      "DisplayColorGamuts": {
+        "NTSC": 94,
+        "SRGB": 133,
+        "ADOBERGB": 99
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayResolution": {
@@ -1328,7 +1375,10 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
-      "DisplayColorGamuts": "Adobe:92%, NTSC:88%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 92,
+        "NTSC": 88
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayResolution": {
@@ -1370,7 +1420,11 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "350",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "AdobeRGB:99%, sRGB:99%, DisplayP3: 98%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 99,
+        "SRGB": 99,
+        "DISPLAYP3": 98
+      },
       "DisplayContrast": "100000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "OLED",
@@ -1456,7 +1510,10 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "FILM",
       "DisplayBrightness": "250",
-      "DisplayColorGamuts": "AdobeRGB:91%, SRGB:99%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 91,
+        "SRGB": 99
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayRefreshRate": "60",
@@ -1497,7 +1554,11 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "250",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "SRGB:99%,ADOBERGB:99%,DISPLAYP3:94%",
+      "DisplayColorGamuts": {
+        "SRGB": 99,
+        "ADOBERGB": 99,
+        "DISPLAYP3": 94
+      },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
@@ -1542,7 +1603,11 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "250",
       "DisplayColorBitDepth": "8",
-      "DisplayColorGamuts": "SRGB:99%,ADOBERGB:99%,DISPLAYP3:94%",
+      "DisplayColorGamuts": {
+        "SRGB": 99,
+        "ADOBERGB": 99,
+        "DISPLAYP3": 94
+      },
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayResolution": {
@@ -1584,7 +1649,11 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "300",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "SRGB:99%,ADOBERGB:99%,DISPLAYP3:98%",
+      "DisplayColorGamuts": {
+        "SRGB": 99,
+        "ADOBERGB": 99,
+        "DISPLAYP3": 98
+      },
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayResolution": {

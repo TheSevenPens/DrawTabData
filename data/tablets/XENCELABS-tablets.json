@@ -68,7 +68,10 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayBrightness": "330",
       "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": "AdobeRGB:99%, DCI-P3:93%",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 99,
+        "DCIP3": 93
+      },
       "DisplayLamination": "YES",
       "DisplayResolution": {
         "Width": 3840,
