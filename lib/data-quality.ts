@@ -54,7 +54,7 @@ const REQUIRED_FIELDS = [
 ];
 
 const ENUM_FIELDS: Record<string, string[]> = {
-  Brand: ["HUION", "WACOM", "XENCELABS", "XPPEN"],
+  Brand: ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"],
   ModelType: ["PENTABLET", "PENDISPLAY", "STANDALONE"],
   ModelAudience: ["Consumer", "Enthusiast", "Professional"],
   ModelStatus: ["ACTIVE", "AVAILABLE", "DISCONTINUED"],
