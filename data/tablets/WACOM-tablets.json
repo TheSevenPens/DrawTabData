@@ -846,7 +846,8 @@
       "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
       "EntityId": "WACOM.TABLET.DTH2420",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "DigitizerDimensions": {
@@ -1067,7 +1068,8 @@
       "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
       "EntityId": "WACOM.TABLET.DTK1660",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "DigitizerDimensions": {
@@ -1291,7 +1293,8 @@
       "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
       "EntityId": "WACOM.TABLET.DTK2420",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "DigitizerDimensions": {
@@ -1885,7 +1888,8 @@
       "_id": "01d122e2-5c75-47df-bc91-171476994174",
       "EntityId": "WACOM.TABLET.PTH660",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "DigitizerDimensions": {
@@ -1978,7 +1982,8 @@
       "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
       "EntityId": "WACOM.TABLET.PTH860",
       "DigitizerDensity": "200",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "DigitizerDimensions": {
@@ -2666,7 +2671,7 @@
       "ModelId": "DTH-A116",
       "ModelName": "Wacom MovinkPad 11",
       "ModelType": "STANDALONE",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2025",
       "ModelFamily": "",
       "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
@@ -2678,7 +2683,7 @@
       "ModelId": "DTH-A140",
       "ModelName": "Wacom MovinkPad Pro 14",
       "ModelType": "STANDALONE",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2025",
       "ModelFamily": "",
       "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
@@ -2690,11 +2695,12 @@
       "ModelId": "SD-510C",
       "ModelName": "Wacom SD-510C",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "fdf42d74-d311-420e-830e-a098a2972799",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD420E",
@@ -2702,11 +2708,12 @@
       "ModelId": "SD-420E",
       "ModelName": "Wacom SD-420E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "cf1894fe-84c4-4b20-a35a-f5d038fc00cf",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD421E",
@@ -2714,11 +2721,12 @@
       "ModelId": "SD-421E",
       "ModelName": "Wacom SD-421E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "152561c4-2c4c-482d-9784-7b6598866055",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD422E",
@@ -2726,11 +2734,12 @@
       "ModelId": "SD-422E",
       "ModelName": "Wacom SD-422E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "ad69bef9-8f76-4806-ab12-64d002cab6d8",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD320E",
@@ -2738,11 +2747,12 @@
       "ModelId": "SD-320E",
       "ModelName": "Wacom SD-320E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "ca0ba8da-97f0-407f-a8d5-8cfce3c37229",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD321E",
@@ -2750,11 +2760,12 @@
       "ModelId": "SD-321E",
       "ModelName": "Wacom SD-321E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "3d44fa2b-b989-4b2b-bb63-47ad00e83229",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD322E",
@@ -2762,11 +2773,12 @@
       "ModelId": "SD-322E",
       "ModelName": "Wacom SD-322E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "ead24597-6ede-4ea9-ae33-b58ff369aaf0",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD310E",
@@ -2774,11 +2786,12 @@
       "ModelId": "SD-310E",
       "ModelName": "Wacom SD-310E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "b30402bd-07e2-4960-af5f-b2cfa44db505",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD311E",
@@ -2786,11 +2799,12 @@
       "ModelId": "SD-311E",
       "ModelName": "Wacom SD-311E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "953b81dc-7893-4772-be8c-508b84d59e83",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD312E",
@@ -2798,11 +2812,12 @@
       "ModelId": "SD-312E",
       "ModelName": "Wacom SD-312E",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "f21a77b7-08f6-4daf-8733-927df6ce7460",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD210L",
@@ -2810,11 +2825,12 @@
       "ModelId": "SD-210L",
       "ModelName": "Wacom SD-210L",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "3d2cd174-ed7d-4253-99b7-55a6491c5178",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD013A",
@@ -2822,11 +2838,12 @@
       "ModelId": "SD-013A",
       "ModelName": "Wacom SD-013A",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "e6c987f0-d35f-44f1-95e4-c4902c403994",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.SD013L",
@@ -2834,11 +2851,12 @@
       "ModelId": "SD-013L",
       "ModelName": "Wacom SD-013L",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1988",
       "ModelFamily": "WacomSDSeries",
       "_id": "edafa376-154d-48f3-b863-a62bd892f5e1",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0405U",
@@ -2846,11 +2864,12 @@
       "ModelId": "GD-0405-U",
       "ModelName": "Wacom Intuos 4x5 (USB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "fae00305-bb28-4557-ab7f-a446a189e2da",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0405R",
@@ -2858,11 +2877,12 @@
       "ModelId": "GD-0405-R",
       "ModelName": "Wacom Intuos 4x5 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "554aef9c-b553-487a-ac8a-b51b9d4bbc05",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0405A",
@@ -2870,11 +2890,12 @@
       "ModelId": "GD-0405-A",
       "ModelName": "Wacom Intuos 4x5 (ADB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "c294637f-5926-4212-a392-f0c62a1f26ab",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0608U",
@@ -2882,11 +2903,12 @@
       "ModelId": "GD-0608-U",
       "ModelName": "Wacom Intuos 6x8 (USB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "0da481a9-30de-499d-ad13-e4257f985488",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0608R",
@@ -2894,11 +2916,12 @@
       "ModelId": "GD-0608-R",
       "ModelName": "Wacom Intuos 6x8 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "04298ee7-bdce-40be-a9e4-7d96d399e2bc",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0608A",
@@ -2906,11 +2929,12 @@
       "ModelId": "GD-0608-A",
       "ModelName": "Wacom Intuos 6x8 (ADB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "0dee8028-0d66-46df-a2c8-5bf496b59334",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0912U",
@@ -2918,11 +2942,12 @@
       "ModelId": "GD-0912-U",
       "ModelName": "Wacom Intuos 9x12 (USB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "ff77a7b3-3aba-4592-b58a-98203dec4a04",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0912R",
@@ -2930,11 +2955,12 @@
       "ModelId": "GD-0912-R",
       "ModelName": "Wacom Intuos 9x12 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "b4f0b327-7a06-49b2-9be6-38a23700304f",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD0912A",
@@ -2942,11 +2968,12 @@
       "ModelId": "GD-0912-A",
       "ModelName": "Wacom Intuos 9x12 (ADB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "7105650d-11d9-4894-91cf-b862d5cb4c0d",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD1212U",
@@ -2954,11 +2981,12 @@
       "ModelId": "GD-1212-U",
       "ModelName": "Wacom Intuos 12x12 (USB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "ca0039b4-86c7-4683-bc32-104ffa430808",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD1212R",
@@ -2966,11 +2994,12 @@
       "ModelId": "GD-1212-R",
       "ModelName": "Wacom Intuos 12x12 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "916f5176-f538-4865-9259-25b7ed872408",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD1218U",
@@ -2978,11 +3007,12 @@
       "ModelId": "GD-1218-U",
       "ModelName": "Wacom Intuos 12x18 (USB)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "56824bb9-2dcf-446d-9ce1-919554f42cef",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.GD1218R",
@@ -2990,11 +3020,12 @@
       "ModelId": "GD-1218-R",
       "ModelName": "Wacom Intuos 12x18 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "1998",
       "ModelFamily": "WacomIntuosProGen1",
       "_id": "f00aad3f-2aef-4975-8952-7e0994183cdd",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.XD0405R",
@@ -3002,11 +3033,12 @@
       "ModelId": "XD-0405-R",
       "ModelName": "Wacom Intuos2 4x5 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2001",
       "ModelFamily": "WacomIntuosProGen2",
       "_id": "dac05628-6af6-4183-bd0c-c1a7fc650394",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.XD0608R",
@@ -3014,11 +3046,12 @@
       "ModelId": "XD-0608-R",
       "ModelName": "Wacom Intuos2 6x8 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2001",
       "ModelFamily": "WacomIntuosProGen2",
       "_id": "963c2554-5ad6-492f-a21c-4ed2a6b135bf",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.XD0912R",
@@ -3026,11 +3059,12 @@
       "ModelId": "XD-0912-R",
       "ModelName": "Wacom Intuos2 9x12 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2001",
       "ModelFamily": "WacomIntuosProGen2",
       "_id": "07ec96cf-c741-469c-ad9a-a20577da9365",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.XD1212R",
@@ -3038,11 +3072,12 @@
       "ModelId": "XD-1212-R",
       "ModelName": "Wacom Intuos2 12x12 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2001",
       "ModelFamily": "WacomIntuosProGen2",
       "_id": "493f6f71-796b-4357-a8c8-50314df4a24a",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.XD1218R",
@@ -3050,11 +3085,12 @@
       "ModelId": "XD-1218-R",
       "ModelName": "Wacom Intuos2 12x18 (Serial)",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2001",
       "ModelFamily": "WacomIntuosProGen2",
       "_id": "c89d8229-6520-4560-b3ab-bcc9234079d2",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTH460",
@@ -3062,11 +3098,12 @@
       "ModelId": "CTH-460",
       "ModelName": "CTH-460",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2009",
       "ModelFamily": "CTx-x60",
       "_id": "15a60887-ce11-472c-9ad0-36d96ad91df5",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTL460",
@@ -3074,11 +3111,12 @@
       "ModelId": "CTL-460",
       "ModelName": "CTL-460",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2009",
       "ModelFamily": "CTx-x60",
       "_id": "c56e35e0-740f-4ae9-affc-52bbd3294cdf",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTL660",
@@ -3086,11 +3124,12 @@
       "ModelId": "CTL-660",
       "ModelName": "CTL-660",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2009",
       "ModelFamily": "CTx-x60",
       "_id": "9649dd11-ae4d-4447-a47c-53d2929dac57",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTH661",
@@ -3098,11 +3137,12 @@
       "ModelId": "CTH-661",
       "ModelName": "CTH-661",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2009",
       "ModelFamily": "CTH-x61",
       "_id": "854dcad2-2624-4301-bde5-313c170e3a75",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTH461",
@@ -3110,11 +3150,12 @@
       "ModelId": "CTH-461",
       "ModelName": "CTH-461",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2009",
       "ModelFamily": "CTH-x61",
       "_id": "547b265d-6040-4ec3-a0d7-75c9477c23ab",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTL671",
@@ -3122,11 +3163,12 @@
       "ModelId": "CTL-671",
       "ModelName": "CTL-671",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2013",
       "ModelFamily": "CTx-x71",
       "_id": "734c2cd3-2723-413d-8d1c-151aa0942b4a",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTL471",
@@ -3134,11 +3176,12 @@
       "ModelId": "CTL-471",
       "ModelName": "CTL-471",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2012",
       "ModelFamily": "CTx-x71",
       "_id": "5b23c5f4-37db-4423-954b-feb364d22c67",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTL680",
@@ -3146,11 +3189,12 @@
       "ModelId": "CTL-680",
       "ModelName": "CTL-680",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2013",
       "ModelFamily": "CTx-x80",
       "_id": "97b64cdd-b2d0-43da-93b8-1110d92a6e42",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTH680",
@@ -3158,11 +3202,12 @@
       "ModelId": "CTH-680",
       "ModelName": "CTH-680",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2013",
       "ModelFamily": "CTx-x80",
       "_id": "7dcc5572-b598-4c26-8569-ea0a02ff7eeb",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTL480",
@@ -3170,11 +3215,12 @@
       "ModelId": "CTL-480",
       "ModelName": "CTL-480",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2013",
       "ModelFamily": "CTx-x80",
       "_id": "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     },
     {
       "EntityId": "WACOM.TABLET.CTH480",
@@ -3182,11 +3228,12 @@
       "ModelId": "CTH-480",
       "ModelName": "CTH-480",
       "ModelType": "PENTABLET",
-      "ModelLaunchYear": "",
+      "ModelLaunchYear": "2013",
       "ModelFamily": "CTx-x80",
       "_id": "8be703ad-586c-4825-abaa-41070611bb2c",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "ModelStatus": "DISCONTINUED"
     }
   ]
 }

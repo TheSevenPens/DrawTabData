@@ -30,7 +30,7 @@ export const PEN_DEFAULT_COLUMNS = [
 export const PEN_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["PenId", "PenName", "PenFamily", "PenYear"],
+    fields: ["EntityId", "PenId", "PenName", "PenFamily", "PenYear"],
   },
   { kind: "sort", field: "PenId", direction: "asc" },
 ];

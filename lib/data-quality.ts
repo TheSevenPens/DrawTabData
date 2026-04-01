@@ -48,7 +48,6 @@ const REQUIRED_FIELDS = [
   "ModelId",
   "ModelName",
   "ModelType",
-  "ModelLaunchYear",
   "_id",
   "_CreateDate",
   "_ModifiedDate",
@@ -56,7 +55,7 @@ const REQUIRED_FIELDS = [
 
 const ENUM_FIELDS: Record<string, string[]> = {
   Brand: ["HUION", "WACOM", "XENCELABS", "XPPEN"],
-  ModelType: ["PENTABLET", "PENDISPLAY"],
+  ModelType: ["PENTABLET", "PENDISPLAY", "STANDALONE"],
   ModelAudience: ["Consumer", "Enthusiast", "Professional"],
   ModelStatus: ["ACTIVE", "AVAILABLE", "DISCONTINUED"],
   DigitizerType: ["PASSIVE_EMR", "ACTIVE_EMR"],
