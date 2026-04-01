@@ -167,30 +167,6 @@ for (const pen of pens) {
 }
 ```
 
-## Using the pipeline engine
-
-The pipeline engine lets you filter, sort, and select data programmatically
-using composable steps:
-
-```typescript
-import { executePipeline } from "./data-repo/lib/pipeline/index.js";
-import { TABLET_FIELDS, TABLET_DEFAULT_COLUMNS } from "./data-repo/lib/entities/tablet-fields.js";
-import type { Step } from "./data-repo/lib/pipeline/types.js";
-
-const steps: Step[] = [
-  { kind: "filter", field: "Brand", operator: "==", value: "WACOM" },
-  { kind: "filter", field: "ModelType", operator: "==", value: "PENDISPLAY" },
-  { kind: "sort", field: "ModelLaunchYear", direction: "desc" },
-  { kind: "take", count: 10 },
-];
-
-const result = executePipeline(tablets, steps, TABLET_FIELDS, TABLET_DEFAULT_COLUMNS);
-console.log(`Found ${result.data.length} tablets`);
-for (const t of result.data) {
-  console.log(`  ${t.ModelName} (${t.ModelLaunchYear})`);
-}
-```
-
 ## Unit conversion
 
 Convert field values between metric and imperial:

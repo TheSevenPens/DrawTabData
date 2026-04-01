@@ -165,25 +165,6 @@ getFieldLabel("Diagonal (mm)", "mm", "imperial");  // "Diagonal (in)"
 
 Supported: mm to in, g to oz, LPmm to LPI, px/mm to PPI.
 
-### Pipeline engine
-
-Query data programmatically with composable steps:
-
-```typescript
-import { executePipeline } from "./data-repo/lib/pipeline/index.js";
-import { TABLET_FIELDS, TABLET_DEFAULT_COLUMNS } from "./data-repo/lib/entities/tablet-fields.js";
-import type { Step } from "./data-repo/lib/pipeline/types.js";
-
-const steps: Step[] = [
-  { kind: "filter", field: "Brand", operator: "==", value: "WACOM" },
-  { kind: "filter", field: "ModelType", operator: "==", value: "PENDISPLAY" },
-  { kind: "sort", field: "ModelLaunchYear", direction: "desc" },
-  { kind: "take", count: 10 },
-];
-
-const result = executePipeline(ds.tablets, steps, TABLET_FIELDS, TABLET_DEFAULT_COLUMNS);
-```
-
 ## Helper functions
 
 | Function | Module | Description |
@@ -201,7 +182,6 @@ const result = executePipeline(ds.tablets, steps, TABLET_FIELDS, TABLET_DEFAULT_
 | `buildTabletToPenCompatMap(compat, pens)` | `compat-helpers` | Map: tabletId to Pen[] |
 | `buildPenToTabletCompatMap(compat, tablets)` | `compat-helpers` | Map: penId to Tablet[] |
 | `buildIncludedPenMap(tablets)` | `compat-helpers` | Map: penId to Tablet[] (included) |
-| `executePipeline(items, steps, fields, cols)` | `pipeline` | Run filter/sort/select/take |
 
 ## Data explorer
 
