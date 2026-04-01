@@ -41,7 +41,7 @@ export function loadDriversFromDisk(dataDir: string): Driver[] {
 // --- Pen loader ---
 
 export function loadPensFromDisk(dataDir: string): Pen[] {
-  return loadBrandPartitionedDataFromDisk<Pen>(dataDir, "pens", "Pens", ["WACOM"]);
+  return loadBrandPartitionedDataFromDisk<Pen>(dataDir, "pens", "Pens");
 }
 
 // --- Family loaders ---
@@ -63,7 +63,7 @@ interface PenCompatGrouped {
 }
 
 export function loadPenCompatFromDisk(dataDir: string): PenCompat[] {
-  const grouped = loadBrandPartitionedDataFromDisk<PenCompatGrouped>(dataDir, "pen-compat", "PenCompat", ["WACOM"]);
+  const grouped = loadBrandPartitionedDataFromDisk<PenCompatGrouped>(dataDir, "pen-compat", "PenCompat");
   const rows: PenCompat[] = [];
   for (const entry of grouped) {
     for (const tabletId of entry.TabletIds) {

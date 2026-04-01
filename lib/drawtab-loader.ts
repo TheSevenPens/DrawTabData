@@ -157,7 +157,7 @@ export async function loadDriversFromURL(dataBaseUrl: string): Promise<Driver[]>
 // --- Pen loader ---
 
 export async function loadPensFromURL(dataBaseUrl: string): Promise<Pen[]> {
-  return loadBrandPartitionedDataFromURL<Pen>(dataBaseUrl, "pens", "Pens", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<Pen>(dataBaseUrl, "pens", "Pens");
 }
 
 // --- Family loaders ---
@@ -196,7 +196,7 @@ function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {
 }
 
 export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenCompat[]> {
-  const grouped = await loadBrandPartitionedDataFromURL<PenCompatGrouped>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
+  const grouped = await loadBrandPartitionedDataFromURL<PenCompatGrouped>(dataBaseUrl, "pen-compat", "PenCompat");
   return expandPenCompat(grouped);
 }
 
