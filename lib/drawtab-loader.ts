@@ -229,6 +229,28 @@ export async function loadPressureResponseFromURL(dataBaseUrl: string): Promise<
   return loadBrandPartitionedDataFromURL<PressureResponse>(dataBaseUrl, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
 }
 
+// --- Inventory loaders ---
+
+export async function loadInventoryPensFromURL(dataBaseUrl: string, userId: string): Promise<Record<string, unknown>[]> {
+  const url = `${dataBaseUrl}/inventory/${userId}-pens.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = await resp.json();
+  return data.InventoryPens ?? [];
+}
+
+export async function loadInventoryTabletsFromURL(dataBaseUrl: string, userId: string): Promise<Record<string, unknown>[]> {
+  const url = `${dataBaseUrl}/inventory/${userId}-tablets.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = await resp.json();
+  return data.InventoryTablets ?? [];
+}
+
 // --- Helpers ---
 
 export function getDiagonal(dimensions: Dimensions | undefined): number | null {
