@@ -149,6 +149,10 @@ export async function loadBrandPartitionedDataFromURL<T>(
       console.warn(`Failed to load ${url}: ${resp.status}`);
       return;
     }
+    const contentType = resp.headers.get("content-type") ?? "";
+    if (!contentType.includes("json")) {
+      return;
+    }
     const data = await resp.json();
     const items = data[rootKey];
     if (Array.isArray(items)) {
