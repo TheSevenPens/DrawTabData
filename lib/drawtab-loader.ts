@@ -144,9 +144,13 @@ export async function loadBrandPartitionedDataFromURL<T>(
   const all: T[] = [];
   const fetches = brands.map(async (brand) => {
     const url = `${dataBaseUrl}/${entityPath}/${brand}-${entityPath}.json`;
-    const resp = await fetch(url);
+    let resp: Response;
+    try {
+      resp = await fetch(url);
+    } catch {
+      return;
+    }
     if (!resp.ok) {
-      console.warn(`Failed to load ${url}: ${resp.status}`);
       return;
     }
     const contentType = resp.headers.get("content-type") ?? "";
