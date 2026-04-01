@@ -836,6 +836,131 @@
         "PTZ-631W",
         "PTZ-930"
       ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-150E",
+      "TabletIds": [
+        "MTE-450"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-155E",
+      "TabletIds": [
+        "CTE-450",
+        "CTE-650"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "UP-812E",
+      "TabletIds": [
+        "FW-300"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-140E",
+      "TabletIds": [
+        "CTE-440",
+        "CTE-640"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-150",
+      "TabletIds": [
+        "CTE-460",
+        "CTE-660"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-130",
+      "TabletIds": [
+        "CTE-430",
+        "CTE-630",
+        "FB-630"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-130E",
+      "TabletIds": [
+        "CTE-630BT"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "FP-500",
+      "TabletIds": [
+        "CTF-430"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "FP-410",
+      "TabletIds": [
+        "CTF-221",
+        "CTF-420"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "FP-110",
+      "TabletIds": [
+        "FT-0203-U"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "FP-100",
+      "TabletIds": [
+        "FT-0405-U"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-120E",
+      "TabletIds": [
+        "ET-0405A-U",
+        "ET-0507A-U"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "EP-100E",
+      "TabletIds": [
+        "ET-0405-R",
+        "ET-0405-U"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "UP-703E",
+      "TabletIds": [
+        "CT-0405-A",
+        "CT-0405-R",
+        "CT-0405-U"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "UP-801E",
+      "TabletIds": [
+        "KT-0405-ANB",
+        "KT-0405-R",
+        "KT-0405-RNB",
+        "KT-0608-R",
+        "UD-0608-A",
+        "UD-0608-R",
+        "UD-1212-A",
+        "UD-1212-R",
+        "UD-1218-A",
+        "UD-1218-R",
+        "UD-1825-R"
+      ]
     }
   ]
 }

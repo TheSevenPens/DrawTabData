@@ -2,8 +2,8 @@
   "DrawingTablets": [
     {
       "DigitizerDimensions": {
-        "Width": 152,
-        "Height": 95
+        "Width": 152.0,
+        "Height": 95.0
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
@@ -19,12 +19,19 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "25487c6c-8759-473d-b92a-68be45189112",
       "EntityId": "WACOM.TABLET.CTC4110WL",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DigitizerDensity": "100",
+      "PhysicalDimensions": {
+        "Width": 188.0,
+        "Height": 141.0,
+        "Depth": 8.0
+      },
+      "PhysicalWeight": "200"
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 135
+        "Width": 216.0,
+        "Height": 135.0
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
@@ -40,12 +47,19 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759",
       "EntityId": "WACOM.TABLET.CTC6110WL",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DigitizerDensity": "100",
+      "PhysicalDimensions": {
+        "Width": 252.0,
+        "Height": 181.0,
+        "Depth": 8.0
+      },
+      "PhysicalWeight": "350"
     },
     {
       "DigitizerDimensions": {
-        "Width": 148,
-        "Height": 92
+        "Width": 147.6,
+        "Height": 92.3
       },
       "DigitizerPressureLevels": "512",
       "DigitizerReportRate": "133",
@@ -53,17 +67,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTE-450",
-      "ModelIncludedPen": "EP-150E",
+      "ModelIncludedPen": "EP-155E",
       "ModelLaunchYear": "2007",
       "ModelName": "Bamboo Fun Small",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 210.0,
-        "Height": 192.1,
+        "Height": 194.1,
         "Depth": 11.2
       },
-      "PhysicalWeight": "370.00",
+      "PhysicalWeight": "370",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
@@ -73,8 +87,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 217,
-        "Height": 135
+        "Width": 216.5,
+        "Height": 135.3
       },
       "DigitizerPressureLevels": "512",
       "DigitizerReportRate": "133",
@@ -82,7 +96,7 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTE-650",
-      "ModelIncludedPen": "EP-150E",
+      "ModelIncludedPen": "EP-155E",
       "ModelLaunchYear": "2007",
       "ModelName": "Bamboo Fun Medium",
       "ModelStatus": "DISCONTINUED",
@@ -92,7 +106,7 @@
         "Height": 235.1,
         "Depth": 11.0
       },
-      "PhysicalWeight": "660.00",
+      "PhysicalWeight": "550",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
@@ -102,8 +116,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 147,
-        "Height": 92
+        "Width": 147.2,
+        "Height": 92.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -111,26 +125,28 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTH-470",
-      "ModelIncludedPen": "LP-170E/LP-170",
+      "ModelIncludedPen": "LP-170E,LP-170",
       "ModelLaunchYear": "2012",
       "ModelName": "Bamboo Capture",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 287.0,
-        "Height": 186.0
+        "Width": 278.0,
+        "Height": 176.0,
+        "Depth": 9.8
       },
-      "PhysicalWeight": "420",
+      "PhysicalWeight": "390",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:37.515Z",
       "_id": "e1a691a6-d73e-4f48-9d92-9185ed816be3",
       "EntityId": "WACOM.TABLET.CTH470",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
-        "Width": 152,
-        "Height": 95
+        "Width": 152.0,
+        "Height": 95.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -149,12 +165,18 @@
       "_id": "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
       "EntityId": "WACOM.TABLET.CTH490",
       "DigitizerDensity": "100",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 169.2,
+        "Depth": 10.7
+      },
+      "PhysicalWeight": "290"
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 137
+        "Width": 216.48,
+        "Height": 137.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -171,12 +193,19 @@
       "_ModifiedDate": "2025-12-12T18:49:42.143Z",
       "_id": "34947067-79d5-415a-b81a-e65e75d842be",
       "EntityId": "WACOM.TABLET.CTH670",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DigitizerDensity": "100",
+      "PhysicalDimensions": {
+        "Width": 351.75,
+        "Height": 209.0,
+        "Depth": 9.8
+      },
+      "PhysicalWeight": "635"
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 135
+        "Width": 216.0,
+        "Height": 135.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -205,8 +234,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152,
-        "Height": 95
+        "Width": 152.0,
+        "Height": 95.0
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -235,8 +264,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152,
-        "Height": 95
+        "Width": 152.0,
+        "Height": 95.0
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -254,12 +283,18 @@
       "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
       "EntityId": "WACOM.TABLET.CTL4100WL",
       "DigitizerDensity": "100",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "PhysicalDimensions": {
+        "Width": 200.0,
+        "Height": 160.0,
+        "Depth": 8.8
+      },
+      "PhysicalWeight": "230"
     },
     {
       "DigitizerDimensions": {
-        "Width": 147,
-        "Height": 92
+        "Width": 147.2,
+        "Height": 92.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -275,12 +310,19 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
       "EntityId": "WACOM.TABLET.CTL470",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DigitizerDensity": "100",
+      "PhysicalDimensions": {
+        "Width": 278.0,
+        "Height": 176.0,
+        "Depth": 9.8
+      },
+      "PhysicalWeight": "390"
     },
     {
       "DigitizerDimensions": {
-        "Width": 152,
-        "Height": 95
+        "Width": 152.0,
+        "Height": 95.0
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
@@ -299,7 +341,7 @@
         "Height": 146.0,
         "Depth": 8.7
       },
-      "PhysicalWeight": "250",
+      "PhysicalWeight": "260",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
@@ -309,8 +351,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152,
-        "Height": 95
+        "Width": 152.0,
+        "Height": 95.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -328,12 +370,18 @@
       "_id": "fe35e68e-3e14-4769-9387-014cd5a2f258",
       "EntityId": "WACOM.TABLET.CTL490",
       "DigitizerDensity": "100",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 169.2,
+        "Depth": 10.7
+      },
+      "PhysicalWeight": "290"
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 135
+        "Width": 216.0,
+        "Height": 135.0
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -348,11 +396,11 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 277.0,
-        "Height": 189.0,
-        "Depth": 9.7
+        "Width": 264.0,
+        "Height": 200.0,
+        "Depth": 8.8
       },
-      "PhysicalWeight": "432",
+      "PhysicalWeight": "410",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
@@ -362,8 +410,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 135
+        "Width": 216.0,
+        "Height": 135.0
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -378,11 +426,11 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 277.0,
-        "Height": 189.0,
-        "Depth": 9.7
+        "Width": 264.0,
+        "Height": 200.0,
+        "Depth": 8.8
       },
-      "PhysicalWeight": "432",
+      "PhysicalWeight": "410",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
@@ -392,8 +440,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 135
+        "Width": 216.0,
+        "Height": 135.0
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
@@ -412,7 +460,7 @@
         "Height": 189.0,
         "Depth": 8.7
       },
-      "PhysicalWeight": "432",
+      "PhysicalWeight": "447",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
@@ -422,8 +470,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216,
-        "Height": 135
+        "Width": 216.0,
+        "Height": 135.0
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
@@ -441,7 +489,14 @@
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6cae6cd5-eaa2-43b1-ac8c-26379890532b",
       "EntityId": "WACOM.TABLET.CTL690",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "DigitizerDensity": "100",
+      "PhysicalDimensions": {
+        "Width": 275.0,
+        "Height": 217.2,
+        "Depth": 10.7
+      },
+      "PhysicalWeight": "480"
     },
     {
       "DigitizerDimensions": {
@@ -1707,8 +1762,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 157,
-        "Height": 99
+        "Width": 157.48,
+        "Height": 98.43
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1739,8 +1794,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 157,
-        "Height": 98
+        "Width": 157.48,
+        "Height": 98.43
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1770,8 +1825,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 160,
-        "Height": 100
+        "Width": 159.6,
+        "Height": 99.75
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -1786,9 +1841,9 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 269.0,
-        "Height": 170.0,
-        "Depth": 8.45
+        "Width": 269.2,
+        "Height": 170.1,
+        "Depth": 8.0
       },
       "PhysicalWeight": "450",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1800,8 +1855,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 224,
-        "Height": 140
+        "Width": 223.52,
+        "Height": 139.7
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1831,8 +1886,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 224,
-        "Height": 140
+        "Width": 223.52,
+        "Height": 139.7
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1862,8 +1917,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 224,
-        "Height": 148
+        "Width": 224.0,
+        "Height": 148.0
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -1893,8 +1948,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 324,
-        "Height": 203
+        "Width": 325.12,
+        "Height": 203.2
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1911,8 +1966,8 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 487.0,
-        "Height": 317.7,
+        "Width": 487.68,
+        "Height": 317.5,
         "Depth": 12.7
       },
       "PhysicalWeight": "1800",
@@ -1925,8 +1980,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 325,
-        "Height": 203
+        "Width": 325.12,
+        "Height": 203.2
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1942,8 +1997,8 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 487.68,
-        "Height": 317.5,
+        "Width": 487.0,
+        "Height": 317.7,
         "Depth": 12.0
       },
       "PhysicalWeight": "1800",
@@ -1956,8 +2011,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 311,
-        "Height": 216
+        "Width": 311.0,
+        "Height": 216.0
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -1972,7 +2027,7 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 430.0,
+        "Width": 430.4,
         "Height": 287.0,
         "Depth": 8.0
       },
@@ -1987,8 +2042,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 488,
-        "Height": 305
+        "Width": 487.7,
+        "Height": 304.8
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
@@ -2005,7 +2060,7 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 622.0,
+        "Width": 623.0,
         "Height": 462.0,
         "Depth": 28.0
       },
@@ -2019,8 +2074,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 158,
-        "Height": 98
+        "Width": 157.48,
+        "Height": 98.43
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
@@ -2051,8 +2106,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 157,
-        "Height": 99
+        "Width": 157.48,
+        "Height": 98.43
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -2082,8 +2137,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 187,
-        "Height": 105
+        "Width": 187.0,
+        "Height": 105.0
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "NO",
@@ -2111,8 +2166,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 203,
-        "Height": 127
+        "Width": 203.2,
+        "Height": 127.0
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
@@ -2132,7 +2187,7 @@
         "Height": 253.0,
         "Depth": 15.0
       },
-      "PhysicalWeight": "1000",
+      "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
@@ -2142,8 +2197,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 224,
-        "Height": 140
+        "Width": 223.52,
+        "Height": 139.7
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
@@ -2174,8 +2229,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 224,
-        "Height": 140
+        "Width": 223.52,
+        "Height": 139.7
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -2205,8 +2260,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 263,
-        "Height": 148
+        "Width": 263.0,
+        "Height": 148.0
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "NO",
@@ -2234,8 +2289,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 325,
-        "Height": 203
+        "Width": 325.12,
+        "Height": 203.2
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
@@ -2252,7 +2307,7 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 475.0,
+        "Width": 474.0,
         "Height": 320.0,
         "Depth": 14.0
       },
@@ -2266,8 +2321,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 349,
-        "Height": 195
+        "Width": 349.0,
+        "Height": 195.0
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "NO",
@@ -2295,8 +2350,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 305,
-        "Height": 305
+        "Width": 304.8,
+        "Height": 304.8
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2326,8 +2381,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 488,
-        "Height": 305
+        "Width": 487.7,
+        "Height": 304.8
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2357,8 +2412,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 127,
-        "Height": 102
+        "Width": 127.0,
+        "Height": 101.6
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2388,8 +2443,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 158,
-        "Height": 98
+        "Width": 157.5,
+        "Height": 98.4
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2419,8 +2474,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 203,
-        "Height": 152
+        "Width": 203.2,
+        "Height": 152.4
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2450,8 +2505,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 271,
-        "Height": 159
+        "Width": 271.0,
+        "Height": 158.8
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2481,8 +2536,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 305,
-        "Height": 229
+        "Width": 304.8,
+        "Height": 228.6
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
@@ -2499,7 +2554,7 @@
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 439.5,
-        "Height": 429.3,
+        "Height": 340.0,
         "Depth": 14.0
       },
       "PhysicalWeight": "1800",
@@ -2512,8 +2567,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 127,
-        "Height": 106
+        "Width": 127.0,
+        "Height": 106.0
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
@@ -2543,8 +2598,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 203,
-        "Height": 162
+        "Width": 203.2,
+        "Height": 162.4
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
@@ -2574,8 +2629,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 305,
-        "Height": 241
+        "Width": 304.8,
+        "Height": 240.6
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
@@ -2592,7 +2647,7 @@
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 456.0,
-        "Height": 261.0,
+        "Height": 361.0,
         "Depth": 14.0
       },
       "PhysicalWeight": "1600",
@@ -2605,8 +2660,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 305,
-        "Height": 317
+        "Width": 304.8,
+        "Height": 316.8
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
@@ -2636,8 +2691,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 457,
-        "Height": 317
+        "Width": 457.2,
+        "Height": 316.8
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
@@ -2700,7 +2755,19 @@
       "_id": "fdf42d74-d311-420e-830e-a098a2972799",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "20",
+      "DigitizerDimensions": {
+        "Width": 232.0,
+        "Height": 151.0
+      },
+      "PhysicalDimensions": {
+        "Width": 327.0,
+        "Height": 238.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "2000",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD420E",
@@ -2713,7 +2780,19 @@
       "_id": "cf1894fe-84c4-4b20-a35a-f5d038fc00cf",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 420.0,
+        "Height": 420.0,
+        "Depth": 70.0
+      },
+      "PhysicalWeight": "4000",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD421E",
@@ -2726,7 +2805,19 @@
       "_id": "152561c4-2c4c-482d-9784-7b6598866055",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 420.0,
+        "Height": 420.0,
+        "Depth": 70.0
+      },
+      "PhysicalWeight": "4000",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD422E",
@@ -2739,7 +2830,19 @@
       "_id": "ad69bef9-8f76-4806-ab12-64d002cab6d8",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 420.0,
+        "Height": 420.0,
+        "Depth": 70.0
+      },
+      "PhysicalWeight": "4000",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD320E",
@@ -2752,7 +2855,19 @@
       "_id": "ca0ba8da-97f0-407f-a8d5-8cfce3c37229",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 361.0,
+        "Height": 361.0
+      },
+      "PhysicalDimensions": {
+        "Width": 528.0,
+        "Height": 526.0,
+        "Depth": 77.0
+      },
+      "PhysicalWeight": "5500",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD321E",
@@ -2765,7 +2880,19 @@
       "_id": "3d44fa2b-b989-4b2b-bb63-47ad00e83229",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 361.0,
+        "Height": 361.0
+      },
+      "PhysicalDimensions": {
+        "Width": 528.0,
+        "Height": 526.0,
+        "Depth": 77.0
+      },
+      "PhysicalWeight": "5500",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD322E",
@@ -2778,7 +2905,19 @@
       "_id": "ead24597-6ede-4ea9-ae33-b58ff369aaf0",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 361.0,
+        "Height": 361.0
+      },
+      "PhysicalDimensions": {
+        "Width": 528.0,
+        "Height": 526.0,
+        "Depth": 77.0
+      },
+      "PhysicalWeight": "5500",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD310E",
@@ -2791,7 +2930,19 @@
       "_id": "b30402bd-07e2-4960-af5f-b2cfa44db505",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 582.0,
+        "Height": 440.0,
+        "Depth": 70.0
+      },
+      "PhysicalWeight": "5200",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD311E",
@@ -2804,7 +2955,19 @@
       "_id": "953b81dc-7893-4772-be8c-508b84d59e83",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 582.0,
+        "Height": 440.0,
+        "Depth": 70.0
+      },
+      "PhysicalWeight": "5200",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD312E",
@@ -2817,7 +2980,19 @@
       "_id": "f21a77b7-08f6-4daf-8733-927df6ce7460",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 582.0,
+        "Height": 440.0,
+        "Depth": 70.0
+      },
+      "PhysicalWeight": "5200",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD210L",
@@ -2830,7 +3005,18 @@
       "_id": "3d2cd174-ed7d-4253-99b7-55a6491c5178",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 635.0,
+        "Height": 462.0
+      },
+      "PhysicalDimensions": {
+        "Width": 779.0,
+        "Height": 613.0
+      },
+      "PhysicalWeight": "10500",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD013A",
@@ -2843,7 +3029,19 @@
       "_id": "e6c987f0-d35f-44f1-95e4-c4902c403994",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 1193.0,
+        "Height": 889.0
+      },
+      "PhysicalDimensions": {
+        "Width": 1454.0,
+        "Height": 1091.0,
+        "Depth": 30.0
+      },
+      "PhysicalWeight": "33000",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.SD013L",
@@ -2856,7 +3054,19 @@
       "_id": "edafa376-154d-48f3-b863-a62bd892f5e1",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 1193.0,
+        "Height": 889.0
+      },
+      "PhysicalDimensions": {
+        "Width": 1454.0,
+        "Height": 1091.0,
+        "Depth": 30.0
+      },
+      "PhysicalWeight": "33000",
+      "ModelIncludedPen": ""
     },
     {
       "EntityId": "WACOM.TABLET.GD0405U",
@@ -2869,7 +3079,19 @@
       "_id": "fae00305-bb28-4557-ab7f-a446a189e2da",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 127.0,
+        "Height": 106.0
+      },
+      "PhysicalDimensions": {
+        "Width": 225.0,
+        "Height": 210.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "520",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0405R",
@@ -2882,7 +3104,19 @@
       "_id": "554aef9c-b553-487a-ac8a-b51b9d4bbc05",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 127.0,
+        "Height": 106.0
+      },
+      "PhysicalDimensions": {
+        "Width": 225.0,
+        "Height": 210.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "520",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0405A",
@@ -2895,7 +3129,19 @@
       "_id": "c294637f-5926-4212-a392-f0c62a1f26ab",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 127.0,
+        "Height": 106.0
+      },
+      "PhysicalDimensions": {
+        "Width": 225.0,
+        "Height": 210.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "520",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0608U",
@@ -2908,7 +3154,19 @@
       "_id": "0da481a9-30de-499d-ad13-e4257f985488",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 203.2,
+        "Height": 162.4
+      },
+      "PhysicalDimensions": {
+        "Width": 334.0,
+        "Height": 258.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0608R",
@@ -2921,7 +3179,19 @@
       "_id": "04298ee7-bdce-40be-a9e4-7d96d399e2bc",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 203.2,
+        "Height": 162.4
+      },
+      "PhysicalDimensions": {
+        "Width": 334.0,
+        "Height": 258.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0608A",
@@ -2934,7 +3204,19 @@
       "_id": "0dee8028-0d66-46df-a2c8-5bf496b59334",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 203.2,
+        "Height": 162.4
+      },
+      "PhysicalDimensions": {
+        "Width": 334.0,
+        "Height": 258.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0912U",
@@ -2947,7 +3229,19 @@
       "_id": "ff77a7b3-3aba-4592-b58a-98203dec4a04",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 240.6
+      },
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 361.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "1600",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0912R",
@@ -2960,7 +3254,19 @@
       "_id": "b4f0b327-7a06-49b2-9be6-38a23700304f",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 240.6
+      },
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 361.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "1600",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD0912A",
@@ -2973,7 +3279,19 @@
       "_id": "7105650d-11d9-4894-91cf-b862d5cb4c0d",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 240.6
+      },
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 361.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "1600",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD1212U",
@@ -2986,7 +3304,19 @@
       "_id": "ca0039b4-86c7-4683-bc32-104ffa430808",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 316.8
+      },
+      "PhysicalDimensions": {
+        "Width": 444.0,
+        "Height": 435.5,
+        "Depth": 37.0
+      },
+      "PhysicalWeight": "2100",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD1212R",
@@ -2999,7 +3329,19 @@
       "_id": "916f5176-f538-4865-9259-25b7ed872408",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 316.8
+      },
+      "PhysicalDimensions": {
+        "Width": 444.0,
+        "Height": 435.5,
+        "Depth": 37.0
+      },
+      "PhysicalWeight": "2100",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD1218U",
@@ -3012,7 +3354,19 @@
       "_id": "56824bb9-2dcf-446d-9ce1-919554f42cef",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 316.8
+      },
+      "PhysicalDimensions": {
+        "Width": 616.0,
+        "Height": 445.5,
+        "Depth": 37.0
+      },
+      "PhysicalWeight": "3000",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.GD1218R",
@@ -3025,7 +3379,19 @@
       "_id": "f00aad3f-2aef-4975-8952-7e0994183cdd",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 316.8
+      },
+      "PhysicalDimensions": {
+        "Width": 616.0,
+        "Height": 445.5,
+        "Depth": 37.0
+      },
+      "PhysicalWeight": "3000",
+      "ModelIncludedPen": "GP-300E"
     },
     {
       "EntityId": "WACOM.TABLET.XD0405R",
@@ -3038,7 +3404,19 @@
       "_id": "dac05628-6af6-4183-bd0c-c1a7fc650394",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 127.0,
+        "Height": 106.0
+      },
+      "PhysicalDimensions": {
+        "Width": 225.0,
+        "Height": 210.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "520",
+      "ModelIncludedPen": "XP-501E"
     },
     {
       "EntityId": "WACOM.TABLET.XD0608R",
@@ -3051,7 +3429,19 @@
       "_id": "963c2554-5ad6-492f-a21c-4ed2a6b135bf",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 203.2,
+        "Height": 162.4
+      },
+      "PhysicalDimensions": {
+        "Width": 334.0,
+        "Height": 258.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "XP-501E"
     },
     {
       "EntityId": "WACOM.TABLET.XD0912R",
@@ -3064,7 +3454,19 @@
       "_id": "07ec96cf-c741-469c-ad9a-a20577da9365",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 240.6
+      },
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 361.0,
+        "Depth": 14.0
+      },
+      "PhysicalWeight": "1600",
+      "ModelIncludedPen": "XP-501E"
     },
     {
       "EntityId": "WACOM.TABLET.XD1212R",
@@ -3077,7 +3479,19 @@
       "_id": "493f6f71-796b-4357-a8c8-50314df4a24a",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 316.8
+      },
+      "PhysicalDimensions": {
+        "Width": 444.0,
+        "Height": 435.5,
+        "Depth": 37.0
+      },
+      "PhysicalWeight": "2100",
+      "ModelIncludedPen": "XP-501E"
     },
     {
       "EntityId": "WACOM.TABLET.XD1218R",
@@ -3090,7 +3504,19 @@
       "_id": "c89d8229-6520-4560-b3ab-bcc9234079d2",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 316.8
+      },
+      "PhysicalDimensions": {
+        "Width": 616.0,
+        "Height": 445.5,
+        "Depth": 37.0
+      },
+      "PhysicalWeight": "3000",
+      "ModelIncludedPen": "XP-501E"
     },
     {
       "EntityId": "WACOM.TABLET.CTH460",
@@ -3103,7 +3529,19 @@
       "_id": "15a60887-ce11-472c-9ad0-36d96ad91df5",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 147.2,
+        "Height": 92.0
+      },
+      "PhysicalDimensions": {
+        "Width": 248.2,
+        "Height": 176.1,
+        "Depth": 8.5
+      },
+      "PhysicalWeight": "360",
+      "ModelIncludedPen": "LP-160E"
     },
     {
       "EntityId": "WACOM.TABLET.CTL460",
@@ -3116,7 +3554,19 @@
       "_id": "c56e35e0-740f-4ae9-affc-52bbd3294cdf",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 147.2,
+        "Height": 92.0
+      },
+      "PhysicalDimensions": {
+        "Width": 248.2,
+        "Height": 176.1,
+        "Depth": 8.5
+      },
+      "PhysicalWeight": "360",
+      "ModelIncludedPen": "LP-160"
     },
     {
       "EntityId": "WACOM.TABLET.CTL660",
@@ -3129,7 +3579,19 @@
       "_id": "9649dd11-ae4d-4447-a47c-53d2929dac57",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 216.5,
+        "Height": 137.0
+      },
+      "PhysicalDimensions": {
+        "Width": 336.8,
+        "Height": 223.0,
+        "Depth": 8.5
+      },
+      "PhysicalWeight": "600",
+      "ModelIncludedPen": "LP-160"
     },
     {
       "EntityId": "WACOM.TABLET.CTH661",
@@ -3142,7 +3604,19 @@
       "_id": "854dcad2-2624-4301-bde5-313c170e3a75",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 216.48,
+        "Height": 137.0
+      },
+      "PhysicalDimensions": {
+        "Width": 336.8,
+        "Height": 223.0,
+        "Depth": 8.5
+      },
+      "PhysicalWeight": "740",
+      "ModelIncludedPen": "LP-161E"
     },
     {
       "EntityId": "WACOM.TABLET.CTH461",
@@ -3155,7 +3629,19 @@
       "_id": "547b265d-6040-4ec3-a0d7-75c9477c23ab",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 147.2,
+        "Height": 92.0
+      },
+      "PhysicalDimensions": {
+        "Width": 248.2,
+        "Height": 176.1,
+        "Depth": 8.5
+      },
+      "PhysicalWeight": "420",
+      "ModelIncludedPen": "LP-161E"
     },
     {
       "EntityId": "WACOM.TABLET.CTL671",
@@ -3168,7 +3654,19 @@
       "_id": "734c2cd3-2723-413d-8d1c-151aa0942b4a",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 216.0,
+        "Height": 135.0
+      },
+      "PhysicalDimensions": {
+        "Width": 277.0,
+        "Height": 189.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "422",
+      "ModelIncludedPen": "LP-171"
     },
     {
       "EntityId": "WACOM.TABLET.CTL471",
@@ -3181,7 +3679,19 @@
       "_id": "5b23c5f4-37db-4423-954b-feb364d22c67",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 152.0,
+        "Height": 95.0
+      },
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 146.0,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "245",
+      "ModelIncludedPen": "LP-171"
     },
     {
       "EntityId": "WACOM.TABLET.CTL680",
@@ -3194,7 +3704,19 @@
       "_id": "97b64cdd-b2d0-43da-93b8-1110d92a6e42",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 216.0,
+        "Height": 135.0
+      },
+      "PhysicalDimensions": {
+        "Width": 275.0,
+        "Height": 221.5,
+        "Depth": 10.1
+      },
+      "PhysicalWeight": "500",
+      "ModelIncludedPen": "LP-180"
     },
     {
       "EntityId": "WACOM.TABLET.CTH680",
@@ -3207,7 +3729,19 @@
       "_id": "7dcc5572-b598-4c26-8569-ea0a02ff7eeb",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 216.0,
+        "Height": 135.0
+      },
+      "PhysicalDimensions": {
+        "Width": 275.0,
+        "Height": 221.5,
+        "Depth": 10.1
+      },
+      "PhysicalWeight": "520",
+      "ModelIncludedPen": "LP-180E"
     },
     {
       "EntityId": "WACOM.TABLET.CTL480",
@@ -3220,7 +3754,19 @@
       "_id": "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 152.0,
+        "Height": 95.0
+      },
+      "PhysicalDimensions": {
+        "Width": 209.9,
+        "Height": 177.5,
+        "Depth": 10.0
+      },
+      "PhysicalWeight": "300",
+      "ModelIncludedPen": "LP-180"
     },
     {
       "EntityId": "WACOM.TABLET.CTH480",
@@ -3233,7 +3779,856 @@
       "_id": "8be703ad-586c-4825-abaa-41070611bb2c",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "ModelStatus": "DISCONTINUED"
+      "ModelStatus": "DISCONTINUED",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 152.0,
+        "Height": 95.0
+      },
+      "PhysicalDimensions": {
+        "Width": 209.9,
+        "Height": 177.5,
+        "Depth": 10.0
+      },
+      "PhysicalWeight": "310",
+      "ModelIncludedPen": "LP-180E"
+    },
+    {
+      "EntityId": "WACOM.TABLET.MTE450",
+      "Brand": "WACOM",
+      "ModelLaunchYear": "",
+      "ModelId": "MTE-450",
+      "ModelName": "Bamboo MTE-450",
+      "ModelType": "PENTABLET",
+      "DigitizerDimensions": {
+        "Width": 147.6,
+        "Height": 92.3
+      },
+      "PhysicalDimensions": {
+        "Width": 200.0,
+        "Height": 186.0,
+        "Depth": 10.7
+      },
+      "DigitizerDensity": "100",
+      "PhysicalWeight": "370",
+      "ModelIncludedPen": "EP-150E",
+      "_id": "b1f9b803-7dd6-48c7-b007-9b772023da62",
+      "_CreateDate": "2026-04-01T18:26:13.000Z",
+      "_ModifiedDate": "2026-04-01T18:26:13.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.FW300",
+      "Brand": "WACOM",
+      "ModelLaunchYear": "",
+      "ModelId": "FW-300",
+      "ModelName": "Wacom FW-300",
+      "ModelType": "PENTABLET",
+      "DigitizerDimensions": {
+        "Width": 104.4,
+        "Height": 78.8
+      },
+      "PhysicalDimensions": {
+        "Width": 200.0,
+        "Height": 160.0,
+        "Depth": 23.0
+      },
+      "DigitizerDensity": "100",
+      "PhysicalWeight": "300",
+      "ModelIncludedPen": "UP-812E",
+      "_id": "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
+      "_CreateDate": "2026-04-01T18:26:13.000Z",
+      "_ModifiedDate": "2026-04-01T18:26:13.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE440",
+      "Brand": "WACOM",
+      "ModelLaunchYear": "",
+      "ModelId": "CTE-440",
+      "ModelName": "Bamboo CTE-440",
+      "ModelType": "PENTABLET",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 208.0,
+        "Height": 203.8,
+        "Depth": 17.8
+      },
+      "DigitizerDensity": "80",
+      "PhysicalWeight": "500",
+      "ModelIncludedPen": "EP-140E",
+      "_id": "8aa5061d-b26f-473c-878a-e3e8db4fd5f2",
+      "_CreateDate": "2026-04-01T18:26:13.000Z",
+      "_ModifiedDate": "2026-04-01T18:26:13.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE640",
+      "Brand": "WACOM",
+      "ModelLaunchYear": "",
+      "ModelId": "CTE-640",
+      "ModelName": "Bamboo CTE-640",
+      "ModelType": "PENTABLET",
+      "DigitizerDimensions": {
+        "Width": 208.8,
+        "Height": 150.8
+      },
+      "PhysicalDimensions": {
+        "Width": 278.0,
+        "Height": 263.8,
+        "Depth": 18.0
+      },
+      "DigitizerDensity": "80",
+      "PhysicalWeight": "860",
+      "ModelIncludedPen": "EP-140E",
+      "_id": "819a2d36-c970-4b7b-a0e5-17b96aebe911",
+      "_CreateDate": "2026-04-01T18:26:13.000Z",
+      "_ModifiedDate": "2026-04-01T18:26:13.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE460",
+      "Brand": "WACOM",
+      "ModelId": "CTE-460",
+      "ModelName": "Wacom CTE-460",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 147.6,
+        "Height": 92.3
+      },
+      "PhysicalDimensions": {
+        "Width": 195.0,
+        "Height": 197.0,
+        "Depth": 10.7
+      },
+      "PhysicalWeight": "300",
+      "ModelIncludedPen": "EP-150",
+      "_id": "481647b6-66f0-4b41-8313-ef3166220a84",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE660",
+      "Brand": "WACOM",
+      "ModelId": "CTE-660",
+      "ModelName": "Wacom CTE-660",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 216.5,
+        "Height": 135.3
+      },
+      "PhysicalDimensions": {
+        "Width": 263.9,
+        "Height": 240.0,
+        "Depth": 10.7
+      },
+      "PhysicalWeight": "490",
+      "ModelIncludedPen": "EP-150",
+      "_id": "5f277db4-74be-4f51-9ed8-1067e69ae366",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTT460",
+      "Brand": "WACOM",
+      "ModelId": "CTT-460",
+      "ModelName": "Wacom CTT-460",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 125.0,
+        "Height": 85.0
+      },
+      "PhysicalDimensions": {
+        "Width": 208.4,
+        "Height": 137.6,
+        "Depth": 7.5
+      },
+      "PhysicalWeight": "210",
+      "_id": "95759bd5-ad90-4dc3-8b14-988bd3846aba",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTH301",
+      "Brand": "WACOM",
+      "ModelId": "CTH-301",
+      "ModelName": "Wacom CTH-301",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "20",
+      "DigitizerDimensions": {
+        "Width": 107.0,
+        "Height": 67.0
+      },
+      "PhysicalDimensions": {
+        "Width": 141.4,
+        "Height": 166.5,
+        "Depth": 15.7
+      },
+      "PhysicalWeight": "140",
+      "_id": "a976874a-31ba-4db5-a51e-12b6d45e98ca",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTH300",
+      "Brand": "WACOM",
+      "ModelId": "CTH-300",
+      "ModelName": "Wacom CTH-300",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "20",
+      "DigitizerDimensions": {
+        "Width": 107.0,
+        "Height": 67.0
+      },
+      "PhysicalDimensions": {
+        "Width": 141.4,
+        "Height": 166.5,
+        "Depth": 15.7
+      },
+      "PhysicalWeight": "145",
+      "_id": "700f785f-aca8-403d-a347-4c9c7b342a2c",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.FB630",
+      "Brand": "WACOM",
+      "ModelId": "FB-630",
+      "ModelName": "Wacom FB-630",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "80",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 208.0,
+        "Depth": 17.5
+      },
+      "ModelIncludedPen": "EP-130",
+      "_id": "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE430",
+      "Brand": "WACOM",
+      "ModelId": "CTE-430",
+      "ModelName": "Wacom CTE-430",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "80",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 208.0,
+        "Depth": 17.5
+      },
+      "PhysicalWeight": "500",
+      "ModelIncludedPen": "EP-130",
+      "_id": "77471e7e-24fb-4504-82f6-4383c87ef761",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE630BT",
+      "Brand": "WACOM",
+      "ModelId": "CTE-630BT",
+      "ModelName": "Wacom CTE-630BT",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "80",
+      "DigitizerDimensions": {
+        "Width": 208.8,
+        "Height": 150.8
+      },
+      "PhysicalDimensions": {
+        "Width": 257.0,
+        "Height": 280.0
+      },
+      "ModelIncludedPen": "EP-130E",
+      "_id": "fb5f0dbe-189f-4fcd-9594-a689384c9b77",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTE630",
+      "Brand": "WACOM",
+      "ModelId": "CTE-630",
+      "ModelName": "Wacom CTE-630",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "80",
+      "DigitizerDimensions": {
+        "Width": 208.8,
+        "Height": 150.8
+      },
+      "PhysicalDimensions": {
+        "Width": 275.5,
+        "Height": 256.8,
+        "Depth": 18.1
+      },
+      "PhysicalWeight": "800",
+      "ModelIncludedPen": "EP-130",
+      "_id": "db9bef5c-47c5-4556-9532-77cb8903694b",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTF430",
+      "Brand": "WACOM",
+      "ModelId": "CTF-430",
+      "ModelName": "Wacom CTF-430",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 195.0,
+        "Height": 197.0,
+        "Depth": 10.7
+      },
+      "PhysicalWeight": "300",
+      "ModelIncludedPen": "FP-500",
+      "_id": "96a27443-d4f6-4086-970d-bcf2f43c1c89",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTF221",
+      "Brand": "WACOM",
+      "ModelId": "CTF-221",
+      "ModelName": "Wacom CTF-221",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 81.2,
+        "Height": 58.0
+      },
+      "PhysicalDimensions": {
+        "Width": 146.0,
+        "Height": 150.6,
+        "Depth": 8.5
+      },
+      "PhysicalWeight": "160",
+      "ModelIncludedPen": "FP-410",
+      "_id": "7a4254fc-d326-400c-a360-ee865bbb7ca1",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CTF420",
+      "Brand": "WACOM",
+      "ModelId": "CTF-420",
+      "ModelName": "Wacom CTF-420",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 200.6,
+        "Height": 205.2,
+        "Depth": 12.9
+      },
+      "PhysicalWeight": "340",
+      "ModelIncludedPen": "FP-410",
+      "_id": "a7f1f73e-e80e-45c6-a65e-110405e88cf3",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.FT0203U",
+      "Brand": "WACOM",
+      "ModelId": "FT-0203-U",
+      "ModelName": "Wacom FT-0203-U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 65.0,
+        "Height": 46.4
+      },
+      "ModelIncludedPen": "FP-110",
+      "_id": "3b998f71-1696-4a81-9432-f0a8c6005bf5",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.FT0405U",
+      "Brand": "WACOM",
+      "ModelId": "FT-0405-U",
+      "ModelName": "Wacom FT-0405-U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 224.1,
+        "Height": 221.0,
+        "Depth": 22.3
+      },
+      "PhysicalWeight": "314",
+      "ModelIncludedPen": "FP-100",
+      "_id": "57e86c16-60a6-47d6-9097-6537b9d258fc",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.ET0405AU",
+      "Brand": "WACOM",
+      "ModelId": "ET-0405A-U",
+      "ModelName": "Wacom ET-0405A-U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 216.1,
+        "Height": 218.0,
+        "Depth": 9.3
+      },
+      "PhysicalWeight": "426",
+      "ModelIncludedPen": "EP-120E",
+      "_id": "0228d88a-29b6-4c72-a657-65c7713dc600",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.ET0507AU",
+      "Brand": "WACOM",
+      "ModelId": "ET-0507A-U",
+      "ModelName": "Wacom ET-0507A-U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 174.4,
+        "Height": 127.8
+      },
+      "PhysicalDimensions": {
+        "Width": 284.0,
+        "Height": 241.0,
+        "Depth": 9.8
+      },
+      "PhysicalWeight": "560",
+      "ModelIncludedPen": "EP-120E",
+      "_id": "5b6b01b0-0203-4791-845c-b4bedc8d00ab",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.ET0405U",
+      "Brand": "WACOM",
+      "ModelId": "ET-0405-U",
+      "ModelName": "Wacom ET-0405-U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 209.0,
+        "Height": 214.0,
+        "Depth": 9.3
+      },
+      "PhysicalWeight": "342",
+      "ModelIncludedPen": "EP-100E",
+      "_id": "cf6efc20-4d44-4c80-9d10-1a7e19453c91",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.ET0405R",
+      "Brand": "WACOM",
+      "ModelId": "ET-0405-R",
+      "ModelName": "Wacom ET-0405-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 127.6,
+        "Height": 92.8
+      },
+      "PhysicalDimensions": {
+        "Width": 209.0,
+        "Height": 214.0,
+        "Depth": 9.3
+      },
+      "PhysicalWeight": "342",
+      "ModelIncludedPen": "EP-100E",
+      "_id": "6a5119e0-3993-4e4a-940c-0e98bcec7cf2",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CT0405U",
+      "Brand": "WACOM",
+      "ModelId": "CT-0405-U",
+      "ModelName": "Wacom CT-0405-U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 128.0,
+        "Height": 96.0
+      },
+      "PhysicalDimensions": {
+        "Width": 196.0,
+        "Height": 181.0,
+        "Depth": 7.0
+      },
+      "PhysicalWeight": "430",
+      "ModelIncludedPen": "UP-703E",
+      "_id": "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CT0405R",
+      "Brand": "WACOM",
+      "ModelId": "CT-0405-R",
+      "ModelName": "Wacom CT-0405-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 128.0,
+        "Height": 96.0
+      },
+      "PhysicalDimensions": {
+        "Width": 196.0,
+        "Height": 181.0,
+        "Depth": 7.0
+      },
+      "PhysicalWeight": "430",
+      "ModelIncludedPen": "UP-703E",
+      "_id": "62a21f41-f8de-4641-abc9-f0a071911f9a",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.CT0405A",
+      "Brand": "WACOM",
+      "ModelId": "CT-0405-A",
+      "ModelName": "Wacom CT-0405-A",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "40",
+      "DigitizerDimensions": {
+        "Width": 128.0,
+        "Height": 96.0
+      },
+      "PhysicalDimensions": {
+        "Width": 196.0,
+        "Height": 181.0,
+        "Depth": 7.0
+      },
+      "PhysicalWeight": "430",
+      "ModelIncludedPen": "UP-703E",
+      "_id": "74193ca2-68c5-4e6e-b9f4-c8c4537a6161",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.KT0405R",
+      "Brand": "WACOM",
+      "ModelId": "KT-0405-R",
+      "ModelName": "Wacom KT-0405-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 128.0,
+        "Height": 96.0
+      },
+      "PhysicalDimensions": {
+        "Width": 191.0,
+        "Height": 175.0,
+        "Depth": 6.98
+      },
+      "PhysicalWeight": "400",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "2d59e782-b141-45f4-879e-3123dadf4768",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.KT0608R",
+      "Brand": "WACOM",
+      "ModelId": "KT-0608-R",
+      "ModelName": "Wacom KT-0608-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 204.8,
+        "Height": 153.6
+      },
+      "PhysicalDimensions": {
+        "Width": 330.0,
+        "Height": 243.0,
+        "Depth": 13.9
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "33c99a6b-311f-4bbb-abc0-f6618606e632",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.KT0405RNB",
+      "Brand": "WACOM",
+      "ModelId": "KT-0405-RNB",
+      "ModelName": "Wacom KT-0405-RNB",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 128.0,
+        "Height": 96.0
+      },
+      "PhysicalDimensions": {
+        "Width": 191.0,
+        "Height": 175.0,
+        "Depth": 6.98
+      },
+      "PhysicalWeight": "400",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "90d162e3-5d09-42e7-9e2e-9ef6d50da1b5",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.KT0405ANB",
+      "Brand": "WACOM",
+      "ModelId": "KT-0405-ANB",
+      "ModelName": "Wacom KT-0405-ANB",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 128.0,
+        "Height": 96.0
+      },
+      "PhysicalDimensions": {
+        "Width": 191.0,
+        "Height": 175.0,
+        "Depth": 6.98
+      },
+      "PhysicalWeight": "400",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "1a59d57e-2dac-47a4-9b26-b64af2d2edc5",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.PTU600U",
+      "Brand": "WACOM",
+      "ModelId": "PTU-600U",
+      "ModelName": "Wacom PTU-600U",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 204.8,
+        "Height": 153.6
+      },
+      "PhysicalDimensions": {
+        "Width": 330.0,
+        "Height": 243.0,
+        "Depth": 13.9
+      },
+      "PhysicalWeight": "900",
+      "_id": "55e9b443-d52f-4f4c-8d46-5816ab9f191b",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD0608R",
+      "Brand": "WACOM",
+      "ModelId": "UD-0608-R",
+      "ModelName": "Wacom UD-0608-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 204.8,
+        "Height": 153.6
+      },
+      "PhysicalDimensions": {
+        "Width": 330.0,
+        "Height": 243.0,
+        "Depth": 13.9
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "a70e90a9-1511-4b03-a7bc-0335e129332e",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD0608A",
+      "Brand": "WACOM",
+      "ModelId": "UD-0608-A",
+      "ModelName": "Wacom UD-0608-A",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 204.8,
+        "Height": 153.6
+      },
+      "PhysicalDimensions": {
+        "Width": 330.0,
+        "Height": 243.0,
+        "Depth": 13.9
+      },
+      "PhysicalWeight": "900",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD1212R",
+      "Brand": "WACOM",
+      "ModelId": "UD-1212-R",
+      "ModelName": "Wacom UD-1212-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 407.0,
+        "Height": 417.0,
+        "Depth": 36.0
+      },
+      "PhysicalWeight": "2200",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD1212A",
+      "Brand": "WACOM",
+      "ModelId": "UD-1212-A",
+      "ModelName": "Wacom UD-1212-A",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 304.8,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 407.0,
+        "Height": 417.0,
+        "Depth": 36.0
+      },
+      "PhysicalWeight": "2200",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD1218R",
+      "Brand": "WACOM",
+      "ModelId": "UD-1218-R",
+      "ModelName": "Wacom UD-1218-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 572.0,
+        "Height": 430.0,
+        "Depth": 56.0
+      },
+      "PhysicalWeight": "3300",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD1218A",
+      "Brand": "WACOM",
+      "ModelId": "UD-1218-A",
+      "ModelName": "Wacom UD-1218-A",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 457.2,
+        "Height": 304.8
+      },
+      "PhysicalDimensions": {
+        "Width": 572.0,
+        "Height": 430.0,
+        "Depth": 56.0
+      },
+      "PhysicalWeight": "3300",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "d0e57e62-6372-46bf-890b-6b5d844df7a3",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.TABLET.UD1825R",
+      "Brand": "WACOM",
+      "ModelId": "UD-1825-R",
+      "ModelName": "Wacom UD-1825-R",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "50",
+      "DigitizerDimensions": {
+        "Width": 635.0,
+        "Height": 462.0
+      },
+      "PhysicalDimensions": {
+        "Width": 778.0,
+        "Height": 615.0,
+        "Depth": 78.0
+      },
+      "PhysicalWeight": "9700",
+      "ModelIncludedPen": "UP-801E",
+      "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
+      "_CreateDate": "2026-04-01T18:30:12.000Z",
+      "_ModifiedDate": "2026-04-01T18:30:12.000Z"
     }
   ]
 }
