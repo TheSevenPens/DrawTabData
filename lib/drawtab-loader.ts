@@ -91,6 +91,12 @@ export async function loadTablets(dataBaseUrl: string): Promise<Tablet[]> {
   return loadBrandPartitionedData<Tablet>(dataBaseUrl, "tablets", "DrawingTablets");
 }
 
+// --- Driver loader ---
+
+export async function loadDrivers(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
+  return loadBrandPartitionedData<Record<string, unknown>>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
+}
+
 // --- Accessors ---
 
 export function getBrands(tablets: Tablet[]): string[] {

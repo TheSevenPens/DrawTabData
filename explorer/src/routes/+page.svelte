@@ -61,7 +61,9 @@
 	});
 </script>
 
-<h1>DrawTabData Explorer</h1>
+<h1>Tablets</h1>
+
+<p class="back"><a href="/drivers">Drivers &rarr;</a></p>
 
 <SavedViews {steps} entityType="tablets" defaultView={TABLET_DEFAULT_VIEW} onload={loadView} />
 
@@ -92,7 +94,7 @@
 	<button onclick={() => addStep('take')}>+ Limit</button>
 </div>
 
-<ResultsTable data={result.data} visibleFields={result.visibleFields} fields={TABLET_FIELDS} total={allTablets.length} entityLabel="tablets" />
+<ResultsTable data={result.data} visibleFields={result.visibleFields} fields={TABLET_FIELDS} total={allTablets.length} entityLabel="tablets" detailBasePath="/tablets" />
 
 <style>
 	:global(*) { box-sizing: border-box; margin: 0; padding: 0; }
@@ -104,7 +106,19 @@
 		color: #222;
 	}
 
-	h1 { margin-bottom: 16px; }
+	h1 { margin-bottom: 8px; }
+
+	.back {
+		margin-bottom: 16px;
+		font-size: 14px;
+	}
+
+	.back a {
+		color: #2563eb;
+		text-decoration: none;
+	}
+
+	.back a:hover { text-decoration: underline; }
 
 	.pipeline { margin-bottom: 20px; }
 
