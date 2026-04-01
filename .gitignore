@@ -4,3 +4,7 @@ dist/
 .svelte-kit/
 explorer/static/tablets/
 explorer/static/drivers/
+explorer/static/pens/
+explorer/static/pen-families/
+explorer/static/tablet-families/
+explorer/static/pen-compat/

@@ -1,100 +1,36 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { loadTablets, type Tablet } from '../../../lib/drawtab-loader.js';
-	import { type Step, executePipeline } from '$lib/pipeline/index.js';
 	import {
 		TABLET_FIELDS,
 		TABLET_FIELD_GROUPS,
 		TABLET_DEFAULT_COLUMNS,
 		TABLET_DEFAULT_VIEW,
 	} from '$lib/entities/tablet-fields.js';
-	import FilterStep from '$lib/components/FilterStep.svelte';
-	import SortStep from '$lib/components/SortStep.svelte';
-	import SelectStep from '$lib/components/SelectStep.svelte';
-	import TakeStep from '$lib/components/TakeStep.svelte';
-	import ResultsTable from '$lib/components/ResultsTable.svelte';
-	import SavedViews from '$lib/components/SavedViews.svelte';
+	import EntityExplorer from '$lib/components/EntityExplorer.svelte';
+	import Nav from '$lib/components/Nav.svelte';
 
-	let allTablets: Tablet[] = $state([]);
-	let steps: Step[] = $state(JSON.parse(JSON.stringify(TABLET_DEFAULT_VIEW)));
-	let tick = $state(0);
-
-	let result = $derived.by(() => {
-		void tick;
-		return executePipeline(allTablets, steps, TABLET_FIELDS, TABLET_DEFAULT_COLUMNS);
-	});
-
-	function refresh() {
-		tick++;
-	}
-
-	function addStep(kind: Step['kind']) {
-		switch (kind) {
-			case 'filter':
-				steps.push({ kind: 'filter', field: 'Brand', operator: '==', value: '' });
-				break;
-			case 'sort':
-				steps.push({ kind: 'sort', field: 'Brand', direction: 'asc' });
-				break;
-			case 'select':
-				if (!steps.some((s) => s.kind === 'select')) {
-					steps.push({ kind: 'select', fields: [...TABLET_DEFAULT_COLUMNS] });
-				}
-				break;
-			case 'take':
-				steps.push({ kind: 'take', count: 50 });
-				break;
-		}
-	}
-
-	function removeStep(index: number) {
-		steps.splice(index, 1);
-	}
-
-	function loadView(loaded: Step[]) {
-		steps = loaded;
-		refresh();
-	}
+	let data: Tablet[] = $state([]);
 
 	onMount(async () => {
-		allTablets = await loadTablets('');
+		data = await loadTablets('');
 	});
 </script>
 
-<h1>Tablets</h1>
-
-<p class="back"><a href="/drivers">Drivers &rarr;</a></p>
-
-<SavedViews {steps} entityType="tablets" defaultView={TABLET_DEFAULT_VIEW} onload={loadView} />
-
-<div class="pipeline">
-	<div class="pipeline-source">
-		Tablets <span class="count">({allTablets.length} records)</span>
-	</div>
-
-	{#each steps as step, i (i)}
-		<div class="pipe-connector">|</div>
-
-		{#if step.kind === 'filter'}
-			<FilterStep bind:step={steps[i]} fields={TABLET_FIELDS} onchange={refresh} onremove={() => removeStep(i)} />
-		{:else if step.kind === 'sort'}
-			<SortStep bind:step={steps[i]} fields={TABLET_FIELDS} onchange={refresh} onremove={() => removeStep(i)} />
-		{:else if step.kind === 'select'}
-			<SelectStep bind:step={steps[i]} fields={TABLET_FIELDS} fieldGroups={TABLET_FIELD_GROUPS} onchange={refresh} onremove={() => removeStep(i)} />
-		{:else if step.kind === 'take'}
-			<TakeStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
-		{/if}
-	{/each}
-</div>
-
-<div class="add-step">
-	<button onclick={() => addStep('filter')}>+ Filter</button>
-	<button onclick={() => addStep('sort')}>+ Sort</button>
-	<button onclick={() => addStep('select')}>+ Select Columns</button>
-	<button onclick={() => addStep('take')}>+ Limit</button>
-</div>
-
-<ResultsTable data={result.data} visibleFields={result.visibleFields} fields={TABLET_FIELDS} total={allTablets.length} entityLabel="tablets" detailBasePath="/tablets" />
+<Nav />
+<EntityExplorer
+	title="Tablets"
+	entityType="tablets"
+	entityLabel="tablets"
+	{data}
+	fields={TABLET_FIELDS}
+	fieldGroups={TABLET_FIELD_GROUPS}
+	defaultColumns={TABLET_DEFAULT_COLUMNS}
+	defaultView={TABLET_DEFAULT_VIEW}
+	detailBasePath="/tablets"
+	defaultFilterField="Brand"
+	defaultSortField="Brand"
+/>
 
 <style>
 	:global(*) { box-sizing: border-box; margin: 0; padding: 0; }
@@ -104,69 +40,6 @@
 		padding: 24px;
 		background: #f5f5f5;
 		color: #222;
-	}
-
-	h1 { margin-bottom: 8px; }
-
-	.back {
-		margin-bottom: 16px;
-		font-size: 14px;
-	}
-
-	.back a {
-		color: #2563eb;
-		text-decoration: none;
-	}
-
-	.back a:hover { text-decoration: underline; }
-
-	.pipeline { margin-bottom: 20px; }
-
-	.pipeline-source {
-		display: inline-flex;
-		align-items: center;
-		gap: 8px;
-		background: #2563eb;
-		color: #fff;
-		padding: 8px 14px;
-		border-radius: 6px;
-		font-size: 14px;
-		font-weight: 600;
-		margin-bottom: 8px;
-	}
-
-	.pipeline-source .count {
-		font-weight: 400;
-		opacity: 0.8;
-	}
-
-	.pipe-connector {
-		padding: 2px 0 2px 18px;
-		color: #999;
-		font-size: 18px;
-		line-height: 1;
-	}
-
-	.add-step {
-		margin-top: 8px;
-		margin-bottom: 20px;
-		display: flex;
-		gap: 6px;
-	}
-
-	.add-step button {
-		padding: 6px 12px;
-		font-size: 13px;
-		border: 1px dashed #aaa;
-		background: #fff;
-		border-radius: 4px;
-		cursor: pointer;
-		color: #555;
-	}
-
-	.add-step button:hover {
-		border-color: #2563eb;
-		color: #2563eb;
 	}
 
 	:global(.step) {
@@ -216,6 +89,13 @@
 	}
 
 	:global(.step-remove:hover) { color: #e11d48; }
+
+	:global(.pipe-connector) {
+		padding: 2px 0 2px 18px;
+		color: #999;
+		font-size: 18px;
+		line-height: 1;
+	}
 
 	:global(.results-bar) {
 		font-size: 14px;
