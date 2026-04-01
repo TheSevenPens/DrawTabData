@@ -12,7 +12,19 @@ git submodule add https://github.com/TheSevenPens/DrawTabData.git data-repo
 
 Your project can now import from `data-repo/lib/`.
 
-## Loading tablets
+## Two loaders
+
+There are two loader modules depending on your environment:
+
+- **`drawtab-loader.ts`** — fetch-based, works in browsers and Node.js 18+.
+  Use this when loading data from a URL (your own server, a CDN, etc).
+
+- **`drawtab-loader-node.ts`** — filesystem-based, Node.js only.
+  Use this when reading the data files directly from the submodule on disk.
+
+Both provide the same entity loaders and return the same types.
+
+## Loading tablets from a URL (fetch-based)
 
 ```typescript
 import { loadTablets, type Tablet } from "./data-repo/lib/drawtab-loader.js";
@@ -25,42 +37,74 @@ The `baseUrl` parameter is the URL prefix where the JSON files are served.
 For example, if your files are at `https://example.com/data/tablets/WACOM-tablets.json`,
 pass `"https://example.com/data"`.
 
-## Loading pens
+## Loading tablets from disk (Node.js)
 
 ```typescript
-import { loadPens } from "./data-repo/lib/drawtab-loader.js";
+import { loadTabletsFromDisk, type Tablet } from "./data-repo/lib/drawtab-loader-node.js";
 
+const tablets = loadTabletsFromDisk("./data-repo/data");
+console.log(`Loaded ${tablets.length} tablets`);
+```
+
+The `dataDir` parameter is the path to the `data/` directory. If you added
+DrawTabData as a submodule at `data-repo/`, that's `"./data-repo/data"`.
+
+Note: disk loaders are synchronous — no `await` needed.
+
+## Loading pens
+
+**From URL:**
+```typescript
+import { loadPens } from "./data-repo/lib/drawtab-loader.js";
 const pens = await loadPens("https://your-server.com/data");
 ```
 
-## Loading other entities
+**From disk:**
+```typescript
+import { loadPensFromDisk } from "./data-repo/lib/drawtab-loader-node.js";
+const pens = loadPensFromDisk("./data-repo/data");
+```
 
-All loaders follow the same pattern:
+## Loading all entities
 
+All loaders follow the same pattern. Here are both approaches side by side:
+
+**From URL (async):**
 ```typescript
 import {
-  loadTablets,
-  loadPens,
-  loadPenCompat,
-  loadPenFamilies,
-  loadTabletFamilies,
-  loadDrivers,
+  loadTablets, loadPens, loadPenCompat,
+  loadPenFamilies, loadTabletFamilies, loadDrivers,
 } from "./data-repo/lib/drawtab-loader.js";
 
-const tablets       = await loadTablets(baseUrl);
-const pens          = await loadPens(baseUrl);
-const penCompat     = await loadPenCompat(baseUrl);
-const penFamilies   = await loadPenFamilies(baseUrl);
+const tablets        = await loadTablets(baseUrl);
+const pens           = await loadPens(baseUrl);
+const penCompat      = await loadPenCompat(baseUrl);
+const penFamilies    = await loadPenFamilies(baseUrl);
 const tabletFamilies = await loadTabletFamilies(baseUrl);
-const drivers       = await loadDrivers(baseUrl);
+const drivers        = await loadDrivers(baseUrl);
+```
+
+**From disk (sync):**
+```typescript
+import {
+  loadTabletsFromDisk, loadPensFromDisk, loadPenCompatFromDisk,
+  loadPenFamiliesFromDisk, loadTabletFamiliesFromDisk, loadDriversFromDisk,
+} from "./data-repo/lib/drawtab-loader-node.js";
+
+const dataDir = "./data-repo/data";
+
+const tablets        = loadTabletsFromDisk(dataDir);
+const pens           = loadPensFromDisk(dataDir);
+const penCompat      = loadPenCompatFromDisk(dataDir);
+const penFamilies    = loadPenFamiliesFromDisk(dataDir);
+const tabletFamilies = loadTabletFamiliesFromDisk(dataDir);
+const drivers        = loadDriversFromDisk(dataDir);
 ```
 
 ## Filtering tablets by brand
 
 ```typescript
-import { loadTablets, filterByBrand, getBrands } from "./data-repo/lib/drawtab-loader.js";
-
-const tablets = await loadTablets(baseUrl);
+import { getBrands, filterByBrand } from "./data-repo/lib/drawtab-loader.js";
 
 // List all brands
 const brands = getBrands(tablets);
@@ -70,12 +114,13 @@ const brands = getBrands(tablets);
 const wacomTablets = filterByBrand(tablets, "WACOM");
 ```
 
+Note: `getBrands`, `filterByBrand`, and `filterByType` are also available
+from `drawtab-loader-node.js`.
+
 ## Filtering tablets by type
 
 ```typescript
-import { loadTablets, filterByType } from "./data-repo/lib/drawtab-loader.js";
-
-const tablets = await loadTablets(baseUrl);
+import { filterByType } from "./data-repo/lib/drawtab-loader.js";
 
 const penDisplays = filterByType(tablets, "PENDISPLAY");
 const penTablets  = filterByType(tablets, "PENTABLET");
@@ -84,19 +129,12 @@ const penTablets  = filterByType(tablets, "PENTABLET");
 ## Finding a tablet by EntityId
 
 ```typescript
-const tablets = await loadTablets(baseUrl);
 const tablet = tablets.find(t => t.EntityId === "WACOM.TABLET.PTK870");
 ```
 
 ## For each tablet, list compatible pens
 
 ```typescript
-import { loadTablets, loadPens, loadPenCompat } from "./data-repo/lib/drawtab-loader.js";
-
-const tablets   = await loadTablets(baseUrl);
-const pens      = await loadPens(baseUrl);
-const penCompat = await loadPenCompat(baseUrl);
-
 // Build a lookup: tabletId -> set of compatible penIds
 const compatMap = new Map<string, Set<string>>();
 for (const row of penCompat) {
@@ -109,7 +147,7 @@ for (const row of penCompat) {
 // Build a pen lookup by PenId
 const penMap = new Map(pens.map(p => [p.PenId as string, p]));
 
-// Print compatible pens for each Wacom tablet
+// Print compatible pens for each tablet
 for (const tablet of tablets) {
   const compatPenIds = compatMap.get(tablet.ModelId) ?? new Set();
   if (compatPenIds.size === 0) continue;
@@ -159,10 +197,7 @@ using composable steps:
 ```typescript
 import { executePipeline } from "./data-repo/lib/pipeline/index.js";
 import { TABLET_FIELDS, TABLET_DEFAULT_COLUMNS } from "./data-repo/lib/entities/tablet-fields.js";
-import { loadTablets } from "./data-repo/lib/drawtab-loader.js";
 import type { Step } from "./data-repo/lib/pipeline/types.js";
-
-const tablets = await loadTablets(baseUrl);
 
 const steps: Step[] = [
   { kind: "filter", field: "Brand", operator: "==", value: "WACOM" },
