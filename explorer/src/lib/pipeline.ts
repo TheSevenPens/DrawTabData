@@ -37,55 +37,71 @@ export interface FieldDef {
   getValue: (t: Tablet) => string;
   type: "string" | "number" | "enum";
   enumValues?: string[];
+  computed?: boolean;
+  group: string;
 }
 
+export const FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Computed"];
+
 export const FIELDS: FieldDef[] = [
-  { key: "EntityId", label: "Entity ID", getValue: (t) => t.EntityId, type: "string" },
-  { key: "ModelBrand", label: "Brand", getValue: (t) => t.ModelBrand, type: "enum", enumValues: ["HUION", "WACOM", "XENCELABS", "XPPEN"] },
-  { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string" },
-  { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string" },
-  { key: "ModelType", label: "Type", getValue: (t) => t.ModelType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY"] },
-  { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.ModelLaunchYear, type: "number" },
-  { key: "ModelAudience", label: "Audience", getValue: (t) => t.ModelAudience ?? "", type: "enum", enumValues: ["Consumer", "Enthusiast", "Professional"] },
-  { key: "ModelFamily", label: "Family", getValue: (t) => t.ModelFamily ?? "", type: "string" },
-  { key: "ModelStatus", label: "Status", getValue: (t) => t.ModelStatus ?? "", type: "enum", enumValues: ["ACTIVE", "AVAILABLE", "DISCONTINUED"] },
-  { key: "ModelIncludedPen", label: "Included Pen", getValue: (t) => t.ModelIncludedPen ?? "", type: "string" },
-  { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.DigitizerType ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"] },
-  { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.DigitizerPressureLevels ?? "", type: "number" },
-  { key: "DigitizerReportRate", label: "Report Rate", getValue: (t) => t.DigitizerReportRate ?? "", type: "number" },
-  { key: "DigitizerResolution", label: "Digitizer Resolution", getValue: (t) => t.DigitizerResolution ?? "", type: "number" },
-  { key: "DigitizerTilt", label: "Tilt", getValue: (t) => t.DigitizerTilt ?? "", type: "number" },
-  { key: "DigitizerAccuracyCenter", label: "Accuracy (Center)", getValue: (t) => t.DigitizerAccuracyCenter ?? "", type: "number" },
-  { key: "DigitizerAccuracyCorner", label: "Accuracy (Corner)", getValue: (t) => t.DigitizerAccuracyCorner ?? "", type: "number" },
-  { key: "DigitizerMaxHover", label: "Max Hover", getValue: (t) => t.DigitizerMaxHover ?? "", type: "number" },
-  { key: "DigitizerSupportsTouch", label: "Touch", getValue: (t) => t.DigitizerSupportsTouch ?? "", type: "enum", enumValues: ["YES", "NO"] },
+  // Model
+  { key: "EntityId", label: "Entity ID", getValue: (t) => t.EntityId, type: "string", group: "Model" },
+  { key: "ModelBrand", label: "Brand", getValue: (t) => t.ModelBrand, type: "enum", enumValues: ["HUION", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
+  { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string", group: "Model" },
+  { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Model" },
+  { key: "ModelType", label: "Type", getValue: (t) => t.ModelType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY"], group: "Model" },
+  { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.ModelLaunchYear, type: "number", group: "Model" },
+  { key: "ModelAudience", label: "Audience", getValue: (t) => t.ModelAudience ?? "", type: "enum", enumValues: ["Consumer", "Enthusiast", "Professional"], group: "Model" },
+  { key: "ModelFamily", label: "Family", getValue: (t) => t.ModelFamily ?? "", type: "string", group: "Model" },
+  { key: "ModelStatus", label: "Status", getValue: (t) => t.ModelStatus ?? "", type: "enum", enumValues: ["ACTIVE", "AVAILABLE", "DISCONTINUED"], group: "Model" },
+  { key: "ModelIncludedPen", label: "Included Pen", getValue: (t) => t.ModelIncludedPen ?? "", type: "string", group: "Model" },
+  // Digitizer
+  { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.DigitizerType ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
+  { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.DigitizerPressureLevels ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerReportRate", label: "Report Rate", getValue: (t) => t.DigitizerReportRate ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerResolution", label: "Digitizer Resolution", getValue: (t) => t.DigitizerResolution ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerTilt", label: "Tilt", getValue: (t) => t.DigitizerTilt ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerAccuracyCenter", label: "Accuracy (Center)", getValue: (t) => t.DigitizerAccuracyCenter ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerAccuracyCorner", label: "Accuracy (Corner)", getValue: (t) => t.DigitizerAccuracyCorner ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerMaxHover", label: "Max Hover", getValue: (t) => t.DigitizerMaxHover ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerSupportsTouch", label: "Touch", getValue: (t) => t.DigitizerSupportsTouch ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Digitizer" },
   {
-    key: "DigitizerDimensions", label: "Active Area",
+    key: "DigitizerDimensions", label: "Active Area", group: "Digitizer",
     getValue: (t) => { const d = t.DigitizerDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
-  { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => t.DisplayPanelTech ?? "", type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"] },
-  { key: "DisplayBrightness", label: "Brightness", getValue: (t) => t.DisplayBrightness ?? "", type: "number" },
-  { key: "DisplayContrast", label: "Contrast", getValue: (t) => t.DisplayContrast ?? "", type: "number" },
-  { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => t.DisplayColorBitDepth ?? "", type: "number" },
-  { key: "DisplayLamination", label: "Lamination", getValue: (t) => t.DisplayLamination ?? "", type: "enum", enumValues: ["YES", "NO"] },
-  { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => t.DisplayAntiGlare ?? "", type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"] },
-  { key: "DisplayResponseTime", label: "Response Time", getValue: (t) => t.DisplayResponseTime ?? "", type: "number" },
-  { key: "DisplayRefreshRate", label: "Refresh Rate", getValue: (t) => t.DisplayRefreshRate ?? "", type: "number" },
+  // Display
+  { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => t.DisplayPanelTech ?? "", type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"], group: "Display" },
+  { key: "DisplayBrightness", label: "Brightness", getValue: (t) => t.DisplayBrightness ?? "", type: "number", group: "Display" },
+  { key: "DisplayContrast", label: "Contrast", getValue: (t) => t.DisplayContrast ?? "", type: "number", group: "Display" },
+  { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => t.DisplayColorBitDepth ?? "", type: "number", group: "Display" },
+  { key: "DisplayLamination", label: "Lamination", getValue: (t) => t.DisplayLamination ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Display" },
+  { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => t.DisplayAntiGlare ?? "", type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"], group: "Display" },
+  { key: "DisplayResponseTime", label: "Response Time", getValue: (t) => t.DisplayResponseTime ?? "", type: "number", group: "Display" },
+  { key: "DisplayRefreshRate", label: "Refresh Rate", getValue: (t) => t.DisplayRefreshRate ?? "", type: "number", group: "Display" },
   {
-    key: "DisplayResolution", label: "Display Resolution",
+    key: "DisplayResolution", label: "Display Resolution", group: "Display",
     getValue: (t) => { const d = t.DisplayResolution; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
-  { key: "PhysicalWeight", label: "Weight (g)", getValue: (t) => t.PhysicalWeight ?? "", type: "number" },
+  // Physical
+  { key: "PhysicalWeight", label: "Weight (g)", getValue: (t) => t.PhysicalWeight ?? "", type: "number", group: "Physical" },
   {
-    key: "PhysicalDimensions", label: "Physical Dimensions",
+    key: "PhysicalDimensions", label: "Physical Dimensions", group: "Physical",
     getValue: (t) => {
       const d = t.PhysicalDimensions;
       if (!d) return "";
       return d.Depth ? `${d.Width} x ${d.Height} x ${d.Depth}` : `${d.Width} x ${d.Height}`;
     },
     type: "string",
+  },
+  // Computed
+  {
+    key: "Age", label: "Age (years)", computed: true, type: "number", group: "Computed",
+    getValue: (t) => {
+      const year = parseInt(t.ModelLaunchYear, 10);
+      return isNaN(year) ? "" : String(new Date().getFullYear() - year);
+    },
   },
 ];
 
@@ -98,7 +114,7 @@ export function getFieldDef(key: string): FieldDef | undefined {
 // --- Default visible columns ---
 
 export const DEFAULT_COLUMNS = [
-  "EntityId", "ModelBrand", "ModelName", "ModelType", "ModelLaunchYear",
+  "EntityId", "ModelBrand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
   "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions",
   "DisplayResolution", "PhysicalWeight", "ModelStatus",
 ];
