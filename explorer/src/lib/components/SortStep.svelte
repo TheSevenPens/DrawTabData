@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { FIELDS, type SortStep } from '$lib/pipeline.js';
 
-	let { step, onchange, onremove }: { step: SortStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), onchange, onremove }: { step: SortStep; onchange: () => void; onremove: () => void } = $props();
 </script>
 
 <div class="step">

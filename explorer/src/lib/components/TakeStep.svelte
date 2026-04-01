@@ -1,7 +1,7 @@
 <script lang="ts">
 	import type { TakeStep } from '$lib/pipeline.js';
 
-	let { step, onchange, onremove }: { step: TakeStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), onchange, onremove }: { step: TakeStep; onchange: () => void; onremove: () => void } = $props();
 </script>
 
 <div class="step">

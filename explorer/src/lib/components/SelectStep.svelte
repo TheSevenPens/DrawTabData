@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { FIELDS, FIELD_GROUPS, type SelectStep } from '$lib/pipeline.js';
 
-	let { step, onchange, onremove }: { step: SelectStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), onchange, onremove }: { step: SelectStep; onchange: () => void; onremove: () => void } = $props();
 
 	function toggle(key: string, checked: boolean) {
 		if (checked) {

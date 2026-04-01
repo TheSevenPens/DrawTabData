@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { FIELDS, getFieldDef, getOperatorsForField, type FilterStep } from '$lib/pipeline.js';
 
-	let { step, onchange, onremove }: { step: FilterStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), onchange, onremove }: { step: FilterStep; onchange: () => void; onremove: () => void } = $props();
 
 	let fieldDef = $derived(getFieldDef(step.field));
 	let operators = $derived(fieldDef ? getOperatorsForField(fieldDef) : []);

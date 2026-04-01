@@ -11,6 +11,7 @@
 	import SelectStep from '$lib/components/SelectStep.svelte';
 	import TakeStep from '$lib/components/TakeStep.svelte';
 	import ResultsTable from '$lib/components/ResultsTable.svelte';
+	import SavedViews from '$lib/components/SavedViews.svelte';
 
 	let allTablets: Tablet[] = $state([]);
 	let steps: Step[] = $state([]);
@@ -48,12 +49,19 @@
 		steps.splice(index, 1);
 	}
 
+	function loadView(loaded: Step[]) {
+		steps = loaded;
+		refresh();
+	}
+
 	onMount(async () => {
 		allTablets = await loadTablets('');
 	});
 </script>
 
 <h1>DrawTabData Explorer</h1>
+
+<SavedViews {steps} onload={loadView} />
 
 <div class="pipeline">
 	<div class="pipeline-source">
@@ -64,13 +72,13 @@
 		<div class="pipe-connector">|</div>
 
 		{#if step.kind === 'filter'}
-			<FilterStep {step} onchange={refresh} onremove={() => removeStep(i)} />
+			<FilterStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
 		{:else if step.kind === 'sort'}
-			<SortStep {step} onchange={refresh} onremove={() => removeStep(i)} />
+			<SortStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
 		{:else if step.kind === 'select'}
-			<SelectStep {step} onchange={refresh} onremove={() => removeStep(i)} />
+			<SelectStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
 		{:else if step.kind === 'take'}
-			<TakeStep {step} onchange={refresh} onremove={() => removeStep(i)} />
+			<TakeStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
 		{/if}
 	{/each}
 </div>
