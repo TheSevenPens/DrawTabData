@@ -1,4 +1,4 @@
-import { type Tablet } from "../lib/drawtab-loader.js";
+import { type Tablet } from "../../../lib/drawtab-loader.js";
 
 // --- Step types ---
 

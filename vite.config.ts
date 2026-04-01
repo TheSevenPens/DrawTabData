@@ -1,9 +1,12 @@
+import { sveltekit } from "@sveltejs/kit/vite";
 import { defineConfig } from "vite";
 import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  root: "explorer",
-  publicDir: path.resolve(__dirname, "data"),
+  plugins: [sveltekit()],
   server: {
     fs: {
       allow: [path.resolve(__dirname)],

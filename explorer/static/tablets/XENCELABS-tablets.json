@@ -1,0 +1,100 @@
+{
+  "DrawingTablets": [
+    {
+      "DigitizerDimensions": {
+        "Width": 176,
+        "Height": 99
+      },
+      "DigitizerPressureLevels": "8192",
+      "DigitizerResolution": "200",
+      "DigitizerTilt": "60",
+      "DigitizerType": "PASSIVE_EMR",
+      "ModelAudience": "Professional",
+      "ModelBrand": "XENCELABS",
+      "ModelId": "BPH0812W-A",
+      "ModelIncludedPen": "PH5-A",
+      "ModelLaunchYear": "2021",
+      "ModelName": "Pen Tablet Small",
+      "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
+      "ModelType": "PENTABLET",
+      "PhysicalDimensions": {
+        "Width": 234.18,
+        "Height": 184.66,
+        "Depth": 8.0
+      },
+      "PhysicalWeight": "398",
+      "_CreateDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
+      "EntityId": "XENCELABS.BPH0812WA"
+    },
+    {
+      "DigitizerDimensions": {
+        "Width": 262,
+        "Height": 147
+      },
+      "DigitizerPressureLevels": "8192",
+      "DigitizerResolution": "200",
+      "DigitizerTilt": "60",
+      "DigitizerType": "PASSIVE_EMR",
+      "ModelAudience": "Professional",
+      "ModelBrand": "XENCELABS",
+      "ModelId": "BPH1212W-A",
+      "ModelIncludedPen": "PH5-A",
+      "ModelLaunchYear": "2020",
+      "ModelName": "Pen Tablet Medium",
+      "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
+      "ModelType": "PENTABLET",
+      "PhysicalDimensions": {
+        "Width": 320.5,
+        "Height": 232.5,
+        "Depth": 8.0
+      },
+      "PhysicalWeight": "715",
+      "_CreateDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
+      "EntityId": "XENCELABS.BPH1212WA"
+    },
+    {
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
+      "DigitizerPressureLevels": "8192",
+      "DigitizerResolution": "200",
+      "DigitizerTilt": "60",
+      "DigitizerType": "PASSIVE_EMR",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayBrightness": "330",
+      "DisplayColorBitDepth": "10",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 99,
+        "DCIP3": 93
+      },
+      "DisplayLamination": "YES",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
+      "ModelAudience": "Professional",
+      "ModelBrand": "XENCELABS",
+      "ModelId": "LPH2412U-A",
+      "ModelIncludedPen": "PH5-A",
+      "ModelLaunchYear": "2023",
+      "ModelName": "Pen Display 24",
+      "ModelProductLink": "https://www.xencelabs.com/us/products/pen-display",
+      "ModelType": "PENDISPLAY",
+      "PhysicalDimensions": {
+        "Width": 618.5,
+        "Height": 388.0,
+        "Depth": 34.7
+      },
+      "PhysicalWeight": "6000.00",
+      "_CreateDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
+      "EntityId": "XENCELABS.LPH2412UA"
+    }
+  ]
+}
