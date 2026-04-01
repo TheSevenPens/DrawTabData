@@ -6,7 +6,6 @@
       "InventoryId": "SAP.0001",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -71,7 +70,8 @@
       "_id": "e56ae9d0-1404-4c55-9332-15b60272509d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "SAMSUNG.PEN.SPEN"
+      "PenEntityId": "SAMSUNG.PEN.SPEN",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "SAMSUNG",
@@ -79,7 +79,6 @@
       "InventoryId": "SAP.0002",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -172,7 +171,8 @@
       "_id": "b2930abb-d05f-4e38-a404-c0fea76e742d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "SAMSUNG.PEN.SPEN"
+      "PenEntityId": "SAMSUNG.PEN.SPEN",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "SAMSUNG",
@@ -180,7 +180,6 @@
       "InventoryId": "SAP.0003",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -253,7 +252,8 @@
       "_id": "09b3ade7-0798-490a-bf87-c30b664271d2",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "SAMSUNG.PEN.SPEN"
+      "PenEntityId": "SAMSUNG.PEN.SPEN",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "SAMSUNG",
@@ -261,7 +261,6 @@
       "InventoryId": "SAP.0004",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -318,7 +317,8 @@
       "_id": "df41a5fb-13b9-4ebd-b1a7-8fdc3b1a4f14",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "SAMSUNG.PEN.SPENCREATOR"
+      "PenEntityId": "SAMSUNG.PEN.SPENCREATOR",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     }
   ]
 }

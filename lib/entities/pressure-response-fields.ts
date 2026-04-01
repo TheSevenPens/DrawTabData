@@ -26,19 +26,19 @@ export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
     },
   },
   // Environment
-  { key: "Tablet", label: "Tablet", getValue: (s) => s.Tablet, type: "string", group: "Environment" },
+  { key: "TabletEntityId", label: "TabletEntityId", getValue: (s) => s.TabletEntityId, type: "string", group: "Environment" },
   { key: "Driver", label: "Driver", getValue: (s) => s.Driver, type: "string", group: "Environment" },
   { key: "OS", label: "OS", getValue: (s) => s.OS, type: "enum", enumValues: ["WINDOWS", "MACOS"], group: "Environment" },
 ];
 
 export const PRESSURE_RESPONSE_DEFAULT_COLUMNS = [
-  "Brand", "PenEntityId", "InventoryId", "Date", "DataPoints", "MaxGf", "Tablet", "OS",
+  "Brand", "PenEntityId", "InventoryId", "Date", "DataPoints", "MaxGf", "TabletEntityId", "OS",
 ];
 
 export const PRESSURE_RESPONSE_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["Brand", "PenEntityId", "InventoryId", "Date", "DataPoints", "MaxGf", "Tablet", "OS"],
+    fields: ["Brand", "PenEntityId", "InventoryId", "Date", "DataPoints", "MaxGf", "TabletEntityId", "OS"],
   },
   { kind: "sort", field: "Date", direction: "desc" },
 ];

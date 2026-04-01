@@ -112,7 +112,7 @@ export interface PressureResponse {
   InventoryId: string;
   Date: string;
   User: string;
-  Tablet: string;
+  TabletEntityId: string;
   Driver: string;
   OS: string;
   Notes: string;

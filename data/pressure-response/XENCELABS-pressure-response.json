@@ -6,7 +6,6 @@
       "InventoryId": "XEP.0001",
       "Date": "2024-09-04",
       "User": "sevenpens",
-      "Tablet": "XENCELABS_PENTABLETMEDIUM",
       "Driver": "XENCELABS",
       "OS": "MACOS",
       "Notes": "",
@@ -99,7 +98,8 @@
       "_id": "6358a6f2-5a65-4c35-8c52-f2796f3308f6",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV1"
+      "PenEntityId": "XENCELABS.PEN.3BUTTONV1",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     },
     {
       "Brand": "XENCELABS",
@@ -107,7 +107,6 @@
       "InventoryId": "XEP.0002",
       "Date": "2025-08-28",
       "User": "THESE",
-      "Tablet": "PENTABLETMEDIUMV2",
       "Driver": "XENCELABS",
       "OS": "WINDOWS",
       "Notes": "",
@@ -240,7 +239,8 @@
       "_id": "52ddc005-7c97-44cc-a7dd-df21b0e992bd",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV2"
+      "PenEntityId": "XENCELABS.PEN.3BUTTONV2",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     },
     {
       "Brand": "XENCELABS",
@@ -248,7 +248,6 @@
       "InventoryId": "XEP.0005",
       "Date": "2025-08-28",
       "User": "SEVEN",
-      "Tablet": "PENTABLETMEDIUMV2",
       "Driver": "XENCELABS",
       "OS": "WINDOWS",
       "Notes": "",
@@ -457,7 +456,8 @@
       "_id": "a7fbedd6-3897-4ba3-a055-5a3594f3f829",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV2"
+      "PenEntityId": "XENCELABS.PEN.3BUTTONV2",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     },
     {
       "Brand": "XENCELABS",
@@ -465,7 +465,6 @@
       "InventoryId": "XEP.0007",
       "Date": "2025-08-28",
       "User": "THESE",
-      "Tablet": "PENTABLETMEDIUMV2",
       "Driver": "XENCELABS",
       "OS": "WINDOWS",
       "Notes": "",
@@ -618,7 +617,8 @@
       "_id": "e2f52fce-ca3f-445e-8c11-a9115b822bf1",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV2"
+      "PenEntityId": "XENCELABS.PEN.3BUTTONV2",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     },
     {
       "Brand": "XENCELABS",
@@ -626,7 +626,6 @@
       "InventoryId": "XEP.0004",
       "Date": "2025-08-28",
       "User": "THESE",
-      "Tablet": "PENTABLETMEDIUMV2",
       "Driver": "XENCELABS",
       "OS": "WINDOWS",
       "Notes": "",
@@ -779,7 +778,8 @@
       "_id": "07a55848-2dd5-4b54-966a-a8c27a16cbac",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.THINV2"
+      "PenEntityId": "XENCELABS.PEN.THINV2",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     },
     {
       "Brand": "XENCELABS",
@@ -787,7 +787,6 @@
       "InventoryId": "XEP.0006",
       "Date": "2025-08-28",
       "User": "THESE",
-      "Tablet": "PENTABLETMEDIUMV2",
       "Driver": "XENCELABS",
       "OS": "WINDOWS",
       "Notes": "",
@@ -980,7 +979,8 @@
       "_id": "34557525-1841-4512-b603-740e9999faf0",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.THINV2"
+      "PenEntityId": "XENCELABS.PEN.THINV2",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     },
     {
       "Brand": "XENCELABS",
@@ -988,7 +988,6 @@
       "InventoryId": "XEP.0008",
       "Date": "2025-08-28",
       "User": "THESE",
-      "Tablet": "PENTABLETMEDIUMV2",
       "Driver": "XENCELABS",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1221,7 +1220,8 @@
       "_id": "ddb530da-ca43-4a21-9c95-8b1886dff217",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "XENCELABS.PEN.THINV2"
+      "PenEntityId": "XENCELABS.PEN.THINV2",
+      "TabletEntityId": "XENCELABS.TABLET.BPH1212WA"
     }
   ]
 }

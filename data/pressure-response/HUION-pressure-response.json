@@ -6,7 +6,6 @@
       "InventoryId": "HUP.0024",
       "Date": "2025-11-01",
       "User": "SEVEN",
-      "Tablet": "H640P",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -119,7 +118,8 @@
       "_id": "0da4f1d8-525d-4b54-9e1a-43ae1e18d9af",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW100"
+      "PenEntityId": "HUION.PEN.PW100",
+      "TabletEntityId": "HUION.TABLET.H640P"
     },
     {
       "Brand": "HUION",
@@ -127,7 +127,6 @@
       "InventoryId": "HUP.0024",
       "Date": "2025-11-02",
       "User": "SEVEN",
-      "Tablet": "H640P",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -240,7 +239,8 @@
       "_id": "bf39c94a-1065-4057-aa5c-60847942f5e2",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW100"
+      "PenEntityId": "HUION.PEN.PW100",
+      "TabletEntityId": "HUION.TABLET.H640P"
     },
     {
       "Brand": "HUION",
@@ -248,7 +248,6 @@
       "InventoryId": "HUP.0011",
       "Date": "2025-11-03",
       "User": "SEVEN",
-      "Tablet": "H1061P",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -325,7 +324,8 @@
       "_id": "b9b31b12-36ca-4d3c-8abd-d23a68d15ec5",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW110"
+      "PenEntityId": "HUION.PEN.PW110",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -333,7 +333,6 @@
       "InventoryId": "HUP.0015",
       "Date": "2025-11-03",
       "User": "SEVEN",
-      "Tablet": "H1061P",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -482,7 +481,8 @@
       "_id": "3de61e26-4386-458d-9ec5-fa6e29d6c56b",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW110"
+      "PenEntityId": "HUION.PEN.PW110",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -490,7 +490,6 @@
       "InventoryId": "HUP.0013",
       "Date": "2024-09-24",
       "User": "sevenpens",
-      "Tablet": "HUION_HS611",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -639,7 +638,8 @@
       "_id": "3938aafe-cbba-4f84-9f37-04d72f968393",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW500"
+      "PenEntityId": "HUION.PEN.PW500",
+      "TabletEntityId": "HUION.TABLET.HS611"
     },
     {
       "Brand": "HUION",
@@ -647,7 +647,6 @@
       "InventoryId": "HUP.0001",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -816,7 +815,8 @@
       "_id": "3b0eba6e-ad8d-4a25-8d3c-2591760b6775",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -824,7 +824,6 @@
       "InventoryId": "HUP.0001",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -981,7 +980,8 @@
       "_id": "6e192fa3-1b95-43fa-93ce-a3da86b42397",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -989,7 +989,6 @@
       "InventoryId": "HUP.0002",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1138,7 +1137,8 @@
       "_id": "02de3e30-4b4d-4b1b-82f4-1a14ad93d623",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1146,7 +1146,6 @@
       "InventoryId": "HUP.0002",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1239,7 +1238,8 @@
       "_id": "9158aac3-f797-4f50-9f2a-d0c69d3cf829",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1247,7 +1247,6 @@
       "InventoryId": "HUP.0003",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1348,7 +1347,8 @@
       "_id": "654fd959-b475-4584-ae28-824c60dad5d6",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1356,7 +1356,6 @@
       "InventoryId": "HUP.0003",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1449,7 +1448,8 @@
       "_id": "68b031b4-08c0-45bb-8ee7-74b4780d5499",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1457,7 +1457,6 @@
       "InventoryId": "HUP.0004",
       "Date": "2024-09-24",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1542,7 +1541,8 @@
       "_id": "d2f8e2e8-63bb-4f32-bb1a-2623bd49b7c2",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1550,7 +1550,6 @@
       "InventoryId": "HUP.0004",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1691,7 +1690,8 @@
       "_id": "6b4caaff-b5e2-46b0-999d-fe2f49b5a0a2",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1699,7 +1699,6 @@
       "InventoryId": "HUP.0005",
       "Date": "2024-09-24",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1792,7 +1791,8 @@
       "_id": "981940f3-dab2-4057-824d-605632476734",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1800,7 +1800,6 @@
       "InventoryId": "HUP.0005",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1921,7 +1920,8 @@
       "_id": "d026c93c-596a-41b3-8238-9e219c288c09",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -1929,7 +1929,6 @@
       "InventoryId": "HUP.0019",
       "Date": "2025-03-19",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2066,7 +2065,8 @@
       "_id": "5644a1e5-7257-484f-8311-598df674eec3",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -2074,7 +2074,6 @@
       "InventoryId": "HUP.0019",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2243,7 +2242,8 @@
       "_id": "b68f03b1-474f-495a-a73a-1edeb67eab2b",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -2251,7 +2251,6 @@
       "InventoryId": "HUP.0025",
       "Date": "2025-11-03",
       "User": "SEVEN",
-      "Tablet": "H1061P",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2348,7 +2347,8 @@
       "_id": "6e66f2a9-0835-42b1-a849-5caa5a447cac",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW517"
+      "PenEntityId": "HUION.PEN.PW517",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -2356,7 +2356,6 @@
       "InventoryId": "HUP.0006",
       "Date": "2024-09-01",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2557,7 +2556,8 @@
       "_id": "1f585f8c-e000-4a7d-b868-33557052d340",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -2565,7 +2565,6 @@
       "InventoryId": "HUP.0006",
       "Date": "2025-09-27",
       "User": "SEVEN",
-      "Tablet": "FREGO_M",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2706,7 +2705,8 @@
       "_id": "693480b3-2cef-45d4-86d9-cb1fc97c801d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.L610"
     },
     {
       "Brand": "HUION",
@@ -2714,7 +2714,6 @@
       "InventoryId": "HUP.0008",
       "Date": "2024-09-01",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2835,7 +2834,8 @@
       "_id": "606a82a7-f440-4eab-a35f-81e4cd15169c",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -2843,7 +2843,6 @@
       "InventoryId": "HUP.0008",
       "Date": "2025-09-27",
       "User": "SEVEN",
-      "Tablet": "FREGO_M",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2984,7 +2983,8 @@
       "_id": "de7bd467-7595-460e-86f5-d7eb6a41a6ab",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.L610"
     },
     {
       "Brand": "HUION",
@@ -2992,7 +2992,6 @@
       "InventoryId": "HUP.0009",
       "Date": "2024-09-01",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3209,7 +3208,8 @@
       "_id": "303076a4-6f0f-4555-9e24-f3c38592f1b1",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -3217,7 +3217,6 @@
       "InventoryId": "HUP.0009",
       "Date": "2025-09-27",
       "User": "SEVEN",
-      "Tablet": "FREGO_M",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3314,7 +3313,8 @@
       "_id": "c5fc89a5-b5e5-4fed-b734-988bf8611e45",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.L610"
     },
     {
       "Brand": "HUION",
@@ -3322,7 +3322,6 @@
       "InventoryId": "HUP.0007",
       "Date": "2024-09-01",
       "User": "sevenpens",
-      "Tablet": "HUION_INSPIROY2",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3503,7 +3502,8 @@
       "_id": "c194cbd5-ef4f-4760-9787-d5ff95155417",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550S"
+      "PenEntityId": "HUION.PEN.PW550S",
+      "TabletEntityId": "HUION.TABLET.H1061P"
     },
     {
       "Brand": "HUION",
@@ -3511,7 +3511,6 @@
       "InventoryId": "HUP.0007",
       "Date": "2025-09-27",
       "User": "SEVEN",
-      "Tablet": "FREGO_M",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3612,7 +3611,8 @@
       "_id": "0fec2dd4-c1e9-40ed-9bda-af77dde7b5bf",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW550"
+      "PenEntityId": "HUION.PEN.PW550",
+      "TabletEntityId": "HUION.TABLET.L610"
     },
     {
       "Brand": "HUION",
@@ -3620,7 +3620,6 @@
       "InventoryId": "HUP.0014",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_KAMVAS13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3733,7 +3732,8 @@
       "_id": "74177bf9-cb44-4731-a5c4-15c41f245aa4",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -3741,7 +3741,6 @@
       "InventoryId": "HUP.0014",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "K13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3882,7 +3881,8 @@
       "_id": "6b1f5d0e-e516-4e73-ae1e-0492fbda8d73",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -3890,7 +3890,6 @@
       "InventoryId": "HUP.0016",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_KAMVAS13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3983,7 +3982,8 @@
       "_id": "27f17e89-e352-4c2f-b057-1e3f9c13cb6e",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -3991,7 +3991,6 @@
       "InventoryId": "HUP.0016",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "K13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4112,7 +4111,8 @@
       "_id": "5940c90f-558e-46eb-9753-9bed6ce176a0",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4120,7 +4120,6 @@
       "InventoryId": "HUP.0017",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_KAMVAS13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4245,7 +4244,8 @@
       "_id": "3a50948a-e72a-4696-abee-d5cf1c7d6e6f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4253,7 +4253,6 @@
       "InventoryId": "HUP.0017",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "K13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4438,7 +4437,8 @@
       "_id": "21f1ec30-5459-4321-94a8-6c9ee0863643",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4446,7 +4446,6 @@
       "InventoryId": "HUP.0018",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_KAMVAS13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4523,7 +4522,8 @@
       "_id": "86f19e8c-afb2-4895-b5ac-373df9bb7489",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600L"
+      "PenEntityId": "HUION.PEN.PW600L",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4531,7 +4531,6 @@
       "InventoryId": "HUP.0018",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "K13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4636,7 +4635,8 @@
       "_id": "4ec5f50b-50ec-4bf4-b50e-8cc978d83766",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600"
+      "PenEntityId": "HUION.PEN.PW600",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4644,7 +4644,6 @@
       "InventoryId": "HUP.0020",
       "Date": "2025-03-21",
       "User": "sevenpens",
-      "Tablet": "HUION_KAMVAS13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4849,7 +4848,8 @@
       "_id": "634151e8-4a03-49d6-821b-525e7bbee154",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600L"
+      "PenEntityId": "HUION.PEN.PW600L",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4857,7 +4857,6 @@
       "InventoryId": "HUP.0020",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "K13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4970,7 +4969,8 @@
       "_id": "643d96b4-a0b0-48ff-a15a-7ff52262ac09",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600L"
+      "PenEntityId": "HUION.PEN.PW600L",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -4978,7 +4978,6 @@
       "InventoryId": "HUP.0010",
       "Date": "2024-09-23",
       "User": "sevenpens",
-      "Tablet": "HUION_KAMVAS13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5071,7 +5070,8 @@
       "_id": "edc31584-271f-4d63-b000-43cd186d3566",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600S"
+      "PenEntityId": "HUION.PEN.PW600S",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     },
     {
       "Brand": "HUION",
@@ -5079,7 +5079,6 @@
       "InventoryId": "HUP.0010",
       "Date": "2025-09-26",
       "User": "SEVEN",
-      "Tablet": "K13GEN3",
       "Driver": "HUION",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5172,7 +5171,8 @@
       "_id": "8bf8bb8c-00be-4b70-8357-06656a12b5dd",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "HUION.PEN.PW600S"
+      "PenEntityId": "HUION.PEN.PW600S",
+      "TabletEntityId": "HUION.TABLET.GS1333"
     }
   ]
 }

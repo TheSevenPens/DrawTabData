@@ -6,7 +6,6 @@
       "InventoryId": "WAP.0030",
       "Date": "2025-03-25",
       "User": "sevenpens",
-      "Tablet": "WACOM_MOVINK13",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -143,7 +142,8 @@
       "_id": "a00cddaa-ea7f-4ad1-a43f-22d737575aaa",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.ACP500"
+      "PenEntityId": "WACOM.PEN.ACP500",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -151,7 +151,6 @@
       "InventoryId": "WAP.0031",
       "Date": "2025-03-25",
       "User": "sevenpens",
-      "Tablet": "WACOM_MOVINK13",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -284,7 +283,8 @@
       "_id": "e52836d2-c05f-4053-9371-b1ed1343e0dd",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.ACP500"
+      "PenEntityId": "WACOM.PEN.ACP500",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -292,7 +292,6 @@
       "InventoryId": "WAP.0032",
       "Date": "2025-04-10",
       "User": "SEVENPENS",
-      "Tablet": "PTK-670",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -465,7 +464,8 @@
       "_id": "bb184286-7d43-40a1-98b6-e7cb61feb69f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.ACP500"
+      "PenEntityId": "WACOM.PEN.ACP500",
+      "TabletEntityId": "WACOM.TABLET.PTK670"
     },
     {
       "Brand": "WACOM",
@@ -473,7 +473,6 @@
       "InventoryId": "WAP.0033",
       "Date": "2025-03-25",
       "User": "sevenpens",
-      "Tablet": "WACOM_MOVINK13",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -658,7 +657,8 @@
       "_id": "b6d3483f-33ca-4677-a776-b9015b654ba9",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.ACP500"
+      "PenEntityId": "WACOM.PEN.ACP500",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -666,7 +666,6 @@
       "InventoryId": "WAP.0039",
       "Date": "2025-03-25",
       "User": "sevenpens",
-      "Tablet": "WACOM_MOVINK13",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -831,7 +830,8 @@
       "_id": "46bd7426-ca6a-4c13-aa45-9a372f32ec8c",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.ACP500"
+      "PenEntityId": "WACOM.PEN.ACP500",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -839,7 +839,6 @@
       "InventoryId": "WAP.0040",
       "Date": "2025-04-10",
       "User": "SEVENPENS",
-      "Tablet": "PTK-670",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1064,7 +1063,8 @@
       "_id": "a0e01c6d-df77-4436-975e-6378608d8790",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.ACP500"
+      "PenEntityId": "WACOM.PEN.ACP500",
+      "TabletEntityId": "WACOM.TABLET.PTK670"
     },
     {
       "Brand": "WACOM",
@@ -1072,7 +1072,6 @@
       "InventoryId": "WAP.0034",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1205,7 +1204,8 @@
       "_id": "9c4f6fb7-d39f-4635-91ad-ab3706532f49",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP913"
+      "PenEntityId": "WACOM.PEN.CP913",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -1213,7 +1213,6 @@
       "InventoryId": "WAP.0035",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1314,7 +1313,8 @@
       "_id": "7636f815-edc7-4afa-bcf4-4a955f5ae3f1",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP913"
+      "PenEntityId": "WACOM.PEN.CP913",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -1322,7 +1322,6 @@
       "InventoryId": "WAP.0036",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1439,7 +1438,8 @@
       "_id": "3c4a0e9a-118b-4b24-a19e-66adda5370c5",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP913"
+      "PenEntityId": "WACOM.PEN.CP913",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -1447,7 +1447,6 @@
       "InventoryId": "WAP.0037",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1548,7 +1547,8 @@
       "_id": "cb6e146d-93c8-4e59-bd6c-dc6c1b6351c7",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP913"
+      "PenEntityId": "WACOM.PEN.CP913",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -1556,7 +1556,6 @@
       "InventoryId": "WAP.0009",
       "Date": "2024-09-03",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1749,7 +1748,8 @@
       "_id": "f8ea3b6c-aeb3-457d-989e-6aa1940a4385",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP923"
+      "PenEntityId": "WACOM.PEN.CP923",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -1757,7 +1757,6 @@
       "InventoryId": "WAP.0010",
       "Date": "2024-09-03",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -1890,7 +1889,8 @@
       "_id": "b2537cb1-c5b6-4506-80ba-2f469e49187d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP923"
+      "PenEntityId": "WACOM.PEN.CP923",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -1898,7 +1898,6 @@
       "InventoryId": "WAP.0011",
       "Date": "2024-09-03",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTC6110WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2095,7 +2094,8 @@
       "_id": "b5644ad3-e982-4628-98b8-8892bac811cf",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.CP923"
+      "PenEntityId": "WACOM.PEN.CP923",
+      "TabletEntityId": "WACOM.TABLET.CTC6110WL"
     },
     {
       "Brand": "WACOM",
@@ -2103,7 +2103,6 @@
       "InventoryId": "WAP.0041",
       "Date": "2025-04-04",
       "User": "SEVENPENS",
-      "Tablet": "PTK-670",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2428,7 +2427,8 @@
       "_id": "22b268ec-59e2-4e49-8098-0595b450778a",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP403E"
+      "PenEntityId": "WACOM.PEN.KP403E",
+      "TabletEntityId": "WACOM.TABLET.PTK670"
     },
     {
       "Brand": "WACOM",
@@ -2436,7 +2436,6 @@
       "InventoryId": "WAP.0042",
       "Date": "2025-04-04",
       "User": "SEVENPENS",
-      "Tablet": "PTK-670",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2641,7 +2640,8 @@
       "_id": "6fbf4422-fa56-46f6-8b9d-e51ebe724a3b",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP403E"
+      "PenEntityId": "WACOM.PEN.KP403E",
+      "TabletEntityId": "WACOM.TABLET.PTK670"
     },
     {
       "Brand": "WACOM",
@@ -2649,7 +2649,6 @@
       "InventoryId": "WAP.0021",
       "Date": "2024-10-01",
       "User": "sevenpens",
-      "Tablet": "WACOM_DTH135",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2762,7 +2761,8 @@
       "_id": "811f9524-3fbf-4111-a781-c05a793d57a1",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP501E"
+      "PenEntityId": "WACOM.PEN.KP501E",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -2770,7 +2770,6 @@
       "InventoryId": "WAP.0022",
       "Date": "2024-10-01",
       "User": "sevenpens",
-      "Tablet": "WACOM_DTH135",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -2931,7 +2930,8 @@
       "_id": "1174b3dd-6af1-494d-a39a-758c83ca9c27",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP501E"
+      "PenEntityId": "WACOM.PEN.KP501E",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -2939,7 +2939,6 @@
       "InventoryId": "WAP.0023",
       "Date": "2024-10-01",
       "User": "sevenpens",
-      "Tablet": "WACOM_DTH135",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3036,7 +3035,8 @@
       "_id": "5ca46c5b-4c20-4b4d-a9bb-e3cf57bc6733",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP501E"
+      "PenEntityId": "WACOM.PEN.KP501E",
+      "TabletEntityId": "WACOM.TABLET.DTH135"
     },
     {
       "Brand": "WACOM",
@@ -3044,7 +3044,6 @@
       "InventoryId": "WAP.0001",
       "Date": "2024-09-02",
       "User": "sevenpens",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3293,7 +3292,8 @@
       "_id": "82fbecf1-12a7-437f-aa83-fbabf5487611",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -3301,7 +3301,6 @@
       "InventoryId": "WAP.0001",
       "Date": "2025-11-10",
       "User": "SEVEN",
-      "Tablet": "PTH-870",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3394,7 +3393,8 @@
       "_id": "da169a97-efd4-43f6-99d8-863a6c07abca",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH860"
     },
     {
       "Brand": "WACOM",
@@ -3402,7 +3402,6 @@
       "InventoryId": "WAP.0002",
       "Date": "2024-09-02",
       "User": "sevenpens",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3671,7 +3670,8 @@
       "_id": "3df18065-3ea2-466c-b77f-95293ea5e860",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -3679,7 +3679,6 @@
       "InventoryId": "WAP.0003",
       "Date": "2024-09-02",
       "User": "sevenpens",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3888,7 +3887,8 @@
       "_id": "876bd54f-e406-49a2-a8c7-fe179feb0b22",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -3896,7 +3896,6 @@
       "InventoryId": "WAP.0003",
       "Date": "2025-11-10",
       "User": "SEVEN",
-      "Tablet": "PTH-870",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -3977,7 +3976,8 @@
       "_id": "79fe7a8c-7068-4c52-8a2e-566fbb79ed0f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH860"
     },
     {
       "Brand": "WACOM",
@@ -3985,7 +3985,6 @@
       "InventoryId": "WAP.0004",
       "Date": "2024-09-02",
       "User": "sevenpens",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4138,7 +4137,8 @@
       "_id": "6dd2d6f2-e6f5-41ef-b365-fa53833ed4f3",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -4146,7 +4146,6 @@
       "InventoryId": "WAP.0005",
       "Date": "2024-09-02",
       "User": "SEVENPENS",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4351,7 +4350,8 @@
       "_id": "5180fcfd-8062-43ae-aea0-3b1006efc40f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -4359,7 +4359,6 @@
       "InventoryId": "WAP.0005",
       "Date": "2025-11-10",
       "User": "SEVEN",
-      "Tablet": "PTH-870",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4440,7 +4439,8 @@
       "_id": "0ed7be5f-4075-48f6-a30e-aa8c83e4a3c0",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH860"
     },
     {
       "Brand": "WACOM",
@@ -4448,7 +4448,6 @@
       "InventoryId": "WAP.0024",
       "Date": "2024-09-02",
       "User": "sevenpens",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4649,7 +4648,8 @@
       "_id": "d2dfdab8-68be-419b-87cd-377d49da3130",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -4657,7 +4657,6 @@
       "InventoryId": "WAP.0038",
       "Date": "2025-03-21",
       "User": "sevenpens",
-      "Tablet": "WACOM_PTH660",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4858,7 +4857,8 @@
       "_id": "8dfbc078-0786-4717-a2c3-23d381abf3fa",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH660"
     },
     {
       "Brand": "WACOM",
@@ -4866,7 +4866,6 @@
       "InventoryId": "WAP.0038",
       "Date": "2025-11-10",
       "User": "SEVEN",
-      "Tablet": "PTH-870",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -4967,7 +4966,8 @@
       "_id": "88b37356-09be-45bf-b2a0-6c44e83adf3f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH860"
     },
     {
       "Brand": "WACOM",
@@ -4975,7 +4975,6 @@
       "InventoryId": "WAP.0047",
       "Date": "2025-11-10",
       "User": "SEVEN",
-      "Tablet": "PTH-870",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5112,7 +5111,8 @@
       "_id": "0e033929-58d6-4ec2-86c6-3e57a61bd94f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH860"
     },
     {
       "Brand": "WACOM",
@@ -5120,7 +5120,6 @@
       "InventoryId": "WAP.0050",
       "Date": "2025-11-10",
       "User": "SEVEN",
-      "Tablet": "PTH-870",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5277,7 +5276,8 @@
       "_id": "53e63f8c-cc82-4f70-8ec1-7fafa93cf514",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP504E"
+      "PenEntityId": "WACOM.PEN.KP504E",
+      "TabletEntityId": "WACOM.TABLET.PTH860"
     },
     {
       "Brand": "WACOM",
@@ -5285,7 +5285,6 @@
       "InventoryId": "WAP.0025",
       "Date": "2025-04-05",
       "User": "SEVENPENS",
-      "Tablet": "PTK-670",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5570,7 +5569,8 @@
       "_id": "07c69921-4fc0-40ab-bc8f-9444e0c69cdd",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP701E"
+      "PenEntityId": "WACOM.PEN.KP701E",
+      "TabletEntityId": "WACOM.TABLET.PTK670"
     },
     {
       "Brand": "WACOM",
@@ -5578,7 +5578,6 @@
       "InventoryId": "WAP.0026",
       "Date": "2025-04-05",
       "User": "SEVENPENS",
-      "Tablet": "PTK-670",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5755,7 +5754,8 @@
       "_id": "d34aad94-f1ca-4786-98a3-d4387d3ef3b4",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.KP701E"
+      "PenEntityId": "WACOM.PEN.KP701E",
+      "TabletEntityId": "WACOM.TABLET.PTK670"
     },
     {
       "Brand": "WACOM",
@@ -5763,7 +5763,6 @@
       "InventoryId": "WAP.0006",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTL6100WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5840,7 +5839,8 @@
       "_id": "c78ea491-bc58-46b3-90d9-f29ba172b69c",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.LP1100K"
+      "PenEntityId": "WACOM.PEN.LP1100K",
+      "TabletEntityId": "WACOM.TABLET.CTL6100WL"
     },
     {
       "Brand": "WACOM",
@@ -5848,7 +5848,6 @@
       "InventoryId": "WAP.0007",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTL6100WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -5937,7 +5936,8 @@
       "_id": "8e4a3bac-94a5-431d-8e4f-b5d9ab04b348",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.LP1100K"
+      "PenEntityId": "WACOM.PEN.LP1100K",
+      "TabletEntityId": "WACOM.TABLET.CTL6100WL"
     },
     {
       "Brand": "WACOM",
@@ -5945,7 +5945,6 @@
       "InventoryId": "WAP.0008",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTL6100WL",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -6038,7 +6037,8 @@
       "_id": "59bcc62f-b83d-4be0-8224-08e4f72b154c",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.LP1100K"
+      "PenEntityId": "WACOM.PEN.LP1100K",
+      "TabletEntityId": "WACOM.TABLET.CTL6100WL"
     },
     {
       "Brand": "WACOM",
@@ -6046,7 +6046,6 @@
       "InventoryId": "WAP.0027",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTL672",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -6139,7 +6138,8 @@
       "_id": "c3a4f65c-13eb-4b3d-8f2b-43dfeb214898",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.LP190K"
+      "PenEntityId": "WACOM.PEN.LP190K",
+      "TabletEntityId": "WACOM.TABLET.CTL672"
     },
     {
       "Brand": "WACOM",
@@ -6147,7 +6147,6 @@
       "InventoryId": "WAP.0028",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTL672",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -6216,7 +6215,8 @@
       "_id": "2fc9b49d-2a04-4562-88f2-b9dfb8afbc8d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.LP190K"
+      "PenEntityId": "WACOM.PEN.LP190K",
+      "TabletEntityId": "WACOM.TABLET.CTL672"
     },
     {
       "Brand": "WACOM",
@@ -6224,7 +6224,6 @@
       "InventoryId": "WAP.0029",
       "Date": "2024-09-30",
       "User": "sevenpens",
-      "Tablet": "WACOM_CTL672",
       "Driver": "WACOM",
       "OS": "WINDOWS",
       "Notes": "",
@@ -6313,7 +6312,8 @@
       "_id": "5868df89-2c61-4dfe-8728-6d319233e516",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
       "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "WACOM.PEN.LP190K"
+      "PenEntityId": "WACOM.PEN.LP190K",
+      "TabletEntityId": "WACOM.TABLET.CTL672"
     }
   ]
 }
