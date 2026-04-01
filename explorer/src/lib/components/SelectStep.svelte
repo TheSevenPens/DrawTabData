@@ -1,7 +1,13 @@
 <script lang="ts">
-	import { FIELDS, FIELD_GROUPS, type SelectStep } from '$lib/pipeline.js';
+	import type { FieldDef, SelectStep } from '$lib/pipeline/index.js';
 
-	let { step = $bindable(), onchange, onremove }: { step: SelectStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), fields, fieldGroups, onchange, onremove }: {
+		step: SelectStep;
+		fields: FieldDef<any>[];
+		fieldGroups: string[];
+		onchange: () => void;
+		onremove: () => void;
+	} = $props();
 
 	function toggle(key: string, checked: boolean) {
 		if (checked) {
@@ -13,7 +19,7 @@
 	}
 
 	function toggleGroup(group: string, checked: boolean) {
-		const groupKeys = FIELDS.filter((f) => f.group === group).map((f) => f.key);
+		const groupKeys = fields.filter((f) => f.group === group).map((f) => f.key);
 		if (checked) {
 			const toAdd = groupKeys.filter((k) => !step.fields.includes(k));
 			step.fields = [...step.fields, ...toAdd];
@@ -24,12 +30,12 @@
 	}
 
 	function isGroupChecked(group: string): boolean {
-		const groupKeys = FIELDS.filter((f) => f.group === group).map((f) => f.key);
+		const groupKeys = fields.filter((f) => f.group === group).map((f) => f.key);
 		return groupKeys.every((k) => step.fields.includes(k));
 	}
 
 	function isGroupIndeterminate(group: string): boolean {
-		const groupKeys = FIELDS.filter((f) => f.group === group).map((f) => f.key);
+		const groupKeys = fields.filter((f) => f.group === group).map((f) => f.key);
 		const count = groupKeys.filter((k) => step.fields.includes(k)).length;
 		return count > 0 && count < groupKeys.length;
 	}
@@ -39,7 +45,7 @@
 	<div class="step-type">project</div>
 	<div class="step-controls">
 		<div class="columns-groups">
-			{#each FIELD_GROUPS as group}
+			{#each fieldGroups as group}
 				{@const checked = isGroupChecked(group)}
 				{@const indeterminate = isGroupIndeterminate(group)}
 				<div class="column-group">
@@ -53,7 +59,7 @@
 						<strong>{group}</strong>
 					</label>
 					<div class="group-fields">
-						{#each FIELDS.filter((f) => f.group === group) as f}
+						{#each fields.filter((f) => f.group === group) as f}
 							<label>
 								<input
 									type="checkbox"

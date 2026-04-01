@@ -1,14 +1,19 @@
 <script lang="ts">
-	import { FIELDS, type SortStep } from '$lib/pipeline.js';
+	import type { FieldDef, SortStep } from '$lib/pipeline/index.js';
 
-	let { step = $bindable(), onchange, onremove }: { step: SortStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), fields, onchange, onremove }: {
+		step: SortStep;
+		fields: FieldDef<any>[];
+		onchange: () => void;
+		onremove: () => void;
+	} = $props();
 </script>
 
 <div class="step">
 	<div class="step-type">sort by</div>
 	<div class="step-controls">
 		<select value={step.field} onchange={(e) => { step.field = (e.target as HTMLSelectElement).value; onchange(); }}>
-			{#each FIELDS as f}
+			{#each fields as f}
 				<option value={f.key} selected={f.key === step.field}>{f.label}</option>
 			{/each}
 		</select>

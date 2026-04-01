@@ -57,28 +57,38 @@ export interface Tablet {
   _ModifiedDate: string;
 }
 
-interface TabletFile {
-  DrawingTablets: Tablet[];
-}
-
-// --- Loader ---
+// --- Generic loader ---
 
 const BRANDS = ["HUION", "WACOM", "XENCELABS", "XPPEN"];
 
-export async function loadTablets(dataBaseUrl: string): Promise<Tablet[]> {
-  const all: Tablet[] = [];
-  const fetches = BRANDS.map(async (brand) => {
-    const url = `${dataBaseUrl}/tablets/${brand}-tablets.json`;
+export async function loadBrandPartitionedData<T>(
+  dataBaseUrl: string,
+  entityPath: string,
+  rootKey: string,
+  brands: string[] = BRANDS,
+): Promise<T[]> {
+  const all: T[] = [];
+  const fetches = brands.map(async (brand) => {
+    const url = `${dataBaseUrl}/${entityPath}/${brand}-${entityPath}.json`;
     const resp = await fetch(url);
     if (!resp.ok) {
       console.warn(`Failed to load ${url}: ${resp.status}`);
       return;
     }
-    const data: TabletFile = await resp.json();
-    all.push(...data.DrawingTablets);
+    const data = await resp.json();
+    const items = data[rootKey];
+    if (Array.isArray(items)) {
+      all.push(...items);
+    }
   });
   await Promise.all(fetches);
   return all;
+}
+
+// --- Tablet loader ---
+
+export async function loadTablets(dataBaseUrl: string): Promise<Tablet[]> {
+  return loadBrandPartitionedData<Tablet>(dataBaseUrl, "tablets", "DrawingTablets");
 }
 
 // --- Accessors ---

@@ -1,13 +1,17 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import type { Step } from '$lib/pipeline.js';
-	import { DEFAULT_VIEW } from '$lib/pipeline.js';
+	import type { Step } from '$lib/pipeline/index.js';
 	import { type SavedView, loadViews, saveView, deleteView, renameView } from '$lib/views.js';
 
-	let { steps, onload }: { steps: Step[]; onload: (steps: Step[]) => void } = $props();
+	let { steps, entityType, defaultView, onload }: {
+		steps: Step[];
+		entityType: string;
+		defaultView: Step[];
+		onload: (steps: Step[]) => void;
+	} = $props();
 
 	const BUILTIN_VIEWS: SavedView[] = [
-		{ name: 'Default', steps: DEFAULT_VIEW },
+		{ name: 'Default', steps: defaultView },
 	];
 
 	let userViews = $state<SavedView[]>([]);
@@ -19,11 +23,11 @@
 	let isBuiltin = $derived(BUILTIN_VIEWS.some((v) => v.name === selectedName));
 
 	onMount(() => {
-		userViews = loadViews();
+		userViews = loadViews(entityType);
 	});
 
 	function refreshViews() {
-		userViews = loadViews();
+		userViews = loadViews(entityType);
 	}
 
 	let selectedView = $derived(allViews.find((v) => v.name === selectedName) ?? null);
@@ -31,15 +35,15 @@
 	function handleCreate() {
 		const name = prompt('View name:');
 		if (!name || !name.trim()) return;
-		saveView(name.trim(), steps);
+		saveView(entityType, name.trim(), steps);
 		refreshViews();
 		selectedName = name.trim();
 	}
 
 	function handleDelete() {
 		if (!selectedView) return;
-		deleteView(selectedView.name);
-		selectedName = '';
+		deleteView(entityType, selectedView.name);
+		selectedName = 'Default';
 		refreshViews();
 	}
 
@@ -53,7 +57,7 @@
 		if (!selectedView) return;
 		const newName = renameValue.trim();
 		if (newName && newName !== selectedView.name) {
-			renameView(selectedView.name, newName);
+			renameView(entityType, selectedView.name, newName);
 			refreshViews();
 			selectedName = newName;
 		}
@@ -169,16 +173,6 @@
 	.action-btn:disabled {
 		opacity: 0.4;
 		cursor: default;
-	}
-
-	.action-btn.load {
-		border-color: #2563eb;
-		color: #2563eb;
-	}
-
-	.action-btn.load:hover:not(:disabled) {
-		background: #2563eb;
-		color: #fff;
 	}
 
 	.action-btn.save {

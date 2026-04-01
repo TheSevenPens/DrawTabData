@@ -1,49 +1,9 @@
-import { type Tablet } from "../../../lib/drawtab-loader.js";
+import type { Tablet } from "../../../../lib/drawtab-loader.js";
+import type { FieldDef, Step } from "$lib/pipeline/types.js";
 
-// --- Step types ---
+export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
 
-export type StepKind = "filter" | "sort" | "select" | "take";
-
-export interface FilterStep {
-  kind: "filter";
-  field: string;
-  operator: string;
-  value: string;
-}
-
-export interface SortStep {
-  kind: "sort";
-  field: string;
-  direction: "asc" | "desc";
-}
-
-export interface SelectStep {
-  kind: "select";
-  fields: string[];
-}
-
-export interface TakeStep {
-  kind: "take";
-  count: number;
-}
-
-export type Step = FilterStep | SortStep | SelectStep | TakeStep;
-
-// --- Field metadata ---
-
-export interface FieldDef {
-  key: string;
-  label: string;
-  getValue: (t: Tablet) => string;
-  type: "string" | "number" | "enum";
-  enumValues?: string[];
-  computed?: boolean;
-  group: string;
-}
-
-export const FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
-
-export const FIELDS: FieldDef[] = [
+export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.EntityId, type: "string", group: "Model" },
   { key: "ModelBrand", label: "Brand", getValue: (t) => t.ModelBrand, type: "enum", enumValues: ["HUION", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
@@ -130,21 +90,13 @@ export const FIELDS: FieldDef[] = [
   },
 ];
 
-const FIELD_MAP = new Map(FIELDS.map((f) => [f.key, f]));
-
-export function getFieldDef(key: string): FieldDef | undefined {
-  return FIELD_MAP.get(key);
-}
-
-// --- Default visible columns ---
-
-export const DEFAULT_COLUMNS = [
+export const TABLET_DEFAULT_COLUMNS = [
   "EntityId", "ModelBrand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
   "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions",
   "DisplayResolution", "PhysicalWeight", "ModelStatus",
 ];
 
-export const DEFAULT_VIEW: Step[] = [
+export const TABLET_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
@@ -156,94 +108,3 @@ export const DEFAULT_VIEW: Step[] = [
   },
   { kind: "sort", field: "ModelBrand", direction: "asc" },
 ];
-
-// --- Operators ---
-
-export function getOperatorsForField(fieldDef: FieldDef): { value: string; label: string }[] {
-  if (fieldDef.type === "enum") {
-    return [
-      { value: "==", label: "equals" },
-      { value: "!=", label: "not equals" },
-    ];
-  }
-  if (fieldDef.type === "number") {
-    return [
-      { value: "==", label: "=" },
-      { value: "!=", label: "!=" },
-      { value: ">", label: ">" },
-      { value: ">=", label: ">=" },
-      { value: "<", label: "<" },
-      { value: "<=", label: "<=" },
-      { value: "empty", label: "is empty" },
-      { value: "notempty", label: "is not empty" },
-    ];
-  }
-  return [
-    { value: "==", label: "equals" },
-    { value: "!=", label: "not equals" },
-    { value: "contains", label: "contains" },
-    { value: "startswith", label: "starts with" },
-    { value: "empty", label: "is empty" },
-    { value: "notempty", label: "is not empty" },
-  ];
-}
-
-// --- Pipeline execution ---
-
-export function executePipeline(tablets: Tablet[], steps: Step[]): { data: Tablet[]; visibleFields: string[] } {
-  let data = [...tablets];
-  let visibleFields: string[] | null = null;
-
-  for (const step of steps) {
-    switch (step.kind) {
-      case "filter":
-        data = applyFilter(data, step);
-        break;
-      case "sort":
-        data = applySort(data, step);
-        break;
-      case "select":
-        visibleFields = step.fields;
-        break;
-      case "take":
-        data = data.slice(0, step.count);
-        break;
-    }
-  }
-
-  return { data, visibleFields: visibleFields ?? DEFAULT_COLUMNS };
-}
-
-function applyFilter(tablets: Tablet[], step: FilterStep): Tablet[] {
-  const fieldDef = getFieldDef(step.field);
-  if (!fieldDef) return tablets;
-
-  return tablets.filter((t) => {
-    const val = fieldDef.getValue(t);
-    switch (step.operator) {
-      case "==": return val === step.value;
-      case "!=": return val !== step.value;
-      case "contains": return val.toLowerCase().includes(step.value.toLowerCase());
-      case "startswith": return val.toLowerCase().startsWith(step.value.toLowerCase());
-      case "empty": return val === "";
-      case "notempty": return val !== "";
-      case ">": return val !== "" && Number(val) > Number(step.value);
-      case ">=": return val !== "" && Number(val) >= Number(step.value);
-      case "<": return val !== "" && Number(val) < Number(step.value);
-      case "<=": return val !== "" && Number(val) <= Number(step.value);
-      default: return true;
-    }
-  });
-}
-
-function applySort(tablets: Tablet[], step: SortStep): Tablet[] {
-  const fieldDef = getFieldDef(step.field);
-  if (!fieldDef) return tablets;
-
-  return [...tablets].sort((a, b) => {
-    const va = fieldDef.getValue(a);
-    const vb = fieldDef.getValue(b);
-    const cmp = va.localeCompare(vb, undefined, { numeric: true });
-    return step.direction === "asc" ? cmp : -cmp;
-  });
-}

@@ -1,12 +1,13 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { loadTablets, type Tablet } from '../../../lib/drawtab-loader.js';
+	import { type Step, executePipeline } from '$lib/pipeline/index.js';
 	import {
-		type Step,
-		DEFAULT_COLUMNS,
-		DEFAULT_VIEW,
-		executePipeline,
-	} from '$lib/pipeline.js';
+		TABLET_FIELDS,
+		TABLET_FIELD_GROUPS,
+		TABLET_DEFAULT_COLUMNS,
+		TABLET_DEFAULT_VIEW,
+	} from '$lib/entities/tablet-fields.js';
 	import FilterStep from '$lib/components/FilterStep.svelte';
 	import SortStep from '$lib/components/SortStep.svelte';
 	import SelectStep from '$lib/components/SelectStep.svelte';
@@ -15,12 +16,12 @@
 	import SavedViews from '$lib/components/SavedViews.svelte';
 
 	let allTablets: Tablet[] = $state([]);
-	let steps: Step[] = $state(JSON.parse(JSON.stringify(DEFAULT_VIEW)));
+	let steps: Step[] = $state(JSON.parse(JSON.stringify(TABLET_DEFAULT_VIEW)));
 	let tick = $state(0);
 
 	let result = $derived.by(() => {
 		void tick;
-		return executePipeline(allTablets, steps);
+		return executePipeline(allTablets, steps, TABLET_FIELDS, TABLET_DEFAULT_COLUMNS);
 	});
 
 	function refresh() {
@@ -37,7 +38,7 @@
 				break;
 			case 'select':
 				if (!steps.some((s) => s.kind === 'select')) {
-					steps.push({ kind: 'select', fields: [...DEFAULT_COLUMNS] });
+					steps.push({ kind: 'select', fields: [...TABLET_DEFAULT_COLUMNS] });
 				}
 				break;
 			case 'take':
@@ -62,7 +63,7 @@
 
 <h1>DrawTabData Explorer</h1>
 
-<SavedViews {steps} onload={loadView} />
+<SavedViews {steps} entityType="tablets" defaultView={TABLET_DEFAULT_VIEW} onload={loadView} />
 
 <div class="pipeline">
 	<div class="pipeline-source">
@@ -73,11 +74,11 @@
 		<div class="pipe-connector">|</div>
 
 		{#if step.kind === 'filter'}
-			<FilterStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
+			<FilterStep bind:step={steps[i]} fields={TABLET_FIELDS} onchange={refresh} onremove={() => removeStep(i)} />
 		{:else if step.kind === 'sort'}
-			<SortStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
+			<SortStep bind:step={steps[i]} fields={TABLET_FIELDS} onchange={refresh} onremove={() => removeStep(i)} />
 		{:else if step.kind === 'select'}
-			<SelectStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
+			<SelectStep bind:step={steps[i]} fields={TABLET_FIELDS} fieldGroups={TABLET_FIELD_GROUPS} onchange={refresh} onremove={() => removeStep(i)} />
 		{:else if step.kind === 'take'}
 			<TakeStep bind:step={steps[i]} onchange={refresh} onremove={() => removeStep(i)} />
 		{/if}
@@ -91,7 +92,7 @@
 	<button onclick={() => addStep('take')}>+ Limit</button>
 </div>
 
-<ResultsTable data={result.data} visibleFields={result.visibleFields} total={allTablets.length} />
+<ResultsTable data={result.data} visibleFields={result.visibleFields} fields={TABLET_FIELDS} total={allTablets.length} entityLabel="tablets" />
 
 <style>
 	:global(*) { box-sizing: border-box; margin: 0; padding: 0; }
@@ -201,20 +202,6 @@
 	}
 
 	:global(.step-remove:hover) { color: #e11d48; }
-
-	:global(.columns-grid) {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 4px 14px;
-	}
-
-	:global(.columns-grid label) {
-		font-size: 13px;
-		display: flex;
-		align-items: center;
-		gap: 4px;
-		cursor: pointer;
-	}
 
 	:global(.results-bar) {
 		font-size: 14px;

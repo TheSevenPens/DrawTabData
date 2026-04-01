@@ -1,27 +1,42 @@
-import type { Step } from './pipeline.js';
+import type { Step } from './pipeline/types.js';
 
 export interface SavedView {
   name: string;
   steps: Step[];
 }
 
-const STORAGE_KEY = 'drawtabdata-views';
+const LEGACY_KEY = 'drawtabdata-views';
 
-export function loadViews(): SavedView[] {
+function getStorageKey(entityType: string): string {
+  return `drawtabdata-views-${entityType}`;
+}
+
+function migrate(entityType: string) {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const legacy = localStorage.getItem(LEGACY_KEY);
+    if (legacy) {
+      localStorage.setItem(getStorageKey(entityType), legacy);
+      localStorage.removeItem(LEGACY_KEY);
+    }
+  } catch {}
+}
+
+export function loadViews(entityType: string): SavedView[] {
+  migrate(entityType);
+  try {
+    const raw = localStorage.getItem(getStorageKey(entityType));
     return raw ? JSON.parse(raw) : [];
   } catch {
     return [];
   }
 }
 
-function persist(views: SavedView[]) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(views));
+function persist(entityType: string, views: SavedView[]) {
+  localStorage.setItem(getStorageKey(entityType), JSON.stringify(views));
 }
 
-export function saveView(name: string, steps: Step[]): SavedView[] {
-  const views = loadViews();
+export function saveView(entityType: string, name: string, steps: Step[]): void {
+  const views = loadViews(entityType);
   const existing = views.findIndex((v) => v.name === name);
   const entry: SavedView = { name, steps: JSON.parse(JSON.stringify(steps)) };
   if (existing >= 0) {
@@ -29,22 +44,19 @@ export function saveView(name: string, steps: Step[]): SavedView[] {
   } else {
     views.push(entry);
   }
-  persist(views);
-  return views;
+  persist(entityType, views);
 }
 
-export function deleteView(name: string): SavedView[] {
-  const views = loadViews().filter((v) => v.name !== name);
-  persist(views);
-  return views;
+export function deleteView(entityType: string, name: string): void {
+  const views = loadViews(entityType).filter((v) => v.name !== name);
+  persist(entityType, views);
 }
 
-export function renameView(oldName: string, newName: string): SavedView[] {
-  const views = loadViews();
+export function renameView(entityType: string, oldName: string, newName: string): void {
+  const views = loadViews(entityType);
   const view = views.find((v) => v.name === oldName);
   if (view) {
     view.name = newName;
   }
-  persist(views);
-  return views;
+  persist(entityType, views);
 }

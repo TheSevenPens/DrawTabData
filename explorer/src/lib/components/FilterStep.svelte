@@ -1,15 +1,20 @@
 <script lang="ts">
-	import { FIELDS, getFieldDef, getOperatorsForField, type FilterStep } from '$lib/pipeline.js';
+	import { type FieldDef, type FilterStep, getFieldDef, getOperatorsForField } from '$lib/pipeline/index.js';
 
-	let { step = $bindable(), onchange, onremove }: { step: FilterStep; onchange: () => void; onremove: () => void } = $props();
+	let { step = $bindable(), fields, onchange, onremove }: {
+		step: FilterStep;
+		fields: FieldDef<any>[];
+		onchange: () => void;
+		onremove: () => void;
+	} = $props();
 
-	let fieldDef = $derived(getFieldDef(step.field));
+	let fieldDef = $derived(getFieldDef(step.field, fields));
 	let operators = $derived(fieldDef ? getOperatorsForField(fieldDef) : []);
 	let needsValue = $derived(step.operator !== 'empty' && step.operator !== 'notempty');
 
 	function onFieldChange(e: Event) {
 		step.field = (e.target as HTMLSelectElement).value;
-		const newDef = getFieldDef(step.field);
+		const newDef = getFieldDef(step.field, fields);
 		const ops = newDef ? getOperatorsForField(newDef) : [];
 		if (!ops.some((o) => o.value === step.operator)) {
 			step.operator = ops[0]?.value ?? '==';
@@ -33,7 +38,7 @@
 	<div class="step-type">where</div>
 	<div class="step-controls">
 		<select value={step.field} onchange={onFieldChange}>
-			{#each FIELDS as f}
+			{#each fields as f}
 				<option value={f.key} selected={f.key === step.field}>{f.label}</option>
 			{/each}
 		</select>
