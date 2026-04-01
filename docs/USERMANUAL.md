@@ -12,6 +12,36 @@ git submodule add https://github.com/TheSevenPens/DrawTabData.git data-repo
 
 Your project can now import from `data-repo/lib/`.
 
+## EntityId and relating entities
+
+Every record in the dataset has an `EntityId` that uniquely identifies it
+across the entire system. The format is `BRAND.ENTITYTYPE.ID`:
+
+- `WACOM.TABLET.PTK870`
+- `WACOM.PEN.KP501E`
+- `WACOM.DRIVER.6.3.45-2_WINDOWS`
+- `WACOM.PENFAMILY.WacomKPGEN3`
+- `WACOM.TABLETFAMILY.WacomIntuosProGen8`
+
+EntityIds are how you relate records across entity types — effectively
+performing joins. Some fields on one entity reference the ID of another:
+
+| Field | On entity | References |
+|---|---|---|
+| `ModelIncludedPen` | Tablet | PenId (e.g. `"KP-501E"`) |
+| `ModelFamily` | Tablet | FamilyId on TabletFamily (e.g. `"WacomIntuosProGen8"`) |
+| `PenFamily` | Pen | FamilyId on PenFamily (e.g. `"WacomKPGEN1"`) |
+| `TabletId` | PenCompat | ModelId on Tablet (e.g. `"PTK-870"`) |
+| `PenId` | PenCompat | PenId on Pen (e.g. `"KP-501E"`) |
+
+The pen-compat entity is a join table — each row is a (TabletId, PenId)
+pair representing that a specific pen works with a specific tablet. To
+find all compatible pens for a tablet (or all compatible tablets for a pen),
+filter pen-compat rows by the relevant ID, then look up the matching
+records in the other entity.
+
+See the examples below for how to do this in code.
+
 ## Two loaders
 
 There are two loader modules depending on your environment:
