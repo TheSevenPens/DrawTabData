@@ -24,67 +24,38 @@ There are two loader modules depending on your environment:
 
 Both provide the same entity loaders and return the same types.
 
-## Loading tablets from a URL (fetch-based)
-
-```typescript
-import { loadTablets, type Tablet } from "./data-repo/lib/drawtab-loader.js";
-
-const tablets = await loadTablets("https://your-server.com/data");
-console.log(`Loaded ${tablets.length} tablets`);
-```
-
-The `baseUrl` parameter is the URL prefix where the JSON files are served.
-For example, if your files are at `https://example.com/data/tablets/WACOM-tablets.json`,
-pass `"https://example.com/data"`.
-
-## Loading tablets from disk (Node.js)
-
-```typescript
-import { loadTabletsFromDisk, type Tablet } from "./data-repo/lib/drawtab-loader-node.js";
-
-const tablets = loadTabletsFromDisk("./data-repo/data");
-console.log(`Loaded ${tablets.length} tablets`);
-```
-
-The `dataDir` parameter is the path to the `data/` directory. If you added
-DrawTabData as a submodule at `data-repo/`, that's `"./data-repo/data"`.
-
-Note: disk loaders are synchronous — no `await` needed.
-
-## Loading pens
-
-**From URL:**
-```typescript
-import { loadPens } from "./data-repo/lib/drawtab-loader.js";
-const pens = await loadPens("https://your-server.com/data");
-```
-
-**From disk:**
-```typescript
-import { loadPensFromDisk } from "./data-repo/lib/drawtab-loader-node.js";
-const pens = loadPensFromDisk("./data-repo/data");
-```
-
 ## Loading all entities
 
-All loaders follow the same pattern. Here are both approaches side by side:
+### From a URL (fetch-based, async)
 
-**From URL (async):**
+Use this when loading data from a hosted server or CDN. The `baseUrl` is the
+URL prefix where the JSON files are served. For example, if your files are at
+`https://example.com/data/tablets/WACOM-tablets.json`, pass `"https://example.com/data"`.
+
 ```typescript
 import {
   loadTablets, loadPens, loadPenCompat,
   loadPenFamilies, loadTabletFamilies, loadDrivers,
 } from "./data-repo/lib/drawtab-loader.js";
 
-const tablets        = await loadTablets(baseUrl);
-const pens           = await loadPens(baseUrl);
-const penCompat      = await loadPenCompat(baseUrl);
-const penFamilies    = await loadPenFamilies(baseUrl);
-const tabletFamilies = await loadTabletFamilies(baseUrl);
-const drivers        = await loadDrivers(baseUrl);
+const baseUrl = "https://your-server.com/data";
+
+const tablets        = await loadTablets(baseUrl);        // 250 tablets
+const pens           = await loadPens(baseUrl);           // 51 pens
+const penCompat      = await loadPenCompat(baseUrl);      // 535 compat rows
+const penFamilies    = await loadPenFamilies(baseUrl);    // 7 pen families
+const tabletFamilies = await loadTabletFamilies(baseUrl); // 18 tablet families
+const drivers        = await loadDrivers(baseUrl);        // 246 drivers
 ```
 
-**From disk (sync):**
+### From disk (Node.js, sync)
+
+Use this when reading the data files directly from the submodule. The `dataDir`
+is the path to the `data/` directory — if you added DrawTabData as a submodule
+at `data-repo/`, that's `"./data-repo/data"`.
+
+Disk loaders are synchronous — no `await` needed.
+
 ```typescript
 import {
   loadTabletsFromDisk, loadPensFromDisk, loadPenCompatFromDisk,
