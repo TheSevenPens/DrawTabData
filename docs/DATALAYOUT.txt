@@ -1,0 +1,30 @@
+# OVERVIEW
+
+This is an initial idea for how the JSON will be organized as files
+
+	/data
+		/inventory
+			inventory-sevenpens.json
+		/tablets
+			WACOM-tablets.json
+		/pens
+			WACOM-pens.json
+		/nibs
+			WACOM-nibs.json
+		/drivers
+			WACOM-drivers.json
+		/pen-compat
+			WACOM-pens.json (include cmpt_)
+		/nib-compat
+			WACOM-nibs.json
+		/pressure-response
+			/WACOM.KP504
+				WACOM.KP504_WAP.0001_20251119_0.json
+	/client
+		drawtab-data-quality.js
+		drawtab-loader.js
+		drawtab-views.js
+	/explorer
+		
+
+

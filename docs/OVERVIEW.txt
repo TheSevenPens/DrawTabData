@@ -1,0 +1,46 @@
+# Introduction
+
+The DrawTabData project unifies JSON datasets that related to Drawing Tablets.
+
+Entities include:
+- Tablets
+- Pens
+
+In the future we will have other entities such as Drivers and Nibs.
+
+# The brand dimension
+
+A key dimension for these entities is the Brand. For example: 
+- WACOM
+- HUION
+- XPPEN
+
+Datasets are partitioned as files depending on their BRAND
+
+# Data explorer
+
+We will build a SvelteKit app that will serve initially as a data explorer. It will offer things like
+- Listing the entities
+- Basic filtering of those lists
+- Navigating between entities. 
+- Relating the entities
+- Identify data quality issues
+
+# Data code layer
+
+This project will have some typescript libraries to assist consumers in accessing and using the data. The data explorer itself will use these libraries.
+
+The libraries will : 
+- abstract away the data format and their distribution
+- Will offer load the data consistent
+- Make it easy to update the data
+- Help maintain data quality
+
+# How consumers will use the data
+- Other apps may simply copy the data and code into their own projects
+- Other apps may consume the library via using a git submodi
+
+
+# Initial work
+
+We are going to start with an existing data set
