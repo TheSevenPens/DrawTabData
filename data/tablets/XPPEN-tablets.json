@@ -3,14 +3,20 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "364 x 219",
+      "DigitizerDimensions": {
+        "Width": 364,
+        "Height": 219
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
       "DigitizerResolution": "200",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "NTSC:72%",
       "DisplayContrast": "700",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -23,7 +29,10 @@
       "ModelProductLink": "https://www.xp-pen.com/product/64.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "364.11 x 218.87 x ",
+      "PhysicalDimensions": {
+        "Width": 364.11,
+        "Height": 218.87
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f1b5e880-3313-483c-892d-8ffc3ba0a3f1",
@@ -31,7 +40,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "256 x 144",
+      "DigitizerDimensions": {
+        "Width": 256,
+        "Height": 144
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -41,7 +53,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "NTSC:72%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -53,7 +68,11 @@
       "ModelName": "Artist 12 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/479.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "351.52 x 225.00 x 12.90",
+      "PhysicalDimensions": {
+        "Width": 351.52,
+        "Height": 225.0,
+        "Depth": 12.9
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f19b0c47-2b3c-4130-8854-977149267fd4",
@@ -61,7 +80,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -71,7 +93,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "NTSC:88%, SRGB:123%, AdobeRGB:91%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -84,21 +109,31 @@
       "ModelProductLink": "https://www.xp-pen.com/product/464.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "390.40 x 249.98 x 12.90",
+      "PhysicalDimensions": {
+        "Width": 390.4,
+        "Height": 249.98,
+        "Depth": 12.9
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
       "EntityId": "XPPEN.ARTIST133PRO"
     },
     {
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:75%",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -110,21 +145,31 @@
       "ModelProductLink": "https://www.xp-pen.com/product/60.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "443.00 x 280.00 x 12.60",
+      "PhysicalDimensions": {
+        "Width": 443.0,
+        "Height": 280.0,
+        "Depth": 12.6
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "90a67454-8ccd-4d62-a8d1-f849fce201bf",
       "EntityId": "XPPEN.ARTIST156"
     },
     {
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorGamuts": "NTSC:88%, sRGB:120%",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -134,19 +179,29 @@
       "ModelName": "Artist 15.6 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/65.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "443.00 x 280.00 x 12.60",
+      "PhysicalDimensions": {
+        "Width": 443.0,
+        "Height": 280.0,
+        "Depth": 12.6
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
       "EntityId": "XPPEN.ARTIST156PRO"
     },
     {
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "ACTIVE_EMR",
       "DisplayColorGamuts": "SRGB:89%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -164,7 +219,10 @@
       "EntityId": "XPPEN.ARTIST16"
     },
     {
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
       "DigitizerResolution": "200",
@@ -172,7 +230,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:92%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -184,7 +245,11 @@
       "ModelName": "Artist 16 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/61.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "405.00 x 255.00 x 30.00",
+      "PhysicalDimensions": {
+        "Width": 405.0,
+        "Height": 255.0,
+        "Depth": 30.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3678e50b-e349-43b5-a90b-72792614a1f2",
@@ -192,7 +257,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "477 x 268",
+      "DigitizerDimensions": {
+        "Width": 477,
+        "Height": 268
+      },
       "DigitizerMaxHover": "15",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -201,7 +269,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:77%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -214,7 +285,11 @@
       "ModelProductLink": "https://www.xp-pen.com/product/62.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "517.00 x 321.00 x 30.00",
+      "PhysicalDimensions": {
+        "Width": 517.0,
+        "Height": 321.0,
+        "Depth": 30.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3f6e570c-d6af-4b2f-80f8-1f0ee8b2ead6",
@@ -222,7 +297,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "476 x 268",
+      "DigitizerDimensions": {
+        "Width": 476,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -232,7 +310,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "NTSC:88%, SRGB:120%, AdobeRGB:90%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "ModelAudience": "Professional",
       "ModelBrand": "XPPEN",
@@ -242,7 +323,11 @@
       "ModelName": "Artist 22R Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/541.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "570.00 x 334.80 x 44.80",
+      "PhysicalDimensions": {
+        "Width": 570.0,
+        "Height": 334.8,
+        "Depth": 44.8
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e2d983ee-d901-4945-a1ea-3fd59a722e72",
@@ -250,7 +335,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -260,7 +348,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:90%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -272,7 +363,11 @@
       "ModelName": "Artist 24 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/602.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "732.00 x 370.00 x 44.80",
+      "PhysicalDimensions": {
+        "Width": 732.0,
+        "Height": 370.0,
+        "Depth": 44.8
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3ba56e15-bbcc-4944-a784-0b4d9363945d",
@@ -281,7 +376,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "263 x 148",
+      "DigitizerDimensions": {
+        "Width": 263,
+        "Height": 148
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -291,7 +389,10 @@
       "DisplayBrightness": "220",
       "DisplayColorGamuts": "SRGB:127%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -302,7 +403,11 @@
       "ModelName": "Artist 12 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/1069.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "346.20 x 148.07 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 346.2,
+        "Height": 148.07,
+        "Depth": 12.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
@@ -311,7 +416,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -323,7 +431,10 @@
       "DisplayColorGamuts": "NTSC\u00ef\u00bc\u0152130%:92%",
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -334,7 +445,11 @@
       "ModelName": "Artist 13 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/1263.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "378.00 x 225.00 x 11.99",
+      "PhysicalDimensions": {
+        "Width": 378.0,
+        "Height": 225.0,
+        "Depth": 11.99
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
@@ -343,7 +458,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "341 x 192",
+      "DigitizerDimensions": {
+        "Width": 341,
+        "Height": 192
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -352,7 +470,10 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorGamuts": "NTSC\u00ef\u00bc\u0152127%:90%",
       "DisplayContrast": "1000",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -363,7 +484,11 @@
       "ModelName": "Artist 16 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/1203.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "434.00 x 255.80 x 12.89",
+      "PhysicalDimensions": {
+        "Width": 434.0,
+        "Height": 255.8,
+        "Depth": 12.89
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
@@ -372,7 +497,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1.5",
-      "DigitizerDimensions": "476 x 268",
+      "DigitizerDimensions": {
+        "Width": 476,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -383,7 +511,10 @@
       "DisplayColorGamuts": "SRGB:122%",
       "DisplayContrast": "800",
       "DisplayLamination": "YES",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -394,7 +525,11 @@
       "ModelName": "Artist 22 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/855.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "538.00 x 332.00 x 25.80",
+      "PhysicalDimensions": {
+        "Width": 538.0,
+        "Height": 332.0,
+        "Depth": 25.8
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
@@ -403,7 +538,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1.5",
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -415,7 +553,10 @@
       "DisplayContrast": "3000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "MVA",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -426,7 +567,11 @@
       "ModelName": "Artist 24 FHD",
       "ModelProductLink": "https://www.xp-pen.com/product/1356.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "590.00 x 361.00 x 34.00",
+      "PhysicalDimensions": {
+        "Width": 590.0,
+        "Height": 361.0,
+        "Depth": 34.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0fb7b995-4aba-49ee-b6bf-cc75b9578a57",
@@ -435,7 +580,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1.5",
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -446,7 +594,10 @@
       "DisplayColorGamuts": "NTSC:90%, SRGB:127%, AdobeRGB:94%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -457,14 +608,21 @@
       "ModelName": "Artist 24",
       "ModelProductLink": "https://www.xp-pen.com/product/932.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "590.00 x 361.00 x 34.00",
+      "PhysicalDimensions": {
+        "Width": 590.0,
+        "Height": 361.0,
+        "Depth": 34.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
       "EntityId": "XPPEN.CD240Q"
     },
     {
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
       "DigitizerResolution": "200",
@@ -484,7 +642,10 @@
       "EntityId": "XPPEN.CT1060"
     },
     {
-      "DigitizerDimensions": "122 x 76",
+      "DigitizerDimensions": {
+        "Width": 122,
+        "Height": 76
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
       "DigitizerResolution": "200",
@@ -504,7 +665,10 @@
       "EntityId": "XPPEN.CT430"
     },
     {
-      "DigitizerDimensions": "160 x 102",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 102
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
       "DigitizerResolution": "200",
@@ -525,7 +689,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -539,7 +706,11 @@
       "ModelName": "Deco 01",
       "ModelProductLink": "https://www.xp-pen.com/product/84.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "351.00 x 217.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 351.0,
+        "Height": 217.0,
+        "Depth": 8.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "611b4eed-7e42-4818-859e-a7f8ac5b9623",
@@ -547,7 +718,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -562,7 +736,11 @@
       "ModelName": "Deco 01 V2",
       "ModelProductLink": "https://www.xp-pen.com/product/461.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "350.52 x 215.90 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 350.52,
+        "Height": 215.9,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "570",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -570,7 +748,10 @@
       "EntityId": "XPPEN.DECO01V2"
     },
     {
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
@@ -585,7 +766,11 @@
       "ModelName": "Deco 01 V3",
       "ModelProductLink": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "350.52 x 215.90 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 350.52,
+        "Height": 215.9,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "570",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -594,7 +779,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "254 x 143",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 143
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -607,14 +795,21 @@
       "ModelName": "Deco 02",
       "ModelProductLink": "https://www.xp-pen.com/product/88.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "362.00 x 210.00 x 9.00",
+      "PhysicalDimensions": {
+        "Width": 362.0,
+        "Height": 210.0,
+        "Depth": 9.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
       "EntityId": "XPPEN.DECO02"
     },
     {
-      "DigitizerDimensions": "254 x 143",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 143
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -629,14 +824,21 @@
       "ModelName": "Deco 03",
       "ModelProductLink": "https://www.xp-pen.com/product/89.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "354.00 x 218.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 354.0,
+        "Height": 218.0,
+        "Depth": 8.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
       "EntityId": "XPPEN.DECO03"
     },
     {
-      "DigitizerDimensions": "178 x 111",
+      "DigitizerDimensions": {
+        "Width": 178,
+        "Height": 111
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -651,7 +853,11 @@
       "ModelName": "Deco Mini 4",
       "ModelProductLink": "https://www.xp-pen.com/product/613.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "260.20 x 162.20 x 9.30",
+      "PhysicalDimensions": {
+        "Width": 260.2,
+        "Height": 162.2,
+        "Depth": 9.3
+      },
       "PhysicalWeight": "307",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -659,7 +865,10 @@
       "EntityId": "XPPEN.DECOMINI4"
     },
     {
-      "DigitizerDimensions": "102 x 72",
+      "DigitizerDimensions": {
+        "Width": 102,
+        "Height": 72
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -673,7 +882,11 @@
       "ModelName": "Deco Mini 7",
       "ModelProductLink": "https://www.xp-pen.com/product/639.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "178.20 x 125.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 178.2,
+        "Height": 125.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "155",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -681,7 +894,10 @@
       "EntityId": "XPPEN.DECOMINI7"
     },
     {
-      "DigitizerDimensions": "279 x 152",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 152
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -696,14 +912,21 @@
       "ModelName": "Deco Pro M",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "399.70 x 227.00 x 16.50",
+      "PhysicalDimensions": {
+        "Width": 399.7,
+        "Height": 227.0,
+        "Depth": 16.5
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
       "EntityId": "XPPEN.DECOPROM"
     },
     {
-      "DigitizerDimensions": "279 x 152",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 152
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -718,14 +941,21 @@
       "ModelName": "Deco Pro MW",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "399.70 x 227.00 x 16.50",
+      "PhysicalDimensions": {
+        "Width": 399.7,
+        "Height": 227.0,
+        "Depth": 16.5
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fa271dfe-fd5d-44a0-b993-ebccc65ef632",
       "EntityId": "XPPEN.DECOPROMW"
     },
     {
-      "DigitizerDimensions": "229 x 126",
+      "DigitizerDimensions": {
+        "Width": 229,
+        "Height": 126
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -740,14 +970,21 @@
       "ModelName": "Deco Pro S",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "350.80 x 199.50 x 16.50",
+      "PhysicalDimensions": {
+        "Width": 350.8,
+        "Height": 199.5,
+        "Depth": 16.5
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e38187ce-c3e9-40dd-b440-bf5fccead639",
       "EntityId": "XPPEN.DECOPROS"
     },
     {
-      "DigitizerDimensions": "229 x 126",
+      "DigitizerDimensions": {
+        "Width": 229,
+        "Height": 126
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -762,7 +999,11 @@
       "ModelName": "Deco Pro SW",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "350.80 x 199.50 x 16.50",
+      "PhysicalDimensions": {
+        "Width": 350.8,
+        "Height": 199.5,
+        "Depth": 16.5
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6ac45e5a-b656-4895-901b-82247f575392",
@@ -770,7 +1011,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.25",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -780,7 +1024,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "NTSC:88%, SRGB:125%, AdobeRGB:92%",
       "DisplayContrast": "1200",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "16.4",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -792,7 +1039,11 @@
       "ModelName": "Innovator 16",
       "ModelProductLink": "https://www.xp-pen.com/product/638.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "443.27 x 256.45 x 9.00",
+      "PhysicalDimensions": {
+        "Width": 443.27,
+        "Height": 256.45,
+        "Depth": 9.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
@@ -801,7 +1052,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "341 x 192",
+      "DigitizerDimensions": {
+        "Width": 341,
+        "Height": 192
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -812,7 +1066,10 @@
       "DisplayColorGamuts": "NTSC:94%, SRGB:133%, AdobeRGB:99%",
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -823,14 +1080,21 @@
       "ModelName": "Artist Pro 16",
       "ModelProductLink": "https://www.xp-pen.com/product/977.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "443.27 x 256.45 x 9.00",
+      "PhysicalDimensions": {
+        "Width": 443.27,
+        "Height": 256.45,
+        "Depth": 9.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "8da13172-0f45-487d-bb26-e0a53d40c25a",
       "EntityId": "XPPEN.ID160FE"
     },
     {
-      "DigitizerDimensions": "254 x 152",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 152
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -849,7 +1113,10 @@
       "EntityId": "XPPEN.IT1060"
     },
     {
-      "DigitizerDimensions": "254 x 152",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 152
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -863,14 +1130,21 @@
       "ModelName": "Deco LW",
       "ModelProductLink": "https://www.xp-pen.com/product/1168.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "315.00 x 187.00 x 8.80",
+      "PhysicalDimensions": {
+        "Width": 315.0,
+        "Height": 187.0,
+        "Depth": 8.8
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
       "EntityId": "XPPEN.IT1060B"
     },
     {
-      "DigitizerDimensions": "160 x 90",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 90
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
@@ -885,14 +1159,21 @@
       "ModelName": "Deco 640",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-640.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "188.34 x 149.60 x 7.70",
+      "PhysicalDimensions": {
+        "Width": 188.34,
+        "Height": 149.6,
+        "Depth": 7.7
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
       "EntityId": "XPPEN.IT640"
     },
     {
-      "DigitizerDimensions": "203 x 127",
+      "DigitizerDimensions": {
+        "Width": 203,
+        "Height": 127
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -907,14 +1188,21 @@
       "ModelName": "Deco M",
       "ModelProductLink": "https://www.xp-pen.com/series/Deco-tablet.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "259.8 x 157.8 x 8.80",
+      "PhysicalDimensions": {
+        "Width": 259.8,
+        "Height": 157.8,
+        "Depth": 8.8
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "5eaceb43-bf80-4ca5-ba79-8041c1fd1ddd",
       "EntityId": "XPPEN.IT850"
     },
     {
-      "DigitizerDimensions": "203 x 127",
+      "DigitizerDimensions": {
+        "Width": 203,
+        "Height": 127
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -929,7 +1217,11 @@
       "ModelName": "Deco MW",
       "ModelProductLink": "https://www.xp-pen.com/series/Deco-tablet.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "259.8 x 157.8 x 8.80",
+      "PhysicalDimensions": {
+        "Width": 259.8,
+        "Height": 157.8,
+        "Depth": 8.8
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
@@ -938,7 +1230,10 @@
     {
       "DigitizerAccuracyCenter": "0.4",
       "DigitizerAccuracyCorner": "0.8",
-      "DigitizerDimensions": "299 x 187",
+      "DigitizerDimensions": {
+        "Width": 299,
+        "Height": 187
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
@@ -951,7 +1246,10 @@
       "DisplayContrast": "800",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1200",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1200
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -963,7 +1261,11 @@
       "ModelName": "Artist Pro 14 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-14-gen-2.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "359.30 x 268.57 x 19.31",
+      "PhysicalDimensions": {
+        "Width": 359.3,
+        "Height": 268.57,
+        "Depth": 19.31
+      },
       "PhysicalWeight": "1415",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -971,7 +1273,10 @@
       "EntityId": "XPPEN.MD140FH"
     },
     {
-      "DigitizerDimensions": "345 x 215",
+      "DigitizerDimensions": {
+        "Width": 345,
+        "Height": 215
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
@@ -984,7 +1289,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1600",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1600
+      },
       "DisplayResponseTime": "20",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -996,7 +1304,11 @@
       "ModelName": "Artist Pro 16 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-16-gen-2.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "405.11 x 291.37 x 20.23",
+      "PhysicalDimensions": {
+        "Width": 405.11,
+        "Height": 291.37,
+        "Depth": 20.23
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
@@ -1005,7 +1317,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1.5",
-      "DigitizerDimensions": "346 x 194",
+      "DigitizerDimensions": {
+        "Width": 346,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1016,7 +1331,10 @@
       "DisplayColorGamuts": "Adobe:92%, NTSC:88%",
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1027,7 +1345,11 @@
       "ModelName": "Artist Pro 16TP",
       "ModelProductLink": "https://www.xp-pen.com/product/927.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "406.40 x 263.10 x 15.4",
+      "PhysicalDimensions": {
+        "Width": 406.4,
+        "Height": 263.1,
+        "Depth": 15.4
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6a36faea-988a-4411-8f0b-6cea204c1207",
@@ -1035,7 +1357,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.4",
-      "DigitizerDimensions": "344.2 x 193.6",
+      "DigitizerDimensions": {
+        "Width": 344.2,
+        "Height": 193.6
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerResolution": "200",
@@ -1050,7 +1375,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "OLED",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Professional",
       "ModelBrand": "XPPEN",
@@ -1061,7 +1389,11 @@
       "ModelName": "Artist Ultra 16",
       "ModelStatus": "AVAILABLE",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "405.0 x 273.0 x 13.5",
+      "PhysicalDimensions": {
+        "Width": 405.0,
+        "Height": 273.0,
+        "Depth": 13.5
+      },
       "PhysicalWeight": "1530",
       "_CreateDate": "2025-12-12T18:57:53.360Z",
       "_ModifiedDate": "2025-12-12T18:57:53.360Z",
@@ -1071,7 +1403,10 @@
     {
       "DigitizerAccuracyCenter": "0.4",
       "DigitizerAccuracyCorner": "0.8",
-      "DigitizerDimensions": "409 x 230",
+      "DigitizerDimensions": {
+        "Width": 409,
+        "Height": 230
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
@@ -1083,7 +1418,10 @@
       "DisplayColorBitDepth": "10",
       "DisplayLamination": "YES",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1093,7 +1431,11 @@
       "ModelLaunchYear": "2024",
       "ModelName": "Artist Pro 19 GEN2",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "460.00 x 306.60 x 21.50",
+      "PhysicalDimensions": {
+        "Width": 460.0,
+        "Height": 306.6,
+        "Depth": 21.5
+      },
       "PhysicalWeight": "2230.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:53:32.025Z",
@@ -1102,7 +1444,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.4",
-      "DigitizerDimensions": "476 x 268",
+      "DigitizerDimensions": {
+        "Width": 476,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
@@ -1115,7 +1460,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "ModelAudience": "Consumer",
       "ModelBrand": "XPPEN",
       "ModelId": "MD220FH",
@@ -1124,7 +1472,11 @@
       "ModelName": "Artist 22 Plus",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-22-plus.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "547.00 x 364.67 x 33.40",
+      "PhysicalDimensions": {
+        "Width": 547.0,
+        "Height": 364.67,
+        "Depth": 33.4
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
@@ -1132,7 +1484,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.4",
-      "DigitizerDimensions": "475 x 267",
+      "DigitizerDimensions": {
+        "Width": 475,
+        "Height": 267
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
@@ -1147,7 +1502,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -1157,7 +1515,11 @@
       "ModelLaunchYear": "2024",
       "ModelName": "Artist Pro 22 GEN2",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "547.00 x 362.00 x 33.40",
+      "PhysicalDimensions": {
+        "Width": 547.0,
+        "Height": 362.0,
+        "Depth": 33.4
+      },
       "PhysicalWeight": "5550",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1167,7 +1529,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.4",
-      "DigitizerDimensions": "526 x 296",
+      "DigitizerDimensions": {
+        "Width": 526,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
@@ -1180,7 +1545,10 @@
       "DisplayColorGamuts": "SRGB:99%,ADOBERGB:99%,DISPLAYP3:94%",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "ModelAudience": "Professional",
       "ModelBrand": "XPPEN",
       "ModelId": "MD240QH",
@@ -1189,7 +1557,11 @@
       "ModelName": "Artist Pro 24 GEN2 165Hz",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-24-gen-2-165hz.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "638.00 x 408.00 x 44.00",
+      "PhysicalDimensions": {
+        "Width": 638.0,
+        "Height": 408.0,
+        "Depth": 44.0
+      },
       "PhysicalWeight": "7300",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1199,7 +1571,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.4",
-      "DigitizerDimensions": "526 x 296",
+      "DigitizerDimensions": {
+        "Width": 526,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
@@ -1212,7 +1587,10 @@
       "DisplayColorGamuts": "SRGB:99%,ADOBERGB:99%,DISPLAYP3:98%",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "ModelAudience": "Professional",
       "ModelBrand": "XPPEN",
       "ModelId": "MD240UH",
@@ -1221,7 +1599,11 @@
       "ModelName": "Artist Pro 24 GEN2 4K",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-24-gen-2-4k.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "638.00 x 408.00 x 44.00",
+      "PhysicalDimensions": {
+        "Width": 638.0,
+        "Height": 408.0,
+        "Depth": 44.0
+      },
       "PhysicalWeight": "7300",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1230,7 +1612,10 @@
       "EntityId": "XPPEN.MD240UH"
     },
     {
-      "DigitizerDimensions": "229 x 152",
+      "DigitizerDimensions": {
+        "Width": 229,
+        "Height": 152
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
@@ -1245,14 +1630,21 @@
       "ModelName": "Deco Pro MW GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "283.00 x 227.10 x 10.66",
+      "PhysicalDimensions": {
+        "Width": 283.0,
+        "Height": 227.1,
+        "Depth": 10.66
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2209f868-50c5-4720-8428-6b9197dbef57",
       "EntityId": "XPPEN.MT0962B"
     },
     {
-      "DigitizerDimensions": "279 x 178",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 178
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
@@ -1267,14 +1659,21 @@
       "ModelName": "Deco Pro LW GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "333.00 x 258.10 x 10.66",
+      "PhysicalDimensions": {
+        "Width": 333.0,
+        "Height": 258.1,
+        "Depth": 10.66
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "689b42c0-16a8-439e-8579-8a07b0c0f67f",
       "EntityId": "XPPEN.MT1172B"
     },
     {
-      "DigitizerDimensions": "381 x 229",
+      "DigitizerDimensions": {
+        "Width": 381,
+        "Height": 229
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
@@ -1289,7 +1688,11 @@
       "ModelName": "Deco Pro XLW GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "435.00 x 313.10 x 10.66",
+      "PhysicalDimensions": {
+        "Width": 435.0,
+        "Height": 313.1,
+        "Depth": 10.66
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",

@@ -85,7 +85,7 @@ Required: no
 
 ### DigitizerDimensions
 The active drawing area dimensions.
-Format: "W x H" (e.g. "345 x 216")
+Format: object { "Width": number, "Height": number }
 Unit: mm
 Required: no
 
@@ -137,7 +137,7 @@ These fields apply only to tablets where ModelType is PENDISPLAY.
 
 ### DisplayResolution
 The screen resolution.
-Format: "W x H" (e.g. "1920 x 1080", "3840 x 2160")
+Format: object { "Width": number, "Height": number }
 Unit: pixels
 Required: no
 
@@ -210,8 +210,8 @@ Required: no
 ## Physical fields
 
 ### PhysicalDimensions
-The overall physical dimensions of the tablet.
-Format: "W x H x D" (e.g. "330.25 x 197.00 x 11.80")
+The overall physical dimensions of the tablet. Depth may be absent if unknown.
+Format: object { "Width": number, "Height": number, "Depth": number }
 Unit: mm
 Required: no
 

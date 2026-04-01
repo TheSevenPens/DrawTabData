@@ -1,7 +1,10 @@
 {
   "DrawingTablets": [
     {
-      "DigitizerDimensions": "152 x 95",
+      "DigitizerDimensions": {
+        "Width": 152,
+        "Height": 95
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -19,7 +22,10 @@
       "EntityId": "WACOM.CTC4110WL"
     },
     {
-      "DigitizerDimensions": "216 x 135",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -37,7 +43,10 @@
       "EntityId": "WACOM.CTC6110WL"
     },
     {
-      "DigitizerDimensions": "148 x 92",
+      "DigitizerDimensions": {
+        "Width": 148,
+        "Height": 92
+      },
       "DigitizerPressureLevels": "512",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -51,7 +60,11 @@
       "ModelName": "Bamboo Fun Small",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "210.00 x 192.10 x 11.20",
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 192.1,
+        "Depth": 11.2
+      },
       "PhysicalWeight": "370.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -59,7 +72,10 @@
       "EntityId": "WACOM.CTE450"
     },
     {
-      "DigitizerDimensions": "217 x 135",
+      "DigitizerDimensions": {
+        "Width": 217,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "512",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -73,7 +89,11 @@
       "ModelName": "Bamboo Fun Medium",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "280.00 x 235.10 x 11.00",
+      "PhysicalDimensions": {
+        "Width": 280.0,
+        "Height": 235.1,
+        "Depth": 11.0
+      },
       "PhysicalWeight": "660.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -81,7 +101,10 @@
       "EntityId": "WACOM.CTE650"
     },
     {
-      "DigitizerDimensions": "147 x 92",
+      "DigitizerDimensions": {
+        "Width": 147,
+        "Height": 92
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerSupportsTouch": "YES",
@@ -94,7 +117,10 @@
       "ModelName": "Bamboo Capture",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "287.00 x 186.00 x ",
+      "PhysicalDimensions": {
+        "Width": 287.0,
+        "Height": 186.0
+      },
       "PhysicalWeight": "420",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:37.515Z",
@@ -102,7 +128,10 @@
       "EntityId": "WACOM.CTH470"
     },
     {
-      "DigitizerDimensions": "152 x 95",
+      "DigitizerDimensions": {
+        "Width": 152,
+        "Height": 95
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -123,7 +152,10 @@
       "EntityId": "WACOM.CTH490"
     },
     {
-      "DigitizerDimensions": "216 x 137",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 137
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerSupportsTouch": "YES",
@@ -142,7 +174,10 @@
       "EntityId": "WACOM.CTH670"
     },
     {
-      "DigitizerDimensions": "216 x 135",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -157,7 +192,11 @@
       "ModelProductLink": "https://www.parkablogs.com/node/12104",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "275.00 x 217.20 x 10.70",
+      "PhysicalDimensions": {
+        "Width": 275.0,
+        "Height": 217.2,
+        "Depth": 10.7
+      },
       "PhysicalWeight": "480",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:51.061Z",
@@ -165,7 +204,10 @@
       "EntityId": "WACOM.CTH690"
     },
     {
-      "DigitizerDimensions": "152 x 95",
+      "DigitizerDimensions": {
+        "Width": 152,
+        "Height": 95
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -180,7 +222,11 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "200.00 x 160.00 x 8.80",
+      "PhysicalDimensions": {
+        "Width": 200.0,
+        "Height": 160.0,
+        "Depth": 8.8
+      },
       "PhysicalWeight": "230",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -188,7 +234,10 @@
       "EntityId": "WACOM.CTL4100"
     },
     {
-      "DigitizerDimensions": "152 x 95",
+      "DigitizerDimensions": {
+        "Width": 152,
+        "Height": 95
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -208,7 +257,10 @@
       "EntityId": "WACOM.CTL4100WL"
     },
     {
-      "DigitizerDimensions": "147 x 92",
+      "DigitizerDimensions": {
+        "Width": 147,
+        "Height": 92
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerType": "PASSIVE_EMR",
@@ -226,7 +278,10 @@
       "EntityId": "WACOM.CTL470"
     },
     {
-      "DigitizerDimensions": "152 x 95",
+      "DigitizerDimensions": {
+        "Width": 152,
+        "Height": 95
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -241,7 +296,11 @@
       "ModelName": "One by Wacom Small",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "210.00 x 146.00 x 8.70",
+      "PhysicalDimensions": {
+        "Width": 210.0,
+        "Height": 146.0,
+        "Depth": 8.7
+      },
       "PhysicalWeight": "250",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -249,7 +308,10 @@
       "EntityId": "WACOM.CTL472"
     },
     {
-      "DigitizerDimensions": "152 x 95",
+      "DigitizerDimensions": {
+        "Width": 152,
+        "Height": 95
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -269,7 +331,10 @@
       "EntityId": "WACOM.CTL490"
     },
     {
-      "DigitizerDimensions": "216 x 135",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -284,7 +349,11 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "277.00 x 189.00 x 9.70",
+      "PhysicalDimensions": {
+        "Width": 277.0,
+        "Height": 189.0,
+        "Depth": 9.7
+      },
       "PhysicalWeight": "432",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -292,7 +361,10 @@
       "EntityId": "WACOM.CTL6100"
     },
     {
-      "DigitizerDimensions": "216 x 135",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -307,7 +379,11 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "277.00 x 189.00 x 9.70",
+      "PhysicalDimensions": {
+        "Width": 277.0,
+        "Height": 189.0,
+        "Depth": 9.7
+      },
       "PhysicalWeight": "432",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -315,7 +391,10 @@
       "EntityId": "WACOM.CTL6100WL"
     },
     {
-      "DigitizerDimensions": "216 x 135",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
       "DigitizerResolution": "100",
@@ -330,7 +409,11 @@
       "ModelName": "One by Wacom Medium",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "277.00 x 189.00 x 8.70",
+      "PhysicalDimensions": {
+        "Width": 277.0,
+        "Height": 189.0,
+        "Depth": 8.7
+      },
       "PhysicalWeight": "432",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -338,7 +421,10 @@
       "EntityId": "WACOM.CTL672"
     },
     {
-      "DigitizerDimensions": "216 x 135",
+      "DigitizerDimensions": {
+        "Width": 216,
+        "Height": 135
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
       "DigitizerTilt": "0",
@@ -358,12 +444,18 @@
       "EntityId": "WACOM.CTL690"
     },
     {
-      "DigitizerDimensions": "257 x 145",
+      "DigitizerDimensions": {
+        "Width": 257,
+        "Height": 145
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "275",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "ModelAudience": "Consumer",
       "ModelBrand": "WACOM",
       "ModelFamily": "WACOM ONE",
@@ -379,7 +471,10 @@
       "EntityId": "WACOM.DTC121"
     },
     {
-      "DigitizerDimensions": "294 x 166",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 166
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerResolution": "100",
       "DigitizerTilt": "60",
@@ -390,7 +485,10 @@
       "DisplayColorGamuts": "NTSC:72%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "AHVA",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "26",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -404,7 +502,11 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "357.00 x 225.00 x 14.60",
+      "PhysicalDimensions": {
+        "Width": 357.0,
+        "Height": 225.0,
+        "Depth": 14.6
+      },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -412,7 +514,10 @@
       "EntityId": "WACOM.DTC133"
     },
     {
-      "DigitizerDimensions": "309 x 174",
+      "DigitizerDimensions": {
+        "Width": 309,
+        "Height": 174
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -422,7 +527,10 @@
       "DisplayColorGamuts": "SRGB:98%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "16",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -435,7 +543,11 @@
       "ModelName": "Wacom One 14",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "336 x 201 x 10",
+      "PhysicalDimensions": {
+        "Width": 336,
+        "Height": 201,
+        "Depth": 10
+      },
       "PhysicalWeight": "750",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -443,7 +555,10 @@
       "EntityId": "WACOM.DTC141"
     },
     {
-      "DigitizerDimensions": "294 x 166",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 166
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
@@ -452,7 +567,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:87%",
       "DisplayContrast": "930",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "20",
       "DisplayViewingAngleHorizontal": "160",
       "DisplayViewingAngleVertical": "160",
@@ -464,7 +582,11 @@
       "ModelName": "Cintiq Pro 13",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "360.00 x 235.00 x 11.90",
+      "PhysicalDimensions": {
+        "Width": 360.0,
+        "Height": 235.0,
+        "Depth": 11.9
+      },
       "PhysicalWeight": "1100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:28.697Z",
@@ -472,12 +594,18 @@
       "EntityId": "WACOM.DTH1320"
     },
     {
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "320",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "ModelAudience": "Consumer",
       "ModelBrand": "WACOM",
       "ModelId": "DTH-134",
@@ -492,7 +620,10 @@
       "EntityId": "WACOM.DTH134"
     },
     {
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -504,7 +635,10 @@
       "DisplayContrast": "100000",
       "DisplayPanelTech": "OLED",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "0.2",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -516,7 +650,11 @@
       "ModelName": "Movink 13",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "319.50 x 205.20 x 6.60",
+      "PhysicalDimensions": {
+        "Width": 319.5,
+        "Height": 205.2,
+        "Depth": 6.6
+      },
       "PhysicalWeight": "420",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -524,7 +662,10 @@
       "EntityId": "WACOM.DTH135"
     },
     {
-      "DigitizerDimensions": "345 x 194",
+      "DigitizerDimensions": {
+        "Width": 345,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
@@ -535,7 +676,10 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "176",
       "DisplayViewingAngleVertical": "176",
@@ -548,7 +692,11 @@
       "ModelProductLink": "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "410.00 x 265.00 x 17.50",
+      "PhysicalDimensions": {
+        "Width": 410.0,
+        "Height": 265.0,
+        "Depth": 17.5
+      },
       "PhysicalWeight": "1500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:32.957Z",
@@ -556,7 +704,10 @@
       "EntityId": "WACOM.DTH1620"
     },
     {
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
@@ -569,7 +720,10 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "30",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -581,7 +735,11 @@
       "ModelName": "Cintiq Pro 16 (2021)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-16#Specifications",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "410.00 x 266.00 x 22.00",
+      "PhysicalDimensions": {
+        "Width": 410.0,
+        "Height": 266.0,
+        "Depth": 22.0
+      },
       "PhysicalWeight": "1900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:38.035Z",
@@ -594,7 +752,10 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "400",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "ModelAudience": "Professional",
       "ModelBrand": "WACOM",
       "ModelId": "DTH-172",
@@ -614,7 +775,10 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "ModelAudience": "Professional",
       "ModelBrand": "WACOM",
       "ModelId": "DTH-227",
@@ -629,7 +793,10 @@
       "EntityId": "WACOM.DTH227"
     },
     {
-      "DigitizerDimensions": "522 x 294",
+      "DigitizerDimensions": {
+        "Width": 522,
+        "Height": 294
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
@@ -642,7 +809,10 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -654,7 +824,11 @@
       "ModelName": "Cintiq Pro 24 Touch",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "677.00 x 394.00 x 47.00",
+      "PhysicalDimensions": {
+        "Width": 677.0,
+        "Height": 394.0,
+        "Depth": 47.0
+      },
       "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:53.636Z",
@@ -662,7 +836,10 @@
       "EntityId": "WACOM.DTH2420"
     },
     {
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
@@ -676,7 +853,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "12",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -688,7 +868,11 @@
       "ModelName": "Cintiq 24 touch (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "340.00 x 568.00 x 21.00",
+      "PhysicalDimensions": {
+        "Width": 340.0,
+        "Height": 568.0,
+        "Depth": 21.0
+      },
       "PhysicalWeight": "5000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:24.354Z",
@@ -696,7 +880,10 @@
       "EntityId": "WACOM.DTH246"
     },
     {
-      "DigitizerDimensions": "596 x 335",
+      "DigitizerDimensions": {
+        "Width": 596,
+        "Height": 335
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
@@ -709,7 +896,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "10",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -721,7 +911,11 @@
       "ModelName": "Cintiq Pro 27",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "638.00 x 379.00 x 31.00",
+      "PhysicalDimensions": {
+        "Width": 638.0,
+        "Height": 379.0,
+        "Depth": 31.0
+      },
       "PhysicalWeight": "15900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:51:00.154Z",
@@ -729,7 +923,10 @@
       "EntityId": "WACOM.DTH271"
     },
     {
-      "DigitizerDimensions": "697 x 392",
+      "DigitizerDimensions": {
+        "Width": 697,
+        "Height": 392
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -742,7 +939,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "8",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -755,7 +955,11 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "854.00 x 506.00 x 53.20",
+      "PhysicalDimensions": {
+        "Width": 854.0,
+        "Height": 506.0,
+        "Depth": 53.2
+      },
       "PhysicalWeight": "13000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -763,7 +967,10 @@
       "EntityId": "WACOM.DTH3220"
     },
     {
-      "DigitizerDimensions": "299 x 171",
+      "DigitizerDimensions": {
+        "Width": 299,
+        "Height": 171
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerResolution": "200",
       "DigitizerTilt": "40",
@@ -772,7 +979,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:75%",
       "DisplayContrast": "700",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -784,14 +994,21 @@
       "ModelProductLink": "https://www.wacom.com/en-br/products/cintiq-13-hd",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "374.00 x 248.00 x 13.00",
+      "PhysicalDimensions": {
+        "Width": 374.0,
+        "Height": 248.0,
+        "Depth": 13.0
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d",
       "EntityId": "WACOM.DTK1300"
     },
     {
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -801,7 +1018,10 @@
       "DisplayColorGamuts": "NTSC:72%, SRGB:96%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -813,7 +1033,11 @@
       "ModelName": "Cintiq 16",
       "ModelProductLink": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "422.00 x 285.00 x 16.60",
+      "PhysicalDimensions": {
+        "Width": 422.0,
+        "Height": 285.0,
+        "Depth": 16.6
+      },
       "PhysicalWeight": "1900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -821,7 +1045,10 @@
       "EntityId": "WACOM.DTK1660"
     },
     {
-      "DigitizerDimensions": "345 x 215",
+      "DigitizerDimensions": {
+        "Width": 345,
+        "Height": 215
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -834,7 +1061,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1600",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1600
+      },
       "DisplayResponseTime": "8",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -846,7 +1076,11 @@
       "ModelName": "Cintiq 16 (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "259.00 x 384.00 x 15.00",
+      "PhysicalDimensions": {
+        "Width": 259.0,
+        "Height": 384.0,
+        "Depth": 15.0
+      },
       "PhysicalWeight": "2000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -856,7 +1090,10 @@
     {
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": "1600 x 1200",
+      "DisplayResolution": {
+        "Width": 1600,
+        "Height": 1200
+      },
       "ModelBrand": "WACOM",
       "ModelId": "DTK-2100",
       "ModelLaunchYear": "2010",
@@ -869,7 +1106,10 @@
       "EntityId": "WACOM.DTK2100"
     },
     {
-      "DigitizerDimensions": "479 x 271",
+      "DigitizerDimensions": {
+        "Width": 479,
+        "Height": 271
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -879,7 +1119,10 @@
       "DisplayColorGamuts": "AdobeRGB:72%",
       "DisplayContrast": "900",
       "DisplayPanelTech": "H-IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelBrand": "WACOM",
@@ -890,7 +1133,11 @@
       "ModelProductLink": "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "650.00 x 400.00 x 55.00",
+      "PhysicalDimensions": {
+        "Width": 650.0,
+        "Height": 400.0,
+        "Depth": 55.0
+      },
       "PhysicalWeight": "8500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -898,7 +1145,10 @@
       "EntityId": "WACOM.DTK2200"
     },
     {
-      "DigitizerDimensions": "476 x 268",
+      "DigitizerDimensions": {
+        "Width": 476,
+        "Height": 268
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -909,7 +1159,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "22",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -921,7 +1174,11 @@
       "ModelName": "Cintiq 22",
       "ModelProductLink": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "570.00 x 359.00 x 40.00",
+      "PhysicalDimensions": {
+        "Width": 570.0,
+        "Height": 359.0,
+        "Depth": 40.0
+      },
       "PhysicalWeight": "5600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -929,14 +1186,20 @@
       "EntityId": "WACOM.DTK2260"
     },
     {
-      "DigitizerDimensions": "518 x 324",
+      "DigitizerDimensions": {
+        "Width": 518,
+        "Height": 324
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "190",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "AdobeRGB:92%",
       "DisplayContrast": "550",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelBrand": "WACOM",
@@ -952,7 +1215,10 @@
       "EntityId": "WACOM.DTK2400"
     },
     {
-      "DigitizerDimensions": "522 x 294",
+      "DigitizerDimensions": {
+        "Width": 522,
+        "Height": 294
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -964,7 +1230,10 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -976,7 +1245,11 @@
       "ModelName": "Cintiq Pro 24",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "677.00 x 394.00 x 47.00",
+      "PhysicalDimensions": {
+        "Width": 677.0,
+        "Height": 394.0,
+        "Depth": 47.0
+      },
       "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -984,7 +1257,10 @@
       "EntityId": "WACOM.DTK2420"
     },
     {
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -997,7 +1273,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "12",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1009,7 +1288,11 @@
       "ModelName": "Cintiq 24 (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "340.00 x 568.00 x 21.00",
+      "PhysicalDimensions": {
+        "Width": 340.0,
+        "Height": 568.0,
+        "Depth": 21.0
+      },
       "PhysicalWeight": "4800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1017,7 +1300,10 @@
       "EntityId": "WACOM.DTK246"
     },
     {
-      "DigitizerDimensions": "597 x 336",
+      "DigitizerDimensions": {
+        "Width": 597,
+        "Height": 336
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1026,7 +1312,10 @@
       "DisplayColorGamuts": "AdobeRGB:97%",
       "DisplayContrast": "970",
       "DisplayPanelTech": "AHVA",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "12",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1037,7 +1326,11 @@
       "ModelName": "Cintiq 27 QHD",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "770.00 x 465.00 x 54.40",
+      "PhysicalDimensions": {
+        "Width": 770.0,
+        "Height": 465.0,
+        "Depth": 54.4
+      },
       "PhysicalWeight": "9000",
       "PhysicalWeightInclStand": "NO",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1046,10 +1339,16 @@
       "EntityId": "WACOM.DTK2700"
     },
     {
-      "DigitizerDimensions": "261 x 163",
+      "DigitizerDimensions": {
+        "Width": 261,
+        "Height": 163
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": "1280 x 800",
+      "DisplayResolution": {
+        "Width": 1280,
+        "Height": 800
+      },
       "ModelBrand": "WACOM",
       "ModelId": "DTZ-1200W",
       "ModelLaunchYear": "2007",
@@ -1064,7 +1363,10 @@
     {
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": "1600 x 1200",
+      "DisplayResolution": {
+        "Width": 1600,
+        "Height": 1200
+      },
       "ModelBrand": "WACOM",
       "ModelId": "DTZ-2100",
       "ModelLaunchYear": "2005",
@@ -1077,10 +1379,16 @@
       "EntityId": "WACOM.DTZ2100"
     },
     {
-      "DigitizerDimensions": "432 x 324",
+      "DigitizerDimensions": {
+        "Width": 432,
+        "Height": 324
+      },
       "DigitizerType": "PASSIVE_EMR",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "1600 x 1200",
+      "DisplayResolution": {
+        "Width": 1600,
+        "Height": 1200
+      },
       "ModelBrand": "WACOM",
       "ModelId": "DTZ-2100D",
       "ModelLaunchYear": "2007",
@@ -1095,7 +1403,10 @@
     {
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayResolution": "1680 x 1050",
+      "DisplayResolution": {
+        "Width": 1680,
+        "Height": 1050
+      },
       "ModelBrand": "WACOM",
       "ModelId": "DTZ-22000W",
       "ModelLaunchYear": "2007",
@@ -1108,7 +1419,10 @@
       "EntityId": "WACOM.DTZ22000W"
     },
     {
-      "DigitizerDimensions": "127 x 106",
+      "DigitizerDimensions": {
+        "Width": 127,
+        "Height": 106
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1123,7 +1437,11 @@
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "225.00 x 210.00 x 7.50",
+      "PhysicalDimensions": {
+        "Width": 225.0,
+        "Height": 210.0,
+        "Depth": 7.5
+      },
       "PhysicalWeight": "520",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1131,7 +1449,10 @@
       "EntityId": "WACOM.GD0405"
     },
     {
-      "DigitizerDimensions": "203 x 162",
+      "DigitizerDimensions": {
+        "Width": 203,
+        "Height": 162
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1146,7 +1467,11 @@
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "334.00 x 258.00 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 334.0,
+        "Height": 258.0,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1154,7 +1479,10 @@
       "EntityId": "WACOM.GD0608"
     },
     {
-      "DigitizerDimensions": "305 x 241",
+      "DigitizerDimensions": {
+        "Width": 305,
+        "Height": 241
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1169,7 +1497,11 @@
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "256.00 x 361.00 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 256.0,
+        "Height": 361.0,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "1600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1177,7 +1509,10 @@
       "EntityId": "WACOM.GD0912"
     },
     {
-      "DigitizerDimensions": "305 x 317",
+      "DigitizerDimensions": {
+        "Width": 305,
+        "Height": 317
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1192,7 +1527,11 @@
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "444.00 x 435.50 x 37.00",
+      "PhysicalDimensions": {
+        "Width": 444.0,
+        "Height": 435.5,
+        "Depth": 37.0
+      },
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1200,7 +1539,10 @@
       "EntityId": "WACOM.GD1212"
     },
     {
-      "DigitizerDimensions": "457 x 317",
+      "DigitizerDimensions": {
+        "Width": 457,
+        "Height": 317
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1215,7 +1557,11 @@
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "616.00 x 445.50 x 37.00",
+      "PhysicalDimensions": {
+        "Width": 616.0,
+        "Height": 445.5,
+        "Depth": 37.0
+      },
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1239,7 +1585,10 @@
       "DigitizerPressureLevels": "512",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayPanelTech": "TFT",
-      "DisplayResolution": "1024 x 768",
+      "DisplayResolution": {
+        "Width": 1024,
+        "Height": 768
+      },
       "ModelBrand": "WACOM",
       "ModelId": "PL-550",
       "ModelLaunchYear": "2001",
@@ -1296,7 +1645,10 @@
       "DigitizerPressureLevels": "512",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayPanelTech": "TFT",
-      "DisplayResolution": "1280 x 1024",
+      "DisplayResolution": {
+        "Width": 1280,
+        "Height": 1024
+      },
       "ModelBrand": "WACOM",
       "ModelId": "PL-800",
       "ModelIncludedPen": "UP-911E",
@@ -1310,7 +1662,10 @@
       "EntityId": "WACOM.PL800"
     },
     {
-      "DigitizerDimensions": "157 x 99",
+      "DigitizerDimensions": {
+        "Width": 157,
+        "Height": 99
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1327,7 +1682,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "320.00 x 208.20 x 12.70",
+      "PhysicalDimensions": {
+        "Width": 320.0,
+        "Height": 208.2,
+        "Depth": 12.7
+      },
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:21.389Z",
@@ -1335,7 +1694,10 @@
       "EntityId": "WACOM.PTH450"
     },
     {
-      "DigitizerDimensions": "157 x 98",
+      "DigitizerDimensions": {
+        "Width": 157,
+        "Height": 98
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1351,7 +1713,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "320.10 x 207.80 x 11.50",
+      "PhysicalDimensions": {
+        "Width": 320.1,
+        "Height": 207.8,
+        "Depth": 11.5
+      },
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:35.885Z",
@@ -1359,7 +1725,10 @@
       "EntityId": "WACOM.PTH451"
     },
     {
-      "DigitizerDimensions": "160 x 100",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 100
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1374,7 +1743,11 @@
       "ModelName": "Intuos Pro Small (2017)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "269.00 x 170.00 x 8.45",
+      "PhysicalDimensions": {
+        "Width": 269.0,
+        "Height": 170.0,
+        "Depth": 8.45
+      },
       "PhysicalWeight": "450",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:47.636Z",
@@ -1382,7 +1755,10 @@
       "EntityId": "WACOM.PTH460"
     },
     {
-      "DigitizerDimensions": "224 x 140",
+      "DigitizerDimensions": {
+        "Width": 224,
+        "Height": 140
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1398,7 +1774,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "381.00 x 251.46 x 12.70",
+      "PhysicalDimensions": {
+        "Width": 381.0,
+        "Height": 251.46,
+        "Depth": 12.7
+      },
       "PhysicalWeight": "990",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:15.187Z",
@@ -1406,7 +1786,10 @@
       "EntityId": "WACOM.PTH650"
     },
     {
-      "DigitizerDimensions": "224 x 140",
+      "DigitizerDimensions": {
+        "Width": 224,
+        "Height": 140
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1422,7 +1805,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "379.90 x 251.40 x 11.50",
+      "PhysicalDimensions": {
+        "Width": 379.9,
+        "Height": 251.4,
+        "Depth": 11.5
+      },
       "PhysicalWeight": "990",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:30.784Z",
@@ -1430,7 +1817,10 @@
       "EntityId": "WACOM.PTH651"
     },
     {
-      "DigitizerDimensions": "224 x 148",
+      "DigitizerDimensions": {
+        "Width": 224,
+        "Height": 148
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1445,7 +1835,11 @@
       "ModelName": "Intuos Pro Medium (2017)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "338.00 x 219.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 338.0,
+        "Height": 219.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "700",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:41.306Z",
@@ -1453,7 +1847,10 @@
       "EntityId": "WACOM.PTH660"
     },
     {
-      "DigitizerDimensions": "324 x 203",
+      "DigitizerDimensions": {
+        "Width": 324,
+        "Height": 203
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1470,7 +1867,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "487.00 x 317.70 x 12.70",
+      "PhysicalDimensions": {
+        "Width": 487.0,
+        "Height": 317.7,
+        "Depth": 12.7
+      },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:10.131Z",
@@ -1478,7 +1879,10 @@
       "EntityId": "WACOM.PTH850"
     },
     {
-      "DigitizerDimensions": "325 x 203",
+      "DigitizerDimensions": {
+        "Width": 325,
+        "Height": 203
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1494,7 +1898,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "487.68 x 317.50 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 487.68,
+        "Height": 317.5,
+        "Depth": 12.0
+      },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:25.789Z",
@@ -1502,7 +1910,10 @@
       "EntityId": "WACOM.PTH851"
     },
     {
-      "DigitizerDimensions": "311 x 216",
+      "DigitizerDimensions": {
+        "Width": 311,
+        "Height": 216
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1517,7 +1928,11 @@
       "ModelName": "Intuos Pro Large (2017)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "430.00 x 287.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 430.0,
+        "Height": 287.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "1300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:27.408Z",
@@ -1525,7 +1940,10 @@
       "EntityId": "WACOM.PTH860"
     },
     {
-      "DigitizerDimensions": "488 x 305",
+      "DigitizerDimensions": {
+        "Width": 488,
+        "Height": 305
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "220",
@@ -1542,7 +1960,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "622.00 x 462.00 x 28.00",
+      "PhysicalDimensions": {
+        "Width": 622.0,
+        "Height": 462.0,
+        "Depth": 28.0
+      },
       "PhysicalWeight": "3500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1550,7 +1972,10 @@
       "EntityId": "WACOM.PTK1240"
     },
     {
-      "DigitizerDimensions": "158 x 98",
+      "DigitizerDimensions": {
+        "Width": 158,
+        "Height": 98
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1567,7 +1992,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "309.00 x 208.00 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 309.0,
+        "Height": 208.0,
+        "Depth": 12.0
+      },
       "PhysicalWeight": "700",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1575,7 +2004,10 @@
       "EntityId": "WACOM.PTK440"
     },
     {
-      "DigitizerDimensions": "157 x 99",
+      "DigitizerDimensions": {
+        "Width": 157,
+        "Height": 99
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1591,7 +2023,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "320.00 x 208.20 x 12.70",
+      "PhysicalDimensions": {
+        "Width": 320.0,
+        "Height": 208.2,
+        "Depth": 12.7
+      },
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1599,7 +2035,10 @@
       "EntityId": "WACOM.PTK450"
     },
     {
-      "DigitizerDimensions": "187 x 105",
+      "DigitizerDimensions": {
+        "Width": 187,
+        "Height": 105
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
@@ -1613,7 +2052,11 @@
       "ModelName": "Intuos Pro Small (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "215.00 x 163.00 x 7.00",
+      "PhysicalDimensions": {
+        "Width": 215.0,
+        "Height": 163.0,
+        "Depth": 7.0
+      },
       "PhysicalWeight": "240",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:59.165Z",
@@ -1621,7 +2064,10 @@
       "EntityId": "WACOM.PTK470"
     },
     {
-      "DigitizerDimensions": "203 x 127",
+      "DigitizerDimensions": {
+        "Width": 203,
+        "Height": 127
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1637,7 +2083,11 @@
       "ModelProductLink": "https://www.picmod.com/goods.php?id=143",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "363.00 x 253.00 x 15.00",
+      "PhysicalDimensions": {
+        "Width": 363.0,
+        "Height": 253.0,
+        "Depth": 15.0
+      },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1645,7 +2095,10 @@
       "EntityId": "WACOM.PTK540WL"
     },
     {
-      "DigitizerDimensions": "224 x 140",
+      "DigitizerDimensions": {
+        "Width": 224,
+        "Height": 140
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1662,7 +2115,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "370.00 x 254.00 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 370.0,
+        "Height": 254.0,
+        "Depth": 12.0
+      },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1670,7 +2127,10 @@
       "EntityId": "WACOM.PTK640"
     },
     {
-      "DigitizerDimensions": "224 x 140",
+      "DigitizerDimensions": {
+        "Width": 224,
+        "Height": 140
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1686,7 +2146,11 @@
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "381.00 x 251.46 x 12.70",
+      "PhysicalDimensions": {
+        "Width": 381.0,
+        "Height": 251.46,
+        "Depth": 12.7
+      },
       "PhysicalWeight": "990",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1694,7 +2158,10 @@
       "EntityId": "WACOM.PTK650"
     },
     {
-      "DigitizerDimensions": "263 x 148",
+      "DigitizerDimensions": {
+        "Width": 263,
+        "Height": 148
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
@@ -1708,7 +2175,11 @@
       "ModelName": "Intuos Pro Medium (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "291.00 x 206.00 x 7.00",
+      "PhysicalDimensions": {
+        "Width": 291.0,
+        "Height": 206.0,
+        "Depth": 7.0
+      },
       "PhysicalWeight": "411",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:52.941Z",
@@ -1716,7 +2187,10 @@
       "EntityId": "WACOM.PTK670"
     },
     {
-      "DigitizerDimensions": "325 x 203",
+      "DigitizerDimensions": {
+        "Width": 325,
+        "Height": 203
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1733,7 +2207,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "475.00 x 320.00 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 475.0,
+        "Height": 320.0,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1741,7 +2219,10 @@
       "EntityId": "WACOM.PTK840"
     },
     {
-      "DigitizerDimensions": "349 x 195",
+      "DigitizerDimensions": {
+        "Width": 349,
+        "Height": 195
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
@@ -1755,7 +2236,11 @@
       "ModelName": "Intuos Pro Large (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "377.00 x 253.00 x 7.00",
+      "PhysicalDimensions": {
+        "Width": 377.0,
+        "Height": 253.0,
+        "Depth": 7.0
+      },
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:45.868Z",
@@ -1763,7 +2248,10 @@
       "EntityId": "WACOM.PTK870"
     },
     {
-      "DigitizerDimensions": "305 x 305",
+      "DigitizerDimensions": {
+        "Width": 305,
+        "Height": 305
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1779,7 +2267,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "439.50 x 429.30 x 36.40",
+      "PhysicalDimensions": {
+        "Width": 439.5,
+        "Height": 429.3,
+        "Depth": 36.4
+      },
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1787,7 +2279,10 @@
       "EntityId": "WACOM.PTZ1230"
     },
     {
-      "DigitizerDimensions": "488 x 305",
+      "DigitizerDimensions": {
+        "Width": 488,
+        "Height": 305
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1803,7 +2298,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "622.50 x 428.50 x 36.40",
+      "PhysicalDimensions": {
+        "Width": 622.5,
+        "Height": 428.5,
+        "Depth": 36.4
+      },
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1811,7 +2310,10 @@
       "EntityId": "WACOM.PTZ1231W"
     },
     {
-      "DigitizerDimensions": "127 x 102",
+      "DigitizerDimensions": {
+        "Width": 127,
+        "Height": 102
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1827,7 +2329,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "238.50 x 217.00 x 13.00",
+      "PhysicalDimensions": {
+        "Width": 238.5,
+        "Height": 217.0,
+        "Depth": 13.0
+      },
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1835,7 +2341,10 @@
       "EntityId": "WACOM.PTZ430"
     },
     {
-      "DigitizerDimensions": "158 x 98",
+      "DigitizerDimensions": {
+        "Width": 158,
+        "Height": 98
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1851,7 +2360,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "270.00 x 210.00 x 13.00",
+      "PhysicalDimensions": {
+        "Width": 270.0,
+        "Height": 210.0,
+        "Depth": 13.0
+      },
       "PhysicalWeight": "800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1859,7 +2372,10 @@
       "EntityId": "WACOM.PTZ431W"
     },
     {
-      "DigitizerDimensions": "203 x 152",
+      "DigitizerDimensions": {
+        "Width": 203,
+        "Height": 152
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1875,7 +2391,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "345.00 x 261.50 x 13.00",
+      "PhysicalDimensions": {
+        "Width": 345.0,
+        "Height": 261.5,
+        "Depth": 13.0
+      },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1883,7 +2403,10 @@
       "EntityId": "WACOM.PTZ630"
     },
     {
-      "DigitizerDimensions": "271 x 159",
+      "DigitizerDimensions": {
+        "Width": 271,
+        "Height": 159
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1899,7 +2422,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "417.60 x 262.00 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 417.6,
+        "Height": 262.0,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "1400",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1907,7 +2434,10 @@
       "EntityId": "WACOM.PTZ631W"
     },
     {
-      "DigitizerDimensions": "305 x 229",
+      "DigitizerDimensions": {
+        "Width": 305,
+        "Height": 229
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
       "DigitizerResolution": "200",
@@ -1923,7 +2453,11 @@
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "439.50 x 429.30 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 439.5,
+        "Height": 429.3,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1931,7 +2465,10 @@
       "EntityId": "WACOM.PTZ930"
     },
     {
-      "DigitizerDimensions": "127 x 106",
+      "DigitizerDimensions": {
+        "Width": 127,
+        "Height": 106
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1947,7 +2484,11 @@
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "225.00 x 210.00 x 7.50",
+      "PhysicalDimensions": {
+        "Width": 225.0,
+        "Height": 210.0,
+        "Depth": 7.5
+      },
       "PhysicalWeight": "520",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1955,7 +2496,10 @@
       "EntityId": "WACOM.XD0405U"
     },
     {
-      "DigitizerDimensions": "203 x 162",
+      "DigitizerDimensions": {
+        "Width": 203,
+        "Height": 162
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1971,7 +2515,11 @@
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "334.00 x 258.00 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 334.0,
+        "Height": 258.0,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1979,7 +2527,10 @@
       "EntityId": "WACOM.XD0608U"
     },
     {
-      "DigitizerDimensions": "305 x 241",
+      "DigitizerDimensions": {
+        "Width": 305,
+        "Height": 241
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -1995,7 +2546,11 @@
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "456.00 x 261.00 x 14.00",
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 261.0,
+        "Depth": 14.0
+      },
       "PhysicalWeight": "1600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -2003,7 +2558,10 @@
       "EntityId": "WACOM.XD0912U"
     },
     {
-      "DigitizerDimensions": "305 x 317",
+      "DigitizerDimensions": {
+        "Width": 305,
+        "Height": 317
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -2019,7 +2577,11 @@
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "444.00 x 435.50 x 37.00",
+      "PhysicalDimensions": {
+        "Width": 444.0,
+        "Height": 435.5,
+        "Depth": 37.0
+      },
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -2027,7 +2589,10 @@
       "EntityId": "WACOM.XD1212U"
     },
     {
-      "DigitizerDimensions": "457 x 317",
+      "DigitizerDimensions": {
+        "Width": 457,
+        "Height": 317
+      },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
       "DigitizerResolution": "100",
@@ -2043,7 +2608,11 @@
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "616.00 x 445.50 x 37.00",
+      "PhysicalDimensions": {
+        "Width": 616.0,
+        "Height": 445.5,
+        "Depth": 37.0
+      },
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",

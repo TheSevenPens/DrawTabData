@@ -2,7 +2,10 @@
   "DrawingTablets": [
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "345 x 216",
+      "DigitizerDimensions": {
+        "Width": 345,
+        "Height": 216
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -17,7 +20,11 @@
       "ModelName": "Inspiroy Giano G930L",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyGiano/inspiroy-giano.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "429.00 x 260.00 x 9.00",
+      "PhysicalDimensions": {
+        "Width": 429.0,
+        "Height": 260.0,
+        "Depth": 9.0
+      },
       "PhysicalWeight": "1145",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -27,7 +34,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "256 x 144",
+      "DigitizerDimensions": {
+        "Width": 256,
+        "Height": 144
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -40,7 +50,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -52,7 +65,11 @@
       "ModelName": "Kamvas 12",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-12.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "330.25 x 197.00 x 11.80",
+      "PhysicalDimensions": {
+        "Width": 330.25,
+        "Height": 197.0,
+        "Depth": 11.8
+      },
       "PhysicalWeight": "735",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -62,7 +79,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -76,7 +96,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -88,7 +111,11 @@
       "ModelName": "Kamvas 13",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-13.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "366.50 x 217.40 x 11.80",
+      "PhysicalDimensions": {
+        "Width": 366.5,
+        "Height": 217.4,
+        "Depth": 11.8
+      },
       "PhysicalWeight": "980",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -96,7 +123,10 @@
       "EntityId": "HUION.GS1331"
     },
     {
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "260",
       "DigitizerResolution": "200",
@@ -105,7 +135,10 @@
       "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": "SRGB:99%,ADOBERGB:90%,REC709:99%",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "165",
       "DisplayViewingAngleVertical": "165",
       "ModelAudience": "Consumer",
@@ -115,7 +148,11 @@
       "ModelLaunchYear": "2024",
       "ModelName": "Kamvas 13 GEN3",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "361.21 x 202.77 x 11.70",
+      "PhysicalDimensions": {
+        "Width": 361.21,
+        "Height": 202.77,
+        "Depth": 11.7
+      },
       "PhysicalWeight": "865.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -125,7 +162,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -139,7 +179,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -151,7 +194,11 @@
       "ModelName": "Kamvas 16 (2021)",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-16-2021.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "423.52 x 253.00 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 423.52,
+        "Height": 253.0,
+        "Depth": 12.0
+      },
       "PhysicalWeight": "1260",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -161,7 +208,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "350 x 197",
+      "DigitizerDimensions": {
+        "Width": 350,
+        "Height": 197
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "260",
@@ -175,7 +225,10 @@
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -186,7 +239,11 @@
       "ModelName": "Kamvas 16 GEN3",
       "ModelProductLink": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "421.20 x 236.81 x 12.62",
+      "PhysicalDimensions": {
+        "Width": 421.2,
+        "Height": 236.81,
+        "Depth": 12.62
+      },
       "PhysicalWeight": "1245",
       "PhysicalWeightInclStand": "NO",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -197,7 +254,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "477 x 268",
+      "DigitizerDimensions": {
+        "Width": 477,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -211,7 +271,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -223,7 +286,11 @@
       "ModelName": "Kamvas 22",
       "ModelProductLink": "https://www.huion.us/products/huion-kamvas-22",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "546.00 x 323.00 x 19.00",
+      "PhysicalDimensions": {
+        "Width": 546.0,
+        "Height": 323.0,
+        "Depth": 19.0
+      },
       "PhysicalWeight": "3900",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -234,7 +301,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "477 x 268",
+      "DigitizerDimensions": {
+        "Width": 477,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -248,7 +318,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -260,7 +333,11 @@
       "ModelName": "Kamvas 22 Plus",
       "ModelProductLink": "https://www.huion.us/products/huion-kamvas-22-plus",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "546.00 x 323.00 x 19.00",
+      "PhysicalDimensions": {
+        "Width": 546.0,
+        "Height": 323.0,
+        "Depth": 19.0
+      },
       "PhysicalWeight": "2900",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -284,7 +361,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "24",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -306,7 +386,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -320,7 +403,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -332,7 +418,11 @@
       "ModelName": "Kamvas 24 Plus",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-24-plus.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "604.20 x 358.00 x 28.30",
+      "PhysicalDimensions": {
+        "Width": 604.2,
+        "Height": 358.0,
+        "Depth": 28.3
+      },
       "PhysicalWeight": "5600",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -343,7 +433,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "344.16 x 193.59",
+      "DigitizerDimensions": {
+        "Width": 344.16,
+        "Height": 193.59
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "260",
@@ -357,7 +450,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920x1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -369,7 +465,11 @@
       "ModelName": "Kamvas Pro 16 V2",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "437.8 x 251.2 x 11.5",
+      "PhysicalDimensions": {
+        "Width": 437.8,
+        "Height": 251.2,
+        "Depth": 11.5
+      },
       "PhysicalWeight": "1360",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -379,7 +479,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -393,7 +496,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "30",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -406,7 +512,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-156HD_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "434.00 x 264.00 x 14.80",
+      "PhysicalDimensions": {
+        "Width": 434.0,
+        "Height": 264.0,
+        "Depth": 14.8
+      },
       "PhysicalWeight": "1500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -414,7 +524,10 @@
       "EntityId": "HUION.GT156HDV2"
     },
     {
-      "DigitizerDimensions": "408 x 256",
+      "DigitizerDimensions": {
+        "Width": 408,
+        "Height": 256
+      },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "233",
       "DigitizerResolution": "200",
@@ -423,7 +536,10 @@
       "DisplayColorBitDepth": "8",
       "DisplayContrast": "700",
       "DisplayPanelTech": "TFT",
-      "DisplayResolution": "1440 x 900",
+      "DisplayResolution": {
+        "Width": 1440,
+        "Height": 900
+      },
       "DisplayResponseTime": "5",
       "DisplayViewingAngleHorizontal": "160",
       "DisplayViewingAngleVertical": "120",
@@ -435,7 +551,11 @@
       "ModelProductLink": "https://www.ati.com.ph/huion/prod-gt190.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "454.40 x 351.80 x 26.00",
+      "PhysicalDimensions": {
+        "Width": 454.4,
+        "Height": 351.8,
+        "Depth": 26.0
+      },
       "PhysicalWeight": "4300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -445,7 +565,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "409 x 230",
+      "DigitizerDimensions": {
+        "Width": 409,
+        "Height": 230
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "250",
@@ -461,7 +584,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "15",
       "DisplayViewingAngleHorizontal": "170",
       "DisplayViewingAngleVertical": "170",
@@ -473,7 +599,11 @@
       "ModelName": "Kamvas Pro 19",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "448.90 x 272.40 x 21.30",
+      "PhysicalDimensions": {
+        "Width": 448.9,
+        "Height": 272.4,
+        "Depth": 21.3
+      },
       "PhysicalWeight": "2000",
       "PhysicalWeightInclStand": "NO",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -484,7 +614,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "477 x 268",
+      "DigitizerDimensions": {
+        "Width": 477,
+        "Height": 268
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -497,7 +630,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -509,7 +645,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-220_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "517.00 x 323.00 x 37.00",
+      "PhysicalDimensions": {
+        "Width": 517.0,
+        "Height": 323.0,
+        "Depth": 37.0
+      },
       "PhysicalWeight": "3700",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -520,7 +660,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "597 x 336",
+      "DigitizerDimensions": {
+        "Width": 597,
+        "Height": 336
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "300",
@@ -535,7 +678,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -547,7 +693,11 @@
       "ModelName": "Kamvas Pro 27",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "656.10 x 405.00 x 22.70",
+      "PhysicalDimensions": {
+        "Width": 656.1,
+        "Height": 405.0,
+        "Depth": 22.7
+      },
       "PhysicalWeight": "8000",
       "PhysicalWeightInclStand": "NO",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -558,7 +708,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "256 x 144",
+      "DigitizerDimensions": {
+        "Width": 256,
+        "Height": 144
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -572,7 +725,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -585,7 +741,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_12.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "350.00 x 198.60 x 11.00",
+      "PhysicalDimensions": {
+        "Width": 350.0,
+        "Height": 198.6,
+        "Depth": 11.0
+      },
       "PhysicalWeight": "765",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -595,7 +755,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "287 x 179",
+      "DigitizerDimensions": {
+        "Width": 287,
+        "Height": 179
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "226",
@@ -610,7 +773,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -622,7 +788,11 @@
       "ModelName": "Kamvas Pro 13 2.5K",
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-13-2k",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "373.50 x 229.00 x 10.00",
+      "PhysicalDimensions": {
+        "Width": 373.5,
+        "Height": 229.0,
+        "Depth": 10.0
+      },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -632,7 +802,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "294 x 165",
+      "DigitizerDimensions": {
+        "Width": 294,
+        "Height": 165
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -646,7 +819,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -659,7 +835,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_13.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "388.00 x 219.00 x 11.00",
+      "PhysicalDimensions": {
+        "Width": 388.0,
+        "Height": 219.0,
+        "Depth": 11.0
+      },
       "PhysicalWeight": "910",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -669,7 +849,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "346 x 194",
+      "DigitizerDimensions": {
+        "Width": 346,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -683,7 +866,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -695,7 +881,11 @@
       "ModelName": "Kamvas Pro 16 4K",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-4k.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "402.70 x 257.40 x 13.00",
+      "PhysicalDimensions": {
+        "Width": 402.7,
+        "Height": 257.4,
+        "Depth": 13.0
+      },
       "PhysicalWeight": "1270",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -705,7 +895,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "347 x 194",
+      "DigitizerDimensions": {
+        "Width": 347,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -719,7 +912,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -731,7 +927,11 @@
       "ModelName": "Kamvas Pro 16 4K Plus",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-plus-4k.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "402.70 x 257.40 x 13.00",
+      "PhysicalDimensions": {
+        "Width": 402.7,
+        "Height": 257.4,
+        "Depth": 13.0
+      },
       "PhysicalWeight": "1270",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -741,7 +941,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "350 x 197",
+      "DigitizerDimensions": {
+        "Width": 350,
+        "Height": 197
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "226",
@@ -756,7 +959,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -768,7 +974,11 @@
       "ModelName": "Kamvas Pro 16 2.5K",
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-16-2k",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "436.20 x 247.30 x 11.50",
+      "PhysicalDimensions": {
+        "Width": 436.2,
+        "Height": 247.3,
+        "Depth": 11.5
+      },
       "PhysicalWeight": "1280",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -778,7 +988,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "435 x 239",
+      "DigitizerDimensions": {
+        "Width": 435,
+        "Height": 239
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -791,7 +1004,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -804,7 +1020,11 @@
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-20-2019?vid=144",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "552.20 x 315.30 x 21.00",
+      "PhysicalDimensions": {
+        "Width": 552.2,
+        "Height": 315.3,
+        "Depth": 21.0
+      },
       "PhysicalWeight": "3600",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -815,7 +1035,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "435 x 239",
+      "DigitizerDimensions": {
+        "Width": 435,
+        "Height": 239
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -828,7 +1051,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -841,7 +1067,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-191.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "475.00 x 298.00 x 35.00",
+      "PhysicalDimensions": {
+        "Width": 475.0,
+        "Height": 298.0,
+        "Depth": 35.0
+      },
       "PhysicalWeight": "3300",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -852,7 +1082,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "435 x 239",
+      "DigitizerDimensions": {
+        "Width": 435,
+        "Height": 239
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -865,7 +1098,10 @@
       "DisplayColorGamuts": "SRGB:100%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -878,7 +1114,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-191_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "475.00 x 298.00 x 35.00",
+      "PhysicalDimensions": {
+        "Width": 475.0,
+        "Height": 298.0,
+        "Depth": 35.0
+      },
       "PhysicalWeight": "3300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -888,7 +1128,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "477 x 268",
+      "DigitizerDimensions": {
+        "Width": 477,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -900,7 +1143,10 @@
       "DisplayColorGamuts": "SRGB:120%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "8",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -913,7 +1159,11 @@
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-22-2019",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "589.00 x 344.00 x 21.00",
+      "PhysicalDimensions": {
+        "Width": 589.0,
+        "Height": 344.0,
+        "Depth": 21.0
+      },
       "PhysicalWeight": "4500",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -924,7 +1174,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "477 x 268",
+      "DigitizerDimensions": {
+        "Width": 477,
+        "Height": 268
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -937,7 +1190,10 @@
       "DisplayColorGamuts": "SRGB:100%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -949,7 +1205,11 @@
       "ModelName": "Kamvas Pro 22 (2019)",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_22.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "589.00 x 344.00 x 21.00",
+      "PhysicalDimensions": {
+        "Width": 589.0,
+        "Height": 344.0,
+        "Depth": 21.0
+      },
       "PhysicalWeight": "4500",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -960,7 +1220,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -974,7 +1237,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -986,7 +1252,11 @@
       "ModelName": "Kamvas Pro 24",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "659.00 x 391.00 x 25.00",
+      "PhysicalDimensions": {
+        "Width": 659.0,
+        "Height": 391.0,
+        "Depth": 25.0
+      },
       "PhysicalWeight": "6000",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -997,7 +1267,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1011,7 +1284,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "10",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1023,7 +1299,11 @@
       "ModelName": "Kamvas Pro 24 4K",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "589.00 x 364.00 x 22.70",
+      "PhysicalDimensions": {
+        "Width": 589.0,
+        "Height": 364.0,
+        "Depth": 22.7
+      },
       "PhysicalWeight": "6300",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1034,7 +1314,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "525.888 x 295.812",
+      "DigitizerDimensions": {
+        "Width": 525.888,
+        "Height": 295.812
+      },
       "DigitizerMaxHover": "9",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "260",
@@ -1050,7 +1333,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "60",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1064,7 +1350,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
       "ModelStatus": "ACTIVE",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "589.2 x 364 x 22.7",
+      "PhysicalDimensions": {
+        "Width": 589.2,
+        "Height": 364,
+        "Depth": 22.7
+      },
       "PhysicalWeight": "6365",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-13T16:20:23.250Z",
@@ -1075,7 +1365,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": "596.736 x 335.664",
+      "DigitizerDimensions": {
+        "Width": 596.736,
+        "Height": 335.664
+      },
       "DigitizerMaxHover": "8",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "260",
@@ -1091,7 +1384,10 @@
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
       "DisplayRefreshRate": "144",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "DisplayResponseTime": "5",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1104,7 +1400,11 @@
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27-144hz.html",
       "ModelStatus": "ACTIVE",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "656.1 x 405 x 22.7",
+      "PhysicalDimensions": {
+        "Width": 656.1,
+        "Height": 405,
+        "Depth": 22.7
+      },
       "PhysicalWeight": "7200",
       "PhysicalWeightInclStand": "NO",
       "_CreateDate": "2025-12-13T16:26:14.354Z",
@@ -1114,7 +1414,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1129,7 +1432,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H1060P.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "360.00 x 240.00 x 10.00",
+      "PhysicalDimensions": {
+        "Width": 360.0,
+        "Height": 240.0,
+        "Depth": 10.0
+      },
       "PhysicalWeight": "770",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1138,7 +1445,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "267 x 167",
+      "DigitizerDimensions": {
+        "Width": 267,
+        "Height": 167
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "260",
@@ -1153,7 +1463,11 @@
       "ModelName": "Inspiroy 2 L",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H1061P.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "352.50 x 208.70 x 9.50",
+      "PhysicalDimensions": {
+        "Width": 352.5,
+        "Height": 208.7,
+        "Depth": 9.5
+      },
       "PhysicalWeight": "600.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1162,7 +1476,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "279 x 175",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 175
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1176,7 +1493,11 @@
       "ModelName": "H1161",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H1161.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "372.50 x 221.40 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 372.5,
+        "Height": 221.4,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "570",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1185,7 +1506,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "229 x 143",
+      "DigitizerDimensions": {
+        "Width": 229,
+        "Height": 143
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1199,7 +1523,11 @@
       "ModelName": "320M",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyInk/H320M.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "305.40 x 179.60 x 9.00",
+      "PhysicalDimensions": {
+        "Width": 305.4,
+        "Height": 179.6,
+        "Depth": 9.0
+      },
       "PhysicalWeight": "450",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1208,7 +1536,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "106 x 65",
+      "DigitizerDimensions": {
+        "Width": 106,
+        "Height": 65
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
@@ -1223,7 +1554,11 @@
       "ModelProductLink": "https://www.huion.com/products/pen_tablet/Others/H420.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "176.00 x 111.00 x 7.50",
+      "PhysicalDimensions": {
+        "Width": 176.0,
+        "Height": 111.0,
+        "Depth": 7.5
+      },
       "PhysicalWeight": "167",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1232,7 +1567,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "106 x 66",
+      "DigitizerDimensions": {
+        "Width": 106,
+        "Height": 66
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1245,7 +1583,11 @@
       "ModelName": "H420X",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H420X.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "172.01 x 109.60 x 7.00",
+      "PhysicalDimensions": {
+        "Width": 172.01,
+        "Height": 109.6,
+        "Depth": 7.0
+      },
       "PhysicalWeight": "105",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1254,7 +1596,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "187 x 139",
+      "DigitizerDimensions": {
+        "Width": 187,
+        "Height": 139
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "233",
@@ -1269,7 +1614,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H430P.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "186.60 x 139.20 x 6.30",
+      "PhysicalDimensions": {
+        "Width": 186.6,
+        "Height": 139.2,
+        "Depth": 6.3
+      },
       "PhysicalWeight": "135",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1278,7 +1627,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1293,7 +1645,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/HS610.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "250.00 x 211.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 250.0,
+        "Height": 211.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1302,7 +1658,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
@@ -1317,7 +1676,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Huion/H610PRO.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "353.00 x 245.00 x 10.00",
+      "PhysicalDimensions": {
+        "Width": 353.0,
+        "Height": 245.0,
+        "Depth": 10.0
+      },
       "PhysicalWeight": "635",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1326,7 +1689,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -1340,7 +1706,11 @@
       "ModelName": "H610PRO V2",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Huion/H610PRO_V2.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "352.00 x 238.00 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 352.0,
+        "Height": 238.0,
+        "Depth": 12.0
+      },
       "PhysicalWeight": "635",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1349,7 +1719,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1363,7 +1736,11 @@
       "ModelName": "H610X",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H610X.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "324.50 x 205.60 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 324.5,
+        "Height": 205.6,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "515",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1372,7 +1749,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "160 x 100",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 100
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -1387,7 +1767,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H640P.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "260.00 x 147.70 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 260.0,
+        "Height": 147.7,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "277",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1396,7 +1780,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "160 x 100",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 100
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "260",
@@ -1411,7 +1798,11 @@
       "ModelName": "Inspiroy 2 S",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H641P.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "246.00 x 152.00 x 9.50",
+      "PhysicalDimensions": {
+        "Width": 246.0,
+        "Height": 152.0,
+        "Depth": 9.5
+      },
       "PhysicalWeight": "275.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1420,7 +1811,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "221 x 138",
+      "DigitizerDimensions": {
+        "Width": 221,
+        "Height": 138
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -1433,7 +1827,11 @@
       "ModelName": "H950P",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H950P.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "320.80 x 188.80 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 320.8,
+        "Height": 188.8,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "497",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1442,7 +1840,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "221 x 138",
+      "DigitizerDimensions": {
+        "Width": 221,
+        "Height": 138
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "260",
@@ -1457,7 +1858,11 @@
       "ModelName": "Inspiroy 2 M",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H951P.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "306.00 x 180.00 x 7.50",
+      "PhysicalDimensions": {
+        "Width": 306.0,
+        "Height": 180.0,
+        "Depth": 7.5
+      },
       "PhysicalWeight": "420.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1466,7 +1871,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1480,7 +1888,11 @@
       "ModelName": "HS610",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/HS610.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "350.00 x 211.80 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 350.0,
+        "Height": 211.8,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1489,7 +1901,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "258 x 162",
+      "DigitizerDimensions": {
+        "Width": 258,
+        "Height": 162
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -1503,7 +1918,11 @@
       "ModelName": "HS611",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/huion-hs611.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "333.40 x 218.00 x 7.30",
+      "PhysicalDimensions": {
+        "Width": 333.4,
+        "Height": 218.0,
+        "Depth": 7.3
+      },
       "PhysicalWeight": "500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1512,7 +1931,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "160 x 102",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 102
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -1526,7 +1948,11 @@
       "ModelName": "HS64",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/HS64.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "200.00 x 166.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 200.0,
+        "Height": 166.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "258",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1534,7 +1960,10 @@
       "EntityId": "HUION.HS64"
     },
     {
-      "DigitizerDimensions": "160 x 100",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 100
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "300",
@@ -1548,7 +1977,11 @@
       "ModelLaunchYear": "2024",
       "ModelName": "Inspiroy Frego S L310",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "220.00 x 165.70 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 220.0,
+        "Height": 165.7,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "280",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1556,7 +1989,10 @@
       "EntityId": "HUION.L310"
     },
     {
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "300",
@@ -1570,7 +2006,11 @@
       "ModelLaunchYear": "2024",
       "ModelName": "Inspiroy Frego M L610",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "304.00 x 220.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 304.0,
+        "Height": 220.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "546",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1579,7 +2019,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "254 x 159",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 159
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -1593,7 +2036,11 @@
       "ModelName": "NEW 1060 PLUS",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Huion/NEW_1060PLUS.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "360.00 x 240.00 x 10.00",
+      "PhysicalDimensions": {
+        "Width": 360.0,
+        "Height": 240.0,
+        "Depth": 10.0
+      },
       "PhysicalWeight": "770",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1602,7 +2049,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "279 x 175",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 175
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -1617,7 +2067,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/Q11K.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "390.00 x 233.00 x 11.00",
+      "PhysicalDimensions": {
+        "Width": 390.0,
+        "Height": 233.0,
+        "Depth": 11.0
+      },
       "PhysicalWeight": "880.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1626,7 +2080,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "279 x 175",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 175
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1640,7 +2097,11 @@
       "ModelName": "Inspiroy Q11K V2",
       "ModelProductLink": "https://www.huion.com/products/pen_tablet/Inspiroy/Q11K_V2.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "390.00 x 233.00 x 11.00",
+      "PhysicalDimensions": {
+        "Width": 390.0,
+        "Height": 233.0,
+        "Depth": 11.0
+      },
       "PhysicalWeight": "880.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1649,7 +2110,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "267 x 167",
+      "DigitizerDimensions": {
+        "Width": 267,
+        "Height": 167
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -1663,7 +2127,11 @@
       "ModelName": "Inspiroy Dial",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "375.50 x 220.40 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 375.5,
+        "Height": 220.4,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "666",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1672,7 +2140,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "267 x 167",
+      "DigitizerDimensions": {
+        "Width": 267,
+        "Height": 167
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1687,7 +2158,11 @@
       "ModelName": "Inspiroy Dial 2",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial-2.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "356.60 x 207.00 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 356.6,
+        "Height": 207.0,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "710",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1697,7 +2172,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1711,7 +2189,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1723,7 +2204,11 @@
       "ModelName": "Kamvas RDS-160",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/RDS160.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "220.00 x 253.00 x 12.00",
+      "PhysicalDimensions": {
+        "Width": 220.0,
+        "Height": 253.0,
+        "Depth": 12.0
+      },
       "PhysicalWeight": "1260",
       "PhysicalWeightInclStand": "YES",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1734,7 +2219,10 @@
     {
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
-      "DigitizerDimensions": "475 x 323",
+      "DigitizerDimensions": {
+        "Width": 475,
+        "Height": 323
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1748,7 +2236,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "2560 x 1440",
+      "DisplayResolution": {
+        "Width": 2560,
+        "Height": 1440
+      },
       "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1760,7 +2251,11 @@
       "ModelName": "Kamvas RDS-220",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-rds-220.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "546.00 x 323.00 x 26.70",
+      "PhysicalDimensions": {
+        "Width": 546.0,
+        "Height": 323.0,
+        "Depth": 26.7
+      },
       "PhysicalWeight": "3450.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1769,7 +2264,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "221 x 138",
+      "DigitizerDimensions": {
+        "Width": 221,
+        "Height": 138
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1784,7 +2282,11 @@
       "ModelName": "RTM500",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/RTM500.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "288.30 x 178.20 x 8.40",
+      "PhysicalDimensions": {
+        "Width": 288.3,
+        "Height": 178.2,
+        "Depth": 8.4
+      },
       "PhysicalWeight": "415",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1793,7 +2295,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "279 x 175",
+      "DigitizerDimensions": {
+        "Width": 279,
+        "Height": 175
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1808,7 +2313,11 @@
       "ModelName": "RTP700",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/RTP700.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "345.60 x 214.80 x 8.50",
+      "PhysicalDimensions": {
+        "Width": 345.6,
+        "Height": 214.8,
+        "Depth": 8.5
+      },
       "PhysicalWeight": "637",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1817,7 +2326,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "160 x 100",
+      "DigitizerDimensions": {
+        "Width": 160,
+        "Height": 100
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "300",
@@ -1832,7 +2344,11 @@
       "ModelName": "RTS300",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/RTS300.html",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "200.00 x 163.00 x 8.35",
+      "PhysicalDimensions": {
+        "Width": 200.0,
+        "Height": 163.0,
+        "Depth": 8.35
+      },
       "PhysicalWeight": "229",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1842,7 +2358,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1856,7 +2375,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1869,7 +2391,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/Kamvas-16.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "432.00 x 263.00 x 14.80",
+      "PhysicalDimensions": {
+        "Width": 432.0,
+        "Height": 263.0,
+        "Depth": 14.8
+      },
       "PhysicalWeight": "1500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1879,7 +2405,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "435 x 239",
+      "DigitizerDimensions": {
+        "Width": 435,
+        "Height": 239
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
@@ -1891,7 +2420,10 @@
       "DisplayColorGamuts": "SRGB:120%",
       "DisplayContrast": "1000",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1904,7 +2436,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/Kamvas-20.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "475.00 x 298.00 x 35.00",
+      "PhysicalDimensions": {
+        "Width": 475.0,
+        "Height": 298.0,
+        "Depth": 35.0
+      },
       "PhysicalWeight": "3300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1914,7 +2450,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1928,7 +2467,10 @@
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1941,7 +2483,11 @@
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas-Pro-16.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "437.80 x 251.20 x 11.50",
+      "PhysicalDimensions": {
+        "Width": 437.8,
+        "Height": 251.2,
+        "Depth": 11.5
+      },
       "PhysicalWeight": "1350",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1951,7 +2497,10 @@
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "3",
-      "DigitizerDimensions": "344 x 194",
+      "DigitizerDimensions": {
+        "Width": 344,
+        "Height": 194
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -1965,7 +2514,10 @@
       "DisplayContrast": "1200",
       "DisplayLamination": "YES",
       "DisplayPanelTech": "IPS",
-      "DisplayResolution": "1920 x 1080",
+      "DisplayResolution": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "DisplayResponseTime": "25",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
@@ -1977,7 +2529,11 @@
       "ModelName": "Kamvas Pro 16 Premium",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas-Pro-16-Premium.html",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "437.80 x 251.20 x 11.50",
+      "PhysicalDimensions": {
+        "Width": 437.8,
+        "Height": 251.2,
+        "Depth": 11.5
+      },
       "PhysicalWeight": "1350",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1986,7 +2542,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "350 x 218",
+      "DigitizerDimensions": {
+        "Width": 350,
+        "Height": 218
+      },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
@@ -2001,7 +2560,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/WH1409_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "456.00 x 266.00 x 15.00",
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 266.0,
+        "Depth": 15.0
+      },
       "PhysicalWeight": "1100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -2010,7 +2573,10 @@
     },
     {
       "DigitizerAccuracyCenter": "0.3",
-      "DigitizerDimensions": "350 x 218",
+      "DigitizerDimensions": {
+        "Width": 350,
+        "Height": 218
+      },
       "DigitizerMaxHover": "12",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "233",
@@ -2024,7 +2590,11 @@
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/WH1409(8192).html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "456.00 x 266.00 x 16.00",
+      "PhysicalDimensions": {
+        "Width": 456.0,
+        "Height": 266.0,
+        "Depth": 16.0
+      },
       "PhysicalWeight": "1100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",

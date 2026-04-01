@@ -1,0 +1,31 @@
+# DECISIONS
+
+This document records key design decisions for the DrawTabData project.
+
+
+## 2026-04-01: Complex fields for multi-part values
+
+### Context
+Some fields stored multi-part values as delimited strings (e.g. "287.00 x 186.00 x 9.00").
+This made partial data awkward (trailing " x " when a component is missing), required
+string parsing for programmatic use, and made validation harder.
+
+### Decision
+Multi-part fields use nested JSON objects with named numeric properties instead of
+delimited strings. Consumers access the data through a TypeScript library that returns
+typed objects, so the added JSON complexity is not exposed directly.
+
+### Fields affected
+- PhysicalDimensions  -> { "Width": number, "Height": number, "Depth": number }
+- DigitizerDimensions -> { "Width": number, "Height": number }
+- DisplayResolution   -> { "Width": number, "Height": number }
+
+### Deferred
+- DisplayColorGamuts has a different multi-part structure (gamut:coverage pairs)
+  and will be handled separately in a future change.
+
+### Key details
+- Property names use long form: Width, Height, Depth (not W, H, D)
+- Values are numbers, not strings
+- Missing components are omitted from the object (e.g. if Depth is unknown,
+  the key is simply absent)

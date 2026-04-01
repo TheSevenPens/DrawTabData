@@ -3,8 +3,14 @@ import * as path from "path";
 
 // --- Types ---
 
+interface DimensionValue {
+  Width?: number;
+  Height?: number;
+  Depth?: number;
+}
+
 interface Tablet {
-  [key: string]: string | undefined;
+  [key: string]: string | DimensionValue | undefined;
 }
 
 interface TabletFile {
@@ -17,6 +23,17 @@ interface Issue {
   field: string;
   issue: string;
   value?: string;
+}
+
+// --- Helpers ---
+
+function getString(tablet: Tablet, field: string): string | undefined {
+  const v = tablet[field];
+  return typeof v === "string" ? v : undefined;
+}
+
+function getEntityId(tablet: Tablet): string {
+  return (getString(tablet, "EntityId") ?? getString(tablet, "ModelId") ?? "UNKNOWN");
 }
 
 // --- Field definitions ---
@@ -64,10 +81,10 @@ const NUMERIC_FIELDS = [
   "PhysicalWeight",
 ];
 
-const DIMENSION_FIELDS: Record<string, number> = {
-  DigitizerDimensions: 2, // W x H
-  DisplayResolution: 2, // W x H
-  PhysicalDimensions: 3, // W x H x D
+const COMPLEX_FIELDS: Record<string, string[]> = {
+  DigitizerDimensions: ["Width", "Height"],
+  DisplayResolution: ["Width", "Height"],
+  PhysicalDimensions: ["Width", "Height", "Depth"],
 };
 
 const DISPLAY_ONLY_FIELDS = [
@@ -121,9 +138,10 @@ const ALL_KNOWN_FIELDS = [
 
 function checkRequired(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? tablet.ModelId ?? "UNKNOWN";
+  const eid = getEntityId(tablet);
   for (const field of REQUIRED_FIELDS) {
-    if (!tablet[field] || tablet[field]!.trim() === "") {
+    const value = tablet[field];
+    if (value === undefined || (typeof value === "string" && value.trim() === "")) {
       issues.push({ file, entityId: eid, field, issue: "missing required field" });
     }
   }
@@ -132,9 +150,9 @@ function checkRequired(tablet: Tablet, file: string): Issue[] {
 
 function checkWhitespace(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
+  const eid = getEntityId(tablet);
   for (const [field, value] of Object.entries(tablet)) {
-    if (value !== undefined && value !== value.trim()) {
+    if (typeof value === "string" && value !== value.trim()) {
       issues.push({
         file,
         entityId: eid,
@@ -149,9 +167,9 @@ function checkWhitespace(tablet: Tablet, file: string): Issue[] {
 
 function checkEnums(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
+  const eid = getEntityId(tablet);
   for (const [field, allowed] of Object.entries(ENUM_FIELDS)) {
-    const value = tablet[field];
+    const value = getString(tablet, field);
     if (value !== undefined && !allowed.includes(value)) {
       issues.push({
         file,
@@ -167,9 +185,9 @@ function checkEnums(tablet: Tablet, file: string): Issue[] {
 
 function checkNumeric(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
+  const eid = getEntityId(tablet);
   for (const field of NUMERIC_FIELDS) {
-    const value = tablet[field];
+    const value = getString(tablet, field);
     if (value !== undefined && isNaN(Number(value))) {
       issues.push({
         file,
@@ -183,21 +201,44 @@ function checkNumeric(tablet: Tablet, file: string): Issue[] {
   return issues;
 }
 
-function checkDimensions(tablet: Tablet, file: string): Issue[] {
+function checkComplexFields(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
-  for (const [field, expectedParts] of Object.entries(DIMENSION_FIELDS)) {
+  const eid = getEntityId(tablet);
+  for (const [field, expectedKeys] of Object.entries(COMPLEX_FIELDS)) {
     const value = tablet[field];
     if (value === undefined) continue;
-    const parts = value.split(/\s*x\s*/);
-    if (parts.length !== expectedParts || parts.some((p) => isNaN(Number(p)))) {
+    if (typeof value !== "object" || value === null) {
       issues.push({
         file,
         entityId: eid,
         field,
-        issue: `expected format with ${expectedParts} numeric parts separated by " x "`,
-        value,
+        issue: "expected an object",
+        value: JSON.stringify(value),
       });
+      continue;
+    }
+    const obj = value as DimensionValue;
+    for (const key of Object.keys(obj)) {
+      if (!expectedKeys.includes(key)) {
+        issues.push({
+          file,
+          entityId: eid,
+          field,
+          issue: `unexpected property "${key}"`,
+        });
+      }
+    }
+    for (const key of Object.keys(obj)) {
+      const v = (obj as Record<string, unknown>)[key];
+      if (typeof v !== "number" || isNaN(v)) {
+        issues.push({
+          file,
+          entityId: eid,
+          field,
+          issue: `property "${key}" should be a number`,
+          value: JSON.stringify(v),
+        });
+      }
     }
   }
   return issues;
@@ -205,19 +246,22 @@ function checkDimensions(tablet: Tablet, file: string): Issue[] {
 
 function checkEntityId(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
-  if (tablet.ModelBrand && tablet.ModelId) {
+  const eid = getEntityId(tablet);
+  const brand = getString(tablet, "ModelBrand");
+  const modelId = getString(tablet, "ModelId");
+  const entityId = getString(tablet, "EntityId");
+  if (brand && modelId) {
     const expected =
-      tablet.ModelBrand.toUpperCase() +
+      brand.toUpperCase() +
       "." +
-      tablet.ModelId.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
-    if (tablet.EntityId !== expected) {
+      modelId.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+    if (entityId !== expected) {
       issues.push({
         file,
         entityId: eid,
         field: "EntityId",
         issue: `does not match derived value`,
-        value: `got "${tablet.EntityId}", expected "${expected}"`,
+        value: `got "${entityId}", expected "${expected}"`,
       });
     }
   }
@@ -226,8 +270,8 @@ function checkEntityId(tablet: Tablet, file: string): Issue[] {
 
 function checkDisplayFieldsOnPenTablet(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
-  if (tablet.ModelType === "PENTABLET") {
+  const eid = getEntityId(tablet);
+  if (getString(tablet, "ModelType") === "PENTABLET") {
     for (const field of DISPLAY_ONLY_FIELDS) {
       if (tablet[field] !== undefined) {
         issues.push({
@@ -235,7 +279,7 @@ function checkDisplayFieldsOnPenTablet(tablet: Tablet, file: string): Issue[] {
           entityId: eid,
           field,
           issue: "display field present on a PENTABLET",
-          value: tablet[field],
+          value: typeof tablet[field] === "string" ? tablet[field] as string : JSON.stringify(tablet[field]),
         });
       }
     }
@@ -245,7 +289,7 @@ function checkDisplayFieldsOnPenTablet(tablet: Tablet, file: string): Issue[] {
 
 function checkUnknownFields(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
+  const eid = getEntityId(tablet);
   for (const field of Object.keys(tablet)) {
     if (!ALL_KNOWN_FIELDS.includes(field)) {
       issues.push({
@@ -261,8 +305,8 @@ function checkUnknownFields(tablet: Tablet, file: string): Issue[] {
 
 function checkUuidFormat(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
-  const uuid = tablet._id;
+  const eid = getEntityId(tablet);
+  const uuid = getString(tablet, "_id");
   if (uuid !== undefined && !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(uuid)) {
     issues.push({ file, entityId: eid, field: "_id", issue: "invalid UUID format", value: uuid });
   }
@@ -271,9 +315,9 @@ function checkUuidFormat(tablet: Tablet, file: string): Issue[] {
 
 function checkIsoDate(tablet: Tablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = tablet.EntityId ?? "UNKNOWN";
+  const eid = getEntityId(tablet);
   for (const field of ["_CreateDate", "_ModifiedDate"]) {
-    const value = tablet[field];
+    const value = getString(tablet, field);
     if (value !== undefined && isNaN(Date.parse(value))) {
       issues.push({ file, entityId: eid, field, issue: "invalid ISO 8601 date", value });
     }
@@ -287,7 +331,7 @@ function checkDuplicateEntityIds(allTablets: { file: string; tablet: Tablet }[])
   const issues: Issue[] = [];
   const seen = new Map<string, string>();
   for (const { file, tablet } of allTablets) {
-    const eid = tablet.EntityId;
+    const eid = getString(tablet, "EntityId");
     if (!eid) continue;
     const prev = seen.get(eid);
     if (prev) {
@@ -323,7 +367,7 @@ export function runDataQuality(dataDir: string): Issue[] {
         ...checkWhitespace(tablet, file),
         ...checkEnums(tablet, file),
         ...checkNumeric(tablet, file),
-        ...checkDimensions(tablet, file),
+        ...checkComplexFields(tablet, file),
         ...checkEntityId(tablet, file),
         ...checkDisplayFieldsOnPenTablet(tablet, file),
         ...checkUnknownFields(tablet, file),

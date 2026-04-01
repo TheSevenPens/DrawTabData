@@ -1,7 +1,10 @@
 {
   "DrawingTablets": [
     {
-      "DigitizerDimensions": "176 x 99",
+      "DigitizerDimensions": {
+        "Width": 176,
+        "Height": 99
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -14,7 +17,11 @@
       "ModelName": "Pen Tablet Small",
       "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "234.18 x 184.66 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 234.18,
+        "Height": 184.66,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "398",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -22,7 +29,10 @@
       "EntityId": "XENCELABS.BPH0812WA"
     },
     {
-      "DigitizerDimensions": "262 x 147",
+      "DigitizerDimensions": {
+        "Width": 262,
+        "Height": 147
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -35,7 +45,11 @@
       "ModelName": "Pen Tablet Medium",
       "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
       "ModelType": "PENTABLET",
-      "PhysicalDimensions": "320.50 x 232.50 x 8.00",
+      "PhysicalDimensions": {
+        "Width": 320.5,
+        "Height": 232.5,
+        "Depth": 8.0
+      },
       "PhysicalWeight": "715",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -43,7 +57,10 @@
       "EntityId": "XENCELABS.BPH1212WA"
     },
     {
-      "DigitizerDimensions": "527 x 296",
+      "DigitizerDimensions": {
+        "Width": 527,
+        "Height": 296
+      },
       "DigitizerPressureLevels": "8192",
       "DigitizerResolution": "200",
       "DigitizerTilt": "60",
@@ -53,7 +70,10 @@
       "DisplayColorBitDepth": "10",
       "DisplayColorGamuts": "AdobeRGB:99%, DCI-P3:93%",
       "DisplayLamination": "YES",
-      "DisplayResolution": "3840 x 2160",
+      "DisplayResolution": {
+        "Width": 3840,
+        "Height": 2160
+      },
       "ModelAudience": "Professional",
       "ModelBrand": "XENCELABS",
       "ModelId": "LPH2412U-A",
@@ -62,7 +82,11 @@
       "ModelName": "Pen Display 24",
       "ModelProductLink": "https://www.xencelabs.com/us/products/pen-display",
       "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": "618.50 x 388.00 x 34.70",
+      "PhysicalDimensions": {
+        "Width": 618.5,
+        "Height": 388.0,
+        "Depth": 34.7
+      },
       "PhysicalWeight": "6000.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
