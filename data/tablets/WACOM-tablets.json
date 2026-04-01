@@ -15,7 +15,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "25487c6c-8759-473d-b92a-68be45189112"
+      "_id": "25487c6c-8759-473d-b92a-68be45189112",
+      "EntityId": "WACOM.CTC4110WL"
     },
     {
       "DigitizerDimensions": "216 x 135",
@@ -32,7 +33,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759"
+      "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759",
+      "EntityId": "WACOM.CTC6110WL"
     },
     {
       "DigitizerDimensions": "148 x 92",
@@ -53,7 +55,8 @@
       "PhysicalWeight": "370.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b"
+      "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
+      "EntityId": "WACOM.CTE450"
     },
     {
       "DigitizerDimensions": "217 x 135",
@@ -74,7 +77,8 @@
       "PhysicalWeight": "660.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "9ea9f3d5-5e72-4a58-8775-aea516cf45e2"
+      "_id": "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
+      "EntityId": "WACOM.CTE650"
     },
     {
       "DigitizerDimensions": "147 x 92",
@@ -94,7 +98,8 @@
       "PhysicalWeight": "420",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:37.515Z",
-      "_id": "e1a691a6-d73e-4f48-9d92-9185ed816be3"
+      "_id": "e1a691a6-d73e-4f48-9d92-9185ed816be3",
+      "EntityId": "WACOM.CTH470"
     },
     {
       "DigitizerDimensions": "152 x 95",
@@ -114,7 +119,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:59.358Z",
-      "_id": "eefb4b7e-5061-4a89-8b9a-de7515d462e5"
+      "_id": "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
+      "EntityId": "WACOM.CTH490"
     },
     {
       "DigitizerDimensions": "216 x 137",
@@ -132,7 +138,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:42.143Z",
-      "_id": "34947067-79d5-415a-b81a-e65e75d842be"
+      "_id": "34947067-79d5-415a-b81a-e65e75d842be",
+      "EntityId": "WACOM.CTH670"
     },
     {
       "DigitizerDimensions": "216 x 135",
@@ -154,7 +161,8 @@
       "PhysicalWeight": "480",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:51.061Z",
-      "_id": "21687a90-eddd-4727-81cc-bc30b4f04a21"
+      "_id": "21687a90-eddd-4727-81cc-bc30b4f04a21",
+      "EntityId": "WACOM.CTH690"
     },
     {
       "DigitizerDimensions": "152 x 95",
@@ -176,7 +184,8 @@
       "PhysicalWeight": "230",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "c0b798db-e061-45fe-8ba5-b82bc6497936"
+      "_id": "c0b798db-e061-45fe-8ba5-b82bc6497936",
+      "EntityId": "WACOM.CTL4100"
     },
     {
       "DigitizerDimensions": "152 x 95",
@@ -195,7 +204,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525"
+      "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
+      "EntityId": "WACOM.CTL4100WL"
     },
     {
       "DigitizerDimensions": "147 x 92",
@@ -212,7 +222,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "487092fc-f2ff-4438-9926-32df9efc80be"
+      "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
+      "EntityId": "WACOM.CTL470"
     },
     {
       "DigitizerDimensions": "152 x 95",
@@ -234,7 +245,8 @@
       "PhysicalWeight": "250",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "3d706816-ba5d-4787-a333-bea467bed0b3"
+      "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
+      "EntityId": "WACOM.CTL472"
     },
     {
       "DigitizerDimensions": "152 x 95",
@@ -253,7 +265,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "fe35e68e-3e14-4769-9387-014cd5a2f258"
+      "_id": "fe35e68e-3e14-4769-9387-014cd5a2f258",
+      "EntityId": "WACOM.CTL490"
     },
     {
       "DigitizerDimensions": "216 x 135",
@@ -275,7 +288,8 @@
       "PhysicalWeight": "432",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3"
+      "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
+      "EntityId": "WACOM.CTL6100"
     },
     {
       "DigitizerDimensions": "216 x 135",
@@ -297,7 +311,8 @@
       "PhysicalWeight": "432",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce"
+      "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
+      "EntityId": "WACOM.CTL6100WL"
     },
     {
       "DigitizerDimensions": "216 x 135",
@@ -319,7 +334,8 @@
       "PhysicalWeight": "432",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65"
+      "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
+      "EntityId": "WACOM.CTL672"
     },
     {
       "DigitizerDimensions": "216 x 135",
@@ -338,7 +354,8 @@
       "ModelType": "PENTABLET",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "6cae6cd5-eaa2-43b1-ac8c-26379890532b"
+      "_id": "6cae6cd5-eaa2-43b1-ac8c-26379890532b",
+      "EntityId": "WACOM.CTL690"
     },
     {
       "DigitizerDimensions": "257 x 145",
@@ -358,7 +375,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3"
+      "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
+      "EntityId": "WACOM.DTC121"
     },
     {
       "DigitizerDimensions": "294 x 166",
@@ -390,7 +408,8 @@
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "24a318ae-8530-4678-ad33-ff117efe7b57"
+      "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
+      "EntityId": "WACOM.DTC133"
     },
     {
       "DigitizerDimensions": "309 x 174",
@@ -420,7 +439,8 @@
       "PhysicalWeight": "750",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7"
+      "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
+      "EntityId": "WACOM.DTC141"
     },
     {
       "DigitizerDimensions": "294 x 166",
@@ -448,7 +468,8 @@
       "PhysicalWeight": "1100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:28.697Z",
-      "_id": "3b565a01-0544-4dee-bbd2-aeba06af96b4"
+      "_id": "3b565a01-0544-4dee-bbd2-aeba06af96b4",
+      "EntityId": "WACOM.DTH1320"
     },
     {
       "DigitizerDimensions": "294 x 165",
@@ -467,7 +488,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "d7c42106-22bf-4ce6-94a6-69780728df21"
+      "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
+      "EntityId": "WACOM.DTH134"
     },
     {
       "DigitizerDimensions": "294 x 165",
@@ -498,7 +520,8 @@
       "PhysicalWeight": "420",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "8d4308af-a529-453e-a394-1a739a337785"
+      "_id": "8d4308af-a529-453e-a394-1a739a337785",
+      "EntityId": "WACOM.DTH135"
     },
     {
       "DigitizerDimensions": "345 x 194",
@@ -529,7 +552,8 @@
       "PhysicalWeight": "1500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:32.957Z",
-      "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446"
+      "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
+      "EntityId": "WACOM.DTH1620"
     },
     {
       "DigitizerDimensions": "344 x 194",
@@ -561,7 +585,8 @@
       "PhysicalWeight": "1900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:38.035Z",
-      "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1"
+      "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
+      "EntityId": "WACOM.DTH167"
     },
     {
       "DigitizerPressureLevels": "8192",
@@ -580,7 +605,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:43.683Z",
-      "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba"
+      "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
+      "EntityId": "WACOM.DTH172"
     },
     {
       "DigitizerPressureLevels": "8192",
@@ -599,7 +625,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:48.521Z",
-      "_id": "f74b002f-cac5-4490-9ace-943893d53427"
+      "_id": "f74b002f-cac5-4490-9ace-943893d53427",
+      "EntityId": "WACOM.DTH227"
     },
     {
       "DigitizerDimensions": "522 x 294",
@@ -631,7 +658,8 @@
       "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:53.636Z",
-      "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3"
+      "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
+      "EntityId": "WACOM.DTH2420"
     },
     {
       "DigitizerDimensions": "527 x 296",
@@ -664,7 +692,8 @@
       "PhysicalWeight": "5000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:24.354Z",
-      "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e"
+      "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
+      "EntityId": "WACOM.DTH246"
     },
     {
       "DigitizerDimensions": "596 x 335",
@@ -696,7 +725,8 @@
       "PhysicalWeight": "15900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:51:00.154Z",
-      "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c"
+      "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
+      "EntityId": "WACOM.DTH271"
     },
     {
       "DigitizerDimensions": "697 x 392",
@@ -729,7 +759,8 @@
       "PhysicalWeight": "13000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "98f3cf20-2478-4184-a94d-bafcf512f740"
+      "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
+      "EntityId": "WACOM.DTH3220"
     },
     {
       "DigitizerDimensions": "299 x 171",
@@ -756,7 +787,8 @@
       "PhysicalDimensions": "374.00 x 248.00 x 13.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d"
+      "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d",
+      "EntityId": "WACOM.DTK1300"
     },
     {
       "DigitizerDimensions": "344 x 194",
@@ -785,7 +817,8 @@
       "PhysicalWeight": "1900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c"
+      "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
+      "EntityId": "WACOM.DTK1660"
     },
     {
       "DigitizerDimensions": "345 x 215",
@@ -817,7 +850,8 @@
       "PhysicalWeight": "2000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e"
+      "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
+      "EntityId": "WACOM.DTK168"
     },
     {
       "DigitizerPressureLevels": "2048",
@@ -831,7 +865,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b"
+      "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
+      "EntityId": "WACOM.DTK2100"
     },
     {
       "DigitizerDimensions": "479 x 271",
@@ -859,7 +894,8 @@
       "PhysicalWeight": "8500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa"
+      "_id": "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
+      "EntityId": "WACOM.DTK2200"
     },
     {
       "DigitizerDimensions": "476 x 268",
@@ -889,7 +925,8 @@
       "PhysicalWeight": "5600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "105e4152-9817-43dc-9a12-33a64bb9d820"
+      "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
+      "EntityId": "WACOM.DTK2260"
     },
     {
       "DigitizerDimensions": "518 x 324",
@@ -911,7 +948,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "0c884705-370d-47f8-ad60-ae939de51c2d"
+      "_id": "0c884705-370d-47f8-ad60-ae939de51c2d",
+      "EntityId": "WACOM.DTK2400"
     },
     {
       "DigitizerDimensions": "522 x 294",
@@ -942,7 +980,8 @@
       "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "c7993e5b-4283-4365-8a0d-97fece793f37"
+      "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
+      "EntityId": "WACOM.DTK2420"
     },
     {
       "DigitizerDimensions": "527 x 296",
@@ -974,7 +1013,8 @@
       "PhysicalWeight": "4800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c"
+      "_id": "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c",
+      "EntityId": "WACOM.DTK246"
     },
     {
       "DigitizerDimensions": "597 x 336",
@@ -1002,7 +1042,8 @@
       "PhysicalWeightInclStand": "NO",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635"
+      "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
+      "EntityId": "WACOM.DTK2700"
     },
     {
       "DigitizerDimensions": "261 x 163",
@@ -1017,7 +1058,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4"
+      "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4",
+      "EntityId": "WACOM.DTZ1200W"
     },
     {
       "DigitizerPressureLevels": "1024",
@@ -1031,7 +1073,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c"
+      "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
+      "EntityId": "WACOM.DTZ2100"
     },
     {
       "DigitizerDimensions": "432 x 324",
@@ -1046,7 +1089,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "5067122f-01f1-4721-aa24-022acaa68d4c"
+      "_id": "5067122f-01f1-4721-aa24-022acaa68d4c",
+      "EntityId": "WACOM.DTZ2100D"
     },
     {
       "DigitizerPressureLevels": "1024",
@@ -1060,7 +1104,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0"
+      "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
+      "EntityId": "WACOM.DTZ22000W"
     },
     {
       "DigitizerDimensions": "127 x 106",
@@ -1082,7 +1127,8 @@
       "PhysicalWeight": "520",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "57fa2cf1-7cff-4886-b896-4a7f9259eb51"
+      "_id": "57fa2cf1-7cff-4886-b896-4a7f9259eb51",
+      "EntityId": "WACOM.GD0405"
     },
     {
       "DigitizerDimensions": "203 x 162",
@@ -1104,7 +1150,8 @@
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "f9aeceff-330b-4ae9-a3b8-e167cf9a119c"
+      "_id": "f9aeceff-330b-4ae9-a3b8-e167cf9a119c",
+      "EntityId": "WACOM.GD0608"
     },
     {
       "DigitizerDimensions": "305 x 241",
@@ -1126,7 +1173,8 @@
       "PhysicalWeight": "1600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "67a86ac1-c4ec-4567-9fea-ee9bb1763859"
+      "_id": "67a86ac1-c4ec-4567-9fea-ee9bb1763859",
+      "EntityId": "WACOM.GD0912"
     },
     {
       "DigitizerDimensions": "305 x 317",
@@ -1148,7 +1196,8 @@
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "2a475ff2-e7b3-4e1c-bc2d-6106ad0bd9e5"
+      "_id": "2a475ff2-e7b3-4e1c-bc2d-6106ad0bd9e5",
+      "EntityId": "WACOM.GD1212"
     },
     {
       "DigitizerDimensions": "457 x 317",
@@ -1170,7 +1219,8 @@
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "a926c906-58c5-4c0c-947e-5d114cd88e18"
+      "_id": "a926c906-58c5-4c0c-947e-5d114cd88e18",
+      "EntityId": "WACOM.GD1218"
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1182,7 +1232,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "5b6e3f51-abfc-44fb-9048-fcd40eef90b1"
+      "_id": "5b6e3f51-abfc-44fb-9048-fcd40eef90b1",
+      "EntityId": "WACOM.PL521"
     },
     {
       "DigitizerPressureLevels": "512",
@@ -1197,7 +1248,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "7ad4460a-8600-4c14-9916-69d0a7bab344"
+      "_id": "7ad4460a-8600-4c14-9916-69d0a7bab344",
+      "EntityId": "WACOM.PL550"
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1209,7 +1261,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "38eb1274-8e96-4961-8130-37ff54b1e21d"
+      "_id": "38eb1274-8e96-4961-8130-37ff54b1e21d",
+      "EntityId": "WACOM.PL700"
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1222,7 +1275,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "407a05eb-e2f8-43bd-b069-9d6932684264"
+      "_id": "407a05eb-e2f8-43bd-b069-9d6932684264",
+      "EntityId": "WACOM.PL710"
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1235,7 +1289,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "45abe4ca-a680-4fcf-802e-07ca8a362d95"
+      "_id": "45abe4ca-a680-4fcf-802e-07ca8a362d95",
+      "EntityId": "WACOM.PL720"
     },
     {
       "DigitizerPressureLevels": "512",
@@ -1251,7 +1306,8 @@
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "26177b6b-1a01-4059-a67e-323e78fd650f"
+      "_id": "26177b6b-1a01-4059-a67e-323e78fd650f",
+      "EntityId": "WACOM.PL800"
     },
     {
       "DigitizerDimensions": "157 x 99",
@@ -1275,7 +1331,8 @@
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:21.389Z",
-      "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1"
+      "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
+      "EntityId": "WACOM.PTH450"
     },
     {
       "DigitizerDimensions": "157 x 98",
@@ -1298,7 +1355,8 @@
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:35.885Z",
-      "_id": "7c4062a5-217d-4127-af11-868c63c736a8"
+      "_id": "7c4062a5-217d-4127-af11-868c63c736a8",
+      "EntityId": "WACOM.PTH451"
     },
     {
       "DigitizerDimensions": "160 x 100",
@@ -1320,7 +1378,8 @@
       "PhysicalWeight": "450",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:47.636Z",
-      "_id": "8ab0e087-96ce-41cd-aaae-95e09aec20be"
+      "_id": "8ab0e087-96ce-41cd-aaae-95e09aec20be",
+      "EntityId": "WACOM.PTH460"
     },
     {
       "DigitizerDimensions": "224 x 140",
@@ -1343,7 +1402,8 @@
       "PhysicalWeight": "990",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:15.187Z",
-      "_id": "743c5ec8-3a09-42aa-9a0d-1863a1094440"
+      "_id": "743c5ec8-3a09-42aa-9a0d-1863a1094440",
+      "EntityId": "WACOM.PTH650"
     },
     {
       "DigitizerDimensions": "224 x 140",
@@ -1366,7 +1426,8 @@
       "PhysicalWeight": "990",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:30.784Z",
-      "_id": "5d496d0e-128b-4d06-93cb-6d59e3674bc4"
+      "_id": "5d496d0e-128b-4d06-93cb-6d59e3674bc4",
+      "EntityId": "WACOM.PTH651"
     },
     {
       "DigitizerDimensions": "224 x 148",
@@ -1388,7 +1449,8 @@
       "PhysicalWeight": "700",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:41.306Z",
-      "_id": "01d122e2-5c75-47df-bc91-171476994174"
+      "_id": "01d122e2-5c75-47df-bc91-171476994174",
+      "EntityId": "WACOM.PTH660"
     },
     {
       "DigitizerDimensions": "324 x 203",
@@ -1412,7 +1474,8 @@
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:10.131Z",
-      "_id": "954412d1-5297-4801-b185-745d4f55e1f1"
+      "_id": "954412d1-5297-4801-b185-745d4f55e1f1",
+      "EntityId": "WACOM.PTH850"
     },
     {
       "DigitizerDimensions": "325 x 203",
@@ -1435,7 +1498,8 @@
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:25.789Z",
-      "_id": "f56f9476-b272-42b7-99cd-53d198a5fe53"
+      "_id": "f56f9476-b272-42b7-99cd-53d198a5fe53",
+      "EntityId": "WACOM.PTH851"
     },
     {
       "DigitizerDimensions": "311 x 216",
@@ -1457,7 +1521,8 @@
       "PhysicalWeight": "1300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:27.408Z",
-      "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d"
+      "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
+      "EntityId": "WACOM.PTH860"
     },
     {
       "DigitizerDimensions": "488 x 305",
@@ -1481,7 +1546,8 @@
       "PhysicalWeight": "3500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5"
+      "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
+      "EntityId": "WACOM.PTK1240"
     },
     {
       "DigitizerDimensions": "158 x 98",
@@ -1505,7 +1571,8 @@
       "PhysicalWeight": "700",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2"
+      "_id": "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2",
+      "EntityId": "WACOM.PTK440"
     },
     {
       "DigitizerDimensions": "157 x 99",
@@ -1528,7 +1595,8 @@
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "7b7e2368-695a-417a-b6c9-50e79092911b"
+      "_id": "7b7e2368-695a-417a-b6c9-50e79092911b",
+      "EntityId": "WACOM.PTK450"
     },
     {
       "DigitizerDimensions": "187 x 105",
@@ -1549,7 +1617,8 @@
       "PhysicalWeight": "240",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:59.165Z",
-      "_id": "f710bda9-5117-4828-bf93-c6303182a107"
+      "_id": "f710bda9-5117-4828-bf93-c6303182a107",
+      "EntityId": "WACOM.PTK470"
     },
     {
       "DigitizerDimensions": "203 x 127",
@@ -1572,7 +1641,8 @@
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273"
+      "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
+      "EntityId": "WACOM.PTK540WL"
     },
     {
       "DigitizerDimensions": "224 x 140",
@@ -1596,7 +1666,8 @@
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "d146cdd3-05c0-466a-beba-32167f5c8c29"
+      "_id": "d146cdd3-05c0-466a-beba-32167f5c8c29",
+      "EntityId": "WACOM.PTK640"
     },
     {
       "DigitizerDimensions": "224 x 140",
@@ -1619,7 +1690,8 @@
       "PhysicalWeight": "990",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2"
+      "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
+      "EntityId": "WACOM.PTK650"
     },
     {
       "DigitizerDimensions": "263 x 148",
@@ -1640,7 +1712,8 @@
       "PhysicalWeight": "411",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:52.941Z",
-      "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e"
+      "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
+      "EntityId": "WACOM.PTK670"
     },
     {
       "DigitizerDimensions": "325 x 203",
@@ -1664,7 +1737,8 @@
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "8ebf5be9-77ea-44c6-b0ec-278a2942ab1b"
+      "_id": "8ebf5be9-77ea-44c6-b0ec-278a2942ab1b",
+      "EntityId": "WACOM.PTK840"
     },
     {
       "DigitizerDimensions": "349 x 195",
@@ -1685,7 +1759,8 @@
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:45.868Z",
-      "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95"
+      "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
+      "EntityId": "WACOM.PTK870"
     },
     {
       "DigitizerDimensions": "305 x 305",
@@ -1708,7 +1783,8 @@
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c"
+      "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
+      "EntityId": "WACOM.PTZ1230"
     },
     {
       "DigitizerDimensions": "488 x 305",
@@ -1731,7 +1807,8 @@
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "ce2beb7a-b86b-4bd3-84b1-da25d29694bf"
+      "_id": "ce2beb7a-b86b-4bd3-84b1-da25d29694bf",
+      "EntityId": "WACOM.PTZ1231W"
     },
     {
       "DigitizerDimensions": "127 x 102",
@@ -1754,7 +1831,8 @@
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "7ef15517-5e1c-4520-82a3-f9f37a98d86f"
+      "_id": "7ef15517-5e1c-4520-82a3-f9f37a98d86f",
+      "EntityId": "WACOM.PTZ430"
     },
     {
       "DigitizerDimensions": "158 x 98",
@@ -1777,7 +1855,8 @@
       "PhysicalWeight": "800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "b87675fc-0b37-46aa-9db8-f12376de3980"
+      "_id": "b87675fc-0b37-46aa-9db8-f12376de3980",
+      "EntityId": "WACOM.PTZ431W"
     },
     {
       "DigitizerDimensions": "203 x 152",
@@ -1800,7 +1879,8 @@
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "598a1555-68f2-4bc7-8565-03fec2d12c96"
+      "_id": "598a1555-68f2-4bc7-8565-03fec2d12c96",
+      "EntityId": "WACOM.PTZ630"
     },
     {
       "DigitizerDimensions": "271 x 159",
@@ -1823,7 +1903,8 @@
       "PhysicalWeight": "1400",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "1564fe9c-9490-4bfe-9338-7345a15a01e1"
+      "_id": "1564fe9c-9490-4bfe-9338-7345a15a01e1",
+      "EntityId": "WACOM.PTZ631W"
     },
     {
       "DigitizerDimensions": "305 x 229",
@@ -1846,7 +1927,8 @@
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "21159fc7-7147-4115-beb0-cb0371ddc8a5"
+      "_id": "21159fc7-7147-4115-beb0-cb0371ddc8a5",
+      "EntityId": "WACOM.PTZ930"
     },
     {
       "DigitizerDimensions": "127 x 106",
@@ -1869,7 +1951,8 @@
       "PhysicalWeight": "520",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "9a768e16-a33f-4b88-8b62-2608306de16b"
+      "_id": "9a768e16-a33f-4b88-8b62-2608306de16b",
+      "EntityId": "WACOM.XD0405U"
     },
     {
       "DigitizerDimensions": "203 x 162",
@@ -1892,7 +1975,8 @@
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "ed841f4a-77da-44b0-862e-11bf9923b095"
+      "_id": "ed841f4a-77da-44b0-862e-11bf9923b095",
+      "EntityId": "WACOM.XD0608U"
     },
     {
       "DigitizerDimensions": "305 x 241",
@@ -1915,7 +1999,8 @@
       "PhysicalWeight": "1600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "06163869-1f1b-49c3-8797-8a6b29c0411f"
+      "_id": "06163869-1f1b-49c3-8797-8a6b29c0411f",
+      "EntityId": "WACOM.XD0912U"
     },
     {
       "DigitizerDimensions": "305 x 317",
@@ -1938,7 +2023,8 @@
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "422f0225-5495-47d8-9e14-2625502092de"
+      "_id": "422f0225-5495-47d8-9e14-2625502092de",
+      "EntityId": "WACOM.XD1212U"
     },
     {
       "DigitizerDimensions": "457 x 317",
@@ -1961,7 +2047,8 @@
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "473c0407-8a41-465d-bc6c-17451bd66676"
+      "_id": "473c0407-8a41-465d-bc6c-17451bd66676",
+      "EntityId": "WACOM.XD1218U"
     }
   ]
 }

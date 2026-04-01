@@ -1,0 +1,247 @@
+# TABLET FIELDS
+
+This document describes all fields in the tablet dataset.
+
+Fields are grouped by prefix:
+- Model*    - Identity and classification of the tablet
+- Digitizer* - Properties of the digitizer (the drawing surface)
+- Display*  - Properties of the display (pen displays only)
+- Physical* - Physical characteristics
+
+Fields prefixed with _ are system fields used for internal data management.
+They are not intended to be shown to end users.
+
+
+## Model fields
+
+### EntityId
+A user-facing unique identifier for the tablet, derived from the brand and model ID.
+Non-alphanumeric characters are stripped from ModelId and the result is uppercased.
+Format: "BRAND.MODELID" (e.g. "WACOM.PTK870", "HUION.GS1161")
+Required: yes
+
+### ModelBrand
+The manufacturer brand.
+Values: HUION, WACOM, XENCELABS, XPPEN
+Required: yes
+
+### ModelId
+The manufacturer's model identifier (e.g. "GS1161", "DTK2260K0A").
+Required: yes
+
+### ModelName
+The marketing/product name (e.g. "Kamvas 12", "Cintiq Pro 22").
+Required: yes
+
+### ModelType
+The form factor category.
+Values: PENTABLET, PENDISPLAY
+- PENTABLET  - opaque tablet without a screen
+- PENDISPLAY - tablet with an integrated display
+Required: yes
+
+### ModelLaunchYear
+The year the product was released or announced.
+Format: 4-digit year string (e.g. "2022")
+Required: yes
+
+### ModelAudience
+The intended market segment.
+Values: Consumer, Enthusiast, Professional
+Required: no
+
+### ModelFamily
+A grouping name for product lines or generations (e.g. "GEN3", "INTUOS4", "ONE BY WACOM").
+Required: no
+
+### ModelIncludedPen
+The pen model(s) included with the tablet. Multiple pens are comma-separated (e.g. "PW600,PW600S").
+Required: no
+
+### ModelProductLink
+URL to the manufacturer's official product page.
+Required: no
+
+### ModelStatus
+The current availability status of the product.
+Values: ACTIVE, AVAILABLE, DISCONTINUED
+Required: no
+
+
+## Digitizer fields
+
+### DigitizerType
+The pen sensing technology used by the digitizer.
+Values: PASSIVE_EMR, ACTIVE_EMR
+- PASSIVE_EMR - electromagnetic resonance with a battery-free pen
+- ACTIVE_EMR  - electromagnetic resonance with a powered pen
+Required: no
+
+### DigitizerPressureLevels
+The number of pressure levels the digitizer can detect.
+Format: integer string (e.g. "8192", "16384")
+Unit: levels
+Required: no
+
+### DigitizerDimensions
+The active drawing area dimensions.
+Format: "W x H" (e.g. "345 x 216")
+Unit: mm
+Required: no
+
+### DigitizerResolution
+The spatial resolution of the digitizer.
+Format: numeric string (e.g. "200", "157.4")
+Unit: LPI (lines per inch)
+Required: no
+
+### DigitizerReportRate
+The rate at which the digitizer reports pen position.
+Format: integer string (e.g. "300", "266")
+Unit: Hz (reports per second)
+Required: no
+
+### DigitizerTilt
+The maximum tilt angle the digitizer can detect. A value of "0" means tilt is not supported.
+Format: integer string (e.g. "60")
+Unit: degrees
+Required: no
+
+### DigitizerAccuracyCenter
+Pen positional accuracy at the center of the active area.
+Format: numeric string (e.g. "0.3", "0.5")
+Unit: mm
+Required: no
+
+### DigitizerAccuracyCorner
+Pen positional accuracy at the corners of the active area.
+Format: numeric string (e.g. "2", "3")
+Unit: mm
+Required: no
+
+### DigitizerMaxHover
+The maximum height above the surface at which the pen is detected.
+Format: integer string (e.g. "10", "12")
+Unit: mm
+Required: no
+
+### DigitizerSupportsTouch
+Whether the digitizer supports finger touch input.
+Values: YES, NO
+Required: no
+
+
+## Display fields
+
+These fields apply only to tablets where ModelType is PENDISPLAY.
+
+### DisplayResolution
+The screen resolution.
+Format: "W x H" (e.g. "1920 x 1080", "3840 x 2160")
+Unit: pixels
+Required: no
+
+### DisplayPanelTech
+The display panel technology.
+Values: IPS, TFT, AHVA, OLED, H-IPS, MVA
+Required: no
+
+### DisplayBrightness
+Typical brightness.
+Format: integer string (e.g. "250", "350")
+Unit: cd/m2
+Required: no
+
+### DisplayContrast
+The contrast ratio (e.g. "1000" means 1000:1).
+Format: integer string
+Unit: ratio (:1)
+Required: no
+
+### DisplayColorBitDepth
+The color bit depth per channel.
+Values: 6, 8, 10
+Unit: bits
+Required: no
+
+### DisplayColorGamuts
+Color gamut coverage. One or more gamut:coverage pairs, comma-separated.
+Format: "GAMUT:PERCENT%" (e.g. "SRGB:120%", "AdobeRGB:96%,SRGB:99%,DCIPR:98%")
+Required: no
+
+### DisplayLamination
+Whether the display is fully laminated (bonded to the cover glass).
+Values: YES, NO
+Required: no
+
+### DisplayAntiGlare
+The type of anti-glare treatment on the display surface.
+Values: AGFILM, ETCHEDGLASS, FILM
+- AGFILM      - anti-glare film applied to the surface
+- ETCHEDGLASS - etched glass surface treatment
+- FILM        - generic film treatment
+Required: no
+
+### DisplayResponseTime
+The pixel response time.
+Format: integer string (e.g. "14", "25")
+Unit: ms
+Required: no
+
+### DisplayRefreshRate
+The screen refresh rate.
+Format: integer string (e.g. "60", "144")
+Unit: Hz
+Required: no
+
+### DisplayViewingAngleHorizontal
+The horizontal viewing angle.
+Format: integer string (e.g. "178", "170")
+Unit: degrees
+Required: no
+
+### DisplayViewingAngleVertical
+The vertical viewing angle.
+Format: integer string (e.g. "178", "170")
+Unit: degrees
+Required: no
+
+
+## Physical fields
+
+### PhysicalDimensions
+The overall physical dimensions of the tablet.
+Format: "W x H x D" (e.g. "330.25 x 197.00 x 11.80")
+Unit: mm
+Required: no
+
+### PhysicalWeight
+The weight of the tablet.
+Format: numeric string (e.g. "735", "3900")
+Unit: g
+Required: no
+
+### PhysicalWeightInclStand
+Whether the PhysicalWeight value includes the weight of a stand.
+Values: YES, NO
+Required: no
+
+
+## System fields
+
+These fields are used for internal data management and are not displayed to end users.
+
+### _id
+A unique identifier for the record.
+Format: UUID v4 string (e.g. "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1")
+Required: yes (auto-generated)
+
+### _CreateDate
+The timestamp when the record was first created.
+Format: ISO 8601 datetime string (e.g. "2025-12-12T12:33:46.983Z")
+Required: yes (auto-generated)
+
+### _ModifiedDate
+The timestamp when the record was last modified.
+Format: ISO 8601 datetime string (e.g. "2025-12-12T17:53:46.334Z")
+Required: yes (auto-generated)
