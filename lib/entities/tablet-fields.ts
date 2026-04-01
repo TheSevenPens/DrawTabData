@@ -10,7 +10,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   { key: "Brand", label: "Brand", getValue: (t) => t.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Model" },
-  { key: "ModelType", label: "Type", getValue: (t) => t.ModelType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY", "PENCOMPUTER", "STANDALONE"], group: "Model" },
+  { key: "ModelType", label: "Type", getValue: (t) => t.ModelType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY", "STANDALONE"], group: "Model" },
   { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.ModelLaunchYear, type: "number", group: "Model" },
   {
     key: "Age", label: "Age (years)", computed: true, type: "number", group: "Model",
