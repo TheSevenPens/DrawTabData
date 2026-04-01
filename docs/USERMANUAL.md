@@ -34,18 +34,18 @@ URL prefix where the JSON files are served. For example, if your files are at
 
 ```typescript
 import {
-  loadTablets, loadPens, loadPenCompat,
-  loadPenFamilies, loadTabletFamilies, loadDrivers,
+  loadTabletsFromURL, loadPensFromURL, loadPenCompatFromURL,
+  loadPenFamiliesFromURL, loadTabletFamiliesFromURL, loadDriversFromURL,
 } from "./data-repo/lib/drawtab-loader.js";
 
 const baseUrl = "https://your-server.com/data";
 
-const tablets        = await loadTablets(baseUrl);        // 250 tablets
-const pens           = await loadPens(baseUrl);           // 51 pens
-const penCompat      = await loadPenCompat(baseUrl);      // 535 compat rows
-const penFamilies    = await loadPenFamilies(baseUrl);    // 7 pen families
-const tabletFamilies = await loadTabletFamilies(baseUrl); // 18 tablet families
-const drivers        = await loadDrivers(baseUrl);        // 246 drivers
+const tablets        = await loadTabletsFromURL(baseUrl);        // 250 tablets
+const pens           = await loadPensFromURL(baseUrl);           // 51 pens
+const penCompat      = await loadPenCompatFromURL(baseUrl);      // 535 compat rows
+const penFamilies    = await loadPenFamiliesFromURL(baseUrl);    // 7 pen families
+const tabletFamilies = await loadTabletFamiliesFromURL(baseUrl); // 18 tablet families
+const drivers        = await loadDriversFromURL(baseUrl);        // 246 drivers
 ```
 
 ### From disk (Node.js, sync)

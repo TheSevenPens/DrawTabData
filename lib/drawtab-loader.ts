@@ -61,7 +61,7 @@ export interface Tablet {
 
 const BRANDS = ["HUION", "WACOM", "XENCELABS", "XPPEN"];
 
-export async function loadBrandPartitionedData<T>(
+export async function loadBrandPartitionedDataFromURL<T>(
   dataBaseUrl: string,
   entityPath: string,
   rootKey: string,
@@ -87,36 +87,36 @@ export async function loadBrandPartitionedData<T>(
 
 // --- Tablet loader ---
 
-export async function loadTablets(dataBaseUrl: string): Promise<Tablet[]> {
-  return loadBrandPartitionedData<Tablet>(dataBaseUrl, "tablets", "DrawingTablets");
+export async function loadTabletsFromURL(dataBaseUrl: string): Promise<Tablet[]> {
+  return loadBrandPartitionedDataFromURL<Tablet>(dataBaseUrl, "tablets", "DrawingTablets");
 }
 
 // --- Driver loader ---
 
-export async function loadDrivers(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedData<Record<string, unknown>>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
+export async function loadDriversFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
+  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
 }
 
 // --- Pen loader ---
 
-export async function loadPens(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedData<Record<string, unknown>>(dataBaseUrl, "pens", "Pens", ["WACOM"]);
+export async function loadPensFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
+  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "pens", "Pens", ["WACOM"]);
 }
 
 // --- Family loaders ---
 
-export async function loadPenFamilies(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedData<Record<string, unknown>>(dataBaseUrl, "pen-families", "PenFamilies", ["WACOM"]);
+export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
+  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "pen-families", "PenFamilies", ["WACOM"]);
 }
 
-export async function loadTabletFamilies(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedData<Record<string, unknown>>(dataBaseUrl, "tablet-families", "TabletFamilies", ["WACOM"]);
+export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
+  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "tablet-families", "TabletFamilies", ["WACOM"]);
 }
 
 // --- Pen compat loader ---
 
-export async function loadPenCompat(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedData<Record<string, unknown>>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
+export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
+  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
 }
 
 // --- Accessors ---
