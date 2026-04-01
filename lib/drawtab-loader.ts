@@ -172,8 +172,32 @@ export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<Ta
 
 // --- Pen compat loader ---
 
+interface PenCompatGrouped {
+  Brand: string;
+  PenId: string;
+  TabletIds: string[];
+}
+
+function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {
+  const rows: PenCompat[] = [];
+  for (const entry of grouped) {
+    for (const tabletId of entry.TabletIds) {
+      rows.push({
+        Brand: entry.Brand,
+        TabletId: tabletId,
+        PenId: entry.PenId,
+        _id: "",
+        _CreateDate: "",
+        _ModifiedDate: "",
+      });
+    }
+  }
+  return rows;
+}
+
 export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenCompat[]> {
-  return loadBrandPartitionedDataFromURL<PenCompat>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
+  const grouped = await loadBrandPartitionedDataFromURL<PenCompatGrouped>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
+  return expandPenCompat(grouped);
 }
 
 // --- Helpers ---

@@ -56,8 +56,28 @@ export function loadTabletFamiliesFromDisk(dataDir: string): TabletFamily[] {
 
 // --- Pen compat loader ---
 
+interface PenCompatGrouped {
+  Brand: string;
+  PenId: string;
+  TabletIds: string[];
+}
+
 export function loadPenCompatFromDisk(dataDir: string): PenCompat[] {
-  return loadBrandPartitionedDataFromDisk<PenCompat>(dataDir, "pen-compat", "PenCompat", ["WACOM"]);
+  const grouped = loadBrandPartitionedDataFromDisk<PenCompatGrouped>(dataDir, "pen-compat", "PenCompat", ["WACOM"]);
+  const rows: PenCompat[] = [];
+  for (const entry of grouped) {
+    for (const tabletId of entry.TabletIds) {
+      rows.push({
+        Brand: entry.Brand,
+        TabletId: tabletId,
+        PenId: entry.PenId,
+        _id: "",
+        _CreateDate: "",
+        _ModifiedDate: "",
+      });
+    }
+  }
+  return rows;
 }
 
 // --- Re-export types and accessors ---
