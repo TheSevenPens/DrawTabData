@@ -4,24 +4,40 @@
 
 ```
 DrawTabData/
-├── data/                    # JSON datasets partitioned by brand
-│   └── tablets/             # Tablet data files (e.g. HUION-tablets.json)
-├── lib/                     # TypeScript libraries
-│   ├── drawtab-loader.ts    # Typed data loader (used by consumers)
-│   ├── data-quality.ts      # Data quality validation library
-│   └── run-data-quality.ts  # CLI runner for data quality checks
-├── explorer/                # Data explorer web app
-│   ├── index.html           # Entry point
-│   └── main.ts              # App logic (imports from lib/)
-├── docs/                    # Project documentation
-│   ├── OVERVIEW.txt         # Project goals and scope
-│   ├── FIELDS.txt           # Field definitions for all entities
-│   ├── DATALAYOUT.txt       # Data file organization
-│   ├── DECISIONS.txt        # Design decisions log
-│   └── ARCHITECTURE.md      # This file
-├── vite.config.ts           # Vite dev server configuration
-├── tsconfig.json            # TypeScript configuration
-└── package.json             # npm scripts and dependencies
+├── data/                         # JSON datasets partitioned by brand
+│   └── tablets/                  # Tablet data files (e.g. HUION-tablets.json)
+├── lib/                          # TypeScript libraries (shared by explorer and consumers)
+│   ├── drawtab-loader.ts         # Typed data loader
+│   ├── data-quality.ts           # Data quality validation library
+│   └── run-data-quality.ts       # CLI runner for data quality checks
+├── explorer/                     # SvelteKit data explorer app
+│   ├── src/
+│   │   ├── app.html              # HTML shell
+│   │   ├── routes/
+│   │   │   ├── +layout.ts        # CSR-only, no SSR
+│   │   │   └── +page.svelte      # Main page with pipeline UI
+│   │   └── lib/
+│   │       ├── pipeline.ts       # Pipeline engine, field defs, computed fields
+│   │       ├── views.ts          # Saved views (localStorage persistence)
+│   │       └── components/       # Svelte components
+│   │           ├── FilterStep.svelte
+│   │           ├── SortStep.svelte
+│   │           ├── SelectStep.svelte
+│   │           ├── TakeStep.svelte
+│   │           ├── ResultsTable.svelte
+│   │           └── SavedViews.svelte
+│   └── static/
+│       └── tablets/              # Junction -> ../../data/tablets/
+├── docs/                         # Project documentation
+│   ├── OVERVIEW.txt
+│   ├── FIELDS.txt
+│   ├── DATALAYOUT.txt
+│   ├── DECISIONS.txt
+│   └── ARCHITECTURE.md           # This file
+├── svelte.config.js              # SvelteKit configuration
+├── vite.config.ts                # Vite configuration
+├── tsconfig.json                 # TypeScript configuration
+└── package.json                  # npm scripts and dependencies
 ```
 
 ## Key layers
@@ -29,7 +45,7 @@ DrawTabData/
 ### Data layer (`data/`)
 
 Raw JSON files partitioned by brand (e.g. `HUION-tablets.json`). Each file
-wraps an array of records under a top-level key (e.g. `{ "DrawingTablets": [...] }`).
+wraps an array of records under a top-level key (`{ "DrawingTablets": [...] }`).
 
 Fields are a mix of flat string values, complex objects (dimensions, gamuts),
 and system fields prefixed with `_`. See `docs/FIELDS.txt` for details.
@@ -60,45 +76,70 @@ Run with `npm run data-quality`.
 
 ### Explorer (`explorer/`)
 
-A simple HTML/TypeScript app that uses `drawtab-loader.ts` to display a
-sortable, filterable table of tablets. This serves as both a data browser
-and a proof-of-concept consumer of the library.
+A SvelteKit app (Svelte 5) with a KQL-inspired visual pipeline builder.
 
-Run with `npm run dev`, then open http://localhost:5173.
+**Pipeline engine** (`explorer/src/lib/pipeline.ts`):
+- Defines all field metadata including computed fields (Age, diagonals, density)
+- Fields are grouped (Model, Digitizer, Display, Physical) for the column picker
+- Executes a chain of steps (filter, sort, select, take) against the tablet data
+
+**Saved views** (`explorer/src/lib/views.ts`):
+- Named pipeline configurations persisted in localStorage
+- A built-in Default view is always available and loads on startup
+- Users can create, rename, and delete custom views
+
+**Components**: Each pipeline step type has its own Svelte component with
+appropriate controls (enum dropdowns, numeric inputs, grouped checkboxes).
+
+Run with `npm run dev`.
+
+## SvelteKit configuration
+
+The SvelteKit config (`svelte.config.js`) points kit file paths into the
+`explorer/` directory:
+- `routes` → `explorer/src/routes`
+- `lib` → `explorer/src/lib` (accessible as `$lib` in imports)
+- `appTemplate` → `explorer/src/app.html`
+- `assets` → `explorer/static`
+
+The app uses `adapter-static` with CSR-only rendering (`ssr: false`).
+
+## Data serving
+
+The `data/` directory at the project root is the single source of truth.
+A Windows directory junction at `explorer/static/tablets/` points to
+`data/tablets/`, so SvelteKit serves the data files without duplication.
+The junction contents are gitignored.
 
 ## Vite configuration
 
-The explorer uses Vite as a dev server. There are two things worth noting
-about the setup:
+`server.fs.allow` includes the project root so that Vite can resolve
+TypeScript imports from `lib/` which lives outside the SvelteKit root.
 
-**Root vs data directory**: Vite's root is set to `explorer/` so that
-`index.html` is served directly. However, the data lives in `data/` at the
-project root — outside Vite's root. To make the data accessible via HTTP:
+## Svelte 5 notes
 
-1. `publicDir` is set to the project-level `data/` directory. This makes
-   Vite serve data files as static assets (e.g. `/tablets/HUION-tablets.json`).
-
-2. `server.fs.allow` includes the project root so that Vite can resolve
-   TypeScript imports from `lib/` which also lives outside the explorer root.
-
-**Library imports**: The explorer imports from `../lib/drawtab-loader.ts`.
-Vite handles TypeScript transpilation automatically — no build step needed
-for development. Note that type-only imports must use the `type` keyword
-(e.g. `import { type Tablet }`) because `verbatimModuleSyntax` is enabled
-in tsconfig.
+- Step components use `$bindable()` props so parent can bind to step state
+- Svelte 5 reactive proxies cannot be passed to `structuredClone()`;
+  use `JSON.parse(JSON.stringify(...))` instead for deep copying
 
 ## npm scripts
 
 | Script         | Command                      | Purpose                          |
 |----------------|------------------------------|----------------------------------|
-| `dev`          | `vite`                       | Start the explorer dev server    |
+| `dev`          | `vite dev`                   | Start the explorer dev server    |
+| `build`        | `vite build`                 | Build static site                |
+| `preview`      | `vite preview`               | Preview built site               |
 | `data-quality` | `tsx lib/run-data-quality.ts` | Run data quality checks          |
 
 ## Dependencies
 
 All dependencies are dev-only:
 
+- **svelte** — UI framework (v5)
+- **@sveltejs/kit** — Application framework
+- **@sveltejs/vite-plugin-svelte** — Vite integration for Svelte
+- **@sveltejs/adapter-static** — Static site adapter
 - **typescript** — Type checking
-- **tsx** — Runs TypeScript files directly (used for CLI tools like data-quality)
-- **vite** — Dev server for the explorer (handles TS transpilation in-browser)
+- **tsx** — Runs TypeScript files directly (used for CLI tools)
+- **vite** — Dev server and bundler
 - **@types/node** — Node.js type definitions (for lib/ which uses fs, path)

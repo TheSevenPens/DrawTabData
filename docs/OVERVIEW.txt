@@ -1,46 +1,49 @@
 # Introduction
 
-The DrawTabData project unifies JSON datasets that related to Drawing Tablets.
+The DrawTabData project unifies JSON datasets related to Drawing Tablets.
 
 Entities include:
-- Tablets
-- Pens
+- Tablets (implemented)
+- Pens (planned)
 
 In the future we will have other entities such as Drivers and Nibs.
 
 # The brand dimension
 
-A key dimension for these entities is the Brand. For example: 
+A key dimension for these entities is the Brand. For example:
 - WACOM
 - HUION
 - XPPEN
+- XENCELABS
 
-Datasets are partitioned as files depending on their BRAND
+Datasets are partitioned as files by brand (e.g. WACOM-tablets.json).
 
 # Data explorer
 
-We will build a SvelteKit app that will serve initially as a data explorer. It will offer things like
-- Listing the entities
-- Basic filtering of those lists
-- Navigating between entities. 
-- Relating the entities
-- Identify data quality issues
+A SvelteKit app serves as a data explorer. It offers:
+- A KQL-inspired visual pipeline builder (filter, sort, select columns, limit)
+- Computed fields (Age, Digitizer Diagonal, Display Diagonal, Display Density)
+- Saved named views persisted in localStorage
+- A built-in Default view loaded on startup
 
 # Data code layer
 
-This project will have some typescript libraries to assist consumers in accessing and using the data. The data explorer itself will use these libraries.
+TypeScript libraries assist consumers in accessing and using the data:
+- drawtab-loader.ts — typed loader with filter helpers
+- data-quality.ts — validation checks run via npm run data-quality
 
-The libraries will : 
-- abstract away the data format and their distribution
-- Will offer load the data consistent
-- Make it easy to update the data
-- Help maintain data quality
+The libraries:
+- Abstract away the data format and file distribution
+- Provide typed interfaces for all entities
+- Support complex fields (dimensions, color gamuts) as nested objects
+- Make it easy to validate data quality
 
 # How consumers will use the data
-- Other apps may simply copy the data and code into their own projects
-- Other apps may consume the library via using a git submodi
+- Other apps may copy the data and code into their own projects
+- Other apps may consume the library via git submodule
 
+# Current state
 
-# Initial work
-
-We are going to start with an existing data set
+The project has tablet data for 206 tablets across 4 brands, with a
+working data quality pipeline, typed loader library, and SvelteKit
+explorer with a visual query builder.
