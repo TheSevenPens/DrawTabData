@@ -105,6 +105,23 @@ export interface Driver {
   _ModifiedDate: string;
 }
 
+export interface PressureResponse {
+  Brand: string;
+  PenModel: string;
+  PenFamily: string;
+  InventoryId: string;
+  Date: string;
+  User: string;
+  Tablet: string;
+  Driver: string;
+  OS: string;
+  Notes: string;
+  Records: [number, number][];
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
 export interface PenCompat {
   Brand: string;
   TabletId: string;
@@ -198,6 +215,14 @@ function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {
 export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenCompat[]> {
   const grouped = await loadBrandPartitionedDataFromURL<PenCompatGrouped>(dataBaseUrl, "pen-compat", "PenCompat");
   return expandPenCompat(grouped);
+}
+
+// --- Pressure response loader ---
+
+const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
+
+export async function loadPressureResponseFromURL(dataBaseUrl: string): Promise<PressureResponse[]> {
+  return loadBrandPartitionedDataFromURL<PressureResponse>(dataBaseUrl, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
 }
 
 // --- Helpers ---

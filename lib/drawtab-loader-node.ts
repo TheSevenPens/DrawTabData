@@ -80,7 +80,17 @@ export function loadPenCompatFromDisk(dataDir: string): PenCompat[] {
   return rows;
 }
 
+// --- Pressure response loader ---
+
+import type { PressureResponse } from "./drawtab-loader.js";
+
+const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
+
+export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[] {
+  return loadBrandPartitionedDataFromDisk<PressureResponse>(dataDir, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
+}
+
 // --- Re-export types and accessors ---
 
-export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Dimensions, ColorGamuts } from "./drawtab-loader.js";
+export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Dimensions, ColorGamuts } from "./drawtab-loader.js";
 export { getBrands, filterByBrand, filterByType, getDiagonal, formatDimensions, containsText, equalsText } from "./drawtab-loader.js";

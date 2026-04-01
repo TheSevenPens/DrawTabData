@@ -1,7 +1,8 @@
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse } from "./drawtab-loader.js";
 import {
   loadTabletsFromURL, loadPensFromURL, loadPenCompatFromURL,
   loadPenFamiliesFromURL, loadTabletFamiliesFromURL, loadDriversFromURL,
+  loadPressureResponseFromURL,
 } from "./drawtab-loader.js";
 import {
   buildTabletToPenCompatMap, buildPenToTabletCompatMap, buildIncludedPenMap,
@@ -14,19 +15,21 @@ export interface DrawTabDataAll {
   penFamilies: PenFamily[];
   tabletFamilies: TabletFamily[];
   drivers: Driver[];
+  pressureResponse: PressureResponse[];
   tabletToPens: Map<string, Pen[]>;
   penToTablets: Map<string, Tablet[]>;
   includedPenMap: Map<string, Tablet[]>;
 }
 
 export async function loadAllFromURL(baseUrl: string): Promise<DrawTabDataAll> {
-  const [tablets, pens, penCompat, penFamilies, tabletFamilies, drivers] = await Promise.all([
+  const [tablets, pens, penCompat, penFamilies, tabletFamilies, drivers, pressureResponse] = await Promise.all([
     loadTabletsFromURL(baseUrl),
     loadPensFromURL(baseUrl),
     loadPenCompatFromURL(baseUrl),
     loadPenFamiliesFromURL(baseUrl),
     loadTabletFamiliesFromURL(baseUrl),
     loadDriversFromURL(baseUrl),
+    loadPressureResponseFromURL(baseUrl),
   ]);
 
   return {
@@ -36,6 +39,7 @@ export async function loadAllFromURL(baseUrl: string): Promise<DrawTabDataAll> {
     penFamilies,
     tabletFamilies,
     drivers,
+    pressureResponse,
     tabletToPens: buildTabletToPenCompatMap(penCompat, pens),
     penToTablets: buildPenToTabletCompatMap(penCompat, tablets),
     includedPenMap: buildIncludedPenMap(tablets),
