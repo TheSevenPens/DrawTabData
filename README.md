@@ -15,11 +15,27 @@ Unified JSON datasets and TypeScript libraries for drawing tablets, pens, driver
 
 ## Quick start
 
-Add as a git submodule:
+### Option 1: Git submodule (recommended)
+
+Pin a specific version of the data in your project:
 
 ```bash
 git submodule add https://github.com/TheSevenPens/DrawTabData.git data-repo
 ```
+
+### Option 2: Clone
+
+```bash
+git clone https://github.com/TheSevenPens/DrawTabData.git data-repo
+```
+
+### Option 3: Copy
+
+Download and copy the `data/` and `lib/` folders directly into your project.
+
+### Option 4: Fetch from GitHub Pages
+
+No local files needed — load data at runtime from `https://thesevenpens.github.io/DrawTabData/data/`.
 
 ### Load everything (Node.js)
 
