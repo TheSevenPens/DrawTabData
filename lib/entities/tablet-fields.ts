@@ -101,10 +101,8 @@ export const TABLET_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "EntityId", "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age", "ModelStatus",
-      "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions", "DigitizerDiagonal",
-      "DisplayPixelDimensions", "DisplayDiagonal",
-      "PhysicalWeight",
+      "EntityId", "FullName", "ModelType", "ModelLaunchYear",
+      "DigitizerDiagonal", "ModelIncludedPen",
     ],
   },
   { kind: "sort", field: "Brand", direction: "asc" },
