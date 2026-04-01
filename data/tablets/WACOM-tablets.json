@@ -49,7 +49,6 @@
       },
       "DigitizerPressureLevels": "512",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -69,7 +68,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
-      "EntityId": "WACOM.CTE450"
+      "EntityId": "WACOM.CTE450",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -78,7 +78,6 @@
       },
       "DigitizerPressureLevels": "512",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -98,7 +97,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
-      "EntityId": "WACOM.CTE650"
+      "EntityId": "WACOM.CTE650",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -134,7 +134,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
@@ -149,7 +148,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:59.358Z",
       "_id": "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
-      "EntityId": "WACOM.CTH490"
+      "EntityId": "WACOM.CTH490",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -180,7 +180,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
@@ -201,7 +200,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:51.061Z",
       "_id": "21687a90-eddd-4727-81cc-bc30b4f04a21",
-      "EntityId": "WACOM.CTH690"
+      "EntityId": "WACOM.CTH690",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -210,7 +210,6 @@
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -231,7 +230,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c0b798db-e061-45fe-8ba5-b82bc6497936",
-      "EntityId": "WACOM.CTL4100"
+      "EntityId": "WACOM.CTL4100",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -240,7 +240,6 @@
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
       "ModelBrand": "WACOM",
@@ -254,7 +253,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
-      "EntityId": "WACOM.CTL4100WL"
+      "EntityId": "WACOM.CTL4100WL",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -284,7 +284,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -305,7 +304,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
-      "EntityId": "WACOM.CTL472"
+      "EntityId": "WACOM.CTL472",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -314,7 +314,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
       "ModelBrand": "WACOM",
@@ -328,7 +327,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fe35e68e-3e14-4769-9387-014cd5a2f258",
-      "EntityId": "WACOM.CTL490"
+      "EntityId": "WACOM.CTL490",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -337,7 +337,6 @@
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -358,7 +357,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
-      "EntityId": "WACOM.CTL6100"
+      "EntityId": "WACOM.CTL6100",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -367,7 +367,6 @@
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -388,7 +387,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
-      "EntityId": "WACOM.CTL6100WL"
+      "EntityId": "WACOM.CTL6100WL",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -397,7 +397,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -418,7 +417,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
-      "EntityId": "WACOM.CTL672"
+      "EntityId": "WACOM.CTL672",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -476,7 +476,6 @@
         "Height": 166
       },
       "DigitizerPressureLevels": "4096",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "AGFILM",
@@ -513,7 +512,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
-      "EntityId": "WACOM.DTC133"
+      "EntityId": "WACOM.DTC133",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -564,7 +564,6 @@
         "Height": 166
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
@@ -597,7 +596,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:28.697Z",
       "_id": "3b565a01-0544-4dee-bbd2-aeba06af96b4",
-      "EntityId": "WACOM.DTH1320"
+      "EntityId": "WACOM.DTH1320",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -631,7 +631,6 @@
         "Height": 165
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -668,7 +667,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "8d4308af-a529-453e-a394-1a739a337785",
-      "EntityId": "WACOM.DTH135"
+      "EntityId": "WACOM.DTH135",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -676,7 +676,6 @@
         "Height": 194
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -710,7 +709,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:32.957Z",
       "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
-      "EntityId": "WACOM.DTH1620"
+      "EntityId": "WACOM.DTH1620",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -718,7 +718,6 @@
         "Height": 194
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -755,7 +754,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:38.035Z",
       "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
-      "EntityId": "WACOM.DTH167"
+      "EntityId": "WACOM.DTH167",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerPressureLevels": "8192",
@@ -809,7 +809,6 @@
         "Height": 294
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -846,7 +845,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:53.636Z",
       "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
-      "EntityId": "WACOM.DTH2420"
+      "EntityId": "WACOM.DTH2420",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -854,7 +854,6 @@
         "Height": 296
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -892,7 +891,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:50:24.354Z",
       "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
-      "EntityId": "WACOM.DTH246"
+      "EntityId": "WACOM.DTH246",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -900,7 +900,6 @@
         "Height": 335
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -938,7 +937,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:51:00.154Z",
       "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
-      "EntityId": "WACOM.DTH271"
+      "EntityId": "WACOM.DTH271",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -946,7 +946,6 @@
         "Height": 392
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -984,7 +983,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
-      "EntityId": "WACOM.DTH3220"
+      "EntityId": "WACOM.DTH3220",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -992,7 +992,6 @@
         "Height": 171
       },
       "DigitizerPressureLevels": "2048",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "40",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
@@ -1024,7 +1023,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d",
-      "EntityId": "WACOM.DTK1300"
+      "EntityId": "WACOM.DTK1300",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1032,7 +1032,6 @@
         "Height": 194
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
@@ -1067,7 +1066,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
-      "EntityId": "WACOM.DTK1660"
+      "EntityId": "WACOM.DTK1660",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1075,7 +1075,6 @@
         "Height": 215
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1113,7 +1112,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
-      "EntityId": "WACOM.DTK168"
+      "EntityId": "WACOM.DTK168",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerPressureLevels": "2048",
@@ -1139,7 +1139,6 @@
         "Height": 271
       },
       "DigitizerPressureLevels": "2048",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
@@ -1172,7 +1171,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
-      "EntityId": "WACOM.DTK2200"
+      "EntityId": "WACOM.DTK2200",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1180,7 +1180,6 @@
         "Height": 268
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "210",
@@ -1216,7 +1215,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
-      "EntityId": "WACOM.DTK2260"
+      "EntityId": "WACOM.DTK2260",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1255,7 +1255,6 @@
         "Height": 294
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1291,7 +1290,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
-      "EntityId": "WACOM.DTK2420"
+      "EntityId": "WACOM.DTK2420",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1299,7 +1299,6 @@
         "Height": 296
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1336,7 +1335,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c",
-      "EntityId": "WACOM.DTK246"
+      "EntityId": "WACOM.DTK246",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1466,7 +1466,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1487,7 +1486,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "57fa2cf1-7cff-4886-b896-4a7f9259eb51",
-      "EntityId": "WACOM.GD0405"
+      "EntityId": "WACOM.GD0405",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -1496,7 +1496,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1517,7 +1516,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f9aeceff-330b-4ae9-a3b8-e167cf9a119c",
-      "EntityId": "WACOM.GD0608"
+      "EntityId": "WACOM.GD0608",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -1526,7 +1526,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1547,7 +1546,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "67a86ac1-c4ec-4567-9fea-ee9bb1763859",
-      "EntityId": "WACOM.GD0912"
+      "EntityId": "WACOM.GD0912",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -1556,7 +1556,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1577,7 +1576,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2a475ff2-e7b3-4e1c-bc2d-6106ad0bd9e5",
-      "EntityId": "WACOM.GD1212"
+      "EntityId": "WACOM.GD1212",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -1586,7 +1586,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1607,7 +1606,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a926c906-58c5-4c0c-947e-5d114cd88e18",
-      "EntityId": "WACOM.GD1218"
+      "EntityId": "WACOM.GD1218",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1709,7 +1709,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1732,7 +1731,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:21.389Z",
       "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
-      "EntityId": "WACOM.PTH450"
+      "EntityId": "WACOM.PTH450",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1741,7 +1741,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1763,7 +1762,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:35.885Z",
       "_id": "7c4062a5-217d-4127-af11-868c63c736a8",
-      "EntityId": "WACOM.PTH451"
+      "EntityId": "WACOM.PTH451",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1772,7 +1772,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1793,7 +1792,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:47.636Z",
       "_id": "8ab0e087-96ce-41cd-aaae-95e09aec20be",
-      "EntityId": "WACOM.PTH460"
+      "EntityId": "WACOM.PTH460",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1802,7 +1802,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1824,7 +1823,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:15.187Z",
       "_id": "743c5ec8-3a09-42aa-9a0d-1863a1094440",
-      "EntityId": "WACOM.PTH650"
+      "EntityId": "WACOM.PTH650",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1833,7 +1833,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1855,7 +1854,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:30.784Z",
       "_id": "5d496d0e-128b-4d06-93cb-6d59e3674bc4",
-      "EntityId": "WACOM.PTH651"
+      "EntityId": "WACOM.PTH651",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1864,7 +1864,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1885,7 +1884,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:41.306Z",
       "_id": "01d122e2-5c75-47df-bc91-171476994174",
-      "EntityId": "WACOM.PTH660"
+      "EntityId": "WACOM.PTH660",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1894,7 +1894,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1917,7 +1916,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:49:10.131Z",
       "_id": "954412d1-5297-4801-b185-745d4f55e1f1",
-      "EntityId": "WACOM.PTH850"
+      "EntityId": "WACOM.PTH850",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1926,7 +1926,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1948,7 +1947,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:48:25.789Z",
       "_id": "f56f9476-b272-42b7-99cd-53d198a5fe53",
-      "EntityId": "WACOM.PTH851"
+      "EntityId": "WACOM.PTH851",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1957,7 +1957,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1978,7 +1977,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:51:27.408Z",
       "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
-      "EntityId": "WACOM.PTH860"
+      "EntityId": "WACOM.PTH860",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1988,7 +1988,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2010,7 +2009,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
-      "EntityId": "WACOM.PTK1240"
+      "EntityId": "WACOM.PTK1240",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2020,7 +2020,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "50",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2042,7 +2041,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2",
-      "EntityId": "WACOM.PTK440"
+      "EntityId": "WACOM.PTK440",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2051,7 +2051,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2073,7 +2072,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7b7e2368-695a-417a-b6c9-50e79092911b",
-      "EntityId": "WACOM.PTK450"
+      "EntityId": "WACOM.PTK450",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2081,7 +2081,6 @@
         "Height": 105
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -2102,7 +2101,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:59.165Z",
       "_id": "f710bda9-5117-4828-bf93-c6303182a107",
-      "EntityId": "WACOM.PTK470"
+      "EntityId": "WACOM.PTK470",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2112,7 +2112,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelBrand": "WACOM",
@@ -2133,7 +2132,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
-      "EntityId": "WACOM.PTK540WL"
+      "EntityId": "WACOM.PTK540WL",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2143,7 +2143,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2165,7 +2164,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d146cdd3-05c0-466a-beba-32167f5c8c29",
-      "EntityId": "WACOM.PTK640"
+      "EntityId": "WACOM.PTK640",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2174,7 +2174,6 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2196,7 +2195,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
-      "EntityId": "WACOM.PTK650"
+      "EntityId": "WACOM.PTK650",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2204,7 +2204,6 @@
         "Height": 148
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -2225,7 +2224,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:52.941Z",
       "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
-      "EntityId": "WACOM.PTK670"
+      "EntityId": "WACOM.PTK670",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2235,7 +2235,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2257,7 +2256,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "8ebf5be9-77ea-44c6-b0ec-278a2942ab1b",
-      "EntityId": "WACOM.PTK840"
+      "EntityId": "WACOM.PTK840",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2265,7 +2265,6 @@
         "Height": 195
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -2286,7 +2285,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:52:45.868Z",
       "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
-      "EntityId": "WACOM.PTK870"
+      "EntityId": "WACOM.PTK870",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2295,7 +2295,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2317,7 +2316,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
-      "EntityId": "WACOM.PTZ1230"
+      "EntityId": "WACOM.PTZ1230",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2326,7 +2326,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2348,7 +2347,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "ce2beb7a-b86b-4bd3-84b1-da25d29694bf",
-      "EntityId": "WACOM.PTZ1231W"
+      "EntityId": "WACOM.PTZ1231W",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2357,7 +2357,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2379,7 +2378,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7ef15517-5e1c-4520-82a3-f9f37a98d86f",
-      "EntityId": "WACOM.PTZ430"
+      "EntityId": "WACOM.PTZ430",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2388,7 +2388,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2410,7 +2409,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "b87675fc-0b37-46aa-9db8-f12376de3980",
-      "EntityId": "WACOM.PTZ431W"
+      "EntityId": "WACOM.PTZ431W",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2419,7 +2419,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2441,7 +2440,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "598a1555-68f2-4bc7-8565-03fec2d12c96",
-      "EntityId": "WACOM.PTZ630"
+      "EntityId": "WACOM.PTZ630",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2450,7 +2450,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2472,7 +2471,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "1564fe9c-9490-4bfe-9338-7345a15a01e1",
-      "EntityId": "WACOM.PTZ631W"
+      "EntityId": "WACOM.PTZ631W",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2481,7 +2481,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2503,7 +2502,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "21159fc7-7147-4115-beb0-cb0371ddc8a5",
-      "EntityId": "WACOM.PTZ930"
+      "EntityId": "WACOM.PTZ930",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -2512,7 +2512,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2534,7 +2533,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "9a768e16-a33f-4b88-8b62-2608306de16b",
-      "EntityId": "WACOM.XD0405U"
+      "EntityId": "WACOM.XD0405U",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -2543,7 +2543,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2565,7 +2564,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "ed841f4a-77da-44b0-862e-11bf9923b095",
-      "EntityId": "WACOM.XD0608U"
+      "EntityId": "WACOM.XD0608U",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -2574,7 +2574,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2596,7 +2595,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "06163869-1f1b-49c3-8797-8a6b29c0411f",
-      "EntityId": "WACOM.XD0912U"
+      "EntityId": "WACOM.XD0912U",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -2605,7 +2605,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2627,7 +2626,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "422f0225-5495-47d8-9e14-2625502092de",
-      "EntityId": "WACOM.XD1212U"
+      "EntityId": "WACOM.XD1212U",
+      "DigitizerDensity": "100"
     },
     {
       "DigitizerDimensions": {
@@ -2636,7 +2636,6 @@
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
-      "DigitizerResolution": "100",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -2658,7 +2657,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "473c0407-8a41-465d-bc6c-17451bd66676",
-      "EntityId": "WACOM.XD1218U"
+      "EntityId": "WACOM.XD1218U",
+      "DigitizerDensity": "100"
     }
   ]
 }

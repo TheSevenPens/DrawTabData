@@ -9,7 +9,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
-      "DigitizerResolution": "200",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
         "NTSC": 72
@@ -38,7 +37,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f1b5e880-3313-483c-892d-8ffc3ba0a3f1",
-      "EntityId": "XPPEN.ARTIST12"
+      "EntityId": "XPPEN.ARTIST12",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -49,7 +49,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
@@ -80,7 +79,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "f19b0c47-2b3c-4130-8854-977149267fd4",
-      "EntityId": "XPPEN.ARTIST12PRO"
+      "EntityId": "XPPEN.ARTIST12PRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -91,7 +91,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
@@ -125,7 +124,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
-      "EntityId": "XPPEN.ARTIST133PRO"
+      "EntityId": "XPPEN.ARTIST133PRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -133,7 +133,6 @@
         "Height": 194
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
@@ -163,7 +162,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "90a67454-8ccd-4d62-a8d1-f849fce201bf",
-      "EntityId": "XPPEN.ARTIST156"
+      "EntityId": "XPPEN.ARTIST156",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -172,7 +172,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorGamuts": {
@@ -200,7 +199,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
-      "EntityId": "XPPEN.ARTIST156PRO"
+      "EntityId": "XPPEN.ARTIST156PRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -240,7 +240,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
-      "DigitizerResolution": "200",
       "DigitizerType": "ACTIVE_EMR",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
@@ -270,7 +269,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3678e50b-e349-43b5-a90b-72792614a1f2",
-      "EntityId": "XPPEN.ARTIST16PRO"
+      "EntityId": "XPPEN.ARTIST16PRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -281,7 +281,6 @@
       "DigitizerMaxHover": "15",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
-      "DigitizerResolution": "200",
       "DigitizerType": "ACTIVE_EMR",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
@@ -312,7 +311,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3f6e570c-d6af-4b2f-80f8-1f0ee8b2ead6",
-      "EntityId": "XPPEN.ARTIST22PRO"
+      "EntityId": "XPPEN.ARTIST22PRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -323,7 +323,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
@@ -354,7 +353,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e2d983ee-d901-4945-a1ea-3fd59a722e72",
-      "EntityId": "XPPEN.ARTIST22RPRO"
+      "EntityId": "XPPEN.ARTIST22RPRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -365,7 +365,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
@@ -396,7 +395,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3ba56e15-bbcc-4944-a784-0b4d9363945d",
-      "EntityId": "XPPEN.ARTIST24PRO"
+      "EntityId": "XPPEN.ARTIST24PRO",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -408,7 +408,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "220",
@@ -438,7 +437,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
-      "EntityId": "XPPEN.CD120FH"
+      "EntityId": "XPPEN.CD120FH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -449,7 +449,6 @@
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "AGFILM",
@@ -483,7 +482,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
-      "EntityId": "XPPEN.CD130FH"
+      "EntityId": "XPPEN.CD130FH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -495,7 +495,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorGamuts": {
@@ -525,7 +524,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
-      "EntityId": "XPPEN.CD160FH"
+      "EntityId": "XPPEN.CD160FH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -537,7 +537,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
@@ -568,7 +567,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
-      "EntityId": "XPPEN.CD220F"
+      "EntityId": "XPPEN.CD220F",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -580,7 +580,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "AGFILM",
@@ -610,7 +609,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0fb7b995-4aba-49ee-b6bf-cc75b9578a57",
-      "EntityId": "XPPEN.CD240F"
+      "EntityId": "XPPEN.CD240F",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -622,7 +622,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "250",
@@ -655,7 +654,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
-      "EntityId": "XPPEN.CD240Q"
+      "EntityId": "XPPEN.CD240Q",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -664,7 +664,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -678,7 +677,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3ae93286-d961-4d2a-a3b7-f42d6cbd9c62",
-      "EntityId": "XPPEN.CT1060"
+      "EntityId": "XPPEN.CT1060",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -687,7 +687,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "69",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -701,7 +700,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
-      "EntityId": "XPPEN.CT430"
+      "EntityId": "XPPEN.CT430",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -710,7 +710,6 @@
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -724,7 +723,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a2f70186-10e2-47a7-9dde-5b1d89103a71",
-      "EntityId": "XPPEN.CT640"
+      "EntityId": "XPPEN.CT640",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -735,7 +735,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
-      "DigitizerResolution": "200",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelBrand": "XPPEN",
@@ -753,7 +752,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "611b4eed-7e42-4818-859e-a7f8ac5b9623",
-      "EntityId": "XPPEN.DECO01"
+      "EntityId": "XPPEN.DECO01",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -764,7 +764,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -784,7 +783,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "adcb93c5-9ce2-46bc-93b2-a25df2769f6e",
-      "EntityId": "XPPEN.DECO01V2"
+      "EntityId": "XPPEN.DECO01V2",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -794,7 +794,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -814,7 +813,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
-      "EntityId": "XPPEN.DECO01V3"
+      "EntityId": "XPPEN.DECO01V3",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -824,7 +824,6 @@
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelBrand": "XPPEN",
@@ -842,7 +841,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
-      "EntityId": "XPPEN.DECO02"
+      "EntityId": "XPPEN.DECO02",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -852,7 +852,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "266",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -871,7 +870,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
-      "EntityId": "XPPEN.DECO03"
+      "EntityId": "XPPEN.DECO03",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -881,7 +881,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -901,7 +900,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
-      "EntityId": "XPPEN.DECOMINI4"
+      "EntityId": "XPPEN.DECOMINI4",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -911,7 +911,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelBrand": "XPPEN",
@@ -930,7 +929,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "23d3caa6-4d93-46f0-9e60-871444fb265a",
-      "EntityId": "XPPEN.DECOMINI7"
+      "EntityId": "XPPEN.DECOMINI7",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -940,7 +940,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -959,7 +958,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
-      "EntityId": "XPPEN.DECOPROM"
+      "EntityId": "XPPEN.DECOPROM",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -969,7 +969,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -988,7 +987,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fa271dfe-fd5d-44a0-b993-ebccc65ef632",
-      "EntityId": "XPPEN.DECOPROMW"
+      "EntityId": "XPPEN.DECOPROMW",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -998,7 +998,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1017,7 +1016,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "e38187ce-c3e9-40dd-b440-bf5fccead639",
-      "EntityId": "XPPEN.DECOPROS"
+      "EntityId": "XPPEN.DECOPROS",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1027,7 +1027,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1046,7 +1045,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6ac45e5a-b656-4895-901b-82247f575392",
-      "EntityId": "XPPEN.DECOPROSW"
+      "EntityId": "XPPEN.DECOPROSW",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -1057,7 +1057,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DisplayBrightness": "250",
       "DisplayColorBitDepth": "8",
@@ -1090,7 +1089,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
-      "EntityId": "XPPEN.ID160F"
+      "EntityId": "XPPEN.ID160F",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1102,7 +1102,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
@@ -1135,7 +1134,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "8da13172-0f45-487d-bb26-e0a53d40c25a",
-      "EntityId": "XPPEN.ID160FE"
+      "EntityId": "XPPEN.ID160FE",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1143,7 +1143,6 @@
         "Height": 152
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -1157,7 +1156,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
-      "EntityId": "XPPEN.IT1060"
+      "EntityId": "XPPEN.IT1060",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1166,7 +1166,6 @@
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -1185,7 +1184,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
-      "EntityId": "XPPEN.IT1060B"
+      "EntityId": "XPPEN.IT1060B",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1195,7 +1195,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -1214,7 +1213,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
-      "EntityId": "XPPEN.IT640"
+      "EntityId": "XPPEN.IT640",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1224,7 +1224,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -1243,7 +1242,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "5eaceb43-bf80-4ca5-ba79-8041c1fd1ddd",
-      "EntityId": "XPPEN.IT850"
+      "EntityId": "XPPEN.IT850",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1253,7 +1253,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
@@ -1272,7 +1271,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
-      "EntityId": "XPPEN.IT850B"
+      "EntityId": "XPPEN.IT850B",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1284,7 +1284,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1317,7 +1316,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
-      "EntityId": "XPPEN.MD140FH"
+      "EntityId": "XPPEN.MD140FH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1327,7 +1327,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1359,7 +1358,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
-      "EntityId": "XPPEN.MD160QH"
+      "EntityId": "XPPEN.MD160QH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1371,7 +1371,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1403,7 +1402,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6a36faea-988a-4411-8f0b-6cea204c1207",
-      "EntityId": "XPPEN.MD160U"
+      "EntityId": "XPPEN.MD160U",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1413,7 +1413,6 @@
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1452,7 +1451,8 @@
       "_CreateDate": "2025-12-12T18:57:53.360Z",
       "_ModifiedDate": "2025-12-12T18:57:53.360Z",
       "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
-      "EntityId": "XPPEN.MD160UH"
+      "EntityId": "XPPEN.MD160UH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1464,7 +1464,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerSupportsTouch": "NO",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
@@ -1494,7 +1493,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T17:53:32.025Z",
       "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
-      "EntityId": "XPPEN.MD180UH"
+      "EntityId": "XPPEN.MD180UH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1505,7 +1505,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "FILM",
@@ -1537,7 +1536,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
-      "EntityId": "XPPEN.MD220FH"
+      "EntityId": "XPPEN.MD220FH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1548,7 +1548,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1586,7 +1585,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
-      "EntityId": "XPPEN.MD220QH"
+      "EntityId": "XPPEN.MD220QH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1597,7 +1597,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1632,7 +1631,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c7d5b405-28c2-4256-ae0a-6b7cb2d5711d",
-      "EntityId": "XPPEN.MD240QH"
+      "EntityId": "XPPEN.MD240QH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1643,7 +1643,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "220",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -1678,7 +1677,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "c1b05341-5d43-4003-bb7e-f8b6a5ca0181",
-      "EntityId": "XPPEN.MD240UH"
+      "EntityId": "XPPEN.MD240UH",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1688,7 +1688,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1707,7 +1706,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2209f868-50c5-4720-8428-6b9197dbef57",
-      "EntityId": "XPPEN.MT0962B"
+      "EntityId": "XPPEN.MT0962B",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1717,7 +1717,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1736,7 +1735,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "689b42c0-16a8-439e-8579-8a07b0c0f67f",
-      "EntityId": "XPPEN.MT1172B"
+      "EntityId": "XPPEN.MT1172B",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -1746,7 +1746,6 @@
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "16384",
       "DigitizerReportRate": "200",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -1765,7 +1764,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
-      "EntityId": "XPPEN.MT1592B"
+      "EntityId": "XPPEN.MT1592B",
+      "DigitizerDensity": "200"
     }
   ]
 }

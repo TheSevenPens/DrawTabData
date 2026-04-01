@@ -89,10 +89,10 @@ Format: object { "Width": number, "Height": number }
 Unit: mm
 Required: no
 
-### DigitizerResolution
-The spatial resolution of the digitizer.
+### DigitizerDensity
+The spatial resolution (density) of the digitizer.
 Format: numeric string (e.g. "200", "157.4")
-Unit: LPI (lines per inch)
+Unit: LPmm (lines per millimeter)
 Required: no
 
 ### DigitizerReportRate

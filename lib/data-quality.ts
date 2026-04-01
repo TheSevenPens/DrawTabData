@@ -70,7 +70,7 @@ const ENUM_FIELDS: Record<string, string[]> = {
 
 const NUMERIC_FIELDS = [
   "DigitizerPressureLevels",
-  "DigitizerResolution",
+  "DigitizerDensity",
   "DigitizerReportRate",
   "DigitizerTilt",
   "DigitizerAccuracyCenter",
@@ -123,7 +123,7 @@ const ALL_KNOWN_FIELDS = [
   "DigitizerType",
   "DigitizerPressureLevels",
   "DigitizerDimensions",
-  "DigitizerResolution",
+  "DigitizerDensity",
   "DigitizerReportRate",
   "DigitizerTilt",
   "DigitizerAccuracyCenter",

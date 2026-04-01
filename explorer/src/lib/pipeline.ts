@@ -41,7 +41,7 @@ export interface FieldDef {
   group: string;
 }
 
-export const FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Computed"];
+export const FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
 
 export const FIELDS: FieldDef[] = [
   // Model
@@ -51,6 +51,13 @@ export const FIELDS: FieldDef[] = [
   { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Model" },
   { key: "ModelType", label: "Type", getValue: (t) => t.ModelType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY"], group: "Model" },
   { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.ModelLaunchYear, type: "number", group: "Model" },
+  {
+    key: "Age", label: "Age (years)", computed: true, type: "number", group: "Model",
+    getValue: (t) => {
+      const year = parseInt(t.ModelLaunchYear, 10);
+      return isNaN(year) ? "" : String(new Date().getFullYear() - year);
+    },
+  },
   { key: "ModelAudience", label: "Audience", getValue: (t) => t.ModelAudience ?? "", type: "enum", enumValues: ["Consumer", "Enthusiast", "Professional"], group: "Model" },
   { key: "ModelFamily", label: "Family", getValue: (t) => t.ModelFamily ?? "", type: "string", group: "Model" },
   { key: "ModelStatus", label: "Status", getValue: (t) => t.ModelStatus ?? "", type: "enum", enumValues: ["ACTIVE", "AVAILABLE", "DISCONTINUED"], group: "Model" },
@@ -59,16 +66,24 @@ export const FIELDS: FieldDef[] = [
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.DigitizerType ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
   { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.DigitizerPressureLevels ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerReportRate", label: "Report Rate", getValue: (t) => t.DigitizerReportRate ?? "", type: "number", group: "Digitizer" },
-  { key: "DigitizerResolution", label: "Digitizer Resolution", getValue: (t) => t.DigitizerResolution ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerDensity", label: "Density", getValue: (t) => t.DigitizerDensity ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerTilt", label: "Tilt", getValue: (t) => t.DigitizerTilt ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerAccuracyCenter", label: "Accuracy (Center)", getValue: (t) => t.DigitizerAccuracyCenter ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerAccuracyCorner", label: "Accuracy (Corner)", getValue: (t) => t.DigitizerAccuracyCorner ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerMaxHover", label: "Max Hover", getValue: (t) => t.DigitizerMaxHover ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerSupportsTouch", label: "Touch", getValue: (t) => t.DigitizerSupportsTouch ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Digitizer" },
   {
-    key: "DigitizerDimensions", label: "Active Area", group: "Digitizer",
+    key: "DigitizerDimensions", label: "Dimensions", group: "Digitizer",
     getValue: (t) => { const d = t.DigitizerDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
+  },
+  {
+    key: "DigitizerDiagonal", label: "Diagonal (mm)", group: "Digitizer", computed: true, type: "number",
+    getValue: (t) => {
+      const d = t.DigitizerDimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      return Math.sqrt(d.Width * d.Width + d.Height * d.Height).toFixed(1);
+    },
   },
   // Display
   { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => t.DisplayPanelTech ?? "", type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"], group: "Display" },
@@ -84,6 +99,24 @@ export const FIELDS: FieldDef[] = [
     getValue: (t) => { const d = t.DisplayResolution; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
+  {
+    key: "DisplayDiagonal", label: "Diagonal (mm)", group: "Display", computed: true, type: "number",
+    getValue: (t) => {
+      const res = t.DisplayResolution;
+      const dim = t.DigitizerDimensions;
+      if (!res || !dim || !dim.Width || !dim.Height || t.ModelType !== "PENDISPLAY") return "";
+      return Math.sqrt(dim.Width * dim.Width + dim.Height * dim.Height).toFixed(1);
+    },
+  },
+  {
+    key: "DisplayDensity", label: "Density (px/mm)", group: "Display", computed: true, type: "number",
+    getValue: (t) => {
+      const res = t.DisplayResolution;
+      const dim = t.DigitizerDimensions;
+      if (!res || !dim || !res.Width || !dim.Width) return "";
+      return (res.Width / dim.Width).toFixed(2);
+    },
+  },
   // Physical
   { key: "PhysicalWeight", label: "Weight (g)", getValue: (t) => t.PhysicalWeight ?? "", type: "number", group: "Physical" },
   {
@@ -94,14 +127,6 @@ export const FIELDS: FieldDef[] = [
       return d.Depth ? `${d.Width} x ${d.Height} x ${d.Depth}` : `${d.Width} x ${d.Height}`;
     },
     type: "string",
-  },
-  // Computed
-  {
-    key: "Age", label: "Age (years)", computed: true, type: "number", group: "Computed",
-    getValue: (t) => {
-      const year = parseInt(t.ModelLaunchYear, 10);
-      return isNaN(year) ? "" : String(new Date().getFullYear() - year);
-    },
   },
 ];
 

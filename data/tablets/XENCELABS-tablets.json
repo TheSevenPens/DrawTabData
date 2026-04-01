@@ -6,7 +6,6 @@
         "Height": 99
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -26,7 +25,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
-      "EntityId": "XENCELABS.BPH0812WA"
+      "EntityId": "XENCELABS.BPH0812WA",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -34,7 +34,6 @@
         "Height": 147
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
@@ -54,7 +53,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
-      "EntityId": "XENCELABS.BPH1212WA"
+      "EntityId": "XENCELABS.BPH1212WA",
+      "DigitizerDensity": "200"
     },
     {
       "DigitizerDimensions": {
@@ -62,7 +62,6 @@
         "Height": 296
       },
       "DigitizerPressureLevels": "8192",
-      "DigitizerResolution": "200",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayAntiGlare": "ETCHEDGLASS",
@@ -94,7 +93,8 @@
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
-      "EntityId": "XENCELABS.LPH2412UA"
+      "EntityId": "XENCELABS.LPH2412UA",
+      "DigitizerDensity": "200"
     }
   ]
 }

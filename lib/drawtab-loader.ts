@@ -30,7 +30,7 @@ export interface Tablet {
   DigitizerType?: string;
   DigitizerPressureLevels?: string;
   DigitizerDimensions?: Dimensions;
-  DigitizerResolution?: string;
+  DigitizerDensity?: string;
   DigitizerReportRate?: string;
   DigitizerTilt?: string;
   DigitizerAccuracyCenter?: string;
