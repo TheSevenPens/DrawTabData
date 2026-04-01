@@ -1,30 +1,54 @@
 # DATA LAYOUT
 
-JSON files are organized by entity type and partitioned by brand.
+JSON files are organized by entity type, mostly partitioned by brand.
 
 	/data
 		/tablets
+			GAOMON-tablets.json
 			HUION-tablets.json
+			UGEE-tablets.json
 			WACOM-tablets.json
 			XENCELABS-tablets.json
 			XPPEN-tablets.json
 		/pens
+			HUION-pens.json
+			SAMSUNG-pens.json
 			WACOM-pens.json
+			XENCELABS-pens.json
+			XPPEN-pens.json
 		/pen-families
 			WACOM-pen-families.json
 		/tablet-families
 			WACOM-tablet-families.json
 		/pen-compat
+			HUION-pen-compat.json
+			SAMSUNG-pen-compat.json
 			WACOM-pen-compat.json
+			XENCELABS-pen-compat.json
+			XPPEN-pen-compat.json
 		/drivers
 			WACOM-drivers.json
+		/pressure-response
+			HUION-pressure-response.json
+			SAMSUNG-pressure-response.json
+			WACOM-pressure-response.json
+			XENCELABS-pressure-response.json
+			XPPEN-pressure-response.json
+		/inventory
+			sevenpens-pens.json
+			sevenpens-tablets.json
 
 Each file wraps its records in a top-level key:
 - tablets: { "DrawingTablets": [...] }
 - pens: { "Pens": [...] }
 - pen-families: { "PenFamilies": [...] }
 - tablet-families: { "TabletFamilies": [...] }
-- pen-compat: { "PenCompat": [...] }
+- pen-compat: { "PenCompat": [...] } (grouped: PenId -> TabletIds[])
 - drivers: { "Drivers": [...] }
+- pressure-response: { "PressureResponse": [...] }
+- inventory pens: { "InventoryPens": [...] }
+- inventory tablets: { "InventoryTablets": [...] }
 
-File naming convention: BRAND-entitytype.json (e.g. WACOM-tablets.json)
+File naming:
+- Most entities: BRAND-entitytype.json (e.g. WACOM-tablets.json)
+- Inventory: USERNAME-entitytype.json (e.g. sevenpens-pens.json)

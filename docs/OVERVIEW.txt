@@ -3,22 +3,28 @@
 The DrawTabData project unifies JSON datasets related to Drawing Tablets.
 
 Entities include:
-- Tablets (250 across 4 brands)
-- Pens (51 Wacom)
-- Pen Families (7 Wacom)
+- Tablets (286 across 7 brands)
+- Pens (102 across 5 brands)
+- Pen Families (10 Wacom)
 - Tablet Families (18 Wacom)
-- Pen Compatibility (535 tablet-pen pairs)
+- Pen Compatibility (59 groups across 5 brands)
 - Drivers (246 Wacom)
+- Pressure Response (124 sessions across 5 brands)
+- Inventory (144 pens, 119 tablets for user sevenpens)
 
 # The brand dimension
 
-A key dimension for these entities is the Brand. For example:
-- WACOM
+Brands currently in the system:
+- GAOMON
 - HUION
-- XPPEN
+- SAMSUNG
+- UGEE
+- WACOM
 - XENCELABS
+- XPPEN
 
 Datasets are partitioned as files by brand (e.g. WACOM-tablets.json).
+Inventory is partitioned by user (e.g. sevenpens-pens.json).
 
 # EntityId convention
 
@@ -34,6 +40,9 @@ Every entity has an EntityId in the format BRAND.ENTITYTYPE.ID:
 This repo includes TypeScript libraries for consumers:
 
 - lib/drawtab-loader.ts — typed interfaces and loaders for all entities
+- lib/drawtab-loader-node.ts — filesystem-based loaders for Node.js
+- lib/drawtab-all.ts / lib/drawtab-all-node.ts — load everything in one call
+- lib/compat-helpers.ts — compatibility map builders
 - lib/pipeline/ — generic query engine (filter, sort, select, take)
 - lib/entities/ — field definitions per entity type (metadata, computed fields)
 - lib/units.ts — metric/imperial unit conversion
@@ -42,6 +51,7 @@ This repo includes TypeScript libraries for consumers:
 # How consumers use the data
 
 - Include this repo as a git submodule
-- Import types and loaders from lib/
-- Use the pipeline engine for querying
+- Clone the repo
+- Copy data/ and lib/ into your project
+- Fetch data at runtime from GitHub Pages or raw.githubusercontent
 - The DrawTabDataExplorer repo is the primary consumer (SvelteKit UI)

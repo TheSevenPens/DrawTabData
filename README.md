@@ -6,12 +6,14 @@ Unified JSON datasets and TypeScript libraries for drawing tablets, pens, driver
 
 | Entity | Records | Brands |
 |---|---|---|
-| Tablets | 283 | HUION, WACOM, XENCELABS, XPPEN |
-| Pens | 65 | WACOM |
+| Tablets | 286 | GAOMON, HUION, UGEE, WACOM, XENCELABS, XPPEN |
+| Pens | 102 | HUION, SAMSUNG, WACOM, XENCELABS, XPPEN |
 | Pen Families | 10 | WACOM |
 | Tablet Families | 18 | WACOM |
-| Pen Compatibility | 59 groups | WACOM |
+| Pen Compatibility | 59 groups | HUION, SAMSUNG, WACOM, XENCELABS, XPPEN |
 | Drivers | 246 | WACOM |
+| Pressure Response | 124 sessions | HUION, SAMSUNG, WACOM, XENCELABS, XPPEN |
+| Inventory | 144 pens, 119 tablets | Per-user (sevenpens) |
 
 ## Quick start
 
