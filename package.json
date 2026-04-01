@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "data-quality": "tsx lib/run-data-quality.ts"
+    "data-quality": "tsx lib/run-data-quality.ts",
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3"
   }
 }
