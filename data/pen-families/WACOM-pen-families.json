@@ -62,6 +62,33 @@
       "_id": "99354f56-ec14-49bf-b23b-ec60c1478436",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.PENFAMILY.WacomBamboo",
+      "Brand": "WACOM",
+      "FamilyId": "WacomBamboo",
+      "FamilyName": "Wacom Bamboo pens",
+      "_id": "20299e8c-e8e3-48d4-8929-c960aca47785",
+      "_CreateDate": "2026-04-01T18:06:28.000Z",
+      "_ModifiedDate": "2026-04-01T18:06:28.000Z"
+    },
+    {
+      "EntityId": "WACOM.PENFAMILY.WacomOneGen1",
+      "Brand": "WACOM",
+      "FamilyId": "WacomOneGen1",
+      "FamilyName": "Wacom One GEN1 pens",
+      "_id": "41bf82fa-d91f-4703-93f7-a825079a2756",
+      "_CreateDate": "2026-04-01T18:06:28.000Z",
+      "_ModifiedDate": "2026-04-01T18:06:28.000Z"
+    },
+    {
+      "EntityId": "WACOM.PENFAMILY.WacomOneGen2",
+      "Brand": "WACOM",
+      "FamilyId": "WacomOneGen2",
+      "FamilyName": "Wacom One GEN2 pens",
+      "_id": "d69d8c21-2c0a-4723-a552-b5562410f4dc",
+      "_CreateDate": "2026-04-01T18:06:28.000Z",
+      "_ModifiedDate": "2026-04-01T18:06:28.000Z"
     }
   ]
 }
