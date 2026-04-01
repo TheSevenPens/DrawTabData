@@ -1,12 +1,13 @@
 {
-  "extends": "./.svelte-kit/tsconfig.json",
   "compilerOptions": {
     "strict": true,
-    "moduleResolution": "bundler",
-    "module": "es2022",
     "target": "es2022",
-    "resolveJsonModule": true,
+    "module": "node16",
+    "moduleResolution": "node16",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "."
   }
 }

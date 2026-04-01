@@ -1,4 +1,4 @@
-import type { FieldDef, Step } from "$lib/pipeline/types.js";
+import type { FieldDef, Step } from "../pipeline/types.js";
 
 export interface PenCompat {
   Brand: string;

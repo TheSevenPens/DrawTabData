@@ -1,5 +1,5 @@
-import type { Tablet } from "../../../../lib/drawtab-loader.js";
-import type { FieldDef, Step } from "$lib/pipeline/types.js";
+import type { Tablet } from "../drawtab-loader.js";
+import type { FieldDef, Step } from "../pipeline/types.js";
 
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
 
