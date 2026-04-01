@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import type { Tablet } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat } from "./drawtab-loader.js";
 
 // --- Generic loader ---
 
@@ -34,33 +34,33 @@ export function loadTabletsFromDisk(dataDir: string): Tablet[] {
 
 // --- Driver loader ---
 
-export function loadDriversFromDisk(dataDir: string): Record<string, unknown>[] {
-  return loadBrandPartitionedDataFromDisk<Record<string, unknown>>(dataDir, "drivers", "Drivers", ["WACOM"]);
+export function loadDriversFromDisk(dataDir: string): Driver[] {
+  return loadBrandPartitionedDataFromDisk<Driver>(dataDir, "drivers", "Drivers", ["WACOM"]);
 }
 
 // --- Pen loader ---
 
-export function loadPensFromDisk(dataDir: string): Record<string, unknown>[] {
-  return loadBrandPartitionedDataFromDisk<Record<string, unknown>>(dataDir, "pens", "Pens", ["WACOM"]);
+export function loadPensFromDisk(dataDir: string): Pen[] {
+  return loadBrandPartitionedDataFromDisk<Pen>(dataDir, "pens", "Pens", ["WACOM"]);
 }
 
 // --- Family loaders ---
 
-export function loadPenFamiliesFromDisk(dataDir: string): Record<string, unknown>[] {
-  return loadBrandPartitionedDataFromDisk<Record<string, unknown>>(dataDir, "pen-families", "PenFamilies", ["WACOM"]);
+export function loadPenFamiliesFromDisk(dataDir: string): PenFamily[] {
+  return loadBrandPartitionedDataFromDisk<PenFamily>(dataDir, "pen-families", "PenFamilies", ["WACOM"]);
 }
 
-export function loadTabletFamiliesFromDisk(dataDir: string): Record<string, unknown>[] {
-  return loadBrandPartitionedDataFromDisk<Record<string, unknown>>(dataDir, "tablet-families", "TabletFamilies", ["WACOM"]);
+export function loadTabletFamiliesFromDisk(dataDir: string): TabletFamily[] {
+  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies", ["WACOM"]);
 }
 
 // --- Pen compat loader ---
 
-export function loadPenCompatFromDisk(dataDir: string): Record<string, unknown>[] {
-  return loadBrandPartitionedDataFromDisk<Record<string, unknown>>(dataDir, "pen-compat", "PenCompat", ["WACOM"]);
+export function loadPenCompatFromDisk(dataDir: string): PenCompat[] {
+  return loadBrandPartitionedDataFromDisk<PenCompat>(dataDir, "pen-compat", "PenCompat", ["WACOM"]);
 }
 
 // --- Re-export types and accessors ---
 
-export type { Tablet, Dimensions, ColorGamuts } from "./drawtab-loader.js";
-export { getBrands, filterByBrand, filterByType } from "./drawtab-loader.js";
+export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Dimensions, ColorGamuts } from "./drawtab-loader.js";
+export { getBrands, filterByBrand, filterByType, getDiagonal, formatDimensions, containsText, equalsText } from "./drawtab-loader.js";

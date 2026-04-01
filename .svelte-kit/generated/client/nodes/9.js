@@ -1,0 +1,1 @@
+export { default as component } from "../../../../explorer/src/routes/pens/[entityId]/+page.svelte";

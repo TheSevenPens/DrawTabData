@@ -34,6 +34,18 @@ KQL-style summarize: count, min, max, avg grouped by a field.
 ### Data quality for all entity types
 Currently only validates tablets. Extend to pens, drivers, families, compat.
 
+### DrawTabDataSet class
+A high-level API that simplifies data access:
+- Lazy loading: entity collections load on first access (e.g. `ds.Tablets`)
+- Fluent filtering: `ds.Tablets.filter("Brand", "==", "WACOM").filter(...)`
+  built on top of the pipeline engine
+- Auto-resolved relationships: `tablet.getCompatiblePens()` returns full
+  Pen objects by automatically loading and joining pen-compat data
+- Supports both disk and URL sources configured at construction time
+
+Phase 1: DrawTabDataSet + lazy loading + fluent filter
+Phase 2: Auto-resolved relationships (getCompatiblePens, getCompatibleTablets, etc.)
+
 ## KNOWN ISSUES
 
 None currently.

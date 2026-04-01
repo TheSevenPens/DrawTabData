@@ -57,6 +57,63 @@ export interface Tablet {
   _ModifiedDate: string;
 }
 
+export interface Pen {
+  EntityId: string;
+  Brand: string;
+  PenId: string;
+  PenName: string;
+  PenFamily: string;
+  PenYear: string;
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
+export interface PenFamily {
+  EntityId: string;
+  Brand: string;
+  FamilyId: string;
+  FamilyName: string;
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
+export interface TabletFamily {
+  EntityId: string;
+  Brand: string;
+  FamilyId: string;
+  FamilyName: string;
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
+export interface Driver {
+  EntityId: string;
+  Brand: string;
+  DriverVersion: string;
+  DriverName: string;
+  DriverUID: string;
+  OSFamily: string;
+  ReleaseDate: string;
+  DriverURLWacom: string;
+  DriverURLArchiveDotOrg: string;
+  ReleaseNotesURL: string;
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
+export interface PenCompat {
+  Brand: string;
+  TabletId: string;
+  PenId: string;
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
 // --- Generic loader ---
 
 const BRANDS = ["HUION", "WACOM", "XENCELABS", "XPPEN"];
@@ -93,42 +150,65 @@ export async function loadTabletsFromURL(dataBaseUrl: string): Promise<Tablet[]>
 
 // --- Driver loader ---
 
-export async function loadDriversFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
+export async function loadDriversFromURL(dataBaseUrl: string): Promise<Driver[]> {
+  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
 }
 
 // --- Pen loader ---
 
-export async function loadPensFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "pens", "Pens", ["WACOM"]);
+export async function loadPensFromURL(dataBaseUrl: string): Promise<Pen[]> {
+  return loadBrandPartitionedDataFromURL<Pen>(dataBaseUrl, "pens", "Pens", ["WACOM"]);
 }
 
 // --- Family loaders ---
 
-export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "pen-families", "PenFamilies", ["WACOM"]);
+export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<PenFamily[]> {
+  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies", ["WACOM"]);
 }
 
-export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "tablet-families", "TabletFamilies", ["WACOM"]);
+export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<TabletFamily[]> {
+  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", ["WACOM"]);
 }
 
 // --- Pen compat loader ---
 
-export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<Record<string, unknown>[]> {
-  return loadBrandPartitionedDataFromURL<Record<string, unknown>>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
+export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenCompat[]> {
+  return loadBrandPartitionedDataFromURL<PenCompat>(dataBaseUrl, "pen-compat", "PenCompat", ["WACOM"]);
+}
+
+// --- Helpers ---
+
+export function getDiagonal(dimensions: Dimensions | undefined): number | null {
+  if (!dimensions || dimensions.Width == null || dimensions.Height == null) return null;
+  return Math.sqrt(dimensions.Width * dimensions.Width + dimensions.Height * dimensions.Height);
+}
+
+export function formatDimensions(dimensions: Dimensions | undefined): string {
+  if (!dimensions) return "";
+  const parts = [dimensions.Width, dimensions.Height, dimensions.Depth].filter((v) => v != null);
+  return parts.join(" x ");
+}
+
+export function containsText(value: string | undefined, search: string): boolean {
+  if (!value) return false;
+  return value.toLowerCase().includes(search.toLowerCase());
+}
+
+export function equalsText(value: string | undefined, search: string): boolean {
+  if (!value) return false;
+  return value.toLowerCase() === search.toLowerCase();
 }
 
 // --- Accessors ---
 
-export function getBrands(tablets: Tablet[]): string[] {
-  return [...new Set(tablets.map((t) => t.Brand))].sort();
+export function getBrands<T extends { Brand: string }>(items: T[]): string[] {
+  return [...new Set(items.map((t) => t.Brand))].sort();
 }
 
-export function filterByBrand(tablets: Tablet[], brand: string): Tablet[] {
-  return tablets.filter((t) => t.Brand === brand);
+export function filterByBrand<T extends { Brand: string }>(items: T[], brand: string): T[] {
+  return items.filter((t) => equalsText(t.Brand, brand));
 }
 
-export function filterByType(tablets: Tablet[], type: Tablet["ModelType"]): Tablet[] {
-  return tablets.filter((t) => t.ModelType === type);
+export function filterByType(tablets: Tablet[], type: string): Tablet[] {
+  return tablets.filter((t) => equalsText(t.ModelType, type));
 }
