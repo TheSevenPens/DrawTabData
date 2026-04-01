@@ -34,9 +34,10 @@ Required: yes
 
 ### ModelType
 The form factor category.
-Values: PENTABLET, PENDISPLAY
+Values: PENTABLET, PENDISPLAY, STANDALONE
 - PENTABLET  - opaque tablet without a screen
 - PENDISPLAY - tablet with an integrated display
+- STANDALONE - standalone drawing computer
 Required: yes
 
 ### ModelLaunchYear

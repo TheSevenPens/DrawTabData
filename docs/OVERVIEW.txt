@@ -3,10 +3,12 @@
 The DrawTabData project unifies JSON datasets related to Drawing Tablets.
 
 Entities include:
-- Tablets (implemented)
-- Pens (planned)
-
-In the future we will have other entities such as Drivers and Nibs.
+- Tablets (250 across 4 brands)
+- Pens (51 Wacom)
+- Pen Families (7 Wacom)
+- Tablet Families (18 Wacom)
+- Pen Compatibility (535 tablet-pen pairs)
+- Drivers (246 Wacom)
 
 # The brand dimension
 
@@ -18,32 +20,28 @@ A key dimension for these entities is the Brand. For example:
 
 Datasets are partitioned as files by brand (e.g. WACOM-tablets.json).
 
-# Data explorer
+# EntityId convention
 
-A SvelteKit app serves as a data explorer. It offers:
-- A KQL-inspired visual pipeline builder (filter, sort, select columns, limit)
-- Computed fields (Age, Digitizer Diagonal, Display Diagonal, Display Density)
-- Saved named views persisted in localStorage
-- A built-in Default view loaded on startup
+Every entity has an EntityId in the format BRAND.ENTITYTYPE.ID:
+- WACOM.TABLET.PTK870
+- WACOM.PEN.KP501E
+- WACOM.DRIVER.6.3.45-2_WINDOWS
+- WACOM.PENFAMILY.WacomKPGEN3
+- WACOM.TABLETFAMILY.WacomIntuosProGen8
 
-# Data code layer
+# Libraries
 
-TypeScript libraries assist consumers in accessing and using the data:
-- drawtab-loader.ts — typed loader with filter helpers
-- data-quality.ts — validation checks run via npm run data-quality
+This repo includes TypeScript libraries for consumers:
 
-The libraries:
-- Abstract away the data format and file distribution
-- Provide typed interfaces for all entities
-- Support complex fields (dimensions, color gamuts) as nested objects
-- Make it easy to validate data quality
+- lib/drawtab-loader.ts — typed interfaces and loaders for all entities
+- lib/pipeline/ — generic query engine (filter, sort, select, take)
+- lib/entities/ — field definitions per entity type (metadata, computed fields)
+- lib/units.ts — metric/imperial unit conversion
+- lib/data-quality.ts — validation checks (npm run data-quality)
 
-# How consumers will use the data
-- Other apps may copy the data and code into their own projects
-- Other apps may consume the library via git submodule
+# How consumers use the data
 
-# Current state
-
-The project has tablet data for 206 tablets across 4 brands, with a
-working data quality pipeline, typed loader library, and SvelteKit
-explorer with a visual query builder.
+- Include this repo as a git submodule
+- Import types and loaders from lib/
+- Use the pipeline engine for querying
+- The DrawTabDataExplorer repo is the primary consumer (SvelteKit UI)

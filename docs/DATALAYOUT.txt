@@ -1,30 +1,30 @@
-# OVERVIEW
+# DATA LAYOUT
 
-This is an initial idea for how the JSON will be organized as files
+JSON files are organized by entity type and partitioned by brand.
 
 	/data
-		/inventory
-			inventory-sevenpens.json
 		/tablets
+			HUION-tablets.json
 			WACOM-tablets.json
+			XENCELABS-tablets.json
+			XPPEN-tablets.json
 		/pens
 			WACOM-pens.json
-		/nibs
-			WACOM-nibs.json
+		/pen-families
+			WACOM-pen-families.json
+		/tablet-families
+			WACOM-tablet-families.json
+		/pen-compat
+			WACOM-pen-compat.json
 		/drivers
 			WACOM-drivers.json
-		/pen-compat
-			WACOM-pens.json (include cmpt_)
-		/nib-compat
-			WACOM-nibs.json
-		/pressure-response
-			/WACOM.KP504
-				WACOM.KP504_WAP.0001_20251119_0.json
-	/client
-		drawtab-data-quality.js
-		drawtab-loader.js
-		drawtab-views.js
-	/explorer
-		
 
+Each file wraps its records in a top-level key:
+- tablets: { "DrawingTablets": [...] }
+- pens: { "Pens": [...] }
+- pen-families: { "PenFamilies": [...] }
+- tablet-families: { "TabletFamilies": [...] }
+- pen-compat: { "PenCompat": [...] }
+- drivers: { "Drivers": [...] }
 
+File naming convention: BRAND-entitytype.json (e.g. WACOM-tablets.json)

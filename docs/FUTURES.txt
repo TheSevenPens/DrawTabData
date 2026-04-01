@@ -1,64 +1,39 @@
 # FUTURES
 
-## BIG WORK
-
-### Add pens dataset
-Add pen data partitioned by brand (e.g. WACOM-pens.json) with fields for
-pen model, technology, buttons, pressure levels, tilt support, weight, etc.
-Link to tablets via ModelIncludedPen.
+## DATA
 
 ### Add nibs dataset
 Nib types, materials, compatibility with pens.
 
-### Add drivers dataset
-Driver versions, OS support, release dates, linked to brands.
+### Expand pen data
+Add fields for technology, buttons, pressure levels, tilt support, weight.
 
-### Relate entities in the explorer
-Navigate between tablets, pens, nibs. e.g. click a tablet's included pen
-to see its specs, or see which tablets ship with a given pen.
+### Expand pen/tablet family data
+Add more metadata to families as the concept grows.
+
+### Add pen-compat for other brands
+Currently only Wacom. HUION, XPPEN, XENCELABS need compatibility data.
+
+### Add drivers for other brands
+Currently only Wacom.
+
+### Pressure response data
+Pressure response curves per pen/tablet combination. Different data shape
+(time series per device pair) needing its own loader.
+
+## LIBRARIES
 
 ### Aggregation in the pipeline (summarize step)
 KQL-style summarize: count, min, max, avg grouped by a field.
-e.g. count tablets by brand, average pressure levels by type.
 
 ### Additional computed fields
-- Display diagonal in inches (from mm)
 - Active area in square mm/cm
 - Pixel count (width x height)
 - Aspect ratio
-- Price (if price data is added)
 
-### Export results
-Export the current pipeline results as CSV or JSON.
-
-### URL-encoded pipeline state
-Encode the current pipeline steps into the URL so views can be shared
-via links without needing localStorage.
+### Data quality for all entity types
+Currently only validates tablets. Extend to pens, drivers, families, compat.
 
 ## KNOWN ISSUES
 
 None currently.
-
-## IDEAS TO EXPLORE
-
-### Text-based KQL input
-Complement the visual pipeline builder with a text input that accepts
-KQL-like syntax, parsed into pipeline steps. Power users could type
-queries directly.
-
-### Data editing in the explorer
-Allow editing field values directly in the table, with validation and
-write-back to the JSON files (dev mode only).
-
-### Static site build
-Use adapter-static to build the explorer as a deployable static site
-(e.g. GitHub Pages).
-
-### Pressure response data
-The data layout mentions pressure response curves per pen/tablet
-combination. This is a different shape of data (time series per device
-pair) and will need its own loader and visualization.
-
-### Git submodule consumption
-Document and test the workflow for other projects consuming the data
-and library via git submodule.
