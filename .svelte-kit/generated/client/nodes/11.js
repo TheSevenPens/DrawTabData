@@ -1,1 +1,0 @@
-export { default as component } from "../../../../explorer/src/routes/tablet-families/[entityId]/+page.svelte";
