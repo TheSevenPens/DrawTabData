@@ -33,9 +33,17 @@ git clone https://github.com/TheSevenPens/DrawTabData.git data-repo
 
 Download and copy the `data/` and `lib/` folders directly into your project.
 
-### Option 4: Fetch from GitHub Pages
+### Option 4: Fetch directly from GitHub
 
-No local files needed — load data at runtime from `https://thesevenpens.github.io/DrawTabData/data/`.
+No local files needed — load data at runtime:
+
+```typescript
+// From GitHub Pages
+const ds = await loadAllFromURL("https://thesevenpens.github.io/DrawTabData/data");
+
+// From raw.githubusercontent
+const ds = await loadAllFromURL("https://raw.githubusercontent.com/TheSevenPens/DrawTabData/master/data");
+```
 
 ### Load everything (Node.js)
 
