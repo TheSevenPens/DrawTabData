@@ -2,7 +2,6 @@
   "PressureResponse": [
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0004",
       "Date": "2024-10-01",
@@ -91,11 +90,11 @@
       ],
       "_id": "f68d33f4-48a7-4c08-ac83-58059befd9bb",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0004",
       "Date": "2025-09-24",
@@ -236,11 +235,11 @@
       ],
       "_id": "fa2d2967-7d7c-4ccc-8b2a-a2d09e399b8f",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0005",
       "Date": "2024-10-01",
@@ -345,11 +344,11 @@
       ],
       "_id": "b2c0f07e-5bfe-43a3-96c9-8d9b4743ab04",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0005",
       "Date": "2025-09-24",
@@ -490,11 +489,11 @@
       ],
       "_id": "a46912c3-cddb-40af-8ae0-bf1958a96e07",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0006",
       "Date": "2024-10-01",
@@ -583,11 +582,11 @@
       ],
       "_id": "94228538-6db9-4e08-96eb-df31b0965ce0",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0006",
       "Date": "2025-09-24",
@@ -704,11 +703,11 @@
       ],
       "_id": "fb7407a1-3021-4c0b-974c-2674353f8206",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "P05",
       "PenFamily": "",
       "InventoryId": "XPP.0020",
       "Date": "2025-09-24",
@@ -833,11 +832,11 @@
       ],
       "_id": "04052dc6-b99e-4701-93c6-7fd8656123c3",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.P05"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0009",
       "Date": "2024-09-26",
@@ -998,11 +997,11 @@
       ],
       "_id": "7e043896-562c-43aa-bb86-cd58d4dac71d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0010",
       "Date": "2024-09-27",
@@ -1171,11 +1170,11 @@
       ],
       "_id": "cb101d00-64d5-4da8-acd7-61099b0e3a99",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0010",
       "Date": "2025-09-25",
@@ -1312,11 +1311,11 @@
       ],
       "_id": "c47d46de-8547-48d8-b08a-0d793f750c05",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0011",
       "Date": "2024-09-27",
@@ -1465,11 +1464,11 @@
       ],
       "_id": "7ed70be8-4457-4b6c-be52-bd81500477b5",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0011",
       "Date": "2025-09-25",
@@ -1586,11 +1585,11 @@
       ],
       "_id": "f585b6ce-6642-4c85-b0cf-783b78c739b7",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0018",
       "Date": "2025-09-25",
@@ -1731,11 +1730,11 @@
       ],
       "_id": "b12cf200-cdf4-4d9b-8d79-ef10d1e4c906",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3ELITE",
       "PenFamily": "",
       "InventoryId": "XPP.0029",
       "Date": "2025-09-25",
@@ -1868,11 +1867,11 @@
       ],
       "_id": "4d7a6c6b-7865-456f-b86c-224879b9d035",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3ELITE"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0001",
       "Date": "2024-09-26",
@@ -2077,11 +2076,11 @@
       ],
       "_id": "37541d9b-98a0-4218-8be3-43cedc0a292c",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0001",
       "Date": "2025-09-25",
@@ -2202,11 +2201,11 @@
       ],
       "_id": "3bc704f8-9b3c-40c2-bc37-c4368379f5fc",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0002",
       "Date": "2024-09-25",
@@ -2351,11 +2350,11 @@
       ],
       "_id": "5de855a4-1d9b-422f-b461-a8f82ccb7ff5",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0002",
       "Date": "2025-09-25",
@@ -2440,11 +2439,11 @@
       ],
       "_id": "4787f99c-f127-4222-8991-ccc2fa5c1ce3",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0003",
       "Date": "2024-09-26",
@@ -2577,11 +2576,11 @@
       ],
       "_id": "80798070-3793-4c55-ba9b-9e4e3db87662",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0003",
       "Date": "2025-09-25",
@@ -2714,11 +2713,11 @@
       ],
       "_id": "adb4973a-7108-49f4-b0ba-f1106bc62c90",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0013",
       "Date": "2024-11-01",
@@ -2839,11 +2838,11 @@
       ],
       "_id": "6404c264-a9e9-4e7f-9fad-a34760c60ee0",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0013",
       "Date": "2025-09-25",
@@ -2976,11 +2975,11 @@
       ],
       "_id": "f9552d0d-0842-4b64-a60c-bf9fc72e428a",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0015",
       "Date": "2025-03-25",
@@ -3157,11 +3156,11 @@
       ],
       "_id": "ce4ddb64-bd21-44e5-8a01-50c11c361ba8",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0015",
       "Date": "2025-09-25",
@@ -3258,11 +3257,11 @@
       ],
       "_id": "7162c7a5-7d3d-48f3-8c02-0359ac558357",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PRO",
       "PenFamily": "",
       "InventoryId": "XPP.0017",
       "Date": "2025-09-25",
@@ -3403,11 +3402,11 @@
       ],
       "_id": "3b3fbde2-a52d-4be7-a28d-36683c008e43",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PRO"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROPENCILV2",
       "PenFamily": "",
       "InventoryId": "XPP.0016",
       "Date": "2025-03-25",
@@ -3588,11 +3587,11 @@
       ],
       "_id": "f4b68d81-bef3-4b4f-8cad-84ceebfe6f69",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROPENCILV2"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROPENCILV2",
       "PenFamily": "",
       "InventoryId": "XPP.0016",
       "Date": "2025-09-25",
@@ -3733,11 +3732,11 @@
       ],
       "_id": "19198351-b73d-47bf-8400-bd908eeed917",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROPENCILV2"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROROLLER",
       "PenFamily": "",
       "InventoryId": "XPP.0007",
       "Date": "2024-09-26",
@@ -3850,11 +3849,11 @@
       ],
       "_id": "3c5eddc0-c071-4399-b8e7-2cecde9f7b17",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROROLLER"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROROLLER",
       "PenFamily": "",
       "InventoryId": "XPP.0007",
       "Date": "2025-09-25",
@@ -3951,11 +3950,11 @@
       ],
       "_id": "829a2c9d-b248-4681-885f-cf6127eca165",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROROLLER"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0008",
       "Date": "2024-09-26",
@@ -4064,11 +4063,11 @@
       ],
       "_id": "9cc72b09-8008-4784-ab70-7d70025fcd52",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0008",
       "Date": "2025-09-25",
@@ -4233,11 +4232,11 @@
       ],
       "_id": "12d6b75a-64a9-473a-b97f-32bde76e52db",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0012",
       "Date": "2024-11-01",
@@ -4370,11 +4369,11 @@
       ],
       "_id": "27ed9f08-0bb6-4439-90f4-86207e7163eb",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0012",
       "Date": "2025-09-25",
@@ -4491,11 +4490,11 @@
       ],
       "_id": "0f418380-cc34-4a84-913d-62d850197cf3",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0014",
       "Date": "2024-11-01",
@@ -4620,11 +4619,11 @@
       ],
       "_id": "bb2606ce-354b-49dd-a4a9-097d6909f51d",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0014",
       "Date": "2025-09-25",
@@ -4769,11 +4768,11 @@
       ],
       "_id": "8872470b-0c6c-4014-9b5f-5482b8c6ce54",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     },
     {
       "Brand": "XPPEN",
-      "PenModel": "X3PROSLIM",
       "PenFamily": "",
       "InventoryId": "XPP.0019",
       "Date": "2025-09-25",
@@ -4894,7 +4893,8 @@
       ],
       "_id": "b426b443-0c6e-4901-9f34-30089509588e",
       "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z"
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "XPPEN.PEN.X3PROSLIM"
     }
   ]
 }

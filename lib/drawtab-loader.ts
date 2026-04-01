@@ -107,7 +107,7 @@ export interface Driver {
 
 export interface PressureResponse {
   Brand: string;
-  PenModel: string;
+  PenEntityId: string;
   PenFamily: string;
   InventoryId: string;
   Date: string;

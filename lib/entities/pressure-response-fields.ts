@@ -8,7 +8,7 @@ export const PRESSURE_RESPONSE_FIELD_GROUPS = ["Session", "Environment"];
 export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
   // Session
   { key: "Brand", label: "Brand", getValue: (s) => s.Brand, type: "enum", enumValues: ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"], group: "Session" },
-  { key: "PenModel", label: "Pen Model", getValue: (s) => s.PenModel, type: "string", group: "Session" },
+  { key: "PenEntityId", label: "Pen", getValue: (s) => s.PenEntityId, type: "string", group: "Session" },
   { key: "PenFamily", label: "Pen Family", getValue: (s) => s.PenFamily, type: "string", group: "Session" },
   { key: "InventoryId", label: "Inventory ID", getValue: (s) => s.InventoryId, type: "string", group: "Session" },
   { key: "Date", label: "Date", getValue: (s) => s.Date, type: "string", group: "Session" },
@@ -32,13 +32,13 @@ export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
 ];
 
 export const PRESSURE_RESPONSE_DEFAULT_COLUMNS = [
-  "Brand", "PenModel", "InventoryId", "Date", "DataPoints", "MaxGf", "Tablet", "OS",
+  "Brand", "PenEntityId", "InventoryId", "Date", "DataPoints", "MaxGf", "Tablet", "OS",
 ];
 
 export const PRESSURE_RESPONSE_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["Brand", "PenModel", "InventoryId", "Date", "DataPoints", "MaxGf", "Tablet", "OS"],
+    fields: ["Brand", "PenEntityId", "InventoryId", "Date", "DataPoints", "MaxGf", "Tablet", "OS"],
   },
   { kind: "sort", field: "Date", direction: "desc" },
 ];
