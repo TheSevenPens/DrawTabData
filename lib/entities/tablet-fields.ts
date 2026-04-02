@@ -75,20 +75,20 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
       const diagMm = Math.sqrt(d.Width * d.Width + d.Height * d.Height);
       const diagIn = diagMm * 0.03937;
       if (t.ModelType === "PENTABLET") {
-        if (diagIn >= 6 && diagIn <= 9) return "Small";
-        if (diagIn >= 10 && diagIn <= 13) return "Medium";
-        if (diagIn >= 14 && diagIn <= 19) return "Large";
+        if (diagIn >= 6 && diagIn < 10) return "Small";
+        if (diagIn >= 10 && diagIn < 14) return "Medium";
+        if (diagIn >= 14 && diagIn < 20) return "Large";
         if (diagIn >= 20 && diagIn <= 29) return "Extra Large";
       } else if (t.ModelType === "PENDISPLAY") {
-        if (diagIn >= 11 && diagIn <= 14) return "Small";
-        if (diagIn >= 15 && diagIn <= 19) return "Medium";
-        if (diagIn >= 20 && diagIn <= 29) return "Large";
-        if (diagIn >= 30 && diagIn <= 33) return "Extra Large";
+        if (diagIn >= 11 && diagIn < 15) return "Small";
+        if (diagIn >= 15 && diagIn < 20) return "Medium";
+        if (diagIn >= 20 && diagIn < 30) return "Large";
+        if (diagIn >= 30 && diagIn <= 34) return "Extra Large";
       } else if (t.ModelType === "STANDALONE") {
-        if (diagIn >= 11 && diagIn <= 14) return "Small";
-        if (diagIn >= 15 && diagIn <= 19) return "Medium";
-        if (diagIn >= 20 && diagIn <= 29) return "Large";
-        if (diagIn >= 30 && diagIn <= 33) return "Extra Large";
+        if (diagIn >= 11 && diagIn < 15) return "Small";
+        if (diagIn >= 15 && diagIn < 20) return "Medium";
+        if (diagIn >= 20 && diagIn < 30) return "Large";
+        if (diagIn >= 30 && diagIn <= 34) return "Extra Large";
       }
       return "Other";
     },
