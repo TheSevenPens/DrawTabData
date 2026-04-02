@@ -7,7 +7,7 @@ export const PEN_FIELD_GROUPS = ["Pen"];
 
 export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Pen" },
-  { key: "FullName", label: "Full Name", getValue: (p) => `${p.Brand} ${p.PenName} (${p.PenId})`, type: "string", group: "Pen", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (p) => p.PenName === p.PenId ? `${p.Brand} ${p.PenId}` : `${p.Brand} ${p.PenName} (${p.PenId})`, type: "string", group: "Pen", computed: true },
   { key: "Brand", label: "Brand", getValue: (p) => p.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Pen" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Pen" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Pen" },
@@ -22,7 +22,7 @@ export const PEN_DEFAULT_COLUMNS = [
 export const PEN_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["EntityId", "PenId", "PenName", "PenFamily", "PenYear"],
+    fields: ["EntityId", "FullName", "PenFamily", "PenYear"],
   },
   { kind: "sort", field: "PenId", direction: "asc" },
 ];
