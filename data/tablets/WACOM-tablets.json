@@ -2794,7 +2794,39 @@
       "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "YES",
+      "ModelIncludedPen": "ACP-500",
+      "DigitizerDimensions": {
+        "Width": 243,
+        "Height": 159
+      },
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "",
+      "DisplayPixelDimensions": {
+        "Width": 2200,
+        "Height": 1440
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "400",
+      "DisplayContrast": "1200",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 99
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayRefreshRate": "90",
+      "DisplayViewingAngleHorizontal": "170",
+      "DisplayViewingAngleVertical": "170",
+      "PhysicalDimensions": {
+        "Width": 266,
+        "Height": 182,
+        "Depth": 7
+      },
+      "PhysicalWeight": "588"
     },
     {
       "EntityId": "WACOM.TABLET.DTHA140",
