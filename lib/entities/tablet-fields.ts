@@ -79,7 +79,12 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
         if (diagIn >= 10 && diagIn <= 13) return "Medium";
         if (diagIn >= 14 && diagIn <= 19) return "Large";
         if (diagIn >= 20 && diagIn <= 29) return "Extra Large";
-      } else {
+      } else if (t.ModelType === "PENDISPLAY") {
+        if (diagIn >= 11 && diagIn <= 14) return "Small";
+        if (diagIn >= 15 && diagIn <= 19) return "Medium";
+        if (diagIn >= 20 && diagIn <= 29) return "Large";
+        if (diagIn >= 30 && diagIn <= 33) return "Extra Large";
+      } else if (t.ModelType === "STANDALONE") {
         if (diagIn >= 11 && diagIn <= 14) return "Small";
         if (diagIn >= 15 && diagIn <= 19) return "Medium";
         if (diagIn >= 20 && diagIn <= 29) return "Large";
