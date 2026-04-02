@@ -2839,7 +2839,39 @@
       "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "YES",
+      "ModelIncludedPen": "ACP-500",
+      "DigitizerDimensions": {
+        "Width": 302,
+        "Height": 189
+      },
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerType": "PASSIVE_EMR",
+      "DisplayPixelDimensions": {
+        "Width": 2880,
+        "Height": 1800
+      },
+      "DisplayPanelTech": "OLED",
+      "DisplayBrightness": "400",
+      "DisplayContrast": "100000",
+      "DisplayColorBitDepth": "10",
+      "DisplayColorGamuts": {
+        "SRGB": 100,
+        "DCIP3": 100
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayRefreshRate": "120",
+      "DisplayViewingAngleHorizontal": "170",
+      "DisplayViewingAngleVertical": "170",
+      "PhysicalDimensions": {
+        "Width": 323.3,
+        "Height": 210,
+        "Depth": 5.9
+      },
+      "PhysicalWeight": "699"
     },
     {
       "EntityId": "WACOM.TABLET.SD510C",
