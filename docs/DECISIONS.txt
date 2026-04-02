@@ -57,3 +57,30 @@ Two HUION entries had Chinese commas and swapped gamut/percentage:
 - "NTSC，127%:90%" interpreted as NTSC:90%, SRGB:127%
 - "NTSC，130%:92%" interpreted as NTSC:92%, SRGB:130%
 This matches the pattern of other HUION entries in the same product line.
+
+
+## 2026-04-02: Pre-filtered navigation via URL query parameters
+
+### Context
+The data quality view identifies sets of entities matching certain criteria
+(e.g. "Wacom tablets with no pen compatibility data"). Users want to click
+through to see those entities in the entity explorer with filters pre-applied.
+
+### Options considered
+1. Full URL-encoded pipeline state (filter + sort + columns in URL)
+2. Named saved views created on the fly
+3. Inline expansion within data quality page
+4. Simple pre-filtered links via query parameters
+
+### Decision
+Option 4: simple query parameter filtering. Entity pages read `?filter=`
+params from the URL on load and apply them as initial filters.
+
+Format: `?filter=Field:operator:value` (e.g. `?filter=Brand:==:WACOM`)
+
+### Rationale
+- Covers the primary use case (filtered lists from data quality)
+- Works on GitHub Pages (query params are client-side)
+- Simple to implement — no full URL state encoding needed
+- Shareable links
+- Can upgrade to full URL state later if needed
