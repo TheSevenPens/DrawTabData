@@ -1824,7 +1824,41 @@
       "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
       "_CreateDate": "2026-04-01T21:44:35.000Z",
       "_ModifiedDate": "2026-04-01T21:44:35.000Z",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "DigitizerDimensions": {
+        "Width": 264.0,
+        "Height": 149.0
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerMaxHover": "10",
+      "DigitizerAccuracyCenter": "0.2",
+      "DigitizerType": "PASSIVE_EMR",
+      "ModelIncludedPen": "X3ELITE",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "260",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 99,
+        "ADOBERGB": 97,
+        "DISPLAYP3": 97
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayRefreshRate": "60",
+      "DisplayViewingAngleHorizontal": "170",
+      "DisplayViewingAngleVertical": "170",
+      "PhysicalDimensions": {
+        "Width": 327.2,
+        "Height": 189.1,
+        "Depth": 12.0
+      },
+      "PhysicalWeight": "719"
     }
   ]
 }
