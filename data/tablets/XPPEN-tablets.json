@@ -1403,7 +1403,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "YES"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
