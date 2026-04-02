@@ -5,6 +5,7 @@
 ```
 DrawTabData/
 ├── data/                         # JSON datasets
+│   ├── brands/                   # brands.json (all brands)
 │   ├── tablets/                  # GAOMON, HUION, UGEE, WACOM, XENCELABS, XPPEN
 │   ├── pens/                     # HUION, SAMSUNG, WACOM, XENCELABS, XPPEN
 │   ├── pen-families/             # WACOM

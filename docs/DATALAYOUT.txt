@@ -3,6 +3,8 @@
 JSON files are organized by entity type, mostly partitioned by brand.
 
 	/data
+		/brands
+			brands.json
 		/tablets
 			GAOMON-tablets.json
 			HUION-tablets.json
@@ -39,6 +41,7 @@ JSON files are organized by entity type, mostly partitioned by brand.
 			sevenpens-tablets.json
 
 Each file wraps its records in a top-level key:
+- brands: { "Brands": [...] }
 - tablets: { "DrawingTablets": [...] }
 - pens: { "Pens": [...] }
 - pen-families: { "PenFamilies": [...] }
@@ -51,4 +54,5 @@ Each file wraps its records in a top-level key:
 
 File naming:
 - Most entities: BRAND-entitytype.json (e.g. WACOM-tablets.json)
+- Brands: brands.json (single file, not partitioned)
 - Inventory: USERNAME-entitytype.json (e.g. sevenpens-pens.json)

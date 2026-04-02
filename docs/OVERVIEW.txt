@@ -3,28 +3,34 @@
 The DrawTabData project unifies JSON datasets related to Drawing Tablets.
 
 Entities include:
-- Tablets (286 across 7 brands)
-- Pens (102 across 5 brands)
+- Brands (11)
+- Tablets (290 across 7 brands)
+- Pens (104 across 5 brands)
 - Pen Families (10 Wacom)
 - Tablet Families (18 Wacom)
-- Pen Compatibility (59 groups across 5 brands)
+- Pen Compatibility (100 groups across 5 brands)
 - Drivers (246 Wacom)
 - Pressure Response (124 sessions across 5 brands)
-- Inventory (144 pens, 119 tablets for user sevenpens)
+- Inventory (263 items for user sevenpens)
 
 # The brand dimension
 
 Brands currently in the system:
+- APPLE
+- ASUS
 - GAOMON
 - HUION
 - SAMSUNG
+- STAEDTLER
 - UGEE
+- VEIKK
 - WACOM
 - XENCELABS
 - XPPEN
 
 Datasets are partitioned as files by brand (e.g. WACOM-tablets.json).
 Inventory is partitioned by user (e.g. sevenpens-pens.json).
+Brands have display names (e.g. XPPEN -> "XP-Pen").
 
 # EntityId convention
 
@@ -34,12 +40,13 @@ Every entity has an EntityId in the format BRAND.ENTITYTYPE.ID:
 - WACOM.DRIVER.6.3.45-2_WINDOWS
 - WACOM.PENFAMILY.WacomKPGEN3
 - WACOM.TABLETFAMILY.WacomIntuosProGen8
+- WACOM.BRAND.WACOM
 
 # Libraries
 
 This repo includes TypeScript libraries for consumers:
 
-- lib/drawtab-loader.ts — typed interfaces and loaders for all entities
+- lib/drawtab-loader.ts — typed interfaces, URL-based loaders, brand names
 - lib/drawtab-loader-node.ts — filesystem-based loaders for Node.js
 - lib/drawtab-all.ts / lib/drawtab-all-node.ts — load everything in one call
 - lib/compat-helpers.ts — compatibility map builders
