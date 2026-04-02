@@ -26,7 +26,8 @@
       "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
       "EntityId": "XENCELABS.TABLET.BPH0812WA",
       "DigitizerDensity": "200",
-      "Brand": "XENCELABS"
+      "Brand": "XENCELABS",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -54,7 +55,8 @@
       "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
       "EntityId": "XENCELABS.TABLET.BPH1212WA",
       "DigitizerDensity": "200",
-      "Brand": "XENCELABS"
+      "Brand": "XENCELABS",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -94,7 +96,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     }
   ]
 }

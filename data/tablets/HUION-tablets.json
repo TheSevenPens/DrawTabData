@@ -29,7 +29,8 @@
       "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
       "EntityId": "HUION.TABLET.G930L",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -76,7 +77,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -124,7 +126,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -165,7 +168,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -213,7 +217,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -261,7 +266,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -310,7 +316,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -359,7 +366,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -399,7 +407,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -449,7 +458,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -498,7 +508,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -547,7 +558,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -586,7 +598,8 @@
       "DisplayPixelDimensions": {
         "Width": 1440,
         "Height": 900
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -687,7 +700,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -739,7 +753,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -788,7 +803,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -837,7 +853,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -886,7 +903,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -934,7 +952,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -982,7 +1001,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1031,7 +1051,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1080,7 +1101,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1129,7 +1151,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1177,7 +1200,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1225,7 +1249,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1273,7 +1298,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1322,7 +1348,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1371,7 +1398,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1507,7 +1535,8 @@
       "_id": "7eee1b16-3b9d-4a8b-ad10-95d083fd652e",
       "EntityId": "HUION.TABLET.H1060P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1538,7 +1567,8 @@
       "_id": "44cb8880-a0d6-40d6-9d85-79ec87203849",
       "EntityId": "HUION.TABLET.H1061P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1568,7 +1598,8 @@
       "_id": "dd399ee1-ce80-4f6c-867f-7ef47f8f624f",
       "EntityId": "HUION.TABLET.H1161",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1598,7 +1629,8 @@
       "_id": "72568bb0-376a-4a39-a909-b95c1ae4af83",
       "EntityId": "HUION.TABLET.H320M",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1629,7 +1661,8 @@
       "_id": "a6c1a9a1-8338-4004-9c2a-da4e3d3fce8e",
       "EntityId": "HUION.TABLET.H420",
       "DigitizerDensity": "157.4",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1658,7 +1691,8 @@
       "_id": "480407c4-377a-432c-aa89-fdb3139c66d6",
       "EntityId": "HUION.TABLET.H420X",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1689,7 +1723,8 @@
       "_id": "61aef1d3-4824-4c09-8c87-f4e958b98e67",
       "EntityId": "HUION.TABLET.H430P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1720,7 +1755,8 @@
       "_id": "959ca285-e3e4-4791-a35e-781a9ee000ae",
       "EntityId": "HUION.TABLET.H610",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1751,7 +1787,8 @@
       "_id": "9679f7c4-6bb5-4be6-936c-3798700f0f0b",
       "EntityId": "HUION.TABLET.H610PRO",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1781,7 +1818,8 @@
       "_id": "6cf4f9bd-488f-48d3-a551-37c38a5ec77f",
       "EntityId": "HUION.TABLET.H610PROV2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1811,7 +1849,8 @@
       "_id": "79529177-2e4c-49d9-a014-30a73569f047",
       "EntityId": "HUION.TABLET.H610X",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1842,7 +1881,8 @@
       "_id": "3079d659-46c5-4e8f-a0f0-b47fe608246b",
       "EntityId": "HUION.TABLET.H640P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1873,7 +1913,8 @@
       "_id": "fdd476e6-e631-4605-988c-166803a1df5e",
       "EntityId": "HUION.TABLET.H641P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1902,7 +1943,8 @@
       "_id": "356a2e97-a2f1-46bc-8562-c917c5d00f75",
       "EntityId": "HUION.TABLET.H950P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1933,7 +1975,8 @@
       "_id": "76feb9b1-d4f4-40ae-8add-a023946db39a",
       "EntityId": "HUION.TABLET.H951P",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1963,7 +2006,8 @@
       "_id": "198f8590-7929-441e-bc0c-312cb32f06f9",
       "EntityId": "HUION.TABLET.HS610",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -1993,7 +2037,8 @@
       "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
       "EntityId": "HUION.TABLET.HS611",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2023,7 +2068,8 @@
       "_id": "416c2abb-94fd-4564-87c1-c93e6fba1877",
       "EntityId": "HUION.TABLET.HS64",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -2052,7 +2098,8 @@
       "_id": "eca5c731-2985-42cb-8c3b-b5dc047788a4",
       "EntityId": "HUION.TABLET.L310",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -2081,7 +2128,8 @@
       "_id": "0d85fd3d-7029-43c7-bd1e-3b6f0f1110d6",
       "EntityId": "HUION.TABLET.L610",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2111,7 +2159,8 @@
       "_id": "e1784c20-a81a-49ed-8f1a-d80c506b8100",
       "EntityId": "HUION.TABLET.NEW1060PLUS",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2142,7 +2191,8 @@
       "_id": "918b88cd-b6f1-4da3-a962-55bfb04d7463",
       "EntityId": "HUION.TABLET.Q11K",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2172,7 +2222,8 @@
       "_id": "46cf628f-1a5d-420e-864e-3c8bb3076aee",
       "EntityId": "HUION.TABLET.Q11KV2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2202,7 +2253,8 @@
       "_id": "c9520e0b-5457-4474-8b10-109c08c153c6",
       "EntityId": "HUION.TABLET.Q620M",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2233,7 +2285,8 @@
       "_id": "d238bade-9633-4b9f-a4ad-dc9f8472808f",
       "EntityId": "HUION.TABLET.Q630M",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2282,7 +2335,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2330,7 +2384,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2361,7 +2416,8 @@
       "_id": "86333a6a-0a5d-43ef-bd01-72b719b09dae",
       "EntityId": "HUION.TABLET.RTM500",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2392,7 +2448,8 @@
       "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
       "EntityId": "HUION.TABLET.RTP700",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2423,7 +2480,8 @@
       "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
       "EntityId": "HUION.TABLET.RTS300",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2472,7 +2530,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2519,7 +2578,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2568,7 +2628,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -2616,7 +2677,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2647,7 +2709,8 @@
       "_id": "92357328-ae20-40a4-b570-af719320c879",
       "EntityId": "HUION.TABLET.WH1409V2",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.3",
@@ -2677,7 +2740,8 @@
       "_id": "18bc12f9-b379-4747-955b-611af15a992a",
       "EntityId": "HUION.TABLET.WH14098192",
       "DigitizerDensity": "200",
-      "Brand": "HUION"
+      "Brand": "HUION",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "EntityId": "HUION.TABLET.GS2203",
@@ -2688,7 +2752,8 @@
       "ModelLaunchYear": "",
       "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
       "_CreateDate": "2026-04-01T21:44:35.000Z",
-      "_ModifiedDate": "2026-04-01T21:44:35.000Z"
+      "_ModifiedDate": "2026-04-01T21:44:35.000Z",
+      "DigitizerSupportsTouch": "NO"
     }
   ]
 }

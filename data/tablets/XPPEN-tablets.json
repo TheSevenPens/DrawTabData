@@ -38,7 +38,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -80,7 +81,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -125,7 +127,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -163,7 +166,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -200,7 +204,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -231,7 +236,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -270,7 +276,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -312,7 +319,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -354,7 +362,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -396,7 +405,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -438,7 +448,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -483,7 +494,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -525,7 +537,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -568,7 +581,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -610,7 +624,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -655,7 +670,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -678,7 +694,8 @@
       "_id": "3ae93286-d961-4d2a-a3b7-f42d6cbd9c62",
       "EntityId": "XPPEN.TABLET.CT1060",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -701,7 +718,8 @@
       "_id": "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
       "EntityId": "XPPEN.TABLET.CT430",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -724,7 +742,8 @@
       "_id": "a2f70186-10e2-47a7-9dde-5b1d89103a71",
       "EntityId": "XPPEN.TABLET.CT640",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -753,7 +772,8 @@
       "_id": "611b4eed-7e42-4818-859e-a7f8ac5b9623",
       "EntityId": "XPPEN.TABLET.DECO01",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -784,7 +804,8 @@
       "_id": "adcb93c5-9ce2-46bc-93b2-a25df2769f6e",
       "EntityId": "XPPEN.TABLET.DECO01V2",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -814,7 +835,8 @@
       "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
       "EntityId": "XPPEN.TABLET.DECO01V3",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -842,7 +864,8 @@
       "_id": "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
       "EntityId": "XPPEN.TABLET.DECO02",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -871,7 +894,8 @@
       "_id": "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
       "EntityId": "XPPEN.TABLET.DECO03",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -901,7 +925,8 @@
       "_id": "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
       "EntityId": "XPPEN.TABLET.DECOMINI4",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -930,7 +955,8 @@
       "_id": "23d3caa6-4d93-46f0-9e60-871444fb265a",
       "EntityId": "XPPEN.TABLET.DECOMINI7",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -959,7 +985,8 @@
       "_id": "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
       "EntityId": "XPPEN.TABLET.DECOPROM",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -988,7 +1015,8 @@
       "_id": "fa271dfe-fd5d-44a0-b993-ebccc65ef632",
       "EntityId": "XPPEN.TABLET.DECOPROMW",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1017,7 +1045,8 @@
       "_id": "e38187ce-c3e9-40dd-b440-bf5fccead639",
       "EntityId": "XPPEN.TABLET.DECOPROS",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1046,7 +1075,8 @@
       "_id": "6ac45e5a-b656-4895-901b-82247f575392",
       "EntityId": "XPPEN.TABLET.DECOPROSW",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -1090,7 +1120,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1135,7 +1166,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1157,7 +1189,8 @@
       "_id": "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
       "EntityId": "XPPEN.TABLET.IT1060",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1185,7 +1218,8 @@
       "_id": "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
       "EntityId": "XPPEN.TABLET.IT1060B",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1214,7 +1248,8 @@
       "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
       "EntityId": "XPPEN.TABLET.IT640",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1243,7 +1278,8 @@
       "_id": "5eaceb43-bf80-4ca5-ba79-8041c1fd1ddd",
       "EntityId": "XPPEN.TABLET.IT850",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1272,7 +1308,8 @@
       "_id": "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
       "EntityId": "XPPEN.TABLET.IT850B",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1317,7 +1354,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1200
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1359,7 +1397,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1600
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1538,7 +1577,8 @@
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1587,7 +1627,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1633,7 +1674,8 @@
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1679,7 +1721,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1708,7 +1751,8 @@
       "_id": "2209f868-50c5-4720-8428-6b9197dbef57",
       "EntityId": "XPPEN.TABLET.MT0962B",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1737,7 +1781,8 @@
       "_id": "689b42c0-16a8-439e-8579-8a07b0c0f67f",
       "EntityId": "XPPEN.TABLET.MT1172B",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
@@ -1766,7 +1811,8 @@
       "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
       "EntityId": "XPPEN.TABLET.MT1592B",
       "DigitizerDensity": "200",
-      "Brand": "XPPEN"
+      "Brand": "XPPEN",
+      "DigitizerSupportsTouch": "NO"
     },
     {
       "EntityId": "XPPEN.TABLET.CD121FH",
@@ -1777,7 +1823,8 @@
       "ModelLaunchYear": "",
       "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
       "_CreateDate": "2026-04-01T21:44:35.000Z",
-      "_ModifiedDate": "2026-04-01T21:44:35.000Z"
+      "_ModifiedDate": "2026-04-01T21:44:35.000Z",
+      "DigitizerSupportsTouch": "NO"
     }
   ]
 }
