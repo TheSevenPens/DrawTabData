@@ -2763,7 +2763,42 @@
       "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
       "_CreateDate": "2026-04-01T21:44:35.000Z",
       "_ModifiedDate": "2026-04-01T21:44:35.000Z",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "DigitizerDimensions": {
+        "Width": 475.392,
+        "Height": 267.408
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerReportRate": "260",
+      "DigitizerMaxHover": "10",
+      "DigitizerAccuracyCenter": "0.3",
+      "DigitizerAccuracyCorner": "2",
+      "DigitizerType": "PASSIVE_EMR",
+      "ModelIncludedPen": "PW600L",
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "250",
+      "DisplayContrast": "1000",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 130
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayResponseTime": "14",
+      "DisplayRefreshRate": "90",
+      "DisplayViewingAngleHorizontal": "178",
+      "DisplayViewingAngleVertical": "178",
+      "PhysicalDimensions": {
+        "Width": 527.7,
+        "Height": 324.7,
+        "Depth": 36.7
+      }
     }
   ]
 }
