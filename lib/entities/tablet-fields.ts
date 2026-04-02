@@ -43,7 +43,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     getValue: (t) => {
       const d = t.DigitizerDimensions;
       if (!d || d.Width == null || d.Height == null) return "";
-      return (d.Width / d.Height).toFixed(2);
+      return (d.Width / d.Height).toFixed(3);
     },
   },
   {
