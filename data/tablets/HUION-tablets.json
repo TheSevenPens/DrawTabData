@@ -381,12 +381,13 @@
       "DisplayBrightness": "220",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
-        "SRGB": 120
+        "SRGB": 120,
+        "NTSC": 85
       },
       "DisplayContrast": "1000",
       "DisplayLamination": "NO",
       "DisplayPanelTech": "IPS",
-      "DisplayResponseTime": "24",
+      "DisplayResponseTime": "14",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
@@ -408,7 +409,16 @@
         "Width": 2560,
         "Height": 1440
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "DigitizerDimensions": {
+        "Width": 526.85,
+        "Height": 296.35
+      },
+      "PhysicalDimensions": {
+        "Width": 604.2,
+        "Height": 358,
+        "Depth": 28.3
+      }
     },
     {
       "DigitizerAccuracyCenter": "0.3",
