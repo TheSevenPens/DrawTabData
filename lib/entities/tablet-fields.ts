@@ -51,8 +51,10 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     getValue: (t) => {
       const d = t.DigitizerDimensions;
       if (!d || d.Width == null || d.Height == null) return "";
-      const h = Math.round(16 / (d.Width / d.Height));
-      return `16:${h}`;
+      const h = 16 / (d.Width / d.Height);
+      const rounded = Math.round(h);
+      const hStr = Math.abs(h - rounded) < 0.01 ? String(rounded) : h.toFixed(2);
+      return `16:${hStr}`;
     },
   },
   {
