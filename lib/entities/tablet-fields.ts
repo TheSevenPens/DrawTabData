@@ -109,6 +109,20 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
       return (res.Width / dim.Width).toFixed(2);
     },
   },
+  {
+    key: "DisplayPixelDimensionsCategory", label: "Resolution Category", group: "Display", computed: true, type: "string",
+    getValue: (t) => {
+      if (notApplicable(t)) return "-";
+      const d = t.DisplayPixelDimensions;
+      if (!d || !d.Width || !d.Height) return "";
+      const w = d.Width, h = d.Height;
+      if (w === 1920 && h === 1080) return "Full HD";
+      if ((w === 2560 && h === 1440) || (w === 2560 && h === 1600)) return "2.5K";
+      if (w === 2880 && h === 1800) return "3K";
+      if (w === 3840 && h === 2160) return "4K";
+      return "Other";
+    },
+  },
   // Physical
   { key: "PhysicalWeight", label: "Weight (g)", getValue: (t) => t.PhysicalWeight ?? "", type: "number", group: "Physical", unit: "g" },
   {
