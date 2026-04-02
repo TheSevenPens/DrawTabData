@@ -2,6 +2,15 @@ import type { Tablet } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
+function notApplicable(t: Tablet): boolean {
+  return t.ModelType === "PENTABLET";
+}
+
+function displayVal(t: Tablet, val: string | undefined): string {
+  if (notApplicable(t)) return "-";
+  return val ?? "";
+}
+
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
 
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
@@ -67,31 +76,33 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
   },
   // Display
-  { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => t.DisplayPanelTech ?? "", type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"], group: "Display" },
-  { key: "DisplayBrightness", label: "Brightness (cd/m²)", getValue: (t) => t.DisplayBrightness ?? "", type: "number", group: "Display" },
-  { key: "DisplayContrast", label: "Contrast", getValue: (t) => t.DisplayContrast ?? "", type: "number", group: "Display" },
-  { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => t.DisplayColorBitDepth ?? "", type: "number", group: "Display" },
-  { key: "DisplayLamination", label: "Lamination", getValue: (t) => t.DisplayLamination ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Display" },
-  { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => t.DisplayAntiGlare ?? "", type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"], group: "Display" },
-  { key: "DisplayResponseTime", label: "Response Time (ms)", getValue: (t) => t.DisplayResponseTime ?? "", type: "number", group: "Display" },
-  { key: "DisplayRefreshRate", label: "Refresh Rate (Hz)", getValue: (t) => t.DisplayRefreshRate ?? "", type: "number", group: "Display" },
+  { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => displayVal(t, t.DisplayPanelTech), type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"], group: "Display" },
+  { key: "DisplayBrightness", label: "Brightness (cd/m²)", getValue: (t) => displayVal(t, t.DisplayBrightness), type: "number", group: "Display" },
+  { key: "DisplayContrast", label: "Contrast", getValue: (t) => displayVal(t, t.DisplayContrast), type: "number", group: "Display" },
+  { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => displayVal(t, t.DisplayColorBitDepth), type: "number", group: "Display" },
+  { key: "DisplayLamination", label: "Lamination", getValue: (t) => displayVal(t, t.DisplayLamination), type: "enum", enumValues: ["YES", "NO"], group: "Display" },
+  { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => displayVal(t, t.DisplayAntiGlare), type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"], group: "Display" },
+  { key: "DisplayResponseTime", label: "Response Time (ms)", getValue: (t) => displayVal(t, t.DisplayResponseTime), type: "number", group: "Display" },
+  { key: "DisplayRefreshRate", label: "Refresh Rate (Hz)", getValue: (t) => displayVal(t, t.DisplayRefreshRate), type: "number", group: "Display" },
   {
     key: "DisplayPixelDimensions", label: "Pixel Dimensions", group: "Display",
-    getValue: (t) => { const d = t.DisplayPixelDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
+    getValue: (t) => { if (notApplicable(t)) return "-"; const d = t.DisplayPixelDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
   },
   {
     key: "DisplayDiagonal", label: "Diagonal (mm)", group: "Display", computed: true, type: "number", unit: "mm",
     getValue: (t) => {
+      if (notApplicable(t)) return "-";
       const res = t.DisplayPixelDimensions;
       const dim = t.DigitizerDimensions;
-      if (!res || !dim || !dim.Width || !dim.Height || t.ModelType !== "PENDISPLAY") return "";
+      if (!res || !dim || !dim.Width || !dim.Height) return "";
       return Math.sqrt(dim.Width * dim.Width + dim.Height * dim.Height).toFixed(1);
     },
   },
   {
     key: "DisplayDensity", label: "Density (px/mm)", group: "Display", computed: true, type: "number", unit: "px/mm",
     getValue: (t) => {
+      if (notApplicable(t)) return "-";
       const res = t.DisplayPixelDimensions;
       const dim = t.DigitizerDimensions;
       if (!res || !dim || !res.Width || !dim.Width) return "";
