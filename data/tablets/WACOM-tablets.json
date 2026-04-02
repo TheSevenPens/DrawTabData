@@ -851,14 +851,39 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerDimensions": {
+        "Width": 382,
+        "Height": 215
+      },
+      "DigitizerDensity": "200",
+      "DisplayPanelTech": "IPS",
+      "DisplayContrast": "1000",
+      "DisplayColorBitDepth": "10",
+      "DisplayColorGamuts": {
+        "DCIP3": 99,
+        "ADOBERGB": 88,
+        "REC709": 100
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayRefreshRate": "120",
+      "DisplayResponseTime": "8",
+      "DisplayViewingAngleHorizontal": "170",
+      "DisplayViewingAngleVertical": "170",
+      "PhysicalDimensions": {
+        "Width": 424,
+        "Height": 253,
+        "Depth": 21
+      },
+      "PhysicalWeight": "2200"
     },
     {
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "YES",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
-      "DisplayBrightness": "210",
+      "DisplayBrightness": "300",
       "ModelAudience": "Professional",
       "ModelId": "DTH-227",
       "ModelIncludedPen": "ACP-500",
@@ -874,7 +899,32 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DigitizerDimensions": {
+        "Width": 476,
+        "Height": 268
+      },
+      "DigitizerDensity": "200",
+      "DisplayPanelTech": "IPS",
+      "DisplayContrast": "1200",
+      "DisplayColorBitDepth": "10",
+      "DisplayColorGamuts": {
+        "DCIP3": 99,
+        "ADOBERGB": 95,
+        "REC709": 100
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayRefreshRate": "120",
+      "DisplayResponseTime": "12",
+      "DisplayViewingAngleHorizontal": "170",
+      "DisplayViewingAngleVertical": "170",
+      "PhysicalDimensions": {
+        "Width": 517,
+        "Height": 312,
+        "Depth": 30
+      },
+      "PhysicalWeight": "5000"
     },
     {
       "DigitizerDimensions": {
@@ -982,7 +1032,8 @@
       "DisplayColorBitDepth": "10",
       "DisplayColorGamuts": {
         "DCIP3": 98,
-        "ADOBERGB": 99
+        "ADOBERGB": 99,
+        "REC709": 100
       },
       "DisplayContrast": "1000",
       "DisplayLamination": "YES",
@@ -998,11 +1049,11 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 638.0,
-        "Height": 379.0,
-        "Depth": 31.0
+        "Width": 638,
+        "Height": 379,
+        "Depth": 31
       },
-      "PhysicalWeight": "15900",
+      "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T18:51:00.154Z",
       "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
@@ -1012,7 +1063,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "DisplayRefreshRate": "120"
     },
     {
       "DigitizerDimensions": {
