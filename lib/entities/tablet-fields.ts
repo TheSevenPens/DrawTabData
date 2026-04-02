@@ -47,6 +47,15 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
   },
   {
+    key: "DigitizerAspectRatioFraction", label: "Aspect Ratio (fraction)", group: "Digitizer", computed: true, type: "string",
+    getValue: (t) => {
+      const d = t.DigitizerDimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      const h = Math.round(16 / (d.Width / d.Height));
+      return `16:${h}`;
+    },
+  },
+  {
     key: "DigitizerDiagonal", label: "Diagonal (mm)", group: "Digitizer", computed: true, type: "number", unit: "mm",
     getValue: (t) => {
       const d = t.DigitizerDimensions;
