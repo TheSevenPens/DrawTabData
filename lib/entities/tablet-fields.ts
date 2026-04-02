@@ -68,6 +68,27 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
   },
   {
+    key: "DigitizerSizeCategory", label: "Size Category", group: "Digitizer", computed: true, type: "string",
+    getValue: (t) => {
+      const d = t.DigitizerDimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      const diagMm = Math.sqrt(d.Width * d.Width + d.Height * d.Height);
+      const diagIn = diagMm * 0.03937;
+      if (t.ModelType === "PENTABLET") {
+        if (diagIn >= 6 && diagIn <= 9) return "Small";
+        if (diagIn >= 10 && diagIn <= 13) return "Medium";
+        if (diagIn >= 14 && diagIn <= 19) return "Large";
+        if (diagIn >= 20 && diagIn <= 29) return "Extra Large";
+      } else {
+        if (diagIn >= 11 && diagIn <= 14) return "Small";
+        if (diagIn >= 15 && diagIn <= 19) return "Medium";
+        if (diagIn >= 20 && diagIn <= 29) return "Large";
+        if (diagIn >= 30 && diagIn <= 33) return "Extra Large";
+      }
+      return "Other";
+    },
+  },
+  {
     key: "DigitizerDiagonal", label: "Diagonal (mm)", group: "Digitizer", computed: true, type: "number", unit: "mm",
     getValue: (t) => {
       const d = t.DigitizerDimensions;
