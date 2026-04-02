@@ -93,4 +93,4 @@ export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[
 // --- Re-export types and accessors ---
 
 export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Dimensions, ColorGamuts } from "./drawtab-loader.js";
-export { getBrands, filterByBrand, filterByType, getDiagonal, formatDimensions, containsText, equalsText } from "./drawtab-loader.js";
+export { getBrands, filterByBrand, filterByType, getDiagonal, formatDimensions, containsText, equalsText, brandName, BRAND_NAMES } from "./drawtab-loader.js";

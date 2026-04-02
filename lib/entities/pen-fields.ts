@@ -1,4 +1,5 @@
 import type { Pen } from "../drawtab-loader.js";
+import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
 export type { Pen } from "../drawtab-loader.js";
@@ -7,7 +8,7 @@ export const PEN_FIELD_GROUPS = ["Pen"];
 
 export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Pen" },
-  { key: "FullName", label: "Full Name", getValue: (p) => p.PenName === p.PenId ? `${p.Brand} ${p.PenId}` : `${p.Brand} ${p.PenName} (${p.PenId})`, type: "string", group: "Pen", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (p) => p.PenName === p.PenId ? `${brandName(p.Brand)} ${p.PenId}` : `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`, type: "string", group: "Pen", computed: true },
   { key: "Brand", label: "Brand", getValue: (p) => p.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Pen" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Pen" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Pen" },

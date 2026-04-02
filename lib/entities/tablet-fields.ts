@@ -1,4 +1,5 @@
 import type { Tablet } from "../drawtab-loader.js";
+import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
@@ -6,7 +7,7 @@ export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"]
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.EntityId, type: "string", group: "Model" },
-  { key: "FullName", label: "Full Name", getValue: (t) => `${t.Brand} ${t.ModelName} (${t.ModelId})`, type: "string", group: "Model", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (t) => `${brandName(t.Brand)} ${t.ModelName} (${t.ModelId})`, type: "string", group: "Model", computed: true },
   { key: "Brand", label: "Brand", getValue: (t) => t.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Model" },

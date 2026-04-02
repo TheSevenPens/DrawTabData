@@ -255,6 +255,18 @@ export async function loadInventoryTabletsFromURL(dataBaseUrl: string, userId: s
   return data.InventoryTablets ?? [];
 }
 
+// --- Brand names ---
+
+export const BRAND_NAMES: Record<string, string> = {
+  APPLE: "Apple", ASUS: "Asus", GAOMON: "Gaomon", HUION: "Huion",
+  SAMSUNG: "Samsung", STAEDTLER: "Staedtler", UGEE: "Ugee", VEIKK: "Veikk",
+  WACOM: "Wacom", XENCELABS: "Xencelabs", XPPEN: "XP-Pen",
+};
+
+export function brandName(id: string): string {
+  return BRAND_NAMES[id] ?? id;
+}
+
 // --- Helpers ---
 
 export function getDiagonal(dimensions: Dimensions | undefined): number | null {
