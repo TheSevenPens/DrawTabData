@@ -1539,26 +1539,34 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 261,
-        "Height": 163
+        "Width": 261.1,
+        "Height": 163.2
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "136",
+      "DigitizerDensity": "5.08",
+      "DigitizerTilt": "40",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerAccuracyCorner": "4",
+      "DigitizerMaxHover": "5",
+      "DigitizerSupportsTouch": "NO",
       "ModelId": "DTZ-1200W",
       "ModelLaunchYear": "2007",
       "ModelName": "Cintiq 12WX",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
+      "ModelIncludedPen": "ZP-501E",
+      "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-02T00:00:00.000Z",
       "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4",
       "EntityId": "WACOM.TABLET.DTZ1200W",
       "Brand": "WACOM",
       "DisplayPixelDimensions": {
         "Width": 1280,
         "Height": 800
-      },
-      "DigitizerSupportsTouch": "NO"
+      }
     },
     {
       "DigitizerPressureLevels": "2048",
@@ -1628,21 +1636,25 @@
     {
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelId": "DTZ-22000W",
-      "ModelLaunchYear": "2007",
-      "ModelName": "Cintiq 20WSX",
-      "ModelStatus": "DISCONTINUED",
-      "ModelType": "PENDISPLAY",
-      "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
-      "EntityId": "WACOM.TABLET.DTZ22000W",
-      "Brand": "WACOM",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPanelTech": "TFT",
+      "DisplayColorBitDepth": "8",
+      "DisplayRefreshRate": "75",
       "DisplayPixelDimensions": {
         "Width": 1680,
         "Height": 1050
       },
-      "DigitizerSupportsTouch": "NO"
+      "ModelId": "DTZ-2000W",
+      "ModelLaunchYear": "2007",
+      "ModelName": "Cintiq 20WSX",
+      "ModelStatus": "DISCONTINUED",
+      "ModelType": "PENDISPLAY",
+      "ModelFamily": "Cintiq",
+      "_CreateDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-02T00:00:00.000Z",
+      "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
+      "EntityId": "WACOM.TABLET.DTZ2000W",
+      "Brand": "WACOM"
     },
     {
       "DigitizerDimensions": {
@@ -1816,22 +1828,41 @@
     {
       "DigitizerPressureLevels": "512",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "93",
+      "DigitizerDensity": "0.508",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerMaxHover": "5",
+      "DigitizerDimensions": {
+        "Width": 304.1,
+        "Height": 228.1
+      },
+      "DigitizerSupportsTouch": "NO",
       "DisplayPanelTech": "TFT",
+      "DisplayBrightness": "270",
+      "DisplayContrast": "200",
+      "DisplayColorBitDepth": "8",
+      "DisplayPixelDimensions": {
+        "Width": 1024,
+        "Height": 768
+      },
       "ModelId": "PL-550",
       "ModelLaunchYear": "2001",
       "ModelName": "Cintiq 15X",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
+      "ModelIncludedPen": "UP-911E",
+      "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-02T00:00:00.000Z",
       "_id": "7ad4460a-8600-4c14-9916-69d0a7bab344",
       "EntityId": "WACOM.TABLET.PL550",
       "Brand": "WACOM",
-      "DisplayPixelDimensions": {
-        "Width": 1024,
-        "Height": 768
-      },
-      "DigitizerSupportsTouch": "NO"
+      "PhysicalWeight": "3860",
+      "PhysicalDimensions": {
+        "Width": 405,
+        "Height": 340,
+        "Depth": 53
+      }
     },
     {
       "DigitizerType": "PASSIVE_EMR",
@@ -1880,23 +1911,41 @@
     {
       "DigitizerPressureLevels": "512",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "205",
+      "DigitizerDensity": "0.508",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerMaxHover": "5",
+      "DigitizerDimensions": {
+        "Width": 359,
+        "Height": 287.2
+      },
+      "DigitizerSupportsTouch": "NO",
       "DisplayPanelTech": "TFT",
+      "DisplayBrightness": "210",
+      "DisplayContrast": "300",
+      "DisplayColorBitDepth": "8",
+      "DisplayPixelDimensions": {
+        "Width": 1280,
+        "Height": 1024
+      },
       "ModelId": "PL-800",
       "ModelIncludedPen": "UP-911E",
       "ModelLaunchYear": "2002",
       "ModelName": "Cintiq 18SX",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
+      "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-02T00:00:00.000Z",
       "_id": "26177b6b-1a01-4059-a67e-323e78fd650f",
       "EntityId": "WACOM.TABLET.PL800",
       "Brand": "WACOM",
-      "DisplayPixelDimensions": {
-        "Width": 1280,
-        "Height": 1024
-      },
-      "DigitizerSupportsTouch": "NO"
+      "PhysicalWeight": "7700",
+      "PhysicalDimensions": {
+        "Width": 468,
+        "Height": 407,
+        "Depth": 70
+      }
     },
     {
       "DigitizerDimensions": {

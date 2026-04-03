@@ -779,6 +779,8 @@
       "Brand": "WACOM",
       "PenId": "ZP-130",
       "TabletIds": [
+        "DTZ-1200W",
+        "DTZ-2000W",
         "PTZ-1230",
         "PTZ-1231W",
         "PTZ-430",
@@ -792,6 +794,8 @@
       "Brand": "WACOM",
       "PenId": "ZP-300E",
       "TabletIds": [
+        "DTZ-1200W",
+        "DTZ-2000W",
         "DTZ-2100",
         "PTZ-1230",
         "PTZ-1231W",
@@ -806,6 +810,8 @@
       "Brand": "WACOM",
       "PenId": "ZP-400E",
       "TabletIds": [
+        "DTZ-1200W",
+        "DTZ-2000W",
         "DTZ-2100",
         "PTZ-1230",
         "PTZ-1231W",
@@ -820,6 +826,8 @@
       "Brand": "WACOM",
       "PenId": "ZP-501E",
       "TabletIds": [
+        "DTZ-1200W",
+        "DTZ-2000W",
         "DTZ-2100",
         "PTZ-1230",
         "PTZ-1231W",
@@ -834,6 +842,8 @@
       "Brand": "WACOM",
       "PenId": "ZP-600",
       "TabletIds": [
+        "DTZ-1200W",
+        "DTZ-2000W",
         "DTZ-2100",
         "PTZ-1230",
         "PTZ-1231W",
@@ -849,6 +859,16 @@
       "PenId": "EP-150E",
       "TabletIds": [
         "MTE-450"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "UP-911E",
+      "TabletIds": [
+        "PL-550",
+        "PL-710",
+        "PL-720",
+        "PL-800"
       ]
     },
     {
