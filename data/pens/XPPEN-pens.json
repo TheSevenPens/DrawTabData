@@ -177,9 +177,9 @@
       "_ModifiedDate": "2026-04-01T20:29:11.000Z"
     },
     {
-      "EntityId": "XPPEN.PEN.X3PRO",
+      "EntityId": "XPPEN.PEN.PD21",
       "Brand": "XPPEN",
-      "PenId": "X3PRO",
+      "PenId": "PD21",
       "PenName": "X3 Pro",
       "PenFamily": "",
       "PenYear": "",
@@ -188,15 +188,37 @@
       "_ModifiedDate": "2026-04-01T20:29:11.000Z"
     },
     {
-      "EntityId": "XPPEN.PEN.X3PROSLIM",
+      "EntityId": "XPPEN.PEN.PD51",
       "Brand": "XPPEN",
-      "PenId": "X3PROSLIM",
+      "PenId": "PD51",
       "PenName": "X3 Pro Slim",
       "PenFamily": "",
       "PenYear": "",
       "_id": "60b36392-89be-44e2-a5cf-571d46482dae",
       "_CreateDate": "2026-04-01T20:29:11.000Z",
       "_ModifiedDate": "2026-04-01T20:29:11.000Z"
+    },
+    {
+      "EntityId": "XPPEN.PEN.PD22",
+      "Brand": "XPPEN",
+      "PenId": "PD22",
+      "PenName": "X3 Pro Roller",
+      "PenFamily": "",
+      "PenYear": "",
+      "_id": "c8f41e3a-7d52-4b1e-9a06-3e5f2d8b7c49",
+      "_CreateDate": "2026-04-03T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z"
+    },
+    {
+      "EntityId": "XPPEN.PEN.PD52",
+      "Brand": "XPPEN",
+      "PenId": "PD52",
+      "PenName": "X4 Smart Chip Stylus",
+      "PenFamily": "",
+      "PenYear": "",
+      "_id": "d9e52f4b-8e63-4c2f-b107-4f6g3e9c8d50",
+      "_CreateDate": "2026-04-03T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z"
     }
   ]
 }
