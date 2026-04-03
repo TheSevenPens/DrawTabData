@@ -75,7 +75,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
       const diagMm = Math.sqrt(d.Width * d.Width + d.Height * d.Height);
       const diagIn = diagMm * 0.03937;
       if (t.ModelType === "PENTABLET") {
-        if (diagIn >= 3 && diagIn < 6) return "Tiny";
+        if (diagIn >= 2 && diagIn < 6) return "Tiny";
         if (diagIn >= 6 && diagIn < 10) return "Small";
         if (diagIn >= 10 && diagIn < 14) return "Medium";
         if (diagIn >= 14 && diagIn < 20) return "Large";
