@@ -42,6 +42,207 @@
         "Depth": 13
       },
       "PhysicalWeight": "1280"
+    },
+    {
+      "EntityId": "UGEE.TABLET.M908",
+      "Brand": "UGEE",
+      "ModelId": "M908",
+      "ModelName": "M908 Drawing Tablet",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 158.75
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerReportRate": "220",
+      "DigitizerMaxHover": "10",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "PhysicalDimensions": {
+        "Width": 330.1,
+        "Height": 210.1,
+        "Depth": 9.3
+      },
+      "_id": "e8d5a27c-2985-43c2-afd3-6b1c9d0b05f5",
+      "_CreateDate": "2026-04-03T06:01:40.000Z",
+      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
+    },
+    {
+      "EntityId": "UGEE.TABLET.M808",
+      "Brand": "UGEE",
+      "ModelId": "M808",
+      "ModelName": "M808 Drawing Tablet",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 158.75
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerReportRate": "220",
+      "DigitizerMaxHover": "10",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "PhysicalDimensions": {
+        "Width": 330.1,
+        "Height": 210.1,
+        "Depth": 9.3
+      },
+      "_id": "7a416e6a-7435-4bf6-a460-829b4bbf2a3e",
+      "_CreateDate": "2026-04-03T06:01:40.000Z",
+      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
+    },
+    {
+      "EntityId": "UGEE.TABLET.M708",
+      "Brand": "UGEE",
+      "ModelId": "M708",
+      "ModelName": "M708 Pen Tablet",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 254,
+        "Height": 152.4
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerReportRate": "266",
+      "DigitizerMaxHover": "10",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "ModelIncludedPen": "P01",
+      "PhysicalDimensions": {
+        "Width": 359,
+        "Height": 210,
+        "Depth": 8
+      },
+      "_id": "d3534ab9-00ec-4bfc-8ad1-501b83e192ce",
+      "_CreateDate": "2026-04-03T06:01:40.000Z",
+      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
+    },
+    {
+      "EntityId": "UGEE.TABLET.UE12",
+      "Brand": "UGEE",
+      "ModelId": "UE12",
+      "ModelName": "UE12 Drawing Monitor",
+      "ModelType": "PENDISPLAY",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 256.32,
+        "Height": 144.18
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerMaxHover": "10",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
+      "DisplayBrightness": "200",
+      "DisplayContrast": "1000",
+      "DisplayColorGamuts": {
+        "SRGB": 124,
+        "ADOBERGB": 90,
+        "DCIP3": 90
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "AGFILM",
+      "PhysicalDimensions": {
+        "Width": 355,
+        "Height": 224,
+        "Depth": 12
+      },
+      "_id": "47874a1b-e395-4d2a-b558-658dffcc2a83",
+      "_CreateDate": "2026-04-03T06:01:40.000Z",
+      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
+    },
+    {
+      "EntityId": "UGEE.TABLET.UE12PLUS",
+      "Brand": "UGEE",
+      "ModelId": "UE12-PLUS",
+      "ModelName": "UE12 Plus Drawing Monitor",
+      "ModelType": "PENDISPLAY",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 263.2,
+        "Height": 148.1
+      },
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerMaxHover": "10",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
+      "DisplayBrightness": "200",
+      "DisplayContrast": "1000",
+      "DisplayColorGamuts": {
+        "SRGB": 147
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "AGFILM",
+      "PhysicalDimensions": {
+        "Width": 355,
+        "Height": 224,
+        "Depth": 12
+      },
+      "_id": "c756b5cf-75dc-4b44-89ff-787433c1cd7b",
+      "_CreateDate": "2026-04-03T06:01:40.000Z",
+      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
+    },
+    {
+      "EntityId": "UGEE.TABLET.U1200",
+      "Brand": "UGEE",
+      "ModelId": "U1200",
+      "ModelName": "U1200 Drawing Monitor",
+      "ModelType": "PENDISPLAY",
+      "ModelLaunchYear": "",
+      "DigitizerDimensions": {
+        "Width": 263.2,
+        "Height": 148.1
+      },
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerMaxHover": "10",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "ModelIncludedPen": "PH12",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
+      "DisplayBrightness": "220",
+      "DisplayContrast": "1000",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 127,
+        "NTSC": 90,
+        "ADOBERGB": 94
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "AGFILM",
+      "DisplayViewingAngleHorizontal": "178",
+      "DisplayViewingAngleVertical": "178",
+      "PhysicalDimensions": {
+        "Width": 323.92,
+        "Height": 208.54,
+        "Depth": 14.46
+      },
+      "_id": "c1270aa6-c0ce-48fe-9a0b-1861ed699645",
+      "_CreateDate": "2026-04-03T06:01:40.000Z",
+      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
     }
   ]
 }

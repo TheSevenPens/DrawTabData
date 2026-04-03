@@ -4,7 +4,25 @@
       "Brand": "UGEE",
       "PenId": "U-Pencil",
       "TabletIds": [
+        "M808",
+        "M908",
+        "UE12",
+        "UE12-PLUS",
         "UE16"
+      ]
+    },
+    {
+      "Brand": "UGEE",
+      "PenId": "P01",
+      "TabletIds": [
+        "M708"
+      ]
+    },
+    {
+      "Brand": "UGEE",
+      "PenId": "PH12",
+      "TabletIds": [
+        "U1200"
       ]
     }
   ]
