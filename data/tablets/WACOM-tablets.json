@@ -517,9 +517,23 @@
         "Height": 145
       },
       "DigitizerPressureLevels": "4096",
+      "DigitizerDensity": "2.54",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPanelTech": "IPS",
       "DisplayBrightness": "275",
+      "DisplayContrast": "1400",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 99
+      },
+      "DisplayResponseTime": "18",
+      "DisplayAntiGlare": "AGFILM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "ModelAudience": "Consumer",
       "ModelFamily": "WACOM ONE",
       "ModelId": "DTC-121",
@@ -529,15 +543,16 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z",
       "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
       "EntityId": "WACOM.TABLET.DTC121",
       "Brand": "WACOM",
-      "DisplayPixelDimensions": {
-        "Width": 1920,
-        "Height": 1080
-      },
-      "DigitizerSupportsTouch": "NO"
+      "PhysicalWeight": "700",
+      "PhysicalDimensions": {
+        "Width": 299,
+        "Height": 190,
+        "Depth": 11
+      }
     },
     {
       "DigitizerDimensions": {
@@ -676,10 +691,24 @@
         "Height": 165
       },
       "DigitizerPressureLevels": "4096",
+      "DigitizerDensity": "2.54",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "YES",
+      "DisplayPanelTech": "IPS",
       "DisplayBrightness": "320",
+      "DisplayContrast": "2000",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 99
+      },
+      "DisplayAntiGlare": "AGFILM",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
       "ModelAudience": "Consumer",
+      "ModelFamily": "WACOM ONE",
       "ModelId": "DTH-134",
       "ModelIncludedPen": "CP-923",
       "ModelLaunchYear": "2023",
@@ -687,15 +716,16 @@
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
       "ModelType": "PENDISPLAY",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z",
       "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
       "EntityId": "WACOM.TABLET.DTH134",
       "Brand": "WACOM",
-      "DisplayPixelDimensions": {
-        "Width": 1920,
-        "Height": 1080
-      },
-      "DigitizerSupportsTouch": "YES"
+      "PhysicalWeight": "900",
+      "PhysicalDimensions": {
+        "Width": 336,
+        "Height": 222,
+        "Depth": 12
+      }
     },
     {
       "DigitizerDimensions": {
@@ -1378,30 +1408,35 @@
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerMaxHover": "5",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPanelTech": "IPS",
       "DisplayBrightness": "190",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
         "ADOBERGB": 92
       },
       "DisplayContrast": "550",
+      "DisplayRefreshRate": "85",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1200
+      },
       "ModelId": "DTK-2400",
       "ModelIncludedPen": "KP-501E",
       "ModelLaunchYear": "2012",
       "ModelName": "Cintiq 24 HD",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
+      "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z",
       "_id": "0c884705-370d-47f8-ad60-ae939de51c2d",
       "EntityId": "WACOM.TABLET.DTK2400",
       "Brand": "WACOM",
-      "DisplayPixelDimensions": {
-        "Width": 1920,
-        "Height": 1080
-      },
-      "DigitizerSupportsTouch": "NO"
+      "PhysicalWeight": "29000"
     },
     {
       "DigitizerDimensions": {
@@ -1636,9 +1671,21 @@
     {
       "DigitizerPressureLevels": "1024",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "136",
+      "DigitizerDensity": "5.08",
+      "DigitizerTilt": "60",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerMaxHover": "5",
+      "DigitizerDimensions": {
+        "Width": 433.4,
+        "Height": 270.9
+      },
       "DigitizerSupportsTouch": "NO",
       "DisplayPanelTech": "TFT",
+      "DisplayBrightness": "200",
+      "DisplayContrast": "800",
       "DisplayColorBitDepth": "8",
+      "DisplayResponseTime": "14",
       "DisplayRefreshRate": "75",
       "DisplayPixelDimensions": {
         "Width": 1680,
@@ -1650,11 +1697,13 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "ModelFamily": "Cintiq",
+      "ModelIncludedPen": "ZP-501E",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2026-04-02T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z",
       "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
       "EntityId": "WACOM.TABLET.DTZ2000W",
-      "Brand": "WACOM"
+      "Brand": "WACOM",
+      "PhysicalWeight": "9100"
     },
     {
       "DigitizerDimensions": {
@@ -1824,6 +1873,54 @@
       "EntityId": "WACOM.TABLET.PL521",
       "Brand": "WACOM",
       "DigitizerSupportsTouch": "NO"
+    },
+    {
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerMaxHover": "5",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPanelTech": "TFT",
+      "DisplayRefreshRate": "75",
+      "DisplayPixelDimensions": {
+        "Width": 1024,
+        "Height": 768
+      },
+      "ModelId": "DTF-521",
+      "ModelLaunchYear": "2005",
+      "ModelName": "DTF-521",
+      "ModelStatus": "DISCONTINUED",
+      "ModelType": "PENDISPLAY",
+      "_CreateDate": "2026-04-03T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z",
+      "_id": "a7c3e1d2-5f84-4b9a-8e12-6d3a2c7f9b01",
+      "EntityId": "WACOM.TABLET.DTF521",
+      "Brand": "WACOM"
+    },
+    {
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerMaxHover": "5",
+      "DigitizerSupportsTouch": "NO",
+      "DisplayPanelTech": "TFT",
+      "DisplayRefreshRate": "75",
+      "DisplayPixelDimensions": {
+        "Width": 1280,
+        "Height": 1024
+      },
+      "ModelId": "DTU-710",
+      "ModelLaunchYear": "2005",
+      "ModelName": "DTU-710",
+      "ModelStatus": "DISCONTINUED",
+      "ModelType": "PENDISPLAY",
+      "_CreateDate": "2026-04-03T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-03T00:00:00.000Z",
+      "_id": "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
+      "EntityId": "WACOM.TABLET.DTU710",
+      "Brand": "WACOM",
+      "PhysicalWeight": "5800",
+      "PhysicalDimensions": {
+        "Width": 418,
+        "Height": 362,
+        "Depth": 57
+      }
     },
     {
       "DigitizerPressureLevels": "512",
