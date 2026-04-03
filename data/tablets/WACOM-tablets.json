@@ -1249,21 +1249,40 @@
     {
       "DigitizerPressureLevels": "2048",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "133",
+      "DigitizerDensity": "5.08",
+      "DigitizerTilt": "40",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerAccuracyCorner": "4",
+      "DigitizerMaxHover": "5",
+      "DigitizerDimensions": {
+        "Width": 432,
+        "Height": 324
+      },
+      "DigitizerSupportsTouch": "NO",
       "ModelId": "DTK-2100",
       "ModelLaunchYear": "2010",
       "ModelName": "Cintiq 21UX 2010",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
+      "ModelIncludedPen": "KP-501E",
+      "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-04-02T00:00:00.000Z",
       "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
       "EntityId": "WACOM.TABLET.DTK2100",
       "Brand": "WACOM",
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "200",
+      "DisplayContrast": "550",
+      "DisplayColorBitDepth": "8",
+      "DisplayResponseTime": "20",
+      "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayPixelDimensions": {
         "Width": 1600,
         "Height": 1200
       },
-      "DigitizerSupportsTouch": "NO"
+      "PhysicalWeight": "8700"
     },
     {
       "DigitizerDimensions": {
@@ -1542,23 +1561,46 @@
       "DigitizerSupportsTouch": "NO"
     },
     {
-      "DigitizerPressureLevels": "1024",
+      "DigitizerPressureLevels": "2048",
       "DigitizerType": "PASSIVE_EMR",
+      "DigitizerReportRate": "133",
+      "DigitizerDensity": "5.08",
+      "DigitizerTilt": "40",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerMaxHover": "5",
+      "DigitizerDimensions": {
+        "Width": 432,
+        "Height": 324
+      },
+      "DigitizerSupportsTouch": "NO",
       "ModelId": "DTZ-2100",
       "ModelLaunchYear": "2005",
       "ModelName": "Cintiq 21UX 2005",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
+      "ModelIncludedPen": "KP-501E",
+      "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
+      "_ModifiedDate": "2026-03-31T00:00:00.000Z",
       "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
       "EntityId": "WACOM.TABLET.DTZ2100",
       "Brand": "WACOM",
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "200",
+      "DisplayContrast": "550",
+      "DisplayColorBitDepth": "8",
+      "DisplayResponseTime": "20",
+      "DisplayAntiGlare": "ETCHEDGLASS",
       "DisplayPixelDimensions": {
         "Width": 1600,
         "Height": 1200
       },
-      "DigitizerSupportsTouch": "NO"
+      "PhysicalWeight": "8700",
+      "PhysicalDimensions": {
+        "Width": 561,
+        "Height": 421,
+        "Depth": 47.8
+      }
     },
     {
       "DigitizerDimensions": {
