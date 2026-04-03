@@ -714,6 +714,17 @@
       "_id": "b88fc717-b896-4539-8723-3f48e4e0d223",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z"
+    },
+    {
+      "EntityId": "WACOM.PEN.KP403E",
+      "Brand": "WACOM",
+      "PenId": "KP-403E",
+      "PenName": "Intuos4 Airbrush Pen",
+      "PenFamily": "WacomKPGEN1",
+      "PenYear": "",
+      "_id": "3785549e-4a3f-4272-a7e9-6ea0813f0566",
+      "_CreateDate": "2026-04-03T01:14:02.000Z",
+      "_ModifiedDate": "2026-04-03T01:14:02.000Z"
     }
   ]
 }
