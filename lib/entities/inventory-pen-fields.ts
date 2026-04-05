@@ -6,7 +6,7 @@ export interface InventoryPen {
   PenTech: string;
   PenTechSubtype: string;
   InventoryId: string;
-  WithTabletEntityId: string;
+  WithTabletInventoryId: string;
   Notes: string;
   Tags: string[];
   _id: string;
@@ -24,17 +24,17 @@ export const INVENTORY_PEN_FIELDS: FieldDef<InventoryPen>[] = [
   { key: "PenTechSubtype", label: "Tech Subtype", getValue: (p) => p.PenTechSubtype, type: "string", group: "Pen" },
   { key: "Notes", label: "Notes", getValue: (p) => p.Notes, type: "string", group: "Pen" },
   // Acquisition
-  { key: "WithTabletEntityId", label: "Came With Tablet", getValue: (p) => p.WithTabletEntityId, type: "string", group: "Acquisition" },
+  { key: "WithTabletInventoryId", label: "Came With Tablet", getValue: (p) => p.WithTabletInventoryId, type: "string", group: "Acquisition" },
 ];
 
 export const INVENTORY_PEN_DEFAULT_COLUMNS = [
-  "InventoryId", "PenEntityId", "Brand", "PenTech", "WithTabletEntityId",
+  "InventoryId", "PenEntityId", "Brand", "PenTech", "WithTabletInventoryId",
 ];
 
 export const INVENTORY_PEN_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["InventoryId", "PenEntityId", "Brand", "PenTech", "PenTechSubtype", "WithTabletEntityId"],
+    fields: ["InventoryId", "PenEntityId", "Brand", "PenTech", "PenTechSubtype", "WithTabletInventoryId"],
   },
   { kind: "sort", field: "InventoryId", direction: "asc" },
 ];
