@@ -1,14 +1,15 @@
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand } from "./drawtab-loader.js";
 import {
   loadTabletsFromURL, loadPensFromURL, loadPenCompatFromURL,
   loadPenFamiliesFromURL, loadTabletFamiliesFromURL, loadDriversFromURL,
-  loadPressureResponseFromURL,
+  loadPressureResponseFromURL, loadBrandsFromURL,
 } from "./drawtab-loader.js";
 import {
   buildTabletToPenCompatMap, buildPenToTabletCompatMap, buildIncludedPenMap,
 } from "./compat-helpers.js";
 
 export interface DrawTabDataAll {
+  brands: Brand[];
   tablets: Tablet[];
   pens: Pen[];
   penCompat: PenCompat[];
@@ -22,7 +23,8 @@ export interface DrawTabDataAll {
 }
 
 export async function loadAllFromURL(baseUrl: string): Promise<DrawTabDataAll> {
-  const [tablets, pens, penCompat, penFamilies, tabletFamilies, drivers, pressureResponse] = await Promise.all([
+  const [brands, tablets, pens, penCompat, penFamilies, tabletFamilies, drivers, pressureResponse] = await Promise.all([
+    loadBrandsFromURL(baseUrl),
     loadTabletsFromURL(baseUrl),
     loadPensFromURL(baseUrl),
     loadPenCompatFromURL(baseUrl),
@@ -33,6 +35,7 @@ export async function loadAllFromURL(baseUrl: string): Promise<DrawTabDataAll> {
   ]);
 
   return {
+    brands,
     tablets,
     pens,
     penCompat,

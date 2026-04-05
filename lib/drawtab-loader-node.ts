@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Brand } from "./drawtab-loader.js";
 
 // --- Generic loader ---
 
@@ -80,6 +80,16 @@ export function loadPenCompatFromDisk(dataDir: string): PenCompat[] {
   return rows;
 }
 
+// --- Brand loader ---
+
+export function loadBrandsFromDisk(dataDir: string): Brand[] {
+  const filePath = path.join(dataDir, "brands", "brands.json");
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(raw);
+  return data.Brands ?? [];
+}
+
 // --- Pressure response loader ---
 
 import type { PressureResponse } from "./drawtab-loader.js";
@@ -92,5 +102,5 @@ export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[
 
 // --- Re-export types and accessors ---
 
-export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Dimensions, ColorGamuts } from "./drawtab-loader.js";
+export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, Dimensions, ColorGamuts } from "./drawtab-loader.js";
 export { getBrands, filterByBrand, filterByType, getDiagonal, formatDimensions, containsText, equalsText, brandName, BRAND_NAMES } from "./drawtab-loader.js";

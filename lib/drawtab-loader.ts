@@ -122,6 +122,17 @@ export interface PressureResponse {
   _ModifiedDate: string;
 }
 
+export interface Brand {
+  EntityId: string;
+  BrandId: string;
+  BrandName: string;
+  SiteURL: string;
+  Country: string;
+  _id: string;
+  _CreateDate: string;
+  _ModifiedDate: string;
+}
+
 export interface PenCompat {
   Brand: string;
   TabletId: string;
@@ -253,6 +264,18 @@ export async function loadInventoryTabletsFromURL(dataBaseUrl: string, userId: s
   if (!contentType.includes("json")) return [];
   const data = await resp.json();
   return data.InventoryTablets ?? [];
+}
+
+// --- Brand loader ---
+
+export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {
+  const url = `${dataBaseUrl}/brands/brands.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = await resp.json();
+  return data.Brands ?? [];
 }
 
 // --- Brand names ---

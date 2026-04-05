@@ -1,6 +1,6 @@
 import type { DrawTabDataAll } from "./drawtab-all.js";
 import {
-  loadTabletsFromDisk, loadPensFromDisk, loadPenCompatFromDisk,
+  loadBrandsFromDisk, loadTabletsFromDisk, loadPensFromDisk, loadPenCompatFromDisk,
   loadPenFamiliesFromDisk, loadTabletFamiliesFromDisk, loadDriversFromDisk,
   loadPressureResponseFromDisk,
 } from "./drawtab-loader-node.js";
@@ -11,6 +11,7 @@ import {
 export type { DrawTabDataAll } from "./drawtab-all.js";
 
 export function loadAllFromDisk(dataDir: string): DrawTabDataAll {
+  const brands           = loadBrandsFromDisk(dataDir);
   const tablets          = loadTabletsFromDisk(dataDir);
   const pens             = loadPensFromDisk(dataDir);
   const penCompat        = loadPenCompatFromDisk(dataDir);
@@ -20,6 +21,7 @@ export function loadAllFromDisk(dataDir: string): DrawTabDataAll {
   const pressureResponse = loadPressureResponseFromDisk(dataDir);
 
   return {
+    brands,
     tablets,
     pens,
     penCompat,
