@@ -87,8 +87,8 @@
     {
       "DigitizerAccuracyCenter": "0.25",
       "DigitizerDimensions": {
-        "Width": 294,
-        "Height": 165
+        "Width": 293.76,
+        "Height": 165.24
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
@@ -171,17 +171,20 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 344,
-        "Height": 194
+        "Width": 344.16,
+        "Height": 193.59
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerTilt": "60",
+      "DigitizerMaxHover": "10",
+      "DigitizerAccuracyCenter": "0.25",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorGamuts": {
         "NTSC": 88,
         "SRGB": 120
       },
+      "DisplayLamination": "YES",
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
@@ -325,13 +328,14 @@
     {
       "DigitizerAccuracyCenter": "0.25",
       "DigitizerDimensions": {
-        "Width": 476,
-        "Height": 268
+        "Width": 476.064,
+        "Height": 267.786
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerTilt": "60",
+      "DigitizerAccuracyCenter": "0.25",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
@@ -676,11 +680,12 @@
     {
       "DigitizerDimensions": {
         "Width": 254,
-        "Height": 159
+        "Height": 159.26
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
+      "DigitizerMaxHover": "10",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CT1060",
@@ -689,6 +694,11 @@
       "ModelName": "Deco Fun L",
       "ModelProductLink": "https://www.xp-pen.com/product/905.html",
       "ModelType": "PENTABLET",
+      "PhysicalDimensions": {
+        "Width": 315.0,
+        "Height": 222.9,
+        "Depth": 12.5
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3ae93286-d961-4d2a-a3b7-f42d6cbd9c62",
@@ -699,12 +709,12 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 122,
-        "Height": 76
+        "Width": 121.92,
+        "Height": 76.2
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
-      "DigitizerTilt": "69",
+      "DigitizerMaxHover": "10",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CT430",
@@ -713,6 +723,11 @@
       "ModelName": "Deco Fun XS",
       "ModelProductLink": "https://www.xp-pen.com/product/905.html",
       "ModelType": "PENTABLET",
+      "PhysicalDimensions": {
+        "Width": 182.4,
+        "Height": 134.7,
+        "Depth": 10.5
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
@@ -723,12 +738,13 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 160,
-        "Height": 102
+        "Width": 160.02,
+        "Height": 101.6
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "220",
       "DigitizerTilt": "60",
+      "DigitizerMaxHover": "10",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CT640",
@@ -737,6 +753,11 @@
       "ModelName": "Deco Fun S",
       "ModelProductLink": "https://www.xp-pen.com/product/905.html",
       "ModelType": "PENTABLET",
+      "PhysicalDimensions": {
+        "Width": 210.5,
+        "Height": 159.8,
+        "Depth": 12.9
+      },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "a2f70186-10e2-47a7-9dde-5b1d89103a71",
@@ -1240,9 +1261,10 @@
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 188.34,
-        "Height": 149.6,
+        "Height": 149.96,
         "Depth": 7.7
       },
+      "PhysicalWeight": "170",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
       "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
@@ -1493,6 +1515,51 @@
         "Width": 3840,
         "Height": 2160
       }
+    },
+    {
+      "EntityId": "XPPEN.TABLET.MD160FH",
+      "Brand": "XPPEN",
+      "ModelId": "MD160FH",
+      "ModelName": "Artist 16 (Gen 2)",
+      "ModelType": "PENDISPLAY",
+      "ModelAudience": "Professional",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerSupportsTouch": "NO",
+      "DigitizerPressureLevels": "16384",
+      "DigitizerTilt": "60",
+      "DigitizerMaxHover": "10",
+      "DigitizerAccuracyCenter": "0.4",
+      "DigitizerDimensions": {
+        "Width": 340.99,
+        "Height": 191.81
+      },
+      "DigitizerDensity": "200",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
+      "DisplayBrightness": "250",
+      "DisplayContrast": "1000",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 99,
+        "ADOBERGB": 96,
+        "DISPLAYP3": 96
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "DisplayPanelTech": "IPS",
+      "DisplayViewingAngleHorizontal": "178",
+      "DisplayViewingAngleVertical": "178",
+      "PhysicalDimensions": {
+        "Width": 442.91,
+        "Height": 279.91,
+        "Depth": 12.9
+      },
+      "PhysicalWeight": "1447",
+      "_id": "42d6b96d-e543-4b1c-b720-2ec717fa1054",
+      "_CreateDate": "2026-04-06T23:03:25.000Z",
+      "_ModifiedDate": "2026-04-06T23:03:25.000Z"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
