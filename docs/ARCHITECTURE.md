@@ -141,3 +141,87 @@ default columns, and default views. Includes:
 - **typescript** — Type checking
 - **tsx** — Runs TypeScript directly (CLI tools)
 - **@types/node** — Node.js type definitions
+
+## Mental model: not really a database
+
+What lives in this repo isn't a "database" in the conventional sense.
+It's better described as a **typed, statically-deployed, read-only
+data corpus with schema-validated access**. The closest analogues
+are not Postgres or Mongo — they're things like GraphQL with file-
+based resolvers, Sanity CMS in static mode, or Astro's content
+collections.
+
+This shapes which libraries make sense and which don't:
+
+- **Storage = git-tracked JSON files.** Free version control, free
+  diffs, free PR review of data changes, free static deployment.
+  Replacing this with a real DB server would forfeit all of that.
+- **Schema = valibot.** Single source of truth for shape, validation,
+  and TypeScript types. Catches malformed/typo'd data at parse time
+  with precise paths and messages.
+- **Query layer = the small `lib/pipeline/` engine.** Hand-written
+  filter/sort/select/take steps over typed `FieldDef<T>` metadata.
+  Tailored to the UI; no third-party query DSL.
+- **Reactive bindings = Svelte 5 runes** (`$state`, `$derived`).
+  Adding a separate reactive store library would mean two reactive
+  systems fighting each other.
+
+## Library decisions (and rejections)
+
+### Adopted
+
+- **Valibot** for schemas — see above. The win was concrete:
+  ~280 lines of hand-rolled validation deleted from `data-quality.ts`
+  and `drawtab-loader.ts`, plus runtime validation on every load,
+  plus a single source of truth for shape and types. The migration
+  immediately surfaced four pre-existing data bugs (invalid UUID,
+  three pen-family records missing `_id`/dates).
+
+### Considered and rejected (with reasons, so future you remembers why)
+
+- **Arquero** — dplyr-style table ops over arrays of objects. Genuinely
+  good for groupby/rollup/joins, but our pipeline is small, typed, and
+  tailored to the UI. Replacing it would cost ~50 KB and abandon our
+  `FieldDef<T>` metadata. Reconsider only if we start writing the same
+  manual `reduce`/`groupBy` logic in multiple places.
+- **AlaSQL** — actual SQL over JS arrays. Heavy, poor TypeScript story.
+  Skip.
+- **LokiJS** — in-memory document DB with Mongo-style queries.
+  Designed for exactly this shape, but largely unmaintained. Skip.
+- **TinyBase** — relational + reactive store. Speculative for our
+  needs; would conflict with Svelte 5 runes. Skip.
+- **PGlite / sql.js / wa-sqlite** — real SQL engines compiled to WASM.
+  Overkill for a few thousand records and very few join operations.
+  Skip unless we hit a specific need for cross-entity joins or
+  transactional writes.
+- **A real database server** (Postgres, Mongo) — kills the
+  "data is just JSON files in a git repo" superpower. Skip.
+- **An ORM** (Prisma, Drizzle) — pointless without a backing DB. Skip.
+
+### Potentially worth revisiting later
+
+- **`idb-keyval`** (~1 KB) for persisting user state (saved views,
+  column widths, filter preferences) in IndexedDB instead of
+  `localStorage`. Only worth it if we hit storage quotas or want
+  offline-first PWA behavior. Today, `localStorage` is fine.
+- **A small fluent pipeline builder** (`pipeline(tablets).filter(...).
+  sort(...).select(...)`). Pure code, no dependency, ~30 lines. Worth
+  doing when we start building features that construct pipelines
+  programmatically (e.g., user-saved query templates or the
+  "user-suggested edits" feature in `FUTURES.txt`).
+
+### Watch for these signals
+
+The architecture is sound today. Two concrete signals would justify
+revisiting library choices:
+
+1. **Repeated manual `reduce`/`groupBy` loops.** Time to add either
+   Arquero or a small in-house `aggregate()` step on the pipeline.
+2. **Real cross-entity joins** (not just lookup maps). Time to add a
+   `join()` step on the pipeline, or revisit AlaSQL/PGlite if joins
+   become a recurring pattern.
+
+Until those signals appear, the biggest lever for future productivity
+is the schema layer we already have — it makes user-driven data edits
+(see `FUTURES.txt`) materially safer because every proposed change
+can be schema-validated before it lands.
