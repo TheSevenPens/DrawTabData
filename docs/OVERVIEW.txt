@@ -48,8 +48,9 @@ This repo includes TypeScript libraries for consumers:
 
 - lib/drawtab-loader.ts — typed interfaces, URL-based loaders, brand names
 - lib/drawtab-loader-node.ts — filesystem-based loaders for Node.js
+- lib/loader-shared.ts — shared brand lists, expandPenCompat, parseStringArray
 - lib/drawtab-all.ts / lib/drawtab-all-node.ts — load everything in one call
-- lib/compat-helpers.ts — compatibility map builders
+- lib/compat-helpers.ts — compatibility map builders + findSimilarTablets
 - lib/pipeline/ — generic query engine (filter, sort, select, take)
 - lib/entities/ — field definitions per entity type (metadata, computed fields)
 - lib/units.ts — metric/imperial unit conversion
