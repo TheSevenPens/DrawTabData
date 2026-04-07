@@ -8,6 +8,7 @@
   },
   "scripts": {
     "data-quality": "tsx lib/run-data-quality.ts",
+    "version-info": "tsx scripts/generate-version.ts",
     "build": "tsc"
   },
   "keywords": [

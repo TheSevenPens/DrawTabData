@@ -2,9 +2,9 @@
 
 import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse } from "./schemas.js";
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
-import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse } from "./schemas.js";
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
 export interface PenCompat {
   Brand: string;
@@ -122,6 +122,17 @@ export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {
   if (!contentType.includes("json")) return [];
   const data = await resp.json();
   return data.Brands ?? [];
+}
+
+// --- Version info ---
+
+export async function loadVersionFromURL(dataBaseUrl: string): Promise<VersionInfo | null> {
+  const url = `${dataBaseUrl}/version.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return null;
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return null;
+  return (await resp.json()) as VersionInfo;
 }
 
 // --- Brand names ---

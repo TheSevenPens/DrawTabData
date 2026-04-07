@@ -221,6 +221,25 @@ export const PressureResponseSchema = v.strictObject({
   _ModifiedDate: IsoDateString,
 });
 
+// --- Version info (data/version.json) ---
+
+export const VersionInfoSchema = v.strictObject({
+  schemaVersion: v.number(),
+  version: TrimmedString,
+  commit: TrimmedString,
+  shortCommit: TrimmedString,
+  commitDate: TrimmedString,
+  counts: v.strictObject({
+    tablets: v.number(),
+    pens: v.number(),
+    penFamilies: v.number(),
+    tabletFamilies: v.number(),
+    drivers: v.number(),
+    brands: v.number(),
+    pressureResponse: v.number(),
+  }),
+});
+
 // --- Inferred types ---
 
 export type Tablet = v.InferOutput<typeof TabletSchema>;
@@ -233,3 +252,4 @@ export type Driver = v.InferOutput<typeof DriverSchema>;
 export type Brand = v.InferOutput<typeof BrandSchema>;
 export type PenCompatGrouped = v.InferOutput<typeof PenCompatGroupedSchema>;
 export type PressureResponse = v.InferOutput<typeof PressureResponseSchema>;
+export type VersionInfo = v.InferOutput<typeof VersionInfoSchema>;
