@@ -142,6 +142,7 @@ export const PenSchema = v.strictObject({
   PenName: TrimmedString,
   PenFamily: TrimmedString,
   PenYear: TrimmedString,
+  Tags: v.optional(v.array(TrimmedString)),
   _id: UuidString,
   _CreateDate: IsoDateString,
   _ModifiedDate: IsoDateString,
@@ -193,6 +194,33 @@ export const BrandSchema = v.strictObject({
   _ModifiedDate: IsoDateString,
 });
 
+// --- Pen compat (grouped form on disk) ---
+
+export const PenCompatGroupedSchema = v.strictObject({
+  Brand: BrandEnum,
+  PenId: TrimmedString,
+  TabletIds: v.array(TrimmedString),
+});
+
+// --- Pressure response ---
+
+export const PressureResponseSchema = v.strictObject({
+  Brand: BrandEnum,
+  PenEntityId: TrimmedString,
+  PenFamily: TrimmedString,
+  InventoryId: TrimmedString,
+  Date: TrimmedString,
+  User: TrimmedString,
+  TabletEntityId: TrimmedString,
+  Driver: TrimmedString,
+  OS: TrimmedString,
+  Notes: TrimmedString,
+  Records: v.array(v.tuple([v.number(), v.number()])),
+  _id: UuidString,
+  _CreateDate: IsoDateString,
+  _ModifiedDate: IsoDateString,
+});
+
 // --- Inferred types ---
 
 export type Tablet = v.InferOutput<typeof TabletSchema>;
@@ -203,3 +231,5 @@ export type PenFamily = v.InferOutput<typeof PenFamilySchema>;
 export type TabletFamily = v.InferOutput<typeof TabletFamilySchema>;
 export type Driver = v.InferOutput<typeof DriverSchema>;
 export type Brand = v.InferOutput<typeof BrandSchema>;
+export type PenCompatGrouped = v.InferOutput<typeof PenCompatGroupedSchema>;
+export type PressureResponse = v.InferOutput<typeof PressureResponseSchema>;

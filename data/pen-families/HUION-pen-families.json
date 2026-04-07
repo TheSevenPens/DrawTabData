@@ -4,13 +4,19 @@
       "EntityId": "HUION.PENFAMILY.HuionPW550",
       "Brand": "HUION",
       "FamilyId": "HuionPW550",
-      "FamilyName": "Huion PW550 pen series"
+      "FamilyName": "Huion PW550 pen series",
+      "_id": "7eddd777-314f-4fbf-9831-ede25dc27076",
+      "_CreateDate": "2026-04-07T01:30:00.000Z",
+      "_ModifiedDate": "2026-04-07T01:30:00.000Z"
     },
     {
       "EntityId": "HUION.PENFAMILY.HuionPW600",
       "Brand": "HUION",
       "FamilyId": "HuionPW600",
-      "FamilyName": "Huion PW600 pen series"
+      "FamilyName": "Huion PW600 pen series",
+      "_id": "4c268c9e-4976-4aec-9803-985d35594273",
+      "_CreateDate": "2026-04-07T01:30:00.000Z",
+      "_ModifiedDate": "2026-04-07T01:30:00.000Z"
     }
   ]
 }

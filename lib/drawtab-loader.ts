@@ -2,26 +2,9 @@
 
 import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand } from "./schemas.js";
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse } from "./schemas.js";
 
-import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand } from "./schemas.js";
-
-export interface PressureResponse {
-  Brand: string;
-  PenEntityId: string;
-  PenFamily: string;
-  InventoryId: string;
-  Date: string;
-  User: string;
-  TabletEntityId: string;
-  Driver: string;
-  OS: string;
-  Notes: string;
-  Records: [number, number][];
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse } from "./schemas.js";
 
 export interface PenCompat {
   Brand: string;

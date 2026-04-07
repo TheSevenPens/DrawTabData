@@ -72,7 +72,7 @@ export function loadBrandsFromDisk(dataDir: string): Brand[] {
 
 // --- Pressure response loader ---
 
-import type { PressureResponse } from "./drawtab-loader.js";
+import type { PressureResponse } from "./schemas.js";
 
 export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[] {
   return loadBrandPartitionedDataFromDisk<PressureResponse>(dataDir, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);

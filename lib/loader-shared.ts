@@ -1,16 +1,13 @@
 // Shared metadata and helpers used by both URL and disk loaders.
 
 import type { PenCompat } from "./drawtab-loader.js";
+import type { PenCompatGrouped } from "./schemas.js";
 
 export const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 export const WACOM_ONLY = ["WACOM"];
 export const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
 
-export interface PenCompatGrouped {
-  Brand: string;
-  PenId: string;
-  TabletIds: string[];
-}
+export type { PenCompatGrouped };
 
 export function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {
   const rows: PenCompat[] = [];
