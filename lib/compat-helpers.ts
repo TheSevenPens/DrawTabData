@@ -48,8 +48,8 @@ export function buildIncludedPenMap(
   const result = new Map<string, Tablet[]>();
 
   for (const tablet of tablets) {
-    if (!tablet.ModelIncludedPen) continue;
-    for (const penId of tablet.ModelIncludedPen.split(",")) {
+    if (!tablet.ModelIncludedPen || tablet.ModelIncludedPen.length === 0) continue;
+    for (const penId of tablet.ModelIncludedPen) {
       const id = penId.trim();
       if (!id) continue;
       const list = result.get(id);

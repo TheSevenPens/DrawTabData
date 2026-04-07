@@ -55,7 +55,7 @@ A grouping name for product lines or generations (e.g. "GEN3", "INTUOS4", "ONE B
 Required: no
 
 ### ModelIncludedPen
-The pen model(s) included with the tablet. Multiple pens are comma-separated (e.g. "PW600,PW600S").
+The pen model(s) included with the tablet. Array of PenId strings (e.g. ["PW600", "PW600S"]).
 Required: no
 
 ### ModelProductLink

@@ -19,7 +19,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "Artist12",
-      "ModelIncludedPen": "P06",
+      "ModelIncludedPen": [
+        "P06"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Artist 12",
       "ModelProductLink": "https://www.xp-pen.com/product/64.html",
@@ -62,14 +64,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "Artist12Pro",
-      "ModelIncludedPen": "PA2",
+      "ModelIncludedPen": [
+        "PA2"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Artist 12 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/479.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 351.52,
-        "Height": 225.0,
+        "Height": 225,
         "Depth": 12.9
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -107,7 +111,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "Artist13.3Pro",
-      "ModelIncludedPen": "PA2",
+      "ModelIncludedPen": [
+        "PA2"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Artist 13.3 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/464.html",
@@ -146,15 +152,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "Artist15.6",
-      "ModelIncludedPen": "P05",
+      "ModelIncludedPen": [
+        "P05"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Artist 15.6",
       "ModelProductLink": "https://www.xp-pen.com/product/60.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 443.0,
-        "Height": 280.0,
+        "Width": 443,
+        "Height": 280,
         "Depth": 12.6
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -194,8 +202,8 @@
       "ModelProductLink": "https://www.xp-pen.com/product/65.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 443.0,
-        "Height": 280.0,
+        "Width": 443,
+        "Height": 280,
         "Depth": 12.6
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -225,7 +233,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "Artist16",
-      "ModelIncludedPen": "P55C",
+      "ModelIncludedPen": [
+        "P55C"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Artist 16",
       "ModelProductLink": "https://www.surfaceproartist.com/blog/2017/4/27/xp-pens-artist-16-is-a-price-performance-leader",
@@ -260,15 +270,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "Artist16Pro",
-      "ModelIncludedPen": "P02S",
+      "ModelIncludedPen": [
+        "P02S"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Artist 16 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/61.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 405.0,
-        "Height": 255.0,
-        "Depth": 30.0
+        "Width": 405,
+        "Height": 255,
+        "Depth": 30
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -302,16 +314,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "Artist22Pro",
-      "ModelIncludedPen": "P02S",
+      "ModelIncludedPen": [
+        "P02S"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Artist 22 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/62.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 517.0,
-        "Height": 321.0,
-        "Depth": 30.0
+        "Width": 517,
+        "Height": 321,
+        "Depth": 30
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -335,7 +349,6 @@
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
       "DigitizerTilt": "60",
-      "DigitizerAccuracyCenter": "0.25",
       "DigitizerType": "PASSIVE_EMR",
       "DisplayColorBitDepth": "8",
       "DisplayColorGamuts": {
@@ -347,13 +360,15 @@
       "DisplayResponseTime": "14",
       "ModelAudience": "Professional",
       "ModelId": "Artist22RPro",
-      "ModelIncludedPen": "PA2",
+      "ModelIncludedPen": [
+        "PA2"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Artist 22R Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/541.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 570.0,
+        "Width": 570,
         "Height": 334.8,
         "Depth": 44.8
       },
@@ -390,14 +405,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "Artist24Pro",
-      "ModelIncludedPen": "PA2",
+      "ModelIncludedPen": [
+        "PA2"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Artist 24 Pro",
       "ModelProductLink": "https://www.xp-pen.com/product/602.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 732.0,
-        "Height": 370.0,
+        "Width": 732,
+        "Height": 370,
         "Depth": 44.8
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -433,7 +450,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "CD120FH",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Artist 12 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/1069.html",
@@ -441,7 +460,7 @@
       "PhysicalDimensions": {
         "Width": 346.2,
         "Height": 148.07,
-        "Depth": 12.0
+        "Depth": 12
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -479,14 +498,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "CD130FH",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Artist 13 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/1263.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 378.0,
-        "Height": 225.0,
+        "Width": 378,
+        "Height": 225,
         "Depth": 11.99
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -522,13 +543,15 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "CD160FH",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Artist 16 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/1203.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 434.0,
+        "Width": 434,
         "Height": 255.8,
         "Depth": 12.89
       },
@@ -566,14 +589,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "CD220F",
-      "ModelIncludedPen": "PA6",
+      "ModelIncludedPen": [
+        "PA6"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Artist 22 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/855.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 538.0,
-        "Height": 332.0,
+        "Width": 538,
+        "Height": 332,
         "Depth": 25.8
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -609,15 +634,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "CD240F",
-      "ModelIncludedPen": "P05R",
+      "ModelIncludedPen": [
+        "P05R"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Artist 24 FHD",
       "ModelProductLink": "https://www.xp-pen.com/product/1356.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 590.0,
-        "Height": 361.0,
-        "Depth": 34.0
+        "Width": 590,
+        "Height": 361,
+        "Depth": 34
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -655,15 +682,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "CD240Q",
-      "ModelIncludedPen": "PA6",
+      "ModelIncludedPen": [
+        "PA6"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Artist 24",
       "ModelProductLink": "https://www.xp-pen.com/product/932.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 590.0,
-        "Height": 361.0,
-        "Depth": 34.0
+        "Width": 590,
+        "Height": 361,
+        "Depth": 34
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -689,13 +718,15 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CT1060",
-      "ModelIncludedPen": "P01",
+      "ModelIncludedPen": [
+        "P01"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco Fun L",
       "ModelProductLink": "https://www.xp-pen.com/product/905.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 315.0,
+        "Width": 315,
         "Height": 222.9,
         "Depth": 12.5
       },
@@ -718,7 +749,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CT430",
-      "ModelIncludedPen": "P01",
+      "ModelIncludedPen": [
+        "P01"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco Fun XS",
       "ModelProductLink": "https://www.xp-pen.com/product/905.html",
@@ -748,7 +781,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CT640",
-      "ModelIncludedPen": "P01",
+      "ModelIncludedPen": [
+        "P01"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco Fun S",
       "ModelProductLink": "https://www.xp-pen.com/product/905.html",
@@ -778,15 +813,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco 01",
-      "ModelIncludedPen": "P03",
+      "ModelIncludedPen": [
+        "P03"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Deco 01",
       "ModelProductLink": "https://www.xp-pen.com/product/84.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 351.0,
-        "Height": 217.0,
-        "Depth": 8.0
+        "Width": 351,
+        "Height": 217,
+        "Depth": 8
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -809,7 +846,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco 01 V2",
-      "ModelIncludedPen": "P05",
+      "ModelIncludedPen": [
+        "P05"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Deco 01 V2",
       "ModelProductLink": "https://www.xp-pen.com/product/461.html",
@@ -817,7 +856,7 @@
       "PhysicalDimensions": {
         "Width": 350.52,
         "Height": 215.9,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "570",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -840,7 +879,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco 01 V3",
-      "ModelIncludedPen": "P05",
+      "ModelIncludedPen": [
+        "P05"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Deco 01 V3",
       "ModelProductLink": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
@@ -848,7 +889,7 @@
       "PhysicalDimensions": {
         "Width": 350.52,
         "Height": 215.9,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "570",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -870,15 +911,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco 02",
-      "ModelIncludedPen": "P06",
+      "ModelIncludedPen": [
+        "P06"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Deco 02",
       "ModelProductLink": "https://www.xp-pen.com/product/88.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 362.0,
-        "Height": 210.0,
-        "Depth": 9.0
+        "Width": 362,
+        "Height": 210,
+        "Depth": 9
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -900,15 +943,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco 03",
-      "ModelIncludedPen": "P05",
+      "ModelIncludedPen": [
+        "P05"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Deco 03",
       "ModelProductLink": "https://www.xp-pen.com/product/89.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 354.0,
-        "Height": 218.0,
-        "Depth": 8.0
+        "Width": 354,
+        "Height": 218,
+        "Depth": 8
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -930,7 +975,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco Mini 4",
-      "ModelIncludedPen": "P05D",
+      "ModelIncludedPen": [
+        "P05D"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Deco Mini 4",
       "ModelProductLink": "https://www.xp-pen.com/product/613.html",
@@ -960,15 +1007,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Deco Mini 7",
-      "ModelIncludedPen": "P05D",
+      "ModelIncludedPen": [
+        "P05D"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco Mini 7",
       "ModelProductLink": "https://www.xp-pen.com/product/639.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 178.2,
-        "Height": 125.0,
-        "Depth": 8.0
+        "Height": 125,
+        "Depth": 8
       },
       "PhysicalWeight": "155",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -991,14 +1040,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "Deco Pro M",
-      "ModelIncludedPen": "PA1",
+      "ModelIncludedPen": [
+        "PA1"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Deco Pro M",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 399.7,
-        "Height": 227.0,
+        "Height": 227,
         "Depth": 16.5
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1021,14 +1072,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "Deco Pro MW",
-      "ModelIncludedPen": "PA1",
+      "ModelIncludedPen": [
+        "PA1"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Deco Pro MW",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 399.7,
-        "Height": 227.0,
+        "Height": 227,
         "Depth": 16.5
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1051,7 +1104,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "Deco Pro S",
-      "ModelIncludedPen": "PA1",
+      "ModelIncludedPen": [
+        "PA1"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Deco Pro S",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
@@ -1081,7 +1136,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "Deco Pro SW",
-      "ModelIncludedPen": "PA1",
+      "ModelIncludedPen": [
+        "PA1"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Deco Pro SW",
       "ModelProductLink": "https://www.xp-pen.com/product/915.html",
@@ -1122,7 +1179,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "ID160F",
-      "ModelIncludedPen": "PA5",
+      "ModelIncludedPen": [
+        "PA5"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Innovator 16",
       "ModelProductLink": "https://www.xp-pen.com/product/638.html",
@@ -1130,7 +1189,7 @@
       "PhysicalDimensions": {
         "Width": 443.27,
         "Height": 256.45,
-        "Depth": 9.0
+        "Depth": 9
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1168,7 +1227,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "ID160F-E",
-      "ModelIncludedPen": "X3ELITEPLUS",
+      "ModelIncludedPen": [
+        "X3ELITEPLUS"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Artist Pro 16",
       "ModelProductLink": "https://www.xp-pen.com/product/977.html",
@@ -1176,7 +1237,7 @@
       "PhysicalDimensions": {
         "Width": 443.27,
         "Height": 256.45,
-        "Depth": 9.0
+        "Depth": 9
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1200,7 +1261,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "IT1060",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco L",
       "ModelProductLink": "https://www.xp-pen.com/product/1168.html",
@@ -1224,14 +1287,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "IT1060B",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco LW",
       "ModelProductLink": "https://www.xp-pen.com/product/1168.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 315.0,
-        "Height": 187.0,
+        "Width": 315,
+        "Height": 187,
         "Depth": 8.8
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1254,7 +1319,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "IT640",
-      "ModelIncludedPen": "P01(16K)",
+      "ModelIncludedPen": [
+        "P01(16K)"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Deco 640",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-640.html",
@@ -1285,7 +1352,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "IT850",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Deco M",
       "ModelProductLink": "https://www.xp-pen.com/series/Deco-tablet.html",
@@ -1315,7 +1384,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "IT850B",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Deco MW",
       "ModelProductLink": "https://www.xp-pen.com/series/Deco-tablet.html",
@@ -1356,7 +1427,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "MD140FH",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Artist Pro 14 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-14-gen-2.html",
@@ -1400,7 +1473,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "MD160QH",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Artist Pro 16 GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-16-gen-2.html",
@@ -1445,7 +1520,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "MD160U",
-      "ModelIncludedPen": "PH02",
+      "ModelIncludedPen": [
+        "PH02"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Artist Pro 16TP",
       "ModelProductLink": "https://www.xp-pen.com/product/927.html",
@@ -1494,14 +1571,17 @@
       "ModelAudience": "Professional",
       "ModelFamily": "ARTISTULTRA",
       "ModelId": "MD160UH",
-      "ModelIncludedPen": "PD21,PD51",
+      "ModelIncludedPen": [
+        "PD21",
+        "PD51"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Artist Ultra 16",
       "ModelStatus": "AVAILABLE",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 405.0,
-        "Height": 273.0,
+        "Width": 405,
+        "Height": 273,
         "Depth": 13.5
       },
       "PhysicalWeight": "1530",
@@ -1582,12 +1662,14 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "MD180UH",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Artist Pro 19 GEN2",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 460.0,
+        "Width": 460,
         "Height": 306.6,
         "Depth": 21.5
       },
@@ -1625,13 +1707,15 @@
       "DisplayRefreshRate": "60",
       "ModelAudience": "Consumer",
       "ModelId": "MD220FH",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Artist 22 Plus",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-22-plus.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 547.0,
+        "Width": 547,
         "Height": 364.67,
         "Depth": 33.4
       },
@@ -1674,13 +1758,15 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "MD220QH",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Artist Pro 22 GEN2",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 547.0,
-        "Height": 362.0,
+        "Width": 547,
+        "Height": 362,
         "Depth": 33.4
       },
       "PhysicalWeight": "5550",
@@ -1720,15 +1806,18 @@
       "DisplayPanelTech": "IPS",
       "ModelAudience": "Professional",
       "ModelId": "MD240QH",
-      "ModelIncludedPen": "PD21,PD51",
+      "ModelIncludedPen": [
+        "PD21",
+        "PD51"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Artist Pro 24 GEN2 165Hz",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-24-gen-2-165hz.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 638.0,
-        "Height": 408.0,
-        "Depth": 44.0
+        "Width": 638,
+        "Height": 408,
+        "Depth": 44
       },
       "PhysicalWeight": "7300",
       "PhysicalWeightInclStand": "YES",
@@ -1767,15 +1856,18 @@
       "DisplayPanelTech": "IPS",
       "ModelAudience": "Professional",
       "ModelId": "MD240UH",
-      "ModelIncludedPen": "PD21,PD51",
+      "ModelIncludedPen": [
+        "PD21",
+        "PD51"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Artist Pro 24 GEN2 4K",
       "ModelProductLink": "https://www.xp-pen.com/product/artist-pro-24-gen-2-4k.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 638.0,
-        "Height": 408.0,
-        "Depth": 44.0
+        "Width": 638,
+        "Height": 408,
+        "Depth": 44
       },
       "PhysicalWeight": "7300",
       "PhysicalWeightInclStand": "YES",
@@ -1803,13 +1895,15 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "MT0962B",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Deco Pro MW GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 283.0,
+        "Width": 283,
         "Height": 227.1,
         "Depth": 10.66
       },
@@ -1833,13 +1927,15 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "MT1172B",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Deco Pro LW GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 333.0,
+        "Width": 333,
         "Height": 258.1,
         "Depth": 10.66
       },
@@ -1863,13 +1959,15 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "MT1592B",
-      "ModelIncludedPen": "PD21",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Deco Pro XLW GEN2",
       "ModelProductLink": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 435.0,
+        "Width": 435,
         "Height": 313.1,
         "Depth": 10.66
       },
@@ -1893,8 +1991,8 @@
       "_ModifiedDate": "2026-04-01T21:44:35.000Z",
       "DigitizerSupportsTouch": "NO",
       "DigitizerDimensions": {
-        "Width": 264.0,
-        "Height": 149.0
+        "Width": 264,
+        "Height": 149
       },
       "DigitizerPressureLevels": "16384",
       "DigitizerTilt": "60",
@@ -1902,7 +2000,9 @@
       "DigitizerMaxHover": "10",
       "DigitizerAccuracyCenter": "0.2",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelIncludedPen": "X3ELITE",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
       "DisplayPixelDimensions": {
         "Width": 1920,
         "Height": 1080
@@ -1923,7 +2023,7 @@
       "PhysicalDimensions": {
         "Width": 327.2,
         "Height": 189.1,
-        "Depth": 12.0
+        "Depth": 12
       },
       "PhysicalWeight": "719"
     }

@@ -24,7 +24,7 @@ export interface Tablet {
   ModelLaunchYear: string;
   ModelAudience?: string;
   ModelFamily?: string;
-  ModelIncludedPen?: string;
+  ModelIncludedPen?: string[];
   ModelProductLink?: string;
   ModelStatus?: string;
   DigitizerType?: string;

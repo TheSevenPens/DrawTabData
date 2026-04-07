@@ -2,15 +2,17 @@
   "DrawingTablets": [
     {
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTC-4110WL",
-      "ModelIncludedPen": "CP-923",
+      "ModelIncludedPen": [
+        "CP-923"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Wacom One 2023 S",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
@@ -22,24 +24,26 @@
       "Brand": "WACOM",
       "DigitizerDensity": "100",
       "PhysicalDimensions": {
-        "Width": 188.0,
-        "Height": 141.0,
-        "Depth": 8.0
+        "Width": 188,
+        "Height": 141,
+        "Depth": 8
       },
       "PhysicalWeight": "200",
       "DigitizerSupportsTouch": "NO"
     },
     {
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTC-6110WL",
-      "ModelIncludedPen": "CP-923",
+      "ModelIncludedPen": [
+        "CP-923"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Wacom One 2023 M",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
@@ -51,9 +55,9 @@
       "Brand": "WACOM",
       "DigitizerDensity": "100",
       "PhysicalDimensions": {
-        "Width": 252.0,
-        "Height": 181.0,
-        "Depth": 8.0
+        "Width": 252,
+        "Height": 181,
+        "Depth": 8
       },
       "PhysicalWeight": "350",
       "DigitizerSupportsTouch": "NO"
@@ -69,13 +73,15 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTE-450",
-      "ModelIncludedPen": "EP-155E",
+      "ModelIncludedPen": [
+        "EP-155E"
+      ],
       "ModelLaunchYear": "2007",
       "ModelName": "Bamboo Fun Small",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 210.0,
+        "Width": 210,
         "Height": 194.1,
         "Depth": 11.2
       },
@@ -99,15 +105,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTE-650",
-      "ModelIncludedPen": "EP-155E",
+      "ModelIncludedPen": [
+        "EP-155E"
+      ],
       "ModelLaunchYear": "2007",
       "ModelName": "Bamboo Fun Medium",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 280.0,
+        "Width": 280,
         "Height": 235.1,
-        "Depth": 11.0
+        "Depth": 11
       },
       "PhysicalWeight": "550",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -121,7 +129,7 @@
     {
       "DigitizerDimensions": {
         "Width": 147.2,
-        "Height": 92.0
+        "Height": 92
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -129,14 +137,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTH-470",
-      "ModelIncludedPen": "LP-170E,LP-170",
+      "ModelIncludedPen": [
+        "LP-170E",
+        "LP-170"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Bamboo Capture",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 278.0,
-        "Height": 176.0,
+        "Width": 278,
+        "Height": 176,
         "Depth": 9.8
       },
       "PhysicalWeight": "390",
@@ -149,8 +160,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -158,7 +169,9 @@
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
       "ModelId": "CTH-490",
-      "ModelIncludedPen": "LP-190",
+      "ModelIncludedPen": [
+        "LP-190"
+      ],
       "ModelLaunchYear": "2015",
       "ModelName": "Intuos (Draw|Art|Photo|Comic) Small",
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
@@ -171,7 +184,7 @@
       "DigitizerDensity": "100",
       "Brand": "WACOM",
       "PhysicalDimensions": {
-        "Width": 210.0,
+        "Width": 210,
         "Height": 169.2,
         "Depth": 10.7
       },
@@ -180,7 +193,7 @@
     {
       "DigitizerDimensions": {
         "Width": 216.48,
-        "Height": 137.0
+        "Height": 137
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -188,7 +201,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTH-670",
-      "ModelIncludedPen": "LP-170E",
+      "ModelIncludedPen": [
+        "LP-170E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Bamboo Create",
       "ModelStatus": "DISCONTINUED",
@@ -201,15 +216,15 @@
       "DigitizerDensity": "100",
       "PhysicalDimensions": {
         "Width": 351.75,
-        "Height": 209.0,
+        "Height": 209,
         "Depth": 9.8
       },
       "PhysicalWeight": "635"
     },
     {
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
@@ -217,14 +232,16 @@
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
       "ModelId": "CTH-690",
-      "ModelIncludedPen": "LP-190",
+      "ModelIncludedPen": [
+        "LP-190"
+      ],
       "ModelLaunchYear": "2015",
       "ModelName": "Intuos (Draw|Art|Photo|Comic) Medium",
       "ModelProductLink": "https://www.parkablogs.com/node/12104",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 275.0,
+        "Width": 275,
         "Height": 217.2,
         "Depth": 10.7
       },
@@ -238,8 +255,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -247,15 +264,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-4100",
-      "ModelIncludedPen": "LP-1100K",
+      "ModelIncludedPen": [
+        "LP-1100K"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Intuos Small",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 200.0,
-        "Height": 160.0,
+        "Width": 200,
+        "Height": 160,
         "Depth": 8.8
       },
       "PhysicalWeight": "230",
@@ -269,15 +288,17 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-4100WL",
-      "ModelIncludedPen": "LP-1100K",
+      "ModelIncludedPen": [
+        "LP-1100K"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Intuos Small Bluetooth",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
@@ -290,8 +311,8 @@
       "DigitizerDensity": "100",
       "Brand": "WACOM",
       "PhysicalDimensions": {
-        "Width": 200.0,
-        "Height": 160.0,
+        "Width": 200,
+        "Height": 160,
         "Depth": 8.8
       },
       "PhysicalWeight": "230",
@@ -300,14 +321,16 @@
     {
       "DigitizerDimensions": {
         "Width": 147.2,
-        "Height": 92.0
+        "Height": 92
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-470",
-      "ModelIncludedPen": "LP-170",
+      "ModelIncludedPen": [
+        "LP-170"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Bamboo Connect",
       "ModelStatus": "DISCONTINUED",
@@ -319,8 +342,8 @@
       "Brand": "WACOM",
       "DigitizerDensity": "100",
       "PhysicalDimensions": {
-        "Width": 278.0,
-        "Height": 176.0,
+        "Width": 278,
+        "Height": 176,
         "Depth": 9.8
       },
       "PhysicalWeight": "390",
@@ -328,8 +351,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
@@ -338,14 +361,16 @@
       "ModelAudience": "Consumer",
       "ModelFamily": "ONE BY WACOM",
       "ModelId": "CTL-472",
-      "ModelIncludedPen": "LP-190K",
+      "ModelIncludedPen": [
+        "LP-190K"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "One by Wacom Small",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 210.0,
-        "Height": 146.0,
+        "Width": 210,
+        "Height": 146,
         "Depth": 8.7
       },
       "PhysicalWeight": "260",
@@ -359,15 +384,17 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "133",
       "DigitizerTilt": "0",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-490",
-      "ModelIncludedPen": "LP-190",
+      "ModelIncludedPen": [
+        "LP-190"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Intuos Small",
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
@@ -380,7 +407,7 @@
       "DigitizerDensity": "100",
       "Brand": "WACOM",
       "PhysicalDimensions": {
-        "Width": 210.0,
+        "Width": 210,
         "Height": 169.2,
         "Depth": 10.7
       },
@@ -389,8 +416,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -398,15 +425,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-6100",
-      "ModelIncludedPen": "LP-1100K",
+      "ModelIncludedPen": [
+        "LP-1100K"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Intuos Medium",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 264.0,
-        "Height": 200.0,
+        "Width": 264,
+        "Height": 200,
         "Depth": 8.8
       },
       "PhysicalWeight": "410",
@@ -420,8 +449,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "DigitizerPressureLevels": "4096",
       "DigitizerReportRate": "133",
@@ -429,15 +458,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-6100WL",
-      "ModelIncludedPen": "LP-1100K",
+      "ModelIncludedPen": [
+        "LP-1100K"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Intuos Medium Bluetooth",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 264.0,
-        "Height": 200.0,
+        "Width": 264,
+        "Height": 200,
         "Depth": 8.8
       },
       "PhysicalWeight": "410",
@@ -451,8 +482,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
@@ -461,14 +492,16 @@
       "ModelAudience": "Consumer",
       "ModelFamily": "ONE BY WACOM",
       "ModelId": "CTL-672",
-      "ModelIncludedPen": "LP-190K",
+      "ModelIncludedPen": [
+        "LP-190K"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "One by Wacom Medium",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 277.0,
-        "Height": 189.0,
+        "Width": 277,
+        "Height": 189,
         "Depth": 8.7
       },
       "PhysicalWeight": "447",
@@ -482,8 +515,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "DigitizerPressureLevels": "2048",
       "DigitizerReportRate": "133",
@@ -491,7 +524,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "CTL-690",
-      "ModelIncludedPen": "LP-190",
+      "ModelIncludedPen": [
+        "LP-190"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Intuos Medium",
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
@@ -504,7 +539,7 @@
       "Brand": "WACOM",
       "DigitizerDensity": "100",
       "PhysicalDimensions": {
-        "Width": 275.0,
+        "Width": 275,
         "Height": 217.2,
         "Depth": 10.7
       },
@@ -537,7 +572,9 @@
       "ModelAudience": "Consumer",
       "ModelFamily": "WACOM ONE",
       "ModelId": "DTC-121",
-      "ModelIncludedPen": "CP-923",
+      "ModelIncludedPen": [
+        "CP-923"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Wacom One 2023 12",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
@@ -576,15 +613,17 @@
       "ModelAudience": "Consumer",
       "ModelFamily": "WACOM ONE",
       "ModelId": "DTC-133",
-      "ModelIncludedPen": "CP-913",
+      "ModelIncludedPen": [
+        "CP-913"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Wacom One 2019",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 357.0,
-        "Height": 225.0,
+        "Width": 357,
+        "Height": 225,
         "Depth": 14.6
       },
       "PhysicalWeight": "1000",
@@ -622,7 +661,9 @@
       "ModelAudience": "Consumer",
       "ModelFamily": "WACOM ONE",
       "ModelId": "DTC-141",
-      "ModelIncludedPen": "CP-923",
+      "ModelIncludedPen": [
+        "CP-923"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Wacom One 14",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
@@ -663,14 +704,16 @@
       "DisplayViewingAngleVertical": "160",
       "ModelAudience": "Professional",
       "ModelId": "DTH-1320",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2016",
       "ModelName": "Cintiq Pro 13",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 360.0,
-        "Height": 235.0,
+        "Width": 360,
+        "Height": 235,
         "Depth": 11.9
       },
       "PhysicalWeight": "1100",
@@ -710,7 +753,9 @@
       "ModelAudience": "Consumer",
       "ModelFamily": "WACOM ONE",
       "ModelId": "DTH-134",
-      "ModelIncludedPen": "CP-923",
+      "ModelIncludedPen": [
+        "CP-923"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Wacom One 2023 13 touch",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-one",
@@ -750,7 +795,9 @@
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Enthusiast",
       "ModelId": "DTH-135",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Movink 13",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
@@ -792,15 +839,17 @@
       "DisplayViewingAngleVertical": "176",
       "ModelAudience": "Professional",
       "ModelId": "DTH-1620",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2016",
       "ModelName": "Cintiq Pro 16 (2016)",
       "ModelProductLink": "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 410.0,
-        "Height": 265.0,
+        "Width": 410,
+        "Height": 265,
         "Depth": 17.5
       },
       "PhysicalWeight": "1500",
@@ -838,15 +887,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "DTH-167",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Cintiq Pro 16 (2021)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-16#Specifications",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 410.0,
-        "Height": 266.0,
-        "Depth": 22.0
+        "Width": 410,
+        "Height": 266,
+        "Depth": 22
       },
       "PhysicalWeight": "1900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -868,7 +919,9 @@
       "DisplayBrightness": "400",
       "ModelAudience": "Professional",
       "ModelId": "DTH-172",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Cintiq Pro 17",
       "ModelProductLink": "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
@@ -916,7 +969,9 @@
       "DisplayBrightness": "300",
       "ModelAudience": "Professional",
       "ModelId": "DTH-227",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Cintiq Pro 22",
       "ModelProductLink": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
@@ -979,15 +1034,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "DTH-2420",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Cintiq Pro 24 Touch",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 677.0,
-        "Height": 394.0,
-        "Depth": 47.0
+        "Width": 677,
+        "Height": 394,
+        "Depth": 47
       },
       "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1026,15 +1083,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "DTH-246",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Cintiq 24 touch (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 340.0,
-        "Height": 568.0,
-        "Depth": 21.0
+        "Width": 340,
+        "Height": 568,
+        "Depth": 21
       },
       "PhysicalWeight": "5000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1073,7 +1132,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "DTH-271",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Cintiq Pro 27",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
@@ -1119,15 +1180,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "DTH-3220",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Cintiq Pro 32",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 854.0,
-        "Height": 506.0,
+        "Width": 854,
+        "Height": 506,
         "Depth": 53.2
       },
       "PhysicalWeight": "13000",
@@ -1161,16 +1224,18 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelId": "DTK-1300",
-      "ModelIncludedPen": "KP-503E",
+      "ModelIncludedPen": [
+        "KP-503E"
+      ],
       "ModelLaunchYear": "2013",
       "ModelName": "Cintiq 13HD",
       "ModelProductLink": "https://www.wacom.com/en-br/products/cintiq-13-hd",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 374.0,
-        "Height": 248.0,
-        "Depth": 13.0
+        "Width": 374,
+        "Height": 248,
+        "Depth": 13
       },
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2025-12-12T12:33:46.983Z",
@@ -1205,14 +1270,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "DTK-1660",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Cintiq 16",
       "ModelProductLink": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 422.0,
-        "Height": 285.0,
+        "Width": 422,
+        "Height": 285,
         "Depth": 16.6
       },
       "PhysicalWeight": "1900",
@@ -1253,15 +1320,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "DTK-168",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Cintiq 16 (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 259.0,
-        "Height": 384.0,
-        "Depth": 15.0
+        "Width": 259,
+        "Height": 384,
+        "Depth": 15
       },
       "PhysicalWeight": "2000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1295,7 +1364,9 @@
       "ModelName": "Cintiq 21UX 2010",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2026-04-02T00:00:00.000Z",
@@ -1332,16 +1403,18 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelId": "DTK-2200",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Cintiq 22 HD Touch",
       "ModelProductLink": "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 650.0,
-        "Height": 400.0,
-        "Depth": 55.0
+        "Width": 650,
+        "Height": 400,
+        "Depth": 55
       },
       "PhysicalWeight": "8500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1378,15 +1451,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "DTK-2260",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Cintiq 22",
       "ModelProductLink": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 570.0,
-        "Height": 359.0,
-        "Depth": 40.0
+        "Width": 570,
+        "Height": 359,
+        "Depth": 40
       },
       "PhysicalWeight": "5600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1425,7 +1500,9 @@
         "Height": 1200
       },
       "ModelId": "DTK-2400",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Cintiq 24 HD",
       "ModelStatus": "DISCONTINUED",
@@ -1460,15 +1537,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "DTK-2420",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Cintiq Pro 24",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 677.0,
-        "Height": 394.0,
-        "Depth": 47.0
+        "Width": 677,
+        "Height": 394,
+        "Depth": 47
       },
       "PhysicalWeight": "7200",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1507,15 +1586,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "DTK-246",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Cintiq 24 (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-cintiq",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 340.0,
-        "Height": 568.0,
-        "Depth": 21.0
+        "Width": 340,
+        "Height": 568,
+        "Depth": 21
       },
       "PhysicalWeight": "4800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1549,14 +1630,16 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelId": "DTK-2700",
-      "ModelIncludedPen": "Pro Pen",
+      "ModelIncludedPen": [
+        "Pro Pen"
+      ],
       "ModelLaunchYear": "2015",
       "ModelName": "Cintiq 27 QHD",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 770.0,
-        "Height": 465.0,
+        "Width": 770,
+        "Height": 465,
         "Depth": 54.4
       },
       "PhysicalWeight": "9000",
@@ -1591,7 +1674,9 @@
       "ModelName": "Cintiq 12WX",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2026-04-02T00:00:00.000Z",
@@ -1621,7 +1706,9 @@
       "ModelName": "Cintiq 21UX 2005",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2026-03-31T00:00:00.000Z",
@@ -1697,7 +1784,9 @@
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "ModelFamily": "Cintiq",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2026-04-03T00:00:00.000Z",
       "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
@@ -1716,15 +1805,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "GD-0405",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "ModelLaunchYear": "1998",
       "ModelName": "Intuos 4x5",
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 225.0,
-        "Height": 210.0,
+        "Width": 225,
+        "Height": 210,
         "Depth": 7.5
       },
       "PhysicalWeight": "520",
@@ -1747,16 +1838,18 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "GD-0608",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "ModelLaunchYear": "1998",
       "ModelName": "Intuos 6x8",
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 334.0,
-        "Height": 258.0,
-        "Depth": 14.0
+        "Width": 334,
+        "Height": 258,
+        "Depth": 14
       },
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1778,16 +1871,18 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "GD-0912",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "ModelLaunchYear": "1998",
       "ModelName": "Intuos 9x12",
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 256.0,
-        "Height": 361.0,
-        "Depth": 14.0
+        "Width": 256,
+        "Height": 361,
+        "Depth": 14
       },
       "PhysicalWeight": "1600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1809,16 +1904,18 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "GD-1212",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "ModelLaunchYear": "1998",
       "ModelName": "Intuos 12x12",
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 444.0,
+        "Width": 444,
         "Height": 435.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1840,16 +1937,18 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "GD-1218",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "ModelLaunchYear": "1998",
       "ModelName": "Intuos 12x18",
       "ModelProductLink": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 616.0,
+        "Width": 616,
         "Height": 445.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1947,7 +2046,9 @@
       "ModelName": "Cintiq 15X",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
-      "ModelIncludedPen": "UP-911E",
+      "ModelIncludedPen": [
+        "UP-911E"
+      ],
       "ModelFamily": "Cintiq",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
       "_ModifiedDate": "2026-04-02T00:00:00.000Z",
@@ -1978,7 +2079,9 @@
     {
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "PL-710",
-      "ModelIncludedPen": "UP-911E",
+      "ModelIncludedPen": [
+        "UP-911E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Cintiq 17X",
       "ModelStatus": "DISCONTINUED",
@@ -1993,7 +2096,9 @@
     {
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "PL-720",
-      "ModelIncludedPen": "UP-911E",
+      "ModelIncludedPen": [
+        "UP-911E"
+      ],
       "ModelLaunchYear": "2009",
       "ModelName": "Cintiq 17SX 2009",
       "ModelStatus": "DISCONTINUED",
@@ -2026,7 +2131,9 @@
         "Height": 1024
       },
       "ModelId": "PL-800",
-      "ModelIncludedPen": "UP-911E",
+      "ModelIncludedPen": [
+        "UP-911E"
+      ],
       "ModelLaunchYear": "2002",
       "ModelName": "Cintiq 18SX",
       "ModelStatus": "DISCONTINUED",
@@ -2057,14 +2164,16 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS5",
       "ModelId": "PTH-450",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Intuos5 touch Small",
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 320.0,
+        "Width": 320,
         "Height": 208.2,
         "Depth": 12.7
       },
@@ -2088,7 +2197,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-451",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2013",
       "ModelName": "Intuos Pro Small (2013)",
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
@@ -2119,7 +2230,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-460",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Intuos Pro Small (2017)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
@@ -2127,7 +2240,7 @@
       "PhysicalDimensions": {
         "Width": 269.2,
         "Height": 170.1,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "450",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2149,14 +2262,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-650",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Intuos5 touch Medium",
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 381.0,
+        "Width": 381,
         "Height": 251.46,
         "Depth": 12.7
       },
@@ -2180,7 +2295,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-651",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2013",
       "ModelName": "Intuos Pro Medium (2013)",
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
@@ -2201,8 +2318,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 224.0,
-        "Height": 148.0
+        "Width": 224,
+        "Height": 148
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -2211,15 +2328,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-660",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Intuos Pro Medium (2017)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 338.0,
-        "Height": 219.0,
-        "Depth": 8.0
+        "Width": 338,
+        "Height": 219,
+        "Depth": 8
       },
       "PhysicalWeight": "700",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2243,7 +2362,9 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS5",
       "ModelId": "PTH-850",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Intuos5 touch Large",
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
@@ -2274,16 +2395,18 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-851",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2013",
       "ModelName": "Intuos Pro Large (2013)",
       "ModelProductLink": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 487.0,
+        "Width": 487,
         "Height": 317.7,
-        "Depth": 12.0
+        "Depth": 12
       },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2295,8 +2418,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 311.0,
-        "Height": 216.0
+        "Width": 311,
+        "Height": 216
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerReportRate": "200",
@@ -2305,15 +2428,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTH-860",
-      "ModelIncludedPen": "KP-504E",
+      "ModelIncludedPen": [
+        "KP-504E"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Intuos Pro Large (2017)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 430.4,
-        "Height": 287.0,
-        "Depth": 8.0
+        "Height": 287,
+        "Depth": 8
       },
       "PhysicalWeight": "1300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2337,16 +2462,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS4",
       "ModelId": "PTK-1240",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2009",
       "ModelName": "Intuos4 XL",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 623.0,
-        "Height": 462.0,
-        "Depth": 28.0
+        "Width": 623,
+        "Height": 462,
+        "Depth": 28
       },
       "PhysicalWeight": "3500",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2370,16 +2497,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS4",
       "ModelId": "PTK-440",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2009",
       "ModelName": "Intuos4 Small",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 309.0,
-        "Height": 208.0,
-        "Depth": 12.0
+        "Width": 309,
+        "Height": 208,
+        "Depth": 12
       },
       "PhysicalWeight": "700",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2402,14 +2531,16 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS5",
       "ModelId": "PTK-450",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Intuos5 Small",
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 320.0,
+        "Width": 320,
         "Height": 208.2,
         "Depth": 12.7
       },
@@ -2424,8 +2555,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 187.0,
-        "Height": 105.0
+        "Width": 187,
+        "Height": 105
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "NO",
@@ -2433,15 +2564,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTK-470",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Intuos Pro Small (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 215.0,
-        "Height": 163.0,
-        "Depth": 7.0
+        "Width": 215,
+        "Height": 163,
+        "Depth": 7
       },
       "PhysicalWeight": "240",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2454,7 +2587,7 @@
     {
       "DigitizerDimensions": {
         "Width": 203.2,
-        "Height": 127.0
+        "Height": 127
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "2048",
@@ -2463,16 +2596,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS4",
       "ModelId": "PTK-540WL",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2009",
       "ModelName": "Intuos4 Wireless",
       "ModelProductLink": "https://www.picmod.com/goods.php?id=143",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 363.0,
-        "Height": 253.0,
-        "Depth": 15.0
+        "Width": 363,
+        "Height": 253,
+        "Depth": 15
       },
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2496,16 +2631,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS4",
       "ModelId": "PTK-640",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2009",
       "ModelName": "Intuos4 Medium",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 370.0,
-        "Height": 254.0,
-        "Depth": 12.0
+        "Width": 370,
+        "Height": 254,
+        "Depth": 12
       },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2528,14 +2665,16 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS5",
       "ModelId": "PTK-650",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2012",
       "ModelName": "Intuos5 Medium",
       "ModelProductLink": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 381.0,
+        "Width": 381,
         "Height": 251.46,
         "Depth": 12.7
       },
@@ -2550,8 +2689,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 263.0,
-        "Height": 148.0
+        "Width": 263,
+        "Height": 148
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "NO",
@@ -2559,15 +2698,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTK-670",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Intuos Pro Medium (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 291.0,
-        "Height": 206.0,
-        "Depth": 7.0
+        "Width": 291,
+        "Height": 206,
+        "Depth": 7
       },
       "PhysicalWeight": "411",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2590,16 +2731,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS4",
       "ModelId": "PTK-840",
-      "ModelIncludedPen": "KP-501E",
+      "ModelIncludedPen": [
+        "KP-501E"
+      ],
       "ModelLaunchYear": "2009",
       "ModelName": "Intuos4 Large",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 474.0,
-        "Height": 320.0,
-        "Depth": 14.0
+        "Width": 474,
+        "Height": 320,
+        "Depth": 14
       },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2612,8 +2755,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 349.0,
-        "Height": 195.0
+        "Width": 349,
+        "Height": 195
       },
       "DigitizerPressureLevels": "8192",
       "DigitizerSupportsTouch": "NO",
@@ -2621,15 +2764,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "PTK-870",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Intuos Pro Large (2025)",
       "ModelProductLink": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 377.0,
-        "Height": 253.0,
-        "Depth": 7.0
+        "Width": 377,
+        "Height": 253,
+        "Depth": 7
       },
       "PhysicalWeight": "660",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2651,7 +2796,9 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-1230",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 12x12",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
@@ -2683,7 +2830,9 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-1231W",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 12x19",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
@@ -2705,7 +2854,7 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 127.0,
+        "Width": 127,
         "Height": 101.6
       },
       "DigitizerPressureLevels": "1024",
@@ -2715,7 +2864,9 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-430",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 4x5",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
@@ -2723,8 +2874,8 @@
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 238.5,
-        "Height": 217.0,
-        "Depth": 13.0
+        "Height": 217,
+        "Depth": 13
       },
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2747,16 +2898,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-431W",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 4x6",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 270.0,
-        "Height": 210.0,
-        "Depth": 13.0
+        "Width": 270,
+        "Height": 210,
+        "Depth": 13
       },
       "PhysicalWeight": "800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2779,16 +2932,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-630",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 6x8",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 345.0,
+        "Width": 345,
         "Height": 261.5,
-        "Depth": 13.0
+        "Depth": 13
       },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2801,7 +2956,7 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 271.0,
+        "Width": 271,
         "Height": 158.8
       },
       "DigitizerPressureLevels": "1024",
@@ -2811,7 +2966,9 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-631W",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 6x11",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
@@ -2819,8 +2976,8 @@
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 417.6,
-        "Height": 262.0,
-        "Depth": 14.0
+        "Height": 262,
+        "Depth": 14
       },
       "PhysicalWeight": "1400",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2843,7 +3000,9 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS3",
       "ModelId": "PTZ-930",
-      "ModelIncludedPen": "ZP-501E",
+      "ModelIncludedPen": [
+        "ZP-501E"
+      ],
       "ModelLaunchYear": "2004",
       "ModelName": "Intuos3 9x12",
       "ModelProductLink": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
@@ -2851,8 +3010,8 @@
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 439.5,
-        "Height": 340.0,
-        "Depth": 14.0
+        "Height": 340,
+        "Depth": 14
       },
       "PhysicalWeight": "1800",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2865,8 +3024,8 @@
     },
     {
       "DigitizerDimensions": {
-        "Width": 127.0,
-        "Height": 106.0
+        "Width": 127,
+        "Height": 106
       },
       "DigitizerPressureLevels": "1024",
       "DigitizerReportRate": "100",
@@ -2875,15 +3034,17 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS2",
       "ModelId": "XD-0405-U",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "ModelLaunchYear": "2001",
       "ModelName": "Intuos2 4x5",
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 225.0,
-        "Height": 210.0,
+        "Width": 225,
+        "Height": 210,
         "Depth": 7.5
       },
       "PhysicalWeight": "520",
@@ -2907,16 +3068,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS2",
       "ModelId": "XD-0608-U",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "ModelLaunchYear": "2001",
       "ModelName": "Intuos2 6x8",
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 334.0,
-        "Height": 258.0,
-        "Depth": 14.0
+        "Width": 334,
+        "Height": 258,
+        "Depth": 14
       },
       "PhysicalWeight": "900",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2939,16 +3102,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS2",
       "ModelId": "XD-0912-U",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "ModelLaunchYear": "2001",
       "ModelName": "Intuos2 9x12",
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 361.0,
-        "Depth": 14.0
+        "Width": 456,
+        "Height": 361,
+        "Depth": 14
       },
       "PhysicalWeight": "1600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2971,16 +3136,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS2",
       "ModelId": "XD-1212-U",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "ModelLaunchYear": "2001",
       "ModelName": "Intuos2 12x12",
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 444.0,
+        "Width": 444,
         "Height": 435.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "2100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -3003,16 +3170,18 @@
       "ModelAudience": "Professional",
       "ModelFamily": "INTUOS2",
       "ModelId": "XD-1218-U",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "ModelLaunchYear": "2001",
       "ModelName": "Intuos2 12x18",
       "ModelProductLink": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 616.0,
+        "Width": 616,
         "Height": 445.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "3000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -3035,7 +3204,9 @@
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
       "DigitizerSupportsTouch": "YES",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "DigitizerDimensions": {
         "Width": 243,
         "Height": 159
@@ -3080,7 +3251,9 @@
       "_CreateDate": "2026-04-01T09:11:12.000Z",
       "_ModifiedDate": "2026-04-01T09:11:12.000Z",
       "DigitizerSupportsTouch": "YES",
-      "ModelIncludedPen": "ACP-500",
+      "ModelIncludedPen": [
+        "ACP-500"
+      ],
       "DigitizerDimensions": {
         "Width": 302,
         "Height": 189
@@ -3127,16 +3300,16 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "20",
       "DigitizerDimensions": {
-        "Width": 232.0,
-        "Height": 151.0
+        "Width": 232,
+        "Height": 151
       },
       "PhysicalDimensions": {
-        "Width": 327.0,
-        "Height": 238.0,
+        "Width": 327,
+        "Height": 238,
         "Depth": 7.5
       },
       "PhysicalWeight": "2000",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3157,12 +3330,12 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 420.0,
-        "Height": 420.0,
-        "Depth": 70.0
+        "Width": 420,
+        "Height": 420,
+        "Depth": 70
       },
       "PhysicalWeight": "4000",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3183,12 +3356,12 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 420.0,
-        "Height": 420.0,
-        "Depth": 70.0
+        "Width": 420,
+        "Height": 420,
+        "Depth": 70
       },
       "PhysicalWeight": "4000",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3209,12 +3382,12 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 420.0,
-        "Height": 420.0,
-        "Depth": 70.0
+        "Width": 420,
+        "Height": 420,
+        "Depth": 70
       },
       "PhysicalWeight": "4000",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3231,16 +3404,16 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 361.0,
-        "Height": 361.0
+        "Width": 361,
+        "Height": 361
       },
       "PhysicalDimensions": {
-        "Width": 528.0,
-        "Height": 526.0,
-        "Depth": 77.0
+        "Width": 528,
+        "Height": 526,
+        "Depth": 77
       },
       "PhysicalWeight": "5500",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3257,16 +3430,16 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 361.0,
-        "Height": 361.0
+        "Width": 361,
+        "Height": 361
       },
       "PhysicalDimensions": {
-        "Width": 528.0,
-        "Height": 526.0,
-        "Depth": 77.0
+        "Width": 528,
+        "Height": 526,
+        "Depth": 77
       },
       "PhysicalWeight": "5500",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3283,16 +3456,16 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 361.0,
-        "Height": 361.0
+        "Width": 361,
+        "Height": 361
       },
       "PhysicalDimensions": {
-        "Width": 528.0,
-        "Height": 526.0,
-        "Depth": 77.0
+        "Width": 528,
+        "Height": 526,
+        "Depth": 77
       },
       "PhysicalWeight": "5500",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3313,12 +3486,12 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 582.0,
-        "Height": 440.0,
-        "Depth": 70.0
+        "Width": 582,
+        "Height": 440,
+        "Depth": 70
       },
       "PhysicalWeight": "5200",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3339,12 +3512,12 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 582.0,
-        "Height": 440.0,
-        "Depth": 70.0
+        "Width": 582,
+        "Height": 440,
+        "Depth": 70
       },
       "PhysicalWeight": "5200",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3365,12 +3538,12 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 582.0,
-        "Height": 440.0,
-        "Depth": 70.0
+        "Width": 582,
+        "Height": 440,
+        "Depth": 70
       },
       "PhysicalWeight": "5200",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3387,15 +3560,15 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 635.0,
-        "Height": 462.0
+        "Width": 635,
+        "Height": 462
       },
       "PhysicalDimensions": {
-        "Width": 779.0,
-        "Height": 613.0
+        "Width": 779,
+        "Height": 613
       },
       "PhysicalWeight": "10500",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3412,16 +3585,16 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 1193.0,
-        "Height": 889.0
+        "Width": 1193,
+        "Height": 889
       },
       "PhysicalDimensions": {
-        "Width": 1454.0,
-        "Height": 1091.0,
-        "Depth": 30.0
+        "Width": 1454,
+        "Height": 1091,
+        "Depth": 30
       },
       "PhysicalWeight": "33000",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3438,16 +3611,16 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 1193.0,
-        "Height": 889.0
+        "Width": 1193,
+        "Height": 889
       },
       "PhysicalDimensions": {
-        "Width": 1454.0,
-        "Height": 1091.0,
-        "Depth": 30.0
+        "Width": 1454,
+        "Height": 1091,
+        "Depth": 30
       },
       "PhysicalWeight": "33000",
-      "ModelIncludedPen": "",
+      "ModelIncludedPen": [],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3464,16 +3637,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 127.0,
-        "Height": 106.0
+        "Width": 127,
+        "Height": 106
       },
       "PhysicalDimensions": {
-        "Width": 225.0,
-        "Height": 210.0,
+        "Width": 225,
+        "Height": 210,
         "Depth": 7.5
       },
       "PhysicalWeight": "520",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3490,16 +3665,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 127.0,
-        "Height": 106.0
+        "Width": 127,
+        "Height": 106
       },
       "PhysicalDimensions": {
-        "Width": 225.0,
-        "Height": 210.0,
+        "Width": 225,
+        "Height": 210,
         "Depth": 7.5
       },
       "PhysicalWeight": "520",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3516,16 +3693,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 127.0,
-        "Height": 106.0
+        "Width": 127,
+        "Height": 106
       },
       "PhysicalDimensions": {
-        "Width": 225.0,
-        "Height": 210.0,
+        "Width": 225,
+        "Height": 210,
         "Depth": 7.5
       },
       "PhysicalWeight": "520",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3546,12 +3725,14 @@
         "Height": 162.4
       },
       "PhysicalDimensions": {
-        "Width": 334.0,
-        "Height": 258.0,
-        "Depth": 14.0
+        "Width": 334,
+        "Height": 258,
+        "Depth": 14
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3572,12 +3753,14 @@
         "Height": 162.4
       },
       "PhysicalDimensions": {
-        "Width": 334.0,
-        "Height": 258.0,
-        "Depth": 14.0
+        "Width": 334,
+        "Height": 258,
+        "Depth": 14
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3598,12 +3781,14 @@
         "Height": 162.4
       },
       "PhysicalDimensions": {
-        "Width": 334.0,
-        "Height": 258.0,
-        "Depth": 14.0
+        "Width": 334,
+        "Height": 258,
+        "Depth": 14
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3624,12 +3809,14 @@
         "Height": 240.6
       },
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 361.0,
-        "Depth": 14.0
+        "Width": 456,
+        "Height": 361,
+        "Depth": 14
       },
       "PhysicalWeight": "1600",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3650,12 +3837,14 @@
         "Height": 240.6
       },
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 361.0,
-        "Depth": 14.0
+        "Width": 456,
+        "Height": 361,
+        "Depth": 14
       },
       "PhysicalWeight": "1600",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3676,12 +3865,14 @@
         "Height": 240.6
       },
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 361.0,
-        "Depth": 14.0
+        "Width": 456,
+        "Height": 361,
+        "Depth": 14
       },
       "PhysicalWeight": "1600",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3702,12 +3893,14 @@
         "Height": 316.8
       },
       "PhysicalDimensions": {
-        "Width": 444.0,
+        "Width": 444,
         "Height": 435.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "2100",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3728,12 +3921,14 @@
         "Height": 316.8
       },
       "PhysicalDimensions": {
-        "Width": 444.0,
+        "Width": 444,
         "Height": 435.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "2100",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3754,12 +3949,14 @@
         "Height": 316.8
       },
       "PhysicalDimensions": {
-        "Width": 616.0,
+        "Width": 616,
         "Height": 445.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "3000",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3780,12 +3977,14 @@
         "Height": 316.8
       },
       "PhysicalDimensions": {
-        "Width": 616.0,
+        "Width": 616,
         "Height": 445.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "3000",
-      "ModelIncludedPen": "GP-300E",
+      "ModelIncludedPen": [
+        "GP-300E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3802,16 +4001,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 127.0,
-        "Height": 106.0
+        "Width": 127,
+        "Height": 106
       },
       "PhysicalDimensions": {
-        "Width": 225.0,
-        "Height": 210.0,
+        "Width": 225,
+        "Height": 210,
         "Depth": 7.5
       },
       "PhysicalWeight": "520",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3832,12 +4033,14 @@
         "Height": 162.4
       },
       "PhysicalDimensions": {
-        "Width": 334.0,
-        "Height": 258.0,
-        "Depth": 14.0
+        "Width": 334,
+        "Height": 258,
+        "Depth": 14
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3858,12 +4061,14 @@
         "Height": 240.6
       },
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 361.0,
-        "Depth": 14.0
+        "Width": 456,
+        "Height": 361,
+        "Depth": 14
       },
       "PhysicalWeight": "1600",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3884,12 +4089,14 @@
         "Height": 316.8
       },
       "PhysicalDimensions": {
-        "Width": 444.0,
+        "Width": 444,
         "Height": 435.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "2100",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3910,12 +4117,14 @@
         "Height": 316.8
       },
       "PhysicalDimensions": {
-        "Width": 616.0,
+        "Width": 616,
         "Height": 445.5,
-        "Depth": 37.0
+        "Depth": 37
       },
       "PhysicalWeight": "3000",
-      "ModelIncludedPen": "XP-501E",
+      "ModelIncludedPen": [
+        "XP-501E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3933,7 +4142,7 @@
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
         "Width": 147.2,
-        "Height": 92.0
+        "Height": 92
       },
       "PhysicalDimensions": {
         "Width": 248.2,
@@ -3941,7 +4150,9 @@
         "Depth": 8.5
       },
       "PhysicalWeight": "360",
-      "ModelIncludedPen": "LP-160E",
+      "ModelIncludedPen": [
+        "LP-160E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3959,7 +4170,7 @@
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
         "Width": 147.2,
-        "Height": 92.0
+        "Height": 92
       },
       "PhysicalDimensions": {
         "Width": 248.2,
@@ -3967,7 +4178,9 @@
         "Depth": 8.5
       },
       "PhysicalWeight": "360",
-      "ModelIncludedPen": "LP-160",
+      "ModelIncludedPen": [
+        "LP-160"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -3985,15 +4198,17 @@
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
         "Width": 216.5,
-        "Height": 137.0
+        "Height": 137
       },
       "PhysicalDimensions": {
         "Width": 336.8,
-        "Height": 223.0,
+        "Height": 223,
         "Depth": 8.5
       },
       "PhysicalWeight": "600",
-      "ModelIncludedPen": "LP-160",
+      "ModelIncludedPen": [
+        "LP-160"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4011,15 +4226,17 @@
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
         "Width": 216.48,
-        "Height": 137.0
+        "Height": 137
       },
       "PhysicalDimensions": {
         "Width": 336.8,
-        "Height": 223.0,
+        "Height": 223,
         "Depth": 8.5
       },
       "PhysicalWeight": "740",
-      "ModelIncludedPen": "LP-161E",
+      "ModelIncludedPen": [
+        "LP-161E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4037,7 +4254,7 @@
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
         "Width": 147.2,
-        "Height": 92.0
+        "Height": 92
       },
       "PhysicalDimensions": {
         "Width": 248.2,
@@ -4045,7 +4262,9 @@
         "Depth": 8.5
       },
       "PhysicalWeight": "420",
-      "ModelIncludedPen": "LP-161E",
+      "ModelIncludedPen": [
+        "LP-161E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4062,16 +4281,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "PhysicalDimensions": {
-        "Width": 277.0,
-        "Height": 189.0,
+        "Width": 277,
+        "Height": 189,
         "Depth": 7.5
       },
       "PhysicalWeight": "422",
-      "ModelIncludedPen": "LP-171",
+      "ModelIncludedPen": [
+        "LP-171"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4088,16 +4309,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "PhysicalDimensions": {
-        "Width": 210.0,
-        "Height": 146.0,
+        "Width": 210,
+        "Height": 146,
         "Depth": 7.5
       },
       "PhysicalWeight": "245",
-      "ModelIncludedPen": "LP-171",
+      "ModelIncludedPen": [
+        "LP-171"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4114,16 +4337,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "PhysicalDimensions": {
-        "Width": 275.0,
+        "Width": 275,
         "Height": 221.5,
         "Depth": 10.1
       },
       "PhysicalWeight": "500",
-      "ModelIncludedPen": "LP-180",
+      "ModelIncludedPen": [
+        "LP-180"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4140,16 +4365,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 216.0,
-        "Height": 135.0
+        "Width": 216,
+        "Height": 135
       },
       "PhysicalDimensions": {
-        "Width": 275.0,
+        "Width": 275,
         "Height": 221.5,
         "Depth": 10.1
       },
       "PhysicalWeight": "520",
-      "ModelIncludedPen": "LP-180E",
+      "ModelIncludedPen": [
+        "LP-180E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4166,16 +4393,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "PhysicalDimensions": {
         "Width": 209.9,
         "Height": 177.5,
-        "Depth": 10.0
+        "Depth": 10
       },
       "PhysicalWeight": "300",
-      "ModelIncludedPen": "LP-180",
+      "ModelIncludedPen": [
+        "LP-180"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4192,16 +4421,18 @@
       "ModelStatus": "DISCONTINUED",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 152.0,
-        "Height": 95.0
+        "Width": 152,
+        "Height": 95
       },
       "PhysicalDimensions": {
         "Width": 209.9,
         "Height": 177.5,
-        "Depth": 10.0
+        "Depth": 10
       },
       "PhysicalWeight": "310",
-      "ModelIncludedPen": "LP-180E",
+      "ModelIncludedPen": [
+        "LP-180E"
+      ],
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4216,13 +4447,15 @@
         "Height": 92.3
       },
       "PhysicalDimensions": {
-        "Width": 200.0,
-        "Height": 186.0,
+        "Width": 200,
+        "Height": 186,
         "Depth": 10.7
       },
       "DigitizerDensity": "100",
       "PhysicalWeight": "370",
-      "ModelIncludedPen": "EP-150E",
+      "ModelIncludedPen": [
+        "EP-150E"
+      ],
       "_id": "b1f9b803-7dd6-48c7-b007-9b772023da62",
       "_CreateDate": "2026-04-01T18:26:13.000Z",
       "_ModifiedDate": "2026-04-01T18:26:13.000Z",
@@ -4240,13 +4473,15 @@
         "Height": 78.8
       },
       "PhysicalDimensions": {
-        "Width": 200.0,
-        "Height": 160.0,
-        "Depth": 23.0
+        "Width": 200,
+        "Height": 160,
+        "Depth": 23
       },
       "DigitizerDensity": "100",
       "PhysicalWeight": "300",
-      "ModelIncludedPen": "UP-812E",
+      "ModelIncludedPen": [
+        "UP-812E"
+      ],
       "_id": "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
       "_CreateDate": "2026-04-01T18:26:13.000Z",
       "_ModifiedDate": "2026-04-01T18:26:13.000Z",
@@ -4264,13 +4499,15 @@
         "Height": 92.8
       },
       "PhysicalDimensions": {
-        "Width": 208.0,
+        "Width": 208,
         "Height": 203.8,
         "Depth": 17.8
       },
       "DigitizerDensity": "80",
       "PhysicalWeight": "500",
-      "ModelIncludedPen": "EP-140E",
+      "ModelIncludedPen": [
+        "EP-140E"
+      ],
       "_id": "8aa5061d-b26f-473c-878a-e3e8db4fd5f2",
       "_CreateDate": "2026-04-01T18:26:13.000Z",
       "_ModifiedDate": "2026-04-01T18:26:13.000Z",
@@ -4288,13 +4525,15 @@
         "Height": 150.8
       },
       "PhysicalDimensions": {
-        "Width": 278.0,
+        "Width": 278,
         "Height": 263.8,
-        "Depth": 18.0
+        "Depth": 18
       },
       "DigitizerDensity": "80",
       "PhysicalWeight": "860",
-      "ModelIncludedPen": "EP-140E",
+      "ModelIncludedPen": [
+        "EP-140E"
+      ],
       "_id": "819a2d36-c970-4b7b-a0e5-17b96aebe911",
       "_CreateDate": "2026-04-01T18:26:13.000Z",
       "_ModifiedDate": "2026-04-01T18:26:13.000Z",
@@ -4313,12 +4552,14 @@
         "Height": 92.3
       },
       "PhysicalDimensions": {
-        "Width": 195.0,
-        "Height": 197.0,
+        "Width": 195,
+        "Height": 197,
         "Depth": 10.7
       },
       "PhysicalWeight": "300",
-      "ModelIncludedPen": "EP-150",
+      "ModelIncludedPen": [
+        "EP-150"
+      ],
       "_id": "481647b6-66f0-4b41-8313-ef3166220a84",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4338,11 +4579,13 @@
       },
       "PhysicalDimensions": {
         "Width": 263.9,
-        "Height": 240.0,
+        "Height": 240,
         "Depth": 10.7
       },
       "PhysicalWeight": "490",
-      "ModelIncludedPen": "EP-150",
+      "ModelIncludedPen": [
+        "EP-150"
+      ],
       "_id": "5f277db4-74be-4f51-9ed8-1067e69ae366",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4356,8 +4599,8 @@
       "ModelType": "PENTABLET",
       "ModelLaunchYear": "",
       "DigitizerDimensions": {
-        "Width": 125.0,
-        "Height": 85.0
+        "Width": 125,
+        "Height": 85
       },
       "PhysicalDimensions": {
         "Width": 208.4,
@@ -4379,8 +4622,8 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "20",
       "DigitizerDimensions": {
-        "Width": 107.0,
-        "Height": 67.0
+        "Width": 107,
+        "Height": 67
       },
       "PhysicalDimensions": {
         "Width": 141.4,
@@ -4402,8 +4645,8 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "20",
       "DigitizerDimensions": {
-        "Width": 107.0,
-        "Height": 67.0
+        "Width": 107,
+        "Height": 67
       },
       "PhysicalDimensions": {
         "Width": 141.4,
@@ -4429,11 +4672,13 @@
         "Height": 92.8
       },
       "PhysicalDimensions": {
-        "Width": 210.0,
-        "Height": 208.0,
+        "Width": 210,
+        "Height": 208,
         "Depth": 17.5
       },
-      "ModelIncludedPen": "EP-130",
+      "ModelIncludedPen": [
+        "EP-130"
+      ],
       "_id": "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4452,12 +4697,14 @@
         "Height": 92.8
       },
       "PhysicalDimensions": {
-        "Width": 210.0,
-        "Height": 208.0,
+        "Width": 210,
+        "Height": 208,
         "Depth": 17.5
       },
       "PhysicalWeight": "500",
-      "ModelIncludedPen": "EP-130",
+      "ModelIncludedPen": [
+        "EP-130"
+      ],
       "_id": "77471e7e-24fb-4504-82f6-4383c87ef761",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4476,10 +4723,12 @@
         "Height": 150.8
       },
       "PhysicalDimensions": {
-        "Width": 257.0,
-        "Height": 280.0
+        "Width": 257,
+        "Height": 280
       },
-      "ModelIncludedPen": "EP-130E",
+      "ModelIncludedPen": [
+        "EP-130E"
+      ],
       "_id": "fb5f0dbe-189f-4fcd-9594-a689384c9b77",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4503,7 +4752,9 @@
         "Depth": 18.1
       },
       "PhysicalWeight": "800",
-      "ModelIncludedPen": "EP-130",
+      "ModelIncludedPen": [
+        "EP-130"
+      ],
       "_id": "db9bef5c-47c5-4556-9532-77cb8903694b",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4522,12 +4773,14 @@
         "Height": 92.8
       },
       "PhysicalDimensions": {
-        "Width": 195.0,
-        "Height": 197.0,
+        "Width": 195,
+        "Height": 197,
         "Depth": 10.7
       },
       "PhysicalWeight": "300",
-      "ModelIncludedPen": "FP-500",
+      "ModelIncludedPen": [
+        "FP-500"
+      ],
       "_id": "96a27443-d4f6-4086-970d-bcf2f43c1c89",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4543,15 +4796,17 @@
       "DigitizerDensity": "40",
       "DigitizerDimensions": {
         "Width": 81.2,
-        "Height": 58.0
+        "Height": 58
       },
       "PhysicalDimensions": {
-        "Width": 146.0,
+        "Width": 146,
         "Height": 150.6,
         "Depth": 8.5
       },
       "PhysicalWeight": "160",
-      "ModelIncludedPen": "FP-410",
+      "ModelIncludedPen": [
+        "FP-410"
+      ],
       "_id": "7a4254fc-d326-400c-a360-ee865bbb7ca1",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4575,7 +4830,9 @@
         "Depth": 12.9
       },
       "PhysicalWeight": "340",
-      "ModelIncludedPen": "FP-410",
+      "ModelIncludedPen": [
+        "FP-410"
+      ],
       "_id": "a7f1f73e-e80e-45c6-a65e-110405e88cf3",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4590,10 +4847,12 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "40",
       "DigitizerDimensions": {
-        "Width": 65.0,
+        "Width": 65,
         "Height": 46.4
       },
-      "ModelIncludedPen": "FP-110",
+      "ModelIncludedPen": [
+        "FP-110"
+      ],
       "_id": "3b998f71-1696-4a81-9432-f0a8c6005bf5",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4613,11 +4872,13 @@
       },
       "PhysicalDimensions": {
         "Width": 224.1,
-        "Height": 221.0,
+        "Height": 221,
         "Depth": 22.3
       },
       "PhysicalWeight": "314",
-      "ModelIncludedPen": "FP-100",
+      "ModelIncludedPen": [
+        "FP-100"
+      ],
       "_id": "57e86c16-60a6-47d6-9097-6537b9d258fc",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4637,11 +4898,13 @@
       },
       "PhysicalDimensions": {
         "Width": 216.1,
-        "Height": 218.0,
+        "Height": 218,
         "Depth": 9.3
       },
       "PhysicalWeight": "426",
-      "ModelIncludedPen": "EP-120E",
+      "ModelIncludedPen": [
+        "EP-120E"
+      ],
       "_id": "0228d88a-29b6-4c72-a657-65c7713dc600",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4660,12 +4923,14 @@
         "Height": 127.8
       },
       "PhysicalDimensions": {
-        "Width": 284.0,
-        "Height": 241.0,
+        "Width": 284,
+        "Height": 241,
         "Depth": 9.8
       },
       "PhysicalWeight": "560",
-      "ModelIncludedPen": "EP-120E",
+      "ModelIncludedPen": [
+        "EP-120E"
+      ],
       "_id": "5b6b01b0-0203-4791-845c-b4bedc8d00ab",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4684,12 +4949,14 @@
         "Height": 92.8
       },
       "PhysicalDimensions": {
-        "Width": 209.0,
-        "Height": 214.0,
+        "Width": 209,
+        "Height": 214,
         "Depth": 9.3
       },
       "PhysicalWeight": "342",
-      "ModelIncludedPen": "EP-100E",
+      "ModelIncludedPen": [
+        "EP-100E"
+      ],
       "_id": "cf6efc20-4d44-4c80-9d10-1a7e19453c91",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4708,12 +4975,14 @@
         "Height": 92.8
       },
       "PhysicalDimensions": {
-        "Width": 209.0,
-        "Height": 214.0,
+        "Width": 209,
+        "Height": 214,
         "Depth": 9.3
       },
       "PhysicalWeight": "342",
-      "ModelIncludedPen": "EP-100E",
+      "ModelIncludedPen": [
+        "EP-100E"
+      ],
       "_id": "6a5119e0-3993-4e4a-940c-0e98bcec7cf2",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4728,16 +4997,18 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "40",
       "DigitizerDimensions": {
-        "Width": 128.0,
-        "Height": 96.0
+        "Width": 128,
+        "Height": 96
       },
       "PhysicalDimensions": {
-        "Width": 196.0,
-        "Height": 181.0,
-        "Depth": 7.0
+        "Width": 196,
+        "Height": 181,
+        "Depth": 7
       },
       "PhysicalWeight": "430",
-      "ModelIncludedPen": "UP-703E",
+      "ModelIncludedPen": [
+        "UP-703E"
+      ],
       "_id": "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4752,16 +5023,18 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "40",
       "DigitizerDimensions": {
-        "Width": 128.0,
-        "Height": 96.0
+        "Width": 128,
+        "Height": 96
       },
       "PhysicalDimensions": {
-        "Width": 196.0,
-        "Height": 181.0,
-        "Depth": 7.0
+        "Width": 196,
+        "Height": 181,
+        "Depth": 7
       },
       "PhysicalWeight": "430",
-      "ModelIncludedPen": "UP-703E",
+      "ModelIncludedPen": [
+        "UP-703E"
+      ],
       "_id": "62a21f41-f8de-4641-abc9-f0a071911f9a",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4776,19 +5049,41 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "40",
       "DigitizerDimensions": {
-        "Width": 128.0,
-        "Height": 96.0
+        "Width": 128,
+        "Height": 96
       },
       "PhysicalDimensions": {
-        "Width": 196.0,
-        "Height": 181.0,
-        "Depth": 7.0
+        "Width": 196,
+        "Height": 181,
+        "Depth": 7
       },
       "PhysicalWeight": "430",
-      "ModelIncludedPen": "UP-703E",
+      "ModelIncludedPen": [
+        "UP-703E"
+      ],
       "_id": "74193ca2-68c5-4e6e-b9f4-c8c4537a6161",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
+      "DigitizerSupportsTouch": "NO"
+    },
+    {
+      "EntityId": "WACOM.TABLET.KT0405A",
+      "Brand": "WACOM",
+      "ModelId": "KT-0405-A",
+      "ModelName": "Wacom KT-0405-A",
+      "ModelType": "PENTABLET",
+      "ModelLaunchYear": "",
+      "DigitizerDensity": "100",
+      "DigitizerDimensions": {
+        "Width": 128,
+        "Height": 96
+      },
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
+      "_id": "379c2418-c8b5-4988-8a8d-8185dd1889b1",
+      "_CreateDate": "2026-04-07T00:42:47.000Z",
+      "_ModifiedDate": "2026-04-07T00:42:47.000Z",
       "DigitizerSupportsTouch": "NO"
     },
     {
@@ -4800,16 +5095,18 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 128.0,
-        "Height": 96.0
+        "Width": 128,
+        "Height": 96
       },
       "PhysicalDimensions": {
-        "Width": 191.0,
-        "Height": 175.0,
+        "Width": 191,
+        "Height": 175,
         "Depth": 6.98
       },
       "PhysicalWeight": "400",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "2d59e782-b141-45f4-879e-3123dadf4768",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4828,12 +5125,14 @@
         "Height": 153.6
       },
       "PhysicalDimensions": {
-        "Width": 330.0,
-        "Height": 243.0,
+        "Width": 330,
+        "Height": 243,
         "Depth": 13.9
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "33c99a6b-311f-4bbb-abc0-f6618606e632",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4848,16 +5147,18 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 128.0,
-        "Height": 96.0
+        "Width": 128,
+        "Height": 96
       },
       "PhysicalDimensions": {
-        "Width": 191.0,
-        "Height": 175.0,
+        "Width": 191,
+        "Height": 175,
         "Depth": 6.98
       },
       "PhysicalWeight": "400",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "90d162e3-5d09-42e7-9e2e-9ef6d50da1b5",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4872,16 +5173,18 @@
       "ModelLaunchYear": "",
       "DigitizerDensity": "100",
       "DigitizerDimensions": {
-        "Width": 128.0,
-        "Height": 96.0
+        "Width": 128,
+        "Height": 96
       },
       "PhysicalDimensions": {
-        "Width": 191.0,
-        "Height": 175.0,
+        "Width": 191,
+        "Height": 175,
         "Depth": 6.98
       },
       "PhysicalWeight": "400",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "1a59d57e-2dac-47a4-9b26-b64af2d2edc5",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4900,8 +5203,8 @@
         "Height": 153.6
       },
       "PhysicalDimensions": {
-        "Width": 330.0,
-        "Height": 243.0,
+        "Width": 330,
+        "Height": 243,
         "Depth": 13.9
       },
       "PhysicalWeight": "900",
@@ -4923,12 +5226,14 @@
         "Height": 153.6
       },
       "PhysicalDimensions": {
-        "Width": 330.0,
-        "Height": 243.0,
+        "Width": 330,
+        "Height": 243,
         "Depth": 13.9
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "a70e90a9-1511-4b03-a7bc-0335e129332e",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4947,12 +5252,14 @@
         "Height": 153.6
       },
       "PhysicalDimensions": {
-        "Width": 330.0,
-        "Height": 243.0,
+        "Width": 330,
+        "Height": 243,
         "Depth": 13.9
       },
       "PhysicalWeight": "900",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4971,12 +5278,14 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 407.0,
-        "Height": 417.0,
-        "Depth": 36.0
+        "Width": 407,
+        "Height": 417,
+        "Depth": 36
       },
       "PhysicalWeight": "2200",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -4995,12 +5304,14 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 407.0,
-        "Height": 417.0,
-        "Depth": 36.0
+        "Width": 407,
+        "Height": 417,
+        "Depth": 36
       },
       "PhysicalWeight": "2200",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -5019,12 +5330,14 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 572.0,
-        "Height": 430.0,
-        "Depth": 56.0
+        "Width": 572,
+        "Height": 430,
+        "Depth": 56
       },
       "PhysicalWeight": "3300",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -5043,12 +5356,14 @@
         "Height": 304.8
       },
       "PhysicalDimensions": {
-        "Width": 572.0,
-        "Height": 430.0,
-        "Depth": 56.0
+        "Width": 572,
+        "Height": 430,
+        "Depth": 56
       },
       "PhysicalWeight": "3300",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "d0e57e62-6372-46bf-890b-6b5d844df7a3",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
@@ -5063,16 +5378,18 @@
       "ModelLaunchYear": "1996",
       "DigitizerDensity": "50",
       "DigitizerDimensions": {
-        "Width": 635.0,
-        "Height": 462.0
+        "Width": 635,
+        "Height": 462
       },
       "PhysicalDimensions": {
-        "Width": 778.0,
-        "Height": 615.0,
-        "Depth": 78.0
+        "Width": 778,
+        "Height": 615,
+        "Depth": 78
       },
       "PhysicalWeight": "9700",
-      "ModelIncludedPen": "UP-801E",
+      "ModelIncludedPen": [
+        "UP-801E"
+      ],
       "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",

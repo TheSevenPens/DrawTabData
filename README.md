@@ -93,7 +93,7 @@ Fields on one entity reference IDs on another:
 
 | Field | On entity | References |
 |---|---|---|
-| `ModelIncludedPen` | Tablet | PenId on Pen |
+| `ModelIncludedPen` | Tablet | Array of PenIds on Pen |
 | `ModelFamily` | Tablet | FamilyId on TabletFamily |
 | `PenFamily` | Pen | FamilyId on PenFamily |
 | `TabletId` | PenCompat | ModelId on Tablet |

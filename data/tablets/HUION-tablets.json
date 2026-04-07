@@ -13,15 +13,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "G930L",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Inspiroy Giano G930L",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyGiano/inspiroy-giano.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 429.0,
-        "Height": 260.0,
-        "Depth": 9.0
+        "Width": 429,
+        "Height": 260,
+        "Depth": 9
       },
       "PhysicalWeight": "1145",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -57,14 +59,16 @@
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Consumer",
       "ModelId": "GS1161",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas 12",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-12.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 330.25,
-        "Height": 197.0,
+        "Height": 197,
         "Depth": 11.8
       },
       "PhysicalWeight": "735",
@@ -106,7 +110,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS1331",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Kamvas 13",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-13.html",
@@ -149,7 +155,9 @@
       "DisplayViewingAngleVertical": "165",
       "ModelAudience": "Consumer",
       "ModelId": "GS1333",
-      "ModelIncludedPen": "PW600L",
+      "ModelIncludedPen": [
+        "PW600L"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Kamvas 13 GEN3",
       "ModelType": "PENDISPLAY",
@@ -197,15 +205,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS1562",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas 16 (2021)",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-16-2021.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 423.52,
-        "Height": 253.0,
-        "Depth": 12.0
+        "Height": 253,
+        "Depth": 12
       },
       "PhysicalWeight": "1260",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -245,7 +255,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS1563",
-      "ModelIncludedPen": "PW600L",
+      "ModelIncludedPen": [
+        "PW600L"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Kamvas 16 GEN3",
       "ModelProductLink": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
@@ -295,15 +307,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS2201",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Kamvas 22",
       "ModelProductLink": "https://www.huion.us/products/huion-kamvas-22",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 546.0,
-        "Height": 323.0,
-        "Depth": 19.0
+        "Width": 546,
+        "Height": 323,
+        "Depth": 19
       },
       "PhysicalWeight": "3900",
       "PhysicalWeightInclStand": "YES",
@@ -345,15 +359,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS2202",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Kamvas 22 Plus",
       "ModelProductLink": "https://www.huion.us/products/huion-kamvas-22-plus",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 546.0,
-        "Height": 323.0,
-        "Depth": 19.0
+        "Width": 546,
+        "Height": 323,
+        "Depth": 19
       },
       "PhysicalWeight": "2900",
       "PhysicalWeightInclStand": "YES",
@@ -392,7 +408,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS2401",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas 24",
       "ModelProductLink": "https://www.huion.com/products/pen_display/Kamvas/kamvas-24.html",
@@ -447,14 +465,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GS2402",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas 24 Plus",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-24-plus.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 604.2,
-        "Height": 358.0,
+        "Height": 358,
         "Depth": 28.3
       },
       "PhysicalWeight": "5600",
@@ -498,7 +518,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT-156 V2",
-      "ModelIncludedPen": "PW600A",
+      "ModelIncludedPen": [
+        "PW600A"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Kamvas Pro 16 V2",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
@@ -547,15 +569,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GT-156HDV2",
-      "ModelIncludedPen": "PE330",
+      "ModelIncludedPen": [
+        "PE330"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "GT-156HD V2",
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-156HD_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 434.0,
-        "Height": 264.0,
+        "Width": 434,
+        "Height": 264,
         "Depth": 14.8
       },
       "PhysicalWeight": "1500",
@@ -587,7 +611,9 @@
       "DisplayViewingAngleHorizontal": "160",
       "DisplayViewingAngleVertical": "120",
       "ModelId": "GT-190",
-      "ModelIncludedPen": "PEN68D",
+      "ModelIncludedPen": [
+        "PEN68D"
+      ],
       "ModelLaunchYear": "2015",
       "ModelName": "GT-190",
       "ModelProductLink": "https://www.ati.com.ph/huion/prod-gt190.html",
@@ -596,7 +622,7 @@
       "PhysicalDimensions": {
         "Width": 454.4,
         "Height": 351.8,
-        "Depth": 26.0
+        "Depth": 26
       },
       "PhysicalWeight": "4300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -641,7 +667,10 @@
       "DisplayViewingAngleVertical": "170",
       "ModelAudience": "Professional",
       "ModelId": "GT-1902",
-      "ModelIncludedPen": "PW600,PW600S",
+      "ModelIncludedPen": [
+        "PW600",
+        "PW600S"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Kamvas Pro 19",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
@@ -688,16 +717,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GT-220V2",
-      "ModelIncludedPen": "PE330",
+      "ModelIncludedPen": [
+        "PE330"
+      ],
       "ModelLaunchYear": "2016",
       "ModelName": "Kamvas GT-220 V2",
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-220_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 517.0,
-        "Height": 323.0,
-        "Depth": 37.0
+        "Width": 517,
+        "Height": 323,
+        "Depth": 37
       },
       "PhysicalWeight": "3700",
       "PhysicalWeightInclStand": "YES",
@@ -742,14 +773,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT-2701",
-      "ModelIncludedPen": "PW600",
+      "ModelIncludedPen": [
+        "PW600"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Kamvas Pro 27",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 656.1,
-        "Height": 405.0,
+        "Height": 405,
         "Depth": 22.7
       },
       "PhysicalWeight": "8000",
@@ -792,16 +825,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT116",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Kamvas Pro 12",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_12.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 350.0,
+        "Width": 350,
         "Height": 198.6,
-        "Depth": 11.0
+        "Depth": 11
       },
       "PhysicalWeight": "765",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -843,15 +878,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT1302",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Kamvas Pro 13 2.5K",
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-13-2k",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 373.5,
-        "Height": 229.0,
-        "Depth": 10.0
+        "Height": 229,
+        "Depth": 10
       },
       "PhysicalWeight": "1000",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -892,16 +929,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT133",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Kamvas Pro 13",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_13.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 388.0,
-        "Height": 219.0,
-        "Depth": 11.0
+        "Width": 388,
+        "Height": 219,
+        "Depth": 11
       },
       "PhysicalWeight": "910",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -942,7 +981,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT1561",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas Pro 16 4K",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-4k.html",
@@ -950,7 +991,7 @@
       "PhysicalDimensions": {
         "Width": 402.7,
         "Height": 257.4,
-        "Depth": 13.0
+        "Depth": 13
       },
       "PhysicalWeight": "1270",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -991,7 +1032,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT1562",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas Pro 16 4K Plus",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-plus-4k.html",
@@ -999,7 +1042,7 @@
       "PhysicalDimensions": {
         "Width": 402.7,
         "Height": 257.4,
-        "Depth": 13.0
+        "Depth": 13
       },
       "PhysicalWeight": "1270",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1041,7 +1084,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT1602",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Kamvas Pro 16 2.5K",
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-16-2k",
@@ -1089,7 +1134,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT1901",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Kamvas Pro 20 (2019)",
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-20-2019?vid=144",
@@ -1098,7 +1145,7 @@
       "PhysicalDimensions": {
         "Width": 552.2,
         "Height": 315.3,
-        "Depth": 21.0
+        "Depth": 21
       },
       "PhysicalWeight": "3600",
       "PhysicalWeightInclStand": "YES",
@@ -1139,16 +1186,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GT191",
-      "ModelIncludedPen": "PE330",
+      "ModelIncludedPen": [
+        "PE330"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Kamvas GT-191 (2017)",
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-191.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 475.0,
-        "Height": 298.0,
-        "Depth": 35.0
+        "Width": 475,
+        "Height": 298,
+        "Depth": 35
       },
       "PhysicalWeight": "3300",
       "PhysicalWeightInclStand": "YES",
@@ -1189,16 +1238,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "GT191V2",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Kamvas GT-191 V2 (2018)",
       "ModelProductLink": "https://www.huion.com/pen_display/Huion/GT-191_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 475.0,
-        "Height": 298.0,
-        "Depth": 35.0
+        "Width": 475,
+        "Height": 298,
+        "Depth": 35
       },
       "PhysicalWeight": "3300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1237,16 +1288,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT2201",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Kamvas 22 Pro (2019)",
       "ModelProductLink": "https://store.huion.com/products/kamvas-pro-22-2019",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 589.0,
-        "Height": 344.0,
-        "Depth": 21.0
+        "Width": 589,
+        "Height": 344,
+        "Depth": 21
       },
       "PhysicalWeight": "4500",
       "PhysicalWeightInclStand": "YES",
@@ -1287,15 +1340,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT221",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Kamvas Pro 22 (2019)",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_22.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 589.0,
-        "Height": 344.0,
-        "Depth": 21.0
+        "Width": 589,
+        "Height": 344,
+        "Depth": 21
       },
       "PhysicalWeight": "4500",
       "PhysicalWeightInclStand": "YES",
@@ -1337,15 +1392,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT240",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas Pro 24",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 659.0,
-        "Height": 391.0,
-        "Depth": 25.0
+        "Width": 659,
+        "Height": 391,
+        "Depth": 25
       },
       "PhysicalWeight": "6000",
       "PhysicalWeightInclStand": "YES",
@@ -1387,14 +1444,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT2401",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas Pro 24 4K",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 589.0,
-        "Height": 364.0,
+        "Width": 589,
+        "Height": 364,
         "Depth": 22.7
       },
       "PhysicalWeight": "6300",
@@ -1440,7 +1499,10 @@
       "ModelAudience": "Professional",
       "ModelFamily": "GEN3",
       "ModelId": "GT2402",
-      "ModelIncludedPen": "PW600,PW600S",
+      "ModelIncludedPen": [
+        "PW600",
+        "PW600S"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Kamvas Pro 24 GEN3",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
@@ -1492,7 +1554,10 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "GT2702",
-      "ModelIncludedPen": "PW600,PW600S",
+      "ModelIncludedPen": [
+        "PW600",
+        "PW600S"
+      ],
       "ModelLaunchYear": "2025",
       "ModelName": "Kamvas Pro 27 144Hz",
       "ModelProductLink": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27-144hz.html",
@@ -1528,16 +1593,18 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H1060P",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2015",
       "ModelName": "H1060P",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H1060P.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 360.0,
-        "Height": 240.0,
-        "Depth": 10.0
+        "Width": 360,
+        "Height": 240,
+        "Depth": 10
       },
       "PhysicalWeight": "770",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1561,7 +1628,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "H1061P",
-      "ModelIncludedPen": "PW110",
+      "ModelIncludedPen": [
+        "PW110"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Inspiroy 2 L",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H1061P.html",
@@ -1592,7 +1661,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H1161",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "H1161",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H1161.html",
@@ -1600,7 +1671,7 @@
       "PhysicalDimensions": {
         "Width": 372.5,
         "Height": 221.4,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "570",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1623,7 +1694,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H320M",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "320M",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyInk/H320M.html",
@@ -1631,7 +1704,7 @@
       "PhysicalDimensions": {
         "Width": 305.4,
         "Height": 179.6,
-        "Depth": 9.0
+        "Depth": 9
       },
       "PhysicalWeight": "450",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1654,15 +1727,17 @@
       "DigitizerType": "ACTIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "H420",
-      "ModelIncludedPen": "PEN68",
+      "ModelIncludedPen": [
+        "PEN68"
+      ],
       "ModelLaunchYear": "2016",
       "ModelName": "H420",
       "ModelProductLink": "https://www.huion.com/products/pen_tablet/Others/H420.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 176.0,
-        "Height": 111.0,
+        "Width": 176,
+        "Height": 111,
         "Depth": 7.5
       },
       "PhysicalWeight": "167",
@@ -1685,7 +1760,9 @@
       "DigitizerReportRate": "300",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H420X",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "H420X",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H420X.html",
@@ -1693,7 +1770,7 @@
       "PhysicalDimensions": {
         "Width": 172.01,
         "Height": 109.6,
-        "Depth": 7.0
+        "Depth": 7
       },
       "PhysicalWeight": "105",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1716,7 +1793,9 @@
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H430P",
-      "ModelIncludedPen": "PW201",
+      "ModelIncludedPen": [
+        "PW201"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "H430P",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H430P.html",
@@ -1748,16 +1827,18 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H610",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "H610",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/HS610.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 250.0,
-        "Height": 211.0,
-        "Depth": 8.0
+        "Width": 250,
+        "Height": 211,
+        "Depth": 8
       },
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1780,16 +1861,18 @@
       "DigitizerTilt": "0",
       "DigitizerType": "ACTIVE_EMR",
       "ModelId": "H610PRO",
-      "ModelIncludedPen": "PEN80",
+      "ModelIncludedPen": [
+        "PEN80"
+      ],
       "ModelLaunchYear": "2016",
       "ModelName": "H610PRO",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Huion/H610PRO.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 353.0,
-        "Height": 245.0,
-        "Depth": 10.0
+        "Width": 353,
+        "Height": 245,
+        "Depth": 10
       },
       "PhysicalWeight": "635",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1812,15 +1895,17 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H610PRO V2",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "H610PRO V2",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Huion/H610PRO_V2.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 352.0,
-        "Height": 238.0,
-        "Depth": 12.0
+        "Width": 352,
+        "Height": 238,
+        "Depth": 12
       },
       "PhysicalWeight": "635",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1843,7 +1928,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H610X",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "H610X",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H610X.html",
@@ -1851,7 +1938,7 @@
       "PhysicalDimensions": {
         "Width": 324.5,
         "Height": 205.6,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "515",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1874,16 +1961,18 @@
       "DigitizerTilt": "0",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H640P",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "H640P",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H640P.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 260.0,
+        "Width": 260,
         "Height": 147.7,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "277",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1907,14 +1996,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "H641P",
-      "ModelIncludedPen": "PW110",
+      "ModelIncludedPen": [
+        "PW110"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Inspiroy 2 S",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H641P.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 246.0,
-        "Height": 152.0,
+        "Width": 246,
+        "Height": 152,
         "Depth": 9.5
       },
       "PhysicalWeight": "275.00",
@@ -1937,7 +2028,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "H950P",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "H950P",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H950P.html",
@@ -1945,7 +2038,7 @@
       "PhysicalDimensions": {
         "Width": 320.8,
         "Height": 188.8,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "497",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -1969,14 +2062,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "H951P",
-      "ModelIncludedPen": "PW110",
+      "ModelIncludedPen": [
+        "PW110"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Inspiroy 2 M",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/H951P.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 306.0,
-        "Height": 180.0,
+        "Width": 306,
+        "Height": 180,
         "Depth": 7.5
       },
       "PhysicalWeight": "420.00",
@@ -2000,15 +2095,17 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "HS610",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "HS610",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/HS610.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 350.0,
+        "Width": 350,
         "Height": 211.8,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "600",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2031,14 +2128,16 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "HS611",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "HS611",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/huion-hs611.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 333.4,
-        "Height": 218.0,
+        "Height": 218,
         "Depth": 7.3
       },
       "PhysicalWeight": "500",
@@ -2062,15 +2161,17 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "HS64",
-      "ModelIncludedPen": "PW100",
+      "ModelIncludedPen": [
+        "PW100"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "HS64",
       "ModelProductLink": "https://www.huion.com/pen_tablet/HS/HS64.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 200.0,
-        "Height": 166.0,
-        "Depth": 8.0
+        "Width": 200,
+        "Height": 166,
+        "Depth": 8
       },
       "PhysicalWeight": "258",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2093,14 +2194,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "L310",
-      "ModelIncludedPen": "PW550S",
+      "ModelIncludedPen": [
+        "PW550S"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Inspiroy Frego S L310",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 220.0,
+        "Width": 220,
         "Height": 165.7,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "280",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2123,14 +2226,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "L610",
-      "ModelIncludedPen": "PW550S",
+      "ModelIncludedPen": [
+        "PW550S"
+      ],
       "ModelLaunchYear": "2024",
       "ModelName": "Inspiroy Frego M",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 304.0,
-        "Height": 220.0,
-        "Depth": 8.0
+        "Width": 304,
+        "Height": 220,
+        "Depth": 8
       },
       "PhysicalWeight": "546",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2153,15 +2258,17 @@
       "DigitizerTilt": "0",
       "DigitizerType": "ACTIVE_EMR",
       "ModelId": "NEW 1060 PLUS",
-      "ModelIncludedPen": "PEN80",
+      "ModelIncludedPen": [
+        "PEN80"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "NEW 1060 PLUS",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Huion/NEW_1060PLUS.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 360.0,
-        "Height": 240.0,
-        "Depth": 10.0
+        "Width": 360,
+        "Height": 240,
+        "Depth": 10
       },
       "PhysicalWeight": "770",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2184,16 +2291,18 @@
       "DigitizerTilt": "0",
       "DigitizerType": "ACTIVE_EMR",
       "ModelId": "Q11K",
-      "ModelIncludedPen": "PF150",
+      "ModelIncludedPen": [
+        "PF150"
+      ],
       "ModelLaunchYear": "2017",
       "ModelName": "Inspiroy Q11K",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/Q11K.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 390.0,
-        "Height": 233.0,
-        "Depth": 11.0
+        "Width": 390,
+        "Height": 233,
+        "Depth": 11
       },
       "PhysicalWeight": "880.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2216,15 +2325,17 @@
       "DigitizerTilt": "80",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "Q11KV2",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Inspiroy Q11K V2",
       "ModelProductLink": "https://www.huion.com/products/pen_tablet/Inspiroy/Q11K_V2.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 390.0,
-        "Height": 233.0,
-        "Depth": 11.0
+        "Width": 390,
+        "Height": 233,
+        "Depth": 11
       },
       "PhysicalWeight": "880.00",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2247,7 +2358,9 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "Q620M",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Inspiroy Dial",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial.html",
@@ -2255,7 +2368,7 @@
       "PhysicalDimensions": {
         "Width": 375.5,
         "Height": 220.4,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "666",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2279,15 +2392,17 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "Q630M",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Inspiroy Dial 2",
       "ModelProductLink": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial-2.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
         "Width": 356.6,
-        "Height": 207.0,
-        "Depth": 8.0
+        "Height": 207,
+        "Depth": 8
       },
       "PhysicalWeight": "710",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2324,15 +2439,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "RDS-160",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Kamvas RDS-160",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/RDS160.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 220.0,
-        "Height": 253.0,
-        "Depth": 12.0
+        "Width": 220,
+        "Height": 253,
+        "Depth": 12
       },
       "PhysicalWeight": "1260",
       "PhysicalWeightInclStand": "YES",
@@ -2374,14 +2491,16 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "RDS-220",
-      "ModelIncludedPen": "PW517",
+      "ModelIncludedPen": [
+        "PW517"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "Kamvas RDS-220",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/kamvas-rds-220.html",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 546.0,
-        "Height": 323.0,
+        "Width": 546,
+        "Height": 323,
         "Depth": 26.7
       },
       "PhysicalWeight": "3450.00",
@@ -2410,7 +2529,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "RTM500",
-      "ModelIncludedPen": "PW400",
+      "ModelIncludedPen": [
+        "PW400"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "RTM500",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/RTM500.html",
@@ -2442,7 +2563,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "RTP700",
-      "ModelIncludedPen": "PW400",
+      "ModelIncludedPen": [
+        "PW400"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "RTP700",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/RTP700.html",
@@ -2474,14 +2597,16 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Consumer",
       "ModelId": "RTS300",
-      "ModelIncludedPen": "PW400",
+      "ModelIncludedPen": [
+        "PW400"
+      ],
       "ModelLaunchYear": "2022",
       "ModelName": "RTS300",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/RTS300.html",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 200.0,
-        "Height": 163.0,
+        "Width": 200,
+        "Height": 163,
         "Depth": 8.35
       },
       "PhysicalWeight": "229",
@@ -2519,15 +2644,17 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "UNK Kamvas 16 (2019)",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Kamvas 16 (2019)",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/Kamvas-16.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 432.0,
-        "Height": 263.0,
+        "Width": 432,
+        "Height": 263,
         "Depth": 14.8
       },
       "PhysicalWeight": "1500",
@@ -2567,16 +2694,18 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
       "ModelId": "UNK Kamvas 20 (2019)",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Kamvas 20 (2019)",
       "ModelProductLink": "https://www.huion.com/pen_display/Kamvas/Kamvas-20.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
-        "Width": 475.0,
-        "Height": 298.0,
-        "Depth": 35.0
+        "Width": 475,
+        "Height": 298,
+        "Depth": 35
       },
       "PhysicalWeight": "3300",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2617,7 +2746,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "UNK Kamvas Pro 16 (2019)",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2019",
       "ModelName": "Kamvas Pro 16 (2019)",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas-Pro-16.html",
@@ -2667,7 +2798,9 @@
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Professional",
       "ModelId": "UNK Kamvas Pro 16 Premium",
-      "ModelIncludedPen": "PW507",
+      "ModelIncludedPen": [
+        "PW507"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Kamvas Pro 16 Premium",
       "ModelProductLink": "https://www.huion.com/pen_display/KamvasPro/Kamvas-Pro-16-Premium.html",
@@ -2702,16 +2835,18 @@
       "DigitizerTilt": "60",
       "DigitizerType": "PASSIVE_EMR",
       "ModelId": "WH1409 V2",
-      "ModelIncludedPen": "PW500",
+      "ModelIncludedPen": [
+        "PW500"
+      ],
       "ModelLaunchYear": "2018",
       "ModelName": "Inspiroy WH1409 V2",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/WH1409_V2.html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 266.0,
-        "Depth": 15.0
+        "Width": 456,
+        "Height": 266,
+        "Depth": 15
       },
       "PhysicalWeight": "1100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2733,16 +2868,18 @@
       "DigitizerReportRate": "233",
       "DigitizerType": "ACTIVE_EMR",
       "ModelId": "WH1409(8192)",
-      "ModelIncludedPen": "PE150",
+      "ModelIncludedPen": [
+        "PE150"
+      ],
       "ModelLaunchYear": "2016",
       "ModelName": "Inspiroy WH1409(8192)",
       "ModelProductLink": "https://www.huion.com/pen_tablet/Inspiroy/WH1409(8192).html",
       "ModelStatus": "DISCONTINUED",
       "ModelType": "PENTABLET",
       "PhysicalDimensions": {
-        "Width": 456.0,
-        "Height": 266.0,
-        "Depth": 16.0
+        "Width": 456,
+        "Height": 266,
+        "Depth": 16
       },
       "PhysicalWeight": "1100",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -2776,7 +2913,9 @@
       "DigitizerAccuracyCenter": "0.3",
       "DigitizerAccuracyCorner": "2",
       "DigitizerType": "PASSIVE_EMR",
-      "ModelIncludedPen": "PW600L",
+      "ModelIncludedPen": [
+        "PW600L"
+      ],
       "DisplayPixelDimensions": {
         "Width": 2560,
         "Height": 1440
