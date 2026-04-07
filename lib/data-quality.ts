@@ -1,27 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
+import * as v from "valibot";
+import { TabletSchema } from "./schemas.js";
 
 // --- Types ---
 
-interface DimensionValue {
-  Width?: number;
-  Height?: number;
-  Depth?: number;
-}
-
-interface GamutValue {
-  [gamut: string]: number;
-}
-
-interface Tablet {
-  [key: string]: string | DimensionValue | GamutValue | undefined;
-}
-
-interface TabletFile {
-  DrawingTablets: Tablet[];
-}
-
-interface Issue {
+export interface Issue {
   file: string;
   entityId: string;
   field: string;
@@ -29,270 +13,56 @@ interface Issue {
   value?: string;
 }
 
+interface RawTablet {
+  [key: string]: unknown;
+}
+
+interface TabletFile {
+  DrawingTablets: RawTablet[];
+}
+
 // --- Helpers ---
 
-function getString(tablet: Tablet, field: string): string | undefined {
-  const v = tablet[field];
+function getString(t: RawTablet, field: string): string | undefined {
+  const v = t[field];
   return typeof v === "string" ? v : undefined;
 }
 
-function getEntityId(tablet: Tablet): string {
-  return (getString(tablet, "EntityId") ?? getString(tablet, "ModelId") ?? "UNKNOWN");
+function getEntityId(t: RawTablet): string {
+  return getString(t, "EntityId") ?? getString(t, "ModelId") ?? "UNKNOWN";
 }
 
-// --- Field definitions ---
+// --- Schema-based shape validation ---
 
-const REQUIRED_FIELDS = [
-  "EntityId",
-  "Brand",
-  "ModelId",
-  "ModelName",
-  "ModelType",
-  "_id",
-  "_CreateDate",
-  "_ModifiedDate",
-];
-
-const ENUM_FIELDS: Record<string, string[]> = {
-  Brand: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"],
-  ModelType: ["PENTABLET", "PENDISPLAY", "STANDALONE"],
-  ModelAudience: ["Consumer", "Enthusiast", "Professional"],
-  ModelStatus: ["ACTIVE", "AVAILABLE", "DISCONTINUED"],
-  DigitizerType: ["PASSIVE_EMR", "ACTIVE_EMR"],
-  DigitizerSupportsTouch: ["YES", "NO"],
-  DisplayLamination: ["YES", "NO"],
-  DisplayAntiGlare: ["AGFILM", "ETCHEDGLASS", "FILM"],
-  DisplayPanelTech: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"],
-  DisplayColorBitDepth: ["6", "8", "10"],
-  PhysicalWeightInclStand: ["YES", "NO"],
-};
-
-const NUMERIC_FIELDS = [
-  "DigitizerPressureLevels",
-  "DigitizerDensity",
-  "DigitizerReportRate",
-  "DigitizerTilt",
-  "DigitizerAccuracyCenter",
-  "DigitizerAccuracyCorner",
-  "DigitizerMaxHover",
-  "DisplayBrightness",
-  "DisplayContrast",
-  "DisplayResponseTime",
-  "DisplayRefreshRate",
-  "DisplayViewingAngleHorizontal",
-  "DisplayViewingAngleVertical",
-  "PhysicalWeight",
-];
-
-const COMPLEX_FIELDS: Record<string, string[]> = {
-  DigitizerDimensions: ["Width", "Height"],
-  DisplayPixelDimensions: ["Width", "Height"],
-  PhysicalDimensions: ["Width", "Height", "Depth"],
-};
-
-const VALID_GAMUT_NAMES = ["SRGB", "ADOBERGB", "DCIP3", "DISPLAYP3", "NTSC", "REC709"];
-
-const DISPLAY_ONLY_FIELDS = [
-  "DisplayAntiGlare",
-  "DisplayBrightness",
-  "DisplayColorBitDepth",
-  "DisplayColorGamuts",
-  "DisplayContrast",
-  "DisplayLamination",
-  "DisplayPanelTech",
-  "DisplayRefreshRate",
-  "DisplayPixelDimensions",
-  "DisplayResponseTime",
-  "DisplayViewingAngleHorizontal",
-  "DisplayViewingAngleVertical",
-];
-
-const ALL_KNOWN_FIELDS = [
-  "EntityId",
-  "Brand",
-  "ModelId",
-  "ModelName",
-  "ModelType",
-  "ModelLaunchYear",
-  "ModelAudience",
-  "ModelFamily",
-  "ModelIncludedPen",
-  "ModelProductLink",
-  "ModelStatus",
-  "DigitizerType",
-  "DigitizerPressureLevels",
-  "DigitizerDimensions",
-  "DigitizerDensity",
-  "DigitizerReportRate",
-  "DigitizerTilt",
-  "DigitizerAccuracyCenter",
-  "DigitizerAccuracyCorner",
-  "DigitizerMaxHover",
-  "DigitizerSupportsTouch",
-  ...DISPLAY_ONLY_FIELDS,
-  "DisplayColorGamuts",
-  "PhysicalDimensions",
-  "PhysicalWeight",
-  "PhysicalWeightInclStand",
-  "_id",
-  "_CreateDate",
-  "_ModifiedDate",
-];
-
-// --- Checks ---
-
-function checkRequired(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const field of REQUIRED_FIELDS) {
-    const value = tablet[field];
-    if (value === undefined || (typeof value === "string" && value.trim() === "")) {
-      issues.push({ file, entityId: eid, field, issue: "missing required field" });
-    }
-  }
-  return issues;
-}
-
-function checkWhitespace(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const [field, value] of Object.entries(tablet)) {
-    if (typeof value === "string" && value !== value.trim()) {
-      issues.push({
-        file,
-        entityId: eid,
-        field,
-        issue: "value has leading/trailing whitespace",
-        value: JSON.stringify(value),
-      });
-    }
-  }
-  return issues;
-}
-
-function checkEnums(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const [field, allowed] of Object.entries(ENUM_FIELDS)) {
-    const value = getString(tablet, field);
-    if (value !== undefined && !allowed.includes(value)) {
-      issues.push({
-        file,
-        entityId: eid,
-        field,
-        issue: `invalid value, expected one of: ${allowed.join(", ")}`,
-        value,
-      });
-    }
-  }
-  return issues;
-}
-
-function checkNumeric(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const field of NUMERIC_FIELDS) {
-    const value = getString(tablet, field);
-    if (value !== undefined && isNaN(Number(value))) {
-      issues.push({
-        file,
-        entityId: eid,
-        field,
-        issue: "expected a numeric value",
-        value,
-      });
-    }
-  }
-  return issues;
-}
-
-function checkComplexFields(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const [field, expectedKeys] of Object.entries(COMPLEX_FIELDS)) {
-    const value = tablet[field];
-    if (value === undefined) continue;
-    if (typeof value !== "object" || value === null) {
-      issues.push({
-        file,
-        entityId: eid,
-        field,
-        issue: "expected an object",
-        value: JSON.stringify(value),
-      });
-      continue;
-    }
-    const obj = value as DimensionValue;
-    for (const key of Object.keys(obj)) {
-      if (!expectedKeys.includes(key)) {
-        issues.push({
-          file,
-          entityId: eid,
-          field,
-          issue: `unexpected property "${key}"`,
-        });
-      }
-    }
-    for (const key of Object.keys(obj)) {
-      const v = (obj as Record<string, unknown>)[key];
-      if (typeof v !== "number" || isNaN(v)) {
-        issues.push({
-          file,
-          entityId: eid,
-          field,
-          issue: `property "${key}" should be a number`,
-          value: JSON.stringify(v),
-        });
-      }
-    }
-  }
-  return issues;
-}
-
-function checkColorGamuts(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  const value = tablet["DisplayColorGamuts"];
-  if (value === undefined) return issues;
-  if (typeof value !== "object" || value === null) {
-    issues.push({
+function checkSchema(t: RawTablet, file: string): Issue[] {
+  const result = v.safeParse(TabletSchema, t);
+  if (result.success) return [];
+  const eid = getEntityId(t);
+  return result.issues.map((iss) => {
+    // Build a dotted path of the field that failed.
+    const pathParts = (iss.path ?? []).map((p: { key?: unknown }) => String(p.key ?? ""));
+    const field = pathParts.join(".") || "(root)";
+    const value = iss.received !== undefined && iss.received !== "undefined"
+      ? String(iss.received)
+      : undefined;
+    return {
       file,
       entityId: eid,
-      field: "DisplayColorGamuts",
-      issue: "expected an object",
-      value: JSON.stringify(value),
-    });
-    return issues;
-  }
-  const obj = value as Record<string, unknown>;
-  for (const [key, v] of Object.entries(obj)) {
-    if (!VALID_GAMUT_NAMES.includes(key)) {
-      issues.push({
-        file,
-        entityId: eid,
-        field: "DisplayColorGamuts",
-        issue: `unknown gamut name "${key}", expected one of: ${VALID_GAMUT_NAMES.join(", ")}`,
-      });
-    }
-    if (typeof v !== "number" || isNaN(v)) {
-      issues.push({
-        file,
-        entityId: eid,
-        field: "DisplayColorGamuts",
-        issue: `value for "${key}" should be a number`,
-        value: JSON.stringify(v),
-      });
-    }
-  }
-  return issues;
+      field,
+      issue: iss.message,
+      value,
+    };
+  });
 }
 
-function checkEntityId(tablet: Tablet, file: string): Issue[] {
+// --- Business-rule checks (not expressible in the schema) ---
+
+function checkEntityId(t: RawTablet, file: string): Issue[] {
   const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  const brand = getString(tablet, "Brand");
-  const modelId = getString(tablet, "ModelId");
-  const entityId = getString(tablet, "EntityId");
+  const eid = getEntityId(t);
+  const brand = getString(t, "Brand");
+  const modelId = getString(t, "ModelId");
+  const entityId = getString(t, "EntityId");
   if (brand && modelId) {
     const expected =
       brand.toUpperCase() +
@@ -303,7 +73,7 @@ function checkEntityId(tablet: Tablet, file: string): Issue[] {
         file,
         entityId: eid,
         field: "EntityId",
-        issue: `does not match derived value`,
+        issue: "does not match derived value",
         value: `got "${entityId}", expected "${expected}"`,
       });
     }
@@ -311,66 +81,7 @@ function checkEntityId(tablet: Tablet, file: string): Issue[] {
   return issues;
 }
 
-function checkDisplayFieldsOnPenTablet(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  if (getString(tablet, "ModelType") === "PENTABLET") {
-    for (const field of DISPLAY_ONLY_FIELDS) {
-      if (tablet[field] !== undefined) {
-        issues.push({
-          file,
-          entityId: eid,
-          field,
-          issue: "display field present on a PENTABLET",
-          value: typeof tablet[field] === "string" ? tablet[field] as string : JSON.stringify(tablet[field]),
-        });
-      }
-    }
-  }
-  return issues;
-}
-
-function checkUnknownFields(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const field of Object.keys(tablet)) {
-    if (!ALL_KNOWN_FIELDS.includes(field)) {
-      issues.push({
-        file,
-        entityId: eid,
-        field,
-        issue: "unknown field",
-      });
-    }
-  }
-  return issues;
-}
-
-function checkUuidFormat(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  const uuid = getString(tablet, "_id");
-  if (uuid !== undefined && !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(uuid)) {
-    issues.push({ file, entityId: eid, field: "_id", issue: "invalid UUID format", value: uuid });
-  }
-  return issues;
-}
-
-function checkIsoDate(tablet: Tablet, file: string): Issue[] {
-  const issues: Issue[] = [];
-  const eid = getEntityId(tablet);
-  for (const field of ["_CreateDate", "_ModifiedDate"]) {
-    const value = getString(tablet, field);
-    if (value !== undefined && isNaN(Date.parse(value))) {
-      issues.push({ file, entityId: eid, field, issue: "invalid ISO 8601 date", value });
-    }
-  }
-  return issues;
-}
-
-// --- Runner ---
-
-function checkDuplicateEntityIds(allTablets: { file: string; tablet: Tablet }[]): Issue[] {
+function checkDuplicateEntityIds(allTablets: { file: string; tablet: RawTablet }[]): Issue[] {
   const issues: Issue[] = [];
   const seen = new Map<string, string>();
   for (const { file, tablet } of allTablets) {
@@ -391,12 +102,14 @@ function checkDuplicateEntityIds(allTablets: { file: string; tablet: Tablet }[])
   return issues;
 }
 
+// --- Runner ---
+
 export function runDataQuality(dataDir: string): Issue[] {
   const tabletsDir = path.join(dataDir, "tablets");
   const files = fs.readdirSync(tabletsDir).filter((f) => f.endsWith("-tablets.json"));
 
   const allIssues: Issue[] = [];
-  const allTablets: { file: string; tablet: Tablet }[] = [];
+  const allTablets: { file: string; tablet: RawTablet }[] = [];
 
   for (const file of files) {
     const filePath = path.join(tabletsDir, file);
@@ -406,17 +119,8 @@ export function runDataQuality(dataDir: string): Issue[] {
     for (const tablet of data.DrawingTablets) {
       allTablets.push({ file, tablet });
       allIssues.push(
-        ...checkRequired(tablet, file),
-        ...checkWhitespace(tablet, file),
-        ...checkEnums(tablet, file),
-        ...checkNumeric(tablet, file),
-        ...checkComplexFields(tablet, file),
-        ...checkColorGamuts(tablet, file),
+        ...checkSchema(tablet, file),
         ...checkEntityId(tablet, file),
-        ...checkDisplayFieldsOnPenTablet(tablet, file),
-        ...checkUnknownFields(tablet, file),
-        ...checkUuidFormat(tablet, file),
-        ...checkIsoDate(tablet, file),
       );
     }
   }

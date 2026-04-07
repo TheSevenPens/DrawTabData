@@ -2,110 +2,9 @@
 
 import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export interface Dimensions {
-  Width?: number;
-  Height?: number;
-  Depth?: number;
-}
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand } from "./schemas.js";
 
-export interface ColorGamuts {
-  SRGB?: number;
-  ADOBERGB?: number;
-  DCIP3?: number;
-  DISPLAYP3?: number;
-  NTSC?: number;
-  REC709?: number;
-}
-
-export interface Tablet {
-  EntityId: string;
-  Brand: string;
-  ModelId: string;
-  ModelName: string;
-  ModelType: "PENTABLET" | "PENDISPLAY" | "STANDALONE";
-  ModelLaunchYear: string;
-  ModelAudience?: string;
-  ModelFamily?: string;
-  ModelIncludedPen?: string[];
-  ModelProductLink?: string;
-  ModelStatus?: string;
-  DigitizerType?: string;
-  DigitizerPressureLevels?: string;
-  DigitizerDimensions?: Dimensions;
-  DigitizerDensity?: string;
-  DigitizerReportRate?: string;
-  DigitizerTilt?: string;
-  DigitizerAccuracyCenter?: string;
-  DigitizerAccuracyCorner?: string;
-  DigitizerMaxHover?: string;
-  DigitizerSupportsTouch?: string;
-  DisplayPixelDimensions?: Dimensions;
-  DisplayPanelTech?: string;
-  DisplayBrightness?: string;
-  DisplayContrast?: string;
-  DisplayColorBitDepth?: string;
-  DisplayColorGamuts?: ColorGamuts;
-  DisplayLamination?: string;
-  DisplayAntiGlare?: string;
-  DisplayResponseTime?: string;
-  DisplayRefreshRate?: string;
-  DisplayViewingAngleHorizontal?: string;
-  DisplayViewingAngleVertical?: string;
-  PhysicalDimensions?: Dimensions;
-  PhysicalWeight?: string;
-  PhysicalWeightInclStand?: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface Pen {
-  EntityId: string;
-  Brand: string;
-  PenId: string;
-  PenName: string;
-  PenFamily: string;
-  PenYear: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface PenFamily {
-  EntityId: string;
-  Brand: string;
-  FamilyId: string;
-  FamilyName: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface TabletFamily {
-  EntityId: string;
-  Brand: string;
-  FamilyId: string;
-  FamilyName: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface Driver {
-  EntityId: string;
-  Brand: string;
-  DriverVersion: string;
-  DriverName: string;
-  DriverUID: string;
-  OSFamily: string;
-  ReleaseDate: string;
-  DriverURLWacom: string;
-  DriverURLArchiveDotOrg: string;
-  ReleaseNotesURL: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand } from "./schemas.js";
 
 export interface PressureResponse {
   Brand: string;
@@ -119,17 +18,6 @@ export interface PressureResponse {
   OS: string;
   Notes: string;
   Records: [number, number][];
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface Brand {
-  EntityId: string;
-  BrandId: string;
-  BrandName: string;
-  SiteURL: string;
-  Country: string;
   _id: string;
   _CreateDate: string;
   _ModifiedDate: string;
