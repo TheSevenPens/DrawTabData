@@ -1,10 +1,9 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Brand } from "./drawtab-loader.js";
+import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 // --- Generic loader ---
-
-const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 
 export function loadBrandPartitionedDataFromDisk<T>(
   dataDir: string,
@@ -35,7 +34,7 @@ export function loadTabletsFromDisk(dataDir: string): Tablet[] {
 // --- Driver loader ---
 
 export function loadDriversFromDisk(dataDir: string): Driver[] {
-  return loadBrandPartitionedDataFromDisk<Driver>(dataDir, "drivers", "Drivers", ["WACOM"]);
+  return loadBrandPartitionedDataFromDisk<Driver>(dataDir, "drivers", "Drivers", WACOM_ONLY);
 }
 
 // --- Pen loader ---
@@ -47,37 +46,18 @@ export function loadPensFromDisk(dataDir: string): Pen[] {
 // --- Family loaders ---
 
 export function loadPenFamiliesFromDisk(dataDir: string): PenFamily[] {
-  return loadBrandPartitionedDataFromDisk<PenFamily>(dataDir, "pen-families", "PenFamilies", ["WACOM"]);
+  return loadBrandPartitionedDataFromDisk<PenFamily>(dataDir, "pen-families", "PenFamilies", WACOM_ONLY);
 }
 
 export function loadTabletFamiliesFromDisk(dataDir: string): TabletFamily[] {
-  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies", ["WACOM"]);
+  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies", WACOM_ONLY);
 }
 
 // --- Pen compat loader ---
 
-interface PenCompatGrouped {
-  Brand: string;
-  PenId: string;
-  TabletIds: string[];
-}
-
 export function loadPenCompatFromDisk(dataDir: string): PenCompat[] {
   const grouped = loadBrandPartitionedDataFromDisk<PenCompatGrouped>(dataDir, "pen-compat", "PenCompat");
-  const rows: PenCompat[] = [];
-  for (const entry of grouped) {
-    for (const tabletId of entry.TabletIds) {
-      rows.push({
-        Brand: entry.Brand,
-        TabletId: tabletId,
-        PenId: entry.PenId,
-        _id: "",
-        _CreateDate: "",
-        _ModifiedDate: "",
-      });
-    }
-  }
-  return rows;
+  return expandPenCompat(grouped);
 }
 
 // --- Brand loader ---
@@ -93,8 +73,6 @@ export function loadBrandsFromDisk(dataDir: string): Brand[] {
 // --- Pressure response loader ---
 
 import type { PressureResponse } from "./drawtab-loader.js";
-
-const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
 
 export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[] {
   return loadBrandPartitionedDataFromDisk<PressureResponse>(dataDir, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);

@@ -1,5 +1,7 @@
 // --- Types ---
 
+import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
+
 export interface Dimensions {
   Width?: number;
   Height?: number;
@@ -20,7 +22,7 @@ export interface Tablet {
   Brand: string;
   ModelId: string;
   ModelName: string;
-  ModelType: "PENTABLET" | "PENDISPLAY";
+  ModelType: "PENTABLET" | "PENDISPLAY" | "STANDALONE";
   ModelLaunchYear: string;
   ModelAudience?: string;
   ModelFamily?: string;
@@ -144,8 +146,6 @@ export interface PenCompat {
 
 // --- Generic loader ---
 
-const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
-
 export async function loadBrandPartitionedDataFromURL<T>(
   dataBaseUrl: string,
   entityPath: string,
@@ -187,7 +187,7 @@ export async function loadTabletsFromURL(dataBaseUrl: string): Promise<Tablet[]>
 // --- Driver loader ---
 
 export async function loadDriversFromURL(dataBaseUrl: string): Promise<Driver[]> {
-  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers", WACOM_ONLY);
 }
 
 // --- Pen loader ---
@@ -199,37 +199,14 @@ export async function loadPensFromURL(dataBaseUrl: string): Promise<Pen[]> {
 // --- Family loaders ---
 
 export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<PenFamily[]> {
-  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies", WACOM_ONLY);
 }
 
 export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<TabletFamily[]> {
-  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", WACOM_ONLY);
 }
 
 // --- Pen compat loader ---
-
-interface PenCompatGrouped {
-  Brand: string;
-  PenId: string;
-  TabletIds: string[];
-}
-
-function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {
-  const rows: PenCompat[] = [];
-  for (const entry of grouped) {
-    for (const tabletId of entry.TabletIds) {
-      rows.push({
-        Brand: entry.Brand,
-        TabletId: tabletId,
-        PenId: entry.PenId,
-        _id: "",
-        _CreateDate: "",
-        _ModifiedDate: "",
-      });
-    }
-  }
-  return rows;
-}
 
 export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenCompat[]> {
   const grouped = await loadBrandPartitionedDataFromURL<PenCompatGrouped>(dataBaseUrl, "pen-compat", "PenCompat");
@@ -237,8 +214,6 @@ export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenComp
 }
 
 // --- Pressure response loader ---
-
-const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
 
 export async function loadPressureResponseFromURL(dataBaseUrl: string): Promise<PressureResponse[]> {
   return loadBrandPartitionedDataFromURL<PressureResponse>(dataBaseUrl, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
