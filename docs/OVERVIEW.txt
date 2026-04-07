@@ -56,6 +56,8 @@ This repo includes TypeScript libraries for consumers:
 - lib/entities/ — field definitions per entity type (metadata, computed fields)
 - lib/units.ts — metric/imperial unit conversion
 - lib/data-quality.ts — schema-driven validation across all entities (npm run data-quality)
+- scripts/generate-version.ts — regenerates data/version.json (npm run version-info)
+- data/version.json — schemaVersion, date-version, commit SHA, and per-entity counts
 
 # How consumers use the data
 
