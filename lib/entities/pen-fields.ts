@@ -4,6 +4,18 @@ import type { FieldDef, Step } from "../pipeline/types.js";
 
 export type { Pen } from "../drawtab-loader.js";
 
+// Pages can call setPenFamilyNames() with a FamilyId -> FamilyName map
+// loaded from the pen-families data so that the "Family" column shows
+// the human-readable name instead of the raw id. Falls back to the raw
+// id when no map is set or the family is unknown.
+let penFamilyNames: Record<string, string> = {};
+export function setPenFamilyNames(map: Record<string, string>): void {
+  penFamilyNames = map;
+}
+function resolvePenFamily(id: string): string {
+  return penFamilyNames[id] ?? id;
+}
+
 export const PEN_FIELD_GROUPS = ["Pen"];
 
 export const PEN_FIELDS: FieldDef<Pen>[] = [
@@ -12,7 +24,7 @@ export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "Brand", label: "Brand", getValue: (p) => p.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Pen" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Pen" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Pen" },
-  { key: "PenFamily", label: "Family", getValue: (p) => p.PenFamily, type: "string", group: "Pen" },
+  { key: "PenFamily", label: "Family", getValue: (p) => resolvePenFamily(p.PenFamily), type: "string", group: "Pen" },
   { key: "PenYear", label: "Year", getValue: (p) => p.PenYear, type: "number", group: "Pen" },
 ];
 
