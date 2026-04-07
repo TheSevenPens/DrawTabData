@@ -15,13 +15,14 @@ DrawTabData/
 │   ├── pressure-response/        # HUION, SAMSUNG, WACOM, XENCELABS, XPPEN
 │   └── inventory/                # Per-user (sevenpens)
 ├── lib/
-│   ├── drawtab-loader.ts         # Typed interfaces + URL-based loaders
+│   ├── schemas.ts                # Valibot schemas (single source of truth for shape + types)
+│   ├── drawtab-loader.ts         # URL-based loaders (types re-exported from schemas)
 │   ├── drawtab-loader-node.ts    # Filesystem-based loaders (Node.js)
 │   ├── loader-shared.ts          # Shared brand lists, expandPenCompat, parseStringArray
 │   ├── drawtab-all.ts            # Load everything from URL
 │   ├── drawtab-all-node.ts       # Load everything from disk
 │   ├── compat-helpers.ts         # Compatibility map builders + findSimilarTablets
-│   ├── data-quality.ts           # Data validation library
+│   ├── data-quality.ts           # Schema-driven validation across all entities
 │   ├── run-data-quality.ts       # CLI runner for data quality
 │   ├── pipeline/                 # Generic query engine
 │   │   ├── types.ts              # Step, FieldDef<T> types
@@ -87,6 +88,32 @@ Inventory loaders take a `userId` parameter instead of loading by brand.
 - `getDiagonal`, `formatDimensions` — dimension utilities
 - `formatValue`, `getFieldLabel` — metric/imperial conversion
 
+## Schemas (`lib/schemas.ts`)
+
+[Valibot](https://valibot.dev) schemas are the single source of truth
+for entity shape, validation rules, and TypeScript types. Each entity
+type has a strict-object schema that:
+
+- Lists every allowed field (unknown keys are flagged at parse time)
+- Marks each field optional / required, with the right primitive type
+- Constrains enums via `v.picklist`
+- Validates UUIDs and ISO timestamps via piped checks
+- Catches whitespace, malformed numbers, and bad UUIDs in one pass
+
+TS types are derived via `v.InferOutput<typeof FooSchema>` and
+re-exported from `drawtab-loader.ts` for convenience, so consumers
+keep importing `Tablet`, `Pen`, etc. from the loader as before.
+
+The PENTABLET-cannot-have-display-fields rule is enforced as a
+`v.rawCheck` on `TabletSchema` instead of a discriminated union, so
+downstream code can still read display fields without narrowing.
+
+`data-quality.ts` runs `v.safeParse` over every record in every entity
+file and converts schema issues into the existing `Issue` shape.
+Cross-record business rules (derived `EntityId` matching, duplicate
+`EntityId` detection) live alongside the schema check as small
+plain-TS helpers.
+
 ## Pipeline engine (`lib/pipeline/`)
 
 Generic query engine with `FieldDef<T>` typed field metadata.
@@ -108,6 +135,9 @@ default columns, and default views. Includes:
 
 ## Dependencies
 
+- **valibot** — Schema validation library; powers `lib/schemas.ts` and
+  `lib/data-quality.ts`. Chosen over Zod for its smaller footprint
+  (~10 KB) with the same ergonomics.
 - **typescript** — Type checking
 - **tsx** — Runs TypeScript directly (CLI tools)
 - **@types/node** — Node.js type definitions

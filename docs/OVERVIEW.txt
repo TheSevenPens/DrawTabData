@@ -46,7 +46,8 @@ Every entity has an EntityId in the format BRAND.ENTITYTYPE.ID:
 
 This repo includes TypeScript libraries for consumers:
 
-- lib/drawtab-loader.ts — typed interfaces, URL-based loaders, brand names
+- lib/schemas.ts — Valibot schemas (single source of truth for shape + types)
+- lib/drawtab-loader.ts — URL-based loaders (types re-exported from schemas)
 - lib/drawtab-loader-node.ts — filesystem-based loaders for Node.js
 - lib/loader-shared.ts — shared brand lists, expandPenCompat, parseStringArray
 - lib/drawtab-all.ts / lib/drawtab-all-node.ts — load everything in one call
@@ -54,7 +55,7 @@ This repo includes TypeScript libraries for consumers:
 - lib/pipeline/ — generic query engine (filter, sort, select, take)
 - lib/entities/ — field definitions per entity type (metadata, computed fields)
 - lib/units.ts — metric/imperial unit conversion
-- lib/data-quality.ts — validation checks (npm run data-quality)
+- lib/data-quality.ts — schema-driven validation across all entities (npm run data-quality)
 
 # How consumers use the data
 
