@@ -22,7 +22,7 @@ interface UnitConversion {
 
 const CONVERSIONS: Record<string, UnitConversion> = {
   mm: { imperialUnit: "in", convert: (v) => v * 0.03937 },
-  g: { imperialUnit: "oz", convert: (v) => v * 0.03527 },
+  g: { imperialUnit: "lbs", convert: (v) => v * 0.002205 },
   LPmm: { imperialUnit: "LPI", convert: (v) => v * 25.4 },
   "px/mm": { imperialUnit: "PPI", convert: (v) => v * 25.4 },
 };
