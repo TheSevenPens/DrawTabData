@@ -1661,16 +1661,22 @@
       "EntityId": "XPPEN.TABLET.MD160FH",
       "Brand": "XPPEN",
       "ModelId": "MD160FH",
-      "ModelName": "Artist 16 (Gen 2)",
+      "ModelName": "Artist 15.6 Pro V2",
       "ModelType": "PENDISPLAY",
       "ModelLaunchYear": "2023",
       "ModelAudience": "Professional",
+      "ModelIncludedPen": [
+        "PD21"
+      ],
+      "ModelProductLink": "https://www.xp-pen.com/product/artist-15-6-pro-v2.html",
       "DigitizerType": "PASSIVE_EMR",
       "DigitizerSupportsTouch": "NO",
       "DigitizerPressureLevels": "16384",
+      "DigitizerReportRate": "200",
       "DigitizerTilt": "60",
       "DigitizerMaxHover": "10",
       "DigitizerAccuracyCenter": "0.4",
+      "DigitizerAccuracyCorner": "0.8",
       "DigitizerDimensions": {
         "Width": 340.99,
         "Height": 191.81
@@ -1701,7 +1707,7 @@
       "PhysicalWeight": "1447",
       "_id": "42d6b96d-e543-4b1c-b720-2ec717fa1054",
       "_CreateDate": "2026-04-06T23:03:25.000Z",
-      "_ModifiedDate": "2026-04-06T23:03:25.000Z"
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
