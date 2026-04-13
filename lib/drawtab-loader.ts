@@ -1,6 +1,6 @@
 // --- Types ---
 
-import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
+import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, TABLET_FAMILY_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
@@ -74,7 +74,7 @@ export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<PenFa
 }
 
 export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<TabletFamily[]> {
-  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", WACOM_ONLY);
+  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", TABLET_FAMILY_BRANDS);
 }
 
 // --- Pen compat loader ---

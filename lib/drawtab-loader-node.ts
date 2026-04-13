@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Brand } from "./drawtab-loader.js";
-import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
+import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, TABLET_FAMILY_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 // --- Generic loader ---
 
@@ -50,7 +50,7 @@ export function loadPenFamiliesFromDisk(dataDir: string): PenFamily[] {
 }
 
 export function loadTabletFamiliesFromDisk(dataDir: string): TabletFamily[] {
-  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies", WACOM_ONLY);
+  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies", TABLET_FAMILY_BRANDS);
 }
 
 // --- Pen compat loader ---
