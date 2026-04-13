@@ -4,20 +4,20 @@ import { getDiagonal, brandName } from "./drawtab-loader.js";
 export interface SimilarTabletsOptions {
   /** Restrict to tablets within ±10% diagonal of the source. */
   similarSize?: boolean;
-  /** Require overlap on at least one ModelIncludedPen entry. */
+  /** Require overlap on at least one Model.IncludedPen entry. */
   samePen?: boolean;
   /** Require the same Brand. */
   sameBrand?: boolean;
   /** Restrict to a specific brand (overrides sameBrand). */
   brand?: string;
-  /** Require ModelLaunchYear >= source year. */
+  /** Require Model.LaunchYear >= source year. */
   sameYearOrLater?: boolean;
 }
 
 /**
  * Find tablets similar to a given source tablet, with optional filters.
  * Always excludes the source tablet itself, and always restricts to the
- * same ModelType (PENTABLET / PENDISPLAY / STANDALONE) since cross-type
+ * same Model.Type (PENTABLET / PENDISPLAY / STANDALONE) since cross-type
  * comparisons are rarely meaningful.
  */
 export function findSimilarTablets(
@@ -26,37 +26,37 @@ export function findSimilarTablets(
   options: SimilarTabletsOptions = {},
 ): Tablet[] {
   let results = candidates.filter(
-    (t) => t.EntityId !== source.EntityId && t.ModelType === source.ModelType,
+    (t) => t.Meta.EntityId !== source.Meta.EntityId && t.Model.Type === source.Model.Type,
   );
 
   if (options.similarSize) {
-    const sourceDiag = getDiagonal(source.DigitizerDimensions);
+    const sourceDiag = getDiagonal(source.Digitizer?.Dimensions);
     if (sourceDiag) {
       const tolerance = sourceDiag * 0.1;
       results = results.filter((t) => {
-        const d = getDiagonal(t.DigitizerDimensions);
+        const d = getDiagonal(t.Digitizer?.Dimensions);
         return d !== null && Math.abs(d - sourceDiag) <= tolerance;
       });
     }
   }
 
-  if (options.samePen && source.ModelIncludedPen && source.ModelIncludedPen.length > 0) {
-    const pens = new Set(source.ModelIncludedPen);
+  if (options.samePen && source.Model.IncludedPen && source.Model.IncludedPen.length > 0) {
+    const pens = new Set(source.Model.IncludedPen);
     results = results.filter((t) => {
-      if (!t.ModelIncludedPen || t.ModelIncludedPen.length === 0) return false;
-      return t.ModelIncludedPen.some((p) => pens.has(p));
+      if (!t.Model.IncludedPen || t.Model.IncludedPen.length === 0) return false;
+      return t.Model.IncludedPen.some((p) => pens.has(p));
     });
   }
 
   if (options.brand) {
-    results = results.filter((t) => t.Brand === options.brand);
+    results = results.filter((t) => t.Model.Brand === options.brand);
   } else if (options.sameBrand) {
-    results = results.filter((t) => t.Brand === source.Brand);
+    results = results.filter((t) => t.Model.Brand === source.Model.Brand);
   }
 
-  if (options.sameYearOrLater && source.ModelLaunchYear) {
+  if (options.sameYearOrLater && source.Model.LaunchYear) {
     results = results.filter(
-      (t) => t.ModelLaunchYear && t.ModelLaunchYear >= source.ModelLaunchYear,
+      (t) => t.Model.LaunchYear && t.Model.LaunchYear >= source.Model.LaunchYear,
     );
   }
 
@@ -88,7 +88,7 @@ export function buildPenToTabletCompatMap(
   penCompat: PenCompat[],
   tablets: Tablet[],
 ): Map<string, Tablet[]> {
-  const tabletMap = new Map(tablets.map((t) => [t.ModelId, t]));
+  const tabletMap = new Map(tablets.map((t) => [t.Model.Id, t]));
   const result = new Map<string, Tablet[]>();
 
   for (const row of penCompat) {
@@ -111,8 +111,8 @@ export function buildIncludedPenMap(
   const result = new Map<string, Tablet[]>();
 
   for (const tablet of tablets) {
-    if (!tablet.ModelIncludedPen || tablet.ModelIncludedPen.length === 0) continue;
-    for (const penId of tablet.ModelIncludedPen) {
+    if (!tablet.Model.IncludedPen || tablet.Model.IncludedPen.length === 0) continue;
+    for (const penId of tablet.Model.IncludedPen) {
       const id = penId.trim();
       if (!id) continue;
       const list = result.get(id);

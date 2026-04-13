@@ -3,9 +3,17 @@
 // single source of truth for both shape and runtime validation.
 //
 // Schemas use strictObject so unknown fields are flagged at parse
-// time. Multi-valued fields (e.g. ModelIncludedPen) are arrays of
-// strings. Cross-field rules (e.g. PENTABLET cannot have display
-// fields) are enforced by the v.variant discriminated union.
+// time. Multi-valued fields (e.g. Model.IncludedPen) are arrays of
+// strings. Cross-field rules (e.g. PENTABLET cannot have Display
+// group) are enforced by v.rawCheck so data-quality flags it.
+//
+// Tablet fields are nested into groups:
+//   Meta       — internal tracking (EntityId, _id, dates)
+//   Model      — product identity (Brand, Name, Type, Year, ...)
+//   Digitizer  — digitizer specs
+//   Display    — display specs  (PENDISPLAY + STANDALONE only)
+//   Physical   — physical dimensions and weight
+//   Standalone — compute/battery/connectivity/hardware (STANDALONE only)
 
 import * as v from "valibot";
 
@@ -48,129 +56,104 @@ export const ColorGamutsSchema = v.strictObject({
   REC709: v.optional(v.number()),
 });
 
-// --- Tablet (variant on ModelType) ---
+// --- Tablet group schemas ---
 
-const TabletBaseFields = {
+const MetaSchema = v.strictObject({
   EntityId: TrimmedString,
-  Brand: BrandEnum,
-  ModelId: TrimmedString,
-  ModelName: TrimmedString,
-  ModelLaunchYear: TrimmedString,
-  ModelAudience: v.optional(v.picklist(["Consumer", "Enthusiast", "Professional"])),
-  ModelFamily: v.optional(TrimmedString),
-  ModelIncludedPen: v.optional(v.array(TrimmedString)),
-  ModelProductLink: v.optional(TrimmedString),
-  ModelStatus: v.optional(v.picklist(["ACTIVE", "AVAILABLE", "DISCONTINUED"])),
-  DigitizerType: v.optional(v.picklist(["PASSIVE_EMR", "ACTIVE_EMR"])),
-  DigitizerPressureLevels: v.optional(NumericString),
-  DigitizerDimensions: v.optional(DimensionsSchema),
-  DigitizerDensity: v.optional(NumericString),
-  DigitizerReportRate: v.optional(NumericString),
-  DigitizerTilt: v.optional(NumericString),
-  DigitizerAccuracyCenter: v.optional(NumericString),
-  DigitizerAccuracyCorner: v.optional(NumericString),
-  DigitizerMaxHover: v.optional(NumericString),
-  DigitizerSupportsTouch: v.optional(YesNo),
-  PhysicalDimensions: v.optional(DimensionsSchema),
-  PhysicalWeight: v.optional(NumericString),
-  PhysicalWeightInclStand: v.optional(YesNo),
   _id: UuidString,
   _CreateDate: IsoDateString,
   _ModifiedDate: IsoDateString,
-};
+});
 
-const ComputeFields = {
-  ComputeOS: v.optional(TrimmedString),
-  ComputeProcessor: v.optional(TrimmedString),
-  ComputeGPU: v.optional(TrimmedString),
-  ComputeRAM: v.optional(NumericString),
-  ComputeStorage: v.optional(NumericString),
-  ComputeExpandableStorage: v.optional(YesNo),
-  ComputeMemoryCardSlot: v.optional(TrimmedString),
-};
+const ModelSchema = v.strictObject({
+  Brand: BrandEnum,
+  Id: TrimmedString,
+  Name: TrimmedString,
+  Type: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
+  LaunchYear: TrimmedString,
+  Audience: v.optional(v.picklist(["Consumer", "Enthusiast", "Professional"])),
+  Family: v.optional(TrimmedString),
+  IncludedPen: v.optional(v.array(TrimmedString)),
+  ProductLink: v.optional(TrimmedString),
+  Status: v.optional(v.picklist(["ACTIVE", "AVAILABLE", "DISCONTINUED"])),
+});
 
-const BatteryFields = {
+const DigitizerSchema = v.strictObject({
+  Type: v.optional(v.picklist(["PASSIVE_EMR", "ACTIVE_EMR"])),
+  PressureLevels: v.optional(NumericString),
+  Dimensions: v.optional(DimensionsSchema),
+  Density: v.optional(NumericString),
+  ReportRate: v.optional(NumericString),
+  Tilt: v.optional(NumericString),
+  AccuracyCenter: v.optional(NumericString),
+  AccuracyCorner: v.optional(NumericString),
+  MaxHover: v.optional(NumericString),
+  SupportsTouch: v.optional(YesNo),
+});
+
+const DisplaySchema = v.strictObject({
+  PixelDimensions: v.optional(DimensionsSchema),
+  PanelTech: v.optional(v.picklist(["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"])),
+  Brightness: v.optional(NumericString),
+  BrightnessPeak: v.optional(NumericString),
+  Contrast: v.optional(NumericString),
+  ColorBitDepth: v.optional(v.picklist(["6", "8", "10"])),
+  ColorGamuts: v.optional(ColorGamutsSchema),
+  Lamination: v.optional(YesNo),
+  AntiGlare: v.optional(v.picklist(["AGFILM", "ETCHEDGLASS", "FILM"])),
+  ResponseTime: v.optional(NumericString),
+  RefreshRate: v.optional(NumericString),
+  ViewingAngleHorizontal: v.optional(NumericString),
+  ViewingAngleVertical: v.optional(NumericString),
+});
+
+const PhysicalSchema = v.strictObject({
+  Dimensions: v.optional(DimensionsSchema),
+  Weight: v.optional(NumericString),
+  WeightInclStand: v.optional(YesNo),
+});
+
+const StandaloneSchema = v.strictObject({
+  OS: v.optional(TrimmedString),
+  Processor: v.optional(TrimmedString),
+  GPU: v.optional(TrimmedString),
+  RAM: v.optional(NumericString),
+  Storage: v.optional(NumericString),
+  ExpandableStorage: v.optional(YesNo),
+  MemoryCardSlot: v.optional(TrimmedString),
   BatteryCapacity: v.optional(NumericString),
   BatteryLife: v.optional(NumericString),
   BatteryChargingWatts: v.optional(NumericString),
-};
-
-const ConnectivityFields = {
-  ConnectivityWifi: v.optional(TrimmedString),
-  ConnectivityBluetooth: v.optional(TrimmedString),
-  ConnectivityUSB: v.optional(TrimmedString),
-};
-
-const HardwareFields = {
-  HardwareSpeakers: v.optional(YesNo),
-  HardwareFrontCamera: v.optional(NumericString),
-  HardwareRearCamera: v.optional(NumericString),
-};
-
-const STANDALONE_FIELD_KEYS = [
-  ...Object.keys(ComputeFields),
-  ...Object.keys(BatteryFields),
-  ...Object.keys(ConnectivityFields),
-  ...Object.keys(HardwareFields),
-];
-
-const DisplayFields = {
-  DisplayPixelDimensions: v.optional(DimensionsSchema),
-  DisplayPanelTech: v.optional(v.picklist(["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"])),
-  DisplayBrightness: v.optional(NumericString),
-  DisplayBrightnessPeak: v.optional(NumericString),
-  DisplayContrast: v.optional(NumericString),
-  DisplayColorBitDepth: v.optional(v.picklist(["6", "8", "10"])),
-  DisplayColorGamuts: v.optional(ColorGamutsSchema),
-  DisplayLamination: v.optional(YesNo),
-  DisplayAntiGlare: v.optional(v.picklist(["AGFILM", "ETCHEDGLASS", "FILM"])),
-  DisplayResponseTime: v.optional(NumericString),
-  DisplayRefreshRate: v.optional(NumericString),
-  DisplayViewingAngleHorizontal: v.optional(NumericString),
-  DisplayViewingAngleVertical: v.optional(NumericString),
-};
-
-const DISPLAY_FIELD_KEYS = Object.keys(DisplayFields);
+  Wifi: v.optional(TrimmedString),
+  Bluetooth: v.optional(TrimmedString),
+  USB: v.optional(TrimmedString),
+  Speakers: v.optional(YesNo),
+  FrontCamera: v.optional(NumericString),
+  RearCamera: v.optional(NumericString),
+});
 
 /**
- * Single Tablet schema (not a discriminated union) so downstream code
- * can read display fields without narrowing on ModelType. The cross-
- * field rule "PENTABLET cannot carry display fields" is enforced as
- * a runtime check via v.rawCheck so data-quality flags it, but the
- * inferred TS type still exposes display fields on every tablet.
+ * Tablet schema with nested field groups. Display and Standalone groups
+ * are optional objects — absent on tablet types that don't use them.
+ * Cross-group rules are enforced by v.rawCheck.
  */
 export const TabletSchema = v.pipe(
   v.strictObject({
-    ...TabletBaseFields,
-    ...DisplayFields,
-    ...ComputeFields,
-    ...BatteryFields,
-    ...ConnectivityFields,
-    ...HardwareFields,
-    ModelType: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
+    Meta: MetaSchema,
+    Model: ModelSchema,
+    Digitizer: v.optional(DigitizerSchema),
+    Display: v.optional(DisplaySchema),
+    Physical: v.optional(PhysicalSchema),
+    Standalone: v.optional(StandaloneSchema),
   }),
   v.rawCheck(({ dataset, addIssue }) => {
     if (!dataset.typed) return;
-    const val = dataset.value as Record<string, unknown>;
-    if (val.ModelType === "PENTABLET") {
-      for (const key of DISPLAY_FIELD_KEYS) {
-        if (val[key] !== undefined) {
-          addIssue({
-            message: "display field present on a PENTABLET",
-            path: [{ type: "object", origin: "value", input: val, key, value: val[key] }],
-          });
-        }
-      }
+    const val = dataset.value;
+    if (val.Model.Type === "PENTABLET" && val.Display !== undefined) {
+      addIssue({ message: "Display group present on a PENTABLET" });
     }
-    if (val.ModelType !== "STANDALONE") {
-      for (const key of STANDALONE_FIELD_KEYS) {
-        if (val[key] !== undefined) {
-          addIssue({
-            message: "standalone-only field present on a non-STANDALONE tablet",
-            path: [{ type: "object", origin: "value", input: val, key, value: val[key] }],
-          });
-        }
-      }
+    if (val.Model.Type !== "STANDALONE" && val.Standalone !== undefined) {
+      addIssue({ message: "Standalone group present on a non-STANDALONE tablet" });
     }
   }),
 );

@@ -33,8 +33,22 @@ function getString(r: RawRecord, field: string): string | undefined {
   return typeof v === "string" ? v : undefined;
 }
 
+function getNestedString(r: RawRecord, ...path: string[]): string | undefined {
+  let cur: unknown = r;
+  for (const key of path) {
+    if (cur == null || typeof cur !== "object") return undefined;
+    cur = (cur as RawRecord)[key];
+  }
+  return typeof cur === "string" ? cur : undefined;
+}
+
 function getEntityId(r: RawRecord): string {
-  return getString(r, "EntityId") ?? getString(r, "ModelId") ?? getString(r, "PenId") ?? "UNKNOWN";
+  // Try nested tablet structure first, then flat (pens, drivers, etc.)
+  return getNestedString(r, "Meta", "EntityId")
+    ?? getString(r, "EntityId")
+    ?? getString(r, "ModelId")
+    ?? getString(r, "PenId")
+    ?? "UNKNOWN";
 }
 
 // --- Schema-based shape validation ---
@@ -66,7 +80,25 @@ function checkSchema(
 // --- Business-rule checks (not expressible in the schema) ---
 
 function checkTabletEntityId(t: RawRecord, file: string): Issue[] {
-  return checkDerivedEntityId(t, file, "TABLET", "ModelId");
+  const issues: Issue[] = [];
+  const eid = getEntityId(t);
+  const brand = getNestedString(t, "Model", "Brand");
+  const id = getNestedString(t, "Model", "Id");
+  const entityId = getNestedString(t, "Meta", "EntityId");
+  if (brand && id) {
+    const expected =
+      brand.toUpperCase() + ".TABLET." + id.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+    if (entityId !== expected) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "Meta.EntityId",
+        issue: "does not match derived value",
+        value: `got "${entityId}", expected "${expected}"`,
+      });
+    }
+  }
+  return issues;
 }
 
 function checkPenEntityId(p: RawRecord, file: string): Issue[] {
@@ -110,7 +142,7 @@ function checkDuplicateEntityIds(
   const issues: Issue[] = [];
   const seen = new Map<string, string>();
   for (const { file, record } of records) {
-    const eid = getString(record, "EntityId");
+    const eid = getNestedString(record, "Meta", "EntityId") ?? getString(record, "EntityId");
     if (!eid) continue;
     const prev = seen.get(eid);
     if (prev) {

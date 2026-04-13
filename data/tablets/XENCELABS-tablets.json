@@ -1,109 +1,135 @@
 {
   "DrawingTablets": [
     {
-      "DigitizerDimensions": {
-        "Width": 176,
-        "Height": 99
+      "Meta": {
+        "EntityId": "XENCELABS.TABLET.BPH0812WA",
+        "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
+        "_CreateDate": "2025-12-12T12:33:46.983Z",
+        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
       },
-      "DigitizerPressureLevels": "8192",
-      "DigitizerTilt": "60",
-      "DigitizerType": "PASSIVE_EMR",
-      "ModelAudience": "Professional",
-      "ModelId": "BPH0812W-A",
-      "ModelIncludedPen": [
-        "PH5-A"
-      ],
-      "ModelLaunchYear": "2021",
-      "ModelName": "Pen Tablet Small",
-      "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
-      "ModelType": "PENTABLET",
-      "PhysicalDimensions": {
-        "Width": 234.18,
-        "Height": 184.66,
-        "Depth": 8
+      "Model": {
+        "Brand": "XENCELABS",
+        "Id": "BPH0812W-A",
+        "Name": "Pen Tablet Small",
+        "Type": "PENTABLET",
+        "LaunchYear": "2021",
+        "Audience": "Professional",
+        "IncludedPen": [
+          "PH5-A"
+        ],
+        "ProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/"
       },
-      "PhysicalWeight": "398",
-      "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
-      "EntityId": "XENCELABS.TABLET.BPH0812WA",
-      "DigitizerDensity": "200",
-      "Brand": "XENCELABS",
-      "DigitizerSupportsTouch": "NO"
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 176,
+          "Height": 99
+        },
+        "Density": "200",
+        "Tilt": "60",
+        "SupportsTouch": "NO"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 234.18,
+          "Height": 184.66,
+          "Depth": 8
+        },
+        "Weight": "398"
+      }
     },
     {
-      "DigitizerDimensions": {
-        "Width": 262,
-        "Height": 147
+      "Meta": {
+        "EntityId": "XENCELABS.TABLET.BPH1212WA",
+        "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
+        "_CreateDate": "2025-12-12T12:33:46.983Z",
+        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
       },
-      "DigitizerPressureLevels": "8192",
-      "DigitizerTilt": "60",
-      "DigitizerType": "PASSIVE_EMR",
-      "ModelAudience": "Professional",
-      "ModelId": "BPH1212W-A",
-      "ModelIncludedPen": [
-        "PH5-A"
-      ],
-      "ModelLaunchYear": "2020",
-      "ModelName": "Pen Tablet Medium",
-      "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
-      "ModelType": "PENTABLET",
-      "PhysicalDimensions": {
-        "Width": 320.5,
-        "Height": 232.5,
-        "Depth": 8
+      "Model": {
+        "Brand": "XENCELABS",
+        "Id": "BPH1212W-A",
+        "Name": "Pen Tablet Medium",
+        "Type": "PENTABLET",
+        "LaunchYear": "2020",
+        "Audience": "Professional",
+        "IncludedPen": [
+          "PH5-A"
+        ],
+        "ProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/"
       },
-      "PhysicalWeight": "715",
-      "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
-      "EntityId": "XENCELABS.TABLET.BPH1212WA",
-      "DigitizerDensity": "200",
-      "Brand": "XENCELABS",
-      "DigitizerSupportsTouch": "NO"
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 262,
+          "Height": 147
+        },
+        "Density": "200",
+        "Tilt": "60",
+        "SupportsTouch": "NO"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 320.5,
+          "Height": 232.5,
+          "Depth": 8
+        },
+        "Weight": "715"
+      }
     },
     {
-      "DigitizerDimensions": {
-        "Width": 527,
-        "Height": 296
+      "Meta": {
+        "EntityId": "XENCELABS.TABLET.LPH2412UA",
+        "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
+        "_CreateDate": "2025-12-12T12:33:46.983Z",
+        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
       },
-      "DigitizerPressureLevels": "8192",
-      "DigitizerTilt": "60",
-      "DigitizerType": "PASSIVE_EMR",
-      "DisplayAntiGlare": "ETCHEDGLASS",
-      "DisplayBrightness": "330",
-      "DisplayColorBitDepth": "10",
-      "DisplayColorGamuts": {
-        "ADOBERGB": 99,
-        "DCIP3": 93
+      "Model": {
+        "Brand": "XENCELABS",
+        "Id": "LPH2412U-A",
+        "Name": "Pen Display 24",
+        "Type": "PENDISPLAY",
+        "LaunchYear": "2023",
+        "Audience": "Professional",
+        "IncludedPen": [
+          "PH5-A"
+        ],
+        "ProductLink": "https://www.xencelabs.com/us/products/pen-display"
       },
-      "DisplayLamination": "YES",
-      "ModelAudience": "Professional",
-      "ModelId": "LPH2412U-A",
-      "ModelIncludedPen": [
-        "PH5-A"
-      ],
-      "ModelLaunchYear": "2023",
-      "ModelName": "Pen Display 24",
-      "ModelProductLink": "https://www.xencelabs.com/us/products/pen-display",
-      "ModelType": "PENDISPLAY",
-      "PhysicalDimensions": {
-        "Width": 618.5,
-        "Height": 388,
-        "Depth": 34.7
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 527,
+          "Height": 296
+        },
+        "Density": "200",
+        "Tilt": "60",
+        "SupportsTouch": "NO"
       },
-      "PhysicalWeight": "6000.00",
-      "_CreateDate": "2025-12-12T12:33:46.983Z",
-      "_ModifiedDate": "2025-12-12T12:33:46.983Z",
-      "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
-      "EntityId": "XENCELABS.TABLET.LPH2412UA",
-      "DigitizerDensity": "200",
-      "Brand": "XENCELABS",
-      "DisplayPixelDimensions": {
-        "Width": 3840,
-        "Height": 2160
+      "Display": {
+        "PixelDimensions": {
+          "Width": 3840,
+          "Height": 2160
+        },
+        "Brightness": "330",
+        "ColorBitDepth": "10",
+        "ColorGamuts": {
+          "ADOBERGB": 99,
+          "DCIP3": 93
+        },
+        "Lamination": "YES",
+        "AntiGlare": "ETCHEDGLASS"
       },
-      "DigitizerSupportsTouch": "NO"
+      "Physical": {
+        "Dimensions": {
+          "Width": 618.5,
+          "Height": 388,
+          "Depth": 34.7
+        },
+        "Weight": "6000.00"
+      }
     }
   ]
 }

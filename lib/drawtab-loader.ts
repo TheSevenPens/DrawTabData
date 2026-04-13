@@ -235,5 +235,5 @@ export function filterByBrand<T extends { Brand: string }>(items: T[], brand: st
 }
 
 export function filterByType(tablets: Tablet[], type: string): Tablet[] {
-  return tablets.filter((t) => equalsText(t.ModelType, type));
+  return tablets.filter((t) => equalsText(t.Model.Type, type));
 }
