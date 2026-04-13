@@ -79,10 +79,46 @@ const TabletBaseFields = {
   _ModifiedDate: IsoDateString,
 };
 
+const ComputeFields = {
+  ComputeOS: v.optional(TrimmedString),
+  ComputeProcessor: v.optional(TrimmedString),
+  ComputeGPU: v.optional(TrimmedString),
+  ComputeRAM: v.optional(NumericString),
+  ComputeStorage: v.optional(NumericString),
+  ComputeExpandableStorage: v.optional(YesNo),
+  ComputeMemoryCardSlot: v.optional(TrimmedString),
+};
+
+const BatteryFields = {
+  BatteryCapacity: v.optional(NumericString),
+  BatteryLife: v.optional(NumericString),
+  BatteryChargingWatts: v.optional(NumericString),
+};
+
+const ConnectivityFields = {
+  ConnectivityWifi: v.optional(TrimmedString),
+  ConnectivityBluetooth: v.optional(TrimmedString),
+  ConnectivityUSB: v.optional(TrimmedString),
+};
+
+const HardwareFields = {
+  HardwareSpeakers: v.optional(YesNo),
+  HardwareFrontCamera: v.optional(NumericString),
+  HardwareRearCamera: v.optional(NumericString),
+};
+
+const STANDALONE_FIELD_KEYS = [
+  ...Object.keys(ComputeFields),
+  ...Object.keys(BatteryFields),
+  ...Object.keys(ConnectivityFields),
+  ...Object.keys(HardwareFields),
+];
+
 const DisplayFields = {
   DisplayPixelDimensions: v.optional(DimensionsSchema),
   DisplayPanelTech: v.optional(v.picklist(["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"])),
   DisplayBrightness: v.optional(NumericString),
+  DisplayBrightnessPeak: v.optional(NumericString),
   DisplayContrast: v.optional(NumericString),
   DisplayColorBitDepth: v.optional(v.picklist(["6", "8", "10"])),
   DisplayColorGamuts: v.optional(ColorGamutsSchema),
@@ -107,21 +143,31 @@ export const TabletSchema = v.pipe(
   v.strictObject({
     ...TabletBaseFields,
     ...DisplayFields,
+    ...ComputeFields,
+    ...BatteryFields,
+    ...ConnectivityFields,
+    ...HardwareFields,
     ModelType: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
   }),
   v.rawCheck(({ dataset, addIssue }) => {
-    if (dataset.typed && dataset.value.ModelType === "PENTABLET") {
+    if (!dataset.typed) return;
+    const val = dataset.value as Record<string, unknown>;
+    if (val.ModelType === "PENTABLET") {
       for (const key of DISPLAY_FIELD_KEYS) {
-        if ((dataset.value as Record<string, unknown>)[key] !== undefined) {
+        if (val[key] !== undefined) {
           addIssue({
             message: "display field present on a PENTABLET",
-            path: [{
-              type: "object",
-              origin: "value",
-              input: dataset.value,
-              key,
-              value: (dataset.value as Record<string, unknown>)[key],
-            }],
+            path: [{ type: "object", origin: "value", input: val, key, value: val[key] }],
+          });
+        }
+      }
+    }
+    if (val.ModelType !== "STANDALONE") {
+      for (const key of STANDALONE_FIELD_KEYS) {
+        if (val[key] !== undefined) {
+          addIssue({
+            message: "standalone-only field present on a non-STANDALONE tablet",
+            path: [{ type: "object", origin: "value", input: val, key, value: val[key] }],
           });
         }
       }

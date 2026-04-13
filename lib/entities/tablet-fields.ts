@@ -11,7 +11,7 @@ function displayVal(t: Tablet, val: string | undefined): string {
   return val ?? "";
 }
 
-export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical"];
+export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Compute", "Battery", "Connectivity", "Standalone"];
 
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
@@ -105,6 +105,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Display
   { key: "DisplayPanelTech", label: "Panel Tech", getValue: (t) => displayVal(t, t.DisplayPanelTech), type: "enum", enumValues: ["IPS", "TFT", "AHVA", "OLED", "H-IPS", "MVA"], group: "Display" },
   { key: "DisplayBrightness", label: "Brightness (cd/m²)", getValue: (t) => displayVal(t, t.DisplayBrightness), type: "number", group: "Display" },
+  { key: "DisplayBrightnessPeak", label: "Peak Brightness (cd/m²)", getValue: (t) => displayVal(t, t.DisplayBrightnessPeak), type: "number", group: "Display" },
   { key: "DisplayContrast", label: "Contrast", getValue: (t) => displayVal(t, t.DisplayContrast), type: "number", group: "Display" },
   { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => displayVal(t, t.DisplayColorBitDepth), type: "number", group: "Display" },
   { key: "DisplayLamination", label: "Lamination", getValue: (t) => displayVal(t, t.DisplayLamination), type: "enum", enumValues: ["YES", "NO"], group: "Display" },
@@ -161,6 +162,26 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
     type: "string",
   },
+  // Compute
+  { key: "ComputeOS", label: "OS", getValue: (t) => t.ComputeOS ?? "", type: "string", group: "Compute" },
+  { key: "ComputeProcessor", label: "Processor", getValue: (t) => t.ComputeProcessor ?? "", type: "string", group: "Compute" },
+  { key: "ComputeGPU", label: "GPU", getValue: (t) => t.ComputeGPU ?? "", type: "string", group: "Compute" },
+  { key: "ComputeRAM", label: "RAM (GB)", getValue: (t) => t.ComputeRAM ?? "", type: "number", group: "Compute" },
+  { key: "ComputeStorage", label: "Storage (GB)", getValue: (t) => t.ComputeStorage ?? "", type: "number", group: "Compute" },
+  { key: "ComputeExpandableStorage", label: "Expandable Storage", getValue: (t) => t.ComputeExpandableStorage ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Compute" },
+  { key: "ComputeMemoryCardSlot", label: "Memory Card Slot", getValue: (t) => t.ComputeMemoryCardSlot ?? "", type: "string", group: "Compute" },
+  // Battery
+  { key: "BatteryCapacity", label: "Capacity (mAh)", getValue: (t) => t.BatteryCapacity ?? "", type: "number", group: "Battery" },
+  { key: "BatteryLife", label: "Battery Life (hrs)", getValue: (t) => t.BatteryLife ?? "", type: "number", group: "Battery" },
+  { key: "BatteryChargingWatts", label: "Charging (W)", getValue: (t) => t.BatteryChargingWatts ?? "", type: "number", group: "Battery" },
+  // Connectivity
+  { key: "ConnectivityWifi", label: "Wi-Fi", getValue: (t) => t.ConnectivityWifi ?? "", type: "string", group: "Connectivity" },
+  { key: "ConnectivityBluetooth", label: "Bluetooth", getValue: (t) => t.ConnectivityBluetooth ?? "", type: "string", group: "Connectivity" },
+  { key: "ConnectivityUSB", label: "USB", getValue: (t) => t.ConnectivityUSB ?? "", type: "string", group: "Connectivity" },
+  // Hardware
+  { key: "HardwareSpeakers", label: "Speakers", getValue: (t) => t.HardwareSpeakers ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Standalone" },
+  { key: "HardwareFrontCamera", label: "Front Camera (MP)", getValue: (t) => t.HardwareFrontCamera ?? "", type: "number", group: "Standalone" },
+  { key: "HardwareRearCamera", label: "Rear Camera (MP)", getValue: (t) => t.HardwareRearCamera ?? "", type: "number", group: "Standalone" },
 ];
 
 export const TABLET_DEFAULT_COLUMNS = [

@@ -3199,10 +3199,11 @@
       "ModelName": "Wacom MovinkPad 11",
       "ModelType": "STANDALONE",
       "ModelLaunchYear": "2025",
-      "ModelFamily": "",
+      "ModelAudience": "Consumer",
+      "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-movinkpad-11",
       "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
       "DigitizerSupportsTouch": "YES",
       "ModelIncludedPen": [
         "ACP-500"
@@ -3215,7 +3216,6 @@
       "DigitizerTilt": "60",
       "DigitizerDensity": "200",
       "DigitizerType": "PASSIVE_EMR",
-      "DigitizerReportRate": "",
       "DisplayPixelDimensions": {
         "Width": 2200,
         "Height": 1440
@@ -3237,7 +3237,18 @@
         "Height": 182,
         "Depth": 7
       },
-      "PhysicalWeight": "588"
+      "PhysicalWeight": "588",
+      "ComputeOS": "Android 14",
+      "ComputeProcessor": "MediaTek Helio G99",
+      "ComputeRAM": "8",
+      "ComputeStorage": "128",
+      "BatteryCapacity": "7700",
+      "ConnectivityWifi": "802.11a/b/g/n/ac",
+      "ConnectivityBluetooth": "5.2",
+      "ConnectivityUSB": "USB-C (USB 2.0)",
+      "HardwareSpeakers": "YES",
+      "HardwareFrontCamera": "5",
+      "HardwareRearCamera": "4.7"
     },
     {
       "EntityId": "WACOM.TABLET.DTHA140",
@@ -3246,10 +3257,11 @@
       "ModelName": "Wacom MovinkPad Pro 14",
       "ModelType": "STANDALONE",
       "ModelLaunchYear": "2025",
-      "ModelFamily": "",
+      "ModelAudience": "Professional",
+      "ModelProductLink": "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14",
       "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
       "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
       "DigitizerSupportsTouch": "YES",
       "ModelIncludedPen": [
         "ACP-500"
@@ -3268,6 +3280,7 @@
       },
       "DisplayPanelTech": "OLED",
       "DisplayBrightness": "400",
+      "DisplayBrightnessPeak": "900",
       "DisplayContrast": "100000",
       "DisplayColorBitDepth": "10",
       "DisplayColorGamuts": {
@@ -3284,7 +3297,19 @@
         "Height": 210,
         "Depth": 5.9
       },
-      "PhysicalWeight": "699"
+      "PhysicalWeight": "699",
+      "ComputeOS": "Android 15",
+      "ComputeProcessor": "Snapdragon 8s Gen 3",
+      "ComputeRAM": "12",
+      "ComputeStorage": "256",
+      "ComputeExpandableStorage": "YES",
+      "ComputeMemoryCardSlot": "microSD",
+      "BatteryCapacity": "10000",
+      "BatteryLife": "10.5",
+      "ConnectivityWifi": "802.11a/b/g/n/ac/ax",
+      "ConnectivityBluetooth": "5.4",
+      "ConnectivityUSB": "USB-C (USB 2.0)",
+      "HardwareSpeakers": "YES"
     },
     {
       "EntityId": "WACOM.TABLET.SD510C",
@@ -5394,6 +5419,171 @@
       "_CreateDate": "2026-04-01T18:30:12.000Z",
       "_ModifiedDate": "2026-04-01T18:30:12.000Z",
       "DigitizerSupportsTouch": "NO"
+    },
+    {
+      "EntityId": "WACOM.TABLET.DTHW1321",
+      "Brand": "WACOM",
+      "ModelId": "DTH-W1321",
+      "ModelName": "MobileStudio Pro 13",
+      "ModelType": "STANDALONE",
+      "ModelLaunchYear": "2019",
+      "ModelAudience": "Professional",
+      "ModelFamily": "MobileStudio Pro",
+      "ModelStatus": "DISCONTINUED",
+      "ModelProductLink": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-13-dthw1321hk0b.html",
+      "ModelIncludedPen": [
+        "KP504E"
+      ],
+      "_id": "a7f3b829-1d4c-4e6a-9b2c-3d5e7f1a8b0c",
+      "_CreateDate": "2026-04-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerSupportsTouch": "YES",
+      "DigitizerDimensions": {
+        "Width": 294.5,
+        "Height": 165.6
+      },
+      "DisplayPixelDimensions": {
+        "Width": 2560,
+        "Height": 1440
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 82
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "PhysicalDimensions": {
+        "Width": 366.6,
+        "Height": 228.8,
+        "Depth": 17.4
+      },
+      "PhysicalWeight": "1435",
+      "ComputeOS": "Windows 10 Pro",
+      "ComputeProcessor": "Intel Core i7-8559U",
+      "ComputeRAM": "16",
+      "ComputeStorage": "512",
+      "BatteryLife": "5.5",
+      "ConnectivityWifi": "802.11a/b/g/n/ac",
+      "ConnectivityBluetooth": "5.0",
+      "ConnectivityUSB": "3x USB-C",
+      "HardwareSpeakers": "YES",
+      "HardwareFrontCamera": "5",
+      "HardwareRearCamera": "8"
+    },
+    {
+      "EntityId": "WACOM.TABLET.DTHW1620",
+      "Brand": "WACOM",
+      "ModelId": "DTH-W1620",
+      "ModelName": "MobileStudio Pro 16",
+      "ModelType": "STANDALONE",
+      "ModelLaunchYear": "2016",
+      "ModelAudience": "Professional",
+      "ModelFamily": "MobileStudio Pro",
+      "ModelStatus": "DISCONTINUED",
+      "ModelProductLink": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-gen-1-refurbished-product-udth-w1620m-eu.html",
+      "ModelIncludedPen": [
+        "KP504E"
+      ],
+      "_id": "c9e1f247-3a5b-4d7e-8f0a-1b2c3d4e5f6a",
+      "_CreateDate": "2026-04-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerSupportsTouch": "YES",
+      "DigitizerDimensions": {
+        "Width": 345.3,
+        "Height": 194.3
+      },
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 94
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "PhysicalDimensions": {
+        "Width": 419,
+        "Height": 262,
+        "Depth": 19
+      },
+      "PhysicalWeight": "2200",
+      "ComputeOS": "Windows 10 Pro",
+      "ComputeProcessor": "Intel Core i7-6567U",
+      "ComputeGPU": "NVIDIA Quadro M1000M",
+      "ComputeRAM": "16",
+      "ComputeStorage": "512",
+      "ConnectivityWifi": "802.11a/b/g/n/ac",
+      "ConnectivityBluetooth": "4.1",
+      "ConnectivityUSB": "USB-C",
+      "HardwareSpeakers": "YES"
+    },
+    {
+      "EntityId": "WACOM.TABLET.DTHW1621",
+      "Brand": "WACOM",
+      "ModelId": "DTH-W1621",
+      "ModelName": "MobileStudio Pro 16 Gen 2",
+      "ModelType": "STANDALONE",
+      "ModelLaunchYear": "2019",
+      "ModelAudience": "Professional",
+      "ModelFamily": "MobileStudio Pro",
+      "ModelStatus": "DISCONTINUED",
+      "ModelProductLink": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-dthw1621hk0b.html",
+      "ModelIncludedPen": [
+        "KP504E"
+      ],
+      "_id": "f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+      "_CreateDate": "2026-04-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerDensity": "200",
+      "DigitizerSupportsTouch": "YES",
+      "DigitizerDimensions": {
+        "Width": 345.3,
+        "Height": 194.3
+      },
+      "DisplayPixelDimensions": {
+        "Width": 3840,
+        "Height": 2160
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "310",
+      "DisplayColorGamuts": {
+        "ADOBERGB": 85
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "ETCHEDGLASS",
+      "PhysicalDimensions": {
+        "Width": 418,
+        "Height": 262,
+        "Depth": 21
+      },
+      "PhysicalWeight": "2100",
+      "ComputeOS": "Windows 10 Pro",
+      "ComputeProcessor": "Intel Core i7-8559U",
+      "ComputeGPU": "NVIDIA Quadro P1000",
+      "ComputeRAM": "16",
+      "ComputeStorage": "512",
+      "ComputeExpandableStorage": "YES",
+      "ComputeMemoryCardSlot": "SDXC",
+      "BatteryCapacity": "4630",
+      "BatteryLife": "6",
+      "ConnectivityWifi": "802.11a/b/g/n/ac",
+      "ConnectivityBluetooth": "5.0",
+      "ConnectivityUSB": "USB-C 3.1, 2x Thunderbolt 3",
+      "HardwareSpeakers": "YES",
+      "HardwareFrontCamera": "5",
+      "HardwareRearCamera": "8"
     }
   ]
 }
