@@ -2,6 +2,8 @@
 
 import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, TABLET_FAMILY_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
+export { TABLET_FAMILY_BRANDS } from "./loader-shared.js";
+
 export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
 import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
@@ -173,6 +175,18 @@ export function brandName(id: string): string {
 export function getDiagonal(dimensions: Dimensions | undefined): number | null {
   if (!dimensions || dimensions.Width == null || dimensions.Height == null) return null;
   return Math.sqrt(dimensions.Width * dimensions.Width + dimensions.Height * dimensions.Height);
+}
+
+/** Diagonal in centimeters (mm / 10). */
+export function getDiagonalCm(dimensions: Dimensions | undefined): number | null {
+  const d = getDiagonal(dimensions);
+  return d !== null ? d * 0.1 : null;
+}
+
+/** Diagonal in inches (mm * 0.03937). */
+export function getDiagonalIn(dimensions: Dimensions | undefined): number | null {
+  const d = getDiagonal(dimensions);
+  return d !== null ? d * 0.03937 : null;
 }
 
 export function formatDimensions(dimensions: Dimensions | undefined): string {

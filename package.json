@@ -33,6 +33,7 @@
     "./all": "./lib/drawtab-all.js",
     "./all-node": "./lib/drawtab-all-node.js",
     "./compat": "./lib/compat-helpers.js",
+    "./reference": "./lib/reference-helpers.js",
     "./pipeline": "./lib/pipeline/index.js",
     "./units": "./lib/units.js",
     "./entities/tablet": "./lib/entities/tablet-fields.js",

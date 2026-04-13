@@ -1,5 +1,5 @@
 import type { Tablet, Pen, PenCompat } from "./drawtab-loader.js";
-import { getDiagonal } from "./drawtab-loader.js";
+import { getDiagonal, brandName } from "./drawtab-loader.js";
 
 export interface SimilarTabletsOptions {
   /** Restrict to tablets within ±10% diagonal of the source. */
@@ -8,6 +8,8 @@ export interface SimilarTabletsOptions {
   samePen?: boolean;
   /** Require the same Brand. */
   sameBrand?: boolean;
+  /** Restrict to a specific brand (overrides sameBrand). */
+  brand?: string;
   /** Require ModelLaunchYear >= source year. */
   sameYearOrLater?: boolean;
 }
@@ -46,7 +48,9 @@ export function findSimilarTablets(
     });
   }
 
-  if (options.sameBrand) {
+  if (options.brand) {
+    results = results.filter((t) => t.Brand === options.brand);
+  } else if (options.sameBrand) {
     results = results.filter((t) => t.Brand === source.Brand);
   }
 
@@ -121,4 +125,25 @@ export function buildIncludedPenMap(
   }
 
   return result;
+}
+
+/**
+ * Build a Map from PenId to a formatted display name.
+ * E.g. "KP-501E" -> "Wacom Grip Pen (KP-501E)"
+ */
+export function buildPenNameMap(pens: Pen[]): Map<string, string> {
+  return new Map(
+    pens.map((p) => [p.PenId, `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`]),
+  );
+}
+
+/**
+ * Resolve an array of PenId strings to their display names using a
+ * pre-built name map, falling back to the raw ID if not found.
+ */
+export function formatPenIds(
+  ids: string[],
+  penNameMap: Map<string, string>,
+): string {
+  return ids.map((id) => penNameMap.get(id) ?? id).join(", ");
 }

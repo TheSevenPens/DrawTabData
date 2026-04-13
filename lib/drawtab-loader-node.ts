@@ -70,6 +70,18 @@ export function loadBrandsFromDisk(dataDir: string): Brand[] {
   return data.Brands ?? [];
 }
 
+// --- Reference data ---
+
+import type { ISOPaperSize } from "./drawtab-loader.js";
+
+export function loadISOPaperSizesFromDisk(dataDir: string): ISOPaperSize[] {
+  const filePath = path.join(dataDir, "reference", "iso-paper-sizes.json");
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(raw);
+  return data.ISOPaperSizes ?? [];
+}
+
 // --- Pressure response loader ---
 
 import type { PressureResponse } from "./schemas.js";
@@ -80,5 +92,6 @@ export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[
 
 // --- Re-export types and accessors ---
 
-export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, Dimensions, ColorGamuts } from "./drawtab-loader.js";
-export { getBrands, filterByBrand, filterByType, getDiagonal, formatDimensions, containsText, equalsText, brandName, BRAND_NAMES } from "./drawtab-loader.js";
+export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, Dimensions, ColorGamuts, ISOPaperSize } from "./drawtab-loader.js";
+export { getBrands, filterByBrand, filterByType, getDiagonal, getDiagonalCm, getDiagonalIn, formatDimensions, containsText, equalsText, brandName, BRAND_NAMES } from "./drawtab-loader.js";
+export { TABLET_FAMILY_BRANDS } from "./loader-shared.js";
