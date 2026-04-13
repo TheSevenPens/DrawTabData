@@ -11,7 +11,7 @@ function displayVal(t: Tablet, val: string | undefined): string {
   return val ?? "";
 }
 
-export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Compute", "Battery", "Connectivity", "Standalone"];
+export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
 
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
@@ -163,21 +163,21 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     type: "string",
   },
   // Compute
-  { key: "ComputeOS", label: "OS", getValue: (t) => t.ComputeOS ?? "", type: "string", group: "Compute" },
-  { key: "ComputeProcessor", label: "Processor", getValue: (t) => t.ComputeProcessor ?? "", type: "string", group: "Compute" },
-  { key: "ComputeGPU", label: "GPU", getValue: (t) => t.ComputeGPU ?? "", type: "string", group: "Compute" },
-  { key: "ComputeRAM", label: "RAM (GB)", getValue: (t) => t.ComputeRAM ?? "", type: "number", group: "Compute" },
-  { key: "ComputeStorage", label: "Storage (GB)", getValue: (t) => t.ComputeStorage ?? "", type: "number", group: "Compute" },
-  { key: "ComputeExpandableStorage", label: "Expandable Storage", getValue: (t) => t.ComputeExpandableStorage ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Compute" },
-  { key: "ComputeMemoryCardSlot", label: "Memory Card Slot", getValue: (t) => t.ComputeMemoryCardSlot ?? "", type: "string", group: "Compute" },
+  { key: "ComputeOS", label: "OS", getValue: (t) => t.ComputeOS ?? "", type: "string", group: "Standalone" },
+  { key: "ComputeProcessor", label: "Processor", getValue: (t) => t.ComputeProcessor ?? "", type: "string", group: "Standalone" },
+  { key: "ComputeGPU", label: "GPU", getValue: (t) => t.ComputeGPU ?? "", type: "string", group: "Standalone" },
+  { key: "ComputeRAM", label: "RAM (GB)", getValue: (t) => t.ComputeRAM ?? "", type: "number", group: "Standalone" },
+  { key: "ComputeStorage", label: "Storage (GB)", getValue: (t) => t.ComputeStorage ?? "", type: "number", group: "Standalone" },
+  { key: "ComputeExpandableStorage", label: "Expandable Storage", getValue: (t) => t.ComputeExpandableStorage ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Standalone" },
+  { key: "ComputeMemoryCardSlot", label: "Memory Card Slot", getValue: (t) => t.ComputeMemoryCardSlot ?? "", type: "string", group: "Standalone" },
   // Battery
-  { key: "BatteryCapacity", label: "Capacity (mAh)", getValue: (t) => t.BatteryCapacity ?? "", type: "number", group: "Battery" },
-  { key: "BatteryLife", label: "Battery Life (hrs)", getValue: (t) => t.BatteryLife ?? "", type: "number", group: "Battery" },
-  { key: "BatteryChargingWatts", label: "Charging (W)", getValue: (t) => t.BatteryChargingWatts ?? "", type: "number", group: "Battery" },
+  { key: "BatteryCapacity", label: "Capacity (mAh)", getValue: (t) => t.BatteryCapacity ?? "", type: "number", group: "Standalone" },
+  { key: "BatteryLife", label: "Battery Life (hrs)", getValue: (t) => t.BatteryLife ?? "", type: "number", group: "Standalone" },
+  { key: "BatteryChargingWatts", label: "Charging (W)", getValue: (t) => t.BatteryChargingWatts ?? "", type: "number", group: "Standalone" },
   // Connectivity
-  { key: "ConnectivityWifi", label: "Wi-Fi", getValue: (t) => t.ConnectivityWifi ?? "", type: "string", group: "Connectivity" },
-  { key: "ConnectivityBluetooth", label: "Bluetooth", getValue: (t) => t.ConnectivityBluetooth ?? "", type: "string", group: "Connectivity" },
-  { key: "ConnectivityUSB", label: "USB", getValue: (t) => t.ConnectivityUSB ?? "", type: "string", group: "Connectivity" },
+  { key: "ConnectivityWifi", label: "Wi-Fi", getValue: (t) => t.ConnectivityWifi ?? "", type: "string", group: "Standalone" },
+  { key: "ConnectivityBluetooth", label: "Bluetooth", getValue: (t) => t.ConnectivityBluetooth ?? "", type: "string", group: "Standalone" },
+  { key: "ConnectivityUSB", label: "USB", getValue: (t) => t.ConnectivityUSB ?? "", type: "string", group: "Standalone" },
   // Hardware
   { key: "HardwareSpeakers", label: "Speakers", getValue: (t) => t.HardwareSpeakers ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Standalone" },
   { key: "HardwareFrontCamera", label: "Front Camera (MP)", getValue: (t) => t.HardwareFrontCamera ?? "", type: "number", group: "Standalone" },
