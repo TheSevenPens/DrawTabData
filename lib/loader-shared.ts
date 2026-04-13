@@ -6,7 +6,7 @@ import type { PenCompatGrouped } from "./schemas.js";
 export const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 export const WACOM_ONLY = ["WACOM"];
 export const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
-export const TABLET_FAMILY_BRANDS = ["WACOM", "XPPEN"];
+export const TABLET_FAMILY_BRANDS = ["HUION", "WACOM", "XPPEN"];
 
 export type { PenCompatGrouped };
 

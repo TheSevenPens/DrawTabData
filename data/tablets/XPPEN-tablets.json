@@ -86,7 +86,8 @@
         "Width": 1920,
         "Height": 1080
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistPro1"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -134,7 +135,8 @@
         "Width": 1920,
         "Height": 1080
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistPro1"
     },
     {
       "DigitizerDimensions": {
@@ -382,7 +384,8 @@
         "Width": 1920,
         "Height": 1080
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistPro1"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -427,14 +430,15 @@
         "Width": 1920,
         "Height": 1080
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistPro1"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
       "DigitizerAccuracyCorner": "1",
       "DigitizerDimensions": {
-        "Width": 263,
-        "Height": 148
+        "Width": 224.49,
+        "Height": 126.7
       },
       "DigitizerMaxHover": "10",
       "DigitizerPressureLevels": "8192",
@@ -443,7 +447,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "DisplayBrightness": "220",
       "DisplayColorGamuts": {
-        "SRGB": 127
+        "NTSC": 85,
+        "SRGB": 120,
+        "ADOBERGB": 88
       },
       "DisplayContrast": "1000",
       "DisplayViewingAngleHorizontal": "178",
@@ -474,25 +480,7 @@
         "Height": 1080
       },
       "DigitizerSupportsTouch": "NO",
-      "DigitizerAccuracyCenter": "0.5",
-      "DigitizerAccuracyCorner": "1",
-      "DigitizerDimensions": {
-        "Width": 224.49,
-        "Height": 126.7
-      },
-      "DigitizerMaxHover": "10",
-      "DigitizerPressureLevels": "8192",
-      "DigitizerTilt": "60",
-      "DigitizerType": "PASSIVE_EMR",
-      "DisplayColorGamuts": {
-        "NTSC": 85,
-        "SRGB": 120,
-        "ADOBERGB": 88
-      },
-      "DisplayContrast": "1000",
-      "DisplayLamination": "YES",
-      "DisplayViewingAngleHorizontal": "178",
-      "DisplayViewingAngleVertical": "178"
+      "DisplayLamination": "YES"
     },
     {
       "DigitizerPressureLevels": "8192",
@@ -797,7 +785,8 @@
       "EntityId": "XPPEN.TABLET.CT1060",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoFun"
     },
     {
       "DigitizerDimensions": {
@@ -828,7 +817,8 @@
       "EntityId": "XPPEN.TABLET.CT430",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoFun"
     },
     {
       "DigitizerDimensions": {
@@ -860,7 +850,8 @@
       "EntityId": "XPPEN.TABLET.CT640",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoFun"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -1119,7 +1110,8 @@
       "EntityId": "XPPEN.TABLET.DECOPROM",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoPro"
     },
     {
       "DigitizerDimensions": {
@@ -1151,7 +1143,8 @@
       "EntityId": "XPPEN.TABLET.DECOPROMW",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoPro"
     },
     {
       "DigitizerDimensions": {
@@ -1183,7 +1176,8 @@
       "EntityId": "XPPEN.TABLET.DECOPROS",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoPro"
     },
     {
       "DigitizerDimensions": {
@@ -1215,7 +1209,8 @@
       "EntityId": "XPPEN.TABLET.DECOPROSW",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoPro"
     },
     {
       "DigitizerAccuracyCenter": "0.25",
@@ -1335,7 +1330,8 @@
       "EntityId": "XPPEN.TABLET.IT1060",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoX3"
     },
     {
       "DigitizerDimensions": {
@@ -1366,7 +1362,8 @@
       "EntityId": "XPPEN.TABLET.IT1060B",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoX3"
     },
     {
       "DigitizerDimensions": {
@@ -1431,7 +1428,8 @@
       "EntityId": "XPPEN.TABLET.IT850",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoX3"
     },
     {
       "DigitizerDimensions": {
@@ -1463,7 +1461,8 @@
       "EntityId": "XPPEN.TABLET.IT850B",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoX3"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1511,7 +1510,8 @@
         "Width": 1920,
         "Height": 1200
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistProGen2"
     },
     {
       "DigitizerDimensions": {
@@ -1556,7 +1556,8 @@
         "Width": 2560,
         "Height": 1600
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistProGen2"
     },
     {
       "DigitizerAccuracyCenter": "0.5",
@@ -1751,7 +1752,8 @@
       "DisplayPixelDimensions": {
         "Width": 3840,
         "Height": 2160
-      }
+      },
+      "ModelFamily": "XPPenArtistProGen2"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1849,7 +1851,8 @@
         "Width": 2560,
         "Height": 1440
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistProGen2"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1899,7 +1902,8 @@
         "Width": 2560,
         "Height": 1440
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistProGen2"
     },
     {
       "DigitizerAccuracyCenter": "0.4",
@@ -1949,7 +1953,8 @@
         "Width": 3840,
         "Height": 2160
       },
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenArtistProGen2"
     },
     {
       "DigitizerDimensions": {
@@ -1981,7 +1986,8 @@
       "EntityId": "XPPEN.TABLET.MT0962B",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoProGen2"
     },
     {
       "DigitizerDimensions": {
@@ -2013,7 +2019,8 @@
       "EntityId": "XPPEN.TABLET.MT1172B",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoProGen2"
     },
     {
       "DigitizerDimensions": {
@@ -2045,7 +2052,8 @@
       "EntityId": "XPPEN.TABLET.MT1592B",
       "DigitizerDensity": "200",
       "Brand": "XPPEN",
-      "DigitizerSupportsTouch": "NO"
+      "DigitizerSupportsTouch": "NO",
+      "ModelFamily": "XPPenDecoProGen2"
     },
     {
       "EntityId": "XPPEN.TABLET.CD121FH",
