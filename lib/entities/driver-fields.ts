@@ -36,8 +36,7 @@ export const DRIVER_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
-      "DriverURLWacom", "DriverURLArchiveDotOrg", "ReleaseNotesURL",
+      "EntityId", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
     ],
   },
   { kind: "sort", field: "ReleaseDate", direction: "desc" },

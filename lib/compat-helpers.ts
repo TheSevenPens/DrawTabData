@@ -1,4 +1,63 @@
 import type { Tablet, Pen, PenCompat } from "./drawtab-loader.js";
+import { getDiagonal } from "./drawtab-loader.js";
+
+export interface SimilarTabletsOptions {
+  /** Restrict to tablets within ±10% diagonal of the source. */
+  similarSize?: boolean;
+  /** Require overlap on at least one ModelIncludedPen entry. */
+  samePen?: boolean;
+  /** Require the same Brand. */
+  sameBrand?: boolean;
+  /** Require ModelLaunchYear >= source year. */
+  sameYearOrLater?: boolean;
+}
+
+/**
+ * Find tablets similar to a given source tablet, with optional filters.
+ * Always excludes the source tablet itself, and always restricts to the
+ * same ModelType (PENTABLET / PENDISPLAY / STANDALONE) since cross-type
+ * comparisons are rarely meaningful.
+ */
+export function findSimilarTablets(
+  source: Tablet,
+  candidates: Tablet[],
+  options: SimilarTabletsOptions = {},
+): Tablet[] {
+  let results = candidates.filter(
+    (t) => t.EntityId !== source.EntityId && t.ModelType === source.ModelType,
+  );
+
+  if (options.similarSize) {
+    const sourceDiag = getDiagonal(source.DigitizerDimensions);
+    if (sourceDiag) {
+      const tolerance = sourceDiag * 0.1;
+      results = results.filter((t) => {
+        const d = getDiagonal(t.DigitizerDimensions);
+        return d !== null && Math.abs(d - sourceDiag) <= tolerance;
+      });
+    }
+  }
+
+  if (options.samePen && source.ModelIncludedPen && source.ModelIncludedPen.length > 0) {
+    const pens = new Set(source.ModelIncludedPen);
+    results = results.filter((t) => {
+      if (!t.ModelIncludedPen || t.ModelIncludedPen.length === 0) return false;
+      return t.ModelIncludedPen.some((p) => pens.has(p));
+    });
+  }
+
+  if (options.sameBrand) {
+    results = results.filter((t) => t.Brand === source.Brand);
+  }
+
+  if (options.sameYearOrLater && source.ModelLaunchYear) {
+    results = results.filter(
+      (t) => t.ModelLaunchYear && t.ModelLaunchYear >= source.ModelLaunchYear,
+    );
+  }
+
+  return results;
+}
 
 export function buildTabletToPenCompatMap(
   penCompat: PenCompat[],
@@ -48,8 +107,8 @@ export function buildIncludedPenMap(
   const result = new Map<string, Tablet[]>();
 
   for (const tablet of tablets) {
-    if (!tablet.ModelIncludedPen) continue;
-    for (const penId of tablet.ModelIncludedPen.split(",")) {
+    if (!tablet.ModelIncludedPen || tablet.ModelIncludedPen.length === 0) continue;
+    for (const penId of tablet.ModelIncludedPen) {
       const id = penId.trim();
       if (!id) continue;
       const list = result.get(id);

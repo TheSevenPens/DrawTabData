@@ -10,7 +10,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "BPH0812W-A",
-      "ModelIncludedPen": "PH5-A",
+      "ModelIncludedPen": [
+        "PH5-A"
+      ],
       "ModelLaunchYear": "2021",
       "ModelName": "Pen Tablet Small",
       "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
@@ -18,7 +20,7 @@
       "PhysicalDimensions": {
         "Width": 234.18,
         "Height": 184.66,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "398",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -39,7 +41,9 @@
       "DigitizerType": "PASSIVE_EMR",
       "ModelAudience": "Professional",
       "ModelId": "BPH1212W-A",
-      "ModelIncludedPen": "PH5-A",
+      "ModelIncludedPen": [
+        "PH5-A"
+      ],
       "ModelLaunchYear": "2020",
       "ModelName": "Pen Tablet Medium",
       "ModelProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
@@ -47,7 +51,7 @@
       "PhysicalDimensions": {
         "Width": 320.5,
         "Height": 232.5,
-        "Depth": 8.0
+        "Depth": 8
       },
       "PhysicalWeight": "715",
       "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -76,14 +80,16 @@
       "DisplayLamination": "YES",
       "ModelAudience": "Professional",
       "ModelId": "LPH2412U-A",
-      "ModelIncludedPen": "PH5-A",
+      "ModelIncludedPen": [
+        "PH5-A"
+      ],
       "ModelLaunchYear": "2023",
       "ModelName": "Pen Display 24",
       "ModelProductLink": "https://www.xencelabs.com/us/products/pen-display",
       "ModelType": "PENDISPLAY",
       "PhysicalDimensions": {
         "Width": 618.5,
-        "Height": 388.0,
+        "Height": 388,
         "Depth": 34.7
       },
       "PhysicalWeight": "6000.00",

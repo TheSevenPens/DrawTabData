@@ -1,137 +1,10 @@
 // --- Types ---
 
-export interface Dimensions {
-  Width?: number;
-  Height?: number;
-  Depth?: number;
-}
+import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export interface ColorGamuts {
-  SRGB?: number;
-  ADOBERGB?: number;
-  DCIP3?: number;
-  DISPLAYP3?: number;
-  NTSC?: number;
-  REC709?: number;
-}
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
-export interface Tablet {
-  EntityId: string;
-  Brand: string;
-  ModelId: string;
-  ModelName: string;
-  ModelType: "PENTABLET" | "PENDISPLAY";
-  ModelLaunchYear: string;
-  ModelAudience?: string;
-  ModelFamily?: string;
-  ModelIncludedPen?: string;
-  ModelProductLink?: string;
-  ModelStatus?: string;
-  DigitizerType?: string;
-  DigitizerPressureLevels?: string;
-  DigitizerDimensions?: Dimensions;
-  DigitizerDensity?: string;
-  DigitizerReportRate?: string;
-  DigitizerTilt?: string;
-  DigitizerAccuracyCenter?: string;
-  DigitizerAccuracyCorner?: string;
-  DigitizerMaxHover?: string;
-  DigitizerSupportsTouch?: string;
-  DisplayPixelDimensions?: Dimensions;
-  DisplayPanelTech?: string;
-  DisplayBrightness?: string;
-  DisplayContrast?: string;
-  DisplayColorBitDepth?: string;
-  DisplayColorGamuts?: ColorGamuts;
-  DisplayLamination?: string;
-  DisplayAntiGlare?: string;
-  DisplayResponseTime?: string;
-  DisplayRefreshRate?: string;
-  DisplayViewingAngleHorizontal?: string;
-  DisplayViewingAngleVertical?: string;
-  PhysicalDimensions?: Dimensions;
-  PhysicalWeight?: string;
-  PhysicalWeightInclStand?: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface Pen {
-  EntityId: string;
-  Brand: string;
-  PenId: string;
-  PenName: string;
-  PenFamily: string;
-  PenYear: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface PenFamily {
-  EntityId: string;
-  Brand: string;
-  FamilyId: string;
-  FamilyName: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface TabletFamily {
-  EntityId: string;
-  Brand: string;
-  FamilyId: string;
-  FamilyName: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface Driver {
-  EntityId: string;
-  Brand: string;
-  DriverVersion: string;
-  DriverName: string;
-  DriverUID: string;
-  OSFamily: string;
-  ReleaseDate: string;
-  DriverURLWacom: string;
-  DriverURLArchiveDotOrg: string;
-  ReleaseNotesURL: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface PressureResponse {
-  Brand: string;
-  PenEntityId: string;
-  PenFamily: string;
-  InventoryId: string;
-  Date: string;
-  User: string;
-  TabletEntityId: string;
-  Driver: string;
-  OS: string;
-  Notes: string;
-  Records: [number, number][];
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
-
-export interface Brand {
-  EntityId: string;
-  BrandId: string;
-  BrandName: string;
-  SiteURL: string;
-  Country: string;
-  _id: string;
-  _CreateDate: string;
-  _ModifiedDate: string;
-}
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
 export interface PenCompat {
   Brand: string;
@@ -143,8 +16,6 @@ export interface PenCompat {
 }
 
 // --- Generic loader ---
-
-const BRANDS = ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 
 export async function loadBrandPartitionedDataFromURL<T>(
   dataBaseUrl: string,
@@ -187,7 +58,7 @@ export async function loadTabletsFromURL(dataBaseUrl: string): Promise<Tablet[]>
 // --- Driver loader ---
 
 export async function loadDriversFromURL(dataBaseUrl: string): Promise<Driver[]> {
-  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers", WACOM_ONLY);
 }
 
 // --- Pen loader ---
@@ -199,37 +70,14 @@ export async function loadPensFromURL(dataBaseUrl: string): Promise<Pen[]> {
 // --- Family loaders ---
 
 export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<PenFamily[]> {
-  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies", WACOM_ONLY);
 }
 
 export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<TabletFamily[]> {
-  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", ["WACOM"]);
+  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", WACOM_ONLY);
 }
 
 // --- Pen compat loader ---
-
-interface PenCompatGrouped {
-  Brand: string;
-  PenId: string;
-  TabletIds: string[];
-}
-
-function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {
-  const rows: PenCompat[] = [];
-  for (const entry of grouped) {
-    for (const tabletId of entry.TabletIds) {
-      rows.push({
-        Brand: entry.Brand,
-        TabletId: tabletId,
-        PenId: entry.PenId,
-        _id: "",
-        _CreateDate: "",
-        _ModifiedDate: "",
-      });
-    }
-  }
-  return rows;
-}
 
 export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenCompat[]> {
   const grouped = await loadBrandPartitionedDataFromURL<PenCompatGrouped>(dataBaseUrl, "pen-compat", "PenCompat");
@@ -237,8 +85,6 @@ export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenComp
 }
 
 // --- Pressure response loader ---
-
-const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
 
 export async function loadPressureResponseFromURL(dataBaseUrl: string): Promise<PressureResponse[]> {
   return loadBrandPartitionedDataFromURL<PressureResponse>(dataBaseUrl, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
@@ -276,6 +122,38 @@ export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {
   if (!contentType.includes("json")) return [];
   const data = await resp.json();
   return data.Brands ?? [];
+}
+
+// --- Reference data ---
+
+export interface ISOPaperSize {
+  Series: string;
+  Name: string;
+  Width_mm: number;
+  Height_mm: number;
+  Width_in: number;
+  Height_in: number;
+}
+
+export async function loadISOPaperSizesFromURL(dataBaseUrl: string): Promise<ISOPaperSize[]> {
+  const url = `${dataBaseUrl}/reference/iso-paper-sizes.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = await resp.json();
+  return data.ISOPaperSizes ?? [];
+}
+
+// --- Version info ---
+
+export async function loadVersionFromURL(dataBaseUrl: string): Promise<VersionInfo | null> {
+  const url = `${dataBaseUrl}/version.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return null;
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return null;
+  return (await resp.json()) as VersionInfo;
 }
 
 // --- Brand names ---

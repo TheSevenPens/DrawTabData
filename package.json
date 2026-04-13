@@ -8,6 +8,7 @@
   },
   "scripts": {
     "data-quality": "tsx lib/run-data-quality.ts",
+    "version-info": "tsx scripts/generate-version.ts",
     "build": "tsc"
   },
   "keywords": [
@@ -39,5 +40,8 @@
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "valibot": "^1.3.1"
   }
 }

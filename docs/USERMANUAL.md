@@ -28,7 +28,7 @@ performing joins. Some fields on one entity reference the ID of another:
 
 | Field | On entity | References |
 |---|---|---|
-| `ModelIncludedPen` | Tablet | PenId (e.g. `"KP-501E"`) |
+| `ModelIncludedPen` | Tablet | Array of PenIds (e.g. `["KP-501E"]` or `["PW600", "PW600S"]`) |
 | `ModelFamily` | Tablet | FamilyId on TabletFamily (e.g. `"WacomIntuosProGen8"`) |
 | `PenFamily` | Pen | FamilyId on PenFamily (e.g. `"WacomKPGEN1"`) |
 | `TabletId` | PenCompat | ModelId on Tablet (e.g. `"PTK-870"`) |
@@ -66,17 +66,23 @@ URL prefix where the JSON files are served. For example, if your files are at
 import {
   loadTabletsFromURL, loadPensFromURL, loadPenCompatFromURL,
   loadPenFamiliesFromURL, loadTabletFamiliesFromURL, loadDriversFromURL,
+  loadVersionFromURL,
 } from "./data-repo/lib/drawtab-loader.js";
 
 const baseUrl = "https://your-server.com/data";
 
-const tablets        = await loadTabletsFromURL(baseUrl);        // 250 tablets
-const pens           = await loadPensFromURL(baseUrl);           // 51 pens
+const version        = await loadVersionFromURL(baseUrl);        // schemaVersion, date, SHA, counts
+const tablets        = await loadTabletsFromURL(baseUrl);        // 300 tablets
+const pens           = await loadPensFromURL(baseUrl);           // 125 pens
 const penCompat      = await loadPenCompatFromURL(baseUrl);      // 535 compat rows
-const penFamilies    = await loadPenFamiliesFromURL(baseUrl);    // 7 pen families
+const penFamilies    = await loadPenFamiliesFromURL(baseUrl);    // 13 pen families
 const tabletFamilies = await loadTabletFamiliesFromURL(baseUrl); // 18 tablet families
 const drivers        = await loadDriversFromURL(baseUrl);        // 246 drivers
 ```
+
+`loadVersionFromURL` returns a `VersionInfo` object — see
+`data/version.json` for the shape, and check `version.schemaVersion`
+to refuse loading data with an incompatible schema major.
 
 ### From disk (Node.js, sync)
 

@@ -32,7 +32,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   { key: "ModelAudience", label: "Audience", getValue: (t) => t.ModelAudience ?? "", type: "enum", enumValues: ["Consumer", "Enthusiast", "Professional"], group: "Model" },
   { key: "ModelFamily", label: "Family", getValue: (t) => t.ModelFamily ?? "", type: "string", group: "Model" },
   { key: "ModelStatus", label: "Status", getValue: (t) => t.ModelStatus ?? "", type: "enum", enumValues: ["ACTIVE", "AVAILABLE", "DISCONTINUED"], group: "Model" },
-  { key: "ModelIncludedPen", label: "Included Pen", getValue: (t) => t.ModelIncludedPen ?? "", type: "string", group: "Model" },
+  { key: "ModelIncludedPen", label: "Included Pen", getValue: (t) => (t.ModelIncludedPen ?? []).join(", "), type: "string", group: "Model" },
   // Digitizer
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.DigitizerType ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
   { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.DigitizerPressureLevels ?? "", type: "number", group: "Digitizer" },
