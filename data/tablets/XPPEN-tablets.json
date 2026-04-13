@@ -2104,6 +2104,72 @@
       "PhysicalWeight": "719"
     },
     {
+      "EntityId": "XPPEN.TABLET.9494G",
+      "Brand": "XPPEN",
+      "ModelId": "9494G",
+      "ModelName": "Magic Drawing Pad 2024",
+      "ModelType": "STANDALONE",
+      "ModelLaunchYear": "2024",
+      "ModelAudience": "Consumer",
+      "ModelStatus": "ACTIVE",
+      "ModelProductLink": "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
+      "ModelIncludedPen": [
+        "PD04B"
+      ],
+      "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
+      "_CreateDate": "2026-04-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
+      "DigitizerType": "PASSIVE_EMR",
+      "DigitizerPressureLevels": "16384",
+      "DigitizerDensity": "100",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerAccuracyCorner": "1.5",
+      "DigitizerSupportsTouch": "YES",
+      "DigitizerDimensions": {
+        "Width": 258,
+        "Height": 172
+      },
+      "DisplayPixelDimensions": {
+        "Width": 2160,
+        "Height": 1440
+      },
+      "DisplayPanelTech": "IPS",
+      "DisplayBrightness": "360",
+      "DisplayContrast": "1200",
+      "DisplayColorBitDepth": "8",
+      "DisplayColorGamuts": {
+        "SRGB": 109,
+        "ADOBERGB": 82,
+        "NTSC": 77
+      },
+      "DisplayLamination": "YES",
+      "DisplayAntiGlare": "AGFILM",
+      "DisplayRefreshRate": "60",
+      "DisplayViewingAngleHorizontal": "178",
+      "DisplayViewingAngleVertical": "178",
+      "PhysicalDimensions": {
+        "Width": 279,
+        "Height": 192,
+        "Depth": 6.9
+      },
+      "PhysicalWeight": "599",
+      "ComputeOS": "Android 12",
+      "ComputeProcessor": "MediaTek MT8771",
+      "ComputeGPU": "ARM Mali-G57 MC2",
+      "ComputeRAM": "8",
+      "ComputeStorage": "256",
+      "ComputeExpandableStorage": "YES",
+      "ComputeMemoryCardSlot": "microSD",
+      "BatteryCapacity": "8000",
+      "BatteryChargingWatts": "20",
+      "ConnectivityWifi": "802.11a/b/g/n/ac",
+      "ConnectivityBluetooth": "5.1",
+      "ConnectivityUSB": "USB-C (USB 2.0)",
+      "HardwareSpeakers": "YES",
+      "HardwareFrontCamera": "8",
+      "HardwareRearCamera": "13"
+    },
+    {
       "EntityId": "XPPEN.TABLET.MDP1221",
       "Brand": "XPPEN",
       "ModelId": "MDP1221",
