@@ -9,6 +9,12 @@
   "scripts": {
     "data-quality": "tsx lib/run-data-quality.ts",
     "version-info": "tsx scripts/generate-version.ts",
+    "list-tablets": "tsx scripts/list-tablets.ts",
+    "show-tablet": "tsx scripts/show-tablet.ts",
+    "find-unfamilied": "tsx scripts/find-unfamilied.ts",
+    "show-family": "tsx scripts/show-family.ts",
+    "set-family": "tsx scripts/set-family.ts",
+    "validate-brand": "tsx scripts/validate-brand.ts",
     "build": "tsc"
   },
   "keywords": [
