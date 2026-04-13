@@ -1,0 +1,16 @@
+{
+  "USPaperSizes": [
+    { "Series": "Common", "Name": "Junior Legal",        "Width_mm": 127.0,  "Height_mm": 203.2,  "Width_in": 5.0,  "Height_in": 8.0  },
+    { "Series": "Common", "Name": "Half Letter",         "Width_mm": 139.7,  "Height_mm": 215.9,  "Width_in": 5.5,  "Height_in": 8.5  },
+    { "Series": "Common", "Name": "Government Letter",   "Width_mm": 203.2,  "Height_mm": 266.7,  "Width_in": 8.0,  "Height_in": 10.5 },
+    { "Series": "Common", "Name": "Letter",              "Width_mm": 215.9,  "Height_mm": 279.4,  "Width_in": 8.5,  "Height_in": 11.0 },
+    { "Series": "Common", "Name": "Government Legal",    "Width_mm": 215.9,  "Height_mm": 330.2,  "Width_in": 8.5,  "Height_in": 13.0 },
+    { "Series": "Common", "Name": "Legal",               "Width_mm": 215.9,  "Height_mm": 355.6,  "Width_in": 8.5,  "Height_in": 14.0 },
+    { "Series": "Common", "Name": "Tabloid",             "Width_mm": 279.4,  "Height_mm": 431.8,  "Width_in": 11.0, "Height_in": 17.0 },
+    { "Series": "ANSI",   "Name": "ANSI A (Letter)",     "Width_mm": 215.9,  "Height_mm": 279.4,  "Width_in": 8.5,  "Height_in": 11.0 },
+    { "Series": "ANSI",   "Name": "ANSI B (Tabloid)",    "Width_mm": 279.4,  "Height_mm": 431.8,  "Width_in": 11.0, "Height_in": 17.0 },
+    { "Series": "ANSI",   "Name": "ANSI C",              "Width_mm": 431.8,  "Height_mm": 558.8,  "Width_in": 17.0, "Height_in": 22.0 },
+    { "Series": "ANSI",   "Name": "ANSI D",              "Width_mm": 558.8,  "Height_mm": 863.6,  "Width_in": 22.0, "Height_in": 34.0 },
+    { "Series": "ANSI",   "Name": "ANSI E",              "Width_mm": 863.6,  "Height_mm": 1117.6, "Width_in": 34.0, "Height_in": 44.0 }
+  ]
+}
