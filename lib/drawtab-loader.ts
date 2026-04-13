@@ -124,6 +124,27 @@ export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {
   return data.Brands ?? [];
 }
 
+// --- Reference data ---
+
+export interface ISOPaperSize {
+  Series: string;
+  Name: string;
+  Width_mm: number;
+  Height_mm: number;
+  Width_in: number;
+  Height_in: number;
+}
+
+export async function loadISOPaperSizesFromURL(dataBaseUrl: string): Promise<ISOPaperSize[]> {
+  const url = `${dataBaseUrl}/reference/iso-paper-sizes.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = await resp.json();
+  return data.ISOPaperSizes ?? [];
+}
+
 // --- Version info ---
 
 export async function loadVersionFromURL(dataBaseUrl: string): Promise<VersionInfo | null> {
