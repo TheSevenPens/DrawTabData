@@ -449,6 +449,63 @@
       "DisplayViewingAngleHorizontal": "178",
       "DisplayViewingAngleVertical": "178",
       "ModelAudience": "Consumer",
+      "ModelId": "CD100FH",
+      "ModelIncludedPen": [
+        "X3ELITE"
+      ],
+      "ModelLaunchYear": "2022",
+      "ModelName": "Artist 10 GEN2",
+      "ModelProductLink": "https://www.xp-pen.com/product/artist-10-2nd-gen.html",
+      "ModelType": "PENDISPLAY",
+      "PhysicalDimensions": {
+        "Width": 299,
+        "Height": 173.3,
+        "Depth": 12.9
+      },
+      "_CreateDate": "2026-04-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-13T00:00:00.000Z",
+      "_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "EntityId": "XPPEN.TABLET.CD100FH",
+      "DigitizerDensity": "200",
+      "Brand": "XPPEN",
+      "DisplayPixelDimensions": {
+        "Width": 1920,
+        "Height": 1080
+      },
+      "DigitizerSupportsTouch": "NO",
+      "DigitizerAccuracyCenter": "0.5",
+      "DigitizerAccuracyCorner": "1",
+      "DigitizerDimensions": {
+        "Width": 224.49,
+        "Height": 126.7
+      },
+      "DigitizerMaxHover": "10",
+      "DigitizerPressureLevels": "8192",
+      "DigitizerTilt": "60",
+      "DigitizerType": "PASSIVE_EMR",
+      "DisplayColorGamuts": {
+        "NTSC": 85,
+        "SRGB": 120,
+        "ADOBERGB": 88
+      },
+      "DisplayContrast": "1000",
+      "DisplayLamination": "YES",
+      "DisplayViewingAngleHorizontal": "178",
+      "DisplayViewingAngleVertical": "178"
+    },
+    {
+      "DigitizerPressureLevels": "8192",
+      "DigitizerReportRate": "200",
+      "DigitizerTilt": "60",
+      "DigitizerType": "PASSIVE_EMR",
+      "DisplayBrightness": "220",
+      "DisplayColorGamuts": {
+        "SRGB": 127
+      },
+      "DisplayContrast": "1000",
+      "DisplayViewingAngleHorizontal": "178",
+      "DisplayViewingAngleVertical": "178",
+      "ModelAudience": "Consumer",
       "ModelId": "CD120FH",
       "ModelIncludedPen": [
         "X3ELITE"
