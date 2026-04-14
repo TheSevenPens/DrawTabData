@@ -36,7 +36,7 @@ export const DRIVER_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "EntityId", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
+      "EntityId", "Brand", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
     ],
   },
   { kind: "sort", field: "ReleaseDate", direction: "desc" },
