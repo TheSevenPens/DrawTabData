@@ -7,7 +7,7 @@ manufacturer product page.
 
 1. Find the product page (xp-pen.com, huion.com, wacom.com, etc.)
 2. Extract specs and map them to our field names (see tables below)
-3. Look up the included pen's PenId in the existing pen data
+3. Look up the included pen's EntityId in the existing pen data
 4. Add the tablet entry to `data/tablets/BRAND-tablets.json`
 5. Run `npm run data-quality` to validate
 6. If the pen isn't in the dataset yet, add it to `data/pens/BRAND-pens.json`
@@ -88,7 +88,7 @@ Every tablet record must have these fields:
 
 | Product page label | JSON field | Notes |
 |---|---|---|
-| Included Stylus / Pen | `Model.IncludedPen` | Array of PenId strings: `["PD21"]`. Look up the pen in `data/pens/BRAND-pens.json` to get the correct PenId |
+| Included Stylus / Pen | `Model.IncludedPen` | Array of pen EntityId strings: `["XPPEN.PEN.PD21"]`. Look up the pen in `data/pens/BRAND-pens.json` to get the correct EntityId |
 | Product URL | `Model.ProductLink` | Full URL to product page |
 | Target Audience | `Model.Audience` | `"Consumer"`, `"Enthusiast"`, or `"Professional"` |
 | Family | `Model.Family` | FamilyId from `data/tablet-families/`. Leave out if no family exists yet |
@@ -124,9 +124,9 @@ If you add a `Display` group to a pen tablet, data quality checks will fail.
   Run data quality checks before committing.
 - **Color gamut key names are specific.** Use `SRGB` not `sRGB`, `ADOBERGB`
   not `AdobeRGB`, `DISPLAYP3` not `Display P3`.
-- **Pen lookup:** The `Model.IncludedPen` value must match a `PenId` in the
-  pens dataset, not the pen's display name. Check
-  `data/pens/BRAND-pens.json` first.
+- **Pen lookup:** The `Model.IncludedPen` value must be the pen's `EntityId`
+  (e.g. `"XPPEN.PEN.X3ELITE"`), not the `PenId` or display name. Check
+  `data/pens/BRAND-pens.json` for the correct `EntityId`.
 - **Model.Id consistency:** Check existing tablets from the same brand to
   match naming patterns (e.g., XP-Pen uses `CD100FH`, `CD120FH` for
   consumer Artist GEN2 line; `MD160QH` for pro GEN2 line).
@@ -162,7 +162,7 @@ Source: https://www.xp-pen.com/product/artist-10-2nd-gen.html
     "Type": "PENDISPLAY",
     "LaunchYear": "2022",
     "Family": "XPPenArtistGen2",
-    "IncludedPen": ["X3ELITE"],
+    "IncludedPen": ["XPPEN.PEN.X3ELITE"],
     "ProductLink": "https://www.xp-pen.com/product/artist-10-2nd-gen.html"
   },
   "Digitizer": {
@@ -192,6 +192,6 @@ Source: https://www.xp-pen.com/product/artist-10-2nd-gen.html
 
 Key decisions made during this import:
 - LPI 5080 converted to LPmm 200 (5080 / 25.4)
-- Pen lookup: "X3 Elite" stylus matched to PenId `X3ELITE` in XPPEN-pens.json
+- Pen lookup: "X3 Elite" stylus matched to EntityId `XPPEN.PEN.X3ELITE` in XPPEN-pens.json
 - Physical weight not listed on product page, so omitted
 - `DisplayShortcutKeys` was initially added but removed because it's not in the schema

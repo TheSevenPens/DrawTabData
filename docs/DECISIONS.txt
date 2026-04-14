@@ -3,6 +3,34 @@
 This document records key design decisions for the DrawTabData project.
 
 
+## 2026-04-13: Model.IncludedPen stores pen EntityIds, not PenIds
+
+### Context
+`Model.IncludedPen` originally stored short `PenId` strings (e.g. `"X3ELITE"`).
+Consumers that needed to link to a pen detail page or look up pen metadata had
+to load all pen records and build a `PenId → EntityId` map first.
+
+### Decision
+Store the full pen `EntityId` (e.g. `"XPPEN.PEN.X3ELITE"`) in `Model.IncludedPen`
+instead of the bare `PenId`. This lets consumers build links and look up pen data
+directly without a separate resolution step.
+
+### Migration
+A one-time script converted all 292 affected tablet records across 5 brand files.
+5 PenId mismatches (non-standard casing or missing hyphens) were corrected
+manually. 1 record (`9494G` / `PD04B`) was left unchanged as that pen is not
+yet in the dataset.
+
+### Fields affected
+- `Model.IncludedPen` — array of pen EntityId strings instead of PenId strings
+
+### Impact on consumers
+- `buildPenNameMap` now keys by `EntityId` instead of `PenId`
+- Pen detail page: `IncludedPen` filter compares to `found.EntityId`
+- Tablet list view: `cellLinks` for `ModelIncludedPen` uses the stored
+  value directly as the URL path; no intermediate `penIdToEntityId` map needed
+
+
 ## 2026-04-01: Complex fields for multi-part values
 
 ### Context

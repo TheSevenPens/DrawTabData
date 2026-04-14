@@ -82,8 +82,8 @@ A grouping name for product lines or generations (e.g. "GEN3", "INTUOS4").
 Required: no
 
 ### Model.IncludedPen
-The pen model(s) included with the tablet. Array of PenId strings.
-Example: ["PW600", "PW600S"]
+The pen model(s) included with the tablet. Array of pen EntityId strings.
+Example: ["HUION.PEN.PW600", "HUION.PEN.PW600S"]
 Required: no
 
 ### Model.ProductLink
