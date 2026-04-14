@@ -128,12 +128,12 @@ export function buildIncludedPenMap(
 }
 
 /**
- * Build a Map from PenId to a formatted display name.
- * E.g. "KP-501E" -> "Wacom Grip Pen (KP-501E)"
+ * Build a Map from pen EntityId to a formatted display name.
+ * E.g. "WACOM.PEN.KP501E" -> "Wacom Grip Pen (KP-501E)"
  */
 export function buildPenNameMap(pens: Pen[]): Map<string, string> {
   return new Map(
-    pens.map((p) => [p.PenId, `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`]),
+    pens.map((p) => [p.EntityId, `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`]),
   );
 }
 
