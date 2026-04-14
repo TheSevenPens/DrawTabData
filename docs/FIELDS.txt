@@ -2,37 +2,64 @@
 
 This document describes all fields in the tablet dataset.
 
-Fields are grouped by prefix:
-- Model*    - Identity and classification of the tablet
-- Digitizer* - Properties of the digitizer (the drawing surface)
-- Display*  - Properties of the display (pen displays only)
-- Physical* - Physical characteristics
+Fields are organised into nested JSON groups. Each record looks like:
+
+  {
+    "Meta":       { ... },
+    "Model":      { ... },
+    "Digitizer":  { ... },      -- all tablets
+    "Display":    { ... },      -- PENDISPLAY and STANDALONE only
+    "Physical":   { ... },      -- all tablets
+    "Standalone": { ... }       -- STANDALONE only
+  }
 
 Fields prefixed with _ are system fields used for internal data management.
 They are not intended to be shown to end users.
 
 
-## Model fields
+## Meta group
 
-### EntityId
-A user-facing unique identifier, including entity type.
-Format: "BRAND.ENTITYTYPE.ID" (e.g. "WACOM.TABLET.PTK870", "WACOM.DRIVER.6.3.45-2_WINDOWS")
+Internal tracking fields. Not displayed to end users.
+
+### Meta.EntityId
+A user-facing unique identifier including entity type.
+Format: "BRAND.ENTITYTYPE.ID" (e.g. "WACOM.TABLET.PTK870")
 Required: yes
 
-### Brand
+### Meta._id
+A unique record identifier.
+Format: UUID v4 string (e.g. "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1")
+Required: yes (auto-generated)
+
+### Meta._CreateDate
+The timestamp when the record was first created.
+Format: ISO 8601 datetime string (e.g. "2025-12-12T12:33:46.983Z")
+Required: yes (auto-generated)
+
+### Meta._ModifiedDate
+The timestamp when the record was last modified.
+Format: ISO 8601 datetime string (e.g. "2025-12-12T17:53:46.334Z")
+Required: yes (auto-generated)
+
+
+## Model group
+
+Product identity and classification.
+
+### Model.Brand
 The manufacturer brand.
-Values: HUION, WACOM, XENCELABS, XPPEN
+Values: GAOMON, HUION, SAMSUNG, UGEE, WACOM, XENCELABS, XPPEN
 Required: yes
 
-### ModelId
+### Model.Id
 The manufacturer's model identifier (e.g. "GS1161", "DTK2260K0A").
 Required: yes
 
-### ModelName
+### Model.Name
 The marketing/product name (e.g. "Kamvas 12", "Cintiq Pro 22").
 Required: yes
 
-### ModelType
+### Model.Type
 The form factor category.
 Values: PENTABLET, PENDISPLAY, STANDALONE
 - PENTABLET  - opaque tablet without a screen
@@ -40,210 +67,290 @@ Values: PENTABLET, PENDISPLAY, STANDALONE
 - STANDALONE - standalone drawing computer
 Required: yes
 
-### ModelLaunchYear
+### Model.LaunchYear
 The year the product was released or announced.
 Format: 4-digit year string (e.g. "2022")
 Required: yes
 
-### ModelAudience
+### Model.Audience
 The intended market segment.
 Values: Consumer, Enthusiast, Professional
 Required: no
 
-### ModelFamily
-A grouping name for product lines or generations (e.g. "GEN3", "INTUOS4", "ONE BY WACOM").
+### Model.Family
+A grouping name for product lines or generations (e.g. "GEN3", "INTUOS4").
 Required: no
 
-### ModelIncludedPen
-The pen model(s) included with the tablet. Array of PenId strings (e.g. ["PW600", "PW600S"]).
+### Model.IncludedPen
+The pen model(s) included with the tablet. Array of PenId strings.
+Example: ["PW600", "PW600S"]
 Required: no
 
-### ModelProductLink
+### Model.ProductLink
 URL to the manufacturer's official product page.
 Required: no
 
-### ModelStatus
+### Model.Status
 The current availability status of the product.
 Values: ACTIVE, AVAILABLE, DISCONTINUED
 Required: no
 
 
-## Digitizer fields
+## Digitizer group
 
-### DigitizerType
+Properties of the digitizer (the drawing surface). Present on all tablet types.
+
+### Digitizer.Type
 The pen sensing technology used by the digitizer.
 Values: PASSIVE_EMR, ACTIVE_EMR
 - PASSIVE_EMR - electromagnetic resonance with a battery-free pen
 - ACTIVE_EMR  - electromagnetic resonance with a powered pen
 Required: no
 
-### DigitizerPressureLevels
+### Digitizer.PressureLevels
 The number of pressure levels the digitizer can detect.
 Format: integer string (e.g. "8192", "16384")
-Unit: levels
 Required: no
 
-### DigitizerDimensions
+### Digitizer.Dimensions
 The active drawing area dimensions.
 Format: object { "Width": number, "Height": number }
 Unit: mm
 Required: no
 
-### DigitizerDensity
+### Digitizer.Density
 The spatial resolution (density) of the digitizer.
 Format: numeric string (e.g. "200", "157.4")
 Unit: LPmm (lines per millimeter)
 Required: no
 
-### DigitizerReportRate
+### Digitizer.ReportRate
 The rate at which the digitizer reports pen position.
 Format: integer string (e.g. "300", "266")
 Unit: Hz (reports per second)
 Required: no
 
-### DigitizerTilt
+### Digitizer.Tilt
 The maximum tilt angle the digitizer can detect. A value of "0" means tilt is not supported.
 Format: integer string (e.g. "60")
 Unit: degrees
 Required: no
 
-### DigitizerAccuracyCenter
+### Digitizer.AccuracyCenter
 Pen positional accuracy at the center of the active area.
 Format: numeric string (e.g. "0.3", "0.5")
 Unit: mm
 Required: no
 
-### DigitizerAccuracyCorner
+### Digitizer.AccuracyCorner
 Pen positional accuracy at the corners of the active area.
 Format: numeric string (e.g. "2", "3")
 Unit: mm
 Required: no
 
-### DigitizerMaxHover
+### Digitizer.MaxHover
 The maximum height above the surface at which the pen is detected.
 Format: integer string (e.g. "10", "12")
 Unit: mm
 Required: no
 
-### DigitizerSupportsTouch
+### Digitizer.SupportsTouch
 Whether the digitizer supports finger touch input.
 Values: YES, NO
 Required: no
 
 
-## Display fields
+## Display group
 
-These fields apply only to tablets where ModelType is PENDISPLAY.
+Properties of the integrated display. Present on PENDISPLAY and STANDALONE only.
+The schema enforces that PENTABLET records cannot have a Display group.
 
-### DisplayPixelDimensions
+### Display.PixelDimensions
 The screen pixel dimensions.
 Format: object { "Width": number, "Height": number }
 Unit: pixels
 Required: no
 
-### DisplayPanelTech
+### Display.PanelTech
 The display panel technology.
 Values: IPS, TFT, AHVA, OLED, H-IPS, MVA
 Required: no
 
-### DisplayBrightness
+### Display.Brightness
 Typical brightness.
 Format: integer string (e.g. "250", "350")
-Unit: cd/m2
+Unit: cd/m²
 Required: no
 
-### DisplayContrast
+### Display.BrightnessPeak
+Peak brightness (relevant for HDR-capable displays).
+Format: integer string (e.g. "900")
+Unit: cd/m²
+Required: no
+
+### Display.Contrast
 The contrast ratio (e.g. "1000" means 1000:1).
 Format: integer string
-Unit: ratio (:1)
 Required: no
 
-### DisplayColorBitDepth
+### Display.ColorBitDepth
 The color bit depth per channel.
 Values: 6, 8, 10
 Unit: bits
 Required: no
 
-### DisplayColorGamuts
+### Display.ColorGamuts
 Color gamut coverage keyed by canonical gamut name.
-Format: object { "GamutName": number, ... } (e.g. { "SRGB": 120, "AdobeRGB": 90 })
+Format: object { "GamutName": number, ... } (e.g. { "SRGB": 120, "ADOBERGB": 90 })
 Unit: % coverage
 Canonical gamut names: SRGB, ADOBERGB, DCIP3, DISPLAYP3, NTSC, REC709
 Required: no
 
-### DisplayLamination
+### Display.Lamination
 Whether the display is fully laminated (bonded to the cover glass).
 Values: YES, NO
 Required: no
 
-### DisplayAntiGlare
+### Display.AntiGlare
 The type of anti-glare treatment on the display surface.
 Values: AGFILM, ETCHEDGLASS, FILM
-- AGFILM      - anti-glare film applied to the surface
-- ETCHEDGLASS - etched glass surface treatment
-- FILM        - generic film treatment
 Required: no
 
-### DisplayResponseTime
+### Display.ResponseTime
 The pixel response time.
 Format: integer string (e.g. "14", "25")
 Unit: ms
 Required: no
 
-### DisplayRefreshRate
+### Display.RefreshRate
 The screen refresh rate.
 Format: integer string (e.g. "60", "144")
 Unit: Hz
 Required: no
 
-### DisplayViewingAngleHorizontal
+### Display.ViewingAngleHorizontal
 The horizontal viewing angle.
-Format: integer string (e.g. "178", "170")
+Format: integer string (e.g. "178")
 Unit: degrees
 Required: no
 
-### DisplayViewingAngleVertical
+### Display.ViewingAngleVertical
 The vertical viewing angle.
-Format: integer string (e.g. "178", "170")
+Format: integer string (e.g. "178")
 Unit: degrees
 Required: no
 
 
-## Physical fields
+## Physical group
 
-### PhysicalDimensions
+Physical characteristics. Present on all tablet types.
+
+### Physical.Dimensions
 The overall physical dimensions of the tablet. Depth may be absent if unknown.
 Format: object { "Width": number, "Height": number, "Depth": number }
 Unit: mm
 Required: no
 
-### PhysicalWeight
+### Physical.Weight
 The weight of the tablet.
 Format: numeric string (e.g. "735", "3900")
 Unit: g
 Required: no
 
-### PhysicalWeightInclStand
-Whether the PhysicalWeight value includes the weight of a stand.
+### Physical.WeightInclStand
+Whether the Physical.Weight value includes the weight of a stand.
 Values: YES, NO
 Required: no
 
 
-## System fields
+## Standalone group
 
-These fields are used for internal data management and are not displayed to end users.
+Compute, battery, connectivity, and hardware specs. Present on STANDALONE only.
+The schema enforces that non-STANDALONE records cannot have a Standalone group.
 
-### _id
-A unique identifier for the record.
-Format: UUID v4 string (e.g. "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1")
-Required: yes (auto-generated)
+### Standalone.OS
+The operating system.
+Format: string (e.g. "Android 14", "Windows 11 Pro")
+Required: no
 
-### _CreateDate
-The timestamp when the record was first created.
-Format: ISO 8601 datetime string (e.g. "2025-12-12T12:33:46.983Z")
-Required: yes (auto-generated)
+### Standalone.Processor
+The CPU model.
+Format: string (e.g. "MediaTek Helio G99", "Intel Core i7-8559U")
+Required: no
 
-### _ModifiedDate
-The timestamp when the record was last modified.
-Format: ISO 8601 datetime string (e.g. "2025-12-12T17:53:46.334Z")
-Required: yes (auto-generated)
+### Standalone.GPU
+The discrete GPU model, if any.
+Format: string (e.g. "NVIDIA Quadro P1000")
+Required: no
+
+### Standalone.RAM
+Installed RAM.
+Format: numeric string (e.g. "8", "16")
+Unit: GB
+Required: no
+
+### Standalone.Storage
+Installed storage.
+Format: numeric string (e.g. "128", "512")
+Unit: GB
+Required: no
+
+### Standalone.ExpandableStorage
+Whether the storage can be expanded (e.g. via memory card).
+Values: YES, NO
+Required: no
+
+### Standalone.MemoryCardSlot
+The type of memory card slot, if any.
+Format: string (e.g. "microSD", "SDXC")
+Required: no
+
+### Standalone.BatteryCapacity
+Battery capacity.
+Format: numeric string (e.g. "7700", "4630")
+Unit: mAh
+Required: no
+
+### Standalone.BatteryLife
+Rated battery life.
+Format: numeric string (e.g. "12")
+Unit: hours
+Required: no
+
+### Standalone.BatteryChargingWatts
+Maximum charging wattage.
+Format: numeric string (e.g. "33", "20")
+Unit: W
+Required: no
+
+### Standalone.Wifi
+Wi-Fi standard(s) supported.
+Format: string (e.g. "802.11a/b/g/n/ac", "Wi-Fi 6")
+Required: no
+
+### Standalone.Bluetooth
+Bluetooth version.
+Format: string (e.g. "5.2", "4.1")
+Required: no
+
+### Standalone.USB
+USB port type and standard.
+Format: string (e.g. "USB-C (USB 2.0)")
+Required: no
+
+### Standalone.Speakers
+Whether the device has built-in speakers.
+Values: YES, NO
+Required: no
+
+### Standalone.FrontCamera
+Front-facing camera resolution.
+Format: numeric string (e.g. "5")
+Unit: MP
+Required: no
+
+### Standalone.RearCamera
+Rear-facing camera resolution.
+Format: numeric string (e.g. "8", "13")
+Unit: MP
+Required: no

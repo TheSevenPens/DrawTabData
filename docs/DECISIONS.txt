@@ -59,6 +59,38 @@ Two HUION entries had Chinese commas and swapped gamut/percentage:
 This matches the pattern of other HUION entries in the same product line.
 
 
+## 2026-04-13: Nested JSON groups for tablet records
+
+### Context
+Tablet records had grown to ~40 flat top-level fields with name prefixes
+(e.g. `DigitizerDimensions`, `DisplayPixelDimensions`, `ModelLaunchYear`).
+This made new-field placement ambiguous, made the JSON verbose, and made
+it harder to see at a glance which fields belonged to which system.
+
+### Decision
+Reorganise tablet records into six nested groups, stripping the prefix
+within each group:
+
+- **Meta** — identity and timestamps (`EntityId`, `_id`, `_CreateDate`, `_ModifiedDate`)
+- **Model** — product classification (`Brand`, `Id`, `Name`, `Type`, `LaunchYear`, ...)
+- **Digitizer** — drawing surface (`Dimensions`, `PressureLevels`, `Tilt`, ...)
+- **Display** — screen, present on PENDISPLAY and STANDALONE only (`PixelDimensions`, `Brightness`, ...)
+- **Physical** — physical form (`Dimensions`, `Weight`, ...)
+- **Standalone** — compute/battery/connectivity, present on STANDALONE only (`OS`, `RAM`, `Storage`, ...)
+
+The PENTABLET-cannot-have-Display rule and the STANDALONE-only rule for the
+Standalone group are enforced in the Valibot schema via `v.rawCheck`.
+
+### Migration
+A one-time migration script (`scripts/migrate-flat-to-nested.ts`) transformed
+all 306 tablet records across 5 brand files. The `npm run data-quality`
+validator confirmed 0 issues after migration.
+
+### Consumer impact
+Only DrawTabDataExplorer required code updates. PenPressureData, Wacom-Driver-List,
+and DrawTabInventory do not consume the Tablet type.
+
+
 ## 2026-04-02: Pre-filtered navigation via URL query parameters
 
 ### Context

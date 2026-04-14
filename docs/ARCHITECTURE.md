@@ -82,7 +82,7 @@ Inventory loaders take a `userId` parameter instead of loading by brand.
 ## Helpers
 
 - `compat-helpers.ts` — builds tablet-to-pen and pen-to-tablet maps,
-  the included-pen map from `ModelIncludedPen`, and `findSimilarTablets`
+  the included-pen map from `Model.IncludedPen`, and `findSimilarTablets`
   for the tablet detail page's "compare to similar" feature
 - `containsText`, `equalsText` — case-insensitive string helpers
 - `getDiagonal`, `formatDimensions` — dimension utilities
