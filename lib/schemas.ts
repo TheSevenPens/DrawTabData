@@ -75,6 +75,7 @@ const ModelSchema = v.strictObject({
   Family: v.optional(TrimmedString),
   IncludedPen: v.optional(v.array(TrimmedString)),
   ProductLink: v.optional(TrimmedString),
+  UserManual: v.optional(TrimmedString),
   Status: v.optional(v.picklist(["ACTIVE", "AVAILABLE", "DISCONTINUED"])),
 });
 
