@@ -9,6 +9,7 @@ export interface InventoryPen {
   WithTabletInventoryId: string;
   Notes: string;
   Tags: string[];
+  Defects?: Array<{ Kind: string; Notes: string }>;
   _id: string;
   _CreateDate: string;
   _ModifiedDate: string;
@@ -23,6 +24,8 @@ export const INVENTORY_PEN_FIELDS: FieldDef<InventoryPen>[] = [
   { key: "PenTech", label: "Tech", getValue: (p) => p.PenTech, type: "enum", enumValues: ["EMR", "APPLE"], group: "Pen" },
   { key: "PenTechSubtype", label: "Tech Subtype", getValue: (p) => p.PenTechSubtype, type: "string", group: "Pen" },
   { key: "Notes", label: "Notes", getValue: (p) => p.Notes, type: "string", group: "Pen" },
+  { key: "IsDefective", label: "Defective", getValue: (p) => (p.Defects?.length ?? 0) > 0 ? "YES" : "NO", type: "enum", enumValues: ["YES", "NO"], group: "Pen" },
+  { key: "DefectKinds", label: "Defect Kinds", getValue: (p) => (p.Defects ?? []).map(d => d.Kind).join(", "), type: "string", group: "Pen" },
   // Acquisition
   { key: "WithTabletInventoryId", label: "Came With Tablet", getValue: (p) => p.WithTabletInventoryId, type: "string", group: "Acquisition" },
 ];

@@ -251,6 +251,66 @@ export const PressureResponseSchema = v.strictObject({
   _ModifiedDate: IsoDateString,
 });
 
+// --- Inventory ---
+
+/** A single defect entry on a per-unit inventory record. */
+const DefectEntrySchema = v.strictObject({
+  Kind: TrimmedString,
+  Notes: TrimmedString,
+});
+
+export const InventoryPenSchema = v.strictObject({
+  PenEntityId: TrimmedString,
+  Brand: TrimmedString,
+  PenTech: TrimmedString,
+  PenTechSubtype: TrimmedString,
+  InventoryId: TrimmedString,
+  WithTabletInventoryId: TrimmedString,
+  Notes: TrimmedString,
+  Tags: v.optional(v.array(TrimmedString)),
+  Defects: v.optional(v.array(DefectEntrySchema)),
+  _id: UuidString,
+  _CreateDate: IsoDateString,
+  _ModifiedDate: IsoDateString,
+});
+
+export const InventoryPenFileSchema = v.strictObject({
+  InventoryPens: v.array(InventoryPenSchema),
+});
+
+export const InventoryTabletSchema = v.strictObject({
+  TabletEntityId: TrimmedString,
+  Brand: TrimmedString,
+  ModelId: TrimmedString,
+  ModelName: TrimmedString,
+  TabletType: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
+  InventoryId: TrimmedString,
+  Vendor: TrimmedString,
+  OrderDate: TrimmedString,
+  Notes: TrimmedString,
+  Tags: v.optional(v.array(TrimmedString)),
+  Defects: v.optional(v.array(DefectEntrySchema)),
+  _id: UuidString,
+  _CreateDate: IsoDateString,
+  _ModifiedDate: IsoDateString,
+});
+
+export const InventoryTabletFileSchema = v.strictObject({
+  InventoryTablets: v.array(InventoryTabletSchema),
+});
+
+// --- Defect kinds vocabulary (data/reference/defect-kinds.json) ---
+
+export const DefectKindSchema = v.strictObject({
+  Kind: TrimmedString,
+  AppliesTo: v.array(v.picklist(["pen", "tablet"])),
+  Description: TrimmedString,
+});
+
+export const DefectKindsFileSchema = v.strictObject({
+  DefectKinds: v.array(DefectKindSchema),
+});
+
 // --- Version info (data/version.json) ---
 
 export const VersionInfoSchema = v.strictObject({
@@ -282,4 +342,7 @@ export type Driver = v.InferOutput<typeof DriverSchema>;
 export type Brand = v.InferOutput<typeof BrandSchema>;
 export type PenCompatGrouped = v.InferOutput<typeof PenCompatGroupedSchema>;
 export type PressureResponse = v.InferOutput<typeof PressureResponseSchema>;
+export type InventoryPen = v.InferOutput<typeof InventoryPenSchema>;
+export type InventoryTablet = v.InferOutput<typeof InventoryTabletSchema>;
+export type DefectKind = v.InferOutput<typeof DefectKindSchema>;
 export type VersionInfo = v.InferOutput<typeof VersionInfoSchema>;

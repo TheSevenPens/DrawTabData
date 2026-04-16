@@ -11,6 +11,7 @@ export interface InventoryTablet {
   OrderDate: string;
   Notes: string;
   Tags: string[];
+  Defects?: Array<{ Kind: string; Notes: string }>;
   _id: string;
   _CreateDate: string;
   _ModifiedDate: string;
@@ -26,6 +27,8 @@ export const INVENTORY_TABLET_FIELDS: FieldDef<InventoryTablet>[] = [
   { key: "ModelName", label: "Name", getValue: (t) => t.ModelName, type: "string", group: "Tablet" },
   { key: "TabletType", label: "Type", getValue: (t) => t.TabletType, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY", "STANDALONE"], group: "Tablet" },
   { key: "Notes", label: "Notes", getValue: (t) => t.Notes, type: "string", group: "Tablet" },
+  { key: "IsDefective", label: "Defective", getValue: (t) => (t.Defects?.length ?? 0) > 0 ? "YES" : "NO", type: "enum", enumValues: ["YES", "NO"], group: "Tablet" },
+  { key: "DefectKinds", label: "Defect Kinds", getValue: (t) => (t.Defects ?? []).map(d => d.Kind).join(", "), type: "string", group: "Tablet" },
   // Acquisition
   { key: "Vendor", label: "Vendor", getValue: (t) => t.Vendor, type: "string", group: "Acquisition" },
   { key: "OrderDate", label: "Order Date", getValue: (t) => t.OrderDate, type: "string", group: "Acquisition" },
