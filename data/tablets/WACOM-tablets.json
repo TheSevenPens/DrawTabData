@@ -178,7 +178,8 @@
                                                                  "WACOM.PEN.LP170E",
                                                                  "WACOM.PEN.LP170"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "CTx-x70"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -219,7 +220,8 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTH-490.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTH-490.html",
+                                             "Family":  "CTx-x90"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "1024",
@@ -258,7 +260,8 @@
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170E"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "CTx-x70"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -298,7 +301,8 @@
                                                                  "WACOM.PEN.LP190"
                                                              ],
                                              "ProductLink":  "https://www.parkablogs.com/node/12104",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "CTx-x90"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "1024",
@@ -420,7 +424,8 @@
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "CTx-x70"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -456,11 +461,11 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Consumer",
-                                             "Family":  "ONE BY WACOM",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP190K"
                                                              ],
-                                             "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications"
+                                             "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
+                                             "Family":  "CTL-x72"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -502,7 +507,8 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-490.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-490.html",
+                                             "Family":  "CTx-x90"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "1024",
@@ -622,12 +628,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Consumer",
-                                             "Family":  "ONE BY WACOM",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP190K"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-672.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-672.html",
+                                             "Family":  "CTL-x72"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -668,7 +674,8 @@
                                                                  "WACOM.PEN.LP190"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "CTx-x90"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -705,12 +712,12 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
-                                             "Family":  "WACOM ONE",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.CP923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
-                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/dtc121.html"
+                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/dtc121.html",
+                                             "Family":  "WacomOndPenDisplayGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -761,13 +768,13 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
-                                             "Family":  "WACOM ONE",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.CP913"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTC133.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTC133.html",
+                                             "Family":  "WacomOndPenDisplayGen1"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -820,12 +827,12 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
-                                             "Family":  "WACOM ONE",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.CP923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
-                                             "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTC141.html"
+                                             "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTC141.html",
+                                             "Family":  "WacomOndPenDisplayGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -931,12 +938,12 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
-                                             "Family":  "WACOM ONE",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.CP923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
-                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth134.html"
+                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth134.html",
+                                             "Family":  "WacomOndPenDisplayGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2713,12 +2720,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS5",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen5"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2760,7 +2767,8 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-451.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-451.html",
+                                             "Family":  "WacomIntuosProGen6"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2801,7 +2809,8 @@
                                                                  "WACOM.PEN.KP504E"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html",
+                                             "Family":  "WacomIntuosProGen7"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2884,7 +2893,8 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-651.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-651.html",
+                                             "Family":  "WacomIntuosProGen6"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2926,7 +2936,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
+                                             "Family":  "WacomIntuosProGen7"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2963,12 +2974,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS5",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen5"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3010,7 +3021,8 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-851.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-851.html",
+                                             "Family":  "WacomIntuosProGen6"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3052,7 +3064,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html",
+                                             "Family":  "WacomIntuosProGen7"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3089,12 +3102,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS4",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen4"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3132,12 +3145,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS4",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen4"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3175,12 +3188,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS5",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen5"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3220,7 +3233,8 @@
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ACP500"
                                                              ],
-                                             "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro"
+                                             "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
+                                             "Family":  "WacomIntuosProGen8"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3256,12 +3270,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS4",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://www.picmod.com/goods.php?id=143",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen4"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3298,12 +3312,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS4",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen4"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3341,12 +3355,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS5",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen5"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3387,7 +3401,8 @@
                                                                  "WACOM.PEN.ACP500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTK670.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTK670.html",
+                                             "Family":  "WacomIntuosProGen8"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3423,12 +3438,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS4",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.KP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen4"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3469,7 +3484,8 @@
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ACP500"
                                                              ],
-                                             "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro"
+                                             "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
+                                             "Family":  "WacomIntuosProGen8"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3505,12 +3521,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3547,12 +3563,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3589,12 +3605,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3631,12 +3647,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3673,12 +3689,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3715,12 +3731,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3757,12 +3773,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS3",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.ZP501E"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen3"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3799,12 +3815,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS2",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.XP501E"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3841,12 +3857,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS2",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.XP501E"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3883,12 +3899,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS2",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.XP501E"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3925,12 +3941,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS2",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.XP501E"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3967,12 +3983,12 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
-                                             "Family":  "INTUOS2",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.XP501E"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "WacomIntuosProGen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7117,4 +7133,3 @@
                            }
                        ]
 }
-
