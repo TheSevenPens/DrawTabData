@@ -2701,6 +2701,36 @@
       "_ModifiedDate": "2026-04-01T08:52:45.000Z"
     },
     {
+      "DriverVersion": "6.4.12-3",
+      "DriverName": "Driver 6.4.12-3 for WINDOWS",
+      "OSFamily": "WINDOWS",
+      "ReleaseDate": "2026-01-06",
+      "DriverURLWacom": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.12-3.exe",
+      "DriverURLArchiveDotOrg": "",
+      "ReleaseNotesURL": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/releasenotes/Windows_6.4.12-3.html",
+      "DriverUID": "6.4.12-3_WINDOWS",
+      "Brand": "WACOM",
+      "EntityId": "WACOM.DRIVER.6.4.12-3_WINDOWS",
+      "_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "_CreateDate": "2026-04-16T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "DriverVersion": "6.4.12-3",
+      "DriverName": "Driver 6.4.12-3 for MACOS",
+      "OSFamily": "MACOS",
+      "ReleaseDate": "2026-01-06",
+      "DriverURLWacom": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.12-3.dmg",
+      "DriverURLArchiveDotOrg": "",
+      "ReleaseNotesURL": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/releasenotes/Mac_6.4.12-3.html",
+      "DriverUID": "6.4.12-3_MACOS",
+      "Brand": "WACOM",
+      "EntityId": "WACOM.DRIVER.6.4.12-3_MACOS",
+      "_id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "_CreateDate": "2026-04-16T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-16T00:00:00.000Z"
+    },
+    {
       "DriverVersion": "4.95-6",
       "DriverName": "Driver 4.95-6 for WINDOWS",
       "OSFamily": "WINDOWS",
