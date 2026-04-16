@@ -13,7 +13,8 @@ DrawTabData/
 │   ├── pen-compat/               # HUION, SAMSUNG, WACOM, XENCELABS, XPPEN
 │   ├── drivers/                  # WACOM
 │   ├── pressure-response/        # HUION, SAMSUNG, WACOM, XENCELABS, XPPEN
-│   └── inventory/                # Per-user (sevenpens)
+│   ├── inventory/                # Per-user (sevenpens)
+│   └── reference/                # Controlled vocabularies (defect-kinds, paper sizes)
 ├── lib/
 │   ├── schemas.ts                # Valibot schemas (single source of truth for shape + types)
 │   ├── drawtab-loader.ts         # URL-based loaders (types re-exported from schemas)
@@ -44,6 +45,7 @@ DrawTabData/
 │   ├── FIELDS.txt
 │   ├── DATALAYOUT.txt
 │   ├── DECISIONS.txt
+│   ├── DEFECTS.md                # Defects field and defect-kinds vocabulary
 │   ├── USERMANUAL.md
 │   └── ARCHITECTURE.md           # This file
 ├── _config.yml                   # Jekyll config for GitHub Pages

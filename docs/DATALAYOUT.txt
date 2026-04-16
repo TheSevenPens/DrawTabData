@@ -39,6 +39,10 @@ JSON files are organized by entity type, mostly partitioned by brand.
 		/inventory
 			sevenpens-pens.json
 			sevenpens-tablets.json
+		/reference
+			defect-kinds.json
+			iso-paper-sizes.json
+			us-paper-sizes.json
 
 Each file wraps its records in a top-level key:
 - brands: { "Brands": [...] }
@@ -51,8 +55,15 @@ Each file wraps its records in a top-level key:
 - pressure-response: { "PressureResponse": [...] }
 - inventory pens: { "InventoryPens": [...] }
 - inventory tablets: { "InventoryTablets": [...] }
+- defect kinds: { "DefectKinds": [...] }
+- iso paper sizes: { "ISOPaperSizes": [...] }
+- us paper sizes: { "USPaperSizes": [...] }
 
 File naming:
 - Most entities: BRAND-entitytype.json (e.g. WACOM-tablets.json)
 - Brands: brands.json (single file, not partitioned)
 - Inventory: USERNAME-entitytype.json (e.g. sevenpens-pens.json)
+- Reference: plain name, not partitioned (e.g. defect-kinds.json)
+
+See docs/DEFECTS.md for the Defects field on inventory records
+and the defect-kinds vocabulary.

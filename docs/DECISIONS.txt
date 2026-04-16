@@ -3,6 +3,63 @@
 This document records key design decisions for the DrawTabData project.
 
 
+## 2026-04-16: Per-unit defects on inventory records, controlled by a vocabulary file
+
+### Context
+Some physical units in inventory are defective — sometimes completely
+dead, sometimes broken in specific ways (e.g. pen reports a max pressure
+value far below the expected range). The dataset had no way to record
+this, and "defective" is a property of the specific unit, not of the
+model, so it doesn't belong on tablet or pen model records.
+
+### Options considered
+1. A `Condition` wrapper object with a `Status` enum (`ok`, `degraded`,
+   `defective`, `dead`) and a `Defects` array inside it.
+2. A simple `IsDefective` boolean plus free-text `DefectNotes`.
+3. Just a `Defects` array on inventory records, with no wrapper or
+   status field. Each entry is `{ Kind, Notes }`. The `Kind` values are
+   defined in a separate vocabulary file.
+
+### Decision
+Option 3.
+
+- `Defects` lives directly on each pen or tablet inventory record. It
+  is optional — absent or empty means the unit has no recorded defects.
+- Each entry is `{ "Kind": "...", "Notes": "..." }`. Multiple entries
+  are allowed when a unit fails in multiple ways.
+- The full list of allowed `Kind` values lives in
+  `data/reference/defect-kinds.json`, keyed on `Kind` with an
+  `AppliesTo` scope (`"pen"`, `"tablet"`, or both) and a human-readable
+  `Description`.
+
+### Rationale
+- A `Status`/`Condition` wrapper is redundant: presence of entries in
+  `Defects` is itself the signal that something is wrong. One less
+  field to keep in sync.
+- A controlled vocabulary in a separate file lets every consumer
+  (this inventory app, DrawTabDataExplorer, any future tool) agree on
+  the same Kind values and offer consistent filtering and grouping.
+- The `{ Kind, Notes }` tuple is structured enough to be queryable
+  ("show all pens with pressure issues") without locking us into
+  fields we may not always have (measured values, severity enums).
+- Severity is captured descriptively in `Notes`, not as a separate
+  enum, until a concrete consumer needs to filter by severity.
+
+### Fields affected
+- `InventoryPens[].Defects` — optional array of `{ Kind, Notes }`
+- `InventoryTablets[].Defects` — optional array of `{ Kind, Notes }`
+- new: `data/reference/defect-kinds.json` — vocabulary file with
+  `{ DefectKinds: [{ Kind, AppliesTo, Description }] }`
+
+### Consumer impact
+- DrawTabInventory renders a Defects column and offers a
+  "With defects / Without defects / All" filter.
+- Other consumers (DrawTabDataExplorer, PenPressureData, Wacom-Driver-List)
+  are unaffected until they opt in — the field is additive.
+
+See docs/DEFECTS.md for the full description and the current Kind list.
+
+
 ## 2026-04-13: Model.IncludedPen stores pen EntityIds, not PenIds
 
 ### Context

@@ -37,6 +37,7 @@ git push
 | Pressure Response | Yes | Yes | — | — |
 | Inventory | Yes | — | — | Yes |
 | Brands | Yes | — | — | — |
+| Defect Kinds | — | — | — | Yes |
 | ISO Paper Sizes | Yes | — | — | — |
 | Schemas (valibot) | Yes | — | — | — |
 | Pipeline engine | Yes | — | — | — |
