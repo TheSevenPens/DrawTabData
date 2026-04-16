@@ -1,0 +1,9 @@
+{
+  "DefectKinds": [
+    { "Kind": "dead",                  "AppliesTo": ["pen", "tablet"], "Description": "Completely non-functional." },
+    { "Kind": "pressure-outlier-max",  "AppliesTo": ["pen"],           "Description": "Reported maximum pressure is far outside the expected range for this model." },
+    { "Kind": "pressure-stuck",        "AppliesTo": ["pen"],           "Description": "Pressure reading is stuck at a single value regardless of applied force." },
+    { "Kind": "pressure-outlier-iaf",  "AppliesTo": ["pen"],           "Description": "Initial activation force is far outside the expected range — the pen requires an unusually hard (or light) press to begin registering pressure." },
+    { "Kind": "no-tilt",               "AppliesTo": ["pen"],           "Description": "Pen does not report tilt data, or tilt data is entirely unreliable." }
+  ]
+}

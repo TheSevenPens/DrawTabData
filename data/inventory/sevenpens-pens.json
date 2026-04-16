@@ -684,6 +684,9 @@
       "InventoryId": "WAP.0004",
       "Notes": "",
       "Tags": [],
+      "Defects": [
+        { "Kind": "pressure-outlier-max", "Notes": "Reports only ~25% of nominal max pressure." }
+      ],
       "_id": "d157f647-e79e-4fdc-8d9b-95b13730f3a3",
       "_CreateDate": "2026-04-01T21:33:59.000Z",
       "_ModifiedDate": "2026-04-01T21:33:59.000Z",
