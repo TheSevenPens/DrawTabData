@@ -806,6 +806,9 @@
       "OrderDate": "2022-02-20",
       "Notes": "",
       "Tags": [],
+      "Defects": [
+        { "Kind": "dead", "Notes": "" }
+      ],
       "_id": "2cef0676-05da-4aa9-8a0e-19d36baa2e93",
       "_CreateDate": "2026-04-01T21:33:59.000Z",
       "_ModifiedDate": "2026-04-01T21:33:59.000Z"

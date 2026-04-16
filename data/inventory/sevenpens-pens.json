@@ -830,6 +830,9 @@
       "InventoryId": "WAP.0024",
       "Notes": "metalnibexperiment1",
       "Tags": [],
+      "Defects": [
+        { "Kind": "pressure-outlier-iaf", "Notes": "Used for metal nib testing." }
+      ],
       "_id": "bc284a7f-c577-4615-93d3-31422f000da8",
       "_CreateDate": "2026-04-01T21:33:59.000Z",
       "_ModifiedDate": "2026-04-01T21:33:59.000Z",
