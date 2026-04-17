@@ -602,7 +602,7 @@
                                              "Id":  "CD120FH",
                                              "Name":  "Artist 12 GEN2",
                                              "Type":  "PENDISPLAY",
-                                             "LaunchYear":  "2022",
+                                             "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen2",
                                              "IncludedPen":  [
@@ -616,7 +616,14 @@
                                                  "Density":  "200",
                                                  "ReportRate":  "200",
                                                  "Tilt":  "60",
-                                                 "SupportsTouch":  "NO"
+                                                 "SupportsTouch":  "NO",
+                                                 "Dimensions":  {
+                                                                    "Width":  263.23,
+                                                                    "Height":  148.07
+                                                                },
+                                                 "AccuracyCenter":  "0.5",
+                                                 "AccuracyCorner":  "1",
+                                                 "MaxHover":  "10"
                                              },
                                "Display":  {
                                                "PixelDimensions":  {
@@ -625,16 +632,19 @@
                                                                    },
                                                "Brightness":  "220",
                                                "Contrast":  "1000",
-                                               "ColorGamuts":  {
-                                                                   "SRGB":  127
-                                                               },
                                                "ViewingAngleHorizontal":  "178",
-                                               "ViewingAngleVertical":  "178"
+                                               "ViewingAngleVertical":  "178",
+                                               "ColorGamuts":  {
+                                                                   "NTSC":  90,
+                                                                   "SRGB":  127,
+                                                                   "ADOBERGB":  94
+                                                               },
+                                               "Lamination":  "YES"
                                            },
                                "Physical":  {
                                                 "Dimensions":  {
                                                                    "Width":  346.2,
-                                                                   "Height":  148.07,
+                                                                   "Height":  209,
                                                                    "Depth":  12
                                                                }
                                             }
@@ -2527,12 +2537,16 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD121FH",
-                                             "Name":  "Artist 12 GEN3",
+                                             "Name":  "Artist 12 3rd",
                                              "Type":  "PENDISPLAY",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2024",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
-                                                             ]
+                                                                 "XPPEN.PEN.PD52"
+                                                             ],
+                                             "Audience":  "Consumer",
+                                             "Family":  "XPPenArtistGen3",
+                                             "Status":  "ACTIVE",
+                                             "ProductLink":  "https://www.xp-pen.com/product/artist-12-3rd.html"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2791,4 +2805,3 @@
                            }
                        ]
 }
-
