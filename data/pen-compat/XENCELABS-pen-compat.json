@@ -20,6 +20,14 @@
     },
     {
       "Brand": "XENCELABS",
+      "PenId": "THINV1",
+      "TabletIds": [
+        "BPH0812W-A",
+        "BPH1212W-V1"
+      ]
+    },
+    {
+      "Brand": "XENCELABS",
       "PenId": "3BUTTONV1",
       "TabletIds": [
         "BPH1212W-V1"
