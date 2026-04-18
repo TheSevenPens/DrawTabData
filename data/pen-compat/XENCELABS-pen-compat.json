@@ -2,10 +2,19 @@
   "PenCompat": [
     {
       "Brand": "XENCELABS",
-      "PenId": "PH5-A",
+      "PenId": "3BUTTONV2",
       "TabletIds": [
-        "BPH0812W-A",
-        "BPH1212W-A",
+        "BPH1212W-V2",
+        "LPH1612U-A",
+        "LPH2412U-A"
+      ]
+    },
+    {
+      "Brand": "XENCELABS",
+      "PenId": "THINV2",
+      "TabletIds": [
+        "BPH1212W-V2",
+        "LPH1612U-A",
         "LPH2412U-A"
       ]
     },
@@ -13,7 +22,7 @@
       "Brand": "XENCELABS",
       "PenId": "3BUTTONV1",
       "TabletIds": [
-        "BPH1212W-A"
+        "BPH1212W-V1"
       ]
     }
   ]

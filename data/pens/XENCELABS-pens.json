@@ -3,13 +3,24 @@
     {
       "EntityId": "XENCELABS.PEN.PH5A",
       "Brand": "XENCELABS",
-      "PenId": "PH5-A",
-      "PenName": "PH5-A",
+      "PenId": "3BUTTONV2",
+      "PenName": "3-Button Pen V2",
       "PenFamily": "",
       "PenYear": "",
       "_id": "10298b3f-6547-48c3-87a6-70cccafcbeb8",
       "_CreateDate": "2026-04-01T20:29:11.000Z",
       "_ModifiedDate": "2026-04-01T20:29:11.000Z"
+    },
+    {
+      "EntityId": "XENCELABS.PEN.THINV2",
+      "Brand": "XENCELABS",
+      "PenId": "THINV2",
+      "PenName": "Thin Pen V2",
+      "PenFamily": "",
+      "PenYear": "",
+      "_id": "c3d4e5f6-a7b8-9c0d-1e2f-3a4b5c6d7e8f",
+      "_CreateDate": "2026-04-17T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-17T00:00:00.000Z"
     },
     {
       "EntityId": "XENCELABS.PEN.3BUTTONV1",
