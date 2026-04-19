@@ -31,7 +31,9 @@ export function getOperatorsForField<T>(fieldDef: FieldDef<T>): { value: string;
     { value: "==", label: "equals" },
     { value: "!=", label: "not equals" },
     { value: "contains", label: "contains" },
+    { value: "notcontains", label: "does not contain" },
     { value: "startswith", label: "starts with" },
+    { value: "notstartswith", label: "does not start with" },
     { value: "empty", label: "is empty" },
     { value: "notempty", label: "is not empty" },
   ];
@@ -78,7 +80,9 @@ function applyFilter<T>(items: T[], step: FilterStep, fields: FieldDef<T>[]): T[
       case "==": return val === step.value;
       case "!=": return val !== step.value;
       case "contains": return val.toLowerCase().includes(step.value.toLowerCase());
+      case "notcontains": return !val.toLowerCase().includes(step.value.toLowerCase());
       case "startswith": return val.toLowerCase().startsWith(step.value.toLowerCase());
+      case "notstartswith": return !val.toLowerCase().startsWith(step.value.toLowerCase());
       case "empty": return val === "";
       case "notempty": return val !== "";
       case ">": return val !== "" && Number(val) > Number(step.value);
