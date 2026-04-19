@@ -27,6 +27,17 @@ export interface TakeStep {
 
 export type Step = FilterStep | SortStep | SelectStep | TakeStep;
 
+// --- Convenience alias ---
+
+/**
+ * A FieldDef where the item type is not statically known.
+ * Use this in generic UI components (EntityExplorer, ResultsTable, etc.) that
+ * accept field definitions for any entity type. Callers with a concrete entity
+ * type should continue to use FieldDef<T> directly.
+ */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type AnyFieldDef = FieldDef<any>;
+
 // --- Field metadata ---
 
 export interface FieldDef<T> {
