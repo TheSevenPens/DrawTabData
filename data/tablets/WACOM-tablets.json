@@ -2594,7 +2594,7 @@
                                             "EntityId":  "WACOM.TABLET.PL700",
                                             "_id":  "38eb1274-8e96-4961-8130-37ff54b1e21d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2606,8 +2606,32 @@
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "512",
+                                                 "Dimensions":  {
+                                                                    "Width":  337.9,
+                                                                    "Height":  270.3
+                                                                },
+                                                 "Density":  "20",
+                                                 "ReportRate":  "205",
+                                                 "AccuracyCenter":  "0.5",
+                                                 "MaxHover":  "5",
                                                  "SupportsTouch":  "NO"
-                                             }
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1280,
+                                                                       "Height":  1024
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  418,
+                                                                   "Height":  362,
+                                                                   "Depth":  57
+                                                               },
+                                                "Weight":  "5400"
+                                            }
                            },
                            {
                                "Meta":  {
@@ -7130,6 +7154,229 @@
                                                   "FrontCamera":  "5",
                                                   "RearCamera":  "8"
                                               }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.PL600",
+                                            "_id":  "5eadeb3a-5032-415d-88d7-020c62449380",
+                                            "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PL-600",
+                                             "Name":  "PL-600",
+                                             "Type":  "PENDISPLAY",
+                                             "Status":  "DISCONTINUED"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "512",
+                                                 "Dimensions":  {
+                                                                    "Width":  311.04,
+                                                                    "Height":  248.83
+                                                                },
+                                                 "Density":  "20",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1280,
+                                                                       "Height":  1024
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.PL500",
+                                            "_id":  "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
+                                            "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PL-500",
+                                             "Name":  "PL-500",
+                                             "Type":  "PENDISPLAY",
+                                             "Status":  "DISCONTINUED"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "512",
+                                                 "Dimensions":  {
+                                                                    "Width":  307.2,
+                                                                    "Height":  230.4
+                                                                },
+                                                 "Density":  "20",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1024,
+                                                                       "Height":  768
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  414,
+                                                                   "Height":  365,
+                                                                   "Depth":  51
+                                                               },
+                                                "Weight":  "4700"
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.PL400",
+                                            "_id":  "0dfe9a77-e190-4d30-a8aa-407cc77d7186",
+                                            "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PL-400",
+                                             "Name":  "PL-400",
+                                             "Type":  "PENDISPLAY",
+                                             "Status":  "DISCONTINUED"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "512",
+                                                 "Dimensions":  {
+                                                                    "Width":  270.4,
+                                                                    "Height":  202.8
+                                                                },
+                                                 "Density":  "20",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1024,
+                                                                       "Height":  768
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  349,
+                                                                   "Height":  298,
+                                                                   "Depth":  42
+                                                               },
+                                                "Weight":  "2900"
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.PL300",
+                                            "_id":  "29b85b2f-fd34-45dc-93ce-13a67bdaf7a7",
+                                            "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PL-300",
+                                             "Name":  "PL-300",
+                                             "Type":  "PENDISPLAY",
+                                             "Status":  "DISCONTINUED"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "256",
+                                                 "Dimensions":  {
+                                                                    "Width":  210.82,
+                                                                    "Height":  157.48
+                                                                },
+                                                 "Density":  "20",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  800,
+                                                                       "Height":  600
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  289.56,
+                                                                   "Height":  254,
+                                                                   "Depth":  38.1
+                                                               },
+                                                "Weight":  "2200"
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.PL270",
+                                            "_id":  "ce0deb21-7f2d-4b66-9a70-f9925798302b",
+                                            "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PL-270",
+                                             "Name":  "PL-270",
+                                             "Type":  "PENDISPLAY",
+                                             "Status":  "DISCONTINUED"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "256",
+                                                 "Dimensions":  {
+                                                                    "Width":  211.2,
+                                                                    "Height":  158.4
+                                                                },
+                                                 "Density":  "20",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  640,
+                                                                       "Height":  480
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           },
+                               "Physical":  {
+                                                "Weight":  "2000"
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.PL250",
+                                            "_id":  "3475cf00-440d-4006-bc7a-c3d98a82cd06",
+                                            "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PL-250",
+                                             "Name":  "PL-250",
+                                             "Type":  "PENDISPLAY",
+                                             "Status":  "DISCONTINUED"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "256",
+                                                 "Dimensions":  {
+                                                                    "Width":  192,
+                                                                    "Height":  144
+                                                                },
+                                                 "Density":  "20",
+                                                 "ReportRate":  "205",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  640,
+                                                                       "Height":  480
+                                                                   },
+                                               "PanelTech":  "TFT"
+                                           },
+                               "Physical":  {
+                                                "Weight":  "2000"
+                                            }
                            }
                        ]
 }
