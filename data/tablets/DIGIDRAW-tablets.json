@@ -1,0 +1,280 @@
+﻿{
+    "DrawingTablets":  [
+                           {
+                               "Meta":  {
+                                            "EntityId":  "DIGIDRAW.TABLET.T410",
+                                            "_id":  "083d34e6-e632-40da-bf46-780b15e16b57",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "DIGIDRAW",
+                                             "Id":  "T410",
+                                             "Name":  "Turing Basic S",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2025",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "DIGIDRAW.PEN.M3"
+                                                             ],
+                                             "ProductLink":  "https://www.turingdraw.com/page156"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  160,
+                                                                    "Height":  100
+                                                                },
+                                                 "Density":  "200",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  220,
+                                                                   "Height":  165.7,
+                                                                   "Depth":  7.5
+                                                               }
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "DIGIDRAW.TABLET.T610",
+                                            "_id":  "97db7e47-b7d9-481f-aceb-4a89733ac001",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "DIGIDRAW",
+                                             "Id":  "T610",
+                                             "Name":  "Turing Basic M",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2025",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "DIGIDRAW.PEN.M3"
+                                                             ],
+                                             "ProductLink":  "https://www.turingdraw.com/page156"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  254,
+                                                                    "Height":  158.8
+                                                                },
+                                                 "Density":  "200",
+                                                 "Tilt":  "60",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  304.6,
+                                                                   "Height":  220.9,
+                                                                   "Depth":  7.8
+                                                               }
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "DIGIDRAW.TABLET.TW410",
+                                            "_id":  "59257ae0-a63c-4557-8574-414e54d32dea",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "DIGIDRAW",
+                                             "Id":  "TW410",
+                                             "Name":  "Turing Smart S",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2025",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "DIGIDRAW.PEN.M3"
+                                                             ],
+                                             "ProductLink":  "https://www.turingdraw.com/page121"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  160,
+                                                                    "Height":  100
+                                                                },
+                                                 "Density":  "200",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  220,
+                                                                   "Height":  165.7,
+                                                                   "Depth":  7.5
+                                                               }
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "DIGIDRAW.TABLET.TW610",
+                                            "_id":  "1cc63105-82d3-40a4-b1a2-ee4e072f00ca",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "DIGIDRAW",
+                                             "Id":  "TW610",
+                                             "Name":  "Turing Smart M",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2025",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "DIGIDRAW.PEN.M3"
+                                                             ],
+                                             "ProductLink":  "https://www.turingdraw.com/page121"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  254,
+                                                                    "Height":  158.8
+                                                                },
+                                                 "Density":  "200",
+                                                 "Tilt":  "60",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  304.6,
+                                                                   "Height":  220.9,
+                                                                   "Depth":  7.8
+                                                               }
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "DIGIDRAW.TABLET.D1401",
+                                            "_id":  "285c1c38-c057-4308-9724-157cd2bc683c",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "DIGIDRAW",
+                                             "Id":  "D1401",
+                                             "Name":  "Turing 14",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2026",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "DIGIDRAW.PEN.M5"
+                                                             ],
+                                             "ProductLink":  "https://www.turingdraw.com/page203"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  286.5,
+                                                                    "Height":  179
+                                                                },
+                                                 "Density":  "200",
+                                                 "ReportRate":  "220",
+                                                 "Tilt":  "60",
+                                                 "AccuracyCenter":  "0.3",
+                                                 "AccuracyCorner":  "1",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  2560,
+                                                                       "Height":  1600
+                                                                   },
+                                               "PanelTech":  "IPS",
+                                               "Brightness":  "220",
+                                               "ColorBitDepth":  "8",
+                                               "ColorGamuts":  {
+                                                                   "SRGB":  99.5,
+                                                                   "ADOBERGB":  90,
+                                                                   "DCIP3":  93
+                                                               },
+                                               "Lamination":  "YES",
+                                               "AntiGlare":  "ETCHEDGLASS",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  329,
+                                                                   "Height":  234,
+                                                                   "Depth":  11.8
+                                                               },
+                                                "Weight":  "900"
+                                            }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "DIGIDRAW.TABLET.D1901T",
+                                            "_id":  "df18d578-4201-4bfa-97da-4cc87c1f8661",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "DIGIDRAW",
+                                             "Id":  "D1901T",
+                                             "Name":  "Turing Pro 19 Touch",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2025",
+                                             "Audience":  "Professional",
+                                             "IncludedPen":  [
+                                                                 "DIGIDRAW.PEN.M5"
+                                                             ],
+                                             "ProductLink":  "https://www.turingdraw.com/page120"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  408.96,
+                                                                    "Height":  230.04
+                                                                },
+                                                 "Density":  "200",
+                                                 "ReportRate":  "220",
+                                                 "Tilt":  "60",
+                                                 "AccuracyCenter":  "0.3",
+                                                 "AccuracyCorner":  "1",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  3840,
+                                                                       "Height":  2160
+                                                                   },
+                                               "PanelTech":  "IPS",
+                                               "Brightness":  "220",
+                                               "ColorBitDepth":  "8",
+                                               "ColorGamuts":  {
+                                                                   "SRGB":  99.8,
+                                                                   "ADOBERGB":  96,
+                                                                   "DCIP3":  98
+                                                               },
+                                               "Lamination":  "YES",
+                                               "AntiGlare":  "ETCHEDGLASS",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  451.3,
+                                                                   "Height":  293.3,
+                                                                   "Depth":  14.75
+                                                               },
+                                                "Weight":  "2080"
+                                            }
+                           }
+                       ]
+}
