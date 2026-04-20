@@ -180,7 +180,7 @@ export async function loadVersionFromURL(dataBaseUrl: string): Promise<VersionIn
 // --- Brand names ---
 
 export const BRAND_NAMES: Record<string, string> = {
-  APPLE: "Apple", ASUS: "Asus", GAOMON: "Gaomon", HUION: "Huion",
+  APPLE: "Apple", ASUS: "Asus", DIGIDRAW: "DIGIDRAW", GAOMON: "Gaomon", HUION: "Huion",
   SAMSUNG: "Samsung", STAEDTLER: "Staedtler", UGEE: "Ugee", VEIKK: "Veikk",
   WACOM: "Wacom", XENCELABS: "Xencelabs", XPPEN: "XP-Pen",
 };
