@@ -198,7 +198,7 @@ export const TABLET_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "Brand", "NameAndModelId", "ModelType", "ModelLaunchYear",
+      "Brand", "NameAndModelId", "AlternateNames", "ModelType", "ModelLaunchYear",
       "DigitizerDiagonal", "ModelIncludedPen",
     ],
   },

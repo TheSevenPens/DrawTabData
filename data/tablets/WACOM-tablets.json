@@ -2089,7 +2089,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTZ-1200W",
-                                             "Name":  "Cintiq 12WX",
+                                             "Name":  "Cintiq 12WX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
                                              "Family":  "Cintiq",
@@ -2215,7 +2215,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTZ-2000W",
-                                             "Name":  "Cintiq 20WSX",
+                                             "Name":  "Cintiq 20WSX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
                                              "Family":  "Cintiq",
@@ -5312,7 +5312,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-460",
-                                             "Name":  "CTH-460",
+                                             "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Family":  "CTx-x60",
@@ -5348,7 +5348,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-460",
-                                             "Name":  "CTL-460",
+                                             "Name":  "Bamboo Pen 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Family":  "CTx-x60",
@@ -5420,7 +5420,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-661",
-                                             "Name":  "CTH-661",
+                                             "Name":  "Bamboo Fun Pen \u0026 Touch M 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Family":  "CTH-x61",
@@ -5456,7 +5456,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-461",
-                                             "Name":  "CTH-461",
+                                             "Name":  "Bamboo Fun Pen \u0026 Touch S 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "Family":  "CTH-x61",
@@ -5601,7 +5601,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-680",
-                                             "Name":  "CTH-680",
+                                             "Name":  "Intuos Pen \u0026 Touch M 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x80",
@@ -5674,7 +5674,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-480",
-                                             "Name":  "CTH-480",
+                                             "Name":  "Intuos Pen \u0026 Touch S 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x80",
@@ -5915,7 +5915,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTT-460",
-                                             "Name":  "Wacom CTT-460",
+                                             "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009"
                                          },
@@ -6140,7 +6140,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-430",
-                                             "Name":  "Wacom CTF-430",
+                                             "Name":  "Bamboo One",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
                                              "IncludedPen":  [
@@ -7421,21 +7421,6 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.WT",
-                                            "_id":  "a15a0268-5edb-40ec-9355-c0ebca061dbb",
-                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
-                                        },
-                               "Model":  {
-                                             "Brand":  "WACOM",
-                                             "Id":  "WT",
-                                             "Name":  "WT",
-                                             "Type":  "PENTABLET",
-                                             "LaunchYear":  "1984"
-                                         }
-                           },
-                           {
-                               "Meta":  {
                                             "EntityId":  "WACOM.TABLET.WT4400SE",
                                             "_id":  "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
@@ -7463,6 +7448,82 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1987"
                                          }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.DTH1300",
+                                            "_id":  "34036930-e9ad-47c6-95de-d09dddda173a",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-1300",
+                                             "Name":  "Cintiq 13H touch",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2015"
+                                         },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1080
+                                                                   }
+                                           }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.DTH2700",
+                                            "_id":  "b1f8fdf3-b111-45f7-9586-10af017cc2ec",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-2700",
+                                             "Name":  "Cintiq 27 QHD touch",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2015",
+                                             "IncludedPen":  [
+                                                                 "WACOM.PEN.KP503E"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "Dimensions":  {
+                                                                    "Width":  597,
+                                                                    "Height":  336
+                                                                },
+                                                 "Tilt":  "60",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  2560,
+                                                                       "Height":  1440
+                                                                   },
+                                               "PanelTech":  "AHVA",
+                                               "Brightness":  "330",
+                                               "Contrast":  "970",
+                                               "ColorBitDepth":  "10",
+                                               "ColorGamuts":  {
+                                                                   "ADOBERGB":  97
+                                                               },
+                                               "ResponseTime":  "12",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  770,
+                                                                   "Height":  465,
+                                                                   "Depth":  54.4
+                                                               },
+                                                "Weight":  "9000",
+                                                "WeightInclStand":  "NO"
+                                            }
                            }
                        ]
 }
