@@ -165,21 +165,24 @@
                                             "EntityId":  "WACOM.TABLET.CTH470",
                                             "_id":  "e1a691a6-d73e-4f48-9d92-9185ed816be3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:37.515Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-470",
                                              "Name":  "Bamboo Capture",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2012",
+                                             "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170E",
                                                                  "WACOM.PEN.LP170"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "CTx-x70"
+                                             "Family":  "CTx-x70",
+                                             "AlternateNames":  [
+                                                                    "Bamboo Pen \u0026 Touch S"
+                                                                ]
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -248,20 +251,23 @@
                                             "EntityId":  "WACOM.TABLET.CTH670",
                                             "_id":  "34947067-79d5-415a-b81a-e65e75d842be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:42.143Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-670",
                                              "Name":  "Bamboo Create",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2012",
+                                             "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170E"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "CTx-x70"
+                                             "Family":  "CTx-x70",
+                                             "AlternateNames":  [
+                                                                    "Bamboo Fun Pen \u0026 Touch M"
+                                                                ]
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -412,20 +418,23 @@
                                             "EntityId":  "WACOM.TABLET.CTL470",
                                             "_id":  "487092fc-f2ff-4438-9926-32df9efc80be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-470",
                                              "Name":  "Bamboo Connect",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2012",
+                                             "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "CTx-x70"
+                                             "Family":  "CTx-x70",
+                                             "AlternateNames":  [
+                                                                    "Bamboo Pen S"
+                                                                ]
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
