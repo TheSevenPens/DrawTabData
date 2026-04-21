@@ -6540,7 +6540,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-A",
-                                             "Name":  "Wacom KT-0405-A",
+                                             "Name":  "Artpad ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
@@ -6566,7 +6566,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-R",
-                                             "Name":  "Wacom KT-0405-R",
+                                             "Name":  "Artpad SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
@@ -6600,7 +6600,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0608-R",
-                                             "Name":  "Wacom KT-0608-R",
+                                             "Name":  "ArtZ SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
@@ -7417,6 +7417,51 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "Status":  "DISCONTINUED"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.WT",
+                                            "_id":  "a15a0268-5edb-40ec-9355-c0ebca061dbb",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "WT",
+                                             "Name":  "WT",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1984"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.WT4400SE",
+                                            "_id":  "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "WT-4400SE",
+                                             "Name":  "WT 4400SE",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1986"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.460M",
+                                            "_id":  "57c68629-5451-4a2d-8d19-925f0c658d2d",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "460M",
+                                             "Name":  "460M",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1987"
                                          }
                            }
                        ]
