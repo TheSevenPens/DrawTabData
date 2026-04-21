@@ -7,7 +7,8 @@
                                "FamilyName":  "Huion Inspiroy 2 series",
                                "_id":  "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
                                "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
+                               "ModelPattern":  "H*P"
                            },
                            {
                                "EntityId":  "huion.tabletfamily.huioninspioyfrego",
@@ -16,7 +17,8 @@
                                "FamilyName":  "Huion Inspiroy Frego series",
                                "_id":  "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
                                "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
+                               "ModelPattern":  "Lx10"
                            },
                            {
                                "EntityId":  "huion.tabletfamily.huionkamvasgen3",
@@ -25,34 +27,38 @@
                                "FamilyName":  "Huion Kamvas GEN3 series",
                                "_id":  "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
                                "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
+                               "ModelPattern":  "GS*"
                            },
                            {
-                               "EntityId":  "huion.tabletfamily.huionkamvaspro2021",
+                               "EntityId":  "huion.tabletfamily.huionkamvaspro_2021",
                                "Brand":  "HUION",
-                               "FamilyId":  "HuionKamvasPro2021",
+                               "FamilyId":  "HuionKamvasPro_2021",
                                "FamilyName":  "Huion Kamvas Pro (2021) series",
                                "_id":  "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
                                "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
+                               "ModelPattern":  "GT*"
                            },
                            {
-                               "EntityId":  "huion.tabletfamily.huionkamvas2020",
+                               "EntityId":  "huion.tabletfamily.huionkamvas_2020",
                                "Brand":  "HUION",
-                               "FamilyId":  "HuionKamvas2020",
+                               "FamilyId":  "HuionKamvas_2020",
                                "FamilyName":  "Huion Kamvas (2020) series",
                                "_id":  "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
                                "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
+                               "ModelPattern":  "GS*"
                            },
                            {
-                               "EntityId":  "huion.tabletfamily.huionkamvaspro2019",
+                               "EntityId":  "huion.tabletfamily.huionkamvaspro_2019",
                                "Brand":  "HUION",
-                               "FamilyId":  "HuionKamvasPro2019",
+                               "FamilyId":  "HuionKamvasPro_2019",
                                "FamilyName":  "Huion Kamvas Pro (2019) series",
                                "_id":  "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
                                "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
+                               "ModelPattern":  "GT*"
                            }
                        ]
 }

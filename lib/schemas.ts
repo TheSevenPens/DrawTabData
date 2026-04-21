@@ -192,7 +192,10 @@ const FamilyFields = {
 };
 
 export const PenFamilySchema = v.strictObject(FamilyFields);
-export const TabletFamilySchema = v.strictObject(FamilyFields);
+export const TabletFamilySchema = v.strictObject({
+  ...FamilyFields,
+  ModelPattern: v.optional(TrimmedString),
+});
 
 // --- Driver ---
 
