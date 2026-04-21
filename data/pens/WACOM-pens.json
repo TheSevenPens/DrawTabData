@@ -6,7 +6,7 @@
                      "PenId":  "SP-200",
                      "PenName":  "SP-200",
                      "PenFamily":  "Wacom_SP",
-                     "PenYear":  "",
+                     "PenYear":  "1988",
                      "_id":  "3f2fad22-42e0-4d7d-ab6e-a70f76575bd3",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -17,7 +17,7 @@
                      "PenId":  "SP-210",
                      "PenName":  "SP-210",
                      "PenFamily":  "Wacom_SP",
-                     "PenYear":  "",
+                     "PenYear":  "1988",
                      "_id":  "2f259ad8-353b-4836-ada7-d6144bd5d056",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -28,7 +28,7 @@
                      "PenId":  "SP-200A",
                      "PenName":  "SP-200A",
                      "PenFamily":  "Wacom_SP",
-                     "PenYear":  "",
+                     "PenYear":  "1988",
                      "_id":  "4430b84e-c5c8-448b-b897-88c59b1a38de",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -39,7 +39,7 @@
                      "PenId":  "SP-210A",
                      "PenName":  "SP-210A",
                      "PenFamily":  "Wacom_SP",
-                     "PenYear":  "",
+                     "PenYear":  "1988",
                      "_id":  "cf5a191b-3440-45b1-a8bb-d1e04f1e541f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -50,7 +50,7 @@
                      "PenId":  "SP-300",
                      "PenName":  "SP-300",
                      "PenFamily":  "Wacom_SP",
-                     "PenYear":  "",
+                     "PenYear":  "1988",
                      "_id":  "c82488c3-b6e4-4cbd-8536-c4922422befc",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -61,7 +61,7 @@
                      "PenId":  "SP-310",
                      "PenName":  "SP-310",
                      "PenFamily":  "Wacom_SP",
-                     "PenYear":  "",
+                     "PenYear":  "1988",
                      "_id":  "cd9d5298-027f-4227-becd-3052dd32e62e",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -72,7 +72,7 @@
                      "PenId":  "KP-132",
                      "PenName":  "Finetip Pen for Intuos Pro",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2017",
                      "_id":  "440abb2b-293d-490b-9419-c86d80288efa",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -149,7 +149,7 @@
                      "PenId":  "KP-130",
                      "PenName":  "Intuos 4 Inking Pen",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "f5e2d9ca-fcd1-42a9-9eae-928ef8603253",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -160,7 +160,7 @@
                      "PenId":  "KP-133",
                      "PenName":  "Ballpoint Pen for Intuos Pro",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2017",
                      "_id":  "fec42332-046e-4f3d-8455-da1ba280c7e7",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -193,7 +193,7 @@
                      "PenId":  "KP-505",
                      "PenName":  "Pro Pen 3D",
                      "PenFamily":  "Wacom_KPGEN2",
-                     "PenYear":  "",
+                     "PenYear":  "2017",
                      "_id":  "16bff042-9d5c-4649-bdb3-d446cb97c27f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -204,7 +204,7 @@
                      "PenId":  "KP-301E",
                      "PenName":  "Pro Pen Slim",
                      "PenFamily":  "Wacom_KPGEN2",
-                     "PenYear":  "",
+                     "PenYear":  "2010",
                      "_id":  "872e9815-b73f-411c-a355-92ffdabef543",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -237,7 +237,7 @@
                      "PenId":  "KP-300E",
                      "PenName":  "Classic Pen",
                      "PenFamily":  "Wacom_KPGEN1",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "3bbdec04-feb1-4ff5-8012-2dc2b484b29f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -248,7 +248,7 @@
                      "PenId":  "KP-701E",
                      "PenName":  "Art Pen",
                      "PenFamily":  "Wacom_KPGEN1",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "885a2f74-36f3-4a9a-aae0-c860474f351f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -259,7 +259,7 @@
                      "PenId":  "KP-400E",
                      "PenName":  "Airbrush Pen",
                      "PenFamily":  "Wacom_KPGEN1",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "97a8bbb7-5677-4490-a229-b2535d3aef9f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -281,7 +281,7 @@
                      "PenId":  "ZP-130",
                      "PenName":  "Intuos3 Ink Pen",
                      "PenFamily":  "Wacom_ZP",
-                     "PenYear":  "",
+                     "PenYear":  "2004",
                      "_id":  "7c70cace-df93-4f8a-bf53-37089fe825e5",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -292,7 +292,7 @@
                      "PenId":  "ZP-600",
                      "PenName":  "Intuos3 Art Marker Pen",
                      "PenFamily":  "Wacom_ZP",
-                     "PenYear":  "",
+                     "PenYear":  "2004",
                      "_id":  "79d0abb9-038f-4e2d-ad43-d8c6394b33e4",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -303,7 +303,7 @@
                      "PenId":  "ZP-300E",
                      "PenName":  "Intuos3 Classic Pen",
                      "PenFamily":  "Wacom_ZP",
-                     "PenYear":  "",
+                     "PenYear":  "2004",
                      "_id":  "d891dd9c-c6ae-4314-9307-ca3f88664554",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -314,7 +314,7 @@
                      "PenId":  "ZP-400E",
                      "PenName":  "Intuos3 Airbrush Pen",
                      "PenFamily":  "Wacom_ZP",
-                     "PenYear":  "",
+                     "PenYear":  "2004",
                      "_id":  "7b3bc640-abd6-4ed2-b1ae-6ed41575226c",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -336,7 +336,7 @@
                      "PenId":  "XP-110",
                      "PenName":  "Intuos2 Ink Pen",
                      "PenFamily":  "Wacom_XP",
-                     "PenYear":  "",
+                     "PenYear":  "2001",
                      "_id":  "aa92b276-1af1-4ff4-ba49-32cd95dde699",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -347,7 +347,7 @@
                      "PenId":  "XP-120",
                      "PenName":  "Intuos2 Stroke Pen",
                      "PenFamily":  "Wacom_XP",
-                     "PenYear":  "",
+                     "PenYear":  "2001",
                      "_id":  "faafabaf-c2d5-4004-8a81-50ec93d5ec6d",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -358,7 +358,7 @@
                      "PenId":  "XP-300E",
                      "PenName":  "Intuos2 Classic Pen",
                      "PenFamily":  "Wacom_XP",
-                     "PenYear":  "",
+                     "PenYear":  "2001",
                      "_id":  "46f8c55e-362e-46d7-a4ce-d4922625b36f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -369,7 +369,7 @@
                      "PenId":  "XP-400E",
                      "PenName":  "Intuos2 Airbrush Pen",
                      "PenFamily":  "Wacom_XP",
-                     "PenYear":  "",
+                     "PenYear":  "2001",
                      "_id":  "4eebed84-5f33-4ca0-9399-b0b7c5893471",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -391,7 +391,7 @@
                      "PenId":  "GP-110",
                      "PenName":  "Intuos Inking Pen",
                      "PenFamily":  "Wacom_GP",
-                     "PenYear":  "",
+                     "PenYear":  "1998",
                      "_id":  "758812c6-24c6-4b7f-821a-3934fb3a5efc",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -402,7 +402,7 @@
                      "PenId":  "GP-120",
                      "PenName":  "Intuos Stroke Pen",
                      "PenFamily":  "Wacom_GP",
-                     "PenYear":  "",
+                     "PenYear":  "1998",
                      "_id":  "9d7bd8d4-79f2-4f60-9204-bfeee9faa9de",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -424,7 +424,7 @@
                      "PenId":  "GP-400E",
                      "PenName":  "Intuos Airbrush Pen",
                      "PenFamily":  "Wacom_GP",
-                     "PenYear":  "",
+                     "PenYear":  "1998",
                      "_id":  "febdc99b-5724-44b5-9fe7-6f3115ba6cef",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -474,7 +474,7 @@
                      "PenId":  "LP-160",
                      "PenName":  "Bamboo CTL Pen",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2009",
                      "_id":  "9a6cd959-56b3-4788-9f66-ed6d4283d6ff",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -485,7 +485,7 @@
                      "PenId":  "LP-160E",
                      "PenName":  "Bamboo CTH Pen",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2009",
                      "_id":  "32cac3dc-5d5d-41d7-b9f3-010cd18cac17",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -496,7 +496,7 @@
                      "PenId":  "LP-161E",
                      "PenName":  "LP-161E",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2009",
                      "_id":  "dbcd49d4-76c0-4ac4-bd93-14926dccff5a",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -507,7 +507,7 @@
                      "PenId":  "LP-171",
                      "PenName":  "LP-171",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2009",
                      "_id":  "a52915cd-845f-4fb1-bbe0-10728a5c4ca3",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -518,7 +518,7 @@
                      "PenId":  "LP-180",
                      "PenName":  "LP-180",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2009",
                      "_id":  "c88ce7ad-9ccd-4b75-8dc0-fcd8fd4f7d28",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -529,7 +529,7 @@
                      "PenId":  "LP-180E",
                      "PenName":  "LP-180E",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2009",
                      "_id":  "788e7b70-b36c-4f15-9f3e-1df016528ec1",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -573,7 +573,7 @@
                      "PenId":  "EP-155E",
                      "PenName":  "EP-155E",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2007",
                      "_id":  "b3bf9089-7ae7-4aa4-bf08-28a0edfa650a",
                      "_CreateDate":  "2026-04-01T18:26:13.000Z",
                      "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
@@ -595,7 +595,7 @@
                      "PenId":  "EP-140E",
                      "PenName":  "Graphire 4 pen",
                      "PenFamily":  "Wacom_Bamboo",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "0ec200ea-d21d-4527-b0e5-b05131d24790",
                      "_CreateDate":  "2026-04-01T18:26:13.000Z",
                      "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -606,7 +606,7 @@
                      "PenId":  "EP-100E",
                      "PenName":  "EP-100E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1999",
                      "_id":  "45e7f4d5-f3bf-43f5-9a8f-5d92d60b6fba",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -617,7 +617,7 @@
                      "PenId":  "EP-120E",
                      "PenName":  "Graphire2 Pen",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2001",
                      "_id":  "0ca766f6-ce85-4d70-a992-419e6799eff1",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -628,7 +628,7 @@
                      "PenId":  "EP-130",
                      "PenName":  "EP-130",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2003",
                      "_id":  "a5ed6d37-00cb-4039-ae17-382d9a0f946b",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -639,7 +639,7 @@
                      "PenId":  "EP-130E",
                      "PenName":  "EP-130E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "52aa1d2d-2a00-4619-bb90-263a64f86047",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -650,7 +650,7 @@
                      "PenId":  "EP-150",
                      "PenName":  "EP-150",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "7a279b18-2481-40f4-bf43-b50412834bd0",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -661,7 +661,7 @@
                      "PenId":  "FP-100",
                      "PenName":  "FP-100",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2002",
                      "_id":  "c122a605-87ba-4b4b-ba81-35ace5ccc6d1",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -683,7 +683,7 @@
                      "PenId":  "FP-410",
                      "PenName":  "FP-410",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2005",
                      "_id":  "510e355c-771a-4513-b5a3-d9865f3f3c72",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -694,7 +694,7 @@
                      "PenId":  "FP-500",
                      "PenName":  "FP-500",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2007",
                      "_id":  "547de05b-4c81-4566-a472-b2d723f8e3c7",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -705,7 +705,7 @@
                      "PenId":  "UP-703E",
                      "PenName":  "UP-703E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1997",
                      "_id":  "f0fc0cf6-6cf9-4a54-9f9c-202d2507d48e",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -716,7 +716,7 @@
                      "PenId":  "UP-801E",
                      "PenName":  "UP-801E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "b88fc717-b896-4539-8723-3f48e4e0d223",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
                      "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -727,7 +727,7 @@
                      "PenId":  "UP-801",
                      "PenName":  "UP-801",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "890b0d6c-3062-45ff-934f-cf69014e605c",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -738,7 +738,7 @@
                      "PenId":  "UP-811E",
                      "PenName":  "UP-811E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "e075cc7d-f32c-4597-918c-0ffdbe5d712e",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -749,7 +749,7 @@
                      "PenId":  "UP-241",
                      "PenName":  "UP-241",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "413b7de4-20f2-4f7a-81da-f622e0a981ab",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -760,7 +760,7 @@
                      "PenId":  "UP-421",
                      "PenName":  "UP-421",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "614166a3-6338-4997-9b51-c711d48a4461",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -771,7 +771,7 @@
                      "PenId":  "UP-501",
                      "PenName":  "UP-501",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "bcec1022-325c-4d39-aa9f-35f0774e8508",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -782,7 +782,7 @@
                      "PenId":  "UP-201",
                      "PenName":  "UP-201",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "d4183fff-1aae-4997-a0e5-21a9dd7681d6",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -793,7 +793,7 @@
                      "PenId":  "UP-817E",
                      "PenName":  "UP-817E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "05e07ad7-274b-455f-9fd7-59c5e3b1ed7f",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -804,7 +804,7 @@
                      "PenId":  "UP-813E",
                      "PenName":  "UP-813E",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "c67038db-ab2d-4fd4-a535-e87a4d09c5e1",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -815,7 +815,7 @@
                      "PenId":  "UP-714W",
                      "PenName":  "UP-714W",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "96dfeb70-2ed1-43da-b9cf-d866874c4632",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -826,7 +826,7 @@
                      "PenId":  "UP-211",
                      "PenName":  "UP-211",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "714b22a7-f7a5-4713-8586-5fc9cfaa81f1",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -837,7 +837,7 @@
                      "PenId":  "UP-401",
                      "PenName":  "UP-401",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "1994",
                      "_id":  "37bc6c37-f187-44c4-b1bf-f98787d9b2bd",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
@@ -848,7 +848,7 @@
                      "PenId":  "KP-403E",
                      "PenName":  "Intuos4 Airbrush Pen",
                      "PenFamily":  "Wacom_KPGEN1",
-                     "PenYear":  "",
+                     "PenYear":  "2025",
                      "_id":  "3785549e-4a3f-4272-a7e9-6ea0813f0566",
                      "_CreateDate":  "2026-04-03T01:14:02.000Z",
                      "_ModifiedDate":  "2026-04-03T01:14:02.000Z"
