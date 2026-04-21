@@ -53,4 +53,10 @@ export interface FieldDef<T> {
   computed?: boolean;
   group: string;
   unit?: string;
+  /**
+   * When true, this field is always included in text search even when it is
+   * not in the user's visible columns. Use for fields like AlternateNames that
+   * should be findable but don't need to appear as a column by default.
+   */
+  alwaysSearch?: boolean;
 }

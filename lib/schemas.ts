@@ -36,7 +36,7 @@ const NumericString = v.pipe(
 const UuidString = v.pipe(TrimmedString, v.uuid("invalid UUID format"));
 const IsoDateString = v.pipe(TrimmedString, v.isoTimestamp("invalid ISO 8601 date"));
 
-const BrandEnum = v.picklist(["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"]);
+const BrandEnum = v.picklist(["DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"]);
 const YesNo = v.picklist(["YES", "NO"]);
 
 // --- Shared sub-shapes ---
@@ -69,6 +69,7 @@ const ModelSchema = v.strictObject({
   Brand: BrandEnum,
   Id: TrimmedString,
   Name: TrimmedString,
+  AlternateNames: v.optional(v.array(TrimmedString)),
   Type: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
   LaunchYear: TrimmedString,
   Audience: v.optional(v.picklist(["Consumer", "Enthusiast", "Professional"])),
