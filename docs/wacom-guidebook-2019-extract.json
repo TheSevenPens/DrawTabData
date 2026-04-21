@@ -759,11 +759,35 @@
     { "name": "Bamboo Fun A5 Comic",       "modelId": "CTE-650W",  "baseFamily": "Bamboo Fun",  "year": "~2007" }
   ],
   "knownDiscrepancies": [
-    "Graphire 1 model number: product-code page says 'ET-0405'; detailed section shows 'KT-04055' (likely OCR error).",
-    "Graphire 2 model number: product-code page says 'ET-0405'; detailed section shows 'ET-040506' (likely variant/OCR error).",
-    "Cintiq 20WSX: product-code page says 'DTZ-2000W'; detailed page 29 says 'DTZ-2200W'. DTZ-2000W is believed correct.",
-    "Cintiq Companion 2: product-code page says 'DTH-W1310x'; detailed section says 'DTH-W1319x'. Needs cross-reference.",
-    "Pressure levels shown as 1028 in Intuos 2013 and Intuos 2015 sections — presumed typo for 1024.",
-    "Intuos 3D year: classified under 2016 in chapter header; detailed section header shows 2017."
+    {
+      "description": "Graphire 1 model number: product-code page says 'ET-0405'; detailed section shows 'KT-04055' (likely OCR error).",
+      "resolution": "RESOLVED — DB uses ET-0405-U and ET-0405-R, matching the product-code page. KT-04055 is an OCR artifact.",
+      "dbStatus": "correct"
+    },
+    {
+      "description": "Graphire 2 model number: product-code page says 'ET-0405'; detailed section shows 'ET-040506' (likely variant/OCR error).",
+      "resolution": "RESOLVED — DB uses ET-0405A-U and ET-0507A-U. ET-040506 is an OCR artifact.",
+      "dbStatus": "correct"
+    },
+    {
+      "description": "Cintiq 20WSX: product-code page says 'DTZ-2000W'; detailed page 29 says 'DTZ-2200W'.",
+      "resolution": "RESOLVED — DB uses DTZ-2000W (WACOM.TABLET.DTZ2000W), matching the product-code page. DTZ-2200W is believed to be a guidebook error.",
+      "dbStatus": "correct"
+    },
+    {
+      "description": "Cintiq Companion 2: product-code page says 'DTH-W1310x'; detailed section says 'DTH-W1319x'.",
+      "resolution": "UNRESOLVED — Cintiq Companion 2 not yet in DB. Needs external cross-reference when record is added.",
+      "dbStatus": "not-in-db"
+    },
+    {
+      "description": "Pressure levels shown as 1028 in Intuos 2013 and Intuos 2015 sections — presumed typo for 1024.",
+      "resolution": "RESOLVED — DB uses 1024 for 2015 consumer Intuos (CTH490, CTH690) and 2048 for 2013 Intuos Pro (PTH451, PTH651, PTH851). Both are correct; the guidebook '1028' is a typo.",
+      "dbStatus": "correct"
+    },
+    {
+      "description": "Intuos 3D year: classified under 2016 in chapter header; detailed section header shows 2017.",
+      "resolution": "UNRESOLVED — Intuos 3D not yet in DB. Needs external cross-reference when record is added.",
+      "dbStatus": "not-in-db"
+    }
   ]
 }
