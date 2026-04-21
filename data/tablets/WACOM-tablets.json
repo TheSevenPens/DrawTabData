@@ -6237,12 +6237,12 @@
                                             "EntityId":  "WACOM.TABLET.FT0203U",
                                             "_id":  "3b998f71-1696-4a81-9432-f0a8c6005bf5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FT-0203-U",
-                                             "Name":  "Wacom FT-0203-U",
+                                             "Name":  "PenPartner",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
@@ -6438,7 +6438,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-U",
-                                             "Name":  "Wacom CT-0405-U",
+                                             "Name":  "PenPartner USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
                                              "IncludedPen":  [
@@ -6472,7 +6472,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-R",
-                                             "Name":  "Wacom CT-0405-R",
+                                             "Name":  "PenPartner SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
                                              "IncludedPen":  [
@@ -6506,7 +6506,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-A",
-                                             "Name":  "Wacom CT-0405-A",
+                                             "Name":  "PenPartner ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
                                              "IncludedPen":  [
@@ -7386,6 +7386,38 @@
                                "Physical":  {
                                                 "Weight":  "2000"
                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.CT0405U2004",
+                                            "_id":  "801b8cd8-a4c2-487e-8d2b-13fdfc30fb52",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "CT-0405-U",
+                                             "Name":  "PenPartner A8 USB",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2004",
+                                             "Status":  "DISCONTINUED"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.CT0405U2005",
+                                            "_id":  "5c9c5a27-d174-4e07-8461-82de9c4d5537",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "CT-0405-U",
+                                             "Name":  "PenPartner 2",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2005",
+                                             "Status":  "DISCONTINUED"
+                                         }
                            }
                        ]
 }
