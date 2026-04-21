@@ -5492,7 +5492,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-671",
-                                             "Name":  "CTL-671",
+                                             "Name":  "One by Wacom 2012 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x71",
@@ -5528,7 +5528,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-471",
-                                             "Name":  "CTL-471",
+                                             "Name":  "One by Wacom 2012 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
                                              "Family":  "CTx-x71",
@@ -7429,22 +7429,22 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "WT-4400SE",
-                                             "Name":  "WT 4400SE",
+                                             "Name":  "WT-4400SE",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1986"
                                          }
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.460M",
+                                            "EntityId":  "WACOM.TABLET.WT460M",
                                             "_id":  "57c68629-5451-4a2d-8d19-925f0c658d2d",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
-                                             "Id":  "460M",
-                                             "Name":  "460M",
+                                             "Id":  "WT-460M",
+                                             "Name":  "WT-460M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1987"
                                          }
