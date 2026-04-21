@@ -1,0 +1,769 @@
+{
+  "_source": "WacomGuideBook2019.pdf (French/European enthusiast guide)",
+  "_extractedDate": "2026-04-20",
+  "_notes": [
+    "Dates are from French/European Wacom websites — Japanese site differs slightly.",
+    "Model numbers in the original marked as uncertain are flagged with 'uncertain: true'.",
+    "Some model numbers appear garbled by PDF encoding (noted in 'pdfNote').",
+    "Alternate names (regional market names) are noted where mentioned.",
+    "Pressure levels of 1028 in source appear to be a typo for 1024."
+  ],
+  "families": [
+    {
+      "family": "WT / 460M / SD",
+      "years": "1984–1987",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": null,
+        "resolution_lpp": null,
+        "connection": ["Serial"]
+      },
+      "notes": "1984: WT range — first Wacom tablets with wireless pen. 1986–87: WT4400SE — first with EMR electrostatic surface. 460M — first small-sized tablet. SD — first pen with multiple pressure levels.",
+      "models": [
+        { "name": "WT",       "modelId": "WT-????",   "size": "A?", "uncertain": true },
+        { "name": "WT 4400SE","modelId": "WT-4400SE", "size": "A?", "uncertain": true, "year": "1986" },
+        { "name": "460M",     "modelId": "460M",       "size": "A?", "uncertain": true, "year": "1987" },
+        { "name": "SD",       "modelId": "SD-????",    "size": "A?", "uncertain": true, "year": "1987" }
+      ]
+    },
+    {
+      "family": "Ultrapad Digitizer",
+      "years": "1993",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "resolution_lpp": 2540,
+        "connection": ["Serial", "ADB"]
+      },
+      "notes": "Ultrapad and Ultrapad II often confused. Ultrapad (I) model numbers unknown. Ultrapad II A5–A2 sold with Serial; ADB existence for A3/A2 unconfirmed. A6 size not known to exist in this range.",
+      "models": [
+        { "name": "Ultrapad",            "modelId": "UD-????",    "size": "A?", "uncertain": true },
+        { "name": "Ultrapad II A5",      "modelId": "UD-0608-R",  "size": "A5", "connection": ["Serial"] },
+        { "name": "Ultrapad II A5",      "modelId": "UD-0608-A",  "size": "A5", "connection": ["ADB"] },
+        { "name": "Ultrapad II A4",      "modelId": "UD-1212-R",  "size": "A4", "connection": ["Serial"] },
+        { "name": "Ultrapad II A4",      "modelId": "UD-1212-A",  "size": "A4", "connection": ["ADB"] },
+        { "name": "Ultrapad II A3",      "modelId": "UD-1218-R",  "size": "A3", "connection": ["Serial"] },
+        { "name": "Ultrapad II A2",      "modelId": "UD-1825-R",  "size": "A2", "connection": ["Serial"] }
+      ]
+    },
+    {
+      "family": "Artpad",
+      "years": "1994–1995",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 256,
+        "resolution_lpp": 2540,
+        "connection": ["Serial", "ADB"],
+        "size": "A6"
+      },
+      "notes": "Artpad and Artpad II share the same model numbers (KT-0405-R/A). Artpad II bundled with Pentools plugins for Adobe Photoshop.",
+      "models": [
+        { "name": "Artpad",    "modelId": "KT-0405-R", "connection": ["Serial"] },
+        { "name": "Artpad",    "modelId": "KT-0405-A", "connection": ["ADB"], "uncertain": true },
+        { "name": "Artpad II", "modelId": "KT-0405-R", "connection": ["Serial"] },
+        { "name": "Artpad II", "modelId": "KT-0405-A", "connection": ["ADB"], "uncertain": true }
+      ]
+    },
+    {
+      "family": "ArtZ",
+      "years": "1994–1995",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "resolution_lpp": 2540,
+        "connection": ["Serial", "ADB"]
+      },
+      "notes": "ArtZ and ArtZ II replace Ultrapad/Ultrapad II. ArtZ seems to be A5 only with Serial. ArtZ II available in multiple sizes. Model numbers not fully clear.",
+      "models": [
+        { "name": "ArtZ",        "modelId": "KT-0608-R", "size": "A5", "connection": ["Serial"] },
+        { "name": "ArtZ II A6",  "modelId": "KT-0405-R", "size": "A6", "connection": ["Serial"] },
+        { "name": "ArtZ II A5",  "modelId": "UD-0608-R", "size": "A5", "connection": ["Serial"] },
+        { "name": "ArtZ II A5",  "modelId": "UD-0608-A", "size": "A5", "connection": ["ADB"] },
+        { "name": "ArtZ II A4",  "modelId": "UD-1212-R", "size": "A4", "connection": ["Serial"] },
+        { "name": "ArtZ II A4",  "modelId": "UD-1212-A", "size": "A4", "connection": ["ADB"] },
+        { "name": "ArtZ II A3",  "modelId": "UD-1218-R", "size": "A3", "connection": ["Serial"] },
+        { "name": "ArtZ II A3",  "modelId": "UD-1218-A", "size": "A3", "connection": ["ADB"] }
+      ]
+    },
+    {
+      "family": "PenPartner",
+      "years": "1997–2005",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "resolution_lpp": 1016,
+        "connection": ["Serial", "USB", "ADB"]
+      },
+      "notes": "PenPartner 1 A6: sold for PC (Serial) 1997, Mac (ADB) 1998, PC USB 1999. Active surface 127x106mm. PenPartner 2004 A8: USB only, no eraser, no pen stand. Active surface 81.2x58mm. PenPartner 2 (2005): A8 USB only.",
+      "models": [
+        { "name": "PenPartner 1", "modelId": "CT-0405U", "size": "A6", "year": "1997", "connection": ["USB"] },
+        { "name": "PenPartner 1", "modelId": "CT-0405R", "size": "A6", "year": "1997", "connection": ["Serial"] },
+        { "name": "PenPartner 1", "modelId": "CT-0405A", "size": "A6", "year": "1998", "connection": ["ADB"] },
+        { "name": "PenPartner 1 A8", "modelId": "CT-0405U", "size": "A8", "year": "2004", "connection": ["USB"], "notes": "No eraser, no pen stand" },
+        { "name": "PenPartner 2", "modelId": "CT-0405U", "size": "A8", "year": "2005", "connection": ["USB"] }
+      ]
+    },
+    {
+      "family": "Intuos 1",
+      "years": "1998",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["Serial", "USB", "ADB"],
+        "tilt": true
+      },
+      "notes": "First professional opaque pen tablet. Grey color; graphite version in 2000. GD-1212R not associated with CAD/DTP versions.",
+      "models": [
+        { "name": "Intuos 1 A6",              "modelId": "GD-0405U",   "size": "A6", "connection": ["USB"] },
+        { "name": "Intuos 1 A6",              "modelId": "GD-0405R",   "size": "A6", "connection": ["Serial"] },
+        { "name": "Intuos 1 A6",              "modelId": "GD-0405A00", "size": "A6", "connection": ["ADB"] },
+        { "name": "Intuos 1 A5",              "modelId": "GD-0608U",   "size": "A5", "connection": ["USB"] },
+        { "name": "Intuos 1 A5",              "modelId": "GD-0608R",   "size": "A5", "connection": ["Serial"] },
+        { "name": "Intuos 1 A5",              "modelId": "GD-0608A00", "size": "A5", "connection": ["ADB"] },
+        { "name": "Intuos 1 A4",              "modelId": "GD-0912U",   "size": "A4", "connection": ["USB"] },
+        { "name": "Intuos 1 A4",              "modelId": "GD-0912R",   "size": "A4", "connection": ["Serial"] },
+        { "name": "Intuos 1 A4",              "modelId": "GD-0912A00", "size": "A4", "connection": ["ADB"] },
+        { "name": "Intuos 1 A4 oversize DTP", "modelId": "GD-1212U-D", "size": "A4+", "connection": ["USB"] },
+        { "name": "Intuos 1 A4 oversize DTP", "modelId": "GD-1212R-D", "size": "A4+", "connection": ["Serial"] },
+        { "name": "Intuos 1 A4 oversize DTP", "modelId": "GD-1212A-D", "size": "A4+", "connection": ["ADB"] },
+        { "name": "Intuos 1 A4 oversize CAD", "modelId": "GD-1212U-C", "size": "A4+", "connection": ["USB"] },
+        { "name": "Intuos 1 A4 oversize CAD", "modelId": "GD-1212R-C", "size": "A4+", "connection": ["Serial"] },
+        { "name": "Intuos 1 A4 oversize CAD", "modelId": "GD-1212A-C", "size": "A4+", "connection": ["ADB"] },
+        { "name": "Intuos 1 A3",              "modelId": "GD-1218U",   "size": "A3", "connection": ["USB"] },
+        { "name": "Intuos 1 A3",              "modelId": "GD-1218R",   "size": "A3", "connection": ["Serial"] },
+        { "name": "Intuos 1 A3",              "modelId": "GD-1218A",   "size": "A3", "connection": ["ADB"] }
+      ]
+    },
+    {
+      "family": "Graphire",
+      "years": "1999–2005",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "connection": ["USB"],
+        "tilt": false
+      },
+      "notes": "Four generations, four designs. G1/G2: resolution 1015 lpp, multiple colors. G3/G4: resolution 2032 lpp, white (silver option for G3). G3/G4 added 2 ExpressKeys and scroll wheel. G3/G4 added A5 size (called XL).",
+      "models": [
+        { "name": "Graphire 1 A6", "modelId": "ET-0405",       "size": "A6", "year": "1999", "resolution_lpp": 1015, "pdfNote": "PDF shows 'KT-04055' — likely OCR error for ET-0405" },
+        { "name": "Graphire 2 A6", "modelId": "ET-0405",       "size": "A6", "year": "2001", "resolution_lpp": 1015, "pdfNote": "PDF shows 'ET-040506' — likely ET-0405 variant; product code page confirms ET-0405" },
+        { "name": "Graphire 3 A6", "modelId": "CTE-430",       "size": "A6", "year": "2003", "resolution_lpp": 2032 },
+        { "name": "Graphire 3 A5 (XL)", "modelId": "CTE-630", "size": "A5", "year": "2003", "resolution_lpp": 2032, "alternateNames": ["Graphire A5 Silver"] },
+        { "name": "Graphire 4 A6",       "modelId": "CTE-440/S-CL",  "size": "A6", "year": "2005", "resolution_lpp": 2032, "variant": "Classic" },
+        { "name": "Graphire 4 A6",       "modelId": "CTE-440/S-ST",  "size": "A6", "year": "2005", "resolution_lpp": 2032, "variant": "Studio" },
+        { "name": "Graphire 4 A6",       "modelId": "CTE-440/S-ST2", "size": "A6", "year": "2005", "resolution_lpp": 2032, "variant": "Studio 2" },
+        { "name": "Graphire 4 A5 (XL)",  "modelId": "CTE-640/S-CL",  "size": "A5", "year": "2005", "resolution_lpp": 2032, "variant": "XL Classic" },
+        { "name": "Graphire 4 A5 (XL)",  "modelId": "CTE-640/S-ST",  "size": "A5", "year": "2005", "resolution_lpp": 2032, "variant": "XL Studio" }
+      ]
+    },
+    {
+      "family": "Graphire Bluetooth",
+      "years": "2005",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "resolution_lpp": 2032,
+        "connection": ["USB", "Bluetooth"],
+        "size": "A5",
+        "tilt": false
+      },
+      "notes": "Graphire 3 form factor. First Wacom tablet with wireless (Bluetooth). 2 ExpressKeys. 3 hardware revisions sold.",
+      "models": [
+        { "name": "Graphire Bluetooth A5", "modelId": "CTE630BT",  "year": "2005" },
+        { "name": "Graphire Bluetooth A5", "modelId": "CTE630BT2", "year": "2005" },
+        { "name": "Graphire Bluetooth A5", "modelId": "CTE630BT3", "year": "2005" }
+      ]
+    },
+    {
+      "family": "Intuos 2",
+      "years": "2001",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["Serial", "USB"],
+        "tilt": true
+      },
+      "notes": "Available in blue-purple and silver (Platinum) colors. XD-1212R not associated with CAD/DTP. Mouse included.",
+      "models": [
+        { "name": "Intuos 2 A6",              "modelId": "XD-0405U",   "size": "A6", "connection": ["USB"] },
+        { "name": "Intuos 2 A6",              "modelId": "XD-0405R",   "size": "A6", "connection": ["Serial"] },
+        { "name": "Intuos 2 A5",              "modelId": "XD-0608U",   "size": "A5", "connection": ["USB"] },
+        { "name": "Intuos 2 A5",              "modelId": "XD-0608R",   "size": "A5", "connection": ["Serial"] },
+        { "name": "Intuos 2 A4",              "modelId": "XD-0912U",   "size": "A4", "connection": ["USB"] },
+        { "name": "Intuos 2 A4",              "modelId": "XD-0912R",   "size": "A4", "connection": ["Serial"] },
+        { "name": "Intuos 2 A4 oversize DTP", "modelId": "XD-1212U-D", "size": "A4+", "connection": ["USB"] },
+        { "name": "Intuos 2 A4 oversize DTP", "modelId": "XD-1212R-D", "size": "A4+", "connection": ["Serial"] },
+        { "name": "Intuos 2 A4 oversize CAD", "modelId": "XD-1212U-C", "size": "A4+", "connection": ["USB"] },
+        { "name": "Intuos 2 A4 oversize CAD", "modelId": "XD-1212R-C", "size": "A4+", "connection": ["Serial"] },
+        { "name": "Intuos 2 A3",              "modelId": "XD-1218U",   "size": "A3", "connection": ["USB"] }
+      ]
+    },
+    {
+      "family": "Cintiq 15X / 18SX",
+      "years": "2001–2002",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 512,
+        "connection": ["USB", "VGA", "DVI"],
+        "tilt": true
+      },
+      "notes": "First Cintiq range. Rotating stand with handles. No ExpressKeys or Touch Strips.",
+      "models": [
+        { "name": "Cintiq 15X",  "modelId": "PL-550",    "year": "2001", "displaySize_in": 15,   "resolution": "1024x768" },
+        { "name": "Cintiq 18SX", "modelId": "PL-800-02", "year": "2002", "displaySize_in": 18.1, "resolution": "1280x1024" }
+      ]
+    },
+    {
+      "family": "Volito",
+      "years": "2002–2005",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "resolution_lpp": 1016,
+        "connection": ["USB"],
+        "size": "A6",
+        "tilt": false,
+        "eraser": false
+      },
+      "notes": "PC-only (no Mac support). Low price, low specs. No pen tilt, no eraser. Volito 1 included mouse. Volito 2 did not. Volito 2 pen quality better.",
+      "models": [
+        { "name": "Volito 1", "modelId": "FT-0405U",  "year": "2002" },
+        { "name": "Volito 2", "modelId": "CTF-420G",  "year": "2005" }
+      ]
+    },
+    {
+      "family": "Colorelli",
+      "years": "2002",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "resolution_lpp": 1016,
+        "connection": ["USB"],
+        "size": "A6"
+      },
+      "notes": "Coloring game for kids. Tablet resembles Volito/PenPartner/Graphire 1. Bundled with coloring software.",
+      "models": [
+        { "name": "Colorelli", "modelId": "FT-0405U10", "year": "2002" }
+      ]
+    },
+    {
+      "family": "Intuos 3",
+      "years": "2004",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 5080,
+        "connection": ["USB"],
+        "tilt": true
+      },
+      "notes": "First Intuos with ExpressKeys and Touch Strips. New Grip Pen. Wide versions added for 16:9 displays.",
+      "models": [
+        { "name": "Intuos 3 A6",              "modelId": "PTZ-430",    "size": "A6" },
+        { "name": "Intuos 3 A6 Wide",         "modelId": "PTZ-431W",   "size": "A6W" },
+        { "name": "Intuos 3 A5",              "modelId": "PTZ-630G-F", "size": "A5" },
+        { "name": "Intuos 3 A5 Wide",         "modelId": "PTZ-631W",   "size": "A5W" },
+        { "name": "Intuos 3 A4",              "modelId": "PTZ-930G",   "size": "A4" },
+        { "name": "Intuos 3 A4 oversize DTP", "modelId": "PTZ-1230-D", "size": "A4+" },
+        { "name": "Intuos 3 A4 oversize CAD", "modelId": "PTZ-1230-C", "size": "A4+" },
+        { "name": "Intuos 3 A3 Wide DTP",     "modelId": "PTZ-1231W-D","size": "A3W" },
+        { "name": "Intuos 3 A3 Wide CAD",     "modelId": "PTZ-1231W-C","size": "A3W" }
+      ]
+    },
+    {
+      "family": "Intuos 3 Special Edition",
+      "years": "2007",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 5080,
+        "connection": ["USB"],
+        "tilt": true
+      },
+      "notes": "All-black design. Wider than classic Intuos 3 A4/A3. Sold with mouse, grip pen, and digital airbrush. 25th anniversary edition. Includes features not in standard Intuos 3 driver.",
+      "models": [
+        { "name": "Intuos 3 SE A5 Wide", "modelId": "PTZ-631W-SE", "size": "A5W", "year": "2007" },
+        { "name": "Intuos 3 SE A4",      "modelId": "PTZ-930SE",   "size": "A4",  "year": "2007" }
+      ]
+    },
+    {
+      "family": "Cintiq 21UX 2005",
+      "years": "2005",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 1024,
+        "connection": ["USB", "VGA", "DVI"],
+        "displaySize_in": 21,
+        "resolution": "1600x1200",
+        "tilt": true
+      },
+      "notes": "Intuos 3 technology. 2 Touch Strips, 8 ExpressKeys. First Cintiq with Grip Pen.",
+      "models": [
+        { "name": "Cintiq 21UX", "modelId": "DTZ-2100", "year": "2005" }
+      ]
+    },
+    {
+      "family": "Bamboo 2007",
+      "years": "2007",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 512,
+        "connection": ["USB"],
+        "tilt": false
+      },
+      "notes": "Replaces Graphire. Touch Ring appears for first time on Bamboo. Consumer market.",
+      "models": [
+        { "name": "Bamboo",      "modelId": "MTE-450K", "size": "A6", "resolution_lpp": 2540, "year": "2007", "notes": "4 ExpressKeys, 1 Touch Ring" },
+        { "name": "Bamboo One",  "modelId": "CTF-430S", "size": "A6", "resolution_lpp": 1040, "year": "2007", "notes": "No ExpressKeys, no eraser" },
+        { "name": "Bamboo Fun A6 Wide", "modelId": "CTE-450W", "size": "A6W", "resolution_lpp": 2540, "year": "2007" },
+        { "name": "Bamboo Fun A5 Wide", "modelId": "CTE-650W", "size": "A5W", "resolution_lpp": 2540, "year": "2007" }
+      ]
+    },
+    {
+      "family": "Cintiq 20WSX",
+      "years": "2007",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 1024,
+        "connection": ["USB", "VGA", "DVI"],
+        "displaySize_in": 20.1,
+        "resolution": "1680x1050",
+        "aspectRatio": "16:10",
+        "tilt": true
+      },
+      "notes": "Rare in Europe; sold mainly in Japan and America. 14 ExpressKeys. Touch Strips moved to back.",
+      "models": [
+        { "name": "Cintiq 20WSX", "modelId": "DTZ-2000W", "year": "2007", "pdfNote": "Detailed page shows 'DTZ-2200W'; product-code page shows 'DTZ-2000W' — DTZ-2000W is correct" }
+      ]
+    },
+    {
+      "family": "Cintiq 12WX",
+      "years": "2007",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 1024,
+        "connection": ["USB", "VGA", "DVI"],
+        "displaySize_in": 12,
+        "resolution": "1280x800",
+        "aspectRatio": "16:10",
+        "tilt": true
+      },
+      "notes": "First mobile Cintiq. Connected via Video Control Unit. Includes integrated display stand.",
+      "models": [
+        { "name": "Cintiq 12WX", "modelId": "DTZ-1200W", "year": "2007" }
+      ]
+    },
+    {
+      "family": "Intuos 4",
+      "years": "2009",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 2048,
+        "resolution_lpp": 5080,
+        "connection": ["USB"],
+        "tilt": true
+      },
+      "notes": "New size names: S/M/L/XL replace A6/A5/A4/A3. New tip sensor for 2048 levels. Touch Ring replaces Touch Strips. OLED ExpressKey labels. Reversible (left/right handed).",
+      "models": [
+        { "name": "Intuos 4 S",        "modelId": "PTK-440",   "size": "S",  "year": "2009" },
+        { "name": "Intuos 4 M",        "modelId": "PTK-640",   "size": "M",  "year": "2009" },
+        { "name": "Intuos 4 L",        "modelId": "PTK-840",   "size": "L",  "year": "2009" },
+        { "name": "Intuos 4 XL DTP",   "modelId": "PTK-1240-D","size": "XL", "year": "2009", "aspectRatio": "16:10" },
+        { "name": "Intuos 4 XL CAD",   "modelId": "PTK-1240-C","size": "XL", "year": "2009", "aspectRatio": "16:10" },
+        { "name": "Intuos 4 Wireless M","modelId": "PTK-540WL","size": "M",  "year": "2010", "connection": ["USB", "Wireless"], "notes": "Slightly different width than Intuos 4 M. Wireless issues on Windows." }
+      ]
+    },
+    {
+      "family": "Bamboo 2009",
+      "years": "2009",
+      "type": "PENTABLET",
+      "specs": {
+        "connection": ["USB"],
+        "tilt": false
+      },
+      "notes": "New 2009 Bamboo range. Reversible for left/right-handed use. 'CTT-460a' and 'CTH-460a' variants have improved multitouch.",
+      "models": [
+        { "name": "Bamboo Touch S",          "modelId": "CTT-460", "size": "S", "year": "2009", "pressureLevels": null, "notes": "Touch-only, no pen" },
+        { "name": "Bamboo Pen S",            "modelId": "CTL-460", "size": "S", "year": "2009", "pressureLevels": 512,  "resolution_lpp": 2540 },
+        { "name": "Bamboo Pen & Touch S",    "modelId": "CTH-460", "size": "S", "year": "2009", "pressureLevels": 1024, "resolution_lpp": 2540 },
+        { "name": "Bamboo Fun Pen & Touch S","modelId": "CTH-461", "size": "S", "year": "2009", "pressureLevels": 1024, "resolution_lpp": 2540 },
+        { "name": "Bamboo Fun Pen & Touch M","modelId": "CTH-661", "size": "M", "year": "2009", "pressureLevels": 1024, "resolution_lpp": 2540 }
+      ]
+    },
+    {
+      "family": "Bamboo Special Edition",
+      "years": "2010",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["USB"],
+        "tilt": false
+      },
+      "notes": "Black and silver design. Same specs as Bamboo Fun Pen & Touch but more elegant. Multitouch with 4 fingers.",
+      "models": [
+        { "name": "Bamboo Special Edition S", "modelId": "CTH-461SE", "size": "S", "year": "2010" },
+        { "name": "Bamboo Special Edition M", "modelId": "CTH-661SE", "size": "M", "year": "2010" }
+      ]
+    },
+    {
+      "family": "Cintiq 21UX 2010",
+      "years": "2010",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["USB", "VGA", "DVI"],
+        "displaySize_in": 21.3,
+        "resolution": "1600x1200",
+        "tilt": true
+      },
+      "notes": "Intuos 4 technology. 16 ExpressKeys, 2 Touch Strips. Flippable screen via stand.",
+      "models": [
+        { "name": "Cintiq 21UX", "modelId": "DTK-2100", "year": "2010" }
+      ]
+    },
+    {
+      "family": "Bamboo 2011",
+      "years": "2011",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["USB"],
+        "tilt": false
+      },
+      "notes": "Pen resembles Grip Pen. USB cable 1.5m. Wireless Accessory Kit available separately. US market had different names.",
+      "models": [
+        { "name": "Bamboo Pen S",             "modelId": "CTL-470K", "size": "S", "year": "2011", "alternateNames": ["Bamboo Connect"], "alternateNameMarkets": ["US"] },
+        { "name": "Bamboo Pen & Touch S",     "modelId": "CTH-470K", "size": "S", "year": "2011", "alternateNames": ["Bamboo Capture"],  "alternateNameMarkets": ["US"] },
+        { "name": "Bamboo Fun Pen & Touch S", "modelId": "CTH-470S", "size": "S", "year": "2011", "alternateNames": ["Bamboo Create"],   "alternateNameMarkets": ["US"] },
+        { "name": "Bamboo Fun Pen & Touch M", "modelId": "CTH-670S", "size": "M", "year": "2011", "alternateNames": ["Bamboo Create"],   "alternateNameMarkets": ["US"] }
+      ]
+    },
+    {
+      "family": "Cintiq 24HD",
+      "years": "2011",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["USB", "VGA", "DVI", "DisplayPort"],
+        "displaySize_in": 24,
+        "resolution": "1920x1200",
+        "panelType": "IPS",
+        "aspectRatio": "16:10",
+        "tilt": true
+      },
+      "notes": "Largest Cintiq with Intuos 4 tech. 29 kg. Width 80cm. 10 ExpressKeys, 2 Touch Rings. No Touch Strips. USB port on left.",
+      "models": [
+        { "name": "Cintiq 24HD",       "modelId": "DTK-2400", "year": "2011" },
+        { "name": "Cintiq 24HD touch", "modelId": "DTH-2400", "year": "2012", "notes": "Adds multitouch; improved display and cooling" }
+      ]
+    },
+    {
+      "family": "Cintiq 22HD",
+      "years": "2012",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["DVI", "USB"],
+        "displaySize_in": 22,
+        "resolution": "1920x1080",
+        "panelType": "H-IPS",
+        "aspectRatio": "16:9",
+        "tilt": true
+      },
+      "notes": "Wider and lighter than Cintiq 21UX. No multitouch on DTK-2200. Traditional rotating stand.",
+      "models": [
+        { "name": "Cintiq 22HD",       "modelId": "DTK-2200", "year": "2012" },
+        { "name": "Cintiq 22HD touch", "modelId": "DTH-2200", "year": "2013", "notes": "Adds multitouch; 72% Adobe RGB" }
+      ]
+    },
+    {
+      "family": "Intuos 5",
+      "years": "2012",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 2048,
+        "resolution_lpp": 5080,
+        "connection": ["USB", "Wireless"],
+        "tilt": true
+      },
+      "notes": "New 'Soft Touch' surface texture. No XL size. All models except Intuos Pen have multitouch. Wireless module sold separately.",
+      "models": [
+        { "name": "Intuos 5 Pen & Touch S", "modelId": "PTH-450", "size": "S", "year": "2012" },
+        { "name": "Intuos 5 Pen M",         "modelId": "PTK-650", "size": "M", "year": "2012", "notes": "No multitouch" },
+        { "name": "Intuos 5 Pen & Touch M", "modelId": "PTH-650", "size": "M", "year": "2012" },
+        { "name": "Intuos 5 Pen & Touch L", "modelId": "PTH-850", "size": "L", "year": "2012" }
+      ]
+    },
+    {
+      "family": "Cintiq 13HD",
+      "years": "2013",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["3-in-1 cable (HDMI+USB+AC)"],
+        "displaySize_in": 13.3,
+        "resolution": "1920x1080",
+        "panelType": "TFT LCD",
+        "aspectRatio": "16:9",
+        "colorGamut_adobeRGB_pct": 75,
+        "tilt": true
+      },
+      "notes": "Replaces Cintiq 12WX. Pro Pen replaces Grip Pen. 3-level display stand. Pen Case included.",
+      "models": [
+        { "name": "Cintiq 13HD",       "modelId": "DTK-1300", "year": "2013" },
+        { "name": "Cintiq 13HD touch", "modelId": "DTH-1300", "year": "2015", "notes": "Adds multitouch" }
+      ]
+    },
+    {
+      "family": "Intuos 2013",
+      "years": "2013",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["USB", "Wireless"],
+        "tilt": false
+      },
+      "notes": "Bamboo renamed to Intuos in 2013. Smaller and thinner than Bamboo. 4 ExpressKeys. Intuos Manga sold with comic/animation software.",
+      "models": [
+        { "name": "Intuos Pen S",              "modelId": "CTL-480S", "size": "S", "year": "2013", "notes": "No touch, no eraser" },
+        { "name": "Intuos Pen & Touch S",      "modelId": "CTH-480S", "size": "S", "year": "2013" },
+        { "name": "Intuos Manga Pen & Touch S","modelId": "CTH-480M", "size": "S", "year": "2013", "notes": "Manga software bundle" },
+        { "name": "Intuos Pen & Touch M",      "modelId": "CTH-680S", "size": "M", "year": "2013" }
+      ]
+    },
+    {
+      "family": "Intuos Pro 2013",
+      "years": "2013",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 2048,
+        "resolution_lpp": 5080,
+        "connection": ["USB", "Wireless"],
+        "tilt": true
+      },
+      "notes": "New name for professional tablet (was Intuos 5). Same hardware as Intuos 5, different design. Wireless module included in box. Special Edition replaces pen-only model.",
+      "models": [
+        { "name": "Intuos Pro S",    "modelId": "PTH-451",  "size": "S", "year": "2013" },
+        { "name": "Intuos Pro M",    "modelId": "PTH-651",  "size": "M", "year": "2013" },
+        { "name": "Intuos Pro M SE", "modelId": "PTH-651S", "size": "M", "year": "2013", "variant": "Special Edition" },
+        { "name": "Intuos Pro L",    "modelId": "PTH-851",  "size": "L", "year": "2013" }
+      ]
+    },
+    {
+      "family": "Cintiq Companion",
+      "years": "2013",
+      "type": "STANDALONE",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["AC Power"],
+        "displaySize_in": 13.3,
+        "resolution": "1920x1080",
+        "panelType": "TFT LCD",
+        "aspectRatio": "16:9",
+        "tilt": true
+      },
+      "notes": "First Wacom mobile multitouch tablet. Companion (CC): Windows, 2x USB 3.0. Companion Hybrid (CCH): Android, connects to PC as Cintiq 13HD via 3-in-1 cable.",
+      "models": [
+        { "name": "Cintiq Companion 256GB",        "modelId": "DTH-A1300L", "year": "2013", "storage_gb": 256, "os": "Windows" },
+        { "name": "Cintiq Companion 512GB",        "modelId": "DTH-A1300H", "year": "2013", "storage_gb": 512, "os": "Windows" },
+        { "name": "Cintiq Companion Hybrid 16GB",  "modelId": "DTH-W1300L", "year": "2013", "storage_gb": 16,  "os": "Android" },
+        { "name": "Cintiq Companion Hybrid 32GB",  "modelId": "DTH-W1300H", "year": "2013", "storage_gb": 32,  "os": "Android" }
+      ]
+    },
+    {
+      "family": "Cintiq 27QHD",
+      "years": "2015",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["USB", "DisplayPort", "HDMI"],
+        "displaySize_in": 27,
+        "resolution": "2560x1440",
+        "panelType": "AHVA (IPS)",
+        "aspectRatio": "16:9",
+        "tilt": true
+      },
+      "notes": "Replaces Cintiq 24HD. ExpressKey Remote included (17 ExpressKeys, 1 Touch Ring).",
+      "models": [
+        { "name": "Cintiq 27QHD",       "modelId": "DTK-2700", "year": "2015" },
+        { "name": "Cintiq 27QHD touch", "modelId": "DTH-2700", "year": "2015", "notes": "Adds multitouch" }
+      ]
+    },
+    {
+      "family": "Cintiq Companion 2",
+      "years": "2015",
+      "type": "STANDALONE",
+      "specs": {
+        "pressureLevels": 2048,
+        "connection": ["Cintiq Connect Cable (HDMI+USB)", "AC Power"],
+        "displaySize_in": 13.3,
+        "resolution": "2560x1440",
+        "panelType": "TFT LCD",
+        "aspectRatio": "16:9",
+        "tilt": true,
+        "os": "Windows"
+      },
+      "notes": "Improved over CC1: better sound, 6 ExpressKeys, micro-SD/SDHC ports, USB 3.0. Can connect to any computer via Cintiq Connect cable.",
+      "models": [
+        { "name": "Cintiq Companion 2 i3 64GB",  "modelId": "DTH-W1310T",  "year": "2015", "cpu": "i3", "ram_gb": 4,  "storage_gb": 64,  "pdfNote": "Product code page shows DTH-W1310; detail page shows DTH-W1319 — cross-reference needed" },
+        { "name": "Cintiq Companion 2 i5 128GB", "modelId": "DTH-W1310L",  "year": "2015", "cpu": "i5", "ram_gb": 8,  "storage_gb": 128 },
+        { "name": "Cintiq Companion 2 i7 256GB", "modelId": "DTH-W1310P",  "year": "2015", "cpu": "i7", "ram_gb": 8,  "storage_gb": 256 },
+        { "name": "Cintiq Companion 2 i7 512GB", "modelId": "DTH-W1310H",  "year": "2015", "cpu": "i7", "ram_gb": 16, "storage_gb": 512 }
+      ]
+    },
+    {
+      "family": "Intuos 2015",
+      "years": "2015",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["USB", "Wireless"],
+        "tilt": false,
+        "eraser": false
+      },
+      "notes": "Pen loses eraser. Each model sold with specific bundled software. Colors: white, black, or blue. Wireless module sold separately.",
+      "models": [
+        { "name": "Intuos Draw Pen S",         "modelId": "CTL-490DW",  "size": "S", "year": "2015", "color": "white" },
+        { "name": "Intuos Draw Pen S",         "modelId": "CTL-490DB",  "size": "S", "year": "2015", "color": "black" },
+        { "name": "Intuos Comic Pen & Touch S","modelId": "CTH-490CK",  "size": "S", "year": "2015", "color": "black" },
+        { "name": "Intuos Comic Pen & Touch S","modelId": "CTH-490CB",  "size": "S", "year": "2015", "color": "blue" },
+        { "name": "Intuos Photo Pen & Touch S","modelId": "CTH-490PK",  "size": "S", "year": "2015", "color": "pink" },
+        { "name": "Intuos Art Pen & Touch S",  "modelId": "CTH-490AK",  "size": "S", "year": "2015", "color": "black" },
+        { "name": "Intuos Art Pen & Touch S",  "modelId": "CTH-490AB",  "size": "S", "year": "2015", "color": "blue" },
+        { "name": "Intuos Art Pen & Touch M",  "modelId": "CTH-690AK",  "size": "M", "year": "2015", "color": "black" },
+        { "name": "Intuos Art Pen & Touch M",  "modelId": "CTH-690AB",  "size": "M", "year": "2015", "color": "blue" },
+        { "name": "Intuos 3D Pen & Touch M",   "modelId": "CTH-690TK",  "size": "M", "year": "2016", "notes": "Bundled with ZBrushCore; black only" }
+      ]
+    },
+    {
+      "family": "Wacom MobileStudio Pro",
+      "years": "2016",
+      "type": "STANDALONE",
+      "specs": {
+        "pressureLevels": 8192,
+        "connection": ["USB-C", "AC Power", "SDXC"],
+        "aspectRatio": "16:9",
+        "tilt": true,
+        "os": "Windows 10"
+      },
+      "notes": "First Wacom pen computer with 8192 levels. Two sizes: 13\" and 16\". 13\" models have Intel RealSense 3D camera. 16\" uses NVidia M1000M GPU.",
+      "models": [
+        { "name": "MobileStudio Pro 13 64GB",  "modelId": "DTH-W1320T", "displaySize_in": 13, "resolution": "2560x1440", "cpu": "i5", "ram_gb": 4,  "storage_gb": 64,  "year": "2016" },
+        { "name": "MobileStudio Pro 13 128GB", "modelId": "DTH-W1320L", "displaySize_in": 13, "resolution": "2560x1440", "cpu": "i5", "ram_gb": 8,  "storage_gb": 128, "year": "2016" },
+        { "name": "MobileStudio Pro 13 256GB", "modelId": "DTH-W1320M", "displaySize_in": 13, "resolution": "2560x1440", "cpu": "i5", "ram_gb": 8,  "storage_gb": 256, "year": "2016" },
+        { "name": "MobileStudio Pro 13 512GB", "modelId": "DTH-W1320H", "displaySize_in": 13, "resolution": "2560x1440", "cpu": "i7", "ram_gb": 16, "storage_gb": 512, "year": "2016" },
+        { "name": "MobileStudio Pro 16 256GB", "modelId": "DTH-W1620M", "displaySize_in": 16, "resolution": "3840x2160", "cpu": "i5", "ram_gb": 8,  "storage_gb": 256, "year": "2016" },
+        { "name": "MobileStudio Pro 16 512GB", "modelId": "DTH-W1620H", "displaySize_in": 16, "resolution": "3840x2160", "cpu": "i7", "ram_gb": 16, "storage_gb": 512, "year": "2016" }
+      ]
+    },
+    {
+      "family": "Wacom Cintiq Pro",
+      "years": "2016–2018",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 8192,
+        "connection": ["USB-C", "AC Power"],
+        "tilt": true,
+        "touch": true
+      },
+      "notes": "New premium Cintiq range. No Touch Ring or ExpressKeys on the display itself. Two legs (no rotating stand). Pro Pen 2 with 8192 levels.",
+      "models": [
+        { "name": "Wacom Cintiq Pro 13", "modelId": "DTH-1320", "displaySize_in": 13.3, "resolution": "1920x1080",  "year": "2016" },
+        { "name": "Wacom Cintiq Pro 16", "modelId": "DTH-1620", "displaySize_in": 15.6, "resolution": "3840x2160",  "year": "2016" },
+        { "name": "Wacom Cintiq Pro 24", "modelId": "DTK-2420", "displaySize_in": 23.6, "resolution": "3840x2160",  "year": "2018", "notes": "No touch" },
+        { "name": "Wacom Cintiq Pro 24 touch", "modelId": "DTH-2420", "displaySize_in": 23.6, "resolution": "3840x2160", "year": "2018" },
+        { "name": "Wacom Cintiq Pro 32 touch", "modelId": "DTH-3220", "displaySize_in": 31.5, "resolution": "3840x2160", "year": "2018" }
+      ]
+    },
+    {
+      "family": "Wacom Cintiq",
+      "years": "2019",
+      "type": "PENDISPLAY",
+      "specs": {
+        "pressureLevels": 8192,
+        "tilt": true,
+        "touch": false
+      },
+      "notes": "New lower-cost Cintiq range below Cintiq Pro. IPS Full HD screens. No multitouch. Pro Pen 2 included.",
+      "models": [
+        { "name": "Wacom Cintiq 16", "modelId": "DTK-1660", "displaySize_in": 15.6, "resolution": "1920x1080", "year": "2019", "connection": ["3-in-1 cable (HDMI+USB+AC)"] },
+        { "name": "Wacom Cintiq 22", "modelId": "DTK-2260", "displaySize_in": 21.5, "resolution": "1920x1080", "year": "2019", "connection": ["HDMI", "USB"] }
+      ]
+    },
+    {
+      "family": "Wacom Intuos Pro 2017",
+      "years": "2017",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 8192,
+        "resolution_lpp": 5080,
+        "connection": ["USB-C", "Bluetooth"],
+        "tilt": true,
+        "touch": true
+      },
+      "notes": "New Pro Pen 2 (8192 levels). Digital Ink Technology on Paper editions. Bluetooth (not Wacom wireless). Small model released 2019.",
+      "models": [
+        { "name": "Wacom Intuos Pro M",               "modelId": "PTH-660",  "size": "M", "year": "2017" },
+        { "name": "Wacom Intuos Pro M Paper Edition",  "modelId": "PTH-660P", "size": "M", "year": "2017", "notes": "Includes FineTip pen, paper clip, soft case" },
+        { "name": "Wacom Intuos Pro L",               "modelId": "PTH-860",  "size": "L", "year": "2017" },
+        { "name": "Wacom Intuos Pro L Paper Edition",  "modelId": "PTH-860P", "size": "L", "year": "2017" },
+        { "name": "Wacom Intuos Pro S",               "modelId": "PTH-460",  "size": "S", "year": "2019", "notes": "No Digital Ink Technology; 6 ExpressKeys" }
+      ]
+    },
+    {
+      "family": "Wacom Intuos",
+      "years": "2018",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 4096,
+        "resolution_lpp": 2540,
+        "connection": ["USB"],
+        "tilt": false,
+        "touch": false,
+        "eraser": false
+      },
+      "notes": "Wacom Pen 4K. No multitouch on any model. Bluetooth on WL models. Colors: black, pistachio (EU); pink available elsewhere. Bundled: Corel Painter Essentials 6, Corel AfterShot 3, Clip Studio Paint Pro.",
+      "models": [
+        { "name": "Wacom Intuos S",             "modelId": "CTL-4100K",  "size": "S", "year": "2018", "connection": ["USB"] },
+        { "name": "Wacom Intuos S Bluetooth",   "modelId": "CTL-4100WL", "size": "S", "year": "2018", "connection": ["USB", "Bluetooth"] },
+        { "name": "Wacom Intuos M Bluetooth",   "modelId": "CTL-6100WL", "size": "M", "year": "2018", "connection": ["USB", "Bluetooth"] }
+      ]
+    },
+    {
+      "family": "One by Wacom",
+      "years": "2015",
+      "type": "PENTABLET",
+      "specs": {
+        "pressureLevels": 1024,
+        "resolution_lpp": 2540,
+        "connection": ["USB"],
+        "tilt": false,
+        "eraser": false
+      },
+      "notes": "For emerging markets. Equivalent to Bamboo Pen 2011 without multitouch, ExpressKeys, or eraser. Two sizes. In Europe sold through online private sales only.",
+      "models": [
+        { "name": "One by Wacom S", "modelId": "CTL-471", "size": "S", "year": "2015" },
+        { "name": "One by Wacom M", "modelId": "CTL-671", "size": "M", "year": "2015" }
+      ]
+    }
+  ],
+  "limitedEditions": [
+    { "name": "PenPartner Plus",           "modelId": "CT-0405",   "baseFamily": "PenPartner",  "size": "A8" },
+    { "name": "Graphire 4 Hello Kitty",    "modelId": "CTE-440",   "baseFamily": "Graphire 4",  "year": "~2005" },
+    { "name": "Graphire 4 Favo Comic Pack","modelId": "CTE-440",   "baseFamily": "Graphire 4",  "year": "2006 (EU)", "notes": "Bundled with Manga Studio Debut 3.0 / Comic Studio Mini" },
+    { "name": "Bamboo Fun A5 Comic",       "modelId": "CTE-650W",  "baseFamily": "Bamboo Fun",  "year": "~2007" }
+  ],
+  "knownDiscrepancies": [
+    "Graphire 1 model number: product-code page says 'ET-0405'; detailed section shows 'KT-04055' (likely OCR error).",
+    "Graphire 2 model number: product-code page says 'ET-0405'; detailed section shows 'ET-040506' (likely variant/OCR error).",
+    "Cintiq 20WSX: product-code page says 'DTZ-2000W'; detailed page 29 says 'DTZ-2200W'. DTZ-2000W is believed correct.",
+    "Cintiq Companion 2: product-code page says 'DTH-W1310x'; detailed section says 'DTH-W1319x'. Needs cross-reference.",
+    "Pressure levels shown as 1028 in Intuos 2013 and Intuos 2015 sections — presumed typo for 1024.",
+    "Intuos 3D year: classified under 2016 in chapter header; detailed section header shows 2017."
+  ]
+}
