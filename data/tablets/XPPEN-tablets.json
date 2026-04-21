@@ -2,7 +2,7 @@
     "DrawingTablets":  [
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST12",
+                                            "EntityId":  "xppen.tablet.artist12",
                                             "_id":  "f1b5e880-3313-483c-892d-8ffc3ba0a3f1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -15,7 +15,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P06"
+                                                                 "xppen.pen.p06"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/64.html",
                                              "Status":  "DISCONTINUED"
@@ -55,7 +55,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST12PRO",
+                                            "EntityId":  "xppen.tablet.artist12pro",
                                             "_id":  "f19b0c47-2b3c-4130-8854-977149267fd4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -69,7 +69,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistPro1",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA2"
+                                                                 "xppen.pen.pa2"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/479.html"
                                          },
@@ -111,7 +111,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST133PRO",
+                                            "EntityId":  "xppen.tablet.artist133pro",
                                             "_id":  "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -125,7 +125,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistPro1",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA2"
+                                                                 "xppen.pen.pa2"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/464.html",
                                              "Status":  "DISCONTINUED"
@@ -170,7 +170,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST156",
+                                            "EntityId":  "xppen.tablet.artist156",
                                             "_id":  "90a67454-8ccd-4d62-a8d1-f849fce201bf",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -183,7 +183,7 @@
                                              "LaunchYear":  "2019",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05"
+                                                                 "xppen.pen.p05"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/60.html",
                                              "Status":  "DISCONTINUED"
@@ -221,7 +221,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST156PRO",
+                                            "EntityId":  "xppen.tablet.artist156pro",
                                             "_id":  "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -272,7 +272,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST16",
+                                            "EntityId":  "xppen.tablet.artist16",
                                             "_id":  "a94b8c39-fcaa-4a7b-8de4-1f91859fa292",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -285,7 +285,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P55C"
+                                                                 "xppen.pen.p55c"
                                                              ],
                                              "ProductLink":  "https://www.surfaceproartist.com/blog/2017/4/27/xp-pens-artist-16-is-a-price-performance-leader",
                                              "Status":  "DISCONTINUED"
@@ -314,7 +314,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST16PRO",
+                                            "EntityId":  "xppen.tablet.artist16pro",
                                             "_id":  "3678e50b-e349-43b5-a90b-72792614a1f2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -327,7 +327,7 @@
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P02S"
+                                                                 "xppen.pen.p02s"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/61.html"
                                          },
@@ -366,7 +366,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST22PRO",
+                                            "EntityId":  "xppen.tablet.artist22pro",
                                             "_id":  "3f6e570c-d6af-4b2f-80f8-1f0ee8b2ead6",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -379,7 +379,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P02S"
+                                                                 "xppen.pen.p02s"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/62.html",
                                              "Status":  "DISCONTINUED"
@@ -421,7 +421,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST22RPRO",
+                                            "EntityId":  "xppen.tablet.artist22rpro",
                                             "_id":  "e2d983ee-d901-4945-a1ea-3fd59a722e72",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -435,7 +435,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistPro1",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA2"
+                                                                 "xppen.pen.pa2"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/541.html"
                                          },
@@ -477,7 +477,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ARTIST24PRO",
+                                            "EntityId":  "xppen.tablet.artist24pro",
                                             "_id":  "3ba56e15-bbcc-4944-a784-0b4d9363945d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -491,7 +491,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistPro1",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA2"
+                                                                 "xppen.pen.pa2"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/602.html"
                                          },
@@ -533,7 +533,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD100FH",
+                                            "EntityId":  "xppen.tablet.cd100fh",
                                             "_id":  "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -547,7 +547,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-10-2nd-gen.html"
                                          },
@@ -592,7 +592,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD120FH",
+                                            "EntityId":  "xppen.tablet.cd120fh",
                                             "_id":  "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -606,7 +606,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/1069.html"
                                          },
@@ -651,7 +651,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD130FH",
+                                            "EntityId":  "xppen.tablet.cd130fh",
                                             "_id":  "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -665,7 +665,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/1263.html"
                                          },
@@ -710,7 +710,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD160FH",
+                                            "EntityId":  "xppen.tablet.cd160fh",
                                             "_id":  "780901b9-0e48-4697-bbdf-8f0767d91234",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -724,7 +724,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/1203.html"
                                          },
@@ -766,7 +766,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD220F",
+                                            "EntityId":  "xppen.tablet.cd220f",
                                             "_id":  "50732cec-fead-413c-ae21-0d72e061ee12",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -779,7 +779,7 @@
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA6"
+                                                                 "xppen.pen.pa6"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/855.html"
                                          },
@@ -822,7 +822,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD240F",
+                                            "EntityId":  "xppen.tablet.cd240f",
                                             "_id":  "0fb7b995-4aba-49ee-b6bf-cc75b9578a57",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -835,7 +835,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05R"
+                                                                 "xppen.pen.p05r"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/1356.html"
                                          },
@@ -877,7 +877,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD240Q",
+                                            "EntityId":  "xppen.tablet.cd240q",
                                             "_id":  "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -890,7 +890,7 @@
                                              "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA6"
+                                                                 "xppen.pen.pa6"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/932.html"
                                          },
@@ -935,7 +935,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CT1060",
+                                            "EntityId":  "xppen.tablet.ct1060",
                                             "_id":  "3ae93286-d961-4d2a-a3b7-f42d6cbd9c62",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -949,7 +949,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoFun",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P01"
+                                                                 "xppen.pen.p01"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/905.html"
                                          },
@@ -976,7 +976,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CT430",
+                                            "EntityId":  "xppen.tablet.ct430",
                                             "_id":  "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -990,7 +990,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoFun",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P01"
+                                                                 "xppen.pen.p01"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/905.html"
                                          },
@@ -1016,7 +1016,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CT640",
+                                            "EntityId":  "xppen.tablet.ct640",
                                             "_id":  "a2f70186-10e2-47a7-9dde-5b1d89103a71",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1030,7 +1030,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoFun",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P01"
+                                                                 "xppen.pen.p01"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/905.html"
                                          },
@@ -1057,7 +1057,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECO01",
+                                            "EntityId":  "xppen.tablet.deco01",
                                             "_id":  "611b4eed-7e42-4818-859e-a7f8ac5b9623",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1070,7 +1070,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P03"
+                                                                 "xppen.pen.p03"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/84.html"
                                          },
@@ -1097,7 +1097,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECO01V2",
+                                            "EntityId":  "xppen.tablet.deco01v2",
                                             "_id":  "adcb93c5-9ce2-46bc-93b2-a25df2769f6e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1110,7 +1110,7 @@
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05"
+                                                                 "xppen.pen.p05"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/461.html"
                                          },
@@ -1139,7 +1139,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECO01V3",
+                                            "EntityId":  "xppen.tablet.deco01v3",
                                             "_id":  "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1152,7 +1152,7 @@
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05"
+                                                                 "xppen.pen.p05"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/user-manual/deco-01-v3.html"
                                          },
@@ -1180,7 +1180,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECO02",
+                                            "EntityId":  "xppen.tablet.deco02",
                                             "_id":  "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1193,7 +1193,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P06"
+                                                                 "xppen.pen.p06"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/88.html"
                                          },
@@ -1219,7 +1219,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECO03",
+                                            "EntityId":  "xppen.tablet.deco03",
                                             "_id":  "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1232,7 +1232,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05"
+                                                                 "xppen.pen.p05"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/89.html"
                                          },
@@ -1259,7 +1259,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECOMINI4",
+                                            "EntityId":  "xppen.tablet.decomini4",
                                             "_id":  "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1272,7 +1272,7 @@
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05D"
+                                                                 "xppen.pen.p05d"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/613.html"
                                          },
@@ -1300,7 +1300,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECOMINI7",
+                                            "EntityId":  "xppen.tablet.decomini7",
                                             "_id":  "23d3caa6-4d93-46f0-9e60-871444fb265a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1313,7 +1313,7 @@
                                              "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P05D"
+                                                                 "xppen.pen.p05d"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/639.html"
                                          },
@@ -1340,7 +1340,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECOPROM",
+                                            "EntityId":  "xppen.tablet.decoprom",
                                             "_id":  "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1354,7 +1354,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoPro",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA1"
+                                                                 "xppen.pen.pa1"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/915.html"
                                          },
@@ -1381,7 +1381,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECOPROMW",
+                                            "EntityId":  "xppen.tablet.decopromw",
                                             "_id":  "fa271dfe-fd5d-44a0-b993-ebccc65ef632",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1395,7 +1395,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoPro",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA1"
+                                                                 "xppen.pen.pa1"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/915.html"
                                          },
@@ -1422,7 +1422,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECOPROS",
+                                            "EntityId":  "xppen.tablet.decopros",
                                             "_id":  "e38187ce-c3e9-40dd-b440-bf5fccead639",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1436,7 +1436,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoPro",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA1"
+                                                                 "xppen.pen.pa1"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/915.html"
                                          },
@@ -1463,7 +1463,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.DECOPROSW",
+                                            "EntityId":  "xppen.tablet.decoprosw",
                                             "_id":  "6ac45e5a-b656-4895-901b-82247f575392",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1477,7 +1477,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoPro",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA1"
+                                                                 "xppen.pen.pa1"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/915.html"
                                          },
@@ -1504,7 +1504,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ID160F",
+                                            "EntityId":  "xppen.tablet.id160f",
                                             "_id":  "35d6319b-0de4-444f-a978-eefd59a30f9c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1517,7 +1517,7 @@
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PA5"
+                                                                 "xppen.pen.pa5"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/638.html"
                                          },
@@ -1561,7 +1561,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.ID160FE",
+                                            "EntityId":  "xppen.tablet.id160fe",
                                             "_id":  "8da13172-0f45-487d-bb26-e0a53d40c25a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1574,7 +1574,7 @@
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITEPLUS"
+                                                                 "xppen.pen.x3eliteplus"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/977.html"
                                          },
@@ -1619,7 +1619,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.IT1060",
+                                            "EntityId":  "xppen.tablet.it1060",
                                             "_id":  "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1633,7 +1633,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoX3",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/1168.html"
                                          },
@@ -1651,7 +1651,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.IT1060B",
+                                            "EntityId":  "xppen.tablet.it1060b",
                                             "_id":  "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1665,7 +1665,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoX3",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/1168.html"
                                          },
@@ -1691,7 +1691,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.IT640",
+                                            "EntityId":  "xppen.tablet.it640",
                                             "_id":  "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1704,7 +1704,7 @@
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.P0116K"
+                                                                 "xppen.pen.p0116k"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/deco-640.html"
                                          },
@@ -1732,7 +1732,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.IT850",
+                                            "EntityId":  "xppen.tablet.it850",
                                             "_id":  "5eaceb43-bf80-4ca5-ba79-8041c1fd1ddd",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1746,7 +1746,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoX3",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/series/Deco-tablet.html"
                                          },
@@ -1773,7 +1773,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.IT850B",
+                                            "EntityId":  "xppen.tablet.it850b",
                                             "_id":  "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1787,7 +1787,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenDecoX3",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.X3ELITE"
+                                                                 "xppen.pen.x3elite"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/series/Deco-tablet.html"
                                          },
@@ -1814,7 +1814,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD140FH",
+                                            "EntityId":  "xppen.tablet.md140fh",
                                             "_id":  "98de78f7-80de-4d08-8a88-742f84f113d3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1828,7 +1828,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-pro-14-gen-2.html"
                                          },
@@ -1873,7 +1873,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD160QH",
+                                            "EntityId":  "xppen.tablet.md160qh",
                                             "_id":  "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1887,7 +1887,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-pro-16-gen-2.html"
                                          },
@@ -1929,7 +1929,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD160U",
+                                            "EntityId":  "xppen.tablet.md160u",
                                             "_id":  "6a36faea-988a-4411-8f0b-6cea204c1207",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1942,7 +1942,7 @@
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PH02"
+                                                                 "xppen.pen.ph02"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/927.html"
                                          },
@@ -1986,7 +1986,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD160UH",
+                                            "EntityId":  "xppen.tablet.md160uh",
                                             "_id":  "f8a037ae-45ef-4392-8b61-d3b09f33166b",
                                             "_CreateDate":  "2025-12-12T18:57:53.360Z",
                                             "_ModifiedDate":  "2025-12-12T18:57:53.360Z"
@@ -2000,8 +2000,8 @@
                                              "Audience":  "Professional",
                                              "Family":  "ARTISTULTRA",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21",
-                                                                 "XPPEN.PEN.PD51"
+                                                                 "xppen.pen.pd21",
+                                                                 "xppen.pen.pd51"
                                                              ],
                                              "Status":  "AVAILABLE"
                                          },
@@ -2048,7 +2048,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD160FH",
+                                            "EntityId":  "xppen.tablet.md160fh",
                                             "_id":  "42d6b96d-e543-4b1c-b720-2ec717fa1054",
                                             "_CreateDate":  "2026-04-06T23:03:25.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -2061,7 +2061,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-15-6-pro-v2.html"
                                          },
@@ -2110,7 +2110,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD180UH",
+                                            "EntityId":  "xppen.tablet.md180uh",
                                             "_id":  "29e11217-cdbb-4def-af59-bc470fd55223",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:53:32.025Z"
@@ -2124,7 +2124,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -2165,7 +2165,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD220FH",
+                                            "EntityId":  "xppen.tablet.md220fh",
                                             "_id":  "6ed132b8-b231-41e3-a188-5bc7aa23971a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2178,7 +2178,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-22-plus.html"
                                          },
@@ -2221,7 +2221,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD220QH",
+                                            "EntityId":  "xppen.tablet.md220qh",
                                             "_id":  "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2235,7 +2235,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -2284,7 +2284,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD240QH",
+                                            "EntityId":  "xppen.tablet.md240qh",
                                             "_id":  "c7d5b405-28c2-4256-ae0a-6b7cb2d5711d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2298,8 +2298,8 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21",
-                                                                 "XPPEN.PEN.PD51"
+                                                                 "xppen.pen.pd21",
+                                                                 "xppen.pen.pd51"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-pro-24-gen-2-165hz.html"
                                          },
@@ -2345,7 +2345,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MD240UH",
+                                            "EntityId":  "xppen.tablet.md240uh",
                                             "_id":  "c1b05341-5d43-4003-bb7e-f8b6a5ca0181",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2359,8 +2359,8 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenArtistProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21",
-                                                                 "XPPEN.PEN.PD51"
+                                                                 "xppen.pen.pd21",
+                                                                 "xppen.pen.pd51"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/artist-pro-24-gen-2-4k.html"
                                          },
@@ -2406,7 +2406,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MT0962B",
+                                            "EntityId":  "xppen.tablet.mt0962b",
                                             "_id":  "2209f868-50c5-4720-8428-6b9197dbef57",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2420,7 +2420,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/deco-pro-gen-2-series.html"
                                          },
@@ -2447,7 +2447,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MT1172B",
+                                            "EntityId":  "xppen.tablet.mt1172b",
                                             "_id":  "689b42c0-16a8-439e-8579-8a07b0c0f67f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2461,7 +2461,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/deco-pro-gen-2-series.html"
                                          },
@@ -2488,7 +2488,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MT1592B",
+                                            "EntityId":  "xppen.tablet.mt1592b",
                                             "_id":  "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2502,7 +2502,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "XPPenDecoProGen2",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD21"
+                                                                 "xppen.pen.pd21"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/deco-pro-gen-2-series.html"
                                          },
@@ -2529,7 +2529,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD121FH",
+                                            "EntityId":  "xppen.tablet.cd121fh",
                                             "_id":  "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
                                             "_CreateDate":  "2026-04-01T21:44:35.000Z",
                                             "_ModifiedDate":  "2026-04-01T21:44:35.000Z"
@@ -2541,7 +2541,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD52"
+                                                                 "xppen.pen.pd52"
                                                              ],
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen3",
@@ -2591,7 +2591,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.9494G",
+                                            "EntityId":  "xppen.tablet.9494g",
                                             "_id":  "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -2604,7 +2604,7 @@
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "PD04B"
+                                                                 "pd04b"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
                                              "Status":  "ACTIVE"
@@ -2669,7 +2669,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.MDP1221",
+                                            "EntityId":  "xppen.tablet.mdp1221",
                                             "_id":  "e4f7a8b2-c3d1-4e5f-9a0b-1c2d3e4f5a6b",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -2682,7 +2682,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD51"
+                                                                 "xppen.pen.pd51"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
                                              "Status":  "ACTIVE"
@@ -2743,7 +2743,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "XPPEN.TABLET.CD161FH",
+                                            "EntityId":  "xppen.tablet.cd161fh",
                                             "_id":  "e209ec6c-8389-4041-b77f-25bf578d358b",
                                             "_CreateDate":  "2026-04-16T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-16T00:00:00.000Z"
@@ -2757,7 +2757,7 @@
                                              "Audience":  "Consumer",
                                              "Family":  "XPPenArtistGen3",
                                              "IncludedPen":  [
-                                                                 "XPPEN.PEN.PD52"
+                                                                 "xppen.pen.pd52"
                                                              ],
                                              "ProductLink":  "https://www.xp-pen.com/store/buy/artist-16-3rd.html",
                                              "Status":  "ACTIVE"

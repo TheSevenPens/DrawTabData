@@ -1,7 +1,7 @@
 ﻿{
     "TabletFamilies":  [
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenArtistGen2",
+                               "EntityId":  "xppen.tabletfamily.xppenartistgen2",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenArtistGen2",
                                "FamilyName":  "XP-Pen Artist GEN2 series",
@@ -10,7 +10,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenArtistProGen2",
+                               "EntityId":  "xppen.tabletfamily.xppenartistprogen2",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenArtistProGen2",
                                "FamilyName":  "XP-Pen Artist Pro GEN2 series",
@@ -19,7 +19,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenDecoX3",
+                               "EntityId":  "xppen.tabletfamily.xppendecox3",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenDecoX3",
                                "FamilyName":  "XP-Pen Deco (X3 Elite) series",
@@ -28,7 +28,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenDecoProGen2",
+                               "EntityId":  "xppen.tabletfamily.xppendecoprogen2",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenDecoProGen2",
                                "FamilyName":  "XP-Pen Deco Pro GEN2 series",
@@ -37,7 +37,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenDecoFun",
+                               "EntityId":  "xppen.tabletfamily.xppendecofun",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenDecoFun",
                                "FamilyName":  "XP-Pen Deco Fun series",
@@ -46,7 +46,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenDecoPro",
+                               "EntityId":  "xppen.tabletfamily.xppendecopro",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenDecoPro",
                                "FamilyName":  "XP-Pen Deco Pro series",
@@ -55,7 +55,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenArtistPro1",
+                               "EntityId":  "xppen.tabletfamily.xppenartistpro1",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenArtistPro1",
                                "FamilyName":  "XP-Pen Artist Pro series",
@@ -64,7 +64,7 @@
                                "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
                            },
                            {
-                               "EntityId":  "XPPEN.TABLETFAMILY.XPPenArtistGen3",
+                               "EntityId":  "xppen.tabletfamily.xppenartistgen3",
                                "Brand":  "XPPEN",
                                "FamilyId":  "XPPenArtistGen3",
                                "FamilyName":  "XP-Pen Artist 3rd series",

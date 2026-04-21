@@ -1,15 +1,15 @@
-{
-  "Pens": [
-    {
-      "EntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenId": "ApplePencilGen2",
-      "PenName": "Apple Pencil (2nd Generation)",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "16d1e00b-e857-4970-ab60-fde3054555fa",
-      "_CreateDate": "2026-04-19T00:00:00.000Z",
-      "_ModifiedDate": "2026-04-19T00:00:00.000Z"
-    }
-  ]
+﻿{
+    "Pens":  [
+                 {
+                     "EntityId":  "apple.pen.applepencilgen2",
+                     "Brand":  "APPLE",
+                     "PenId":  "ApplePencilGen2",
+                     "PenName":  "Apple Pencil (2nd Generation)",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "16d1e00b-e857-4970-ab60-fde3054555fa",
+                     "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                     "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                 }
+             ]
 }

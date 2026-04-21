@@ -1,7 +1,7 @@
 ﻿{
     "Brands":  [
                    {
-                       "EntityId":  "APPLE",
+                       "EntityId":  "apple",
                        "BrandId":  "APPLE",
                        "BrandName":  "Apple",
                        "SiteURL":  "apple.com",
@@ -11,7 +11,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "ASUS",
+                       "EntityId":  "asus",
                        "BrandId":  "ASUS",
                        "BrandName":  "Asus",
                        "SiteURL":  "asus.com",
@@ -21,7 +21,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "GAOMON",
+                       "EntityId":  "gaomon",
                        "BrandId":  "GAOMON",
                        "BrandName":  "Gaomon",
                        "SiteURL":  "gaomon.com",
@@ -31,7 +31,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "HUION",
+                       "EntityId":  "huion",
                        "BrandId":  "HUION",
                        "BrandName":  "Huion",
                        "SiteURL":  "huion.com",
@@ -41,7 +41,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "SAMSUNG",
+                       "EntityId":  "samsung",
                        "BrandId":  "SAMSUNG",
                        "BrandName":  "Samsung",
                        "SiteURL":  "samsung.com",
@@ -51,7 +51,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "STAEDTLER",
+                       "EntityId":  "staedtler",
                        "BrandId":  "STAEDTLER",
                        "BrandName":  "Staedtler",
                        "SiteURL":  "staedtler.com",
@@ -61,7 +61,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "UGEE",
+                       "EntityId":  "ugee",
                        "BrandId":  "UGEE",
                        "BrandName":  "Ugee",
                        "SiteURL":  "ugee.com",
@@ -71,7 +71,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "VEIKK",
+                       "EntityId":  "veikk",
                        "BrandId":  "VEIKK",
                        "BrandName":  "Veikk",
                        "SiteURL":  "veikk.com",
@@ -81,7 +81,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "WACOM",
+                       "EntityId":  "wacom",
                        "BrandId":  "WACOM",
                        "BrandName":  "Wacom",
                        "SiteURL":  "wacom.com",
@@ -91,7 +91,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "XENCELABS",
+                       "EntityId":  "xencelabs",
                        "BrandId":  "XENCELABS",
                        "BrandName":  "Xencelabs",
                        "SiteURL":  "xencelabs.com",
@@ -101,7 +101,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "XPPEN",
+                       "EntityId":  "xppen",
                        "BrandId":  "XPPEN",
                        "BrandName":  "XP-Pen",
                        "SiteURL":  "xppen.com",
@@ -111,7 +111,7 @@
                        "_ModifiedDate":  "2026-04-02T16:01:32.000Z"
                    },
                    {
-                       "EntityId":  "DIGIDRAW",
+                       "EntityId":  "digidraw",
                        "BrandId":  "DIGIDRAW",
                        "BrandName":  "DIGIDRAW",
                        "SiteURL":  "turingdraw.com",

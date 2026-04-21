@@ -1,1882 +1,2176 @@
-{
-  "InventoryPens": [
-    {
-      "PenEntityId": "ASUS.PEN.ASUSFROMPROARTPENDISPLAY",
-      "Brand": "ASUS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "ASP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1996410a-5d87-41ed-9b94-d9dde4df9f09",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "58428f73-ee38-4149-bbf5-9728dd6f6af4",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0002",
-      "Notes": "",
-      "Tags": [],
-      "_id": "510e15f1-13b0-4ab9-978e-3364349460fc",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0003",
-      "Notes": "",
-      "Tags": [],
-      "_id": "c02a9227-206d-4a56-bafc-e26d5c113eba",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0004",
-      "Notes": "",
-      "Tags": [],
-      "_id": "985dfdbc-e7e9-4bbe-97e8-890ecab004be",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0005",
-      "Notes": "",
-      "Tags": [],
-      "_id": "22ed42d2-818c-4071-8057-2c140cffefca",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW550",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0006",
-      "Notes": "",
-      "Tags": [],
-      "_id": "6be51854-ca3b-4bf3-93c3-51640f951731",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW550S",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0007",
-      "Notes": "",
-      "Tags": [],
-      "_id": "82ecf22b-4132-456b-8f65-eab16a68e6c3",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW550",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0008",
-      "Notes": "",
-      "Tags": [],
-      "_id": "2ffca4f1-2fb3-4030-8b7f-b5ffb61fada9",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW550",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0009",
-      "Notes": "",
-      "Tags": [],
-      "_id": "91d91684-008e-46c9-b850-7e2d33be24b2",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600S",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0010",
-      "Notes": "",
-      "Tags": [],
-      "_id": "88e5def3-e436-4094-8a89-b47c44fe5461",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW110",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0011",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1b46b2be-963a-40fe-b970-fb00d092a92c",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW400",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0012",
-      "Notes": "",
-      "Tags": [],
-      "_id": "22eb0386-2306-4042-9bc5-b204f779c8eb",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW500",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0013",
-      "Notes": "",
-      "Tags": [],
-      "_id": "b330e2bc-5f25-49b3-9c9a-4d40921b8461",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0014",
-      "Notes": "",
-      "Tags": [],
-      "_id": "72ba3ea5-86cc-40f3-8973-9f4e7d098f5a",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW110",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0015",
-      "Notes": "",
-      "Tags": [],
-      "_id": "68330f2a-5a63-4408-b86b-64bd3212c845",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0016",
-      "Notes": "",
-      "Tags": [],
-      "_id": "2ef9660c-d681-4267-a04f-4652422eee3b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0017",
-      "Notes": "",
-      "Tags": [],
-      "_id": "685c83be-3115-415d-8c94-9e9ce4a2c104",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600L",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0018",
-      "Notes": "",
-      "Tags": [],
-      "_id": "dc8545a4-7ad8-400e-b3d6-a0d13fc01624",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "HUT.0005"
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0019",
-      "Notes": "",
-      "Tags": [],
-      "_id": "179901f4-21f4-4b55-9ddf-a3f86ba86bfa",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "HUT.0004"
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600L",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0020",
-      "Notes": "",
-      "Tags": [],
-      "_id": "71e8e4ab-c6cd-46d8-b8f9-7b0266aca314",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "HUT.0007"
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW507",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0021",
-      "Notes": "",
-      "Tags": [],
-      "_id": "278aedbf-02e9-4408-8b93-b9062e77f655",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW500",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0022",
-      "Notes": "",
-      "Tags": [],
-      "_id": "47fb56e5-e2b4-4b33-9feb-b908e21dacd9",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW507",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0023",
-      "Notes": "",
-      "Tags": [],
-      "_id": "78e3eef1-5cce-4921-bbf6-65ebbfaa9140",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW100",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0024",
-      "Notes": "HUT.0018",
-      "Tags": [],
-      "_id": "2f47829a-2464-4407-b82b-7b2b04d9f8c4",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW517",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0025",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1b58f7d5-39c3-4670-ac89-f8e34504802e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW100",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0026",
-      "Notes": "",
-      "Tags": [],
-      "_id": "75204c94-5f87-4d0a-aad4-3642fe502be4",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW100",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0027",
-      "Notes": "",
-      "Tags": [],
-      "_id": "866b43b7-1682-4e48-b32a-fc3218684c82",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0028",
-      "Notes": "",
-      "Tags": [],
-      "_id": "2ab4d904-8225-4280-b756-407bd03599e5",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "HUT.0019"
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600L",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0030",
-      "Notes": "",
-      "Tags": [],
-      "_id": "32473b67-f495-41b4-9ac6-460e657cefe3",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "HUT.0020"
-    },
-    {
-      "PenEntityId": "HUION.PEN.PW600S",
-      "Brand": "HUION",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "HUP.0029",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f8b9f934-5a94-4486-8dda-44979b10b617",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "HUT.0019"
-    },
-    {
-      "PenEntityId": "SAMSUNG.PEN.SPEN",
-      "Brand": "SAMSUNG",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "SAP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "89ea713f-e699-402c-b70f-7f704895a4b9",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "SAMSUNG.PEN.SPEN",
-      "Brand": "SAMSUNG",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "SAP.0002",
-      "Notes": "",
-      "Tags": [],
-      "_id": "cedb63d9-d159-4c10-a1e9-9fe0a3796176",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "SAMSUNG.PEN.SPEN",
-      "Brand": "SAMSUNG",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "SAP.0003",
-      "Notes": "",
-      "Tags": [],
-      "_id": "fb31b60b-6770-4390-95a5-5809dd0bdc02",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "SAMSUNG.PEN.SPENCREATOR",
-      "Brand": "SAMSUNG",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "SAP.0004",
-      "Notes": "",
-      "Tags": [],
-      "_id": "00fc2f60-0338-47a5-8d09-6a52ad5e0b47",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "SAMSUNG.PEN.SPEN",
-      "Brand": "SAMSUNG",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "SAP.0005",
-      "Notes": "",
-      "Tags": [],
-      "_id": "38858bed-e789-4e86-abe5-545d6553230f",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "SAMSUNG.PEN.SPEN",
-      "Brand": "SAMSUNG",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "SAP.0006",
-      "Notes": "",
-      "Tags": [],
-      "_id": "485ac12a-8051-4d5c-8c34-2b640f898380",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "STAEDTLER.PEN.MARSLUMOGRAPHDIGITAL",
-      "Brand": "STAEDTLER",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "STP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "3af5d7d8-7168-44d2-a1ee-1162126edd2b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "STAEDTLER.PEN.NORISDIGITALJUMBO",
-      "Brand": "STAEDTLER",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "STP.0002",
-      "Notes": "",
-      "Tags": [],
-      "_id": "38812a3e-77de-4781-a270-351431c9eb98",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "STAEDTLER.PEN.NORISDIGITAL",
-      "Brand": "STAEDTLER",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "STP.0003",
-      "Notes": "",
-      "Tags": [],
-      "_id": "562734ff-5e18-44e9-b1ac-df50d09a4c5d",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "UGEE.PEN.U1200U1600UE16STYLUS",
-      "Brand": "UGEE",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "UGP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "d65fda1d-680a-4fcc-ace6-078ddb38a094",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "UGEE.PEN.M908STYLUS",
-      "Brand": "UGEE",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "UGP.0002",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f32fbf1d-4565-444d-839e-17de5518f2e0",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "07f4acd3-46d4-4389-952f-187bf773fb49",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "56b27c6c-40c0-413a-9eb8-701fe641ad43",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "59afdd1b-e2d9-4ce7-8b05-2e6473d66184",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "9d49dff0-d0aa-4c19-be72-aa38fa5e3481",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "c168146e-9221-4068-8185-32cc26722c5f",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "caeee9f2-1faa-49c8-8832-b81bae2b9c67",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "APPLE.PEN.APPLEPENCILGEN2",
-      "Brand": "APPLE",
-      "PenTech": "APPLE",
-      "PenTechSubtype": "APPLEPENCIL",
-      "InventoryId": "UNASSIGNED",
-      "Notes": "",
-      "Tags": [],
-      "_id": "e0be643b-46d8-4718-a4f1-b748cfe6e0ac",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "d9dc0e19-76f5-490d-ba64-0bb4f9c038f1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0002",
-      "Notes": "missing",
-      "Tags": [],
-      "_id": "d0f129e5-c7e2-4a3e-89cf-8bd845b606b7",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0003",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a3f2d6bb-277b-494b-a6e3-1d9f703b4a10",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0004",
-      "Notes": "",
-      "Tags": [],
-      "Defects": [
-        { "Kind": "pressure-outlier-max", "Notes": "Reports only ~25% of nominal max pressure." }
-      ],
-      "_id": "d157f647-e79e-4fdc-8d9b-95b13730f3a3",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0005",
-      "Notes": "",
-      "Tags": [],
-      "_id": "7c95ace9-23db-4f41-8ab2-15a4bd3d4627",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP1100K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0006",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1f9eb2fd-639c-4ab3-acb9-6132a6ebf5d8",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP1100K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0007",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a40f4116-33dd-4c1f-a480-b0906877284c",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP1100K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0008",
-      "Notes": "",
-      "Tags": [],
-      "_id": "0d82afd7-6328-469e-b6bf-479b34e5d832",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP923",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0009",
-      "Notes": "",
-      "Tags": [],
-      "_id": "be38ae2a-3b16-499e-bbb4-b452bafb47b1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP923",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0010",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1d4c3a2e-abd8-4499-a584-629e60ee9f33",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP923",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0011",
-      "Notes": "",
-      "Tags": [],
-      "_id": "80c9321b-c837-4419-9e49-7db296b2c421",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0021",
-      "Notes": "",
-      "Tags": [],
-      "_id": "0a61f0cf-99f1-4ff0-b66b-4f00af347379",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0022",
-      "Notes": "",
-      "Tags": [],
-      "_id": "41e75933-df6c-4c57-aaed-5187959319d5",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0023",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a9b638f1-3e7d-4e57-807b-e973e33ebf03",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0024",
-      "Notes": "metalnibexperiment1",
-      "Tags": [],
-      "Defects": [
-        { "Kind": "pressure-outlier-iaf", "Notes": "Used for metal nib testing." }
-      ],
-      "_id": "bc284a7f-c577-4615-93d3-31422f000da8",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP701E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0025",
-      "Notes": "",
-      "Tags": [],
-      "_id": "4865a57e-7246-4460-9b2b-a7bc4ac30ef4",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP701E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0026",
-      "Notes": "",
-      "Tags": [],
-      "_id": "b65c2a7d-465c-492b-b0cb-779489a31a21",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP190K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0027",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1164d809-8f08-4939-9ac5-a602bdaee15c",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP190K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0028",
-      "Notes": "",
-      "Tags": [],
-      "_id": "8df52692-e053-498b-bb60-7b5c09b873b5",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP190K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0029",
-      "Notes": "",
-      "Tags": [],
-      "_id": "60f6a076-0306-4670-bdf5-2ebdc090845e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0030",
-      "Notes": "",
-      "Tags": [],
-      "_id": "d4d55ce9-7f53-4f05-99a8-2a828d66be6a",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0031",
-      "Notes": "",
-      "Tags": [],
-      "_id": "53d9c048-a46e-4118-8708-f20a35616c5d",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0032",
-      "Notes": "",
-      "Tags": [],
-      "_id": "28f73566-f203-42d2-8491-a4eec5bc4b1a",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0033",
-      "Notes": "",
-      "Tags": [],
-      "_id": "2e27eebe-8b64-40ee-9e7d-3befb23fcf80",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP913",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0034",
-      "Notes": "",
-      "Tags": [],
-      "_id": "9a4e07c9-d2e4-43ce-8bf9-89df64c8abb8",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP913",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0035",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f084c213-2451-45aa-9a53-ec89eddaef3e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP913",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0036",
-      "Notes": "",
-      "Tags": [],
-      "_id": "1aa417bb-fd1f-4039-8e35-6ca680658a75",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP913",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0037",
-      "Notes": "",
-      "Tags": [],
-      "_id": "2101a612-bdca-4b4b-ac38-3c417666a7de",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP301E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0038",
-      "Notes": "",
-      "Tags": [],
-      "_id": "9d92cc8f-f54a-4ce5-82fe-fb15914cf801",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0038",
-      "Notes": "",
-      "Tags": [],
-      "_id": "c666f25a-2a52-4b8c-9169-2c4b4ab68232",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0039",
-      "Notes": "",
-      "Tags": [],
-      "_id": "d941c6a5-1c7c-41e9-b4d2-0e176e6a320b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "WAT.0001"
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0040",
-      "Notes": "",
-      "Tags": [],
-      "_id": "b82d8df4-8aeb-4418-8ee6-1e3527b1e937",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "WAT.0005"
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP403E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0041",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a00a2921-5bb8-4c84-8ff1-e14f7d0dd089",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP403E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0042",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f206411d-df6f-4d36-ba2d-548eb2f6688d",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ZP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0043",
-      "Notes": "",
-      "Tags": [],
-      "_id": "42c236e9-dd29-4f43-9f4a-82c5adaffe6c",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ZP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0075",
-      "Notes": "",
-      "Tags": [],
-      "_id": "36e8ae2c-72d1-49a7-85c8-bb0b978eee27",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "WAT.0080"
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ZP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0044",
-      "Notes": "",
-      "Tags": [],
-      "_id": "58d3b73b-f7a9-408b-9241-0bb4703867d2",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ZP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0045",
-      "Notes": "",
-      "Tags": [],
-      "_id": "436e8425-77fc-4425-9b5a-2a2ab0e9f5b0",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.XP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0046",
-      "Notes": "",
-      "Tags": [],
-      "_id": "5ac71dc4-6537-43fd-84b3-89bc4fd09b4e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0047",
-      "Notes": "",
-      "Tags": [],
-      "_id": "b7c08889-c4f4-4582-9d57-3100634a4afc",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ZP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0048",
-      "Notes": "",
-      "Tags": [],
-      "_id": "14e0b905-10de-4bf7-b99d-7b4b7a9a4ef1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0049",
-      "Notes": "",
-      "Tags": [],
-      "_id": "107b4e5d-3ddf-4f34-b9e5-7a1a56d89a5b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.KP504E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0050",
-      "Notes": "",
-      "Tags": [],
-      "_id": "0becca47-0875-436b-aad7-f4851d868db6",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ZP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0051",
-      "Notes": "",
-      "Tags": [],
-      "_id": "d2dfdabb-27a1-406a-8f28-09e760e25838",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.XP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0052",
-      "Notes": "",
-      "Tags": [],
-      "_id": "914cf12c-5622-442b-bcef-1eefbf89b40e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0053",
-      "Notes": "",
-      "Tags": [],
-      "_id": "913f3aaa-7cc4-409c-b30d-764e5c4f080b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.GP300E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0054",
-      "Notes": "",
-      "Tags": [],
-      "_id": "7134ccb9-ad29-4c67-8329-f4a81219a08b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.XP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0055",
-      "Notes": "",
-      "Tags": [],
-      "_id": "85eaf977-746d-4ec9-800d-048095eb2686",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.XP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0056",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a5c57ca1-8c63-417e-9d24-865ec0b5222c",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.GP300E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0057",
-      "Notes": "",
-      "Tags": [],
-      "_id": "48d9ece0-60cb-4a70-b967-ac3db68680a1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.GP300E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0058",
-      "Notes": "",
-      "Tags": [],
-      "_id": "c5c2e878-ab1b-499b-bf0a-b27a724aa7d1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.GP300E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0059",
-      "Notes": "",
-      "Tags": [],
-      "_id": "185dab4f-23a2-42f9-8f7a-a5daf34d49f6",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP180",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0060",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a7e2a92a-8ed8-4dbd-bbb5-466f03d85f09",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.GP300E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0062",
-      "Notes": "",
-      "Tags": [],
-      "_id": "fd7b9b2f-af0d-463c-8f64-0a8b76511bd1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.XP501E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0063",
-      "Notes": "",
-      "Tags": [],
-      "_id": "8b9ce2ae-e8ea-4bb7-a3f0-bf38337b7b4d",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP180",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0064",
-      "Notes": "Originally LP-180-0K (K variant).",
-      "Tags": [],
-      "_id": "e4c8d18c-8b57-47dd-a142-4d7154aed236",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP170",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0065",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f7d8bef7-f5dd-4c45-bcfd-9d168b887ade",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP170",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0066",
-      "Notes": "",
-      "Tags": [],
-      "_id": "31bd9f90-cca6-4689-a897-2f0be1d97bb1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.GP300E",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0067",
-      "Notes": "",
-      "Tags": [],
-      "_id": "a1839055-fd08-4ccb-8310-864851c2930a",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0069",
-      "Notes": "",
-      "Tags": [],
-      "_id": "15851a2e-de19-4379-84c9-ebfb18da123f",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0070",
-      "Notes": "",
-      "Tags": [],
-      "_id": "cb759753-7a4b-455c-876f-29f2f49b92f8",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0071",
-      "Notes": "",
-      "Tags": [],
-      "_id": "22601dba-e5b6-4528-a233-dbb5c505fd65",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "WACOM.PEN.ACP500",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0072",
-      "Notes": "",
-      "Tags": [],
-      "_id": "e93544e2-79ad-4d78-927b-69a9508e5496",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "WAT.0075"
-    },
-    {
-      "PenEntityId": "WACOM.PEN.CP923",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "UD-EMR",
-      "InventoryId": "WAP.0073",
-      "Notes": "",
-      "Tags": [],
-      "_id": "e8e8d48e-9413-4e5e-a512-99608dac38ca",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "WAT.0076"
-    },
-    {
-      "PenEntityId": "WACOM.PEN.LP1100K",
-      "Brand": "WACOM",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "WAP.0074",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f237a27f-8664-4e5e-833f-f839407e40e8",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV1",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "4f81c2f9-f1e4-4594-9f0d-fe51197a95f0",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV2",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0002",
-      "Notes": "",
-      "Tags": [],
-      "_id": "5efac45a-f938-49ee-9de7-cf1d24f5a3fa",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.THINV1",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0003",
-      "Notes": "",
-      "Tags": [],
-      "_id": "98c45ab0-c5b4-4b4f-b7c8-196ba212e5ce",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.THINV2",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0004",
-      "Notes": "",
-      "Tags": [],
-      "_id": "8c95d07c-3bf7-4072-a7f3-a97967864dc1",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV2",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0005",
-      "Notes": " (white)",
-      "Tags": [],
-      "_id": "2db157f2-be68-4f1e-87ae-516da169a0a2",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.THINV2",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0006",
-      "Notes": "Special edition white.",
-      "Tags": [],
-      "_id": "dcb10b7a-6836-403b-8c5b-8284633b2278",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.3BUTTONV2",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0007",
-      "Notes": "",
-      "Tags": [],
-      "_id": "be06f6bd-7e7c-4aa2-8bc7-f42dc9a05fbc",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XENCELABS.PEN.THINV2",
-      "Brand": "XENCELABS",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XEP.0008",
-      "Notes": "",
-      "Tags": [],
-      "_id": "22c0db40-52a9-4395-90dd-3a47fe5483a7",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD21",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "709add91-41a1-4331-ab74-ed650e5f87f8",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD21",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0002",
-      "Notes": "",
-      "Tags": [],
-      "_id": "f2e6d5af-81a2-4093-8618-bef3a286fb6b",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD21",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0003",
-      "Notes": "",
-      "Tags": [],
-      "_id": "99eae97b-e938-4080-97b5-89f8d56d07eb",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.P05",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0004",
-      "Notes": "",
-      "Tags": [],
-      "_id": "6070b000-b498-4b84-88a3-dc62565aff00",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.P05",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0005",
-      "Notes": "",
-      "Tags": [],
-      "_id": "7558c1ea-a609-425c-bf90-5a77c0d57075",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.P05",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0006",
-      "Notes": "",
-      "Tags": [],
-      "_id": "63e2c5b6-3d7d-4258-90f9-ad15d90a57af",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD22",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0007",
-      "Notes": "",
-      "Tags": [],
-      "_id": "632b41bc-67df-4b80-beb5-e82f2197c2af",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0011"
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD51",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0008",
-      "Notes": "",
-      "Tags": [],
-      "_id": "acedf46f-c404-4d37-b0d9-b5e4b04ac972",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0011"
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.X3ELITE",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0009",
-      "Notes": "",
-      "Tags": [],
-      "_id": "0013f86e-d848-40e1-b37e-1e1fc385b818",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.X3ELITE",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0010",
-      "Notes": "",
-      "Tags": [],
-      "_id": "e329e4ec-c17b-4534-a887-5c4a86242940",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.X3ELITE",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0011",
-      "Notes": "",
-      "Tags": [],
-      "_id": "e87b37ec-df1c-496d-ba8b-955a6f8cb986",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD51",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0012",
-      "Notes": "",
-      "Tags": [],
-      "_id": "dbeddb54-0335-4343-bc5c-7141249720e2",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD21",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0013",
-      "Notes": "",
-      "Tags": [],
-      "_id": "b2b927a0-6a73-400d-aa83-5178ceb98658",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0007"
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD51",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0014",
-      "Notes": "",
-      "Tags": [],
-      "_id": "ec4ce397-ab98-4ddc-b5ee-ad28de86168e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0007"
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD21",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0015",
-      "Notes": "",
-      "Tags": [],
-      "_id": "782d8ede-0678-499f-8f81-18104068333e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.X3NOTEPADPEN",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0016",
-      "Notes": "",
-      "Tags": [],
-      "_id": "ee67d10d-0286-4dbf-8fef-05c61942364e",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD52",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0017",
-      "Notes": "",
-      "Tags": [],
-      "_id": "3d93951e-2b65-48a8-95cf-9e30c6a67122",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0006"
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD21",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0017",
-      "Notes": "",
-      "Tags": [],
-      "_id": "5553fd73-8daf-4ed7-b934-51460da96afe",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0006"
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.X3ELITE",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0018",
-      "Notes": "",
-      "Tags": [],
-      "_id": "b7df79d5-c80c-47f3-b834-c9d0d74ea5a4",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.PD51",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0019",
-      "Notes": "",
-      "Tags": [],
-      "_id": "6808d692-4462-4704-a8a9-6eec9c31e0f5",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": ""
-    },
-    {
-      "PenEntityId": "XPPEN.PEN.P05",
-      "Brand": "XPPEN",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "XPP.0020",
-      "Notes": "",
-      "Tags": [],
-      "_id": "62e63b49-89af-48f3-bd67-8e7eaf9a6314",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "XPT.0014"
-    },
-    {
-      "PenEntityId": "GAOMON.PEN.AP31",
-      "Brand": "GAOMON",
-      "PenTech": "EMR",
-      "PenTechSubtype": "",
-      "InventoryId": "GAP.001",
-      "Notes": "",
-      "Tags": [],
-      "_id": "58b74b34-ef3e-4353-bcd3-61533ff04345",
-      "_CreateDate": "2026-04-01T21:33:59.000Z",
-      "_ModifiedDate": "2026-04-01T21:33:59.000Z",
-      "WithTabletInventoryId": "GAT.0001"
-    }
-  ]
+﻿{
+    "InventoryPens":  [
+                          {
+                              "PenEntityId":  "asus.pen.asusfromproartpendisplay",
+                              "Brand":  "ASUS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "ASP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1996410a-5d87-41ed-9b94-d9dde4df9f09",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "58428f73-ee38-4149-bbf5-9728dd6f6af4",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0002",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "510e15f1-13b0-4ab9-978e-3364349460fc",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0003",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "c02a9227-206d-4a56-bafc-e26d5c113eba",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0004",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "985dfdbc-e7e9-4bbe-97e8-890ecab004be",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0005",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "22ed42d2-818c-4071-8057-2c140cffefca",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw550",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0006",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "6be51854-ca3b-4bf3-93c3-51640f951731",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw550s",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0007",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "82ecf22b-4132-456b-8f65-eab16a68e6c3",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw550",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0008",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2ffca4f1-2fb3-4030-8b7f-b5ffb61fada9",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw550",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0009",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "91d91684-008e-46c9-b850-7e2d33be24b2",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600s",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0010",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "88e5def3-e436-4094-8a89-b47c44fe5461",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw110",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0011",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1b46b2be-963a-40fe-b970-fb00d092a92c",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw400",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0012",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "22eb0386-2306-4042-9bc5-b204f779c8eb",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw500",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0013",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "b330e2bc-5f25-49b3-9c9a-4d40921b8461",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0014",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "72ba3ea5-86cc-40f3-8973-9f4e7d098f5a",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw110",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0015",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "68330f2a-5a63-4408-b86b-64bd3212c845",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0016",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2ef9660c-d681-4267-a04f-4652422eee3b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0017",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "685c83be-3115-415d-8c94-9e9ce4a2c104",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600l",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0018",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "dc8545a4-7ad8-400e-b3d6-a0d13fc01624",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "HUT.0005"
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0019",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "179901f4-21f4-4b55-9ddf-a3f86ba86bfa",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "HUT.0004"
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600l",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0020",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "71e8e4ab-c6cd-46d8-b8f9-7b0266aca314",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "HUT.0007"
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw507",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0021",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "278aedbf-02e9-4408-8b93-b9062e77f655",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw500",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0022",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "47fb56e5-e2b4-4b33-9feb-b908e21dacd9",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw507",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0023",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "78e3eef1-5cce-4921-bbf6-65ebbfaa9140",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw100",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0024",
+                              "Notes":  "HUT.0018",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2f47829a-2464-4407-b82b-7b2b04d9f8c4",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw517",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0025",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1b58f7d5-39c3-4670-ac89-f8e34504802e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw100",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0026",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "75204c94-5f87-4d0a-aad4-3642fe502be4",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw100",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0027",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "866b43b7-1682-4e48-b32a-fc3218684c82",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0028",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2ab4d904-8225-4280-b756-407bd03599e5",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "HUT.0019"
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600l",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0030",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "32473b67-f495-41b4-9ac6-460e657cefe3",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "HUT.0020"
+                          },
+                          {
+                              "PenEntityId":  "huion.pen.pw600s",
+                              "Brand":  "HUION",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "HUP.0029",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f8b9f934-5a94-4486-8dda-44979b10b617",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "HUT.0019"
+                          },
+                          {
+                              "PenEntityId":  "samsung.pen.spen",
+                              "Brand":  "SAMSUNG",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "SAP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "89ea713f-e699-402c-b70f-7f704895a4b9",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "samsung.pen.spen",
+                              "Brand":  "SAMSUNG",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "SAP.0002",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "cedb63d9-d159-4c10-a1e9-9fe0a3796176",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "samsung.pen.spen",
+                              "Brand":  "SAMSUNG",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "SAP.0003",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "fb31b60b-6770-4390-95a5-5809dd0bdc02",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "samsung.pen.spencreator",
+                              "Brand":  "SAMSUNG",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "SAP.0004",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "00fc2f60-0338-47a5-8d09-6a52ad5e0b47",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "samsung.pen.spen",
+                              "Brand":  "SAMSUNG",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "SAP.0005",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "38858bed-e789-4e86-abe5-545d6553230f",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "samsung.pen.spen",
+                              "Brand":  "SAMSUNG",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "SAP.0006",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "485ac12a-8051-4d5c-8c34-2b640f898380",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "staedtler.pen.marslumographdigital",
+                              "Brand":  "STAEDTLER",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "STP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "3af5d7d8-7168-44d2-a1ee-1162126edd2b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "staedtler.pen.norisdigitaljumbo",
+                              "Brand":  "STAEDTLER",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "STP.0002",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "38812a3e-77de-4781-a270-351431c9eb98",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "staedtler.pen.norisdigital",
+                              "Brand":  "STAEDTLER",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "STP.0003",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "562734ff-5e18-44e9-b1ac-df50d09a4c5d",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "ugee.pen.u1200u1600ue16stylus",
+                              "Brand":  "UGEE",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "UGP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "d65fda1d-680a-4fcc-ace6-078ddb38a094",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "ugee.pen.m908stylus",
+                              "Brand":  "UGEE",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "UGP.0002",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f32fbf1d-4565-444d-839e-17de5518f2e0",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "07f4acd3-46d4-4389-952f-187bf773fb49",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "56b27c6c-40c0-413a-9eb8-701fe641ad43",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "59afdd1b-e2d9-4ce7-8b05-2e6473d66184",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "9d49dff0-d0aa-4c19-be72-aa38fa5e3481",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "c168146e-9221-4068-8185-32cc26722c5f",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "caeee9f2-1faa-49c8-8832-b81bae2b9c67",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "apple.pen.applepencilgen2",
+                              "Brand":  "APPLE",
+                              "PenTech":  "APPLE",
+                              "PenTechSubtype":  "APPLEPENCIL",
+                              "InventoryId":  "UNASSIGNED",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "e0be643b-46d8-4718-a4f1-b748cfe6e0ac",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "d9dc0e19-76f5-490d-ba64-0bb4f9c038f1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0002",
+                              "Notes":  "missing",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "d0f129e5-c7e2-4a3e-89cf-8bd845b606b7",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0003",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a3f2d6bb-277b-494b-a6e3-1d9f703b4a10",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0004",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "Defects":  [
+                                              {
+                                                  "Kind":  "pressure-outlier-max",
+                                                  "Notes":  "Reports only ~25% of nominal max pressure."
+                                              }
+                                          ],
+                              "_id":  "d157f647-e79e-4fdc-8d9b-95b13730f3a3",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0005",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "7c95ace9-23db-4f41-8ab2-15a4bd3d4627",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp1100k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0006",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1f9eb2fd-639c-4ab3-acb9-6132a6ebf5d8",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp1100k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0007",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a40f4116-33dd-4c1f-a480-b0906877284c",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp1100k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0008",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "0d82afd7-6328-469e-b6bf-479b34e5d832",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp923",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0009",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "be38ae2a-3b16-499e-bbb4-b452bafb47b1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp923",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0010",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1d4c3a2e-abd8-4499-a584-629e60ee9f33",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp923",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0011",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "80c9321b-c837-4419-9e49-7db296b2c421",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0021",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "0a61f0cf-99f1-4ff0-b66b-4f00af347379",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0022",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "41e75933-df6c-4c57-aaed-5187959319d5",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0023",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a9b638f1-3e7d-4e57-807b-e973e33ebf03",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0024",
+                              "Notes":  "metalnibexperiment1",
+                              "Tags":  [
+
+                                       ],
+                              "Defects":  [
+                                              {
+                                                  "Kind":  "pressure-outlier-iaf",
+                                                  "Notes":  "Used for metal nib testing."
+                                              }
+                                          ],
+                              "_id":  "bc284a7f-c577-4615-93d3-31422f000da8",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp701e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0025",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "4865a57e-7246-4460-9b2b-a7bc4ac30ef4",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp701e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0026",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "b65c2a7d-465c-492b-b0cb-779489a31a21",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp190k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0027",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1164d809-8f08-4939-9ac5-a602bdaee15c",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp190k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0028",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "8df52692-e053-498b-bb60-7b5c09b873b5",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp190k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0029",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "60f6a076-0306-4670-bdf5-2ebdc090845e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0030",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "d4d55ce9-7f53-4f05-99a8-2a828d66be6a",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0031",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "53d9c048-a46e-4118-8708-f20a35616c5d",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0032",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "28f73566-f203-42d2-8491-a4eec5bc4b1a",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0033",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2e27eebe-8b64-40ee-9e7d-3befb23fcf80",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp913",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0034",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "9a4e07c9-d2e4-43ce-8bf9-89df64c8abb8",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp913",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0035",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f084c213-2451-45aa-9a53-ec89eddaef3e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp913",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0036",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "1aa417bb-fd1f-4039-8e35-6ca680658a75",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp913",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0037",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2101a612-bdca-4b4b-ac38-3c417666a7de",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp301e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0038",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "9d92cc8f-f54a-4ce5-82fe-fb15914cf801",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0038",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "c666f25a-2a52-4b8c-9169-2c4b4ab68232",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0039",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "d941c6a5-1c7c-41e9-b4d2-0e176e6a320b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "WAT.0001"
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0040",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "b82d8df4-8aeb-4418-8ee6-1e3527b1e937",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "WAT.0005"
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp403e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0041",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a00a2921-5bb8-4c84-8ff1-e14f7d0dd089",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp403e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0042",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f206411d-df6f-4d36-ba2d-548eb2f6688d",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.zp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0043",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "42c236e9-dd29-4f43-9f4a-82c5adaffe6c",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.zp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0075",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "36e8ae2c-72d1-49a7-85c8-bb0b978eee27",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "WAT.0080"
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.zp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0044",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "58d3b73b-f7a9-408b-9241-0bb4703867d2",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.zp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0045",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "436e8425-77fc-4425-9b5a-2a2ab0e9f5b0",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.xp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0046",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "5ac71dc4-6537-43fd-84b3-89bc4fd09b4e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0047",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "b7c08889-c4f4-4582-9d57-3100634a4afc",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.zp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0048",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "14e0b905-10de-4bf7-b99d-7b4b7a9a4ef1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0049",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "107b4e5d-3ddf-4f34-b9e5-7a1a56d89a5b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.kp504e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0050",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "0becca47-0875-436b-aad7-f4851d868db6",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.zp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0051",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "d2dfdabb-27a1-406a-8f28-09e760e25838",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.xp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0052",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "914cf12c-5622-442b-bcef-1eefbf89b40e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0053",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "913f3aaa-7cc4-409c-b30d-764e5c4f080b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.gp300e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0054",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "7134ccb9-ad29-4c67-8329-f4a81219a08b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.xp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0055",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "85eaf977-746d-4ec9-800d-048095eb2686",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.xp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0056",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a5c57ca1-8c63-417e-9d24-865ec0b5222c",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.gp300e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0057",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "48d9ece0-60cb-4a70-b967-ac3db68680a1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.gp300e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0058",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "c5c2e878-ab1b-499b-bf0a-b27a724aa7d1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.gp300e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0059",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "185dab4f-23a2-42f9-8f7a-a5daf34d49f6",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp180",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0060",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a7e2a92a-8ed8-4dbd-bbb5-466f03d85f09",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.gp300e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0062",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "fd7b9b2f-af0d-463c-8f64-0a8b76511bd1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.xp501e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0063",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "8b9ce2ae-e8ea-4bb7-a3f0-bf38337b7b4d",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp180",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0064",
+                              "Notes":  "Originally LP-180-0K (K variant).",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "e4c8d18c-8b57-47dd-a142-4d7154aed236",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp170",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0065",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f7d8bef7-f5dd-4c45-bcfd-9d168b887ade",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp170",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0066",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "31bd9f90-cca6-4689-a897-2f0be1d97bb1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.gp300e",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0067",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "a1839055-fd08-4ccb-8310-864851c2930a",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0069",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "15851a2e-de19-4379-84c9-ebfb18da123f",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0070",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "cb759753-7a4b-455c-876f-29f2f49b92f8",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0071",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "22601dba-e5b6-4528-a233-dbb5c505fd65",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.acp500",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0072",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "e93544e2-79ad-4d78-927b-69a9508e5496",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "WAT.0075"
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.cp923",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "UD-EMR",
+                              "InventoryId":  "WAP.0073",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "e8e8d48e-9413-4e5e-a512-99608dac38ca",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "WAT.0076"
+                          },
+                          {
+                              "PenEntityId":  "wacom.pen.lp1100k",
+                              "Brand":  "WACOM",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "WAP.0074",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f237a27f-8664-4e5e-833f-f839407e40e8",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.3buttonv1",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "4f81c2f9-f1e4-4594-9f0d-fe51197a95f0",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.3buttonv2",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0002",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "5efac45a-f938-49ee-9de7-cf1d24f5a3fa",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.thinv1",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0003",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "98c45ab0-c5b4-4b4f-b7c8-196ba212e5ce",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.thinv2",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0004",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "8c95d07c-3bf7-4072-a7f3-a97967864dc1",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.3buttonv2",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0005",
+                              "Notes":  " (white)",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "2db157f2-be68-4f1e-87ae-516da169a0a2",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.thinv2",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0006",
+                              "Notes":  "Special edition white.",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "dcb10b7a-6836-403b-8c5b-8284633b2278",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.3buttonv2",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0007",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "be06f6bd-7e7c-4aa2-8bc7-f42dc9a05fbc",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xencelabs.pen.thinv2",
+                              "Brand":  "XENCELABS",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XEP.0008",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "22c0db40-52a9-4395-90dd-3a47fe5483a7",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "709add91-41a1-4331-ab74-ed650e5f87f8",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0002",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "f2e6d5af-81a2-4093-8618-bef3a286fb6b",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0003",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "99eae97b-e938-4080-97b5-89f8d56d07eb",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.p05",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0004",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "6070b000-b498-4b84-88a3-dc62565aff00",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.p05",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0005",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "7558c1ea-a609-425c-bf90-5a77c0d57075",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.p05",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0006",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "63e2c5b6-3d7d-4258-90f9-ad15d90a57af",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd22",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0007",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "632b41bc-67df-4b80-beb5-e82f2197c2af",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0011"
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd51",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0008",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "acedf46f-c404-4d37-b0d9-b5e4b04ac972",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0011"
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.x3elite",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0009",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "0013f86e-d848-40e1-b37e-1e1fc385b818",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.x3elite",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0010",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "e329e4ec-c17b-4534-a887-5c4a86242940",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.x3elite",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0011",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "e87b37ec-df1c-496d-ba8b-955a6f8cb986",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd51",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0012",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "dbeddb54-0335-4343-bc5c-7141249720e2",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0013",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "b2b927a0-6a73-400d-aa83-5178ceb98658",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0007"
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd51",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0014",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "ec4ce397-ab98-4ddc-b5ee-ad28de86168e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0007"
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0015",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "782d8ede-0678-499f-8f81-18104068333e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.x3notepadpen",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0016",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "ee67d10d-0286-4dbf-8fef-05c61942364e",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd52",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0017",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "3d93951e-2b65-48a8-95cf-9e30c6a67122",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0006"
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0017",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "5553fd73-8daf-4ed7-b934-51460da96afe",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0006"
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.x3elite",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0018",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "b7df79d5-c80c-47f3-b834-c9d0d74ea5a4",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.pd51",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0019",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "6808d692-4462-4704-a8a9-6eec9c31e0f5",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  ""
+                          },
+                          {
+                              "PenEntityId":  "xppen.pen.p05",
+                              "Brand":  "XPPEN",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "XPP.0020",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "62e63b49-89af-48f3-bd67-8e7eaf9a6314",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "XPT.0014"
+                          },
+                          {
+                              "PenEntityId":  "gaomon.pen.ap31",
+                              "Brand":  "GAOMON",
+                              "PenTech":  "EMR",
+                              "PenTechSubtype":  "",
+                              "InventoryId":  "GAP.001",
+                              "Notes":  "",
+                              "Tags":  [
+
+                                       ],
+                              "_id":  "58b74b34-ef3e-4353-bcd3-61533ff04345",
+                              "_CreateDate":  "2026-04-01T21:33:59.000Z",
+                              "_ModifiedDate":  "2026-04-01T21:33:59.000Z",
+                              "WithTabletInventoryId":  "GAT.0001"
+                          }
+                      ]
 }

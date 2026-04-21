@@ -2,7 +2,7 @@
     "DrawingTablets":  [
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTC4110WL",
+                                            "EntityId":  "wacom.tablet.ctc4110wl",
                                             "_id":  "25487c6c-8759-473d-b92a-68be45189112",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -15,7 +15,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.CP923"
+                                                                 "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/ctc4110wl.html"
@@ -42,7 +42,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTC6110WL",
+                                            "EntityId":  "wacom.tablet.ctc6110wl",
                                             "_id":  "0f06387e-bc05-4ebf-804f-48baaa5ec759",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -55,7 +55,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.CP923"
+                                                                 "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/ctc6110wl.html"
@@ -82,7 +82,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE450",
+                                            "EntityId":  "wacom.tablet.cte450",
                                             "_id":  "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -95,7 +95,7 @@
                                              "LaunchYear":  "2007",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP155E"
+                                                                 "wacom.pen.ep155e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -122,7 +122,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE650",
+                                            "EntityId":  "wacom.tablet.cte650",
                                             "_id":  "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -135,7 +135,7 @@
                                              "LaunchYear":  "2007",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP155E"
+                                                                 "wacom.pen.ep155e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -162,7 +162,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH470",
+                                            "EntityId":  "wacom.tablet.cth470",
                                             "_id":  "e1a691a6-d73e-4f48-9d92-9185ed816be3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -175,8 +175,8 @@
                                              "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP170E",
-                                                                 "WACOM.PEN.LP170"
+                                                                 "wacom.pen.lp170e",
+                                                                 "wacom.pen.lp170"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "Family":  "CTx-x70",
@@ -206,7 +206,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH490",
+                                            "EntityId":  "wacom.tablet.cth490",
                                             "_id":  "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:49:59.358Z"
@@ -219,7 +219,7 @@
                                              "LaunchYear":  "2015",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP190"
+                                                                 "wacom.pen.lp190"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
@@ -248,7 +248,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH670",
+                                            "EntityId":  "wacom.tablet.cth670",
                                             "_id":  "34947067-79d5-415a-b81a-e65e75d842be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -261,7 +261,7 @@
                                              "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP170E"
+                                                                 "wacom.pen.lp170e"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "Family":  "CTx-x70",
@@ -291,7 +291,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH690",
+                                            "EntityId":  "wacom.tablet.cth690",
                                             "_id":  "21687a90-eddd-4727-81cc-bc30b4f04a21",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:49:51.061Z"
@@ -304,7 +304,7 @@
                                              "LaunchYear":  "2015",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP190"
+                                                                 "wacom.pen.lp190"
                                                              ],
                                              "ProductLink":  "https://www.parkablogs.com/node/12104",
                                              "Status":  "DISCONTINUED",
@@ -332,7 +332,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL4100",
+                                            "EntityId":  "wacom.tablet.ctl4100",
                                             "_id":  "c0b798db-e061-45fe-8ba5-b82bc6497936",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -345,7 +345,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP1100K"
+                                                                 "wacom.pen.lp1100k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -374,7 +374,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL4100WL",
+                                            "EntityId":  "wacom.tablet.ctl4100wl",
                                             "_id":  "8e17d9b8-7a38-4c37-9add-6bdc82091525",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -387,7 +387,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP1100K"
+                                                                 "wacom.pen.lp1100k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -415,7 +415,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL470",
+                                            "EntityId":  "wacom.tablet.ctl470",
                                             "_id":  "487092fc-f2ff-4438-9926-32df9efc80be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -428,7 +428,7 @@
                                              "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP170"
+                                                                 "wacom.pen.lp170"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "Family":  "CTx-x70",
@@ -458,7 +458,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL472",
+                                            "EntityId":  "wacom.tablet.ctl472",
                                             "_id":  "3d706816-ba5d-4787-a333-bea467bed0b3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -471,7 +471,7 @@
                                              "LaunchYear":  "2019",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP190K"
+                                                                 "wacom.pen.lp190k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
                                              "Family":  "CTL-x72"
@@ -499,7 +499,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL490",
+                                            "EntityId":  "wacom.tablet.ctl490",
                                             "_id":  "fe35e68e-3e14-4769-9387-014cd5a2f258",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -512,7 +512,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP190"
+                                                                 "wacom.pen.lp190"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
@@ -541,7 +541,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL6100",
+                                            "EntityId":  "wacom.tablet.ctl6100",
                                             "_id":  "592ea84b-72ab-4a58-8085-bbb92bd848e3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -554,7 +554,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP1100K"
+                                                                 "wacom.pen.lp1100k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -583,7 +583,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL6100WL",
+                                            "EntityId":  "wacom.tablet.ctl6100wl",
                                             "_id":  "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -596,7 +596,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP1100K"
+                                                                 "wacom.pen.lp1100k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -625,7 +625,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL672",
+                                            "EntityId":  "wacom.tablet.ctl672",
                                             "_id":  "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -638,7 +638,7 @@
                                              "LaunchYear":  "2019",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP190K"
+                                                                 "wacom.pen.lp190k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-672.html",
@@ -667,7 +667,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL690",
+                                            "EntityId":  "wacom.tablet.ctl690",
                                             "_id":  "6cae6cd5-eaa2-43b1-ac8c-26379890532b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -680,7 +680,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP190"
+                                                                 "wacom.pen.lp190"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
@@ -709,7 +709,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTC121",
+                                            "EntityId":  "wacom.tablet.dtc121",
                                             "_id":  "488f6512-a695-49d9-83fe-92d90b70a5d3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
@@ -722,7 +722,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.CP923"
+                                                                 "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/dtc121.html",
@@ -765,7 +765,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTC133",
+                                            "EntityId":  "wacom.tablet.dtc133",
                                             "_id":  "24a318ae-8530-4678-ad33-ff117efe7b57",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -778,7 +778,7 @@
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.CP913"
+                                                                 "wacom.pen.cp913"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -824,7 +824,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTC141",
+                                            "EntityId":  "wacom.tablet.dtc141",
                                             "_id":  "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -837,7 +837,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.CP923"
+                                                                 "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTC141.html",
@@ -881,7 +881,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH1320",
+                                            "EntityId":  "wacom.tablet.dth1320",
                                             "_id":  "3b565a01-0544-4dee-bbd2-aeba06af96b4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:28.697Z"
@@ -894,7 +894,7 @@
                                              "LaunchYear":  "2016",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-1320.html"
@@ -935,7 +935,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH134",
+                                            "EntityId":  "wacom.tablet.dth134",
                                             "_id":  "d7c42106-22bf-4ce6-94a6-69780728df21",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
@@ -948,7 +948,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.CP923"
+                                                                 "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth134.html",
@@ -990,7 +990,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH135",
+                                            "EntityId":  "wacom.tablet.dth135",
                                             "_id":  "8d4308af-a529-453e-a394-1a739a337785",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1003,7 +1003,7 @@
                                              "LaunchYear":  "2024",
                                              "Audience":  "Enthusiast",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth135.html"
@@ -1049,7 +1049,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH1620",
+                                            "EntityId":  "wacom.tablet.dth1620",
                                             "_id":  "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:32.957Z"
@@ -1062,7 +1062,7 @@
                                              "LaunchYear":  "2016",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
                                              "Status":  "DISCONTINUED",
@@ -1104,7 +1104,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH167",
+                                            "EntityId":  "wacom.tablet.dth167",
                                             "_id":  "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:38.035Z"
@@ -1117,7 +1117,7 @@
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-16#Specifications",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH167.html"
@@ -1162,7 +1162,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH172",
+                                            "EntityId":  "wacom.tablet.dth172",
                                             "_id":  "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:43.683Z"
@@ -1175,7 +1175,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
                                              "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTH172.html"
@@ -1223,7 +1223,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH227",
+                                            "EntityId":  "wacom.tablet.dth227",
                                             "_id":  "f74b002f-cac5-4490-9ace-943893d53427",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:48.521Z"
@@ -1236,7 +1236,7 @@
                                              "LaunchYear":  "2023",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
                                              "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTH227.html"
@@ -1284,7 +1284,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH2420",
+                                            "EntityId":  "wacom.tablet.dth2420",
                                             "_id":  "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:53.636Z"
@@ -1297,7 +1297,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -1343,7 +1343,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH246",
+                                            "EntityId":  "wacom.tablet.dth246",
                                             "_id":  "62cd9b73-c996-422b-93c4-4c128acdaf6e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:50:24.354Z"
@@ -1356,7 +1356,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH246.html"
@@ -1402,7 +1402,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH271",
+                                            "EntityId":  "wacom.tablet.dth271",
                                             "_id":  "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:51:00.154Z"
@@ -1415,7 +1415,7 @@
                                              "LaunchYear":  "2022",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH271.html"
@@ -1463,7 +1463,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH3220",
+                                            "EntityId":  "wacom.tablet.dth3220",
                                             "_id":  "98f3cf20-2478-4184-a94d-bafcf512f740",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1476,7 +1476,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -1523,7 +1523,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK1300",
+                                            "EntityId":  "wacom.tablet.dtk1300",
                                             "_id":  "be7822d8-d208-4ff2-9bcd-fedef488048d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1535,7 +1535,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2013",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP503E"
+                                                                 "wacom.pen.kp503e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-br/products/cintiq-13-hd",
                                              "Status":  "DISCONTINUED",
@@ -1577,7 +1577,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK1660",
+                                            "EntityId":  "wacom.tablet.dtk1660",
                                             "_id":  "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1590,7 +1590,7 @@
                                              "LaunchYear":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -1635,7 +1635,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK168",
+                                            "EntityId":  "wacom.tablet.dtk168",
                                             "_id":  "fae638fa-e305-434a-a2a6-f6852ec8c02e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1648,7 +1648,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK168.html"
@@ -1695,7 +1695,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK2100",
+                                            "EntityId":  "wacom.tablet.dtk2100",
                                             "_id":  "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
@@ -1708,7 +1708,7 @@
                                              "LaunchYear":  "2010",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -1745,7 +1745,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK2200",
+                                            "EntityId":  "wacom.tablet.dtk2200",
                                             "_id":  "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1757,7 +1757,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -1800,7 +1800,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK2260",
+                                            "EntityId":  "wacom.tablet.dtk2260",
                                             "_id":  "105e4152-9817-43dc-9a12-33a64bb9d820",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1813,7 +1813,7 @@
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html"
@@ -1858,7 +1858,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK2400",
+                                            "EntityId":  "wacom.tablet.dtk2400",
                                             "_id":  "0c884705-370d-47f8-ad60-ae939de51c2d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
@@ -1871,7 +1871,7 @@
                                              "LaunchYear":  "2012",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2400.html"
@@ -1908,7 +1908,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK2420",
+                                            "EntityId":  "wacom.tablet.dtk2420",
                                             "_id":  "c7993e5b-4283-4365-8a0d-97fece793f37",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1921,7 +1921,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -1967,7 +1967,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK246",
+                                            "EntityId":  "wacom.tablet.dtk246",
                                             "_id":  "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -1980,7 +1980,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK246.html"
@@ -2026,7 +2026,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTK2700",
+                                            "EntityId":  "wacom.tablet.dtk2700",
                                             "_id":  "d8b80e4e-6210-418c-a611-cfc63cfc5635",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2038,7 +2038,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP503E"
+                                                                 "wacom.pen.kp503e"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html"
@@ -2081,7 +2081,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTZ1200W",
+                                            "EntityId":  "wacom.tablet.dtz1200w",
                                             "_id":  "74531bc3-5b9e-4154-8293-3f4055de69d4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
@@ -2094,7 +2094,7 @@
                                              "LaunchYear":  "2007",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2122,7 +2122,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTZ2100",
+                                            "EntityId":  "wacom.tablet.dtz2100",
                                             "_id":  "59d61fb8-2078-434a-809b-4c05f3537e1c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-03-31T00:00:00.000Z"
@@ -2135,7 +2135,7 @@
                                              "LaunchYear":  "2005",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2176,7 +2176,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTZ2100D",
+                                            "EntityId":  "wacom.tablet.dtz2100d",
                                             "_id":  "5067122f-01f1-4721-aa24-022acaa68d4c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2207,7 +2207,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTZ2000W",
+                                            "EntityId":  "wacom.tablet.dtz2000w",
                                             "_id":  "e22d56b9-f16e-4877-a1f3-434a62b465d0",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
@@ -2220,7 +2220,7 @@
                                              "LaunchYear":  "2007",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2256,7 +2256,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0405",
+                                            "EntityId":  "wacom.tablet.gd0405",
                                             "_id":  "57fa2cf1-7cff-4886-b896-4a7f9259eb51",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2269,7 +2269,7 @@
                                              "LaunchYear":  "1998",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED"
@@ -2297,7 +2297,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0608",
+                                            "EntityId":  "wacom.tablet.gd0608",
                                             "_id":  "f9aeceff-330b-4ae9-a3b8-e167cf9a119c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2310,7 +2310,7 @@
                                              "LaunchYear":  "1998",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED"
@@ -2338,7 +2338,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0912",
+                                            "EntityId":  "wacom.tablet.gd0912",
                                             "_id":  "67a86ac1-c4ec-4567-9fea-ee9bb1763859",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2351,7 +2351,7 @@
                                              "LaunchYear":  "1998",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED"
@@ -2379,7 +2379,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD1212",
+                                            "EntityId":  "wacom.tablet.gd1212",
                                             "_id":  "2a475ff2-e7b3-4e1c-bc2d-6106ad0bd9e5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2392,7 +2392,7 @@
                                              "LaunchYear":  "1998",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED"
@@ -2420,7 +2420,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD1218",
+                                            "EntityId":  "wacom.tablet.gd1218",
                                             "_id":  "a926c906-58c5-4c0c-947e-5d114cd88e18",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2433,7 +2433,7 @@
                                              "LaunchYear":  "1998",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED"
@@ -2461,7 +2461,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL521",
+                                            "EntityId":  "wacom.tablet.pl521",
                                             "_id":  "5b6e3f51-abfc-44fb-9048-fcd40eef90b1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2481,7 +2481,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTF521",
+                                            "EntityId":  "wacom.tablet.dtf521",
                                             "_id":  "a7c3e1d2-5f84-4b9a-8e12-6d3a2c7f9b01",
                                             "_CreateDate":  "2026-04-03T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
@@ -2511,7 +2511,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTU710",
+                                            "EntityId":  "wacom.tablet.dtu710",
                                             "_id":  "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
                                             "_CreateDate":  "2026-04-03T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
@@ -2549,7 +2549,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL550",
+                                            "EntityId":  "wacom.tablet.pl550",
                                             "_id":  "7ad4460a-8600-4c14-9916-69d0a7bab344",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
@@ -2562,7 +2562,7 @@
                                              "LaunchYear":  "2001",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP911E"
+                                                                 "wacom.pen.up911e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2600,7 +2600,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL700",
+                                            "EntityId":  "wacom.tablet.pl700",
                                             "_id":  "38eb1274-8e96-4961-8130-37ff54b1e21d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -2644,7 +2644,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL710",
+                                            "EntityId":  "wacom.tablet.pl710",
                                             "_id":  "407a05eb-e2f8-43bd-b069-9d6932684264",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2656,7 +2656,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2004",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP911E"
+                                                                 "wacom.pen.up911e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2667,7 +2667,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL720",
+                                            "EntityId":  "wacom.tablet.pl720",
                                             "_id":  "45abe4ca-a680-4fcf-802e-07ca8a362d95",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -2679,7 +2679,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2009",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP911E"
+                                                                 "wacom.pen.up911e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2690,7 +2690,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL800",
+                                            "EntityId":  "wacom.tablet.pl800",
                                             "_id":  "26177b6b-1a01-4059-a67e-323e78fd650f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
@@ -2703,7 +2703,7 @@
                                              "LaunchYear":  "2002",
                                              "Family":  "Cintiq",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP911E"
+                                                                 "wacom.pen.up911e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -2741,7 +2741,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH450",
+                                            "EntityId":  "wacom.tablet.pth450",
                                             "_id":  "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:49:21.389Z"
@@ -2754,7 +2754,7 @@
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -2783,7 +2783,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH451",
+                                            "EntityId":  "wacom.tablet.pth451",
                                             "_id":  "7c4062a5-217d-4127-af11-868c63c736a8",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:48:35.885Z"
@@ -2796,7 +2796,7 @@
                                              "LaunchYear":  "2013",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
@@ -2826,7 +2826,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH460",
+                                            "EntityId":  "wacom.tablet.pth460",
                                             "_id":  "8ab0e087-96ce-41cd-aaae-95e09aec20be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:51:47.636Z"
@@ -2839,7 +2839,7 @@
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html",
@@ -2868,7 +2868,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH650",
+                                            "EntityId":  "wacom.tablet.pth650",
                                             "_id":  "743c5ec8-3a09-42aa-9a0d-1863a1094440",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:49:15.187Z"
@@ -2881,7 +2881,7 @@
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED"
@@ -2909,7 +2909,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH651",
+                                            "EntityId":  "wacom.tablet.pth651",
                                             "_id":  "5d496d0e-128b-4d06-93cb-6d59e3674bc4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:48:30.784Z"
@@ -2922,7 +2922,7 @@
                                              "LaunchYear":  "2013",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
@@ -2952,7 +2952,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH660",
+                                            "EntityId":  "wacom.tablet.pth660",
                                             "_id":  "01d122e2-5c75-47df-bc91-171476994174",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:51:41.306Z"
@@ -2965,7 +2965,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -2995,7 +2995,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH850",
+                                            "EntityId":  "wacom.tablet.pth850",
                                             "_id":  "954412d1-5297-4801-b185-745d4f55e1f1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:49:10.131Z"
@@ -3008,7 +3008,7 @@
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3037,7 +3037,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH851",
+                                            "EntityId":  "wacom.tablet.pth851",
                                             "_id":  "f56f9476-b272-42b7-99cd-53d198a5fe53",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T18:48:25.789Z"
@@ -3050,7 +3050,7 @@
                                              "LaunchYear":  "2013",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3080,7 +3080,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTH860",
+                                            "EntityId":  "wacom.tablet.pth860",
                                             "_id":  "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:51:27.408Z"
@@ -3093,7 +3093,7 @@
                                              "LaunchYear":  "2017",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "Status":  "DISCONTINUED",
@@ -3123,7 +3123,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK1240",
+                                            "EntityId":  "wacom.tablet.ptk1240",
                                             "_id":  "91008a79-9e7a-47b3-9394-9b127ce13af5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3136,7 +3136,7 @@
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3166,7 +3166,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK440",
+                                            "EntityId":  "wacom.tablet.ptk440",
                                             "_id":  "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3179,7 +3179,7 @@
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3209,7 +3209,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK450",
+                                            "EntityId":  "wacom.tablet.ptk450",
                                             "_id":  "7b7e2368-695a-417a-b6c9-50e79092911b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3222,7 +3222,7 @@
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3251,7 +3251,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK470",
+                                            "EntityId":  "wacom.tablet.ptk470",
                                             "_id":  "f710bda9-5117-4828-bf93-c6303182a107",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:52:59.165Z"
@@ -3264,7 +3264,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
                                              "Family":  "WacomIntuosProGen8"
@@ -3291,7 +3291,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK540WL",
+                                            "EntityId":  "wacom.tablet.ptk540wl",
                                             "_id":  "04ea669b-224c-4bb7-989d-8f80f7deb273",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3304,7 +3304,7 @@
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://www.picmod.com/goods.php?id=143",
                                              "Status":  "DISCONTINUED",
@@ -3333,7 +3333,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK640",
+                                            "EntityId":  "wacom.tablet.ptk640",
                                             "_id":  "d146cdd3-05c0-466a-beba-32167f5c8c29",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3346,7 +3346,7 @@
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3376,7 +3376,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK650",
+                                            "EntityId":  "wacom.tablet.ptk650",
                                             "_id":  "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3389,7 +3389,7 @@
                                              "LaunchYear":  "2012",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3418,7 +3418,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK670",
+                                            "EntityId":  "wacom.tablet.ptk670",
                                             "_id":  "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:52:52.941Z"
@@ -3431,7 +3431,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTK670.html",
@@ -3459,7 +3459,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK840",
+                                            "EntityId":  "wacom.tablet.ptk840",
                                             "_id":  "8ebf5be9-77ea-44c6-b0ec-278a2942ab1b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3472,7 +3472,7 @@
                                              "LaunchYear":  "2009",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP501E"
+                                                                 "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3502,7 +3502,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTK870",
+                                            "EntityId":  "wacom.tablet.ptk870",
                                             "_id":  "14541a09-3326-4ab0-90e7-92ffa5f49d95",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T17:52:45.868Z"
@@ -3515,7 +3515,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
                                              "Family":  "WacomIntuosProGen8"
@@ -3542,7 +3542,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ1230",
+                                            "EntityId":  "wacom.tablet.ptz1230",
                                             "_id":  "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3555,7 +3555,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3584,7 +3584,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ1231W",
+                                            "EntityId":  "wacom.tablet.ptz1231w",
                                             "_id":  "ce2beb7a-b86b-4bd3-84b1-da25d29694bf",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3597,7 +3597,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3626,7 +3626,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ430",
+                                            "EntityId":  "wacom.tablet.ptz430",
                                             "_id":  "7ef15517-5e1c-4520-82a3-f9f37a98d86f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3639,7 +3639,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3668,7 +3668,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ431W",
+                                            "EntityId":  "wacom.tablet.ptz431w",
                                             "_id":  "b87675fc-0b37-46aa-9db8-f12376de3980",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3681,7 +3681,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3710,7 +3710,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ630",
+                                            "EntityId":  "wacom.tablet.ptz630",
                                             "_id":  "598a1555-68f2-4bc7-8565-03fec2d12c96",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3723,7 +3723,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3752,7 +3752,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ631W",
+                                            "EntityId":  "wacom.tablet.ptz631w",
                                             "_id":  "1564fe9c-9490-4bfe-9338-7345a15a01e1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3765,7 +3765,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3794,7 +3794,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTZ930",
+                                            "EntityId":  "wacom.tablet.ptz930",
                                             "_id":  "21159fc7-7147-4115-beb0-cb0371ddc8a5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3807,7 +3807,7 @@
                                              "LaunchYear":  "2004",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ZP501E"
+                                                                 "wacom.pen.zp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3836,7 +3836,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD0405U",
+                                            "EntityId":  "wacom.tablet.xd0405u",
                                             "_id":  "9a768e16-a33f-4b88-8b62-2608306de16b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3849,7 +3849,7 @@
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3878,7 +3878,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD0608U",
+                                            "EntityId":  "wacom.tablet.xd0608u",
                                             "_id":  "ed841f4a-77da-44b0-862e-11bf9923b095",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3891,7 +3891,7 @@
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3920,7 +3920,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD0912U",
+                                            "EntityId":  "wacom.tablet.xd0912u",
                                             "_id":  "06163869-1f1b-49c3-8797-8a6b29c0411f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3933,7 +3933,7 @@
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -3962,7 +3962,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD1212U",
+                                            "EntityId":  "wacom.tablet.xd1212u",
                                             "_id":  "422f0225-5495-47d8-9e14-2625502092de",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -3975,7 +3975,7 @@
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -4004,7 +4004,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD1218U",
+                                            "EntityId":  "wacom.tablet.xd1218u",
                                             "_id":  "473c0407-8a41-465d-bc6c-17451bd66676",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
                                             "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
@@ -4017,7 +4017,7 @@
                                              "LaunchYear":  "2001",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
@@ -4046,7 +4046,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTHA116",
+                                            "EntityId":  "wacom.tablet.dtha116",
                                             "_id":  "32f29f75-b050-4e0c-bc11-8cb519fae278",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -4059,7 +4059,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-movinkpad-11"
                                          },
@@ -4116,7 +4116,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTHA140",
+                                            "EntityId":  "wacom.tablet.dtha140",
                                             "_id":  "26effca9-b80a-4a60-acba-73e88d635bf0",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -4129,7 +4129,7 @@
                                              "LaunchYear":  "2025",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.ACP500"
+                                                                 "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14"
                                          },
@@ -4189,7 +4189,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD510C",
+                                            "EntityId":  "wacom.tablet.sd510c",
                                             "_id":  "fdf42d74-d311-420e-830e-a098a2972799",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4225,7 +4225,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD420E",
+                                            "EntityId":  "wacom.tablet.sd420e",
                                             "_id":  "cf1894fe-84c4-4b20-a35a-f5d038fc00cf",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4261,7 +4261,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD421E",
+                                            "EntityId":  "wacom.tablet.sd421e",
                                             "_id":  "152561c4-2c4c-482d-9784-7b6598866055",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4297,7 +4297,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD422E",
+                                            "EntityId":  "wacom.tablet.sd422e",
                                             "_id":  "ad69bef9-8f76-4806-ab12-64d002cab6d8",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4333,7 +4333,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD320E",
+                                            "EntityId":  "wacom.tablet.sd320e",
                                             "_id":  "ca0ba8da-97f0-407f-a8d5-8cfce3c37229",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4369,7 +4369,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD321E",
+                                            "EntityId":  "wacom.tablet.sd321e",
                                             "_id":  "3d44fa2b-b989-4b2b-bb63-47ad00e83229",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4405,7 +4405,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD322E",
+                                            "EntityId":  "wacom.tablet.sd322e",
                                             "_id":  "ead24597-6ede-4ea9-ae33-b58ff369aaf0",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4441,7 +4441,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD310E",
+                                            "EntityId":  "wacom.tablet.sd310e",
                                             "_id":  "b30402bd-07e2-4960-af5f-b2cfa44db505",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4477,7 +4477,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD311E",
+                                            "EntityId":  "wacom.tablet.sd311e",
                                             "_id":  "953b81dc-7893-4772-be8c-508b84d59e83",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4513,7 +4513,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD312E",
+                                            "EntityId":  "wacom.tablet.sd312e",
                                             "_id":  "f21a77b7-08f6-4daf-8733-927df6ce7460",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4549,7 +4549,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD210L",
+                                            "EntityId":  "wacom.tablet.sd210l",
                                             "_id":  "3d2cd174-ed7d-4253-99b7-55a6491c5178",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4584,7 +4584,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD013A",
+                                            "EntityId":  "wacom.tablet.sd013a",
                                             "_id":  "e6c987f0-d35f-44f1-95e4-c4902c403994",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4620,7 +4620,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.SD013L",
+                                            "EntityId":  "wacom.tablet.sd013l",
                                             "_id":  "edafa376-154d-48f3-b863-a62bd892f5e1",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4656,7 +4656,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0405U",
+                                            "EntityId":  "wacom.tablet.gd0405u",
                                             "_id":  "fae00305-bb28-4557-ab7f-a446a189e2da",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4669,7 +4669,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4692,7 +4692,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0405R",
+                                            "EntityId":  "wacom.tablet.gd0405r",
                                             "_id":  "554aef9c-b553-487a-ac8a-b51b9d4bbc05",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4705,7 +4705,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4728,7 +4728,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0405A",
+                                            "EntityId":  "wacom.tablet.gd0405a",
                                             "_id":  "c294637f-5926-4212-a392-f0c62a1f26ab",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4741,7 +4741,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4764,7 +4764,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0608U",
+                                            "EntityId":  "wacom.tablet.gd0608u",
                                             "_id":  "0da481a9-30de-499d-ad13-e4257f985488",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4777,7 +4777,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4800,7 +4800,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0608R",
+                                            "EntityId":  "wacom.tablet.gd0608r",
                                             "_id":  "04298ee7-bdce-40be-a9e4-7d96d399e2bc",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4813,7 +4813,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4836,7 +4836,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0608A",
+                                            "EntityId":  "wacom.tablet.gd0608a",
                                             "_id":  "0dee8028-0d66-46df-a2c8-5bf496b59334",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4849,7 +4849,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4872,7 +4872,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0912U",
+                                            "EntityId":  "wacom.tablet.gd0912u",
                                             "_id":  "ff77a7b3-3aba-4592-b58a-98203dec4a04",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4885,7 +4885,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4908,7 +4908,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0912R",
+                                            "EntityId":  "wacom.tablet.gd0912r",
                                             "_id":  "b4f0b327-7a06-49b2-9be6-38a23700304f",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4921,7 +4921,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4944,7 +4944,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD0912A",
+                                            "EntityId":  "wacom.tablet.gd0912a",
                                             "_id":  "7105650d-11d9-4894-91cf-b862d5cb4c0d",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4957,7 +4957,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -4980,7 +4980,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD1212U",
+                                            "EntityId":  "wacom.tablet.gd1212u",
                                             "_id":  "ca0039b4-86c7-4683-bc32-104ffa430808",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -4993,7 +4993,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5016,7 +5016,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD1212R",
+                                            "EntityId":  "wacom.tablet.gd1212r",
                                             "_id":  "916f5176-f538-4865-9259-25b7ed872408",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5029,7 +5029,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5052,7 +5052,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD1218U",
+                                            "EntityId":  "wacom.tablet.gd1218u",
                                             "_id":  "56824bb9-2dcf-446d-9ce1-919554f42cef",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5065,7 +5065,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5088,7 +5088,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.GD1218R",
+                                            "EntityId":  "wacom.tablet.gd1218r",
                                             "_id":  "f00aad3f-2aef-4975-8952-7e0994183cdd",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5101,7 +5101,7 @@
                                              "LaunchYear":  "1998",
                                              "Family":  "WacomIntuosProGen1",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.GP300E"
+                                                                 "wacom.pen.gp300e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5124,7 +5124,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD0405R",
+                                            "EntityId":  "wacom.tablet.xd0405r",
                                             "_id":  "dac05628-6af6-4183-bd0c-c1a7fc650394",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5137,7 +5137,7 @@
                                              "LaunchYear":  "2001",
                                              "Family":  "WacomIntuosProGen2",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5160,7 +5160,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD0608R",
+                                            "EntityId":  "wacom.tablet.xd0608r",
                                             "_id":  "963c2554-5ad6-492f-a21c-4ed2a6b135bf",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5173,7 +5173,7 @@
                                              "LaunchYear":  "2001",
                                              "Family":  "WacomIntuosProGen2",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5196,7 +5196,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD0912R",
+                                            "EntityId":  "wacom.tablet.xd0912r",
                                             "_id":  "07ec96cf-c741-469c-ad9a-a20577da9365",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5209,7 +5209,7 @@
                                              "LaunchYear":  "2001",
                                              "Family":  "WacomIntuosProGen2",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5232,7 +5232,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD1212R",
+                                            "EntityId":  "wacom.tablet.xd1212r",
                                             "_id":  "493f6f71-796b-4357-a8c8-50314df4a24a",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5245,7 +5245,7 @@
                                              "LaunchYear":  "2001",
                                              "Family":  "WacomIntuosProGen2",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5268,7 +5268,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.XD1218R",
+                                            "EntityId":  "wacom.tablet.xd1218r",
                                             "_id":  "c89d8229-6520-4560-b3ab-bcc9234079d2",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5281,7 +5281,7 @@
                                              "LaunchYear":  "2001",
                                              "Family":  "WacomIntuosProGen2",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.XP501E"
+                                                                 "wacom.pen.xp501e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5304,7 +5304,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH460",
+                                            "EntityId":  "wacom.tablet.cth460",
                                             "_id":  "15a60887-ce11-472c-9ad0-36d96ad91df5",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5317,7 +5317,7 @@
                                              "LaunchYear":  "2009",
                                              "Family":  "CTx-x60",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP160E"
+                                                                 "wacom.pen.lp160e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5340,7 +5340,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL460",
+                                            "EntityId":  "wacom.tablet.ctl460",
                                             "_id":  "c56e35e0-740f-4ae9-affc-52bbd3294cdf",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5353,7 +5353,7 @@
                                              "LaunchYear":  "2009",
                                              "Family":  "CTx-x60",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP160"
+                                                                 "wacom.pen.lp160"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5376,7 +5376,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL660",
+                                            "EntityId":  "wacom.tablet.ctl660",
                                             "_id":  "9649dd11-ae4d-4447-a47c-53d2929dac57",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5389,7 +5389,7 @@
                                              "LaunchYear":  "2009",
                                              "Family":  "CTx-x60",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP160"
+                                                                 "wacom.pen.lp160"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5412,7 +5412,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH661",
+                                            "EntityId":  "wacom.tablet.cth661",
                                             "_id":  "854dcad2-2624-4301-bde5-313c170e3a75",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5425,7 +5425,7 @@
                                              "LaunchYear":  "2009",
                                              "Family":  "CTH-x61",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP161E"
+                                                                 "wacom.pen.lp161e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5448,7 +5448,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH461",
+                                            "EntityId":  "wacom.tablet.cth461",
                                             "_id":  "547b265d-6040-4ec3-a0d7-75c9477c23ab",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5461,7 +5461,7 @@
                                              "LaunchYear":  "2009",
                                              "Family":  "CTH-x61",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP161E"
+                                                                 "wacom.pen.lp161e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5484,7 +5484,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL671",
+                                            "EntityId":  "wacom.tablet.ctl671",
                                             "_id":  "734c2cd3-2723-413d-8d1c-151aa0942b4a",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5497,7 +5497,7 @@
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x71",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP171"
+                                                                 "wacom.pen.lp171"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5520,7 +5520,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL471",
+                                            "EntityId":  "wacom.tablet.ctl471",
                                             "_id":  "5b23c5f4-37db-4423-954b-feb364d22c67",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5533,7 +5533,7 @@
                                              "LaunchYear":  "2012",
                                              "Family":  "CTx-x71",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP171"
+                                                                 "wacom.pen.lp171"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5556,7 +5556,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL680",
+                                            "EntityId":  "wacom.tablet.ctl680",
                                             "_id":  "97b64cdd-b2d0-43da-93b8-1110d92a6e42",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5569,7 +5569,7 @@
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x80",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP180"
+                                                                 "wacom.pen.lp180"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-680.html"
@@ -5593,7 +5593,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH680",
+                                            "EntityId":  "wacom.tablet.cth680",
                                             "_id":  "7dcc5572-b598-4c26-8569-ea0a02ff7eeb",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5606,7 +5606,7 @@
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x80",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP180E"
+                                                                 "wacom.pen.lp180e"
                                                              ],
                                              "Status":  "DISCONTINUED"
                                          },
@@ -5629,7 +5629,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTL480",
+                                            "EntityId":  "wacom.tablet.ctl480",
                                             "_id":  "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5642,7 +5642,7 @@
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x80",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP180"
+                                                                 "wacom.pen.lp180"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-480.html"
@@ -5666,7 +5666,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH480",
+                                            "EntityId":  "wacom.tablet.cth480",
                                             "_id":  "8be703ad-586c-4825-abaa-41070611bb2c",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
@@ -5679,7 +5679,7 @@
                                              "LaunchYear":  "2013",
                                              "Family":  "CTx-x80",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.LP180E"
+                                                                 "wacom.pen.lp180e"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTH-480.html"
@@ -5703,7 +5703,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.MTE450",
+                                            "EntityId":  "wacom.tablet.mte450",
                                             "_id":  "b1f9b803-7dd6-48c7-b007-9b772023da62",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -5715,7 +5715,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP150E"
+                                                                 "wacom.pen.ep150e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -5737,7 +5737,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.FW300",
+                                            "EntityId":  "wacom.tablet.fw300",
                                             "_id":  "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
@@ -5749,7 +5749,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP812E"
+                                                                 "wacom.pen.up812e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -5771,7 +5771,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE440",
+                                            "EntityId":  "wacom.tablet.cte440",
                                             "_id":  "8aa5061d-b26f-473c-878a-e3e8db4fd5f2",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -5783,7 +5783,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP140E"
+                                                                 "wacom.pen.ep140e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -5805,7 +5805,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE640",
+                                            "EntityId":  "wacom.tablet.cte640",
                                             "_id":  "819a2d36-c970-4b7b-a0e5-17b96aebe911",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -5817,7 +5817,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP140E"
+                                                                 "wacom.pen.ep140e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -5839,7 +5839,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE460",
+                                            "EntityId":  "wacom.tablet.cte460",
                                             "_id":  "481647b6-66f0-4b41-8313-ef3166220a84",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -5851,7 +5851,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP150"
+                                                                 "wacom.pen.ep150"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -5873,7 +5873,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE660",
+                                            "EntityId":  "wacom.tablet.cte660",
                                             "_id":  "5f277db4-74be-4f51-9ed8-1067e69ae366",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -5885,7 +5885,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP150"
+                                                                 "wacom.pen.ep150"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -5907,7 +5907,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTT460",
+                                            "EntityId":  "wacom.tablet.ctt460",
                                             "_id":  "95759bd5-ad90-4dc3-8b14-988bd3846aba",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -5937,7 +5937,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH301",
+                                            "EntityId":  "wacom.tablet.cth301",
                                             "_id":  "a976874a-31ba-4db5-a51e-12b6d45e98ca",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -5968,7 +5968,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTH300",
+                                            "EntityId":  "wacom.tablet.cth300",
                                             "_id":  "700f785f-aca8-403d-a347-4c9c7b342a2c",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -5999,7 +5999,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.FB630",
+                                            "EntityId":  "wacom.tablet.fb630",
                                             "_id":  "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6011,7 +6011,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP130"
+                                                                 "wacom.pen.ep130"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6032,7 +6032,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE430",
+                                            "EntityId":  "wacom.tablet.cte430",
                                             "_id":  "77471e7e-24fb-4504-82f6-4383c87ef761",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6044,7 +6044,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP130"
+                                                                 "wacom.pen.ep130"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6066,7 +6066,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE630BT",
+                                            "EntityId":  "wacom.tablet.cte630bt",
                                             "_id":  "fb5f0dbe-189f-4fcd-9594-a689384c9b77",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6078,7 +6078,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP130E"
+                                                                 "wacom.pen.ep130e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6098,7 +6098,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTE630",
+                                            "EntityId":  "wacom.tablet.cte630",
                                             "_id":  "db9bef5c-47c5-4556-9532-77cb8903694b",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6110,7 +6110,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP130"
+                                                                 "wacom.pen.ep130"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6132,7 +6132,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTF430",
+                                            "EntityId":  "wacom.tablet.ctf430",
                                             "_id":  "96a27443-d4f6-4086-970d-bcf2f43c1c89",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6144,7 +6144,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.FP500"
+                                                                 "wacom.pen.fp500"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6166,7 +6166,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTF221",
+                                            "EntityId":  "wacom.tablet.ctf221",
                                             "_id":  "7a4254fc-d326-400c-a360-ee865bbb7ca1",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6178,7 +6178,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.FP410"
+                                                                 "wacom.pen.fp410"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6200,7 +6200,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CTF420",
+                                            "EntityId":  "wacom.tablet.ctf420",
                                             "_id":  "a7f1f73e-e80e-45c6-a65e-110405e88cf3",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6212,7 +6212,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.FP410"
+                                                                 "wacom.pen.fp410"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6234,7 +6234,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.FT0203U",
+                                            "EntityId":  "wacom.tablet.ft0203u",
                                             "_id":  "3b998f71-1696-4a81-9432-f0a8c6005bf5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6246,7 +6246,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.FP110"
+                                                                 "wacom.pen.fp110"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6260,7 +6260,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.FT0405U",
+                                            "EntityId":  "wacom.tablet.ft0405u",
                                             "_id":  "57e86c16-60a6-47d6-9097-6537b9d258fc",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6272,7 +6272,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2002",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.FP100"
+                                                                 "wacom.pen.fp100"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6294,7 +6294,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.ET0405AU",
+                                            "EntityId":  "wacom.tablet.et0405au",
                                             "_id":  "0228d88a-29b6-4c72-a657-65c7713dc600",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6306,7 +6306,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP120E"
+                                                                 "wacom.pen.ep120e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6328,7 +6328,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.ET0507AU",
+                                            "EntityId":  "wacom.tablet.et0507au",
                                             "_id":  "5b6b01b0-0203-4791-845c-b4bedc8d00ab",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6340,7 +6340,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP120E"
+                                                                 "wacom.pen.ep120e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6362,7 +6362,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.ET0405U",
+                                            "EntityId":  "wacom.tablet.et0405u",
                                             "_id":  "cf6efc20-4d44-4c80-9d10-1a7e19453c91",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6374,7 +6374,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1999",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP100E"
+                                                                 "wacom.pen.ep100e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6396,7 +6396,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.ET0405R",
+                                            "EntityId":  "wacom.tablet.et0405r",
                                             "_id":  "6a5119e0-3993-4e4a-940c-0e98bcec7cf2",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6408,7 +6408,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1999",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.EP100E"
+                                                                 "wacom.pen.ep100e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6430,7 +6430,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CT0405U",
+                                            "EntityId":  "wacom.tablet.ct0405u",
                                             "_id":  "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6442,7 +6442,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP703E"
+                                                                 "wacom.pen.up703e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6464,7 +6464,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CT0405R",
+                                            "EntityId":  "wacom.tablet.ct0405r",
                                             "_id":  "62a21f41-f8de-4641-abc9-f0a071911f9a",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6476,7 +6476,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP703E"
+                                                                 "wacom.pen.up703e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6498,7 +6498,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CT0405A",
+                                            "EntityId":  "wacom.tablet.ct0405a",
                                             "_id":  "74193ca2-68c5-4e6e-b9f4-c8c4537a6161",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6510,7 +6510,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP703E"
+                                                                 "wacom.pen.up703e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6532,7 +6532,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.KT0405A",
+                                            "EntityId":  "wacom.tablet.kt0405a",
                                             "_id":  "379c2418-c8b5-4988-8a8d-8185dd1889b1",
                                             "_CreateDate":  "2026-04-07T00:42:47.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6544,7 +6544,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6558,7 +6558,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.KT0405R",
+                                            "EntityId":  "wacom.tablet.kt0405r",
                                             "_id":  "2d59e782-b141-45f4-879e-3123dadf4768",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6570,7 +6570,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6592,7 +6592,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.KT0608R",
+                                            "EntityId":  "wacom.tablet.kt0608r",
                                             "_id":  "33c99a6b-311f-4bbb-abc0-f6618606e632",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -6604,7 +6604,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6626,7 +6626,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.KT0405RNB",
+                                            "EntityId":  "wacom.tablet.kt0405rnb",
                                             "_id":  "90d162e3-5d09-42e7-9e2e-9ef6d50da1b5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6638,7 +6638,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6660,7 +6660,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.KT0405ANB",
+                                            "EntityId":  "wacom.tablet.kt0405anb",
                                             "_id":  "1a59d57e-2dac-47a4-9b26-b64af2d2edc5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6672,7 +6672,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6694,7 +6694,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PTU600U",
+                                            "EntityId":  "wacom.tablet.ptu600u",
                                             "_id":  "55e9b443-d52f-4f4c-8d46-5816ab9f191b",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6725,7 +6725,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD0608R",
+                                            "EntityId":  "wacom.tablet.ud0608r",
                                             "_id":  "a70e90a9-1511-4b03-a7bc-0335e129332e",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6737,7 +6737,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6759,7 +6759,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD0608A",
+                                            "EntityId":  "wacom.tablet.ud0608a",
                                             "_id":  "259c29d5-2754-4d17-9802-95eafff798ba",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6771,7 +6771,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6793,7 +6793,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD1212R",
+                                            "EntityId":  "wacom.tablet.ud1212r",
                                             "_id":  "f5deab7f-97a3-4793-9fe8-28f64830ad71",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6805,7 +6805,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6827,7 +6827,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD1212A",
+                                            "EntityId":  "wacom.tablet.ud1212a",
                                             "_id":  "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6839,7 +6839,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6861,7 +6861,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD1218R",
+                                            "EntityId":  "wacom.tablet.ud1218r",
                                             "_id":  "2203c1bc-0b49-4714-a05e-a77ae4a16754",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6873,7 +6873,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6895,7 +6895,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD1218A",
+                                            "EntityId":  "wacom.tablet.ud1218a",
                                             "_id":  "d0e57e62-6372-46bf-890b-6b5d844df7a3",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6907,7 +6907,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6929,7 +6929,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.UD1825R",
+                                            "EntityId":  "wacom.tablet.ud1825r",
                                             "_id":  "865d1d09-a650-450f-b4a1-157f73ba10e9",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
                                             "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
@@ -6941,7 +6941,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.UP801E"
+                                                                 "wacom.pen.up801e"
                                                              ]
                                          },
                                "Digitizer":  {
@@ -6963,7 +6963,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTHW1321",
+                                            "EntityId":  "wacom.tablet.dthw1321",
                                             "_id":  "a7f3b829-1d4c-4e6a-9b2c-3d5e7f1a8b0c",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -6977,7 +6977,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "MobileStudio Pro",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-13-dthw1321hk0b.html",
                                              "Status":  "DISCONTINUED",
@@ -7030,7 +7030,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTHW1620",
+                                            "EntityId":  "wacom.tablet.dthw1620",
                                             "_id":  "c9e1f247-3a5b-4d7e-8f0a-1b2c3d4e5f6a",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -7044,7 +7044,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "MobileStudio Pro",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-gen-1-refurbished-product-udth-w1620m-eu.html",
                                              "Status":  "DISCONTINUED"
@@ -7094,7 +7094,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTHW1621",
+                                            "EntityId":  "wacom.tablet.dthw1621",
                                             "_id":  "f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
@@ -7108,7 +7108,7 @@
                                              "Audience":  "Professional",
                                              "Family":  "MobileStudio Pro",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP504E"
+                                                                 "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-dthw1621hk0b.html",
                                              "Status":  "DISCONTINUED",
@@ -7166,7 +7166,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL600",
+                                            "EntityId":  "wacom.tablet.pl600",
                                             "_id":  "5eadeb3a-5032-415d-88d7-020c62449380",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -7198,7 +7198,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL500",
+                                            "EntityId":  "wacom.tablet.pl500",
                                             "_id":  "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -7238,7 +7238,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL400",
+                                            "EntityId":  "wacom.tablet.pl400",
                                             "_id":  "0dfe9a77-e190-4d30-a8aa-407cc77d7186",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -7278,7 +7278,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL300",
+                                            "EntityId":  "wacom.tablet.pl300",
                                             "_id":  "29b85b2f-fd34-45dc-93ce-13a67bdaf7a7",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -7318,7 +7318,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL270",
+                                            "EntityId":  "wacom.tablet.pl270",
                                             "_id":  "ce0deb21-7f2d-4b66-9a70-f9925798302b",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -7353,7 +7353,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.PL250",
+                                            "EntityId":  "wacom.tablet.pl250",
                                             "_id":  "3475cf00-440d-4006-bc7a-c3d98a82cd06",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
@@ -7389,7 +7389,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CT0405U2004",
+                                            "EntityId":  "wacom.tablet.ct0405u2004",
                                             "_id":  "801b8cd8-a4c2-487e-8d2b-13fdfc30fb52",
                                             "_CreateDate":  "2026-04-20T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -7405,7 +7405,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.CT0405U2005",
+                                            "EntityId":  "wacom.tablet.ct0405u2005",
                                             "_id":  "5c9c5a27-d174-4e07-8461-82de9c4d5537",
                                             "_CreateDate":  "2026-04-20T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
@@ -7421,7 +7421,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.WT4400SE",
+                                            "EntityId":  "wacom.tablet.wt4400se",
                                             "_id":  "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
@@ -7436,7 +7436,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.WT460M",
+                                            "EntityId":  "wacom.tablet.wt460m",
                                             "_id":  "57c68629-5451-4a2d-8d19-925f0c658d2d",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
@@ -7451,7 +7451,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH1300",
+                                            "EntityId":  "wacom.tablet.dth1300",
                                             "_id":  "34036930-e9ad-47c6-95de-d09dddda173a",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
@@ -7472,7 +7472,7 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "WACOM.TABLET.DTH2700",
+                                            "EntityId":  "wacom.tablet.dth2700",
                                             "_id":  "b1f8fdf3-b111-45f7-9586-10af017cc2ec",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
                                             "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
@@ -7484,7 +7484,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
                                              "IncludedPen":  [
-                                                                 "WACOM.PEN.KP503E"
+                                                                 "wacom.pen.kp503e"
                                                              ],
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html"

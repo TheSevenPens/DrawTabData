@@ -1,94 +1,94 @@
-{
-  "PenFamilies": [
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomKPGEN3",
-      "Brand": "WACOM",
-      "FamilyId": "WacomKPGEN3",
-      "FamilyName": "Wacom KP GEN3 pen series",
-      "_id": "334dd637-7ef3-4c66-b4a9-5369d26e9db7",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomKPGEN2",
-      "Brand": "WACOM",
-      "FamilyId": "WacomKPGEN2",
-      "FamilyName": "Wacom KP GEN2 pen series",
-      "_id": "1fb4af50-b9b0-48b0-b235-601ad4672bc8",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomKPGEN1",
-      "Brand": "WACOM",
-      "FamilyId": "WacomKPGEN1",
-      "FamilyName": "Wacom KP GEN1 pen series",
-      "_id": "bd8b51e6-f836-4e21-9240-c193cd6315ee",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomZP",
-      "Brand": "WACOM",
-      "FamilyId": "WacomZP",
-      "FamilyName": "Wacom ZP pen series",
-      "_id": "9ecd59de-bf9f-48c8-93f9-712a27323407",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomXP",
-      "Brand": "WACOM",
-      "FamilyId": "WacomXP",
-      "FamilyName": "Wacom XP pen series",
-      "_id": "0a4d1f5c-363a-4cf5-a222-861516bc2b54",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomGP",
-      "Brand": "WACOM",
-      "FamilyId": "WacomGP",
-      "FamilyName": "Wacom GP pen series",
-      "_id": "3d1064da-7ee7-4f60-b7fb-cba2f2eb5cb5",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomSP",
-      "Brand": "WACOM",
-      "FamilyId": "WacomSP",
-      "FamilyName": "Wacom SP pen series",
-      "_id": "99354f56-ec14-49bf-b23b-ec60c1478436",
-      "_CreateDate": "2026-04-01T09:11:12.000Z",
-      "_ModifiedDate": "2026-04-01T09:11:12.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomBamboo",
-      "Brand": "WACOM",
-      "FamilyId": "WacomBamboo",
-      "FamilyName": "Wacom Bamboo pens",
-      "_id": "20299e8c-e8e3-48d4-8929-c960aca47785",
-      "_CreateDate": "2026-04-01T18:06:28.000Z",
-      "_ModifiedDate": "2026-04-01T18:06:28.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomOneGen1",
-      "Brand": "WACOM",
-      "FamilyId": "WacomOneGen1",
-      "FamilyName": "Wacom One GEN1 pens",
-      "_id": "41bf82fa-d91f-4703-93f7-a825079a2756",
-      "_CreateDate": "2026-04-01T18:06:28.000Z",
-      "_ModifiedDate": "2026-04-01T18:06:28.000Z"
-    },
-    {
-      "EntityId": "WACOM.PENFAMILY.WacomOneGen2",
-      "Brand": "WACOM",
-      "FamilyId": "WacomOneGen2",
-      "FamilyName": "Wacom One GEN2 pens",
-      "_id": "d69d8c21-2c0a-4723-a552-b5562410f4dc",
-      "_CreateDate": "2026-04-01T18:06:28.000Z",
-      "_ModifiedDate": "2026-04-01T18:06:28.000Z"
-    }
-  ]
+﻿{
+    "PenFamilies":  [
+                        {
+                            "EntityId":  "wacom.penfamily.wacomkpgen3",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomKPGEN3",
+                            "FamilyName":  "Wacom KP GEN3 pen series",
+                            "_id":  "334dd637-7ef3-4c66-b4a9-5369d26e9db7",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomkpgen2",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomKPGEN2",
+                            "FamilyName":  "Wacom KP GEN2 pen series",
+                            "_id":  "1fb4af50-b9b0-48b0-b235-601ad4672bc8",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomkpgen1",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomKPGEN1",
+                            "FamilyName":  "Wacom KP GEN1 pen series",
+                            "_id":  "bd8b51e6-f836-4e21-9240-c193cd6315ee",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomzp",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomZP",
+                            "FamilyName":  "Wacom ZP pen series",
+                            "_id":  "9ecd59de-bf9f-48c8-93f9-712a27323407",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomxp",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomXP",
+                            "FamilyName":  "Wacom XP pen series",
+                            "_id":  "0a4d1f5c-363a-4cf5-a222-861516bc2b54",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomgp",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomGP",
+                            "FamilyName":  "Wacom GP pen series",
+                            "_id":  "3d1064da-7ee7-4f60-b7fb-cba2f2eb5cb5",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomsp",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomSP",
+                            "FamilyName":  "Wacom SP pen series",
+                            "_id":  "99354f56-ec14-49bf-b23b-ec60c1478436",
+                            "_CreateDate":  "2026-04-01T09:11:12.000Z",
+                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacombamboo",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomBamboo",
+                            "FamilyName":  "Wacom Bamboo pens",
+                            "_id":  "20299e8c-e8e3-48d4-8929-c960aca47785",
+                            "_CreateDate":  "2026-04-01T18:06:28.000Z",
+                            "_ModifiedDate":  "2026-04-01T18:06:28.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomonegen1",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomOneGen1",
+                            "FamilyName":  "Wacom One GEN1 pens",
+                            "_id":  "41bf82fa-d91f-4703-93f7-a825079a2756",
+                            "_CreateDate":  "2026-04-01T18:06:28.000Z",
+                            "_ModifiedDate":  "2026-04-01T18:06:28.000Z"
+                        },
+                        {
+                            "EntityId":  "wacom.penfamily.wacomonegen2",
+                            "Brand":  "WACOM",
+                            "FamilyId":  "WacomOneGen2",
+                            "FamilyName":  "Wacom One GEN2 pens",
+                            "_id":  "d69d8c21-2c0a-4723-a552-b5562410f4dc",
+                            "_CreateDate":  "2026-04-01T18:06:28.000Z",
+                            "_ModifiedDate":  "2026-04-01T18:06:28.000Z"
+                        }
+                    ]
 }

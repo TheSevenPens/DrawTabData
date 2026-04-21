@@ -1,81 +1,81 @@
-{
-  "Pens": [
-    {
-      "EntityId": "UGEE.PEN.UPENCIL",
-      "Brand": "UGEE",
-      "PenId": "U-Pencil",
-      "PenName": "U-Pencil",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "a3498b9f-38f2-430b-a2f2-fbe78d5a0187",
-      "_CreateDate": "2026-04-03T05:56:10.000Z",
-      "_ModifiedDate": "2026-04-03T05:56:10.000Z"
-    },
-    {
-      "EntityId": "UGEE.PEN.P01",
-      "Brand": "UGEE",
-      "PenId": "P01",
-      "PenName": "P01",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "cafb0401-ba46-4fff-b9f3-a1b3c5977409",
-      "_CreateDate": "2026-04-03T06:01:40.000Z",
-      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
-    },
-    {
-      "EntityId": "UGEE.PEN.PH12",
-      "Brand": "UGEE",
-      "PenId": "PH12",
-      "PenName": "PH12",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "8c1d758c-db7d-4634-96b0-0fb69d93e3ba",
-      "_CreateDate": "2026-04-03T06:01:40.000Z",
-      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
-    },
-    {
-      "EntityId": "UGEE.PEN.PH01",
-      "Brand": "UGEE",
-      "PenId": "PH01",
-      "PenName": "PH01",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "af0517bf-180e-4466-8340-5d9c488fc81f",
-      "_CreateDate": "2026-04-03T06:01:40.000Z",
-      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
-    },
-    {
-      "EntityId": "UGEE.PEN.P06",
-      "Brand": "UGEE",
-      "PenId": "P06",
-      "PenName": "P06",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "586b0756-a5d8-431e-8382-7e437f18d0ac",
-      "_CreateDate": "2026-04-03T06:01:40.000Z",
-      "_ModifiedDate": "2026-04-03T06:01:40.000Z"
-    },
-    {
-      "EntityId": "UGEE.PEN.M908STYLUS",
-      "Brand": "UGEE",
-      "PenId": "M908Stylus",
-      "PenName": "M908 Stylus",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "a33cdf9e-b49d-45f1-b793-a2aa81cbfcdc",
-      "_CreateDate": "2026-04-19T00:00:00.000Z",
-      "_ModifiedDate": "2026-04-19T00:00:00.000Z"
-    },
-    {
-      "EntityId": "UGEE.PEN.U1200U1600UE16STYLUS",
-      "Brand": "UGEE",
-      "PenId": "U1200U1600UE16Stylus",
-      "PenName": "U1200 / U1600 / UE16 Stylus",
-      "PenFamily": "",
-      "PenYear": "",
-      "_id": "7865f658-b3d0-4d22-b6c3-7224d661c606",
-      "_CreateDate": "2026-04-19T00:00:00.000Z",
-      "_ModifiedDate": "2026-04-19T00:00:00.000Z"
-    }
-  ]
+﻿{
+    "Pens":  [
+                 {
+                     "EntityId":  "ugee.pen.upencil",
+                     "Brand":  "UGEE",
+                     "PenId":  "U-Pencil",
+                     "PenName":  "U-Pencil",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "a3498b9f-38f2-430b-a2f2-fbe78d5a0187",
+                     "_CreateDate":  "2026-04-03T05:56:10.000Z",
+                     "_ModifiedDate":  "2026-04-03T05:56:10.000Z"
+                 },
+                 {
+                     "EntityId":  "ugee.pen.p01",
+                     "Brand":  "UGEE",
+                     "PenId":  "P01",
+                     "PenName":  "P01",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "cafb0401-ba46-4fff-b9f3-a1b3c5977409",
+                     "_CreateDate":  "2026-04-03T06:01:40.000Z",
+                     "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                 },
+                 {
+                     "EntityId":  "ugee.pen.ph12",
+                     "Brand":  "UGEE",
+                     "PenId":  "PH12",
+                     "PenName":  "PH12",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "8c1d758c-db7d-4634-96b0-0fb69d93e3ba",
+                     "_CreateDate":  "2026-04-03T06:01:40.000Z",
+                     "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                 },
+                 {
+                     "EntityId":  "ugee.pen.ph01",
+                     "Brand":  "UGEE",
+                     "PenId":  "PH01",
+                     "PenName":  "PH01",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "af0517bf-180e-4466-8340-5d9c488fc81f",
+                     "_CreateDate":  "2026-04-03T06:01:40.000Z",
+                     "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                 },
+                 {
+                     "EntityId":  "ugee.pen.p06",
+                     "Brand":  "UGEE",
+                     "PenId":  "P06",
+                     "PenName":  "P06",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "586b0756-a5d8-431e-8382-7e437f18d0ac",
+                     "_CreateDate":  "2026-04-03T06:01:40.000Z",
+                     "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                 },
+                 {
+                     "EntityId":  "ugee.pen.m908stylus",
+                     "Brand":  "UGEE",
+                     "PenId":  "M908Stylus",
+                     "PenName":  "M908 Stylus",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "a33cdf9e-b49d-45f1-b793-a2aa81cbfcdc",
+                     "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                     "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                 },
+                 {
+                     "EntityId":  "ugee.pen.u1200u1600ue16stylus",
+                     "Brand":  "UGEE",
+                     "PenId":  "U1200U1600UE16Stylus",
+                     "PenName":  "U1200 / U1600 / UE16 Stylus",
+                     "PenFamily":  "",
+                     "PenYear":  "",
+                     "_id":  "7865f658-b3d0-4d22-b6c3-7224d661c606",
+                     "_CreateDate":  "2026-04-19T00:00:00.000Z",
+                     "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                 }
+             ]
 }

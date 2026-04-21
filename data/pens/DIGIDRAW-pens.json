@@ -1,7 +1,7 @@
 ﻿{
     "Pens":  [
                  {
-                     "EntityId":  "DIGIDRAW.PEN.M3",
+                     "EntityId":  "digidraw.pen.m3",
                      "Brand":  "DIGIDRAW",
                      "PenId":  "M3",
                      "PenName":  "M3 Pen",
@@ -12,7 +12,7 @@
                      "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                  },
                  {
-                     "EntityId":  "DIGIDRAW.PEN.M5",
+                     "EntityId":  "digidraw.pen.m5",
                      "Brand":  "DIGIDRAW",
                      "PenId":  "M5",
                      "PenName":  "M5 Pen",
