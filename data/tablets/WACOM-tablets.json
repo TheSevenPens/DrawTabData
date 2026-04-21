@@ -165,21 +165,24 @@
                                             "EntityId":  "WACOM.TABLET.CTH470",
                                             "_id":  "e1a691a6-d73e-4f48-9d92-9185ed816be3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:37.515Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-470",
                                              "Name":  "Bamboo Capture",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2012",
+                                             "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170E",
                                                                  "WACOM.PEN.LP170"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "CTx-x70"
+                                             "Family":  "CTx-x70",
+                                             "AlternateNames":  [
+                                                                    "Bamboo Pen \u0026 Touch S"
+                                                                ]
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -248,20 +251,23 @@
                                             "EntityId":  "WACOM.TABLET.CTH670",
                                             "_id":  "34947067-79d5-415a-b81a-e65e75d842be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:42.143Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-670",
                                              "Name":  "Bamboo Create",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2012",
+                                             "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170E"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "CTx-x70"
+                                             "Family":  "CTx-x70",
+                                             "AlternateNames":  [
+                                                                    "Bamboo Fun Pen \u0026 Touch M"
+                                                                ]
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -412,20 +418,23 @@
                                             "EntityId":  "WACOM.TABLET.CTL470",
                                             "_id":  "487092fc-f2ff-4438-9926-32df9efc80be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-470",
                                              "Name":  "Bamboo Connect",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2012",
+                                             "LaunchYear":  "2011",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.LP170"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "CTx-x70"
+                                             "Family":  "CTx-x70",
+                                             "AlternateNames":  [
+                                                                    "Bamboo Pen S"
+                                                                ]
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -5697,14 +5706,14 @@
                                             "EntityId":  "WACOM.TABLET.MTE450",
                                             "_id":  "b1f9b803-7dd6-48c7-b007-9b772023da62",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "MTE-450",
                                              "Name":  "Bamboo MTE-450",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2007",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP150E"
                                                              ]
@@ -5772,7 +5781,7 @@
                                              "Id":  "CTE-440",
                                              "Name":  "Graphire4 4x5",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP140E"
                                                              ]
@@ -5799,14 +5808,14 @@
                                             "EntityId":  "WACOM.TABLET.CTE640",
                                             "_id":  "819a2d36-c970-4b7b-a0e5-17b96aebe911",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-640",
-                                             "Name":  "Bamboo CTE-640",
+                                             "Name":  "Graphire 4",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP140E"
                                                              ]
@@ -5840,7 +5849,7 @@
                                              "Id":  "CTE-460",
                                              "Name":  "Graphire4 6x8",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP150"
                                                              ]
@@ -5867,14 +5876,14 @@
                                             "EntityId":  "WACOM.TABLET.CTE660",
                                             "_id":  "5f277db4-74be-4f51-9ed8-1067e69ae366",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-660",
                                              "Name":  "Wacom CTE-660",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP150"
                                                              ]
@@ -5901,14 +5910,14 @@
                                             "EntityId":  "WACOM.TABLET.CTT460",
                                             "_id":  "95759bd5-ad90-4dc3-8b14-988bd3846aba",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTT-460",
                                              "Name":  "Wacom CTT-460",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  ""
+                                             "LaunchYear":  "2009"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6033,7 +6042,7 @@
                                              "Id":  "CTE-430",
                                              "Name":  "Graphire3 4x5",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2003",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP130"
                                                              ]
@@ -6060,14 +6069,14 @@
                                             "EntityId":  "WACOM.TABLET.CTE630BT",
                                             "_id":  "fb5f0dbe-189f-4fcd-9594-a689384c9b77",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-630BT",
-                                             "Name":  "Wacom CTE-630BT",
+                                             "Name":  "Graphire 4 BT",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP130E"
                                                              ]
@@ -6099,7 +6108,7 @@
                                              "Id":  "CTE-630",
                                              "Name":  "Graphire3 6x8",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2003",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP130"
                                                              ]
@@ -6126,14 +6135,14 @@
                                             "EntityId":  "WACOM.TABLET.CTF430",
                                             "_id":  "96a27443-d4f6-4086-970d-bcf2f43c1c89",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-430",
                                              "Name":  "Wacom CTF-430",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2007",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.FP500"
                                                              ]
@@ -6194,14 +6203,14 @@
                                             "EntityId":  "WACOM.TABLET.CTF420",
                                             "_id":  "a7f1f73e-e80e-45c6-a65e-110405e88cf3",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-420",
                                              "Name":  "Wacom CTF-420",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.FP410"
                                                              ]
@@ -6228,12 +6237,12 @@
                                             "EntityId":  "WACOM.TABLET.FT0203U",
                                             "_id":  "3b998f71-1696-4a81-9432-f0a8c6005bf5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FT-0203-U",
-                                             "Name":  "Wacom FT-0203-U",
+                                             "Name":  "PenPartner",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
@@ -6254,14 +6263,14 @@
                                             "EntityId":  "WACOM.TABLET.FT0405U",
                                             "_id":  "57e86c16-60a6-47d6-9097-6537b9d258fc",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FT-0405-U",
                                              "Name":  "Wacom FT-0405-U",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2002",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.FP100"
                                                              ]
@@ -6293,9 +6302,9 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405A-U",
-                                             "Name":  "Graphire2",
+                                             "Name":  "Graphire2 USB",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2001",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP120E"
                                                              ]
@@ -6327,9 +6336,9 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0507A-U",
-                                             "Name":  "Graphire 2 5x7",
+                                             "Name":  "Graphire 2 5x7 USB",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2001",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP120E"
                                                              ]
@@ -6363,7 +6372,7 @@
                                              "Id":  "ET-0405-U",
                                              "Name":  "Graphire USB",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1999",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP100E"
                                                              ]
@@ -6397,7 +6406,7 @@
                                              "Id":  "ET-0405-R",
                                              "Name":  "Graphire SERIAL",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1999",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.EP100E"
                                                              ]
@@ -6424,14 +6433,14 @@
                                             "EntityId":  "WACOM.TABLET.CT0405U",
                                             "_id":  "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-U",
-                                             "Name":  "Wacom CT-0405-U",
+                                             "Name":  "PenPartner USB",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1997",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.UP703E"
                                                              ]
@@ -6458,14 +6467,14 @@
                                             "EntityId":  "WACOM.TABLET.CT0405R",
                                             "_id":  "62a21f41-f8de-4641-abc9-f0a071911f9a",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-R",
-                                             "Name":  "Wacom CT-0405-R",
+                                             "Name":  "PenPartner SERIAL",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1997",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.UP703E"
                                                              ]
@@ -6492,14 +6501,14 @@
                                             "EntityId":  "WACOM.TABLET.CT0405A",
                                             "_id":  "74193ca2-68c5-4e6e-b9f4-c8c4537a6161",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-A",
-                                             "Name":  "Wacom CT-0405-A",
+                                             "Name":  "PenPartner ADB",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1998",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.UP703E"
                                                              ]
@@ -6526,14 +6535,14 @@
                                             "EntityId":  "WACOM.TABLET.KT0405A",
                                             "_id":  "379c2418-c8b5-4988-8a8d-8185dd1889b1",
                                             "_CreateDate":  "2026-04-07T00:42:47.000Z",
-                                            "_ModifiedDate":  "2026-04-07T00:42:47.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-A",
-                                             "Name":  "Wacom KT-0405-A",
+                                             "Name":  "Artpad ADB",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1994",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.UP801E"
                                                              ]
@@ -6552,14 +6561,14 @@
                                             "EntityId":  "WACOM.TABLET.KT0405R",
                                             "_id":  "2d59e782-b141-45f4-879e-3123dadf4768",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-R",
-                                             "Name":  "Wacom KT-0405-R",
+                                             "Name":  "Artpad SERIAL",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1994",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.UP801E"
                                                              ]
@@ -6586,14 +6595,14 @@
                                             "EntityId":  "WACOM.TABLET.KT0608R",
                                             "_id":  "33c99a6b-311f-4bbb-abc0-f6618606e632",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0608-R",
-                                             "Name":  "Wacom KT-0608-R",
+                                             "Name":  "ArtZ SERIAL",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1994",
                                              "IncludedPen":  [
                                                                  "WACOM.PEN.UP801E"
                                                              ]
@@ -7377,6 +7386,83 @@
                                "Physical":  {
                                                 "Weight":  "2000"
                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.CT0405U2004",
+                                            "_id":  "801b8cd8-a4c2-487e-8d2b-13fdfc30fb52",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "CT-0405-U",
+                                             "Name":  "PenPartner A8 USB",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2004",
+                                             "Status":  "DISCONTINUED"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.CT0405U2005",
+                                            "_id":  "5c9c5a27-d174-4e07-8461-82de9c4d5537",
+                                            "_CreateDate":  "2026-04-20T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "CT-0405-U",
+                                             "Name":  "PenPartner 2",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2005",
+                                             "Status":  "DISCONTINUED"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.WT",
+                                            "_id":  "a15a0268-5edb-40ec-9355-c0ebca061dbb",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "WT",
+                                             "Name":  "WT",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1984"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.WT4400SE",
+                                            "_id":  "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "WT-4400SE",
+                                             "Name":  "WT 4400SE",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1986"
+                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "WACOM.TABLET.460M",
+                                            "_id":  "57c68629-5451-4a2d-8d19-925f0c658d2d",
+                                            "_CreateDate":  "2026-04-21T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "460M",
+                                             "Name":  "460M",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1987"
+                                         }
                            }
                        ]
 }

@@ -21,6 +21,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   { key: "Brand", label: "Brand", getValue: (t) => t.Model.Brand, getDisplayValue: (t) => brandName(t.Model.Brand), getHref: (t) => `/brands/${t.Model.Brand}`, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.Model.Id, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.Model.Name, type: "string", group: "Model" },
+  { key: "AlternateNames", label: "Alternate Names", getValue: (t) => (t.Model.AlternateNames ?? []).join(", "), type: "string", group: "Model", alwaysSearch: true },
   { key: "ModelType", label: "Type", getValue: (t) => t.Model.Type, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY", "STANDALONE"], group: "Model" },
   { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.Model.LaunchYear, type: "number", group: "Model" },
   {
