@@ -2802,6 +2802,99 @@
                                                                },
                                                 "Weight":  "1355"
                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "xppen.tablet.g640",
+                                            "_id":  "e361f132-1079-4860-a67d-fc60ac74d238",
+                                            "_CreateDate":  "2026-04-22T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-22T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "XPPEN",
+                                             "Id":  "G640",
+                                             "Name":  "Star G640",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "xppen.pen.p01"
+                                                             ],
+                                             "ProductLink":  "https://www.xp-pen.com/store/buy/star-g640.html"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "8192",
+                                                 "Dimensions":  {
+                                                                    "Width":  152.4,
+                                                                    "Height":  101.6
+                                                                },
+                                                 "Density":  "200",
+                                                 "ReportRate":  "233",
+                                                 "Tilt":  "60",
+                                                 "SupportsTouch":  "NO"
+                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "xppen.tablet.md270uh",
+                                            "_id":  "7215483d-78a4-4cad-b6b8-b6acaea71091",
+                                            "_CreateDate":  "2026-04-22T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-22T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "XPPEN",
+                                             "Id":  "MD270UH",
+                                             "Name":  "Artist Pro 27 (Gen 2)",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "",
+                                             "Audience":  "Professional",
+                                             "IncludedPen":  [
+                                                                 "xppen.pen.pd21",
+                                                                 "xppen.pen.pd51"
+                                                             ],
+                                             "ProductLink":  "https://www.xp-pen.com/product/artist-pro-27-gen-2.html"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  596.7,
+                                                                    "Height":  335.7
+                                                                },
+                                                 "Density":  "200",
+                                                 "Tilt":  "60",
+                                                 "AccuracyCenter":  "0.4",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  3840,
+                                                                       "Height":  2160
+                                                                   },
+                                               "PanelTech":  "IPS",
+                                               "Brightness":  "350",
+                                               "ColorBitDepth":  "10",
+                                               "ColorGamuts":  {
+                                                                   "SRGB":  99,
+                                                                   "ADOBERGB":  99,
+                                                                   "DISPLAYP3":  97
+                                                               },
+                                               "Lamination":  "YES",
+                                               "RefreshRate":  "120",
+                                               "ResponseTime":  "5",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  681.3,
+                                                                   "Height":  423.8,
+                                                                   "Depth":  44
+                                                               },
+                                                "Weight":  "7000"
+                                            }
                            }
                        ]
 }
