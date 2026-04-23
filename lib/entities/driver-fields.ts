@@ -21,7 +21,15 @@ export const DRIVER_FIELDS: FieldDef<Driver>[] = [
       return isNaN(year) ? "" : String(new Date().getFullYear() - year);
     },
   },
-  { key: "DriverUID", label: "UID", getValue: (d) => d.DriverUID, type: "string", group: "Driver" },
+  {
+    key: "AgeInDays", label: "Age (days)", computed: true, type: "number", group: "Driver",
+    getValue: (d) => {
+      if (!d.ReleaseDate) return "";
+      const releaseDate = new Date(d.ReleaseDate);
+      if (isNaN(releaseDate.getTime())) return "";
+      return String(Math.floor((Date.now() - releaseDate.getTime()) / (1000 * 60 * 60 * 24)));
+    },
+  },
   // Links
   { key: "DriverURLWacom", label: "Wacom URL", getValue: (d) => d.DriverURLWacom, type: "string", group: "Links" },
   { key: "DriverURLArchiveDotOrg", label: "Archive.org URL", getValue: (d) => d.DriverURLArchiveDotOrg, type: "string", group: "Links" },

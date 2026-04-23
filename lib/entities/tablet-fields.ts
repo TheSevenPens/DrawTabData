@@ -31,6 +31,16 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
       return isNaN(year) ? "" : String(new Date().getFullYear() - year);
     },
   },
+  {
+    key: "AgeInDays", label: "Age (days)", computed: true, type: "number", group: "Model",
+    getValue: (t) => {
+      const year = parseInt(t.Model.LaunchYear, 10);
+      if (isNaN(year)) return "";
+      const launchDate = new Date(year, 0, 1);
+      const days = Math.floor((Date.now() - launchDate.getTime()) / (1000 * 60 * 60 * 24));
+      return String(days);
+    },
+  },
   { key: "ModelAudience", label: "Audience", getValue: (t) => t.Model.Audience ?? "", type: "enum", enumValues: ["Consumer", "Enthusiast", "Professional"], group: "Model" },
   { key: "ModelFamily", label: "Family", getValue: (t) => t.Model.Family ?? "", type: "string", group: "Model" },
   { key: "ModelStatus", label: "Status", getValue: (t) => t.Model.Status ?? "", type: "enum", enumValues: ["ACTIVE", "AVAILABLE", "DISCONTINUED"], group: "Model" },
@@ -104,6 +114,48 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
       const d = t.Digitizer?.Dimensions;
       if (!d || d.Width == null || d.Height == null) return "";
       return Math.sqrt(d.Width * d.Width + d.Height * d.Height).toFixed(1);
+    },
+  },
+  {
+    key: "ForceProportionsLoss16x9", label: "Force Prop. Loss 16:9 (%)", group: "Digitizer", computed: true, type: "number",
+    getValue: (t) => {
+      if (t.Model.Type !== "PENTABLET") return "";
+      const d = t.Digitizer?.Dimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      const w = d.Width, h = d.Height;
+      const targetRatio = 16 / 9;
+      const currentRatio = w / h;
+      let newW = w, newH = h;
+      if (currentRatio > targetRatio) {
+        newW = h * targetRatio;
+      } else {
+        newH = w / targetRatio;
+      }
+      const originalArea = w * h;
+      const newArea = newW * newH;
+      const loss = ((originalArea - newArea) / originalArea) * 100;
+      return loss < 0.05 ? "0" : loss.toFixed(1);
+    },
+  },
+  {
+    key: "ForceProportionsLoss16x10", label: "Force Prop. Loss 16:10 (%)", group: "Digitizer", computed: true, type: "number",
+    getValue: (t) => {
+      if (t.Model.Type !== "PENTABLET") return "";
+      const d = t.Digitizer?.Dimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      const w = d.Width, h = d.Height;
+      const targetRatio = 16 / 10;
+      const currentRatio = w / h;
+      let newW = w, newH = h;
+      if (currentRatio > targetRatio) {
+        newW = h * targetRatio;
+      } else {
+        newH = w / targetRatio;
+      }
+      const originalArea = w * h;
+      const newArea = newW * newH;
+      const loss = ((originalArea - newArea) / originalArea) * 100;
+      return loss < 0.05 ? "0" : loss.toFixed(1);
     },
   },
   // Display

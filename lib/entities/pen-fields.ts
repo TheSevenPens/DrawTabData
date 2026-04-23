@@ -25,11 +25,12 @@ export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Pen" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Pen" },
   { key: "PenFamily", label: "Family", getValue: (p) => resolvePenFamily(p.PenFamily), type: "string", group: "Pen" },
+  { key: "PenTech", label: "Tech", getValue: (p) => p.PenTech ?? '', type: "string", group: "Pen" },
   { key: "PenYear", label: "Year", getValue: (p) => p.PenYear, type: "number", group: "Pen" },
 ];
 
 export const PEN_DEFAULT_COLUMNS = [
-  "Brand", "PenId", "PenName", "PenFamily", "PenYear",
+  "Brand", "PenId", "PenName", "PenFamily", "PenTech", "PenYear",
 ];
 
 export const PEN_DEFAULT_VIEW: Step[] = [
