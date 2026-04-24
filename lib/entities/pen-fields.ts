@@ -21,7 +21,7 @@ export const PEN_FIELD_GROUPS = ["Pen", "Physical"];
 export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Pen" },
   { key: "FullName", label: "Full Name", getValue: (p) => p.PenName === p.PenId ? `${brandName(p.Brand)} ${p.PenId}` : `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`, type: "string", group: "Pen", computed: true },
-  { key: "Brand", label: "Brand", getValue: (p) => brandName(p.Brand), type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Pen" },
+  { key: "Brand", label: "Brand", getValue: (p) => brandName(p.Brand), type: "enum", enumValues: ["APPLE", "GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Pen" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Pen" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Pen" },
   { key: "PenFamily", label: "Family", getValue: (p) => resolvePenFamily(p.PenFamily), type: "string", group: "Pen" },

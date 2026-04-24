@@ -3,7 +3,7 @@
 import type { PenCompat } from "./drawtab-loader.js";
 import type { PenCompatGrouped } from "./schemas.js";
 
-export const BRANDS = ["DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
+export const BRANDS = ["APPLE", "DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 export const WACOM_ONLY = ["WACOM"];
 export const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
 export const TABLET_FAMILY_BRANDS = ["DIGIDRAW", "HUION", "WACOM", "XENCELABS", "XPPEN"];
