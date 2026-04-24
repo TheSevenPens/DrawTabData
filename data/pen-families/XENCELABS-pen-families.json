@@ -1,0 +1,22 @@
+{
+    "PenFamilies":  [
+                        {
+                            "EntityId":  "xencelabs.penfamily.xencelabs_3buttonpen",
+                            "Brand":  "XENCELABS",
+                            "FamilyId":  "Xencelabs_3ButtonPen",
+                            "FamilyName":  "Xencelabs 3-Button Pen series",
+                            "_id":  "ea22dde7-9e1d-4f20-98ff-bc163b6c37af",
+                            "_CreateDate":  "2026-04-23T00:00:00.000Z",
+                            "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
+                        },
+                        {
+                            "EntityId":  "xencelabs.penfamily.xencelabs_thinpen",
+                            "Brand":  "XENCELABS",
+                            "FamilyId":  "Xencelabs_ThinPen",
+                            "FamilyName":  "Xencelabs Thin Pen series",
+                            "_id":  "07ed23f3-3662-45be-8d51-11e0b6c37e6a",
+                            "_CreateDate":  "2026-04-23T00:00:00.000Z",
+                            "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
+                        }
+                    ]
+}
