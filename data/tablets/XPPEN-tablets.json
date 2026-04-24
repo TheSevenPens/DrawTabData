@@ -1,4 +1,4 @@
-﻿{
+{
     "DrawingTablets":  [
                            {
                                "Meta":  {
@@ -2604,8 +2604,8 @@
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                 "pd04b"
-                                                             ],
+                                                                "xppen.pen.pd04b"
+                                                            ],
                                              "ProductLink":  "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
                                              "Status":  "ACTIVE"
                                          },
