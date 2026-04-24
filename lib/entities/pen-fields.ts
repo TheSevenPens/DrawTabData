@@ -4,10 +4,10 @@ import type { FieldDef, Step } from "../pipeline/types.js";
 
 export type { Pen } from "../drawtab-loader.js";
 
-// Pages can call setPenFamilyNames() with a FamilyId -> FamilyName map
+// Pages can call setPenFamilyNames() with an EntityId -> FamilyName map
 // loaded from the pen-families data so that the "Family" column shows
-// the human-readable name instead of the raw id. Falls back to the raw
-// id when no map is set or the family is unknown.
+// the human-readable name instead of the raw EntityId. Falls back to the
+// raw EntityId when no map is set or the family is unknown.
 let penFamilyNames: Record<string, string> = {};
 export function setPenFamilyNames(map: Record<string, string>): void {
   penFamilyNames = map;

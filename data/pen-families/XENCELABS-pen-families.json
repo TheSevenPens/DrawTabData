@@ -1,22 +1,20 @@
 {
-    "PenFamilies":  [
-                        {
-                            "EntityId":  "xencelabs.penfamily.xencelabs_penv1",
-                            "Brand":  "XENCELABS",
-                            "FamilyId":  "Xencelabs_PenV1",
-                            "FamilyName":  "Xencelabs Pen V1 series",
-                            "_id":  "ea22dde7-9e1d-4f20-98ff-bc163b6c37af",
-                            "_CreateDate":  "2026-04-23T00:00:00.000Z",
-                            "_ModifiedDate":  "2026-04-24T00:00:00.000Z"
-                        },
-                        {
-                            "EntityId":  "xencelabs.penfamily.xencelabs_penv2",
-                            "Brand":  "XENCELABS",
-                            "FamilyId":  "Xencelabs_PenV2",
-                            "FamilyName":  "Xencelabs Pen V2 series",
-                            "_id":  "07ed23f3-3662-45be-8d51-11e0b6c37e6a",
-                            "_CreateDate":  "2026-04-23T00:00:00.000Z",
-                            "_ModifiedDate":  "2026-04-24T00:00:00.000Z"
-                        }
-                    ]
+  "PenFamilies": [
+    {
+      "EntityId": "xencelabs.penfamily.xencelabs_penv1",
+      "Brand": "XENCELABS",
+      "FamilyName": "Xencelabs Pen V1 series",
+      "_id": "ea22dde7-9e1d-4f20-98ff-bc163b6c37af",
+      "_CreateDate": "2026-04-23T00:00:00Z",
+      "_ModifiedDate": "2026-04-24T00:00:00Z"
+    },
+    {
+      "EntityId": "xencelabs.penfamily.xencelabs_penv2",
+      "Brand": "XENCELABS",
+      "FamilyName": "Xencelabs Pen V2 series",
+      "_id": "07ed23f3-3662-45be-8d51-11e0b6c37e6a",
+      "_CreateDate": "2026-04-23T00:00:00Z",
+      "_ModifiedDate": "2026-04-24T00:00:00Z"
+    }
+  ]
 }

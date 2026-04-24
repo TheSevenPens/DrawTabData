@@ -18,7 +18,7 @@
           "digidraw.pen.m3"
         ],
         "ProductLink": "https://www.turingdraw.com/page156",
-        "Family": "DigiDraw_TuringBasic"
+        "Family": "digidraw.tabletfamily.digidraw_turingbasic"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -57,7 +57,7 @@
           "digidraw.pen.m3"
         ],
         "ProductLink": "https://www.turingdraw.com/page156",
-        "Family": "DigiDraw_TuringBasic"
+        "Family": "digidraw.tabletfamily.digidraw_turingbasic"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -97,7 +97,7 @@
           "digidraw.pen.m3"
         ],
         "ProductLink": "https://www.turingdraw.com/page121",
-        "Family": "DigiDraw_TuringSmart"
+        "Family": "digidraw.tabletfamily.digidraw_turingsmart"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -136,7 +136,7 @@
           "digidraw.pen.m3"
         ],
         "ProductLink": "https://www.turingdraw.com/page121",
-        "Family": "DigiDraw_TuringSmart"
+        "Family": "digidraw.tabletfamily.digidraw_turingsmart"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -176,7 +176,7 @@
           "digidraw.pen.m5"
         ],
         "ProductLink": "https://www.turingdraw.com/page203",
-        "Family": "DigiDraw_TuringDisplay"
+        "Family": "digidraw.tabletfamily.digidraw_turing_display"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -238,7 +238,7 @@
           "digidraw.pen.m5"
         ],
         "ProductLink": "https://www.turingdraw.com/page120",
-        "Family": "DigiDraw_TuringDisplay"
+        "Family": "digidraw.tabletfamily.digidraw_turing_display"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",

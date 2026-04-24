@@ -1,4 +1,4 @@
-﻿{
+{
     "DrawingTablets":  [
                            {
                                "Meta":  {
@@ -179,7 +179,7 @@
                                                                  "wacom.pen.lp170"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_Bamboo_2011",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_2011",
                                              "AlternateNames":  [
                                                                     "Bamboo Pen \u0026 Touch S"
                                                                 ]
@@ -224,7 +224,7 @@
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTH-490.html",
-                                             "Family":  "Wacom_Intuos_2015"
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2015"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "1024",
@@ -264,7 +264,7 @@
                                                                  "wacom.pen.lp170e"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_Bamboo_2011",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_2011",
                                              "AlternateNames":  [
                                                                     "Bamboo Fun Pen \u0026 Touch M"
                                                                 ]
@@ -308,7 +308,7 @@
                                                              ],
                                              "ProductLink":  "https://www.parkablogs.com/node/12104",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_Intuos_2015"
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2015"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "1024",
@@ -431,7 +431,7 @@
                                                                  "wacom.pen.lp170"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_Bamboo_2011",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_2011",
                                              "AlternateNames":  [
                                                                     "Bamboo Pen S"
                                                                 ]
@@ -474,7 +474,7 @@
                                                                  "wacom.pen.lp190k"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
-                                             "Family":  "Wacom_OneByWacom_2019"
+                                             "Family":  "wacom.tabletfamily.wacom_onebywacom_2019"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -517,7 +517,7 @@
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-490.html",
-                                             "Family":  "Wacom_Intuos_2015"
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2015"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "1024",
@@ -642,7 +642,7 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-672.html",
-                                             "Family":  "Wacom_OneByWacom_2019"
+                                             "Family":  "wacom.tabletfamily.wacom_onebywacom_2019"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -684,7 +684,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_Intuos_2015"
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2015"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -726,7 +726,7 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/dtc121.html",
-                                             "Family":  "Wacom_OndPenDisplayGen2"
+                                             "Family":  "wacom.tabletfamily.wacom_ondpendisplaygen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -783,7 +783,7 @@
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTC133.html",
-                                             "Family":  "Wacom_OndPenDisplayGen1"
+                                             "Family":  "wacom.tabletfamily.wacom_ondpendisplaygen1"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -841,7 +841,7 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTC141.html",
-                                             "Family":  "Wacom_OndPenDisplayGen2"
+                                             "Family":  "wacom.tabletfamily.wacom_ondpendisplaygen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -952,7 +952,7 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
                                              "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth134.html",
-                                             "Family":  "Wacom_OndPenDisplayGen2"
+                                             "Family":  "wacom.tabletfamily.wacom_ondpendisplaygen2"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2761,7 +2761,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2012"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2012"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2804,7 +2804,7 @@
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-451.html",
-                                             "Family":  "Wacom_IntuosPro_2013"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2013"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2846,7 +2846,7 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html",
-                                             "Family":  "Wacom_IntuosPro_2017"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2017"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2930,7 +2930,7 @@
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-651.html",
-                                             "Family":  "Wacom_IntuosPro_2013"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2013"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2973,7 +2973,7 @@
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
-                                             "Family":  "Wacom_IntuosPro_2017"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2017"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3015,7 +3015,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2012"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2012"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3058,7 +3058,7 @@
                                              "ProductLink":  "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-851.html",
-                                             "Family":  "Wacom_IntuosPro_2013"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2013"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3101,7 +3101,7 @@
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html",
-                                             "Family":  "Wacom_IntuosPro_2017"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2017"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3143,7 +3143,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2009"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2009"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3186,7 +3186,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2009"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2009"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3229,7 +3229,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2012"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2012"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3270,7 +3270,7 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
-                                             "Family":  "Wacom_IntuosPro_2025"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2025"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3311,7 +3311,7 @@
                                                              ],
                                              "ProductLink":  "https://www.picmod.com/goods.php?id=143",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2009"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2009"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3353,7 +3353,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2009"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2009"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3396,7 +3396,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2012"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2012"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3438,7 +3438,7 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTK670.html",
-                                             "Family":  "Wacom_IntuosPro_2025"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2025"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3479,7 +3479,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2009"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2009"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3521,7 +3521,7 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
-                                             "Family":  "Wacom_IntuosPro_2025"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2025"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3562,7 +3562,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3604,7 +3604,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3646,7 +3646,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3688,7 +3688,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3730,7 +3730,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3772,7 +3772,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3814,7 +3814,7 @@
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2004"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2004"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3856,7 +3856,7 @@
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2001"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3898,7 +3898,7 @@
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2001"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3940,7 +3940,7 @@
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2001"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -3982,7 +3982,7 @@
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2001"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -4024,7 +4024,7 @@
                                                              ],
                                              "ProductLink":  "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
                                              "Status":  "DISCONTINUED",
-                                             "Family":  "Wacom_IntuosPro_2001"
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -4203,7 +4203,7 @@
                                              "Name":  "SD-510C",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4239,7 +4239,7 @@
                                              "Name":  "SD-420E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4275,7 +4275,7 @@
                                              "Name":  "SD-421E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4311,7 +4311,7 @@
                                              "Name":  "SD-422E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4347,7 +4347,7 @@
                                              "Name":  "SD-320E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4383,7 +4383,7 @@
                                              "Name":  "SD-321E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4419,7 +4419,7 @@
                                              "Name":  "SD-322E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4455,7 +4455,7 @@
                                              "Name":  "SD-310E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4491,7 +4491,7 @@
                                              "Name":  "SD-311E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4527,7 +4527,7 @@
                                              "Name":  "SD-312E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4563,7 +4563,7 @@
                                              "Name":  "SD-210L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4598,7 +4598,7 @@
                                              "Name":  "SD-013A",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4634,7 +4634,7 @@
                                              "Name":  "SD-013L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
-                                             "Family":  "Wacom_SD_1988",
+                                             "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
                                                              ],
@@ -4670,7 +4670,7 @@
                                              "Name":  "Intuos 4x5 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4706,7 +4706,7 @@
                                              "Name":  "Intuos 4x5 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4742,7 +4742,7 @@
                                              "Name":  "Intuos 4x5 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4778,7 +4778,7 @@
                                              "Name":  "Intuos 6x8 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4814,7 +4814,7 @@
                                              "Name":  "Intuos 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4850,7 +4850,7 @@
                                              "Name":  "Intuos 6x8 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4886,7 +4886,7 @@
                                              "Name":  "Intuos 9x12 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4922,7 +4922,7 @@
                                              "Name":  "Intuos 9x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4958,7 +4958,7 @@
                                              "Name":  "Intuos 9x12 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -4994,7 +4994,7 @@
                                              "Name":  "Intuos 12x12 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -5030,7 +5030,7 @@
                                              "Name":  "Intuos 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -5066,7 +5066,7 @@
                                              "Name":  "Intuos 12x18 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -5102,7 +5102,7 @@
                                              "Name":  "Intuos 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
-                                             "Family":  "Wacom_IntuosPro_1998",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
                                                              ],
@@ -5138,7 +5138,7 @@
                                              "Name":  "Intuos2 4x5 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
-                                             "Family":  "Wacom_IntuosPro_2001",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
                                                              ],
@@ -5174,7 +5174,7 @@
                                              "Name":  "Intuos2 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
-                                             "Family":  "Wacom_IntuosPro_2001",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
                                                              ],
@@ -5210,7 +5210,7 @@
                                              "Name":  "Intuos2 9x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
-                                             "Family":  "Wacom_IntuosPro_2001",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
                                                              ],
@@ -5246,7 +5246,7 @@
                                              "Name":  "Intuos2 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
-                                             "Family":  "Wacom_IntuosPro_2001",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
                                                              ],
@@ -5282,7 +5282,7 @@
                                              "Name":  "Intuos2 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
-                                             "Family":  "Wacom_IntuosPro_2001",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
                                                              ],
@@ -5318,7 +5318,7 @@
                                              "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
-                                             "Family":  "Wacom_BambooPen_2009",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp160e"
                                                              ],
@@ -5354,7 +5354,7 @@
                                              "Name":  "Bamboo Pen 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
-                                             "Family":  "Wacom_BambooPen_2009",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp160"
                                                              ],
@@ -5390,7 +5390,7 @@
                                              "Name":  "CTL-660",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
-                                             "Family":  "Wacom_BambooPen_2009",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp160"
                                                              ],
@@ -5426,7 +5426,7 @@
                                              "Name":  "Bamboo Fun Pen \u0026 Touch M 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
-                                             "Family":  "Wacom_Bamboo_2009",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp161e"
                                                              ],
@@ -5462,7 +5462,7 @@
                                              "Name":  "Bamboo Fun Pen \u0026 Touch S 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
-                                             "Family":  "Wacom_Bamboo_2009",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp161e"
                                                              ],
@@ -5498,7 +5498,7 @@
                                              "Name":  "One by Wacom 2012 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
-                                             "Family":  "Wacom_OneByWacom_2012",
+                                             "Family":  "wacom.tabletfamily.wacom_onebywacom_2012",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp171"
                                                              ],
@@ -5534,7 +5534,7 @@
                                              "Name":  "One by Wacom 2012 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
-                                             "Family":  "Wacom_OneByWacom_2012",
+                                             "Family":  "wacom.tabletfamily.wacom_onebywacom_2012",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp171"
                                                              ],
@@ -5570,7 +5570,7 @@
                                              "Name":  "CTL-680",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
-                                             "Family":  "Wacom_Intuos_2013",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180"
                                                              ],
@@ -5607,7 +5607,7 @@
                                              "Name":  "Intuos Pen \u0026 Touch M 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
-                                             "Family":  "Wacom_Intuos_2013",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180e"
                                                              ],
@@ -5643,7 +5643,7 @@
                                              "Name":  "CTL-480",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
-                                             "Family":  "Wacom_Intuos_2013",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180"
                                                              ],
@@ -5680,7 +5680,7 @@
                                              "Name":  "Intuos Pen \u0026 Touch S 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
-                                             "Family":  "Wacom_Intuos_2013",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180e"
                                                              ],

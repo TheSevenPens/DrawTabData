@@ -19,7 +19,7 @@
           "xencelabs.pen.thinv1"
         ],
         "ProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
-        "Family": "Xencelabs_PenTablet"
+        "Family": "xencelabs.tabletfamily.xencelabs_pentablet"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -60,7 +60,7 @@
           "xencelabs.pen.thinv1"
         ],
         "ProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
-        "Family": "Xencelabs_PenTablet"
+        "Family": "xencelabs.tabletfamily.xencelabs_pentablet"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -101,7 +101,7 @@
           "xencelabs.pen.thinv2"
         ],
         "ProductLink": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
-        "Family": "Xencelabs_PenTablet"
+        "Family": "xencelabs.tabletfamily.xencelabs_pentablet"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -142,7 +142,7 @@
           "xencelabs.pen.thinv2"
         ],
         "ProductLink": "https://www.xencelabs.com/us/products/pen-display",
-        "Family": "Xencelabs_PenDisplay"
+        "Family": "xencelabs.tabletfamily.xencelabs_pendisplay"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -197,7 +197,7 @@
           "xencelabs.pen.thinv2"
         ],
         "ProductLink": "https://www.xencelabs.com/us/products/pen-display-16-lite",
-        "Family": "Xencelabs_PenDisplay"
+        "Family": "xencelabs.tabletfamily.xencelabs_pendisplay"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",

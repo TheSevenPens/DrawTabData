@@ -194,7 +194,6 @@ export const PenSchema = v.strictObject({
 const FamilyFields = {
   EntityId: TrimmedString,
   Brand: BrandEnum,
-  FamilyId: TrimmedString,
   FamilyName: TrimmedString,
   _id: UuidString,
   _CreateDate: IsoDateString,

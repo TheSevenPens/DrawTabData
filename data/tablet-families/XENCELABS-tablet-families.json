@@ -1,22 +1,20 @@
 {
-    "TabletFamilies":  [
-                           {
-                               "EntityId":  "xencelabs.tabletfamily.xencelabs_pentablet",
-                               "Brand":  "XENCELABS",
-                               "FamilyId":  "Xencelabs_PenTablet",
-                               "FamilyName":  "Xencelabs Pen Tablet series",
-                               "_id":  "a3757b1f-12ec-4f01-b368-51bc46a77b00",
-                               "_CreateDate":  "2026-04-23T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
-                           },
-                           {
-                               "EntityId":  "xencelabs.tabletfamily.xencelabs_pendisplay",
-                               "Brand":  "XENCELABS",
-                               "FamilyId":  "Xencelabs_PenDisplay",
-                               "FamilyName":  "Xencelabs Pen Display series",
-                               "_id":  "3175885c-6d36-4487-8be6-898a1096174e",
-                               "_CreateDate":  "2026-04-23T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
-                           }
-                       ]
+  "TabletFamilies": [
+    {
+      "EntityId": "xencelabs.tabletfamily.xencelabs_pentablet",
+      "Brand": "XENCELABS",
+      "FamilyName": "Xencelabs Pen Tablet series",
+      "_id": "a3757b1f-12ec-4f01-b368-51bc46a77b00",
+      "_CreateDate": "2026-04-23T00:00:00Z",
+      "_ModifiedDate": "2026-04-23T00:00:00Z"
+    },
+    {
+      "EntityId": "xencelabs.tabletfamily.xencelabs_pendisplay",
+      "Brand": "XENCELABS",
+      "FamilyName": "Xencelabs Pen Display series",
+      "_id": "3175885c-6d36-4487-8be6-898a1096174e",
+      "_CreateDate": "2026-04-23T00:00:00Z",
+      "_ModifiedDate": "2026-04-23T00:00:00Z"
+    }
+  ]
 }

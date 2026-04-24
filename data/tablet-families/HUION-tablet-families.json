@@ -1,64 +1,58 @@
-﻿{
-    "TabletFamilies":  [
-                           {
-                               "EntityId":  "huion.tabletfamily.huion_inspiroy2",
-                               "Brand":  "HUION",
-                               "FamilyId":  "Huion_Inspiroy2",
-                               "FamilyName":  "Huion Inspiroy 2 series",
-                               "_id":  "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "H*P"
-                           },
-                           {
-                               "EntityId":  "huion.tabletfamily.huion_inspioyfrego",
-                               "Brand":  "HUION",
-                               "FamilyId":  "Huion_InspioyFrego",
-                               "FamilyName":  "Huion Inspiroy Frego series",
-                               "_id":  "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "Lx10"
-                           },
-                           {
-                               "EntityId":  "huion.tabletfamily.huion_kamvasgen3",
-                               "Brand":  "HUION",
-                               "FamilyId":  "Huion_KamvasGen3",
-                               "FamilyName":  "Huion Kamvas GEN3 series",
-                               "_id":  "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "GS*"
-                           },
-                           {
-                               "EntityId":  "huion.tabletfamily.huion_kamvaspro_2021",
-                               "Brand":  "HUION",
-                               "FamilyId":  "Huion_KamvasPro_2021",
-                               "FamilyName":  "Huion Kamvas Pro (2021) series",
-                               "_id":  "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "GT*"
-                           },
-                           {
-                               "EntityId":  "huion.tabletfamily.huion_kamvas_2020",
-                               "Brand":  "HUION",
-                               "FamilyId":  "Huion_Kamvas_2020",
-                               "FamilyName":  "Huion Kamvas (2020) series",
-                               "_id":  "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "GS*"
-                           },
-                           {
-                               "EntityId":  "huion.tabletfamily.huion_kamvaspro_2019",
-                               "Brand":  "HUION",
-                               "FamilyId":  "Huion_KamvasPro_2019",
-                               "FamilyName":  "Huion Kamvas Pro (2019) series",
-                               "_id":  "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "GT*"
-                           }
-                       ]
+{
+  "TabletFamilies": [
+    {
+      "EntityId": "huion.tabletfamily.huion_inspiroy2",
+      "Brand": "HUION",
+      "FamilyName": "Huion Inspiroy 2 series",
+      "_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "H*P"
+    },
+    {
+      "EntityId": "huion.tabletfamily.huion_inspiroyfrego",
+      "Brand": "HUION",
+      "FamilyName": "Huion Inspiroy Frego series",
+      "_id": "2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "Lx10"
+    },
+    {
+      "EntityId": "huion.tabletfamily.huion_kamvasgen3",
+      "Brand": "HUION",
+      "FamilyName": "Huion Kamvas GEN3 series",
+      "_id": "3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "GS*"
+    },
+    {
+      "EntityId": "huion.tabletfamily.huion_kamvaspro_2021",
+      "Brand": "HUION",
+      "FamilyName": "Huion Kamvas Pro (2021) series",
+      "_id": "4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "GT*"
+    },
+    {
+      "EntityId": "huion.tabletfamily.huion_kamvas_2020",
+      "Brand": "HUION",
+      "FamilyName": "Huion Kamvas (2020) series",
+      "_id": "5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "GS*"
+    },
+    {
+      "EntityId": "huion.tabletfamily.huion_kamvaspro_2019",
+      "Brand": "HUION",
+      "FamilyName": "Huion Kamvas Pro (2019) series",
+      "_id": "6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "GT*"
+    }
+  ]
 }

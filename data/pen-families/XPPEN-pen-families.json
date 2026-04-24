@@ -1,13 +1,12 @@
-﻿{
-    "PenFamilies":  [
-                        {
-                            "EntityId":  "xppen.penfamily.xppen_x3pro",
-                            "Brand":  "XPPEN",
-                            "FamilyId":  "XPPen_X3Pro",
-                            "FamilyName":  "XP-Pen X3 Pro pen series",
-                            "_id":  "41eb804a-d161-4ae5-87fa-45e8569ca52f",
-                            "_CreateDate":  "2026-04-07T01:30:00.000Z",
-                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
-                        }
-                    ]
+{
+  "PenFamilies": [
+    {
+      "EntityId": "xppen.penfamily.xppen_x3pro",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen X3 Pro pen series",
+      "_id": "41eb804a-d161-4ae5-87fa-45e8569ca52f",
+      "_CreateDate": "2026-04-07T01:30:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z"
+    }
+  ]
 }

@@ -1,184 +1,166 @@
-﻿{
-    "TabletFamilies":  [
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2025",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2025",
-                               "FamilyName":  "Wacom Intuos Pro 2025 tablet series",
-                               "_id":  "136d7dd8-c0de-46e0-818f-5135f6677ebd",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "PTK-x70"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2017",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2017",
-                               "FamilyName":  "Wacom Intuos Pro 2017 tablet series",
-                               "_id":  "4898bb42-c021-4897-a4a2-39d36cac8002",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "PTH-x60"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2013",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2013",
-                               "FamilyName":  "Wacom Intuos Pro 2013 tablet series",
-                               "_id":  "be000bef-c8b5-4bfa-943e-bc021cf5b74a",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "PTH-x51"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2012",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2012",
-                               "FamilyName":  "Wacom Intuos Pro 2012 tablet series",
-                               "_id":  "24e009c1-63a3-4596-bab2-a2669ec4aeeb",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "PTx-x50"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2009",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2009",
-                               "FamilyName":  "Wacom Intuos Pro 2009 tablet series",
-                               "_id":  "32f11114-0456-4dcb-95fe-fc78dc892eab",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "PTK-x40"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2004",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2004",
-                               "FamilyName":  "Wacom Intuos Pro 2004 tablet series",
-                               "_id":  "b820b073-719c-40c1-be16-2b90e5f7acf6",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "PTZ-x30"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_2001",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_2001",
-                               "FamilyName":  "Wacom Intuos Pro 2001 tablet series",
-                               "_id":  "3477793f-ae35-4ec7-9c9a-a63b4cb0657b",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "XD-*"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuospro_1998",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_IntuosPro_1998",
-                               "FamilyName":  "Wacom Intuos Pro 1998 tablet series",
-                               "_id":  "33ebe793-c213-414d-bf32-e429f633f364",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "GD-*"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_sd_1988",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_SD_1988",
-                               "FamilyName":  "Wacom SD 1988 tablet series",
-                               "_id":  "3faa932a-cd99-4d1d-9db2-2e19793e0064",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "SD-*"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_onebywacom_2019",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_OneByWacom_2019",
-                               "FamilyName":  "Wacom One By Wacom 2019 tablet series",
-                               "_id":  "d51b99e5-54c5-48cf-8fea-2920c55c880a",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTL-x72"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuos_2015",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_Intuos_2015",
-                               "FamilyName":  "Wacom Intuos 2015 tablet series",
-                               "_id":  "1e4e90aa-1266-44a9-b6c2-810839eec672",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTx-x90"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_bamboopen_2009",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_BambooPen_2009",
-                               "FamilyName":  "Wacom Bamboo Pen 2009 tablet series",
-                               "_id":  "1f844798-c6e2-4515-bd14-69860136baa2",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTx-x60"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_bamboo_2009",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_Bamboo_2009",
-                               "FamilyName":  "Wacom Bamboo 2009 tablet series",
-                               "_id":  "8d109b3b-a998-4057-9722-299307db0b24",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTH-x61"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_bamboo_2011",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_Bamboo_2011",
-                               "FamilyName":  "Wacom Bamboo 2011 tablet series",
-                               "_id":  "f06fe899-abd7-4ae9-af2c-76a85103f3e2",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTx-x70"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_onebywacom_2012",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_OneByWacom_2012",
-                               "FamilyName":  "Wacom One By Wacom 2012 tablet series",
-                               "_id":  "cb4dc414-cbeb-4db2-a1df-d9977171767a",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTx-x71"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_intuos_2013",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_Intuos_2013",
-                               "FamilyName":  "Wacom Intuos 2013 tablet series",
-                               "_id":  "7b18be90-472c-4ec0-86a8-0f076c1fd08a",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CTx-x80"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_ondpendisplaygen1",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_OndPenDisplayGen1",
-                               "FamilyName":  "Wacom One Pen Display Gen 1 tablet series",
-                               "_id":  "f8b6e6ad-f46f-4580-80e7-a84ef4f072a9",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "DTC-133"
-                           },
-                           {
-                               "EntityId":  "wacom.tabletfamily.wacom_ondpendisplaygen2",
-                               "Brand":  "WACOM",
-                               "FamilyId":  "Wacom_OndPenDisplayGen2",
-                               "FamilyName":  "Wacom One Pen Display Gen 2 tablet series",
-                               "_id":  "f080d036-4f2c-4e2c-ad06-eac37769570b",
-                               "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "DTx-1xx"
-                           }
-                       ]
+{
+  "TabletFamilies": [
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2025",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2025 tablet series",
+      "_id": "136d7dd8-c0de-46e0-818f-5135f6677ebd",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "PTK-x70"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2017",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2017 tablet series",
+      "_id": "4898bb42-c021-4897-a4a2-39d36cac8002",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "PTH-x60"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2013",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2013 tablet series",
+      "_id": "be000bef-c8b5-4bfa-943e-bc021cf5b74a",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "PTH-x51"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2012",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2012 tablet series",
+      "_id": "24e009c1-63a3-4596-bab2-a2669ec4aeeb",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "PTx-x50"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2009",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2009 tablet series",
+      "_id": "32f11114-0456-4dcb-95fe-fc78dc892eab",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "PTK-x40"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2004",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2004 tablet series",
+      "_id": "b820b073-719c-40c1-be16-2b90e5f7acf6",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "PTZ-x30"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_2001",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 2001 tablet series",
+      "_id": "3477793f-ae35-4ec7-9c9a-a63b4cb0657b",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "XD-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuospro_1998",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos Pro 1998 tablet series",
+      "_id": "33ebe793-c213-414d-bf32-e429f633f364",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "GD-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_sd_1988",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom SD 1988 tablet series",
+      "_id": "3faa932a-cd99-4d1d-9db2-2e19793e0064",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "SD-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_onebywacom_2019",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom One By Wacom 2019 tablet series",
+      "_id": "d51b99e5-54c5-48cf-8fea-2920c55c880a",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTL-x72"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuos_2015",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos 2015 tablet series",
+      "_id": "1e4e90aa-1266-44a9-b6c2-810839eec672",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTx-x90"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_bamboopen_2009",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Bamboo Pen 2009 tablet series",
+      "_id": "1f844798-c6e2-4515-bd14-69860136baa2",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTx-x60"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_bamboo_2009",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Bamboo 2009 tablet series",
+      "_id": "8d109b3b-a998-4057-9722-299307db0b24",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTH-x61"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_bamboo_2011",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Bamboo 2011 tablet series",
+      "_id": "f06fe899-abd7-4ae9-af2c-76a85103f3e2",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTx-x70"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_onebywacom_2012",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom One By Wacom 2012 tablet series",
+      "_id": "cb4dc414-cbeb-4db2-a1df-d9977171767a",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTx-x71"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuos_2013",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos 2013 tablet series",
+      "_id": "7b18be90-472c-4ec0-86a8-0f076c1fd08a",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CTx-x80"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_ondpendisplaygen1",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom One Pen Display Gen 1 tablet series",
+      "_id": "f8b6e6ad-f46f-4580-80e7-a84ef4f072a9",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "DTC-133"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_ondpendisplaygen2",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom One Pen Display Gen 2 tablet series",
+      "_id": "f080d036-4f2c-4e2c-ad06-eac37769570b",
+      "_CreateDate": "2026-04-01T09:11:12Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "DTx-1xx"
+    }
+  ]
 }

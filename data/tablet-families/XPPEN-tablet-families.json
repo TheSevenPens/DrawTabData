@@ -1,84 +1,76 @@
-﻿{
-    "TabletFamilies":  [
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_artistgen2",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_ArtistGen2",
-                               "FamilyName":  "XP-Pen Artist GEN2 series",
-                               "_id":  "b3f7a1c2-9d4e-4f8a-b5c6-d7e8f9012345",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CD*FH"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_artistprogen2_2023",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_ArtistProGen2_2023",
-                               "FamilyName":  "XP-Pen Artist Pro Gen2 2023 series",
-                               "_id":  "a2c4e6f8-1b3d-5a7c-9e0f-2d4b6a8c0e12",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "MD*"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_deco_2021",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_Deco_2021",
-                               "FamilyName":  "XP-Pen Deco 2021 series",
-                               "_id":  "c3d5e7f9-2a4b-6c8d-0e1f-3a5b7c9d1e23",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "IT*"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_decoprogen2",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_DecoProGen2",
-                               "FamilyName":  "XP-Pen Deco Pro GEN2 series",
-                               "_id":  "d4e6f8a0-3b5c-7d9e-1f2a-4b6c8d0e2f34",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "MT*B"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_decofun",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_DecoFun",
-                               "FamilyName":  "XP-Pen Deco Fun series",
-                               "_id":  "e5f7a9b1-4c6d-8e0f-2a3b-5c7d9e1f3a45",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CT*"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_decopro_2019",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_DecoPro_2019",
-                               "FamilyName":  "XP-Pen Deco Pro 2019 series",
-                               "_id":  "f6a8b0c2-5d7e-9f1a-3b4c-6d8e0f2a4b56",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "Deco Pro *"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_artistprogen1_2019",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_ArtistProGen1_2019",
-                               "FamilyName":  "XP-Pen Artist Pro Gen1 2019 series",
-                               "_id":  "a7b9c1d3-6e8f-0a2b-4c5d-7e9f1a3b5c67",
-                               "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "Artist*Pro"
-                           },
-                           {
-                               "EntityId":  "xppen.tabletfamily.xppen_artistgen3",
-                               "Brand":  "XPPEN",
-                               "FamilyId":  "XPPen_ArtistGen3",
-                               "FamilyName":  "XP-Pen Artist 3rd series",
-                               "_id":  "0aae1894-f91a-4678-99a3-3cdf5a736f40",
-                               "_CreateDate":  "2026-04-16T00:00:00.000Z",
-                               "_ModifiedDate":  "2026-04-21T00:00:00.000Z",
-                               "ModelPattern":  "CD*FH"
-                           }
-                       ]
+{
+  "TabletFamilies": [
+    {
+      "EntityId": "xppen.tabletfamily.xppen_artistgen2",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Artist GEN2 series",
+      "_id": "b3f7a1c2-9d4e-4f8a-b5c6-d7e8f9012345",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CD*FH"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_artistprogen2_2023",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Artist Pro Gen2 2023 series",
+      "_id": "a2c4e6f8-1b3d-5a7c-9e0f-2d4b6a8c0e12",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "MD*"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_deco_2021",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Deco 2021 series",
+      "_id": "c3d5e7f9-2a4b-6c8d-0e1f-3a5b7c9d1e23",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "IT*"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_decoprogen2",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Deco Pro GEN2 series",
+      "_id": "d4e6f8a0-3b5c-7d9e-1f2a-4b6c8d0e2f34",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "MT*B"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_decofun",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Deco Fun series",
+      "_id": "e5f7a9b1-4c6d-8e0f-2a3b-5c7d9e1f3a45",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CT*"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_decopro_2019",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Deco Pro 2019 series",
+      "_id": "f6a8b0c2-5d7e-9f1a-3b4c-6d8e0f2a4b56",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "Deco Pro *"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_artistprogen1_2019",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Artist Pro Gen1 2019 series",
+      "_id": "a7b9c1d3-6e8f-0a2b-4c5d-7e9f1a3b5c67",
+      "_CreateDate": "2026-04-13T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "Artist*Pro"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_artistgen3",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Artist 3rd series",
+      "_id": "0aae1894-f91a-4678-99a3-3cdf5a736f40",
+      "_CreateDate": "2026-04-16T00:00:00Z",
+      "_ModifiedDate": "2026-04-21T00:00:00Z",
+      "ModelPattern": "CD*FH"
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
     "DrawingTablets":  [
                            {
                                "Meta":  {
@@ -56,7 +56,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -117,7 +117,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -179,7 +179,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_KamvasGen3",
+                                             "Family":  "huion.tabletfamily.huion_kamvasgen3",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw600l"
                                                              ]
@@ -234,7 +234,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -296,7 +296,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_KamvasGen3",
+                                             "Family":  "huion.tabletfamily.huion_kamvasgen3",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw600l"
                                                              ],
@@ -358,7 +358,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -421,7 +421,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -484,7 +484,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -548,7 +548,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Kamvas_2020",
+                                             "Family":  "huion.tabletfamily.huion_kamvas_2020",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -980,7 +980,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2019",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2019",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw507"
                                                              ],
@@ -1043,7 +1043,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2021",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2021",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -1106,7 +1106,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2019",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2019",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw507"
                                                              ],
@@ -1169,7 +1169,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2021",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2021",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -1231,7 +1231,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2021",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2021",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -1293,7 +1293,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2021",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2021",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -1356,7 +1356,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2019",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2019",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw507"
                                                              ],
@@ -1603,7 +1603,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2019",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2019",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw500"
                                                              ],
@@ -1665,7 +1665,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2021",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2021",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -1728,7 +1728,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2021",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2021",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw517"
                                                              ],
@@ -1964,7 +1964,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Inspiroy2",
+                                             "Family":  "huion.tabletfamily.huion_inspiroy2",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw110"
                                                              ],
@@ -2421,7 +2421,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Inspiroy2",
+                                             "Family":  "huion.tabletfamily.huion_inspiroy2",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw110"
                                                              ],
@@ -2504,7 +2504,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_Inspiroy2",
+                                             "Family":  "huion.tabletfamily.huion_inspiroy2",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw110"
                                                              ],
@@ -2670,7 +2670,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_InspioyFrego",
+                                             "Family":  "huion.tabletfamily.huion_inspiroyfrego",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw550s"
                                                              ]
@@ -2711,7 +2711,7 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
                                              "Audience":  "Consumer",
-                                             "Family":  "Huion_InspioyFrego",
+                                             "Family":  "huion.tabletfamily.huion_inspiroyfrego",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw550s"
                                                              ]
@@ -3330,7 +3330,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2019",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2019",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw507"
                                                              ],
@@ -3393,7 +3393,7 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
                                              "Audience":  "Professional",
-                                             "Family":  "Huion_KamvasPro_2019",
+                                             "Family":  "huion.tabletfamily.huion_kamvaspro_2019",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw507"
                                                              ],
@@ -3537,7 +3537,7 @@
                                              "Name":  "Kamvas 22 GEN3",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2026",
-                                             "Family":  "Huion_KamvasGen3",
+                                             "Family":  "huion.tabletfamily.huion_kamvasgen3",
                                              "IncludedPen":  [
                                                                  "huion.pen.pw600l"
                                                              ]
