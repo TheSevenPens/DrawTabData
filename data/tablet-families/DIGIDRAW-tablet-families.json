@@ -1,0 +1,31 @@
+{
+    "TabletFamilies":  [
+                           {
+                               "EntityId":  "digidraw.tabletfamily.digidraw_turingbasic",
+                               "Brand":  "DIGIDRAW",
+                               "FamilyId":  "DigiDraw_TuringBasic",
+                               "FamilyName":  "DigiDraw Turing Basic series",
+                               "_id":  "35bc61c8-9a50-43d5-9bcf-4ba402ff7c4e",
+                               "_CreateDate":  "2026-04-23T00:00:00.000Z",
+                               "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
+                           },
+                           {
+                               "EntityId":  "digidraw.tabletfamily.digidraw_turingsmart",
+                               "Brand":  "DIGIDRAW",
+                               "FamilyId":  "DigiDraw_TuringSmart",
+                               "FamilyName":  "DigiDraw Turing Smart series",
+                               "_id":  "d751f9a8-8993-4f1a-a367-02818baa9f1c",
+                               "_CreateDate":  "2026-04-23T00:00:00.000Z",
+                               "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
+                           },
+                           {
+                               "EntityId":  "digidraw.tabletfamily.digidraw_turing_display",
+                               "Brand":  "DIGIDRAW",
+                               "FamilyId":  "DigiDraw_TuringDisplay",
+                               "FamilyName":  "DigiDraw Turing display series",
+                               "_id":  "6a815944-7308-4765-a0b0-44cfd962e4cf",
+                               "_CreateDate":  "2026-04-23T00:00:00.000Z",
+                               "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
+                           }
+                       ]
+}
