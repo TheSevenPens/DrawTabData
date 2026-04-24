@@ -1,4 +1,4 @@
-﻿{
+{
     "Pens":  [
                  {
                      "EntityId":  "xppen.pen.p01",
@@ -221,15 +221,15 @@
                      "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
                  },
                  {
-                     "EntityId":  "xppen.pen.x3notepadpen",
+                     "EntityId":  "xppen.pen.pd04b",
                      "Brand":  "XPPEN",
-                     "PenId":  "X3NotePadPen",
+                     "PenId":  "PD04B",
                      "PenName":  "X3 Note Pad Pen",
                      "PenFamily":  "",
                      "PenYear":  "",
                      "_id":  "f0abc248-e5fb-4439-88a9-d42c02c2fa7e",
                      "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-04-23T00:00:00.000Z"
                  }
              ]
 }
