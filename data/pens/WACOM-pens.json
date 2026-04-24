@@ -1,4 +1,4 @@
-﻿{
+{
     "Pens":  [
                  {
                      "EntityId":  "wacom.pen.sp200",
@@ -434,7 +434,7 @@
                      "Brand":  "WACOM",
                      "PenId":  "CP-923",
                      "PenName":  "Wacom One Standard Pen",
-                     "PenFamily":  "Wacom_OneGen2",
+                     "PenFamily":  "Wacom_WacomOneGen2",
                      "Tags":  [
                                   "UDEMR"
                               ],
@@ -448,7 +448,7 @@
                      "Brand":  "WACOM",
                      "PenId":  "CP-913",
                      "PenName":  "Wacom One Pen",
-                     "PenFamily":  "Wacom_OneGen1",
+                     "PenFamily":  "Wacom_WacomOneGen1",
                      "Tags":  [
                                   "UDEMR"
                               ],
