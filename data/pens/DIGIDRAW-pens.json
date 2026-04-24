@@ -1,11 +1,11 @@
-﻿{
+{
     "Pens":  [
                  {
                      "EntityId":  "digidraw.pen.m3",
                      "Brand":  "DIGIDRAW",
                      "PenId":  "M3",
                      "PenName":  "M3 Pen",
-                     "PenFamily":  "Magic Pen 3.0",
+                     "PenFamily":  "Magic_Pen_3.0",
                      "PenYear":  "",
                      "_id":  "2af5daca-68c1-42d4-9a1c-f9e7dbf47c78",
                      "_CreateDate":  "2026-04-20T00:00:00.000Z",
@@ -16,7 +16,7 @@
                      "Brand":  "DIGIDRAW",
                      "PenId":  "M5",
                      "PenName":  "M5 Pen",
-                     "PenFamily":  "Magic Pen 5.0",
+                     "PenFamily":  "Magic_Pen_5.0",
                      "PenYear":  "",
                      "_id":  "08bf5f70-5d18-4652-847d-a4c65afed2de",
                      "_CreateDate":  "2026-04-20T00:00:00.000Z",
