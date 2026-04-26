@@ -46,6 +46,74 @@ A high-level API that simplifies data access:
 Phase 1: DrawTabDataSet + lazy loading + fluent filter
 Phase 2: Auto-resolved relationships (getCompatiblePens, getCompatibleTablets, etc.)
 
+## TOOLING
+
+### Brand-specific spec scrapers
+
+Per-brand command-line scrapers that turn a product-page URL into a spec
+JSON suitable for `npm run add-tablet`. Scope:
+
+- `npm run scrape-xppen -- <url>` -> emits spec.json
+- `npm run scrape-huion -- <url>`
+- `npm run scrape-wacom -- <url>`
+
+Each scraper knows the page structure (or HTML pattern) for its
+manufacturer and produces the field mapping in `docs/IMPORTING-TABLETS.md`
+form. Output is JSON the user can review/edit before passing to
+`add-tablet`.
+
+Worth doing once we are importing more than ~1 tablet per month from any
+single brand. Until then, hand-mapping from a spec sheet (the workflow
+documented in IMPORTING-TABLETS.md) is fast enough now that
+`add-tablet` exists.
+
+### Spec extractor for offline spec sheets (.docx, .pdf)
+
+Variant of the brand scrapers above for cases where the spec arrives as
+a Word doc, PDF, or screenshot rather than a live URL. Less leverage
+than a live scraper because format varies wildly per source, but
+useful when manufacturer pages are gone or when working from press kits.
+
+### Inline data-quality on add
+
+Run `npm run data-quality` automatically after `add-tablet` writes a
+record, scoped to the affected brand file. Today the user runs it as a
+separate step; rolling it in catches issues immediately.
+
 ## KNOWN ISSUES
 
-None currently.
+### EntityId disambiguation when Model.Id is reused across generations
+
+Wacom shipped three different products under the same Model.Id "CT-0405-U":
+- 1997 PenPartner USB (EntityId: wacom.tablet.ct0405u)
+- 2004 PenPartner A8 USB (EntityId: wacom.tablet.ct0405u_2004)
+- 2005 PenPartner 2 (EntityId: wacom.tablet.ct0405u_2005)
+
+The 2004 and 2005 records use a "_<year>" suffix on the EntityId to
+disambiguate, since Brand+Type+Model.Id alone doesn't yield a unique key.
+
+The data-quality check in lib/data-quality.ts derives the expected
+EntityId from Brand+Type+Model.Id and therefore flags the two suffixed
+records as "does not match derived value".
+
+A similar pattern exists on three Huion tablets where the Model.Id itself
+contains a year suffix with an underscore (e.g. "unkkamvas16_2019"); the
+EntityId derivation strips non-alphanumerics, so the EntityId no longer
+matches.
+
+Three resolution options to weigh:
+
+1. **Rename Model.Id on the reissues** (e.g. CT-0405-U-2004). Cleanest
+   from the check's POV but invents a model code the manufacturer never
+   used; loses the truth that the products all shipped as the same SKU.
+
+2. **Teach the check about disambiguator suffixes** — accept the EntityId
+   if it equals <derived> or matches <derived>_\d{4}. Smallest change;
+   preserves the data as-is.
+
+3. **Add an explicit Model.IdSuffix field** that the derivation
+   incorporates (e.g. "IdSuffix": "2004" -> expected
+   wacom.tablet.ct0405u_2004). Most precise; small schema change.
+
+The two 2004/2005 records are also sparse — Model block only, no
+Digitizer or Physical groups. Filling those in is a separate cleanup.

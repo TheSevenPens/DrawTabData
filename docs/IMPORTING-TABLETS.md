@@ -7,11 +7,45 @@ manufacturer product page.
 
 1. Find the product page (xp-pen.com, huion.com, wacom.com, etc.)
 2. Extract specs and map them to our field names (see tables below)
-3. Look up the included pen's EntityId in the existing pen data
-4. Add the tablet entry to `data/tablets/BRAND-tablets.json`
-5. Run `npm run data-quality` to validate
-6. If the pen isn't in the dataset yet, add it to `data/pens/BRAND-pens.json`
+3. Look up the included pen's EntityId — `npm run find-or-add-pen -- "<name>"`
+4. If the pen isn't in the dataset yet, add it — `npm run find-or-add-pen -- --add <BRAND> <PenId> "<PenName>" [--year YYYY]`
+5. Author the spec as a JSON file (see "Spec input file" below) and run
+   `npm run add-tablet -- spec.json` — auto-fills `Meta`, validates against
+   the schema, and inserts into the brand's tablet file in the existing
+   format.
+6. Run `npm run data-quality` (or the faster `npm run validate-brand -- BRAND`)
 7. If the tablet has pen compatibility info, update `data/pen-compat/BRAND-pen-compat.json`
+
+The `add-tablet` script handles UUID, timestamps, derived EntityId, and
+Valibot validation. Use `--dry-run` to preview without writing.
+
+## Spec input file
+
+A spec file for `add-tablet` is a partial Tablet record — same shape as a
+full record, minus the `Meta` group (auto-filled). Example:
+
+```json
+{
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MNP1095",
+    "Name": "Magic Note Pad",
+    "Type": "STANDALONE",
+    "LaunchYear": "2025",
+    "Audience": "Consumer",
+    "IncludedPen": ["xppen.pen.x3propencilv2"],
+    "ProductLink": "https://www.xp-pen.com/product/magic-note-pad.html",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": { "Type": "PASSIVE_EMR", "PressureLevels": "16384", ... },
+  "Display": { "PixelDimensions": { "Width": 1920, "Height": 1200 }, ... },
+  "Physical": { "Dimensions": { ... }, "Weight": "495" },
+  "Standalone": { "OS": "Android 14", ... }
+}
+```
+
+If `Meta` is supplied (e.g. with a specific `_id`) it is preserved; missing
+fields inside `Meta` are filled.
 
 ## Record structure
 
@@ -83,6 +117,41 @@ Every tablet record must have these fields:
 |---|---|---|---|
 | Weight | `Physical.Weight` | grams | String: `"1447"`. Convert kg to g (multiply by 1000) |
 | Dimensions | `Physical.Dimensions` | mm | Object: `{ "Width": 442.91, "Height": 279.91, "Depth": 12.9 }`. Width = longest side |
+
+### Standalone (STANDALONE only)
+
+The `Standalone` group is required only when `Model.Type` is `STANDALONE`.
+The schema rejects this group on `PENTABLET` or `PENDISPLAY` records.
+
+| Product page label | JSON field | Unit | Conversion notes |
+|---|---|---|---|
+| Operating System | `Standalone.OS` | — | Free text: `"Android 14"`, `"Windows 11 Pro"` |
+| Processor / CPU | `Standalone.Processor` | — | Prefix with vendor: `"MediaTek MT8781"`, `"Intel Core i7-8559U"` |
+| GPU | `Standalone.GPU` | — | Free text. Omit if not listed (don't infer from CPU). |
+| RAM | `Standalone.RAM` | GB | String: `"6"` |
+| Storage / ROM | `Standalone.Storage` | GB | String: `"128"` |
+| Expandable Storage | `Standalone.ExpandableStorage` | — | `"YES"` or `"NO"` |
+| Memory Card Slot | `Standalone.MemoryCardSlot` | — | Free text: `"microSD"`, `"SDXC"` |
+| Battery Capacity | `Standalone.BatteryCapacity` | mAh | String: `"8000"` |
+| Battery Life | `Standalone.BatteryLife` | hours | String: `"12"` |
+| Charging Wattage / Power Adapter | `Standalone.BatteryChargingWatts` | W | String: `"20"`. From "Power Adapter 20W" or PD spec |
+| Wi-Fi | `Standalone.Wifi` | — | Standard string: `"802.11a/b/g/n/ac"`, `"Wi-Fi 6"` |
+| Bluetooth | `Standalone.Bluetooth` | — | Version string: `"5.2"` |
+| USB | `Standalone.USB` | — | Free text: `"USB-C (USB 2.0)"`, `"USB-C"` |
+| Speakers | `Standalone.Speakers` | — | `"YES"` or `"NO"`. Speaker count goes in count-style spec sheets but the field is binary. |
+| Front Camera | `Standalone.FrontCamera` | MP | String: `"5"` |
+| Rear Camera | `Standalone.RearCamera` | MP | String: `"13"` |
+
+For STANDALONE Android tablets, `Digitizer.SupportsTouch` is almost
+always `"YES"` (the OS shell needs touch). Confirm against the spec
+sheet rather than assuming.
+
+Spec-sheet items that don't map to any field (skip them):
+- Color / Silver White / etc.
+- Microphone count (no field)
+- Power Input (`PD 9V/2.22A` — captured via `BatteryChargingWatts`)
+- Power Cord rating (USB-C-to-USB-C 3A)
+- Initial Activation Force (this is a pen attribute; pen schema doesn't have it either)
 
 ### Model metadata
 

@@ -75,6 +75,41 @@ npm run set-family -- XPPenArtistGen2 CD100FH CD120FH CD130FH CD160FH
 **When to use:** After identifying a group of tablets that belong to a
 family. Replaces writing throwaway Node scripts for bulk assignment.
 
+### add-tablet
+
+Add a new tablet record. Reads a partial spec from a JSON file, auto-fills
+`Meta` (EntityId, _id, _CreateDate, _ModifiedDate), validates the full
+record against `TabletSchema`, and inserts into `data/tablets/<BRAND>-tablets.json`
+preserving the existing wide-indent format.
+
+```bash
+npm run add-tablet -- spec.json
+npm run add-tablet -- spec.json --dry-run    # preview without writing
+```
+
+See `docs/IMPORTING-TABLETS.md` for the spec file shape and field mapping.
+
+**When to use:** any new tablet import. Replaces hand-formatting JSON
+that would otherwise need to match PowerShell's wide-indent style by
+hand.
+
+### find-or-add-pen
+
+Find a pen by name/id, or add a new one in a single command.
+
+```bash
+npm run find-or-add-pen -- "X3 Pro Pencil"                    # search
+npm run find-or-add-pen -- --add XPPEN PD04B "X3 Note Pad Pen" --year 2024
+npm run find-or-add-pen -- --add XPPEN PD04B "X3 Note Pad Pen" --dry-run
+```
+
+Search matches against PenName, PenId, and EntityId (alphanumerics,
+case-insensitive). Add mode validates against `PenSchema` and writes
+to `data/pens/<BRAND>-pens.json` preserving wide-indent format.
+
+**When to use:** before adding a tablet, to confirm the included pen's
+EntityId or scaffold a missing pen record.
+
 ### validate-brand
 
 Run schema validation on a single brand's tablet file. Faster than the
@@ -102,11 +137,14 @@ without running the full cross-entity check.
 ### Importing a new tablet from a product page
 
 1. `npm run show-tablet -- ModelId` — check if it already exists
-2. Add the tablet JSON (see `docs/IMPORTING-TABLETS.md`)
-3. `npm run validate-brand -- BRAND` — quick validation
-4. `npm run find-unfamilied -- --brand BRAND` — check if it needs a family
-5. `npm run set-family -- FamilyId ModelId` — assign family if needed
-6. `npm run data-quality` — full validation before committing
+2. `npm run find-or-add-pen -- "<pen name>"` — confirm the included pen's EntityId
+   (use `--add` if it's missing)
+3. Author the spec JSON (see `docs/IMPORTING-TABLETS.md` for shape)
+4. `npm run add-tablet -- spec.json --dry-run` — preview the auto-filled record
+5. `npm run add-tablet -- spec.json` — write
+6. `npm run find-unfamilied -- --brand BRAND` — check if it needs a family
+7. `npm run set-family -- FamilyId ModelId` — assign family if needed
+8. `npm run data-quality` — full validation before committing
 
 ### Creating a new tablet family
 

@@ -15,6 +15,8 @@
     "show-family": "tsx scripts/show-family.ts",
     "set-family": "tsx scripts/set-family.ts",
     "validate-brand": "tsx scripts/validate-brand.ts",
+    "add-tablet": "tsx scripts/add-tablet.ts",
+    "find-or-add-pen": "tsx scripts/find-or-add-pen.ts",
     "build": "tsc"
   },
   "keywords": [

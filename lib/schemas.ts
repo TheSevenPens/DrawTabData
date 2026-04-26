@@ -36,7 +36,7 @@ const NumericString = v.pipe(
 const UuidString = v.pipe(TrimmedString, v.uuid("invalid UUID format"));
 const IsoDateString = v.pipe(TrimmedString, v.isoTimestamp("invalid ISO 8601 date"));
 
-const BrandEnum = v.picklist(["APPLE", "DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"]);
+const BrandEnum = v.picklist(["APPLE", "ASUS", "DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "STAEDTLER", "UGEE", "WACOM", "XENCELABS", "XPPEN"]);
 const YesNo = v.picklist(["YES", "NO"]);
 
 // --- Shared sub-shapes ---
@@ -78,6 +78,7 @@ const ModelSchema = v.strictObject({
   ProductLink: v.optional(TrimmedString),
   UserManual: v.optional(TrimmedString),
   Status: v.optional(v.picklist(["ACTIVE", "AVAILABLE", "DISCONTINUED"])),
+  Notes: v.optional(TrimmedString),
 });
 
 const DigitizerSchema = v.strictObject({
@@ -184,6 +185,7 @@ export const PenSchema = v.strictObject({
   Tilt: v.optional(YesNo),
   BarrelRotation: v.optional(YesNo),
   Tags: v.optional(v.array(TrimmedString)),
+  Notes: v.optional(TrimmedString),
   _id: UuidString,
   _CreateDate: IsoDateString,
   _ModifiedDate: IsoDateString,

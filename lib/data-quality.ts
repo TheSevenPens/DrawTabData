@@ -87,7 +87,7 @@ function checkTabletEntityId(t: RawRecord, file: string): Issue[] {
   const entityId = getNestedString(t, "Meta", "EntityId");
   if (brand && id) {
     const expected =
-      brand.toUpperCase() + ".TABLET." + id.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+      brand.toLowerCase() + ".tablet." + id.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
     if (entityId !== expected) {
       issues.push({
         file,
@@ -118,11 +118,11 @@ function checkDerivedEntityId(
   const entityId = getString(r, "EntityId");
   if (brand && id) {
     const expected =
-      brand.toUpperCase() +
+      brand.toLowerCase() +
       "." +
-      entityType +
+      entityType.toLowerCase() +
       "." +
-      id.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+      id.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
     if (entityId !== expected) {
       issues.push({
         file,
