@@ -1,195 +1,209 @@
 {
-  "PenCompat": [
-    {
-      "Brand": "XPPEN",
-      "PenId": "P01",
-      "TabletIds": [
-        "CT1060",
-        "CT430",
-        "CT640"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P01(16K)",
-      "TabletIds": [
-        "IT640"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P02S",
-      "TabletIds": [
-        "Artist16Pro",
-        "Artist22Pro"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P03",
-      "TabletIds": [
-        "Deco 01"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P05",
-      "TabletIds": [
-        "Artist15.6",
-        "Deco 01 V2",
-        "Deco 01 V3",
-        "Deco 03"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P05D",
-      "TabletIds": [
-        "Deco Mini 4",
-        "Deco Mini 7"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P05R",
-      "TabletIds": [
-        "CD240F"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P06",
-      "TabletIds": [
-        "Artist12",
-        "Deco 02"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "P55C",
-      "TabletIds": [
-        "Artist16"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PA1",
-      "TabletIds": [
-        "Deco Pro M",
-        "Deco Pro MW",
-        "Deco Pro S",
-        "Deco Pro SW"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PA2",
-      "TabletIds": [
-        "Artist12Pro",
-        "Artist13.3Pro",
-        "Artist22RPro",
-        "Artist24Pro"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PA5",
-      "TabletIds": [
-        "ID160F"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PA6",
-      "TabletIds": [
-        "CD220F",
-        "CD240Q"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PH02",
-      "TabletIds": [
-        "MD160U"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "X3ELITE",
-      "TabletIds": [
-        "CD120FH",
-        "CD130FH",
-        "CD160FH",
-        "IT1060",
-        "IT1060B",
-        "IT850",
-        "IT850B"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "X3ELITEPLUS",
-      "TabletIds": [
-        "CD100FH",
-        "CD120FH",
-        "CD130FH",
-        "CD160FH",
-        "ID160F-E",
-        "IT850",
-        "IT850B",
-        "IT1060",
-        "IT1060B"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PD21",
-      "TabletIds": [
-        "MD140FH",
-        "MD160QH",
-        "MD160UH",
-        "MD180UH",
-        "MD220FH",
-        "MD220QH",
-        "MD240QH",
-        "MD240UH",
-        "MT0962B",
-        "MT1172B",
-        "MT1592B"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PD51",
-      "TabletIds": [
-        "MD160UH",
-        "MD240QH",
-        "MD240UH",
-        "MDP1221"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PD22",
-      "TabletIds": [
-        "MD140FH",
-        "MD160QH",
-        "MD180UH",
-        "MD220FH",
-        "MD220QH",
-        "MD240QH",
-        "MD240UH",
-        "MT0962B",
-        "MT1172B",
-        "MT1592B"
-      ]
-    },
-    {
-      "Brand": "XPPEN",
-      "PenId": "PD04B",
-      "TabletIds": [
-        "9494G"
-      ]
-    }
-  ]
+    "PenCompat":  [
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P01",
+                          "TabletIds":  [
+                                            "CT1060",
+                                            "CT430",
+                                            "CT640",
+                                            "G640"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P01(16K)",
+                          "TabletIds":  [
+                                            "IT640"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P02S",
+                          "TabletIds":  [
+                                            "Artist16Pro",
+                                            "Artist22Pro"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P03",
+                          "TabletIds":  [
+                                            "Deco 01"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P05",
+                          "TabletIds":  [
+                                            "Artist15.6",
+                                            "Deco 01 V2",
+                                            "Deco 01 V3",
+                                            "Deco 03"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P05D",
+                          "TabletIds":  [
+                                            "Deco Mini 4",
+                                            "Deco Mini 7"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P05R",
+                          "TabletIds":  [
+                                            "CD240F"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P06",
+                          "TabletIds":  [
+                                            "Artist12",
+                                            "Deco 02"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "P55C",
+                          "TabletIds":  [
+                                            "Artist16"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PA1",
+                          "TabletIds":  [
+                                            "Deco Pro M",
+                                            "Deco Pro MW",
+                                            "Deco Pro S",
+                                            "Deco Pro SW"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PA2",
+                          "TabletIds":  [
+                                            "Artist12Pro",
+                                            "Artist13.3Pro",
+                                            "Artist22RPro",
+                                            "Artist24Pro"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PA5",
+                          "TabletIds":  [
+                                            "ID160F"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PA6",
+                          "TabletIds":  [
+                                            "CD220F",
+                                            "CD240Q"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PH02",
+                          "TabletIds":  [
+                                            "MD160U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "X3ELITE",
+                          "TabletIds":  [
+                                            "CD100FH",
+                                            "CD120FH",
+                                            "CD130FH",
+                                            "CD160FH",
+                                            "IT1060",
+                                            "IT1060B",
+                                            "IT850",
+                                            "IT850B"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "X3ELITEPLUS",
+                          "TabletIds":  [
+                                            "CD100FH",
+                                            "CD120FH",
+                                            "CD130FH",
+                                            "CD160FH",
+                                            "ID160F-E",
+                                            "IT850",
+                                            "IT850B",
+                                            "IT1060",
+                                            "IT1060B"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PD21",
+                          "TabletIds":  [
+                                            "MD140FH",
+                                            "MD160FH",
+                                            "MD160QH",
+                                            "MD160UH",
+                                            "MD180UH",
+                                            "MD220FH",
+                                            "MD220QH",
+                                            "MD240QH",
+                                            "MD240UH",
+                                            "MD270UH",
+                                            "MT0962B",
+                                            "MT1172B",
+                                            "MT1592B"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PD51",
+                          "TabletIds":  [
+                                            "MD160UH",
+                                            "MD240QH",
+                                            "MD240UH",
+                                            "MD270UH",
+                                            "MDP1221"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PD22",
+                          "TabletIds":  [
+                                            "MD140FH",
+                                            "MD160QH",
+                                            "MD180UH",
+                                            "MD220FH",
+                                            "MD220QH",
+                                            "MD240QH",
+                                            "MD240UH",
+                                            "MT0962B",
+                                            "MT1172B",
+                                            "MT1592B"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PD04B",
+                          "TabletIds":  [
+                                            "9494G",
+                                            "MNP1095"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XPPEN",
+                          "PenId":  "PD52",
+                          "TabletIds":  [
+                                            "CD121FH",
+                                            "CD161FH"
+                                        ]
+                      }
+                  ]
 }

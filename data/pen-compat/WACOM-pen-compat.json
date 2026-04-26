@@ -1,1126 +1,1272 @@
 {
-  "PenCompat": [
-    {
-      "Brand": "WACOM",
-      "PenId": "ACP-500",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTH-A116",
-        "DTH-A140",
-        "DTK-168",
-        "DTK-246",
-        "PTK-470",
-        "PTK-670",
-        "PTK-870"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "ACP-501E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-246",
-        "DTH-A116",
-        "DTH-A140",
-        "DTK-168",
-        "DTK-246"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "CP-913",
-      "TabletIds": [
-        "CTC-4110WL",
-        "CTC-6110WL",
-        "DTC-133",
-        "DTC-141",
-        "DTH-A116",
-        "DTH-A140"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "CP-923",
-      "TabletIds": [
-        "CTC-4110WL",
-        "CTC-6110WL",
-        "DTC-121",
-        "DTC-141",
-        "DTH-134",
-        "DTH-A116",
-        "DTH-A140"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "GP-110",
-      "TabletIds": [
-        "GD-0405",
-        "GD-0405-A",
-        "GD-0405-R",
-        "GD-0405-U",
-        "GD-0608",
-        "GD-0608-A",
-        "GD-0608-R",
-        "GD-0608-U",
-        "GD-0912",
-        "GD-0912-A",
-        "GD-0912-R",
-        "GD-0912-U",
-        "GD-1212",
-        "GD-1212-R",
-        "GD-1212-U",
-        "GD-1218",
-        "GD-1218-R",
-        "GD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "GP-120",
-      "TabletIds": [
-        "GD-0405",
-        "GD-0405-A",
-        "GD-0405-R",
-        "GD-0405-U",
-        "GD-0608",
-        "GD-0608-A",
-        "GD-0608-R",
-        "GD-0608-U",
-        "GD-0912",
-        "GD-0912-A",
-        "GD-0912-R",
-        "GD-0912-U",
-        "GD-1212",
-        "GD-1212-R",
-        "GD-1212-U",
-        "GD-1218",
-        "GD-1218-R",
-        "GD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "GP-300E",
-      "TabletIds": [
-        "GD-0405",
-        "GD-0405-A",
-        "GD-0405-R",
-        "GD-0405-U",
-        "GD-0608",
-        "GD-0608-A",
-        "GD-0608-R",
-        "GD-0608-U",
-        "GD-0912",
-        "GD-0912-A",
-        "GD-0912-R",
-        "GD-0912-U",
-        "GD-1212",
-        "GD-1212-R",
-        "GD-1212-U",
-        "GD-1218",
-        "GD-1218-R",
-        "GD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "GP-400E",
-      "TabletIds": [
-        "GD-0405",
-        "GD-0405-A",
-        "GD-0405-R",
-        "GD-0405-U",
-        "GD-0608",
-        "GD-0608-A",
-        "GD-0608-R",
-        "GD-0608-U",
-        "GD-0912",
-        "GD-0912-A",
-        "GD-0912-R",
-        "GD-0912-U",
-        "GD-1212",
-        "GD-1212-R",
-        "GD-1212-U",
-        "GD-1218",
-        "GD-1218-R",
-        "GD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-130",
-      "TabletIds": [
-        "DTK-2100",
-        "DTZ-2100"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-300E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-2260",
-        "DTZ-2100",
-        "PTH-450",
-        "PTH-451",
-        "PTH-460",
-        "PTH-650",
-        "PTH-651",
-        "PTH-660",
-        "PTH-850",
-        "PTH-851",
-        "PTH-860",
-        "PTK-1240",
-        "PTK-440",
-        "PTK-450",
-        "PTK-540WL",
-        "PTK-640",
-        "PTK-650",
-        "PTK-840"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-301E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-168",
-        "DTK-2100",
-        "DTK-2260",
-        "DTK-246",
-        "PTH-460",
-        "PTH-660",
-        "PTH-860"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-400E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-2100",
-        "DTK-2260",
-        "DTZ-2100",
-        "PTH-450",
-        "PTH-451",
-        "PTH-460",
-        "PTH-650",
-        "PTH-651",
-        "PTH-660",
-        "PTH-850",
-        "PTH-851",
-        "PTH-860",
-        "PTK-1240",
-        "PTK-440",
-        "PTK-450",
-        "PTK-540WL",
-        "PTK-640",
-        "PTK-650",
-        "PTK-840"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-501E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-168",
-        "DTK-2100",
-        "DTK-2260",
-        "DTK-246",
-        "DTZ-2100",
-        "PTH-450",
-        "PTH-451",
-        "PTH-460",
-        "PTH-650",
-        "PTH-651",
-        "PTH-660",
-        "PTH-850",
-        "PTH-851",
-        "PTH-860",
-        "PTK-1240",
-        "PTK-440",
-        "PTK-450",
-        "PTK-470",
-        "PTK-540WL",
-        "PTK-640",
-        "PTK-650",
-        "PTK-670",
-        "PTK-840",
-        "PTK-870"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-503E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-168",
-        "DTK-2260",
-        "DTK-246",
-        "PTH-450",
-        "PTH-451",
-        "PTH-460",
-        "PTH-650",
-        "PTH-651",
-        "PTH-660",
-        "PTH-850",
-        "PTH-851",
-        "PTH-860",
-        "PTK-1240",
-        "PTK-440",
-        "PTK-450",
-        "PTK-540WL",
-        "PTK-640",
-        "PTK-650",
-        "PTK-840"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-504E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-168",
-        "DTK-2260",
-        "DTK-246",
-        "PTH-460",
-        "PTH-660",
-        "PTH-860",
-        "PTK-470",
-        "PTK-670",
-        "PTK-870"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-505",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-168",
-        "DTK-2260",
-        "DTK-246",
-        "PTH-460",
-        "PTH-660",
-        "PTH-860"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-701E",
-      "TabletIds": [
-        "DTH-135",
-        "DTH-167",
-        "DTH-172",
-        "DTH-227",
-        "DTH-246",
-        "DTH-271",
-        "DTK-1660",
-        "DTK-168",
-        "DTK-2100",
-        "DTK-2260",
-        "DTK-246",
-        "DTZ-2100",
-        "PTH-450",
-        "PTH-451",
-        "PTH-460",
-        "PTH-650",
-        "PTH-651",
-        "PTH-660",
-        "PTH-850",
-        "PTH-851",
-        "PTH-860",
-        "PTK-1240",
-        "PTK-440",
-        "PTK-450",
-        "PTK-470",
-        "PTK-540WL",
-        "PTK-640",
-        "PTK-650",
-        "PTK-670",
-        "PTK-840",
-        "PTK-870"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-1100K",
-      "TabletIds": [
-        "CTL-4100",
-        "CTL-4100WL",
-        "CTL-6100",
-        "CTL-6100WL"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-160",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-160E",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-161E",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-170",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-170E",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-171",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-180",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-180E",
-      "TabletIds": [
-        "CTH-460",
-        "CTH-461",
-        "CTH-470",
-        "CTH-480",
-        "CTH-661",
-        "CTH-670",
-        "CTH-680",
-        "CTL-460",
-        "CTL-470",
-        "CTL-471",
-        "CTL-480",
-        "CTL-660",
-        "CTL-671",
-        "CTL-680"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-190",
-      "TabletIds": [
-        "CTH-490",
-        "CTH-690",
-        "CTL-472",
-        "CTL-490",
-        "CTL-672",
-        "CTL-690"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "LP-190K",
-      "TabletIds": [
-        "CTH-490",
-        "CTH-690",
-        "CTL-472",
-        "CTL-490",
-        "CTL-672",
-        "CTL-690"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "SP-200",
-      "TabletIds": [
-        "SD-013A",
-        "SD-013L",
-        "SD-210L",
-        "SD-310E",
-        "SD-311E",
-        "SD-312E",
-        "SD-320E",
-        "SD-321E",
-        "SD-322E",
-        "SD-420E",
-        "SD-421E",
-        "SD-422E",
-        "SD-510C"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "SP-200A",
-      "TabletIds": [
-        "SD-013A",
-        "SD-013L",
-        "SD-210L",
-        "SD-310E",
-        "SD-311E",
-        "SD-312E",
-        "SD-320E",
-        "SD-321E",
-        "SD-322E",
-        "SD-420E",
-        "SD-421E",
-        "SD-422E",
-        "SD-510C"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "SP-210",
-      "TabletIds": [
-        "SD-013A",
-        "SD-013L",
-        "SD-210L",
-        "SD-310E",
-        "SD-311E",
-        "SD-312E",
-        "SD-320E",
-        "SD-321E",
-        "SD-322E",
-        "SD-420E",
-        "SD-421E",
-        "SD-422E",
-        "SD-510C"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "SP-210A",
-      "TabletIds": [
-        "SD-013A",
-        "SD-013L",
-        "SD-210L",
-        "SD-310E",
-        "SD-311E",
-        "SD-312E",
-        "SD-320E",
-        "SD-321E",
-        "SD-322E",
-        "SD-420E",
-        "SD-421E",
-        "SD-422E",
-        "SD-510C"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "SP-300",
-      "TabletIds": [
-        "SD-013A",
-        "SD-013L",
-        "SD-210L",
-        "SD-310E",
-        "SD-311E",
-        "SD-312E",
-        "SD-320E",
-        "SD-321E",
-        "SD-322E",
-        "SD-420E",
-        "SD-421E",
-        "SD-422E",
-        "SD-510C"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "SP-310",
-      "TabletIds": [
-        "SD-013A",
-        "SD-013L",
-        "SD-210L",
-        "SD-310E",
-        "SD-311E",
-        "SD-312E",
-        "SD-320E",
-        "SD-321E",
-        "SD-322E",
-        "SD-420E",
-        "SD-421E",
-        "SD-422E",
-        "SD-510C"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "XP-110",
-      "TabletIds": [
-        "XD-0405-R",
-        "XD-0405-U",
-        "XD-0608-R",
-        "XD-0608-U",
-        "XD-0912-R",
-        "XD-0912-U",
-        "XD-1212-R",
-        "XD-1212-U",
-        "XD-1218-R",
-        "XD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "XP-120",
-      "TabletIds": [
-        "XD-0405-R",
-        "XD-0405-U",
-        "XD-0608-R",
-        "XD-0608-U",
-        "XD-0912-R",
-        "XD-0912-U",
-        "XD-1212-R",
-        "XD-1212-U",
-        "XD-1218-R",
-        "XD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "XP-300E",
-      "TabletIds": [
-        "XD-0405-R",
-        "XD-0405-U",
-        "XD-0608-R",
-        "XD-0608-U",
-        "XD-0912-R",
-        "XD-0912-U",
-        "XD-1212-R",
-        "XD-1212-U",
-        "XD-1218-R",
-        "XD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "XP-400E",
-      "TabletIds": [
-        "XD-0405-R",
-        "XD-0405-U",
-        "XD-0608-R",
-        "XD-0608-U",
-        "XD-0912-R",
-        "XD-0912-U",
-        "XD-1212-R",
-        "XD-1212-U",
-        "XD-1218-R",
-        "XD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "XP-501E",
-      "TabletIds": [
-        "XD-0405-R",
-        "XD-0405-U",
-        "XD-0608-R",
-        "XD-0608-U",
-        "XD-0912-R",
-        "XD-0912-U",
-        "XD-1212-R",
-        "XD-1212-U",
-        "XD-1218-R",
-        "XD-1218-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "ZP-130",
-      "TabletIds": [
-        "DTZ-1200W",
-        "DTZ-2000W",
-        "PTZ-1230",
-        "PTZ-1231W",
-        "PTZ-430",
-        "PTZ-431W",
-        "PTZ-630",
-        "PTZ-631W",
-        "PTZ-930"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "ZP-300E",
-      "TabletIds": [
-        "DTZ-1200W",
-        "DTZ-2000W",
-        "DTZ-2100",
-        "PTZ-1230",
-        "PTZ-1231W",
-        "PTZ-430",
-        "PTZ-431W",
-        "PTZ-630",
-        "PTZ-631W",
-        "PTZ-930"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "ZP-400E",
-      "TabletIds": [
-        "DTZ-1200W",
-        "DTZ-2000W",
-        "DTZ-2100",
-        "PTZ-1230",
-        "PTZ-1231W",
-        "PTZ-430",
-        "PTZ-431W",
-        "PTZ-630",
-        "PTZ-631W",
-        "PTZ-930"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "ZP-501E",
-      "TabletIds": [
-        "DTZ-1200W",
-        "DTZ-2000W",
-        "DTZ-2100",
-        "PTZ-1230",
-        "PTZ-1231W",
-        "PTZ-430",
-        "PTZ-431W",
-        "PTZ-630",
-        "PTZ-631W",
-        "PTZ-930"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "ZP-600",
-      "TabletIds": [
-        "DTZ-1200W",
-        "DTZ-2000W",
-        "DTZ-2100",
-        "PTZ-1230",
-        "PTZ-1231W",
-        "PTZ-430",
-        "PTZ-431W",
-        "PTZ-630",
-        "PTZ-631W",
-        "PTZ-930"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-150E",
-      "TabletIds": [
-        "MTE-450"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-911E",
-      "TabletIds": [
-        "PL-550",
-        "PL-710",
-        "PL-720",
-        "PL-800"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-155E",
-      "TabletIds": [
-        "CTE-450",
-        "CTE-650"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-812E",
-      "TabletIds": [
-        "FW-300"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-140E",
-      "TabletIds": [
-        "CTE-440",
-        "CTE-640"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-150",
-      "TabletIds": [
-        "CTE-460",
-        "CTE-660"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-130",
-      "TabletIds": [
-        "CTE-430",
-        "CTE-630",
-        "FB-630"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-130E",
-      "TabletIds": [
-        "CTE-630BT"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "FP-500",
-      "TabletIds": [
-        "CTF-430"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "FP-410",
-      "TabletIds": [
-        "CTF-221",
-        "CTF-420"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "FP-110",
-      "TabletIds": [
-        "FT-0203-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "FP-100",
-      "TabletIds": [
-        "FT-0405-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-120E",
-      "TabletIds": [
-        "ET-0405A-U",
-        "ET-0507A-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "EP-100E",
-      "TabletIds": [
-        "ET-0405-R",
-        "ET-0405-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-703E",
-      "TabletIds": [
-        "CT-0405-A",
-        "CT-0405-R",
-        "CT-0405-U"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-801E",
-      "TabletIds": [
-        "KT-0405-ANB",
-        "KT-0405-R",
-        "KT-0405-RNB",
-        "KT-0608-R",
-        "UD-0608-A",
-        "UD-0608-R",
-        "UD-1212-A",
-        "UD-1212-R",
-        "UD-1218-A",
-        "UD-1218-R",
-        "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-403E",
-      "TabletIds": [
-        "PTK-670"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-132",
-      "TabletIds": [
-        "PTH-660",
-        "PTH-860"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "KP-133",
-      "TabletIds": [
-        "PTH-660",
-        "PTH-860"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-801",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-811E",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-241",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-421",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-501",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-201",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-817E",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-813E",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-714W",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-211",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    },
-    {
-      "Brand": "WACOM",
-      "PenId": "UP-401",
-      "TabletIds": [
-        "CT-0405-U", "CT-0405-R", "CT-0405-A",
-        "KT-0405-R", "KT-0608-R", "KT-0405-RNB", "KT-0405-ANB", "KT-0405-A",
-        "PTU-600U",
-        "UD-0608-R", "UD-0608-A", "UD-1212-R", "UD-1212-A", "UD-1218-R", "UD-1218-A", "UD-1825-R"
-      ]
-    }
-  ]
+    "PenCompat":  [
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ACP-500",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-246",
+                                            "DTH-271",
+                                            "DTH-A116",
+                                            "DTH-A140",
+                                            "DTK-168",
+                                            "DTK-246",
+                                            "PTK-470",
+                                            "PTK-670",
+                                            "PTK-870"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ACP-501E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-246",
+                                            "DTH-A116",
+                                            "DTH-A140",
+                                            "DTK-168",
+                                            "DTK-246"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "CP-913",
+                          "TabletIds":  [
+                                            "CTC-4110WL",
+                                            "CTC-6110WL",
+                                            "DTC-133",
+                                            "DTC-141",
+                                            "DTH-A116",
+                                            "DTH-A140"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "CP-923",
+                          "TabletIds":  [
+                                            "CTC-4110WL",
+                                            "CTC-6110WL",
+                                            "DTC-121",
+                                            "DTC-141",
+                                            "DTH-134",
+                                            "DTH-A116",
+                                            "DTH-A140"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "GP-110",
+                          "TabletIds":  [
+                                            "GD-0405",
+                                            "GD-0405-A",
+                                            "GD-0405-R",
+                                            "GD-0405-U",
+                                            "GD-0608",
+                                            "GD-0608-A",
+                                            "GD-0608-R",
+                                            "GD-0608-U",
+                                            "GD-0912",
+                                            "GD-0912-A",
+                                            "GD-0912-R",
+                                            "GD-0912-U",
+                                            "GD-1212",
+                                            "GD-1212-R",
+                                            "GD-1212-U",
+                                            "GD-1218",
+                                            "GD-1218-R",
+                                            "GD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "GP-120",
+                          "TabletIds":  [
+                                            "GD-0405",
+                                            "GD-0405-A",
+                                            "GD-0405-R",
+                                            "GD-0405-U",
+                                            "GD-0608",
+                                            "GD-0608-A",
+                                            "GD-0608-R",
+                                            "GD-0608-U",
+                                            "GD-0912",
+                                            "GD-0912-A",
+                                            "GD-0912-R",
+                                            "GD-0912-U",
+                                            "GD-1212",
+                                            "GD-1212-R",
+                                            "GD-1212-U",
+                                            "GD-1218",
+                                            "GD-1218-R",
+                                            "GD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "GP-300E",
+                          "TabletIds":  [
+                                            "GD-0405",
+                                            "GD-0405-A",
+                                            "GD-0405-R",
+                                            "GD-0405-U",
+                                            "GD-0608",
+                                            "GD-0608-A",
+                                            "GD-0608-R",
+                                            "GD-0608-U",
+                                            "GD-0912",
+                                            "GD-0912-A",
+                                            "GD-0912-R",
+                                            "GD-0912-U",
+                                            "GD-1212",
+                                            "GD-1212-R",
+                                            "GD-1212-U",
+                                            "GD-1218",
+                                            "GD-1218-R",
+                                            "GD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "GP-400E",
+                          "TabletIds":  [
+                                            "GD-0405",
+                                            "GD-0405-A",
+                                            "GD-0405-R",
+                                            "GD-0405-U",
+                                            "GD-0608",
+                                            "GD-0608-A",
+                                            "GD-0608-R",
+                                            "GD-0608-U",
+                                            "GD-0912",
+                                            "GD-0912-A",
+                                            "GD-0912-R",
+                                            "GD-0912-U",
+                                            "GD-1212",
+                                            "GD-1212-R",
+                                            "GD-1212-U",
+                                            "GD-1218",
+                                            "GD-1218-R",
+                                            "GD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-130",
+                          "TabletIds":  [
+                                            "DTK-2100",
+                                            "DTZ-2100"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-300E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-271",
+                                            "DTK-1660",
+                                            "DTK-2260",
+                                            "DTZ-2100",
+                                            "PTH-450",
+                                            "PTH-451",
+                                            "PTH-460",
+                                            "PTH-650",
+                                            "PTH-651",
+                                            "PTH-660",
+                                            "PTH-850",
+                                            "PTH-851",
+                                            "PTH-860",
+                                            "PTK-1240",
+                                            "PTK-440",
+                                            "PTK-450",
+                                            "PTK-540WL",
+                                            "PTK-640",
+                                            "PTK-650",
+                                            "PTK-840"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-301E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-246",
+                                            "DTH-271",
+                                            "DTK-1660",
+                                            "DTK-168",
+                                            "DTK-2100",
+                                            "DTK-2260",
+                                            "DTK-246",
+                                            "PTH-460",
+                                            "PTH-660",
+                                            "PTH-860"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-400E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-271",
+                                            "DTK-1660",
+                                            "DTK-2100",
+                                            "DTK-2260",
+                                            "DTZ-2100",
+                                            "PTH-450",
+                                            "PTH-451",
+                                            "PTH-460",
+                                            "PTH-650",
+                                            "PTH-651",
+                                            "PTH-660",
+                                            "PTH-850",
+                                            "PTH-851",
+                                            "PTH-860",
+                                            "PTK-1240",
+                                            "PTK-440",
+                                            "PTK-450",
+                                            "PTK-540WL",
+                                            "PTK-640",
+                                            "PTK-650",
+                                            "PTK-840"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-501E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-246",
+                                            "DTH-271",
+                                            "DTK-1660",
+                                            "DTK-168",
+                                            "DTK-2100",
+                                            "DTK-2200",
+                                            "DTK-2260",
+                                            "DTK-2400",
+                                            "DTK-246",
+                                            "DTZ-2100",
+                                            "PTH-450",
+                                            "PTH-451",
+                                            "PTH-460",
+                                            "PTH-650",
+                                            "PTH-651",
+                                            "PTH-660",
+                                            "PTH-850",
+                                            "PTH-851",
+                                            "PTH-860",
+                                            "PTK-1240",
+                                            "PTK-440",
+                                            "PTK-450",
+                                            "PTK-470",
+                                            "PTK-540WL",
+                                            "PTK-640",
+                                            "PTK-650",
+                                            "PTK-670",
+                                            "PTK-840",
+                                            "PTK-870"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-503E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-246",
+                                            "DTH-2700",
+                                            "DTH-271",
+                                            "DTK-1300",
+                                            "DTK-1660",
+                                            "DTK-168",
+                                            "DTK-2260",
+                                            "DTK-246",
+                                            "DTK-2700",
+                                            "PTH-450",
+                                            "PTH-451",
+                                            "PTH-460",
+                                            "PTH-650",
+                                            "PTH-651",
+                                            "PTH-660",
+                                            "PTH-850",
+                                            "PTH-851",
+                                            "PTH-860",
+                                            "PTK-1240",
+                                            "PTK-440",
+                                            "PTK-450",
+                                            "PTK-540WL",
+                                            "PTK-640",
+                                            "PTK-650",
+                                            "PTK-840"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-504E",
+                          "TabletIds":  [
+                                            "DTH-1320",
+                                            "DTH-135",
+                                            "DTH-1620",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-2420",
+                                            "DTH-246",
+                                            "DTH-271",
+                                            "DTH-3220",
+                                            "DTH-W1321",
+                                            "DTH-W1620",
+                                            "DTH-W1621",
+                                            "DTK-1660",
+                                            "DTK-168",
+                                            "DTK-2260",
+                                            "DTK-2420",
+                                            "DTK-246",
+                                            "PTH-460",
+                                            "PTH-660",
+                                            "PTH-860",
+                                            "PTK-470",
+                                            "PTK-670",
+                                            "PTK-870"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-505",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-246",
+                                            "DTH-271",
+                                            "DTK-1660",
+                                            "DTK-168",
+                                            "DTK-2260",
+                                            "DTK-246",
+                                            "PTH-460",
+                                            "PTH-660",
+                                            "PTH-860"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-701E",
+                          "TabletIds":  [
+                                            "DTH-135",
+                                            "DTH-167",
+                                            "DTH-172",
+                                            "DTH-227",
+                                            "DTH-246",
+                                            "DTH-271",
+                                            "DTK-1660",
+                                            "DTK-168",
+                                            "DTK-2100",
+                                            "DTK-2260",
+                                            "DTK-246",
+                                            "DTZ-2100",
+                                            "PTH-450",
+                                            "PTH-451",
+                                            "PTH-460",
+                                            "PTH-650",
+                                            "PTH-651",
+                                            "PTH-660",
+                                            "PTH-850",
+                                            "PTH-851",
+                                            "PTH-860",
+                                            "PTK-1240",
+                                            "PTK-440",
+                                            "PTK-450",
+                                            "PTK-470",
+                                            "PTK-540WL",
+                                            "PTK-640",
+                                            "PTK-650",
+                                            "PTK-670",
+                                            "PTK-840",
+                                            "PTK-870"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-1100K",
+                          "TabletIds":  [
+                                            "CTL-4100",
+                                            "CTL-4100WL",
+                                            "CTL-6100",
+                                            "CTL-6100WL"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-160",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-160E",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-161E",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-170",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-170E",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-171",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-180",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-180E",
+                          "TabletIds":  [
+                                            "CTH-460",
+                                            "CTH-461",
+                                            "CTH-470",
+                                            "CTH-480",
+                                            "CTH-661",
+                                            "CTH-670",
+                                            "CTH-680",
+                                            "CTL-460",
+                                            "CTL-470",
+                                            "CTL-471",
+                                            "CTL-480",
+                                            "CTL-660",
+                                            "CTL-671",
+                                            "CTL-680"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-190",
+                          "TabletIds":  [
+                                            "CTH-490",
+                                            "CTH-690",
+                                            "CTL-472",
+                                            "CTL-490",
+                                            "CTL-672",
+                                            "CTL-690"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "LP-190K",
+                          "TabletIds":  [
+                                            "CTH-490",
+                                            "CTH-690",
+                                            "CTL-472",
+                                            "CTL-490",
+                                            "CTL-672",
+                                            "CTL-690"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "SP-200",
+                          "TabletIds":  [
+                                            "SD-013A",
+                                            "SD-013L",
+                                            "SD-210L",
+                                            "SD-310E",
+                                            "SD-311E",
+                                            "SD-312E",
+                                            "SD-320E",
+                                            "SD-321E",
+                                            "SD-322E",
+                                            "SD-420E",
+                                            "SD-421E",
+                                            "SD-422E",
+                                            "SD-510C"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "SP-200A",
+                          "TabletIds":  [
+                                            "SD-013A",
+                                            "SD-013L",
+                                            "SD-210L",
+                                            "SD-310E",
+                                            "SD-311E",
+                                            "SD-312E",
+                                            "SD-320E",
+                                            "SD-321E",
+                                            "SD-322E",
+                                            "SD-420E",
+                                            "SD-421E",
+                                            "SD-422E",
+                                            "SD-510C"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "SP-210",
+                          "TabletIds":  [
+                                            "SD-013A",
+                                            "SD-013L",
+                                            "SD-210L",
+                                            "SD-310E",
+                                            "SD-311E",
+                                            "SD-312E",
+                                            "SD-320E",
+                                            "SD-321E",
+                                            "SD-322E",
+                                            "SD-420E",
+                                            "SD-421E",
+                                            "SD-422E",
+                                            "SD-510C"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "SP-210A",
+                          "TabletIds":  [
+                                            "SD-013A",
+                                            "SD-013L",
+                                            "SD-210L",
+                                            "SD-310E",
+                                            "SD-311E",
+                                            "SD-312E",
+                                            "SD-320E",
+                                            "SD-321E",
+                                            "SD-322E",
+                                            "SD-420E",
+                                            "SD-421E",
+                                            "SD-422E",
+                                            "SD-510C"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "SP-300",
+                          "TabletIds":  [
+                                            "SD-013A",
+                                            "SD-013L",
+                                            "SD-210L",
+                                            "SD-310E",
+                                            "SD-311E",
+                                            "SD-312E",
+                                            "SD-320E",
+                                            "SD-321E",
+                                            "SD-322E",
+                                            "SD-420E",
+                                            "SD-421E",
+                                            "SD-422E",
+                                            "SD-510C"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "SP-310",
+                          "TabletIds":  [
+                                            "SD-013A",
+                                            "SD-013L",
+                                            "SD-210L",
+                                            "SD-310E",
+                                            "SD-311E",
+                                            "SD-312E",
+                                            "SD-320E",
+                                            "SD-321E",
+                                            "SD-322E",
+                                            "SD-420E",
+                                            "SD-421E",
+                                            "SD-422E",
+                                            "SD-510C"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "XP-110",
+                          "TabletIds":  [
+                                            "XD-0405-R",
+                                            "XD-0405-U",
+                                            "XD-0608-R",
+                                            "XD-0608-U",
+                                            "XD-0912-R",
+                                            "XD-0912-U",
+                                            "XD-1212-R",
+                                            "XD-1212-U",
+                                            "XD-1218-R",
+                                            "XD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "XP-120",
+                          "TabletIds":  [
+                                            "XD-0405-R",
+                                            "XD-0405-U",
+                                            "XD-0608-R",
+                                            "XD-0608-U",
+                                            "XD-0912-R",
+                                            "XD-0912-U",
+                                            "XD-1212-R",
+                                            "XD-1212-U",
+                                            "XD-1218-R",
+                                            "XD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "XP-300E",
+                          "TabletIds":  [
+                                            "XD-0405-R",
+                                            "XD-0405-U",
+                                            "XD-0608-R",
+                                            "XD-0608-U",
+                                            "XD-0912-R",
+                                            "XD-0912-U",
+                                            "XD-1212-R",
+                                            "XD-1212-U",
+                                            "XD-1218-R",
+                                            "XD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "XP-400E",
+                          "TabletIds":  [
+                                            "XD-0405-R",
+                                            "XD-0405-U",
+                                            "XD-0608-R",
+                                            "XD-0608-U",
+                                            "XD-0912-R",
+                                            "XD-0912-U",
+                                            "XD-1212-R",
+                                            "XD-1212-U",
+                                            "XD-1218-R",
+                                            "XD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "XP-501E",
+                          "TabletIds":  [
+                                            "XD-0405-R",
+                                            "XD-0405-U",
+                                            "XD-0608-R",
+                                            "XD-0608-U",
+                                            "XD-0912-R",
+                                            "XD-0912-U",
+                                            "XD-1212-R",
+                                            "XD-1212-U",
+                                            "XD-1218-R",
+                                            "XD-1218-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ZP-130",
+                          "TabletIds":  [
+                                            "DTZ-1200W",
+                                            "DTZ-2000W",
+                                            "PTZ-1230",
+                                            "PTZ-1231W",
+                                            "PTZ-430",
+                                            "PTZ-431W",
+                                            "PTZ-630",
+                                            "PTZ-631W",
+                                            "PTZ-930"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ZP-300E",
+                          "TabletIds":  [
+                                            "DTZ-1200W",
+                                            "DTZ-2000W",
+                                            "DTZ-2100",
+                                            "PTZ-1230",
+                                            "PTZ-1231W",
+                                            "PTZ-430",
+                                            "PTZ-431W",
+                                            "PTZ-630",
+                                            "PTZ-631W",
+                                            "PTZ-930"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ZP-400E",
+                          "TabletIds":  [
+                                            "DTZ-1200W",
+                                            "DTZ-2000W",
+                                            "DTZ-2100",
+                                            "PTZ-1230",
+                                            "PTZ-1231W",
+                                            "PTZ-430",
+                                            "PTZ-431W",
+                                            "PTZ-630",
+                                            "PTZ-631W",
+                                            "PTZ-930"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ZP-501E",
+                          "TabletIds":  [
+                                            "DTZ-1200W",
+                                            "DTZ-2000W",
+                                            "DTZ-2100",
+                                            "PTZ-1230",
+                                            "PTZ-1231W",
+                                            "PTZ-430",
+                                            "PTZ-431W",
+                                            "PTZ-630",
+                                            "PTZ-631W",
+                                            "PTZ-930"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "ZP-600",
+                          "TabletIds":  [
+                                            "DTZ-1200W",
+                                            "DTZ-2000W",
+                                            "DTZ-2100",
+                                            "PTZ-1230",
+                                            "PTZ-1231W",
+                                            "PTZ-430",
+                                            "PTZ-431W",
+                                            "PTZ-630",
+                                            "PTZ-631W",
+                                            "PTZ-930"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-150E",
+                          "TabletIds":  [
+                                            "MTE-450"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-911E",
+                          "TabletIds":  [
+                                            "PL-550",
+                                            "PL-710",
+                                            "PL-720",
+                                            "PL-800"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-155E",
+                          "TabletIds":  [
+                                            "CTE-450",
+                                            "CTE-650"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-812E",
+                          "TabletIds":  [
+                                            "FW-300"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-140E",
+                          "TabletIds":  [
+                                            "CTE-440",
+                                            "CTE-640"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-150",
+                          "TabletIds":  [
+                                            "CTE-460",
+                                            "CTE-660"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-130",
+                          "TabletIds":  [
+                                            "CTE-430",
+                                            "CTE-630",
+                                            "FB-630"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-130E",
+                          "TabletIds":  [
+                                            "CTE-630BT"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "FP-500",
+                          "TabletIds":  [
+                                            "CTF-430"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "FP-410",
+                          "TabletIds":  [
+                                            "CTF-221",
+                                            "CTF-420"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "FP-110",
+                          "TabletIds":  [
+                                            "FT-0203-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "FP-100",
+                          "TabletIds":  [
+                                            "FT-0405-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-120E",
+                          "TabletIds":  [
+                                            "ET-0405A-U",
+                                            "ET-0507A-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "EP-100E",
+                          "TabletIds":  [
+                                            "ET-0405-R",
+                                            "ET-0405-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-703E",
+                          "TabletIds":  [
+                                            "CT-0405-A",
+                                            "CT-0405-R",
+                                            "CT-0405-U"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-801E",
+                          "TabletIds":  [
+                                            "KT-0405-A",
+                                            "KT-0405-ANB",
+                                            "KT-0405-R",
+                                            "KT-0405-RNB",
+                                            "KT-0608-R",
+                                            "UD-0608-A",
+                                            "UD-0608-R",
+                                            "UD-1212-A",
+                                            "UD-1212-R",
+                                            "UD-1218-A",
+                                            "UD-1218-R",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-403E",
+                          "TabletIds":  [
+                                            "PTK-670"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-132",
+                          "TabletIds":  [
+                                            "PTH-660",
+                                            "PTH-860"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "KP-133",
+                          "TabletIds":  [
+                                            "PTH-660",
+                                            "PTH-860"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-801",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-811E",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-241",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-421",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-501",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-201",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-817E",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-813E",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-714W",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-211",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
+                          "PenId":  "UP-401",
+                          "TabletIds":  [
+                                            "CT-0405-U",
+                                            "CT-0405-R",
+                                            "CT-0405-A",
+                                            "KT-0405-R",
+                                            "KT-0608-R",
+                                            "KT-0405-RNB",
+                                            "KT-0405-ANB",
+                                            "KT-0405-A",
+                                            "PTU-600U",
+                                            "UD-0608-R",
+                                            "UD-0608-A",
+                                            "UD-1212-R",
+                                            "UD-1212-A",
+                                            "UD-1218-R",
+                                            "UD-1218-A",
+                                            "UD-1825-R"
+                                        ]
+                      }
+                  ]
 }

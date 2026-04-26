@@ -1,227 +1,228 @@
 {
-  "PenCompat": [
-    {
-      "Brand": "HUION",
-      "PenId": "PE150",
-      "TabletIds": [
-        "WH1409(8192)"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PE330",
-      "TabletIds": [
-        "GT-156HDV2",
-        "GT-220V2",
-        "GT191"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PEN68",
-      "TabletIds": [
-        "H420"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PEN68D",
-      "TabletIds": [
-        "GT-190"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PEN80",
-      "TabletIds": [
-        "H610PRO",
-        "NEW 1060 PLUS"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PF150",
-      "TabletIds": [
-        "Q11K"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW100",
-      "TabletIds": [
-        "H1060P",
-        "H1161",
-        "H320M",
-        "H420X",
-        "H610",
-        "H610PRO V2",
-        "H610X",
-        "H640P",
-        "H950P",
-        "HS610",
-        "HS64"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW110",
-      "TabletIds": [
-        "H1061P",
-        "H641P",
-        "H951P"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW201",
-      "TabletIds": [
-        "H430P"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW400",
-      "TabletIds": [
-        "RTM500",
-        "RTP700",
-        "RTS300"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW500",
-      "TabletIds": [
-        "GT191V2",
-        "GT2201",
-        "GT221",
-        "HS611",
-        "Q11KV2",
-        "Q620M",
-        "WH1409 V2"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW507",
-      "TabletIds": [
-        "GT116",
-        "GT133",
-        "GT1901",
-        "UNK Kamvas 16 (2019)",
-        "UNK Kamvas 20 (2019)",
-        "UNK Kamvas Pro 16 (2019)",
-        "UNK Kamvas Pro 16 Premium"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW517",
-      "TabletIds": [
-        "G930L",
-        "GS1161",
-        "GS1331",
-        "GS1562",
-        "GS2201",
-        "GS2202",
-        "GS2401",
-        "GS2402",
-        "GT1302",
-        "GT1561",
-        "GT1562",
-        "GT1602",
-        "GT240",
-        "GT2401",
-        "H1061P",
-        "Q630M",
-        "RDS-160",
-        "RDS-220"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW550S",
-      "TabletIds": [
-        "G930L",
-        "GS1161",
-        "GS1331",
-        "GS1562",
-        "GS2201",
-        "GS2202",
-        "GS2401",
-        "GS2402",
-        "GT1302",
-        "GT1561",
-        "GT1562",
-        "GT1602",
-        "GT240",
-        "GT2401",
-        "H1061P",
-        "L310",
-        "L610",
-        "Q630M",
-        "RDS-160",
-        "RDS-220"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW600",
-      "TabletIds": [
-        "GS1333",
-        "GT-1902",
-        "GT-2701",
-        "GT2402",
-        "GT2702"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW600A",
-      "TabletIds": [
-        "GT-156 V2"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW600L",
-      "TabletIds": [
-        "GS1333",
-        "GS1563"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW600S",
-      "TabletIds": [
-        "GS1333",
-        "GT-1902",
-        "GT2402",
-        "GT2702"
-      ]
-    },
-    {
-      "Brand": "HUION",
-      "PenId": "PW550",
-      "TabletIds": [
-        "G930L",
-        "GS1161",
-        "GS1331",
-        "GS1562",
-        "GS2201",
-        "GS2202",
-        "GS2401",
-        "GS2402",
-        "GT1302",
-        "GT1561",
-        "GT1562",
-        "GT1602",
-        "GT240",
-        "GT2401",
-        "H1061P",
-        "Q630M",
-        "RDS-160",
-        "RDS-220"
-      ]
-    }
-  ]
+    "PenCompat":  [
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PE150",
+                          "TabletIds":  [
+                                            "WH1409(8192)"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PE330",
+                          "TabletIds":  [
+                                            "GT-156HDV2",
+                                            "GT-220V2",
+                                            "GT191"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PEN68",
+                          "TabletIds":  [
+                                            "H420"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PEN68D",
+                          "TabletIds":  [
+                                            "GT-190"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PEN80",
+                          "TabletIds":  [
+                                            "H610PRO",
+                                            "NEW 1060 PLUS"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PF150",
+                          "TabletIds":  [
+                                            "Q11K"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW100",
+                          "TabletIds":  [
+                                            "H1060P",
+                                            "H1161",
+                                            "H320M",
+                                            "H420X",
+                                            "H610",
+                                            "H610PRO V2",
+                                            "H610X",
+                                            "H640P",
+                                            "H950P",
+                                            "HS610",
+                                            "HS64"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW110",
+                          "TabletIds":  [
+                                            "H1061P",
+                                            "H641P",
+                                            "H951P"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW201",
+                          "TabletIds":  [
+                                            "H430P"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW400",
+                          "TabletIds":  [
+                                            "RTM500",
+                                            "RTP700",
+                                            "RTS300"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW500",
+                          "TabletIds":  [
+                                            "GT191V2",
+                                            "GT2201",
+                                            "GT221",
+                                            "HS611",
+                                            "Q11KV2",
+                                            "Q620M",
+                                            "WH1409 V2"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW507",
+                          "TabletIds":  [
+                                            "GT116",
+                                            "GT133",
+                                            "GT1901",
+                                            "UNK Kamvas 16 (2019)",
+                                            "UNK Kamvas 20 (2019)",
+                                            "UNK Kamvas Pro 16 (2019)",
+                                            "UNK Kamvas Pro 16 Premium"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW517",
+                          "TabletIds":  [
+                                            "G930L",
+                                            "GS1161",
+                                            "GS1331",
+                                            "GS1562",
+                                            "GS2201",
+                                            "GS2202",
+                                            "GS2401",
+                                            "GS2402",
+                                            "GT1302",
+                                            "GT1561",
+                                            "GT1562",
+                                            "GT1602",
+                                            "GT240",
+                                            "GT2401",
+                                            "H1061P",
+                                            "Q630M",
+                                            "RDS-160",
+                                            "RDS-220"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW550S",
+                          "TabletIds":  [
+                                            "G930L",
+                                            "GS1161",
+                                            "GS1331",
+                                            "GS1562",
+                                            "GS2201",
+                                            "GS2202",
+                                            "GS2401",
+                                            "GS2402",
+                                            "GT1302",
+                                            "GT1561",
+                                            "GT1562",
+                                            "GT1602",
+                                            "GT240",
+                                            "GT2401",
+                                            "H1061P",
+                                            "L310",
+                                            "L610",
+                                            "Q630M",
+                                            "RDS-160",
+                                            "RDS-220"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW600",
+                          "TabletIds":  [
+                                            "GS1333",
+                                            "GT-1902",
+                                            "GT-2701",
+                                            "GT2402",
+                                            "GT2702"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW600A",
+                          "TabletIds":  [
+                                            "GT-156 V2"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW600L",
+                          "TabletIds":  [
+                                            "GS1333",
+                                            "GS1563",
+                                            "GS2203"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW600S",
+                          "TabletIds":  [
+                                            "GS1333",
+                                            "GT-1902",
+                                            "GT2402",
+                                            "GT2702"
+                                        ]
+                      },
+                      {
+                          "Brand":  "HUION",
+                          "PenId":  "PW550",
+                          "TabletIds":  [
+                                            "G930L",
+                                            "GS1161",
+                                            "GS1331",
+                                            "GS1562",
+                                            "GS2201",
+                                            "GS2202",
+                                            "GS2401",
+                                            "GS2402",
+                                            "GT1302",
+                                            "GT1561",
+                                            "GT1562",
+                                            "GT1602",
+                                            "GT240",
+                                            "GT2401",
+                                            "H1061P",
+                                            "Q630M",
+                                            "RDS-160",
+                                            "RDS-220"
+                                        ]
+                      }
+                  ]
 }

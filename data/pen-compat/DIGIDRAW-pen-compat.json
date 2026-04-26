@@ -1,0 +1,22 @@
+{
+    "PenCompat":  [
+                      {
+                          "Brand":  "DIGIDRAW",
+                          "PenId":  "M3",
+                          "TabletIds":  [
+                                            "T410",
+                                            "T610",
+                                            "TW410",
+                                            "TW610"
+                                        ]
+                      },
+                      {
+                          "Brand":  "DIGIDRAW",
+                          "PenId":  "M5",
+                          "TabletIds":  [
+                                            "D1401",
+                                            "D1901T"
+                                        ]
+                      }
+                  ]
+}

@@ -1,37 +1,38 @@
 {
-  "PenCompat": [
-    {
-      "Brand": "XENCELABS",
-      "PenId": "3BUTTONV2",
-      "TabletIds": [
-        "BPH1212W-V2",
-        "LPH1612U-A",
-        "LPH2412U-A"
-      ]
-    },
-    {
-      "Brand": "XENCELABS",
-      "PenId": "THINV2",
-      "TabletIds": [
-        "BPH1212W-V2",
-        "LPH1612U-A",
-        "LPH2412U-A"
-      ]
-    },
-    {
-      "Brand": "XENCELABS",
-      "PenId": "THINV1",
-      "TabletIds": [
-        "BPH0812W-A",
-        "BPH1212W-V1"
-      ]
-    },
-    {
-      "Brand": "XENCELABS",
-      "PenId": "3BUTTONV1",
-      "TabletIds": [
-        "BPH1212W-V1"
-      ]
-    }
-  ]
+    "PenCompat":  [
+                      {
+                          "Brand":  "XENCELABS",
+                          "PenId":  "3BUTTONV2",
+                          "TabletIds":  [
+                                            "BPH1212W-V2",
+                                            "LPH1612U-A",
+                                            "LPH2412U-A"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XENCELABS",
+                          "PenId":  "THINV2",
+                          "TabletIds":  [
+                                            "BPH1212W-V2",
+                                            "LPH1612U-A",
+                                            "LPH2412U-A"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XENCELABS",
+                          "PenId":  "THINV1",
+                          "TabletIds":  [
+                                            "BPH0812W-A",
+                                            "BPH1212W-V1"
+                                        ]
+                      },
+                      {
+                          "Brand":  "XENCELABS",
+                          "PenId":  "3BUTTONV1",
+                          "TabletIds":  [
+                                            "BPH0812W-A",
+                                            "BPH1212W-V1"
+                                        ]
+                      }
+                  ]
 }
