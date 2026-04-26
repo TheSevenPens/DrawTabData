@@ -7328,14 +7328,16 @@
                                             "EntityId":  "wacom.tablet.pl270",
                                             "_id":  "ce0deb21-7f2d-4b66-9a70-f9925798302b",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-270",
                                              "Name":  "PL-270",
                                              "Type":  "PENDISPLAY",
-                                             "Status":  "DISCONTINUED"
+                                             "LaunchYear":  "1998",
+                                             "Status":  "DISCONTINUED",
+                                             "Notes":  "Launch year unconfirmed; estimated based on PL-series numbering (sits between PL-250 in 1998 and PL-400 in 1999)."
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",

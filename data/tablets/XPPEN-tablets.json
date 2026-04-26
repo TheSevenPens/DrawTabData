@@ -2895,6 +2895,71 @@
                                                                },
                                                 "Weight":  "7000"
                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "xppen.tablet.mnp1095",
+                                            "_id":  "c18123a6-c9c3-47cd-8a16-b3064069d79f",
+                                            "_CreateDate":  "2026-04-26T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "XPPEN",
+                                             "Id":  "MNP1095",
+                                             "Name":  "Magic Note Pad",
+                                             "Type":  "STANDALONE",
+                                             "LaunchYear":  "2025",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                "xppen.pen.pd04b"
+                                                            ],
+                                             "ProductLink":  "https://www.xp-pen.com/product/magic-note-pad.html",
+                                             "Status":  "ACTIVE"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  236,
+                                                                    "Height":  148
+                                                                },
+                                                 "Density":  "200",
+                                                 "AccuracyCenter":  "0.4",
+                                                 "AccuracyCorner":  "1.5",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1200
+                                                                   },
+                                               "Brightness":  "400",
+                                               "ColorBitDepth":  "8",
+                                               "ColorGamuts":  {
+                                                                   "SRGB":  95
+                                                               },
+                                               "Lamination":  "YES",
+                                               "RefreshRate":  "90"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  259,
+                                                                   "Height":  182,
+                                                                   "Depth":  7
+                                                               },
+                                                "Weight":  "495"
+                                            },
+                               "Standalone":  {
+                                                  "OS":  "Android 14",
+                                                  "Processor":  "MediaTek MT8781",
+                                                  "RAM":  "6",
+                                                  "Storage":  "128",
+                                                  "BatteryChargingWatts":  "20",
+                                                  "Wifi":  "802.11a/b/g/n/ac",
+                                                  "USB":  "USB-C",
+                                                  "Speakers":  "YES"
+                                              }
                            }
                        ]
 }
