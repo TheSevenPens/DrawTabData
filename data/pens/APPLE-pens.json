@@ -1,48 +1,48 @@
 {
     "Pens":  [
                  {
-                     "EntityId":  "apple.pen.applepencilgen1",
+                     "EntityId":  "apple.pen.a1603",
                      "Brand":  "APPLE",
-                     "PenId":  "ApplePencilGen1",
+                     "PenId":  "A1603",
                      "PenName":  "Apple Pencil (1st Generation)",
                      "PenFamily":  "",
                      "PenYear":  "2015",
                      "_id":  "e96346ae-da64-4b07-a389-fbb50a057856",
                      "_CreateDate":  "2026-04-24T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-24T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
                  },
                  {
-                     "EntityId":  "apple.pen.applepencilgen2",
+                     "EntityId":  "apple.pen.a2051",
                      "Brand":  "APPLE",
-                     "PenId":  "ApplePencilGen2",
+                     "PenId":  "A2051",
                      "PenName":  "Apple Pencil (2nd Generation)",
                      "PenFamily":  "",
                      "PenYear":  "2018",
                      "_id":  "16d1e00b-e857-4970-ab60-fde3054555fa",
                      "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-24T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
                  },
                  {
-                     "EntityId":  "apple.pen.applepencilusbc",
+                     "EntityId":  "apple.pen.a3085",
                      "Brand":  "APPLE",
-                     "PenId":  "ApplePencilUSBC",
+                     "PenId":  "A3085",
                      "PenName":  "Apple Pencil (USB-C)",
                      "PenFamily":  "",
                      "PenYear":  "2023",
                      "_id":  "893d55e9-3697-45c8-999b-eb566097c6df",
                      "_CreateDate":  "2026-04-24T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-24T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
                  },
                  {
-                     "EntityId":  "apple.pen.applepencilpro",
+                     "EntityId":  "apple.pen.a2538",
                      "Brand":  "APPLE",
-                     "PenId":  "ApplePencilPro",
+                     "PenId":  "A2538",
                      "PenName":  "Apple Pencil Pro",
                      "PenFamily":  "",
                      "PenYear":  "2024",
                      "_id":  "ef3d41f6-a7c4-4017-af6e-86e9ac292191",
                      "_CreateDate":  "2026-04-24T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-24T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
                  }
              ]
 }
