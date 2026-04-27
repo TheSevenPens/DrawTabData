@@ -1,0 +1,66 @@
+{
+    "DrawingTablets":  [
+                           {
+                               "Model":  {
+                                             "Brand":  "ASUS",
+                                             "Id":  "PA169CDV",
+                                             "Name":  "ProArt Display PA169CDV",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2023",
+                                             "Audience":  "Professional",
+                                             "IncludedPen":  [
+                                                                 "asus.pen.mpa01"
+                                                             ],
+                                             "ProductLink":  "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa169cdv/",
+                                             "Status":  "ACTIVE"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "4096",
+                                                 "Dimensions":  {
+                                                                    "Width":  345.6,
+                                                                    "Height":  194.4
+                                                                },
+                                                 "Tilt":  "40",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  3840,
+                                                                       "Height":  2160
+                                                                   },
+                                               "PanelTech":  "IPS",
+                                               "Brightness":  "450",
+                                               "BrightnessPeak":  "500",
+                                               "Contrast":  "1200",
+                                               "ColorBitDepth":  "10",
+                                               "ColorGamuts":  {
+                                                                   "SRGB":  100,
+                                                                   "ADOBERGB":  92,
+                                                                   "DCIP3":  88,
+                                                                   "REC709":  100
+                                                               },
+                                               "Lamination":  "YES",
+                                               "AntiGlare":  "AGFILM",
+                                               "ResponseTime":  "10",
+                                               "RefreshRate":  "60",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  370,
+                                                                   "Height":  237,
+                                                                   "Depth":  12
+                                                               },
+                                                "Weight":  "1070"
+                                            },
+                               "Meta":  {
+                                            "EntityId":  "asus.tablet.pa169cdv",
+                                            "_id":  "91a78504-9558-49fd-a9a8-136fd807107d",
+                                            "_CreateDate":  "2026-04-27T21:28:02.863Z",
+                                            "_ModifiedDate":  "2026-04-27T21:28:02.863Z"
+                                        }
+                           }
+                       ]
+}

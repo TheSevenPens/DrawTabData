@@ -1,15 +1,15 @@
 {
     "Pens":  [
                  {
-                     "EntityId":  "asus.pen.asusfromproartpendisplay",
+                     "EntityId":  "asus.pen.mpa01",
                      "Brand":  "ASUS",
-                     "PenId":  "ASUSFromProArtPenDisplay",
-                     "PenName":  "ASUS Pen (ProArt Pen Display)",
+                     "PenId":  "MPA01",
+                     "PenName":  "ProArt Pen MPA01",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "PenYear":  "2023",
                      "_id":  "b677c307-5a74-4536-89f0-2367e62436fd",
                      "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
                  }
              ]
 }
