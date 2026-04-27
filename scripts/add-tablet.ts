@@ -67,16 +67,18 @@ if (!result.success) {
   process.exit(1);
 }
 
-// --- Locate brand file ---
+// --- Locate brand file (create on first tablet for the brand) ---
 
 const filePath = path.join(dataDir, "tablets", `${brand}-tablets.json`);
-if (!fs.existsSync(filePath)) {
-  console.error(`Brand file not found: ${filePath}`);
-  process.exit(1);
+let data: { DrawingTablets: any[] };
+if (fs.existsSync(filePath)) {
+  data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  data.DrawingTablets ??= [];
+} else {
+  console.log(`Brand file does not exist; creating ${path.basename(filePath)}`);
+  data = { DrawingTablets: [] };
 }
-
-const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-const existing = data.DrawingTablets ?? [];
+const existing = data.DrawingTablets;
 
 // --- Duplicate check ---
 
