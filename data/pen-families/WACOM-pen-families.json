@@ -65,20 +65,12 @@
       "_ModifiedDate": "2026-04-21T00:00:00Z"
     },
     {
-      "EntityId": "wacom.penfamily.wacom_onegen1",
+      "EntityId": "wacom.penfamily.wacom_oneudemr",
       "Brand": "WACOM",
-      "FamilyName": "Wacom One GEN1 pens",
-      "_id": "41bf82fa-d91f-4703-93f7-a825079a2756",
-      "_CreateDate": "2026-04-01T18:06:28Z",
-      "_ModifiedDate": "2026-04-21T00:00:00Z"
-    },
-    {
-      "EntityId": "wacom.penfamily.wacom_onegen2",
-      "Brand": "WACOM",
-      "FamilyName": "Wacom One GEN2 pens",
-      "_id": "d69d8c21-2c0a-4723-a552-b5562410f4dc",
-      "_CreateDate": "2026-04-01T18:06:28Z",
-      "_ModifiedDate": "2026-04-21T00:00:00Z"
+      "FamilyName": "Wacom One UD EMR pens",
+      "_id": "b6dcdfb1-d31a-417c-b0e0-e85b0a771815",
+      "_CreateDate": "2026-04-28T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-28T00:00:00.000Z"
     }
   ]
 }
