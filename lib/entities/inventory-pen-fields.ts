@@ -39,5 +39,10 @@ export const INVENTORY_PEN_DEFAULT_VIEW: Step[] = [
     kind: "select",
     fields: ["InventoryId", "PenEntityId", "Brand", "PenTech", "PenTechSubtype", "WithTabletInventoryId"],
   },
+  // Multi-key sort. JS Array.sort is stable, so insert in reverse order
+  // of significance: least → most significant. Final ordering: Brand,
+  // then Pen, then InventoryId.
   { kind: "sort", field: "InventoryId", direction: "asc" },
+  { kind: "sort", field: "PenEntityId", direction: "asc" },
+  { kind: "sort", field: "Brand", direction: "asc" },
 ];

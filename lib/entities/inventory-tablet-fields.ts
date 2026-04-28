@@ -43,5 +43,10 @@ export const INVENTORY_TABLET_DEFAULT_VIEW: Step[] = [
     kind: "select",
     fields: ["InventoryId", "TabletEntityId", "Brand", "ModelName", "TabletType", "Vendor", "OrderDate"],
   },
+  // Multi-key sort. JS Array.sort is stable, so insert in reverse order
+  // of significance: least → most significant. Final ordering: Brand,
+  // then Tablet, then InventoryId.
   { kind: "sort", field: "InventoryId", direction: "asc" },
+  { kind: "sort", field: "TabletEntityId", direction: "asc" },
+  { kind: "sort", field: "Brand", direction: "asc" },
 ];
