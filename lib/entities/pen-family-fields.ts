@@ -22,13 +22,13 @@ export const PEN_FAMILY_FIELDS: FieldDef<PenFamily>[] = [
 ];
 
 export const PEN_FAMILY_DEFAULT_COLUMNS = [
-  "Brand", "FamilyName", "EntityId", "PenCount",
+  "Brand", "FamilyName", "PenCount",
 ];
 
 export const PEN_FAMILY_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["FamilyName", "EntityId", "PenCount"],
+    fields: ["FamilyName", "PenCount"],
   },
   { kind: "sort", field: "FamilyName", direction: "asc" },
 ];

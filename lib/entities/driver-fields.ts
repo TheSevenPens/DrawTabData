@@ -37,14 +37,14 @@ export const DRIVER_FIELDS: FieldDef<Driver>[] = [
 ];
 
 export const DRIVER_DEFAULT_COLUMNS = [
-  "EntityId", "Brand", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
+  "Brand", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
 ];
 
 export const DRIVER_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "EntityId", "Brand", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
+      "Brand", "DriverVersion", "DriverName", "OSFamily", "ReleaseDate", "Age",
     ],
   },
   { kind: "sort", field: "ReleaseDate", direction: "desc" },

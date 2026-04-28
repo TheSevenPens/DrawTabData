@@ -15,13 +15,13 @@ export const TABLET_FAMILY_FIELDS: FieldDef<any>[] = [
 ];
 
 export const TABLET_FAMILY_DEFAULT_COLUMNS = [
-  "Brand", "EntityId", "FamilyName", "ModelPattern", "TabletCount", "EarliestYear",
+  "Brand", "FamilyName", "ModelPattern", "TabletCount", "EarliestYear",
 ];
 
 export const TABLET_FAMILY_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["EntityId", "FamilyName", "ModelPattern", "TabletCount", "EarliestYear"],
+    fields: ["FamilyName", "ModelPattern", "TabletCount", "EarliestYear"],
   },
   { kind: "sort", field: "FamilyName", direction: "asc" },
 ];
