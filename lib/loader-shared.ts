@@ -7,7 +7,7 @@ export const BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "GAOMON", "HUION", "SAMSUNG"
 export const WACOM_ONLY = ["WACOM"];
 export const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
 export const TABLET_FAMILY_BRANDS = ["DIGIDRAW", "HUION", "WACOM", "XENCELABS", "XPPEN"];
-export const PEN_FAMILY_BRANDS = ["APPLE", "DIGIDRAW", "HUION", "STAEDTLER", "WACOM", "XENCELABS", "XPPEN"];
+export const PEN_FAMILY_BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "HUION", "STAEDTLER", "WACOM", "XENCELABS", "XPPEN"];
 
 export type { PenCompatGrouped };
 
