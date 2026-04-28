@@ -172,9 +172,17 @@
                      "PenName":  "Pro Pen 3",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen3",
                      "PenYear":  "2022",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Eraser":  "NO",
+                     "Shape":  "STANDARD",
+                     "Tilt":  "YES",
+                     "BarrelRotation":  "NO",
+                     "Hover":  "YES",
                      "_id":  "60e2abdf-8138-4a0a-a9eb-a82564d73fae",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.acp501e",
@@ -183,9 +191,17 @@
                      "PenName":  "Pro Pen 3E",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen3",
                      "PenYear":  "2025",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Eraser":  "YES",
+                     "Shape":  "STANDARD",
+                     "Tilt":  "YES",
+                     "BarrelRotation":  "NO",
+                     "Hover":  "YES",
                      "_id":  "fce9bf2f-bd30-4347-913d-7c07c7b3ca9f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp505",
@@ -216,9 +232,17 @@
                      "PenName":  "Pro Pen 2",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen2",
                      "PenYear":  "2017",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Eraser":  "YES",
+                     "Shape":  "STANDARD",
+                     "Tilt":  "YES",
+                     "BarrelRotation":  "NO",
+                     "Hover":  "YES",
                      "_id":  "09880ac1-92a5-473a-a89a-54af23844246",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp503e",
@@ -249,9 +273,17 @@
                      "PenName":  "Art Pen",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen1",
                      "PenYear":  "2005",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Eraser":  "YES",
+                     "Shape":  "STANDARD",
+                     "Tilt":  "YES",
+                     "BarrelRotation":  "YES",
+                     "Hover":  "YES",
                      "_id":  "885a2f74-36f3-4a9a-aae0-c860474f351f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp400e",
@@ -293,9 +325,10 @@
                      "PenName":  "Intuos3 Art Marker Pen",
                      "PenFamily":  "wacom.penfamily.wacom_zp",
                      "PenYear":  "2004",
+                     "BarrelRotation":  "YES",
                      "_id":  "79d0abb9-038f-4e2d-ad43-d8c6394b33e4",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.zp300e",
