@@ -184,6 +184,7 @@ export const PenSchema = v.strictObject({
   Weight: v.optional(NumericString),
   Tilt: v.optional(YesNo),
   BarrelRotation: v.optional(YesNo),
+  Hover: v.optional(YesNo),
   Tags: v.optional(v.array(TrimmedString)),
   Notes: v.optional(TrimmedString),
   _id: UuidString,
