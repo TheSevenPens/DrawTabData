@@ -1,6 +1,7 @@
 import type { Tablet } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
+import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 
 function notApplicable(t: Tablet): boolean {
   return t.Model.Type === "PENTABLET";
@@ -79,6 +80,14 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
       const rounded = Math.round(h);
       const hStr = Math.abs(h - rounded) < 0.01 ? String(rounded) : h.toFixed(2);
       return `16:${hStr}`;
+    },
+  },
+  {
+    key: "DigitizerAspectRatioCategory", label: "Aspect Ratio Category", group: "Digitizer", computed: true, type: "enum",
+    enumValues: [...ASPECT_RATIO_CATEGORIES],
+    getValue: (t) => {
+      const d = t.Digitizer?.Dimensions;
+      return aspectRatioCategory(d?.Width, d?.Height) ?? "";
     },
   },
   {

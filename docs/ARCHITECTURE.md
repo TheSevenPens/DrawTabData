@@ -39,13 +39,15 @@ DrawTabData/
 │   │   ├── pressure-response-fields.ts
 │   │   ├── inventory-pen-fields.ts
 │   │   └── inventory-tablet-fields.ts
-│   └── units.ts                  # Unit conversion (metric/imperial)
+│   ├── units.ts                  # Unit conversion (metric/imperial)
+│   └── aspect-ratio.ts           # Aspect-ratio category buckets (16X9_EXACT, etc.)
 ├── docs/
 │   ├── OVERVIEW.txt
 │   ├── FIELDS.txt
 │   ├── DATALAYOUT.txt
 │   ├── DECISIONS.txt
 │   ├── DEFECTS.md                # Defects field and defect-kinds vocabulary
+│   ├── ASPECT-RATIOS.md          # Aspect-ratio category buckets
 │   ├── USERMANUAL.md
 │   └── ARCHITECTURE.md           # This file
 ├── _config.yml                   # Jekyll config for GitHub Pages
@@ -89,6 +91,10 @@ Inventory loaders take a `userId` parameter instead of loading by brand.
 - `containsText`, `equalsText` — case-insensitive string helpers
 - `getDiagonal`, `formatDimensions` — dimension utilities
 - `formatValue`, `getFieldLabel` — metric/imperial conversion
+- `aspectRatioCategory(width, height)` (and `ASPECT_RATIO_CATEGORIES`)
+  — buckets a digitizer's W×H into 16X9_EXACT / 16X10_VERYCLOSE / etc.
+  Used by the `DigitizerAspectRatioCategory` computed field and the
+  Analysis page. See `docs/ASPECT-RATIOS.md`.
 
 ## Schemas (`lib/schemas.ts`)
 
