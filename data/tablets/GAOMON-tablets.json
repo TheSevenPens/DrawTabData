@@ -1,0 +1,40 @@
+{
+    "DrawingTablets":  [
+                           {
+                               "Model":  {
+                                             "Brand":  "GAOMON",
+                                             "Id":  "M10K-2018",
+                                             "Name":  "M10K 2018",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2018",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "gaomon.pen.ap31"
+                                                             ],
+                                             "ProductLink":  "https://gaomon.net/products/m10k-2018-pen-tablet",
+                                             "Status":  "ACTIVE"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "8192",
+                                                 "Dimensions":  {
+                                                                    "Width":  255,
+                                                                    "Height":  159
+                                                                },
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Depth":  10.5
+                                                               },
+                                                "Weight":  "690"
+                                            },
+                               "Meta":  {
+                                            "EntityId":  "gaomon.tablet.m10k2018",
+                                            "_id":  "5ac045f8-8a74-4e56-9177-8548d4b7282d",
+                                            "_CreateDate":  "2026-04-28T19:08:02.606Z",
+                                            "_ModifiedDate":  "2026-04-28T19:08:02.606Z"
+                                        }
+                           }
+                       ]
+}
