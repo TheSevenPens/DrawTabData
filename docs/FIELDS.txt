@@ -1,6 +1,7 @@
 # TABLET FIELDS
 
 This document describes all fields in the tablet dataset.
+Pen fields are documented separately in PEN-FIELDS.txt.
 
 Fields are organised into nested JSON groups. Each record looks like:
 

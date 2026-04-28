@@ -43,7 +43,8 @@ DrawTabData/
 │   └── aspect-ratio.ts           # Aspect-ratio category buckets (16X9_EXACT, etc.)
 ├── docs/
 │   ├── OVERVIEW.txt
-│   ├── FIELDS.txt
+│   ├── FIELDS.txt                # Tablet fields
+│   ├── PEN-FIELDS.txt            # Pen fields (Model/Sensors/Controls/Physical)
 │   ├── DATALAYOUT.txt
 │   ├── DECISIONS.txt
 │   ├── DEFECTS.md                # Defects field and defect-kinds vocabulary

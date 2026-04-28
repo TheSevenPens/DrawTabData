@@ -1,0 +1,154 @@
+# PEN FIELDS
+
+This document describes all fields on pen records.
+
+The pen schema is **flat** — every field is a top-level key on the
+pen JSON object. (Unlike the tablet schema, which nests fields under
+Meta/Model/Digitizer/Display/Physical/Standalone groups.) The grouping
+below is purely a FieldDef-level organization defined in
+`lib/entities/pen-fields.ts` for filtering, sorting, column-picking,
+and detail-page rendering in the Explorer:
+
+  Model    — identity and metadata
+  Sensors  — what the pen reports back to the digitizer
+  Controls — user-operated affordances on the pen body
+  Physical — form factor
+
+Fields prefixed with `_` are system-managed and not surfaced as
+FieldDefs in the Explorer (no column, filter, or sort UI).
+
+
+## Model group
+
+### EntityId
+A user-facing unique identifier including entity type.
+Format: "<brand>.pen.<penid>" all lowercase (e.g. "wacom.pen.kp504e")
+Required: yes
+
+### Brand
+The manufacturer brand.
+Values: APPLE, ASUS, DIGIDRAW, GAOMON, HUION, SAMSUNG, STAEDTLER,
+UGEE, WACOM, XENCELABS, XPPEN
+Required: yes
+
+### PenId
+The manufacturer's pen identifier (e.g. "KP-504E", "A2538",
+"X3PROPENCILV2").
+Required: yes
+
+### PenName
+The marketing/product name (e.g. "Pro Pen 2", "Apple Pencil Pro").
+Required: yes
+
+### PenFamily
+EntityId of the pen-family this pen belongs to. May be empty for
+pens with no assigned family.
+Format: "<brand>.penfamily.<id>" (e.g. "wacom.penfamily.wacom_kpgen2")
+Required: yes (string, can be empty)
+
+### PenTech
+The sensing technology family used by the pen.
+Format: free text (e.g. "EMR", "AES", "MPP")
+Required: no
+
+### PenYear
+The year the pen was released.
+Format: 4-digit year string (e.g. "2017")
+Required: yes
+
+### Notes
+Free-text notes for disambiguation, marketing-name aliases, or other
+caller-authored annotations. Used for example to record the
+"X3 Pro Pencil 2" alias on `xppen.pen.pd04b`.
+Format: trimmed string
+Required: no
+
+### Tags
+Array of free-form tags for grouping or filtering. The Tags column
+in the Explorer joins the array with ", ".
+Format: array of trimmed strings
+Required: no
+
+
+## Sensors group
+
+### PressureSensitive
+Whether the pen reports pressure to the digitizer.
+Values: YES, NO
+Required: no
+
+### PressureLevels
+The number of pressure levels the pen+digitizer pair reports.
+Format: integer string (e.g. "1024", "2048", "4096", "8192")
+Required: no
+
+### Tilt
+Whether the pen reports tilt angle to the digitizer.
+Values: YES, NO
+Required: no
+
+### BarrelRotation
+Whether the pen reports barrel-rotation to the digitizer
+(typically present on Wacom Art Pens, the Apple Pencil Pro, etc.).
+Values: YES, NO
+Required: no
+
+### Hover
+Whether the pen reports position when held above the surface
+without making contact. Battery-free EMR pens generally do; passive
+AES often does not.
+Values: YES, NO
+Required: no
+
+
+## Controls group
+
+### ButtonCount
+Number of side buttons on the pen body.
+Format: integer string (e.g. "0", "1", "2", "3")
+Required: no
+
+### Roller
+Whether the pen has a roller/scroll-wheel control (e.g. XP-Pen
+X3 Pro Roller).
+Values: YES, NO
+Required: no
+
+### Eraser
+Whether the pen has a tail-mounted eraser tip. Wacom often ships
+both a no-eraser and a with-eraser variant of the same pen body
+(e.g. ACP-500 vs ACP-501E).
+Values: YES, NO
+Required: no
+
+
+## Physical group
+
+### Shape
+The body shape category.
+Values: STANDARD (round/triangular full-size body), THIN (slim
+stylus form factor)
+Required: no
+
+### Weight
+The pen's weight in grams.
+Format: numeric string (e.g. "13", "20")
+Required: no
+
+
+## Meta (system fields, not surfaced as FieldDefs)
+
+### _id
+A unique record identifier.
+Format: UUID v4 string
+Required: yes (auto-generated)
+
+### _CreateDate
+The timestamp when the record was first created.
+Format: ISO 8601 datetime string
+Required: yes
+
+### _ModifiedDate
+The timestamp when the record was last modified.
+Format: ISO 8601 datetime string
+Required: yes
