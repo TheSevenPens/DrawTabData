@@ -2,6 +2,7 @@ import type { Tablet } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
+import { BRANDS } from "../loader-shared.js";
 
 function notApplicable(t: Tablet): boolean {
   return t.Model.Type === "PENTABLET";
@@ -19,7 +20,7 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.Meta.EntityId, type: "string", group: "Model" },
   { key: "FullName", label: "Full Name", getValue: (t) => `${brandName(t.Model.Brand)} ${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
   { key: "NameAndModelId", label: "Name and Model ID", getValue: (t) => `${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
-  { key: "Brand", label: "Brand", getValue: (t) => t.Model.Brand, getDisplayValue: (t) => brandName(t.Model.Brand), getHref: (t) => `/brands/${t.Model.Brand}`, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Model" },
+  { key: "Brand", label: "Brand", getValue: (t) => t.Model.Brand, getDisplayValue: (t) => brandName(t.Model.Brand), getHref: (t) => `/brands/${t.Model.Brand}`, type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.Model.Id, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.Model.Name, type: "string", group: "Model" },
   { key: "AlternateNames", label: "Alternate Names", getValue: (t) => (t.Model.AlternateNames ?? []).join(", "), type: "string", group: "Model", alwaysSearch: true },
