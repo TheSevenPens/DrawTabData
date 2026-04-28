@@ -97,7 +97,6 @@ Each entry needs these fields:
 ```json
 {
   "DriverVersion": "6.4.13-1",
-  "DriverName": "Driver 6.4.13-1 for WINDOWS",
   "OSFamily": "WINDOWS",
   "ReleaseDate": "2026-06-15",
   "DriverURLWacom": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.13-1.exe",

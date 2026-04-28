@@ -215,7 +215,6 @@ export const DriverSchema = v.strictObject({
   EntityId: TrimmedString,
   Brand: BrandEnum,
   DriverVersion: TrimmedString,
-  DriverName: TrimmedString,
   DriverUID: TrimmedString,
   OSFamily: TrimmedString,
   ReleaseDate: TrimmedString,

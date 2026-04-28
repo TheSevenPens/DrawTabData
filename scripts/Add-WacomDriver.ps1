@@ -74,7 +74,6 @@ function New-DriverEntry {
 
     return [ordered]@{
         DriverVersion          = $DriverVersion
-        DriverName             = "Driver $DriverVersion for $OSFamily"
         OSFamily               = $OSFamily
         ReleaseDate            = $ReleaseDate
         DriverURLWacom         = "https://cdn.wacom.com/u/productsupport/drivers/$osLower/professional/WacomTablet_$DriverVersion.$ext"

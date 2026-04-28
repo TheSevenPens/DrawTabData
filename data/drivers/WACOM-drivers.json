@@ -2,7 +2,6 @@
     "Drivers":  [
                     {
                         "DriverVersion":  "4.78-2",
-                        "DriverName":  "Driver 4.78-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2003-12-10",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/478/macclassic_pro/Mac_478_2_EN.hqx",
@@ -17,7 +16,6 @@
                     },
                     {
                         "DriverVersion":  "4.79-2",
-                        "DriverName":  "Driver 4.79-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2004-02-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/479_OSX/Professional/English.dmg",
@@ -32,7 +30,6 @@
                     },
                     {
                         "DriverVersion":  "4.78-6",
-                        "DriverName":  "Driver 4.78-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2005-08-09",
                         "DriverURLWacom":  "https://downloadeu.wacom.com/pub/WINDOWS/pc478-6-X_en.exe",
@@ -47,7 +44,6 @@
                     },
                     {
                         "DriverVersion":  "4.93-3",
-                        "DriverName":  "Driver 4.93-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2005-10-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/intuos/493/493-3.exe",
@@ -62,7 +58,6 @@
                     },
                     {
                         "DriverVersion":  "4.95-1",
-                        "DriverName":  "Driver 4.95-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2006-02-14",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/495/4.95-1.dmg",
@@ -77,7 +72,6 @@
                     },
                     {
                         "DriverVersion":  "4.96-3",
-                        "DriverName":  "Driver 4.96-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2006-03-22",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/496/4.96-3.dmg",
@@ -92,7 +86,6 @@
                     },
                     {
                         "DriverVersion":  "4.97-6",
-                        "DriverName":  "Driver 4.97-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2006-09-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/497/497-6.exe",
@@ -107,7 +100,6 @@
                     },
                     {
                         "DriverVersion":  "5.03-3",
-                        "DriverName":  "Driver 5.03-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2007-04-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/consumer/503/503-3.dmg",
@@ -122,7 +114,6 @@
                     },
                     {
                         "DriverVersion":  "6.04-2",
-                        "DriverName":  "Driver 6.04-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2007-06-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/604-2.dmg",
@@ -137,7 +128,6 @@
                     },
                     {
                         "DriverVersion":  "5.05-7",
-                        "DriverName":  "Driver 5.05-7 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2007-09-10",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/505/505-7.exe",
@@ -152,7 +142,6 @@
                     },
                     {
                         "DriverVersion":  "6.05-7",
-                        "DriverName":  "Driver 6.05-7 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2007-09-10",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/pro/605-7.exe",
@@ -167,7 +156,6 @@
                     },
                     {
                         "DriverVersion":  "5.05-3",
-                        "DriverName":  "Driver 5.05-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2007-11-29",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/consumer/505-3.dmg",
@@ -182,7 +170,6 @@
                     },
                     {
                         "DriverVersion":  "6.05-3",
-                        "DriverName":  "Driver 6.05-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2007-11-29",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/605-3.dmg",
@@ -197,7 +184,6 @@
                     },
                     {
                         "DriverVersion":  "5.08-2",
-                        "DriverName":  "Driver 5.08-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2008-05-05",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/consumer/508/508-2.dmg",
@@ -212,7 +198,6 @@
                     },
                     {
                         "DriverVersion":  "5.08-6",
-                        "DriverName":  "Driver 5.08-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2008-05-05",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/508/508-6.exe",
@@ -227,7 +212,6 @@
                     },
                     {
                         "DriverVersion":  "6.08-2",
-                        "DriverName":  "Driver 6.08-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2008-06-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/MAC/pro/608-2.dmg",
@@ -242,7 +226,6 @@
                     },
                     {
                         "DriverVersion":  "5.1.0-4",
-                        "DriverName":  "Driver 5.1.0-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2008-12-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/510/510-4.exe",
@@ -257,7 +240,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.0-6",
-                        "DriverName":  "Driver 6.1.0-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2008-12-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/pro/610-6.exe",
@@ -272,7 +254,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.0-7",
-                        "DriverName":  "Driver 6.1.0-7 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2008-12-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/610-7.dmg",
@@ -287,7 +268,6 @@
                     },
                     {
                         "DriverVersion":  "5.1.1-1",
-                        "DriverName":  "Driver 5.1.1-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2009-04-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/511/511-1.exe",
@@ -302,7 +282,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.1-3",
-                        "DriverName":  "Driver 6.1.1-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2009-04-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/pro/611-3.exe",
@@ -317,7 +296,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.1-3",
-                        "DriverName":  "Driver 5.2.1-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2009-11-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/Mac/consumer/521/521-3.dmg",
@@ -332,7 +310,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.1-6",
-                        "DriverName":  "Driver 5.2.1-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2009-11-25",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/521/521-6.exe",
@@ -347,7 +324,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.2-5",
-                        "DriverName":  "Driver 6.1.2-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2009-11-25",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/pro/612-5.exe",
@@ -362,7 +338,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.3-3",
-                        "DriverName":  "Driver 6.1.3-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2010-01-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/613-3.dmg",
@@ -377,7 +352,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.4-2",
-                        "DriverName":  "Driver 6.1.4-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2010-02-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/614-2.dmg",
@@ -392,7 +366,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.1-6a",
-                        "DriverName":  "Driver 5.2.1-6a for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2010-03-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/521/521-6a.exe",
@@ -407,7 +380,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.5-2",
-                        "DriverName":  "Driver 6.1.5-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2010-03-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/615-2.dmg",
@@ -422,7 +394,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.3-4",
-                        "DriverName":  "Driver 5.2.3-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2010-07-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/consumer/523/523-4.dmg",
@@ -437,7 +408,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.3-4c",
-                        "DriverName":  "Driver 5.2.3-4c for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2010-07-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/523/523-4c.exe",
@@ -452,7 +422,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.4-3",
-                        "DriverName":  "Driver 5.2.4-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2010-09-20",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/consumer/524/524-3.dmg",
@@ -467,7 +436,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.4-5",
-                        "DriverName":  "Driver 5.2.4-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2010-11-16",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/524/5.2.4-5.exe",
@@ -482,7 +450,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.4-4",
-                        "DriverName":  "Driver 5.2.4-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2011-02-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/consumer/524/524-4.dmg",
@@ -497,7 +464,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.4-6",
-                        "DriverName":  "Driver 5.2.4-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2011-02-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/consumer/524/5.2.4-6.exe",
@@ -512,7 +478,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.5-3",
-                        "DriverName":  "Driver 5.2.5-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2011-09-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/consumer/5.2.5-3.dmg",
@@ -527,7 +492,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.5-5a",
-                        "DriverName":  "Driver 5.2.5-5a for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2011-09-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/consumer/5.2.5-5a.exe",
@@ -542,7 +506,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.1w3",
-                        "DriverName":  "Driver 6.3.1w3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2012-04-23",
                         "DriverURLWacom":  "",
@@ -557,7 +520,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.6-5",
-                        "DriverName":  "Driver 5.2.6-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2012-08-20",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/productsupport/Drivers/Mac/Consumer/5.2.6-5.dmg",
@@ -572,7 +534,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.0-3",
-                        "DriverName":  "Driver 5.3.0-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2012-11-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/Drivers/Mac/Consumer/530/5.3.0-3.dmg",
@@ -587,7 +548,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.2-1",
-                        "DriverName":  "Driver 5.3.2-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2013-01-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/drivers/IBMPC/consumer/532/532-1.exe",
@@ -602,7 +562,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.2-2",
-                        "DriverName":  "Driver 5.3.2-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2013-01-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/Drivers/Mac/Consumer/532/5.3.2-2.dmg",
@@ -617,7 +576,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.6-3",
-                        "DriverName":  "Driver 6.3.6-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2013-09-03",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/IBMPC/pro/636-3.exe",
@@ -632,7 +590,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.6-4",
-                        "DriverName":  "Driver 6.3.6-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2013-09-03",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/drivers/mac/pro/6.3.6-4.dmg",
@@ -647,7 +604,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.3-3",
-                        "DriverName":  "Driver 5.3.3-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2013-09-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/U/Drivers/Mac/Consumer/533/5.3.3-3.dmg",
@@ -662,7 +618,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.3-2",
-                        "DriverName":  "Driver 5.3.3-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2013-12-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/drivers/IBMPC/consumer/533/533-2.exe",
@@ -677,7 +632,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.5-4",
-                        "DriverName":  "Driver 5.3.5-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2014-08-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/consumer/5.3.5-4.dmg",
@@ -692,7 +646,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.8-2",
-                        "DriverName":  "Driver 6.3.8-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2014-08-26",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.8-2.dmg",
@@ -707,7 +660,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.10w2",
-                        "DriverName":  "Driver 6.3.10w2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2014-11-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.10w2.dmg",
@@ -722,7 +674,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.6-6",
-                        "DriverName":  "Driver 5.3.6-6 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2015-01-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/consumer/5.3.6-6.dmg",
@@ -737,7 +688,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.11-4a",
-                        "DriverName":  "Driver 6.3.11-4a for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2015-03-02",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.11-4a.exe",
@@ -752,7 +702,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.11-3a",
-                        "DriverName":  "Driver 6.3.11-3a for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2015-03-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.11-3a.dmg",
@@ -767,7 +716,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.11w3",
-                        "DriverName":  "Driver 6.3.11w3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2015-07-01",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.11w3.dmg",
@@ -782,7 +730,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.5-3",
-                        "DriverName":  "Driver 5.3.5-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2015-08-20",
                         "DriverURLWacom":  "https://downloadeu.wacom.com/pub/WINDOWS/5.3.5-3.exe",
@@ -797,7 +744,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.15-1",
-                        "DriverName":  "Driver 6.3.15-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2015-10-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.15-1.dmg",
@@ -812,7 +758,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.15-2",
-                        "DriverName":  "Driver 6.3.15-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2015-11-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.15-2.dmg",
@@ -827,7 +772,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.15-2",
-                        "DriverName":  "Driver 6.3.15-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2015-12-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.15-2.exe",
@@ -842,7 +786,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.15-3",
-                        "DriverName":  "Driver 6.3.15-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2015-12-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.15-3.dmg",
@@ -857,7 +800,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.15-3",
-                        "DriverName":  "Driver 6.3.15-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2016-01-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.15-3.exe",
@@ -872,7 +814,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.16-2",
-                        "DriverName":  "Driver 6.3.16-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2016-04-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.16-2.exe",
@@ -887,7 +828,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.16-12",
-                        "DriverName":  "Driver 6.3.16-12 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2016-06-02",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.16-12.dmg",
@@ -902,7 +842,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.17-3",
-                        "DriverName":  "Driver 6.3.17-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2016-07-28",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.17-3.exe",
@@ -917,7 +856,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.17-5",
-                        "DriverName":  "Driver 6.3.17-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2016-07-28",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.17-5.dmg",
@@ -932,7 +870,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.18-4",
-                        "DriverName":  "Driver 6.3.18-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2016-11-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.18-4.dmg",
@@ -947,7 +884,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.18-5",
-                        "DriverName":  "Driver 6.3.18-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2016-11-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.18-5.exe",
@@ -962,7 +898,6 @@
                     },
                     {
                         "DriverVersion":  "5.3.7-6",
-                        "DriverName":  "Driver 5.3.7-6 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2016-12-10",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/consumer/5.3.7-6.dmg",
@@ -977,7 +912,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.19-3",
-                        "DriverName":  "Driver 6.3.19-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2016-12-19",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.19-3.exe",
@@ -992,7 +926,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.19-6",
-                        "DriverName":  "Driver 6.3.19-6 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2016-12-19",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.19-6.dmg",
@@ -1007,7 +940,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.20-5",
-                        "DriverName":  "Driver 6.3.20-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-01-19",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.20-5.exe",
@@ -1022,7 +954,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.20-8",
-                        "DriverName":  "Driver 6.3.20-8 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-01-19",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.20-8.dmg",
@@ -1037,7 +968,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.20-11",
-                        "DriverName":  "Driver 6.3.20-11 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-02-08",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.20-11.dmg",
@@ -1052,7 +982,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.20-7",
-                        "DriverName":  "Driver 6.3.20-7 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-02-08",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.20-7.exe",
@@ -1067,7 +996,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.21-10",
-                        "DriverName":  "Driver 6.3.21-10 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-05-02",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.21-10.exe",
@@ -1082,7 +1010,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.21-8",
-                        "DriverName":  "Driver 6.3.21-8 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-05-02",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.21-8.dmg",
@@ -1097,7 +1024,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.22-3",
-                        "DriverName":  "Driver 6.3.22-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-05-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.22-3.dmg",
@@ -1112,7 +1038,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.22-5",
-                        "DriverName":  "Driver 6.3.22-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-05-26",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.22-5.exe",
@@ -1127,7 +1052,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.22-6",
-                        "DriverName":  "Driver 6.3.22-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-06-02",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.22-6.exe",
@@ -1142,7 +1066,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.23-3",
-                        "DriverName":  "Driver 6.3.23-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-07-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.23-3.dmg",
@@ -1157,7 +1080,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.23-4",
-                        "DriverName":  "Driver 6.3.23-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-07-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.23-4.dmg",
@@ -1172,7 +1094,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.23-1",
-                        "DriverName":  "Driver 6.3.23-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-09-04",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.23-1.exe",
@@ -1187,7 +1108,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.24-1",
-                        "DriverName":  "Driver 6.3.24-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-09-04",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.24-1.dmg",
@@ -1202,7 +1122,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.24-2",
-                        "DriverName":  "Driver 6.3.24-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-09-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.24-2.exe",
@@ -1217,7 +1136,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.24-5a",
-                        "DriverName":  "Driver 6.3.24-5a for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-09-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.24-5a.exe",
@@ -1232,7 +1150,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.25-2",
-                        "DriverName":  "Driver 6.3.25-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-10-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.25-2.dmg",
@@ -1247,7 +1164,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.25-3",
-                        "DriverName":  "Driver 6.3.25-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-10-13",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.25-3.exe",
@@ -1262,7 +1178,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.25-5",
-                        "DriverName":  "Driver 6.3.25-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-10-19",
                         "DriverURLWacom":  "",
@@ -1277,7 +1192,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.27-2",
-                        "DriverName":  "Driver 6.3.27-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2017-12-20",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.27-2.dmg",
@@ -1292,7 +1206,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.27-2",
-                        "DriverName":  "Driver 6.3.27-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2017-12-20",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.27-2.exe",
@@ -1307,7 +1220,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.28-2",
-                        "DriverName":  "Driver 6.3.28-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-02-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.28-2.dmg",
@@ -1322,7 +1234,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.28-3",
-                        "DriverName":  "Driver 6.3.28-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-02-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.28-3.exe",
@@ -1337,7 +1248,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-3",
-                        "DriverName":  "Driver 6.3.29-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-03-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.29-3.exe",
@@ -1352,7 +1262,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-4",
-                        "DriverName":  "Driver 6.3.29-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-03-16",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.29-4.exe",
@@ -1367,7 +1276,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-6",
-                        "DriverName":  "Driver 6.3.29-6 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-03-16",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.29-6.dmg",
@@ -1382,7 +1290,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-6",
-                        "DriverName":  "Driver 6.3.29-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-04-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.29-6.exe",
@@ -1397,7 +1304,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-2",
-                        "DriverName":  "Driver 6.3.30-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-06-11",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.30-2.dmg",
@@ -1412,7 +1318,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-2",
-                        "DriverName":  "Driver 6.3.30-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-06-11",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.30-2.exe",
@@ -1427,7 +1332,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-4",
-                        "DriverName":  "Driver 6.3.30-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-06-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.30-4.exe",
@@ -1442,7 +1346,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-6",
-                        "DriverName":  "Driver 6.3.30-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-06-22",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.30-6.exe",
@@ -1457,7 +1360,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-4",
-                        "DriverName":  "Driver 6.3.31-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-09-26",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.31-4.dmg",
@@ -1472,7 +1374,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-4",
-                        "DriverName":  "Driver 6.3.31-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-09-26",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.31-4.exe",
@@ -1487,7 +1388,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-5",
-                        "DriverName":  "Driver 6.3.31-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-11-01",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.31-5.dmg",
@@ -1502,7 +1402,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-6",
-                        "DriverName":  "Driver 6.3.31-6 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-11-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.31-6.dmg",
@@ -1517,7 +1416,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-3",
-                        "DriverName":  "Driver 6.3.32-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2018-12-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.32-3.dmg",
@@ -1532,7 +1430,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-3",
-                        "DriverName":  "Driver 6.3.32-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-12-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.32-3.exe",
@@ -1547,7 +1444,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-4",
-                        "DriverName":  "Driver 6.3.32-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2018-12-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.32-4.exe",
@@ -1562,7 +1458,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-4",
-                        "DriverName":  "Driver 6.3.32-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-01-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.32-4.dmg",
@@ -1577,7 +1472,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.33-3",
-                        "DriverName":  "Driver 6.3.33-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2019-03-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.33-3.exe",
@@ -1592,7 +1486,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.33-5",
-                        "DriverName":  "Driver 6.3.33-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-03-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.33-5.dmg",
@@ -1607,7 +1500,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.34-2",
-                        "DriverName":  "Driver 6.3.34-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-05-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/6.3.34-2.dmg",
@@ -1622,7 +1514,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.34-3",
-                        "DriverName":  "Driver 6.3.34-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2019-05-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.34-3.exe",
@@ -1637,7 +1528,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.25-3",
-                        "DriverName":  "Driver 6.3.25-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2019-06-20",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.25-3.exe",
@@ -1652,7 +1542,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.35-2",
-                        "DriverName":  "Driver 6.3.35-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-06-20",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.35-2.dmg",
@@ -1667,7 +1556,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.36-1",
-                        "DriverName":  "Driver 6.3.36-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2019-08-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.36-1.exe",
@@ -1682,7 +1570,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.36-2",
-                        "DriverName":  "Driver 6.3.36-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-08-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.36-2.dmg",
@@ -1697,7 +1584,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.37-2",
-                        "DriverName":  "Driver 6.3.37-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-10-14",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.37-2.dmg",
@@ -1712,7 +1598,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.37-3",
-                        "DriverName":  "Driver 6.3.37-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2019-10-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.37-3.exe",
@@ -1727,7 +1612,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.37-3",
-                        "DriverName":  "Driver 6.3.37-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-10-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.37-3.dmg",
@@ -1742,7 +1626,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.38-2",
-                        "DriverName":  "Driver 6.3.38-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2019-12-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.38-2.exe",
@@ -1757,7 +1640,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.38-2",
-                        "DriverName":  "Driver 6.3.38-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-12-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.38-2.dmg",
@@ -1772,7 +1654,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.38-3",
-                        "DriverName":  "Driver 6.3.38-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2019-12-19",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.38-3.dmg",
@@ -1787,7 +1668,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.39-1",
-                        "DriverName":  "Driver 6.3.39-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2020-04-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.39-1.exe",
@@ -1802,7 +1682,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.39-1",
-                        "DriverName":  "Driver 6.3.39-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2020-04-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.39-1.dmg",
@@ -1817,7 +1696,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.40-2",
-                        "DriverName":  "Driver 6.3.40-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2020-06-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.40-2.exe",
@@ -1832,7 +1710,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.40-2",
-                        "DriverName":  "Driver 6.3.40-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2020-06-29",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.40-2.dmg",
@@ -1847,7 +1724,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.40-3",
-                        "DriverName":  "Driver 6.3.40-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2020-06-31",
                         "DriverURLWacom":  "",
@@ -1862,7 +1738,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.41-1",
-                        "DriverName":  "Driver 6.3.41-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2020-10-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.41-1.exe",
@@ -1877,7 +1752,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.41-2",
-                        "DriverName":  "Driver 6.3.41-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2020-10-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.41-2.dmg",
@@ -1892,7 +1766,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.42-2",
-                        "DriverName":  "Driver 6.3.42-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2021-01-26",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.42-2.exe",
@@ -1907,7 +1780,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.42-1",
-                        "DriverName":  "Driver 6.3.42-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2021-01-26",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.42-1.dmg",
@@ -1922,7 +1794,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.43-3",
-                        "DriverName":  "Driver 6.3.43-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2021-05-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.43-3.exe",
@@ -1937,7 +1808,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.43-3",
-                        "DriverName":  "Driver 6.3.43-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2021-05-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.43-3.dmg",
@@ -1952,7 +1822,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.44.1",
-                        "DriverName":  "Driver 6.3.44.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2021-08-03",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.44-1.exe",
@@ -1967,7 +1836,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.44-1",
-                        "DriverName":  "Driver 6.3.44-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2021-08-03",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.44-1.dmg",
@@ -1982,7 +1850,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.44.3",
-                        "DriverName":  "Driver 6.3.44.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2021-10-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.44-3.exe",
@@ -1997,7 +1864,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.44-2",
-                        "DriverName":  "Driver 6.3.44-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2021-10-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.44-2.dmg",
@@ -2012,7 +1878,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.45.1",
-                        "DriverName":  "Driver 6.3.45.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2021-12-16",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.45-1.exe",
@@ -2027,7 +1892,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.45-1",
-                        "DriverName":  "Driver 6.3.45-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2021-12-16",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.45-1.dmg",
@@ -2042,7 +1906,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.45-2",
-                        "DriverName":  "Driver 6.3.45-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2021-12-22",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.45-2.dmg",
@@ -2057,7 +1920,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.45-3",
-                        "DriverName":  "Driver 6.3.45-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2022-02-16",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.45-3.dmg",
@@ -2072,7 +1934,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.46.1",
-                        "DriverName":  "Driver 6.3.46.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2022-03-29",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.46-1.exe",
@@ -2087,7 +1948,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.46-1",
-                        "DriverName":  "Driver 6.3.46-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2022-03-29",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.46-1.dmg",
@@ -2102,7 +1962,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.46.2",
-                        "DriverName":  "Driver 6.3.46.2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2022-08-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.46-2.exe",
@@ -2117,7 +1976,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0.8",
-                        "DriverName":  "Driver 6.4.0.8 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2022-09-28",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.0-8.exe",
@@ -2132,7 +1990,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0-5",
-                        "DriverName":  "Driver 6.4.0-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2022-09-28",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.0-5.dmg",
@@ -2147,7 +2004,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0.10",
-                        "DriverName":  "Driver 6.4.0.10 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2022-10-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.0-10.exe",
@@ -2162,7 +2018,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0-6",
-                        "DriverName":  "Driver 6.4.0-6 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2022-10-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.0-6.dmg",
@@ -2177,7 +2032,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0-8",
-                        "DriverName":  "Driver 6.4.0-8 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2022-11-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.0-8.dmg",
@@ -2192,7 +2046,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0.11",
-                        "DriverName":  "Driver 6.4.0.11 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2022-11-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.0-11.exe",
@@ -2207,7 +2060,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.0-9",
-                        "DriverName":  "Driver 6.4.0-9 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2022-11-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.0-9.dmg",
@@ -2222,7 +2074,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.1.2",
-                        "DriverName":  "Driver 6.4.1.2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-01-10",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.1-2.exe",
@@ -2237,7 +2088,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.1-1",
-                        "DriverName":  "Driver 6.4.1-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2023-01-10",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.1-1.dmg",
@@ -2252,7 +2102,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.1.3",
-                        "DriverName":  "Driver 6.4.1.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-01-24",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.1-3.exe",
@@ -2267,7 +2116,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.1-2",
-                        "DriverName":  "Driver 6.4.1-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2023-02-28",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.1-2.dmg",
@@ -2282,7 +2130,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.2.1",
-                        "DriverName":  "Driver 6.4.2.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-05-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.2-1.exe",
@@ -2297,7 +2144,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.2-1",
-                        "DriverName":  "Driver 6.4.2-1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2023-05-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.2-1.dmg",
@@ -2312,7 +2158,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.2.3",
-                        "DriverName":  "Driver 6.4.2.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-05-15",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.2-3.exe",
@@ -2327,7 +2172,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.2-4",
-                        "DriverName":  "Driver 6.4.2-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2023-06-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.2-4.dmg",
@@ -2342,7 +2186,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.3.1",
-                        "DriverName":  "Driver 6.4.3.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-08-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.3-1.exe",
@@ -2357,7 +2200,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.3-2",
-                        "DriverName":  "Driver 6.4.3-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2023-08-09",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.3-2.dmg",
@@ -2372,7 +2214,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.4.2",
-                        "DriverName":  "Driver 6.4.4.2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-10-19",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.4-2.exe",
@@ -2387,7 +2228,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.4.3",
-                        "DriverName":  "Driver 6.4.4.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2023-10-23",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.4-3.exe",
@@ -2402,7 +2242,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.4-5",
-                        "DriverName":  "Driver 6.4.4-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2023-11-13",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.4-5.dmg",
@@ -2417,7 +2256,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.5.5",
-                        "DriverName":  "Driver 6.4.5.5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2024-01-25",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.5-5.exe",
@@ -2432,7 +2270,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.5-3",
-                        "DriverName":  "Driver 6.4.5-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2024-01-25",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.5-3.dmg",
@@ -2447,7 +2284,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.6.1",
-                        "DriverName":  "Driver 6.4.6.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2024-04-24",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.6-1.exe",
@@ -2462,7 +2298,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.6.2",
-                        "DriverName":  "Driver 6.4.6.2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2024-05-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.6-2.exe",
@@ -2477,7 +2312,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.6-3",
-                        "DriverName":  "Driver 6.4.6-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2024-06-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.6-3.dmg",
@@ -2492,7 +2326,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.7.3",
-                        "DriverName":  "Driver 6.4.7.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2024-08-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.7-3.exe",
@@ -2507,7 +2340,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.7-2",
-                        "DriverName":  "Driver 6.4.7-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2024-08-27",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.7-2.dmg",
@@ -2522,7 +2354,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.8.2",
-                        "DriverName":  "Driver 6.4.8.2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2024-11-21",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.8-2.exe",
@@ -2537,7 +2368,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.8.3",
-                        "DriverName":  "Driver 6.4.8.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2024-12-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.8-3.exe",
@@ -2552,7 +2382,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.8-3a",
-                        "DriverName":  "Driver 6.4.8-3a for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2024-12-18",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.8-3a.dmg",
@@ -2567,7 +2396,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.8.5",
-                        "DriverName":  "Driver 6.4.8.5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2025-01-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.8-5.exe",
@@ -2582,7 +2410,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.8.6",
-                        "DriverName":  "Driver 6.4.8.6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2025-01-13",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.8-6.exe",
@@ -2597,7 +2424,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.9-2",
-                        "DriverName":  "Driver 6.4.9-2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2025-02-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.9-2.exe",
@@ -2612,7 +2438,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.9-2",
-                        "DriverName":  "Driver 6.4.9-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2025-02-12",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.9-2.dmg",
@@ -2627,7 +2452,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.10.3",
-                        "DriverName":  "Driver 6.4.10.3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2025-06-04",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.10-3.exe",
@@ -2642,7 +2466,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.10.3",
-                        "DriverName":  "Driver 6.4.10.3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2025-06-04",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.10-3.dmg",
@@ -2657,7 +2480,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.11.1",
-                        "DriverName":  "Driver 6.4.11.1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2025-09-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.11-1.exe",
@@ -2672,7 +2494,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.11.1",
-                        "DriverName":  "Driver 6.4.11.1 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2025-09-17",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.11-1.dmg",
@@ -2687,7 +2508,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.11-2",
-                        "DriverName":  "Driver 6.4.11-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2025-10-07",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.11-2.dmg",
@@ -2702,7 +2522,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.12-3",
-                        "DriverName":  "Driver 6.4.12-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "2026-01-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.12-3.exe",
@@ -2717,7 +2536,6 @@
                     },
                     {
                         "DriverVersion":  "6.4.12-3",
-                        "DriverName":  "Driver 6.4.12-3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "2026-01-06",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.12-3.dmg",
@@ -2732,7 +2550,6 @@
                     },
                     {
                         "DriverVersion":  "4.95-6",
-                        "DriverName":  "Driver 4.95-6 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2747,7 +2564,6 @@
                     },
                     {
                         "DriverVersion":  "5.03-3g",
-                        "DriverName":  "Driver 5.03-3g for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2762,7 +2578,6 @@
                     },
                     {
                         "DriverVersion":  "5.2.0-7a",
-                        "DriverName":  "Driver 5.2.0-7a for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2777,7 +2592,6 @@
                     },
                     {
                         "DriverVersion":  "6.0.5-7",
-                        "DriverName":  "Driver 6.0.5-7 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2792,7 +2606,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.3-5",
-                        "DriverName":  "Driver 6.1.3-5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2807,7 +2620,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.4-3",
-                        "DriverName":  "Driver 6.1.4-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2822,7 +2634,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.5-3a",
-                        "DriverName":  "Driver 6.1.5-3a for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2837,7 +2648,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.6-7",
-                        "DriverName":  "Driver 6.1.6-7 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2852,7 +2662,6 @@
                     },
                     {
                         "DriverVersion":  "6.1.7-3",
-                        "DriverName":  "Driver 6.1.7-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2867,7 +2676,6 @@
                     },
                     {
                         "DriverVersion":  "6.2.0w5",
-                        "DriverName":  "Driver 6.2.0w5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2882,7 +2690,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.10w2",
-                        "DriverName":  "Driver 6.3.10w2 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.10w2.exe",
@@ -2897,7 +2704,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.14-1",
-                        "DriverName":  "Driver 6.3.14-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.14-1.exe",
@@ -2912,7 +2718,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.2-3",
-                        "DriverName":  "Driver 6.3.2-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2927,7 +2732,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.2w3",
-                        "DriverName":  "Driver 6.3.2w3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2942,7 +2746,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.3-4",
-                        "DriverName":  "Driver 6.3.3-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2957,7 +2760,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.4-3",
-                        "DriverName":  "Driver 6.3.4-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2972,7 +2774,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.5-3",
-                        "DriverName":  "Driver 6.3.5-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -2987,7 +2788,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.7-3",
-                        "DriverName":  "Driver 6.3.7-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "",
@@ -3002,7 +2802,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.8-4",
-                        "DriverName":  "Driver 6.3.8-4 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.8-4.exe",
@@ -3017,7 +2816,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.9w3",
-                        "DriverName":  "Driver 6.3.9w3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.9w3.exe",
@@ -3032,7 +2830,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.34-3_WDC",
-                        "DriverName":  "Driver 6.3.34-3_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.34-3_WDC.exe",
@@ -3047,7 +2844,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.33-3_WDC",
-                        "DriverName":  "Driver 6.3.33-3_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.33-3_WDC.exe",
@@ -3062,7 +2858,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-4_WDC",
-                        "DriverName":  "Driver 6.3.32-4_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.32-4_WDC.exe",
@@ -3077,7 +2872,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-3_WDC",
-                        "DriverName":  "Driver 6.3.32-3_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.32-3_WDC.exe",
@@ -3092,7 +2886,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-4_WDC",
-                        "DriverName":  "Driver 6.3.31-4_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.31-4_WDC.exe",
@@ -3107,7 +2900,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-6_WDC",
-                        "DriverName":  "Driver 6.3.30-6_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.30-6_WDC.exe",
@@ -3122,7 +2914,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-2_WDC",
-                        "DriverName":  "Driver 6.3.30-2_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.30-2_WDC.exe",
@@ -3137,7 +2928,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-6_WDC",
-                        "DriverName":  "Driver 6.3.29-6_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.29-6_WDC.exe",
@@ -3152,7 +2942,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-4_WDC",
-                        "DriverName":  "Driver 6.3.29-4_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.29-4_WDC.exe",
@@ -3167,7 +2956,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-3_WDC",
-                        "DriverName":  "Driver 6.3.29-3_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.29-3_WDC.exe",
@@ -3182,7 +2970,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.28-3_WDC",
-                        "DriverName":  "Driver 6.3.28-3_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.28-3_WDC.exe",
@@ -3197,7 +2984,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.27-2_WDC",
-                        "DriverName":  "Driver 6.3.27-2_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.27-2_WDC.exe",
@@ -3212,7 +2998,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.25-5_WDC",
-                        "DriverName":  "Driver 6.3.25-5_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.25-5_WDC.exe",
@@ -3227,7 +3012,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.24-5a_WDC",
-                        "DriverName":  "Driver 6.3.24-5a_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.24-5a_WDC.exe",
@@ -3242,7 +3026,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.24-2_WDC",
-                        "DriverName":  "Driver 6.3.24-2_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.24-2_WDC.exe",
@@ -3257,7 +3040,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.23-1_WDC",
-                        "DriverName":  "Driver 6.3.23-1_WDC for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.23-1_WDC.exe",
@@ -3272,7 +3054,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.21-7",
-                        "DriverName":  "Driver 6.3.21-7 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.21-7.exe",
@@ -3287,7 +3068,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.21-3",
-                        "DriverName":  "Driver 6.3.21-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.21-3.exe",
@@ -3302,7 +3082,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.20-3",
-                        "DriverName":  "Driver 6.3.20-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.20-3.exe",
@@ -3317,7 +3096,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.18-3",
-                        "DriverName":  "Driver 6.3.18-3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.18-3.exe",
@@ -3332,7 +3110,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.15-1",
-                        "DriverName":  "Driver 6.3.15-1 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.15-1.exe",
@@ -3347,7 +3124,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.13w3",
-                        "DriverName":  "Driver 6.3.13w3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.13w3.exe",
@@ -3362,7 +3138,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.11w3",
-                        "DriverName":  "Driver 6.3.11w3 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.11w3.exe",
@@ -3377,7 +3152,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.9w5",
-                        "DriverName":  "Driver 6.3.9w5 for WINDOWS",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.3.9w5.exe",
@@ -3392,7 +3166,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.34-2_WDC",
-                        "DriverName":  "Driver 6.3.34-2_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.34-2_WDC.dmg",
@@ -3407,7 +3180,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.33-5_WDC",
-                        "DriverName":  "Driver 6.3.33-5_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.33-5_WDC.dmg",
@@ -3422,7 +3194,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-4_WDC",
-                        "DriverName":  "Driver 6.3.32-4_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.32-4_WDC.dmg",
@@ -3437,7 +3208,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.32-3_WDC",
-                        "DriverName":  "Driver 6.3.32-3_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.32-3_WDC.dmg",
@@ -3452,7 +3222,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-6_WDC",
-                        "DriverName":  "Driver 6.3.31-6_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.31-6_WDC.dmg",
@@ -3467,7 +3236,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-5_WDC",
-                        "DriverName":  "Driver 6.3.31-5_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.31-5_WDC.dmg",
@@ -3482,7 +3250,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.31-4_WDC",
-                        "DriverName":  "Driver 6.3.31-4_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.31-4_WDC.dmg",
@@ -3497,7 +3264,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-2_WDC",
-                        "DriverName":  "Driver 6.3.30-2_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.30-2_WDC.dmg",
@@ -3512,7 +3278,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.30-1_WDC",
-                        "DriverName":  "Driver 6.3.30-1_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.30-1_WDC.dmg",
@@ -3527,7 +3292,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.29-6_WDC",
-                        "DriverName":  "Driver 6.3.29-6_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.29-6_WDC.dmg",
@@ -3542,7 +3306,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.28-2_WDC",
-                        "DriverName":  "Driver 6.3.28-2_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.28-2_WDC.dmg",
@@ -3557,7 +3320,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.27-2_WDC",
-                        "DriverName":  "Driver 6.3.27-2_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.27-2_WDC.dmg",
@@ -3572,7 +3334,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.25-2_WDC",
-                        "DriverName":  "Driver 6.3.25-2_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.25-2_WDC.dmg",
@@ -3587,7 +3348,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.24-1_WDC",
-                        "DriverName":  "Driver 6.3.24-1_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.24-1_WDC.dmg",
@@ -3602,7 +3362,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.23-4_WDC",
-                        "DriverName":  "Driver 6.3.23-4_WDC for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.23-4_WDC.dmg",
@@ -3617,7 +3376,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.21-5",
-                        "DriverName":  "Driver 6.3.21-5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.21-5.dmg",
@@ -3632,7 +3390,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.20-4",
-                        "DriverName":  "Driver 6.3.20-4 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.20-4.dmg",
@@ -3647,7 +3404,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.19-10",
-                        "DriverName":  "Driver 6.3.19-10 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.19-10.dmg",
@@ -3662,7 +3418,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.14-2",
-                        "DriverName":  "Driver 6.3.14-2 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.14-2.dmg",
@@ -3677,7 +3432,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.13w3",
-                        "DriverName":  "Driver 6.3.13w3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.13w3.dmg",
@@ -3692,7 +3446,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.9w5",
-                        "DriverName":  "Driver 6.3.9w5 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.9w5.dmg",
@@ -3707,7 +3460,6 @@
                     },
                     {
                         "DriverVersion":  "6.3.9w3",
-                        "DriverName":  "Driver 6.3.9w3 for MACOS",
                         "OSFamily":  "MACOS",
                         "ReleaseDate":  "",
                         "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.3.9w3.dmg",

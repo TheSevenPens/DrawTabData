@@ -1,7 +1,10 @@
 import type { Driver } from "../drawtab-loader.js";
+import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 
 export type { Driver } from "../drawtab-loader.js";
+
+const OS_LABELS: Record<string, string> = { MACOS: "macOS", WINDOWS: "Windows" };
 
 export const DRIVER_FIELD_GROUPS = ["Driver", "Links"];
 
@@ -10,7 +13,10 @@ export const DRIVER_FIELDS: FieldDef<Driver>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (d) => d.EntityId, type: "string", group: "Driver" },
   { key: "Brand", label: "Brand", getValue: (d) => d.Brand, type: "enum", enumValues: ["WACOM"], group: "Driver" },
   { key: "DriverVersion", label: "Version", getValue: (d) => d.DriverVersion, type: "string", group: "Driver" },
-  { key: "DriverName", label: "Name", getValue: (d) => d.DriverName, type: "string", group: "Driver" },
+  {
+    key: "DriverName", label: "Name", computed: true, type: "string", group: "Driver",
+    getValue: (d) => `${brandName(d.Brand)} Driver ${d.DriverVersion} for ${OS_LABELS[d.OSFamily] ?? d.OSFamily}`,
+  },
   { key: "OSFamily", label: "OS", getValue: (d) => d.OSFamily, type: "enum", enumValues: ["MACOS", "WINDOWS"], group: "Driver" },
   { key: "ReleaseDate", label: "Release Date", getValue: (d) => d.ReleaseDate, type: "string", group: "Driver" },
   {
