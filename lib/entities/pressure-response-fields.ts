@@ -1,5 +1,6 @@
 import type { PressureResponse } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
+import { BRANDS } from "../loader-shared.js";
 
 export type { PressureResponse } from "../drawtab-loader.js";
 
@@ -17,7 +18,7 @@ export const PRESSURE_RESPONSE_FIELD_GROUPS = ["Session", "Environment"];
 
 export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
   // Session
-  { key: "Brand", label: "Brand", getValue: (s) => s.Brand, type: "enum", enumValues: ["GAOMON", "HUION", "SAMSUNG", "UGEE", "WACOM", "XENCELABS", "XPPEN"], group: "Session" },
+  { key: "Brand", label: "Brand", getValue: (s) => s.Brand, type: "enum", enumValues: [...BRANDS], group: "Session" },
   { key: "PenEntityId", label: "Pen", getValue: (s) => penNameMap.get(s.PenEntityId) ?? s.PenEntityId, type: "string", group: "Session" },
   { key: "PenFamily", label: "Pen Family", getValue: (s) => s.PenFamily, type: "string", group: "Session" },
   { key: "InventoryId", label: "Inventory ID", getValue: (s) => s.InventoryId, type: "string", group: "Session" },

@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Brand } from "./drawtab-loader.js";
-import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, TABLET_FAMILY_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
+import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 // --- Generic loader ---
 
@@ -34,7 +34,7 @@ export function loadTabletsFromDisk(dataDir: string): Tablet[] {
 // --- Driver loader ---
 
 export function loadDriversFromDisk(dataDir: string): Driver[] {
-  return loadBrandPartitionedDataFromDisk<Driver>(dataDir, "drivers", "Drivers", WACOM_ONLY);
+  return loadBrandPartitionedDataFromDisk<Driver>(dataDir, "drivers", "Drivers");
 }
 
 // --- Pen loader ---
@@ -46,11 +46,11 @@ export function loadPensFromDisk(dataDir: string): Pen[] {
 // --- Family loaders ---
 
 export function loadPenFamiliesFromDisk(dataDir: string): PenFamily[] {
-  return loadBrandPartitionedDataFromDisk<PenFamily>(dataDir, "pen-families", "PenFamilies", WACOM_ONLY);
+  return loadBrandPartitionedDataFromDisk<PenFamily>(dataDir, "pen-families", "PenFamilies");
 }
 
 export function loadTabletFamiliesFromDisk(dataDir: string): TabletFamily[] {
-  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies", TABLET_FAMILY_BRANDS);
+  return loadBrandPartitionedDataFromDisk<TabletFamily>(dataDir, "tablet-families", "TabletFamilies");
 }
 
 // --- Pen compat loader ---
@@ -87,11 +87,10 @@ export function loadISOPaperSizesFromDisk(dataDir: string): ISOPaperSize[] {
 import type { PressureResponse } from "./schemas.js";
 
 export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[] {
-  return loadBrandPartitionedDataFromDisk<PressureResponse>(dataDir, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
+  return loadBrandPartitionedDataFromDisk<PressureResponse>(dataDir, "pressure-response", "PressureResponse");
 }
 
 // --- Re-export types and accessors ---
 
 export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, Dimensions, ColorGamuts, ISOPaperSize } from "./drawtab-loader.js";
 export { getBrands, filterByBrand, filterByType, getDiagonal, getDiagonalCm, getDiagonalIn, formatDimensions, containsText, equalsText, brandName, BRAND_NAMES } from "./drawtab-loader.js";
-export { TABLET_FAMILY_BRANDS } from "./loader-shared.js";

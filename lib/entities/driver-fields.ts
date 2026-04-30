@@ -1,6 +1,7 @@
 import type { Driver } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
+import { BRANDS } from "../loader-shared.js";
 
 export type { Driver } from "../drawtab-loader.js";
 
@@ -11,7 +12,7 @@ export const DRIVER_FIELD_GROUPS = ["Driver", "Links"];
 export const DRIVER_FIELDS: FieldDef<Driver>[] = [
   // Driver
   { key: "EntityId", label: "Entity ID", getValue: (d) => d.EntityId, type: "string", group: "Driver" },
-  { key: "Brand", label: "Brand", getValue: (d) => d.Brand, type: "enum", enumValues: ["WACOM"], group: "Driver" },
+  { key: "Brand", label: "Brand", getValue: (d) => d.Brand, type: "enum", enumValues: [...BRANDS], group: "Driver" },
   { key: "DriverVersion", label: "Version", getValue: (d) => d.DriverVersion, type: "string", group: "Driver" },
   {
     key: "DriverName", label: "Name", computed: true, type: "string", group: "Driver",

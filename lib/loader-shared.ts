@@ -3,11 +3,12 @@
 import type { PenCompat } from "./drawtab-loader.js";
 import type { PenCompatGrouped } from "./schemas.js";
 
+// Canonical brand list. Per-entity gating (which brands have a tablets file
+// vs. a pen-families file etc.) is no longer hand-maintained — the loaders
+// attempt all BRANDS and silently skip files that don't exist (404 on URL,
+// missing on disk). To add a new brand, add it here and ship its JSON files;
+// no other list updates required.
 export const BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "STAEDTLER", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
-export const WACOM_ONLY = ["WACOM"];
-export const PRESSURE_RESPONSE_BRANDS = ["HUION", "SAMSUNG", "WACOM", "XENCELABS", "XPPEN"];
-export const TABLET_FAMILY_BRANDS = ["DIGIDRAW", "HUION", "WACOM", "XENCELABS", "XPPEN"];
-export const PEN_FAMILY_BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "HUION", "STAEDTLER", "WACOM", "XENCELABS", "XPPEN"];
 
 export type { PenCompatGrouped };
 

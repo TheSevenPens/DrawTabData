@@ -11,6 +11,7 @@ import {
   PenCompatGroupedSchema,
   PressureResponseSchema,
 } from "./schemas.js";
+import { BRANDS } from "./loader-shared.js";
 
 // --- Types ---
 
@@ -220,6 +221,168 @@ function runBrandsChecks(dataDir: string): Issue[] {
   return issues;
 }
 
+// --- Brand drift: brands.json must agree with the BRANDS / BrandEnum list ---
+//
+// brands.json is the source of truth for the human-facing brand catalog,
+// but BRANDS in loader-shared.ts (and the BrandEnum picklist in schemas.ts)
+// is what code actually validates against. Drift between the two means a
+// brand exists in one place but not the other — silently breaking either
+// data loading or schema validation.
+
+function runBrandDriftCheck(dataDir: string): Issue[] {
+  const filePath = path.join(dataDir, "brands", "brands.json");
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(raw) as { Brands?: { BrandId?: string }[] };
+  const idsInData = new Set(
+    (data.Brands ?? []).map((b) => b.BrandId).filter((s): s is string => !!s),
+  );
+  const idsInEnum = new Set<string>(BRANDS);
+  const issues: Issue[] = [];
+  for (const id of idsInData) {
+    if (!idsInEnum.has(id)) {
+      issues.push({
+        file: "brands.json",
+        entityId: id,
+        field: "BrandId",
+        issue: "in brands.json but missing from BRANDS / BrandEnum",
+        value: "add to loader-shared.ts BRANDS and schemas.ts BrandEnum",
+      });
+    }
+  }
+  for (const id of idsInEnum) {
+    if (!idsInData.has(id)) {
+      issues.push({
+        file: "brands.json",
+        entityId: id,
+        field: "BrandId",
+        issue: "in BRANDS / BrandEnum but missing from brands.json",
+        value: "add a Brands entry or remove from loader-shared.ts",
+      });
+    }
+  }
+  return issues;
+}
+
+// --- Cross-entity orphan reference checks ---
+//
+// These need data from multiple files at once (a Tablet's Model.Family
+// pointing to a TabletFamily that exists, etc.). The browser data-quality
+// page also runs these checks; mirroring them in the CLI means a typo
+// fails validation instead of silently producing an iPad that doesn't
+// link to its family page.
+
+function readAllInDir(
+  dataDir: string,
+  dirName: string,
+  rootKey: string,
+): { file: string; record: RawRecord }[] {
+  const dir = path.join(dataDir, dirName);
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+  const all: { file: string; record: RawRecord }[] = [];
+  for (const file of files) {
+    const raw = fs.readFileSync(path.join(dir, file), "utf-8");
+    const data = JSON.parse(raw) as Record<string, unknown>;
+    const items = data[rootKey];
+    if (Array.isArray(items)) {
+      for (const record of items as RawRecord[]) {
+        all.push({ file, record });
+      }
+    }
+  }
+  return all;
+}
+
+function runCrossEntityChecks(dataDir: string): Issue[] {
+  const tablets = readAllInDir(dataDir, "tablets", "DrawingTablets");
+  const pens = readAllInDir(dataDir, "pens", "Pens");
+  const tabletFamilies = readAllInDir(dataDir, "tablet-families", "TabletFamilies");
+  const penFamilies = readAllInDir(dataDir, "pen-families", "PenFamilies");
+  const penCompat = readAllInDir(dataDir, "pen-compat", "PenCompat");
+
+  const tabletModelIds = new Set<string>();
+  for (const { record } of tablets) {
+    const id = getNestedString(record, "Model", "Id");
+    if (id) tabletModelIds.add(id);
+  }
+  const penIds = new Set<string>();
+  for (const { record } of pens) {
+    const id = getString(record, "PenId");
+    if (id) penIds.add(id);
+  }
+  const tabletFamilyIds = new Set<string>();
+  for (const { record } of tabletFamilies) {
+    const id = getString(record, "EntityId");
+    if (id) tabletFamilyIds.add(id);
+  }
+  const penFamilyIds = new Set<string>();
+  for (const { record } of penFamilies) {
+    const id = getString(record, "EntityId");
+    if (id) penFamilyIds.add(id);
+  }
+
+  const issues: Issue[] = [];
+
+  // Tablet.Model.Family -> TabletFamily.EntityId
+  for (const { file, record } of tablets) {
+    const family = getNestedString(record, "Model", "Family");
+    if (family && !tabletFamilyIds.has(family)) {
+      issues.push({
+        file,
+        entityId: getEntityId(record),
+        field: "Model.Family",
+        issue: "references unknown TabletFamily",
+        value: family,
+      });
+    }
+  }
+
+  // Pen.PenFamily -> PenFamily.EntityId
+  for (const { file, record } of pens) {
+    const family = getString(record, "PenFamily");
+    if (family && !penFamilyIds.has(family)) {
+      issues.push({
+        file,
+        entityId: getEntityId(record),
+        field: "PenFamily",
+        issue: "references unknown PenFamily",
+        value: family,
+      });
+    }
+  }
+
+  // PenCompat.PenId / TabletIds -> Pen.PenId / Tablet.Model.Id
+  for (const { file, record } of penCompat) {
+    const penId = getString(record, "PenId");
+    if (penId && !penIds.has(penId)) {
+      issues.push({
+        file,
+        entityId: penId,
+        field: "PenId",
+        issue: "pen-compat references unknown pen",
+        value: penId,
+      });
+    }
+    const tabletIdsRaw = record.TabletIds;
+    if (Array.isArray(tabletIdsRaw)) {
+      for (const tid of tabletIdsRaw) {
+        if (typeof tid === "string" && !tabletModelIds.has(tid)) {
+          issues.push({
+            file,
+            entityId: penId ?? "UNKNOWN",
+            field: "TabletIds",
+            issue: "pen-compat references unknown tablet",
+            value: tid,
+          });
+        }
+      }
+    }
+  }
+
+  return issues;
+}
+
 // --- Runner ---
 
 export function runDataQuality(dataDir: string): Issue[] {
@@ -275,5 +438,7 @@ export function runDataQuality(dataDir: string): Issue[] {
       dedupe: true,
     }),
     ...runBrandsChecks(dataDir),
+    ...runBrandDriftCheck(dataDir),
+    ...runCrossEntityChecks(dataDir),
   ];
 }

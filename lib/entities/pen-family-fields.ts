@@ -1,5 +1,6 @@
 import type { PenFamily } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
+import { BRANDS } from "../loader-shared.js";
 
 export type { PenFamily } from "../drawtab-loader.js";
 
@@ -15,7 +16,7 @@ export const PEN_FAMILY_FIELD_GROUPS = ["Pen Family"];
 
 export const PEN_FAMILY_FIELDS: FieldDef<PenFamily>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (f) => f.EntityId, type: "string", group: "Pen Family" },
-  { key: "Brand", label: "Brand", getValue: (f) => f.Brand, type: "enum", enumValues: ["WACOM"], group: "Pen Family" },
+  { key: "Brand", label: "Brand", getValue: (f) => f.Brand, type: "enum", enumValues: [...BRANDS], group: "Pen Family" },
   { key: "FamilyName", label: "Name", getValue: (f) => f.FamilyName, type: "string", group: "Pen Family" },
   { key: "PenCount", label: "Pens", computed: true, type: "number", group: "Pen Family",
     getValue: (f) => String(penFamilyMemberCounts[f.EntityId] ?? 0) },

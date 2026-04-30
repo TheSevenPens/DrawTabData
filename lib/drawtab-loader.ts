@@ -1,8 +1,6 @@
 // --- Types ---
 
-import { BRANDS, WACOM_ONLY, PRESSURE_RESPONSE_BRANDS, TABLET_FAMILY_BRANDS, PEN_FAMILY_BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
-
-export { TABLET_FAMILY_BRANDS } from "./loader-shared.js";
+import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
 
@@ -60,7 +58,7 @@ export async function loadTabletsFromURL(dataBaseUrl: string): Promise<Tablet[]>
 // --- Driver loader ---
 
 export async function loadDriversFromURL(dataBaseUrl: string): Promise<Driver[]> {
-  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers", WACOM_ONLY);
+  return loadBrandPartitionedDataFromURL<Driver>(dataBaseUrl, "drivers", "Drivers");
 }
 
 // --- Pen loader ---
@@ -72,11 +70,11 @@ export async function loadPensFromURL(dataBaseUrl: string): Promise<Pen[]> {
 // --- Family loaders ---
 
 export async function loadPenFamiliesFromURL(dataBaseUrl: string): Promise<PenFamily[]> {
-  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies", PEN_FAMILY_BRANDS);
+  return loadBrandPartitionedDataFromURL<PenFamily>(dataBaseUrl, "pen-families", "PenFamilies");
 }
 
 export async function loadTabletFamiliesFromURL(dataBaseUrl: string): Promise<TabletFamily[]> {
-  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies", TABLET_FAMILY_BRANDS);
+  return loadBrandPartitionedDataFromURL<TabletFamily>(dataBaseUrl, "tablet-families", "TabletFamilies");
 }
 
 // --- Pen compat loader ---
@@ -89,7 +87,7 @@ export async function loadPenCompatFromURL(dataBaseUrl: string): Promise<PenComp
 // --- Pressure response loader ---
 
 export async function loadPressureResponseFromURL(dataBaseUrl: string): Promise<PressureResponse[]> {
-  return loadBrandPartitionedDataFromURL<PressureResponse>(dataBaseUrl, "pressure-response", "PressureResponse", PRESSURE_RESPONSE_BRANDS);
+  return loadBrandPartitionedDataFromURL<PressureResponse>(dataBaseUrl, "pressure-response", "PressureResponse");
 }
 
 // --- Inventory loaders ---
