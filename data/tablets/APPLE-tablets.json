@@ -1,0 +1,1719 @@
+{
+  "DrawingTablets": [
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro129gen1",
+        "_id": "b464fa63-b13a-41bb-9abd-2510643bbef7",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-12.9-Gen1",
+        "Name": "iPad Pro 12.9-inch (1st generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2015",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111974",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 262.2,
+          "Height": 196.5
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 305.7,
+          "Height": 220.6,
+          "Depth": 6.9
+        },
+        "Weight": "713"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A9X",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro97",
+        "_id": "ebb80f16-c639-4c7a-8314-e64f16c6e6f9",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-9.7",
+        "Name": "iPad Pro 9.7-inch",
+        "Type": "STANDALONE",
+        "LaunchYear": "2016",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111977",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 197.1,
+          "Height": 147.8
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2048,
+          "Height": 1536
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 240,
+          "Height": 169.5,
+          "Depth": 6.1
+        },
+        "Weight": "437"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A9X",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro129gen2",
+        "_id": "741af48d-78d1-4676-8c41-473a3a70a9a8",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-12.9-Gen2",
+        "Name": "iPad Pro 12.9-inch (2nd generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2017",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111973",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 262.2,
+          "Height": 196.5
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 305.7,
+          "Height": 220.6,
+          "Depth": 6.1
+        },
+        "Weight": "692"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A10X Fusion",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro105",
+        "_id": "a749ae8a-b342-4479-ac10-337960bd5ac4",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-10.5",
+        "Name": "iPad Pro 10.5-inch",
+        "Type": "STANDALONE",
+        "LaunchYear": "2017",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111976",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 213.4,
+          "Height": 160
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2224,
+          "Height": 1668
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 250.6,
+          "Height": 174.1,
+          "Depth": 6.1
+        },
+        "Weight": "469"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A10X Fusion",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro11gen1",
+        "_id": "a3e6038e-f749-4008-a784-a87decf877d0",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-11-Gen1",
+        "Name": "iPad Pro 11-inch (1st generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2018",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111972",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.1,
+          "Height": 160
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2388,
+          "Height": 1668
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 5.9
+        },
+        "Weight": "468"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12X Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro129gen3",
+        "_id": "2c5ed7b8-69f1-461d-8eea-0efe9749545f",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-12.9-Gen3",
+        "Name": "iPad Pro 12.9-inch (3rd generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2018",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111968",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 262.2,
+          "Height": 196.5
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 5.9
+        },
+        "Weight": "631"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12X Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro11gen2",
+        "_id": "0e7ae57d-671e-4717-bea0-24abe0184f20",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-11-Gen2",
+        "Name": "iPad Pro 11-inch (2nd generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2020",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111966",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.1,
+          "Height": 160
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2388,
+          "Height": 1668
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 5.9
+        },
+        "Weight": "471"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12Z Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro129gen4",
+        "_id": "6f872229-4456-46ce-9c76-efe8f89aa986",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-12.9-Gen4",
+        "Name": "iPad Pro 12.9-inch (4th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2020",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111965",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 262.2,
+          "Height": 196.5
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 5.9
+        },
+        "Weight": "641"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12Z Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro11gen3",
+        "_id": "c2e02b8d-521c-44bf-88ae-fe9272a98844",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-11-Gen3",
+        "Name": "iPad Pro 11-inch (3rd generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2021",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111964",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.1,
+          "Height": 160
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2388,
+          "Height": 1668
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 5.9
+        },
+        "Weight": "466"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M1",
+        "USB": "USB-C (Thunderbolt 4)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro129gen5",
+        "_id": "29b30d1e-8cda-4914-bad6-6028fba2c9ae",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-12.9-Gen5",
+        "Name": "iPad Pro 12.9-inch (5th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2021",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111963",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 262.2,
+          "Height": 196.5
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 6.4
+        },
+        "Weight": "682"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M1",
+        "USB": "USB-C (Thunderbolt 4)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro11gen4",
+        "_id": "4bfe9a3f-c929-4b97-9c2a-9301c2636381",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-11-Gen4",
+        "Name": "iPad Pro 11-inch (4th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2022",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111841",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.1,
+          "Height": 160
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2388,
+          "Height": 1668
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 5.9
+        },
+        "Weight": "466"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M2",
+        "USB": "USB-C (Thunderbolt 4)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro129gen6",
+        "_id": "ad04c96b-829c-413b-ad63-e71a6d009ffc",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-12.9-Gen6",
+        "Name": "iPad Pro 12.9-inch (6th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2022",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/111840",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 262.2,
+          "Height": 196.5
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 6.4
+        },
+        "Weight": "682"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M2",
+        "USB": "USB-C (Thunderbolt 4)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro11m4",
+        "_id": "c9715808-922a-4052-a63e-85ce59bf2b2a",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-11-M4",
+        "Name": "iPad Pro 11-inch (M4)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2024",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/119892",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 230,
+          "Height": 158.6
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2420,
+          "Height": 1668
+        },
+        "PanelTech": "OLED",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 249.7,
+          "Height": 177.5,
+          "Depth": 5.3
+        },
+        "Weight": "444"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M4",
+        "USB": "USB-C (Thunderbolt 4)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro13m4",
+        "_id": "67e418cc-b243-4d8d-9bc0-7a96dbd39188",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-13-M4",
+        "Name": "iPad Pro 13-inch (M4)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2024",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://support.apple.com/en-us/119891",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 264.2,
+          "Height": 198.1
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2752,
+          "Height": 2064
+        },
+        "PanelTech": "OLED",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 281.6,
+          "Height": 215.5,
+          "Depth": 5.1
+        },
+        "Weight": "579"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M4",
+        "USB": "USB-C (Thunderbolt 4)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro11m5",
+        "_id": "9378b96a-a221-4b8f-910e-d2b11f443b92",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-11-M5",
+        "Name": "iPad Pro 11-inch (M5)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2025",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-pro",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 230,
+          "Height": 158.6
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2420,
+          "Height": 1668
+        },
+        "PanelTech": "OLED",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 249.7,
+          "Height": 177.5,
+          "Depth": 5.3
+        },
+        "Weight": "444"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M5",
+        "USB": "USB-C (Thunderbolt 5)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadpro13m5",
+        "_id": "601c8103-f6d8-472d-9f25-d1ddba36ccc9",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Pro-13-M5",
+        "Name": "iPad Pro 13-inch (M5)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2025",
+        "Audience": "Professional",
+        "Family": "apple.tabletfamily.ipadpro",
+        "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-pro",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 264.2,
+          "Height": 198.1
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2752,
+          "Height": 2064
+        },
+        "PanelTech": "OLED",
+        "Lamination": "YES",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 281.6,
+          "Height": 215.5,
+          "Depth": 5.1
+        },
+        "Weight": "579"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M5",
+        "USB": "USB-C (Thunderbolt 5)",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadairgen3",
+        "_id": "04aefe22-287c-46aa-9055-aff87d22f513",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-Gen3",
+        "Name": "iPad Air (3rd generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2019",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/111982",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 213.4,
+          "Height": 160
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2224,
+          "Height": 1668
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 250.6,
+          "Height": 174.1,
+          "Depth": 6.1
+        },
+        "Weight": "456"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12 Bionic",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadairgen4",
+        "_id": "d5d2568b-1a8a-47d7-af41-f2152c4ba674",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-Gen4",
+        "Name": "iPad Air (4th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2020",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/111981",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 227.4,
+          "Height": 158
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 6.1
+        },
+        "Weight": "458"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A14 Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadairgen5",
+        "_id": "5798525d-81fd-4930-a556-e9ed37da16d2",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-Gen5",
+        "Name": "iPad Air (5th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2022",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/111980",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 227.4,
+          "Height": 158
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 6.1
+        },
+        "Weight": "461"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M1",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadair11m2",
+        "_id": "8dea6445-10af-493b-8fcc-2f0744d352a6",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-11-M2",
+        "Name": "iPad Air 11-inch (M2)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2024",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/119893",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.4,
+          "Height": 159.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 6.1
+        },
+        "Weight": "462"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M2",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadair13m2",
+        "_id": "0c9e0c4e-b0a6-4c8c-a8d5-67c0b2065869",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-13-M2",
+        "Name": "iPad Air 13-inch (M2)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2024",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/119894",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 264.2,
+          "Height": 198.1
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 6.1
+        },
+        "Weight": "617"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M2",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadair11m3",
+        "_id": "cf849666-74a2-4d82-960e-9c4364715f8d",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-11-M3",
+        "Name": "iPad Air 11-inch (M3)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2025",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/121881",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.4,
+          "Height": 159.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 6.1
+        },
+        "Weight": "460"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M3",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadair13m3",
+        "_id": "eb83a056-98d3-4b40-b8b0-6c1c9b82f122",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-13-M3",
+        "Name": "iPad Air 13-inch (M3)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2025",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://support.apple.com/en-us/121882",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 264.2,
+          "Height": 198.1
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 6.1
+        },
+        "Weight": "617"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M3",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadair11m4",
+        "_id": "a94539c6-3aab-41fd-8a47-0bf6be6a7456",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-11-M4",
+        "Name": "iPad Air 11-inch (M4)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2026",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-air",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.4,
+          "Height": 159.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 247.6,
+          "Height": 178.5,
+          "Depth": 6.1
+        },
+        "Weight": "464"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M4",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadair13m4",
+        "_id": "865cef58-c07f-4869-a4b5-ea37a7e833c8",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Air-13-M4",
+        "Name": "iPad Air 13-inch (M4)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2026",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadair",
+        "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-air",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 264.2,
+          "Height": 198.1
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2732,
+          "Height": 2048
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 214.9,
+          "Depth": 6.1
+        },
+        "Weight": "616"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple M4",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadminigen5",
+        "_id": "cab6af4f-4523-43b5-8631-a6c808e7919c",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Mini-Gen5",
+        "Name": "iPad mini (5th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2019",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadmini",
+        "ProductLink": "https://support.apple.com/en-us/111985",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 160.5,
+          "Height": 120.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2048,
+          "Height": 1536
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 203.2,
+          "Height": 134.8,
+          "Depth": 6.1
+        },
+        "Weight": "300.5"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12 Bionic",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadminigen6",
+        "_id": "d86b1e6b-ed13-4801-a2e3-0971f344f32c",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Mini-Gen6",
+        "Name": "iPad mini (6th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2021",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadmini",
+        "ProductLink": "https://support.apple.com/en-us/111984",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 176.2,
+          "Height": 115.7
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2266,
+          "Height": 1488
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 195.4,
+          "Height": 134.8,
+          "Depth": 6.3
+        },
+        "Weight": "293"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A15 Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadminigen7",
+        "_id": "4a40180d-d03f-4351-a159-eb6f64dc0ea0",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Mini-Gen7",
+        "Name": "iPad mini (7th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2024",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipadmini",
+        "ProductLink": "https://support.apple.com/en-us/121456",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 176.2,
+          "Height": 115.7
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2266,
+          "Height": 1488
+        },
+        "PanelTech": "IPS",
+        "Lamination": "YES",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 195.4,
+          "Height": 134.8,
+          "Depth": 6.3
+        },
+        "Weight": "293"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A17 Pro",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen5",
+        "_id": "b34fea0f-bab3-4c59-82e6-8d7f27be44df",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen5",
+        "Name": "iPad (5th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2017",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://support.apple.com/en-us/111978",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 197.1,
+          "Height": 147.8
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2048,
+          "Height": 1536
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 240,
+          "Height": 169.5,
+          "Depth": 7.5
+        },
+        "Weight": "469"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A9",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen6",
+        "_id": "68dc3593-98aa-4003-b118-29713d1babe4",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen6",
+        "Name": "iPad (6th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2018",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://support.apple.com/en-us/111971",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 197.1,
+          "Height": 147.8
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2048,
+          "Height": 1536
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 240,
+          "Height": 169.5,
+          "Depth": 7.5
+        },
+        "Weight": "469"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A10 Fusion",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen7",
+        "_id": "9c543f67-1c1c-4766-b00e-354288e1b01a",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen7",
+        "Name": "iPad (7th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2019",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://support.apple.com/en-us/111970",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 207.3,
+          "Height": 155.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2160,
+          "Height": 1620
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 250.6,
+          "Height": 174.1,
+          "Depth": 7.5
+        },
+        "Weight": "483"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A10 Fusion",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen8",
+        "_id": "62aa5b6d-9990-4321-9bae-f7012680ce03",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen8",
+        "Name": "iPad (8th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2020",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://support.apple.com/en-us/111969",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 207.3,
+          "Height": 155.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2160,
+          "Height": 1620
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 250.6,
+          "Height": 174.1,
+          "Depth": 7.5
+        },
+        "Weight": "490"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A12 Bionic",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen9",
+        "_id": "34449631-9f6a-4e9a-98d4-60356a045854",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen9",
+        "Name": "iPad (9th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2021",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://support.apple.com/en-us/111967",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 207.3,
+          "Height": 155.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2160,
+          "Height": 1620
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 250.6,
+          "Height": 174.1,
+          "Depth": 7.5
+        },
+        "Weight": "487"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A13 Bionic",
+        "USB": "Lightning",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen10",
+        "_id": "a76ff98a-5dbd-4e12-a015-0e8666c46816",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen10",
+        "Name": "iPad (10th generation)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2022",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://support.apple.com/en-us/111842",
+        "Status": "DISCONTINUED"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 227.4,
+          "Height": 158
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 248.6,
+          "Height": 179.5,
+          "Depth": 7
+        },
+        "Weight": "477"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A14 Bionic",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "apple.tablet.ipadgen11",
+        "_id": "708e7b5e-380e-4416-9ab1-fb9c0b3e8f1d",
+        "_CreateDate": "2026-04-30T00:00:00.000Z",
+        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+      },
+      "Model": {
+        "Brand": "APPLE",
+        "Id": "iPad-Gen11",
+        "Name": "iPad (A16)",
+        "Type": "STANDALONE",
+        "LaunchYear": "2025",
+        "Audience": "Consumer",
+        "Family": "apple.tabletfamily.ipad",
+        "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 229.4,
+          "Height": 159.4
+        },
+        "SupportsTouch": "YES"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2360,
+          "Height": 1640
+        },
+        "PanelTech": "IPS",
+        "Lamination": "NO",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 248.6,
+          "Height": 179.5,
+          "Depth": 7
+        },
+        "Weight": "477"
+      },
+      "Standalone": {
+        "OS": "iPadOS",
+        "Processor": "Apple A16",
+        "USB": "USB-C",
+        "Speakers": "YES"
+      }
+    }
+  ]
+}

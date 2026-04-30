@@ -1,0 +1,36 @@
+{
+  "TabletFamilies": [
+    {
+      "EntityId": "apple.tabletfamily.ipadpro",
+      "Brand": "APPLE",
+      "FamilyName": "iPad Pro",
+      "_id": "dd314154-b166-4f05-a1db-187394becc8c",
+      "_CreateDate": "2026-04-30T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "EntityId": "apple.tabletfamily.ipadair",
+      "Brand": "APPLE",
+      "FamilyName": "iPad Air",
+      "_id": "d232be74-9dc8-46ee-a09c-2419219f8bf7",
+      "_CreateDate": "2026-04-30T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "EntityId": "apple.tabletfamily.ipadmini",
+      "Brand": "APPLE",
+      "FamilyName": "iPad mini",
+      "_id": "ae072c87-73c3-4b56-84f7-077b4fc91aed",
+      "_CreateDate": "2026-04-30T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+    },
+    {
+      "EntityId": "apple.tabletfamily.ipad",
+      "Brand": "APPLE",
+      "FamilyName": "iPad",
+      "_id": "05a4325b-6034-4aec-a14a-bdc18dbbc576",
+      "_CreateDate": "2026-04-30T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+    }
+  ]
+}
