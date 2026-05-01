@@ -57,7 +57,7 @@ OTHER
   (data-repo/lib/entities/tablet-fields.ts). Available as a column,
   sort key, or filter in the Tablets list and any other entity-explorer
   view that surfaces it.
-- **Analysis page** in the Explorer (`/analysis`) — under the *Aspect
+- **Analysis page** in the Explorer (`/tablet-analysis`) — under the *Aspect
   Ratio* category, the *Pen Tablets — by Category* and *Pen Displays —
   by Category* sections show the distribution.
 - **Source of truth** — `data-repo/lib/aspect-ratio.ts`. Both the
