@@ -39,11 +39,13 @@ export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "Hover", label: "Hover", getValue: (p) => p.Hover ?? '', type: "string", group: "Sensors" },
   // Controls
   { key: "ButtonCount", label: "Button Count", getValue: (p) => p.ButtonCount ?? '', type: "number", group: "Controls" },
-  { key: "Roller", label: "Roller", getValue: (p) => p.Roller ?? '', type: "string", group: "Controls" },
+  { key: "Wheel", label: "Wheel", getValue: (p) => p.Wheel ?? '', type: "string", group: "Controls" },
   { key: "Eraser", label: "Eraser", getValue: (p) => p.Eraser ?? '', type: "string", group: "Controls" },
   // Physical
   { key: "Shape", label: "Shape", getValue: (p) => p.Shape ?? '', type: "string", group: "Physical" },
   { key: "Weight", label: "Weight (g)", getValue: (p) => p.Weight ?? '', type: "number", group: "Physical" },
+  { key: "Length", label: "Length (mm)", getValue: (p) => p.Length ?? '', type: "number", group: "Physical" },
+  { key: "Diameter", label: "Diameter (mm)", getValue: (p) => p.Diameter ?? '', type: "number", group: "Physical" },
 ];
 
 export const PEN_DEFAULT_COLUMNS = [

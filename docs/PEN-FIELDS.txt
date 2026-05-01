@@ -108,8 +108,8 @@ Number of side buttons on the pen body.
 Format: integer string (e.g. "0", "1", "2", "3")
 Required: no
 
-### Roller
-Whether the pen has a roller/scroll-wheel control (e.g. XP-Pen
+### Wheel
+Whether the pen has a scroll-wheel / roller control (e.g. XP-Pen
 X3 Pro Roller).
 Values: YES, NO
 Required: no
@@ -133,6 +133,16 @@ Required: no
 ### Weight
 The pen's weight in grams.
 Format: numeric string (e.g. "13", "20")
+Required: no
+
+### Length
+The pen's overall length in millimetres.
+Format: numeric string (e.g. "157", "175.5")
+Required: no
+
+### Diameter
+The pen's maximum barrel diameter in millimetres.
+Format: numeric string (e.g. "14.9", "12")
 Required: no
 
 
