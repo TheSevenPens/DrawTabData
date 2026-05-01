@@ -7,9 +7,18 @@
                      "PenName":  "SP-200",
                      "PenFamily":  "wacom.penfamily.wacom_sp",
                      "PenYear":  "1988",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "NO",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
+                     "Notes":  "Tip switch reports only on/off (2 states), not graded pressure.",
                      "_id":  "3f2fad22-42e0-4d7d-ab6e-a70f76575bd3",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.sp210",
@@ -18,9 +27,18 @@
                      "PenName":  "SP-210",
                      "PenFamily":  "wacom.penfamily.wacom_sp",
                      "PenYear":  "1988",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "NO",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
+                     "Notes":  "Tip switch reports only on/off (2 states), not graded pressure.",
                      "_id":  "2f259ad8-353b-4836-ada7-d6144bd5d056",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.sp200a",
@@ -29,9 +47,18 @@
                      "PenName":  "SP-200A",
                      "PenFamily":  "wacom.penfamily.wacom_sp",
                      "PenYear":  "1988",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "NO",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8.4",
+                     "Length":  "142.5",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
+                     "Notes":  "Tip switch reports only on/off (2 states), not graded pressure.",
                      "_id":  "4430b84e-c5c8-448b-b897-88c59b1a38de",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.sp210a",
@@ -40,9 +67,18 @@
                      "PenName":  "SP-210A",
                      "PenFamily":  "wacom.penfamily.wacom_sp",
                      "PenYear":  "1988",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "NO",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8.4",
+                     "Length":  "142.5",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
+                     "Notes":  "Tip switch reports only on/off (2 states), not graded pressure.",
                      "_id":  "cf5a191b-3440-45b1-a8bb-d1e04f1e541f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.sp300",
@@ -51,9 +87,18 @@
                      "PenName":  "SP-300",
                      "PenFamily":  "wacom.penfamily.wacom_sp",
                      "PenYear":  "1988",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "64",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
                      "_id":  "c82488c3-b6e4-4cbd-8536-c4922422befc",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.sp310",
@@ -62,9 +107,18 @@
                      "PenName":  "SP-310",
                      "PenFamily":  "wacom.penfamily.wacom_sp",
                      "PenYear":  "1988",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "64",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
                      "_id":  "cd9d5298-027f-4227-becd-3052dd32e62e",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp132",
@@ -73,9 +127,18 @@
                      "PenName":  "Finetip Pen for Intuos Pro",
                      "PenFamily":  "",
                      "PenYear":  "2017",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "15",
+                     "Length":  "132.6",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
                      "_id":  "440abb2b-293d-490b-9419-c86d80288efa",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep150e",
@@ -84,9 +147,18 @@
                      "PenName":  "Bamboo Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2007",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12",
+                     "Length":  "142.5",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "f2d6f58a-823e-44d9-8669-d5978b2ba21e",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp170",
@@ -95,9 +167,18 @@
                      "PenName":  "Bamboo Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2012",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "150",
+                     "Diameter":  "11.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "ba0dd760-9a57-4ca7-b61d-875d845a5d59",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp170e",
@@ -106,9 +187,18 @@
                      "PenName":  "Bamboo Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2012",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "14",
+                     "Length":  "155.6",
+                     "Diameter":  "11.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "884287e3-b217-4567-8f1c-8910843bce46",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp190",
@@ -117,9 +207,18 @@
                      "PenName":  "2K Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2015",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "10",
+                     "Length":  "138.8",
+                     "Diameter":  "11.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "e23d247a-49e7-44ac-82da-3348ddc6bd6b",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp190k",
@@ -128,9 +227,18 @@
                      "PenName":  "2K Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2015",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "9",
+                     "Length":  "138.8",
+                     "Diameter":  "11.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "efeff9d2-a122-406e-898a-14fa341192c1",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp1100k",
@@ -139,9 +247,18 @@
                      "PenName":  "4K Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2018",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "4096",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "139",
+                     "Diameter":  "12",
+                     "BarrelRotation":  "NO",
                      "_id":  "8c5116c8-ed64-4036-8cf8-7bead383d4ed",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp130",
@@ -150,9 +267,18 @@
                      "PenName":  "Intuos 4 Inking Pen",
                      "PenFamily":  "",
                      "PenYear":  "2005",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "151",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "f5e2d9ca-fcd1-42a9-9eae-928ef8603253",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp133",
@@ -161,9 +287,18 @@
                      "PenName":  "Ballpoint Pen for Intuos Pro",
                      "PenFamily":  "",
                      "PenYear":  "2017",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "15",
+                     "Length":  "132.6",
+                     "Diameter":  "11",
+                     "BarrelRotation":  "NO",
                      "_id":  "fec42332-046e-4f3d-8455-da1ba280c7e7",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.acp500",
@@ -172,17 +307,21 @@
                      "PenName":  "Pro Pen 3",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen3",
                      "PenYear":  "2022",
-                     "ButtonCount":  "2",
+                     "ButtonCount":  "3",
                      "PressureSensitive":  "YES",
                      "PressureLevels":  "8192",
+                     "Wheel":  "NO",
                      "Eraser":  "NO",
                      "Shape":  "STANDARD",
+                     "Weight":  "9.1",
+                     "Length":  "160",
+                     "Diameter":  "8.4",
                      "Tilt":  "YES",
                      "BarrelRotation":  "NO",
                      "Hover":  "YES",
                      "_id":  "60e2abdf-8138-4a0a-a9eb-a82564d73fae",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.acp501e",
@@ -191,17 +330,21 @@
                      "PenName":  "Pro Pen 3E",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen3",
                      "PenYear":  "2025",
-                     "ButtonCount":  "2",
+                     "ButtonCount":  "3",
                      "PressureSensitive":  "YES",
                      "PressureLevels":  "8192",
+                     "Wheel":  "NO",
                      "Eraser":  "YES",
                      "Shape":  "STANDARD",
+                     "Weight":  "9.8",
+                     "Length":  "160",
+                     "Diameter":  "8.4",
                      "Tilt":  "YES",
                      "BarrelRotation":  "NO",
                      "Hover":  "YES",
                      "_id":  "fce9bf2f-bd30-4347-913d-7c07c7b3ca9f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp505",
@@ -210,9 +353,18 @@
                      "PenName":  "Pro Pen 3D",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen2",
                      "PenYear":  "2017",
+                     "ButtonCount":  "3",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "15",
+                     "Length":  "157",
+                     "Diameter":  "15",
+                     "BarrelRotation":  "NO",
                      "_id":  "16bff042-9d5c-4649-bdb3-d446cb97c27f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp301e",
@@ -221,9 +373,18 @@
                      "PenName":  "Pro Pen Slim",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen2",
                      "PenYear":  "2010",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12",
+                     "Length":  "157",
+                     "Diameter":  "10",
+                     "BarrelRotation":  "NO",
                      "_id":  "872e9815-b73f-411c-a355-92ffdabef543",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp504e",
@@ -235,14 +396,18 @@
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
                      "PressureLevels":  "8192",
+                     "Wheel":  "NO",
                      "Eraser":  "YES",
                      "Shape":  "STANDARD",
+                     "Weight":  "15",
+                     "Length":  "157",
+                     "Diameter":  "15",
                      "Tilt":  "YES",
                      "BarrelRotation":  "NO",
                      "Hover":  "YES",
                      "_id":  "09880ac1-92a5-473a-a89a-54af23844246",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp503e",
@@ -251,9 +416,21 @@
                      "PenName":  "Pro Pen",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen1",
                      "PenYear":  "2013",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Shape":  "STANDARD",
+                     "Weight":  "16",
+                     "Length":  "157",
+                     "Diameter":  "14.9",
+                     "Tilt":  "YES",
+                     "BarrelRotation":  "NO",
+                     "Hover":  "YES",
                      "_id":  "9c1b9e33-d6ed-4d21-b7f7-64b4b6c26940",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp300e",
@@ -262,9 +439,18 @@
                      "PenName":  "Classic Pen",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen1",
                      "PenYear":  "2005",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12",
+                     "Length":  "150.7",
+                     "Diameter":  "12.2",
+                     "BarrelRotation":  "NO",
                      "_id":  "3bbdec04-feb1-4ff5-8012-2dc2b484b29f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp701e",
@@ -276,14 +462,18 @@
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
                      "PressureLevels":  "2048",
+                     "Wheel":  "NO",
                      "Eraser":  "YES",
                      "Shape":  "STANDARD",
+                     "Weight":  "20",
+                     "Length":  "156.3",
+                     "Diameter":  "15.9",
                      "Tilt":  "YES",
                      "BarrelRotation":  "YES",
                      "Hover":  "YES",
                      "_id":  "885a2f74-36f3-4a9a-aae0-c860474f351f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp400e",
@@ -292,9 +482,18 @@
                      "PenName":  "Airbrush Pen",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen1",
                      "PenYear":  "2005",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "YES",
+                     "Eraser":  "YES",
+                     "Weight":  "23",
+                     "Length":  "162.5",
+                     "Diameter":  "17.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "97a8bbb7-5677-4490-a229-b2535d3aef9f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp501e",
@@ -303,9 +502,18 @@
                      "PenName":  "Grip Pen",
                      "PenFamily":  "wacom.penfamily.wacom_kpgen1",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "2048",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "17",
+                     "Length":  "156.5",
+                     "Diameter":  "14.9",
+                     "BarrelRotation":  "NO",
                      "_id":  "e029b730-38bf-4d48-a53b-5fd5a0949356",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.zp130",
@@ -314,9 +522,18 @@
                      "PenName":  "Intuos3 Ink Pen",
                      "PenFamily":  "wacom.penfamily.wacom_zp",
                      "PenYear":  "2004",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "151.5",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "7c70cace-df93-4f8a-bf53-37089fe825e5",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.zp600",
@@ -325,10 +542,18 @@
                      "PenName":  "Intuos3 Art Marker Pen",
                      "PenFamily":  "wacom.penfamily.wacom_zp",
                      "PenYear":  "2004",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "14",
+                     "Length":  "146.7",
+                     "Diameter":  "15.5",
                      "BarrelRotation":  "YES",
                      "_id":  "79d0abb9-038f-4e2d-ad43-d8c6394b33e4",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.zp300e",
@@ -337,9 +562,18 @@
                      "PenName":  "Intuos3 Classic Pen",
                      "PenFamily":  "wacom.penfamily.wacom_zp",
                      "PenYear":  "2004",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12",
+                     "Length":  "150.7",
+                     "Diameter":  "12.2",
+                     "BarrelRotation":  "NO",
                      "_id":  "d891dd9c-c6ae-4314-9307-ca3f88664554",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.zp400e",
@@ -348,9 +582,18 @@
                      "PenName":  "Intuos3 Airbrush Pen",
                      "PenFamily":  "wacom.penfamily.wacom_zp",
                      "PenYear":  "2004",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "23.1",
+                     "Length":  "162.5",
+                     "Diameter":  "17.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "7b3bc640-abd6-4ed2-b1ae-6ed41575226c",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.zp501e",
@@ -359,9 +602,18 @@
                      "PenName":  "Intuos3 Grip Pen",
                      "PenFamily":  "wacom.penfamily.wacom_zp",
                      "PenYear":  "2004",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "17",
+                     "Length":  "174.8",
+                     "Diameter":  "14.8",
+                     "BarrelRotation":  "NO",
                      "_id":  "2ba8e3c5-77c2-4e0f-9521-09ac35b806b3",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.xp110",
@@ -370,9 +622,18 @@
                      "PenName":  "Intuos2 Ink Pen",
                      "PenFamily":  "wacom.penfamily.wacom_xp",
                      "PenYear":  "2001",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "151",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "aa92b276-1af1-4ff4-ba49-32cd95dde699",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.xp120",
@@ -381,9 +642,18 @@
                      "PenName":  "Intuos2 Stroke Pen",
                      "PenFamily":  "wacom.penfamily.wacom_xp",
                      "PenYear":  "2001",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "151",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "faafabaf-c2d5-4004-8a81-50ec93d5ec6d",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.xp300e",
@@ -392,9 +662,18 @@
                      "PenName":  "Intuos2 Classic Pen",
                      "PenFamily":  "wacom.penfamily.wacom_xp",
                      "PenYear":  "2001",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "13",
+                     "Length":  "151",
+                     "Diameter":  "12.2",
+                     "BarrelRotation":  "NO",
                      "_id":  "46f8c55e-362e-46d7-a4ce-d4922625b36f",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.xp400e",
@@ -403,9 +682,18 @@
                      "PenName":  "Intuos2 Airbrush Pen",
                      "PenFamily":  "wacom.penfamily.wacom_xp",
                      "PenYear":  "2001",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "YES",
+                     "Eraser":  "YES",
+                     "Weight":  "24",
+                     "Length":  "162.5",
+                     "Diameter":  "32.6",
+                     "BarrelRotation":  "NO",
                      "_id":  "4eebed84-5f33-4ca0-9399-b0b7c5893471",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.xp501e",
@@ -414,9 +702,18 @@
                      "PenName":  "Intuos2 Grip Pen",
                      "PenFamily":  "wacom.penfamily.wacom_xp",
                      "PenYear":  "2001",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "17",
+                     "Length":  "160",
+                     "Diameter":  "14",
+                     "BarrelRotation":  "NO",
                      "_id":  "f0bd2e7f-3a93-4d92-be60-c1c8072fa21a",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.gp110",
@@ -425,9 +722,18 @@
                      "PenName":  "Intuos Inking Pen",
                      "PenFamily":  "wacom.penfamily.wacom_gp",
                      "PenYear":  "1998",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "151",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "758812c6-24c6-4b7f-821a-3934fb3a5efc",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.gp120",
@@ -436,9 +742,18 @@
                      "PenName":  "Intuos Stroke Pen",
                      "PenFamily":  "wacom.penfamily.wacom_gp",
                      "PenYear":  "1998",
+                     "ButtonCount":  "0",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "151",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "9d7bd8d4-79f2-4f60-9204-bfeee9faa9de",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.gp300e",
@@ -447,9 +762,18 @@
                      "PenName":  "Intuos Classic Pen",
                      "PenFamily":  "wacom.penfamily.wacom_gp",
                      "PenYear":  "1998",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "13",
+                     "Length":  "151",
+                     "Diameter":  "12.2",
+                     "BarrelRotation":  "NO",
                      "_id":  "67727a73-82e9-4129-b86d-1a6cec0d00a0",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.gp400e",
@@ -458,9 +782,18 @@
                      "PenName":  "Intuos Airbrush Pen",
                      "PenFamily":  "wacom.penfamily.wacom_gp",
                      "PenYear":  "1998",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "YES",
+                     "Eraser":  "YES",
+                     "Weight":  "24",
+                     "Length":  "162.5",
+                     "Diameter":  "17.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "febdc99b-5724-44b5-9fe7-6f3115ba6cef",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.cp923",
@@ -468,13 +801,20 @@
                      "PenId":  "CP-923",
                      "PenName":  "Wacom One Standard Pen",
                      "PenFamily":  "wacom.penfamily.wacom_oneudemr",
-                     "Tags":  [
-                                  "UDEMR"
-                              ],
                      "PenYear":  "2023",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "4096",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "9.9",
+                     "Length":  "149.9",
+                     "Diameter":  "9.8",
+                     "BarrelRotation":  "NO",
+                     "Tags":  ["UDEMR"],
                      "_id":  "c20e6dda-1f36-4616-89de-5245ab2436d4",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.cp913",
@@ -482,13 +822,20 @@
                      "PenId":  "CP-913",
                      "PenName":  "Wacom One Pen",
                      "PenFamily":  "wacom.penfamily.wacom_oneudemr",
-                     "Tags":  [
-                                  "UDEMR"
-                              ],
                      "PenYear":  "2020",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "4096",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11.1",
+                     "Length":  "148.2",
+                     "Diameter":  "11.5",
+                     "BarrelRotation":  "NO",
+                     "Tags":  ["UDEMR"],
                      "_id":  "1b387c8c-8fcf-4d0e-aeff-98a7e43a12fa",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-28T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up911e",
@@ -497,9 +844,18 @@
                      "PenName":  "UP-911E",
                      "PenFamily":  "",
                      "PenYear":  "2002",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "16",
+                     "Length":  "159",
+                     "Diameter":  "14",
+                     "BarrelRotation":  "NO",
                      "_id":  "34bac038-326d-4c4d-852e-9c2f99e31753",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp160",
@@ -508,9 +864,18 @@
                      "PenName":  "Bamboo CTL Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "13",
+                     "Length":  "149",
+                     "Diameter":  "11.8",
+                     "BarrelRotation":  "NO",
                      "_id":  "9a6cd959-56b3-4788-9f66-ed6d4283d6ff",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp160e",
@@ -519,9 +884,18 @@
                      "PenName":  "Bamboo CTH Pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "15",
+                     "Length":  "154",
+                     "Diameter":  "11.8",
+                     "BarrelRotation":  "NO",
                      "_id":  "32cac3dc-5d5d-41d7-b9f3-010cd18cac17",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp161e",
@@ -530,9 +904,18 @@
                      "PenName":  "LP-161E",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "15",
+                     "Length":  "154",
+                     "Diameter":  "11.8",
+                     "BarrelRotation":  "NO",
                      "_id":  "dbcd49d4-76c0-4ac4-bd93-14926dccff5a",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp171",
@@ -541,9 +924,18 @@
                      "PenName":  "LP-171",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "13",
+                     "Length":  "150",
+                     "Diameter":  "11.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "a52915cd-845f-4fb1-bbe0-10728a5c4ca3",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp180",
@@ -552,9 +944,18 @@
                      "PenName":  "LP-180",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "10.8",
+                     "Length":  "144.4",
+                     "Diameter":  "11.2",
+                     "BarrelRotation":  "NO",
                      "_id":  "c88ce7ad-9ccd-4b75-8dc0-fcd8fd4f7d28",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp180e",
@@ -563,9 +964,18 @@
                      "PenName":  "LP-180E",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2009",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12.5",
+                     "Length":  "151.2",
+                     "Diameter":  "11.2",
+                     "BarrelRotation":  "NO",
                      "_id":  "788e7b70-b36c-4f15-9f3e-1df016528ec1",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp110",
@@ -607,9 +1017,18 @@
                      "PenName":  "EP-155E",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2007",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "15",
+                     "Length":  "152.5",
+                     "Diameter":  "12",
+                     "BarrelRotation":  "NO",
                      "_id":  "b3bf9089-7ae7-4aa4-bf08-28a0edfa650a",
                      "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up812e",
@@ -618,9 +1037,15 @@
                      "PenName":  "UP-812E",
                      "PenFamily":  "",
                      "PenYear":  "",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "BarrelRotation":  "NO",
                      "_id":  "e21f8c8b-bd9c-49f6-a9b8-e35729041007",
                      "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep140e",
@@ -629,9 +1054,18 @@
                      "PenName":  "Graphire 4 pen",
                      "PenFamily":  "wacom.penfamily.wacom_bamboo",
                      "PenYear":  "2005",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12",
+                     "Length":  "137.8",
+                     "Diameter":  "12",
+                     "BarrelRotation":  "NO",
                      "_id":  "0ec200ea-d21d-4527-b0e5-b05131d24790",
                      "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                     "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep100e",
@@ -640,9 +1074,18 @@
                      "PenName":  "EP-100E",
                      "PenFamily":  "",
                      "PenYear":  "1999",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "11",
+                     "Length":  "145",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "45e7f4d5-f3bf-43f5-9a8f-5d92d60b6fba",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep120e",
@@ -651,9 +1094,18 @@
                      "PenName":  "Graphire2 Pen",
                      "PenFamily":  "",
                      "PenYear":  "2001",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "11",
+                     "Length":  "145",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "0ca766f6-ce85-4d70-a992-419e6799eff1",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep130",
@@ -662,9 +1114,18 @@
                      "PenName":  "EP-130",
                      "PenFamily":  "",
                      "PenYear":  "2003",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "11",
+                     "Length":  "145",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "a5ed6d37-00cb-4039-ae17-382d9a0f946b",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep130e",
@@ -673,9 +1134,18 @@
                      "PenName":  "EP-130E",
                      "PenFamily":  "",
                      "PenYear":  "2005",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "11",
+                     "Length":  "145",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "52aa1d2d-2a00-4619-bb90-263a64f86047",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep150",
@@ -684,9 +1154,18 @@
                      "PenName":  "EP-150",
                      "PenFamily":  "",
                      "PenYear":  "2005",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "1024",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "10",
+                     "Length":  "148",
+                     "Diameter":  "12",
+                     "BarrelRotation":  "NO",
                      "_id":  "7a279b18-2481-40f4-bf43-b50412834bd0",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.fp100",
@@ -695,9 +1174,18 @@
                      "PenName":  "FP-100",
                      "PenFamily":  "",
                      "PenYear":  "2002",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "10",
+                     "Length":  "149",
+                     "Diameter":  "12.3",
+                     "BarrelRotation":  "NO",
                      "_id":  "c122a605-87ba-4b4b-ba81-35ace5ccc6d1",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.fp110",
@@ -706,9 +1194,15 @@
                      "PenName":  "FP-110",
                      "PenFamily":  "",
                      "PenYear":  "",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "BarrelRotation":  "NO",
                      "_id":  "6bc262a3-9688-4d85-93ce-21a7c866fa64",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.fp410",
@@ -717,9 +1211,18 @@
                      "PenName":  "FP-410",
                      "PenFamily":  "",
                      "PenYear":  "2005",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "148",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "510e355c-771a-4513-b5a3-d9865f3f3c72",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.fp500",
@@ -728,9 +1231,18 @@
                      "PenName":  "FP-500",
                      "PenFamily":  "",
                      "PenYear":  "2007",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "10",
+                     "Length":  "142.5",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "547de05b-4c81-4566-a472-b2d723f8e3c7",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up703e",
@@ -739,9 +1251,18 @@
                      "PenName":  "UP-703E",
                      "PenFamily":  "",
                      "PenYear":  "1997",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "11.2",
+                     "Length":  "140.5",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "f0fc0cf6-6cf9-4a54-9f9c-202d2507d48e",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up801e",
@@ -750,9 +1271,18 @@
                      "PenName":  "UP-801E",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "9",
+                     "Length":  "140.5",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "b88fc717-b896-4539-8723-3f48e4e0d223",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up801",
@@ -761,9 +1291,18 @@
                      "PenName":  "UP-801",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8",
+                     "Length":  "140",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "890b0d6c-3062-45ff-934f-cf69014e605c",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up811e",
@@ -772,9 +1311,18 @@
                      "PenName":  "UP-811E",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "9",
+                     "Length":  "140.5",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "e075cc7d-f32c-4597-918c-0ffdbe5d712e",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up241",
@@ -783,9 +1331,18 @@
                      "PenName":  "UP-241",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8",
+                     "Length":  "140",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "413b7de4-20f2-4f7a-81da-f622e0a981ab",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up421",
@@ -794,9 +1351,18 @@
                      "PenName":  "UP-421",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "614166a3-6338-4997-9b51-c711d48a4461",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up501",
@@ -805,9 +1371,18 @@
                      "PenName":  "UP-501",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "bcec1022-325c-4d39-aa9f-35f0774e8508",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up201",
@@ -816,9 +1391,18 @@
                      "PenName":  "UP-201",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8",
+                     "Length":  "140",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "d4183fff-1aae-4997-a0e5-21a9dd7681d6",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up817e",
@@ -827,9 +1411,18 @@
                      "PenName":  "UP-817E",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "12",
+                     "Length":  "147.5",
+                     "Diameter":  "12.5",
+                     "BarrelRotation":  "NO",
                      "_id":  "05e07ad7-274b-455f-9fd7-59c5e3b1ed7f",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up813e",
@@ -838,9 +1431,18 @@
                      "PenName":  "UP-813E",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "YES",
+                     "Weight":  "12",
+                     "Length":  "140.5",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "c67038db-ab2d-4fd4-a535-e87a4d09c5e1",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up714w",
@@ -849,9 +1451,18 @@
                      "PenName":  "UP-714W",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8",
+                     "Length":  "140.5",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "96dfeb70-2ed1-43da-b9cf-d866874c4632",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up211",
@@ -860,9 +1471,18 @@
                      "PenName":  "UP-211",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "8",
+                     "Length":  "140.5",
+                     "Diameter":  "9",
+                     "BarrelRotation":  "NO",
                      "_id":  "714b22a7-f7a5-4713-8586-5fc9cfaa81f1",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up401",
@@ -871,9 +1491,18 @@
                      "PenName":  "UP-401",
                      "PenFamily":  "",
                      "PenYear":  "1994",
+                     "ButtonCount":  "1",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "256",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Weight":  "11",
+                     "Length":  "148",
+                     "Diameter":  "11.4",
+                     "BarrelRotation":  "NO",
                      "_id":  "37bc6c37-f187-44c4-b1bf-f98787d9b2bd",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-07T01:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp403e",
