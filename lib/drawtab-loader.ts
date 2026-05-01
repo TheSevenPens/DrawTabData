@@ -2,9 +2,9 @@
 
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct } from "./schemas.js";
 
-import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo } from "./schemas.js";
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct } from "./schemas.js";
 
 export interface PenCompat {
   Brand: string;
@@ -110,6 +110,19 @@ export async function loadInventoryTabletsFromURL(dataBaseUrl: string, userId: s
   if (!contentType.includes("json")) return [];
   const data = await resp.json();
   return data.InventoryTablets ?? [];
+}
+
+// --- Wacom-update product manifest loader ---
+
+export async function loadWacomUpdateProductsFromURL(
+  dataBaseUrl: string,
+): Promise<WacomUpdateProduct[]> {
+  const url = `${dataBaseUrl}/wacom-update/products.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  return resp.json();
 }
 
 // --- Brand loader ---

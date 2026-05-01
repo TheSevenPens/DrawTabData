@@ -78,6 +78,9 @@ const ModelSchema = v.strictObject({
   ProductLink: v.optional(TrimmedString),
   UserManual: v.optional(TrimmedString),
   Status: v.optional(v.picklist(["ACTIVE", "AVAILABLE", "DISCONTINUED"])),
+  // Wacom-only: matches a `sensorid` in data/wacom-update/products.json
+  // and lets the Explorer surface the supported driver-version range.
+  SensorId: v.optional(TrimmedString),
   Notes: v.optional(TrimmedString),
 });
 
@@ -317,6 +320,19 @@ export const InventoryTabletFileSchema = v.strictObject({
   InventoryTablets: v.array(InventoryTabletSchema),
 });
 
+// --- Wacom-update product manifest (data/wacom-update/products.json) ---
+
+/** One product entry from Wacom's update.xml manifest, listing the
+ * driver-version range that supports a given sensor / model. */
+export const WacomUpdateProductSchema = v.strictObject({
+  name: TrimmedString,
+  sensorid: v.nullable(TrimmedString),
+  model: v.nullable(TrimmedString),
+  drivermin: v.nullable(TrimmedString),
+  drivermax: v.nullable(TrimmedString),
+  platforms: v.array(v.picklist(["Windows", "MacOS"])),
+});
+
 // --- Defect kinds vocabulary (data/reference/defect-kinds.json) ---
 
 export const DefectKindSchema = v.strictObject({
@@ -363,4 +379,5 @@ export type PressureResponse = v.InferOutput<typeof PressureResponseSchema>;
 export type InventoryPen = v.InferOutput<typeof InventoryPenSchema>;
 export type InventoryTablet = v.InferOutput<typeof InventoryTabletSchema>;
 export type DefectKind = v.InferOutput<typeof DefectKindSchema>;
+export type WacomUpdateProduct = v.InferOutput<typeof WacomUpdateProductSchema>;
 export type VersionInfo = v.InferOutput<typeof VersionInfoSchema>;

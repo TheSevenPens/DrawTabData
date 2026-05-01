@@ -1,0 +1,1080 @@
+[
+  {
+    "name": "Cintiq 12WX",
+    "sensorid": "90833094",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.40-2",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 13HD",
+    "sensorid": "90833668",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 13HDT",
+    "sensorid": "90833715",
+    "model": null,
+    "drivermin": "6.3.11-4",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 16",
+    "sensorid": "90833808",
+    "model": null,
+    "drivermin": "6.3.32-4",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 16 VAVE",
+    "sensorid": "90833838",
+    "model": null,
+    "drivermin": "6.3.40-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 20WSX",
+    "sensorid": "90833093",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 21UX 2",
+    "sensorid": "90833100",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.40-2",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 22",
+    "sensorid": "90833809",
+    "model": null,
+    "drivermin": "6.3.35-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 22HD",
+    "sensorid": "90833146",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 22HDT",
+    "sensorid": "90832987",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 24HD",
+    "sensorid": "90833140",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 24HDT",
+    "sensorid": "90833144",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 27HD",
+    "sensorid": "90833706",
+    "model": null,
+    "drivermin": "6.3.11w3",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq 27HDT",
+    "sensorid": "90833707",
+    "model": null,
+    "drivermin": "6.3.11w3",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Companion",
+    "sensorid": "90833674",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Companion 2",
+    "sensorid": "90833701",
+    "model": null,
+    "drivermin": "6.3.11w3",
+    "drivermax": "6.4.7-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Companion Hybrid",
+    "sensorid": "90833671",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Pro 13",
+    "sensorid": "90833743",
+    "model": null,
+    "drivermin": "6.3.19-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Pro 16",
+    "sensorid": "90833744",
+    "model": null,
+    "drivermin": "6.3.19-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Pro 16R",
+    "sensorid": "90833842",
+    "model": null,
+    "drivermin": "6.3.44-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Pro 24 P",
+    "sensorid": "90833788",
+    "model": null,
+    "drivermin": "6.3.27-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Pro 24 PT",
+    "sensorid": "90833745",
+    "model": null,
+    "drivermin": "6.3.27-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq Pro 32",
+    "sensorid": "90833746",
+    "model": null,
+    "drivermin": "6.3.27-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Cintiq21UX",
+    "sensorid": "90832959",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTC121E",
+    "sensorid": "90833901",
+    "model": "DTC121E",
+    "drivermin": "6.4.3-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTH1152",
+    "sensorid": "90833754",
+    "model": "DTH1152",
+    "drivermin": "6.3.24-5",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTH134E",
+    "sensorid": "90833900",
+    "model": "DTH134E",
+    "drivermin": "6.4.3-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTH2242",
+    "sensorid": "90832985",
+    "model": "DTH2242",
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.3-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTH2452",
+    "sensorid": "90833789",
+    "model": "DTH2452",
+    "drivermin": "6.3.24-5",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTH246E",
+    "sensorid": "90833919",
+    "model": "DTH246",
+    "drivermin": "6.4.10-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK1651",
+    "sensorid": "90833731",
+    "model": "DTK1651",
+    "drivermin": "6.3.24-5",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK1660E",
+    "sensorid": "90833814",
+    "model": "DTK1660E",
+    "drivermin": "6.3.34-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK1660E VAVE",
+    "sensorid": "90833840",
+    "model": "DTK1660E VAVE",
+    "drivermin": "6.3.40-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK168E",
+    "sensorid": "90833902",
+    "model": "DTK168",
+    "drivermin": "6.4.10-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK2241",
+    "sensorid": "90832983",
+    "model": "DTK2241",
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.3-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK2451",
+    "sensorid": "90833794",
+    "model": "DTK2451",
+    "drivermin": "6.3.24-5",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTK246E",
+    "sensorid": "90833903",
+    "model": "DTK246",
+    "drivermin": "6.4.10-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTU1031",
+    "sensorid": "90833147",
+    "model": "DTU1031",
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.1-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTU1031AX",
+    "sensorid": "90833823",
+    "model": "DTU1031AX",
+    "drivermin": "6.3.38-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTU1031X",
+    "sensorid": "90833711",
+    "model": "DTU1031X",
+    "drivermin": "6.3.9w5",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTU1141",
+    "sensorid": "90833718",
+    "model": "DTU1141",
+    "drivermin": "6.3.9w5",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "DTU1141B",
+    "sensorid": "90833753",
+    "model": "DTU1141B",
+    "drivermin": "6.3.24-5",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "ExpressKey Remote",
+    "sensorid": "90893313",
+    "model": null,
+    "drivermin": "6.3.11w3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos P M",
+    "sensorid": "90833725",
+    "model": null,
+    "drivermin": "6.3.14-1",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos P S",
+    "sensorid": "90833723",
+    "model": null,
+    "drivermin": "6.3.14-1",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos Pro L",
+    "sensorid": "90833752",
+    "model": null,
+    "drivermin": "6.3.20-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos Pro L BT",
+    "sensorid": "90833761",
+    "model": null,
+    "drivermin": "6.3.20-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos Pro M",
+    "sensorid": "90833751",
+    "model": null,
+    "drivermin": "6.3.20-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos Pro M BT",
+    "sensorid": "90833760",
+    "model": null,
+    "drivermin": "6.3.20-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos Pro S",
+    "sensorid": "90833810",
+    "model": null,
+    "drivermin": "6.3.33-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos Pro S BT",
+    "sensorid": "90833811",
+    "model": null,
+    "drivermin": "6.3.33-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos PT M",
+    "sensorid": "90833726",
+    "model": null,
+    "drivermin": "6.3.14-1",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos PT S",
+    "sensorid": "90833724",
+    "model": null,
+    "drivermin": "6.3.14-1",
+    "drivermax": "6.4.10-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 12x12",
+    "sensorid": "90833075",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 12x19",
+    "sensorid": "90833076",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 4x5",
+    "sensorid": "90833072",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 4x6",
+    "sensorid": "90833079",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 6x11",
+    "sensorid": "90833077",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 6x8",
+    "sensorid": "90833073",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos3 9x12",
+    "sensorid": "90833074",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.15-3",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos4 L",
+    "sensorid": "90833082",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.41-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos4 M",
+    "sensorid": "90833081",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.41-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos4 S",
+    "sensorid": "90833080",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.41-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos4 WL",
+    "sensorid": "90833085",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.41-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos4 XL",
+    "sensorid": "90833083",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.4.3-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos5 P M",
+    "sensorid": "90832938",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos5 P S",
+    "sensorid": "90832937",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos5 PT L",
+    "sensorid": "90832936",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos5 PT M",
+    "sensorid": "90832935",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Intuos5 PT S",
+    "sensorid": "90832934",
+    "model": null,
+    "drivermin": "6.3.8-4",
+    "drivermax": "6.3.46-1",
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "MobileStudio Pro 13 (1.0)",
+    "sensorid": "90833741",
+    "model": null,
+    "drivermin": "6.3.18-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "MobileStudio Pro 13 (1.5)",
+    "sensorid": "90833816",
+    "model": null,
+    "drivermin": "6.3.36-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "MobileStudio Pro 16 (1.0)",
+    "sensorid": "90833742",
+    "model": null,
+    "drivermin": "6.3.18-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "MobileStudio Pro 16 (1.25)",
+    "sensorid": "90833834",
+    "model": null,
+    "drivermin": "6.3.39-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "MobileStudio Pro 16 (1.5)",
+    "sensorid": "90833817",
+    "model": null,
+    "drivermin": "6.3.36-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "One by Wacom M",
+    "sensorid": "90833787",
+    "model": null,
+    "drivermin": "6.3.24-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "One by Wacom S",
+    "sensorid": "90833786",
+    "model": null,
+    "drivermin": "6.3.24-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Cintiq 16",
+    "sensorid": "90833894",
+    "model": "DTK168",
+    "drivermin": "6.4.10-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Cintiq 24",
+    "sensorid": "90833895",
+    "model": "DTK246",
+    "drivermin": "6.4.10-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Cintiq 24 Touch",
+    "sensorid": "90833917",
+    "model": "DTH246",
+    "drivermin": "6.4.10-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Cintiq Pro 17",
+    "sensorid": "90833860",
+    "model": "DTH172",
+    "drivermin": "6.4.4-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Cintiq Pro 22",
+    "sensorid": "90833872",
+    "model": "DTH227",
+    "drivermin": "6.4.4-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Cintiq Pro 27",
+    "sensorid": "90833856",
+    "model": "DTH271",
+    "drivermin": "6.4.0-8",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos BT M",
+    "sensorid": "90833864",
+    "model": null,
+    "drivermin": "6.3.45-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos BT S",
+    "sensorid": "90833862",
+    "model": null,
+    "drivermin": "6.3.45-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos M",
+    "sensorid": "90833781",
+    "model": null,
+    "drivermin": "6.3.28-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos Pro L",
+    "sensorid": "90833913",
+    "model": "PTK870",
+    "drivermin": "6.4.9-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos Pro M",
+    "sensorid": "90833911",
+    "model": "PTK670",
+    "drivermin": "6.4.9-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos Pro S",
+    "sensorid": "90833909",
+    "model": "PTK470",
+    "drivermin": "6.4.9-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Intuos S",
+    "sensorid": "90833780",
+    "model": null,
+    "drivermin": "6.3.28-3",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom Movink 13",
+    "sensorid": "90833904",
+    "model": "DTH135",
+    "drivermin": "6.4.6-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One 12",
+    "sensorid": "90833870",
+    "model": "DTC121",
+    "drivermin": "6.4.3-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One 13",
+    "sensorid": "90833830",
+    "model": null,
+    "drivermin": "6.3.38-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One 13 touch",
+    "sensorid": "90833867",
+    "model": "DTH134",
+    "drivermin": "6.4.3-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One 13R",
+    "sensorid": "90833853",
+    "model": null,
+    "drivermin": "6.3.42-2",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One 14",
+    "sensorid": "90833935",
+    "model": "DTC141",
+    "drivermin": "6.4.11-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One M",
+    "sensorid": "87097603",
+    "model": "CTC6110WL",
+    "drivermin": "6.4.3-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  },
+  {
+    "name": "Wacom One S",
+    "sensorid": "87097601",
+    "model": "CTC4110WL",
+    "drivermin": "6.4.3-1",
+    "drivermax": null,
+    "platforms": [
+      "Windows",
+      "MacOS"
+    ]
+  }
+]
