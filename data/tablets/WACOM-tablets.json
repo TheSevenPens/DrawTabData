@@ -7431,17 +7431,18 @@
                            },
                            {
                                "Meta":  {
-                                            "EntityId":  "wacom.tablet.wt4400se",
+                                            "EntityId":  "wacom.tablet.wt4400",
                                             "_id":  "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-05-02T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
-                                             "Id":  "WT-4400SE",
-                                             "Name":  "WT-4400SE",
+                                             "Id":  "WT-4400",
+                                             "Name":  "WT-4400 (A4)",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "1986"
+                                             "LaunchYear":  "1985",
+                                             "Notes":  "World's first cordless pen."
                                          }
                            },
                            {
@@ -7449,12 +7450,12 @@
                                             "EntityId":  "wacom.tablet.wt460m",
                                             "_id":  "57c68629-5451-4a2d-8d19-925f0c658d2d",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-05-03T00:00:00.000Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "WT-460M",
-                                             "Name":  "WT-460M",
+                                             "Name":  "WT-460M (A5)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1987"
                                          }
@@ -7534,6 +7535,23 @@
                                                 "Weight":  "9000",
                                                 "WeightInclStand":  "NO"
                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.wt3000",
+                                            "_id":  "12ba8550-1819-48c0-8ece-d17e6e987230",
+                                            "_CreateDate":  "2026-05-02T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-05-03T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "WT-3000",
+                                             "Name":  "WT-3000 (A4)",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "1984",
+                                             "Status":  "DISCONTINUED",
+                                             "Notes":  "World's first graphics tablet with a cordless cursor (puck). A4 size."
+                                         }
                            }
                        ]
 }
