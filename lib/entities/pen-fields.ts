@@ -30,12 +30,40 @@ export function penIdRedundantInName(pen: Pick<Pen, 'PenName' | 'PenId'>): boole
   return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?:[^A-Za-z0-9]|$)`, 'i').test(name);
 }
 
+/** True when the pen's PenName already starts with the brand display
+ * name (case-insensitive). Used to suppress a redundant brand prefix
+ * when formatting full names like "Wacom Wacom One Pen" or
+ * "Apple Apple Pencil Pro". */
+export function penBrandRedundantInName(pen: Pick<Pen, 'PenName' | 'Brand'>): boolean {
+  const display = (brandName(pen.Brand) ?? '').toLowerCase();
+  const name = (pen.PenName ?? '').toLowerCase();
+  if (!display || !name) return false;
+  return name === display || name.startsWith(display + ' ');
+}
+
+/** "Brand Name (Id)" with the brand prefix and/or "(Id)" suffix dropped
+ * when redundant. */
+export function penFullName(pen: Pen): string {
+  const brand = brandName(pen.Brand);
+  const namePart = penBrandRedundantInName(pen)
+    ? pen.PenName
+    : `${brand} ${pen.PenName}`;
+  return penIdRedundantInName(pen) ? namePart : `${namePart} (${pen.PenId})`;
+}
+
+/** "Brand Name" with the brand prefix dropped when redundant. */
+export function penBrandAndName(pen: Pen): string {
+  return penBrandRedundantInName(pen)
+    ? pen.PenName
+    : `${brandName(pen.Brand)} ${pen.PenName}`;
+}
+
 export const PEN_FIELD_GROUPS = ["Model", "Sensors", "Controls", "Physical"];
 
 export const PEN_FIELDS: FieldDef<Pen>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Model" },
-  { key: "FullName", label: "Full Name", getValue: (p) => penIdRedundantInName(p) ? `${brandName(p.Brand)} ${p.PenName}` : `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`, type: "string", group: "Model", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (p) => penFullName(p), type: "string", group: "Model", computed: true },
   { key: "Brand", label: "Brand", getValue: (p) => brandName(p.Brand), type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Model" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Model" },

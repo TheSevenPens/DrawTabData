@@ -30,13 +30,47 @@ export function tabletIdRedundantInName(tablet: { Model: { Brand?: string; Name:
   return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?:[^A-Za-z0-9]|$)`, 'i').test(name);
 }
 
+/** True when the tablet's Model.Name already starts with the brand
+ * display name (case-insensitive). Used to suppress a redundant brand
+ * prefix when formatting full names like "Wacom Wacom One 2023 S". */
+export function tabletBrandRedundantInName(tablet: { Model: { Brand: string; Name: string } }): boolean {
+  const display = (brandName(tablet.Model.Brand) ?? '').toLowerCase();
+  const name = (tablet.Model.Name ?? '').toLowerCase();
+  if (!display || !name) return false;
+  return name === display || name.startsWith(display + ' ');
+}
+
+/** "Brand Name (Id)" with the brand prefix and/or "(Id)" suffix dropped
+ * when redundant. */
+export function tabletFullName(tablet: Tablet): string {
+  const brand = brandName(tablet.Model.Brand);
+  const namePart = tabletBrandRedundantInName(tablet)
+    ? tablet.Model.Name
+    : `${brand} ${tablet.Model.Name}`;
+  return tabletIdRedundantInName(tablet) ? namePart : `${namePart} (${tablet.Model.Id})`;
+}
+
+/** "Brand Name" with the brand prefix dropped when redundant. */
+export function tabletBrandAndName(tablet: Tablet): string {
+  return tabletBrandRedundantInName(tablet)
+    ? tablet.Model.Name
+    : `${brandName(tablet.Model.Brand)} ${tablet.Model.Name}`;
+}
+
+/** "Name (Id)" with the "(Id)" suffix dropped when redundant. No brand. */
+export function tabletNameAndId(tablet: Tablet): string {
+  return tabletIdRedundantInName(tablet)
+    ? tablet.Model.Name
+    : `${tablet.Model.Name} (${tablet.Model.Id})`;
+}
+
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
 
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.Meta.EntityId, type: "string", group: "Model" },
-  { key: "FullName", label: "Full Name", getValue: (t) => tabletIdRedundantInName(t) ? `${brandName(t.Model.Brand)} ${t.Model.Name}` : `${brandName(t.Model.Brand)} ${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
-  { key: "NameAndModelId", label: "Name and Model ID", getValue: (t) => tabletIdRedundantInName(t) ? t.Model.Name : `${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (t) => tabletFullName(t), type: "string", group: "Model", computed: true },
+  { key: "NameAndModelId", label: "Name and Model ID", getValue: (t) => tabletNameAndId(t), type: "string", group: "Model", computed: true },
   { key: "Brand", label: "Brand", getValue: (t) => t.Model.Brand, getDisplayValue: (t) => brandName(t.Model.Brand), getHref: (t) => `/brands/${t.Model.Brand}`, type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.Model.Id, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.Model.Name, type: "string", group: "Model" },
