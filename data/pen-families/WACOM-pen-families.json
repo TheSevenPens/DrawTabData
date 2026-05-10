@@ -1,6 +1,14 @@
 {
   "PenFamilies": [
     {
+      "EntityId": "wacom.penfamily.wacom_fp",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom FP pen series",
+      "_id": "e195b55a-56f0-4a7b-9b99-222a0ae51c63",
+      "_CreateDate": "2026-05-10T00:00:00Z",
+      "_ModifiedDate": "2026-05-10T00:00:00Z"
+    },
+    {
       "EntityId": "wacom.penfamily.wacom_kpgen3",
       "Brand": "WACOM",
       "FamilyName": "Wacom Pro Pen GEN3 KP pen series",

@@ -13,13 +13,30 @@ function displayVal(t: Tablet, val: string | undefined): string {
   return val ?? "";
 }
 
+/** True when the tablet's Model.Id should be suppressed from formatted
+ * names like "Brand Name (Id)". This is the case when:
+ *   - the Id is already present in the Name (full string or whole token)
+ *     — e.g. "Wacom Cintiq 22 (DTK-2200)" vs Id "DTK-2200"
+ *   - the brand is APPLE — Apple iPad ids like "iPad-Pro-12.9-Gen1" only
+ *     restate the Name in a less-readable form
+ * See also `penIdRedundantInName`. */
+export function tabletIdRedundantInName(tablet: { Model: { Brand?: string; Name: string; Id: string } }): boolean {
+  if (tablet.Model.Brand === 'APPLE') return true;
+  const id = tablet.Model.Id ?? '';
+  const name = tablet.Model.Name ?? '';
+  if (!id || !name) return false;
+  if (name === id) return true;
+  const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?:[^A-Za-z0-9]|$)`, 'i').test(name);
+}
+
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
 
 export const TABLET_FIELDS: FieldDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.Meta.EntityId, type: "string", group: "Model" },
-  { key: "FullName", label: "Full Name", getValue: (t) => `${brandName(t.Model.Brand)} ${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
-  { key: "NameAndModelId", label: "Name and Model ID", getValue: (t) => `${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (t) => tabletIdRedundantInName(t) ? `${brandName(t.Model.Brand)} ${t.Model.Name}` : `${brandName(t.Model.Brand)} ${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
+  { key: "NameAndModelId", label: "Name and Model ID", getValue: (t) => tabletIdRedundantInName(t) ? t.Model.Name : `${t.Model.Name} (${t.Model.Id})`, type: "string", group: "Model", computed: true },
   { key: "Brand", label: "Brand", getValue: (t) => t.Model.Brand, getDisplayValue: (t) => brandName(t.Model.Brand), getHref: (t) => `/brands/${t.Model.Brand}`, type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.Model.Id, type: "string", group: "Model" },
   { key: "ModelName", label: "Name", getValue: (t) => t.Model.Name, type: "string", group: "Model" },

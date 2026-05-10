@@ -17,12 +17,25 @@ function resolvePenFamily(id: string): string {
   return penFamilyNames[id] ?? id;
 }
 
+/** True when the pen's PenId is already present in its PenName (as the
+ * full string or as a whole token). Used to suppress a redundant
+ * "(PenId)" suffix when formatting full names like
+ * "Asus ProArt Pen MPA01 (MPA01)". */
+export function penIdRedundantInName(pen: Pick<Pen, 'PenName' | 'PenId'>): boolean {
+  const id = pen.PenId ?? '';
+  const name = pen.PenName ?? '';
+  if (!id || !name) return false;
+  if (name === id) return true;
+  const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?:[^A-Za-z0-9]|$)`, 'i').test(name);
+}
+
 export const PEN_FIELD_GROUPS = ["Model", "Sensors", "Controls", "Physical"];
 
 export const PEN_FIELDS: FieldDef<Pen>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Model" },
-  { key: "FullName", label: "Full Name", getValue: (p) => p.PenName === p.PenId ? `${brandName(p.Brand)} ${p.PenId}` : `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`, type: "string", group: "Model", computed: true },
+  { key: "FullName", label: "Full Name", getValue: (p) => penIdRedundantInName(p) ? `${brandName(p.Brand)} ${p.PenName}` : `${brandName(p.Brand)} ${p.PenName} (${p.PenId})`, type: "string", group: "Model", computed: true },
   { key: "Brand", label: "Brand", getValue: (p) => brandName(p.Brand), type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Model" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Model" },

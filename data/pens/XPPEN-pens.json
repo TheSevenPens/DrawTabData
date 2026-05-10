@@ -159,22 +159,22 @@
                      "Brand":  "XPPEN",
                      "PenId":  "X3ELITE",
                      "PenName":  "X3 Elite",
-                     "PenFamily":  "",
+                     "PenFamily":  "xppen.penfamily.xppen_x3elite",
                      "PenYear":  "2021",
                      "_id":  "962eac1a-fb7c-47c5-9336-55a364a1e3c9",
                      "_CreateDate":  "2026-04-01T20:29:11.000Z",
-                     "_ModifiedDate":  "2026-04-01T20:29:11.000Z"
+                     "_ModifiedDate":  "2026-05-10T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "xppen.pen.x3eliteplus",
                      "Brand":  "XPPEN",
                      "PenId":  "X3ELITEPLUS",
                      "PenName":  "X3 Elite Plus",
-                     "PenFamily":  "",
+                     "PenFamily":  "xppen.penfamily.xppen_x3elite",
                      "PenYear":  "2021",
                      "_id":  "072f0a79-498c-4674-a597-6094e0e37d79",
                      "_CreateDate":  "2026-04-01T20:29:11.000Z",
-                     "_ModifiedDate":  "2026-04-01T20:29:11.000Z"
+                     "_ModifiedDate":  "2026-05-10T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "xppen.pen.pd21",

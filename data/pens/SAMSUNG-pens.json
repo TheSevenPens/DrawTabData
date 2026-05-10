@@ -5,28 +5,28 @@
                      "Brand":  "SAMSUNG",
                      "PenId":  "SPEN",
                      "PenName":  "S Pen",
-                     "PenFamily":  "",
+                     "PenFamily":  "samsung.penfamily.spen",
                      "Tags":  [
                                   "UDEMR"
                               ],
                      "PenYear":  "",
                      "_id":  "f44f5f7c-b5b6-487d-8baf-b73882527551",
                      "_CreateDate":  "2026-04-01T21:04:23.000Z",
-                     "_ModifiedDate":  "2026-04-01T21:04:23.000Z"
+                     "_ModifiedDate":  "2026-05-10T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "samsung.pen.spencreator",
                      "Brand":  "SAMSUNG",
                      "PenId":  "SPENCREATOR",
                      "PenName":  "S Pen Creator",
-                     "PenFamily":  "",
+                     "PenFamily":  "samsung.penfamily.spen",
                      "Tags":  [
                                   "UDEMR"
                               ],
                      "PenYear":  "",
                      "_id":  "992a52af-e558-46d9-8f45-13841364a25a",
                      "_CreateDate":  "2026-04-01T21:04:23.000Z",
-                     "_ModifiedDate":  "2026-04-01T21:04:23.000Z"
+                     "_ModifiedDate":  "2026-05-10T00:00:00.000Z"
                  }
              ]
 }
