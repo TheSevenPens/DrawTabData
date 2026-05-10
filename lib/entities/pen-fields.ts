@@ -2,6 +2,7 @@ import type { Pen } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 import { BRANDS } from "../loader-shared.js";
+import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
 
 export type { Pen } from "../drawtab-loader.js";
 
@@ -22,12 +23,7 @@ function resolvePenFamily(id: string): string {
  * "(PenId)" suffix when formatting full names like
  * "Asus ProArt Pen MPA01 (MPA01)". */
 export function penIdRedundantInName(pen: Pick<Pen, 'PenName' | 'PenId'>): boolean {
-  const id = pen.PenId ?? '';
-  const name = pen.PenName ?? '';
-  if (!id || !name) return false;
-  if (name === id) return true;
-  const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?:[^A-Za-z0-9]|$)`, 'i').test(name);
+  return tokenAppearsInName(pen.PenName ?? '', pen.PenId ?? '');
 }
 
 /** True when the pen's PenName already starts with the brand display
@@ -35,10 +31,7 @@ export function penIdRedundantInName(pen: Pick<Pen, 'PenName' | 'PenId'>): boole
  * when formatting full names like "Wacom Wacom One Pen" or
  * "Apple Apple Pencil Pro". */
 export function penBrandRedundantInName(pen: Pick<Pen, 'PenName' | 'Brand'>): boolean {
-  const display = (brandName(pen.Brand) ?? '').toLowerCase();
-  const name = (pen.PenName ?? '').toLowerCase();
-  if (!display || !name) return false;
-  return name === display || name.startsWith(display + ' ');
+  return brandPrefixesName(brandName(pen.Brand) ?? '', pen.PenName ?? '');
 }
 
 /** "Brand Name (Id)" with the brand prefix and/or "(Id)" suffix dropped

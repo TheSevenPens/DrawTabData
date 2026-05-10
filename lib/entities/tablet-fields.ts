@@ -3,6 +3,7 @@ import { brandName } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "../pipeline/types.js";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
+import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
 
 function notApplicable(t: Tablet): boolean {
   return t.Model.Type === "PENTABLET";
@@ -22,22 +23,14 @@ function displayVal(t: Tablet, val: string | undefined): string {
  * See also `penIdRedundantInName`. */
 export function tabletIdRedundantInName(tablet: { Model: { Brand?: string; Name: string; Id: string } }): boolean {
   if (tablet.Model.Brand === 'APPLE') return true;
-  const id = tablet.Model.Id ?? '';
-  const name = tablet.Model.Name ?? '';
-  if (!id || !name) return false;
-  if (name === id) return true;
-  const escaped = id.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`(?:^|[^A-Za-z0-9])${escaped}(?:[^A-Za-z0-9]|$)`, 'i').test(name);
+  return tokenAppearsInName(tablet.Model.Name ?? '', tablet.Model.Id ?? '');
 }
 
 /** True when the tablet's Model.Name already starts with the brand
  * display name (case-insensitive). Used to suppress a redundant brand
  * prefix when formatting full names like "Wacom Wacom One 2023 S". */
 export function tabletBrandRedundantInName(tablet: { Model: { Brand: string; Name: string } }): boolean {
-  const display = (brandName(tablet.Model.Brand) ?? '').toLowerCase();
-  const name = (tablet.Model.Name ?? '').toLowerCase();
-  if (!display || !name) return false;
-  return name === display || name.startsWith(display + ' ');
+  return brandPrefixesName(brandName(tablet.Model.Brand) ?? '', tablet.Model.Name ?? '');
 }
 
 /** "Brand Name (Id)" with the brand prefix and/or "(Id)" suffix dropped
