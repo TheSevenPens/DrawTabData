@@ -71,6 +71,15 @@
       "_CreateDate": "2026-04-16T00:00:00Z",
       "_ModifiedDate": "2026-04-21T00:00:00Z",
       "ModelPattern": "CD*FH"
+    },
+    {
+      "EntityId": "xppen.tabletfamily.xppen_artistultra",
+      "Brand": "XPPEN",
+      "FamilyName": "XP-Pen Artist Ultra series",
+      "_id": "15d78c6c-a027-4961-b92b-cba66571dd0e",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "MD*UH"
     }
   ]
 }

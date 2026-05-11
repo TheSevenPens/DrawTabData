@@ -1706,7 +1706,7 @@
                                              "Name":  "Cintiq 21UX 2010",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2010",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -1869,7 +1869,7 @@
                                              "Name":  "Cintiq 24 HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -2092,7 +2092,7 @@
                                              "Name":  "Cintiq 12WX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
                                                              ],
@@ -2136,7 +2136,7 @@
                                                                 ],
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -2221,7 +2221,7 @@
                                              "Name":  "Cintiq 20WSX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
                                                              ],
@@ -2475,7 +2475,8 @@
                                              "Name":  "Cintiq 15SX",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2563,7 +2564,7 @@
                                              "Name":  "Cintiq 15X",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
                                                              ],
@@ -2614,7 +2615,8 @@
                                              "Name":  "Cintiq 17SX 2002",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2002",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2661,7 +2663,8 @@
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2684,7 +2687,8 @@
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2704,7 +2708,7 @@
                                              "Name":  "Cintiq 18SX",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2002",
-                                             "Family":  "Cintiq",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
                                                              ],
@@ -6978,7 +6982,7 @@
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
-                                             "Family":  "MobileStudio Pro",
+                                             "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
                                                              ],
@@ -7045,7 +7049,7 @@
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2016",
                                              "Audience":  "Professional",
-                                             "Family":  "MobileStudio Pro",
+                                             "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
                                                              ],
@@ -7109,7 +7113,7 @@
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2019",
                                              "Audience":  "Professional",
-                                             "Family":  "MobileStudio Pro",
+                                             "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
                                                              ],
@@ -7180,7 +7184,8 @@
                                              "Name":  "PL-600",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7213,7 +7218,8 @@
                                              "Name":  "PL-500",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7254,7 +7260,8 @@
                                              "Name":  "PL-400",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1999",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7295,7 +7302,8 @@
                                              "Name":  "PL-300",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7337,7 +7345,8 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1998",
                                              "Status":  "DISCONTINUED",
-                                             "Notes":  "Launch year unconfirmed; estimated based on PL-series numbering (sits between PL-250 in 1998 and PL-400 in 1999)."
+                                             "Notes":  "Launch year unconfirmed; estimated based on PL-series numbering (sits between PL-250 in 1998 and PL-400 in 1999).",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7373,7 +7382,8 @@
                                              "Name":  "PL-250",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1998",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",

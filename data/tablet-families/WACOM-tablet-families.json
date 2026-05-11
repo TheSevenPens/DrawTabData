@@ -161,6 +161,33 @@
       "_CreateDate": "2026-04-01T09:11:12Z",
       "_ModifiedDate": "2026-04-21T00:00:00Z",
       "ModelPattern": "DTx-1xx"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_cintiqpl",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Cintiq PL tablet series",
+      "_id": "bbe36b03-0e1b-4911-93f9-20578a761535",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "PL-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_mobilestudiopro",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom MobileStudio Pro tablet series",
+      "_id": "303d68b3-8bdb-4c46-8a31-bed30b1f7eb8",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "DTH-W*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_cintiqother",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Cintiq Other tablet series",
+      "_id": "f3f2dfc3-880b-435c-a2d0-6f98c94eb224",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": ""
     }
   ]
 }
