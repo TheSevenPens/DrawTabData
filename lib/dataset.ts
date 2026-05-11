@@ -3,6 +3,12 @@
 // caches the result for subsequent calls, and exposes a fluent query
 // builder backed by the existing pipeline engine.
 //
+// Records returned by the dataset carry relationship helper methods
+// (e.g. `tablet.getCompatiblePens()`) bound to the parent dataset via
+// closure. The same helpers are also available as `ds.method(record)`
+// — both APIs are kept; the record-method form delegates to the
+// dataset-method form internally.
+//
 // Example:
 //
 //   const ds = new DrawTabDataSet({ kind: "url", baseUrl: "" });
@@ -12,9 +18,7 @@
 //     .take(20)
 //     .toArray();
 //
-// Phase 1 (this module): lazy loading + fluent filter/sort/take.
-// Phase 2 (not yet): auto-resolved relationships
-// (e.g. `tablet.getCompatiblePens()`).
+//   const pens = await wacomTablets[0].getCompatiblePens();
 
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand } from "./drawtab-loader.js";
 import {
@@ -59,6 +63,56 @@ import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/invent
 export type DataSource =
   | { kind: "url"; baseUrl: string; userId?: string }
   | { kind: "disk"; dataDir: string; userId?: string };
+
+// --- Record types with relationship methods --------------------------------
+//
+// Each entity returned by the dataset is a shallow clone of the raw loaded
+// record with extra non-enumerable methods bound to the parent dataset.
+
+export type TabletWithRels = Tablet & {
+  getCompatiblePens(): Promise<PenWithRels[]>;
+  getFamily(): Promise<TabletFamilyWithRels | null>;
+  getBrand(): Promise<BrandWithRels | null>;
+};
+
+export type PenWithRels = Pen & {
+  getCompatibleTablets(): Promise<TabletWithRels[]>;
+  getFamily(): Promise<PenFamilyWithRels | null>;
+  getBrand(): Promise<BrandWithRels | null>;
+};
+
+export type TabletFamilyWithRels = TabletFamily & {
+  getTablets(): Promise<TabletWithRels[]>;
+  getBrand(): Promise<BrandWithRels | null>;
+};
+
+export type PenFamilyWithRels = PenFamily & {
+  getPens(): Promise<PenWithRels[]>;
+  getBrand(): Promise<BrandWithRels | null>;
+};
+
+export type BrandWithRels = Brand & {
+  getTablets(): Promise<TabletWithRels[]>;
+  getPens(): Promise<PenWithRels[]>;
+};
+
+export type DriverWithRels = Driver & {
+  getBrand(): Promise<BrandWithRels | null>;
+};
+
+export type InventoryPenWithRels = InventoryPen & {
+  getPen(): Promise<PenWithRels | null>;
+};
+
+export type InventoryTabletWithRels = InventoryTablet & {
+  getTablet(): Promise<TabletWithRels | null>;
+};
+
+export type PressureResponseWithRels = PressureResponse & {
+  getPen(): Promise<PenWithRels | null>;
+  getTablet(): Promise<TabletWithRels | null>;
+  getPenFamily(): Promise<PenFamilyWithRels | null>;
+};
 
 // --- Fluent query ----------------------------------------------------------
 
@@ -126,7 +180,7 @@ export class Query<T> {
   }
 }
 
-// --- Dataset ---------------------------------------------------------------
+// --- Loaders ---------------------------------------------------------------
 
 type Loaders = {
   brands(): Promise<Brand[]>;
@@ -183,6 +237,29 @@ function makeLoaders(source: DataSource): Loaders {
   };
 }
 
+// --- Augmentation helpers --------------------------------------------------
+//
+// Each `wrap*` returns a shallow clone of the raw record with relationship
+// methods attached as non-enumerable properties — keeps JSON.stringify and
+// Object.keys behaving as on the raw record while adding ergonomics.
+
+function defineHidden<T extends object>(
+  obj: T,
+  methods: Record<string, (...args: unknown[]) => unknown>,
+): T {
+  for (const [name, fn] of Object.entries(methods)) {
+    Object.defineProperty(obj, name, {
+      value: fn,
+      enumerable: false,
+      writable: false,
+      configurable: false,
+    });
+  }
+  return obj;
+}
+
+// --- Dataset ---------------------------------------------------------------
+
 /**
  * High-level entry point. Construct once, then access entity collections
  * via the typed properties (`ds.Tablets`, `ds.Pens`, etc.). Each collection
@@ -209,44 +286,138 @@ export class DrawTabDataSet {
     return p;
   }
 
-  get Brands(): Query<Brand> {
+  // --- Augmentation -- bound to `this` so methods can call back ------------
+
+  private wrapTablet(t: Tablet): TabletWithRels {
+    const ds = this;
+    return defineHidden({ ...t }, {
+      getCompatiblePens: () => ds.getCompatiblePens(t),
+      getFamily: () => ds.getTabletFamily(t),
+      getBrand: () => ds.getBrand(t),
+    }) as TabletWithRels;
+  }
+
+  private wrapPen(p: Pen): PenWithRels {
+    const ds = this;
+    return defineHidden({ ...p }, {
+      getCompatibleTablets: () => ds.getCompatibleTablets(p),
+      getFamily: () => ds.getPenFamily(p),
+      getBrand: () => ds.getBrand(p),
+    }) as PenWithRels;
+  }
+
+  private wrapTabletFamily(f: TabletFamily): TabletFamilyWithRels {
+    const ds = this;
+    return defineHidden({ ...f }, {
+      getTablets: () => ds.getTabletsInFamily(f),
+      getBrand: () => ds.getBrand(f),
+    }) as TabletFamilyWithRels;
+  }
+
+  private wrapPenFamily(f: PenFamily): PenFamilyWithRels {
+    const ds = this;
+    return defineHidden({ ...f }, {
+      getPens: () => ds.getPensInFamily(f),
+      getBrand: () => ds.getBrand(f),
+    }) as PenFamilyWithRels;
+  }
+
+  private wrapBrand(b: Brand): BrandWithRels {
+    const ds = this;
+    return defineHidden({ ...b }, {
+      getTablets: () => ds.getTabletsForBrand(b),
+      getPens: () => ds.getPensForBrand(b),
+    }) as BrandWithRels;
+  }
+
+  private wrapDriver(d: Driver): DriverWithRels {
+    const ds = this;
+    return defineHidden({ ...d }, {
+      getBrand: () => ds.getBrand(d),
+    }) as DriverWithRels;
+  }
+
+  private wrapInventoryPen(p: InventoryPen): InventoryPenWithRels {
+    const ds = this;
+    return defineHidden({ ...p }, {
+      getPen: () => ds.getPenForInventory(p),
+    }) as InventoryPenWithRels;
+  }
+
+  private wrapInventoryTablet(t: InventoryTablet): InventoryTabletWithRels {
+    const ds = this;
+    return defineHidden({ ...t }, {
+      getTablet: () => ds.getTabletForInventory(t),
+    }) as InventoryTabletWithRels;
+  }
+
+  private wrapPressureResponse(s: PressureResponse): PressureResponseWithRels {
+    const ds = this;
+    return defineHidden({ ...s }, {
+      getPen: () => ds.getPenForSession(s),
+      getTablet: () => ds.getTabletForSession(s),
+      getPenFamily: () => ds.getPenFamilyForSession(s),
+    }) as PressureResponseWithRels;
+  }
+
+  // --- Collection accessors -- each cached load returns wrapped records ----
+
+  get Brands(): Query<BrandWithRels> {
     return new Query(
-      () => this.memo("brands", this.loaders.brands) as Promise<Brand[]>,
+      () => this.memo("brands", async () => {
+        const raw = await this.loaders.brands();
+        return raw.map((b) => this.wrapBrand(b));
+      }) as Promise<BrandWithRels[]>,
       BRAND_FIELDS as AnyFieldDef[],
     );
   }
 
-  get Tablets(): Query<Tablet> {
+  get Tablets(): Query<TabletWithRels> {
     return new Query(
-      () => this.memo("tablets", this.loaders.tablets) as Promise<Tablet[]>,
+      () => this.memo("tablets", async () => {
+        const raw = await this.loaders.tablets();
+        return raw.map((t) => this.wrapTablet(t));
+      }) as Promise<TabletWithRels[]>,
       TABLET_FIELDS as AnyFieldDef[],
     );
   }
 
-  get TabletFamilies(): Query<TabletFamily> {
+  get TabletFamilies(): Query<TabletFamilyWithRels> {
     return new Query(
-      () => this.memo("tabletFamilies", this.loaders.tabletFamilies) as Promise<TabletFamily[]>,
+      () => this.memo("tabletFamilies", async () => {
+        const raw = await this.loaders.tabletFamilies();
+        return raw.map((f) => this.wrapTabletFamily(f));
+      }) as Promise<TabletFamilyWithRels[]>,
       TABLET_FAMILY_FIELDS as AnyFieldDef[],
     );
   }
 
-  get Pens(): Query<Pen> {
+  get Pens(): Query<PenWithRels> {
     return new Query(
-      () => this.memo("pens", this.loaders.pens) as Promise<Pen[]>,
+      () => this.memo("pens", async () => {
+        const raw = await this.loaders.pens();
+        return raw.map((p) => this.wrapPen(p));
+      }) as Promise<PenWithRels[]>,
       PEN_FIELDS as AnyFieldDef[],
     );
   }
 
-  get PenFamilies(): Query<PenFamily> {
+  get PenFamilies(): Query<PenFamilyWithRels> {
     return new Query(
-      () => this.memo("penFamilies", this.loaders.penFamilies) as Promise<PenFamily[]>,
+      () => this.memo("penFamilies", async () => {
+        const raw = await this.loaders.penFamilies();
+        return raw.map((f) => this.wrapPenFamily(f));
+      }) as Promise<PenFamilyWithRels[]>,
       PEN_FAMILY_FIELDS as AnyFieldDef[],
     );
   }
 
-  get Drivers(): Query<Driver> {
+  get Drivers(): Query<DriverWithRels> {
     return new Query(
-      () => this.memo("drivers", this.loaders.drivers) as Promise<Driver[]>,
+      () => this.memo("drivers", async () => {
+        const raw = await this.loaders.drivers();
+        return raw.map((d) => this.wrapDriver(d));
+      }) as Promise<DriverWithRels[]>,
       DRIVER_FIELDS as AnyFieldDef[],
     );
   }
@@ -258,35 +429,47 @@ export class DrawTabDataSet {
     );
   }
 
-  get PressureResponse(): Query<PressureResponse> {
+  get PressureResponse(): Query<PressureResponseWithRels> {
     return new Query(
-      () => this.memo("pressureResponse", this.loaders.pressureResponse) as Promise<PressureResponse[]>,
+      () => this.memo("pressureResponse", async () => {
+        const raw = await this.loaders.pressureResponse();
+        return raw.map((s) => this.wrapPressureResponse(s));
+      }) as Promise<PressureResponseWithRels[]>,
       PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
     );
   }
 
   /** Per-user inventory. Requires `userId` on the DataSource — accessing
    * the query throws on materialisation if none was supplied. */
-  get InventoryPens(): Query<InventoryPen> {
+  get InventoryPens(): Query<InventoryPenWithRels> {
     return new Query(
-      () => this.memo("inventoryPens", this.loaders.inventoryPens) as Promise<InventoryPen[]>,
+      () => this.memo("inventoryPens", async () => {
+        const raw = await this.loaders.inventoryPens();
+        return raw.map((p) => this.wrapInventoryPen(p));
+      }) as Promise<InventoryPenWithRels[]>,
       INVENTORY_PEN_FIELDS as AnyFieldDef[],
     );
   }
 
   /** Per-user inventory. Requires `userId` on the DataSource — accessing
    * the query throws on materialisation if none was supplied. */
-  get InventoryTablets(): Query<InventoryTablet> {
+  get InventoryTablets(): Query<InventoryTabletWithRels> {
     return new Query(
-      () => this.memo("inventoryTablets", this.loaders.inventoryTablets) as Promise<InventoryTablet[]>,
+      () => this.memo("inventoryTablets", async () => {
+        const raw = await this.loaders.inventoryTablets();
+        return raw.map((t) => this.wrapInventoryTablet(t));
+      }) as Promise<InventoryTabletWithRels[]>,
       INVENTORY_TABLET_FIELDS as AnyFieldDef[],
     );
   }
 
-  // --- Phase 2: auto-resolved relationships --------------------------------
+  // --- Dataset-level resolution methods ------------------------------------
+  //
+  // These are the underlying mechanism the record-method form delegates to.
+  // They accept the raw record type but return wrapped records (the dataset
+  // caches wrapped records, so the filter results are already augmented).
 
-  /** Pens compatible with `tablet`, resolved via the PenCompat collection. */
-  async getCompatiblePens(tablet: Tablet): Promise<Pen[]> {
+  async getCompatiblePens(tablet: Tablet): Promise<PenWithRels[]> {
     const [pens, compat] = await Promise.all([
       this.Pens.toArray(),
       this.PenCompat.toArray(),
@@ -297,8 +480,7 @@ export class DrawTabDataSet {
     return pens.filter((p) => compatPenIds.has(p.PenId));
   }
 
-  /** Tablets compatible with `pen`, resolved via the PenCompat collection. */
-  async getCompatibleTablets(pen: Pen): Promise<Tablet[]> {
+  async getCompatibleTablets(pen: Pen): Promise<TabletWithRels[]> {
     const [tablets, compat] = await Promise.all([
       this.Tablets.toArray(),
       this.PenCompat.toArray(),
@@ -309,44 +491,78 @@ export class DrawTabDataSet {
     return tablets.filter((t) => compatTabletIds.has(t.Model.Id));
   }
 
-  /** The tablet's family record, or null if `Model.Family` is unset or
-   * references a family that does not exist. */
-  async getTabletFamily(tablet: Tablet): Promise<TabletFamily | null> {
+  async getTabletFamily(tablet: Tablet): Promise<TabletFamilyWithRels | null> {
     const familyRef = tablet.Model.Family;
     if (!familyRef) return null;
     const families = await this.TabletFamilies.toArray();
     return families.find((f) => f.EntityId === familyRef) ?? null;
   }
 
-  /** The pen's family record, or null if `PenFamily` is unset or references
-   * a family that does not exist. */
-  async getPenFamily(pen: Pen): Promise<PenFamily | null> {
+  async getPenFamily(pen: Pen): Promise<PenFamilyWithRels | null> {
     const familyRef = pen.PenFamily;
     if (!familyRef) return null;
     const families = await this.PenFamilies.toArray();
     return families.find((f) => f.EntityId === familyRef) ?? null;
   }
 
-  /** Tablets that belong to `family` (matched by `Model.Family === family.EntityId`). */
-  async getTabletsInFamily(family: TabletFamily): Promise<Tablet[]> {
+  async getTabletsInFamily(family: TabletFamily): Promise<TabletWithRels[]> {
     const tablets = await this.Tablets.toArray();
     return tablets.filter((t) => t.Model.Family === family.EntityId);
   }
 
-  /** Pens that belong to `family` (matched by `PenFamily === family.EntityId`). */
-  async getPensInFamily(family: PenFamily): Promise<Pen[]> {
+  async getPensInFamily(family: PenFamily): Promise<PenWithRels[]> {
     const pens = await this.Pens.toArray();
     return pens.filter((p) => p.PenFamily === family.EntityId);
+  }
+
+  async getTabletsForBrand(brand: Brand): Promise<TabletWithRels[]> {
+    const tablets = await this.Tablets.toArray();
+    return tablets.filter((t) => t.Model.Brand === brand.BrandId);
+  }
+
+  async getPensForBrand(brand: Brand): Promise<PenWithRels[]> {
+    const pens = await this.Pens.toArray();
+    return pens.filter((p) => p.Brand === brand.BrandId);
   }
 
   /** The brand record for any entity that has a `Brand` field
    * (Tablet uses `Model.Brand`; others have a top-level `Brand`). */
   async getBrand(
     entity: { Brand?: string; Model?: { Brand?: string } },
-  ): Promise<Brand | null> {
+  ): Promise<BrandWithRels | null> {
     const brandId = entity.Brand ?? entity.Model?.Brand;
     if (!brandId) return null;
     const brands = await this.Brands.toArray();
     return brands.find((b) => b.BrandId === brandId) ?? null;
+  }
+
+  async getPenForInventory(inv: InventoryPen): Promise<PenWithRels | null> {
+    if (!inv.PenEntityId) return null;
+    const pens = await this.Pens.toArray();
+    return pens.find((p) => p.EntityId === inv.PenEntityId) ?? null;
+  }
+
+  async getTabletForInventory(inv: InventoryTablet): Promise<TabletWithRels | null> {
+    if (!inv.TabletEntityId) return null;
+    const tablets = await this.Tablets.toArray();
+    return tablets.find((t) => t.Meta.EntityId === inv.TabletEntityId) ?? null;
+  }
+
+  async getPenForSession(s: PressureResponse): Promise<PenWithRels | null> {
+    if (!s.PenEntityId) return null;
+    const pens = await this.Pens.toArray();
+    return pens.find((p) => p.EntityId === s.PenEntityId) ?? null;
+  }
+
+  async getTabletForSession(s: PressureResponse): Promise<TabletWithRels | null> {
+    if (!s.TabletEntityId) return null;
+    const tablets = await this.Tablets.toArray();
+    return tablets.find((t) => t.Meta.EntityId === s.TabletEntityId) ?? null;
+  }
+
+  async getPenFamilyForSession(s: PressureResponse): Promise<PenFamilyWithRels | null> {
+    if (!s.PenFamily) return null;
+    const families = await this.PenFamilies.toArray();
+    return families.find((f) => f.EntityId === s.PenFamily) ?? null;
   }
 }
