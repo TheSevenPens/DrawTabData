@@ -26,6 +26,8 @@ import {
   loadTabletFamiliesFromURL,
   loadPenCompatFromURL,
   loadPressureResponseFromURL,
+  loadInventoryPensFromURL,
+  loadInventoryTabletsFromURL,
 } from "./drawtab-loader.js";
 import {
   loadTabletsFromDisk,
@@ -36,6 +38,8 @@ import {
   loadTabletFamiliesFromDisk,
   loadPenCompatFromDisk,
   loadPressureResponseFromDisk,
+  loadInventoryPensFromDisk,
+  loadInventoryTabletsFromDisk,
 } from "./drawtab-loader-node.js";
 import type { AnyFieldDef, Step } from "./pipeline/types.js";
 import { executePipeline } from "./pipeline/engine.js";
@@ -47,12 +51,14 @@ import { PEN_FAMILY_FIELDS } from "./entities/pen-family-fields.js";
 import { DRIVER_FIELDS } from "./entities/driver-fields.js";
 import { PEN_COMPAT_FIELDS } from "./entities/pen-compat-fields.js";
 import { PRESSURE_RESPONSE_FIELDS } from "./entities/pressure-response-fields.js";
+import { INVENTORY_PEN_FIELDS, type InventoryPen } from "./entities/inventory-pen-fields.js";
+import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/inventory-tablet-fields.js";
 
 // --- Source ----------------------------------------------------------------
 
 export type DataSource =
-  | { kind: "url"; baseUrl: string }
-  | { kind: "disk"; dataDir: string };
+  | { kind: "url"; baseUrl: string; userId?: string }
+  | { kind: "disk"; dataDir: string; userId?: string };
 
 // --- Fluent query ----------------------------------------------------------
 
@@ -131,7 +137,18 @@ type Loaders = {
   drivers(): Promise<Driver[]>;
   penCompat(): Promise<PenCompat[]>;
   pressureResponse(): Promise<PressureResponse[]>;
+  inventoryPens(): Promise<InventoryPen[]>;
+  inventoryTablets(): Promise<InventoryTablet[]>;
 };
+
+function requireUserId(source: DataSource): string {
+  if (!source.userId) {
+    throw new Error(
+      "Inventory access requires a userId in the DataSource (e.g. { kind: 'url', baseUrl: '', userId: 'sevenpens' }).",
+    );
+  }
+  return source.userId;
+}
 
 function makeLoaders(source: DataSource): Loaders {
   if (source.kind === "url") {
@@ -145,6 +162,10 @@ function makeLoaders(source: DataSource): Loaders {
       drivers: () => loadDriversFromURL(b),
       penCompat: () => loadPenCompatFromURL(b),
       pressureResponse: () => loadPressureResponseFromURL(b),
+      inventoryPens: () =>
+        loadInventoryPensFromURL(b, requireUserId(source)) as unknown as Promise<InventoryPen[]>,
+      inventoryTablets: () =>
+        loadInventoryTabletsFromURL(b, requireUserId(source)) as unknown as Promise<InventoryTablet[]>,
     };
   }
   const d = source.dataDir;
@@ -157,6 +178,8 @@ function makeLoaders(source: DataSource): Loaders {
     drivers: async () => loadDriversFromDisk(d),
     penCompat: async () => loadPenCompatFromDisk(d),
     pressureResponse: async () => loadPressureResponseFromDisk(d),
+    inventoryPens: async () => loadInventoryPensFromDisk(d, requireUserId(source)),
+    inventoryTablets: async () => loadInventoryTabletsFromDisk(d, requireUserId(source)),
   };
 }
 
@@ -239,6 +262,24 @@ export class DrawTabDataSet {
     return new Query(
       () => this.memo("pressureResponse", this.loaders.pressureResponse) as Promise<PressureResponse[]>,
       PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
+    );
+  }
+
+  /** Per-user inventory. Requires `userId` on the DataSource — accessing
+   * the query throws on materialisation if none was supplied. */
+  get InventoryPens(): Query<InventoryPen> {
+    return new Query(
+      () => this.memo("inventoryPens", this.loaders.inventoryPens) as Promise<InventoryPen[]>,
+      INVENTORY_PEN_FIELDS as AnyFieldDef[],
+    );
+  }
+
+  /** Per-user inventory. Requires `userId` on the DataSource — accessing
+   * the query throws on materialisation if none was supplied. */
+  get InventoryTablets(): Query<InventoryTablet> {
+    return new Query(
+      () => this.memo("inventoryTablets", this.loaders.inventoryTablets) as Promise<InventoryTablet[]>,
+      INVENTORY_TABLET_FIELDS as AnyFieldDef[],
     );
   }
 

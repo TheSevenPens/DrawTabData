@@ -90,6 +90,27 @@ export function loadPressureResponseFromDisk(dataDir: string): PressureResponse[
   return loadBrandPartitionedDataFromDisk<PressureResponse>(dataDir, "pressure-response", "PressureResponse");
 }
 
+// --- Inventory loaders (user-partitioned, not brand-partitioned) ---
+
+import type { InventoryPen } from "./entities/inventory-pen-fields.js";
+import type { InventoryTablet } from "./entities/inventory-tablet-fields.js";
+
+export function loadInventoryPensFromDisk(dataDir: string, userId: string): InventoryPen[] {
+  const filePath = path.join(dataDir, "inventory", `${userId}-pens.json`);
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(raw);
+  return (data.InventoryPens ?? []) as InventoryPen[];
+}
+
+export function loadInventoryTabletsFromDisk(dataDir: string, userId: string): InventoryTablet[] {
+  const filePath = path.join(dataDir, "inventory", `${userId}-tablets.json`);
+  if (!fs.existsSync(filePath)) return [];
+  const raw = fs.readFileSync(filePath, "utf-8");
+  const data = JSON.parse(raw);
+  return (data.InventoryTablets ?? []) as InventoryTablet[];
+}
+
 // --- Re-export types and accessors ---
 
 export type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, Dimensions, ColorGamuts, ISOPaperSize } from "./drawtab-loader.js";
