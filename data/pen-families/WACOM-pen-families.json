@@ -79,6 +79,14 @@
       "_id": "b6dcdfb1-d31a-417c-b0e0-e85b0a771815",
       "_CreateDate": "2026-04-28T00:00:00.000Z",
       "_ModifiedDate": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.penfamily.wacom_up",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom UP pen series",
+      "_id": "fce0a305-6ed0-438d-90d4-bfbbf9ea0c1d",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z"
     }
   ]
 }

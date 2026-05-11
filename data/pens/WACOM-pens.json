@@ -811,7 +811,9 @@
                      "Length":  "149.9",
                      "Diameter":  "9.8",
                      "BarrelRotation":  "NO",
-                     "Tags":  ["UDEMR"],
+                     "Tags":  [
+                                  "UDEMR"
+                              ],
                      "_id":  "c20e6dda-1f36-4616-89de-5245ab2436d4",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
@@ -832,7 +834,9 @@
                      "Length":  "148.2",
                      "Diameter":  "11.5",
                      "BarrelRotation":  "NO",
-                     "Tags":  ["UDEMR"],
+                     "Tags":  [
+                                  "UDEMR"
+                              ],
                      "_id":  "1b387c8c-8fcf-4d0e-aeff-98a7e43a12fa",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
                      "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
@@ -842,7 +846,7 @@
                      "Brand":  "WACOM",
                      "PenId":  "UP-911E",
                      "PenName":  "UP-911E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "2002",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -855,7 +859,7 @@
                      "BarrelRotation":  "NO",
                      "_id":  "34bac038-326d-4c4d-852e-9c2f99e31753",
                      "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.lp160",
@@ -1035,7 +1039,7 @@
                      "Brand":  "WACOM",
                      "PenId":  "UP-812E",
                      "PenName":  "UP-812E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1045,7 +1049,7 @@
                      "BarrelRotation":  "NO",
                      "_id":  "e21f8c8b-bd9c-49f6-a9b8-e35729041007",
                      "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.ep140e",
@@ -1249,7 +1253,7 @@
                      "Brand":  "WACOM",
                      "PenId":  "UP-703E",
                      "PenName":  "UP-703E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1997",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1262,14 +1266,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "f0fc0cf6-6cf9-4a54-9f9c-202d2507d48e",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up801e",
                      "Brand":  "WACOM",
                      "PenId":  "UP-801E",
                      "PenName":  "UP-801E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1282,14 +1286,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "b88fc717-b896-4539-8723-3f48e4e0d223",
                      "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up801",
                      "Brand":  "WACOM",
                      "PenId":  "UP-801",
                      "PenName":  "UP-801",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1302,14 +1306,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "890b0d6c-3062-45ff-934f-cf69014e605c",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up811e",
                      "Brand":  "WACOM",
                      "PenId":  "UP-811E",
                      "PenName":  "UP-811E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1322,14 +1326,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "e075cc7d-f32c-4597-918c-0ffdbe5d712e",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up241",
                      "Brand":  "WACOM",
                      "PenId":  "UP-241",
                      "PenName":  "UP-241",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "1",
                      "PressureSensitive":  "YES",
@@ -1342,14 +1346,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "413b7de4-20f2-4f7a-81da-f622e0a981ab",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up421",
                      "Brand":  "WACOM",
                      "PenId":  "UP-421",
                      "PenName":  "UP-421",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "1",
                      "PressureSensitive":  "YES",
@@ -1362,14 +1366,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "614166a3-6338-4997-9b51-c711d48a4461",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up501",
                      "Brand":  "WACOM",
                      "PenId":  "UP-501",
                      "PenName":  "UP-501",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "1",
                      "PressureSensitive":  "YES",
@@ -1382,14 +1386,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "bcec1022-325c-4d39-aa9f-35f0774e8508",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up201",
                      "Brand":  "WACOM",
                      "PenId":  "UP-201",
                      "PenName":  "UP-201",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1402,14 +1406,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "d4183fff-1aae-4997-a0e5-21a9dd7681d6",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up817e",
                      "Brand":  "WACOM",
                      "PenId":  "UP-817E",
                      "PenName":  "UP-817E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1422,14 +1426,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "05e07ad7-274b-455f-9fd7-59c5e3b1ed7f",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up813e",
                      "Brand":  "WACOM",
                      "PenId":  "UP-813E",
                      "PenName":  "UP-813E",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "2",
                      "PressureSensitive":  "YES",
@@ -1442,14 +1446,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "c67038db-ab2d-4fd4-a535-e87a4d09c5e1",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up714w",
                      "Brand":  "WACOM",
                      "PenId":  "UP-714W",
                      "PenName":  "UP-714W",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "1",
                      "PressureSensitive":  "YES",
@@ -1462,14 +1466,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "96dfeb70-2ed1-43da-b9cf-d866874c4632",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up211",
                      "Brand":  "WACOM",
                      "PenId":  "UP-211",
                      "PenName":  "UP-211",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "1",
                      "PressureSensitive":  "YES",
@@ -1482,14 +1486,14 @@
                      "BarrelRotation":  "NO",
                      "_id":  "714b22a7-f7a5-4713-8586-5fc9cfaa81f1",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up401",
                      "Brand":  "WACOM",
                      "PenId":  "UP-401",
                      "PenName":  "UP-401",
-                     "PenFamily":  "",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
                      "PenYear":  "1994",
                      "ButtonCount":  "1",
                      "PressureSensitive":  "YES",
@@ -1502,7 +1506,7 @@
                      "BarrelRotation":  "NO",
                      "_id":  "37bc6c37-f187-44c4-b1bf-f98787d9b2bd",
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
-                     "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
+                     "_ModifiedDate":  "2026-05-11T19:14:49.775Z"
                  },
                  {
                      "EntityId":  "wacom.pen.kp403e",
