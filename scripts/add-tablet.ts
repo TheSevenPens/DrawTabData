@@ -18,6 +18,7 @@ import { fileURLToPath } from "url";
 import { randomUUID } from "crypto";
 import * as v from "valibot";
 import { TabletSchema } from "../lib/schemas.js";
+import { runDataQuality } from "../lib/data-quality.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.join(__dirname, "..", "data");
@@ -125,4 +126,29 @@ try {
 }
 
 console.log(`\nWrote ${eid}.`);
-console.log(`Reminder: data-repo changes need TWO commits — one inside data-repo/, then one in the outer repo to advance the submodule pointer.`);
+
+// --- Inline data-quality, scoped to the affected brand file ---
+
+const brandFileName = path.basename(filePath);
+const allIssues = runDataQuality(dataDir);
+const scopedIssues = allIssues.filter((i) => i.file === brandFileName);
+
+if (scopedIssues.length === 0) {
+  console.log(`Data quality: no issues in ${brandFileName}.`);
+} else {
+  const newOnly = scopedIssues.filter((i) => i.entityId === eid);
+  const others = scopedIssues.filter((i) => i.entityId !== eid);
+  console.log(`\nData quality issues in ${brandFileName} (${scopedIssues.length}):`);
+  const print = (group: typeof scopedIssues, label: string) => {
+    if (group.length === 0) return;
+    console.log(`  ${label}:`);
+    for (const { entityId, field, issue, value } of group) {
+      const valuePart = value !== undefined ? ` => ${value}` : "";
+      console.log(`    ${entityId} | ${field} | ${issue}${valuePart}`);
+    }
+  };
+  print(newOnly, `from the new record (${eid})`);
+  print(others, "pre-existing in this brand file");
+}
+
+console.log(`\nReminder: data-repo changes need TWO commits — one inside data-repo/, then one in the outer repo to advance the submodule pointer.`);
