@@ -17,7 +17,9 @@
     "validate-brand": "tsx scripts/validate-brand.ts",
     "add-tablet": "tsx scripts/add-tablet.ts",
     "find-or-add-pen": "tsx scripts/find-or-add-pen.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [
     "drawing-tablet",
@@ -48,7 +50,8 @@
   "devDependencies": {
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.5"
   },
   "dependencies": {
     "valibot": "^1.3.1"
