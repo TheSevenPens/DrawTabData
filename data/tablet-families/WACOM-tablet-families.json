@@ -188,6 +188,42 @@
       "_CreateDate": "2026-05-11T00:00:00Z",
       "_ModifiedDate": "2026-05-11T00:00:00Z",
       "ModelPattern": ""
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_movink_2024",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Movink 2024 tablet series",
+      "_id": "c8def1db-e403-4dbe-9a1f-d2491014aa48",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "DTH-13?"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_movinkpad_2025",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom MovinkPad 2025 tablet series",
+      "_id": "11dbff95-4384-4016-9774-3ccbc2f9eecf",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "DTH-A*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_one_2023",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom One 2023 tablet series",
+      "_id": "5dda732a-c9e2-4570-b57b-75d95a55eadf",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "CTC-x110WL"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuos_2018",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos 2018 tablet series",
+      "_id": "e0086c55-f207-49d4-819c-cf344ad8dc9f",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "CTL-x100"
     }
   ]
 }

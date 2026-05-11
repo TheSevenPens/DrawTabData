@@ -18,7 +18,8 @@
                                                                  "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
-                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/ctc4110wl.html"
+                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/ctc4110wl.html",
+                                             "Family":  "wacom.tabletfamily.wacom_one_2023"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -58,7 +59,8 @@
                                                                  "wacom.pen.cp923"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-one",
-                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/ctc6110wl.html"
+                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/ctc6110wl.html",
+                                             "Family":  "wacom.tabletfamily.wacom_one_2023"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -349,7 +351,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-4100.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-4100.html",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2018"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -391,7 +394,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-4100wl.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-4100wl.html",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2018"
                                          },
                                "Digitizer":  {
                                                  "PressureLevels":  "4096",
@@ -558,7 +562,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-6100.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-6100.html",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2018"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -600,7 +605,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-6100wl.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/CTL-6100wl.html",
+                                             "Family":  "wacom.tabletfamily.wacom_intuos_2018"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1006,7 +1012,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
-                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth135.html"
+                                             "UserManual":  "https://101.wacom.com/userhelp/en/toc/dth135.html",
+                                             "Family":  "wacom.tabletfamily.wacom_movink_2024"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2275,7 +2282,8 @@
                                                                  "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2316,7 +2324,8 @@
                                                                  "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2357,7 +2366,8 @@
                                                                  "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2398,7 +2408,8 @@
                                                                  "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2439,7 +2450,8 @@
                                                                  "wacom.pen.gp300e"
                                                              ],
                                              "ProductLink":  "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_1998"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2891,7 +2903,8 @@
                                                                  "wacom.pen.kp501e"
                                                              ],
                                              "ProductLink":  "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2012"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -4068,7 +4081,8 @@
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
                                                              ],
-                                             "ProductLink":  "https://www.wacom.com/en-us/products/wacom-movinkpad-11"
+                                             "ProductLink":  "https://www.wacom.com/en-us/products/wacom-movinkpad-11",
+                                             "Family":  "wacom.tabletfamily.wacom_movinkpad_2025"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -4138,7 +4152,8 @@
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
                                                              ],
-                                             "ProductLink":  "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14"
+                                             "ProductLink":  "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14",
+                                             "Family":  "wacom.tabletfamily.wacom_movinkpad_2025"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
