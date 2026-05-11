@@ -172,6 +172,22 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     },
   },
   {
+    key: "DigitizerActiveAreaMm2", label: "Active Area (mm²)", group: "Digitizer", computed: true, type: "number", unit: "mm²",
+    getValue: (t) => {
+      const d = t.Digitizer?.Dimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      return String(Math.round(d.Width * d.Height));
+    },
+  },
+  {
+    key: "DigitizerActiveAreaCm2", label: "Active Area (cm²)", group: "Digitizer", computed: true, type: "number", unit: "cm²",
+    getValue: (t) => {
+      const d = t.Digitizer?.Dimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      return ((d.Width * d.Height) / 100).toFixed(1);
+    },
+  },
+  {
     key: "ForceProportionsLoss16x9", label: "Force Prop. Loss 16:9 (%)", group: "Digitizer", computed: true, type: "number",
     getValue: (t) => {
       if (t.Model.Type !== "PENTABLET") return "";
@@ -227,6 +243,15 @@ export const TABLET_FIELDS: FieldDef<Tablet>[] = [
     key: "DisplayPixelDimensions", label: "Pixel Dimensions", group: "Display",
     getValue: (t) => { if (notApplicable(t)) return "-"; const d = t.Display?.PixelDimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
     type: "string",
+  },
+  {
+    key: "DisplayPixelCount", label: "Pixel Count", group: "Display", computed: true, type: "number", unit: "px",
+    getValue: (t) => {
+      if (notApplicable(t)) return "-";
+      const d = t.Display?.PixelDimensions;
+      if (!d || d.Width == null || d.Height == null) return "";
+      return String(d.Width * d.Height);
+    },
   },
   {
     key: "DisplayDiagonal", label: "Diagonal (mm)", group: "Display", computed: true, type: "number", unit: "mm",
