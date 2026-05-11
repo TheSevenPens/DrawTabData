@@ -1,119 +1,35 @@
 # FUTURES
 
-## DATA
+Tracked work lives in GitHub issues. This file is just a thin index;
+open the issue for current scope, design notes, and status.
 
-### Add nibs dataset
-Nib types, materials, compatibility with pens.
+## Data
 
-### Expand pen data
-Add fields for technology, buttons, pressure levels, tilt support, weight.
+- Add nibs dataset — #22
+- Expand pen/tablet family metadata — #23
+- Add pen-compat for HUION / XPPEN / XENCELABS — #24
+- Add drivers for non-Wacom brands — #25
+- Expand pen data (per brand) — #108 (HUION), #109 (XP-Pen)
 
-### Expand pen/tablet family data
-Add more metadata to families as the concept grows.
+## Libraries
 
-### Add pen-compat for other brands
-Currently only Wacom. HUION, XPPEN, XENCELABS need compatibility data.
+- Data-quality validation for all entity types — #26
+- DrawTabDataSet high-level API — #27
+- Additional computed fields (active area, pixel count) — #31
+- Aggregation in the pipeline (summarize step) — tracked in the
+  explorer repo:
+  https://github.com/TheSevenPens/DrawTabDataExplorer/issues/112
 
-### Add drivers for other brands
-Currently only Wacom.
+## Tooling
 
-### Pressure response data
-Pressure response curves per pen/tablet combination. Different data shape
-(time series per device pair) needing its own loader.
+- Brand-specific spec scrapers — #28
+- Spec extractor for offline spec sheets (.docx, .pdf) — #29
+- Inline data-quality after add-tablet — #30
 
-## LIBRARIES
+## Known issues
 
-### Aggregation in the pipeline (summarize step)
-KQL-style summarize: count, min, max, avg grouped by a field.
+- EntityId disambiguation when Model.Id is reused across generations — #32
 
-### Additional computed fields
-- Active area in square mm/cm
-- Pixel count (width x height)
-- Aspect ratio
+## Shipped
 
-### Data quality for all entity types
-Currently only validates tablets. Extend to pens, drivers, families, compat.
-
-### DrawTabDataSet class
-A high-level API that simplifies data access:
-- Lazy loading: entity collections load on first access (e.g. `ds.Tablets`)
-- Fluent filtering: `ds.Tablets.filter("Brand", "==", "WACOM").filter(...)`
-  built on top of the pipeline engine
-- Auto-resolved relationships: `tablet.getCompatiblePens()` returns full
-  Pen objects by automatically loading and joining pen-compat data
-- Supports both disk and URL sources configured at construction time
-
-Phase 1: DrawTabDataSet + lazy loading + fluent filter
-Phase 2: Auto-resolved relationships (getCompatiblePens, getCompatibleTablets, etc.)
-
-## TOOLING
-
-### Brand-specific spec scrapers
-
-Per-brand command-line scrapers that turn a product-page URL into a spec
-JSON suitable for `npm run add-tablet`. Scope:
-
-- `npm run scrape-xppen -- <url>` -> emits spec.json
-- `npm run scrape-huion -- <url>`
-- `npm run scrape-wacom -- <url>`
-
-Each scraper knows the page structure (or HTML pattern) for its
-manufacturer and produces the field mapping in `docs/IMPORTING-TABLETS.md`
-form. Output is JSON the user can review/edit before passing to
-`add-tablet`.
-
-Worth doing once we are importing more than ~1 tablet per month from any
-single brand. Until then, hand-mapping from a spec sheet (the workflow
-documented in IMPORTING-TABLETS.md) is fast enough now that
-`add-tablet` exists.
-
-### Spec extractor for offline spec sheets (.docx, .pdf)
-
-Variant of the brand scrapers above for cases where the spec arrives as
-a Word doc, PDF, or screenshot rather than a live URL. Less leverage
-than a live scraper because format varies wildly per source, but
-useful when manufacturer pages are gone or when working from press kits.
-
-### Inline data-quality on add
-
-Run `npm run data-quality` automatically after `add-tablet` writes a
-record, scoped to the affected brand file. Today the user runs it as a
-separate step; rolling it in catches issues immediately.
-
-## KNOWN ISSUES
-
-### EntityId disambiguation when Model.Id is reused across generations
-
-Wacom shipped three different products under the same Model.Id "CT-0405-U":
-- 1997 PenPartner USB (EntityId: wacom.tablet.ct0405u)
-- 2004 PenPartner A8 USB (EntityId: wacom.tablet.ct0405u_2004)
-- 2005 PenPartner 2 (EntityId: wacom.tablet.ct0405u_2005)
-
-The 2004 and 2005 records use a "_<year>" suffix on the EntityId to
-disambiguate, since Brand+Type+Model.Id alone doesn't yield a unique key.
-
-The data-quality check in lib/data-quality.ts derives the expected
-EntityId from Brand+Type+Model.Id and therefore flags the two suffixed
-records as "does not match derived value".
-
-A similar pattern exists on three Huion tablets where the Model.Id itself
-contains a year suffix with an underscore (e.g. "unkkamvas16_2019"); the
-EntityId derivation strips non-alphanumerics, so the EntityId no longer
-matches.
-
-Three resolution options to weigh:
-
-1. **Rename Model.Id on the reissues** (e.g. CT-0405-U-2004). Cleanest
-   from the check's POV but invents a model code the manufacturer never
-   used; loses the truth that the products all shipped as the same SKU.
-
-2. **Teach the check about disambiguator suffixes** — accept the EntityId
-   if it equals <derived> or matches <derived>_\d{4}. Smallest change;
-   preserves the data as-is.
-
-3. **Add an explicit Model.IdSuffix field** that the derivation
-   incorporates (e.g. "IdSuffix": "2004" -> expected
-   wacom.tablet.ct0405u_2004). Most precise; small schema change.
-
-The two 2004/2005 records are also sparse — Model block only, no
-Digitizer or Physical groups. Filling those in is a separate cleanup.
+- Pressure response data
