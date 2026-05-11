@@ -3203,7 +3203,8 @@
                                         },
                                "Model":  {
                                              "Brand":  "HUION",
-                                             "Id":  "UNK Kamvas 16 (2019)",
+                                             "Id":  "UNK_Kamvas_16",
+                                             "IdSuffix":  "2019",
                                              "Name":  "Kamvas 16 (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -3265,7 +3266,8 @@
                                         },
                                "Model":  {
                                              "Brand":  "HUION",
-                                             "Id":  "UNK Kamvas 20 (2019)",
+                                             "Id":  "UNK_Kamvas_20",
+                                             "IdSuffix":  "2019",
                                              "Name":  "Kamvas 20 (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -3325,7 +3327,8 @@
                                         },
                                "Model":  {
                                              "Brand":  "HUION",
-                                             "Id":  "UNK Kamvas Pro 16 (2019)",
+                                             "Id":  "UNK_Kamvas_Pro_16",
+                                             "IdSuffix":  "2019",
                                              "Name":  "Kamvas Pro 16 (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",

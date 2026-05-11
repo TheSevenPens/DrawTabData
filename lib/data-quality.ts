@@ -86,10 +86,12 @@ function checkTabletEntityId(t: RawRecord, file: string): Issue[] {
   const eid = getEntityId(t);
   const brand = getNestedString(t, "Model", "Brand");
   const id = getNestedString(t, "Model", "Id");
+  const idSuffix = getNestedString(t, "Model", "IdSuffix");
   const entityId = getNestedString(t, "Meta", "EntityId");
   if (brand && id) {
-    const expected =
-      brand.toLowerCase() + ".tablet." + id.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
+    const normalize = (s: string) => s.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
+    let expected = `${brand.toLowerCase()}.tablet.${normalize(id)}`;
+    if (idSuffix) expected += `_${normalize(idSuffix)}`;
     if (entityId !== expected) {
       issues.push({
         file,

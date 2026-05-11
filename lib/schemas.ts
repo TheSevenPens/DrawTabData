@@ -68,6 +68,10 @@ const MetaSchema = v.strictObject({
 const ModelSchema = v.strictObject({
   Brand: BrandEnum,
   Id: TrimmedString,
+  // Disambiguator appended to the derived EntityId as `_<IdSuffix>`,
+  // for cases where the manufacturer reused Model.Id across generations
+  // (e.g. Wacom CT-0405-U shipped in 1997, 2004, and 2005).
+  IdSuffix: v.optional(TrimmedString),
   Name: TrimmedString,
   AlternateNames: v.optional(v.array(TrimmedString)),
   Type: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),

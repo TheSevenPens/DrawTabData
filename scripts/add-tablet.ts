@@ -44,10 +44,13 @@ if (!brand || !id || !type) {
 // --- Auto-fill Meta ---
 
 const now = new Date().toISOString();
+const normalize = (s: string) => s.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
+const idSuffix: string | undefined = spec?.Model?.IdSuffix;
 const derivedEntityId =
   brand.toLowerCase() +
   ".tablet." +
-  id.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
+  normalize(id) +
+  (idSuffix ? "_" + normalize(idSuffix) : "");
 
 spec.Meta = {
   EntityId: spec.Meta?.EntityId ?? derivedEntityId,
