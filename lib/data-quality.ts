@@ -12,6 +12,7 @@ import {
   PressureResponseSchema,
 } from "./schemas.js";
 import { BRANDS } from "./loader-shared.js";
+import { sessionEntityId } from "./pressure/session-id.js";
 
 // --- Types ---
 
@@ -104,6 +105,93 @@ function checkTabletEntityId(t: RawRecord, file: string): Issue[] {
 
 function checkPenEntityId(p: RawRecord, file: string): Issue[] {
   return checkDerivedEntityId(p, file, "PEN", "PenId");
+}
+
+function checkDriverEntityId(d: RawRecord, file: string): Issue[] {
+  const issues: Issue[] = [];
+  const eid = getEntityId(d);
+  const brand = getString(d, "Brand");
+  const version = getString(d, "DriverVersion");
+  const os = getString(d, "OSFamily");
+  const entityId = getString(d, "EntityId");
+  if (brand && version && os) {
+    const expected =
+      brand.toLowerCase() + ".driver." + version.toLowerCase() + "_" + os.toLowerCase();
+    if (entityId !== expected) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "EntityId",
+        issue: "does not match derived value",
+        value: `got "${entityId}", expected "${expected}"`,
+      });
+    }
+  }
+  return issues;
+}
+
+/** Structural check for family-type EntityIds: must be lowercase,
+ * shaped as `<brand>.<typeSegment>.<id>`, with the brand portion
+ * matching the Brand field. The `<id>` portion is user-chosen so we
+ * can't derive it, only validate shape.
+ */
+function checkFamilyEntityId(typeSegment: "penfamily" | "tabletfamily") {
+  return (r: RawRecord, file: string): Issue[] => {
+    const issues: Issue[] = [];
+    const eid = getEntityId(r);
+    const brand = getString(r, "Brand");
+    const entityId = getString(r, "EntityId");
+    if (!brand || !entityId) return issues;
+
+    if (entityId !== entityId.toLowerCase()) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "EntityId",
+        issue: "must be all lowercase",
+        value: entityId,
+      });
+    }
+    const parts = entityId.toLowerCase().split(".");
+    if (parts.length !== 3) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "EntityId",
+        issue: `expected 3 dot-segments (brand.${typeSegment}.id)`,
+        value: entityId,
+      });
+      return issues;
+    }
+    if (parts[0] !== brand.toLowerCase()) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "EntityId",
+        issue: `brand segment "${parts[0]}" does not match Brand "${brand}"`,
+        value: entityId,
+      });
+    }
+    if (parts[1] !== typeSegment) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "EntityId",
+        issue: `type segment must be "${typeSegment}", got "${parts[1]}"`,
+        value: entityId,
+      });
+    }
+    if (!parts[2]) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "EntityId",
+        issue: "id segment is empty",
+        value: entityId,
+      });
+    }
+    return issues;
+  };
 }
 
 function checkDerivedEntityId(
@@ -352,6 +440,62 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
     }
   }
 
+  // Pressure response references
+  const pressureResponse = readAllInDir(
+    dataDir,
+    "pressure-response",
+    "PressureResponse",
+  );
+  const penEntityIds = new Set<string>();
+  for (const { record } of pens) {
+    const id = getString(record, "EntityId");
+    if (id) penEntityIds.add(id);
+  }
+  const tabletEntityIds = new Set<string>();
+  for (const { record } of tablets) {
+    const id = getNestedString(record, "Meta", "EntityId");
+    if (id) tabletEntityIds.add(id);
+  }
+  for (const { file, record } of pressureResponse) {
+    const brand = getString(record, "Brand");
+    const invId = getString(record, "InventoryId");
+    const date = getString(record, "Date");
+    const eid =
+      brand && invId && date
+        ? sessionEntityId({ Brand: brand, InventoryId: invId, Date: date })
+        : getEntityId(record);
+    const penRef = getString(record, "PenEntityId");
+    if (penRef && !penEntityIds.has(penRef)) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "PenEntityId",
+        issue: "references unknown Pen",
+        value: penRef,
+      });
+    }
+    const tabletRef = getString(record, "TabletEntityId");
+    if (tabletRef && !tabletEntityIds.has(tabletRef)) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "TabletEntityId",
+        issue: "references unknown Tablet",
+        value: tabletRef,
+      });
+    }
+    const penFamilyRef = getString(record, "PenFamily");
+    if (penFamilyRef && !penFamilyIds.has(penFamilyRef)) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "PenFamily",
+        issue: "references unknown PenFamily",
+        value: penFamilyRef,
+      });
+    }
+  }
+
   // PenCompat.PenId / TabletIds -> Pen.PenId / Tablet.Model.Id
   for (const { file, record } of penCompat) {
     const penId = getString(record, "PenId");
@@ -408,6 +552,7 @@ export function runDataQuality(dataDir: string): Issue[] {
       fileSuffix: "-pen-families.json",
       rootKey: "PenFamilies",
       schema: PenFamilySchema,
+      perRecordChecks: [checkFamilyEntityId("penfamily")],
       dedupe: true,
     }),
     ...runEntityChecks(dataDir, {
@@ -415,6 +560,7 @@ export function runDataQuality(dataDir: string): Issue[] {
       fileSuffix: "-tablet-families.json",
       rootKey: "TabletFamilies",
       schema: TabletFamilySchema,
+      perRecordChecks: [checkFamilyEntityId("tabletfamily")],
       dedupe: true,
     }),
     ...runEntityChecks(dataDir, {
@@ -422,6 +568,7 @@ export function runDataQuality(dataDir: string): Issue[] {
       fileSuffix: "-drivers.json",
       rootKey: "Drivers",
       schema: DriverSchema,
+      perRecordChecks: [checkDriverEntityId],
       dedupe: true,
     }),
     ...runEntityChecks(dataDir, {
