@@ -13,6 +13,8 @@ export function getOperatorsForField<T>(fieldDef: FieldDef<T>): { value: string;
     return [
       { value: "==", label: "equals" },
       { value: "!=", label: "not equals" },
+      { value: "empty", label: "is empty" },
+      { value: "notempty", label: "is not empty" },
     ];
   }
   if (fieldDef.type === "number") {
