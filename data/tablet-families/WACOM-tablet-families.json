@@ -181,15 +181,6 @@
       "ModelPattern": "DTH-W*"
     },
     {
-      "EntityId": "wacom.tabletfamily.wacom_cintiqother",
-      "Brand": "WACOM",
-      "FamilyName": "Wacom Cintiq Other tablet series",
-      "_id": "f3f2dfc3-880b-435c-a2d0-6f98c94eb224",
-      "_CreateDate": "2026-05-11T00:00:00Z",
-      "_ModifiedDate": "2026-05-11T00:00:00Z",
-      "ModelPattern": ""
-    },
-    {
       "EntityId": "wacom.tabletfamily.wacom_movink_2024",
       "Brand": "WACOM",
       "FamilyName": "Wacom Movink 2024 tablet series",
@@ -224,6 +215,105 @@
       "_CreateDate": "2026-05-11T00:00:00Z",
       "_ModifiedDate": "2026-05-11T00:00:00Z",
       "ModelPattern": "CTL-x100"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_cintiqpro",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Cintiq Pro tablet series",
+      "_id": "a98b1769-1fe2-47a8-95eb-6f75fa05d2d8",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "DTH-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_cintiq",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Cintiq tablet series",
+      "_id": "1d38fd26-5c6a-4ce3-b94f-9e4768573858",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "DTK-* / DTZ-* / DTH-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_cintiqlegacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Cintiq Legacy tablet series",
+      "_id": "3f7d7813-becd-4553-9981-6dca0b4e9ac5",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "DTF-* / DTU-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_graphire_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Graphire Legacy tablet series",
+      "_id": "cc1d101a-2eb7-4aee-9225-fd20bed62cc3",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "CTE-* / ET-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_bamboo_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Bamboo Legacy tablet series",
+      "_id": "47d52b8c-aaff-4757-b1a8-89a1dbc0821a",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "CTE-x50 / MTE-* / CTF-x30 / CTT-* / CTH-3xx"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_misc_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Misc Legacy tablet series",
+      "_id": "e03b2b7a-615e-4505-92ab-1c3b3febf447",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": ""
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_wt_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom WT Legacy tablet series",
+      "_id": "309135b7-6bf9-48ab-a906-172ea802d332",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "WT-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_artpad_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Artpad / ArtZ Legacy tablet series",
+      "_id": "2ffbea45-e55c-474e-be0b-7a156e3c53f2",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "KT-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_ultrapad_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Ultrapad Legacy tablet series",
+      "_id": "a71fe2c6-d706-4f12-a0fe-e09f65605c41",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "UD-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_penpartner_legacy",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom PenPartner Legacy tablet series",
+      "_id": "21376f12-e3cb-451e-b2f1-d34ee54076d6",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": "CT-0405-*"
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_misc_preintuos",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Misc Pre-Intuos tablet series",
+      "_id": "d769e063-a154-4e28-9519-29e3729c7b0a",
+      "_CreateDate": "2026-05-11T00:00:00Z",
+      "_ModifiedDate": "2026-05-11T00:00:00Z",
+      "ModelPattern": ""
     }
   ]
 }

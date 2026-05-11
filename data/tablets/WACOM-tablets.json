@@ -99,7 +99,8 @@
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep155e"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -139,7 +140,8 @@
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep155e"
                                                              ],
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -903,7 +905,8 @@
                                                                  "wacom.pen.kp504e"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-1320.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-1320.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1073,7 +1076,8 @@
                                                              ],
                                              "ProductLink":  "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1127,7 +1131,8 @@
                                                                  "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-16#Specifications",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH167.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH167.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1185,7 +1190,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
-                                             "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTH172.html"
+                                             "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTH172.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1246,7 +1252,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
-                                             "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTH227.html"
+                                             "UserManual":  "https://101.wacom.com/UserHelp/en/TOC/DTH227.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1308,7 +1315,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-2420.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-2420.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1366,7 +1374,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH246.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH246.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1425,7 +1434,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH271.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH271.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1487,7 +1497,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-3220.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTH-3220.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqpro"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1546,7 +1557,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-br/products/cintiq-13-hd",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-1300.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-1300.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1601,7 +1613,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1658,7 +1671,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK168.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK168.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1713,7 +1727,7 @@
                                              "Name":  "Cintiq 21UX 2010",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2010",
-                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -1768,7 +1782,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2200.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2200.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1823,7 +1838,8 @@
                                                                  "wacom.pen.kp504e"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1876,7 +1892,7 @@
                                              "Name":  "Cintiq 24 HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
-                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -1932,7 +1948,8 @@
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -1990,7 +2007,8 @@
                                                                  "wacom.pen.acp500"
                                                              ],
                                              "ProductLink":  "https://www.wacom.com/en-us/products/wacom-cintiq",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK246.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK246.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2048,7 +2066,8 @@
                                                                  "wacom.pen.kp503e"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2099,7 +2118,7 @@
                                              "Name":  "Cintiq 12WX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
-                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
                                                              ],
@@ -2143,7 +2162,7 @@
                                                                 ],
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
-                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -2197,7 +2216,8 @@
                                              "Name":  "Cintiq 21UX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2228,7 +2248,7 @@
                                              "Name":  "Cintiq 20WSX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
-                                             "Family":  "wacom.tabletfamily.wacom_cintiqother",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
                                                              ],
@@ -2509,7 +2529,8 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf521-manual.pdf?rev=49798cb00b0d4b288378a7b650f2b466\u0026amp;hash=CE0B216130C791BC26193930707A2A90"
+                                             "UserManual":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf521-manual.pdf?rev=49798cb00b0d4b288378a7b650f2b466\u0026amp;hash=CE0B216130C791BC26193930707A2A90",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqlegacy"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -2539,7 +2560,8 @@
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtu710-manual.pdf?rev=bb8c71e1d0f046b287ce35cf1930b4b0\u0026amp;hash=FEBFDF618D15CDC5CDC20FA4D52BDE14"
+                                             "UserManual":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtu710-manual.pdf?rev=bb8c71e1d0f046b287ce35cf1930b4b0\u0026amp;hash=FEBFDF618D15CDC5CDC20FA4D52BDE14",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqlegacy"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -5738,7 +5760,8 @@
                                              "LaunchYear":  "2007",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep150e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5772,7 +5795,8 @@
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up812e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_misc_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5806,7 +5830,8 @@
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep140e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5840,7 +5865,8 @@
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep140e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5874,7 +5900,8 @@
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep150"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5908,7 +5935,8 @@
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep150"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5939,7 +5967,8 @@
                                              "Id":  "CTT-460",
                                              "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2009"
+                                             "LaunchYear":  "2009",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -5969,7 +5998,8 @@
                                              "Id":  "CTH-301",
                                              "Name":  "Wacom CTH-301",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2014"
+                                             "LaunchYear":  "2014",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6000,7 +6030,8 @@
                                              "Id":  "CTH-300",
                                              "Name":  "Wacom CTH-300",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2013"
+                                             "LaunchYear":  "2013",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6034,7 +6065,8 @@
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_misc_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6067,7 +6099,8 @@
                                              "LaunchYear":  "2003",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6101,7 +6134,8 @@
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6133,7 +6167,8 @@
                                              "LaunchYear":  "2003",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6167,7 +6202,8 @@
                                              "LaunchYear":  "2007",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp500"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6201,7 +6237,8 @@
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp410"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_misc_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6235,7 +6272,8 @@
                                              "LaunchYear":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp410"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_misc_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6269,7 +6307,8 @@
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp110"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_misc_preintuos"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6295,7 +6334,8 @@
                                              "LaunchYear":  "2002",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp100"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_misc_preintuos"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6329,7 +6369,8 @@
                                              "LaunchYear":  "2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep120e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6363,7 +6404,8 @@
                                              "LaunchYear":  "2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep120e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6397,7 +6439,8 @@
                                              "LaunchYear":  "1999",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep100e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6431,7 +6474,8 @@
                                              "LaunchYear":  "1999",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep100e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_graphire_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6465,7 +6509,8 @@
                                              "LaunchYear":  "1997",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up703e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6499,7 +6544,8 @@
                                              "LaunchYear":  "1997",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up703e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6533,7 +6579,8 @@
                                              "LaunchYear":  "1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up703e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6567,7 +6614,8 @@
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_artpad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6593,7 +6641,8 @@
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_artpad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6627,7 +6676,8 @@
                                              "LaunchYear":  "1994",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_artpad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6661,7 +6711,8 @@
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_artpad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6695,7 +6746,8 @@
                                              "LaunchYear":  "",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_artpad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6726,7 +6778,8 @@
                                              "Id":  "PTU-600U",
                                              "Name":  "Wacom PTU-600U",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  ""
+                                             "LaunchYear":  "",
+                                             "Family":  "wacom.tabletfamily.wacom_misc_preintuos"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6760,7 +6813,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6794,7 +6848,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6828,7 +6883,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6862,7 +6918,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6896,7 +6953,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6930,7 +6988,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -6964,7 +7023,8 @@
                                              "LaunchYear":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
-                                                             ]
+                                                             ],
+                                             "Family":  "wacom.tabletfamily.wacom_ultrapad_legacy"
                                          },
                                "Digitizer":  {
                                                  "Dimensions":  {
@@ -7436,7 +7496,8 @@
                                              "Name":  "PenPartner A8 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          }
                            },
                            {
@@ -7453,7 +7514,8 @@
                                              "Name":  "PenPartner 2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
-                                             "Status":  "DISCONTINUED"
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          }
                            },
                            {
@@ -7469,7 +7531,8 @@
                                              "Name":  "WT-4400 (A4)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1985",
-                                             "Notes":  "World's first cordless pen."
+                                             "Notes":  "World's first cordless pen.",
+                                             "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
                            },
                            {
@@ -7484,7 +7547,8 @@
                                              "Id":  "WT-460M",
                                              "Name":  "WT-460M (A5)",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "1987"
+                                             "LaunchYear":  "1987",
+                                             "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
                            },
                            {
@@ -7499,7 +7563,8 @@
                                              "Id":  "DTH-1300",
                                              "Name":  "Cintiq 13H touch",
                                              "Type":  "PENDISPLAY",
-                                             "LaunchYear":  "2015"
+                                             "LaunchYear":  "2015",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Display":  {
                                                "PixelDimensions":  {
@@ -7525,7 +7590,8 @@
                                                                  "wacom.pen.kp503e"
                                                              ],
                                              "Status":  "DISCONTINUED",
-                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html"
+                                             "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -7577,7 +7643,8 @@
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1984",
                                              "Status":  "DISCONTINUED",
-                                             "Notes":  "World's first graphics tablet with a cordless cursor (puck). A4 size."
+                                             "Notes":  "World's first graphics tablet with a cordless cursor (puck). A4 size.",
+                                             "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
                            }
                        ]
