@@ -71,6 +71,7 @@ export const PEN_FIELDS: FieldDef<Pen>[] = [
   { key: "Tilt", label: "Tilt", getValue: (p) => p.Tilt ?? '', type: "string", group: "Sensors" },
   { key: "BarrelRotation", label: "Barrel Rotation", getValue: (p) => p.BarrelRotation ?? '', type: "string", group: "Sensors" },
   { key: "Hover", label: "Hover", getValue: (p) => p.Hover ?? '', type: "string", group: "Sensors" },
+  { key: "IAF", label: "IAF (gf)", getValue: (p) => p.IAF ?? '', type: "number", group: "Sensors", unit: "gf" },
   // Controls
   { key: "ButtonCount", label: "Button Count", getValue: (p) => p.ButtonCount ?? '', type: "number", group: "Controls" },
   { key: "Wheel", label: "Wheel", getValue: (p) => p.Wheel ?? '', type: "string", group: "Controls" },

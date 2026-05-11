@@ -194,6 +194,9 @@ export const PenSchema = v.strictObject({
   Tilt: v.optional(YesNo),
   BarrelRotation: v.optional(YesNo),
   Hover: v.optional(YesNo),
+  // Initial Activation Force (gf) — minimum force required for the pen
+  // tip to start registering pressure. Lower is better.
+  IAF: v.optional(NumericString),
   Tags: v.optional(v.array(TrimmedString)),
   Notes: v.optional(TrimmedString),
   _id: UuidString,
