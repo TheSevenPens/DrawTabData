@@ -20,8 +20,14 @@
 //
 //   const pens = await wacomTablets[0].getCompatiblePens();
 
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand } from "./drawtab-loader.js";
-import { ShardedURLLoader } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct } from "./drawtab-loader.js";
+import {
+  ShardedURLLoader,
+  loadVersionFromURL,
+  loadISOPaperSizesFromURL,
+  loadUSPaperSizesFromURL,
+  loadWacomUpdateProductsFromURL,
+} from "./drawtab-loader.js";
 import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 import type { AnyFieldDef, Loader } from "queriton";
@@ -155,8 +161,15 @@ function defineHidden<T extends object>(
  * instance by the generic `DataSet` base class.
  */
 export class DrawTabDataSet extends DataSet {
+  private readonly source: DataSource;
+  private cachedVersion?: Promise<VersionInfo | null>;
+  private cachedISOPaperSizes?: Promise<ISOPaperSize[]>;
+  private cachedUSPaperSizes?: Promise<USPaperSize[]>;
+  private cachedWacomUpdateProducts?: Promise<WacomUpdateProduct[]>;
+
   constructor(source: DataSource) {
     super();
+    this.source = source;
 
     const brandsLoader = makeShardedLoader<Brand>(source, {
       shards: ["brands"],
@@ -462,5 +475,49 @@ export class DrawTabDataSet extends DataSet {
     if (!s.PenFamily) return null;
     const families = await this.PenFamilies.toArray();
     return families.find((f) => f.EntityId === s.PenFamily) ?? null;
+  }
+
+  // --- Singleton resources (version.json, reference paper sizes) -----------
+  //
+  // These don't fit the brand-sharded collection pattern — each is a single
+  // file. They're memoized on the DataSet so multiple consumers in a session
+  // share one fetch. URL mode only today; disk mode throws because no
+  // consumer currently needs these resources from disk (the CLI tools that
+  // run in disk mode don't use version or paper sizes).
+
+  private requireUrlSource(resource: string): string {
+    if (this.source.kind !== "url") {
+      throw new Error(
+        `DrawTabDataSet.${resource}() is only implemented for URL sources today. ` +
+          `If you need disk-mode support, add a disk loader in drawtab-loader-node.ts.`,
+      );
+    }
+    return this.source.baseUrl;
+  }
+
+  /** Load the dataset's `version.json` (schema version, commit, counts). */
+  getVersion(): Promise<VersionInfo | null> {
+    return (this.cachedVersion ??= loadVersionFromURL(this.requireUrlSource("getVersion")));
+  }
+
+  /** Load the ISO A-series paper-size reference dataset. */
+  getISOPaperSizes(): Promise<ISOPaperSize[]> {
+    return (this.cachedISOPaperSizes ??= loadISOPaperSizesFromURL(
+      this.requireUrlSource("getISOPaperSizes"),
+    ));
+  }
+
+  /** Load the US paper-size reference dataset. */
+  getUSPaperSizes(): Promise<USPaperSize[]> {
+    return (this.cachedUSPaperSizes ??= loadUSPaperSizesFromURL(
+      this.requireUrlSource("getUSPaperSizes"),
+    ));
+  }
+
+  /** Load the Wacom update.xml product manifest. */
+  getWacomUpdateProducts(): Promise<WacomUpdateProduct[]> {
+    return (this.cachedWacomUpdateProducts ??= loadWacomUpdateProductsFromURL(
+      this.requireUrlSource("getWacomUpdateProducts"),
+    ));
   }
 }
