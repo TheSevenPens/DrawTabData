@@ -24,10 +24,8 @@ import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureR
 import { ShardedURLLoader } from "./drawtab-loader.js";
 import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
-import type { AnyFieldDef } from "./pipeline/types.js";
-import { Query } from "./pipeline/query.js";
-import { DataSet } from "./pipeline/dataset.js";
-import type { Loader } from "./pipeline/loader.js";
+import type { AnyFieldDef, Loader } from "queriton";
+import { Query, DataSet } from "queriton";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
 import { TABLET_FAMILY_FIELDS } from "./entities/tablet-family-fields.js";

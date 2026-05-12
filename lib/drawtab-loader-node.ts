@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Brand } from "./drawtab-loader.js";
-import type { Loader } from "./pipeline/loader.js";
+import type { Loader } from "queriton";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 // --- Generic loader ---

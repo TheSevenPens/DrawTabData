@@ -1,6 +1,6 @@
 // --- Types ---
 
-import type { Loader } from "./pipeline/loader.js";
+import type { Loader } from "queriton";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct } from "./schemas.js";

@@ -1,4 +1,4 @@
-import type { FieldDef, Step } from "../pipeline/types.js";
+import type { FieldDef, Step } from "queriton";
 
 export interface InventoryTablet {
   TabletEntityId: string;

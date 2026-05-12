@@ -1,5 +1,5 @@
 import type { PenFamily } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "../pipeline/types.js";
+import type { FieldDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
 
 export type { PenFamily } from "../drawtab-loader.js";
