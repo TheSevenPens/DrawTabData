@@ -47,6 +47,7 @@ import {
 } from "./drawtab-loader-node.js";
 import type { AnyFieldDef } from "./pipeline/types.js";
 import { Query } from "./pipeline/query.js";
+import { DataSet } from "./pipeline/dataset.js";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
 import { TABLET_FAMILY_FIELDS } from "./entities/tablet-family-fields.js";
@@ -116,7 +117,7 @@ export type PressureResponseWithRels = PressureResponse & {
 
 // --- Loaders ---------------------------------------------------------------
 
-type Loaders = {
+type RawLoaders = {
   brands(): Promise<Brand[]>;
   tablets(): Promise<Tablet[]>;
   tabletFamilies(): Promise<TabletFamily[]>;
@@ -138,7 +139,7 @@ function requireUserId(source: DataSource): string {
   return source.userId;
 }
 
-function makeLoaders(source: DataSource): Loaders {
+function makeLoaders(source: DataSource): RawLoaders {
   if (source.kind === "url") {
     const b = source.baseUrl;
     return {
@@ -198,26 +199,63 @@ function defineHidden<T extends object>(
  * High-level entry point. Construct once, then access entity collections
  * via the typed properties (`ds.Tablets`, `ds.Pens`, etc.). Each collection
  * is loaded lazily on first access and cached for the lifetime of the
- * instance.
+ * instance by the generic `DataSet` base class.
  */
-export class DrawTabDataSet {
-  private readonly loaders: Loaders;
-  private readonly cache = new Map<keyof Loaders, Promise<unknown>>();
-
+export class DrawTabDataSet extends DataSet {
   constructor(source: DataSource) {
-    this.loaders = makeLoaders(source);
-  }
+    super();
+    const loaders = makeLoaders(source);
 
-  private memo<K extends keyof Loaders>(
-    key: K,
-    loader: () => Promise<unknown>,
-  ): Promise<unknown> {
-    let p = this.cache.get(key);
-    if (!p) {
-      p = loader();
-      this.cache.set(key, p);
-    }
-    return p;
+    this.registerCollection<BrandWithRels>(
+      "Brands",
+      async () => (await loaders.brands()).map((b) => this.wrapBrand(b)),
+      BRAND_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<TabletWithRels>(
+      "Tablets",
+      async () => (await loaders.tablets()).map((t) => this.wrapTablet(t)),
+      TABLET_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<TabletFamilyWithRels>(
+      "TabletFamilies",
+      async () => (await loaders.tabletFamilies()).map((f) => this.wrapTabletFamily(f)),
+      TABLET_FAMILY_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<PenWithRels>(
+      "Pens",
+      async () => (await loaders.pens()).map((p) => this.wrapPen(p)),
+      PEN_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<PenFamilyWithRels>(
+      "PenFamilies",
+      async () => (await loaders.penFamilies()).map((f) => this.wrapPenFamily(f)),
+      PEN_FAMILY_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<DriverWithRels>(
+      "Drivers",
+      async () => (await loaders.drivers()).map((d) => this.wrapDriver(d)),
+      DRIVER_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<PenCompat>(
+      "PenCompat",
+      loaders.penCompat,
+      PEN_COMPAT_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<PressureResponseWithRels>(
+      "PressureResponse",
+      async () => (await loaders.pressureResponse()).map((s) => this.wrapPressureResponse(s)),
+      PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<InventoryPenWithRels>(
+      "InventoryPens",
+      async () => (await loaders.inventoryPens()).map((p) => this.wrapInventoryPen(p)),
+      INVENTORY_PEN_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<InventoryTabletWithRels>(
+      "InventoryTablets",
+      async () => (await loaders.inventoryTablets()).map((t) => this.wrapInventoryTablet(t)),
+      INVENTORY_TABLET_FIELDS as AnyFieldDef[],
+    );
   }
 
   // --- Augmentation -- bound to `this` so methods can call back ------------
@@ -294,108 +332,22 @@ export class DrawTabDataSet {
     }) as PressureResponseWithRels;
   }
 
-  // --- Collection accessors -- each cached load returns wrapped records ----
+  // --- Collection accessors -- thin delegates over the generic DataSet ----
 
-  get Brands(): Query<BrandWithRels> {
-    return new Query(
-      () => this.memo("brands", async () => {
-        const raw = await this.loaders.brands();
-        return raw.map((b) => this.wrapBrand(b));
-      }) as Promise<BrandWithRels[]>,
-      BRAND_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get Tablets(): Query<TabletWithRels> {
-    return new Query(
-      () => this.memo("tablets", async () => {
-        const raw = await this.loaders.tablets();
-        return raw.map((t) => this.wrapTablet(t));
-      }) as Promise<TabletWithRels[]>,
-      TABLET_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get TabletFamilies(): Query<TabletFamilyWithRels> {
-    return new Query(
-      () => this.memo("tabletFamilies", async () => {
-        const raw = await this.loaders.tabletFamilies();
-        return raw.map((f) => this.wrapTabletFamily(f));
-      }) as Promise<TabletFamilyWithRels[]>,
-      TABLET_FAMILY_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get Pens(): Query<PenWithRels> {
-    return new Query(
-      () => this.memo("pens", async () => {
-        const raw = await this.loaders.pens();
-        return raw.map((p) => this.wrapPen(p));
-      }) as Promise<PenWithRels[]>,
-      PEN_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get PenFamilies(): Query<PenFamilyWithRels> {
-    return new Query(
-      () => this.memo("penFamilies", async () => {
-        const raw = await this.loaders.penFamilies();
-        return raw.map((f) => this.wrapPenFamily(f));
-      }) as Promise<PenFamilyWithRels[]>,
-      PEN_FAMILY_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get Drivers(): Query<DriverWithRels> {
-    return new Query(
-      () => this.memo("drivers", async () => {
-        const raw = await this.loaders.drivers();
-        return raw.map((d) => this.wrapDriver(d));
-      }) as Promise<DriverWithRels[]>,
-      DRIVER_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get PenCompat(): Query<PenCompat> {
-    return new Query(
-      () => this.memo("penCompat", this.loaders.penCompat) as Promise<PenCompat[]>,
-      PEN_COMPAT_FIELDS as AnyFieldDef[],
-    );
-  }
-
-  get PressureResponse(): Query<PressureResponseWithRels> {
-    return new Query(
-      () => this.memo("pressureResponse", async () => {
-        const raw = await this.loaders.pressureResponse();
-        return raw.map((s) => this.wrapPressureResponse(s));
-      }) as Promise<PressureResponseWithRels[]>,
-      PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
-    );
-  }
-
+  get Brands(): Query<BrandWithRels> { return this.get<BrandWithRels>("Brands"); }
+  get Tablets(): Query<TabletWithRels> { return this.get<TabletWithRels>("Tablets"); }
+  get TabletFamilies(): Query<TabletFamilyWithRels> { return this.get<TabletFamilyWithRels>("TabletFamilies"); }
+  get Pens(): Query<PenWithRels> { return this.get<PenWithRels>("Pens"); }
+  get PenFamilies(): Query<PenFamilyWithRels> { return this.get<PenFamilyWithRels>("PenFamilies"); }
+  get Drivers(): Query<DriverWithRels> { return this.get<DriverWithRels>("Drivers"); }
+  get PenCompat(): Query<PenCompat> { return this.get<PenCompat>("PenCompat"); }
+  get PressureResponse(): Query<PressureResponseWithRels> { return this.get<PressureResponseWithRels>("PressureResponse"); }
   /** Per-user inventory. Requires `userId` on the DataSource — accessing
    * the query throws on materialisation if none was supplied. */
-  get InventoryPens(): Query<InventoryPenWithRels> {
-    return new Query(
-      () => this.memo("inventoryPens", async () => {
-        const raw = await this.loaders.inventoryPens();
-        return raw.map((p) => this.wrapInventoryPen(p));
-      }) as Promise<InventoryPenWithRels[]>,
-      INVENTORY_PEN_FIELDS as AnyFieldDef[],
-    );
-  }
-
+  get InventoryPens(): Query<InventoryPenWithRels> { return this.get<InventoryPenWithRels>("InventoryPens"); }
   /** Per-user inventory. Requires `userId` on the DataSource — accessing
    * the query throws on materialisation if none was supplied. */
-  get InventoryTablets(): Query<InventoryTabletWithRels> {
-    return new Query(
-      () => this.memo("inventoryTablets", async () => {
-        const raw = await this.loaders.inventoryTablets();
-        return raw.map((t) => this.wrapInventoryTablet(t));
-      }) as Promise<InventoryTabletWithRels[]>,
-      INVENTORY_TABLET_FIELDS as AnyFieldDef[],
-    );
-  }
+  get InventoryTablets(): Query<InventoryTabletWithRels> { return this.get<InventoryTabletWithRels>("InventoryTablets"); }
 
   // --- Dataset-level resolution methods ------------------------------------
   //
