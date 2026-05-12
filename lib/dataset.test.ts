@@ -77,6 +77,80 @@ describe("Query — fluent chain", () => {
   });
 });
 
+describe("Query — filter operators", () => {
+  it("contains is case-insensitive", async () => {
+    const upper = await ds.Tablets.filter("ModelName", "contains", "INTUOS").count();
+    const lower = await ds.Tablets.filter("ModelName", "contains", "intuos").count();
+    const mixed = await ds.Tablets.filter("ModelName", "contains", "Intuos").count();
+    expect(upper).toBeGreaterThan(0);
+    expect(upper).toBe(lower);
+    expect(upper).toBe(mixed);
+  });
+
+  it("notcontains excludes matches", async () => {
+    const total = await ds.Tablets.count();
+    const withMatch = await ds.Tablets.filter("ModelName", "contains", "intuos").count();
+    const withoutMatch = await ds.Tablets.filter("ModelName", "notcontains", "intuos").count();
+    expect(withMatch + withoutMatch).toBe(total);
+  });
+
+  it("startswith is case-insensitive and anchors to the prefix", async () => {
+    const upper = await ds.Tablets.filter("ModelName", "startswith", "CINTIQ").count();
+    const lower = await ds.Tablets.filter("ModelName", "startswith", "cintiq").count();
+    expect(upper).toBeGreaterThan(0);
+    expect(upper).toBe(lower);
+    // Every returned name actually starts with Cintiq (case-insensitive).
+    const matches = await ds.Tablets.filter("ModelName", "startswith", "cintiq").toArray();
+    expect(matches.every((t) => t.Model.Name.toLowerCase().startsWith("cintiq"))).toBe(true);
+  });
+
+  it("notstartswith is the complement of startswith", async () => {
+    const total = await ds.Tablets.count();
+    const starts = await ds.Tablets.filter("ModelName", "startswith", "cintiq").count();
+    const doesntStart = await ds.Tablets.filter("ModelName", "notstartswith", "cintiq").count();
+    expect(starts + doesntStart).toBe(total);
+  });
+
+  it("empty matches missing/blank string fields", async () => {
+    const total = await ds.Tablets.count();
+    const empty = await ds.Tablets.filter("ModelFamily", "empty", "").count();
+    const notEmpty = await ds.Tablets.filter("ModelFamily", "notempty", "").count();
+    expect(empty + notEmpty).toBe(total);
+    // Cross-check: every "empty" row really has no ModelFamily.
+    const emptyRows = await ds.Tablets.filter("ModelFamily", "empty", "").toArray();
+    expect(emptyRows.every((t) => !t.Model.Family)).toBe(true);
+  });
+
+  it("numeric > and < bracket the dataset", async () => {
+    const after2020 = await ds.Tablets.filter("ModelLaunchYear", ">", 2020).toArray();
+    expect(after2020.length).toBeGreaterThan(0);
+    expect(after2020.every((t) => (t.Model.LaunchYear ?? 0) > 2020)).toBe(true);
+
+    const before2000 = await ds.Tablets.filter("ModelLaunchYear", "<", 2000).toArray();
+    expect(before2000.length).toBeGreaterThan(0);
+    expect(before2000.every((t) => Number(t.Model.LaunchYear) < 2000)).toBe(true);
+  });
+
+  it("numeric >= and <= are inclusive at the boundary", async () => {
+    const ge = await ds.Tablets.filter("ModelLaunchYear", ">=", 2020).count();
+    const gt = await ds.Tablets.filter("ModelLaunchYear", ">", 2020).count();
+    const eq = await ds.Tablets.filter("ModelLaunchYear", "==", 2020).count();
+    expect(ge).toBe(gt + eq);
+
+    const le = await ds.Tablets.filter("ModelLaunchYear", "<=", 2020).count();
+    const lt = await ds.Tablets.filter("ModelLaunchYear", "<", 2020).count();
+    expect(le).toBe(lt + eq);
+  });
+
+  it("numeric comparisons exclude blank values", async () => {
+    // A very low lower bound: every row with a numeric year passes; rows with
+    // an empty ModelLaunchYear are excluded (engine bails on val === "").
+    const withYear = await ds.Tablets.filter("ModelLaunchYear", ">", -1).count();
+    const notEmpty = await ds.Tablets.filter("ModelLaunchYear", "notempty", "").count();
+    expect(withYear).toBe(notEmpty);
+  });
+});
+
 describe("Query — summarize", () => {
   it("single-field count groups by Brand", async () => {
     const rows = await ds.Tablets.summarize({ by: "Brand", count: true }).toArray();
@@ -151,6 +225,26 @@ describe("Query — summarize", () => {
     const filteredTotal = await ds.Tablets.filter("Brand", "==", "WACOM").count();
     const summed = rows.reduce((s, r) => s + (r.tablets as number), 0);
     expect(summed).toBe(filteredTotal);
+  });
+
+  it("unknown groupBy field collapses to a single empty-key group", async () => {
+    // The engine degrades unknown groupBy keys to an empty value rather than
+    // throwing — same forgiving behaviour as applyFilter. Keep that pinned so
+    // it can't silently flip to "throw" without a test failure.
+    const rows = await ds.Tablets
+      .summarize({ by: "NotAField", count: "tablets" })
+      .toArray();
+    expect(rows.length).toBe(1);
+    expect(rows[0].NotAField).toBe("");
+    expect(rows[0].tablets).toBe(await ds.Tablets.count());
+  });
+
+  it("unknown aggregator field yields 0", async () => {
+    const rows = await ds.Tablets
+      .summarize({ by: "Brand", sum: { weird: "NotAField" } })
+      .toArray();
+    expect(rows.length).toBeGreaterThan(0);
+    expect(rows.every((r) => r.weird === 0)).toBe(true);
   });
 });
 
