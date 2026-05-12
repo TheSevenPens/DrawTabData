@@ -16,9 +16,6 @@ open the issue for current scope, design notes, and status.
 - Data-quality validation for all entity types — #26
 - DrawTabDataSet high-level API — #27
 - Additional computed fields (active area, pixel count) — #31
-- Aggregation in the pipeline (summarize step) — tracked in the
-  explorer repo:
-  https://github.com/TheSevenPens/DrawTabDataExplorer/issues/112
 
 ## Tooling
 

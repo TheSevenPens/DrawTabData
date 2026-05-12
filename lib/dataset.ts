@@ -45,7 +45,7 @@ import {
   loadInventoryPensFromDisk,
   loadInventoryTabletsFromDisk,
 } from "./drawtab-loader-node.js";
-import type { AnyFieldDef, Step } from "./pipeline/types.js";
+import type { AnyFieldDef, Step, AggregatorSpec, SummaryRow } from "./pipeline/types.js";
 import { executePipeline } from "./pipeline/engine.js";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
@@ -133,9 +133,55 @@ export type FilterOp =
 export type SortDirection = "asc" | "desc";
 
 /**
- * Lazy query over an entity collection. Calls to filter/sort/take return a
- * new Query with the step appended; the underlying load and execution are
- * deferred until toArray/find/count.
+ * Ergonomic shape for `Query.summarize()`. Translates to one canonical
+ * `SummarizeStep` with `groupBy` (always an array) and `aggs` (one entry
+ * per requested aggregator). Examples:
+ *
+ *   { by: "Brand", count: true }
+ *     → groupBy: ["Brand"], aggs: [{ name: "count", op: "count" }]
+ *
+ *   { by: ["Brand", "ModelType"], count: "tablets" }
+ *     → groupBy: ["Brand", "ModelType"], aggs: [{ name: "tablets", op: "count" }]
+ *
+ *   { by: "Brand", avg: { avgYear: "ModelLaunchYear" } }
+ *     → aggs: [{ name: "avgYear", op: "avg", field: "ModelLaunchYear" }]
+ */
+export interface SummarizeSpec {
+  /** Field key(s) to group by. Omit for a single all-rows summary. */
+  by?: string | string[];
+  /** `true` → adds a `count` column; string → uses that column name. */
+  count?: boolean | string;
+  /** Map of output-column-name → field key to sum. */
+  sum?: Record<string, string>;
+  avg?: Record<string, string>;
+  min?: Record<string, string>;
+  max?: Record<string, string>;
+}
+
+function summarizeSpecToAggs(spec: SummarizeSpec): AggregatorSpec[] {
+  const aggs: AggregatorSpec[] = [];
+  if (spec.count) {
+    aggs.push({ name: spec.count === true ? "count" : spec.count, op: "count" });
+  }
+  for (const [name, field] of Object.entries(spec.sum ?? {})) {
+    aggs.push({ name, op: "sum", field });
+  }
+  for (const [name, field] of Object.entries(spec.avg ?? {})) {
+    aggs.push({ name, op: "avg", field });
+  }
+  for (const [name, field] of Object.entries(spec.min ?? {})) {
+    aggs.push({ name, op: "min", field });
+  }
+  for (const [name, field] of Object.entries(spec.max ?? {})) {
+    aggs.push({ name, op: "max", field });
+  }
+  return aggs;
+}
+
+/**
+ * Lazy query over an entity collection. Calls to filter/sort/take/summarize
+ * return a new Query with the step appended; the underlying load and
+ * execution are deferred until toArray/find/count.
  */
 export class Query<T> {
   constructor(
@@ -163,6 +209,26 @@ export class Query<T> {
       ...this.steps,
       { kind: "take", count },
     ]);
+  }
+
+  /**
+   * Group rows by zero or more fields and compute aggregators per group.
+   * Returns a new Query whose row shape is `SummaryRow` — subsequent
+   * `.sort()` / `.filter()` / `.take()` target groupBy keys and aggregator
+   * output columns (e.g. `.sort("count", "desc").take(5)`).
+   */
+  summarize(spec: SummarizeSpec): Query<SummaryRow> {
+    const groupBy =
+      spec.by === undefined ? [] : Array.isArray(spec.by) ? spec.by : [spec.by];
+    const aggs = summarizeSpecToAggs(spec);
+    return new Query<SummaryRow>(
+      // The load function still returns the raw entities — the summarize step
+      // collapses them at execution time. We widen its return through unknown
+      // because the executor handles the row-shape transition.
+      this.load as unknown as () => Promise<SummaryRow[]>,
+      this.fields,
+      [...this.steps, { kind: "summarize", groupBy, aggs }],
+    );
   }
 
   async toArray(): Promise<T[]> {

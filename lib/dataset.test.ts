@@ -77,6 +77,83 @@ describe("Query — fluent chain", () => {
   });
 });
 
+describe("Query — summarize", () => {
+  it("single-field count groups by Brand", async () => {
+    const rows = await ds.Tablets.summarize({ by: "Brand", count: true }).toArray();
+    expect(rows.length).toBeGreaterThan(1);
+    // Every row has Brand and count keys; count sums to the full tablet count.
+    expect(rows.every((r) => typeof r.Brand === "string" && typeof r.count === "number")).toBe(true);
+    const total = rows.reduce((s, r) => s + (r.count as number), 0);
+    const all = await ds.Tablets.count();
+    expect(total).toBe(all);
+  });
+
+  it("count column accepts a custom name", async () => {
+    const rows = await ds.Tablets.summarize({ by: "Brand", count: "tablets" }).toArray();
+    expect(rows[0]).toHaveProperty("tablets");
+    expect(rows[0]).not.toHaveProperty("count");
+  });
+
+  it("multi-field groupBy produces one row per distinct combination", async () => {
+    const rows = await ds.Tablets
+      .summarize({ by: ["Brand", "ModelType"], count: "tablets" })
+      .toArray();
+    expect(rows.length).toBeGreaterThan(1);
+    // No two rows share the same (Brand, ModelType) pair.
+    const keys = rows.map((r) => `${r.Brand}|${r.ModelType}`);
+    expect(new Set(keys).size).toBe(keys.length);
+    // Total matches the entity count.
+    const total = rows.reduce((s, r) => s + (r.tablets as number), 0);
+    expect(total).toBe(await ds.Tablets.count());
+  });
+
+  it("avg/min/max aggregators read field values via FieldDef", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .summarize({
+        by: "Brand",
+        avg: { avgYear: "ModelLaunchYear" },
+        min: { firstYear: "ModelLaunchYear" },
+        max: { lastYear: "ModelLaunchYear" },
+      })
+      .toArray();
+    expect(rows.length).toBe(1);
+    const r = rows[0];
+    expect(r.Brand).toBe("WACOM");
+    expect(r.firstYear).toBeGreaterThan(1980);
+    expect(r.lastYear).toBeGreaterThanOrEqual(r.firstYear as number);
+    expect(r.avgYear).toBeGreaterThanOrEqual(r.firstYear as number);
+    expect(r.avgYear).toBeLessThanOrEqual(r.lastYear as number);
+  });
+
+  it("summarize chains with sort and take", async () => {
+    const top3 = await ds.Tablets
+      .summarize({ by: "Brand", count: "tablets" })
+      .sort("tablets", "desc")
+      .take(3)
+      .toArray();
+    expect(top3.length).toBe(3);
+    const counts = top3.map((r) => r.tablets as number);
+    expect(counts).toEqual([...counts].sort((a, b) => b - a));
+  });
+
+  it("summarize with no groupBy produces a single all-rows summary", async () => {
+    const rows = await ds.Tablets.summarize({ count: "tablets" }).toArray();
+    expect(rows.length).toBe(1);
+    expect(rows[0].tablets).toBe(await ds.Tablets.count());
+  });
+
+  it("summarize runs after upstream filters", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .summarize({ by: "ModelType", count: "tablets" })
+      .toArray();
+    const filteredTotal = await ds.Tablets.filter("Brand", "==", "WACOM").count();
+    const summed = rows.reduce((s, r) => s + (r.tablets as number), 0);
+    expect(summed).toBe(filteredTotal);
+  });
+});
+
 describe("Query — caching", () => {
   it("collection is loaded once even when accessed via multiple queries", async () => {
     const fresh = new DrawTabDataSet({ kind: "disk", dataDir });

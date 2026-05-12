@@ -1,6 +1,6 @@
 // --- Step types ---
 
-export type StepKind = "filter" | "sort" | "select" | "take";
+export type StepKind = "filter" | "sort" | "select" | "take" | "summarize";
 
 export interface FilterStep {
   kind: "filter";
@@ -25,7 +25,42 @@ export interface TakeStep {
   count: number;
 }
 
-export type Step = FilterStep | SortStep | SelectStep | TakeStep;
+/**
+ * An aggregator that consumes the items of a group and produces a single
+ * scalar value. `count` is the row count and ignores its `field` (if any);
+ * the rest read `field` via the entity's FieldDef.getValue and coerce to
+ * Number, skipping empty/non-numeric values.
+ */
+export type AggregatorOp = "count" | "sum" | "avg" | "min" | "max";
+
+export interface AggregatorSpec {
+  /** Output column name in the summary rows. */
+  name: string;
+  op: AggregatorOp;
+  /** Field key to read; ignored when op is "count". */
+  field?: string;
+}
+
+/**
+ * Reduces the input items to one row per distinct combination of `groupBy`
+ * field values. Each row has one column per groupBy field plus one column
+ * per aggregator (named by `AggregatorSpec.name`). After a summarize step,
+ * subsequent filter/sort/take operate on the synthetic summary rows, not
+ * the original entities.
+ */
+export interface SummarizeStep {
+  kind: "summarize";
+  groupBy: string[];
+  aggs: AggregatorSpec[];
+}
+
+export type Step = FilterStep | SortStep | SelectStep | TakeStep | SummarizeStep;
+
+/**
+ * Shape of rows produced by a `summarize` step. Keys are the groupBy field
+ * names (string values) plus the aggregator output names (numeric values).
+ */
+export type SummaryRow = Record<string, string | number>;
 
 // --- Convenience alias ---
 
