@@ -45,7 +45,15 @@ import {
   loadInventoryPensFromDisk,
   loadInventoryTabletsFromDisk,
 } from "./drawtab-loader-node.js";
-import type { AnyFieldDef, Step, AggregatorSpec, SummaryRow } from "./pipeline/types.js";
+import type {
+  AnyFieldDef,
+  Step,
+  AggregatorSpec,
+  SummaryRow,
+  FilterExpr,
+  JoinStep,
+  SemijoinStep,
+} from "./pipeline/types.js";
 import { executePipeline } from "./pipeline/engine.js";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
@@ -192,10 +200,38 @@ export class Query<T> {
     private readonly steps: Step[] = [],
   ) {}
 
-  filter(field: string, operator: FilterOp, value: string | number): Query<T> {
+  /**
+   * Three accepted forms:
+   *
+   * - `.filter(field, op, value)` — flat AND-chain, serialisable to URL state.
+   * - `.filter(expr)` — boolean expression tree with `and` / `or` / `not`,
+   *   also serialisable.
+   * - `.filter(item => ...)` — arbitrary predicate function. NOT serialisable —
+   *   such steps are dropped by saved-view / URL-state persistence.
+   */
+  filter(predicate: (item: T) => boolean): Query<T>;
+  filter(expr: FilterExpr): Query<T>;
+  filter(field: string, operator: FilterOp, value: string | number): Query<T>;
+  filter(
+    a: string | ((item: T) => boolean) | FilterExpr,
+    b?: FilterOp,
+    c?: string | number,
+  ): Query<T> {
+    if (typeof a === "string") {
+      return new Query(this.load, this.fields, [
+        ...this.steps,
+        { kind: "filter", field: a, operator: b as FilterOp, value: String(c) },
+      ]);
+    }
+    if (typeof a === "function") {
+      return new Query(this.load, this.fields, [
+        ...this.steps,
+        { kind: "predicate", fn: a as (item: unknown) => boolean },
+      ]);
+    }
     return new Query(this.load, this.fields, [
       ...this.steps,
-      { kind: "filter", field, operator, value: String(value) },
+      { kind: "boolFilter", expr: a },
     ]);
   }
 
@@ -265,10 +301,77 @@ export class Query<T> {
     );
   }
 
+  /**
+   * Adds computed columns to each row. The functions are evaluated against
+   * the *current* row shape — call `.derive()` before `.summarize()` /
+   * `.project()` if you want the derived values available in those steps.
+   * Returns a Query whose row shape is widened to include the new keys.
+   */
+  derive<K extends string>(
+    cols: Record<K, (item: T) => string | number>,
+  ): Query<T & Record<K, string | number>> {
+    return new Query(this.load as unknown as () => Promise<(T & Record<K, string | number>)[]>, this.fields, [
+      ...this.steps,
+      { kind: "derive", cols: cols as Record<string, (item: unknown) => string | number> },
+    ]);
+  }
+
+  /**
+   * Inner join with another Query. Matching pairs of rows are merged
+   * (right-side columns overwrite left on name collisions). The right-side
+   * Query is materialised lazily at `.toArray()` time.
+   */
+  join<U>(other: Query<U>, leftKey: string, rightKey: string): Query<T & U> {
+    return new Query(this.load as unknown as () => Promise<(T & U)[]>, this.fields, [
+      ...this.steps,
+      { kind: "join", other, leftKey, rightKey } as JoinStep,
+    ]);
+  }
+
+  /**
+   * Semi-join: keeps left rows that have at least one matching row on
+   * the right side. The right side's columns are *not* merged in — the
+   * row shape stays as `T`.
+   */
+  semijoin<U>(other: Query<U>, leftKey: string, rightKey: string): Query<T> {
+    return new Query(this.load, this.fields, [
+      ...this.steps,
+      { kind: "semijoin", other, leftKey, rightKey } as SemijoinStep,
+    ]);
+  }
+
   async toArray(): Promise<T[]> {
     const items = await this.load();
     if (this.steps.length === 0) return items;
-    return executePipeline(items, this.steps, this.fields, []).data;
+    // Resolve any join/semijoin steps by materialising the right side first.
+    // The engine itself is synchronous, so this is the awaiting layer.
+    const resolved: Step[] = [];
+    for (const step of this.steps) {
+      if (step.kind === "join") {
+        const right = step.other as Query<unknown>;
+        const rightRows = await right.toArray();
+        resolved.push({
+          kind: "joinResolved",
+          leftKey: step.leftKey,
+          rightKey: step.rightKey,
+          rightRows,
+          rightFields: right.fields,
+        });
+      } else if (step.kind === "semijoin") {
+        const right = step.other as Query<unknown>;
+        const rightRows = await right.toArray();
+        resolved.push({
+          kind: "semijoinResolved",
+          leftKey: step.leftKey,
+          rightKey: step.rightKey,
+          rightRows,
+          rightFields: right.fields,
+        });
+      } else {
+        resolved.push(step);
+      }
+    }
+    return executePipeline(items, resolved, this.fields, []).data;
   }
 
   async find(predicate: (item: T) => boolean): Promise<T | undefined> {
@@ -570,14 +673,14 @@ export class DrawTabDataSet {
   // caches wrapped records, so the filter results are already augmented).
 
   async getCompatiblePens(tablet: Tablet): Promise<PenWithRels[]> {
-    const [pens, compat] = await Promise.all([
-      this.Pens.toArray(),
-      this.PenCompat.toArray(),
-    ]);
-    const compatPenIds = new Set(
-      compat.filter((c) => c.TabletId === tablet.Model.Id).map((c) => c.PenId),
-    );
-    return pens.filter((p) => compatPenIds.has(p.PenId));
+    // Semi-join Pens against the PenCompat rows that reference this tablet.
+    // Equivalent to the prior hand-written set-based filter, expressed as
+    // a Query verb so the pattern is reusable for ad-hoc joins.
+    return this.Pens.semijoin(
+      this.PenCompat.filter("TabletId", "==", tablet.Model.Id),
+      "PenId",
+      "PenId",
+    ).toArray();
   }
 
   async getCompatibleTablets(pen: Pen): Promise<TabletWithRels[]> {

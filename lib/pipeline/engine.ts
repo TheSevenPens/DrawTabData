@@ -5,6 +5,12 @@ import type {
   SortStep,
   SummarizeStep,
   ProjectStep,
+  PredicateStep,
+  BoolFilterStep,
+  FilterExpr,
+  DeriveStep,
+  JoinResolvedStep,
+  SemijoinResolvedStep,
   SummaryRow,
 } from "./types.js";
 
@@ -92,6 +98,33 @@ export function executePipeline<T>(
         visibleFields = [...step.fields];
         break;
       }
+      case "predicate":
+        data = applyPredicate(data, step);
+        break;
+      case "boolFilter":
+        data = applyBoolFilter(data, step, activeFields);
+        break;
+      case "derive": {
+        const { rows, fields: extended } = applyDerive(data, step, activeFields);
+        data = rows;
+        activeFields = extended;
+        break;
+      }
+      case "joinResolved": {
+        const { rows, fields: extended } = applyJoin(data, step, activeFields);
+        data = rows;
+        activeFields = extended;
+        break;
+      }
+      case "semijoinResolved":
+        data = applySemijoin(data, step, activeFields);
+        break;
+      case "join":
+      case "semijoin":
+        // Unresolved join — Query.toArray() should have replaced these with
+        // their *Resolved counterparts before reaching the engine. If we see
+        // one here, something is wrong with the calling code.
+        throw new Error(`Engine received unresolved ${step.kind} step. Did you forget to await Query.toArray()?`);
     }
   }
 
@@ -101,28 +134,45 @@ export function executePipeline<T>(
   };
 }
 
+/**
+ * Apply one operator from FilterOp to a single value pair. Factored out so
+ * both `applyFilter` and the boolean-expression evaluator share semantics.
+ */
+export function matchesOperator(val: string, operator: string, refValue: string): boolean {
+  switch (operator) {
+    case "==":
+      return val === refValue;
+    case "!=":
+      return val !== refValue;
+    case "contains":
+      return val.toLowerCase().includes(refValue.toLowerCase());
+    case "notcontains":
+      return !val.toLowerCase().includes(refValue.toLowerCase());
+    case "startswith":
+      return val.toLowerCase().startsWith(refValue.toLowerCase());
+    case "notstartswith":
+      return !val.toLowerCase().startsWith(refValue.toLowerCase());
+    case "empty":
+      return val === "";
+    case "notempty":
+      return val !== "";
+    case ">":
+      return val !== "" && Number(val) > Number(refValue);
+    case ">=":
+      return val !== "" && Number(val) >= Number(refValue);
+    case "<":
+      return val !== "" && Number(val) < Number(refValue);
+    case "<=":
+      return val !== "" && Number(val) <= Number(refValue);
+    default:
+      return true;
+  }
+}
+
 function applyFilter<T>(items: T[], step: FilterStep, fields: FieldDef<T>[]): T[] {
   const fieldDef = getFieldDef(step.field, fields);
   if (!fieldDef) return items;
-
-  return items.filter((item) => {
-    const val = fieldDef.getValue(item);
-    switch (step.operator) {
-      case "==": return val === step.value;
-      case "!=": return val !== step.value;
-      case "contains": return val.toLowerCase().includes(step.value.toLowerCase());
-      case "notcontains": return !val.toLowerCase().includes(step.value.toLowerCase());
-      case "startswith": return val.toLowerCase().startsWith(step.value.toLowerCase());
-      case "notstartswith": return !val.toLowerCase().startsWith(step.value.toLowerCase());
-      case "empty": return val === "";
-      case "notempty": return val !== "";
-      case ">": return val !== "" && Number(val) > Number(step.value);
-      case ">=": return val !== "" && Number(val) >= Number(step.value);
-      case "<": return val !== "" && Number(val) < Number(step.value);
-      case "<=": return val !== "" && Number(val) <= Number(step.value);
-      default: return true;
-    }
-  });
+  return items.filter((item) => matchesOperator(fieldDef.getValue(item), step.operator, step.value));
 }
 
 function applySort<T>(items: T[], step: SortStep, fields: FieldDef<T>[]): T[] {
@@ -287,4 +337,116 @@ function applyProject(
   }));
 
   return { rows, fields: syntheticFields };
+}
+
+function applyPredicate(items: unknown[], step: PredicateStep): unknown[] {
+  return items.filter((item) => step.fn(item));
+}
+
+/**
+ * Recursively evaluates a FilterExpr against a single row. Leaves read
+ * `field` via the active field-defs and apply the operator semantics from
+ * `matchesOperator`.
+ */
+function evalFilterExpr(
+  expr: FilterExpr,
+  item: unknown,
+  fields: FieldDef<unknown>[],
+): boolean {
+  if ("and" in expr) return expr.and.every((c) => evalFilterExpr(c, item, fields));
+  if ("or" in expr) return expr.or.some((c) => evalFilterExpr(c, item, fields));
+  if ("not" in expr) return !evalFilterExpr(expr.not, item, fields);
+  const def = getFieldDef(expr.field, fields);
+  if (!def) return true; // forgiving — typo in field key doesn't drop everything
+  return matchesOperator(def.getValue(item), expr.op, expr.value);
+}
+
+function applyBoolFilter(
+  items: unknown[],
+  step: BoolFilterStep,
+  fields: FieldDef<unknown>[],
+): unknown[] {
+  return items.filter((item) => evalFilterExpr(step.expr, item, fields));
+}
+
+function applyDerive(
+  items: unknown[],
+  step: DeriveStep,
+  fields: FieldDef<unknown>[],
+): { rows: unknown[]; fields: FieldDef<unknown>[] } {
+  const colNames = Object.keys(step.cols);
+  // Shallow-clone each item with the derived keys merged in. We drop any
+  // non-enumerable methods (relationship helpers) — that's a deliberate
+  // tradeoff; derive is for analysis pipelines, not record traversal.
+  const rows = items.map((item) => {
+    const out: Record<string, unknown> = { ...(item as object) };
+    for (const k of colNames) {
+      out[k] = step.cols[k](item);
+    }
+    return out;
+  });
+
+  // The derived columns become synthetic field-defs whose getValue reads
+  // the merged property. Original fields keep working because the clone
+  // still has the entity's nested structure.
+  const derivedFields: FieldDef<unknown>[] = colNames.map((k) => ({
+    key: k,
+    label: k,
+    getValue: (row: unknown) => String((row as Record<string, unknown>)[k] ?? ""),
+    type: "string" as const,
+    group: "Derive",
+  }));
+
+  return { rows, fields: [...fields, ...derivedFields] };
+}
+
+function applyJoin(
+  items: unknown[],
+  step: JoinResolvedStep,
+  leftFields: FieldDef<unknown>[],
+): { rows: unknown[]; fields: FieldDef<unknown>[] } {
+  const leftDef = getFieldDef(step.leftKey, leftFields);
+  const rightDef = getFieldDef(step.rightKey, step.rightFields);
+
+  // Bucket the right side by its key value for O(L + R) join cost.
+  const rightByKey = new Map<string, unknown[]>();
+  for (const r of step.rightRows) {
+    const k = rightDef ? rightDef.getValue(r) : "";
+    let bucket = rightByKey.get(k);
+    if (!bucket) {
+      bucket = [];
+      rightByKey.set(k, bucket);
+    }
+    bucket.push(r);
+  }
+
+  // Inner join: cross-product of matching left and right rows. Right-side
+  // columns overwrite left-side on name collisions (documented quirk).
+  const joined: unknown[] = [];
+  for (const left of items) {
+    const lk = leftDef ? leftDef.getValue(left) : "";
+    const matches = rightByKey.get(lk);
+    if (!matches) continue;
+    for (const right of matches) {
+      joined.push({ ...(left as object), ...(right as object) });
+    }
+  }
+
+  return { rows: joined, fields: [...leftFields, ...step.rightFields] };
+}
+
+function applySemijoin(
+  items: unknown[],
+  step: SemijoinResolvedStep,
+  leftFields: FieldDef<unknown>[],
+): unknown[] {
+  const leftDef = getFieldDef(step.leftKey, leftFields);
+  const rightDef = getFieldDef(step.rightKey, step.rightFields);
+
+  const keys = new Set<string>();
+  for (const r of step.rightRows) {
+    keys.add(rightDef ? rightDef.getValue(r) : "");
+  }
+
+  return items.filter((item) => keys.has(leftDef ? leftDef.getValue(item) : ""));
 }

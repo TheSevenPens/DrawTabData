@@ -367,6 +367,142 @@ describe("Query — distinct / values", () => {
   });
 });
 
+describe("Query — predicate filter", () => {
+  it("filter(fn) applies an arbitrary predicate", async () => {
+    const post2020 = await ds.Tablets
+      .filter((t) => (t.Model.LaunchYear ?? 0) >= 2020)
+      .toArray();
+    expect(post2020.length).toBeGreaterThan(0);
+    expect(post2020.every((t) => (t.Model.LaunchYear ?? 0) >= 2020)).toBe(true);
+  });
+
+  it("predicate composes with string-tuple filters", async () => {
+    const wacomRecent = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .filter((t) => (t.Model.LaunchYear ?? 0) >= 2020)
+      .toArray();
+    expect(wacomRecent.length).toBeGreaterThan(0);
+    expect(wacomRecent.every((t) => t.Model.Brand === "WACOM" && (t.Model.LaunchYear ?? 0) >= 2020)).toBe(true);
+  });
+});
+
+describe("Query — boolean filter expressions", () => {
+  it("OR matches rows satisfying any clause", async () => {
+    const eitherBrand = await ds.Tablets
+      .filter({
+        or: [
+          { field: "Brand", op: "==", value: "WACOM" },
+          { field: "Brand", op: "==", value: "HUION" },
+        ],
+      })
+      .toArray();
+    const w = await ds.Tablets.filter("Brand", "==", "WACOM").count();
+    const h = await ds.Tablets.filter("Brand", "==", "HUION").count();
+    expect(eitherBrand.length).toBe(w + h);
+    expect(eitherBrand.every((t) => t.Model.Brand === "WACOM" || t.Model.Brand === "HUION")).toBe(true);
+  });
+
+  it("AND nests inside OR", async () => {
+    const rows = await ds.Tablets
+      .filter({
+        or: [
+          {
+            and: [
+              { field: "Brand", op: "==", value: "WACOM" },
+              { field: "ModelType", op: "==", value: "PENDISPLAY" },
+            ],
+          },
+          { field: "Brand", op: "==", value: "XENCELABS" },
+        ],
+      })
+      .toArray();
+    expect(rows.length).toBeGreaterThan(0);
+    expect(
+      rows.every(
+        (t) =>
+          (t.Model.Brand === "WACOM" && t.Model.Type === "PENDISPLAY") ||
+          t.Model.Brand === "XENCELABS",
+      ),
+    ).toBe(true);
+  });
+
+  it("NOT inverts its sub-expression", async () => {
+    const total = await ds.Tablets.count();
+    const notWacom = await ds.Tablets
+      .filter({ not: { field: "Brand", op: "==", value: "WACOM" } })
+      .toArray();
+    const wacom = await ds.Tablets.filter("Brand", "==", "WACOM").count();
+    expect(notWacom.length).toBe(total - wacom);
+    expect(notWacom.every((t) => t.Model.Brand !== "WACOM")).toBe(true);
+  });
+});
+
+describe("Query — derive", () => {
+  it("adds computed columns usable downstream", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .derive({
+        ageBucket: (t) => Math.floor((2026 - (t.Model.LaunchYear ?? 2026)) / 10) * 10,
+      })
+      .summarize({ by: "ageBucket", count: "tablets" })
+      .sort("ageBucket", "asc")
+      .toArray();
+    expect(rows.length).toBeGreaterThan(1);
+    const total = rows.reduce((s, r) => s + (r.tablets as number), 0);
+    expect(total).toBe(await ds.Tablets.filter("Brand", "==", "WACOM").count());
+  });
+
+  it("derived columns can be sorted on", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .derive({ yearMinus2000: (t) => (t.Model.LaunchYear ?? 2000) - 2000 })
+      .sort("yearMinus2000", "desc")
+      .take(3)
+      .toArray();
+    expect(rows.length).toBe(3);
+    const vals = rows.map((r) => Number((r as Record<string, unknown>).yearMinus2000));
+    expect(vals).toEqual([...vals].sort((a, b) => b - a));
+  });
+});
+
+describe("Query — join / semijoin", () => {
+  it("semijoin keeps left rows that have a match on the right", async () => {
+    // The relationship helper is now backed by semijoin — verify both paths
+    // agree on a known tablet's compatible pens.
+    const tablet = await ds.Tablets.find((t) => t.Model.Id === "PL-550");
+    const fromHelper = await tablet!.getCompatiblePens();
+    const fromVerb = await ds.Pens
+      .semijoin(ds.PenCompat.filter("TabletId", "==", "PL-550"), "PenId", "PenId")
+      .toArray();
+    expect(fromVerb.map((p) => p.PenId).sort()).toEqual(fromHelper.map((p) => p.PenId).sort());
+  });
+
+  it("semijoin row shape is the left side (no right-side fields merged)", async () => {
+    const rows = await ds.Pens
+      .semijoin(ds.PenCompat.filter("TabletId", "==", "PL-550"), "PenId", "PenId")
+      .toArray();
+    expect(rows.length).toBeGreaterThan(0);
+    // Pen records have Brand; PenCompat rows have TabletId. The result is
+    // pure Pens — no TabletId pollution.
+    for (const r of rows) {
+      expect("TabletId" in r).toBe(false);
+      expect(typeof r.Brand).toBe("string");
+    }
+  });
+
+  it("inner join merges right-side columns into matched rows", async () => {
+    const compatForPL550 = ds.PenCompat.filter("TabletId", "==", "PL-550");
+    // Join the (filtered) PenCompat rows to pen records on PenId.
+    const joined = await compatForPL550.join(ds.Pens, "PenId", "PenId").toArray();
+    expect(joined.length).toBeGreaterThan(0);
+    // Each row carries both PenCompat fields (TabletId) and Pen fields (Brand).
+    for (const r of joined as Array<Record<string, unknown>>) {
+      expect(r.TabletId).toBe("PL-550");
+      expect(typeof r.Brand).toBe("string");
+    }
+  });
+});
+
 describe("Query — filter after summarize (SQL HAVING)", () => {
   it("filters on an aggregator output column", async () => {
     const big = await ds.Tablets

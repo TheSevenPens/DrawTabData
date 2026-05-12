@@ -1,6 +1,19 @@
 // --- Step types ---
 
-export type StepKind = "filter" | "sort" | "select" | "take" | "summarize" | "project";
+export type StepKind =
+  | "filter"
+  | "sort"
+  | "select"
+  | "take"
+  | "summarize"
+  | "project"
+  | "predicate"
+  | "boolFilter"
+  | "derive"
+  | "join"
+  | "joinResolved"
+  | "semijoin"
+  | "semijoinResolved";
 
 export interface FilterStep {
   kind: "filter";
@@ -81,13 +94,93 @@ export interface ProjectStep {
   fields: string[];
 }
 
+/**
+ * Runs an arbitrary predicate function against each row. Not serialisable
+ * — these steps are dropped by URL state / saved views.
+ */
+export interface PredicateStep {
+  kind: "predicate";
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  fn: (item: any) => boolean;
+}
+
+/**
+ * A boolean expression tree over field/op/value leaves. Used by
+ * `BoolFilterStep` to support OR / NOT / nested combinations that the
+ * flat AND-chain of `.filter(field, op, value)` cannot express.
+ */
+export type FilterExpr =
+  | { field: string; op: string; value: string }
+  | { and: FilterExpr[] }
+  | { or: FilterExpr[] }
+  | { not: FilterExpr };
+
+export interface BoolFilterStep {
+  kind: "boolFilter";
+  expr: FilterExpr;
+}
+
+/**
+ * Adds computed columns to each row via user-supplied functions. Like
+ * `predicate`, not serialisable. The engine performs a shallow clone per
+ * row and attaches the derived keys; downstream field-defs are appended.
+ */
+export interface DeriveStep {
+  kind: "derive";
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  cols: Record<string, (item: any) => string | number>;
+}
+
+/**
+ * Construction-time join step. `other` is the right-hand Query whose
+ * rows will be materialised by `Query.toArray()` and replaced with a
+ * `joinResolved` step before the synchronous engine runs.
+ */
+export interface JoinStep {
+  kind: "join";
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  other: unknown; // Query<unknown> — typed loosely to avoid a circular import.
+  leftKey: string;
+  rightKey: string;
+}
+
+export interface JoinResolvedStep {
+  kind: "joinResolved";
+  leftKey: string;
+  rightKey: string;
+  rightRows: unknown[];
+  rightFields: FieldDef<unknown>[];
+}
+
+export interface SemijoinStep {
+  kind: "semijoin";
+  other: unknown;
+  leftKey: string;
+  rightKey: string;
+}
+
+export interface SemijoinResolvedStep {
+  kind: "semijoinResolved";
+  leftKey: string;
+  rightKey: string;
+  rightRows: unknown[];
+  rightFields: FieldDef<unknown>[];
+}
+
 export type Step =
   | FilterStep
   | SortStep
   | SelectStep
   | TakeStep
   | SummarizeStep
-  | ProjectStep;
+  | ProjectStep
+  | PredicateStep
+  | BoolFilterStep
+  | DeriveStep
+  | JoinStep
+  | JoinResolvedStep
+  | SemijoinStep
+  | SemijoinResolvedStep;
 
 /**
  * Shape of rows produced by a `summarize` or `project` step. Keys are the
