@@ -151,11 +151,19 @@ export interface SummarizeSpec {
   by?: string | string[];
   /** `true` → adds a `count` column; string → uses that column name. */
   count?: boolean | string;
-  /** Map of output-column-name → field key to sum. */
+  /** Map of output-column-name → field key. Empty/non-numeric skipped. */
   sum?: Record<string, string>;
   avg?: Record<string, string>;
   min?: Record<string, string>;
   max?: Record<string, string>;
+  median?: Record<string, string>;
+  /** Count of distinct non-empty values per group. */
+  distinctCount?: Record<string, string>;
+  /** First / last raw value in input order (includes empties). */
+  first?: Record<string, string>;
+  last?: Record<string, string>;
+  /** Array of all raw values per group (input order, includes empties). */
+  collect?: Record<string, string>;
 }
 
 function summarizeSpecToAggs(spec: SummarizeSpec): AggregatorSpec[] {
@@ -163,17 +171,11 @@ function summarizeSpecToAggs(spec: SummarizeSpec): AggregatorSpec[] {
   if (spec.count) {
     aggs.push({ name: spec.count === true ? "count" : spec.count, op: "count" });
   }
-  for (const [name, field] of Object.entries(spec.sum ?? {})) {
-    aggs.push({ name, op: "sum", field });
-  }
-  for (const [name, field] of Object.entries(spec.avg ?? {})) {
-    aggs.push({ name, op: "avg", field });
-  }
-  for (const [name, field] of Object.entries(spec.min ?? {})) {
-    aggs.push({ name, op: "min", field });
-  }
-  for (const [name, field] of Object.entries(spec.max ?? {})) {
-    aggs.push({ name, op: "max", field });
+  const fieldedOps = ["sum", "avg", "min", "max", "median", "distinctCount", "first", "last", "collect"] as const;
+  for (const op of fieldedOps) {
+    for (const [name, field] of Object.entries(spec[op] ?? {})) {
+      aggs.push({ name, op, field });
+    }
   }
   return aggs;
 }
@@ -209,6 +211,38 @@ export class Query<T> {
       ...this.steps,
       { kind: "take", count },
     ]);
+  }
+
+  /**
+   * Project each row to only the listed fields, reading values via the
+   * active field-defs. Returns a Query whose row shape is `SummaryRow`,
+   * so subsequent `.sort()` / `.filter()` / `.take()` operate on the
+   * projected columns. Unknown field keys degrade to empty strings.
+   */
+  select(fields: string[]): Query<SummaryRow> {
+    return new Query<SummaryRow>(
+      this.load as unknown as () => Promise<SummaryRow[]>,
+      this.fields,
+      [...this.steps, { kind: "project", fields }],
+    );
+  }
+
+  /**
+   * Distinct non-empty values of a single field, sorted naturally. Equivalent
+   * to `.summarize({ by: field }).toArray().map(r => r[field])` with empties
+   * dropped and natural sort applied.
+   */
+  async distinct(field: string): Promise<string[]> {
+    const rows = await this.summarize({ by: field }).toArray();
+    return rows
+      .map((r) => String(r[field] ?? ""))
+      .filter((v) => v !== "")
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  }
+
+  /** Synonym for `.distinct()`. */
+  values(field: string): Promise<string[]> {
+    return this.distinct(field);
   }
 
   /**

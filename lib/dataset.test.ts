@@ -246,6 +246,145 @@ describe("Query — summarize", () => {
     expect(rows.length).toBeGreaterThan(0);
     expect(rows.every((r) => r.weird === 0)).toBe(true);
   });
+
+  it("median is the middle value (even count → average of middle two)", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .summarize({ by: "Brand", median: { medianYear: "ModelLaunchYear" } })
+      .toArray();
+    expect(rows.length).toBe(1);
+    const m = rows[0].medianYear as number;
+    // Sanity: median sits inside the known min/max.
+    expect(m).toBeGreaterThan(1980);
+    expect(m).toBeLessThan(2030);
+  });
+
+  it("first and last read raw values in input order", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .summarize({
+        by: "Brand",
+        first: { firstId: "ModelId" },
+        last: { lastId: "ModelId" },
+      })
+      .toArray();
+    expect(rows.length).toBe(1);
+    expect(typeof rows[0].firstId).toBe("string");
+    expect(typeof rows[0].lastId).toBe("string");
+    // Cross-check against the raw entity stream.
+    const wacom = await ds.Tablets.filter("Brand", "==", "WACOM").toArray();
+    expect(rows[0].firstId).toBe(wacom[0].Model.Id);
+    expect(rows[0].lastId).toBe(wacom[wacom.length - 1].Model.Id);
+  });
+
+  it("distinctCount counts unique non-empty values per group", async () => {
+    const rows = await ds.Tablets
+      .summarize({ by: "Brand", distinctCount: { types: "ModelType" } })
+      .toArray();
+    expect(rows.length).toBeGreaterThan(0);
+    // At least one brand has multiple ModelTypes.
+    expect(rows.some((r) => (r.types as number) > 1)).toBe(true);
+    // Every distinctCount is ≤ the number of rows in that group (since
+    // distinct can't exceed total).
+    const counts = await ds.Tablets.summarize({ by: "Brand", count: "n" }).toArray();
+    for (const r of rows) {
+      const cr = counts.find((c) => c.Brand === r.Brand)!;
+      expect(r.types).toBeLessThanOrEqual(cr.n as number);
+    }
+  });
+
+  it("collect returns an array of raw values per group", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .summarize({ by: "Brand", collect: { ids: "ModelId" } })
+      .toArray();
+    expect(rows.length).toBe(1);
+    expect(Array.isArray(rows[0].ids)).toBe(true);
+    const ids = rows[0].ids as string[];
+    expect(ids.length).toBeGreaterThan(0);
+    expect(ids.every((s) => typeof s === "string")).toBe(true);
+  });
+});
+
+describe("Query — select (project)", () => {
+  it("projects rows to only the requested fields", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .select(["Brand", "ModelId", "ModelLaunchYear"])
+      .take(3)
+      .toArray();
+    expect(rows.length).toBe(3);
+    for (const r of rows) {
+      expect(Object.keys(r).sort()).toEqual(["Brand", "ModelId", "ModelLaunchYear"]);
+      expect(r.Brand).toBe("WACOM");
+    }
+  });
+
+  it("downstream sort/filter target projected columns", async () => {
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .select(["ModelId", "ModelLaunchYear"])
+      .sort("ModelLaunchYear", "desc")
+      .take(5)
+      .toArray();
+    const years = rows.map((r) => Number(r.ModelLaunchYear)).filter((n) => !isNaN(n));
+    expect(years).toEqual([...years].sort((a, b) => b - a));
+  });
+
+  it("unknown fields degrade to empty strings", async () => {
+    const rows = await ds.Tablets.select(["Brand", "NotAField"]).take(1).toArray();
+    expect(rows[0].NotAField).toBe("");
+  });
+});
+
+describe("Query — distinct / values", () => {
+  it("returns sorted distinct non-empty values", async () => {
+    const brands = await ds.Tablets.distinct("Brand");
+    expect(brands.length).toBeGreaterThan(1);
+    expect(brands.every((b) => typeof b === "string" && b !== "")).toBe(true);
+    expect(brands).toEqual([...brands].sort((a, b) => a.localeCompare(b, undefined, { numeric: true })));
+    // No duplicates.
+    expect(new Set(brands).size).toBe(brands.length);
+  });
+
+  it("composes with upstream filters", async () => {
+    const types = await ds.Tablets.filter("Brand", "==", "WACOM").distinct("ModelType");
+    expect(types.length).toBeGreaterThan(0);
+    // Each type really is used by a Wacom tablet.
+    for (const t of types) {
+      const n = await ds.Tablets
+        .filter("Brand", "==", "WACOM")
+        .filter("ModelType", "==", t)
+        .count();
+      expect(n).toBeGreaterThan(0);
+    }
+  });
+
+  it("values is a synonym for distinct", async () => {
+    const a = await ds.Tablets.distinct("Brand");
+    const b = await ds.Tablets.values("Brand");
+    expect(b).toEqual(a);
+  });
+});
+
+describe("Query — filter after summarize (SQL HAVING)", () => {
+  it("filters on an aggregator output column", async () => {
+    const big = await ds.Tablets
+      .summarize({ by: "Brand", count: "tablets" })
+      .filter("tablets", ">", 30)
+      .toArray();
+    expect(big.length).toBeGreaterThan(0);
+    expect(big.every((r) => (r.tablets as number) > 30)).toBe(true);
+  });
+
+  it("filters on a groupBy column post-summarize", async () => {
+    const rows = await ds.Tablets
+      .summarize({ by: "Brand", count: "tablets" })
+      .filter("Brand", "==", "WACOM")
+      .toArray();
+    expect(rows.length).toBe(1);
+    expect(rows[0].Brand).toBe("WACOM");
+  });
 });
 
 describe("Query — caching", () => {

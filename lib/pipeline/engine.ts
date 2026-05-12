@@ -1,4 +1,12 @@
-import type { FieldDef, Step, FilterStep, SortStep, SummarizeStep, SummaryRow } from "./types.js";
+import type {
+  FieldDef,
+  Step,
+  FilterStep,
+  SortStep,
+  SummarizeStep,
+  ProjectStep,
+  SummaryRow,
+} from "./types.js";
 
 // --- Field lookup ---
 
@@ -75,6 +83,13 @@ export function executePipeline<T>(
         activeFields = synthetic;
         // Default visible columns for a summary result: groupBy then aggs.
         visibleFields = [...step.groupBy, ...step.aggs.map((a) => a.name)];
+        break;
+      }
+      case "project": {
+        const { rows, fields: synthetic } = applyProject(data, step, activeFields);
+        data = rows;
+        activeFields = synthetic;
+        visibleFields = [...step.fields];
         break;
       }
     }
@@ -171,7 +186,13 @@ function applySummarize(
       key: a.name,
       label: a.name,
       getValue: (row: unknown) => String((row as SummaryRow)[a.name] ?? ""),
-      type: "number" as const,
+      // Numeric ops produce numbers; first/last produce raw strings;
+      // collect produces an array which stringifies to a CSV when read
+      // back through getValue (good enough for filter/sort fallthrough).
+      type:
+        a.op === "first" || a.op === "last" || a.op === "collect"
+          ? ("string" as const)
+          : ("number" as const),
       group: "Aggregate",
     })),
   ];
@@ -183,17 +204,42 @@ function computeAggregator(
   spec: SummarizeStep["aggs"][number],
   items: unknown[],
   fields: FieldDef<unknown>[],
-): number {
+): number | string | string[] {
   if (spec.op === "count") return items.length;
   if (!spec.field) return 0;
   const def = getFieldDef(spec.field, fields);
-  if (!def) return 0;
+  if (!def) {
+    // Unknown field: return a sensible empty for each op so a typo doesn't
+    // throw. Numeric aggs → 0; first/last → ""; collect → [].
+    if (spec.op === "first" || spec.op === "last") return "";
+    if (spec.op === "collect") return [];
+    return 0;
+  }
 
+  // Raw values in input order — used by first/last/collect (which include
+  // empties) and as the source for the numeric / distinct paths.
+  const raw: string[] = items.map((it) => def.getValue(it));
+
+  switch (spec.op) {
+    case "first":
+      return raw.length > 0 ? raw[0] : "";
+    case "last":
+      return raw.length > 0 ? raw[raw.length - 1] : "";
+    case "collect":
+      return raw;
+    case "distinctCount": {
+      const set = new Set<string>();
+      for (const v of raw) if (v !== "") set.add(v);
+      return set.size;
+    }
+  }
+
+  // Numeric path — sum / avg / min / max / median. Skip empties and
+  // non-numeric values.
   const nums: number[] = [];
-  for (const it of items) {
-    const raw = def.getValue(it);
-    if (raw === "") continue;
-    const n = Number(raw);
+  for (const v of raw) {
+    if (v === "") continue;
+    const n = Number(v);
     if (!Number.isFinite(n)) continue;
     nums.push(n);
   }
@@ -208,5 +254,37 @@ function computeAggregator(
       return Math.min(...nums);
     case "max":
       return Math.max(...nums);
+    case "median": {
+      const sorted = [...nums].sort((a, b) => a - b);
+      const mid = sorted.length >> 1;
+      return sorted.length % 2 === 0
+        ? (sorted[mid - 1] + sorted[mid]) / 2
+        : sorted[mid];
+    }
   }
+}
+
+function applyProject(
+  items: unknown[],
+  step: ProjectStep,
+  fields: FieldDef<unknown>[],
+): { rows: SummaryRow[]; fields: FieldDef<unknown>[] } {
+  const defs = step.fields.map((k) => ({ key: k, def: getFieldDef(k, fields) }));
+  const rows: SummaryRow[] = items.map((item) => {
+    const row: SummaryRow = {};
+    for (const { key, def } of defs) {
+      row[key] = def ? def.getValue(item) : "";
+    }
+    return row;
+  });
+
+  const syntheticFields: FieldDef<unknown>[] = step.fields.map((k) => ({
+    key: k,
+    label: k,
+    getValue: (row: unknown) => String((row as SummaryRow)[k] ?? ""),
+    type: "string" as const,
+    group: "Project",
+  }));
+
+  return { rows, fields: syntheticFields };
 }

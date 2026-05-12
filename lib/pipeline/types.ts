@@ -1,6 +1,6 @@
 // --- Step types ---
 
-export type StepKind = "filter" | "sort" | "select" | "take" | "summarize";
+export type StepKind = "filter" | "sort" | "select" | "take" | "summarize" | "project";
 
 export interface FilterStep {
   kind: "filter";
@@ -26,12 +26,28 @@ export interface TakeStep {
 }
 
 /**
- * An aggregator that consumes the items of a group and produces a single
- * scalar value. `count` is the row count and ignores its `field` (if any);
- * the rest read `field` via the entity's FieldDef.getValue and coerce to
- * Number, skipping empty/non-numeric values.
+ * An aggregator that consumes the items of a group and produces a value.
+ *
+ * - `count` — group row count; ignores `field`.
+ * - `sum` / `avg` / `min` / `max` / `median` — numeric reductions over
+ *   `field`; empties and non-numeric values are skipped.
+ * - `distinctCount` — count of distinct non-empty values of `field`.
+ * - `first` / `last` — raw value of `field` from the first / last item in
+ *   input order (including empty strings).
+ * - `collect` — array of all raw `field` values in input order
+ *   (including empties).
  */
-export type AggregatorOp = "count" | "sum" | "avg" | "min" | "max";
+export type AggregatorOp =
+  | "count"
+  | "sum"
+  | "avg"
+  | "min"
+  | "max"
+  | "median"
+  | "first"
+  | "last"
+  | "distinctCount"
+  | "collect";
 
 export interface AggregatorSpec {
   /** Output column name in the summary rows. */
@@ -54,13 +70,32 @@ export interface SummarizeStep {
   aggs: AggregatorSpec[];
 }
 
-export type Step = FilterStep | SortStep | SelectStep | TakeStep | SummarizeStep;
+/**
+ * Projects each row into an object with only the requested fields, reading
+ * values via the active field-defs. Unknown fields degrade to empty
+ * strings. Distinct from `SelectStep`, which only tags visible columns in
+ * UI metadata and does not transform the row shape.
+ */
+export interface ProjectStep {
+  kind: "project";
+  fields: string[];
+}
+
+export type Step =
+  | FilterStep
+  | SortStep
+  | SelectStep
+  | TakeStep
+  | SummarizeStep
+  | ProjectStep;
 
 /**
- * Shape of rows produced by a `summarize` step. Keys are the groupBy field
- * names (string values) plus the aggregator output names (numeric values).
+ * Shape of rows produced by a `summarize` or `project` step. Keys are the
+ * groupBy / projected field names. Values are typically strings (groupBy
+ * keys, projected getValue results), numbers (numeric aggregators), or
+ * arrays of strings (`collect` aggregator).
  */
-export type SummaryRow = Record<string, string | number>;
+export type SummaryRow = Record<string, string | number | string[]>;
 
 // --- Convenience alias ---
 
