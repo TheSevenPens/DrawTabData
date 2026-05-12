@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, Brand } from "./drawtab-loader.js";
+import type { Loader } from "./pipeline/loader.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 // --- Generic loader ---
@@ -23,6 +24,41 @@ export function loadBrandPartitionedDataFromDisk<T>(
     }
   }
   return all;
+}
+
+// --- Generic sharded loader class -----------------------------------------
+//
+// Disk counterpart to `ShardedURLLoader`. Same options, same JSON
+// convention, same "missing shard files are silently skipped" semantics.
+
+export interface ShardedDiskLoaderOptions<T, Raw = T> {
+  shards: readonly string[];
+  /** POSIX-style relative path under `dataDir`; joined via `path.join`. */
+  filePath: (shard: string) => string;
+  rootKey: string;
+  transform?: (raw: Raw[]) => T[];
+}
+
+export class ShardedDiskLoader<T, Raw = T> implements Loader<T> {
+  constructor(
+    private readonly dataDir: string,
+    private readonly opts: ShardedDiskLoaderOptions<T, Raw>,
+  ) {}
+
+  async load(): Promise<T[]> {
+    const raw: Raw[] = [];
+    for (const shard of this.opts.shards) {
+      const filePath = path.join(this.dataDir, ...this.opts.filePath(shard).split("/"));
+      if (!fs.existsSync(filePath)) continue;
+      const text = fs.readFileSync(filePath, "utf-8");
+      const data = JSON.parse(text);
+      const items = data[this.opts.rootKey];
+      if (Array.isArray(items)) {
+        raw.push(...(items as Raw[]));
+      }
+    }
+    return this.opts.transform ? this.opts.transform(raw) : (raw as unknown as T[]);
+  }
 }
 
 // --- Tablet loader ---

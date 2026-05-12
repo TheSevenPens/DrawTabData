@@ -1,5 +1,6 @@
 // --- Types ---
 
+import type { Loader } from "./pipeline/loader.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
 export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct } from "./schemas.js";
@@ -47,6 +48,64 @@ export async function loadBrandPartitionedDataFromURL<T>(
   });
   await Promise.all(fetches);
   return all;
+}
+
+// --- Generic sharded loader class -----------------------------------------
+//
+// Class form of the brand-partitioned loader, generalised to any shard
+// list. One instance per collection. Same JSON convention:
+// each shard's file lives at `${baseUrl}/${filePath(shard)}`, and the
+// array of records lives under `data[rootKey]`. Missing/404 shards are
+// silently skipped (mirrors the free-function loader's behaviour, which
+// the `static/` symlink setup relies on).
+//
+// Used by `DrawTabDataSet` to wire its collections; project-specific glue
+// because the JSON-shape convention is DrawTab's, but the class itself
+// has zero hard-coded entity names.
+
+export interface ShardedURLLoaderOptions<T, Raw = T> {
+  /** Shard names — for brand-sharded files this is `BRANDS`; for a single
+   * file like `brands/brands.json` use `["brands"]`; for inventory use
+   * `[userId]`. */
+  shards: readonly string[];
+  /** Maps a shard name to the file path under `baseUrl`. */
+  filePath: (shard: string) => string;
+  /** Key under which the array of records lives in each shard's JSON. */
+  rootKey: string;
+  /** Optional post-process applied to the concatenated raw rows (e.g.
+   * `expandPenCompat` flattens grouped PenCompat into one row per pair). */
+  transform?: (raw: Raw[]) => T[];
+}
+
+export class ShardedURLLoader<T, Raw = T> implements Loader<T> {
+  constructor(
+    private readonly baseUrl: string,
+    private readonly opts: ShardedURLLoaderOptions<T, Raw>,
+  ) {}
+
+  async load(): Promise<T[]> {
+    const raw: Raw[] = [];
+    await Promise.all(
+      this.opts.shards.map(async (shard) => {
+        const url = `${this.baseUrl}/${this.opts.filePath(shard)}`;
+        let resp: Response;
+        try {
+          resp = await fetch(url);
+        } catch {
+          return;
+        }
+        if (!resp.ok) return;
+        const ct = resp.headers.get("content-type") ?? "";
+        if (!ct.includes("json")) return;
+        const data = await resp.json();
+        const items = data[this.opts.rootKey];
+        if (Array.isArray(items)) {
+          raw.push(...(items as Raw[]));
+        }
+      }),
+    );
+    return this.opts.transform ? this.opts.transform(raw) : (raw as unknown as T[]);
+  }
 }
 
 // --- Tablet loader ---

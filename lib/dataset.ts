@@ -21,33 +21,13 @@
 //   const pens = await wacomTablets[0].getCompatiblePens();
 
 import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand } from "./drawtab-loader.js";
-import {
-  loadTabletsFromURL,
-  loadPensFromURL,
-  loadDriversFromURL,
-  loadBrandsFromURL,
-  loadPenFamiliesFromURL,
-  loadTabletFamiliesFromURL,
-  loadPenCompatFromURL,
-  loadPressureResponseFromURL,
-  loadInventoryPensFromURL,
-  loadInventoryTabletsFromURL,
-} from "./drawtab-loader.js";
-import {
-  loadTabletsFromDisk,
-  loadPensFromDisk,
-  loadDriversFromDisk,
-  loadBrandsFromDisk,
-  loadPenFamiliesFromDisk,
-  loadTabletFamiliesFromDisk,
-  loadPenCompatFromDisk,
-  loadPressureResponseFromDisk,
-  loadInventoryPensFromDisk,
-  loadInventoryTabletsFromDisk,
-} from "./drawtab-loader-node.js";
+import { ShardedURLLoader } from "./drawtab-loader.js";
+import { ShardedDiskLoader } from "./drawtab-loader-node.js";
+import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 import type { AnyFieldDef } from "./pipeline/types.js";
 import { Query } from "./pipeline/query.js";
 import { DataSet } from "./pipeline/dataset.js";
+import type { Loader } from "./pipeline/loader.js";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
 import { TABLET_FAMILY_FIELDS } from "./entities/tablet-family-fields.js";
@@ -115,20 +95,28 @@ export type PressureResponseWithRels = PressureResponse & {
   getPenFamily(): Promise<PenFamilyWithRels | null>;
 };
 
-// --- Loaders ---------------------------------------------------------------
+// --- Loader factory --------------------------------------------------------
+//
+// Constructs a `Loader<T>` over the brand-sharded JSON convention, picking
+// the URL or disk implementation based on `DataSource.kind`. Used by the
+// `DrawTabDataSet` constructor below; the URL/disk split is the only place
+// this file needs to branch on source.kind.
 
-type RawLoaders = {
-  brands(): Promise<Brand[]>;
-  tablets(): Promise<Tablet[]>;
-  tabletFamilies(): Promise<TabletFamily[]>;
-  pens(): Promise<Pen[]>;
-  penFamilies(): Promise<PenFamily[]>;
-  drivers(): Promise<Driver[]>;
-  penCompat(): Promise<PenCompat[]>;
-  pressureResponse(): Promise<PressureResponse[]>;
-  inventoryPens(): Promise<InventoryPen[]>;
-  inventoryTablets(): Promise<InventoryTablet[]>;
-};
+interface LoaderOpts<T, Raw = T> {
+  shards: readonly string[];
+  filePath: (shard: string) => string;
+  rootKey: string;
+  transform?: (raw: Raw[]) => T[];
+}
+
+function makeShardedLoader<T, Raw = T>(
+  source: DataSource,
+  opts: LoaderOpts<T, Raw>,
+): Loader<T> {
+  return source.kind === "url"
+    ? new ShardedURLLoader<T, Raw>(source.baseUrl, opts)
+    : new ShardedDiskLoader<T, Raw>(source.dataDir, opts);
+}
 
 function requireUserId(source: DataSource): string {
   if (!source.userId) {
@@ -137,39 +125,6 @@ function requireUserId(source: DataSource): string {
     );
   }
   return source.userId;
-}
-
-function makeLoaders(source: DataSource): RawLoaders {
-  if (source.kind === "url") {
-    const b = source.baseUrl;
-    return {
-      brands: () => loadBrandsFromURL(b),
-      tablets: () => loadTabletsFromURL(b),
-      tabletFamilies: () => loadTabletFamiliesFromURL(b),
-      pens: () => loadPensFromURL(b),
-      penFamilies: () => loadPenFamiliesFromURL(b),
-      drivers: () => loadDriversFromURL(b),
-      penCompat: () => loadPenCompatFromURL(b),
-      pressureResponse: () => loadPressureResponseFromURL(b),
-      inventoryPens: () =>
-        loadInventoryPensFromURL(b, requireUserId(source)) as unknown as Promise<InventoryPen[]>,
-      inventoryTablets: () =>
-        loadInventoryTabletsFromURL(b, requireUserId(source)) as unknown as Promise<InventoryTablet[]>,
-    };
-  }
-  const d = source.dataDir;
-  return {
-    brands: async () => loadBrandsFromDisk(d),
-    tablets: async () => loadTabletsFromDisk(d),
-    tabletFamilies: async () => loadTabletFamiliesFromDisk(d),
-    pens: async () => loadPensFromDisk(d),
-    penFamilies: async () => loadPenFamiliesFromDisk(d),
-    drivers: async () => loadDriversFromDisk(d),
-    penCompat: async () => loadPenCompatFromDisk(d),
-    pressureResponse: async () => loadPressureResponseFromDisk(d),
-    inventoryPens: async () => loadInventoryPensFromDisk(d, requireUserId(source)),
-    inventoryTablets: async () => loadInventoryTabletsFromDisk(d, requireUserId(source)),
-  };
 }
 
 // --- Augmentation helpers --------------------------------------------------
@@ -204,56 +159,115 @@ function defineHidden<T extends object>(
 export class DrawTabDataSet extends DataSet {
   constructor(source: DataSource) {
     super();
-    const loaders = makeLoaders(source);
+
+    const brandsLoader = makeShardedLoader<Brand>(source, {
+      shards: ["brands"],
+      filePath: (s) => `brands/${s}.json`,
+      rootKey: "Brands",
+    });
+    const tabletsLoader = makeShardedLoader<Tablet>(source, {
+      shards: BRANDS,
+      filePath: (s) => `tablets/${s}-tablets.json`,
+      rootKey: "DrawingTablets",
+    });
+    const tabletFamiliesLoader = makeShardedLoader<TabletFamily>(source, {
+      shards: BRANDS,
+      filePath: (s) => `tablet-families/${s}-tablet-families.json`,
+      rootKey: "TabletFamilies",
+    });
+    const pensLoader = makeShardedLoader<Pen>(source, {
+      shards: BRANDS,
+      filePath: (s) => `pens/${s}-pens.json`,
+      rootKey: "Pens",
+    });
+    const penFamiliesLoader = makeShardedLoader<PenFamily>(source, {
+      shards: BRANDS,
+      filePath: (s) => `pen-families/${s}-pen-families.json`,
+      rootKey: "PenFamilies",
+    });
+    const driversLoader = makeShardedLoader<Driver>(source, {
+      shards: BRANDS,
+      filePath: (s) => `drivers/${s}-drivers.json`,
+      rootKey: "Drivers",
+    });
+    const penCompatLoader = makeShardedLoader<PenCompat, PenCompatGrouped>(source, {
+      shards: BRANDS,
+      filePath: (s) => `pen-compat/${s}-pen-compat.json`,
+      rootKey: "PenCompat",
+      transform: expandPenCompat,
+    });
+    const pressureResponseLoader = makeShardedLoader<PressureResponse>(source, {
+      shards: BRANDS,
+      filePath: (s) => `pressure-response/${s}-pressure-response.json`,
+      rootKey: "PressureResponse",
+    });
 
     this.registerCollection<BrandWithRels>(
       "Brands",
-      async () => (await loaders.brands()).map((b) => this.wrapBrand(b)),
+      async () => (await brandsLoader.load()).map((b) => this.wrapBrand(b)),
       BRAND_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<TabletWithRels>(
       "Tablets",
-      async () => (await loaders.tablets()).map((t) => this.wrapTablet(t)),
+      async () => (await tabletsLoader.load()).map((t) => this.wrapTablet(t)),
       TABLET_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<TabletFamilyWithRels>(
       "TabletFamilies",
-      async () => (await loaders.tabletFamilies()).map((f) => this.wrapTabletFamily(f)),
+      async () => (await tabletFamiliesLoader.load()).map((f) => this.wrapTabletFamily(f)),
       TABLET_FAMILY_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<PenWithRels>(
       "Pens",
-      async () => (await loaders.pens()).map((p) => this.wrapPen(p)),
+      async () => (await pensLoader.load()).map((p) => this.wrapPen(p)),
       PEN_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<PenFamilyWithRels>(
       "PenFamilies",
-      async () => (await loaders.penFamilies()).map((f) => this.wrapPenFamily(f)),
+      async () => (await penFamiliesLoader.load()).map((f) => this.wrapPenFamily(f)),
       PEN_FAMILY_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<DriverWithRels>(
       "Drivers",
-      async () => (await loaders.drivers()).map((d) => this.wrapDriver(d)),
+      async () => (await driversLoader.load()).map((d) => this.wrapDriver(d)),
       DRIVER_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<PenCompat>(
       "PenCompat",
-      loaders.penCompat,
+      () => penCompatLoader.load(),
       PEN_COMPAT_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<PressureResponseWithRels>(
       "PressureResponse",
-      async () => (await loaders.pressureResponse()).map((s) => this.wrapPressureResponse(s)),
+      async () => (await pressureResponseLoader.load()).map((s) => this.wrapPressureResponse(s)),
       PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
     );
+
+    // Inventory: user-sharded, not brand-sharded. The userId is required
+    // at *load* time, not at construction — a DataSet without a userId
+    // is still usable for non-inventory collections.
     this.registerCollection<InventoryPenWithRels>(
       "InventoryPens",
-      async () => (await loaders.inventoryPens()).map((p) => this.wrapInventoryPen(p)),
+      async () => {
+        const loader = makeShardedLoader<InventoryPen>(source, {
+          shards: [requireUserId(source)],
+          filePath: (s) => `inventory/${s}-pens.json`,
+          rootKey: "InventoryPens",
+        });
+        return (await loader.load()).map((p) => this.wrapInventoryPen(p));
+      },
       INVENTORY_PEN_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<InventoryTabletWithRels>(
       "InventoryTablets",
-      async () => (await loaders.inventoryTablets()).map((t) => this.wrapInventoryTablet(t)),
+      async () => {
+        const loader = makeShardedLoader<InventoryTablet>(source, {
+          shards: [requireUserId(source)],
+          filePath: (s) => `inventory/${s}-tablets.json`,
+          rootKey: "InventoryTablets",
+        });
+        return (await loader.load()).map((t) => this.wrapInventoryTablet(t));
+      },
       INVENTORY_TABLET_FIELDS as AnyFieldDef[],
     );
   }
