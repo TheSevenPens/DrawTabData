@@ -503,6 +503,213 @@ describe("Query — join / semijoin", () => {
   });
 });
 
+describe("Query — skip / last / reverse", () => {
+  it("skip drops the first N rows", async () => {
+    const all = await ds.Tablets.sort("ModelLaunchYear").toArray();
+    const skipped = await ds.Tablets.sort("ModelLaunchYear").skip(10).toArray();
+    expect(skipped.length).toBe(all.length - 10);
+    expect(skipped[0]).toEqual(all[10]);
+  });
+
+  it("skip + take is a paged window", async () => {
+    const page1 = await ds.Tablets.sort("ModelLaunchYear").take(5).toArray();
+    const page2 = await ds.Tablets.sort("ModelLaunchYear").skip(5).take(5).toArray();
+    expect(page2.length).toBe(5);
+    expect(page2[0]).not.toEqual(page1[0]);
+  });
+
+  it("last returns the trailing N rows in input order", async () => {
+    const sorted = await ds.Tablets.sort("ModelLaunchYear").toArray();
+    const last3 = await ds.Tablets.sort("ModelLaunchYear").last(3).toArray();
+    expect(last3).toEqual(sorted.slice(-3));
+  });
+
+  it("reverse flips the order without re-sorting", async () => {
+    const asc = await ds.Tablets.sort("ModelLaunchYear").take(5).toArray();
+    const rev = await ds.Tablets.sort("ModelLaunchYear").take(5).reverse().toArray();
+    expect(rev).toEqual([...asc].reverse());
+  });
+});
+
+describe("Query — multi-key sort", () => {
+  it("array form sorts primary-by-first", async () => {
+    const rows = await ds.Tablets
+      .filterIn("Brand", ["WACOM", "HUION"])
+      .sort([
+        { field: "Brand", direction: "asc" },
+        { field: "ModelLaunchYear", direction: "desc" },
+      ])
+      .toArray();
+    expect(rows.length).toBeGreaterThan(0);
+    // Primary asc on Brand → HUION precedes WACOM alphabetically.
+    const firstHuion = rows.findIndex((t) => t.Model.Brand === "HUION");
+    const lastHuion = rows.map((t) => t.Model.Brand).lastIndexOf("HUION");
+    const firstWacom = rows.findIndex((t) => t.Model.Brand === "WACOM");
+    expect(firstHuion).toBe(0);
+    expect(lastHuion).toBeLessThan(firstWacom);
+    // Secondary desc on year — within each brand, years descending.
+    const wacomYears = rows
+      .filter((t) => t.Model.Brand === "WACOM")
+      .map((t) => Number(t.Model.LaunchYear))
+      .filter((n) => !isNaN(n));
+    expect(wacomYears).toEqual([...wacomYears].sort((a, b) => b - a));
+  });
+});
+
+describe("Query — new filter operators", () => {
+  it("'in' matches any of the listed values", async () => {
+    const both = await ds.Tablets.filter("Brand", "in", "WACOM|HUION").count();
+    const w = await ds.Tablets.filter("Brand", "==", "WACOM").count();
+    const h = await ds.Tablets.filter("Brand", "==", "HUION").count();
+    expect(both).toBe(w + h);
+  });
+
+  it("'notin' is the complement of 'in'", async () => {
+    const total = await ds.Tablets.count();
+    const inSet = await ds.Tablets.filter("Brand", "in", "WACOM|HUION").count();
+    const notInSet = await ds.Tablets.filter("Brand", "notin", "WACOM|HUION").count();
+    expect(inSet + notInSet).toBe(total);
+  });
+
+  it("'between' is inclusive at both ends", async () => {
+    const range = await ds.Tablets
+      .filter("ModelLaunchYear", "between", "2018|2022")
+      .toArray();
+    expect(range.length).toBeGreaterThan(0);
+    for (const t of range) {
+      const y = Number(t.Model.LaunchYear);
+      expect(y).toBeGreaterThanOrEqual(2018);
+      expect(y).toBeLessThanOrEqual(2022);
+    }
+  });
+
+  it("strict contains is case-sensitive", async () => {
+    const ci = await ds.Tablets.filter("ModelName", "contains", "cintiq").count();
+    const cs = await ds.Tablets.filter("ModelName", "containsStrict", "cintiq").count();
+    const csUpper = await ds.Tablets
+      .filter("ModelName", "containsStrict", "Cintiq")
+      .count();
+    expect(ci).toBeGreaterThan(0);
+    // Names contain "Cintiq" (capitalised), not "cintiq".
+    expect(cs).toBe(0);
+    expect(csUpper).toBeGreaterThan(0);
+  });
+});
+
+describe("Query — filterIn / filterNotIn", () => {
+  it("filterIn matches any of the listed values", async () => {
+    const rows = await ds.Tablets.filterIn("Brand", ["WACOM", "HUION"]).toArray();
+    expect(rows.length).toBeGreaterThan(0);
+    expect(rows.every((t) => t.Model.Brand === "WACOM" || t.Model.Brand === "HUION")).toBe(true);
+  });
+
+  it("filterNotIn excludes the listed values", async () => {
+    const total = await ds.Tablets.count();
+    const excluded = await ds.Tablets.filterIn("Brand", ["WACOM", "HUION"]).count();
+    const rest = await ds.Tablets.filterNotIn("Brand", ["WACOM", "HUION"]).count();
+    expect(excluded + rest).toBe(total);
+  });
+});
+
+describe("Query — antijoin / leftjoin", () => {
+  it("antijoin keeps left rows with no match (complement of semijoin)", async () => {
+    const totalPens = await ds.Pens.count();
+    const compatPens = await ds.Pens
+      .semijoin(ds.PenCompat, "PenId", "PenId")
+      .count();
+    const orphanPens = await ds.Pens
+      .antijoin(ds.PenCompat, "PenId", "PenId")
+      .count();
+    expect(compatPens + orphanPens).toBe(totalPens);
+  });
+
+  it("leftjoin keeps all left rows; matches get right-side fields merged", async () => {
+    const pl550 = ds.PenCompat.filter("TabletId", "==", "PL-550");
+    const joined = await ds.Pens.leftjoin(pl550, "PenId", "PenId").toArray();
+    expect(joined.length).toBe(await ds.Pens.count());
+    // Rows for PL-550-compatible pens carry the right-side TabletId field;
+    // others don't.
+    const withTabletId = joined.filter(
+      (r) => (r as Record<string, unknown>).TabletId === "PL-550",
+    );
+    expect(withTabletId.length).toBeGreaterThan(0);
+  });
+});
+
+describe("Query — keyBy / collectBy", () => {
+  it("keyBy returns a record keyed by field value (last wins on collision)", async () => {
+    const byId = await ds.Tablets.keyBy("ModelId");
+    expect(byId["PL-550"]).toBeDefined();
+    expect(byId["PL-550"].Model.Id).toBe("PL-550");
+  });
+
+  it("collectBy buckets rows per key", async () => {
+    const byBrand = await ds.Tablets.collectBy("Brand");
+    expect(byBrand.WACOM.length).toBeGreaterThan(0);
+    expect(byBrand.HUION.length).toBeGreaterThan(0);
+    expect(byBrand.WACOM.every((t) => t.Model.Brand === "WACOM")).toBe(true);
+  });
+
+  it("keyBy works after a summarize (post-transform property access)", async () => {
+    const byBrand = await ds.Tablets
+      .summarize({ by: "Brand", count: "tablets" })
+      .keyBy("Brand");
+    expect(byBrand.WACOM).toBeDefined();
+    expect((byBrand.WACOM as { tablets: number }).tablets).toBeGreaterThan(0);
+  });
+});
+
+describe("Query — unroll", () => {
+  it("explodes an array-valued column into one row per element", async () => {
+    // AlternateNames is a nested array — lift it via derive then unroll.
+    const rows = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .derive({ names: (t) => t.Model.AlternateNames ?? [] })
+      .unroll("names")
+      .toArray();
+    // Every row carries a single string in `names`.
+    expect(rows.length).toBeGreaterThan(0);
+    for (const r of rows as Array<Record<string, unknown>>) {
+      expect(typeof r.names).toBe("string");
+    }
+  });
+
+  it("drops rows whose array is empty", async () => {
+    const withAny = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .derive({ names: (t) => t.Model.AlternateNames ?? [] })
+      .unroll("names")
+      .count();
+    const tabletsWithNames = (await ds.Tablets.filter("Brand", "==", "WACOM").toArray())
+      .filter((t) => (t.Model.AlternateNames?.length ?? 0) > 0).length;
+    expect(withAny).toBeGreaterThanOrEqual(tabletsWithNames);
+  });
+});
+
+describe("Query — concat / union", () => {
+  it("concat appends rows from another Query (UNION ALL)", async () => {
+    const wacom = await ds.Tablets.filter("Brand", "==", "WACOM").count();
+    const huion = await ds.Tablets.filter("Brand", "==", "HUION").count();
+    const combined = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .concat(ds.Tablets.filter("Brand", "==", "HUION"))
+      .count();
+    expect(combined).toBe(wacom + huion);
+  });
+
+  it("union is a synonym for concat", async () => {
+    const a = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .concat(ds.Tablets.filter("Brand", "==", "HUION"))
+      .count();
+    const b = await ds.Tablets
+      .filter("Brand", "==", "WACOM")
+      .union(ds.Tablets.filter("Brand", "==", "HUION"))
+      .count();
+    expect(b).toBe(a);
+  });
+});
+
 describe("Query — filter after summarize (SQL HAVING)", () => {
   it("filters on an aggregator output column", async () => {
     const big = await ds.Tablets

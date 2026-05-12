@@ -53,6 +53,9 @@ import type {
   FilterExpr,
   JoinStep,
   SemijoinStep,
+  AntijoinStep,
+  LeftjoinStep,
+  ConcatStep,
 } from "./pipeline/types.js";
 import { executePipeline } from "./pipeline/engine.js";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
@@ -235,10 +238,37 @@ export class Query<T> {
     ]);
   }
 
-  sort(field: string, direction: SortDirection = "asc"): Query<T> {
+  /**
+   * Two forms:
+   *
+   * - `.sort(field, direction?)` — single key sort.
+   * - `.sort([{field, direction?}, ...])` — multi-key sort. The array is
+   *   primary-first, matching SQL `ORDER BY a, b` (`a` primary). Internally
+   *   it translates to single-key sort steps in reverse order so JS's stable
+   *   sort makes the first array entry primary.
+   *
+   * Chained `.sort()` calls also compose via stable sort, but the **last**
+   * call becomes primary — opposite of the array form. Prefer the array
+   * form for multi-key sorts.
+   */
+  sort(fields: Array<{ field: string; direction?: SortDirection }>): Query<T>;
+  sort(field: string, direction?: SortDirection): Query<T>;
+  sort(
+    a: string | Array<{ field: string; direction?: SortDirection }>,
+    direction: SortDirection = "asc",
+  ): Query<T> {
+    if (Array.isArray(a)) {
+      // Reverse so the first entry becomes primary (last sort wins via JS
+      // Array.sort stability — see method doc above).
+      let q: Query<T> = this;
+      for (let i = a.length - 1; i >= 0; i--) {
+        q = q.sort(a[i].field, a[i].direction ?? "asc");
+      }
+      return q;
+    }
     return new Query(this.load, this.fields, [
       ...this.steps,
-      { kind: "sort", field, direction },
+      { kind: "sort", field: a, direction },
     ]);
   }
 
@@ -247,6 +277,53 @@ export class Query<T> {
       ...this.steps,
       { kind: "take", count },
     ]);
+  }
+
+  /** Drops the first `count` rows. Pairs with `.take()` for pagination. */
+  skip(count: number): Query<T> {
+    return new Query(this.load, this.fields, [
+      ...this.steps,
+      { kind: "skip", count },
+    ]);
+  }
+
+  /** Keeps the last `count` rows in current order. Mirror of `.take()`. */
+  last(count: number): Query<T> {
+    return new Query(this.load, this.fields, [
+      ...this.steps,
+      { kind: "last", count },
+    ]);
+  }
+
+  /** Reverses the current row order without re-sorting. */
+  reverse(): Query<T> {
+    return new Query(this.load, this.fields, [...this.steps, { kind: "reverse" }]);
+  }
+
+  /**
+   * Shorthand for `.filter({ or: values.map(v => ({field, op:'==', value:v})) })`.
+   * Same effect as a SQL `WHERE field IN (...)`.
+   */
+  filterIn(field: string, values: Array<string | number>): Query<T> {
+    return this.filter({
+      or: values.map((v) => ({ field, op: "==", value: String(v) })),
+    });
+  }
+
+  /** Inverse of `.filterIn()`. */
+  filterNotIn(field: string, values: Array<string | number>): Query<T> {
+    return this.filter({
+      not: { or: values.map((v) => ({ field, op: "==", value: String(v) })) },
+    });
+  }
+
+  /**
+   * Explodes a top-level array-valued column into one row per element. For
+   * nested arrays on entities (`Model.AlternateNames`) call `.derive()` first
+   * to lift the array to a top-level column.
+   */
+  unroll(field: string): Query<T> {
+    return new Query(this.load, this.fields, [...this.steps, { kind: "unroll", field }]);
   }
 
   /**
@@ -340,30 +417,124 @@ export class Query<T> {
     ]);
   }
 
+  /**
+   * Anti-join: keeps left rows that have **no** matching row on the right
+   * side. The inverse of `.semijoin()`. Useful for data-quality patterns
+   * ("tablets with no compat entries", "pens not paired with any tablet").
+   */
+  antijoin<U>(other: Query<U>, leftKey: string, rightKey: string): Query<T> {
+    return new Query(this.load, this.fields, [
+      ...this.steps,
+      { kind: "antijoin", other, leftKey, rightKey } as AntijoinStep,
+    ]);
+  }
+
+  /**
+   * Left-join: keeps **all** left rows. Matches merge right-side columns
+   * (right wins on name collisions, same as `.join()`); rows with no
+   * match pass through unchanged.
+   */
+  leftjoin<U>(other: Query<U>, leftKey: string, rightKey: string): Query<T & Partial<U>> {
+    return new Query(this.load as unknown as () => Promise<(T & Partial<U>)[]>, this.fields, [
+      ...this.steps,
+      { kind: "leftjoin", other, leftKey, rightKey } as LeftjoinStep,
+    ]);
+  }
+
+  /**
+   * Appends rows from another Query — semantically SQL `UNION ALL` (no
+   * deduplication). For dedup, chain `.distinct(...)` afterwards.
+   */
+  concat<U>(other: Query<U>): Query<T | U> {
+    return new Query(this.load as unknown as () => Promise<(T | U)[]>, this.fields, [
+      ...this.steps,
+      { kind: "concat", other } as ConcatStep,
+    ]);
+  }
+
+  /** Synonym for `.concat()`. */
+  union<U>(other: Query<U>): Query<T | U> {
+    return this.concat(other);
+  }
+
+  /**
+   * Materialise the query and bucket rows by a single field value. Last
+   * row wins on collision. Pre-summarize uses entity field-defs;
+   * post-summarize / post-project falls back to direct property access.
+   */
+  async keyBy(field: string): Promise<Record<string, T>> {
+    const items = await this.toArray();
+    const getKey = this.keyReader(field);
+    const out: Record<string, T> = {};
+    for (const item of items) {
+      const k = getKey(item);
+      if (k !== "") out[k] = item;
+    }
+    return out;
+  }
+
+  /** Like `keyBy` but collects every row per key into an array. */
+  async collectBy(field: string): Promise<Record<string, T[]>> {
+    const items = await this.toArray();
+    const getKey = this.keyReader(field);
+    const out: Record<string, T[]> = {};
+    for (const item of items) {
+      const k = getKey(item);
+      if (k === "") continue;
+      (out[k] ??= []).push(item);
+    }
+    return out;
+  }
+
+  /**
+   * Returns a function that reads `field` off a row. Uses the entity's
+   * FieldDef.getValue when present (handles nesting). After a summarize /
+   * project step the row shape is flat — fall back to direct property
+   * access so post-transform keyBy still works.
+   */
+  private keyReader(field: string): (item: T) => string {
+    const isPostTransform = this.steps.some(
+      (s) => s.kind === "summarize" || s.kind === "project",
+    );
+    if (!isPostTransform) {
+      const def = this.fields.find((f) => f.key === field);
+      if (def) return (item) => def.getValue(item);
+    }
+    return (item) => String((item as Record<string, unknown>)[field] ?? "");
+  }
+
   async toArray(): Promise<T[]> {
     const items = await this.load();
     if (this.steps.length === 0) return items;
-    // Resolve any join/semijoin steps by materialising the right side first.
-    // The engine itself is synchronous, so this is the awaiting layer.
+    // Resolve any join/semijoin/antijoin/leftjoin/concat steps by
+    // materialising the right side first — the synchronous engine cannot
+    // await. Each resolution shape just adds `rightRows` + `rightFields`.
     const resolved: Step[] = [];
     for (const step of this.steps) {
-      if (step.kind === "join") {
+      if (
+        step.kind === "join" ||
+        step.kind === "semijoin" ||
+        step.kind === "antijoin" ||
+        step.kind === "leftjoin"
+      ) {
         const right = step.other as Query<unknown>;
         const rightRows = await right.toArray();
         resolved.push({
-          kind: "joinResolved",
+          kind: `${step.kind}Resolved` as
+            | "joinResolved"
+            | "semijoinResolved"
+            | "antijoinResolved"
+            | "leftjoinResolved",
           leftKey: step.leftKey,
           rightKey: step.rightKey,
           rightRows,
           rightFields: right.fields,
         });
-      } else if (step.kind === "semijoin") {
+      } else if (step.kind === "concat") {
         const right = step.other as Query<unknown>;
         const rightRows = await right.toArray();
         resolved.push({
-          kind: "semijoinResolved",
-          leftKey: step.leftKey,
-          rightKey: step.rightKey,
+          kind: "concatResolved",
           rightRows,
           rightFields: right.fields,
         });

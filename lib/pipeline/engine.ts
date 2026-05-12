@@ -9,8 +9,12 @@ import type {
   BoolFilterStep,
   FilterExpr,
   DeriveStep,
+  UnrollStep,
   JoinResolvedStep,
   SemijoinResolvedStep,
+  AntijoinResolvedStep,
+  LeftjoinResolvedStep,
+  ConcatResolvedStep,
   SummaryRow,
 } from "./types.js";
 
@@ -83,6 +87,15 @@ export function executePipeline<T>(
       case "take":
         data = data.slice(0, step.count);
         break;
+      case "skip":
+        data = data.slice(step.count);
+        break;
+      case "last":
+        data = step.count <= 0 ? [] : data.slice(-step.count);
+        break;
+      case "reverse":
+        data = [...data].reverse();
+        break;
       case "summarize": {
         const { rows, fields: synthetic } = applySummarize(data, step, activeFields);
         data = rows;
@@ -119,11 +132,32 @@ export function executePipeline<T>(
       case "semijoinResolved":
         data = applySemijoin(data, step, activeFields);
         break;
+      case "antijoinResolved":
+        data = applyAntijoin(data, step, activeFields);
+        break;
+      case "leftjoinResolved": {
+        const { rows, fields: extended } = applyLeftjoin(data, step, activeFields);
+        data = rows;
+        activeFields = extended;
+        break;
+      }
+      case "concatResolved": {
+        const { rows, fields: extended } = applyConcat(data, step, activeFields);
+        data = rows;
+        activeFields = extended;
+        break;
+      }
+      case "unroll":
+        data = applyUnroll(data, step);
+        break;
       case "join":
       case "semijoin":
-        // Unresolved join — Query.toArray() should have replaced these with
-        // their *Resolved counterparts before reaching the engine. If we see
-        // one here, something is wrong with the calling code.
+      case "antijoin":
+      case "leftjoin":
+      case "concat":
+        // Unresolved join/concat — Query.toArray() should have replaced
+        // these with their *Resolved counterparts before reaching the
+        // engine. Seeing one here means a caller bypassed toArray().
         throw new Error(`Engine received unresolved ${step.kind} step. Did you forget to await Query.toArray()?`);
     }
   }
@@ -137,6 +171,13 @@ export function executePipeline<T>(
 /**
  * Apply one operator from FilterOp to a single value pair. Factored out so
  * both `applyFilter` and the boolean-expression evaluator share semantics.
+ *
+ * The `contains` / `startswith` family and their `not*` counterparts are
+ * case-insensitive by default — pass a value through the `*Strict` variant
+ * to match case exactly.
+ *
+ * Multi-value operators (`in`, `notin`, `between`) encode their list in
+ * `refValue` as pipe-separated strings: `'WACOM|HUION'`, `'2020|2025'`.
  */
 export function matchesOperator(val: string, operator: string, refValue: string): boolean {
   switch (operator) {
@@ -152,6 +193,24 @@ export function matchesOperator(val: string, operator: string, refValue: string)
       return val.toLowerCase().startsWith(refValue.toLowerCase());
     case "notstartswith":
       return !val.toLowerCase().startsWith(refValue.toLowerCase());
+    case "containsStrict":
+      return val.includes(refValue);
+    case "notcontainsStrict":
+      return !val.includes(refValue);
+    case "startswithStrict":
+      return val.startsWith(refValue);
+    case "notstartswithStrict":
+      return !val.startsWith(refValue);
+    case "in":
+      return refValue.split("|").includes(val);
+    case "notin":
+      return !refValue.split("|").includes(val);
+    case "between": {
+      if (val === "") return false;
+      const [lo, hi] = refValue.split("|").map(Number);
+      const n = Number(val);
+      return n >= lo && n <= hi;
+    }
     case "empty":
       return val === "";
     case "notempty":
@@ -449,4 +508,95 @@ function applySemijoin(
   }
 
   return items.filter((item) => keys.has(leftDef ? leftDef.getValue(item) : ""));
+}
+
+function applyAntijoin(
+  items: unknown[],
+  step: AntijoinResolvedStep,
+  leftFields: FieldDef<unknown>[],
+): unknown[] {
+  const leftDef = getFieldDef(step.leftKey, leftFields);
+  const rightDef = getFieldDef(step.rightKey, step.rightFields);
+
+  const keys = new Set<string>();
+  for (const r of step.rightRows) {
+    keys.add(rightDef ? rightDef.getValue(r) : "");
+  }
+
+  return items.filter((item) => !keys.has(leftDef ? leftDef.getValue(item) : ""));
+}
+
+function applyLeftjoin(
+  items: unknown[],
+  step: LeftjoinResolvedStep,
+  leftFields: FieldDef<unknown>[],
+): { rows: unknown[]; fields: FieldDef<unknown>[] } {
+  const leftDef = getFieldDef(step.leftKey, leftFields);
+  const rightDef = getFieldDef(step.rightKey, step.rightFields);
+
+  const rightByKey = new Map<string, unknown[]>();
+  for (const r of step.rightRows) {
+    const k = rightDef ? rightDef.getValue(r) : "";
+    let bucket = rightByKey.get(k);
+    if (!bucket) {
+      bucket = [];
+      rightByKey.set(k, bucket);
+    }
+    bucket.push(r);
+  }
+
+  // For each left row: emit cross-product of matches if any, otherwise
+  // pass the left row through unchanged. Distinguishes left from inner
+  // by always keeping unmatched left rows.
+  const joined: unknown[] = [];
+  for (const left of items) {
+    const lk = leftDef ? leftDef.getValue(left) : "";
+    const matches = rightByKey.get(lk);
+    if (!matches) {
+      joined.push(left);
+      continue;
+    }
+    for (const right of matches) {
+      joined.push({ ...(left as object), ...(right as object) });
+    }
+  }
+
+  return { rows: joined, fields: mergeFieldDefs(leftFields, step.rightFields) };
+}
+
+function applyConcat(
+  items: unknown[],
+  step: ConcatResolvedStep,
+  leftFields: FieldDef<unknown>[],
+): { rows: unknown[]; fields: FieldDef<unknown>[] } {
+  return {
+    rows: [...items, ...step.rightRows],
+    fields: mergeFieldDefs(leftFields, step.rightFields),
+  };
+}
+
+function applyUnroll(items: unknown[], step: UnrollStep): unknown[] {
+  const out: unknown[] = [];
+  for (const item of items) {
+    const value = (item as Record<string, unknown>)[step.field];
+    if (Array.isArray(value)) {
+      // Empty array → drop the row (matches Arquero / dplyr `unnest`).
+      for (const el of value) {
+        out.push({ ...(item as object), [step.field]: el });
+      }
+    } else {
+      // Non-array value → pass through unchanged. Allows mixed shapes.
+      out.push(item);
+    }
+  }
+  return out;
+}
+
+/** Merge two field-def lists, keeping the first definition on key collision. */
+function mergeFieldDefs(
+  left: FieldDef<unknown>[],
+  right: FieldDef<unknown>[],
+): FieldDef<unknown>[] {
+  const seen = new Set(left.map((f) => f.key));
+  return [...left, ...right.filter((f) => !seen.has(f.key))];
 }

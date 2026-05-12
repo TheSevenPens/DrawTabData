@@ -5,15 +5,25 @@ export type StepKind =
   | "sort"
   | "select"
   | "take"
+  | "skip"
+  | "last"
+  | "reverse"
   | "summarize"
   | "project"
   | "predicate"
   | "boolFilter"
   | "derive"
+  | "unroll"
   | "join"
   | "joinResolved"
   | "semijoin"
-  | "semijoinResolved";
+  | "semijoinResolved"
+  | "antijoin"
+  | "antijoinResolved"
+  | "leftjoin"
+  | "leftjoinResolved"
+  | "concat"
+  | "concatResolved";
 
 export interface FilterStep {
   kind: "filter";
@@ -36,6 +46,20 @@ export interface SelectStep {
 export interface TakeStep {
   kind: "take";
   count: number;
+}
+
+export interface SkipStep {
+  kind: "skip";
+  count: number;
+}
+
+export interface LastStep {
+  kind: "last";
+  count: number;
+}
+
+export interface ReverseStep {
+  kind: "reverse";
 }
 
 /**
@@ -167,20 +191,93 @@ export interface SemijoinResolvedStep {
   rightFields: FieldDef<unknown>[];
 }
 
+/**
+ * Anti-join: keeps left rows that have NO match on the right. Inverse of
+ * semijoin. Right side resolved at `Query.toArray()` time.
+ */
+export interface AntijoinStep {
+  kind: "antijoin";
+  other: unknown;
+  leftKey: string;
+  rightKey: string;
+}
+
+export interface AntijoinResolvedStep {
+  kind: "antijoinResolved";
+  leftKey: string;
+  rightKey: string;
+  rightRows: unknown[];
+  rightFields: FieldDef<unknown>[];
+}
+
+/**
+ * Left-join: keeps all left rows. Rows with a match are merged with the
+ * right-side columns; rows without a match pass through unchanged.
+ */
+export interface LeftjoinStep {
+  kind: "leftjoin";
+  other: unknown;
+  leftKey: string;
+  rightKey: string;
+}
+
+export interface LeftjoinResolvedStep {
+  kind: "leftjoinResolved";
+  leftKey: string;
+  rightKey: string;
+  rightRows: unknown[];
+  rightFields: FieldDef<unknown>[];
+}
+
+/**
+ * Appends rows from another Query (UNION ALL — no deduplication). Active
+ * field-defs are merged with right-side defs; first-defined-key wins.
+ */
+export interface ConcatStep {
+  kind: "concat";
+  other: unknown;
+}
+
+export interface ConcatResolvedStep {
+  kind: "concatResolved";
+  rightRows: unknown[];
+  rightFields: FieldDef<unknown>[];
+}
+
+/**
+ * Explodes an array-valued top-level field into one row per element. Rows
+ * with non-array or empty-array values for the field are dropped (matches
+ * Arquero / dplyr's `unnest` semantics).
+ */
+export interface UnrollStep {
+  kind: "unroll";
+  field: string;
+}
+
 export type Step =
   | FilterStep
   | SortStep
   | SelectStep
   | TakeStep
+  | SkipStep
+  | LastStep
+  | ReverseStep
   | SummarizeStep
   | ProjectStep
   | PredicateStep
   | BoolFilterStep
   | DeriveStep
+  | UnrollStep
   | JoinStep
   | JoinResolvedStep
   | SemijoinStep
-  | SemijoinResolvedStep;
+  | SemijoinResolvedStep
+  | AntijoinStep
+  | AntijoinResolvedStep
+  | LeftjoinStep
+  | LeftjoinResolvedStep
+  | ConcatStep
+  | ConcatResolvedStep;
 
 /**
  * Shape of rows produced by a `summarize` or `project` step. Keys are the
