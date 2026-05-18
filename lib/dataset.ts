@@ -42,6 +42,7 @@ import { PEN_COMPAT_FIELDS } from "./entities/pen-compat-fields.js";
 import { PRESSURE_RESPONSE_FIELDS } from "./entities/pressure-response-fields.js";
 import { INVENTORY_PEN_FIELDS, type InventoryPen } from "./entities/inventory-pen-fields.js";
 import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/inventory-tablet-fields.js";
+import { sessionEntityId } from "./pressure/session-id.js";
 
 // --- Source ----------------------------------------------------------------
 
@@ -519,5 +520,45 @@ export class DrawTabDataSet extends DataSet {
     return (this.cachedWacomUpdateProducts ??= loadWacomUpdateProductsFromURL(
       this.requireUrlSource("getWacomUpdateProducts"),
     ));
+  }
+
+  /**
+   * Universal entity lookup by canonical EntityId (the same id that drives
+   * `/entity/[entityId]` URLs).
+   *
+   *   ds.getEntity('wacom.tablet.pth-660')                    → Tablet | undefined
+   *   ds.getEntity('wacom.pen.up-911e')                       → Pen | undefined
+   *   ds.getEntity('wacom.driver.6.3.45-2_windows')           → Driver | undefined
+   *   ds.getEntity('wacom.tabletfamily.wacomintuosprogen8')   → TabletFamily | undefined
+   *   ds.getEntity('wacom.penfamily.wacomkpgen3')             → PenFamily | undefined
+   *   ds.getEntity('wacom.session.wap.0001_2024-09-23')       → PressureResponse | undefined
+   *   ds.getEntity('wacom')                                   → Brand | undefined
+   *
+   * The 2nd dot-segment selects the entity collection. Single-segment
+   * ids without a `.` resolve to a Brand. Returns `undefined` for
+   * unknown / typo'd ids; throws for the empty string.
+   */
+  async getEntity(entityId: string): Promise<unknown | undefined> {
+    if (!entityId) throw new Error("getEntity: entityId must be a non-empty string");
+    const parts = entityId.split(".");
+    const entityType = parts.length === 1 ? "brand" : parts[1];
+    switch (entityType) {
+      case "brand":
+        return this.Brands.find((b) => b.EntityId === entityId);
+      case "tablet":
+        return this.Tablets.find((t) => t.Meta.EntityId === entityId);
+      case "pen":
+        return this.Pens.find((p) => p.EntityId === entityId);
+      case "driver":
+        return this.Drivers.find((d) => d.EntityId === entityId);
+      case "penfamily":
+        return this.PenFamilies.find((f) => f.EntityId === entityId);
+      case "tabletfamily":
+        return this.TabletFamilies.find((f) => f.EntityId === entityId);
+      case "session":
+        return this.PressureResponse.find((s) => sessionEntityId(s) === entityId);
+      default:
+        return undefined;
+    }
   }
 }

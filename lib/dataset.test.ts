@@ -868,3 +868,61 @@ describe("Record shape — methods are non-enumerable", () => {
     expect(json).toContain('"Model"');
   });
 });
+
+describe("ds.getEntity — universal EntityId lookup", () => {
+  it("resolves a tablet EntityId to its record", async () => {
+    const t = (await ds.getEntity("wacom.tablet.pl550")) as { Meta: { EntityId: string } } | undefined;
+    expect(t?.Meta.EntityId).toBe("wacom.tablet.pl550");
+  });
+
+  it("resolves a pen EntityId to its record", async () => {
+    // Pick any known pen via the existing API to keep this test fixture-agnostic.
+    const anyPen = await ds.Pens.find(() => true);
+    expect(anyPen).toBeDefined();
+    const round = (await ds.getEntity(anyPen!.EntityId)) as { EntityId: string } | undefined;
+    expect(round?.EntityId).toBe(anyPen!.EntityId);
+  });
+
+  it("resolves a pen-family EntityId", async () => {
+    const anyFamily = await ds.PenFamilies.find(() => true);
+    expect(anyFamily).toBeDefined();
+    const round = (await ds.getEntity(anyFamily!.EntityId)) as { EntityId: string } | undefined;
+    expect(round?.EntityId).toBe(anyFamily!.EntityId);
+  });
+
+  it("resolves a tablet-family EntityId", async () => {
+    const anyFamily = await ds.TabletFamilies.find(() => true);
+    expect(anyFamily).toBeDefined();
+    const round = (await ds.getEntity(anyFamily!.EntityId)) as { EntityId: string } | undefined;
+    expect(round?.EntityId).toBe(anyFamily!.EntityId);
+  });
+
+  it("resolves a driver EntityId", async () => {
+    const anyDriver = await ds.Drivers.find(() => true);
+    expect(anyDriver).toBeDefined();
+    const round = (await ds.getEntity(anyDriver!.EntityId)) as { EntityId: string } | undefined;
+    expect(round?.EntityId).toBe(anyDriver!.EntityId);
+  });
+
+  it("resolves a single-segment id to a Brand", async () => {
+    const anyBrand = await ds.Brands.find(() => true);
+    expect(anyBrand).toBeDefined();
+    // Brand EntityIds have no dots.
+    const round = (await ds.getEntity(anyBrand!.EntityId)) as { EntityId: string } | undefined;
+    expect(round?.EntityId).toBe(anyBrand!.EntityId);
+  });
+
+  it("returns undefined for an unknown id of a known type", async () => {
+    const missing = await ds.getEntity("wacom.tablet.does-not-exist");
+    expect(missing).toBeUndefined();
+  });
+
+  it("returns undefined for an unknown entity-type segment", async () => {
+    const bogus = await ds.getEntity("wacom.bogus.something");
+    expect(bogus).toBeUndefined();
+  });
+
+  it("throws on the empty string", async () => {
+    await expect(() => ds.getEntity("")).rejects.toThrow();
+  });
+});
