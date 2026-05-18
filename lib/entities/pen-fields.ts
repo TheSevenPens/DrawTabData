@@ -51,6 +51,11 @@ export function penBrandAndName(pen: Pen): string {
     : `${brandName(pen.Brand)} ${pen.PenName}`;
 }
 
+/** "Name (Id)" with the "(Id)" suffix dropped when redundant. No brand. */
+export function penNameAndId(pen: Pick<Pen, 'PenName' | 'PenId'>): string {
+  return penIdRedundantInName(pen) ? pen.PenName : `${pen.PenName} (${pen.PenId})`;
+}
+
 export const PEN_FIELD_GROUPS = ["Model", "Sensors", "Controls", "Physical"];
 
 export const PEN_FIELDS: FieldDef<Pen>[] = [
