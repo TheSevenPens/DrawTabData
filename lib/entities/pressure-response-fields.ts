@@ -2,6 +2,7 @@ import type { PressureResponse } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
 import { estimateP00, estimateP100 } from "../pressure/interpolate.js";
+import type { DefectInfo } from "../pressure/defects.js";
 
 export type { PressureResponse } from "../drawtab-loader.js";
 
@@ -13,6 +14,17 @@ export type { PressureResponse } from "../drawtab-loader.js";
 let penNameMap: Map<string, string> = new Map();
 export function setPenNameMap(map: Map<string, string>): void {
   penNameMap = map;
+}
+
+// Pages call setDefectsByInventoryId() with the lookup built by
+// `buildInventoryDefects(inventoryPens)` so the `IsDefective` computed
+// field reflects true status. Defaults to an empty map so unwired
+// consumers see 'NO' for every row. Wire this at +layout.ts so every
+// consumer (list pages, /pen-analysis, /api-explorer) inherits accurate
+// values automatically.
+let defectsByInventoryId: ReadonlyMap<string, DefectInfo> = new Map();
+export function setDefectsByInventoryId(map: ReadonlyMap<string, DefectInfo>): void {
+  defectsByInventoryId = map;
 }
 
 export const PRESSURE_RESPONSE_FIELD_GROUPS = ["Session", "Environment"];
@@ -50,6 +62,11 @@ export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
       const p = estimateP100(s.Records);
       return p === null || !Number.isFinite(p) ? "" : p.toFixed(1);
     },
+  },
+  {
+    key: "IsDefective", label: "Defective unit", group: "Session", computed: true, type: "enum",
+    enumValues: ["YES", "NO"],
+    getValue: (s) => defectsByInventoryId.has(s.InventoryId) ? "YES" : "NO",
   },
   // Environment
   { key: "TabletEntityId", label: "TabletEntityId", getValue: (s) => s.TabletEntityId, type: "string", group: "Environment" },
