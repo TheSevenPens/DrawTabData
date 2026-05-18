@@ -2,6 +2,10 @@
 
 The DrawTabData project unifies JSON datasets related to Drawing Tablets.
 
+Primary UI consumer: DrawTabDataExplorer (parent repo) — agent docs at
+../AGENTS.md and ../CLAUDE.md. Record counts below are approximate; see
+data/version.json for current counts after load.
+
 Entities include:
 - Brands (11)
 - Tablets (290 across 7 brands)
@@ -34,13 +38,13 @@ Brands have display names (e.g. XPPEN -> "XP-Pen").
 
 # EntityId convention
 
-Every entity has an EntityId in the format BRAND.ENTITYTYPE.ID:
-- WACOM.TABLET.PTK870
-- WACOM.PEN.KP501E
-- WACOM.DRIVER.6.3.45-2_WINDOWS
-- WACOM.PENFAMILY.WacomKPGEN3
-- WACOM.TABLETFAMILY.WacomIntuosProGen8
-- WACOM.BRAND.WACOM
+Every entity has an EntityId in lowercase: brand.entitytype.id
+- wacom.tablet.ptk870
+- wacom.pen.kp501e
+- wacom.driver.6.3.45-2_windows
+- wacom.penfamily.wacomkpgen3
+- wacom.tabletfamily.wacomintuosprogen8
+- wacom (brand — no extra segments)
 
 # Libraries
 
@@ -52,7 +56,7 @@ This repo includes TypeScript libraries for consumers:
 - lib/loader-shared.ts — shared brand lists, expandPenCompat, parseStringArray
 - lib/drawtab-all.ts / lib/drawtab-all-node.ts — load everything in one call
 - lib/compat-helpers.ts — compatibility map builders + findSimilarTablets
-- lib/pipeline/ — generic query engine (filter, sort, select, take)
+- (DrawTabDataExplorer) packages/queriton/ — query engine for the UI (not in this repo)
 - lib/entities/ — field definitions per entity type (metadata, computed fields)
 - lib/units.ts — metric/imperial unit conversion
 - lib/data-quality.ts — schema-driven validation across all entities (npm run data-quality)

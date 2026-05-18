@@ -123,10 +123,14 @@ Cross-record business rules (derived `EntityId` matching, duplicate
 `EntityId` detection) live alongside the schema check as small
 plain-TS helpers.
 
-## Pipeline engine (`lib/pipeline/`)
+## Query / pipeline engine (DrawTabDataExplorer)
 
-Generic query engine with `FieldDef<T>` typed field metadata.
-Executes filter/sort/select/take steps against any entity data.
+The interactive UI query engine lives in the **DrawTabDataExplorer**
+repo as the workspace package **`packages/queriton/`** (import
+`from 'queriton'`). This data repo provides `FieldDef` metadata in
+`lib/entities/*-fields.ts` consumed by that UI.
+
+There is no `lib/pipeline/` in DrawTabData anymore.
 
 ## Entity field definitions (`lib/entities/`)
 
@@ -193,7 +197,7 @@ This shapes which libraries make sense and which don't:
 - **Schema = valibot.** Single source of truth for shape, validation,
   and TypeScript types. Catches malformed/typo'd data at parse time
   with precise paths and messages.
-- **Query layer = the small `lib/pipeline/` engine.** Hand-written
+- **Query layer = queriton** (in DrawTabDataExplorer). Hand-written
   filter/sort/select/take steps over typed `FieldDef<T>` metadata.
   Tailored to the UI; no third-party query DSL.
 - **Reactive bindings = Svelte 5 runes** (`$state`, `$derived`).
