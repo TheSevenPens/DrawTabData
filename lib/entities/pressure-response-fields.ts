@@ -1,6 +1,7 @@
 import type { PressureResponse } from "../drawtab-loader.js";
 import type { FieldDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
+import { estimateP00, estimateP100 } from "../pressure/interpolate.js";
 
 export type { PressureResponse } from "../drawtab-loader.js";
 
@@ -34,6 +35,20 @@ export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
     getValue: (s) => {
       if (s.Records.length === 0) return "";
       return Math.max(...s.Records.map(r => r[0])).toFixed(1);
+    },
+  },
+  {
+    key: "IAF", label: "IAF (P00, gf)", group: "Session", computed: true, type: "number",
+    getValue: (s) => {
+      const p = estimateP00(s.Records);
+      return p === null || !Number.isFinite(p) ? "" : p.toFixed(1);
+    },
+  },
+  {
+    key: "MaxPressure", label: "Max Pressure (P100, gf)", group: "Session", computed: true, type: "number",
+    getValue: (s) => {
+      const p = estimateP100(s.Records);
+      return p === null || !Number.isFinite(p) ? "" : p.toFixed(1);
     },
   },
   // Environment
