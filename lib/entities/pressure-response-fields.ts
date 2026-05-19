@@ -1,5 +1,5 @@
 import type { PressureResponse } from "../drawtab-loader.js";
-import type { FieldDisplayDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { BRANDS } from "../loader-shared.js";
 import { estimateP00, estimateP100 } from "../pressure/interpolate.js";
 import type { DefectInfo } from "../pressure/defects.js";

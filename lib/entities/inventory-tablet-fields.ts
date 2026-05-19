@@ -1,4 +1,4 @@
-import type { FieldDisplayDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 
 export interface InventoryTablet {
   TabletEntityId: string;

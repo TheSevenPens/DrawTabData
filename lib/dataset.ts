@@ -30,8 +30,8 @@ import {
 } from "./drawtab-loader.js";
 import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
-import type { AnyFieldDef, Loader } from "queriton";
-import { Query, DataSet } from "queriton";
+import type { AnyFieldDef, Loader } from "@thesevenpens/queriton";
+import { Query, DataSet } from "@thesevenpens/queriton";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
 import { TABLET_FAMILY_FIELDS } from "./entities/tablet-family-fields.js";

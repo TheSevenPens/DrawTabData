@@ -1,5 +1,5 @@
 import type { PenFamily } from "../drawtab-loader.js";
-import type { FieldDisplayDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { BRANDS } from "../loader-shared.js";
 
 export type { PenFamily } from "../drawtab-loader.js";

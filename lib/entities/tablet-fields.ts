@@ -1,6 +1,6 @@
 import type { Tablet } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
-import type { FieldDisplayDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";

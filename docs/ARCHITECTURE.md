@@ -127,7 +127,7 @@ plain-TS helpers.
 
 The interactive UI query engine lives in the **DrawTabDataExplorer**
 repo as the workspace package **`packages/queriton/`** (import
-`from 'queriton'`). This data repo provides `FieldDef` metadata in
+`from '@thesevenpens/queriton'`). This data repo provides `FieldDef` metadata in
 `lib/entities/*-fields.ts` consumed by that UI.
 
 There is no `lib/pipeline/` in DrawTabData anymore.

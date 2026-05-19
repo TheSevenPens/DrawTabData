@@ -1,6 +1,6 @@
 import type { Driver } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
-import type { FieldDisplayDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { BRANDS } from "../loader-shared.js";
 
 export type { Driver } from "../drawtab-loader.js";

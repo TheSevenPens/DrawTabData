@@ -1,5 +1,5 @@
 import type { Brand } from "../drawtab-loader.js";
-import type { FieldDisplayDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 
 export type { Brand } from "../drawtab-loader.js";
 
