@@ -1,5 +1,5 @@
 import type { PressureResponse } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
 import { estimateP00, estimateP100 } from "../pressure/interpolate.js";
 import type { DefectInfo } from "../pressure/defects.js";
@@ -29,7 +29,7 @@ export function setDefectsByInventoryId(map: ReadonlyMap<string, DefectInfo>): v
 
 export const PRESSURE_RESPONSE_FIELD_GROUPS = ["Session", "Environment"];
 
-export const PRESSURE_RESPONSE_FIELDS: FieldDef<PressureResponse>[] = [
+export const PRESSURE_RESPONSE_FIELDS: FieldDisplayDef<PressureResponse>[] = [
   // Session
   { key: "Brand", label: "Brand", getValue: (s) => s.Brand, type: "enum", enumValues: [...BRANDS], group: "Session" },
   { key: "PenEntityId", label: "Pen", getValue: (s) => penNameMap.get(s.PenEntityId) ?? s.PenEntityId, type: "string", group: "Session" },

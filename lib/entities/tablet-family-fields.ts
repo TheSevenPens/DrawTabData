@@ -1,12 +1,12 @@
 import type { TabletFamily } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
 
 export type { TabletFamily } from "../drawtab-loader.js";
 
 export const TABLET_FAMILY_FIELD_GROUPS = ["Tablet Family"];
 
-export const TABLET_FAMILY_FIELDS: FieldDef<any>[] = [
+export const TABLET_FAMILY_FIELDS: FieldDisplayDef<any>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (f) => f.EntityId, type: "string", group: "Tablet Family" },
   { key: "Brand", label: "Brand", getValue: (f) => f.Brand, type: "enum", enumValues: [...BRANDS], group: "Tablet Family" },
   { key: "FamilyName", label: "Name", getValue: (f) => f.FamilyName, type: "string", group: "Tablet Family" },

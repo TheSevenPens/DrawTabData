@@ -1,6 +1,6 @@
 import type { Pen } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
 
@@ -58,7 +58,7 @@ export function penNameAndId(pen: Pick<Pen, 'PenName' | 'PenId'>): string {
 
 export const PEN_FIELD_GROUPS = ["Model", "Sensors", "Controls", "Physical"];
 
-export const PEN_FIELDS: FieldDef<Pen>[] = [
+export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Model" },
   { key: "FullName", label: "Full Name", getValue: (p) => penFullName(p), type: "string", group: "Model", computed: true },

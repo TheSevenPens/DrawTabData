@@ -1,4 +1,4 @@
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 
 export interface InventoryTablet {
   TabletEntityId: string;
@@ -19,7 +19,7 @@ export interface InventoryTablet {
 
 export const INVENTORY_TABLET_FIELD_GROUPS = ["Tablet", "Acquisition"];
 
-export const INVENTORY_TABLET_FIELDS: FieldDef<InventoryTablet>[] = [
+export const INVENTORY_TABLET_FIELDS: FieldDisplayDef<InventoryTablet>[] = [
   { key: "InventoryId", label: "Inventory ID", getValue: (t) => t.InventoryId, type: "string", group: "Tablet" },
   { key: "TabletEntityId", label: "Tablet", getValue: (t) => t.TabletEntityId, type: "string", group: "Tablet" },
   { key: "Brand", label: "Brand", getValue: (t) => t.Brand, type: "string", group: "Tablet" },

@@ -1,11 +1,11 @@
 import type { Brand } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 
 export type { Brand } from "../drawtab-loader.js";
 
 export const BRAND_FIELD_GROUPS = ["Brand"];
 
-export const BRAND_FIELDS: FieldDef<Brand>[] = [
+export const BRAND_FIELDS: FieldDisplayDef<Brand>[] = [
   { key: "EntityId", label: "Entity ID", getValue: (b) => b.EntityId, type: "string", group: "Brand" },
   { key: "BrandName", label: "Name", getValue: (b) => b.BrandName, type: "string", group: "Brand" },
   { key: "FoundedYear", label: "Founded", getValue: (b) => b.FoundedYear ?? '', type: "number", group: "Brand" },

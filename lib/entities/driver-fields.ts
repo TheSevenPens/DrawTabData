@@ -1,6 +1,6 @@
 import type { Driver } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 import { BRANDS } from "../loader-shared.js";
 
 export type { Driver } from "../drawtab-loader.js";
@@ -9,7 +9,7 @@ const OS_LABELS: Record<string, string> = { MACOS: "macOS", WINDOWS: "Windows" }
 
 export const DRIVER_FIELD_GROUPS = ["Driver", "Links"];
 
-export const DRIVER_FIELDS: FieldDef<Driver>[] = [
+export const DRIVER_FIELDS: FieldDisplayDef<Driver>[] = [
   // Driver
   { key: "EntityId", label: "Entity ID", getValue: (d) => d.EntityId, type: "string", group: "Driver" },
   { key: "Brand", label: "Brand", getValue: (d) => d.Brand, type: "enum", enumValues: [...BRANDS], group: "Driver" },

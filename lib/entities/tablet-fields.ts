@@ -1,6 +1,6 @@
 import type { Tablet } from "../drawtab-loader.js";
 import { brandName } from "../drawtab-loader.js";
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
@@ -59,7 +59,7 @@ export function tabletNameAndId(tablet: Tablet): string {
 
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
 
-export const TABLET_FIELDS: FieldDef<Tablet>[] = [
+export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (t) => t.Meta.EntityId, type: "string", group: "Model" },
   { key: "FullName", label: "Full Name", getValue: (t) => tabletFullName(t), type: "string", group: "Model", computed: true },

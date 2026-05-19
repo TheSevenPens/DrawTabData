@@ -1,4 +1,4 @@
-import type { FieldDef, Step } from "queriton";
+import type { FieldDisplayDef, Step } from "queriton";
 
 export interface InventoryPen {
   PenEntityId: string;
@@ -17,7 +17,7 @@ export interface InventoryPen {
 
 export const INVENTORY_PEN_FIELD_GROUPS = ["Pen", "Acquisition"];
 
-export const INVENTORY_PEN_FIELDS: FieldDef<InventoryPen>[] = [
+export const INVENTORY_PEN_FIELDS: FieldDisplayDef<InventoryPen>[] = [
   { key: "InventoryId", label: "Inventory ID", getValue: (p) => p.InventoryId, type: "string", group: "Pen" },
   { key: "PenEntityId", label: "Pen", getValue: (p) => p.PenEntityId, type: "string", group: "Pen" },
   { key: "Brand", label: "Brand", getValue: (p) => p.Brand, type: "string", group: "Pen" },
