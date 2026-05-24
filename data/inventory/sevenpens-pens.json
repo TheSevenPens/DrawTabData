@@ -1896,6 +1896,45 @@
       "_CreateDate": "2026-04-23T00:00:00.000Z",
       "_ModifiedDate": "2026-04-23T00:00:00.000Z",
       "WithTabletInventoryId": "DIT.0001"
+    },
+    {
+      "PenEntityId": "wacom.pen.acp700",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0075",
+      "Notes": "",
+      "Tags": [],
+      "_id": "d657d106-4e86-4792-ada4-23e8dcd31477",
+      "_CreateDate": "2026-05-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-05-23T00:00:00.000Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "wacom.pen.acp700",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0076",
+      "Notes": "",
+      "Tags": [],
+      "_id": "372cd906-45ba-4b1f-bd1d-01ad1e1c2038",
+      "_CreateDate": "2026-05-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-05-23T00:00:00.000Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "wacom.pen.acp700",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0077",
+      "Notes": "",
+      "Tags": [],
+      "_id": "71490b52-b4c8-4d63-9ee9-bc775c630572",
+      "_CreateDate": "2026-05-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-05-23T00:00:00.000Z",
+      "WithTabletInventoryId": ""
     }
   ]
 }

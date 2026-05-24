@@ -493,6 +493,26 @@
                      "PenTech":  "PASSIVE_EMR"
                  },
                  {
+                     "EntityId":  "wacom.pen.acp700",
+                     "Brand":  "WACOM",
+                     "PenId":  "ACP-700",
+                     "PenName":  "Art Pen 2",
+                     "PenFamily":  "wacom.penfamily.wacom_acp",
+                     "PenYear":  "2026",
+                     "PenTech":  "PASSIVE_EMR",
+                     "ButtonCount":  "2",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "8192",
+                     "Wheel":  "NO",
+                     "Eraser":  "NO",
+                     "Tilt":  "YES",
+                     "BarrelRotation":  "YES",
+                     "Hover":  "YES",
+                     "_id":  "6f7423f5-6bfc-4289-aee7-4c65f764349d",
+                     "_CreateDate":  "2026-05-23T00:00:00.000Z",
+                     "_ModifiedDate":  "2026-05-23T00:00:00.000Z"
+                 },
+                 {
                      "EntityId":  "wacom.pen.kp400e",
                      "Brand":  "WACOM",
                      "PenId":  "KP-400E",

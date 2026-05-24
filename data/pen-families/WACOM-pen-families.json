@@ -87,6 +87,14 @@
       "_id": "fce0a305-6ed0-438d-90d4-bfbbf9ea0c1d",
       "_CreateDate": "2026-05-11T00:00:00Z",
       "_ModifiedDate": "2026-05-11T00:00:00Z"
+    },
+    {
+      "EntityId": "wacom.penfamily.wacom_acp",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom ACP pen series",
+      "_id": "457d8889-8655-4eab-a230-b9ae485d320f",
+      "_CreateDate": "2026-05-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-05-23T00:00:00.000Z"
     }
   ]
 }
