@@ -32,6 +32,19 @@
                       },
                       {
                           "Brand":  "WACOM",
+                          "PenId":  "ACP-700",
+                          "TabletIds":  [
+                                            "DTH-246",
+                                            "DTH-A140",
+                                            "DTK-168",
+                                            "DTK-246",
+                                            "PTK-470",
+                                            "PTK-670",
+                                            "PTK-870"
+                                        ]
+                      },
+                      {
+                          "Brand":  "WACOM",
                           "PenId":  "CP-913",
                           "TabletIds":  [
                                             "CTC-4110WL",
