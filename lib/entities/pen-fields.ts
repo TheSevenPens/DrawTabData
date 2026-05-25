@@ -18,6 +18,35 @@ function resolvePenFamily(id: string): string {
   return penFamilyNames[id] ?? id;
 }
 
+/** Public lookup for the human-readable pen-family name. Returns the
+ * EntityId itself if no map has been wired or the family is unknown,
+ * matching `resolvePenFamily`'s fallback. */
+export function getPenFamilyName(entityId: string): string {
+  return penFamilyNames[entityId] ?? entityId;
+}
+
+// Pages (typically +layout.ts) call setPressureSessionCountByPenEntityId()
+// with a PenEntityId -> count map so the `PressureSessionCount` computed
+// FieldDef reflects how many pressure-response sessions exist for each
+// pen model. Defaults to an empty map so unwired consumers see 0 for
+// every row. Wire this at +layout.ts so every list page inherits accurate
+// values without per-page plumbing.
+let pressureSessionCountByPenEntityId: ReadonlyMap<string, number> = new Map();
+export function setPressureSessionCountByPenEntityId(
+  map: ReadonlyMap<string, number>,
+): void {
+  pressureSessionCountByPenEntityId = map;
+}
+
+// Same pattern for `UnitsInInventory`: PenEntityId -> count of physical
+// units we own of that model. Populated from InventoryPens in +layout.ts.
+let inventoryUnitCountByPenEntityId: ReadonlyMap<string, number> = new Map();
+export function setInventoryUnitCountByPenEntityId(
+  map: ReadonlyMap<string, number>,
+): void {
+  inventoryUnitCountByPenEntityId = map;
+}
+
 /** True when the pen's PenId is already present in its PenName (as the
  * full string or as a whole token). Used to suppress a redundant
  * "(PenId)" suffix when formatting full names like
@@ -70,6 +99,11 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   { key: "PenYear", label: "Year", getValue: (p) => p.PenYear, type: "number", group: "Model" },
   { key: "Notes", label: "Notes", getValue: (p) => p.Notes ?? '', type: "string", group: "Model" },
   { key: "Tags", label: "Tags", getValue: (p) => (p.Tags ?? []).join(', '), type: "string", group: "Model" },
+  {
+    key: "UnitsInInventory", label: "Units in Inventory",
+    computed: true, type: "number", group: "Model",
+    getValue: (p) => String(inventoryUnitCountByPenEntityId.get(p.EntityId) ?? 0),
+  },
   // Sensors
   { key: "PressureSensitive", label: "Pressure Sensitive", getValue: (p) => p.PressureSensitive ?? '', type: "string", group: "Sensors" },
   { key: "PressureLevels", label: "Pressure Levels", getValue: (p) => p.PressureLevels ?? '', type: "number", group: "Sensors" },
@@ -77,6 +111,11 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   { key: "BarrelRotation", label: "Barrel Rotation", getValue: (p) => p.BarrelRotation ?? '', type: "string", group: "Sensors" },
   { key: "Hover", label: "Hover", getValue: (p) => p.Hover ?? '', type: "string", group: "Sensors" },
   { key: "IAF", label: "IAF (gf)", getValue: (p) => p.IAF ?? '', type: "number", group: "Sensors", unit: "gf" },
+  {
+    key: "PressureSessionCount", label: "Pressure Sessions",
+    computed: true, type: "number", group: "Sensors",
+    getValue: (p) => String(pressureSessionCountByPenEntityId.get(p.EntityId) ?? 0),
+  },
   // Controls
   { key: "ButtonCount", label: "Button Count", getValue: (p) => p.ButtonCount ?? '', type: "number", group: "Controls" },
   { key: "Wheel", label: "Wheel", getValue: (p) => p.Wheel ?? '', type: "string", group: "Controls" },
@@ -90,13 +129,13 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
 
 export const PEN_DEFAULT_COLUMNS = [
   "Brand", "PenId", "PenName", "PenFamily", "PenTech", "PenYear",
-  "PressureLevels", "ButtonCount", "Eraser",
+  "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory",
 ];
 
 export const PEN_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["FullName", "PenFamily", "PenYear", "PenTech", "PressureLevels", "ButtonCount", "Eraser"],
+    fields: ["FullName", "PenFamily", "PenYear", "PenTech", "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory"],
   },
   { kind: "sort", field: "PenId", direction: "asc" },
 ];
