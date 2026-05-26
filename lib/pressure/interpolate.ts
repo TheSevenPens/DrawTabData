@@ -68,17 +68,41 @@ const THRESHOLD = 0.5;
  * Estimate the physical force at which logical pressure first rises
  * above 0% (Initial Activation Force / P00).
  *
- * Spring model: imagining a ball rolling backward from the first
- * measured point, its deceleration is proportional to its remaining
- * distance from 0%. This gives exponential decay as x decreases:
+ * Two-branch algorithm:
  *
- *   y(x) = y_first · exp(k · (x − x_first))   for x < x_first
+ * 1. **Bracket midpoint** — preferred when the session explicitly captured
+ *    the activation transition. Let
+ *      A = max(x) over records with y ≤ 0
+ *      B = min(x) over records with y > 0
+ *    If both exist and A < B, the pen activated somewhere in (A, B] and
+ *    P00 = (A + B) / 2 is the best we can say without finer sampling.
  *
- * P00 is the x where y drops to 0.5%.
+ * 2. **Spring-decay extrapolation** — fallback when there's no clean
+ *    0% → non-0% bracket (e.g. the curve already starts at 30%).
+ *    Imagining a ball rolling backward from the first measured point,
+ *    its deceleration is proportional to its remaining distance from
+ *    0%, giving exponential decay as x decreases:
+ *      y(x) = y_first · exp(k · (x − x_first))   for x < x_first
+ *    P00 is the x where y drops to 0.5%.
  */
 export function estimateP00(records: readonly PressureRecord[]): number | null {
   if (records.length === 0) return null;
-  if (records[0][1] <= 0) return records[0][0];
+
+  // --- Branch 1: bracket midpoint ---
+  let aMax: number | null = null; // highest x where y ≤ 0
+  let bMin: number | null = null; // lowest  x where y > 0
+  for (const [x, y] of records) {
+    if (y <= 0) {
+      if (aMax === null || x > aMax) aMax = x;
+    } else {
+      if (bMin === null || x < bMin) bMin = x;
+    }
+  }
+  if (aMax !== null && bMin !== null && aMax < bMin) {
+    return (aMax + bMin) / 2;
+  }
+
+  // --- Branch 2: spring-decay extrapolation ---
   if (records.length < 2) return null;
 
   const allSlopes = computeSlopes(records);
@@ -104,13 +128,41 @@ export function estimateP00(records: readonly PressureRecord[]): number | null {
  * Estimate the physical force at which logical pressure reaches 100%
  * (Maximum Force / P100).
  *
- * Spring model: the remaining gap r = 100 − y decays proportionally
- * to itself as x increases. P100 is the x where r drops to 0.5%.
+ * Two-branch algorithm — mirrors `estimateP00`:
+ *
+ * 1. **Bracket midpoint** — preferred when the session explicitly captured
+ *    the saturation transition. Let
+ *      C = max(x) over records with y < 100
+ *      D = min(x) over records with y ≥ 100
+ *    If both exist and C < D, the pen saturated somewhere in (C, D] and
+ *    P100 = (C + D) / 2.
+ *
+ * 2. **Spring-decay extrapolation** — fallback when there's no clean
+ *    non-100% → 100% bracket (e.g. the curve stops at 80%). The
+ *    remaining gap r = 100 − y decays proportionally to itself as x
+ *    increases; P100 is the x where r drops to 0.5%.
  */
 export function estimateP100(records: readonly PressureRecord[]): number | null {
+  if (records.length === 0) return null;
+
+  // --- Branch 1: bracket midpoint ---
+  let cMax: number | null = null; // highest x where y < 100
+  let dMin: number | null = null; // lowest  x where y ≥ 100
   for (const [x, y] of records) {
-    if (y >= 100) return x;
+    if (y >= 100) {
+      if (dMin === null || x < dMin) dMin = x;
+    } else {
+      if (cMax === null || x > cMax) cMax = x;
+    }
   }
+  if (cMax !== null && dMin !== null && cMax < dMin) {
+    return (cMax + dMin) / 2;
+  }
+  // Saturated-only sessions (no y < 100) keep the legacy "first saturated x"
+  // behaviour: return the lowest-force record that reads as fully pressed.
+  if (cMax === null && dMin !== null) return dMin;
+
+  // --- Branch 2: spring-decay extrapolation ---
   if (records.length < 2) return null;
 
   const allSlopes = computeSlopes(records);

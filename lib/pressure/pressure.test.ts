@@ -128,26 +128,30 @@ describe("estimateP00", () => {
     expect(estimateP00([])).toBeNull();
   });
 
-  it("returns the first x when the first y is already ≤ 0", () => {
-    // A session that already records 0% pressure → P00 is the first x.
-    expect(estimateP00([[3, 0], [5, 50]])).toBe(3);
-    expect(estimateP00([[3, -1], [5, 50]])).toBe(3);
+  it("returns midpoint of last-zero and first-nonzero when the session brackets activation", () => {
+    // P00 sits between the highest-force 0% sample and the lowest-force non-0% sample.
+    expect(estimateP00([[3, 0], [5, 50]])).toBe(4);
+    expect(estimateP00([[3, -1], [5, 50]])).toBe(4);
   });
 
-  it("returns null when only one record is supplied (no slope to fit)", () => {
-    expect(estimateP00([[10, 50]])).toBeNull();
+  it("picks the WIDEST 0%-to-non-0% bracket (max-A and min-B across all records)", () => {
+    // Several 0% samples then several non-0%: A = highest-force 0%,
+    // B = lowest-force non-0%. Records intentionally out-of-order to
+    // verify the scan doesn't assume sorted input.
+    const records: PressureRecord[] = [
+      [5, 0],
+      [9.2, 0], // ← A (last 0%)
+      [0.3, 0],
+      [9.6, 0.01], // ← B (first non-0%)
+      [12, 50],
+      [20, 100],
+    ];
+    expect(estimateP00(records)).toBeCloseTo(9.4, 10); // (9.2 + 9.6) / 2
   });
 
-  it("returns xFirst when the first y is already at-or-below the threshold (0.5%)", () => {
-    // yFirst ≤ THRESHOLD → no extrapolation needed; the first x already
-    // satisfies the activation criterion.
-    expect(estimateP00([[8, 0.3], [10, 50]])).toBe(8);
-    expect(estimateP00([[8, 0.5], [10, 50]])).toBe(8);
-  });
-
-  it("extrapolates backward when first y is well above threshold", () => {
-    // Steady-state increasing data → P00 should fall somewhere before xFirst
-    // and ≥ 0 (the function clamps negatives to 0).
+  it("falls back to spring-decay when there's no 0%-to-non-0% bracket", () => {
+    // No samples at y ≤ 0 → the new bracket branch can't fire, so the
+    // existing spring-decay extrapolation runs as before.
     const records: PressureRecord[] = [
       [10, 20],
       [12, 40],
@@ -161,7 +165,23 @@ describe("estimateP00", () => {
     expect(p00!).toBeLessThan(10);
   });
 
-  it("clamps extrapolated p00 to 0 if the model predicts a negative", () => {
+  it("returns null when only one record is supplied (no bracket, no slope to fit)", () => {
+    expect(estimateP00([[10, 50]])).toBeNull();
+  });
+
+  it("returns null when every record sits at 0% (no first-non-zero to bracket against)", () => {
+    // All-zero sessions can't estimate activation — we know the pen hasn't
+    // activated by max(x), but we don't know how far above that it would.
+    expect(estimateP00([[3, 0], [5, 0]])).toBeNull();
+  });
+
+  it("returns xFirst when the first y is already at-or-below the threshold (0.5%)", () => {
+    // No 0% samples → spring-decay branch. yFirst ≤ THRESHOLD short-circuits to xFirst.
+    expect(estimateP00([[8, 0.3], [10, 50]])).toBe(8);
+    expect(estimateP00([[8, 0.5], [10, 50]])).toBe(8);
+  });
+
+  it("clamps extrapolated p00 to 0 if the spring-decay model predicts a negative", () => {
     // A nearly-flat slope with a high yFirst forces p00 far below 0;
     // the function caps it at 0 to keep the chart axis sane.
     const records: PressureRecord[] = [
@@ -176,23 +196,37 @@ describe("estimateP00", () => {
 });
 
 describe("estimateP100", () => {
-  it("returns the first x where y ≥ 100", () => {
-    expect(estimateP100([[0, 0], [10, 100]])).toBe(10);
-    expect(estimateP100([[0, 0], [10, 105]])).toBe(10);
-  });
-
-  it("returns null on empty / single-record inputs that don't reach 100", () => {
+  it("returns null on empty input", () => {
     expect(estimateP100([])).toBeNull();
-    expect(estimateP100([[5, 50]])).toBeNull();
   });
 
-  it("returns xLast when the gap to 100 is already at-or-below the threshold", () => {
-    // 100 - yLast ≤ 0.5 → no extrapolation.
-    expect(estimateP100([[0, 0], [10, 99.7]])).toBe(10);
-    expect(estimateP100([[0, 0], [10, 99.5]])).toBe(10);
+  it("returns midpoint of last-non-100 and first-saturated when the session brackets saturation", () => {
+    // P100 sits between the last record below 100% and the first record at-or-above 100%.
+    expect(estimateP100([[0, 0], [8, 80], [10, 100]])).toBe(9); // (8 + 10) / 2
+    expect(estimateP100([[0, 0], [8, 80], [10, 105]])).toBe(9); // y ≥ 100 counts as saturated
   });
 
-  it("extrapolates forward when the gap is meaningful", () => {
+  it("picks the WIDEST non-100-to-saturated bracket (max-C and min-D across all records)", () => {
+    // Mixed order — verify the scan finds max(x where y<100) and min(x where y>=100).
+    const records: PressureRecord[] = [
+      [10, 100],
+      [5, 50],
+      [12, 100],
+      [9, 99.9], // ← C (last sub-100)
+      [8, 80],
+      [11, 100], // 11 > 10, so D stays at 10
+    ];
+    expect(estimateP100(records)).toBeCloseTo(9.5, 10); // (9 + 10) / 2
+  });
+
+  it("returns the lowest saturated x when every record is already at-or-above 100%", () => {
+    // No sub-100 samples → no bracket midpoint, but we still know the
+    // pen had saturated by the lowest recorded force. Preserves the
+    // pre-bracket-logic behaviour for saturated-only sessions.
+    expect(estimateP100([[8, 100], [10, 100], [12, 105]])).toBe(8);
+  });
+
+  it("falls back to spring-decay when the curve never reaches 100%", () => {
     // Records stop at 80%; the model extrapolates to where y would reach 100.
     const records: PressureRecord[] = [
       [10, 20],
@@ -203,6 +237,16 @@ describe("estimateP100", () => {
     const p100 = estimateP100(records);
     expect(p100).not.toBeNull();
     expect(p100!).toBeGreaterThan(16);
+  });
+
+  it("returns null on single-record inputs that don't reach 100", () => {
+    expect(estimateP100([[5, 50]])).toBeNull();
+  });
+
+  it("returns xLast when the gap to 100 is already at-or-below the threshold", () => {
+    // 100 - yLast ≤ 0.5 → no extrapolation.
+    expect(estimateP100([[0, 0], [10, 99.7]])).toBe(10);
+    expect(estimateP100([[0, 0], [10, 99.5]])).toBe(10);
   });
 
   it("rejects unphysical extrapolations more than 4× xLast as null", () => {
