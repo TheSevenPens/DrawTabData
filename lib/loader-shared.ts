@@ -8,7 +8,7 @@ import type { PenCompatGrouped } from "./schemas.js";
 // attempt all BRANDS and silently skip files that don't exist (404 on URL,
 // missing on disk). To add a new brand, add it here and ship its JSON files;
 // no other list updates required.
-export const BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "GAOMON", "HUION", "SAMSUNG", "STAEDTLER", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
+export const BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "GAOMON", "HUION", "LAMY", "SAMSUNG", "STAEDTLER", "UGEE", "WACOM", "XENCELABS", "XPPEN"];
 
 export type { PenCompatGrouped };
 

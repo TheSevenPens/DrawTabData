@@ -1929,6 +1929,19 @@
       "_CreateDate": "2026-05-23T00:00:00.000Z",
       "_ModifiedDate": "2026-05-23T00:00:00.000Z",
       "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "lamy.pen.l471",
+      "Brand": "LAMY",
+      "PenTech": "EMR",
+      "PenTechSubtype": "UD-EMR",
+      "InventoryId": "LAP.0001",
+      "Notes": "",
+      "Tags": [],
+      "_id": "b38122f1-449e-4032-b1dc-b551bb3518df",
+      "_CreateDate": "2026-05-25T00:00:00.000Z",
+      "_ModifiedDate": "2026-05-25T00:00:00.000Z",
+      "WithTabletInventoryId": ""
     }
   ]
 }

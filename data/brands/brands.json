@@ -119,6 +119,16 @@
                        "_id":  "e22968c6-3d18-4c43-9aa7-712d3402d724",
                        "_CreateDate":  "2026-04-20T00:00:00.000Z",
                        "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                   },
+                   {
+                       "EntityId":  "lamy",
+                       "BrandId":  "LAMY",
+                       "BrandName":  "Lamy",
+                       "SiteURL":  "lamy.com",
+                       "Country":  "Germany",
+                       "_id":  "e3d46ce7-98db-4183-a5d8-d3ec79989dcd",
+                       "_CreateDate":  "2026-05-25T00:00:00.000Z",
+                       "_ModifiedDate":  "2026-05-25T00:00:00.000Z"
                    }
                ]
 }
