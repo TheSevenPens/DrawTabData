@@ -11,7 +11,13 @@ import { sessionEntityId } from './session-id.js';
 
 export interface NonMonotonicSession {
   session: PressureResponse;
-  firstDrop: { index: number; from: number; to: number };
+  firstDrop: {
+    /** Which axis dropped at this index. */
+    axis: 'logical' | 'force';
+    index: number;
+    from: number;
+    to: number;
+  };
 }
 
 export interface PenAggregate {
@@ -42,9 +48,15 @@ export interface RemeasureRecommendation extends PenAggregate {
 }
 
 /**
- * Sessions where logical pressure (y) drops at any point as physical
- * pressure (x) increases. A valid session is monotonically
- * non-decreasing on the logical axis.
+ * Sessions whose records are non-monotonic on EITHER axis: logical
+ * pressure (y) drops, or physical force (x) drops as the array
+ * progresses. Both are signs of out-of-order records — the chart
+ * draws a backtracking line and the interpolation walk can return
+ * wrong results.
+ *
+ * Returns the FIRST drop on either axis, with an `axis` discriminator
+ * so callers can render the right unit. If both axes drop in the same
+ * session, the earliest-indexed drop wins.
  */
 export function findNonMonotonicSessions(
   sessions: readonly PressureResponse[],
@@ -52,23 +64,24 @@ export function findNonMonotonicSessions(
   const out: NonMonotonicSession[] = [];
   for (const s of sessions) {
     const records = s.Records;
-    let maxSeen = -Infinity;
-    let dropIndex = -1;
-    let dropFrom = 0;
-    let dropTo = 0;
+    let maxX = -Infinity;
+    let maxY = -Infinity;
+    let drop: NonMonotonicSession['firstDrop'] | null = null;
     for (let i = 0; i < records.length; i++) {
+      const x = records[i][0];
       const y = records[i][1];
-      if (y < maxSeen) {
-        dropIndex = i;
-        dropFrom = maxSeen;
-        dropTo = y;
+      if (y < maxY) {
+        drop = { axis: 'logical', index: i, from: maxY, to: y };
         break;
       }
-      if (y > maxSeen) maxSeen = y;
+      if (x < maxX) {
+        drop = { axis: 'force', index: i, from: maxX, to: x };
+        break;
+      }
+      if (y > maxY) maxY = y;
+      if (x > maxX) maxX = x;
     }
-    if (dropIndex >= 0) {
-      out.push({ session: s, firstDrop: { index: dropIndex, from: dropFrom, to: dropTo } });
-    }
+    if (drop !== null) out.push({ session: s, firstDrop: drop });
   }
   return out;
 }

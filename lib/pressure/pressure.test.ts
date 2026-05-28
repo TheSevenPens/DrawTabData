@@ -401,7 +401,25 @@ describe("findNonMonotonicSessions", () => {
     const result = findNonMonotonicSessions([dropping, clean]);
     expect(result).toHaveLength(1);
     expect(result[0].session).toBe(dropping);
-    expect(result[0].firstDrop).toEqual({ index: 2, from: 50, to: 40 });
+    expect(result[0].firstDrop).toEqual({ axis: "logical", index: 2, from: 50, to: 40 });
+  });
+
+  it("flags sessions whose physical force x drops as the array progresses", () => {
+    // Mirrors the real-world case from WAP.0025 / 2025-04-05: a record's
+    // physical-force value sits below the running max from an earlier
+    // record, even though logical pressure is still increasing.
+    const session = makeSession({
+      Records: [
+        [0, 0],
+        [10, 50],
+        [20, 90],
+        [18, 95], // x drops 20 -> 18 (y still increasing)
+        [25, 100],
+      ],
+    });
+    const result = findNonMonotonicSessions([session]);
+    expect(result).toHaveLength(1);
+    expect(result[0].firstDrop).toEqual({ axis: "force", index: 3, from: 20, to: 18 });
   });
 
   it("reports only the FIRST drop in a session", () => {
@@ -417,14 +435,47 @@ describe("findNonMonotonicSessions", () => {
     const result = findNonMonotonicSessions([session]);
     expect(result).toHaveLength(1);
     expect(result[0].firstDrop.index).toBe(2);
+    expect(result[0].firstDrop.axis).toBe("logical");
   });
 
-  it("treats equal-y as monotonic (≥, not strictly >)", () => {
+  it("when both axes drop in the same session, reports whichever happens first", () => {
+    // Logical drop at index 2, force drop at index 4. Logical wins because
+    // the scan stops at the earliest drop.
+    const yFirst = makeSession({
+      Records: [
+        [0, 0],
+        [5, 50],
+        [10, 40], // logical drop
+        [15, 60],
+        [12, 70], // force drop, never reached
+      ],
+    });
+    const r1 = findNonMonotonicSessions([yFirst]);
+    expect(r1[0].firstDrop.axis).toBe("logical");
+    expect(r1[0].firstDrop.index).toBe(2);
+
+    // Mirror: force drop comes first.
+    const xFirst = makeSession({
+      Records: [
+        [0, 0],
+        [10, 30],
+        [8, 40], // force drop
+        [12, 50],
+        [15, 40], // logical drop, never reached
+      ],
+    });
+    const r2 = findNonMonotonicSessions([xFirst]);
+    expect(r2[0].firstDrop.axis).toBe("force");
+    expect(r2[0].firstDrop.index).toBe(2);
+  });
+
+  it("treats equal values as monotonic on both axes (≥, not strictly >)", () => {
     const flat = makeSession({
       Records: [
         [0, 0],
         [5, 50],
-        [10, 50], // plateau, not a drop
+        [10, 50], // logical plateau, not a drop
+        [10, 70], // force plateau, not a drop
         [15, 100],
       ],
     });
