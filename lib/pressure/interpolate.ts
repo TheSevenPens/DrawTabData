@@ -61,6 +61,10 @@ function weightedVelocity(slopes: readonly number[]): number | null {
   return slopes.reduce((sum, v, i) => sum + v * weights[i], 0) / sumW;
 }
 
+// TODO(#212): the spring-decay branches of estimateP00 and estimateP100
+// are slated for removal. N_SLOPES, THRESHOLD, computeSlopes, and
+// weightedVelocity will go with them. The bracket-midpoint branch and
+// the P100 saturated-only fallback stay.
 const N_SLOPES = 4;
 const THRESHOLD = 0.5;
 
