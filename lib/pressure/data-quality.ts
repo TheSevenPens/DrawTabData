@@ -88,8 +88,11 @@ export function findNonMonotonicSessions(
 
 /**
  * Pens whose lowest observed logical % across all sessions is still
- * above `threshold`. Such pens may have missed the activation
- * threshold, making P00 (IAF) estimates unreliable.
+ * above `threshold`. Post-#212 (spring-decay removed): if the lowest
+ * sample is above 0 %, `estimateP00` returns `null` for every session
+ * of this pen, so IAF goes unreported on every chart and table. The
+ * default `threshold = 0.5` adds a small slack so sessions whose
+ * lowest sample is essentially-zero (e.g. y = 0.1) aren't flagged.
  */
 export function findMissingLowEnd(
   sessions: readonly PressureResponse[],

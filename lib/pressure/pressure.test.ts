@@ -149,9 +149,11 @@ describe("estimateP00", () => {
     expect(estimateP00(records)).toBeCloseTo(9.4, 10); // (9.2 + 9.6) / 2
   });
 
-  it("falls back to spring-decay when there's no 0%-to-non-0% bracket", () => {
-    // No samples at y ≤ 0 → the new bracket branch can't fire, so the
-    // existing spring-decay extrapolation runs as before.
+  it("returns null when there's no 0%-to-non-0% bracket", () => {
+    // No samples at y ≤ 0 → the bracket branch can't fire. The
+    // spring-decay extrapolation that previously filled this gap was
+    // removed in issue #212; sessions without an activation sample now
+    // report null so the UI surfaces "no estimate available".
     const records: PressureRecord[] = [
       [10, 20],
       [12, 40],
@@ -159,13 +161,10 @@ describe("estimateP00", () => {
       [16, 80],
       [18, 100],
     ];
-    const p00 = estimateP00(records);
-    expect(p00).not.toBeNull();
-    expect(p00!).toBeGreaterThanOrEqual(0);
-    expect(p00!).toBeLessThan(10);
+    expect(estimateP00(records)).toBeNull();
   });
 
-  it("returns null when only one record is supplied (no bracket, no slope to fit)", () => {
+  it("returns null when only one record is supplied (no bracket)", () => {
     expect(estimateP00([[10, 50]])).toBeNull();
   });
 
@@ -173,25 +172,6 @@ describe("estimateP00", () => {
     // All-zero sessions can't estimate activation — we know the pen hasn't
     // activated by max(x), but we don't know how far above that it would.
     expect(estimateP00([[3, 0], [5, 0]])).toBeNull();
-  });
-
-  it("returns xFirst when the first y is already at-or-below the threshold (0.5%)", () => {
-    // No 0% samples → spring-decay branch. yFirst ≤ THRESHOLD short-circuits to xFirst.
-    expect(estimateP00([[8, 0.3], [10, 50]])).toBe(8);
-    expect(estimateP00([[8, 0.5], [10, 50]])).toBe(8);
-  });
-
-  it("clamps extrapolated p00 to 0 if the spring-decay model predicts a negative", () => {
-    // A nearly-flat slope with a high yFirst forces p00 far below 0;
-    // the function caps it at 0 to keep the chart axis sane.
-    const records: PressureRecord[] = [
-      [5, 50],
-      [5.0001, 50.0001],
-    ];
-    const p00 = estimateP00(records);
-    // Either null (degenerate slopes) or clamped to 0 — both are
-    // valid here; the contract is "no negative output".
-    if (p00 !== null) expect(p00).toBeGreaterThanOrEqual(0);
   });
 });
 
@@ -226,37 +206,28 @@ describe("estimateP100", () => {
     expect(estimateP100([[8, 100], [10, 100], [12, 105]])).toBe(8);
   });
 
-  it("falls back to spring-decay when the curve never reaches 100%", () => {
-    // Records stop at 80%; the model extrapolates to where y would reach 100.
+  it("returns null when the curve never reaches 100%", () => {
+    // Records stop at 80%. Without a y ≥ 100 sample the bracket branch
+    // can't fire, and the spring-decay extrapolation that previously
+    // filled this gap was removed in issue #212.
     const records: PressureRecord[] = [
       [10, 20],
       [12, 40],
       [14, 60],
       [16, 80],
     ];
-    const p100 = estimateP100(records);
-    expect(p100).not.toBeNull();
-    expect(p100!).toBeGreaterThan(16);
+    expect(estimateP100(records)).toBeNull();
   });
 
   it("returns null on single-record inputs that don't reach 100", () => {
     expect(estimateP100([[5, 50]])).toBeNull();
   });
 
-  it("returns xLast when the gap to 100 is already at-or-below the threshold", () => {
-    // 100 - yLast ≤ 0.5 → no extrapolation.
-    expect(estimateP100([[0, 0], [10, 99.7]])).toBe(10);
-    expect(estimateP100([[0, 0], [10, 99.5]])).toBe(10);
-  });
-
-  it("rejects unphysical extrapolations more than 4× xLast as null", () => {
-    // A near-zero positive slope at the end → extrapolation would say
-    // "P100 is at infinity"; the function clamps that to null.
-    const records: PressureRecord[] = [
-      [10, 5],
-      [11, 5.01],
-    ];
-    expect(estimateP100(records)).toBeNull();
+  it("returns null when the curve is close to 100% but doesn't cross it", () => {
+    // Pre-#212 a 0.5% gap-to-100 short-circuited to xLast; post-#212 we
+    // require an actual y ≥ 100 sample (or the saturated-only fallback).
+    expect(estimateP100([[0, 0], [10, 99.7]])).toBeNull();
+    expect(estimateP100([[0, 0], [10, 99.5]])).toBeNull();
   });
 });
 
