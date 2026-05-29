@@ -9,7 +9,7 @@
       "_ModifiedDate": "2026-05-10T00:00:00Z"
     },
     {
-      "EntityId": "wacom.penfamily.wacom_kpgen3",
+      "EntityId": "wacom.penfamily.wacom_acp",
       "Brand": "WACOM",
       "FamilyName": "Wacom Pro Pen GEN3 ACP pen series",
       "_id": "334dd637-7ef3-4c66-b4a9-5369d26e9db7",
@@ -19,7 +19,7 @@
     {
       "EntityId": "wacom.penfamily.wacom_kpgen2",
       "Brand": "WACOM",
-      "FamilyName": "Wacom Pro Pen GEN2 KP pen series",
+      "FamilyName": "Wacom KP GEN2 pen series",
       "_id": "1fb4af50-b9b0-48b0-b235-601ad4672bc8",
       "_CreateDate": "2026-04-01T09:11:12Z",
       "_ModifiedDate": "2026-04-21T00:00:00Z"
@@ -27,7 +27,7 @@
     {
       "EntityId": "wacom.penfamily.wacom_kpgen1",
       "Brand": "WACOM",
-      "FamilyName": "Wacom Pro Pen GEN1 KP pen series",
+      "FamilyName": "Wacom KP GEN1 pen series",
       "_id": "bd8b51e6-f836-4e21-9240-c193cd6315ee",
       "_CreateDate": "2026-04-01T09:11:12Z",
       "_ModifiedDate": "2026-04-21T00:00:00Z"
@@ -65,17 +65,17 @@
       "_ModifiedDate": "2026-04-21T00:00:00Z"
     },
     {
-      "EntityId": "wacom.penfamily.wacom_bamboo",
+      "EntityId": "wacom.penfamily.wacom_ep",
       "Brand": "WACOM",
-      "FamilyName": "Wacom Bamboo pens",
+      "FamilyName": "Wacom EP pen series",
       "_id": "20299e8c-e8e3-48d4-8929-c960aca47785",
       "_CreateDate": "2026-04-01T18:06:28Z",
       "_ModifiedDate": "2026-04-21T00:00:00Z"
     },
     {
-      "EntityId": "wacom.penfamily.wacom_oneudemr",
+      "EntityId": "wacom.penfamily.wacom_cp",
       "Brand": "WACOM",
-      "FamilyName": "Wacom One UD EMR pens",
+      "FamilyName": "Wacom CP series",
       "_id": "b6dcdfb1-d31a-417c-b0e0-e85b0a771815",
       "_CreateDate": "2026-04-28T00:00:00.000Z",
       "_ModifiedDate": "2026-04-28T00:00:00.000Z"
@@ -87,6 +87,14 @@
       "_id": "fce0a305-6ed0-438d-90d4-bfbbf9ea0c1d",
       "_CreateDate": "2026-05-11T00:00:00Z",
       "_ModifiedDate": "2026-05-11T00:00:00Z"
+    },
+    {
+      "EntityId": "wacom.penfamily.wacom_lp",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom LP pen series",
+      "_id": "80bb646f-e554-407c-81a5-c8f403626b51",
+      "_CreateDate": "2026-05-29T00:00:00Z",
+      "_ModifiedDate": "2026-05-29T00:00:00Z"
     }
   ]
 }
