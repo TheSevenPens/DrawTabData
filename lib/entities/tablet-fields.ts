@@ -57,6 +57,18 @@ export function tabletNameAndId(tablet: Tablet): string {
     : `${tablet.Model.Name} (${tablet.Model.Id})`;
 }
 
+// Pages (typically +layout.ts) call setInventoryUnitCountByTabletEntityId()
+// with a TabletEntityId -> count map so the `UnitsInInventory` computed
+// FieldDef shows how many physical units we own of each model. Mirrors the
+// equivalent pattern on Pens (see pen-fields.ts). Defaults to an empty map
+// so unwired consumers see 0 for every row.
+let inventoryUnitCountByTabletEntityId: ReadonlyMap<string, number> = new Map();
+export function setInventoryUnitCountByTabletEntityId(
+  map: ReadonlyMap<string, number>,
+): void {
+  inventoryUnitCountByTabletEntityId = map;
+}
+
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
 
 export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
@@ -94,6 +106,11 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "ModelProductLink", label: "Product Link", getValue: (t) => t.Model.ProductLink ?? "", type: "string", group: "Model" },
   { key: "ModelUserManual", label: "User Manual", getValue: (t) => t.Model.UserManual ?? "", type: "string", group: "Model" },
   { key: "ModelNotes", label: "Notes", getValue: (t) => t.Model.Notes ?? "", type: "string", group: "Model" },
+  {
+    key: "UnitsInInventory", label: "Units in Inventory",
+    computed: true, type: "number", group: "Model",
+    getValue: (t) => String(inventoryUnitCountByTabletEntityId.get(t.Meta.EntityId) ?? 0),
+  },
   // Digitizer
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.Digitizer?.Type ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
   { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.Digitizer?.PressureLevels ?? "", type: "number", group: "Digitizer" },
@@ -323,7 +340,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
 export const TABLET_DEFAULT_COLUMNS = [
   "EntityId", "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
   "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions",
-  "DisplayPixelDimensions", "PhysicalWeight", "ModelStatus",
+  "DisplayPixelDimensions", "PhysicalWeight", "ModelStatus", "UnitsInInventory",
 ];
 
 export const TABLET_DEFAULT_VIEW: Step[] = [
@@ -331,7 +348,7 @@ export const TABLET_DEFAULT_VIEW: Step[] = [
     kind: "select",
     fields: [
       "Brand", "NameAndModelId", "AlternateNames", "ModelType", "ModelLaunchYear",
-      "DigitizerDiagonal", "ModelIncludedPen",
+      "DigitizerDiagonal", "ModelIncludedPen", "UnitsInInventory",
     ],
   },
   { kind: "sort", field: "Brand", direction: "asc" },
