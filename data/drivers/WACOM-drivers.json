@@ -2549,6 +2549,34 @@
                         "_ModifiedDate":  "2026-04-16T00:00:00.000Z"
                     },
                     {
+                        "DriverVersion":  "6.4.13-4",
+                        "OSFamily":  "WINDOWS",
+                        "ReleaseDate":  "2026-04-28",
+                        "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.13-4.exe",
+                        "DriverURLArchiveDotOrg":  "",
+                        "ReleaseNotesURL":  "https://cdn.wacom.com/u/productsupport/drivers/win/professional/releasenotes/Windows_6.4.13-4.html",
+                        "DriverUID":  "6.4.13-4_WINDOWS",
+                        "Brand":  "WACOM",
+                        "EntityId":  "wacom.driver.6.4.13-4_windows",
+                        "_id":  "1cf11190-3572-49d9-8b0c-ba00a316a0ba",
+                        "_CreateDate":  "2026-06-01T22:50:24.000Z",
+                        "_ModifiedDate":  "2026-06-01T22:50:24.000Z"
+                    },
+                    {
+                        "DriverVersion":  "6.4.13-4",
+                        "OSFamily":  "MACOS",
+                        "ReleaseDate":  "2026-04-28",
+                        "DriverURLWacom":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.13-4.dmg",
+                        "DriverURLArchiveDotOrg":  "",
+                        "ReleaseNotesURL":  "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/releasenotes/Mac_6.4.13-4.html",
+                        "DriverUID":  "6.4.13-4_MACOS",
+                        "Brand":  "WACOM",
+                        "EntityId":  "wacom.driver.6.4.13-4_macos",
+                        "_id":  "a61fcc02-e41b-4787-aa37-4ec998f2fde2",
+                        "_CreateDate":  "2026-06-01T22:50:24.000Z",
+                        "_ModifiedDate":  "2026-06-01T22:50:24.000Z"
+                    },
+                    {
                         "DriverVersion":  "4.95-6",
                         "OSFamily":  "WINDOWS",
                         "ReleaseDate":  "",
