@@ -81,11 +81,36 @@ function New-DriverEntry {
         ReleaseNotesURL        = "https://cdn.wacom.com/u/productsupport/drivers/$osLower/professional/releasenotes/${osLabel}_$DriverVersion.html"
         DriverUID              = "${DriverVersion}_$OSFamily"
         Brand                  = "WACOM"
-        EntityId               = "WACOM.DRIVER.${DriverVersion}_$OSFamily"
+        EntityId               = ("wacom.driver.${DriverVersion}_$OSFamily").ToLower()
         _id                    = [guid]::NewGuid().ToString()
         _CreateDate            = $now
         _ModifiedDate          = $now
     }
+}
+
+# Render an entry hashtable as a text block matching the file's existing
+# PowerShell wide-indent format (20-space braces, 24-space fields, two
+# spaces after each colon). Used by the format-preserving splice below
+# instead of ConvertTo-Json, which would reflow the whole file under
+# PowerShell 7. The closing "@ MUST stay at column 0.
+function Format-DriverEntryText {
+    param($e)
+    return @"
+                    {
+                        "DriverVersion":  "$($e.DriverVersion)",
+                        "OSFamily":  "$($e.OSFamily)",
+                        "ReleaseDate":  "$($e.ReleaseDate)",
+                        "DriverURLWacom":  "$($e.DriverURLWacom)",
+                        "DriverURLArchiveDotOrg":  "$($e.DriverURLArchiveDotOrg)",
+                        "ReleaseNotesURL":  "$($e.ReleaseNotesURL)",
+                        "DriverUID":  "$($e.DriverUID)",
+                        "Brand":  "$($e.Brand)",
+                        "EntityId":  "$($e.EntityId)",
+                        "_id":  "$($e._id)",
+                        "_CreateDate":  "$($e._CreateDate)",
+                        "_ModifiedDate":  "$($e._ModifiedDate)"
+                    }
+"@
 }
 
 $entriesToAdd = @()
@@ -138,30 +163,46 @@ if ($DryRun) {
     exit 0
 }
 
-# --- Update WACOM-drivers.json ---
-Write-Host "Updating WACOM-drivers.json..." -ForegroundColor Cyan
+# --- Update WACOM-drivers.json (format-preserving text splice) ---
+#
+# We insert the new entries as text rather than re-serialising the whole
+# file via ConvertTo-Json. Under PowerShell 7, ConvertTo-Json reflows the
+# entire file out of the original wide-indent format (a huge spurious
+# diff), so instead we splice the formatted entry blocks in right after
+# the last existing 6.4.x entry, leaving every other byte untouched.
+Write-Host "Updating WACOM-drivers.json (format-preserving splice)..." -ForegroundColor Cyan
 
-$driverList = [System.Collections.ArrayList]@($data.Drivers)
+# Read raw and detect the file's existing newline style. We must NOT
+# normalise it — WACOM-drivers.json is committed with CRLF, and rewriting
+# it as LF would flip every line (a whole-file diff). The spliced block is
+# rendered with the same newline so only the new lines appear in the diff.
+$text = [System.IO.File]::ReadAllText($jsonPath)
+$nl = if ($text.Contains("`r`n")) { "`r`n" } else { "`n" }
 
+# Anchor: the closing "}," of the last existing 6.4.x entry.
+$dvMatches = [regex]::Matches($text, '"DriverVersion":\s*"6\.4\.[^"]*"')
+if ($dvMatches.Count -eq 0) {
+    Write-Error "No existing 6.4.x entry found to anchor the insertion."
+    exit 1
+}
+$lastDvIdx = $dvMatches[$dvMatches.Count - 1].Index
+$closeMarker = $nl + (' ' * 20) + "},"
+$closeIdx = $text.IndexOf($closeMarker, $lastDvIdx)
+if ($closeIdx -lt 0) {
+    Write-Error "Could not locate the closing '},' of the last 6.4.x entry (is it the final array element?)."
+    exit 1
+}
+$insertAt = $closeIdx + $closeMarker.Length   # just past the comma
+
+$insertText = ""
 foreach ($entry in $entries) {
-    # Insert after the last 6.4.x entry
-    $lastIdx = -1
-    for ($i = 0; $i -lt $driverList.Count; $i++) {
-        if ($driverList[$i].DriverVersion -match '^6\.4\.') {
-            $lastIdx = $i
-        }
-    }
-    if ($lastIdx -ge 0) {
-        $driverList.Insert($lastIdx + 1, $entry)
-    } else {
-        $driverList.Add($entry) | Out-Null
-    }
+    # Render the block, then force it to the file's own newline style.
+    $block = ((Format-DriverEntryText $entry) -replace "`r`n", "`n") -replace "`n", $nl
+    $insertText += $nl + $block + ","
 }
 
-$data.Drivers = $driverList.ToArray()
-$json = $data | ConvertTo-Json -Depth 10
-$json = $json -replace "`r`n", "`n"
-[System.IO.File]::WriteAllText($jsonPath, $json, [System.Text.UTF8Encoding]::new($false))
+$newText = $text.Substring(0, $insertAt) + $insertText + $text.Substring($insertAt)
+[System.IO.File]::WriteAllText($jsonPath, $newText, [System.Text.UTF8Encoding]::new($false))
 
 Write-Host "  Updated $jsonPath" -ForegroundColor Green
 
