@@ -11,11 +11,13 @@
 import { describe, it, expect } from "vitest";
 import {
   interpolatePhysical,
-  estimateP00,
-  estimateP100,
+  estimatePiaf,
+  estimatePmax,
   fmtP,
   type PressureRecord,
 } from "./interpolate.js";
+import { resolveIafByUnit } from "./iaf-resolve.js";
+import type { PressureRange } from "../schemas.js";
 import {
   buildInventoryDefects,
   isSessionDefective,
@@ -123,15 +125,15 @@ describe("interpolatePhysical", () => {
   });
 });
 
-describe("estimateP00", () => {
+describe("estimatePiaf", () => {
   it("returns null on empty input", () => {
-    expect(estimateP00([])).toBeNull();
+    expect(estimatePiaf([])).toBeNull();
   });
 
   it("returns midpoint of last-zero and first-nonzero when the session brackets activation", () => {
-    // P00 sits between the highest-force 0% sample and the lowest-force non-0% sample.
-    expect(estimateP00([[3, 0], [5, 50]])).toBe(4);
-    expect(estimateP00([[3, -1], [5, 50]])).toBe(4);
+    // Piaf sits between the highest-force 0% sample and the lowest-force non-0% sample.
+    expect(estimatePiaf([[3, 0], [5, 50]])).toBe(4);
+    expect(estimatePiaf([[3, -1], [5, 50]])).toBe(4);
   });
 
   it("picks the WIDEST 0%-to-non-0% bracket (max-A and min-B across all records)", () => {
@@ -146,7 +148,7 @@ describe("estimateP00", () => {
       [12, 50],
       [20, 100],
     ];
-    expect(estimateP00(records)).toBeCloseTo(9.4, 10); // (9.2 + 9.6) / 2
+    expect(estimatePiaf(records)).toBeCloseTo(9.4, 10); // (9.2 + 9.6) / 2
   });
 
   it("returns null when there's no 0%-to-non-0% bracket", () => {
@@ -161,29 +163,29 @@ describe("estimateP00", () => {
       [16, 80],
       [18, 100],
     ];
-    expect(estimateP00(records)).toBeNull();
+    expect(estimatePiaf(records)).toBeNull();
   });
 
   it("returns null when only one record is supplied (no bracket)", () => {
-    expect(estimateP00([[10, 50]])).toBeNull();
+    expect(estimatePiaf([[10, 50]])).toBeNull();
   });
 
   it("returns null when every record sits at 0% (no first-non-zero to bracket against)", () => {
     // All-zero sessions can't estimate activation — we know the pen hasn't
     // activated by max(x), but we don't know how far above that it would.
-    expect(estimateP00([[3, 0], [5, 0]])).toBeNull();
+    expect(estimatePiaf([[3, 0], [5, 0]])).toBeNull();
   });
 });
 
-describe("estimateP100", () => {
+describe("estimatePmax", () => {
   it("returns null on empty input", () => {
-    expect(estimateP100([])).toBeNull();
+    expect(estimatePmax([])).toBeNull();
   });
 
   it("returns midpoint of last-non-100 and first-saturated when the session brackets saturation", () => {
-    // P100 sits between the last record below 100% and the first record at-or-above 100%.
-    expect(estimateP100([[0, 0], [8, 80], [10, 100]])).toBe(9); // (8 + 10) / 2
-    expect(estimateP100([[0, 0], [8, 80], [10, 105]])).toBe(9); // y ≥ 100 counts as saturated
+    // Pmax sits between the last record below 100% and the first record at-or-above 100%.
+    expect(estimatePmax([[0, 0], [8, 80], [10, 100]])).toBe(9); // (8 + 10) / 2
+    expect(estimatePmax([[0, 0], [8, 80], [10, 105]])).toBe(9); // y ≥ 100 counts as saturated
   });
 
   it("picks the WIDEST non-100-to-saturated bracket (max-C and min-D across all records)", () => {
@@ -196,14 +198,14 @@ describe("estimateP100", () => {
       [8, 80],
       [11, 100], // 11 > 10, so D stays at 10
     ];
-    expect(estimateP100(records)).toBeCloseTo(9.5, 10); // (9 + 10) / 2
+    expect(estimatePmax(records)).toBeCloseTo(9.5, 10); // (9 + 10) / 2
   });
 
   it("returns the lowest saturated x when every record is already at-or-above 100%", () => {
     // No sub-100 samples → no bracket midpoint, but we still know the
     // pen had saturated by the lowest recorded force. Preserves the
     // pre-bracket-logic behaviour for saturated-only sessions.
-    expect(estimateP100([[8, 100], [10, 100], [12, 105]])).toBe(8);
+    expect(estimatePmax([[8, 100], [10, 100], [12, 105]])).toBe(8);
   });
 
   it("returns null when the curve never reaches 100%", () => {
@@ -216,18 +218,18 @@ describe("estimateP100", () => {
       [14, 60],
       [16, 80],
     ];
-    expect(estimateP100(records)).toBeNull();
+    expect(estimatePmax(records)).toBeNull();
   });
 
   it("returns null on single-record inputs that don't reach 100", () => {
-    expect(estimateP100([[5, 50]])).toBeNull();
+    expect(estimatePmax([[5, 50]])).toBeNull();
   });
 
   it("returns null when the curve is close to 100% but doesn't cross it", () => {
     // Pre-#212 a 0.5% gap-to-100 short-circuited to xLast; post-#212 we
     // require an actual y ≥ 100 sample (or the saturated-only fallback).
-    expect(estimateP100([[0, 0], [10, 99.7]])).toBeNull();
-    expect(estimateP100([[0, 0], [10, 99.5]])).toBeNull();
+    expect(estimatePmax([[0, 0], [10, 99.7]])).toBeNull();
+    expect(estimatePmax([[0, 0], [10, 99.5]])).toBeNull();
   });
 });
 
@@ -619,5 +621,77 @@ describe("findRecommendedForRemeasurement", () => {
     const out = findRecommendedForRemeasurement(sessions);
     expect(out[0].inventoryId).toBe("P1");
     expect(out[0].reasons.length).toBeGreaterThan(out[1].reasons.length);
+  });
+});
+
+// --- iaf-resolve.ts --------------------------------------------------------
+
+describe("resolveIafByUnit", () => {
+  function makeMeasurement(over: Partial<PressureRange>): PressureRange {
+    return {
+      Brand: "WACOM",
+      PenEntityId: "wacom.pen.kp504e",
+      PenInventoryId: "WAP.0001",
+      Metric: "IAF",
+      Value: "3.7",
+      Date: "2026-06-14",
+      TabletEntityId: "wacom.tablet.pth660",
+      Driver: "WACOM",
+      OS: "WINDOWS",
+      Method: "PenPressureProfiler1.8",
+      _id: "00000000-0000-0000-0000-000000000010",
+      _CreateDate: "2026-06-14T00:00:00.000Z",
+      _ModifiedDate: "2026-06-14T00:00:00.000Z",
+      ...over,
+    } as PressureRange;
+  }
+
+  it("uses the direct measurement when one exists (measured wins over the estimate)", () => {
+    const sessions = [
+      makeSession({ InventoryId: "WAP.0001", Records: [[3, 0], [5, 50], [10, 100]] }), // estimate ~4
+    ];
+    const measurements = [makeMeasurement({ PenInventoryId: "WAP.0001", Value: "3.7" })];
+    const out = resolveIafByUnit(sessions, measurements);
+    expect(out).toEqual([
+      { inventoryId: "WAP.0001", penEntityId: "wacom.pen.kp504e", value: 3.7, source: "measured", count: 1 },
+    ]);
+  });
+
+  it("falls back to the median estimated Piaf when no measurement exists", () => {
+    const sessions = [
+      makeSession({ InventoryId: "WAP.0002", Records: [[3, 0], [5, 50]] }), // Piaf = 4
+      makeSession({ InventoryId: "WAP.0002", Records: [[5, 0], [9, 50]] }), // Piaf = 7
+    ];
+    const out = resolveIafByUnit(sessions, []);
+    expect(out).toHaveLength(1);
+    expect(out[0]).toMatchObject({ inventoryId: "WAP.0002", source: "estimated", count: 2 });
+    expect(out[0].value).toBeCloseTo(5.5, 10); // median(4, 7)
+  });
+
+  it("takes the median of multiple direct measurements for a unit", () => {
+    const measurements = [
+      makeMeasurement({ PenInventoryId: "WAP.0003", Value: "2.0" }),
+      makeMeasurement({ PenInventoryId: "WAP.0003", Value: "4.0" }),
+      makeMeasurement({ PenInventoryId: "WAP.0003", Value: "3.0" }),
+    ];
+    const out = resolveIafByUnit([], measurements);
+    expect(out[0]).toMatchObject({ inventoryId: "WAP.0003", value: 3, source: "measured", count: 3 });
+  });
+
+  it("resolves each unit independently and includes measured-only units", () => {
+    const sessions = [
+      makeSession({ InventoryId: "WAP.0002", Records: [[3, 0], [5, 50]] }), // estimate-only unit
+    ];
+    const measurements = [makeMeasurement({ PenInventoryId: "WAP.0001", Value: "3.7" })]; // measured-only unit
+    const out = resolveIafByUnit(sessions, measurements);
+    const byId = new Map(out.map((r) => [r.inventoryId, r]));
+    expect(byId.get("WAP.0001")?.source).toBe("measured");
+    expect(byId.get("WAP.0002")?.source).toBe("estimated");
+  });
+
+  it("omits units with neither a measurement nor a finite estimate", () => {
+    // Session never brackets activation → estimatePiaf null → no estimate.
+    const sessions = [makeSession({ InventoryId: "WAP.0009", Records: [[10, 20], [12, 40]] })];
+    expect(resolveIafByUnit(sessions, [])).toEqual([]);
   });
 });

@@ -4,10 +4,11 @@
  * Key concepts:
  *   - A "record" is `[physicalForceGf, logicalPressurePct]`.
  *   - "P-values" are physical-force values at standard logical-pressure
- *     percentiles (P00, P01, ..., P100).
- *   - P00 = Initial Activation Force (IAF) — the force at which the
- *     pen first registers any pressure above 0%.
- *   - P100 = Maximum Force — the force needed to reach 100% pressure.
+ *     percentiles: Piaf (0%), P01, ..., P99, and Pmax (100%).
+ *   - Piaf = Initial Activation Force — the force at which the pen first
+ *     registers any pressure above 0%. (Formerly "P00".)
+ *   - Pmax = Maximum Force — the force needed to reach 100% pressure.
+ *     (Formerly "P100".)
  *   - Both endpoints are estimated via a bracket-midpoint algorithm.
  *     Sessions that don't capture the activation / saturation transition
  *     return null (per issue #212; the legacy spring-decay extrapolation
@@ -41,19 +42,19 @@ export function interpolatePhysical(
 
 /**
  * Estimate the physical force at which logical pressure first rises
- * above 0% (Initial Activation Force / P00).
+ * above 0% (Initial Activation Force / Piaf).
  *
  * **Bracket midpoint.** Let
  *   A = max(x) over records with y ≤ 0
  *   B = min(x) over records with y > 0
  * If both exist and A < B, the pen activated somewhere in (A, B] and
- * P00 = (A + B) / 2 is the best we can say without finer sampling.
+ * Piaf = (A + B) / 2 is the best we can say without finer sampling.
  *
  * Returns null when the session doesn't bracket activation. Callers
  * (PressureChart, SessionStats, pen-analysis rankings) treat null as
  * "no estimate available" and hide the corresponding row / dashed line.
  */
-export function estimateP00(records: readonly PressureRecord[]): number | null {
+export function estimatePiaf(records: readonly PressureRecord[]): number | null {
   if (records.length === 0) return null;
 
   let aMax: number | null = null; // highest x where y ≤ 0
@@ -73,13 +74,13 @@ export function estimateP00(records: readonly PressureRecord[]): number | null {
 
 /**
  * Estimate the physical force at which logical pressure reaches 100%
- * (Maximum Force / P100).
+ * (Maximum Force / Pmax).
  *
  * **Bracket midpoint.** Let
  *   C = max(x) over records with y < 100
  *   D = min(x) over records with y ≥ 100
  * If both exist and C < D, the pen saturated somewhere in (C, D] and
- * P100 = (C + D) / 2.
+ * Pmax = (C + D) / 2.
  *
  * **Saturated-only fallback.** When every record reads y ≥ 100, no
  * bracket exists but we still know the pen had saturated by the
@@ -90,7 +91,7 @@ export function estimateP00(records: readonly PressureRecord[]): number | null {
  * spring-decay extrapolation that previously filled this gap was
  * removed in issue #212).
  */
-export function estimateP100(records: readonly PressureRecord[]): number | null {
+export function estimatePmax(records: readonly PressureRecord[]): number | null {
   if (records.length === 0) return null;
 
   let cMax: number | null = null; // highest x where y < 100

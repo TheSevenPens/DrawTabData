@@ -20,7 +20,7 @@
 //
 //   const pens = await wacomTablets[0].getCompatiblePens();
 
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct } from "./drawtab-loader.js";
 import {
   ShardedURLLoader,
   loadVersionFromURL,
@@ -40,6 +40,7 @@ import { PEN_FAMILY_FIELDS } from "./entities/pen-family-fields.js";
 import { DRIVER_FIELDS } from "./entities/driver-fields.js";
 import { PEN_COMPAT_FIELDS } from "./entities/pen-compat-fields.js";
 import { PRESSURE_RESPONSE_FIELDS } from "./entities/pressure-response-fields.js";
+import { PRESSURE_RANGE_FIELDS } from "./entities/pressure-range-fields.js";
 import { INVENTORY_PEN_FIELDS, type InventoryPen } from "./entities/inventory-pen-fields.js";
 import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/inventory-tablet-fields.js";
 import { sessionEntityId } from "./pressure/session-id.js";
@@ -98,6 +99,11 @@ export type PressureResponseWithRels = PressureResponse & {
   getPen(): Promise<PenWithRels | null>;
   getTablet(): Promise<TabletWithRels | null>;
   getPenFamily(): Promise<PenFamilyWithRels | null>;
+};
+
+export type PressureRangeWithRels = PressureRange & {
+  getPen(): Promise<PenWithRels | null>;
+  getTablet(): Promise<TabletWithRels | null>;
 };
 
 // --- Loader factory --------------------------------------------------------
@@ -213,6 +219,11 @@ export class DrawTabDataSet extends DataSet {
       filePath: (s) => `pressure-response/${s}-pressure-response.json`,
       rootKey: "PressureResponse",
     });
+    const pressureRangeLoader = makeShardedLoader<PressureRange>(source, {
+      shards: BRANDS,
+      filePath: (s) => `pressure-range/${s}-pressure-range.json`,
+      rootKey: "PressureRange",
+    });
 
     this.registerCollection<BrandWithRels>(
       "Brands",
@@ -253,6 +264,11 @@ export class DrawTabDataSet extends DataSet {
       "PressureResponse",
       async () => (await pressureResponseLoader.load()).map((s) => this.wrapPressureResponse(s)),
       PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
+    );
+    this.registerCollection<PressureRangeWithRels>(
+      "PressureRange",
+      async () => (await pressureRangeLoader.load()).map((m) => this.wrapPressureRange(m)),
+      PRESSURE_RANGE_FIELDS as AnyFieldDef[],
     );
 
     // Inventory: user-sharded, not brand-sharded. The userId is required
@@ -358,6 +374,14 @@ export class DrawTabDataSet extends DataSet {
     }) as PressureResponseWithRels;
   }
 
+  private wrapPressureRange(m: PressureRange): PressureRangeWithRels {
+    const ds = this;
+    return defineHidden({ ...m }, {
+      getPen: () => ds.getPenForRange(m),
+      getTablet: () => ds.getTabletForRange(m),
+    }) as PressureRangeWithRels;
+  }
+
   // --- Collection accessors -- thin delegates over the generic DataSet ----
 
   get Brands(): Query<BrandWithRels> { return this.get<BrandWithRels>("Brands"); }
@@ -368,6 +392,7 @@ export class DrawTabDataSet extends DataSet {
   get Drivers(): Query<DriverWithRels> { return this.get<DriverWithRels>("Drivers"); }
   get PenCompat(): Query<PenCompat> { return this.get<PenCompat>("PenCompat"); }
   get PressureResponse(): Query<PressureResponseWithRels> { return this.get<PressureResponseWithRels>("PressureResponse"); }
+  get PressureRange(): Query<PressureRangeWithRels> { return this.get<PressureRangeWithRels>("PressureRange"); }
   /** Per-user inventory. Requires `userId` on the DataSource — accessing
    * the query throws on materialisation if none was supplied. */
   get InventoryPens(): Query<InventoryPenWithRels> { return this.get<InventoryPenWithRels>("InventoryPens"); }
@@ -476,6 +501,18 @@ export class DrawTabDataSet extends DataSet {
     if (!s.PenFamily) return null;
     const families = await this.PenFamilies.toArray();
     return families.find((f) => f.EntityId === s.PenFamily) ?? null;
+  }
+
+  async getPenForRange(m: PressureRange): Promise<PenWithRels | null> {
+    if (!m.PenEntityId) return null;
+    const pens = await this.Pens.toArray();
+    return pens.find((p) => p.EntityId === m.PenEntityId) ?? null;
+  }
+
+  async getTabletForRange(m: PressureRange): Promise<TabletWithRels | null> {
+    if (!m.TabletEntityId) return null;
+    const tablets = await this.Tablets.toArray();
+    return tablets.find((t) => t.Meta.EntityId === m.TabletEntityId) ?? null;
   }
 
   // --- Singleton resources (version.json, reference paper sizes) -----------

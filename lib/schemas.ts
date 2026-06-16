@@ -195,7 +195,8 @@ export const PenSchema = v.strictObject({
   BarrelRotation: v.optional(YesNo),
   Hover: v.optional(YesNo),
   // Initial Activation Force (gf) — minimum force required for the pen
-  // tip to start registering pressure. Lower is better.
+  // tip to start registering pressure. Lower is better. (Manufacturer
+  // spec — distinct from the per-session estimated Piaf.)
   IAF: v.optional(NumericString),
   Tags: v.optional(v.array(TrimmedString)),
   Notes: v.optional(TrimmedString),
@@ -277,6 +278,41 @@ export const PressureResponseSchema = v.strictObject({
   _id: UuidString,
   _CreateDate: IsoDateString,
   _ModifiedDate: IsoDateString,
+});
+
+// --- Pressure range (direct IAF / MAX endpoint measurements) ---
+//
+// A single *direct* endpoint measurement of a physical pen unit, captured by
+// an external measurement tool. Distinct from PressureResponse — which stores
+// a full force↔pressure curve and yields *estimated* Piaf/Pmax: these are the
+// *measured* IAF / MAX values. One row = one metric reading. Repeats (same
+// unit / metric / date on different tablets, drivers, or trials) are allowed;
+// `_id` is the unique key. The activation force can depend on the tablet /
+// driver / OS, so those are captured alongside the value.
+export const PressureRangeMetricSchema = v.picklist(["IAF", "MAX"]);
+
+export const PressureRangeSchema = v.strictObject({
+  Brand: BrandEnum,
+  // Pen model EntityId — derived from PenInventoryId at write time.
+  PenEntityId: TrimmedString,
+  // Physical pen unit, e.g. "WAP.0001".
+  PenInventoryId: TrimmedString,
+  Metric: PressureRangeMetricSchema,
+  // Measured force in gram-force, string-encoded like other scalar fields.
+  Value: NumericString,
+  Date: TrimmedString,
+  TabletEntityId: TrimmedString,
+  Driver: TrimmedString,
+  OS: TrimmedString,
+  // Provenance: which tool / method produced the reading.
+  Method: TrimmedString,
+  _id: UuidString,
+  _CreateDate: IsoDateString,
+  _ModifiedDate: IsoDateString,
+});
+
+export const PressureRangeFileSchema = v.strictObject({
+  PressureRange: v.array(PressureRangeSchema),
 });
 
 // --- Inventory ---
@@ -383,6 +419,7 @@ export type Driver = v.InferOutput<typeof DriverSchema>;
 export type Brand = v.InferOutput<typeof BrandSchema>;
 export type PenCompatGrouped = v.InferOutput<typeof PenCompatGroupedSchema>;
 export type PressureResponse = v.InferOutput<typeof PressureResponseSchema>;
+export type PressureRange = v.InferOutput<typeof PressureRangeSchema>;
 export type InventoryPen = v.InferOutput<typeof InventoryPenSchema>;
 export type InventoryTablet = v.InferOutput<typeof InventoryTabletSchema>;
 export type DefectKind = v.InferOutput<typeof DefectKindSchema>;
