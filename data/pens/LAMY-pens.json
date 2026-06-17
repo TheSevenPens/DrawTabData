@@ -10,6 +10,9 @@
                      "Weight":  "31",
                      "Length":  "140",
                      "Diameter":  "20",
+                     "Tags":  [
+                                  "UDEMR"
+                              ],
                      "Notes":  "Non-circular cross-section (20 x 15 mm bounding box); Diameter stores the wider dimension.",
                      "_id":  "bb4d859c-c1fa-4182-b596-3322a6312708",
                      "_CreateDate":  "2026-05-25T00:00:00.000Z",
