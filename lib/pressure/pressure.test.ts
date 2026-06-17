@@ -16,7 +16,7 @@ import {
   fmtP,
   type PressureRecord,
 } from "./interpolate.js";
-import { resolveIafByUnit } from "./iaf-resolve.js";
+import { resolveIafByUnit, resolveRangeByUnit } from "./range-resolve.js";
 import type { PressureRange } from "../schemas.js";
 import {
   buildInventoryDefects,
@@ -624,7 +624,7 @@ describe("findRecommendedForRemeasurement", () => {
   });
 });
 
-// --- iaf-resolve.ts --------------------------------------------------------
+// --- range-resolve.ts ------------------------------------------------------
 
 describe("resolveIafByUnit", () => {
   function makeMeasurement(over: Partial<PressureRange>): PressureRange {
@@ -693,5 +693,67 @@ describe("resolveIafByUnit", () => {
     // Session never brackets activation → estimatePiaf null → no estimate.
     const sessions = [makeSession({ InventoryId: "WAP.0009", Records: [[10, 20], [12, 40]] })];
     expect(resolveIafByUnit(sessions, [])).toEqual([]);
+  });
+});
+
+describe("resolveRangeByUnit", () => {
+  function makeMeasurement(over: Partial<PressureRange>): PressureRange {
+    return {
+      Brand: "WACOM",
+      PenEntityId: "wacom.pen.kp504e",
+      PenInventoryId: "WAP.0001",
+      Metric: "IAF",
+      Value: "3.7",
+      Date: "2026-06-14",
+      TabletEntityId: "wacom.tablet.pth660",
+      Driver: "WACOM",
+      OS: "WINDOWS",
+      Method: "PenPressureProfiler1.8",
+      _id: "00000000-0000-0000-0000-000000000010",
+      _CreateDate: "2026-06-14T00:00:00.000Z",
+      _ModifiedDate: "2026-06-14T00:00:00.000Z",
+      ...over,
+    } as PressureRange;
+  }
+
+  it("resolves MAX from per-session estimates when there are no measurements", () => {
+    const sessions = [
+      makeSession({ InventoryId: "WAP.0001", Records: [[10, 50], [20, 100]] }), // Pmax bracket → 15? no: C=10(y<100), D=20(y≥100) → 15
+      makeSession({ InventoryId: "WAP.0001", Records: [[10, 50], [30, 100]] }), // → 20
+    ];
+    const out = resolveRangeByUnit("MAX", sessions, []);
+    expect(out).toHaveLength(1);
+    expect(out[0]).toMatchObject({ inventoryId: "WAP.0001", source: "estimated", count: 2 });
+    expect(out[0].value).toBeCloseTo(17.5, 10); // median(15, 20)
+    expect(out[0].samples.every((s) => s.source === "estimated")).toBe(true);
+    // Estimated samples carry a sessionEntityId so the UI can link back.
+    expect(out[0].samples[0].sessionEntityId).toBeTruthy();
+  });
+
+  it("hides a unit's estimated samples once it has any direct measurement", () => {
+    const sessions = [
+      makeSession({ InventoryId: "WAP.0001", Records: [[3, 0], [5, 50], [10, 100]] }), // would estimate IAF ~4
+    ];
+    const measurements = [
+      makeMeasurement({ PenInventoryId: "WAP.0001", Value: "3.7", Date: "2026-06-14" }),
+      makeMeasurement({ PenInventoryId: "WAP.0001", Value: "3.3", Date: "2026-06-15" }),
+    ];
+    const out = resolveRangeByUnit("IAF", sessions, measurements);
+    expect(out).toHaveLength(1);
+    expect(out[0]).toMatchObject({ source: "measured", count: 2 });
+    expect(out[0].value).toBeCloseTo(3.5, 10); // median(3.7, 3.3) — estimate ignored
+    expect(out[0].samples).toHaveLength(2);
+    expect(out[0].samples.every((s) => s.source === "measured")).toBe(true);
+  });
+
+  it("only counts measurements for the requested metric", () => {
+    const measurements = [
+      makeMeasurement({ PenInventoryId: "WAP.0001", Metric: "IAF", Value: "3.7" }),
+      makeMeasurement({ PenInventoryId: "WAP.0001", Metric: "MAX", Value: "700" }),
+    ];
+    const iaf = resolveRangeByUnit("IAF", [], measurements);
+    const max = resolveRangeByUnit("MAX", [], measurements);
+    expect(iaf[0].value).toBe(3.7);
+    expect(max[0].value).toBe(700);
   });
 });
