@@ -41,6 +41,19 @@ export function interpolatePhysical(
 }
 
 /**
+ * Logical pressure (%) the estimated IAF point is plotted / recorded at.
+ *
+ * IAF is the force that produces the *first non-zero* pressure level, so the
+ * activation point can't sit at 0% — it sits at the smallest non-zero level a
+ * typical 8192-level pen reports: `1 / 8192 × 100 ≈ 0.0122%`. A fixed heuristic
+ * (pens with fewer levels are mostly old, and this is an estimate either way;
+ * per-pen `PressureLevels` wasn't worth the complexity). This affects only the
+ * y-coordinate the activation point is drawn at — the IAF *force* (estimatePiaf)
+ * is unchanged.
+ */
+export const IAF_LOGICAL_PCT = 100 / 8192; // ≈ 0.0122
+
+/**
  * Estimate the physical force at which logical pressure first rises
  * above 0% (Initial Activation Force / Piaf).
  *
