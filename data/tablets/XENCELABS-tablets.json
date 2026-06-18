@@ -5,7 +5,7 @@
         "EntityId": "xencelabs.tablet.bph0812wa",
         "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -13,6 +13,7 @@
         "Name": "Pen Tablet Small",
         "Type": "PENTABLET",
         "LaunchYear": "2021",
+        "ReleaseDate": "2021",
         "Audience": "Professional",
         "IncludedPen": [
           "xencelabs.pen.3buttonv1",
@@ -46,7 +47,7 @@
         "EntityId": "xencelabs.tablet.bph1212wv1",
         "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -54,6 +55,7 @@
         "Name": "Pen Tablet Medium V1",
         "Type": "PENTABLET",
         "LaunchYear": "2020",
+        "ReleaseDate": "2021-02-23",
         "Audience": "Professional",
         "IncludedPen": [
           "xencelabs.pen.3buttonv1",
@@ -87,7 +89,7 @@
         "EntityId": "xencelabs.tablet.bph1212wv2",
         "_id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -95,6 +97,7 @@
         "Name": "Pen Tablet Medium V2",
         "Type": "PENTABLET",
         "LaunchYear": "2020",
+        "ReleaseDate": "2020",
         "Audience": "Professional",
         "IncludedPen": [
           "xencelabs.pen.3buttonv2",
@@ -128,7 +131,7 @@
         "EntityId": "xencelabs.tablet.lph2412ua",
         "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2025-12-12T12:33:46.983Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -136,6 +139,7 @@
         "Name": "Pen Display 24",
         "Type": "PENDISPLAY",
         "LaunchYear": "2023",
+        "ReleaseDate": "2023-03-21",
         "Audience": "Professional",
         "IncludedPen": [
           "xencelabs.pen.3buttonv2",
@@ -183,7 +187,7 @@
         "EntityId": "xencelabs.tablet.lph1612ua",
         "_id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
         "_CreateDate": "2026-04-17T00:00:00Z",
-        "_ModifiedDate": "2026-04-17T00:00:00Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -191,6 +195,7 @@
         "Name": "Pen Display 16 Lite",
         "Type": "PENDISPLAY",
         "LaunchYear": "2024",
+        "ReleaseDate": "2024-05-08",
         "Audience": "Professional",
         "IncludedPen": [
           "xencelabs.pen.3buttonv2",

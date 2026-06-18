@@ -5,7 +5,7 @@
                                             "EntityId":  "ugee.tablet.ue16",
                                             "_id":  "ba2046ee-5f3c-4606-b542-72e779c545c9",
                                             "_CreateDate":  "2026-04-01T21:44:35.000Z",
-                                            "_ModifiedDate":  "2026-04-01T21:44:35.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
@@ -13,6 +13,7 @@
                                              "Name":  "Drawing Monitor UE16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2024-06-24",
                                              "IncludedPen":  [
                                                                  "ugee.pen.upencil"
                                                              ]
@@ -60,14 +61,15 @@
                                             "EntityId":  "ugee.tablet.m908",
                                             "_id":  "e8d5a27c-2985-43c2-afd3-6b1c9d0b05f5",
                                             "_CreateDate":  "2026-04-03T06:01:40.000Z",
-                                            "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "M908",
                                              "Name":  "M908 Drawing Tablet",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  ""
+                                             "LaunchYear":  "",
+                                             "ReleaseDate":  "2026-06"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -95,14 +97,15 @@
                                             "EntityId":  "ugee.tablet.m808",
                                             "_id":  "7a416e6a-7435-4bf6-a460-829b4bbf2a3e",
                                             "_CreateDate":  "2026-04-03T06:01:40.000Z",
-                                            "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "M808",
                                              "Name":  "M808 Drawing Tablet",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  ""
+                                             "LaunchYear":  "",
+                                             "ReleaseDate":  "2026-06"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -130,7 +133,7 @@
                                             "EntityId":  "ugee.tablet.m708",
                                             "_id":  "d3534ab9-00ec-4bfc-8ad1-501b83e192ce",
                                             "_CreateDate":  "2026-04-03T06:01:40.000Z",
-                                            "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
@@ -138,6 +141,7 @@
                                              "Name":  "M708 Pen Tablet",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2014",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p01"
                                                              ]
@@ -168,14 +172,15 @@
                                             "EntityId":  "ugee.tablet.ue12",
                                             "_id":  "47874a1b-e395-4d2a-b558-658dffcc2a83",
                                             "_CreateDate":  "2026-04-03T06:01:40.000Z",
-                                            "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "UE12",
                                              "Name":  "UE12 Drawing Monitor",
                                              "Type":  "PENDISPLAY",
-                                             "LaunchYear":  ""
+                                             "LaunchYear":  "",
+                                             "ReleaseDate":  "2023-10"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -217,14 +222,15 @@
                                             "EntityId":  "ugee.tablet.ue12plus",
                                             "_id":  "c756b5cf-75dc-4b44-89ff-787433c1cd7b",
                                             "_CreateDate":  "2026-04-03T06:01:40.000Z",
-                                            "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "UE12-PLUS",
                                              "Name":  "UE12 Plus Drawing Monitor",
                                              "Type":  "PENDISPLAY",
-                                             "LaunchYear":  ""
+                                             "LaunchYear":  "",
+                                             "ReleaseDate":  "2023-10"
                                          },
                                "Digitizer":  {
                                                  "Type":  "PASSIVE_EMR",
@@ -264,7 +270,7 @@
                                             "EntityId":  "ugee.tablet.u1200",
                                             "_id":  "c1270aa6-c0ce-48fe-9a0b-1861ed699645",
                                             "_CreateDate":  "2026-04-03T06:01:40.000Z",
-                                            "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "UGEE",
@@ -272,6 +278,7 @@
                                              "Name":  "U1200 Drawing Monitor",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2021",
                                              "IncludedPen":  [
                                                                  "ugee.pen.ph12"
                                                              ]

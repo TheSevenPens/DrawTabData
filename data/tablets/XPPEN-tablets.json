@@ -5,7 +5,7 @@
                                             "EntityId":  "xppen.tablet.artist12",
                                             "_id":  "f1b5e880-3313-483c-892d-8ffc3ba0a3f1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -13,6 +13,7 @@
                                              "Name":  "Artist 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p06"
@@ -58,7 +59,7 @@
                                             "EntityId":  "xppen.tablet.artist12pro",
                                             "_id":  "f19b0c47-2b3c-4130-8854-977149267fd4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -66,6 +67,7 @@
                                              "Name":  "Artist 12 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen1_2019",
                                              "IncludedPen":  [
@@ -114,7 +116,7 @@
                                             "EntityId":  "xppen.tablet.artist133pro",
                                             "_id":  "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -122,6 +124,7 @@
                                              "Name":  "Artist 13.3 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen1_2019",
                                              "IncludedPen":  [
@@ -173,7 +176,7 @@
                                             "EntityId":  "xppen.tablet.artist156",
                                             "_id":  "90a67454-8ccd-4d62-a8d1-f849fce201bf",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -181,6 +184,7 @@
                                              "Name":  "Artist 15.6",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05"
@@ -224,7 +228,7 @@
                                             "EntityId":  "xppen.tablet.artist156pro",
                                             "_id":  "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -232,6 +236,7 @@
                                              "Name":  "Artist 15.6 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Professional",
                                              "ProductLink":  "https://www.xp-pen.com/product/65.html"
                                          },
@@ -275,7 +280,7 @@
                                             "EntityId":  "xppen.tablet.artist16",
                                             "_id":  "a94b8c39-fcaa-4a7b-8de4-1f91859fa292",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -283,6 +288,7 @@
                                              "Name":  "Artist 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2017",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p55c"
@@ -317,7 +323,7 @@
                                             "EntityId":  "xppen.tablet.artist16pro",
                                             "_id":  "3678e50b-e349-43b5-a90b-72792614a1f2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -325,6 +331,7 @@
                                              "Name":  "Artist 16 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p02s"
@@ -369,7 +376,7 @@
                                             "EntityId":  "xppen.tablet.artist22pro",
                                             "_id":  "3f6e570c-d6af-4b2f-80f8-1f0ee8b2ead6",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -377,6 +384,7 @@
                                              "Name":  "Artist 22 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p02s"
@@ -424,7 +432,7 @@
                                             "EntityId":  "xppen.tablet.artist22rpro",
                                             "_id":  "e2d983ee-d901-4945-a1ea-3fd59a722e72",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -432,6 +440,7 @@
                                              "Name":  "Artist 22R Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen1_2019",
                                              "IncludedPen":  [
@@ -480,7 +489,7 @@
                                             "EntityId":  "xppen.tablet.artist24pro",
                                             "_id":  "3ba56e15-bbcc-4944-a784-0b4d9363945d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -488,6 +497,7 @@
                                              "Name":  "Artist 24 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
+                                             "ReleaseDate":  "2020",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen1_2019",
                                              "IncludedPen":  [
@@ -536,7 +546,7 @@
                                             "EntityId":  "xppen.tablet.cd100fh",
                                             "_id":  "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -544,6 +554,7 @@
                                              "Name":  "Artist 10 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
+                                             "ReleaseDate":  "2022",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_artistgen2",
                                              "IncludedPen":  [
@@ -595,7 +606,7 @@
                                             "EntityId":  "xppen.tablet.cd120fh",
                                             "_id":  "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -603,6 +614,7 @@
                                              "Name":  "Artist 12 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_artistgen2",
                                              "IncludedPen":  [
@@ -654,7 +666,7 @@
                                             "EntityId":  "xppen.tablet.cd130fh",
                                             "_id":  "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -662,6 +674,7 @@
                                              "Name":  "Artist 13 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
+                                             "ReleaseDate":  "2022",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_artistgen2",
                                              "IncludedPen":  [
@@ -713,7 +726,7 @@
                                             "EntityId":  "xppen.tablet.cd160fh",
                                             "_id":  "780901b9-0e48-4697-bbdf-8f0767d91234",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -721,6 +734,7 @@
                                              "Name":  "Artist 16 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
+                                             "ReleaseDate":  "2022",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_artistgen2",
                                              "IncludedPen":  [
@@ -769,7 +783,7 @@
                                             "EntityId":  "xppen.tablet.cd220f",
                                             "_id":  "50732cec-fead-413c-ae21-0d72e061ee12",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -777,6 +791,7 @@
                                              "Name":  "Artist 22 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
+                                             "ReleaseDate":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pa6"
@@ -825,7 +840,7 @@
                                             "EntityId":  "xppen.tablet.cd240f",
                                             "_id":  "0fb7b995-4aba-49ee-b6bf-cc75b9578a57",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -833,6 +848,7 @@
                                              "Name":  "Artist 24 FHD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05r"
@@ -880,7 +896,7 @@
                                             "EntityId":  "xppen.tablet.cd240q",
                                             "_id":  "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -888,6 +904,7 @@
                                              "Name":  "Artist 24",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pa6"
@@ -938,7 +955,7 @@
                                             "EntityId":  "xppen.tablet.ct1060",
                                             "_id":  "3ae93286-d961-4d2a-a3b7-f42d6cbd9c62",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -946,6 +963,7 @@
                                              "Name":  "Deco Fun L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_decofun",
                                              "IncludedPen":  [
@@ -979,7 +997,7 @@
                                             "EntityId":  "xppen.tablet.ct430",
                                             "_id":  "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -987,6 +1005,7 @@
                                              "Name":  "Deco Fun XS",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_decofun",
                                              "IncludedPen":  [
@@ -1019,7 +1038,7 @@
                                             "EntityId":  "xppen.tablet.ct640",
                                             "_id":  "a2f70186-10e2-47a7-9dde-5b1d89103a71",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1027,6 +1046,7 @@
                                              "Name":  "Deco Fun S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_decofun",
                                              "IncludedPen":  [
@@ -1060,7 +1080,7 @@
                                             "EntityId":  "xppen.tablet.deco01",
                                             "_id":  "611b4eed-7e42-4818-859e-a7f8ac5b9623",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1068,6 +1088,7 @@
                                              "Name":  "Deco 01",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p03"
@@ -1100,7 +1121,7 @@
                                             "EntityId":  "xppen.tablet.deco01v2",
                                             "_id":  "adcb93c5-9ce2-46bc-93b2-a25df2769f6e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1108,6 +1129,7 @@
                                              "Name":  "Deco 01 V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
+                                             "ReleaseDate":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05"
@@ -1142,7 +1164,7 @@
                                             "EntityId":  "xppen.tablet.deco01v3",
                                             "_id":  "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1150,6 +1172,7 @@
                                              "Name":  "Deco 01 V3",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05"
@@ -1183,7 +1206,7 @@
                                             "EntityId":  "xppen.tablet.deco02",
                                             "_id":  "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1191,6 +1214,7 @@
                                              "Name":  "Deco 02",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p06"
@@ -1222,7 +1246,7 @@
                                             "EntityId":  "xppen.tablet.deco03",
                                             "_id":  "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1230,6 +1254,7 @@
                                              "Name":  "Deco 03",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05"
@@ -1262,7 +1287,7 @@
                                             "EntityId":  "xppen.tablet.decomini4",
                                             "_id":  "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1270,6 +1295,7 @@
                                              "Name":  "Deco Mini 4",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
+                                             "ReleaseDate":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05d"
@@ -1303,7 +1329,7 @@
                                             "EntityId":  "xppen.tablet.decomini7",
                                             "_id":  "23d3caa6-4d93-46f0-9e60-871444fb265a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1311,6 +1337,7 @@
                                              "Name":  "Deco Mini 7",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p05d"
@@ -1343,7 +1370,7 @@
                                             "EntityId":  "xppen.tablet.decoprom",
                                             "_id":  "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1351,6 +1378,7 @@
                                              "Name":  "Deco Pro M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decopro_2019",
                                              "IncludedPen":  [
@@ -1384,7 +1412,7 @@
                                             "EntityId":  "xppen.tablet.decopromw",
                                             "_id":  "fa271dfe-fd5d-44a0-b993-ebccc65ef632",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1392,6 +1420,7 @@
                                              "Name":  "Deco Pro MW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decopro_2019",
                                              "IncludedPen":  [
@@ -1507,7 +1536,7 @@
                                             "EntityId":  "xppen.tablet.id160f",
                                             "_id":  "35d6319b-0de4-444f-a978-eefd59a30f9c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1515,6 +1544,7 @@
                                              "Name":  "Innovator 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
+                                             "ReleaseDate":  "2020",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pa5"
@@ -1564,7 +1594,7 @@
                                             "EntityId":  "xppen.tablet.id160fe",
                                             "_id":  "8da13172-0f45-487d-bb26-e0a53d40c25a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1572,6 +1602,7 @@
                                              "Name":  "Artist Pro 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "xppen.pen.ph20b"
@@ -1622,7 +1653,7 @@
                                             "EntityId":  "xppen.tablet.it1060",
                                             "_id":  "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1630,6 +1661,7 @@
                                              "Name":  "Deco L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_deco_2021",
                                              "IncludedPen":  [
@@ -1654,7 +1686,7 @@
                                             "EntityId":  "xppen.tablet.it1060b",
                                             "_id":  "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1662,6 +1694,7 @@
                                              "Name":  "Deco LW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_deco_2021",
                                              "IncludedPen":  [
@@ -1694,7 +1727,7 @@
                                             "EntityId":  "xppen.tablet.it640",
                                             "_id":  "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1702,6 +1735,7 @@
                                              "Name":  "Deco 640",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p0116k"
@@ -1735,7 +1769,7 @@
                                             "EntityId":  "xppen.tablet.it850",
                                             "_id":  "5eaceb43-bf80-4ca5-ba79-8041c1fd1ddd",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1743,6 +1777,7 @@
                                              "Name":  "Deco M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_deco_2021",
                                              "IncludedPen":  [
@@ -1776,7 +1811,7 @@
                                             "EntityId":  "xppen.tablet.it850b",
                                             "_id":  "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1784,6 +1819,7 @@
                                              "Name":  "Deco MW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
+                                             "ReleaseDate":  "2022",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_deco_2021",
                                              "IncludedPen":  [
@@ -1817,7 +1853,7 @@
                                             "EntityId":  "xppen.tablet.md140fh",
                                             "_id":  "98de78f7-80de-4d08-8a88-742f84f113d3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1825,6 +1861,7 @@
                                              "Name":  "Artist Pro 14 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-08",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen2_2023",
                                              "IncludedPen":  [
@@ -1876,7 +1913,7 @@
                                             "EntityId":  "xppen.tablet.md160qh",
                                             "_id":  "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1884,6 +1921,7 @@
                                              "Name":  "Artist Pro 16 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-08",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen2_2023",
                                              "IncludedPen":  [
@@ -1932,7 +1970,7 @@
                                             "EntityId":  "xppen.tablet.md160u",
                                             "_id":  "6a36faea-988a-4411-8f0b-6cea204c1207",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1940,6 +1978,7 @@
                                              "Name":  "Artist Pro 16TP",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "xppen.pen.ph02"
@@ -1989,7 +2028,7 @@
                                             "EntityId":  "xppen.tablet.md160uh",
                                             "_id":  "f8a037ae-45ef-4392-8b61-d3b09f33166b",
                                             "_CreateDate":  "2025-12-12T18:57:53.360Z",
-                                            "_ModifiedDate":  "2025-12-12T18:57:53.360Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1997,6 +2036,7 @@
                                              "Name":  "Artist Ultra 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-09",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistultra",
                                              "IncludedPen":  [
@@ -2051,7 +2091,7 @@
                                             "EntityId":  "xppen.tablet.md160fh",
                                             "_id":  "42d6b96d-e543-4b1c-b720-2ec717fa1054",
                                             "_CreateDate":  "2026-04-06T23:03:25.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2059,6 +2099,7 @@
                                              "Name":  "Artist 15.6 Pro V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pd21"
@@ -2113,7 +2154,7 @@
                                             "EntityId":  "xppen.tablet.md180uh",
                                             "_id":  "29e11217-cdbb-4def-af59-bc470fd55223",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:53:32.025Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2121,6 +2162,7 @@
                                              "Name":  "Artist Pro 19 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024-08",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen2_2023",
                                              "IncludedPen":  [
@@ -2168,7 +2210,7 @@
                                             "EntityId":  "xppen.tablet.md220fh",
                                             "_id":  "6ed132b8-b231-41e3-a188-5bc7aa23971a",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2176,6 +2218,7 @@
                                              "Name":  "Artist 22 Plus",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pd21"
@@ -2224,7 +2267,7 @@
                                             "EntityId":  "xppen.tablet.md220qh",
                                             "_id":  "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2232,6 +2275,7 @@
                                              "Name":  "Artist Pro 22 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen2_2023",
                                              "IncludedPen":  [
@@ -2287,7 +2331,7 @@
                                             "EntityId":  "xppen.tablet.md240qh",
                                             "_id":  "c7d5b405-28c2-4256-ae0a-6b7cb2d5711d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2295,6 +2339,7 @@
                                              "Name":  "Artist Pro 24 GEN2 165Hz",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024-10-22",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen2_2023",
                                              "IncludedPen":  [
@@ -2348,7 +2393,7 @@
                                             "EntityId":  "xppen.tablet.md240uh",
                                             "_id":  "c1b05341-5d43-4003-bb7e-f8b6a5ca0181",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2356,6 +2401,7 @@
                                              "Name":  "Artist Pro 24 GEN2 4K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024-10-22",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_artistprogen2_2023",
                                              "IncludedPen":  [
@@ -2409,7 +2455,7 @@
                                             "EntityId":  "xppen.tablet.mt0962b",
                                             "_id":  "2209f868-50c5-4720-8428-6b9197dbef57",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2417,6 +2463,7 @@
                                              "Name":  "Deco Pro MW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decoprogen2",
                                              "IncludedPen":  [
@@ -2450,7 +2497,7 @@
                                             "EntityId":  "xppen.tablet.mt1172b",
                                             "_id":  "689b42c0-16a8-439e-8579-8a07b0c0f67f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2458,6 +2505,7 @@
                                              "Name":  "Deco Pro LW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decoprogen2",
                                              "IncludedPen":  [
@@ -2491,7 +2539,7 @@
                                             "EntityId":  "xppen.tablet.mt1592b",
                                             "_id":  "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2499,6 +2547,7 @@
                                              "Name":  "Deco Pro XLW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decoprogen2",
                                              "IncludedPen":  [
@@ -2532,7 +2581,7 @@
                                             "EntityId":  "xppen.tablet.cd121fh",
                                             "_id":  "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
                                             "_CreateDate":  "2026-04-01T21:44:35.000Z",
-                                            "_ModifiedDate":  "2026-04-01T21:44:35.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2540,6 +2589,7 @@
                                              "Name":  "Artist 12 3rd",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-10",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pd52"
                                                              ],
@@ -2594,7 +2644,7 @@
                                             "EntityId":  "xppen.tablet.9494g",
                                             "_id":  "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2602,10 +2652,11 @@
                                              "Name":  "Magic Drawing Pad 2024",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024-01-22",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                "xppen.pen.pd04b"
-                                                            ],
+                                                                 "xppen.pen.pd04b"
+                                                             ],
                                              "ProductLink":  "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
                                              "Status":  "ACTIVE"
                                          },
@@ -2672,7 +2723,7 @@
                                             "EntityId":  "xppen.tablet.mdp1221",
                                             "_id":  "e4f7a8b2-c3d1-4e5f-9a0b-1c2d3e4f5a6b",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2680,6 +2731,7 @@
                                              "Name":  "Magic Drawing Pad 2025",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-08-14",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pd51"
@@ -2746,7 +2798,7 @@
                                             "EntityId":  "xppen.tablet.cd161fh",
                                             "_id":  "e209ec6c-8389-4041-b77f-25bf578d358b",
                                             "_CreateDate":  "2026-04-16T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-16T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2754,6 +2806,7 @@
                                              "Name":  "Artist 16 3rd",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2026",
+                                             "ReleaseDate":  "2026-04-17",
                                              "Audience":  "Consumer",
                                              "Family":  "xppen.tabletfamily.xppen_artistgen3",
                                              "IncludedPen":  [
@@ -2808,7 +2861,7 @@
                                             "EntityId":  "xppen.tablet.g640",
                                             "_id":  "e361f132-1079-4860-a67d-fc60ac74d238",
                                             "_CreateDate":  "2026-04-22T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-22T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2816,6 +2869,7 @@
                                              "Name":  "Star G640",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "xppen.pen.p01"
@@ -2840,7 +2894,7 @@
                                             "EntityId":  "xppen.tablet.md270uh",
                                             "_id":  "7215483d-78a4-4cad-b6b8-b6acaea71091",
                                             "_CreateDate":  "2026-04-22T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-22T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2848,6 +2902,7 @@
                                              "Name":  "Artist Pro 27 (Gen 2)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2026",
+                                             "ReleaseDate":  "2026-03-20",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "xppen.pen.pd21",
@@ -2901,7 +2956,7 @@
                                             "EntityId":  "xppen.tablet.mnp1095",
                                             "_id":  "c18123a6-c9c3-47cd-8a16-b3064069d79f",
                                             "_CreateDate":  "2026-04-26T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:36:51.565Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -2909,10 +2964,11 @@
                                              "Name":  "Magic Note Pad",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-03-19",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
-                                                                "xppen.pen.pd04b"
-                                                            ],
+                                                                 "xppen.pen.pd04b"
+                                                             ],
                                              "ProductLink":  "https://www.xp-pen.com/product/magic-note-pad.html",
                                              "Status":  "ACTIVE"
                                          },

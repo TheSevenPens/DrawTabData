@@ -5,7 +5,7 @@
         "EntityId": "apple.tablet.ipadpro129gen1",
         "_id": "b464fa63-b13a-41bb-9abd-2510643bbef7",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -13,6 +13,7 @@
         "Name": "iPad Pro 12.9-inch (1st generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2015",
+        "ReleaseDate": "2015-11-11",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111974",
@@ -54,7 +55,7 @@
         "EntityId": "apple.tablet.ipadpro97",
         "_id": "ebb80f16-c639-4c7a-8314-e64f16c6e6f9",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -62,6 +63,7 @@
         "Name": "iPad Pro 9.7-inch",
         "Type": "STANDALONE",
         "LaunchYear": "2016",
+        "ReleaseDate": "2016-03-31",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111977",
@@ -103,7 +105,7 @@
         "EntityId": "apple.tablet.ipadpro129gen2",
         "_id": "741af48d-78d1-4676-8c41-473a3a70a9a8",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -111,6 +113,7 @@
         "Name": "iPad Pro 12.9-inch (2nd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2017",
+        "ReleaseDate": "2017-06-13",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111973",
@@ -152,7 +155,7 @@
         "EntityId": "apple.tablet.ipadpro105",
         "_id": "a749ae8a-b342-4479-ac10-337960bd5ac4",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -160,6 +163,7 @@
         "Name": "iPad Pro 10.5-inch",
         "Type": "STANDALONE",
         "LaunchYear": "2017",
+        "ReleaseDate": "2017-06-13",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111976",
@@ -201,7 +205,7 @@
         "EntityId": "apple.tablet.ipadpro11gen1",
         "_id": "a3e6038e-f749-4008-a784-a87decf877d0",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -209,6 +213,7 @@
         "Name": "iPad Pro 11-inch (1st generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2018",
+        "ReleaseDate": "2018-11-07",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111972",
@@ -250,7 +255,7 @@
         "EntityId": "apple.tablet.ipadpro129gen3",
         "_id": "2c5ed7b8-69f1-461d-8eea-0efe9749545f",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -258,6 +263,7 @@
         "Name": "iPad Pro 12.9-inch (3rd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2018",
+        "ReleaseDate": "2018-11-07",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111968",
@@ -299,7 +305,7 @@
         "EntityId": "apple.tablet.ipadpro11gen2",
         "_id": "0e7ae57d-671e-4717-bea0-24abe0184f20",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -307,6 +313,7 @@
         "Name": "iPad Pro 11-inch (2nd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
+        "ReleaseDate": "2020-03-25",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111966",
@@ -348,7 +355,7 @@
         "EntityId": "apple.tablet.ipadpro129gen4",
         "_id": "6f872229-4456-46ce-9c76-efe8f89aa986",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -356,6 +363,7 @@
         "Name": "iPad Pro 12.9-inch (4th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
+        "ReleaseDate": "2020-03-25",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111965",
@@ -397,7 +405,7 @@
         "EntityId": "apple.tablet.ipadpro11gen3",
         "_id": "c2e02b8d-521c-44bf-88ae-fe9272a98844",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -405,6 +413,7 @@
         "Name": "iPad Pro 11-inch (3rd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
+        "ReleaseDate": "2021-05-21",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111964",
@@ -446,7 +455,7 @@
         "EntityId": "apple.tablet.ipadpro129gen5",
         "_id": "29b30d1e-8cda-4914-bad6-6028fba2c9ae",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -454,6 +463,7 @@
         "Name": "iPad Pro 12.9-inch (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
+        "ReleaseDate": "2021-05-21",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111963",
@@ -495,7 +505,7 @@
         "EntityId": "apple.tablet.ipadpro11gen4",
         "_id": "4bfe9a3f-c929-4b97-9c2a-9301c2636381",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -503,6 +513,7 @@
         "Name": "iPad Pro 11-inch (4th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
+        "ReleaseDate": "2022-10-26",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111841",
@@ -544,7 +555,7 @@
         "EntityId": "apple.tablet.ipadpro129gen6",
         "_id": "ad04c96b-829c-413b-ad63-e71a6d009ffc",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -552,6 +563,7 @@
         "Name": "iPad Pro 12.9-inch (6th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
+        "ReleaseDate": "2022-10-26",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/111840",
@@ -593,7 +605,7 @@
         "EntityId": "apple.tablet.ipadpro11m4",
         "_id": "c9715808-922a-4052-a63e-85ce59bf2b2a",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -601,6 +613,7 @@
         "Name": "iPad Pro 11-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
+        "ReleaseDate": "2024-05-15",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/119892",
@@ -642,7 +655,7 @@
         "EntityId": "apple.tablet.ipadpro13m4",
         "_id": "67e418cc-b243-4d8d-9bc0-7a96dbd39188",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -650,6 +663,7 @@
         "Name": "iPad Pro 13-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
+        "ReleaseDate": "2024-05-15",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://support.apple.com/en-us/119891",
@@ -691,7 +705,7 @@
         "EntityId": "apple.tablet.ipadpro11m5",
         "_id": "9378b96a-a221-4b8f-910e-d2b11f443b92",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -699,6 +713,7 @@
         "Name": "iPad Pro 11-inch (M5)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
+        "ReleaseDate": "2025-10-22",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-pro",
@@ -740,7 +755,7 @@
         "EntityId": "apple.tablet.ipadpro13m5",
         "_id": "601c8103-f6d8-472d-9f25-d1ddba36ccc9",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -748,6 +763,7 @@
         "Name": "iPad Pro 13-inch (M5)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
+        "ReleaseDate": "2025-10-22",
         "Audience": "Professional",
         "Family": "apple.tabletfamily.ipadpro",
         "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-pro",
@@ -789,7 +805,7 @@
         "EntityId": "apple.tablet.ipadairgen3",
         "_id": "04aefe22-287c-46aa-9055-aff87d22f513",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -797,6 +813,7 @@
         "Name": "iPad Air (3rd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2019",
+        "ReleaseDate": "2019-03-18",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/111982",
@@ -838,7 +855,7 @@
         "EntityId": "apple.tablet.ipadairgen4",
         "_id": "d5d2568b-1a8a-47d7-af41-f2152c4ba674",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -846,6 +863,7 @@
         "Name": "iPad Air (4th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
+        "ReleaseDate": "2020-10-23",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/111981",
@@ -887,7 +905,7 @@
         "EntityId": "apple.tablet.ipadairgen5",
         "_id": "5798525d-81fd-4930-a556-e9ed37da16d2",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -895,6 +913,7 @@
         "Name": "iPad Air (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
+        "ReleaseDate": "2022-03-18",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/111980",
@@ -936,7 +955,7 @@
         "EntityId": "apple.tablet.ipadair11m2",
         "_id": "8dea6445-10af-493b-8fcc-2f0744d352a6",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -944,6 +963,7 @@
         "Name": "iPad Air 11-inch (M2)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
+        "ReleaseDate": "2024-05-15",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/119893",
@@ -985,7 +1005,7 @@
         "EntityId": "apple.tablet.ipadair13m2",
         "_id": "0c9e0c4e-b0a6-4c8c-a8d5-67c0b2065869",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -993,6 +1013,7 @@
         "Name": "iPad Air 13-inch (M2)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
+        "ReleaseDate": "2024-05-15",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/119894",
@@ -1034,7 +1055,7 @@
         "EntityId": "apple.tablet.ipadair11m3",
         "_id": "cf849666-74a2-4d82-960e-9c4364715f8d",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1042,6 +1063,7 @@
         "Name": "iPad Air 11-inch (M3)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
+        "ReleaseDate": "2025-03-12",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/121881",
@@ -1083,7 +1105,7 @@
         "EntityId": "apple.tablet.ipadair13m3",
         "_id": "eb83a056-98d3-4b40-b8b0-6c1c9b82f122",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1091,6 +1113,7 @@
         "Name": "iPad Air 13-inch (M3)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
+        "ReleaseDate": "2025-03-12",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://support.apple.com/en-us/121882",
@@ -1132,7 +1155,7 @@
         "EntityId": "apple.tablet.ipadair11m4",
         "_id": "a94539c6-3aab-41fd-8a47-0bf6be6a7456",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1140,6 +1163,7 @@
         "Name": "iPad Air 11-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2026",
+        "ReleaseDate": "2026-03-11",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-air",
@@ -1181,7 +1205,7 @@
         "EntityId": "apple.tablet.ipadair13m4",
         "_id": "865cef58-c07f-4869-a4b5-ea37a7e833c8",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1189,6 +1213,7 @@
         "Name": "iPad Air 13-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2026",
+        "ReleaseDate": "2026-03-11",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadair",
         "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad-air",
@@ -1230,7 +1255,7 @@
         "EntityId": "apple.tablet.ipadminigen5",
         "_id": "cab6af4f-4523-43b5-8631-a6c808e7919c",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1238,6 +1263,7 @@
         "Name": "iPad mini (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2019",
+        "ReleaseDate": "2019-03-18",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadmini",
         "ProductLink": "https://support.apple.com/en-us/111985",
@@ -1279,7 +1305,7 @@
         "EntityId": "apple.tablet.ipadminigen6",
         "_id": "d86b1e6b-ed13-4801-a2e3-0971f344f32c",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1287,6 +1313,7 @@
         "Name": "iPad mini (6th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
+        "ReleaseDate": "2021-09-24",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadmini",
         "ProductLink": "https://support.apple.com/en-us/111984",
@@ -1328,7 +1355,7 @@
         "EntityId": "apple.tablet.ipadminigen7",
         "_id": "4a40180d-d03f-4351-a159-eb6f64dc0ea0",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1336,6 +1363,7 @@
         "Name": "iPad mini (7th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
+        "ReleaseDate": "2024-10-23",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipadmini",
         "ProductLink": "https://support.apple.com/en-us/121456",
@@ -1377,7 +1405,7 @@
         "EntityId": "apple.tablet.ipadgen5",
         "_id": "b34fea0f-bab3-4c59-82e6-8d7f27be44df",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1385,6 +1413,7 @@
         "Name": "iPad (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2017",
+        "ReleaseDate": "2017-03-24",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://support.apple.com/en-us/111978",
@@ -1426,7 +1455,7 @@
         "EntityId": "apple.tablet.ipadgen6",
         "_id": "68dc3593-98aa-4003-b118-29713d1babe4",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1434,6 +1463,7 @@
         "Name": "iPad (6th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2018",
+        "ReleaseDate": "2018-03-27",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://support.apple.com/en-us/111971",
@@ -1475,7 +1505,7 @@
         "EntityId": "apple.tablet.ipadgen7",
         "_id": "9c543f67-1c1c-4766-b00e-354288e1b01a",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1483,6 +1513,7 @@
         "Name": "iPad (7th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2019",
+        "ReleaseDate": "2019-09-25",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://support.apple.com/en-us/111970",
@@ -1524,7 +1555,7 @@
         "EntityId": "apple.tablet.ipadgen8",
         "_id": "62aa5b6d-9990-4321-9bae-f7012680ce03",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1532,6 +1563,7 @@
         "Name": "iPad (8th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
+        "ReleaseDate": "2020-09-18",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://support.apple.com/en-us/111969",
@@ -1573,7 +1605,7 @@
         "EntityId": "apple.tablet.ipadgen9",
         "_id": "34449631-9f6a-4e9a-98d4-60356a045854",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1581,6 +1613,7 @@
         "Name": "iPad (9th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
+        "ReleaseDate": "2021-09-24",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://support.apple.com/en-us/111967",
@@ -1622,7 +1655,7 @@
         "EntityId": "apple.tablet.ipadgen10",
         "_id": "a76ff98a-5dbd-4e12-a015-0e8666c46816",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1630,6 +1663,7 @@
         "Name": "iPad (10th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
+        "ReleaseDate": "2022-10-26",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://support.apple.com/en-us/111842",
@@ -1671,7 +1705,7 @@
         "EntityId": "apple.tablet.ipadgen11",
         "_id": "708e7b5e-380e-4416-9ab1-fb9c0b3e8f1d",
         "_CreateDate": "2026-04-30T00:00:00.000Z",
-        "_ModifiedDate": "2026-04-30T00:00:00.000Z"
+        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
       },
       "Model": {
         "Brand": "APPLE",
@@ -1679,6 +1713,7 @@
         "Name": "iPad (A16)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
+        "ReleaseDate": "2025-03-12",
         "Audience": "Consumer",
         "Family": "apple.tabletfamily.ipad",
         "ProductLink": "https://www.apple.com/shop/buy-ipad/ipad",
