@@ -76,6 +76,10 @@ const ModelSchema = v.strictObject({
   AlternateNames: v.optional(v.array(TrimmedString)),
   Type: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
   LaunchYear: TrimmedString,
+  // Exact release date when known, ISO-8601 with variable precision:
+  // "YYYY-MM-DD", "YYYY-MM", or "YYYY". LaunchYear stays the canonical
+  // year; ReleaseDate refines it where a press-release date is known.
+  ReleaseDate: v.optional(TrimmedString),
   Audience: v.optional(v.picklist(["Consumer", "Enthusiast", "Professional"])),
   Family: v.optional(TrimmedString),
   IncludedPen: v.optional(v.array(TrimmedString)),

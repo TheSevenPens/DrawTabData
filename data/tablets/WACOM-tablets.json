@@ -5,7 +5,7 @@
                                             "EntityId":  "wacom.tablet.ctc4110wl",
                                             "_id":  "25487c6c-8759-473d-b92a-68be45189112",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -13,6 +13,7 @@
                                              "Name":  "Wacom One 2023 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-08-10",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.cp923"
@@ -46,7 +47,7 @@
                                             "EntityId":  "wacom.tablet.ctc6110wl",
                                             "_id":  "0f06387e-bc05-4ebf-804f-48baaa5ec759",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -54,6 +55,7 @@
                                              "Name":  "Wacom One 2023 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-08-10",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.cp923"
@@ -87,7 +89,7 @@
                                             "EntityId":  "wacom.tablet.cte450",
                                             "_id":  "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -95,6 +97,7 @@
                                              "Name":  "Bamboo Fun Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-05-15",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep155e"
@@ -128,7 +131,7 @@
                                             "EntityId":  "wacom.tablet.cte650",
                                             "_id":  "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -136,6 +139,7 @@
                                              "Name":  "Bamboo Fun Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-05-15",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep155e"
@@ -169,7 +173,7 @@
                                             "EntityId":  "wacom.tablet.cth470",
                                             "_id":  "e1a691a6-d73e-4f48-9d92-9185ed816be3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -177,6 +181,7 @@
                                              "Name":  "Bamboo Capture",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2011",
+                                             "ReleaseDate":  "2011-09-27",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp170e",
@@ -255,7 +260,7 @@
                                             "EntityId":  "wacom.tablet.cth670",
                                             "_id":  "34947067-79d5-415a-b81a-e65e75d842be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -263,6 +268,7 @@
                                              "Name":  "Bamboo Create",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2011",
+                                             "ReleaseDate":  "2011-09-27",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp170e"
@@ -339,7 +345,7 @@
                                             "EntityId":  "wacom.tablet.ctl4100",
                                             "_id":  "c0b798db-e061-45fe-8ba5-b82bc6497936",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -347,6 +353,7 @@
                                              "Name":  "Intuos Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018-03-06",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp1100k"
@@ -382,7 +389,7 @@
                                             "EntityId":  "wacom.tablet.ctl4100wl",
                                             "_id":  "8e17d9b8-7a38-4c37-9add-6bdc82091525",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -390,6 +397,7 @@
                                              "Name":  "Intuos Small Bluetooth",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018-03-06",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp1100k"
@@ -424,7 +432,7 @@
                                             "EntityId":  "wacom.tablet.ctl470",
                                             "_id":  "487092fc-f2ff-4438-9926-32df9efc80be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -432,6 +440,7 @@
                                              "Name":  "Bamboo Connect",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2011",
+                                             "ReleaseDate":  "2011-09-27",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp170"
@@ -467,7 +476,7 @@
                                             "EntityId":  "wacom.tablet.ctl472",
                                             "_id":  "3d706816-ba5d-4787-a333-bea467bed0b3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -475,6 +484,7 @@
                                              "Name":  "One by Wacom Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-05-10",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp190k"
@@ -508,7 +518,7 @@
                                             "EntityId":  "wacom.tablet.ctl490",
                                             "_id":  "fe35e68e-3e14-4769-9387-014cd5a2f258",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -516,6 +526,7 @@
                                              "Name":  "Intuos Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2015-09-15",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp190"
@@ -550,7 +561,7 @@
                                             "EntityId":  "wacom.tablet.ctl6100",
                                             "_id":  "592ea84b-72ab-4a58-8085-bbb92bd848e3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -558,6 +569,7 @@
                                              "Name":  "Intuos Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018-03-06",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp1100k"
@@ -593,7 +605,7 @@
                                             "EntityId":  "wacom.tablet.ctl6100wl",
                                             "_id":  "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -601,6 +613,7 @@
                                              "Name":  "Intuos Medium Bluetooth",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018-03-06",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp1100k"
@@ -636,7 +649,7 @@
                                             "EntityId":  "wacom.tablet.ctl672",
                                             "_id":  "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -644,6 +657,7 @@
                                              "Name":  "One by Wacom Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-05-10",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp190k"
@@ -678,7 +692,7 @@
                                             "EntityId":  "wacom.tablet.ctl690",
                                             "_id":  "6cae6cd5-eaa2-43b1-ac8c-26379890532b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -686,6 +700,7 @@
                                              "Name":  "Intuos Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2015-09-15",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp190"
@@ -720,7 +735,7 @@
                                             "EntityId":  "wacom.tablet.dtc121",
                                             "_id":  "488f6512-a695-49d9-83fe-92d90b70a5d3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -728,6 +743,7 @@
                                              "Name":  "Wacom One 2023 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-08-10",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.cp923"
@@ -776,7 +792,7 @@
                                             "EntityId":  "wacom.tablet.dtc133",
                                             "_id":  "24a318ae-8530-4678-ad33-ff117efe7b57",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -784,6 +800,7 @@
                                              "Name":  "Wacom One 2019",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
+                                             "ReleaseDate":  "2020-01-07",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.cp913"
@@ -835,7 +852,7 @@
                                             "EntityId":  "wacom.tablet.dtc141",
                                             "_id":  "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -843,6 +860,7 @@
                                              "Name":  "Wacom One 14",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-09-17",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.cp923"
@@ -892,7 +910,7 @@
                                             "EntityId":  "wacom.tablet.dth1320",
                                             "_id":  "3b565a01-0544-4dee-bbd2-aeba06af96b4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:28.697Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -900,6 +918,7 @@
                                              "Name":  "Cintiq Pro 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2016",
+                                             "ReleaseDate":  "2016-11-16",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -947,7 +966,7 @@
                                             "EntityId":  "wacom.tablet.dth134",
                                             "_id":  "d7c42106-22bf-4ce6-94a6-69780728df21",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -955,6 +974,7 @@
                                              "Name":  "Wacom One 2023 13 touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-08-10",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.cp923"
@@ -1002,7 +1022,7 @@
                                             "EntityId":  "wacom.tablet.dth135",
                                             "_id":  "8d4308af-a529-453e-a394-1a739a337785",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1010,6 +1030,7 @@
                                              "Name":  "Movink 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
+                                             "ReleaseDate":  "2024-04-24",
                                              "Audience":  "Enthusiast",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -1062,7 +1083,7 @@
                                             "EntityId":  "wacom.tablet.dth1620",
                                             "_id":  "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:32.957Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1070,6 +1091,7 @@
                                              "Name":  "Cintiq Pro 16 2016",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2016",
+                                             "ReleaseDate":  "2016-11-16",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1118,7 +1140,7 @@
                                             "EntityId":  "wacom.tablet.dth167",
                                             "_id":  "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:38.035Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1126,6 +1148,7 @@
                                              "Name":  "Cintiq Pro 16 2021",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
+                                             "ReleaseDate":  "2021-10-20",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1177,7 +1200,7 @@
                                             "EntityId":  "wacom.tablet.dth172",
                                             "_id":  "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:43.683Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1185,6 +1208,7 @@
                                              "Name":  "Cintiq Pro 17",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-10-19",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -1239,7 +1263,7 @@
                                             "EntityId":  "wacom.tablet.dth227",
                                             "_id":  "f74b002f-cac5-4490-9ace-943893d53427",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:48.521Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1247,6 +1271,7 @@
                                              "Name":  "Cintiq Pro 22",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
+                                             "ReleaseDate":  "2023-10-19",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -1301,7 +1326,7 @@
                                             "EntityId":  "wacom.tablet.dth2420",
                                             "_id":  "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:53.636Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1309,6 +1334,7 @@
                                              "Name":  "Cintiq Pro 24 Touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2018-02-27",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1361,7 +1387,7 @@
                                             "EntityId":  "wacom.tablet.dth246",
                                             "_id":  "62cd9b73-c996-422b-93c4-4c128acdaf6e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:50:24.354Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1369,6 +1395,7 @@
                                              "Name":  "Cintiq 24 touch 2025",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-06-05",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -1421,7 +1448,7 @@
                                             "EntityId":  "wacom.tablet.dth271",
                                             "_id":  "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:51:00.154Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1429,6 +1456,7 @@
                                              "Name":  "Cintiq Pro 27",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
+                                             "ReleaseDate":  "2022-09-28",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -1483,7 +1511,7 @@
                                             "EntityId":  "wacom.tablet.dth3220",
                                             "_id":  "98f3cf20-2478-4184-a94d-bafcf512f740",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1491,6 +1519,7 @@
                                              "Name":  "Cintiq Pro 32",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2018-02-27",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1544,7 +1573,7 @@
                                             "EntityId":  "wacom.tablet.dtk1300",
                                             "_id":  "be7822d8-d208-4ff2-9bcd-fedef488048d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1552,6 +1581,7 @@
                                              "Name":  "Cintiq 13HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-03-19",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp503e"
                                                              ],
@@ -1599,7 +1629,7 @@
                                             "EntityId":  "wacom.tablet.dtk1660",
                                             "_id":  "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1607,6 +1637,7 @@
                                              "Name":  "Cintiq 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
+                                             "ReleaseDate":  "2019-01-08",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1658,7 +1689,7 @@
                                             "EntityId":  "wacom.tablet.dtk168",
                                             "_id":  "fae638fa-e305-434a-a2a6-f6852ec8c02e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1666,6 +1697,7 @@
                                              "Name":  "Cintiq 16 2025",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-06-05",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -1719,7 +1751,7 @@
                                             "EntityId":  "wacom.tablet.dtk2100",
                                             "_id":  "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1727,6 +1759,7 @@
                                              "Name":  "Cintiq 21UX 2010",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2010",
+                                             "ReleaseDate":  "2010-03-26",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -1769,7 +1802,7 @@
                                             "EntityId":  "wacom.tablet.dtk2200",
                                             "_id":  "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1777,6 +1810,7 @@
                                              "Name":  "Cintiq 22 HD Touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-07-10",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
                                                              ],
@@ -1825,7 +1859,7 @@
                                             "EntityId":  "wacom.tablet.dtk2260",
                                             "_id":  "105e4152-9817-43dc-9a12-33a64bb9d820",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1833,6 +1867,7 @@
                                              "Name":  "Cintiq 22",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-07-16",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1884,7 +1919,7 @@
                                             "EntityId":  "wacom.tablet.dtk2400",
                                             "_id":  "0c884705-370d-47f8-ad60-ae939de51c2d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1892,6 +1927,7 @@
                                              "Name":  "Cintiq 24 HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2011-09-13",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -1934,7 +1970,7 @@
                                             "EntityId":  "wacom.tablet.dtk2420",
                                             "_id":  "c7993e5b-4283-4365-8a0d-97fece793f37",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -1942,6 +1978,7 @@
                                              "Name":  "Cintiq Pro 24",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2018-02-27",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -1994,7 +2031,7 @@
                                             "EntityId":  "wacom.tablet.dtk246",
                                             "_id":  "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2002,6 +2039,7 @@
                                              "Name":  "Cintiq 24 2025",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-06-05",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -2054,7 +2092,7 @@
                                             "EntityId":  "wacom.tablet.dtk2700",
                                             "_id":  "d8b80e4e-6210-418c-a611-cfc63cfc5635",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2062,6 +2100,7 @@
                                              "Name":  "Cintiq 27 QHD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
+                                             "ReleaseDate":  "2015-01-06",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp503e"
                                                              ],
@@ -2110,7 +2149,7 @@
                                             "EntityId":  "wacom.tablet.dtz1200w",
                                             "_id":  "74531bc3-5b9e-4154-8293-3f4055de69d4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2118,6 +2157,7 @@
                                              "Name":  "Cintiq 12WX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-11-16",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -2151,7 +2191,7 @@
                                             "EntityId":  "wacom.tablet.dtz2100",
                                             "_id":  "59d61fb8-2078-434a-809b-4c05f3537e1c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-03-31T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2162,6 +2202,7 @@
                                                                 ],
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-02-26",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -2208,7 +2249,7 @@
                                             "EntityId":  "wacom.tablet.dtz2100d",
                                             "_id":  "5067122f-01f1-4721-aa24-022acaa68d4c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2216,6 +2257,7 @@
                                              "Name":  "Cintiq 21UX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-11",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
@@ -2240,7 +2282,7 @@
                                             "EntityId":  "wacom.tablet.dtz2000w",
                                             "_id":  "e22d56b9-f16e-4877-a1f3-434a62b465d0",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2248,6 +2290,7 @@
                                              "Name":  "Cintiq 20WSX 2007",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-11-16",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -2289,7 +2332,7 @@
                                             "EntityId":  "wacom.tablet.pl521",
                                             "_id":  "5b6e3f51-abfc-44fb-9048-fcd40eef90b1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2297,6 +2340,7 @@
                                              "Name":  "Cintiq 15SX",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-08",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -2310,7 +2354,7 @@
                                             "EntityId":  "wacom.tablet.dtf521",
                                             "_id":  "a7c3e1d2-5f84-4b9a-8e12-6d3a2c7f9b01",
                                             "_CreateDate":  "2026-04-03T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2318,6 +2362,7 @@
                                              "Name":  "DTF-521",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-03",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf521-manual.pdf?rev=49798cb00b0d4b288378a7b650f2b466\u0026amp;hash=CE0B216130C791BC26193930707A2A90",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqlegacy"
@@ -2341,7 +2386,7 @@
                                             "EntityId":  "wacom.tablet.dtu710",
                                             "_id":  "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
                                             "_CreateDate":  "2026-04-03T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2349,6 +2394,7 @@
                                              "Name":  "DTU-710",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-03",
                                              "Status":  "DISCONTINUED",
                                              "UserManual":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtu710-manual.pdf?rev=bb8c71e1d0f046b287ce35cf1930b4b0\u0026amp;hash=FEBFDF618D15CDC5CDC20FA4D52BDE14",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqlegacy"
@@ -2380,7 +2426,7 @@
                                             "EntityId":  "wacom.tablet.pl550",
                                             "_id":  "7ad4460a-8600-4c14-9916-69d0a7bab344",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2388,6 +2434,7 @@
                                              "Name":  "Cintiq 15X",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
@@ -2431,7 +2478,7 @@
                                             "EntityId":  "wacom.tablet.pl700",
                                             "_id":  "38eb1274-8e96-4961-8130-37ff54b1e21d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2439,6 +2486,7 @@
                                              "Name":  "Cintiq 17SX 2002",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2002",
+                                             "ReleaseDate":  "2002-09",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -2476,7 +2524,7 @@
                                             "EntityId":  "wacom.tablet.pl710",
                                             "_id":  "407a05eb-e2f8-43bd-b069-9d6932684264",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2484,6 +2532,7 @@
                                              "Name":  "Cintiq 17X",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
                                                              ],
@@ -2500,7 +2549,7 @@
                                             "EntityId":  "wacom.tablet.pl720",
                                             "_id":  "45abe4ca-a680-4fcf-802e-07ca8a362d95",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2508,6 +2557,7 @@
                                              "Name":  "Cintiq 17SX 2009",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
                                                              ],
@@ -2524,7 +2574,7 @@
                                             "EntityId":  "wacom.tablet.pl800",
                                             "_id":  "26177b6b-1a01-4059-a67e-323e78fd650f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2026-04-02T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2532,6 +2582,7 @@
                                              "Name":  "Cintiq 18SX",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2002",
+                                             "ReleaseDate":  "2002-09",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up911e"
@@ -2575,7 +2626,7 @@
                                             "EntityId":  "wacom.tablet.pth450",
                                             "_id":  "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:21.389Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2583,6 +2634,7 @@
                                              "Name":  "Intuos5 touch Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-03-01",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -2617,7 +2669,7 @@
                                             "EntityId":  "wacom.tablet.pth451",
                                             "_id":  "7c4062a5-217d-4127-af11-868c63c736a8",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:48:35.885Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2625,6 +2677,7 @@
                                              "Name":  "Intuos Pro 2013 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -2660,7 +2713,7 @@
                                             "EntityId":  "wacom.tablet.pth460",
                                             "_id":  "8ab0e087-96ce-41cd-aaae-95e09aec20be",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:51:47.636Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2668,6 +2721,7 @@
                                              "Name":  "Intuos Pro 2017 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-05-16",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -2702,7 +2756,7 @@
                                             "EntityId":  "wacom.tablet.pth650",
                                             "_id":  "743c5ec8-3a09-42aa-9a0d-1863a1094440",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:15.187Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2710,6 +2764,7 @@
                                              "Name":  "Intuos5 touch Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-03-01",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -2744,7 +2799,7 @@
                                             "EntityId":  "wacom.tablet.pth651",
                                             "_id":  "5d496d0e-128b-4d06-93cb-6d59e3674bc4",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:48:30.784Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2752,6 +2807,7 @@
                                              "Name":  "Intuos Pro 2013 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -2787,7 +2843,7 @@
                                             "EntityId":  "wacom.tablet.pth660",
                                             "_id":  "01d122e2-5c75-47df-bc91-171476994174",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:51:41.306Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2795,6 +2851,7 @@
                                              "Name":  "Intuos Pro 2017 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2017-01-04",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -2830,7 +2887,7 @@
                                             "EntityId":  "wacom.tablet.pth850",
                                             "_id":  "954412d1-5297-4801-b185-745d4f55e1f1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:10.131Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2838,6 +2895,7 @@
                                              "Name":  "Intuos5 touch Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-03-01",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -2872,7 +2930,7 @@
                                             "EntityId":  "wacom.tablet.pth851",
                                             "_id":  "f56f9476-b272-42b7-99cd-53d198a5fe53",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:48:25.789Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2880,6 +2938,7 @@
                                              "Name":  "Intuos Pro 2013 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -2915,7 +2974,7 @@
                                             "EntityId":  "wacom.tablet.pth860",
                                             "_id":  "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:51:27.408Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2923,6 +2982,7 @@
                                              "Name":  "Intuos Pro 2017 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
+                                             "ReleaseDate":  "2017-01-04",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp504e"
@@ -2958,7 +3018,7 @@
                                             "EntityId":  "wacom.tablet.ptk1240",
                                             "_id":  "91008a79-9e7a-47b3-9394-9b127ce13af5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -2966,6 +3026,7 @@
                                              "Name":  "Intuos4 XL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-03-24",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3001,7 +3062,7 @@
                                             "EntityId":  "wacom.tablet.ptk440",
                                             "_id":  "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3009,6 +3070,7 @@
                                              "Name":  "Intuos4 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-03-24",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3044,7 +3106,7 @@
                                             "EntityId":  "wacom.tablet.ptk450",
                                             "_id":  "7b7e2368-695a-417a-b6c9-50e79092911b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3052,6 +3114,7 @@
                                              "Name":  "Intuos5 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-03-01",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3086,7 +3149,7 @@
                                             "EntityId":  "wacom.tablet.ptk470",
                                             "_id":  "f710bda9-5117-4828-bf93-c6303182a107",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:52:59.165Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3094,6 +3157,7 @@
                                              "Name":  "Intuos Pro 2025 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-02-12",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -3126,7 +3190,7 @@
                                             "EntityId":  "wacom.tablet.ptk540wl",
                                             "_id":  "04ea669b-224c-4bb7-989d-8f80f7deb273",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3134,6 +3198,7 @@
                                              "Name":  "Intuos4 Wireless",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-03-24",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3168,7 +3233,7 @@
                                             "EntityId":  "wacom.tablet.ptk640",
                                             "_id":  "d146cdd3-05c0-466a-beba-32167f5c8c29",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3176,6 +3241,7 @@
                                              "Name":  "Intuos4 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-03-24",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3211,7 +3277,7 @@
                                             "EntityId":  "wacom.tablet.ptk650",
                                             "_id":  "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3219,6 +3285,7 @@
                                              "Name":  "Intuos5 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-03-01",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3253,7 +3320,7 @@
                                             "EntityId":  "wacom.tablet.ptk670",
                                             "_id":  "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:52:52.941Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3261,6 +3328,7 @@
                                              "Name":  "Intuos Pro 2025 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-02-12",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -3294,7 +3362,7 @@
                                             "EntityId":  "wacom.tablet.ptk840",
                                             "_id":  "8ebf5be9-77ea-44c6-b0ec-278a2942ab1b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3302,6 +3370,7 @@
                                              "Name":  "Intuos4 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-03-24",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp501e"
@@ -3337,7 +3406,7 @@
                                             "EntityId":  "wacom.tablet.ptk870",
                                             "_id":  "14541a09-3326-4ab0-90e7-92ffa5f49d95",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T17:52:45.868Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3345,6 +3414,7 @@
                                              "Name":  "Intuos Pro 2025 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-02-12",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -3377,7 +3447,7 @@
                                             "EntityId":  "wacom.tablet.ptz1230",
                                             "_id":  "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3385,6 +3455,7 @@
                                              "Name":  "Intuos3 12x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3419,7 +3490,7 @@
                                             "EntityId":  "wacom.tablet.ptz1231w",
                                             "_id":  "ce2beb7a-b86b-4bd3-84b1-da25d29694bf",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3427,6 +3498,7 @@
                                              "Name":  "Intuos3 12x19",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3461,7 +3533,7 @@
                                             "EntityId":  "wacom.tablet.ptz430",
                                             "_id":  "7ef15517-5e1c-4520-82a3-f9f37a98d86f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3469,6 +3541,7 @@
                                              "Name":  "Intuos3 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3503,7 +3576,7 @@
                                             "EntityId":  "wacom.tablet.ptz431w",
                                             "_id":  "b87675fc-0b37-46aa-9db8-f12376de3980",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3511,6 +3584,7 @@
                                              "Name":  "Intuos3 4x6",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3545,7 +3619,7 @@
                                             "EntityId":  "wacom.tablet.ptz630",
                                             "_id":  "598a1555-68f2-4bc7-8565-03fec2d12c96",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3553,6 +3627,7 @@
                                              "Name":  "Intuos3 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3587,7 +3662,7 @@
                                             "EntityId":  "wacom.tablet.ptz631w",
                                             "_id":  "1564fe9c-9490-4bfe-9338-7345a15a01e1",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3595,6 +3670,7 @@
                                              "Name":  "Intuos3 6x11",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3629,7 +3705,7 @@
                                             "EntityId":  "wacom.tablet.ptz930",
                                             "_id":  "21159fc7-7147-4115-beb0-cb0371ddc8a5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3637,6 +3713,7 @@
                                              "Name":  "Intuos3 9x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "2004-09-14",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.zp501e"
@@ -3671,7 +3748,7 @@
                                             "EntityId":  "wacom.tablet.xd0405u",
                                             "_id":  "9a768e16-a33f-4b88-8b62-2608306de16b",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3679,6 +3756,7 @@
                                              "Name":  "Intuos2 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -3713,7 +3791,7 @@
                                             "EntityId":  "wacom.tablet.xd0608u",
                                             "_id":  "ed841f4a-77da-44b0-862e-11bf9923b095",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3721,6 +3799,7 @@
                                              "Name":  "Intuos2 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -3755,7 +3834,7 @@
                                             "EntityId":  "wacom.tablet.xd0912u",
                                             "_id":  "06163869-1f1b-49c3-8797-8a6b29c0411f",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3763,6 +3842,7 @@
                                              "Name":  "Intuos2 9x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -3797,7 +3877,7 @@
                                             "EntityId":  "wacom.tablet.xd1212u",
                                             "_id":  "422f0225-5495-47d8-9e14-2625502092de",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3805,6 +3885,7 @@
                                              "Name":  "Intuos2 12x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -3839,7 +3920,7 @@
                                             "EntityId":  "wacom.tablet.xd1218u",
                                             "_id":  "473c0407-8a41-465d-bc6c-17451bd66676",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3847,6 +3928,7 @@
                                              "Name":  "Intuos2 12x18",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -3881,7 +3963,7 @@
                                             "EntityId":  "wacom.tablet.dtha116",
                                             "_id":  "32f29f75-b050-4e0c-bc11-8cb519fae278",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3889,6 +3971,7 @@
                                              "Name":  "Wacom MovinkPad 11",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-07-17",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -3952,7 +4035,7 @@
                                             "EntityId":  "wacom.tablet.dtha140",
                                             "_id":  "26effca9-b80a-4a60-acba-73e88d635bf0",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -3960,6 +4043,7 @@
                                              "Name":  "Wacom MovinkPad Pro 14",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
+                                             "ReleaseDate":  "2025-10-01",
                                              "Audience":  "Professional",
                                              "IncludedPen":  [
                                                                  "wacom.pen.acp500"
@@ -4026,7 +4110,7 @@
                                             "EntityId":  "wacom.tablet.sd510c",
                                             "_id":  "fdf42d74-d311-420e-830e-a098a2972799",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4034,6 +4118,7 @@
                                              "Name":  "SD-510C",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4062,7 +4147,7 @@
                                             "EntityId":  "wacom.tablet.sd420e",
                                             "_id":  "cf1894fe-84c4-4b20-a35a-f5d038fc00cf",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4070,6 +4155,7 @@
                                              "Name":  "SD-420E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4098,7 +4184,7 @@
                                             "EntityId":  "wacom.tablet.sd421e",
                                             "_id":  "152561c4-2c4c-482d-9784-7b6598866055",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4106,6 +4192,7 @@
                                              "Name":  "SD-421E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4134,7 +4221,7 @@
                                             "EntityId":  "wacom.tablet.sd422e",
                                             "_id":  "ad69bef9-8f76-4806-ab12-64d002cab6d8",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4142,6 +4229,7 @@
                                              "Name":  "SD-422E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4170,7 +4258,7 @@
                                             "EntityId":  "wacom.tablet.sd320e",
                                             "_id":  "ca0ba8da-97f0-407f-a8d5-8cfce3c37229",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4178,6 +4266,7 @@
                                              "Name":  "SD-320E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4206,7 +4295,7 @@
                                             "EntityId":  "wacom.tablet.sd321e",
                                             "_id":  "3d44fa2b-b989-4b2b-bb63-47ad00e83229",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4214,6 +4303,7 @@
                                              "Name":  "SD-321E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4242,7 +4332,7 @@
                                             "EntityId":  "wacom.tablet.sd322e",
                                             "_id":  "ead24597-6ede-4ea9-ae33-b58ff369aaf0",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4250,6 +4340,7 @@
                                              "Name":  "SD-322E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4278,7 +4369,7 @@
                                             "EntityId":  "wacom.tablet.sd310e",
                                             "_id":  "b30402bd-07e2-4960-af5f-b2cfa44db505",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4286,6 +4377,7 @@
                                              "Name":  "SD-310E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4314,7 +4406,7 @@
                                             "EntityId":  "wacom.tablet.sd311e",
                                             "_id":  "953b81dc-7893-4772-be8c-508b84d59e83",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4322,6 +4414,7 @@
                                              "Name":  "SD-311E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4350,7 +4443,7 @@
                                             "EntityId":  "wacom.tablet.sd312e",
                                             "_id":  "f21a77b7-08f6-4daf-8733-927df6ce7460",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4358,6 +4451,7 @@
                                              "Name":  "SD-312E",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4386,7 +4480,7 @@
                                             "EntityId":  "wacom.tablet.sd210l",
                                             "_id":  "3d2cd174-ed7d-4253-99b7-55a6491c5178",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4394,6 +4488,7 @@
                                              "Name":  "SD-210L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4421,7 +4516,7 @@
                                             "EntityId":  "wacom.tablet.sd013a",
                                             "_id":  "e6c987f0-d35f-44f1-95e4-c4902c403994",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4429,6 +4524,7 @@
                                              "Name":  "SD-013A",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4457,7 +4553,7 @@
                                             "EntityId":  "wacom.tablet.sd013l",
                                             "_id":  "edafa376-154d-48f3-b863-a62bd892f5e1",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4465,6 +4561,7 @@
                                              "Name":  "SD-013L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1988",
+                                             "ReleaseDate":  "1988-07",
                                              "Family":  "wacom.tabletfamily.wacom_sd_1988",
                                              "IncludedPen":  [
 
@@ -4493,7 +4590,7 @@
                                             "EntityId":  "wacom.tablet.gd0405u",
                                             "_id":  "fae00305-bb28-4557-ab7f-a446a189e2da",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4501,6 +4598,7 @@
                                              "Name":  "Intuos 4x5 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4529,7 +4627,7 @@
                                             "EntityId":  "wacom.tablet.gd0405r",
                                             "_id":  "554aef9c-b553-487a-ac8a-b51b9d4bbc05",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4537,6 +4635,7 @@
                                              "Name":  "Intuos 4x5 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4565,7 +4664,7 @@
                                             "EntityId":  "wacom.tablet.gd0405a",
                                             "_id":  "c294637f-5926-4212-a392-f0c62a1f26ab",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4573,6 +4672,7 @@
                                              "Name":  "Intuos 4x5 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4601,7 +4701,7 @@
                                             "EntityId":  "wacom.tablet.gd0608u",
                                             "_id":  "0da481a9-30de-499d-ad13-e4257f985488",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4609,6 +4709,7 @@
                                              "Name":  "Intuos 6x8 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4637,7 +4738,7 @@
                                             "EntityId":  "wacom.tablet.gd0608r",
                                             "_id":  "04298ee7-bdce-40be-a9e4-7d96d399e2bc",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4645,6 +4746,7 @@
                                              "Name":  "Intuos 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4673,7 +4775,7 @@
                                             "EntityId":  "wacom.tablet.gd0608a",
                                             "_id":  "0dee8028-0d66-46df-a2c8-5bf496b59334",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4681,6 +4783,7 @@
                                              "Name":  "Intuos 6x8 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4709,7 +4812,7 @@
                                             "EntityId":  "wacom.tablet.gd0912u",
                                             "_id":  "ff77a7b3-3aba-4592-b58a-98203dec4a04",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4717,6 +4820,7 @@
                                              "Name":  "Intuos 9x12 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4745,7 +4849,7 @@
                                             "EntityId":  "wacom.tablet.gd0912r",
                                             "_id":  "b4f0b327-7a06-49b2-9be6-38a23700304f",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4753,6 +4857,7 @@
                                              "Name":  "Intuos 9x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4781,7 +4886,7 @@
                                             "EntityId":  "wacom.tablet.gd0912a",
                                             "_id":  "7105650d-11d9-4894-91cf-b862d5cb4c0d",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4789,6 +4894,7 @@
                                              "Name":  "Intuos 9x12 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4817,7 +4923,7 @@
                                             "EntityId":  "wacom.tablet.gd1212u",
                                             "_id":  "ca0039b4-86c7-4683-bc32-104ffa430808",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4825,6 +4931,7 @@
                                              "Name":  "Intuos 12x12 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4853,7 +4960,7 @@
                                             "EntityId":  "wacom.tablet.gd1212r",
                                             "_id":  "916f5176-f538-4865-9259-25b7ed872408",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4861,6 +4968,7 @@
                                              "Name":  "Intuos 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4889,7 +4997,7 @@
                                             "EntityId":  "wacom.tablet.gd1218u",
                                             "_id":  "56824bb9-2dcf-446d-9ce1-919554f42cef",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4897,6 +5005,7 @@
                                              "Name":  "Intuos 12x18 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4925,7 +5034,7 @@
                                             "EntityId":  "wacom.tablet.gd1218r",
                                             "_id":  "f00aad3f-2aef-4975-8952-7e0994183cdd",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4933,6 +5042,7 @@
                                              "Name":  "Intuos 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_1998",
                                              "IncludedPen":  [
                                                                  "wacom.pen.gp300e"
@@ -4961,7 +5071,7 @@
                                             "EntityId":  "wacom.tablet.xd0405r",
                                             "_id":  "dac05628-6af6-4183-bd0c-c1a7fc650394",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -4969,6 +5079,7 @@
                                              "Name":  "Intuos2 4x5 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -4997,7 +5108,7 @@
                                             "EntityId":  "wacom.tablet.xd0608r",
                                             "_id":  "963c2554-5ad6-492f-a21c-4ed2a6b135bf",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5005,6 +5116,7 @@
                                              "Name":  "Intuos2 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -5033,7 +5145,7 @@
                                             "EntityId":  "wacom.tablet.xd0912r",
                                             "_id":  "07ec96cf-c741-469c-ad9a-a20577da9365",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5041,6 +5153,7 @@
                                              "Name":  "Intuos2 9x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -5069,7 +5182,7 @@
                                             "EntityId":  "wacom.tablet.xd1212r",
                                             "_id":  "493f6f71-796b-4357-a8c8-50314df4a24a",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5077,6 +5190,7 @@
                                              "Name":  "Intuos2 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -5105,7 +5219,7 @@
                                             "EntityId":  "wacom.tablet.xd1218r",
                                             "_id":  "c89d8229-6520-4560-b3ab-bcc9234079d2",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5113,6 +5227,7 @@
                                              "Name":  "Intuos2 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09-10",
                                              "Family":  "wacom.tabletfamily.wacom_intuospro_2001",
                                              "IncludedPen":  [
                                                                  "wacom.pen.xp501e"
@@ -5141,7 +5256,7 @@
                                             "EntityId":  "wacom.tablet.cth460",
                                             "_id":  "15a60887-ce11-472c-9ad0-36d96ad91df5",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5149,6 +5264,7 @@
                                              "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
                                              "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp160e"
@@ -5177,7 +5293,7 @@
                                             "EntityId":  "wacom.tablet.ctl460",
                                             "_id":  "c56e35e0-740f-4ae9-affc-52bbd3294cdf",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5185,6 +5301,7 @@
                                              "Name":  "Bamboo Pen 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
                                              "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp160"
@@ -5213,7 +5330,7 @@
                                             "EntityId":  "wacom.tablet.ctl660",
                                             "_id":  "9649dd11-ae4d-4447-a47c-53d2929dac57",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5221,6 +5338,7 @@
                                              "Name":  "CTL-660",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
                                              "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp160"
@@ -5249,7 +5367,7 @@
                                             "EntityId":  "wacom.tablet.cth661",
                                             "_id":  "854dcad2-2624-4301-bde5-313c170e3a75",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5257,6 +5375,7 @@
                                              "Name":  "Bamboo Fun Pen \u0026 Touch M 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
                                              "Family":  "wacom.tabletfamily.wacom_bamboo_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp161e"
@@ -5285,7 +5404,7 @@
                                             "EntityId":  "wacom.tablet.cth461",
                                             "_id":  "547b265d-6040-4ec3-a0d7-75c9477c23ab",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5293,6 +5412,7 @@
                                              "Name":  "Bamboo Fun Pen \u0026 Touch S 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
                                              "Family":  "wacom.tabletfamily.wacom_bamboo_2009",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp161e"
@@ -5321,7 +5441,7 @@
                                             "EntityId":  "wacom.tablet.ctl671",
                                             "_id":  "734c2cd3-2723-413d-8d1c-151aa0942b4a",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5329,6 +5449,7 @@
                                              "Name":  "One by Wacom 2012 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09",
                                              "Family":  "wacom.tabletfamily.wacom_onebywacom_2012",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp171"
@@ -5357,7 +5478,7 @@
                                             "EntityId":  "wacom.tablet.ctl471",
                                             "_id":  "5b23c5f4-37db-4423-954b-feb364d22c67",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5365,6 +5486,7 @@
                                              "Name":  "One by Wacom 2012 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
+                                             "ReleaseDate":  "2012-09",
                                              "Family":  "wacom.tabletfamily.wacom_onebywacom_2012",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp171"
@@ -5393,7 +5515,7 @@
                                             "EntityId":  "wacom.tablet.ctl680",
                                             "_id":  "97b64cdd-b2d0-43da-93b8-1110d92a6e42",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5401,6 +5523,7 @@
                                              "Name":  "CTL-680",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180"
@@ -5430,7 +5553,7 @@
                                             "EntityId":  "wacom.tablet.cth680",
                                             "_id":  "7dcc5572-b598-4c26-8569-ea0a02ff7eeb",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5438,6 +5561,7 @@
                                              "Name":  "Intuos Pen \u0026 Touch M 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180e"
@@ -5466,7 +5590,7 @@
                                             "EntityId":  "wacom.tablet.ctl480",
                                             "_id":  "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5474,6 +5598,7 @@
                                              "Name":  "CTL-480",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180"
@@ -5503,7 +5628,7 @@
                                             "EntityId":  "wacom.tablet.cth480",
                                             "_id":  "8be703ad-586c-4825-abaa-41070611bb2c",
                                             "_CreateDate":  "2026-04-01T09:11:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T09:11:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5511,6 +5636,7 @@
                                              "Name":  "Intuos Pen \u0026 Touch S 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013-09-04",
                                              "Family":  "wacom.tabletfamily.wacom_intuos_2013",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp180e"
@@ -5540,7 +5666,7 @@
                                             "EntityId":  "wacom.tablet.mte450",
                                             "_id":  "b1f9b803-7dd6-48c7-b007-9b772023da62",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5548,6 +5674,7 @@
                                              "Name":  "Bamboo MTE-450",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-05-15",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep150e"
                                                              ],
@@ -5610,7 +5737,7 @@
                                             "EntityId":  "wacom.tablet.cte440",
                                             "_id":  "8aa5061d-b26f-473c-878a-e3e8db4fd5f2",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5618,6 +5745,7 @@
                                              "Name":  "Graphire4 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-09-13",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep140e"
                                                              ],
@@ -5645,7 +5773,7 @@
                                             "EntityId":  "wacom.tablet.cte640",
                                             "_id":  "819a2d36-c970-4b7b-a0e5-17b96aebe911",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5653,6 +5781,7 @@
                                              "Name":  "Graphire 4",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-09-13",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep140e"
                                                              ],
@@ -5680,7 +5809,7 @@
                                             "EntityId":  "wacom.tablet.cte460",
                                             "_id":  "481647b6-66f0-4b41-8313-ef3166220a84",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5688,6 +5817,7 @@
                                              "Name":  "Graphire4 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-09-13",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep150"
                                                              ],
@@ -5715,7 +5845,7 @@
                                             "EntityId":  "wacom.tablet.cte660",
                                             "_id":  "5f277db4-74be-4f51-9ed8-1067e69ae366",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5723,6 +5853,7 @@
                                              "Name":  "Wacom CTE-660",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep150"
                                                              ],
@@ -5750,7 +5881,7 @@
                                             "EntityId":  "wacom.tablet.ctt460",
                                             "_id":  "95759bd5-ad90-4dc3-8b14-988bd3846aba",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5758,6 +5889,7 @@
                                              "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
                                              "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
@@ -5781,7 +5913,7 @@
                                             "EntityId":  "wacom.tablet.cth301",
                                             "_id":  "a976874a-31ba-4db5-a51e-12b6d45e98ca",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5789,6 +5921,7 @@
                                              "Name":  "Wacom CTH-301",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2014",
+                                             "ReleaseDate":  "2014",
                                              "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
@@ -5813,7 +5946,7 @@
                                             "EntityId":  "wacom.tablet.cth300",
                                             "_id":  "700f785f-aca8-403d-a347-4c9c7b342a2c",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5821,6 +5954,7 @@
                                              "Name":  "Wacom CTH-300",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
+                                             "ReleaseDate":  "2013",
                                              "Family":  "wacom.tabletfamily.wacom_bamboo_legacy"
                                          },
                                "Digitizer":  {
@@ -5879,7 +6013,7 @@
                                             "EntityId":  "wacom.tablet.cte430",
                                             "_id":  "77471e7e-24fb-4504-82f6-4383c87ef761",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5887,6 +6021,7 @@
                                              "Name":  "Graphire3 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
+                                             "ReleaseDate":  "2003-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
                                                              ],
@@ -5914,7 +6049,7 @@
                                             "EntityId":  "wacom.tablet.cte630bt",
                                             "_id":  "fb5f0dbe-189f-4fcd-9594-a689384c9b77",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5922,6 +6057,7 @@
                                              "Name":  "Graphire 4 BT",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005-09-13",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130e"
                                                              ],
@@ -5947,7 +6083,7 @@
                                             "EntityId":  "wacom.tablet.cte630",
                                             "_id":  "db9bef5c-47c5-4556-9532-77cb8903694b",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5955,6 +6091,7 @@
                                              "Name":  "Graphire3 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
+                                             "ReleaseDate":  "2003-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
                                                              ],
@@ -5982,7 +6119,7 @@
                                             "EntityId":  "wacom.tablet.ctf430",
                                             "_id":  "96a27443-d4f6-4086-970d-bcf2f43c1c89",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5990,6 +6127,7 @@
                                              "Name":  "Bamboo One",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
+                                             "ReleaseDate":  "2007-05-15",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp500"
                                                              ],
@@ -6052,7 +6190,7 @@
                                             "EntityId":  "wacom.tablet.ctf420",
                                             "_id":  "a7f1f73e-e80e-45c6-a65e-110405e88cf3",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6060,6 +6198,7 @@
                                              "Name":  "Wacom CTF-420",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "2005",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp410"
                                                              ],
@@ -6114,7 +6253,7 @@
                                             "EntityId":  "wacom.tablet.ft0405u",
                                             "_id":  "57e86c16-60a6-47d6-9097-6537b9d258fc",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6122,6 +6261,7 @@
                                              "Name":  "Wacom FT-0405-U",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2002",
+                                             "ReleaseDate":  "2002",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp100"
                                                              ],
@@ -6149,7 +6289,7 @@
                                             "EntityId":  "wacom.tablet.et0405au",
                                             "_id":  "0228d88a-29b6-4c72-a657-65c7713dc600",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6157,6 +6297,7 @@
                                              "Name":  "Graphire2 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep120e"
                                                              ],
@@ -6184,7 +6325,7 @@
                                             "EntityId":  "wacom.tablet.et0507au",
                                             "_id":  "5b6b01b0-0203-4791-845c-b4bedc8d00ab",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6192,6 +6333,7 @@
                                              "Name":  "Graphire 2 5x7 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep120e"
                                                              ],
@@ -6219,7 +6361,7 @@
                                             "EntityId":  "wacom.tablet.et0405u",
                                             "_id":  "cf6efc20-4d44-4c80-9d10-1a7e19453c91",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6227,6 +6369,7 @@
                                              "Name":  "Graphire USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1999",
+                                             "ReleaseDate":  "1999-11-04",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep100e"
                                                              ],
@@ -6254,7 +6397,7 @@
                                             "EntityId":  "wacom.tablet.et0405r",
                                             "_id":  "6a5119e0-3993-4e4a-940c-0e98bcec7cf2",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6262,6 +6405,7 @@
                                              "Name":  "Graphire SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1999",
+                                             "ReleaseDate":  "1999-11-04",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep100e"
                                                              ],
@@ -6289,7 +6433,7 @@
                                             "EntityId":  "wacom.tablet.ct0405u",
                                             "_id":  "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6297,6 +6441,7 @@
                                              "Name":  "PenPartner USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
+                                             "ReleaseDate":  "1997-11",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up703e"
                                                              ],
@@ -6324,7 +6469,7 @@
                                             "EntityId":  "wacom.tablet.ct0405r",
                                             "_id":  "62a21f41-f8de-4641-abc9-f0a071911f9a",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6332,6 +6477,7 @@
                                              "Name":  "PenPartner SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
+                                             "ReleaseDate":  "1997-11",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up703e"
                                                              ],
@@ -6359,7 +6505,7 @@
                                             "EntityId":  "wacom.tablet.ct0405a",
                                             "_id":  "74193ca2-68c5-4e6e-b9f4-c8c4537a6161",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6367,6 +6513,7 @@
                                              "Name":  "PenPartner ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-02",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up703e"
                                                              ],
@@ -6394,7 +6541,7 @@
                                             "EntityId":  "wacom.tablet.kt0405a",
                                             "_id":  "379c2418-c8b5-4988-8a8d-8185dd1889b1",
                                             "_CreateDate":  "2026-04-07T00:42:47.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6402,6 +6549,7 @@
                                              "Name":  "Artpad ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
+                                             "ReleaseDate":  "1994-07",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6421,7 +6569,7 @@
                                             "EntityId":  "wacom.tablet.kt0405r",
                                             "_id":  "2d59e782-b141-45f4-879e-3123dadf4768",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6429,6 +6577,7 @@
                                              "Name":  "Artpad SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
+                                             "ReleaseDate":  "1994-07",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6456,7 +6605,7 @@
                                             "EntityId":  "wacom.tablet.kt0608r",
                                             "_id":  "33c99a6b-311f-4bbb-abc0-f6618606e632",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6464,6 +6613,7 @@
                                              "Name":  "ArtZ SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
+                                             "ReleaseDate":  "1994-07",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6491,7 +6641,7 @@
                                             "EntityId":  "wacom.tablet.kt0405rnb",
                                             "_id":  "90d162e3-5d09-42e7-9e2e-9ef6d50da1b5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6499,6 +6649,7 @@
                                              "Name":  "Wacom KT-0405-RNB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "1994-07",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6526,7 +6677,7 @@
                                             "EntityId":  "wacom.tablet.kt0405anb",
                                             "_id":  "1a59d57e-2dac-47a4-9b26-b64af2d2edc5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6534,6 +6685,7 @@
                                              "Name":  "Wacom KT-0405-ANB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "1994-07",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6593,7 +6745,7 @@
                                             "EntityId":  "wacom.tablet.ud0608r",
                                             "_id":  "a70e90a9-1511-4b03-a7bc-0335e129332e",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6601,6 +6753,7 @@
                                              "Name":  "Ultrapad Digitizer II 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6628,7 +6781,7 @@
                                             "EntityId":  "wacom.tablet.ud0608a",
                                             "_id":  "259c29d5-2754-4d17-9802-95eafff798ba",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6636,6 +6789,7 @@
                                              "Name":  "Ultrapad Digitizer II 6x8 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6663,7 +6817,7 @@
                                             "EntityId":  "wacom.tablet.ud1212r",
                                             "_id":  "f5deab7f-97a3-4793-9fe8-28f64830ad71",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6671,6 +6825,7 @@
                                              "Name":  "Ultrapad Digitizer II 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6698,7 +6853,7 @@
                                             "EntityId":  "wacom.tablet.ud1212a",
                                             "_id":  "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6706,6 +6861,7 @@
                                              "Name":  "Ultrapad Digitizer II 12x12 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6733,7 +6889,7 @@
                                             "EntityId":  "wacom.tablet.ud1218r",
                                             "_id":  "2203c1bc-0b49-4714-a05e-a77ae4a16754",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6741,6 +6897,7 @@
                                              "Name":  "Ultrapad Digitizer II 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6768,7 +6925,7 @@
                                             "EntityId":  "wacom.tablet.ud1218a",
                                             "_id":  "d0e57e62-6372-46bf-890b-6b5d844df7a3",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6776,6 +6933,7 @@
                                              "Name":  "Ultrapad Digitizer II 12x18 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6803,7 +6961,7 @@
                                             "EntityId":  "wacom.tablet.ud1825r",
                                             "_id":  "865d1d09-a650-450f-b4a1-157f73ba10e9",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6811,6 +6969,7 @@
                                              "Name":  "Ultrapad Digitizer II 18x25 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
+                                             "ReleaseDate":  "1996",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up801e"
                                                              ],
@@ -6838,7 +6997,7 @@
                                             "EntityId":  "wacom.tablet.dthw1321",
                                             "_id":  "a7f3b829-1d4c-4e6a-9b2c-3d5e7f1a8b0c",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6846,6 +7005,7 @@
                                              "Name":  "MobileStudio Pro 13 Gen2",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-09-04",
                                              "Audience":  "Professional",
                                              "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
                                              "IncludedPen":  [
@@ -6905,7 +7065,7 @@
                                             "EntityId":  "wacom.tablet.dthw1620",
                                             "_id":  "c9e1f247-3a5b-4d7e-8f0a-1b2c3d4e5f6a",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6913,6 +7073,7 @@
                                              "Name":  "MobileStudio Pro 16",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2016",
+                                             "ReleaseDate":  "2016-10-04",
                                              "Audience":  "Professional",
                                              "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
                                              "IncludedPen":  [
@@ -6969,7 +7130,7 @@
                                             "EntityId":  "wacom.tablet.dthw1621",
                                             "_id":  "f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
                                             "_CreateDate":  "2026-04-13T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-13T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6977,6 +7138,7 @@
                                              "Name":  "MobileStudio Pro 16 Gen 2",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-09-04",
                                              "Audience":  "Professional",
                                              "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
                                              "IncludedPen":  [
@@ -7041,7 +7203,7 @@
                                             "EntityId":  "wacom.tablet.pl600",
                                             "_id":  "5eadeb3a-5032-415d-88d7-020c62449380",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7049,6 +7211,7 @@
                                              "Name":  "PL-600",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -7075,7 +7238,7 @@
                                             "EntityId":  "wacom.tablet.pl500",
                                             "_id":  "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7083,6 +7246,7 @@
                                              "Name":  "PL-500",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -7117,7 +7281,7 @@
                                             "EntityId":  "wacom.tablet.pl400",
                                             "_id":  "0dfe9a77-e190-4d30-a8aa-407cc77d7186",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7125,6 +7289,7 @@
                                              "Name":  "PL-400",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1999",
+                                             "ReleaseDate":  "1999-11",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -7159,7 +7324,7 @@
                                             "EntityId":  "wacom.tablet.pl300",
                                             "_id":  "29b85b2f-fd34-45dc-93ce-13a67bdaf7a7",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7167,6 +7332,7 @@
                                              "Name":  "PL-300",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
+                                             "ReleaseDate":  "2001-09",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -7201,7 +7367,7 @@
                                             "EntityId":  "wacom.tablet.pl270",
                                             "_id":  "ce0deb21-7f2d-4b66-9a70-f9925798302b",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-26T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7209,6 +7375,7 @@
                                              "Name":  "PL-270",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09",
                                              "Status":  "DISCONTINUED",
                                              "Notes":  "Launch year unconfirmed; estimated based on PL-series numbering (sits between PL-250 in 1998 and PL-400 in 1999).",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
@@ -7239,7 +7406,7 @@
                                             "EntityId":  "wacom.tablet.pl250",
                                             "_id":  "3475cf00-440d-4006-bc7a-c3d98a82cd06",
                                             "_CreateDate":  "2026-04-19T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-19T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7247,6 +7414,7 @@
                                              "Name":  "PL-250",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1998",
+                                             "ReleaseDate":  "1998-09",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_cintiqpl"
                                          },
@@ -7313,7 +7481,7 @@
                                             "EntityId":  "wacom.tablet.wt4400",
                                             "_id":  "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-05-02T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7321,7 +7489,8 @@
                                              "Name":  "WT-4400 (A4)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1985",
-                                             "Notes":  "World's first cordless pen.",
+                                             "ReleaseDate":  "1985",
+                                             "Notes":  "World\u0027s first cordless pen.",
                                              "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
                            },
@@ -7330,7 +7499,7 @@
                                             "EntityId":  "wacom.tablet.wt460m",
                                             "_id":  "57c68629-5451-4a2d-8d19-925f0c658d2d",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-05-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7338,6 +7507,7 @@
                                              "Name":  "WT-460M (A5)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1987",
+                                             "ReleaseDate":  "1987",
                                              "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
                            },
@@ -7346,7 +7516,7 @@
                                             "EntityId":  "wacom.tablet.dth1300",
                                             "_id":  "34036930-e9ad-47c6-95de-d09dddda173a",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7354,6 +7524,7 @@
                                              "Name":  "Cintiq 13H touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
+                                             "ReleaseDate":  "2015-03-02",
                                              "Family":  "wacom.tabletfamily.wacom_cintiq"
                                          },
                                "Display":  {
@@ -7368,7 +7539,7 @@
                                             "EntityId":  "wacom.tablet.dth2700",
                                             "_id":  "b1f8fdf3-b111-45f7-9586-10af017cc2ec",
                                             "_CreateDate":  "2026-04-21T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7376,6 +7547,7 @@
                                              "Name":  "Cintiq 27 QHD touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
+                                             "ReleaseDate":  "2015-01-06",
                                              "IncludedPen":  [
                                                                  "wacom.pen.kp503e"
                                                              ],
@@ -7424,7 +7596,7 @@
                                             "EntityId":  "wacom.tablet.wt3000",
                                             "_id":  "12ba8550-1819-48c0-8ece-d17e6e987230",
                                             "_CreateDate":  "2026-05-02T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-05-03T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-18T18:13:44.058Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7432,8 +7604,9 @@
                                              "Name":  "WT-3000 (A4)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1984",
+                                             "ReleaseDate":  "1984",
                                              "Status":  "DISCONTINUED",
-                                             "Notes":  "World's first graphics tablet with a cordless cursor (puck). A4 size.",
+                                             "Notes":  "World\u0027s first graphics tablet with a cordless cursor (puck). A4 size.",
                                              "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
                            }
