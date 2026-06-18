@@ -529,6 +529,53 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
   return issues;
 }
 
+// --- Inventory: duplicate InventoryId check ---
+//
+// Every physical unit should have a unique InventoryId within its collection
+// (InventoryPens, InventoryTablets). Duplicates make per-unit lookups
+// ambiguous — pressure measurements/sessions keyed on InventoryId can attach
+// to the wrong model. "UNASSIGNED" is exempt (it's a placeholder, repeatable).
+
+function runInventoryDuplicateCheck(dataDir: string): Issue[] {
+  const dir = path.join(dataDir, "inventory");
+  if (!fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
+  const issues: Issue[] = [];
+  // Namespace by root key so pen ids and tablet ids are checked independently.
+  const seen = new Map<string, Map<string, string>>();
+  for (const file of files) {
+    const data = JSON.parse(fs.readFileSync(path.join(dir, file), "utf-8")) as Record<
+      string,
+      unknown
+    >;
+    for (const [rootKey, items] of Object.entries(data)) {
+      if (!Array.isArray(items)) continue;
+      let ns = seen.get(rootKey);
+      if (!ns) {
+        ns = new Map<string, string>();
+        seen.set(rootKey, ns);
+      }
+      for (const record of items as RawRecord[]) {
+        const invId = getString(record, "InventoryId");
+        if (!invId || invId === "UNASSIGNED") continue;
+        const prev = ns.get(invId);
+        if (prev) {
+          issues.push({
+            file,
+            entityId: invId,
+            field: "InventoryId",
+            issue: `duplicate InventoryId (also in ${prev})`,
+            value: getString(record, "PenEntityId") ?? getString(record, "TabletEntityId"),
+          });
+        } else {
+          ns.set(invId, file);
+        }
+      }
+    }
+  }
+  return issues;
+}
+
 // --- Runner ---
 
 export function runDataQuality(dataDir: string): Issue[] {
@@ -589,5 +636,6 @@ export function runDataQuality(dataDir: string): Issue[] {
     ...runBrandsChecks(dataDir),
     ...runBrandDriftCheck(dataDir),
     ...runCrossEntityChecks(dataDir),
+    ...runInventoryDuplicateCheck(dataDir),
   ];
 }
