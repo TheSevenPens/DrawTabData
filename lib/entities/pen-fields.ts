@@ -135,7 +135,7 @@ export const PEN_DEFAULT_COLUMNS = [
 export const PEN_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["FullName", "PenFamily", "PenYear", "PenTech", "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory"],
+    fields: ["Brand", "PenName", "PenId", "PenFamily", "PenYear", "PenTech", "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory"],
   },
   { kind: "sort", field: "PenId", direction: "asc" },
 ];
