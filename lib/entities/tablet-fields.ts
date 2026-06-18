@@ -4,6 +4,7 @@ import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
+import { ageInDays, formatAge } from "./age-format.js";
 
 function notApplicable(t: Tablet): boolean {
   return t.Model.Type === "PENTABLET";
@@ -84,10 +85,25 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.Model.LaunchYear, type: "number", group: "Model" },
   { key: "ReleaseDate", label: "Release Date", getValue: (t) => t.Model.ReleaseDate ?? "", type: "string", group: "Model" },
   {
-    key: "Age", label: "Age (years)", computed: true, type: "number", group: "Model",
+    // getValue stays whole years (numeric — sort/filter/analysis unchanged);
+    // getDisplayValue shows the same "nice" span as Driver.Age — exact when a
+    // month-precision ReleaseDate exists, else whole years so year-only
+    // tablets don't imply false month precision.
+    key: "Age", label: "Age", computed: true, type: "number", group: "Model",
     getValue: (t) => {
       const year = parseInt(t.Model.LaunchYear, 10);
       return isNaN(year) ? "" : String(new Date().getFullYear() - year);
+    },
+    getDisplayValue: (t) => {
+      const rd = t.Model.ReleaseDate;
+      if (rd && /^\d{4}-\d{2}/.test(rd)) {
+        const days = ageInDays(rd);
+        if (days !== null) return formatAge(days);
+      }
+      const year = parseInt(rd || t.Model.LaunchYear, 10);
+      if (isNaN(year)) return "";
+      const years = new Date().getFullYear() - year;
+      return years <= 0 ? "this year" : `${years} year${years === 1 ? "" : "s"}`;
     },
   },
   {
