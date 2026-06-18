@@ -119,6 +119,51 @@
                               "_id":  "9991c112-3389-406a-80e9-324207127909",
                               "_CreateDate":  "2026-06-18T00:00:00.000Z",
                               "_ModifiedDate":  "2026-06-18T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "XPPEN",
+                              "PenEntityId":  "xppen.pen.pd51",
+                              "PenInventoryId":  "XPP.0008",
+                              "Metric":  "IAF",
+                              "Value":  "4.5",
+                              "Date":  "2026-06-18",
+                              "TabletEntityId":  "xppen.tablet.mt0962b",
+                              "Driver":  "OpenTabletDriver",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "ba90cff9-7750-4563-8012-fcc4e9b461b0",
+                              "_CreateDate":  "2026-06-18T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-18T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "XPPEN",
+                              "PenEntityId":  "xppen.pen.pd22",
+                              "PenInventoryId":  "XPP.0007",
+                              "Metric":  "IAF",
+                              "Value":  "3.5",
+                              "Date":  "2026-06-18",
+                              "TabletEntityId":  "xppen.tablet.mt0962b",
+                              "Driver":  "OpenTabletDriver",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "9cf35a59-7ad5-46fe-80d3-01fcbffeee4d",
+                              "_CreateDate":  "2026-06-18T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-18T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "XPPEN",
+                              "PenEntityId":  "xppen.pen.pd21",
+                              "PenInventoryId":  "XPP.0001",
+                              "Metric":  "IAF",
+                              "Value":  "7.5",
+                              "Date":  "2026-06-18",
+                              "TabletEntityId":  "xppen.tablet.mt0962b",
+                              "Driver":  "OpenTabletDriver",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "c1e2c9da-a07e-4e16-a567-de2c25d85a8d",
+                              "_CreateDate":  "2026-06-18T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-18T00:00:00.000Z"
                           }
                       ]
 }
