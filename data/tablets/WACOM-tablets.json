@@ -5704,14 +5704,14 @@
                                             "EntityId":  "wacom.tablet.fw300",
                                             "_id":  "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
+                                            "_ModifiedDate":  "2026-06-19T03:54:49.351Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FW-300",
                                              "Name":  "Wacom FW-300",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2003",
                                              "ReleaseDate":  "2003-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up812e"
@@ -5982,14 +5982,14 @@
                                             "EntityId":  "wacom.tablet.fb630",
                                             "_id":  "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
+                                            "_ModifiedDate":  "2026-06-19T03:54:49.351Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FB-630",
                                              "Name":  "Wacom FB-630",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "1998",
                                              "ReleaseDate":  "1998-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
@@ -6159,14 +6159,14 @@
                                             "EntityId":  "wacom.tablet.ctf221",
                                             "_id":  "7a4254fc-d326-400c-a360-ee865bbb7ca1",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
+                                            "_ModifiedDate":  "2026-06-19T03:54:49.351Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-221",
                                              "Name":  "Wacom CTF-221",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2004",
                                              "ReleaseDate":  "2004-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp410"
@@ -6231,14 +6231,14 @@
                                             "EntityId":  "wacom.tablet.ft0203u",
                                             "_id":  "3b998f71-1696-4a81-9432-f0a8c6005bf5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
+                                            "_ModifiedDate":  "2026-06-19T03:54:49.351Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FT-0203-U",
                                              "Name":  "PenPartner",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2001",
                                              "ReleaseDate":  "2001-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp110"
@@ -6719,14 +6719,14 @@
                                             "EntityId":  "wacom.tablet.ptu600u",
                                             "_id":  "55e9b443-d52f-4f4c-8d46-5816ab9f191b",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
+                                            "_ModifiedDate":  "2026-06-19T03:54:49.351Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTU-600U",
                                              "Name":  "Wacom PTU-600U",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "",
+                                             "LaunchYear":  "2001",
                                              "ReleaseDate":  "2001-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_misc_preintuos"
                                          },
