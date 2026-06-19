@@ -218,7 +218,7 @@
                                             "EntityId":  "wacom.tablet.cth490",
                                             "_id":  "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:59.358Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -226,6 +226,7 @@
                                              "Name":  "Intuos Draw|Art|Photo|Comic Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2015",
+                                             "ReleaseDate":  "2015-09-02",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp190"
@@ -304,7 +305,7 @@
                                             "EntityId":  "wacom.tablet.cth690",
                                             "_id":  "21687a90-eddd-4727-81cc-bc30b4f04a21",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T18:49:51.061Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -312,6 +313,7 @@
                                              "Name":  "Intuos Draw|Art|Photo|Comic Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2015",
+                                             "ReleaseDate":  "2015-09-02",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
                                                                  "wacom.pen.lp190"
@@ -5702,7 +5704,7 @@
                                             "EntityId":  "wacom.tablet.fw300",
                                             "_id":  "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
                                             "_CreateDate":  "2026-04-01T18:26:13.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:26:13.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5710,6 +5712,7 @@
                                              "Name":  "Wacom FW-300",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2003-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.up812e"
                                                              ],
@@ -5979,7 +5982,7 @@
                                             "EntityId":  "wacom.tablet.fb630",
                                             "_id":  "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -5987,6 +5990,7 @@
                                              "Name":  "Wacom FB-630",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "1998-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.ep130"
                                                              ],
@@ -6155,7 +6159,7 @@
                                             "EntityId":  "wacom.tablet.ctf221",
                                             "_id":  "7a4254fc-d326-400c-a360-ee865bbb7ca1",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6163,6 +6167,7 @@
                                              "Name":  "Wacom CTF-221",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2004-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp410"
                                                              ],
@@ -6226,7 +6231,7 @@
                                             "EntityId":  "wacom.tablet.ft0203u",
                                             "_id":  "3b998f71-1696-4a81-9432-f0a8c6005bf5",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6234,6 +6239,7 @@
                                              "Name":  "PenPartner",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2001-09-01",
                                              "IncludedPen":  [
                                                                  "wacom.pen.fp110"
                                                              ],
@@ -6713,7 +6719,7 @@
                                             "EntityId":  "wacom.tablet.ptu600u",
                                             "_id":  "55e9b443-d52f-4f4c-8d46-5816ab9f191b",
                                             "_CreateDate":  "2026-04-01T18:30:12.000Z",
-                                            "_ModifiedDate":  "2026-04-01T18:30:12.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -6721,6 +6727,7 @@
                                              "Name":  "Wacom PTU-600U",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "",
+                                             "ReleaseDate":  "2001-09-01",
                                              "Family":  "wacom.tabletfamily.wacom_misc_preintuos"
                                          },
                                "Digitizer":  {
@@ -7445,7 +7452,7 @@
                                             "EntityId":  "wacom.tablet.ct0405u_2004",
                                             "_id":  "801b8cd8-a4c2-487e-8d2b-13fdfc30fb52",
                                             "_CreateDate":  "2026-04-20T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7454,6 +7461,7 @@
                                              "Name":  "PenPartner A8 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
+                                             "ReleaseDate":  "1997-11-01",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          }
@@ -7463,7 +7471,7 @@
                                             "EntityId":  "wacom.tablet.ct0405u_2005",
                                             "_id":  "5c9c5a27-d174-4e07-8461-82de9c4d5537",
                                             "_CreateDate":  "2026-04-20T00:00:00.000Z",
-                                            "_ModifiedDate":  "2026-04-21T00:00:00.000Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "WACOM",
@@ -7472,6 +7480,7 @@
                                              "Name":  "PenPartner 2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
+                                             "ReleaseDate":  "1998-02-01",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          }

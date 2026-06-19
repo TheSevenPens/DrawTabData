@@ -1454,7 +1454,7 @@
                                             "EntityId":  "xppen.tablet.decopros",
                                             "_id":  "e38187ce-c3e9-40dd-b440-bf5fccead639",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1462,6 +1462,7 @@
                                              "Name":  "Deco Pro S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2019-03-25",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decopro_2019",
                                              "IncludedPen":  [
@@ -1495,7 +1496,7 @@
                                             "EntityId":  "xppen.tablet.decoprosw",
                                             "_id":  "6ac45e5a-b656-4895-901b-82247f575392",
                                             "_CreateDate":  "2025-12-12T12:33:46.983Z",
-                                            "_ModifiedDate":  "2025-12-12T12:33:46.983Z"
+                                            "_ModifiedDate":  "2026-06-19T03:52:40.846Z"
                                         },
                                "Model":  {
                                              "Brand":  "XPPEN",
@@ -1503,6 +1504,7 @@
                                              "Name":  "Deco Pro SW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
+                                             "ReleaseDate":  "2022-04-29",
                                              "Audience":  "Professional",
                                              "Family":  "xppen.tabletfamily.xppen_decopro_2019",
                                              "IncludedPen":  [
