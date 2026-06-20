@@ -26,6 +26,7 @@ export const PRESSURE_RANGE_FIELDS: FieldDisplayDef<PressureRange>[] = [
   { key: "Method", label: "Method", getValue: (m) => m.Method, type: "string", group: "Measurement" },
   // Environment
   { key: "TabletEntityId", label: "TabletEntityId", getValue: (m) => m.TabletEntityId, type: "string", group: "Environment" },
+  { key: "TabletInventoryId", label: "Tablet Inventory ID", getValue: (m) => m.TabletInventoryId ?? "", type: "string", group: "Environment" },
   { key: "Driver", label: "Driver", getValue: (m) => m.Driver, type: "string", group: "Environment" },
   { key: "OS", label: "OS", getValue: (m) => m.OS, type: "enum", enumValues: ["WINDOWS", "MACOS"], group: "Environment" },
 ];

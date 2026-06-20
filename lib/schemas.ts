@@ -305,7 +305,11 @@ export const PressureRangeSchema = v.strictObject({
   // Measured force in gram-force, string-encoded like other scalar fields.
   Value: NumericString,
   Date: TrimmedString,
+  // Tablet *model* EntityId the measurement was taken on.
   TabletEntityId: TrimmedString,
+  // Physical tablet *unit* used (e.g. "WAT.0001") — the inventory-tablet
+  // counterpart to PenInventoryId. Optional; populated later.
+  TabletInventoryId: v.optional(TrimmedString),
   Driver: TrimmedString,
   OS: TrimmedString,
   // Provenance: which tool / method produced the reading.
