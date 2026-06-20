@@ -197,7 +197,7 @@
                               "PenEntityId":  "xppen.pen.p05",
                               "PenInventoryId":  "XPP.0005",
                               "Metric":  "IAF",
-                              "Value":  "13.5",
+                              "Value":  "9",
                               "Date":  "2026-06-20",
                               "TabletEntityId":  "xppen.tablet.deco01v3",
                               "TabletInventoryId":  "XPT.0014",
@@ -206,7 +206,7 @@
                               "Method":  "",
                               "_id":  "b87dd97b-e01f-4903-af96-df0729ccfcdb",
                               "_CreateDate":  "2026-06-20T00:00:00.000Z",
-                              "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
+                              "_ModifiedDate":  "2026-06-20T17:34:40.825Z"
                           },
                           {
                               "Brand":  "XPPEN",
@@ -221,22 +221,6 @@
                               "OS":  "WINDOWS",
                               "Method":  "",
                               "_id":  "f03cab14-89a8-4682-943e-eafcd0715805",
-                              "_CreateDate":  "2026-06-20T00:00:00.000Z",
-                              "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
-                          },
-                          {
-                              "Brand":  "XPPEN",
-                              "PenEntityId":  "xppen.pen.p05",
-                              "PenInventoryId":  "XPP.0005",
-                              "Metric":  "IAF",
-                              "Value":  "7",
-                              "Date":  "2026-06-20",
-                              "TabletEntityId":  "xppen.tablet.deco01v3",
-                              "TabletInventoryId":  "XPT.0014",
-                              "Driver":  "OpenTabletDriver",
-                              "OS":  "WINDOWS",
-                              "Method":  "",
-                              "_id":  "cbf7428a-b9c7-4f08-aa5f-ebfe02d0c255",
                               "_CreateDate":  "2026-06-20T00:00:00.000Z",
                               "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
                           },
