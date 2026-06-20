@@ -179,6 +179,22 @@
                               "_id":  "260fcf82-005e-47c0-81e0-44c064fd90a4",
                               "_CreateDate":  "2026-06-18T00:00:00.000Z",
                               "_ModifiedDate":  "2026-06-18T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "XPPEN",
+                              "PenEntityId":  "xppen.pen.p05",
+                              "PenInventoryId":  "XPP.0005",
+                              "Metric":  "IAF",
+                              "Value":  "13.5",
+                              "Date":  "2026-06-20",
+                              "TabletEntityId":  "xppen.tablet.deco01v3",
+                              "TabletInventoryId":  "XPT.0014",
+                              "Driver":  "OpenTabletDriver",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "b87dd97b-e01f-4903-af96-df0729ccfcdb",
+                              "_CreateDate":  "2026-06-20T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
                           }
                       ]
 }
