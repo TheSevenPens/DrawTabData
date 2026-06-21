@@ -1480,12 +1480,25 @@
       "Brand": "WACOM",
       "PenTech": "EMR",
       "PenTechSubtype": "",
-      "InventoryId": "WAP.0074",
-      "Notes": "",
+      "InventoryId": "WAP.0080",
+      "Notes": "Was WAP.0074; relabelled (two physical pens shared that label).",
       "Tags": [],
       "_id": "f237a27f-8664-4e5e-833f-f839407e40e8",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z",
+      "_ModifiedDate": "2026-06-20T00:00:00Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "wacom.pen.lp190k",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0081",
+      "Notes": "Was WAP.0074; relabelled (two physical pens shared that label).",
+      "Tags": [],
+      "_id": "0aba21d6-78d1-42b9-9ce5-44e8c041a9d2",
+      "_CreateDate": "2026-06-20T00:00:00Z",
+      "_ModifiedDate": "2026-06-20T00:00:00Z",
       "WithTabletInventoryId": ""
     },
     {
