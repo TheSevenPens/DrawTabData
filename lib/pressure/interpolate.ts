@@ -64,7 +64,7 @@ export const IAF_LOGICAL_PCT = 100 / 8192; // ≈ 0.0122
  * Piaf = (A + B) / 2 is the best we can say without finer sampling.
  *
  * Returns null when the session doesn't bracket activation. Callers
- * (PressureChart, SessionStats, pen-analysis rankings) treat null as
+ * (PressureResponseChart, SessionStats, pen-analysis rankings) treat null as
  * "no estimate available" and hide the corresponding row / dashed line.
  */
 export function estimatePiaf(records: readonly PressureRecord[]): number | null {
