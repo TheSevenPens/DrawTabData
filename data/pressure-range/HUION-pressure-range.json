@@ -335,6 +335,22 @@
                               "_id":  "b23675b2-6b2a-460f-bfea-55abddf27d5d",
                               "_CreateDate":  "2026-06-21T00:00:00.000Z",
                               "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "HUION",
+                              "PenEntityId":  "huion.pen.pw517",
+                              "PenInventoryId":  "HUP.0002",
+                              "Metric":  "IAF",
+                              "Value":  "8.5",
+                              "Date":  "2026-06-21",
+                              "TabletEntityId":  "huion.tablet.l610",
+                              "TabletInventoryId":  "HUT.0003",
+                              "Driver":  "OpenTabletDriver",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "4c88b376-7b1a-401f-b83e-c6435e3e75a2",
+                              "_CreateDate":  "2026-06-21T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
                           }
                       ]
 }
