@@ -832,6 +832,54 @@
                                  "_id":  "e08eefc2-7891-4e6a-b885-31925d260a81",
                                  "_CreateDate":  "2026-06-17T00:00:00.000Z",
                                  "_ModifiedDate":  "2026-06-20T17:30:09.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.lp1100k",
+                                 "PenInventoryId":  "WAP.0006",
+                                 "Metric":  "IAF",
+                                 "Value":  "2.1",
+                                 "Date":  "2026-06-20",
+                                 "TabletEntityId":  "wacom.tablet.ctl6100wl",
+                                 "TabletInventoryId":  "WAT.0003",
+                                 "Driver":  "OpenTabletDriver",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "00aa8958-36b8-4761-9b61-2017157ae18d",
+                                 "_CreateDate":  "2026-06-20T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.lp1100k",
+                                 "PenInventoryId":  "WAP.0008",
+                                 "Metric":  "IAF",
+                                 "Value":  "7.25",
+                                 "Date":  "2026-06-20",
+                                 "TabletEntityId":  "wacom.tablet.ctl6100wl",
+                                 "TabletInventoryId":  "WAT.0003",
+                                 "Driver":  "OpenTabletDriver",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "383c4feb-cda6-4873-912c-4f8548ead57e",
+                                 "_CreateDate":  "2026-06-20T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.lp1100k",
+                                 "PenInventoryId":  "WAP.0007",
+                                 "Metric":  "IAF",
+                                 "Value":  "3.3",
+                                 "Date":  "2026-06-20",
+                                 "TabletEntityId":  "wacom.tablet.ctl6100wl",
+                                 "TabletInventoryId":  "WAT.0003",
+                                 "Driver":  "OpenTabletDriver",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "e4f5bd43-3d3f-424a-9da7-26f5bead86b9",
+                                 "_CreateDate":  "2026-06-20T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
                              }
                          ]
 }
