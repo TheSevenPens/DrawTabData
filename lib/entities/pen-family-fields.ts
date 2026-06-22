@@ -20,6 +20,14 @@ export function setPenFamilyInventoryCounts(map: Record<string, number>): void {
   penFamilyInventoryCounts = map;
 }
 
+// Pages can call setPenFamilyModelIds() with an EntityId -> "ID1, ID2"
+// string so the ModelIds column lists the pen model ids (PenId, not
+// EntityId) belonging to each family. Defaults to empty when not set.
+let penFamilyModelIds: Record<string, string> = {};
+export function setPenFamilyModelIds(map: Record<string, string>): void {
+  penFamilyModelIds = map;
+}
+
 export const PEN_FAMILY_FIELD_GROUPS = ["Pen Family"];
 
 export const PEN_FAMILY_FIELDS: FieldDisplayDef<PenFamily>[] = [
@@ -30,16 +38,18 @@ export const PEN_FAMILY_FIELDS: FieldDisplayDef<PenFamily>[] = [
     getValue: (f) => String(penFamilyMemberCounts[f.EntityId] ?? 0) },
   { key: "InventoryCount", label: "In Inventory", computed: true, type: "number", group: "Pen Family",
     getValue: (f) => String(penFamilyInventoryCounts[f.EntityId] ?? 0) },
+  { key: "ModelIds", label: "Model IDs", computed: true, type: "string", group: "Pen Family",
+    getValue: (f) => penFamilyModelIds[f.EntityId] ?? "" },
 ];
 
 export const PEN_FAMILY_DEFAULT_COLUMNS = [
-  "Brand", "FamilyName", "PenCount", "InventoryCount",
+  "Brand", "FamilyName", "PenCount", "InventoryCount", "ModelIds",
 ];
 
 export const PEN_FAMILY_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["Brand", "FamilyName", "PenCount", "InventoryCount"],
+    fields: ["Brand", "FamilyName", "PenCount", "InventoryCount", "ModelIds"],
   },
   { kind: "sort", field: "FamilyName", direction: "asc" },
 ];
