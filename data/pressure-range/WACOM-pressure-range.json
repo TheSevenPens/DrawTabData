@@ -976,6 +976,54 @@
                                  "_id":  "3e9269b0-d467-43ec-8cfc-a318e8263c53",
                                  "_CreateDate":  "2026-06-21T00:00:00.000Z",
                                  "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.acp700",
+                                 "PenInventoryId":  "WAP.0077",
+                                 "Metric":  "IAF",
+                                 "Value":  "3.3",
+                                 "Date":  "2026-06-21",
+                                 "TabletEntityId":  "wacom.tablet.ptk670",
+                                 "TabletInventoryId":  "WAT.0005",
+                                 "Driver":  "OpenTabletDriver",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "8405c77b-df4f-4256-8a90-bd927dd3fe3c",
+                                 "_CreateDate":  "2026-06-21T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.acp700",
+                                 "PenInventoryId":  "WAP.0075",
+                                 "Metric":  "IAF",
+                                 "Value":  "3.3",
+                                 "Date":  "2026-06-21",
+                                 "TabletEntityId":  "wacom.tablet.ptk670",
+                                 "TabletInventoryId":  "WAT.0005",
+                                 "Driver":  "OpenTabletDriver",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "1458ce67-30d9-4d88-93e2-e479749cc557",
+                                 "_CreateDate":  "2026-06-21T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.acp700",
+                                 "PenInventoryId":  "WAP.0076",
+                                 "Metric":  "IAF",
+                                 "Value":  "3.2",
+                                 "Date":  "2026-06-21",
+                                 "TabletEntityId":  "wacom.tablet.ptk670",
+                                 "TabletInventoryId":  "WAT.0005",
+                                 "Driver":  "OpenTabletDriver",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "4905feab-7bf0-4743-9599-d1db8b774bec",
+                                 "_CreateDate":  "2026-06-21T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
                              }
                          ]
 }
