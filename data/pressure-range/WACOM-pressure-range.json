@@ -960,6 +960,22 @@
                                  "_id":  "a8f601d0-dfb8-4b8c-8166-a53ce82ca478",
                                  "_CreateDate":  "2026-06-20T00:00:00.000Z",
                                  "_ModifiedDate":  "2026-06-20T00:00:00.000Z"
+                             },
+                             {
+                                 "Brand":  "WACOM",
+                                 "PenEntityId":  "wacom.pen.kp504e",
+                                 "PenInventoryId":  "WAP.0024",
+                                 "Metric":  "IAF",
+                                 "Value":  "5.7",
+                                 "Date":  "2026-06-21",
+                                 "TabletEntityId":  "wacom.tablet.pth660",
+                                 "TabletInventoryId":  "WAT.0006",
+                                 "Driver":  "WACOM",
+                                 "OS":  "WINDOWS",
+                                 "Method":  "",
+                                 "_id":  "3e9269b0-d467-43ec-8cfc-a318e8263c53",
+                                 "_CreateDate":  "2026-06-21T00:00:00.000Z",
+                                 "_ModifiedDate":  "2026-06-21T00:00:00.000Z"
                              }
                          ]
 }
