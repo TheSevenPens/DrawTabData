@@ -1805,6 +1805,21 @@
       "_id": "74fa5443-3b1c-4b53-8f5b-808f87c07306",
       "_CreateDate": "2026-04-23T00:00:00.000Z",
       "_ModifiedDate": "2026-04-23T00:00:00.000Z"
+    },
+    {
+      "TabletEntityId": "xencelabs.tablet.bph1212wv2",
+      "Brand": "XENCELABS",
+      "ModelId": "BPH1212W-V2",
+      "ModelName": "Pen Tablet Medium V2",
+      "TabletType": "PENTABLET",
+      "InventoryId": "XET.0004",
+      "Vendor": "",
+      "OrderDate": "",
+      "Notes": "",
+      "Tags": [],
+      "_id": "c28ed90f-fd4e-4acf-a63e-e60551768385",
+      "_CreateDate": "2026-06-24T00:00:00.000Z",
+      "_ModifiedDate": "2026-06-24T00:00:00.000Z"
     }
   ]
 }
