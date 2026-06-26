@@ -367,6 +367,38 @@
                               "_id":  "ab8bc525-7fd7-4e37-8221-0eb4d92bc4ed",
                               "_CreateDate":  "2026-06-25T00:00:00.000Z",
                               "_ModifiedDate":  "2026-06-25T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "HUION",
+                              "PenEntityId":  "huion.pen.pw500",
+                              "PenInventoryId":  "HUP.0013",
+                              "Metric":  "IAF",
+                              "Value":  "7.3",
+                              "Date":  "2025-09-26",
+                              "TabletEntityId":  "huion.tablet.hs611",
+                              "TabletInventoryId":  "HUT.0001",
+                              "Driver":  "HUION",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "a8a89fbe-847c-438d-881b-76f9ed57b3dc",
+                              "_CreateDate":  "2026-06-25T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-25T00:00:00.000Z"
+                          },
+                          {
+                              "Brand":  "HUION",
+                              "PenEntityId":  "huion.pen.pw500",
+                              "PenInventoryId":  "HUP.0013",
+                              "Metric":  "IAF",
+                              "Value":  "6.1",
+                              "Date":  "2024-09-23",
+                              "TabletEntityId":  "huion.tablet.hs611",
+                              "TabletInventoryId":  "HUT.0001",
+                              "Driver":  "HUION",
+                              "OS":  "WINDOWS",
+                              "Method":  "",
+                              "_id":  "2239e7f3-1304-4b40-bc06-28761a56c85b",
+                              "_CreateDate":  "2026-06-25T00:00:00.000Z",
+                              "_ModifiedDate":  "2026-06-25T00:00:00.000Z"
                           }
                       ]
 }
