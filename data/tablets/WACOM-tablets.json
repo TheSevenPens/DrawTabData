@@ -761,7 +761,7 @@
                                                                     "Width":  257,
                                                                     "Height":  145
                                                                 },
-                                                 "Density":  "2.54",
+                                                 "Density":  "100",
                                                  "Tilt":  "60",
                                                  "SupportsTouch":  "NO"
                                              },
@@ -992,7 +992,7 @@
                                                                     "Width":  294,
                                                                     "Height":  165
                                                                 },
-                                                 "Density":  "2.54",
+                                                 "Density":  "100",
                                                  "Tilt":  "60",
                                                  "SupportsTouch":  "YES"
                                              },
@@ -1775,7 +1775,7 @@
                                                                     "Width":  432,
                                                                     "Height":  324
                                                                 },
-                                                 "Density":  "5.08",
+                                                 "Density":  "200",
                                                  "ReportRate":  "133",
                                                  "Tilt":  "40",
                                                  "AccuracyCenter":  "0.5",
@@ -2173,7 +2173,7 @@
                                                                     "Width":  261.1,
                                                                     "Height":  163.2
                                                                 },
-                                                 "Density":  "5.08",
+                                                 "Density":  "200",
                                                  "ReportRate":  "136",
                                                  "Tilt":  "40",
                                                  "AccuracyCenter":  "0.5",
@@ -2218,7 +2218,7 @@
                                                                     "Width":  432,
                                                                     "Height":  324
                                                                 },
-                                                 "Density":  "5.08",
+                                                 "Density":  "200",
                                                  "ReportRate":  "133",
                                                  "Tilt":  "40",
                                                  "AccuracyCenter":  "0.5",
@@ -2306,7 +2306,7 @@
                                                                     "Width":  433.4,
                                                                     "Height":  270.9
                                                                 },
-                                                 "Density":  "5.08",
+                                                 "Density":  "200",
                                                  "ReportRate":  "136",
                                                  "Tilt":  "60",
                                                  "AccuracyCenter":  "0.5",
@@ -2450,7 +2450,7 @@
                                                                     "Width":  304.1,
                                                                     "Height":  228.1
                                                                 },
-                                                 "Density":  "0.508",
+                                                 "Density":  "20",
                                                  "ReportRate":  "93",
                                                  "AccuracyCenter":  "0.5",
                                                  "MaxHover":  "5",
@@ -2598,7 +2598,7 @@
                                                                     "Width":  359,
                                                                     "Height":  287.2
                                                                 },
-                                                 "Density":  "0.508",
+                                                 "Density":  "20",
                                                  "ReportRate":  "205",
                                                  "AccuracyCenter":  "0.5",
                                                  "MaxHover":  "5",
