@@ -6301,6 +6301,7 @@
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405A-U",
                                              "Name":  "Graphire2 USB",
+                                             "Status":  "DISCONTINUED",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
                                              "ReleaseDate":  "2001-09",
@@ -6373,6 +6374,7 @@
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405-U",
                                              "Name":  "Graphire1 USB",
+                                             "Status":  "DISCONTINUED",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1999",
                                              "ReleaseDate":  "1999-11-04",
@@ -6409,6 +6411,7 @@
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405-R",
                                              "Name":  "Graphire1 SERIAL",
+                                             "Status":  "DISCONTINUED",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1999",
                                              "ReleaseDate":  "1999-11-04",
@@ -7782,6 +7785,89 @@
                                             "_id":  "185bc0ec-1d1a-43f8-899e-86e51e4aba63",
                                             "_CreateDate":  "2026-07-19T04:01:50.281Z",
                                             "_ModifiedDate":  "2026-07-19T04:01:50.281Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "CTH-660",
+                                             "Name":  "Bamboo Pen \u0026 Touch M",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2009",
+                                             "ReleaseDate":  "2009-09-24",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.lp160e"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_bamboopen_2009",
+                                             "Notes":  "Medium sibling of CTH-460; active area/enclosure mirrored from the medium Bamboo (CTH-661)."
+                                         },
+                               "Digitizer":  {
+                                                 "Dimensions":  {
+                                                                    "Width":  216.48,
+                                                                    "Height":  137
+                                                                },
+                                                 "Density":  "100",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  336.8,
+                                                                   "Height":  223,
+                                                                   "Depth":  8.5
+                                                               },
+                                                "Weight":  "740"
+                                            },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.cth660",
+                                            "_id":  "f2390f3b-b34b-44aa-8298-72ac4d8cfa6a",
+                                            "_CreateDate":  "2026-07-19T04:12:14.950Z",
+                                            "_ModifiedDate":  "2026-07-19T04:12:14.950Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "PTH-651SE",
+                                             "Name":  "Intuos Pro 2013 Medium Special Edition",
+                                             "AlternateNames":  [
+                                                                    "Intuos Pro Special Edition"
+                                                                ],
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2013",
+                                             "Audience":  "Professional",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.kp501e"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_intuospro_2013",
+                                             "Notes":  "Special Edition of PTH-651 (Intuos Pro 2013 Medium); identical hardware, cosmetic finish."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "Dimensions":  {
+                                                                    "Width":  223.52,
+                                                                    "Height":  139.7
+                                                                },
+                                                 "Density":  "200",
+                                                 "ReportRate":  "200",
+                                                 "Tilt":  "60",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  379.9,
+                                                                   "Height":  251.4,
+                                                                   "Depth":  11.5
+                                                               },
+                                                "Weight":  "990"
+                                            },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.pth651se",
+                                            "_id":  "465cf7e1-4bd3-42b4-a947-986ef7282b22",
+                                            "_CreateDate":  "2026-07-19T04:12:16.715Z",
+                                            "_ModifiedDate":  "2026-07-19T04:12:16.715Z"
                                         }
                            }
                        ]
