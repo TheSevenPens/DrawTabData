@@ -20,13 +20,14 @@
 //
 //   const pens = await wacomTablets[0].getCompatiblePens();
 
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct, OTDConfigFile } from "./drawtab-loader.js";
 import {
   ShardedURLLoader,
   loadVersionFromURL,
   loadISOPaperSizesFromURL,
   loadUSPaperSizesFromURL,
   loadWacomUpdateProductsFromURL,
+  loadOtdConfigFromURL,
 } from "./drawtab-loader.js";
 import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
@@ -173,6 +174,7 @@ export class DrawTabDataSet extends DataSet {
   private cachedISOPaperSizes?: Promise<ISOPaperSize[]>;
   private cachedUSPaperSizes?: Promise<USPaperSize[]>;
   private cachedWacomUpdateProducts?: Promise<WacomUpdateProduct[]>;
+  private cachedOtdConfig?: Promise<OTDConfigFile | null>;
 
   constructor(source: DataSource) {
     super();
@@ -556,6 +558,13 @@ export class DrawTabDataSet extends DataSet {
   getWacomUpdateProducts(): Promise<WacomUpdateProduct[]> {
     return (this.cachedWacomUpdateProducts ??= loadWacomUpdateProductsFromURL(
       this.requireUrlSource("getWacomUpdateProducts"),
+    ));
+  }
+
+  /** Load the OpenTabletDriver config reference dataset (provenance + list). */
+  getOtdConfig(): Promise<OTDConfigFile | null> {
+    return (this.cachedOtdConfig ??= loadOtdConfigFromURL(
+      this.requireUrlSource("getOtdConfig"),
     ));
   }
 

@@ -186,18 +186,24 @@ export async function loadWacomUpdateProductsFromURL(
 
 // --- OpenTabletDriver config loader ---
 
-/** Loads the OTD reference dataset (provenance + tablet list). Returns the
- * tablet array; refresh the file with scripts/extract-otd-configs.mjs. */
+/** Loads the full OTD reference file (provenance + tablet list). Refresh it
+ * with scripts/extract-otd-configs.mjs. Returns null if unavailable. */
+export async function loadOtdConfigFromURL(
+  dataBaseUrl: string,
+): Promise<OTDConfigFile | null> {
+  const url = `${dataBaseUrl}/otd/otd-tablets.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return null;
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return null;
+  return (await resp.json()) as OTDConfigFile;
+}
+
+/** Loads just the OTD tablet list (drops provenance). */
 export async function loadOtdTabletsFromURL(
   dataBaseUrl: string,
 ): Promise<OTDTablet[]> {
-  const url = `${dataBaseUrl}/otd/otd-tablets.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = (await resp.json()) as OTDConfigFile;
-  return data.tablets ?? [];
+  return (await loadOtdConfigFromURL(dataBaseUrl))?.tablets ?? [];
 }
 
 // --- Brand loader ---
