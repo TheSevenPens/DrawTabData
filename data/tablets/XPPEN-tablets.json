@@ -24,8 +24,8 @@
                                "Digitizer":  {
                                                  "PressureLevels":  "8192",
                                                  "Dimensions":  {
-                                                                    "Width":  364,
-                                                                    "Height":  219
+                                                                    "Width":  256.32,
+                                                                    "Height":  144.18
                                                                 },
                                                  "Density":  "200",
                                                  "ReportRate":  "266",
@@ -1306,8 +1306,8 @@
                                                  "Type":  "PASSIVE_EMR",
                                                  "PressureLevels":  "8192",
                                                  "Dimensions":  {
-                                                                    "Width":  178,
-                                                                    "Height":  111
+                                                                    "Width":  101.6,
+                                                                    "Height":  76.2
                                                                 },
                                                  "Density":  "200",
                                                  "ReportRate":  "220",
@@ -1348,8 +1348,8 @@
                                                  "Type":  "PASSIVE_EMR",
                                                  "PressureLevels":  "8192",
                                                  "Dimensions":  {
-                                                                    "Width":  102,
-                                                                    "Height":  72
+                                                                    "Width":  177.8,
+                                                                    "Height":  111.1
                                                                 },
                                                  "Density":  "200",
                                                  "ReportRate":  "220",
