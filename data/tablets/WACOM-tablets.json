@@ -5673,6 +5673,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "MTE-450",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo MTE-450",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
@@ -5745,6 +5746,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-440",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
@@ -5781,6 +5783,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-640",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
@@ -5817,6 +5820,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-460",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
@@ -5853,6 +5857,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-660",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTE-660",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
@@ -5889,6 +5894,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTT-460",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -5921,6 +5927,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-301",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTH-301",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2014",
@@ -5954,6 +5961,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-300",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTH-300",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -6022,6 +6030,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-430",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire3 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
@@ -6058,6 +6067,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-630BT",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 BT",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
@@ -6092,6 +6102,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-630",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire3 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
@@ -6128,6 +6139,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-430",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo One",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
@@ -6200,6 +6212,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-420",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTF-420",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
@@ -7533,6 +7546,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-1300",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Cintiq 13H touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
@@ -7868,6 +7882,126 @@
                                             "_id":  "465cf7e1-4bd3-42b4-a947-986ef7282b22",
                                             "_CreateDate":  "2026-07-19T04:12:16.715Z",
                                             "_ModifiedDate":  "2026-07-19T04:12:16.715Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-W1320",
+                                             "Name":  "MobileStudio Pro 13",
+                                             "Type":  "STANDALONE",
+                                             "LaunchYear":  "2016",
+                                             "ReleaseDate":  "2016-10-04",
+                                             "Audience":  "Professional",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.kp504e"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_mobilestudiopro",
+                                             "Notes":  "Gen 1 13-inch, sibling of the 16-inch DTH-W1620. Physical/Standalone SKU specs pending."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "8192",
+                                                 "Density":  "200",
+                                                 "Tilt":  "60",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  2560,
+                                                                       "Height":  1440
+                                                                   }
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dthw1320",
+                                            "_id":  "2fd0da23-3a4e-4951-b2d7-040b4758ac05",
+                                            "_CreateDate":  "2026-07-19T04:17:14.020Z",
+                                            "_ModifiedDate":  "2026-07-19T04:17:14.020Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-W1300",
+                                             "Name":  "Cintiq Companion",
+                                             "Type":  "STANDALONE",
+                                             "LaunchYear":  "2013",
+                                             "Status":  "DISCONTINUED",
+                                             "Notes":  "Standalone Windows 8 pen computer. Physical/Standalone SKU specs pending."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1080
+                                                                   }
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dthw1300",
+                                            "_id":  "5e0db01f-3e84-474b-b0a1-a8b3cb9e7e11",
+                                            "_CreateDate":  "2026-07-19T04:17:15.777Z",
+                                            "_ModifiedDate":  "2026-07-19T04:17:15.777Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-A1300",
+                                             "Name":  "Cintiq Companion Hybrid",
+                                             "Type":  "STANDALONE",
+                                             "LaunchYear":  "2013",
+                                             "Status":  "DISCONTINUED",
+                                             "Notes":  "Standalone Android pen computer (also usable as a tethered Cintiq). Specs pending."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1080
+                                                                   }
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dtha1300",
+                                            "_id":  "17fe5a44-7ce1-451e-929a-f7287dcfebf9",
+                                            "_CreateDate":  "2026-07-19T04:17:17.523Z",
+                                            "_ModifiedDate":  "2026-07-19T04:17:17.523Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-W1310",
+                                             "Name":  "Cintiq Companion 2",
+                                             "Type":  "STANDALONE",
+                                             "LaunchYear":  "2015",
+                                             "Status":  "DISCONTINUED",
+                                             "Notes":  "Standalone Windows pen computer. Physical/Standalone SKU specs pending."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  2560,
+                                                                       "Height":  1440
+                                                                   }
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dthw1310",
+                                            "_id":  "beddd516-fceb-41cd-a2c4-5359eda92a72",
+                                            "_CreateDate":  "2026-07-19T04:17:19.215Z",
+                                            "_ModifiedDate":  "2026-07-19T04:17:19.215Z"
                                         }
                            }
                        ]
