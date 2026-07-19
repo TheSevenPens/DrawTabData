@@ -1809,7 +1809,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2200",
-                                             "Name":  "Cintiq 22 HD Touch",
+                                             "Name":  "Cintiq 22HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
                                              "ReleaseDate":  "2012-07-10",
@@ -7618,6 +7618,171 @@
                                              "Notes":  "World\u0027s first graphics tablet with a cordless cursor (puck). A4 size.",
                                              "Family":  "wacom.tabletfamily.wacom_wt_legacy"
                                          }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-2200",
+                                             "Name":  "Cintiq 22HD Touch",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2013",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.kp501e"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "Dimensions":  {
+                                                                    "Width":  479,
+                                                                    "Height":  271
+                                                                },
+                                                 "Density":  "200",
+                                                 "Tilt":  "60",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1080
+                                                                   },
+                                               "PanelTech":  "H-IPS",
+                                               "Brightness":  "210",
+                                               "Contrast":  "900",
+                                               "ColorBitDepth":  "8",
+                                               "ColorGamuts":  {
+                                                                   "ADOBERGB":  72
+                                                               },
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dth2200",
+                                            "_id":  "0d8bdb56-2e37-4d3c-9886-5a159c78c83a",
+                                            "_CreateDate":  "2026-07-19T04:01:44.987Z",
+                                            "_ModifiedDate":  "2026-07-19T04:01:44.987Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTH-2400",
+                                             "Name":  "Cintiq 24HD Touch",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2013",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.kp501e"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "Dimensions":  {
+                                                                    "Width":  518,
+                                                                    "Height":  324
+                                                                },
+                                                 "MaxHover":  "5",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1200
+                                                                   },
+                                               "PanelTech":  "IPS",
+                                               "Brightness":  "190",
+                                               "Contrast":  "550",
+                                               "ColorBitDepth":  "8",
+                                               "ColorGamuts":  {
+                                                                   "ADOBERGB":  92
+                                                               },
+                                               "RefreshRate":  "60",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dth2400",
+                                            "_id":  "7202f51a-6bd1-4b74-83f9-e1f34fd7d8cd",
+                                            "_CreateDate":  "2026-07-19T04:01:46.760Z",
+                                            "_ModifiedDate":  "2026-07-19T04:01:46.760Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTZ-1200",
+                                             "Name":  "Cintiq 12WX",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2007",
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq"
+                                         },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1280,
+                                                                       "Height":  800
+                                                                   }
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dtz1200",
+                                            "_id":  "dbb822bd-88eb-467e-823f-9dfb08b6cdd4",
+                                            "_CreateDate":  "2026-07-19T04:01:48.501Z",
+                                            "_ModifiedDate":  "2026-07-19T04:01:48.501Z"
+                                        }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTK-1301",
+                                             "Name":  "Cintiq 13HD",
+                                             "AlternateNames":  [
+                                                                    "Cintiq 13HD (DTK-1301)"
+                                                                ],
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2013",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.kp503e"
+                                                             ],
+                                             "Status":  "DISCONTINUED",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiq",
+                                             "Notes":  "Later SKU revision of the Cintiq 13HD (DTK-1300); same specs."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "2048",
+                                                 "Dimensions":  {
+                                                                    "Width":  299,
+                                                                    "Height":  171
+                                                                },
+                                                 "Density":  "200",
+                                                 "Tilt":  "40",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1920,
+                                                                       "Height":  1080
+                                                                   },
+                                               "Brightness":  "250",
+                                               "Contrast":  "700",
+                                               "ColorBitDepth":  "8",
+                                               "ColorGamuts":  {
+                                                                   "ADOBERGB":  75
+                                                               },
+                                               "ResponseTime":  "25",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.dtk1301",
+                                            "_id":  "185bc0ec-1d1a-43f8-899e-86e51e4aba63",
+                                            "_CreateDate":  "2026-07-19T04:01:50.281Z",
+                                            "_ModifiedDate":  "2026-07-19T04:01:50.281Z"
+                                        }
                            }
                        ]
 }
