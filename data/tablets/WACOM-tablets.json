@@ -5263,7 +5263,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-460",
-                                             "Name":  "Bamboo Touch 2009",
+                                             "Name":  "Bamboo Pen & Touch S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
                                              "ReleaseDate":  "2009-09-24",
@@ -5821,7 +5821,7 @@
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-460",
                                              "Status":  "DISCONTINUED",
-                                             "Name":  "Graphire4 6x8",
+                                             "Name":  "Bamboo One",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "ReleaseDate":  "2005-09-13",
@@ -5906,7 +5906,7 @@
                                                                     "Width":  125,
                                                                     "Height":  85
                                                                 },
-                                                 "SupportsTouch":  "NO"
+                                                 "SupportsTouch":  "YES"
                                              },
                                "Physical":  {
                                                 "Dimensions":  {
