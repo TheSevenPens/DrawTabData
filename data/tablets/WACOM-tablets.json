@@ -10,6 +10,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTC-4110WL",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -52,6 +53,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTC-6110WL",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -483,6 +485,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-472",
+                                             "Status":  "ACTIVE",
                                              "Name":  "One by Wacom Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -656,6 +659,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-672",
+                                             "Status":  "ACTIVE",
                                              "Name":  "One by Wacom Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -742,6 +746,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTC-121",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -859,6 +864,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTC-141",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom One 14",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -973,6 +979,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-134",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 13 touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -1029,6 +1036,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-135",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Movink 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -1207,6 +1215,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-172",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Cintiq Pro 17",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -1270,6 +1279,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-227",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Cintiq Pro 22",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -1394,6 +1404,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-246",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Cintiq 24 touch 2025",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -1455,6 +1466,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-271",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Cintiq Pro 27",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -1696,6 +1708,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-168",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Cintiq 16 2025",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -2038,6 +2051,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-246",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Cintiq 24 2025",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -3156,6 +3170,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-470",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Intuos Pro 2025 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2025",
@@ -3327,6 +3342,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-670",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Intuos Pro 2025 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2025",
@@ -3413,6 +3429,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-870",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Intuos Pro 2025 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2025",
@@ -3970,6 +3987,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-A116",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom MovinkPad 11",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
@@ -4042,6 +4060,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-A140",
+                                             "Status":  "ACTIVE",
                                              "Name":  "Wacom MovinkPad Pro 14",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
