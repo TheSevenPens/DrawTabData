@@ -3,9 +3,9 @@
 import type { Loader } from "@thesevenpens/queriton";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, PressureRange, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile } from "./schemas.js";
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, PressureRange, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile, OTDAuditStatus, OTDEntityAudit } from "./schemas.js";
 
-import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile } from "./schemas.js";
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile, OTDAuditStatus } from "./schemas.js";
 
 export interface PenCompat {
   Brand: string;
@@ -204,6 +204,20 @@ export async function loadOtdTabletsFromURL(
   dataBaseUrl: string,
 ): Promise<OTDTablet[]> {
   return (await loadOtdConfigFromURL(dataBaseUrl))?.tablets ?? [];
+}
+
+/** Loads the OTD→entity audit overlay: a map of `"<otdFile>|<entityId>"` →
+ * verdict. Missing keys mean "unreviewed". Returns {} if unavailable. */
+export async function loadOtdEntityAuditFromURL(
+  dataBaseUrl: string,
+): Promise<Record<string, OTDAuditStatus>> {
+  const url = `${dataBaseUrl}/otd/otd-entity-audit.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return {};
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return {};
+  const data = await resp.json();
+  return data.audits ?? {};
 }
 
 // --- Brand loader ---

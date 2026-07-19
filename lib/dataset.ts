@@ -20,7 +20,7 @@
 //
 //   const pens = await wacomTablets[0].getCompatiblePens();
 
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct, OTDConfigFile } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct, OTDConfigFile, OTDAuditStatus } from "./drawtab-loader.js";
 import {
   ShardedURLLoader,
   loadVersionFromURL,
@@ -28,6 +28,7 @@ import {
   loadUSPaperSizesFromURL,
   loadWacomUpdateProductsFromURL,
   loadOtdConfigFromURL,
+  loadOtdEntityAuditFromURL,
 } from "./drawtab-loader.js";
 import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
@@ -175,6 +176,7 @@ export class DrawTabDataSet extends DataSet {
   private cachedUSPaperSizes?: Promise<USPaperSize[]>;
   private cachedWacomUpdateProducts?: Promise<WacomUpdateProduct[]>;
   private cachedOtdConfig?: Promise<OTDConfigFile | null>;
+  private cachedOtdEntityAudit?: Promise<Record<string, OTDAuditStatus>>;
 
   constructor(source: DataSource) {
     super();
@@ -565,6 +567,13 @@ export class DrawTabDataSet extends DataSet {
   getOtdConfig(): Promise<OTDConfigFile | null> {
     return (this.cachedOtdConfig ??= loadOtdConfigFromURL(
       this.requireUrlSource("getOtdConfig"),
+    ));
+  }
+
+  /** Load the OTD→entity audit overlay (`"<otdFile>|<entityId>"` → verdict). */
+  getOtdEntityAudit(): Promise<Record<string, OTDAuditStatus>> {
+    return (this.cachedOtdEntityAudit ??= loadOtdEntityAuditFromURL(
+      this.requireUrlSource("getOtdEntityAudit"),
     ));
   }
 

@@ -438,6 +438,21 @@ export const OTDConfigFileSchema = v.strictObject({
   tablets: v.array(OTDTabletSchema),
 });
 
+// --- OTD → entity audit overlay (data/otd/otd-entity-audit.json) ---
+
+/** A curator's verdict on one OTD→entity correlation. "unreviewed" is the
+ * default (absence from the overlay), so only these three are ever stored. */
+export const OTDAuditStatusSchema = v.picklist(["approved", "rejected", "unclear"]);
+
+/** Hand-curated overlay of OTD→entity correlations that need review. Keyed by
+ * `"<otdFile>|<entityId>"` (e.g. `"Huion/Kamvas 16 (2021).json|huion.tablet.gs1562"`);
+ * a missing key means the correlation is still unreviewed. The correlations
+ * themselves are computed (src/lib/otd-entity-match.ts) — this stores only the
+ * human verdict, so it survives data/matcher changes. */
+export const OTDEntityAuditSchema = v.strictObject({
+  audits: v.record(TrimmedString, OTDAuditStatusSchema),
+});
+
 // --- Defect kinds vocabulary (data/reference/defect-kinds.json) ---
 
 export const DefectKindSchema = v.strictObject({
@@ -488,4 +503,6 @@ export type DefectKind = v.InferOutput<typeof DefectKindSchema>;
 export type WacomUpdateProduct = v.InferOutput<typeof WacomUpdateProductSchema>;
 export type OTDTablet = v.InferOutput<typeof OTDTabletSchema>;
 export type OTDConfigFile = v.InferOutput<typeof OTDConfigFileSchema>;
+export type OTDAuditStatus = v.InferOutput<typeof OTDAuditStatusSchema>;
+export type OTDEntityAudit = v.InferOutput<typeof OTDEntityAuditSchema>;
 export type VersionInfo = v.InferOutput<typeof VersionInfoSchema>;
