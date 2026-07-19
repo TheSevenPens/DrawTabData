@@ -390,6 +390,39 @@ export const WacomUpdateProductSchema = v.strictObject({
   platforms: v.array(v.picklist(["Windows", "MacOS"])),
 });
 
+// --- OpenTabletDriver configs (data/otd/otd-tablets.json) ---
+
+/** One USB identifier from an OTD config's DigitizerIdentifiers. VendorID +
+ * ProductID are NOT unique across models (many share a pair), so `name` is
+ * the model key — see issue #308. */
+export const OTDIdentifierSchema = v.strictObject({
+  vendorID: v.nullable(v.number()),
+  productID: v.nullable(v.number()),
+});
+
+/** One OpenTabletDriver tablet config: the authoritative model `name` plus
+ * its vendor, source file, and USB identifiers. Harvested from the OTD repo
+ * by scripts/extract-otd-configs.mjs. */
+export const OTDTabletSchema = v.strictObject({
+  vendor: TrimmedString,
+  file: TrimmedString,
+  name: v.nullable(TrimmedString),
+  identifiers: v.array(OTDIdentifierSchema),
+});
+
+/** The otd-tablets.json file: provenance (which OTD commit it was pulled
+ * from) plus the harvested tablet list. */
+export const OTDConfigFileSchema = v.strictObject({
+  source: v.strictObject({
+    repo: TrimmedString,
+    ref: TrimmedString,
+    commit: TrimmedString,
+    commitDate: v.nullable(TrimmedString),
+    configGlob: TrimmedString,
+  }),
+  tablets: v.array(OTDTabletSchema),
+});
+
 // --- Defect kinds vocabulary (data/reference/defect-kinds.json) ---
 
 export const DefectKindSchema = v.strictObject({
@@ -438,4 +471,6 @@ export type InventoryPen = v.InferOutput<typeof InventoryPenSchema>;
 export type InventoryTablet = v.InferOutput<typeof InventoryTabletSchema>;
 export type DefectKind = v.InferOutput<typeof DefectKindSchema>;
 export type WacomUpdateProduct = v.InferOutput<typeof WacomUpdateProductSchema>;
+export type OTDTablet = v.InferOutput<typeof OTDTabletSchema>;
+export type OTDConfigFile = v.InferOutput<typeof OTDConfigFileSchema>;
 export type VersionInfo = v.InferOutput<typeof VersionInfoSchema>;

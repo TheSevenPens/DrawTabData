@@ -1,0 +1,3778 @@
+{
+  "source": {
+    "repo": "OpenTabletDriver/OpenTabletDriver",
+    "ref": "master",
+    "commit": "1cad28e3f6bc1616d4f01fbea127b105cddc0bbe",
+    "commitDate": "2025-12-05T19:05:24Z",
+    "configGlob": "OpenTabletDriver.Configurations/Configurations/*/*.json"
+  },
+  "tablets": [
+    {
+      "vendor": "10moon",
+      "file": "10moon/1060N.json",
+      "name": "10moon 1060N",
+      "identifiers": [
+        {
+          "vendorID": 2290,
+          "productID": 26641
+        }
+      ]
+    },
+    {
+      "vendor": "Acepen",
+      "file": "Acepen/AP1060.json",
+      "name": "Acepen AP1060",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 130
+        }
+      ]
+    },
+    {
+      "vendor": "Acepen",
+      "file": "Acepen/AP906.json",
+      "name": "Acepen AP906",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 145
+        }
+      ]
+    },
+    {
+      "vendor": "Adesso",
+      "file": "Adesso/Cybertablet K8.json",
+      "name": "Adesso Cybertablet K8",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2320
+        }
+      ]
+    },
+    {
+      "vendor": "Artisul",
+      "file": "Artisul/A1201.json",
+      "name": "Artisul A1201",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Artisul",
+      "file": "Artisul/AP604.json",
+      "name": "Artisul AP604",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 84
+        }
+      ]
+    },
+    {
+      "vendor": "Artisul",
+      "file": "Artisul/D16 Pro.json",
+      "name": "Artisul D16 Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Artisul",
+      "file": "Artisul/M0610 Pro.json",
+      "name": "Artisul M0610 Pro",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 129
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "FlooGoo",
+      "file": "FlooGoo/FMA100.json",
+      "name": "FlooGoo FMA100",
+      "identifiers": [
+        {
+          "vendorID": 2578,
+          "productID": 16391
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/1060 Pro.json",
+      "name": "Gaomon 1060 Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/GM116HD.json",
+      "name": "Gaomon GM116HD",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/GM156HD.json",
+      "name": "Gaomon GM156HD",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M106K Pro.json",
+      "name": "Gaomon M106K Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M106K.json",
+      "name": "Gaomon M106K",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M10K Pro.json",
+      "name": "Gaomon M10K Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M10K.json",
+      "name": "Gaomon M10K",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M1220.json",
+      "name": "Gaomon M1220",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M1230.json",
+      "name": "Gaomon M1230",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M6.json",
+      "name": "Gaomon M6",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M8 (Variant 2).json",
+      "name": "Gaomon M8 (Variant 2)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/M8.json",
+      "name": "Gaomon M8",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/PD1161.json",
+      "name": "Gaomon PD1161",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/PD156 Pro.json",
+      "name": "Gaomon PD156 Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/PD1560.json",
+      "name": "Gaomon PD1560",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/PD1561.json",
+      "name": "Gaomon PD1561",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/PD2200.json",
+      "name": "Gaomon PD2200",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/S56K.json",
+      "name": "Gaomon S56K",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/S620.json",
+      "name": "Gaomon S620",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/S630.json",
+      "name": "Gaomon S630",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Gaomon",
+      "file": "Gaomon/S830.json",
+      "name": "Gaomon S830",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Genius",
+      "file": "Genius/G-Pen 560.json",
+      "name": "Genius G-Pen 560",
+      "identifiers": [
+        {
+          "vendorID": 1112,
+          "productID": 20483
+        }
+      ]
+    },
+    {
+      "vendor": "Genius",
+      "file": "Genius/i405x.json",
+      "name": "Genius i405x",
+      "identifiers": [
+        {
+          "vendorID": 1112,
+          "productID": 20496
+        }
+      ]
+    },
+    {
+      "vendor": "Genius",
+      "file": "Genius/i608x.json",
+      "name": "Genius i608x",
+      "identifiers": [
+        {
+          "vendorID": 1112,
+          "productID": 20506
+        },
+        {
+          "vendorID": 1112,
+          "productID": 20506
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/1060 Plus.json",
+      "name": "Huion 1060 Plus",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/420.json",
+      "name": "Huion 420",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/G10T.json",
+      "name": "Huion G10T",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/G930L.json",
+      "name": "Huion G930L",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 97
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/GC610.json",
+      "name": "Huion GC610",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/GT-156HD V2.json",
+      "name": "Huion GT-156HD V2",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/GT-220 V2.json",
+      "name": "Huion GT-220 V2",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/GT-221 Pro.json",
+      "name": "Huion GT-221 Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/GT-221.json",
+      "name": "Huion GT-221",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H1060P.json",
+      "name": "Huion H1060P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H1061P.json",
+      "name": "Huion H1061P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 104
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H1161.json",
+      "name": "Huion H1161",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H320M.json",
+      "name": "Huion H320M",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H420.json",
+      "name": "Huion H420",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H420X.json",
+      "name": "Huion H420X",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H430P.json",
+      "name": "Huion H430P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H580X.json",
+      "name": "Huion H580X",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H610 Pro V2.json",
+      "name": "Huion H610 Pro V2",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H610 Pro V3.json",
+      "name": "Huion H610 Pro V3",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H610 Pro.json",
+      "name": "Huion H610 Pro",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H610X.json",
+      "name": "Huion H610X",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H640P.json",
+      "name": "Huion H640P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H641P.json",
+      "name": "Huion H641P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 102
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H642.json",
+      "name": "Huion H642",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H690.json",
+      "name": "Huion H690",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H950P.json",
+      "name": "Huion H950P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/H951P.json",
+      "name": "Huion H951P",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 103
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/HC16.json",
+      "name": "Huion HC16",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/HS610.json",
+      "name": "Huion HS610",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/HS611.json",
+      "name": "Huion HS611",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/HS64.json",
+      "name": "Huion HS64",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 111
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/HS95.json",
+      "name": "Huion HS95",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 12.json",
+      "name": "Huion Kamvas 12",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 13 (Gen 3).json",
+      "name": "Huion Kamvas 13 (Gen 3)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 8200
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 13.json",
+      "name": "Huion Kamvas 13",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 16 (2021).json",
+      "name": "Huion Kamvas 16 (2021)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 16.json",
+      "name": "Huion Kamvas 16",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 20.json",
+      "name": "Huion Kamvas 20",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 22 Plus.json",
+      "name": "Huion Kamvas 22 Plus",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 22.json",
+      "name": "Huion Kamvas 22",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas 24 Plus.json",
+      "name": "Huion Kamvas 24 Plus",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 12.json",
+      "name": "Huion Kamvas Pro 12",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 13 (2.5k).json",
+      "name": "Huion Kamvas Pro 13 (2.5k)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 13.json",
+      "name": "Huion Kamvas Pro 13",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 16 (2.5k).json",
+      "name": "Huion Kamvas Pro 16 (2.5k)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 16 (4k).json",
+      "name": "Huion Kamvas Pro 16 (4k)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 16 Plus (4k).json",
+      "name": "Huion Kamvas Pro 16 Plus (4k)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 16.json",
+      "name": "Huion Kamvas Pro 16",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 19 (4K).json",
+      "name": "Huion Kamvas Pro 19 (4K)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 107
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 20.json",
+      "name": "Huion Kamvas Pro 20",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 22 (2019).json",
+      "name": "Huion Kamvas Pro 22 (2019)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 24 (4K).json",
+      "name": "Huion Kamvas Pro 24 (4K)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Kamvas Pro 24.json",
+      "name": "Huion Kamvas Pro 24",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/New 1060 Plus (2048).json",
+      "name": "Huion New 1060 Plus (2048)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/New 1060 Plus.json",
+      "name": "Huion New 1060 Plus",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Q11K V2.json",
+      "name": "Huion Q11K V2",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Q11K.json",
+      "name": "Huion Q11K",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Q620M.json",
+      "name": "Huion Q620M",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/Q630M.json",
+      "name": "Huion Q630M",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 96
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/RDS-160.json",
+      "name": "Huion RDS-160",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/RTE-100.json",
+      "name": "Huion RTE-100",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/RTM 500.json",
+      "name": "Huion RTM-500",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/RTP-700.json",
+      "name": "Huion RTP-700",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 109
+        },
+        {
+          "vendorID": 9580,
+          "productID": 100
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/WH1409 V2 (Variant 2).json",
+      "name": "Huion WH1409 V2 (Variant 2)",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/WH1409 V2.json",
+      "name": "Huion WH1409 V2",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Huion",
+      "file": "Huion/WH1409.json",
+      "name": "Huion WH1409",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "KENTING",
+      "file": "KENTING/K5540.json",
+      "name": "KENTING K5540",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 4
+        }
+      ]
+    },
+    {
+      "vendor": "Lifetec",
+      "file": "Lifetec/LT9570.json",
+      "name": "LifeTec LT9570",
+      "identifiers": [
+        {
+          "vendorID": 2250,
+          "productID": 16
+        }
+      ]
+    },
+    {
+      "vendor": "Monoprice",
+      "file": "Monoprice/10594.json",
+      "name": "Monoprice 10594",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "Monoprice",
+      "file": "Monoprice/MP1060-HA60.json",
+      "name": "Monoprice MP1060-HA60",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 1921
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/A609.json",
+      "name": "Parblo A609",
+      "identifiers": [
+        {
+          "vendorID": 2903,
+          "productID": 37009
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/A610 Pro.json",
+      "name": "Parblo A610 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 6403
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/A610.json",
+      "name": "Parblo A610",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 129
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/A640 V2.json",
+      "name": "Parblo A640 V2",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 42560
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/A640.json",
+      "name": "Parblo A640",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 97
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Intangbo M.json",
+      "name": "Parblo Intangbo M",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 40979
+        },
+        {
+          "vendorID": 1155,
+          "productID": 40979
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Intangbo S.json",
+      "name": "Parblo Intangbo S",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 40980
+        },
+        {
+          "vendorID": 1155,
+          "productID": 40980
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Ninos M.json",
+      "name": "Parblo Ninos M",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 40965
+        },
+        {
+          "vendorID": 1155,
+          "productID": 40965
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Ninos N4.json",
+      "name": "Parblo Ninos N4",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 40985
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Ninos N7.json",
+      "name": "Parblo Ninos N7",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 40992
+        },
+        {
+          "vendorID": 1155,
+          "productID": 40992
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Ninos N7B.json",
+      "name": "Parblo Ninos N7B",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 41483
+        }
+      ]
+    },
+    {
+      "vendor": "Parblo",
+      "file": "Parblo/Ninos S.json",
+      "name": "Parblo Ninos S",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 40966
+        },
+        {
+          "vendorID": 1155,
+          "productID": 40966
+        }
+      ]
+    },
+    {
+      "vendor": "RobotPen",
+      "file": "RobotPen/T9A.json",
+      "name": "RobotPen T9A",
+      "identifiers": [
+        {
+          "vendorID": 1155,
+          "productID": 24579
+        }
+      ]
+    },
+    {
+      "vendor": "Trust",
+      "file": "Trust/Flex Design Tablet.json",
+      "name": "Trust Flex Design Tablet",
+      "identifiers": [
+        {
+          "vendorID": 5935,
+          "productID": 55
+        }
+      ]
+    },
+    {
+      "vendor": "Turcom",
+      "file": "Turcom/TS-6580.json",
+      "name": "Turcom TS-6580",
+      "identifiers": [
+        {
+          "vendorID": 9580,
+          "productID": 110
+        },
+        {
+          "vendorID": 9580,
+          "productID": 110
+        }
+      ]
+    },
+    {
+      "vendor": "UC-Logic",
+      "file": "UC-Logic/1060N.json",
+      "name": "UC-Logic 1060N",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 129
+        }
+      ]
+    },
+    {
+      "vendor": "UC-Logic",
+      "file": "UC-Logic/PF1209.json",
+      "name": "UC-Logic PF1209",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 66
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/M708 V2.json",
+      "name": "UGEE M708 V2",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2340
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/M708.json",
+      "name": "UGEE M708",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 129
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/M808.json",
+      "name": "UGEE M808",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 10499
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/M908.json",
+      "name": "UGEE M908",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 10498
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/S1060.json",
+      "name": "UGEE S1060",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2360
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/S640.json",
+      "name": "UGEE S640",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2359
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2359
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/U1200.json",
+      "name": "UGEE U1200",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2363
+        }
+      ]
+    },
+    {
+      "vendor": "UGEE",
+      "file": "UGEE/U1600.json",
+      "name": "UGEE U1600",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2364
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A15 Pro.json",
+      "name": "VEIKK A15 Pro",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 6
+        },
+        {
+          "vendorID": 12267,
+          "productID": 6
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A15 V2.json",
+      "name": "VEIKK A15 V2",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 4
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A15.json",
+      "name": "VEIKK A15",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 4
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A30 V2.json",
+      "name": "VEIKK A30 V2",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 2
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A30.json",
+      "name": "VEIKK A30",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 2
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A50 (Variant 2).json",
+      "name": "VEIKK A50 (Variant 2)",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 3
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/A50.json",
+      "name": "VEIKK A50",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 3
+        },
+        {
+          "vendorID": 12267,
+          "productID": 3
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/S640 V2.json",
+      "name": "VEIKK S640 V2",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 1
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/S640.json",
+      "name": "VEIKK S640",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 1
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/VK1060.json",
+      "name": "VEIKK VK1060",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 8
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/VK1060PRO.json",
+      "name": "VEIKK VK1060PRO",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 7
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/VK430 V2.json",
+      "name": "VEIKK VK430 V2",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 9
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/VK430.json",
+      "name": "VEIKK VK430",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 9
+        },
+        {
+          "vendorID": 12267,
+          "productID": 9
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/VK640.json",
+      "name": "VEIKK VK640",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 5
+        }
+      ]
+    },
+    {
+      "vendor": "VEIKK",
+      "file": "VEIKK/VO1060.json",
+      "name": "VEIKK Voila (VO1060)",
+      "identifiers": [
+        {
+          "vendorID": 12267,
+          "productID": 11
+        }
+      ]
+    },
+    {
+      "vendor": "ViewSonic",
+      "file": "ViewSonic/Woodpad PF0730.json",
+      "name": "ViewSonic Woodpad PF0730",
+      "identifiers": [
+        {
+          "vendorID": 1347,
+          "productID": 58983
+        }
+      ]
+    },
+    {
+      "vendor": "ViewSonic",
+      "file": "ViewSonic/Woodpad PF1030.json",
+      "name": "ViewSonic Woodpad PF1030",
+      "identifiers": [
+        {
+          "vendorID": 1347,
+          "productID": 58984
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTC-4110WL.json",
+      "name": "Wacom CTC-4110WL",
+      "identifiers": [
+        {
+          "vendorID": 1329,
+          "productID": 256
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTC-6110WL.json",
+      "name": "Wacom CTC-6110WL",
+      "identifiers": [
+        {
+          "vendorID": 1329,
+          "productID": 258
+        },
+        {
+          "vendorID": 1329,
+          "productID": 259
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-430.json",
+      "name": "Wacom CTE-430",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 19
+        },
+        {
+          "vendorID": 1386,
+          "productID": 19
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-440.json",
+      "name": "Wacom CTE-440",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 21
+        },
+        {
+          "vendorID": 1386,
+          "productID": 21
+        },
+        {
+          "vendorID": 1386,
+          "productID": 21
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-450.json",
+      "name": "Wacom CTE-450",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 23
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-460.json",
+      "name": "Wacom CTE-460",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 106
+        },
+        {
+          "vendorID": 1386,
+          "productID": 106
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-630.json",
+      "name": "Wacom CTE-630",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 20
+        },
+        {
+          "vendorID": 1386,
+          "productID": 20
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-640.json",
+      "name": "Wacom CTE-640",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 22
+        },
+        {
+          "vendorID": 1386,
+          "productID": 22
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-650.json",
+      "name": "Wacom CTE-650",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 24
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTE-660.json",
+      "name": "Wacom CTE-660",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 107
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTF-430.json",
+      "name": "Wacom CTF-430",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 105
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-300.json",
+      "name": "Wacom CTH-300",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 793
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-301.json",
+      "name": "Wacom CTH-301",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 792
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-460.json",
+      "name": "Wacom CTH-460",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 214
+        },
+        {
+          "vendorID": 1386,
+          "productID": 214
+        },
+        {
+          "vendorID": 1386,
+          "productID": 209
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-461.json",
+      "name": "Wacom CTH-461",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 210
+        },
+        {
+          "vendorID": 1386,
+          "productID": 210
+        },
+        {
+          "vendorID": 1386,
+          "productID": 215
+        },
+        {
+          "vendorID": 1386,
+          "productID": 218
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-470.json",
+      "name": "Wacom CTH-470",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 222
+        },
+        {
+          "vendorID": 1386,
+          "productID": 222
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-480.json",
+      "name": "Wacom CTH-480",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 770
+        },
+        {
+          "vendorID": 1386,
+          "productID": 770
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-490.json",
+      "name": "Wacom CTH-490",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 828
+        },
+        {
+          "vendorID": 1386,
+          "productID": 828
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-661.json",
+      "name": "Wacom CTH-661",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 211
+        },
+        {
+          "vendorID": 1386,
+          "productID": 211
+        },
+        {
+          "vendorID": 1386,
+          "productID": 219
+        },
+        {
+          "vendorID": 1386,
+          "productID": 216
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-670.json",
+      "name": "Wacom CTH-670",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 223
+        },
+        {
+          "vendorID": 1386,
+          "productID": 223
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-680.json",
+      "name": "Wacom CTH-680",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 771
+        },
+        {
+          "vendorID": 1386,
+          "productID": 771
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTH-690.json",
+      "name": "Wacom CTH-690",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 830
+        },
+        {
+          "vendorID": 1386,
+          "productID": 830
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-4100.json",
+      "name": "Wacom CTL-4100",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 884
+        },
+        {
+          "vendorID": 1386,
+          "productID": 884
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-4100WL.json",
+      "name": "Wacom CTL-4100WL",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 886
+        },
+        {
+          "vendorID": 1386,
+          "productID": 886
+        },
+        {
+          "vendorID": 1386,
+          "productID": 886
+        },
+        {
+          "vendorID": 1386,
+          "productID": 887
+        },
+        {
+          "vendorID": 1386,
+          "productID": 887
+        },
+        {
+          "vendorID": 1386,
+          "productID": 965
+        },
+        {
+          "vendorID": 1386,
+          "productID": 965
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-460.json",
+      "name": "Wacom CTL-460",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 212
+        },
+        {
+          "vendorID": 1386,
+          "productID": 212
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-470.json",
+      "name": "Wacom CTL-470",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 221
+        },
+        {
+          "vendorID": 1386,
+          "productID": 221
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-471.json",
+      "name": "Wacom CTL-471",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 768
+        },
+        {
+          "vendorID": 1386,
+          "productID": 768
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-472.json",
+      "name": "Wacom CTL-472",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 890
+        },
+        {
+          "vendorID": 1386,
+          "productID": 890
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-480.json",
+      "name": "Wacom CTL-480",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 782
+        },
+        {
+          "vendorID": 1386,
+          "productID": 782
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-490.json",
+      "name": "Wacom CTL-490",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 827
+        },
+        {
+          "vendorID": 1386,
+          "productID": 827
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-6100.json",
+      "name": "Wacom CTL-6100",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 885
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-6100WL.json",
+      "name": "Wacom CTL-6100WL",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 888
+        },
+        {
+          "vendorID": 1386,
+          "productID": 967
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-671.json",
+      "name": "Wacom CTL-671",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 769
+        },
+        {
+          "vendorID": 1386,
+          "productID": 769
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-672.json",
+      "name": "Wacom CTL-672",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 891
+        },
+        {
+          "vendorID": 1386,
+          "productID": 891
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-680.json",
+      "name": "Wacom CTL-680",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 803
+        },
+        {
+          "vendorID": 1386,
+          "productID": 803
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/CTL-690.json",
+      "name": "Wacom CTL-690",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 829
+        },
+        {
+          "vendorID": 1386,
+          "productID": 829
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTC-133.json",
+      "name": "Wacom DTC-133",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 934
+        },
+        {
+          "vendorID": 1386,
+          "productID": 934
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTH-1320.json",
+      "name": "Wacom DTH-1320",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 847
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTH-135.json",
+      "name": "Wacom Movink 13 (DTH-135)",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 1008
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTH-271.json",
+      "name": "Wacom Cintiq Pro 27 (DTH-271)",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 960
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTK-1300.json",
+      "name": "Wacom Cintiq 13HD (DTK-1300)",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 772
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTK-1660.json",
+      "name": "Wacom Cintiq 16 (DTK1660)",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 912
+        },
+        {
+          "vendorID": 1386,
+          "productID": 942
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTK-2200.json",
+      "name": "Wacom Cintiq 22HD (DTK-2200)",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 249
+        },
+        {
+          "vendorID": 1386,
+          "productID": 250
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/DTZ-1200W.json",
+      "name": "Wacom Cintiq 12WX (DTZ-1200W)",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 198
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/ET-0405-U.json",
+      "name": "Wacom ET-0405-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 16
+        },
+        {
+          "vendorID": 1386,
+          "productID": 16
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/ET-0405A-U.json",
+      "name": "Wacom ET-0405A-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 17
+        },
+        {
+          "vendorID": 1386,
+          "productID": 17
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/FT-0405-U.json",
+      "name": "Wacom FT-0405-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 96
+        },
+        {
+          "vendorID": 1386,
+          "productID": 96
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/GD-0405-U.json",
+      "name": "Wacom GD-0405-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 32
+        },
+        {
+          "vendorID": 1386,
+          "productID": 32
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/GD-0608-U.json",
+      "name": "Wacom GD-0608-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 33
+        },
+        {
+          "vendorID": 1386,
+          "productID": 33
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/GD-0912-U.json",
+      "name": "Wacom GD-0912-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 34
+        },
+        {
+          "vendorID": 1386,
+          "productID": 34
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/GD-1212-U.json",
+      "name": "Wacom GD-1212-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 35
+        },
+        {
+          "vendorID": 1386,
+          "productID": 35
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/GD-1218-U.json",
+      "name": "Wacom GD-1218-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 36
+        },
+        {
+          "vendorID": 1386,
+          "productID": 36
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/MTE-450.json",
+      "name": "Wacom MTE-450",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 101
+        },
+        {
+          "vendorID": 1386,
+          "productID": 101
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-450.json",
+      "name": "Wacom PTH-450",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 38
+        },
+        {
+          "vendorID": 1386,
+          "productID": 38
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-451.json",
+      "name": "Wacom PTH-451",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 788
+        },
+        {
+          "vendorID": 1386,
+          "productID": 788
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-460.json",
+      "name": "Wacom PTH-460",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 914
+        },
+        {
+          "vendorID": 1386,
+          "productID": 914
+        },
+        {
+          "vendorID": 1386,
+          "productID": 988
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-650.json",
+      "name": "Wacom PTH-650",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 39
+        },
+        {
+          "vendorID": 1386,
+          "productID": 39
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-651.json",
+      "name": "Wacom PTH-651",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 789
+        },
+        {
+          "vendorID": 1386,
+          "productID": 789
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-660.json",
+      "name": "Wacom PTH-660",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 855
+        },
+        {
+          "vendorID": 1386,
+          "productID": 864
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-850.json",
+      "name": "Wacom PTH-850",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 40
+        },
+        {
+          "vendorID": 1386,
+          "productID": 40
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-851.json",
+      "name": "Wacom PTH-851",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 791
+        },
+        {
+          "vendorID": 1386,
+          "productID": 791
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTH-860.json",
+      "name": "Wacom PTH-860",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 856
+        },
+        {
+          "vendorID": 1386,
+          "productID": 856
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-1240.json",
+      "name": "Wacom PTK-1240",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 187
+        },
+        {
+          "vendorID": 1386,
+          "productID": 187
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-440.json",
+      "name": "Wacom PTK-440",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 184
+        },
+        {
+          "vendorID": 1386,
+          "productID": 184
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-450.json",
+      "name": "Wacom PTK-450",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 41
+        },
+        {
+          "vendorID": 1386,
+          "productID": 41
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-540WL.json",
+      "name": "Wacom PTK-540WL",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 188
+        },
+        {
+          "vendorID": 1386,
+          "productID": 188
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-640.json",
+      "name": "Wacom PTK-640",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 185
+        },
+        {
+          "vendorID": 1386,
+          "productID": 185
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-650.json",
+      "name": "Wacom PTK-650",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 42
+        },
+        {
+          "vendorID": 1386,
+          "productID": 42
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTK-840.json",
+      "name": "Wacom PTK-840",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 186
+        },
+        {
+          "vendorID": 1386,
+          "productID": 186
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTU-600U.json",
+      "name": "Wacom PTU-600U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 3
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-1230.json",
+      "name": "Wacom PTZ-1230",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 179
+        },
+        {
+          "vendorID": 1386,
+          "productID": 179
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-1231W.json",
+      "name": "Wacom PTZ-1231W",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 180
+        },
+        {
+          "vendorID": 1386,
+          "productID": 180
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-430.json",
+      "name": "Wacom PTZ-430",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 176
+        },
+        {
+          "vendorID": 1386,
+          "productID": 176
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-431W.json",
+      "name": "Wacom PTZ-431W",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 183
+        },
+        {
+          "vendorID": 1386,
+          "productID": 183
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-630.json",
+      "name": "Wacom PTZ-630",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 177
+        },
+        {
+          "vendorID": 1386,
+          "productID": 177
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-631W.json",
+      "name": "Wacom PTZ-631W",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 181
+        },
+        {
+          "vendorID": 1386,
+          "productID": 181
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/PTZ-930.json",
+      "name": "Wacom PTZ-930",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 178
+        },
+        {
+          "vendorID": 1386,
+          "productID": 178
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/XD-0405-U.json",
+      "name": "Wacom XD-0405-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 65
+        },
+        {
+          "vendorID": 1386,
+          "productID": 65
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/XD-0608-U.json",
+      "name": "Wacom XD-0608-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 66
+        },
+        {
+          "vendorID": 1386,
+          "productID": 66
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/XD-0912-U.json",
+      "name": "Wacom XD-0912-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 67
+        },
+        {
+          "vendorID": 1386,
+          "productID": 67
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/XD-1212-U.json",
+      "name": "Wacom XD-1212-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 68
+        },
+        {
+          "vendorID": 1386,
+          "productID": 68
+        }
+      ]
+    },
+    {
+      "vendor": "Wacom",
+      "file": "Wacom/XD-1218-U.json",
+      "name": "Wacom XD-1218-U",
+      "identifiers": [
+        {
+          "vendorID": 1386,
+          "productID": 69
+        },
+        {
+          "vendorID": 1386,
+          "productID": 69
+        }
+      ]
+    },
+    {
+      "vendor": "Waltop",
+      "file": "Waltop/Slim Tablet.json",
+      "name": "Waltop Slim Tablet 5.8\"",
+      "identifiers": [
+        {
+          "vendorID": 5935,
+          "productID": 50
+        }
+      ]
+    },
+    {
+      "vendor": "XenceLabs",
+      "file": "XenceLabs/Pen Tablet Medium.json",
+      "name": "XenceLabs Pen Tablet Medium",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 20993
+        },
+        {
+          "vendorID": 10429,
+          "productID": 20993
+        }
+      ]
+    },
+    {
+      "vendor": "XenceLabs",
+      "file": "XenceLabs/Pen Tablet Small.json",
+      "name": "XenceLabs Pen Tablet Small",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 20996
+        }
+      ]
+    },
+    {
+      "vendor": "XENX",
+      "file": "XENX/P1-640.json",
+      "name": "XENX P1-640",
+      "identifiers": [
+        {
+          "vendorID": 11648,
+          "productID": 8194
+        }
+      ]
+    },
+    {
+      "vendor": "XENX",
+      "file": "XENX/P3-1060.json",
+      "name": "XENX P3-1060",
+      "identifiers": [
+        {
+          "vendorID": 11648,
+          "productID": 8193
+        }
+      ]
+    },
+    {
+      "vendor": "XENX",
+      "file": "XENX/X1-640.json",
+      "name": "XENX X1-640",
+      "identifiers": [
+        {
+          "vendorID": 11648,
+          "productID": 24577
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 10 (2nd Gen).json",
+      "name": "XP-Pen Artist 10 (2nd Gen)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2381
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 10S.json",
+      "name": "XP-Pen Artist 10S",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 74
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 12 (2nd Gen).json",
+      "name": "XP-Pen Artist 12 (2nd Gen)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2378
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 12 Pro.json",
+      "name": "XP-Pen Artist 12 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2335
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 12.json",
+      "name": "XP-Pen Artist 12",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2058
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 13 (2nd Gen).json",
+      "name": "XP-Pen Artist 13 (2nd Gen)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2382
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 13.3 Pro.json",
+      "name": "XP-Pen Artist 13.3 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2347
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 13.3.json",
+      "name": "XP-Pen Artist 13.3",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 11
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 15.6 Pro.json",
+      "name": "XP-Pen Artist 15.6 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2317
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 15.6.json",
+      "name": "XP-Pen Artist 15.6",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 12
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2330
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 16 (2nd Gen).json",
+      "name": "XP-Pen Artist 16 (2nd Gen)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2380
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 16 Pro.json",
+      "name": "XP-Pen Artist 16 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2379
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 16.json",
+      "name": "XP-Pen Artist 16",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 77
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 22 (2nd Gen).json",
+      "name": "XP-Pen Artist 22 (2nd Gen)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2351
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 22HD.json",
+      "name": "XP-Pen Artist 22HD",
+      "identifiers": [
+        {
+          "vendorID": 21827,
+          "productID": 71
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist 24 Pro.json",
+      "name": "XP-Pen Artist 24 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2349
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist Pro 16 (Gen2).json",
+      "name": "XP-Pen Artist Pro 16 (Gen2)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2395
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Artist Pro 16TP.json",
+      "name": "XP-Pen Artist Pro 16TP",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2350
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/CT1060.json",
+      "name": "XP-Pen CT1060",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2354
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/CT430.json",
+      "name": "XP-Pen CT430",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2352
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2352
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/CT640.json",
+      "name": "XP-Pen CT640",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2353
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2353
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco 01 V2 (Variant 2).json",
+      "name": "XP-Pen Deco 01 V2 (Variant 2)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2309
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2309
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco 01 V2.json",
+      "name": "XP-Pen Deco 01 V2",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2309
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2306
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco 01.json",
+      "name": "XP-Pen Deco 01",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 66
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco 02.json",
+      "name": "XP-Pen Deco 02",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2051
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco 03.json",
+      "name": "XP-Pen Deco 03",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 150
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco L.json",
+      "name": "XP-Pen Deco L",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2357
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco M.json",
+      "name": "XP-Pen Deco M",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2358
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco mini4.json",
+      "name": "XP-Pen Deco mini4",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2345
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2345
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco mini7.json",
+      "name": "XP-Pen Deco mini7",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2344
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2344
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2344
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2344
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco Pro LW Gen2.json",
+      "name": "XP-Pen Deco Pro LW Gen2",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2371
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco Pro Medium.json",
+      "name": "XP-Pen Deco Pro Medium",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2308
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco Pro Small.json",
+      "name": "XP-Pen Deco Pro Small",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2313
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco Pro SW.json",
+      "name": "XP-Pen Deco Pro SW",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2355
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Deco Pro XLW Gen2.json",
+      "name": "XP-Pen Deco Pro XLW Gen2",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2372
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Innovator 16.json",
+      "name": "XP-Pen Innovator 16",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2348
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star 03 Pro.json",
+      "name": "XP-Pen Star 03 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 119
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star 03.json",
+      "name": "XP-Pen Star 03",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2311
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2311
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2311
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star 05 V3.json",
+      "name": "XP-Pen Star 05 V3",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 113
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star 06.json",
+      "name": "XP-Pen Star 06",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 120
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star 06C.json",
+      "name": "XP-Pen Star 06C",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 98
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G430.json",
+      "name": "XP-Pen Star G430",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 117
+        },
+        {
+          "vendorID": 10429,
+          "productID": 117
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G430S V2.json",
+      "name": "XP-Pen Star G430S V2",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2323
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G430S.json",
+      "name": "XP-Pen Star G430S",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 117
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2323
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G540 Pro.json",
+      "name": "XP-Pen Star G540 Pro",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 97
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G540.json",
+      "name": "XP-Pen Star G540",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 117
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G640 (Variant 2).json",
+      "name": "XP-Pen Star G640 (Variant 2)",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2324
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G640.json",
+      "name": "XP-Pen Star G640",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 148
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2324
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G640S.json",
+      "name": "XP-Pen Star G640S",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2310
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2310
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2310
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G960.json",
+      "name": "XP-Pen Star G960",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2336
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G960S Plus.json",
+      "name": "XP-Pen Star G960S Plus",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2328
+        }
+      ]
+    },
+    {
+      "vendor": "XP-Pen",
+      "file": "XP-Pen/Star G960S.json",
+      "name": "XP-Pen Star G960S",
+      "identifiers": [
+        {
+          "vendorID": 10429,
+          "productID": 2327
+        },
+        {
+          "vendorID": 10429,
+          "productID": 2327
+        }
+      ]
+    }
+  ]
+}

@@ -3,9 +3,9 @@
 import type { Loader } from "@thesevenpens/queriton";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, PressureRange, VersionInfo, WacomUpdateProduct } from "./schemas.js";
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, PressureRange, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile } from "./schemas.js";
 
-import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct } from "./schemas.js";
+import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile } from "./schemas.js";
 
 export interface PenCompat {
   Brand: string;
@@ -182,6 +182,22 @@ export async function loadWacomUpdateProductsFromURL(
   const contentType = resp.headers.get("content-type") ?? "";
   if (!contentType.includes("json")) return [];
   return resp.json();
+}
+
+// --- OpenTabletDriver config loader ---
+
+/** Loads the OTD reference dataset (provenance + tablet list). Returns the
+ * tablet array; refresh the file with scripts/extract-otd-configs.mjs. */
+export async function loadOtdTabletsFromURL(
+  dataBaseUrl: string,
+): Promise<OTDTablet[]> {
+  const url = `${dataBaseUrl}/otd/otd-tablets.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = (await resp.json()) as OTDConfigFile;
+  return data.tablets ?? [];
 }
 
 // --- Brand loader ---
