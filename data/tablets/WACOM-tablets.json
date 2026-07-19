@@ -5732,6 +5732,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FW-300",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom FW-300",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2003",
@@ -5843,7 +5844,7 @@
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-460",
                                              "Status":  "DISCONTINUED",
-                                             "Name":  "Bamboo One",
+                                             "Name":  "Bamboo One 2005",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
                                              "ReleaseDate":  "2005-09-13",
@@ -6017,6 +6018,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FB-630",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom FB-630",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -6162,7 +6164,7 @@
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-430",
                                              "Status":  "DISCONTINUED",
-                                             "Name":  "Bamboo One",
+                                             "Name":  "Bamboo One 2007",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
                                              "ReleaseDate":  "2007-05-15",
@@ -6198,6 +6200,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-221",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTF-221",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -6271,6 +6274,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FT-0203-U",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "PenPartner",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -6299,6 +6303,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "FT-0405-U",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom FT-0405-U",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2002",
@@ -6372,6 +6377,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0507A-U",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Graphire2 5x7 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -6482,6 +6488,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-U",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "PenPartner USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
@@ -6518,6 +6525,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "PenPartner SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1997",
@@ -6554,6 +6562,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CT-0405-A",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "PenPartner ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -6590,6 +6599,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-A",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Artpad ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
@@ -6618,6 +6628,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Artpad SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
@@ -6654,6 +6665,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0608-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "ArtZ SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
@@ -6690,6 +6702,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-RNB",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom KT-0405-RNB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
@@ -6726,6 +6739,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "KT-0405-ANB",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom KT-0405-ANB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1994",
@@ -6762,6 +6776,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTU-600U",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Wacom PTU-600U",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -6795,6 +6810,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-0608-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -6831,6 +6847,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-0608-A",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 6x8 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -6867,6 +6884,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-1212-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -6903,6 +6921,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-1212-A",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 12x12 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -6939,6 +6958,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-1218-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -6975,6 +6995,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-1218-A",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 12x18 ADB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -7011,6 +7032,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "UD-1825-R",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "Ultrapad Digitizer II 18x25 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1996",
@@ -7533,6 +7555,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "WT-4400",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "WT-4400 (A4)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1985",
@@ -7551,6 +7574,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "WT-460M",
+                                             "Status":  "DISCONTINUED",
                                              "Name":  "WT-460M (A5)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1987",
