@@ -2,7 +2,7 @@
 /**
  * Pulls OpenTabletDriver's per-model tablet configurations from GitHub into
  * data/otd/otd-tablets.json — a reference dataset of the authoritative OTD
- * model `Name` (plus USB identifiers) for every configured tablet.
+ * model `Name`, physical/pen specs, and USB identifiers for every tablet.
  *
  * Unlike extract-wacom-products.mjs (which parses a cached source file), this
  * fetches over the network so it can be re-run whenever OTD updates upstream.
@@ -80,10 +80,25 @@ async function worker() {
 			if (!res.ok) throw new Error(`HTTP ${res.status}`);
 			const j = JSON.parse((await res.text()).replace(/^﻿/, ''));
 			const ids = Array.isArray(j.DigitizerIdentifiers) ? j.DigitizerIdentifiers : [];
+			const spec = j.Specifications ?? {};
+			const dig = spec.Digitizer ?? {};
+			const pen = spec.Pen ?? {};
+			const num = (x) => (typeof x === 'number' ? x : null);
 			results[i] = {
 				vendor: rel.split('/')[0],
 				file: rel,
 				name: typeof j.Name === 'string' ? j.Name : null,
+				// Meaningful reference specs (present in all configs). Driver-internal
+				// plumbing (report lengths, init-string blobs, Attributes) is skipped.
+				specs: {
+					widthMM: num(dig.Width),
+					heightMM: num(dig.Height),
+					maxX: num(dig.MaxX),
+					maxY: num(dig.MaxY),
+					penMaxPressure: num(pen.MaxPressure),
+					penButtons: num(pen.ButtonCount),
+					auxButtons: num(spec.AuxiliaryButtons?.ButtonCount),
+				},
 				identifiers: ids.map((d) => ({
 					vendorID: typeof d?.VendorID === 'number' ? d.VendorID : null,
 					productID: typeof d?.ProductID === 'number' ? d.ProductID : null,

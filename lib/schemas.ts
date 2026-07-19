@@ -400,13 +400,28 @@ export const OTDIdentifierSchema = v.strictObject({
   productID: v.nullable(v.number()),
 });
 
+/** Meaningful reference specs from an OTD config's Specifications block.
+ * width/height are the digitizer active area in mm; maxX/maxY are raw
+ * coordinate units; auxButtons is the express-key count (null when absent).
+ * Driver-internal plumbing (report lengths, init strings) is not captured. */
+export const OTDSpecsSchema = v.strictObject({
+  widthMM: v.nullable(v.number()),
+  heightMM: v.nullable(v.number()),
+  maxX: v.nullable(v.number()),
+  maxY: v.nullable(v.number()),
+  penMaxPressure: v.nullable(v.number()),
+  penButtons: v.nullable(v.number()),
+  auxButtons: v.nullable(v.number()),
+});
+
 /** One OpenTabletDriver tablet config: the authoritative model `name` plus
- * its vendor, source file, and USB identifiers. Harvested from the OTD repo
- * by scripts/extract-otd-configs.mjs. */
+ * its vendor, source file, physical/pen specs, and USB identifiers.
+ * Harvested from the OTD repo by scripts/extract-otd-configs.mjs. */
 export const OTDTabletSchema = v.strictObject({
   vendor: TrimmedString,
   file: TrimmedString,
   name: v.nullable(TrimmedString),
+  specs: OTDSpecsSchema,
   identifiers: v.array(OTDIdentifierSchema),
 });
 

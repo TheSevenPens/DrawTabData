@@ -11,6 +11,15 @@
       "vendor": "10moon",
       "file": "10moon/1060N.json",
       "name": "10moon 1060N",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 4095,
+        "maxY": 4095,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 2290,
@@ -22,6 +31,15 @@
       "vendor": "Acepen",
       "file": "Acepen/AP1060.json",
       "name": "Acepen AP1060",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -33,6 +51,15 @@
       "vendor": "Acepen",
       "file": "Acepen/AP906.json",
       "name": "Acepen AP906",
+      "specs": {
+        "widthMM": 229.87,
+        "heightMM": 142.24,
+        "maxX": 45974,
+        "maxY": 28448,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -44,6 +71,15 @@
       "vendor": "Adesso",
       "file": "Adesso/Cybertablet K8.json",
       "name": "Adesso Cybertablet K8",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 114.3,
+        "maxX": 20320,
+        "maxY": 11430,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -55,6 +91,15 @@
       "vendor": "Artisul",
       "file": "Artisul/A1201.json",
       "name": "Artisul A1201",
+      "specs": {
+        "widthMM": 258.45,
+        "heightMM": 171.55,
+        "maxX": 51690,
+        "maxY": 34310,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -70,6 +115,15 @@
       "vendor": "Artisul",
       "file": "Artisul/AP604.json",
       "name": "Artisul AP604",
+      "specs": {
+        "widthMM": 159,
+        "heightMM": 99.3,
+        "maxX": 15900,
+        "maxY": 9930,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -81,6 +135,15 @@
       "vendor": "Artisul",
       "file": "Artisul/D16 Pro.json",
       "name": "Artisul D16 Pro",
+      "specs": {
+        "widthMM": 344.17,
+        "heightMM": 193.57,
+        "maxX": 68834,
+        "maxY": 38714,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -92,6 +155,15 @@
       "vendor": "Artisul",
       "file": "Artisul/M0610 Pro.json",
       "name": "Artisul M0610 Pro",
+      "specs": {
+        "widthMM": 257.375,
+        "heightMM": 161.49,
+        "maxX": 51475,
+        "maxY": 32298,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -107,6 +179,15 @@
       "vendor": "FlooGoo",
       "file": "FlooGoo/FMA100.json",
       "name": "FlooGoo FMA100",
+      "specs": {
+        "widthMM": 262.128,
+        "heightMM": 196.596,
+        "maxX": 20640,
+        "maxY": 15480,
+        "penMaxPressure": 32767,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 2578,
@@ -118,6 +199,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/1060 Pro.json",
       "name": "Gaomon 1060 Pro",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -141,6 +231,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/GM116HD.json",
       "name": "Gaomon GM116HD",
+      "specs": {
+        "widthMM": 256.3,
+        "heightMM": 144.2,
+        "maxX": 51260,
+        "maxY": 28840,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -152,6 +251,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/GM156HD.json",
       "name": "Gaomon GM156HD",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -163,6 +271,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M106K Pro.json",
       "name": "Gaomon M106K Pro",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -178,6 +295,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M106K.json",
       "name": "Gaomon M106K",
+      "specs": {
+        "widthMM": 200,
+        "heightMM": 125,
+        "maxX": 40000,
+        "maxY": 25000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -189,6 +315,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M10K Pro.json",
       "name": "Gaomon M10K Pro",
+      "specs": {
+        "widthMM": 254.1,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -204,6 +339,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M10K.json",
       "name": "Gaomon M10K",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 11
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -215,6 +359,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M1220.json",
       "name": "Gaomon M1220",
+      "specs": {
+        "widthMM": 258.5,
+        "heightMM": 161.55,
+        "maxX": 51700,
+        "maxY": 32310,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -226,6 +379,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M1230.json",
       "name": "Gaomon M1230",
+      "specs": {
+        "widthMM": 258.5,
+        "heightMM": 171.525,
+        "maxX": 51700,
+        "maxY": 34305,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -241,6 +403,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M6.json",
       "name": "Gaomon M6",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 13
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -256,6 +427,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M8 (Variant 2).json",
       "name": "Gaomon M8 (Variant 2)",
+      "specs": {
+        "widthMM": 258.465,
+        "heightMM": 161.535,
+        "maxX": 51693,
+        "maxY": 32307,
+        "penMaxPressure": 16383,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -267,6 +447,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/M8.json",
       "name": "Gaomon M8",
+      "specs": {
+        "widthMM": 258.465,
+        "heightMM": 161.535,
+        "maxX": 51693,
+        "maxY": 32307,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -278,6 +467,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/PD1161.json",
       "name": "Gaomon PD1161",
+      "specs": {
+        "widthMM": 256.32,
+        "heightMM": 144.18,
+        "maxX": 51264,
+        "maxY": 28836,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -289,6 +487,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/PD156 Pro.json",
       "name": "Gaomon PD156 Pro",
+      "specs": {
+        "widthMM": 344.4,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -300,6 +507,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/PD1560.json",
       "name": "Gaomon PD1560",
+      "specs": {
+        "widthMM": 344.16,
+        "heightMM": 193.59,
+        "maxX": 68832,
+        "maxY": 38718,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -311,6 +527,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/PD1561.json",
       "name": "Gaomon PD1561",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -322,6 +547,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/PD2200.json",
       "name": "Gaomon PD2200",
+      "specs": {
+        "widthMM": 476.765,
+        "heightMM": 268.225,
+        "maxX": 95345,
+        "maxY": 53645,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -333,6 +567,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/S56K.json",
       "name": "Gaomon S56K",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 120,
+        "maxX": 32000,
+        "maxY": 24000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -352,6 +595,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/S620.json",
       "name": "Gaomon S620",
+      "specs": {
+        "widthMM": 165.1,
+        "heightMM": 101.6,
+        "maxX": 33020,
+        "maxY": 20320,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -367,6 +619,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/S630.json",
       "name": "Gaomon S630",
+      "specs": {
+        "widthMM": 129.3,
+        "heightMM": 80.8,
+        "maxX": 25860,
+        "maxY": 16160,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -378,6 +639,15 @@
       "vendor": "Gaomon",
       "file": "Gaomon/S830.json",
       "name": "Gaomon S830",
+      "specs": {
+        "widthMM": 182.3,
+        "heightMM": 107.7,
+        "maxX": 34460,
+        "maxY": 21540,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -389,6 +659,15 @@
       "vendor": "Genius",
       "file": "Genius/G-Pen 560.json",
       "name": "Genius G-Pen 560",
+      "specs": {
+        "widthMM": 152.3873,
+        "heightMM": 114.2873,
+        "maxX": 11999,
+        "maxY": 8999,
+        "penMaxPressure": 1024,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 1112,
@@ -400,6 +679,15 @@
       "vendor": "Genius",
       "file": "Genius/i405x.json",
       "name": "Genius i405x",
+      "specs": {
+        "widthMM": 140.5,
+        "heightMM": 102.4,
+        "maxX": 14050,
+        "maxY": 10240,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1112,
@@ -411,6 +699,15 @@
       "vendor": "Genius",
       "file": "Genius/i608x.json",
       "name": "Genius i608x",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 152.4,
+        "maxX": 40960,
+        "maxY": 30720,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1112,
@@ -426,6 +723,15 @@
       "vendor": "Huion",
       "file": "Huion/1060 Plus.json",
       "name": "Huion 1060 Plus",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 40000,
+        "maxY": 25000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -437,6 +743,15 @@
       "vendor": "Huion",
       "file": "Huion/420.json",
       "name": "Huion 420",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 57.01295,
+        "maxX": 8340,
+        "maxY": 4680,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -452,6 +767,15 @@
       "vendor": "Huion",
       "file": "Huion/G10T.json",
       "name": "Huion G10T",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -463,6 +787,15 @@
       "vendor": "Huion",
       "file": "Huion/G930L.json",
       "name": "Huion G930L",
+      "specs": {
+        "widthMM": 345.44,
+        "heightMM": 215.9,
+        "maxX": 69088,
+        "maxY": 43180,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -474,6 +807,15 @@
       "vendor": "Huion",
       "file": "Huion/GC610.json",
       "name": "Huion GC610",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -489,6 +831,15 @@
       "vendor": "Huion",
       "file": "Huion/GT-156HD V2.json",
       "name": "Huion GT-156HD V2",
+      "specs": {
+        "widthMM": 343.9,
+        "heightMM": 193.55,
+        "maxX": 68780,
+        "maxY": 38710,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 14
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -500,6 +851,15 @@
       "vendor": "Huion",
       "file": "Huion/GT-220 V2.json",
       "name": "Huion GT-220 V2",
+      "specs": {
+        "widthMM": 476.68,
+        "heightMM": 268.145,
+        "maxX": 95336,
+        "maxY": 53629,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -511,6 +871,15 @@
       "vendor": "Huion",
       "file": "Huion/GT-221 Pro.json",
       "name": "Huion GT-221 Pro",
+      "specs": {
+        "widthMM": 476.73,
+        "heightMM": 268.205,
+        "maxX": 95346,
+        "maxY": 53641,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -522,6 +891,15 @@
       "vendor": "Huion",
       "file": "Huion/GT-221.json",
       "name": "Huion GT-221",
+      "specs": {
+        "widthMM": 476.73,
+        "heightMM": 268.205,
+        "maxX": 95346,
+        "maxY": 53641,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -533,6 +911,15 @@
       "vendor": "Huion",
       "file": "Huion/H1060P.json",
       "name": "Huion H1060P",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -552,6 +939,15 @@
       "vendor": "Huion",
       "file": "Huion/H1061P.json",
       "name": "Huion H1061P",
+      "specs": {
+        "widthMM": 266.7,
+        "heightMM": 166.7,
+        "maxX": 53340,
+        "maxY": 33340,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 11
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -563,6 +959,15 @@
       "vendor": "Huion",
       "file": "Huion/H1161.json",
       "name": "Huion H1161",
+      "specs": {
+        "widthMM": 279.4,
+        "heightMM": 174.625,
+        "maxX": 55880,
+        "maxY": 34925,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -578,6 +983,15 @@
       "vendor": "Huion",
       "file": "Huion/H320M.json",
       "name": "Huion H320M",
+      "specs": {
+        "widthMM": 228.5,
+        "heightMM": 142.9,
+        "maxX": 45700,
+        "maxY": 28580,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 11
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -593,6 +1007,15 @@
       "vendor": "Huion",
       "file": "Huion/H420.json",
       "name": "Huion H420",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 57.01295,
+        "maxX": 8340,
+        "maxY": 4680,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 3
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -604,6 +1027,15 @@
       "vendor": "Huion",
       "file": "Huion/H420X.json",
       "name": "Huion H420X",
+      "specs": {
+        "widthMM": 106,
+        "heightMM": 66,
+        "maxX": 21200,
+        "maxY": 13200,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -619,6 +1051,15 @@
       "vendor": "Huion",
       "file": "Huion/H430P.json",
       "name": "Huion H430P",
+      "specs": {
+        "widthMM": 121.92,
+        "heightMM": 76.2,
+        "maxX": 24384,
+        "maxY": 15240,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -642,6 +1083,15 @@
       "vendor": "Huion",
       "file": "Huion/H580X.json",
       "name": "Huion H580X",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 127,
+        "maxX": 40640,
+        "maxY": 25400,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -653,6 +1103,15 @@
       "vendor": "Huion",
       "file": "Huion/H610 Pro V2.json",
       "name": "Huion H610 Pro V2",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -672,6 +1131,15 @@
       "vendor": "Huion",
       "file": "Huion/H610 Pro V3.json",
       "name": "Huion H610 Pro V3",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 2048,
+        "maxY": 2048,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -687,6 +1155,15 @@
       "vendor": "Huion",
       "file": "Huion/H610 Pro.json",
       "name": "Huion H610 Pro",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -702,6 +1179,15 @@
       "vendor": "Huion",
       "file": "Huion/H610X.json",
       "name": "Huion H610X",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.8,
+        "maxX": 50800,
+        "maxY": 31760,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -717,6 +1203,15 @@
       "vendor": "Huion",
       "file": "Huion/H640P.json",
       "name": "Huion H640P",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 100,
+        "maxX": 32000,
+        "maxY": 20000,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -740,6 +1235,15 @@
       "vendor": "Huion",
       "file": "Huion/H641P.json",
       "name": "Huion H641P",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 100,
+        "maxX": 32000,
+        "maxY": 20000,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -751,6 +1255,15 @@
       "vendor": "Huion",
       "file": "Huion/H642.json",
       "name": "Huion H642",
+      "specs": {
+        "widthMM": 160.02,
+        "heightMM": 99.06,
+        "maxX": 32004,
+        "maxY": 19812,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -766,6 +1279,15 @@
       "vendor": "Huion",
       "file": "Huion/H690.json",
       "name": "Huion H690",
+      "specs": {
+        "widthMM": 228.6,
+        "heightMM": 142.875,
+        "maxX": 36000,
+        "maxY": 22500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 3
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -781,6 +1303,15 @@
       "vendor": "Huion",
       "file": "Huion/H950P.json",
       "name": "Huion H950P",
+      "specs": {
+        "widthMM": 221,
+        "heightMM": 138,
+        "maxX": 44200,
+        "maxY": 27600,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -804,6 +1335,15 @@
       "vendor": "Huion",
       "file": "Huion/H951P.json",
       "name": "Huion H951P",
+      "specs": {
+        "widthMM": 221,
+        "heightMM": 138,
+        "maxX": 44200,
+        "maxY": 27600,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 11
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -815,6 +1355,15 @@
       "vendor": "Huion",
       "file": "Huion/HC16.json",
       "name": "Huion HC16",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -830,6 +1379,15 @@
       "vendor": "Huion",
       "file": "Huion/HS610.json",
       "name": "Huion HS610",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -845,6 +1403,15 @@
       "vendor": "Huion",
       "file": "Huion/HS611.json",
       "name": "Huion HS611",
+      "specs": {
+        "widthMM": 258.4,
+        "heightMM": 161.5,
+        "maxX": 51680,
+        "maxY": 32300,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -860,6 +1427,15 @@
       "vendor": "Huion",
       "file": "Huion/HS64.json",
       "name": "Huion HS64",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 102,
+        "maxX": 32000,
+        "maxY": 20400,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -879,6 +1455,15 @@
       "vendor": "Huion",
       "file": "Huion/HS95.json",
       "name": "Huion HS95",
+      "specs": {
+        "widthMM": 203.19,
+        "heightMM": 126.99,
+        "maxX": 40638,
+        "maxY": 25398,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -890,6 +1475,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 12.json",
       "name": "Huion Kamvas 12",
+      "specs": {
+        "widthMM": 267.9,
+        "heightMM": 168.2,
+        "maxX": 53580,
+        "maxY": 33640,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -901,6 +1495,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 13 (Gen 3).json",
       "name": "Huion Kamvas 13 (Gen 3)",
+      "specs": {
+        "widthMM": 293.8,
+        "heightMM": 165.2,
+        "maxX": 58760,
+        "maxY": 33040,
+        "penMaxPressure": 16383,
+        "penButtons": 3,
+        "auxButtons": 7
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -912,6 +1515,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 13.json",
       "name": "Huion Kamvas 13",
+      "specs": {
+        "widthMM": 293.76,
+        "heightMM": 165.24,
+        "maxX": 58752,
+        "maxY": 33048,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -923,6 +1535,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 16 (2021).json",
       "name": "Huion Kamvas 16 (2021)",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -934,6 +1555,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 16.json",
       "name": "Huion Kamvas 16",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -945,6 +1575,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 20.json",
       "name": "Huion Kamvas 20",
+      "specs": {
+        "widthMM": 434.75,
+        "heightMM": 238.75,
+        "maxX": 86950,
+        "maxY": 47750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -956,6 +1595,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 22 Plus.json",
       "name": "Huion Kamvas 22 Plus",
+      "specs": {
+        "widthMM": 476.64,
+        "heightMM": 268.11,
+        "maxX": 95328,
+        "maxY": 53622,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -967,6 +1615,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 22.json",
       "name": "Huion Kamvas 22",
+      "specs": {
+        "widthMM": 476.76,
+        "heightMM": 268.225,
+        "maxX": 95352,
+        "maxY": 53645,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -978,6 +1635,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas 24 Plus.json",
       "name": "Huion Kamvas 24 Plus",
+      "specs": {
+        "widthMM": 526.85,
+        "heightMM": 296.35,
+        "maxX": 105370,
+        "maxY": 59270,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -989,6 +1655,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 12.json",
       "name": "Huion Kamvas Pro 12",
+      "specs": {
+        "widthMM": 267.9,
+        "heightMM": 168.2,
+        "maxX": 53580,
+        "maxY": 33640,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1004,6 +1679,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 13 (2.5k).json",
       "name": "Huion Kamvas Pro 13 (2.5k)",
+      "specs": {
+        "widthMM": 286.465,
+        "heightMM": 179.04,
+        "maxX": 57293,
+        "maxY": 35808,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 7
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1015,6 +1699,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 13.json",
       "name": "Huion Kamvas Pro 13",
+      "specs": {
+        "widthMM": 293.76,
+        "heightMM": 165.24,
+        "maxX": 58752,
+        "maxY": 33048,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1030,6 +1723,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 16 (2.5k).json",
       "name": "Huion Kamvas Pro 16 (2.5k)",
+      "specs": {
+        "widthMM": 349.63,
+        "heightMM": 196.665,
+        "maxX": 69926,
+        "maxY": 39333,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1045,6 +1747,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 16 (4k).json",
       "name": "Huion Kamvas Pro 16 (4k)",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1056,6 +1767,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 16 Plus (4k).json",
       "name": "Huion Kamvas Pro 16 Plus (4k)",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1067,6 +1787,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 16.json",
       "name": "Huion Kamvas Pro 16",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1082,6 +1811,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 19 (4K).json",
       "name": "Huion Kamvas Pro 19 (4K)",
+      "specs": {
+        "widthMM": 408.96,
+        "heightMM": 230.03,
+        "maxX": 81792,
+        "maxY": 46006,
+        "penMaxPressure": 16383,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1093,6 +1831,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 20.json",
       "name": "Huion Kamvas Pro 20",
+      "specs": {
+        "widthMM": 435.375,
+        "heightMM": 238.75,
+        "maxX": 87075,
+        "maxY": 47750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 16
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1104,6 +1851,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 22 (2019).json",
       "name": "Huion Kamvas Pro 22 (2019)",
+      "specs": {
+        "widthMM": 476.75,
+        "heightMM": 268.22,
+        "maxX": 95350,
+        "maxY": 53644,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 20
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1115,6 +1871,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 24 (4K).json",
       "name": "Huion Kamvas Pro 24 (4K)",
+      "specs": {
+        "widthMM": 527.04,
+        "heightMM": 296.46,
+        "maxX": 105370,
+        "maxY": 59270,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1126,6 +1891,15 @@
       "vendor": "Huion",
       "file": "Huion/Kamvas Pro 24.json",
       "name": "Huion Kamvas Pro 24",
+      "specs": {
+        "widthMM": 526.895,
+        "heightMM": 296.18,
+        "maxX": 105379,
+        "maxY": 59236,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 20
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1137,6 +1911,15 @@
       "vendor": "Huion",
       "file": "Huion/New 1060 Plus (2048).json",
       "name": "Huion New 1060 Plus (2048)",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 40000,
+        "maxY": 25000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1152,6 +1935,15 @@
       "vendor": "Huion",
       "file": "Huion/New 1060 Plus.json",
       "name": "Huion New 1060 Plus",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1167,6 +1959,15 @@
       "vendor": "Huion",
       "file": "Huion/Q11K V2.json",
       "name": "Huion Q11K V2",
+      "specs": {
+        "widthMM": 279.4,
+        "heightMM": 174.625,
+        "maxX": 55880,
+        "maxY": 34925,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1178,6 +1979,15 @@
       "vendor": "Huion",
       "file": "Huion/Q11K.json",
       "name": "Huion Q11K",
+      "specs": {
+        "widthMM": 279.4,
+        "heightMM": 174.625,
+        "maxX": 55880,
+        "maxY": 34925,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1193,6 +2003,15 @@
       "vendor": "Huion",
       "file": "Huion/Q620M.json",
       "name": "Huion Q620M",
+      "specs": {
+        "widthMM": 266.7,
+        "heightMM": 165.1,
+        "maxX": 53340,
+        "maxY": 33020,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1204,6 +2023,15 @@
       "vendor": "Huion",
       "file": "Huion/Q630M.json",
       "name": "Huion Q630M",
+      "specs": {
+        "widthMM": 266.7,
+        "heightMM": 166.7,
+        "maxX": 53340,
+        "maxY": 33340,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1215,6 +2043,15 @@
       "vendor": "Huion",
       "file": "Huion/RDS-160.json",
       "name": "Huion RDS-160",
+      "specs": {
+        "widthMM": 344.2,
+        "heightMM": 193.6,
+        "maxX": 68840,
+        "maxY": 38720,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1226,6 +2063,15 @@
       "vendor": "Huion",
       "file": "Huion/RTE-100.json",
       "name": "Huion RTE-100",
+      "specs": {
+        "widthMM": 121.92,
+        "heightMM": 76.19,
+        "maxX": 24384,
+        "maxY": 15238,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1237,6 +2083,15 @@
       "vendor": "Huion",
       "file": "Huion/RTM 500.json",
       "name": "Huion RTM-500",
+      "specs": {
+        "widthMM": 220.995,
+        "heightMM": 137.995,
+        "maxX": 44199,
+        "maxY": 27599,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1252,6 +2107,15 @@
       "vendor": "Huion",
       "file": "Huion/RTP-700.json",
       "name": "Huion RTP-700",
+      "specs": {
+        "widthMM": 279.4,
+        "heightMM": 174.6,
+        "maxX": 55880,
+        "maxY": 34920,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1267,6 +2131,15 @@
       "vendor": "Huion",
       "file": "Huion/WH1409 V2 (Variant 2).json",
       "name": "Huion WH1409 V2 (Variant 2)",
+      "specs": {
+        "widthMM": 350.52,
+        "heightMM": 219.0623,
+        "maxX": 55200,
+        "maxY": 34498,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1278,6 +2151,15 @@
       "vendor": "Huion",
       "file": "Huion/WH1409 V2.json",
       "name": "Huion WH1409 V2",
+      "specs": {
+        "widthMM": 350,
+        "heightMM": 218,
+        "maxX": 70000,
+        "maxY": 43600,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1289,6 +2171,15 @@
       "vendor": "Huion",
       "file": "Huion/WH1409.json",
       "name": "Huion WH1409",
+      "specs": {
+        "widthMM": 350,
+        "heightMM": 218,
+        "maxX": 70000,
+        "maxY": 43600,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1300,6 +2191,15 @@
       "vendor": "KENTING",
       "file": "KENTING/K5540.json",
       "name": "KENTING K5540",
+      "specs": {
+        "widthMM": 139.6873,
+        "heightMM": 101.5873,
+        "maxX": 10999,
+        "maxY": 7999,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1311,6 +2211,15 @@
       "vendor": "Lifetec",
       "file": "Lifetec/LT9570.json",
       "name": "LifeTec LT9570",
+      "specs": {
+        "widthMM": 300,
+        "heightMM": 225,
+        "maxX": 5999,
+        "maxY": 4499,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 2250,
@@ -1322,6 +2231,15 @@
       "vendor": "Monoprice",
       "file": "Monoprice/10594.json",
       "name": "Monoprice 10594",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 40000,
+        "maxY": 25000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1333,6 +2251,15 @@
       "vendor": "Monoprice",
       "file": "Monoprice/MP1060-HA60.json",
       "name": "Monoprice MP1060-HA60",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 39999,
+        "maxY": 24999,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1344,6 +2271,15 @@
       "vendor": "Parblo",
       "file": "Parblo/A609.json",
       "name": "Parblo A609",
+      "specs": {
+        "widthMM": 223.52,
+        "heightMM": 139.7,
+        "maxX": 44704,
+        "maxY": 27940,
+        "penMaxPressure": 2047,
+        "penButtons": 1,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 2903,
@@ -1355,6 +2291,15 @@
       "vendor": "Parblo",
       "file": "Parblo/A610 Pro.json",
       "name": "Parblo A610 Pro",
+      "specs": {
+        "widthMM": 255.5,
+        "heightMM": 160,
+        "maxX": 51100,
+        "maxY": 32000,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1366,6 +2311,15 @@
       "vendor": "Parblo",
       "file": "Parblo/A610.json",
       "name": "Parblo A610",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 40000,
+        "maxY": 24000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1377,6 +2331,15 @@
       "vendor": "Parblo",
       "file": "Parblo/A640 V2.json",
       "name": "Parblo A640 V2",
+      "specs": {
+        "widthMM": 150,
+        "heightMM": 90,
+        "maxX": 31203,
+        "maxY": 18730,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1388,6 +2351,15 @@
       "vendor": "Parblo",
       "file": "Parblo/A640.json",
       "name": "Parblo A640",
+      "specs": {
+        "widthMM": 155,
+        "heightMM": 93,
+        "maxX": 29616,
+        "maxY": 17170,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1399,6 +2371,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Intangbo M.json",
       "name": "Parblo Intangbo M",
+      "specs": {
+        "widthMM": 260.5,
+        "heightMM": 160,
+        "maxX": 26050,
+        "maxY": 16000,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1414,6 +2395,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Intangbo S.json",
       "name": "Parblo Intangbo S",
+      "specs": {
+        "widthMM": 177.5,
+        "heightMM": 103.5,
+        "maxX": 17306,
+        "maxY": 10045,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1429,6 +2419,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Ninos M.json",
       "name": "Parblo Ninos M",
+      "specs": {
+        "widthMM": 217.1954,
+        "heightMM": 125.22,
+        "maxX": 20320,
+        "maxY": 10160,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1444,6 +2443,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Ninos N4.json",
       "name": "Parblo Ninos N4",
+      "specs": {
+        "widthMM": 108,
+        "heightMM": 81,
+        "maxX": 21600,
+        "maxY": 16200,
+        "penMaxPressure": 8191,
+        "penButtons": 0,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1455,6 +2463,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Ninos N7.json",
       "name": "Parblo Ninos N7",
+      "specs": {
+        "widthMM": 177.8,
+        "heightMM": 111.09,
+        "maxX": 25200,
+        "maxY": 15745,
+        "penMaxPressure": 8191,
+        "penButtons": 0,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1470,6 +2487,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Ninos N7B.json",
       "name": "Parblo Ninos N7B",
+      "specs": {
+        "widthMM": 177.8,
+        "heightMM": 114,
+        "maxX": 28799,
+        "maxY": 16199,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1481,6 +2507,15 @@
       "vendor": "Parblo",
       "file": "Parblo/Ninos S.json",
       "name": "Parblo Ninos S",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 24743,
+        "maxY": 16380,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 5
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1496,6 +2531,15 @@
       "vendor": "RobotPen",
       "file": "RobotPen/T9A.json",
       "name": "RobotPen T9A",
+      "specs": {
+        "widthMM": 295.11,
+        "heightMM": 216.69,
+        "maxX": 22656,
+        "maxY": 16636,
+        "penMaxPressure": 1023,
+        "penButtons": 1,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1155,
@@ -1507,6 +2551,15 @@
       "vendor": "Trust",
       "file": "Trust/Flex Design Tablet.json",
       "name": "Trust Flex Design Tablet",
+      "specs": {
+        "widthMM": 153.6,
+        "heightMM": 115.2,
+        "maxX": 12288,
+        "maxY": 9216,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 5935,
@@ -1518,6 +2571,15 @@
       "vendor": "Turcom",
       "file": "Turcom/TS-6580.json",
       "name": "Turcom TS-6580",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 127,
+        "maxX": 32000,
+        "maxY": 20000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 9580,
@@ -1533,6 +2595,15 @@
       "vendor": "UC-Logic",
       "file": "UC-Logic/1060N.json",
       "name": "UC-Logic 1060N",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1544,6 +2615,15 @@
       "vendor": "UC-Logic",
       "file": "UC-Logic/PF1209.json",
       "name": "UC-Logic PF1209",
+      "specs": {
+        "widthMM": 305,
+        "heightMM": 229,
+        "maxX": 47999,
+        "maxY": 35999,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1555,6 +2635,15 @@
       "vendor": "UGEE",
       "file": "UGEE/M708 V2.json",
       "name": "UGEE M708 V2",
+      "specs": {
+        "widthMM": 253.96,
+        "heightMM": 152.305,
+        "maxX": 50792,
+        "maxY": 30461,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1566,6 +2655,15 @@
       "vendor": "UGEE",
       "file": "UGEE/M708.json",
       "name": "UGEE M708",
+      "specs": {
+        "widthMM": 200,
+        "heightMM": 120,
+        "maxX": 40000,
+        "maxY": 24000,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -1577,6 +2675,15 @@
       "vendor": "UGEE",
       "file": "UGEE/M808.json",
       "name": "UGEE M808",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1588,6 +2695,15 @@
       "vendor": "UGEE",
       "file": "UGEE/M908.json",
       "name": "UGEE M908",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 16383,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1599,6 +2715,15 @@
       "vendor": "UGEE",
       "file": "UGEE/S1060.json",
       "name": "UGEE S1060",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 160,
+        "maxX": 50800,
+        "maxY": 32000,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1610,6 +2735,15 @@
       "vendor": "UGEE",
       "file": "UGEE/S640.json",
       "name": "UGEE S640",
+      "specs": {
+        "widthMM": 159.99,
+        "heightMM": 99.97,
+        "maxX": 31998,
+        "maxY": 19994,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1625,6 +2759,15 @@
       "vendor": "UGEE",
       "file": "UGEE/U1200.json",
       "name": "UGEE U1200",
+      "specs": {
+        "widthMM": 263.22,
+        "heightMM": 148.055,
+        "maxX": 52644,
+        "maxY": 29611,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1636,6 +2779,15 @@
       "vendor": "UGEE",
       "file": "UGEE/U1600.json",
       "name": "UGEE U1600",
+      "specs": {
+        "widthMM": 344.14,
+        "heightMM": 193.57,
+        "maxX": 68828,
+        "maxY": 38714,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -1647,6 +2799,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A15 Pro.json",
       "name": "VEIKK A15 Pro",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1662,6 +2823,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A15 V2.json",
       "name": "VEIKK A15 V2",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1673,6 +2843,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A15.json",
       "name": "VEIKK A15",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1684,6 +2863,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A30 V2.json",
       "name": "VEIKK A30 V2",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1695,6 +2883,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A30.json",
       "name": "VEIKK A30",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1706,6 +2903,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A50 (Variant 2).json",
       "name": "VEIKK A50 (Variant 2)",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1717,6 +2923,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/A50.json",
       "name": "VEIKK A50",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 12
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1732,6 +2947,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/S640 V2.json",
       "name": "VEIKK S640 V2",
+      "specs": {
+        "widthMM": 152.4,
+        "heightMM": 101.6,
+        "maxX": 30480,
+        "maxY": 20320,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1743,6 +2967,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/S640.json",
       "name": "VEIKK S640",
+      "specs": {
+        "widthMM": 152.4,
+        "heightMM": 101.6,
+        "maxX": 30480,
+        "maxY": 20320,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1754,6 +2987,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/VK1060.json",
       "name": "VEIKK VK1060",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1765,6 +3007,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/VK1060PRO.json",
       "name": "VEIKK VK1060PRO",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1776,6 +3027,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/VK430 V2.json",
       "name": "VEIKK VK430 V2",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 76.2,
+        "maxX": 20320,
+        "maxY": 15240,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1787,6 +3047,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/VK430.json",
       "name": "VEIKK VK430",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 76.2,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1802,6 +3071,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/VK640.json",
       "name": "VEIKK VK640",
+      "specs": {
+        "widthMM": 152.4,
+        "heightMM": 101.6,
+        "maxX": 30480,
+        "maxY": 20320,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1813,6 +3091,15 @@
       "vendor": "VEIKK",
       "file": "VEIKK/VO1060.json",
       "name": "VEIKK Voila (VO1060)",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 5
+      },
       "identifiers": [
         {
           "vendorID": 12267,
@@ -1824,6 +3111,15 @@
       "vendor": "ViewSonic",
       "file": "ViewSonic/Woodpad PF0730.json",
       "name": "ViewSonic Woodpad PF0730",
+      "specs": {
+        "widthMM": 168,
+        "heightMM": 106.4,
+        "maxX": 16800,
+        "maxY": 10640,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1347,
@@ -1835,6 +3131,15 @@
       "vendor": "ViewSonic",
       "file": "ViewSonic/Woodpad PF1030.json",
       "name": "ViewSonic Woodpad PF1030",
+      "specs": {
+        "widthMM": 224,
+        "heightMM": 140,
+        "maxX": 44800,
+        "maxY": 28000,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1347,
@@ -1846,6 +3151,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTC-4110WL.json",
       "name": "Wacom CTC-4110WL",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1329,
@@ -1857,6 +3171,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTC-6110WL.json",
       "name": "Wacom CTC-6110WL",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1329,
@@ -1872,6 +3195,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-430.json",
       "name": "Wacom CTE-430",
+      "specs": {
+        "widthMM": 127.6,
+        "heightMM": 92.8,
+        "maxX": 10208,
+        "maxY": 7424,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1887,6 +3219,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-440.json",
       "name": "Wacom CTE-440",
+      "specs": {
+        "widthMM": 127.6,
+        "heightMM": 92.8,
+        "maxX": 10208,
+        "maxY": 7424,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": 2
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1906,6 +3247,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-450.json",
       "name": "Wacom CTE-450",
+      "specs": {
+        "widthMM": 147.6,
+        "heightMM": 92.25,
+        "maxX": 14760,
+        "maxY": 9225,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1917,6 +3267,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-460.json",
       "name": "Wacom CTE-460",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1932,6 +3291,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-630.json",
       "name": "Wacom CTE-630",
+      "specs": {
+        "widthMM": 208.8,
+        "heightMM": 150.8,
+        "maxX": 16704,
+        "maxY": 12064,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1947,6 +3315,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-640.json",
       "name": "Wacom CTE-640",
+      "specs": {
+        "widthMM": 208.8,
+        "heightMM": 150.8,
+        "maxX": 16704,
+        "maxY": 12064,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": 2
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1962,6 +3339,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-650.json",
       "name": "Wacom CTE-650",
+      "specs": {
+        "widthMM": 216.48,
+        "heightMM": 135.3,
+        "maxX": 21648,
+        "maxY": 13530,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1973,6 +3359,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTE-660.json",
       "name": "Wacom CTE-660",
+      "specs": {
+        "widthMM": 216.48,
+        "heightMM": 135,
+        "maxX": 21648,
+        "maxY": 13500,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1984,6 +3379,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTF-430.json",
       "name": "Wacom CTF-430",
+      "specs": {
+        "widthMM": 127.6,
+        "heightMM": 92.8,
+        "maxX": 5104,
+        "maxY": 3712,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -1995,6 +3399,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-300.json",
       "name": "Wacom CTH-300",
+      "specs": {
+        "widthMM": 107,
+        "heightMM": 67,
+        "maxX": 10690,
+        "maxY": 6680,
+        "penMaxPressure": 511,
+        "penButtons": 1,
+        "auxButtons": 2
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2006,6 +3419,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-301.json",
       "name": "Wacom CTH-301",
+      "specs": {
+        "widthMM": 107,
+        "heightMM": 67,
+        "maxX": 10690,
+        "maxY": 6680,
+        "penMaxPressure": 511,
+        "penButtons": 1,
+        "auxButtons": 2
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2017,6 +3439,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-460.json",
       "name": "Wacom CTH-460",
+      "specs": {
+        "widthMM": 147.2,
+        "heightMM": 92,
+        "maxX": 14720,
+        "maxY": 9200,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2036,6 +3467,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-461.json",
       "name": "Wacom CTH-461",
+      "specs": {
+        "widthMM": 147.2,
+        "heightMM": 92,
+        "maxX": 14720,
+        "maxY": 9200,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2059,6 +3499,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-470.json",
       "name": "Wacom CTH-470",
+      "specs": {
+        "widthMM": 147.2,
+        "heightMM": 92,
+        "maxX": 14720,
+        "maxY": 9200,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2074,6 +3523,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-480.json",
       "name": "Wacom CTH-480",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2089,6 +3547,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-490.json",
       "name": "Wacom CTH-490",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2104,6 +3571,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-661.json",
       "name": "Wacom CTH-661",
+      "specs": {
+        "widthMM": 216.48,
+        "heightMM": 137,
+        "maxX": 21648,
+        "maxY": 13700,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2127,6 +3603,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-670.json",
       "name": "Wacom CTH-670",
+      "specs": {
+        "widthMM": 216.48,
+        "heightMM": 137,
+        "maxX": 21648,
+        "maxY": 13700,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2142,6 +3627,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-680.json",
       "name": "Wacom CTH-680",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2157,6 +3651,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTH-690.json",
       "name": "Wacom CTH-690",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2172,6 +3675,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-4100.json",
       "name": "Wacom CTL-4100",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2187,6 +3699,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-4100WL.json",
       "name": "Wacom CTL-4100WL",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2222,6 +3743,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-460.json",
       "name": "Wacom CTL-460",
+      "specs": {
+        "widthMM": 147.2,
+        "heightMM": 92,
+        "maxX": 14720,
+        "maxY": 9200,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2237,6 +3767,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-470.json",
       "name": "Wacom CTL-470",
+      "specs": {
+        "widthMM": 147.2,
+        "heightMM": 92,
+        "maxX": 14720,
+        "maxY": 9200,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2252,6 +3791,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-471.json",
       "name": "Wacom CTL-471",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2267,6 +3815,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-472.json",
       "name": "Wacom CTL-472",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2282,6 +3839,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-480.json",
       "name": "Wacom CTL-480",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2297,6 +3863,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-490.json",
       "name": "Wacom CTL-490",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2312,6 +3887,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-6100.json",
       "name": "Wacom CTL-6100",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2323,6 +3907,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-6100WL.json",
       "name": "Wacom CTL-6100WL",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2338,6 +3931,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-671.json",
       "name": "Wacom CTL-671",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2353,6 +3955,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-672.json",
       "name": "Wacom CTL-672",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2368,6 +3979,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-680.json",
       "name": "Wacom CTL-680",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2383,6 +4003,15 @@
       "vendor": "Wacom",
       "file": "Wacom/CTL-690.json",
       "name": "Wacom CTL-690",
+      "specs": {
+        "widthMM": 216,
+        "heightMM": 135,
+        "maxX": 21600,
+        "maxY": 13500,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2398,6 +4027,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTC-133.json",
       "name": "Wacom DTC-133",
+      "specs": {
+        "widthMM": 294.34,
+        "heightMM": 165.56,
+        "maxX": 29434,
+        "maxY": 16556,
+        "penMaxPressure": 4095,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2413,6 +4051,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTH-1320.json",
       "name": "Wacom DTH-1320",
+      "specs": {
+        "widthMM": 297.76,
+        "heightMM": 169.24,
+        "maxX": 59552,
+        "maxY": 33848,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2424,6 +4071,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTH-135.json",
       "name": "Wacom Movink 13 (DTH-135)",
+      "specs": {
+        "widthMM": 297.76,
+        "heightMM": 169.24,
+        "maxX": 59552,
+        "maxY": 33848,
+        "penMaxPressure": 8191,
+        "penButtons": 3,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2435,6 +4091,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTH-271.json",
       "name": "Wacom Cintiq Pro 27 (DTH-271)",
+      "specs": {
+        "widthMM": 600.16,
+        "heightMM": 339.34,
+        "maxX": 120032,
+        "maxY": 67868,
+        "penMaxPressure": 8191,
+        "penButtons": 3,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2446,6 +4111,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTK-1300.json",
       "name": "Wacom Cintiq 13HD (DTK-1300)",
+      "specs": {
+        "widthMM": 299,
+        "heightMM": 171,
+        "maxX": 59800,
+        "maxY": 34200,
+        "penMaxPressure": 2048,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2457,6 +4131,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTK-1660.json",
       "name": "Wacom Cintiq 16 (DTK1660)",
+      "specs": {
+        "widthMM": 348.16,
+        "heightMM": 197.59,
+        "maxX": 69632,
+        "maxY": 39518,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2472,6 +4155,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTK-2200.json",
       "name": "Wacom Cintiq 22HD (DTK-2200)",
+      "specs": {
+        "widthMM": 479,
+        "heightMM": 271,
+        "maxX": 95040,
+        "maxY": 54260,
+        "penMaxPressure": 2048,
+        "penButtons": 2,
+        "auxButtons": 20
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2487,6 +4179,15 @@
       "vendor": "Wacom",
       "file": "Wacom/DTZ-1200W.json",
       "name": "Wacom Cintiq 12WX (DTZ-1200W)",
+      "specs": {
+        "widthMM": 261.1,
+        "heightMM": 163.2,
+        "maxX": 52220,
+        "maxY": 32640,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2498,6 +4199,15 @@
       "vendor": "Wacom",
       "file": "Wacom/ET-0405-U.json",
       "name": "Wacom ET-0405-U",
+      "specs": {
+        "widthMM": 127.6,
+        "heightMM": 92.8,
+        "maxX": 10208,
+        "maxY": 7424,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2513,6 +4223,15 @@
       "vendor": "Wacom",
       "file": "Wacom/ET-0405A-U.json",
       "name": "Wacom ET-0405A-U",
+      "specs": {
+        "widthMM": 127.6,
+        "heightMM": 92.8,
+        "maxX": 10208,
+        "maxY": 7424,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2528,6 +4247,15 @@
       "vendor": "Wacom",
       "file": "Wacom/FT-0405-U.json",
       "name": "Wacom FT-0405-U",
+      "specs": {
+        "widthMM": 127.6,
+        "heightMM": 92.8,
+        "maxX": 5104,
+        "maxY": 3712,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2543,6 +4271,15 @@
       "vendor": "Wacom",
       "file": "Wacom/GD-0405-U.json",
       "name": "Wacom GD-0405-U",
+      "specs": {
+        "widthMM": 127,
+        "heightMM": 106,
+        "maxX": 25400,
+        "maxY": 21200,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2558,6 +4295,15 @@
       "vendor": "Wacom",
       "file": "Wacom/GD-0608-U.json",
       "name": "Wacom GD-0608-U",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 162.4,
+        "maxX": 40640,
+        "maxY": 32480,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2573,6 +4319,15 @@
       "vendor": "Wacom",
       "file": "Wacom/GD-0912-U.json",
       "name": "Wacom GD-0912-U",
+      "specs": {
+        "widthMM": 304.8,
+        "heightMM": 240.6,
+        "maxX": 60960,
+        "maxY": 48120,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2588,6 +4343,15 @@
       "vendor": "Wacom",
       "file": "Wacom/GD-1212-U.json",
       "name": "Wacom GD-1212-U",
+      "specs": {
+        "widthMM": 304.8,
+        "heightMM": 316.8,
+        "maxX": 60960,
+        "maxY": 63360,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2603,6 +4367,15 @@
       "vendor": "Wacom",
       "file": "Wacom/GD-1218-U.json",
       "name": "Wacom GD-1218-U",
+      "specs": {
+        "widthMM": 457.2,
+        "heightMM": 316.8,
+        "maxX": 91440,
+        "maxY": 63360,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2618,6 +4391,15 @@
       "vendor": "Wacom",
       "file": "Wacom/MTE-450.json",
       "name": "Wacom MTE-450",
+      "specs": {
+        "widthMM": 147.6,
+        "heightMM": 92.25,
+        "maxX": 14760,
+        "maxY": 9225,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2633,6 +4415,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-450.json",
       "name": "Wacom PTH-450",
+      "specs": {
+        "widthMM": 157.48,
+        "heightMM": 98.425,
+        "maxX": 31496,
+        "maxY": 19685,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2648,6 +4439,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-451.json",
       "name": "Wacom PTH-451",
+      "specs": {
+        "widthMM": 157.48,
+        "heightMM": 98.425,
+        "maxX": 31496,
+        "maxY": 19685,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2663,6 +4463,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-460.json",
       "name": "Wacom PTH-460",
+      "specs": {
+        "widthMM": 159.6,
+        "heightMM": 99.75,
+        "maxX": 31920,
+        "maxY": 19950,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2682,6 +4491,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-650.json",
       "name": "Wacom PTH-650",
+      "specs": {
+        "widthMM": 223.52,
+        "heightMM": 139.7,
+        "maxX": 44704,
+        "maxY": 27940,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2697,6 +4515,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-651.json",
       "name": "Wacom PTH-651",
+      "specs": {
+        "widthMM": 223.52,
+        "heightMM": 139.7,
+        "maxX": 44704,
+        "maxY": 27940,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2712,6 +4539,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-660.json",
       "name": "Wacom PTH-660",
+      "specs": {
+        "widthMM": 224,
+        "heightMM": 148,
+        "maxX": 44800,
+        "maxY": 29600,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2727,6 +4563,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-850.json",
       "name": "Wacom PTH-850",
+      "specs": {
+        "widthMM": 325.12,
+        "heightMM": 203.2,
+        "maxX": 65024,
+        "maxY": 40640,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2742,6 +4587,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-851.json",
       "name": "Wacom PTH-851",
+      "specs": {
+        "widthMM": 325.12,
+        "heightMM": 203.2,
+        "maxX": 65024,
+        "maxY": 40640,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2757,6 +4611,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTH-860.json",
       "name": "Wacom PTH-860",
+      "specs": {
+        "widthMM": 311,
+        "heightMM": 216,
+        "maxX": 62200,
+        "maxY": 43200,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2772,6 +4635,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-1240.json",
       "name": "Wacom PTK-1240",
+      "specs": {
+        "widthMM": 487.68,
+        "heightMM": 304.8,
+        "maxX": 97536,
+        "maxY": 60960,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2787,6 +4659,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-440.json",
       "name": "Wacom PTK-440",
+      "specs": {
+        "widthMM": 157.48,
+        "heightMM": 98.425,
+        "maxX": 31496,
+        "maxY": 19685,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 7
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2802,6 +4683,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-450.json",
       "name": "Wacom PTK-450",
+      "specs": {
+        "widthMM": 157.48,
+        "heightMM": 98.425,
+        "maxX": 31496,
+        "maxY": 19685,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2817,6 +4707,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-540WL.json",
       "name": "Wacom PTK-540WL",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 127,
+        "maxX": 40640,
+        "maxY": 25400,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2832,6 +4731,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-640.json",
       "name": "Wacom PTK-640",
+      "specs": {
+        "widthMM": 223.52,
+        "heightMM": 139.7,
+        "maxX": 44704,
+        "maxY": 27940,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2847,6 +4755,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-650.json",
       "name": "Wacom PTK-650",
+      "specs": {
+        "widthMM": 223.52,
+        "heightMM": 139.7,
+        "maxX": 44704,
+        "maxY": 27940,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2862,6 +4779,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTK-840.json",
       "name": "Wacom PTK-840",
+      "specs": {
+        "widthMM": 325.12,
+        "heightMM": 203.2,
+        "maxX": 65024,
+        "maxY": 40640,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2877,6 +4803,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTU-600U.json",
       "name": "Wacom PTU-600U",
+      "specs": {
+        "widthMM": 204.8,
+        "heightMM": 153.6,
+        "maxX": 20480,
+        "maxY": 15360,
+        "penMaxPressure": 511,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2888,6 +4823,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-1230.json",
       "name": "Wacom PTZ-1230",
+      "specs": {
+        "widthMM": 304.8,
+        "heightMM": 304.8,
+        "maxX": 60960,
+        "maxY": 60960,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2903,6 +4847,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-1231W.json",
       "name": "Wacom PTZ-1231W",
+      "specs": {
+        "widthMM": 487.68,
+        "heightMM": 304.8,
+        "maxX": 97536,
+        "maxY": 60960,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2918,6 +4871,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-430.json",
       "name": "Wacom PTZ-430",
+      "specs": {
+        "widthMM": 127,
+        "heightMM": 101.6,
+        "maxX": 25400,
+        "maxY": 20320,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2933,6 +4895,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-431W.json",
       "name": "Wacom PTZ-431W",
+      "specs": {
+        "widthMM": 157.48,
+        "heightMM": 98.425,
+        "maxX": 31496,
+        "maxY": 19685,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2948,6 +4919,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-630.json",
       "name": "Wacom PTZ-630",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 152.4,
+        "maxX": 40640,
+        "maxY": 30480,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2963,6 +4943,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-631W.json",
       "name": "Wacom PTZ-631W",
+      "specs": {
+        "widthMM": 271.02,
+        "heightMM": 158.75,
+        "maxX": 54204,
+        "maxY": 31750,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2978,6 +4967,15 @@
       "vendor": "Wacom",
       "file": "Wacom/PTZ-930.json",
       "name": "Wacom PTZ-930",
+      "specs": {
+        "widthMM": 304.8,
+        "heightMM": 228.6,
+        "maxX": 60960,
+        "maxY": 45720,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -2993,6 +4991,15 @@
       "vendor": "Wacom",
       "file": "Wacom/XD-0405-U.json",
       "name": "Wacom XD-0405-U",
+      "specs": {
+        "widthMM": 127,
+        "heightMM": 106,
+        "maxX": 25400,
+        "maxY": 21200,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -3008,6 +5015,15 @@
       "vendor": "Wacom",
       "file": "Wacom/XD-0608-U.json",
       "name": "Wacom XD-0608-U",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 162.4,
+        "maxX": 40640,
+        "maxY": 32480,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -3023,6 +5039,15 @@
       "vendor": "Wacom",
       "file": "Wacom/XD-0912-U.json",
       "name": "Wacom XD-0912-U",
+      "specs": {
+        "widthMM": 304.8,
+        "heightMM": 240.6,
+        "maxX": 60960,
+        "maxY": 48120,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -3038,6 +5063,15 @@
       "vendor": "Wacom",
       "file": "Wacom/XD-1212-U.json",
       "name": "Wacom XD-1212-U",
+      "specs": {
+        "widthMM": 304.8,
+        "heightMM": 316.8,
+        "maxX": 60960,
+        "maxY": 63360,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -3053,6 +5087,15 @@
       "vendor": "Wacom",
       "file": "Wacom/XD-1218-U.json",
       "name": "Wacom XD-1218-U",
+      "specs": {
+        "widthMM": 457.2,
+        "heightMM": 316.8,
+        "maxX": 91440,
+        "maxY": 63360,
+        "penMaxPressure": 2046,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 1386,
@@ -3068,6 +5111,15 @@
       "vendor": "Waltop",
       "file": "Waltop/Slim Tablet.json",
       "name": "Waltop Slim Tablet 5.8\"",
+      "specs": {
+        "widthMM": 127,
+        "heightMM": 76.2,
+        "maxX": 10000,
+        "maxY": 6000,
+        "penMaxPressure": 1023,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 5935,
@@ -3079,6 +5131,15 @@
       "vendor": "XenceLabs",
       "file": "XenceLabs/Pen Tablet Medium.json",
       "name": "XenceLabs Pen Tablet Medium",
+      "specs": {
+        "widthMM": 261.62,
+        "heightMM": 148,
+        "maxX": 52324,
+        "maxY": 29600,
+        "penMaxPressure": 8191,
+        "penButtons": 3,
+        "auxButtons": 3
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3094,6 +5155,15 @@
       "vendor": "XenceLabs",
       "file": "XenceLabs/Pen Tablet Small.json",
       "name": "XenceLabs Pen Tablet Small",
+      "specs": {
+        "widthMM": 178,
+        "heightMM": 101,
+        "maxX": 35600,
+        "maxY": 20200,
+        "penMaxPressure": 8191,
+        "penButtons": 3,
+        "auxButtons": 3
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3105,6 +5175,15 @@
       "vendor": "XENX",
       "file": "XENX/P1-640.json",
       "name": "XENX P1-640",
+      "specs": {
+        "widthMM": 168,
+        "heightMM": 105,
+        "maxX": 16800,
+        "maxY": 10500,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 11648,
@@ -3116,6 +5195,15 @@
       "vendor": "XENX",
       "file": "XENX/P3-1060.json",
       "name": "XENX P3-1060",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 25400,
+        "maxY": 15875,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 11648,
@@ -3127,6 +5215,15 @@
       "vendor": "XENX",
       "file": "XENX/X1-640.json",
       "name": "XENX X1-640",
+      "specs": {
+        "widthMM": 152,
+        "heightMM": 95,
+        "maxX": 15200,
+        "maxY": 9500,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 5
+      },
       "identifiers": [
         {
           "vendorID": 11648,
@@ -3138,6 +5235,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 10 (2nd Gen).json",
       "name": "XP-Pen Artist 10 (2nd Gen)",
+      "specs": {
+        "widthMM": 224.51,
+        "heightMM": 126.695,
+        "maxX": 44902,
+        "maxY": 25339,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3149,6 +5255,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 10S.json",
       "name": "XP-Pen Artist 10S",
+      "specs": {
+        "widthMM": 216.96,
+        "heightMM": 135.6,
+        "maxX": 21696,
+        "maxY": 13560,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -3160,6 +5275,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 12 (2nd Gen).json",
       "name": "XP-Pen Artist 12 (2nd Gen)",
+      "specs": {
+        "widthMM": 263.19,
+        "heightMM": 148.08,
+        "maxX": 52638,
+        "maxY": 29616,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3171,6 +5295,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 12 Pro.json",
       "name": "XP-Pen Artist 12 Pro",
+      "specs": {
+        "widthMM": 256.34,
+        "heightMM": 144.15,
+        "maxX": 25634,
+        "maxY": 14415,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3182,6 +5315,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 12.json",
       "name": "XP-Pen Artist 12",
+      "specs": {
+        "widthMM": 256.32,
+        "heightMM": 144.18,
+        "maxX": 25632,
+        "maxY": 14418,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3193,6 +5335,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 13 (2nd Gen).json",
       "name": "XP-Pen Artist 13 (2nd Gen)",
+      "specs": {
+        "widthMM": 293.76,
+        "heightMM": 165.24,
+        "maxX": 58760,
+        "maxY": 33040,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 9
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3204,6 +5355,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 13.3 Pro.json",
       "name": "XP-Pen Artist 13.3 Pro",
+      "specs": {
+        "widthMM": 293.62,
+        "heightMM": 165.1,
+        "maxX": 29362,
+        "maxY": 16510,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3215,6 +5375,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 13.3.json",
       "name": "XP-Pen Artist 13.3",
+      "specs": {
+        "widthMM": 293.76,
+        "heightMM": 165.24,
+        "maxX": 29376,
+        "maxY": 16524,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3226,6 +5395,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 15.6 Pro.json",
       "name": "XP-Pen Artist 15.6 Pro",
+      "specs": {
+        "widthMM": 344.16,
+        "heightMM": 193.59,
+        "maxX": 34416,
+        "maxY": 19359,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3237,6 +5415,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 15.6.json",
       "name": "XP-Pen Artist 15.6",
+      "specs": {
+        "widthMM": 344.19,
+        "heightMM": 194.61,
+        "maxX": 34419,
+        "maxY": 19461,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3252,6 +5439,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 16 (2nd Gen).json",
       "name": "XP-Pen Artist 16 (2nd Gen)",
+      "specs": {
+        "widthMM": 340.99,
+        "heightMM": 191.81,
+        "maxX": 68198,
+        "maxY": 38362,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 10
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3263,6 +5459,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 16 Pro.json",
       "name": "XP-Pen Artist 16 Pro",
+      "specs": {
+        "widthMM": 341.07,
+        "heightMM": 191.795,
+        "maxX": 68214,
+        "maxY": 38359,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3274,6 +5479,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 16.json",
       "name": "XP-Pen Artist 16",
+      "specs": {
+        "widthMM": 344.16,
+        "heightMM": 193.59,
+        "maxX": 34416,
+        "maxY": 19359,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -3285,6 +5499,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 22 (2nd Gen).json",
       "name": "XP-Pen Artist 22 (2nd Gen)",
+      "specs": {
+        "widthMM": 476.64,
+        "heightMM": 267.78,
+        "maxX": 47664,
+        "maxY": 26778,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3296,6 +5519,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 22HD.json",
       "name": "XP-Pen Artist 22HD",
+      "specs": {
+        "widthMM": 476.64,
+        "heightMM": 268.11,
+        "maxX": 38161,
+        "maxY": 21458,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 21827,
@@ -3307,6 +5539,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist 24 Pro.json",
       "name": "XP-Pen Artist 24 Pro",
+      "specs": {
+        "widthMM": 526.85,
+        "heightMM": 296.35,
+        "maxX": 105370,
+        "maxY": 59270,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 20
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3318,6 +5559,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist Pro 16 (Gen2).json",
       "name": "XP-Pen Artist Pro 16 (Gen2)",
+      "specs": {
+        "widthMM": 344.68,
+        "heightMM": 215.42,
+        "maxX": 68920,
+        "maxY": 43078,
+        "penMaxPressure": 16383,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3329,6 +5579,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Artist Pro 16TP.json",
       "name": "XP-Pen Artist Pro 16TP",
+      "specs": {
+        "widthMM": 345.615,
+        "heightMM": 194.385,
+        "maxX": 69123,
+        "maxY": 38877,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3340,6 +5599,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/CT1060.json",
       "name": "XP-Pen CT1060",
+      "specs": {
+        "widthMM": 254.505,
+        "heightMM": 159.305,
+        "maxX": 50901,
+        "maxY": 31861,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3351,6 +5619,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/CT430.json",
       "name": "XP-Pen CT430",
+      "specs": {
+        "widthMM": 121.92,
+        "heightMM": 76.2,
+        "maxX": 24384,
+        "maxY": 15240,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3366,6 +5643,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/CT640.json",
       "name": "XP-Pen CT640",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 101.6,
+        "maxX": 32000,
+        "maxY": 20320,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3381,6 +5667,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco 01 V2 (Variant 2).json",
       "name": "XP-Pen Deco 01 V2 (Variant 2)",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 50800,
+        "maxY": 31750,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3396,6 +5691,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco 01 V2.json",
       "name": "XP-Pen Deco 01 V2",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 25400,
+        "maxY": 15875,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3411,6 +5715,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco 01.json",
       "name": "XP-Pen Deco 01",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 158.75,
+        "maxX": 25400,
+        "maxY": 15875,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3422,6 +5735,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco 02.json",
       "name": "XP-Pen Deco 02",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 142.875,
+        "maxX": 22352,
+        "maxY": 13970,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3433,6 +5755,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco 03.json",
       "name": "XP-Pen Deco 03",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 142.875,
+        "maxX": 50800,
+        "maxY": 28575,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3444,6 +5775,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco L.json",
       "name": "XP-Pen Deco L",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3455,6 +5795,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco M.json",
       "name": "XP-Pen Deco M",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 127,
+        "maxX": 40640,
+        "maxY": 25400,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3466,6 +5815,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco mini4.json",
       "name": "XP-Pen Deco mini4",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 76.2,
+        "maxX": 20320,
+        "maxY": 15240,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3481,6 +5839,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco mini7.json",
       "name": "XP-Pen Deco mini7",
+      "specs": {
+        "widthMM": 177.8,
+        "heightMM": 111.095,
+        "maxX": 35560,
+        "maxY": 22219,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3504,6 +5871,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco Pro LW Gen2.json",
       "name": "XP-Pen Deco Pro LW Gen2",
+      "specs": {
+        "widthMM": 278.99,
+        "heightMM": 173.99,
+        "maxX": 55798,
+        "maxY": 34798,
+        "penMaxPressure": 16383,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3515,6 +5891,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco Pro Medium.json",
       "name": "XP-Pen Deco Pro Medium",
+      "specs": {
+        "widthMM": 278.99,
+        "heightMM": 156.995,
+        "maxX": 55798,
+        "maxY": 31399,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3526,6 +5911,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco Pro Small.json",
       "name": "XP-Pen Deco Pro Small",
+      "specs": {
+        "widthMM": 230.12,
+        "heightMM": 129.54,
+        "maxX": 46024,
+        "maxY": 25908,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3537,6 +5931,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco Pro SW.json",
       "name": "XP-Pen Deco Pro SW",
+      "specs": {
+        "widthMM": 230.12,
+        "heightMM": 129.54,
+        "maxX": 46024,
+        "maxY": 25908,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3548,6 +5951,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Deco Pro XLW Gen2.json",
       "name": "XP-Pen Deco Pro XLW Gen2",
+      "specs": {
+        "widthMM": 381,
+        "heightMM": 229.005,
+        "maxX": 76200,
+        "maxY": 45801,
+        "penMaxPressure": 16383,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3559,6 +5971,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Innovator 16.json",
       "name": "XP-Pen Innovator 16",
+      "specs": {
+        "widthMM": 343.915,
+        "heightMM": 193.545,
+        "maxX": 68783,
+        "maxY": 38709,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3570,6 +5991,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star 03 Pro.json",
       "name": "XP-Pen Star 03 Pro",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3581,6 +6011,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star 03.json",
       "name": "XP-Pen Star 03",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 8
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3600,6 +6039,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star 05 V3.json",
       "name": "XP-Pen Star 05 V3",
+      "specs": {
+        "widthMM": 203.2,
+        "heightMM": 127,
+        "maxX": 40640,
+        "maxY": 25400,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3611,6 +6059,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star 06.json",
       "name": "XP-Pen Star 06",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3622,6 +6079,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star 06C.json",
       "name": "XP-Pen Star 06C",
+      "specs": {
+        "widthMM": 254,
+        "heightMM": 152.4,
+        "maxX": 50800,
+        "maxY": 30480,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3633,6 +6099,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G430.json",
       "name": "XP-Pen Star G430",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 76.2,
+        "maxX": 45720,
+        "maxY": 29210,
+        "penMaxPressure": 2047,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3648,6 +6123,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G430S V2.json",
       "name": "XP-Pen Star G430S V2",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 76.2,
+        "maxX": 10160,
+        "maxY": 7620,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3659,6 +6143,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G430S.json",
       "name": "XP-Pen Star G430S",
+      "specs": {
+        "widthMM": 101.6,
+        "heightMM": 76.2,
+        "maxX": 20320,
+        "maxY": 15240,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3674,6 +6167,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G540 Pro.json",
       "name": "XP-Pen Star G540 Pro",
+      "specs": {
+        "widthMM": 136.8,
+        "heightMM": 73.025,
+        "maxX": 54720,
+        "maxY": 29210,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3685,6 +6187,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G540.json",
       "name": "XP-Pen Star G540",
+      "specs": {
+        "widthMM": 228.6,
+        "heightMM": 146.05,
+        "maxX": 45720,
+        "maxY": 29210,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3696,6 +6207,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G640 (Variant 2).json",
       "name": "XP-Pen Star G640 (Variant 2)",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 100,
+        "maxX": 15999,
+        "maxY": 9999,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3707,6 +6227,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G640.json",
       "name": "XP-Pen Star G640",
+      "specs": {
+        "widthMM": 160,
+        "heightMM": 100,
+        "maxX": 32000,
+        "maxY": 20000,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": null
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3722,6 +6251,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G640S.json",
       "name": "XP-Pen Star G640S",
+      "specs": {
+        "widthMM": 165,
+        "heightMM": 103,
+        "maxX": 32999,
+        "maxY": 20599,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 6
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3741,6 +6279,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G960.json",
       "name": "XP-Pen Star G960",
+      "specs": {
+        "widthMM": 223.52,
+        "heightMM": 139.7,
+        "maxX": 22352,
+        "maxY": 13970,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3752,6 +6299,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G960S Plus.json",
       "name": "XP-Pen Star G960S Plus",
+      "specs": {
+        "widthMM": 228.6,
+        "heightMM": 152.4,
+        "maxX": 22860,
+        "maxY": 15240,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 10429,
@@ -3763,6 +6319,15 @@
       "vendor": "XP-Pen",
       "file": "XP-Pen/Star G960S.json",
       "name": "XP-Pen Star G960S",
+      "specs": {
+        "widthMM": 228.8,
+        "heightMM": 152.6,
+        "maxX": 22860,
+        "maxY": 15240,
+        "penMaxPressure": 8191,
+        "penButtons": 2,
+        "auxButtons": 4
+      },
       "identifiers": [
         {
           "vendorID": 10429,
