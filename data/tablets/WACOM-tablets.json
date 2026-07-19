@@ -96,6 +96,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-450",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Fun Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
@@ -138,6 +140,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-650",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Fun Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2007",
@@ -180,6 +184,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-470",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Capture",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2011",
@@ -225,6 +231,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-490",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Draw|Art|Photo|Comic Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2015",
@@ -268,6 +276,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-670",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Create",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2011",
@@ -312,6 +322,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-690",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Draw|Art|Photo|Comic Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2015",
@@ -441,6 +453,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-470",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Connect",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2011",
@@ -528,6 +542,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-490",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -703,6 +719,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-690",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -1593,6 +1611,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-1300",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 13HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2013",
@@ -1772,6 +1792,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2100",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Cintiq 21UX 2010",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2010",
@@ -1823,6 +1845,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2200",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 22HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
@@ -1941,6 +1965,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2400",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Cintiq 24 HD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2012",
@@ -2115,6 +2141,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2700",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 27 QHD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
@@ -2214,6 +2242,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTZ-2100",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Cintiq 21UX 2005",
                                              "AlternateNames":  [
                                                                     "DTZ-2100D"
@@ -2377,6 +2407,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTF-521",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "DTF-521",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
@@ -2409,6 +2441,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTU-710",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "DTU-710",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2005",
@@ -2449,6 +2483,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-550",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Cintiq 15X",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
@@ -2501,6 +2537,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-700",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.6-6",
                                              "Name":  "Cintiq 17SX 2002",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2002",
@@ -2597,6 +2635,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-800",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Cintiq 18SX",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2002",
@@ -2649,6 +2689,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-450",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 touch Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
@@ -2780,6 +2822,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-650",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 touch Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
@@ -2823,6 +2867,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-651",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Pro 2013 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -2911,6 +2957,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-850",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 touch Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
@@ -2954,6 +3002,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-851",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Pro 2013 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -3042,6 +3092,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-1240",
+                                             "LastSupportedWindowsDriver":  "6.3.41-1",
+                                             "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 XL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -3086,6 +3138,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-440",
+                                             "LastSupportedWindowsDriver":  "6.3.41-1",
+                                             "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -3130,6 +3184,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-450",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
@@ -3215,6 +3271,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-540WL",
+                                             "LastSupportedWindowsDriver":  "6.3.41-1",
+                                             "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Wireless",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -3258,6 +3316,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-640",
+                                             "LastSupportedWindowsDriver":  "6.3.41-1",
+                                             "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -3302,6 +3362,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-650",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2012",
@@ -3388,6 +3450,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-840",
+                                             "LastSupportedWindowsDriver":  "6.3.41-1",
+                                             "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -3474,6 +3538,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-1230",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 12x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3517,6 +3583,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-1231W",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 12x19",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3560,6 +3628,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-430",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3603,6 +3673,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-431W",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 4x6",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3646,6 +3718,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-630",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3689,6 +3763,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-631W",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 6x11",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3732,6 +3808,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-930",
+                                             "LastSupportedWindowsDriver":  "6.3.15-3",
+                                             "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 9x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
@@ -3775,6 +3853,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0405-U",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 4x5",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -3818,6 +3898,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0608-U",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 6x8",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -3861,6 +3943,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0912-U",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 9x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -3904,6 +3988,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-1212-U",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 12x12",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -3947,6 +4033,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-1218-U",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 12x18",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -4619,6 +4707,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-0405-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 4x5 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4656,6 +4746,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-0405-R",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 4x5 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4730,6 +4822,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-0608-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 6x8 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4767,6 +4861,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-0608-R",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4841,6 +4937,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-0912-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 9x12 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4878,6 +4976,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-0912-R",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 9x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4952,6 +5052,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-1212-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 12x12 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -4989,6 +5091,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-1212-R",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -5026,6 +5130,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-1218-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 12x18 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -5063,6 +5169,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "GD-1218-R",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Intuos 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "1998",
@@ -5100,6 +5208,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0405-R",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 4x5 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -5137,6 +5247,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0608-R",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 6x8 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -5174,6 +5286,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0912-R",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 9x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -5211,6 +5325,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-1212-R",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 12x12 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -5248,6 +5364,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-1218-R",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 12x18 SERIAL",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2001",
@@ -5285,6 +5403,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-460",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Pen & Touch S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -5322,6 +5442,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-460",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Pen 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -5359,6 +5481,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-660",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "CTL-660",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -5396,6 +5520,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-661",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Fun Pen \u0026 Touch M 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -5433,6 +5559,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-461",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Fun Pen \u0026 Touch S 2009",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -5582,6 +5710,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-680",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos Pen \u0026 Touch M 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -5619,6 +5749,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-480",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos 2013 CTL-480",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -5657,6 +5789,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-480",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos Pen \u0026 Touch S 2013",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -5695,6 +5829,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "MTE-450",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo MTE-450",
                                              "Type":  "PENTABLET",
@@ -5769,6 +5905,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-440",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.3.0-3",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 4x5",
                                              "Type":  "PENTABLET",
@@ -5806,6 +5944,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-640",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.3.0-3",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 6x8",
                                              "Type":  "PENTABLET",
@@ -5843,6 +5983,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-460",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo One 2005",
                                              "Type":  "PENTABLET",
@@ -5880,6 +6022,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-660",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTE-660",
                                              "Type":  "PENTABLET",
@@ -5917,6 +6061,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTT-460",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo Touch 2009",
                                              "Type":  "PENTABLET",
@@ -5950,6 +6096,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-301",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTH-301",
                                              "Type":  "PENTABLET",
@@ -5984,6 +6132,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-300",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTH-300",
                                              "Type":  "PENTABLET",
@@ -6054,6 +6204,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-430",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.2.6-5",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Graphire3 4x5",
                                              "Type":  "PENTABLET",
@@ -6091,6 +6243,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-630BT",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.3.0-3",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Graphire4 BT",
                                              "Type":  "PENTABLET",
@@ -6126,6 +6280,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTE-630",
+                                             "LastSupportedWindowsDriver":  "5.2.5-5a",
+                                             "LastSupportedMacOSDriver":  "5.2.6-5",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Graphire3 6x8",
                                              "Type":  "PENTABLET",
@@ -6163,6 +6319,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-430",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Bamboo One 2007",
                                              "Type":  "PENTABLET",
@@ -6237,6 +6395,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTF-420",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Wacom CTF-420",
                                              "Type":  "PENTABLET",
@@ -6340,6 +6500,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405A-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Graphire2 USB",
                                              "Status":  "DISCONTINUED",
                                              "Type":  "PENTABLET",
@@ -6414,6 +6576,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405-U",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Graphire1 USB",
                                              "Status":  "DISCONTINUED",
                                              "Type":  "PENTABLET",
@@ -6451,6 +6615,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "ET-0405-R",
+                                             "LastSupportedWindowsDriver":  "6.1.7-3",
+                                             "LastSupportedMacOSDriver":  "6.1.6-4",
                                              "Name":  "Graphire1 SERIAL",
                                              "Status":  "DISCONTINUED",
                                              "Type":  "PENTABLET",
@@ -7310,6 +7476,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-500",
+                                             "LastSupportedWindowsDriver":  "6.2.0w5",
+                                             "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "PL-500",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
@@ -7353,6 +7521,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-400",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "PL-400",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "1999",
@@ -7396,6 +7566,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PL-300",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "PL-300",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2001",
@@ -7592,6 +7764,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-1300",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Cintiq 13H touch",
                                              "Type":  "PENDISPLAY",
@@ -7616,6 +7790,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-2700",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 27 QHD touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
@@ -7686,6 +7862,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-2200",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 22HD Touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2013",
@@ -7732,6 +7910,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-2400",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Cintiq 24HD Touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2013",
@@ -7778,6 +7958,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTZ-1200",
+                                             "LastSupportedWindowsDriver":  "6.3.40-2",
+                                             "LastSupportedMacOSDriver":  "6.3.40-2",
                                              "Name":  "Cintiq 12WX",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2007",
@@ -7801,6 +7983,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-1301",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 13HD",
                                              "AlternateNames":  [
                                                                     "Cintiq 13HD (DTK-1301)"
@@ -7851,6 +8035,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-660",
+                                             "LastSupportedWindowsDriver":  "5.3.5-3",
+                                             "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "Bamboo Pen \u0026 Touch M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2009",
@@ -7889,6 +8075,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-651SE",
+                                             "LastSupportedWindowsDriver":  "6.4.10-3",
+                                             "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Pro 2013 Medium Special Edition",
                                              "AlternateNames":  [
                                                                     "Intuos Pro Special Edition"
@@ -7970,6 +8158,7 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-W1300",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "Name":  "Cintiq Companion",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2013",
@@ -7998,6 +8187,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-A1300",
+                                             "LastSupportedWindowsDriver":  "6.3.46-2",
+                                             "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Cintiq Companion Hybrid",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2013",
@@ -8026,6 +8217,8 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-W1310",
+                                             "LastSupportedWindowsDriver":  "6.4.7-3",
+                                             "LastSupportedMacOSDriver":  "6.4.7-2",
                                              "Name":  "Cintiq Companion 2",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2015",

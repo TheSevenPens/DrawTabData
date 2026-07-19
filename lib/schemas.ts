@@ -89,6 +89,12 @@ const ModelSchema = v.strictObject({
   // Wacom-only: matches a `sensorid` in data/wacom-update/products.json
   // and lets the Explorer surface the supported driver-version range.
   SensorId: v.optional(TrimmedString),
+  // Last driver version that still supports this model, per platform (bare
+  // version string, e.g. "6.3.46-2"). Sourced from Wacom's EOSL page;
+  // absent while the model is still on the current driver. Windows and
+  // macOS can differ — e.g. Intuos 4 is Win 6.3.41-1 vs macOS 6.3.41-2.
+  LastSupportedWindowsDriver: v.optional(TrimmedString),
+  LastSupportedMacOSDriver: v.optional(TrimmedString),
   Notes: v.optional(TrimmedString),
 });
 
