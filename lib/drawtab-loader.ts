@@ -220,6 +220,32 @@ export async function loadOtdEntityAuditFromURL(
   return data.audits ?? {};
 }
 
+// --- Doc-links review dataset (data/links/doc-links.json) ---
+
+/** One external reference link extracted from DrawingTabletDocs, mapped to an
+ * entity, for review on /links-review before it becomes entity data. */
+export interface DocLink {
+  entityId: string;
+  entityType: "tablet" | "pen";
+  brand: string;
+  type: string;
+  url: string;
+  title: string;
+  author: string;
+  publishDate: string;
+  sourceFile: string;
+}
+
+export async function loadDocLinksFromURL(dataBaseUrl: string): Promise<DocLink[]> {
+  const url = `${dataBaseUrl}/links/doc-links.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return [];
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return [];
+  const data = await resp.json();
+  return data.links ?? [];
+}
+
 // --- Brand loader ---
 
 export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {

@@ -29,6 +29,8 @@ import {
   loadWacomUpdateProductsFromURL,
   loadOtdConfigFromURL,
   loadOtdEntityAuditFromURL,
+  loadDocLinksFromURL,
+  type DocLink,
 } from "./drawtab-loader.js";
 import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
@@ -177,6 +179,7 @@ export class DrawTabDataSet extends DataSet {
   private cachedWacomUpdateProducts?: Promise<WacomUpdateProduct[]>;
   private cachedOtdConfig?: Promise<OTDConfigFile | null>;
   private cachedOtdEntityAudit?: Promise<Record<string, OTDAuditStatus>>;
+  private cachedDocLinks?: Promise<DocLink[]>;
 
   constructor(source: DataSource) {
     super();
@@ -575,6 +578,11 @@ export class DrawTabDataSet extends DataSet {
     return (this.cachedOtdEntityAudit ??= loadOtdEntityAuditFromURL(
       this.requireUrlSource("getOtdEntityAudit"),
     ));
+  }
+
+  /** Load the extracted doc-links review dataset (data/links/doc-links.json). */
+  getDocLinks(): Promise<DocLink[]> {
+    return (this.cachedDocLinks ??= loadDocLinksFromURL(this.requireUrlSource("getDocLinks")));
   }
 
   /**
