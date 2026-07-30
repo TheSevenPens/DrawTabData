@@ -10,6 +10,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "G930L",
+                                             "OTDName":  "Huion G930L",
                                              "Name":  "Inspiroy Giano G930L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
@@ -115,6 +116,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1331",
+                                             "OTDName":  "Huion Kamvas 13",
                                              "Name":  "Kamvas 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -178,6 +180,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1333",
+                                             "OTDName":  "Huion Kamvas 13 (Gen 3)",
                                              "Name":  "Kamvas 13 GEN3",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -234,6 +237,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1562",
+                                             "OTDName":  "Huion Kamvas 16 (2021)",
                                              "Name":  "Kamvas 16 (2021)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -360,6 +364,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2201",
+                                             "OTDName":  "Huion Kamvas 22",
                                              "Name":  "Kamvas 22",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -424,6 +429,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2202",
+                                             "OTDName":  "Huion Kamvas 22 Plus",
                                              "Name":  "Kamvas 22 Plus",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -553,6 +559,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2402",
+                                             "OTDName":  "Huion Kamvas 24 Plus",
                                              "Name":  "Kamvas 24 Plus",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -681,6 +688,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-156HDV2",
+                                             "OTDName":  "Huion GT-156HD V2",
                                              "Name":  "Kamvas GT-156HD V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -864,6 +872,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-220V2",
+                                             "OTDName":  "Huion GT-220 V2",
                                              "Name":  "Kamvas GT-220 V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2016",
@@ -1056,6 +1065,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1302",
+                                             "OTDName":  "Huion Kamvas Pro 13 (2.5k)",
                                              "Name":  "Kamvas Pro 13 2.5K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -1120,6 +1130,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT133",
+                                             "OTDName":  "Huion Kamvas Pro 13",
                                              "Name":  "Kamvas Pro 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -1184,6 +1195,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1561",
+                                             "OTDName":  "Huion Kamvas Pro 16 (4k)",
                                              "Name":  "Kamvas Pro 16 4K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1310,6 +1322,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1602",
+                                             "OTDName":  "Huion Kamvas Pro 16 (2.5k)",
                                              "Name":  "Kamvas Pro 16 2.5K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -1625,6 +1638,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT221",
+                                             "OTDName":  "Huion Kamvas Pro 22 (2019)",
                                              "Name":  "Kamvas Pro 22 (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -1688,6 +1702,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT240",
+                                             "OTDName":  "Huion Kamvas Pro 24",
                                              "Name":  "Kamvas Pro 24",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1752,6 +1767,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT2401",
+                                             "OTDName":  "Huion Kamvas Pro 24 (4K)",
                                              "Name":  "Kamvas Pro 24 4K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1949,6 +1965,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H1060P",
+                                             "OTDName":  "Huion H1060P",
                                              "Name":  "H1060P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2015",
@@ -1992,6 +2009,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H1061P",
+                                             "OTDName":  "Huion H1061P",
                                              "Name":  "Inspiroy 2 L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -2036,6 +2054,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H1161",
+                                             "OTDName":  "Huion H1161",
                                              "Name":  "H1161",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2078,6 +2097,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H320M",
+                                             "OTDName":  "Huion H320M",
                                              "Name":  "320M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2163,6 +2183,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H420X",
+                                             "OTDName":  "Huion H420X",
                                              "Name":  "H420X",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -2204,6 +2225,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H430P",
+                                             "OTDName":  "Huion H430P",
                                              "Name":  "H430P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -2290,6 +2312,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610PRO",
+                                             "OTDName":  "Huion H610 Pro",
                                              "Name":  "H610PRO",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2016",
@@ -2333,6 +2356,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610PRO V2",
+                                             "OTDName":  "Huion H610 Pro V2",
                                              "Name":  "H610PRO V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -2375,6 +2399,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610X",
+                                             "OTDName":  "Huion H610X",
                                              "Name":  "H610X",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -2417,6 +2442,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H640P",
+                                             "OTDName":  "Huion H640P",
                                              "Name":  "H640P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -2460,6 +2486,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H641P",
+                                             "OTDName":  "Huion H641P",
                                              "Name":  "Inspiroy 2 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -2504,6 +2531,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H950P",
+                                             "OTDName":  "Huion H950P",
                                              "Name":  "H950P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -2545,6 +2573,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H951P",
+                                             "OTDName":  "Huion H951P",
                                              "Name":  "Inspiroy 2 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -2589,6 +2618,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "HS610",
+                                             "OTDName":  "Huion HS610",
                                              "Name":  "HS610",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2631,6 +2661,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "HS611",
+                                             "OTDName":  "Huion HS611",
                                              "Name":  "HS611",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2673,6 +2704,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "HS64",
+                                             "OTDName":  "Huion HS64",
                                              "Name":  "HS64",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2841,6 +2873,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q11K",
+                                             "OTDName":  "Huion Q11K",
                                              "Name":  "Inspiroy Q11K",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -2884,6 +2917,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q11KV2",
+                                             "OTDName":  "Huion Q11K V2",
                                              "Name":  "Inspiroy Q11K V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -2926,6 +2960,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q620M",
+                                             "OTDName":  "Huion Q620M",
                                              "Name":  "Inspiroy Dial",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2968,6 +3003,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q630M",
+                                             "OTDName":  "Huion Q630M",
                                              "Name":  "Inspiroy Dial 2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
@@ -3011,6 +3047,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RDS-160",
+                                             "OTDName":  "Huion RDS-160",
                                              "Name":  "Kamvas RDS-160",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -3136,6 +3173,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RTM500",
+                                             "OTDName":  "Huion RTM-500",
                                              "Name":  "Inspiroy RTM-500",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
@@ -3179,6 +3217,7 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RTP700",
+                                             "OTDName":  "Huion RTP-700",
                                              "Name":  "Inspiroy RTP-700",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",

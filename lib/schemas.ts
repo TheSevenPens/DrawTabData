@@ -74,6 +74,11 @@ const ModelSchema = v.strictObject({
   IdSuffix: v.optional(TrimmedString),
   Name: TrimmedString,
   AlternateNames: v.optional(v.array(TrimmedString)),
+  // The OpenTabletDriver config name for this model, copied in from an
+  // *approved* OTD→entity correlation (see data/otd/otd-entity-audit.json and
+  // the /otd-audit page). A stored value, NOT computed — populated only when
+  // the mapping is approved; absent otherwise.
+  OTDName: v.optional(TrimmedString),
   Type: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
   LaunchYear: TrimmedString,
   // Exact release date when known, ISO-8601 with variable precision:
