@@ -15,34 +15,12 @@
       "entityId": "huion.pen.pw100",
       "entityType": "pen",
       "brand": "HUION",
-      "type": "ARCHIVE",
-      "url": "https://archive.is/4Hxx7",
-      "title": "archive",
-      "author": "",
-      "publishDate": "",
-      "sourceFile": "catalog/pens/huion-pens/huion-pw100-notes.md"
-    },
-    {
-      "entityId": "huion.pen.pw100",
-      "entityType": "pen",
-      "brand": "HUION",
       "type": "STORE",
       "url": "https://store.huion.com/products/battery-free-pen-pw100",
       "title": "",
       "author": "Huion",
       "publishDate": "",
       "sourceFile": "catalog/pens/huion-pens/huion-pw100-notes.md"
-    },
-    {
-      "entityId": "huion.pen.pw110",
-      "entityType": "pen",
-      "brand": "HUION",
-      "type": "ARCHIVE",
-      "url": "https://archive.is/0mrnS",
-      "title": "archive",
-      "author": "",
-      "publishDate": "",
-      "sourceFile": "catalog/pens/huion-pens/huion-pw110-notes.md"
     },
     {
       "entityId": "huion.pen.pw110",
@@ -235,105 +213,6 @@
       "entityId": "huion.tablet.gs1333",
       "entityType": "tablet",
       "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1h50r9h/huion_kamvas_13_gen_3_dial_issue/",
-      "title": "r/huion - Huion Kamvas 13 gen 3 dial issue?",
-      "author": "r/huion",
-      "publishDate": "2024-12-02",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1mmdwka/experiences_with_kamvas_gen_3/",
-      "title": "r/huion - Experiences with Kamvas Gen 3",
-      "author": "r/huion",
-      "publishDate": "2025-08-10",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1n9kasz/is_my_kamvas_16_gen_3_faulty/",
-      "title": "r/huion - is my kamvas 16 gen 3 faulty?",
-      "author": "r/huion",
-      "publishDate": "2025-09-05",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1objmgr/worn_out_dial/",
-      "title": "r/huion - Worn out Dial",
-      "author": "r/huion",
-      "publishDate": "2025-10-20",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1pat8yx/i_have_fixed_the_dials_on_kamvas13_gen3/?rdt=59427",
-      "title": "r/huion - I have fixed the dials on Kamvas13 gen3",
-      "author": "r/huion",
-      "publishDate": "2025-11-30",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1q8zn0h/how_common_are_the_issues_with_kamvas_13_gen_3/",
-      "title": "r/huion - How common are the issues with Kamvas 13 (gen 3)?",
-      "author": "r/huion",
-      "publishDate": "2026-01-10",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1qp7v9k/huion_kanvas_13_gen_3_dials_not_working_properly/",
-      "title": "r/huion - Huion Kanvas 13 (Gen 3) dials not working properly",
-      "author": "r/huion",
-      "publishDate": "2026-01-28",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1ryrv37/huion_kamvas_16_gen_3_dials_acting_janky/",
-      "title": "r/huion - Huion kamvas 16 gen 3 dials acting janky",
-      "author": "r/huion",
-      "publishDate": "2026-03-20",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1tuub99/huion_kamvas_16_gen_3_dials_broken_after_about_of/",
-      "title": "r/huion - Huion Kamvas 16 Gen 3 dials broken after about of 6 months of light to moderate use",
-      "author": "r/huion",
-      "publishDate": "2026-06-02",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
       "type": "REVIEW",
       "url": "https://www.youtube.com/watch?v=2cJB3h8qbhY",
       "title": "Brad Colbow - Huion Kamvas 13 GEN3 (GS1333) Review",
@@ -364,17 +243,6 @@
       "sourceFile": "catalog/drawtabs/huion/huion-gs1333-notes.md"
     },
     {
-      "entityId": "huion.tablet.gs1333",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "TUTORIAL",
-      "url": "https://www.youtube.com/watch?v=Oq6KeACQo68",
-      "title": "Huion - Tutorial | How to connect Kamvas 13 GEN3 (GS1333) to your Android Phone",
-      "author": "Huion",
-      "publishDate": "2024-10-29",
-      "sourceFile": "catalog/drawtabs/huion/huion-gs1333-notes.md"
-    },
-    {
       "entityId": "huion.tablet.gs1563",
       "entityType": "tablet",
       "brand": "HUION",
@@ -395,105 +263,6 @@
       "author": "Huion",
       "publishDate": "",
       "sourceFile": "catalog/drawtabs/huion/huion-gs1563-notes.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1h50r9h/huion_kamvas_13_gen_3_dial_issue/",
-      "title": "r/huion - Huion Kamvas 13 gen 3 dial issue?",
-      "author": "r/huion",
-      "publishDate": "2024-12-02",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1mmdwka/experiences_with_kamvas_gen_3/",
-      "title": "r/huion - Experiences with Kamvas Gen 3",
-      "author": "r/huion",
-      "publishDate": "2025-08-10",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1n9kasz/is_my_kamvas_16_gen_3_faulty/",
-      "title": "r/huion - is my kamvas 16 gen 3 faulty?",
-      "author": "r/huion",
-      "publishDate": "2025-09-05",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1objmgr/worn_out_dial/",
-      "title": "r/huion - Worn out Dial",
-      "author": "r/huion",
-      "publishDate": "2025-10-20",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1pat8yx/i_have_fixed_the_dials_on_kamvas13_gen3/?rdt=59427",
-      "title": "r/huion - I have fixed the dials on Kamvas13 gen3",
-      "author": "r/huion",
-      "publishDate": "2025-11-30",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1q8zn0h/how_common_are_the_issues_with_kamvas_13_gen_3/",
-      "title": "r/huion - How common are the issues with Kamvas 13 (gen 3)?",
-      "author": "r/huion",
-      "publishDate": "2026-01-10",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1qp7v9k/huion_kanvas_13_gen_3_dials_not_working_properly/",
-      "title": "r/huion - Huion Kanvas 13 (Gen 3) dials not working properly",
-      "author": "r/huion",
-      "publishDate": "2026-01-28",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1ryrv37/huion_kamvas_16_gen_3_dials_acting_janky/",
-      "title": "r/huion - Huion kamvas 16 gen 3 dials acting janky",
-      "author": "r/huion",
-      "publishDate": "2026-03-20",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
-    },
-    {
-      "entityId": "huion.tablet.gs1563",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1tuub99/huion_kamvas_16_gen_3_dials_broken_after_about_of/",
-      "title": "r/huion - Huion Kamvas 16 Gen 3 dials broken after about of 6 months of light to moderate use",
-      "author": "r/huion",
-      "publishDate": "2026-06-02",
-      "sourceFile": "catalog/drawtabs/huion/dial-problems-gs1333-gs1563.md"
     },
     {
       "entityId": "huion.tablet.gs1563",
@@ -708,17 +477,6 @@
       "entityId": "huion.tablet.gt190",
       "entityType": "tablet",
       "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1b22sia/huion_kamvas_pro_19_usbc_cables/",
-      "title": "",
-      "author": "r/huion",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/huion/huion-gt1902-notes.md"
-    },
-    {
-      "entityId": "huion.tablet.gt190",
-      "entityType": "tablet",
-      "brand": "HUION",
       "type": "REVIEW",
       "url": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
       "title": "",
@@ -866,17 +624,6 @@
       "url": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
       "title": "",
       "author": "Huion",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/huion/huion-gt1902-notes.md"
-    },
-    {
-      "entityId": "huion.tablet.gt1902",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1b22sia/huion_kamvas_pro_19_usbc_cables/",
-      "title": "",
-      "author": "r/huion",
       "publishDate": "",
       "sourceFile": "catalog/drawtabs/huion/huion-gt1902-notes.md"
     },
@@ -1225,17 +972,6 @@
       "entityId": "huion.tablet.h1061p",
       "entityType": "tablet",
       "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/165acwt/extremely_unstable_pen_pressure_sensitivity_on_a/",
-      "title": "",
-      "author": "r/huion",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/huion/huion-h1061p-notes.md"
-    },
-    {
-      "entityId": "huion.tablet.h1061p",
-      "entityType": "tablet",
-      "brand": "HUION",
       "type": "REVIEW",
       "url": "https://youtu.be/L6mgOluUApE",
       "title": "Create Now Sleep Later review of Huion Inspiroy 2 L",
@@ -1335,28 +1071,6 @@
       "entityId": "huion.tablet.l610",
       "entityType": "tablet",
       "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1iltd0r/brand_new_inspiroy_frego_m_has_air_bubbles_under/",
-      "title": "",
-      "author": "r/huion",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/huion/huion-l610-notes.md"
-    },
-    {
-      "entityId": "huion.tablet.l610",
-      "entityType": "tablet",
-      "brand": "HUION",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/huion/comments/1qg6ziq/bubbles_on_huion_inspiroy_frego_m/",
-      "title": "",
-      "author": "r/huion",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/huion/huion-l610-notes.md"
-    },
-    {
-      "entityId": "huion.tablet.l610",
-      "entityType": "tablet",
-      "brand": "HUION",
       "type": "REVIEW",
       "url": "https://www.youtube.com/watch?v=3-Cl9_xKKKE",
       "title": "",
@@ -1417,28 +1131,6 @@
       "title": "Wacom - \"Igniting the creativity of professional artists! The pride of Wacom – Wacom Pro Pen 3\"",
       "author": "Wacom",
       "publishDate": "2025-01-25",
-      "sourceFile": "catalog/pens/wacom-pens/wacom-acp500-notes.md"
-    },
-    {
-      "entityId": "wacom.pen.acp500",
-      "entityType": "pen",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/1p3p2ba/round_2",
-      "title": "",
-      "author": "r/wacom",
-      "publishDate": "",
-      "sourceFile": "catalog/pens/wacom-pens/wacom-acp500-notes.md"
-    },
-    {
-      "entityId": "wacom.pen.acp500",
-      "entityType": "pen",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/1rv3evg/the_chinese_made_pro_pen3_25b_vs_the_vietnam_made/",
-      "title": "The Chinese made Pro Pen3 (25B) vs the Vietnam made Pro Pen3 (25G)",
-      "author": "r/wacom",
-      "publishDate": "2026-03-16",
       "sourceFile": "catalog/pens/wacom-pens/wacom-acp500-notes.md"
     },
     {
@@ -1527,28 +1219,6 @@
       "title": "",
       "author": "Wacom",
       "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-one/wacom-dtc133-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dtc133",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/kkfip3/summary_of_pens_including_double_button_pens/",
-      "title": "Summary of pens (including double button pens) available for wacom one pen displa",
-      "author": "r/wacom",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-one/wacom-dtc133-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dtc133",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/s3go3g/what_pens_are_compatible_with_the_wacom_one/",
-      "title": "",
-      "author": "r/wacom",
-      "publishDate": "2022-01-13",
       "sourceFile": "catalog/drawtabs/wacom/wacom-one/wacom-dtc133-notes.md"
     },
     {
@@ -1676,31 +1346,9 @@
       "entityId": "wacom.tablet.dth135",
       "entityType": "tablet",
       "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/1d16v5d/psa_the_new_movink_only_work_on_thunderbolt_usb4/",
-      "title": "reddit r/wacom - PSA: The new Movink only work on Thunderbolt / USB4 port",
-      "author": "r/wacom",
-      "publishDate": "2024-05-26",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-movink/wacom-dth135-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dth135",
-      "entityType": "tablet",
-      "brand": "WACOM",
       "type": "PRODUCTINFO",
       "url": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
       "title": "",
-      "author": "Wacom",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-movink/wacom-dth135-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dth135",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "TUTORIAL",
-      "url": "https://www.youtube.com/watch?v=c_NEKl4MXX0",
-      "title": "Wacom - Wacom Movink OLED pen display unboxing and setup Android",
       "author": "Wacom",
       "publishDate": "",
       "sourceFile": "catalog/drawtabs/wacom/wacom-movink/wacom-dth135-notes.md"
@@ -1893,17 +1541,6 @@
       "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq/wacom-dth246-notes.md"
     },
     {
-      "entityId": "wacom.tablet.dth246",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "TUTORIAL",
-      "url": "https://youtube.com/live/Lm-5X-gFtuw?feature=share",
-      "title": "Unboxing and testing",
-      "author": "",
-      "publishDate": "2025-06-24",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq/wacom-dth246-notes.md"
-    },
-    {
       "entityId": "wacom.tablet.dth271",
       "entityType": "tablet",
       "brand": "WACOM",
@@ -1933,50 +1570,6 @@
       "url": "https://support.wacom.com/hc/en-us/articles/9170502251927-What-are-the-accessory-pens-I-can-use-with-the-Wacom-Cintiq-Pro-27-2022-",
       "title": "Wacom's list of supported pens for the Cintiq Pro 27",
       "author": "Wacom",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth271-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dth271",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/iPadPro/comments/15a5cdf/m1_ipad_pro_washed_out_colors_using_external/",
-      "title": "M1 iPad Pro washed out colors using external monitor.",
-      "author": "r/iPadPro",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth271-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dth271",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/14fmkvv/i_am_disappointed_to_cintiq_pro_27/",
-      "title": "I am disappointed to Cintiq Pro 27",
-      "author": "r/wacom",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth271-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dth271",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/15zgsoq/for_the_few_that_are_thinking_about_getting_the/",
-      "title": "For the few that are thinking about getting the new Cintiq Pro 27 stand, I highly discourage it...",
-      "author": "r/wacom",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth271-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dth271",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/wacom/comments/ytzpgr/cintiq_pro_27_honest_review/",
-      "title": "Reddit /u/DreamStitcher review of Cintiq Pro 27",
-      "author": "r/wacom",
       "publishDate": "",
       "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth271-notes.md"
     },
@@ -2245,17 +1838,6 @@
       "sourceFile": "catalog/drawtabs/wacom/wacom-movinkpad/wacom-dtha140-notes.md"
     },
     {
-      "entityId": "wacom.tablet.dtha140",
-      "entityType": "tablet",
-      "brand": "WACOM",
-      "type": "TUTORIAL",
-      "url": "https://www.youtube.com/watch?v=xAZpMpdyWes",
-      "title": "Adam Duff - Wacom MovinkPad Pro 14 - Secret Settings / Accessories / Setup Guide",
-      "author": "Adam Duff",
-      "publishDate": "2026-03-05",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-movinkpad/wacom-dtha140-notes.md"
-    },
-    {
       "entityId": "wacom.tablet.dtk1660",
       "entityType": "tablet",
       "brand": "WACOM",
@@ -2424,17 +2006,6 @@
       "entityId": "wacom.tablet.dtk2700",
       "entityType": "tablet",
       "brand": "WACOM",
-      "type": "ARCHIVE",
-      "url": "https://archive.is/nlTKO",
-      "title": "archive",
-      "author": "",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/wacom/wacom-cintiq/wacom-dtk2700-notes.md"
-    },
-    {
-      "entityId": "wacom.tablet.dtk2700",
-      "entityType": "tablet",
-      "brand": "WACOM",
       "type": "STORE",
       "url": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
       "title": "product page",
@@ -2507,28 +2078,6 @@
       "author": "Grant Abbitt",
       "publishDate": "2024-08-07",
       "sourceFile": "catalog/drawtabs/xencelabs/xencelabs-lph1612ua-notes.md"
-    },
-    {
-      "entityId": "xencelabs.tablet.lph2412ua",
-      "entityType": "tablet",
-      "brand": "XENCELABS",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/drawingtablet/comments/14y8xl7/xencelabs_pen_display_24_review/",
-      "title": "",
-      "author": "r/drawingtablet",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/xencelabs/xencelabs-lph2412ua-notes.md"
-    },
-    {
-      "entityId": "xencelabs.tablet.lph2412ua",
-      "entityType": "tablet",
-      "brand": "XENCELABS",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/drawingtablet/comments/173v9je/comment/k5geg5x/?utm_source=share\\&utm_medium=web2x\\&context=3",
-      "title": "",
-      "author": "r/drawingtablet",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/xencelabs/xencelabs-lph2412ua-notes.md"
     },
     {
       "entityId": "xencelabs.tablet.lph2412ua",
@@ -3145,17 +2694,6 @@
       "author": "Teoh on Tech",
       "publishDate": "2025-03-18",
       "sourceFile": "catalog/drawtabs/xppen/xppen-mnp1095-notes.md"
-    },
-    {
-      "entityId": "xppen.tablet.mt1592b",
-      "entityType": "tablet",
-      "brand": "XPPEN",
-      "type": "DISCUSSION",
-      "url": "https://www.reddit.com/r/XPpen/comments/1h66ei5/beware_of_the_deco_pro_gen_2_rant/",
-      "title": "",
-      "author": "r/XPpen",
-      "publishDate": "",
-      "sourceFile": "catalog/drawtabs/xppen/xppen-mt1592b-notes.md"
     },
     {
       "entityId": "xppen.tablet.mt1592b",

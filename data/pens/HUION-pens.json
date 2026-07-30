@@ -118,11 +118,6 @@
                      "PenId":  "PW100",
                      "Links":  [
                        {
-                         "Type": "ARCHIVE",
-                         "URL": "https://archive.is/4Hxx7",
-                         "Title": "Product page  (archived)"
-                       },
-                       {
                          "Type": "STORE",
                          "URL": "https://store.huion.com/products/battery-free-pen-pw100",
                          "Title": "Store page",
@@ -154,11 +149,6 @@
                      "Brand":  "HUION",
                      "PenId":  "PW110",
                      "Links":  [
-                       {
-                         "Type": "ARCHIVE",
-                         "URL": "https://archive.is/0mrnS",
-                         "Title": "Store page (archived)"
-                       },
                        {
                          "Type": "STORE",
                          "URL": "https://store.huion.com/products/battery-free-pen-pw110",
@@ -304,12 +294,6 @@
                          "URL": "https://store.huion.com/products/battery-free-pen-pw517",
                          "Title": "Store page",
                          "Author": "Huion"
-                       },
-                       {
-                         "Type": "NOTE",
-                         "URL": "https://youtu.be/vk4DlVGU6-Q",
-                         "Title": "Huion PW550 pen versus PW517 pen",
-                         "Author": "SevenPens"
                        }
                      ],
                      "PenName":  "PW517",
