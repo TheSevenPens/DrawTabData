@@ -10,6 +10,42 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "G930L",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/manaul_pdf/en/Inspiroy%20Giano.pdf",
+                                                 "Title": "G930L User Manual",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=03auOS8lgAE",
+                                                 "Title": "Anna Sok review of Huion Inspiroy Giano G930L",
+                                                 "Author": "Anna Sok",
+                                                 "PublishDate": "2022-10-04"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=2XcP_Db9e_w",
+                                                 "Title": "Teoh on Tech review of Huion Inspiroy Giano G930L",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2022-05-25"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=CcrTe2J5Ho8",
+                                                 "Title": "Create Now Sleep Later review of Huion Inspiroy Giano G930L",
+                                                 "Author": "Create Now Sleep Later",
+                                                 "PublishDate": "2022-08-08"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=DiRwtSonevY",
+                                                 "Title": "Brad Colbow review of Huion Inspiroy Giano G930L",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2022-07-06"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion G930L"],
                                              "Name":  "Inspiroy Giano G930L",
                                              "Type":  "PENTABLET",
@@ -116,6 +152,35 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1331",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/user-manual-70",
+                                                 "Title": "GS1331 User Manual",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=ku8x1q_nhFQ",
+                                                 "Title": "Brad Colbow review of Huion Kamvas 13",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2020-03-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=yn1eJFsrFnY",
+                                                 "Title": "Teoh on Tech review of Huion Kamvas 13",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2020-05-01"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/rgaqRLhct0A",
+                                                 "Title": "Create Now Sleep Later review of Huion Kamvas 13",
+                                                 "Author": "Create Now Sleep Later",
+                                                 "PublishDate": "2020-04-17"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion Kamvas 13"],
                                              "Name":  "Kamvas 13",
                                              "Type":  "PENDISPLAY",
@@ -180,6 +245,101 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1333",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-13-gen-3.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1h50r9h/huion_kamvas_13_gen_3_dial_issue/",
+                                                 "Title": "r/huion - Huion Kamvas 13 gen 3 dial issue?",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2024-12-02"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1mmdwka/experiences_with_kamvas_gen_3/",
+                                                 "Title": "r/huion - Experiences with Kamvas Gen 3",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-08-10"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1n9kasz/is_my_kamvas_16_gen_3_faulty/",
+                                                 "Title": "r/huion - is my kamvas 16 gen 3 faulty?",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-09-05"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1objmgr/worn_out_dial/",
+                                                 "Title": "r/huion - Worn out Dial",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-10-20"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1pat8yx/i_have_fixed_the_dials_on_kamvas13_gen3/?rdt=59427",
+                                                 "Title": "r/huion - I have fixed the dials on Kamvas13 gen3",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-11-30"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1q8zn0h/how_common_are_the_issues_with_kamvas_13_gen_3/",
+                                                 "Title": "r/huion - How common are the issues with Kamvas 13 (gen 3)?",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-01-10"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1qp7v9k/huion_kanvas_13_gen_3_dials_not_working_properly/",
+                                                 "Title": "r/huion - Huion Kanvas 13 (Gen 3) dials not working properly",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-01-28"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1ryrv37/huion_kamvas_16_gen_3_dials_acting_janky/",
+                                                 "Title": "r/huion - Huion kamvas 16 gen 3 dials acting janky",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-03-20"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1tuub99/huion_kamvas_16_gen_3_dials_broken_after_about_of/",
+                                                 "Title": "r/huion - Huion Kamvas 16 Gen 3 dials broken after about of 6 months of light to moderate use",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-06-02"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=2cJB3h8qbhY",
+                                                 "Title": "Brad Colbow - Huion Kamvas 13 GEN3 (GS1333) Review",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-09-23"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=5QG6NfIFSjU"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Ie39Mbsvc8s",
+                                                 "Title": "EyekooDrawsStuff review of Huion Kamvas 13 GEN3 (GS1333)",
+                                                 "Author": "EyekooDrawsStuff",
+                                                 "PublishDate": "2025-01-21"
+                                               },
+                                               {
+                                                 "Type": "TUTORIAL",
+                                                 "URL": "https://www.youtube.com/watch?v=Oq6KeACQo68",
+                                                 "Title": "Huion - Tutorial | How to connect Kamvas 13 GEN3 (GS1333) to your Android Phone",
+                                                 "Author": "Huion",
+                                                 "PublishDate": "2024-10-29"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion Kamvas 13 (Gen 3)"],
                                              "Name":  "Kamvas 13 GEN3",
                                              "Type":  "PENDISPLAY",
@@ -301,6 +461,114 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1563",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://driverdl.huion.com/instruction/Kamvas16-Gen3/User_Manual_Kamvas16_Gen3_en.pdf",
+                                                 "Title": "GS1536 User Manual",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
+                                                 "Title": "Product page",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1h50r9h/huion_kamvas_13_gen_3_dial_issue/",
+                                                 "Title": "r/huion - Huion Kamvas 13 gen 3 dial issue?",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2024-12-02"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1mmdwka/experiences_with_kamvas_gen_3/",
+                                                 "Title": "r/huion - Experiences with Kamvas Gen 3",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-08-10"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1n9kasz/is_my_kamvas_16_gen_3_faulty/",
+                                                 "Title": "r/huion - is my kamvas 16 gen 3 faulty?",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-09-05"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1objmgr/worn_out_dial/",
+                                                 "Title": "r/huion - Worn out Dial",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-10-20"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1pat8yx/i_have_fixed_the_dials_on_kamvas13_gen3/?rdt=59427",
+                                                 "Title": "r/huion - I have fixed the dials on Kamvas13 gen3",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2025-11-30"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1q8zn0h/how_common_are_the_issues_with_kamvas_13_gen_3/",
+                                                 "Title": "r/huion - How common are the issues with Kamvas 13 (gen 3)?",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-01-10"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1qp7v9k/huion_kanvas_13_gen_3_dials_not_working_properly/",
+                                                 "Title": "r/huion - Huion Kanvas 13 (Gen 3) dials not working properly",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-01-28"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1ryrv37/huion_kamvas_16_gen_3_dials_acting_janky/",
+                                                 "Title": "r/huion - Huion kamvas 16 gen 3 dials acting janky",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-03-20"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1tuub99/huion_kamvas_16_gen_3_dials_broken_after_about_of/",
+                                                 "Title": "r/huion - Huion Kamvas 16 Gen 3 dials broken after about of 6 months of light to moderate use",
+                                                 "Author": "r/huion",
+                                                 "PublishDate": "2026-06-02"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=-qmdAHY4f40",
+                                                 "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=-Xq7oHPpUHQ",
+                                                 "Title": "Teoh on Tech blog review of Huion Kamvas 16 GEN3 (GS1563)",
+                                                 "Author": "Teoh on Tech blog",
+                                                 "PublishDate": "2025-01-09"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=EA4A5B4GcUY",
+                                                 "Title": "Adam Duff review of Huion Kamvas 16 GEN3 (GS1563)",
+                                                 "Author": "Adam Duff",
+                                                 "PublishDate": "2025-01-13"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=KSmhwa6MUjM",
+                                                 "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=t2gEAky5ns8",
+                                                 "Title": "Brad Colbow review of Huion Kamvas 16 GEN3 (GS1563)",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-01-07"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 16 GEN3",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -429,6 +697,22 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2202",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/GJxGzJgfYGA",
+                                                 "Title": "Brad Colbow review of Huion Kamvas 22 Plus",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2020-09-08"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/mlYTRD2KmeY",
+                                                 "Title": "Nemanja Sekulic review of Huion Kamvas 22 Plus",
+                                                 "Author": "Nemanja Sekulic",
+                                                 "PublishDate": "2022-03-04"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion Kamvas 22 Plus"],
                                              "Name":  "Kamvas 22 Plus",
                                              "Type":  "PENDISPLAY",
@@ -625,6 +909,21 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-156 V2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
+                                                 "Title": "GT-156 V2 Product Page",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=CNDwMwp83JU",
+                                                 "Title": "EyekooDrawsStuff - Huion Kamvas Pro 16 V2 Review",
+                                                 "Author": "EyekooDrawsStuff",
+                                                 "PublishDate": "2026-06-26"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 16 V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -752,6 +1051,107 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-190",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
+                                                 "Title": "List of Compatible Devices Support USB-C to USB-C Connection with Huion Displays",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
+                                                 "Title": "GT-1902 product page",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1b22sia/huion_kamvas_pro_19_usbc_cables/",
+                                                 "Title": "uion kamvas pro 19 usbc cables.",
+                                                 "Author": "r/huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
+                                                 "Title": "Tutorial | How to set up Kamvas pro 19 Touch function on macOS",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=5AWpKgv8jdY",
+                                                 "Title": "Create Now Sleep Later - Review of the Huion Kamvas Pro 19",
+                                                 "Author": "Create Now Sleep Later",
+                                                 "PublishDate": "2024-09-15"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
+                                                 "Title": "Brad Colbow - Wacom Cintiq Pro 17 vs Huion Kamvas Pro 19",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-03-04"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
+                                                 "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
+                                                 "PublishDate": "2024-03-05"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Hf01mwaGtdI",
+                                                 "Title": "EyeKooDraws - Review of Huion Kamvas Pro 19",
+                                                 "Author": "EyeKooDraws",
+                                                 "PublishDate": "2025-09-13"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=hvrPw6mlrlQ",
+                                                 "Title": "claybrush review of Huion Kamvas Pro 19",
+                                                 "Author": "claybrush",
+                                                 "PublishDate": "2024-01-09"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=M9VbiVJX-J4",
+                                                 "Title": "David Revoy - Huion Kamvas Pro 19",
+                                                 "Author": "David Revoy",
+                                                 "PublishDate": "2024-11-21"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=oSdZYmkOGKE",
+                                                 "Title": "Teoh on Tech - Huion Kamvas Pro 19 review: 4K touchscreen pen display",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2024-06-21"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=t-Qo1jTVibY",
+                                                 "Title": "Yanick Paquette review of Huion Kamvas Pro 19",
+                                                 "Author": "Yanick Paquette",
+                                                 "PublishDate": "2024-02-21"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=WxdFXfuPvN4",
+                                                 "Title": "Brad Colbow review of the Huion Kamvas Pro 19",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-02-14"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=znKvWJON_k8",
+                                                 "Title": "Trent Kaniuga - Review of Huion Kamvas Pro 19",
+                                                 "Author": "Trent Kaniuga",
+                                                 "PublishDate": "2024-12-16"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/CnTBrhUhciM",
+                                                 "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+                                                 "Author": "SevenPens"
+                                               }
+                                             ],
                                              "Name":  "Kamvas GT-190",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2015",
@@ -805,6 +1205,103 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-1902",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
+                                                 "Title": "**see this doc**",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
+                                                 "Title": "GT-1902 Product Page",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1b22sia/huion_kamvas_pro_19_usbc_cables/",
+                                                 "Title": "Huion kamvas pro 19 usbc cables.",
+                                                 "Author": "r/huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=5AWpKgv8jdY",
+                                                 "Title": "Create Now Sleep Later - Review of the Huion Kamvas Pro 19",
+                                                 "Author": "Create Now Sleep Later",
+                                                 "PublishDate": "2024-09-15"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
+                                                 "Title": "Brad Colbow - Wacom Cintiq Pro 17 vs Huion Kamvas Pro 19",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-03-04"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
+                                                 "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
+                                                 "PublishDate": "2024-03-05"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Hf01mwaGtdI",
+                                                 "Title": "EyeKooDraws - Review of Huion Kamvas Pro 19",
+                                                 "Author": "EyeKooDraws",
+                                                 "PublishDate": "2025-09-13"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=hvrPw6mlrlQ",
+                                                 "Title": "claybrush review of Huion Kamvas Pro 19",
+                                                 "Author": "claybrush",
+                                                 "PublishDate": "2024-01-09"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=M9VbiVJX-J4",
+                                                 "Title": "David Revoy - Huion Kamvas Pro 19",
+                                                 "Author": "David Revoy",
+                                                 "PublishDate": "2024-11-21"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=oSdZYmkOGKE",
+                                                 "Title": "Teoh on Tech - Huion Kamvas Pro 19 review: 4K touchscreen pen display",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2024-06-21"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=t-Qo1jTVibY",
+                                                 "Title": "Yanick Paquette review of Huion Kamvas Pro 19",
+                                                 "Author": "Yanick Paquette",
+                                                 "PublishDate": "2024-02-21"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=WxdFXfuPvN4",
+                                                 "Title": "Brad Colbow review of the Huion Kamvas Pro 19",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-02-14"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=znKvWJON_k8",
+                                                 "Title": "Trent Kaniuga - Review of Huion Kamvas Pro 19",
+                                                 "Author": "Trent Kaniuga",
+                                                 "PublishDate": "2024-12-16"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/CnTBrhUhciM"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 19",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -1259,6 +1756,26 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1562",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/manaul_pdf/en/Kamvas%20Pro%2016%20Plus%20\\(4K\\",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=0sfbhhXoR8E",
+                                                 "Title": "Teoh on Tech review of Huion Kamvas Pro 16 Plus 4K",
+                                                 "Author": "Teoh on Tech"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/aXXdPzw1FFk",
+                                                 "Title": "Teoh on Tech - Huion Kamvas Pro 16 Plus vs XP-Pen Artist Pro 16TP",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2021-08-09"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 16 4K Plus",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1702,6 +2219,64 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT240",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/manaul_pdf/de/Kamvas%20Pro%2024\\(4K\\",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/user-manual-90",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=6E7fCBuXQlA",
+                                                 "Title": "Teoh on Tech - Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2026-02-01"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=HvQxDrzgbOo",
+                                                 "Title": "Brad Colbow review of Review of Huion Kamvas Pro 24 4K",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2021-09-02"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=QXNex8UZZi8",
+                                                 "Title": "Brad Colbow - Huion Kamvas 24 Pro (Gen 3) Review",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-10-24"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=r8k5qsgJXlM",
+                                                 "Title": "Teoh Yi Chie review of Huion Kamvas Pro 24 4K",
+                                                 "Author": "Teoh Yi Chie"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=XgOq3xCci20",
+                                                 "Title": "Trent Kaniuga - Huion Kamvas Pro 24 Gen 3 Review",
+                                                 "Author": "Trent Kaniuga",
+                                                 "PublishDate": "2026-07-02"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=XwD_7x2S-7g",
+                                                 "Title": "MossCharmly 2 year review Huion Kamvas Pro 24 4K",
+                                                 "Author": "MossCharmly 2 year",
+                                                 "PublishDate": "2023-12-09"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion Kamvas Pro 24"],
                                              "Name":  "Kamvas Pro 24",
                                              "Type":  "PENDISPLAY",
@@ -1767,6 +2342,38 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT2401",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/manaul_pdf/de/Kamvas%20Pro%2024\\(4K\\",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/user-manual-90",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=HvQxDrzgbOo",
+                                                 "Title": "Brad Colbow review of Review of Huion Kamvas Pro 24 4K",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2021-09-02"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=r8k5qsgJXlM",
+                                                 "Title": "Teoh Yi Chie review of Huion Kamvas Pro 24 4K",
+                                                 "Author": "Teoh Yi Chie"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=XwD_7x2S-7g",
+                                                 "Title": "MossCharmly 2 year review Huion Kamvas Pro 24 4K",
+                                                 "Author": "MossCharmly 2 year",
+                                                 "PublishDate": "2023-12-09"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion Kamvas Pro 24 (4K)"],
                                              "Name":  "Kamvas Pro 24 4K",
                                              "Type":  "PENDISPLAY",
@@ -1832,6 +2439,34 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT2402",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=6E7fCBuXQlA",
+                                                 "Title": "Teoh on Tech - Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2026-02-01"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=QXNex8UZZi8",
+                                                 "Title": "Brad Colbow - Huion Kamvas 24 Pro (Gen 3) Review",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-10-24"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=XgOq3xCci20",
+                                                 "Title": "Trent Kaniuga - Huion Kamvas Pro 24 Gen 3 Review",
+                                                 "Author": "Trent Kaniuga",
+                                                 "PublishDate": "2026-07-02"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 24 GEN3",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -2009,6 +2644,30 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H1061P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/H1061P.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/165acwt/extremely_unstable_pen_pressure_sensitivity_on_a/",
+                                                 "Author": "r/huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/L6mgOluUApE",
+                                                 "Title": "Create Now Sleep Later review of Huion Inspiroy 2 L",
+                                                 "Author": "Create Now Sleep Later"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/mgDDBJf96U8",
+                                                 "Title": "Teoh on tech review of Huion Inspiroy 2 L",
+                                                 "Author": "Teoh on tech"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion H1061P"],
                                              "Name":  "Inspiroy 2 L",
                                              "Type":  "PENTABLET",
@@ -2661,6 +3320,34 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "HS611",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.huion.com/user-manual-69",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=1RcUCSL5azU",
+                                                 "Title": "Teoh on Tech review of Huion HS611",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2021-02-14"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=IHV7LsbxqsU",
+                                                 "Title": "Brad Colbow review of Huion HS611",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2020-03-23"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=WEXXbXDrd-Y",
+                                                 "Title": "Nemanja Sekulic review of Huion HS611",
+                                                 "Author": "Nemanja Sekulic",
+                                                 "PublishDate": "2020-04-28"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion HS611"],
                                              "Name":  "HS611",
                                              "Type":  "PENTABLET",
@@ -2789,6 +3476,47 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "L610",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://driverdl.huion.com/instruction/en/User_Manual_inspiroy_frego_EN.pdf",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Inspiroy-Frego-M.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Inspiroy-Frego-S.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1iltd0r/brand_new_inspiroy_frego_m_has_air_bubbles_under/",
+                                                 "Author": "r/huion"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/huion/comments/1qg6ziq/bubbles_on_huion_inspiroy_frego_m/",
+                                                 "Author": "r/huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=3-Cl9_xKKKE"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=OpVhKZVFusQ",
+                                                 "Title": "Review of Huion Inspiroy Frego (L610)",
+                                                 "PublishDate": "2024-09-01"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Oq6KeACQo68"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy Frego M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
@@ -3003,6 +3731,22 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q630M",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/mXKoWtvKDi0",
+                                                 "Title": "Create Now Sleep Later review of Huion Inspiroy Dial 2",
+                                                 "Author": "Create Now Sleep Later",
+                                                 "PublishDate": "2022-08-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/OCNsJ1gqnZ0",
+                                                 "Title": "Teoh on Tech review of Huion Inspiroy Dial 2",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2022-08-16"
+                                               }
+                                             ],
                                              "OTDNames":  ["Huion Q630M"],
                                              "Name":  "Inspiroy Dial 2",
                                              "Type":  "PENTABLET",
@@ -3643,6 +4387,38 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2203",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/kamvas-22-gen-3",
+                                                 "Title": "GS2203 Product Page",
+                                                 "Author": "Huion"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=2mSJLNawCO4",
+                                                 "Title": "Gartzia Artz - HUION IS BACK | Kamvas 22 gen 3 The new Queen Great Quality/Price",
+                                                 "Author": "Gartzia Artz"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=IDvACjevj2A",
+                                                 "Title": "Adam Duff LUCIDPIXUL - HUION Kamvas 22 (Gen 3) - A Turning Point For Huion!",
+                                                 "Author": "Adam Duff LUCIDPIXUL"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Mbijan2Gm9U",
+                                                 "Title": "Teoh on Tech - Huion Kamvas 22 (Gen 3) review: Sleek upgrade",
+                                                 "Author": "Teoh on Tech"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=OkoLPFYgiRU",
+                                                 "Title": "Brad Colbow - Huion Kamvas 22 (Gen 3) Review",
+                                                 "Author": "Brad Colbow"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 22 GEN3",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2026",

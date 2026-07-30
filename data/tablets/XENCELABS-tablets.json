@@ -137,6 +137,51 @@
       "Model": {
         "Brand": "XENCELABS",
         "Id": "LPH2412U-A",
+        "Links": [
+          {
+            "Type": "DISCUSSION",
+            "URL": "https://www.reddit.com/r/drawingtablet/comments/14y8xl7/xencelabs_pen_display_24_review/",
+            "Author": "r/drawingtablet"
+          },
+          {
+            "Type": "DISCUSSION",
+            "URL": "https://www.reddit.com/r/drawingtablet/comments/173v9je/comment/k5geg5x/?utm_source=share\\&utm_medium=web2x\\&context=3",
+            "Author": "r/drawingtablet"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.xencelabs.com/us/products/pen-display",
+            "Author": "Xencelabs"
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=jLEj12-um3A",
+            "Title": "Teoh on Tech - Xencelabs Pen Display 24 Announcement + My Thoughts",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2023-03-28"
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=o6R07naf2es",
+            "Title": "MobileTechReview review of Xencelabs Pen Display 24",
+            "Author": "MobileTechReview",
+            "PublishDate": "2024-03-19"
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=Woe0_XSUtLE",
+            "Title": "Grant Abbitt - Is the Xencelabs Pen Display 24\" a Serious Challenger to the Wacom Cintiq Pro",
+            "Author": "Grant Abbitt",
+            "PublishDate": "2023-09-14"
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://youtu.be/sr76rKKO4iQ",
+            "Title": "Brad Colbow - Xencelabs Pen Display 24 Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2023-06-04"
+          }
+        ],
         "Name": "Pen Display 24",
         "Type": "PENDISPLAY",
         "LaunchYear": "2023",
@@ -193,6 +238,26 @@
       "Model": {
         "Brand": "XENCELABS",
         "Id": "LPH1612U-A",
+        "Links": [
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.xencelabs.com/us/products/pen-display-16",
+            "Author": "Xencelabs"
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=FCuVrJMncKI",
+            "Title": "The Honest Laborers Review - Xencelabs 16-inch 4K Pen Display Hands-On and Test",
+            "Author": "The Honest Laborers Review"
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=zGkTjf5HoB4",
+            "Title": "Grant Abbitt - Review of Xencelabs Pen DIsplay 16",
+            "Author": "Grant Abbitt",
+            "PublishDate": "2024-08-07"
+          }
+        ],
         "Name": "Pen Display 16 Lite",
         "Type": "PENDISPLAY",
         "LaunchYear": "2024",

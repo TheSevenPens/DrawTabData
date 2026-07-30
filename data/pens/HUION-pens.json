@@ -116,6 +116,19 @@
                      "EntityId":  "huion.pen.pw100",
                      "Brand":  "HUION",
                      "PenId":  "PW100",
+                     "Links":  [
+                       {
+                         "Type": "ARCHIVE",
+                         "URL": "https://archive.is/4Hxx7",
+                         "Title": "Product page  (archived)"
+                       },
+                       {
+                         "Type": "STORE",
+                         "URL": "https://store.huion.com/products/battery-free-pen-pw100",
+                         "Title": "Store page",
+                         "Author": "Huion"
+                       }
+                     ],
                      "PenName":  "PW100",
                      "PenFamily":  "",
                      "PenYear":  "2015",
@@ -140,6 +153,19 @@
                      "EntityId":  "huion.pen.pw110",
                      "Brand":  "HUION",
                      "PenId":  "PW110",
+                     "Links":  [
+                       {
+                         "Type": "ARCHIVE",
+                         "URL": "https://archive.is/0mrnS",
+                         "Title": "Store page (archived)"
+                       },
+                       {
+                         "Type": "STORE",
+                         "URL": "https://store.huion.com/products/battery-free-pen-pw110",
+                         "Title": "Store page",
+                         "Author": "Huion"
+                       }
+                     ],
                      "PenName":  "PW110",
                      "PenFamily":  "",
                      "PenYear":  "2023",
@@ -208,6 +234,14 @@
                      "EntityId":  "huion.pen.pw500",
                      "Brand":  "HUION",
                      "PenId":  "PW500",
+                     "Links":  [
+                       {
+                         "Type": "STORE",
+                         "URL": "https://store.huion.com/products/battery-free-pen-pw500",
+                         "Title": "Store page",
+                         "Author": "Huion"
+                       }
+                     ],
                      "PenName":  "PW500",
                      "PenFamily":  "",
                      "PenYear":  "2018",
@@ -232,6 +266,14 @@
                      "EntityId":  "huion.pen.pw507",
                      "Brand":  "HUION",
                      "PenId":  "PW507",
+                     "Links":  [
+                       {
+                         "Type": "STORE",
+                         "URL": "https://store.huion.com/products/battery-free-pen-pw507",
+                         "Title": "Store page",
+                         "Author": "Huion"
+                       }
+                     ],
                      "PenName":  "PW507",
                      "PenFamily":  "",
                      "PenYear":  "2018",
@@ -256,6 +298,20 @@
                      "EntityId":  "huion.pen.pw517",
                      "Brand":  "HUION",
                      "PenId":  "PW517",
+                     "Links":  [
+                       {
+                         "Type": "STORE",
+                         "URL": "https://store.huion.com/products/battery-free-pen-pw517",
+                         "Title": "Store page",
+                         "Author": "Huion"
+                       },
+                       {
+                         "Type": "NOTE",
+                         "URL": "https://youtu.be/vk4DlVGU6-Q",
+                         "Title": "Huion PW550 pen versus PW517 pen",
+                         "Author": "SevenPens"
+                       }
+                     ],
                      "PenName":  "PW517",
                      "PenFamily":  "",
                      "PenYear":  "2020",
@@ -280,6 +336,21 @@
                      "EntityId":  "huion.pen.pw550",
                      "Brand":  "HUION",
                      "PenId":  "PW550",
+                     "Links":  [
+                       {
+                         "Type": "STORE",
+                         "URL": "https://store.huion.com/posts/introducing-huion-pentech3.0+-pw550-pw550s",
+                         "Title": "Huion - Introducing Huion PenTech 3.0+ and PW550/PW550S",
+                         "Author": "Huion",
+                         "PublishDate": "2023-03-30"
+                       },
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://youtu.be/vk4DlVGU6-Q",
+                         "Title": "Huion PW550 pen versus PW517 pen",
+                         "Author": "SevenPens"
+                       }
+                     ],
                      "PenName":  "PW550",
                      "PenFamily":  "huion.penfamily.huion_pw550",
                      "PenYear":  "2024",

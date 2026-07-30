@@ -82,6 +82,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "ModelName", label: "Name", getValue: (t) => t.Model.Name, type: "string", group: "Model" },
   { key: "AlternateNames", label: "Alternate Names", getValue: (t) => (t.Model.AlternateNames ?? []).join(", "), type: "string", group: "Model" },
   { key: "OTDNames", label: "OTD Names", getValue: (t) => (t.Model.OTDNames ?? []).join(", "), type: "string", group: "Model" },
+  { key: "LinkCount", label: "Links", getValue: (t) => { const n = (t.Model.Links ?? []).length; return n ? String(n) : ""; }, type: "number", group: "Model" },
   { key: "ModelType", label: "Type", getValue: (t) => t.Model.Type, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY", "STANDALONE"], group: "Model" },
   { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.Model.LaunchYear, type: "number", group: "Model" },
   { key: "ReleaseDate", label: "Release Date", getValue: (t) => t.Model.ReleaseDate ?? "", type: "string", group: "Model" },

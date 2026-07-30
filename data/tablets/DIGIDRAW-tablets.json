@@ -50,6 +50,14 @@
       "Model": {
         "Brand": "DIGIDRAW",
         "Id": "T610",
+        "Links": [
+          {
+            "Type": "REVIEW",
+            "URL": "https://youtube.com/live/YSzg_U_3Rn0?feature=share",
+            "Title": "Testing Livestream",
+            "Author": "SevenPens"
+          }
+        ],
         "Name": "Turing Basic M",
         "Type": "PENTABLET",
         "LaunchYear": "2025",

@@ -65,6 +65,27 @@ const MetaSchema = v.strictObject({
   _ModifiedDate: IsoDateString,
 });
 
+// One external reference link on a tablet/pen entity, curated from
+// DrawingTabletDocs via the /links-review page. URL is a key — store it
+// verbatim; the other fields are best-effort descriptors.
+export const LinkTypeSchema = v.picklist([
+  "REVIEW",
+  "TUTORIAL",
+  "PRODUCTINFO",
+  "USERMANUAL",
+  "STORE",
+  "DISCUSSION",
+  "ARCHIVE",
+  "NOTE",
+]);
+export const LinkSchema = v.strictObject({
+  Type: LinkTypeSchema,
+  URL: TrimmedString,
+  Title: v.optional(TrimmedString),
+  Author: v.optional(TrimmedString),
+  PublishDate: v.optional(TrimmedString),
+});
+
 const ModelSchema = v.strictObject({
   Brand: BrandEnum,
   Id: TrimmedString,
@@ -102,6 +123,9 @@ const ModelSchema = v.strictObject({
   // macOS can differ — e.g. Intuos 4 is Win 6.3.41-1 vs macOS 6.3.41-2.
   LastSupportedWindowsDriver: v.optional(TrimmedString),
   LastSupportedMacOSDriver: v.optional(TrimmedString),
+  // External reference links (reviews, product pages, manuals, …), curated
+  // from DrawingTabletDocs via /links-review. See LinkSchema.
+  Links: v.optional(v.array(LinkSchema)),
   Notes: v.optional(TrimmedString),
 });
 
@@ -217,6 +241,8 @@ export const PenSchema = v.strictObject({
   IAF: v.optional(NumericString),
   Tags: v.optional(v.array(TrimmedString)),
   Notes: v.optional(TrimmedString),
+  // External reference links, curated from DrawingTabletDocs. See LinkSchema.
+  Links: v.optional(v.array(LinkSchema)),
   _id: UuidString,
   _CreateDate: IsoDateString,
   _ModifiedDate: IsoDateString,
@@ -494,6 +520,7 @@ export const VersionInfoSchema = v.strictObject({
 // --- Inferred types ---
 
 export type Tablet = v.InferOutput<typeof TabletSchema>;
+export type Link = v.InferOutput<typeof LinkSchema>;
 export type Dimensions = v.InferOutput<typeof DimensionsSchema>;
 export type ColorGamuts = v.InferOutput<typeof ColorGamutsSchema>;
 export type Pen = v.InferOutput<typeof PenSchema>;

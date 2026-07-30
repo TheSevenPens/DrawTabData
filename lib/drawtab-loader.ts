@@ -3,7 +3,7 @@
 import type { Loader } from "@thesevenpens/queriton";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 
-export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, PressureRange, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile, OTDAuditStatus, OTDEntityAudit } from "./schemas.js";
+export type { Tablet, Dimensions, ColorGamuts, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, PressureRange, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile, OTDAuditStatus, OTDEntityAudit, Link } from "./schemas.js";
 
 import type { Tablet, Dimensions, Pen, PenFamily, TabletFamily, Driver, Brand, PressureResponse, VersionInfo, WacomUpdateProduct, OTDTablet, OTDConfigFile, OTDAuditStatus } from "./schemas.js";
 

@@ -839,6 +839,66 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTC-133",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTC133.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "STORE",
+                                                 "URL": "https://estore.wacom.com/en-us/wacom-one-x-shape-cable.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/wacom/comments/kkfip3/summary_of_pens_including_double_button_pens/",
+                                                 "Title": "Summary of pens (including double button pens) available for wacom one pen displa",
+                                                 "Author": "r/wacom"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/wacom/comments/s3go3g/what_pens_are_compatible_with_the_wacom_one/",
+                                                 "Author": "r/wacom",
+                                                 "PublishDate": "2022-01-13"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/comp",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=D4DFFH-hPr8",
+                                                 "Title": "Aaron Rutten review of Wacom One 2019 DTC-133",
+                                                 "Author": "Aaron Rutten"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=EFvpOWZDGUU",
+                                                 "Title": "Brad Colbow review of Wacom One 2018 DTC-133",
+                                                 "Author": "Brad Colbow"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Hv2dpHkLAOE",
+                                                 "Title": "Teoh On Tech review of Wacom One 2019 DTC-133",
+                                                 "Author": "Teoh On Tech"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=rCXvaMhW3xI",
+                                                 "Title": "Teoh on Tech - Wacom One pen vs other EMR pens",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2023-09-07"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/VPbAUF7AZhA",
+                                                 "Title": "Create Now Sleep Later review of Wacom One 2019 DTC-133",
+                                                 "Author": "Create Now Sleep Later"
+                                               }
+                                             ],
                                              "OTDNames":  ["Wacom DTC-133"],
                                              "Name":  "Wacom One 2019",
                                              "Type":  "PENDISPLAY",
@@ -900,6 +960,20 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTC-141",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=GKxx9Vwz79U",
+                                                 "Title": "Brad Colbow - Review of the Wacom One 14",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-11-10"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom One 14",
                                              "Type":  "PENDISPLAY",
@@ -1073,6 +1147,61 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-135",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH135TOC.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "STORE",
+                                                 "URL": "https://estore.wacom.com/en-us/wacom-converter-ack45219z.html",
+                                                 "Title": "**Wacom Converter (ACK45219Z)**",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "STORE",
+                                                 "URL": "https://estore.wacom.com/en-us/wacom-one-3-in-1-cable-ack4490602z.html",
+                                                 "Title": "**3-in-1 Cable for Wacom One 2023 Pen Displays (ACK4490602Z)**",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/wacom/comments/1d16v5d/psa_the_new_movink_only_work_on_thunderbolt_usb4/",
+                                                 "Title": "reddit r/wacom - PSA: The new Movink only work on Thunderbolt / USB4 port",
+                                                 "Author": "r/wacom",
+                                                 "PublishDate": "2024-05-26"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "TUTORIAL",
+                                                 "URL": "https://www.youtube.com/watch?v=c_NEKl4MXX0",
+                                                 "Title": "Wacom - Wacom Movink OLED pen display unboxing and setup Android",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=ifWwffBQ8VQ",
+                                                 "Title": "Teoh on Tech - Review of Wacom Movink 13",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2024-11-15"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=VANNNQkPvfg"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Y3ASJNcFinI",
+                                                 "Title": "Brad Colbow - Review of Wacom Movink 13",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-05-16"
+                                               }
+                                             ],
                                              "OTDNames":  ["Wacom Movink 13 (DTH-135)"],
                                              "Status":  "ACTIVE",
                                              "Name":  "Movink 13",
@@ -1193,6 +1322,37 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-167",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH167.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=0B8cNzyO4bs",
+                                                 "Title": "Brad Colbow review of Cintiq Pro 16",
+                                                 "Author": "Brad Colbow"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=IU-QOOB2AsU",
+                                                 "Title": "MobileTechReview review of Cintiq Pro 16",
+                                                 "Author": "MobileTechReview"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=oROcuvimy18",
+                                                 "Title": "Aaron Blaise review of Cintiq Pro 16",
+                                                 "Author": "Aaron Blaise"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=v9pWwWE_vRM",
+                                                 "Title": "Aaron Rutten review of Cintiq Pro 16",
+                                                 "Author": "Aaron Rutten"
+                                               }
+                                             ],
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Cintiq Pro 16 2021",
                                              "Type":  "PENDISPLAY",
@@ -1254,6 +1414,19 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-172",
+                                             "Links":  [
+                                               {
+                                                 "Type": "STORE",
+                                                 "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=JBn727A9pAc",
+                                                 "Title": "Brad Colbow review of Cintiq Pro 17",
+                                                 "Author": "Brad Colbow"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Cintiq Pro 17",
                                              "Type":  "PENDISPLAY",
@@ -1318,6 +1491,23 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-227",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH227.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://support.wacom.com/hc/en-us/articles/1500006268761-What-accessories-are-available-for-my-Wacom-Cintiq-22",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-overview",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Cintiq Pro 22",
                                              "Type":  "PENDISPLAY",
@@ -1443,6 +1633,39 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-246",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=0mXPOLiSNv0",
+                                                 "Title": "Brad Colbow - Wacom Cintiq 24 Touch Review",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-07-28"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Oo4m5EgCSWE",
+                                                 "Title": "Aaron Rutten - review of Cintiq 24 touch",
+                                                 "Author": "Aaron Rutten",
+                                                 "PublishDate": "2025-07-01"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtube.com/live/1q3xNSkTW54?feature=share",
+                                                 "Title": "Drawing",
+                                                 "PublishDate": "2025-06-25"
+                                               },
+                                               {
+                                                 "Type": "TUTORIAL",
+                                                 "URL": "https://youtube.com/live/Lm-5X-gFtuw?feature=share",
+                                                 "Title": "Unboxing and testing",
+                                                 "PublishDate": "2025-06-24"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Cintiq 24 touch 2025",
                                              "Type":  "PENDISPLAY",
@@ -1505,6 +1728,82 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-271",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH271.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://content.wacom.com/acton/attachment/43270/f-82fbd755-3ca6-41b0-8603-0d7b59d041c2/1/-/-/-/-/Wacom%20Cintiq%20Pro%2027%20Product%20Event%20Q%26A_Oct%202022.pdf?sid=TV2:AJoJnUTl8",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://support.wacom.com/hc/en-us/articles/9170502251927-What-are-the-accessory-pens-I-can-use-with-the-Wacom-Cintiq-Pro-27-2022-",
+                                                 "Title": "Wacom's list of supported pens for the Cintiq Pro 27",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/iPadPro/comments/15a5cdf/m1_ipad_pro_washed_out_colors_using_external/",
+                                                 "Title": "M1 iPad Pro washed out colors using external monitor.",
+                                                 "Author": "r/iPadPro"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/wacom/comments/14fmkvv/i_am_disappointed_to_cintiq_pro_27/",
+                                                 "Title": "I am disappointed to Cintiq Pro 27",
+                                                 "Author": "r/wacom"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/wacom/comments/15zgsoq/for_the_few_that_are_thinking_about_getting_the/",
+                                                 "Title": "For the few that are thinking about getting the new Cintiq Pro 27 stand, I highly discourage it...",
+                                                 "Author": "r/wacom"
+                                               },
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/wacom/comments/ytzpgr/cintiq_pro_27_honest_review/",
+                                                 "Title": "Reddit /u/DreamStitcher review of Cintiq Pro 27",
+                                                 "Author": "r/wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=biol42fF0a0",
+                                                 "Title": "Create Now Sleep Later review of Cintiq Pro 27",
+                                                 "Author": "Create Now Sleep Later"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=gmISfMqr8Rg",
+                                                 "Title": "Adam Duff - WACOM CINTIQ PRO 27 (vs Cintiq Pro 22, Cintiq 24, Xencelabs 24 & Huion Kamvas Pro 24 (gen 3)",
+                                                 "Author": "Adam Duff",
+                                                 "PublishDate": "2026-01-28"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/gKRxy3Yjjoo",
+                                                 "Title": "Bara AlMakadma review of Cintiq Pro 27",
+                                                 "Author": "Bara AlMakadma",
+                                                 "PublishDate": "2022-10-28"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/LybW8WZBrrg",
+                                                 "Title": "Aaron Rutten review of Cintiq Pro 27",
+                                                 "Author": "Aaron Rutten",
+                                                 "PublishDate": "2022-10-14"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/x59b4nR3Y3E",
+                                                 "Title": "Brad Colbow review of Cintiq Pro 27",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2022-10-14"
+                                               }
+                                             ],
                                              "OTDNames":  ["Wacom Cintiq Pro 27 (DTH-271)"],
                                              "Status":  "ACTIVE",
                                              "Name":  "Cintiq Pro 27",
@@ -1691,6 +1990,46 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-1660",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660E.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/support/wiki_migration/c/cd/dtk-1660_en.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=ye8R0LAbkiE",
+                                                 "Title": "Brad Colbow review of Wacom Cintiq 16",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2019-01-08"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/6_tMU5z6s9s",
+                                                 "Title": "Ross Draws review of Wacom Cintiq 16",
+                                                 "Author": "Ross Draws",
+                                                 "PublishDate": "2019-02-22"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/nXrFULq096A",
+                                                 "Title": "Aaron Rutten review of Wacom Cintiq 16",
+                                                 "Author": "Aaron Rutten",
+                                                 "PublishDate": "2019-01-07"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/v4qDRupCLHY",
+                                                 "Title": "MobileTechReview review of Wacom Cintiq 16",
+                                                 "Author": "MobileTechReview",
+                                                 "PublishDate": "2019-01-08"
+                                               }
+                                             ],
                                              "OTDNames":  ["Wacom Cintiq 16 (DTK1660)"],
                                              "Name":  "Cintiq 16",
                                              "Type":  "PENDISPLAY",
@@ -1752,6 +2091,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-168",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Cintiq 16 2025",
                                              "Type":  "PENDISPLAY",
@@ -1928,6 +2274,56 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2260",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=02kg7Oxxd20",
+                                                 "Title": "Ross Draws review of Wacom Cintiq 22 (DTK-2260)",
+                                                 "Author": "Ross Draws",
+                                                 "PublishDate": "2019-08-23"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=03XtX5Gg76g",
+                                                 "Title": "MobileTechReview review of Wacom Cintiq 22",
+                                                 "Author": "MobileTechReview",
+                                                 "PublishDate": "2019-07-19"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=662QvZMik4U",
+                                                 "Title": "Brad Colbow review of Wacom Cintiq 22 (DTK-2260)",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2019-07-18"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Pr1bAqkNhV4",
+                                                 "Title": "teardown 2"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=zip2xj-nBIw",
+                                                 "Title": "teardown 1"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/xBPNyYX6zi8",
+                                                 "Title": "Aaron Rutten review of Wacom Cintiq 22",
+                                                 "Author": "Aaron Rutten",
+                                                 "PublishDate": "2019-07-17"
+                                               }
+                                             ],
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Cintiq 22",
                                              "Type":  "PENDISPLAY",
@@ -2165,6 +2561,33 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2700",
+                                             "Links":  [
+                                               {
+                                                 "Type": "ARCHIVE",
+                                                 "URL": "https://archive.is/nlTKO",
+                                                 "Title": "archive"
+                                               },
+                                               {
+                                                 "Type": "STORE",
+                                                 "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
+                                                 "Title": "product page",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/G8SYYpnXmHk",
+                                                 "Title": "Jazza review of Wacom Cintiq 27 QHD",
+                                                 "Author": "Jazza",
+                                                 "PublishDate": "2016-02-07"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/rzzB2_iiJQA",
+                                                 "Title": "Aaron Rutten review of Wacom Cintiq 27 QHD",
+                                                 "Author": "Aaron Rutten",
+                                                 "PublishDate": "2016-11-07"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 27 QHD",
@@ -3126,6 +3549,12 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-1240",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/Tv_qX1Z9-wI"
+                                               }
+                                             ],
                                              "OTDNames":  ["Wacom PTK-1240"],
                                              "LastSupportedWindowsDriver":  "6.3.41-1",
                                              "LastSupportedMacOSDriver":  "6.3.41-2",
@@ -4131,6 +4560,83 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-A116",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://support.wacom.com/hc/en-us/articles/33513200455703-What-Pens-are-compatible-with-the-Wacom-MovinkPad-11",
+                                                 "Title": "Wacom Support - What Pens are compatible with the Wacom MovinkPad 11?",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://support.wacom.com/hc/en-us/articles/33515643760151-What-is-the-supported-optional-accessories-can-be-use-on-Wacom-MovinkPad-11",
+                                                 "Title": "Wacom - What is the supported optional accessories can be use on Wacom MovinkPad 11?",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/getting-started/wacom-movinkpad-11",
+                                                 "Title": "Wacom - Getting Started with Movink 11",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-11",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=9Pr9Et7_ezY",
+                                                 "Title": "Aaron Rutten - Review of MovinkPad 11",
+                                                 "Author": "Aaron Rutten",
+                                                 "PublishDate": "2025-07-31"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=CmspIjH5XgE",
+                                                 "Title": "Teoh on Tech - Wacom MovinkPad 11 with other EMR pens",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-09-03"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
+                                                 "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+                                                 "Author": "Brad Colbow"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=rgoyTfEkLrQ",
+                                                 "Title": "Teoh on Tech - Review of Wacom MovinkPad 11",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-08-24"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=SY2cBbGFpCE",
+                                                 "Title": "Teoh on Tech - Note taking on the Wacom MovinkPad 11",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-09-09"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=TnGji_u53UQ",
+                                                 "Title": "Brad Colbow - Review of MovinkPad 11",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-08-07"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=xQR-sIQNExg",
+                                                 "Title": "Gartzia Artz - Review of Wacom MovinkPad 11",
+                                                 "Author": "Gartzia Artz",
+                                                 "PublishDate": "2025-07-31"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/NK2_dIGQKk8"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom MovinkPad 11",
                                              "Type":  "STANDALONE",
@@ -4204,6 +4710,58 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-A140",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=CRxC_tyyUCk",
+                                                 "Title": "Teoh on Tech - Wacom MovinkPad Pro 14 review",
+                                                 "Author": "Teoh on Tech"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Hizl2R9qTGM",
+                                                 "Title": "Teoh on Tech - Apple nano-texture glass vs MovinkPad Pro 14 matte glass",
+                                                 "Author": "Teoh on Tech"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=L2A1lis4_Ng",
+                                                 "Title": "Gartzia Arts - Review of MovinkPad Pro 14",
+                                                 "Author": "Gartzia Arts",
+                                                 "PublishDate": "2025-12-16"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=lpBGmiO4f7I",
+                                                 "Title": "Brad Colbow - Review MovinkPad Pro 14",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-10-17"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
+                                                 "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+                                                 "Author": "Brad Colbow"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=NK2_dIGQKk8",
+                                                 "Title": "Seven Pens - Budget Android Drawing Tablet Recommendations for 2025",
+                                                 "Author": "Seven Pens"
+                                               },
+                                               {
+                                                 "Type": "TUTORIAL",
+                                                 "URL": "https://www.youtube.com/watch?v=xAZpMpdyWes",
+                                                 "Title": "Adam Duff - Wacom MovinkPad Pro 14 - Secret Settings / Accessories / Setup Guide",
+                                                 "Author": "Adam Duff",
+                                                 "PublishDate": "2026-03-05"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom MovinkPad Pro 14",
                                              "Type":  "STANDALONE",

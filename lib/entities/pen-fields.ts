@@ -99,6 +99,7 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   { key: "PenYear", label: "Year", getValue: (p) => p.PenYear, type: "number", group: "Model" },
   { key: "Notes", label: "Notes", getValue: (p) => p.Notes ?? '', type: "string", group: "Model" },
   { key: "Tags", label: "Tags", getValue: (p) => (p.Tags ?? []).join(', '), type: "string", group: "Model" },
+  { key: "LinkCount", label: "Links", getValue: (p) => { const n = (p.Links ?? []).length; return n ? String(n) : ''; }, type: "number", group: "Model" },
   {
     key: "UnitsInInventory", label: "Units in Inventory",
     computed: true, type: "number", group: "Model",

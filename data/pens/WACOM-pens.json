@@ -313,6 +313,32 @@
                      "EntityId":  "wacom.pen.acp500",
                      "Brand":  "WACOM",
                      "PenId":  "ACP-500",
+                     "Links":  [
+                       {
+                         "Type": "PRODUCTINFO",
+                         "URL": "https://community.wacom.com/en-pe/craftsmanship-wacom-pro-pen-3/",
+                         "Title": "Wacom - \"Igniting the creativity of professional artists! The pride of Wacom – Wacom Pro Pen 3\"",
+                         "Author": "Wacom",
+                         "PublishDate": "2025-01-25"
+                       },
+                       {
+                         "Type": "DISCUSSION",
+                         "URL": "https://www.reddit.com/r/wacom/comments/1p3p2ba/round_2",
+                         "Author": "r/wacom"
+                       },
+                       {
+                         "Type": "DISCUSSION",
+                         "URL": "https://www.reddit.com/r/wacom/comments/1rv3evg/the_chinese_made_pro_pen3_25b_vs_the_vietnam_made/",
+                         "Title": "The Chinese made Pro Pen3 (25B) vs the Vietnam made Pro Pen3 (25G)",
+                         "Author": "r/wacom",
+                         "PublishDate": "2026-03-16"
+                       },
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://www.youtube.com/watch?v=y0LJAcmI7aM",
+                         "Title": "Wacom Pro Pen 3: All You Need to Know"
+                       }
+                     ],
                      "PenName":  "Pro Pen 3",
                      "PenFamily":  "wacom.penfamily.wacom_acp",
                      "PenYear":  "2022",
@@ -496,6 +522,36 @@
                      "EntityId":  "wacom.pen.acp700",
                      "Brand":  "WACOM",
                      "PenId":  "ACP-700",
+                     "Links":  [
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://www.youtube.com/watch?v=atE9QHINugE",
+                         "Title": "Teoh on Tech - Wacom Art Pen 2 (first impression)",
+                         "Author": "Teoh on Tech",
+                         "PublishDate": "2026-06-14"
+                       },
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://www.youtube.com/watch?v=flw33WHaqJ8",
+                         "Title": "Aaron Rutten - Wacom Art Pen 2 Review",
+                         "Author": "Aaron Rutten",
+                         "PublishDate": "2026-07-18"
+                       },
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://www.youtube.com/watch?v=gVBSL0GotZM",
+                         "Title": "Brad Colbow - Wacom Art Pen 2 Review",
+                         "Author": "Brad Colbow",
+                         "PublishDate": "2026-06-15"
+                       },
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://www.youtube.com/watch?v=LDgyKnX_Vao",
+                         "Title": "JEEJON - Wacom Movink 13 review in 2026 with Art Pen 2",
+                         "Author": "JEEJON",
+                         "PublishDate": "2026-05-22"
+                       }
+                     ],
                      "PenName":  "Art Pen 2",
                      "PenFamily":  "wacom.penfamily.wacom_acp",
                      "PenYear":  "2026",
@@ -852,6 +908,12 @@
                      "EntityId":  "wacom.pen.cp923",
                      "Brand":  "WACOM",
                      "PenId":  "CP-923",
+                     "Links":  [
+                       {
+                         "Type": "REVIEW",
+                         "URL": "https://youtu.be/415ngQOHiME"
+                       }
+                     ],
                      "PenName":  "Wacom One Standard Pen",
                      "PenFamily":  "wacom.penfamily.wacom_cp",
                      "PenYear":  "2023",

@@ -678,6 +678,19 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD130FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://download01.xp-pen.com/file/2022/07/Artist%20Series%20Drawing%20Display%20\\(2nd%20Gen\\",
+                                                 "Title": "user manual",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/ie-store/buy/artist-13-2nd-generation.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 13 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -738,6 +751,33 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD160FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-16-2nd-gen.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/__NHuTlg-lE",
+                                                 "Title": "Teoh on Tech: XP-Pen Artist 16 GEN2 Cursor Tracking & Offset test",
+                                                 "PublishDate": "2022-06-06"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/0yKRSAE8_Ng",
+                                                 "Title": "Teoh on Tech review of XP-Pen Artist 16 GEN2",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2022-05-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/4czV7jv9mPg",
+                                                 "Title": "Brad Colbow review of XP-Pen Artist 16 GEN2",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2022-06-01"
+                                               }
+                                             ],
                                              "Name":  "Artist 16 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -1095,6 +1135,25 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 01",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
+                                                 "Title": "Brad Colbow - Review of Deco 01 V3",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2026-04-30"
+                                               }
+                                             ],
                                              "OTDNames":  ["XP-Pen Deco 01"],
                                              "Name":  "Deco 01",
                                              "Type":  "PENTABLET",
@@ -1181,6 +1240,25 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 01 V3",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
+                                                 "Title": "Brad Colbow - Review of Deco 01 V3",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2026-04-30"
+                                               }
+                                             ],
                                              "Name":  "Deco 01 V3",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
@@ -1678,6 +1756,18 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "IT1060",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/download/deco-lw.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "OTDNames":  ["XP-Pen Deco L"],
                                              "Name":  "Deco L",
                                              "Type":  "PENTABLET",
@@ -1712,6 +1802,18 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "IT1060B",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/download/deco-lw.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco LW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1940,6 +2042,43 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD160QH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-16-gen-2.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/store/buy/3-in-1-cable-for-artist-2nd-gen-series-display.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.xp-pen.com/user-manual/artist-pro-16-2nd.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=41pv6STOBhY",
+                                                 "Title": "MossCharmly - Huion Kamvas Pro 16 vs. XPpen Artist Pro 16",
+                                                 "Author": "MossCharmly"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/d3Th_HD0tbE?si=5tIvFmxSM2nvS1jh",
+                                                 "Title": "Grant Abbitt review of XPPen Artist Pro (GEN 2)",
+                                                 "Author": "Grant Abbitt",
+                                                 "PublishDate": "2023-08-20"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/sc4tebm4TTw?si=Y18_c25g6BUvzwk3",
+                                                 "Title": "Teoh on Tech review of XPPen Artist Pro 16 (GEN 2) review",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2023-09-09"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 16 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -1997,6 +2136,29 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD160U",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
+                                                 "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
+                                                 "Author": "XP-Pen",
+                                                 "PublishDate": "2025-09-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
+                                                 "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-09-30"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
+                                                 "Title": "XP-Pen - Meet the Artist 16 Ultra",
+                                                 "Author": "XP-Pen",
+                                                 "PublishDate": "2025-09-25"
+                                               }
+                                             ],
                                              "OTDNames":  ["XP-Pen Artist Pro 16TP"],
                                              "Name":  "Artist Pro 16TP",
                                              "Type":  "PENDISPLAY",
@@ -2056,6 +2218,29 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD160UH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
+                                                 "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
+                                                 "Author": "XP-Pen",
+                                                 "PublishDate": "2025-09-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
+                                                 "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-09-30"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
+                                                 "Title": "XP-Pen - Meet the Artist 16 Ultra",
+                                                 "Author": "XP-Pen",
+                                                 "PublishDate": "2025-09-25"
+                                               }
+                                             ],
                                              "Name":  "Artist Ultra 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -2182,6 +2367,34 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD180UH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-19-gen-2.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=d51hmYgfz5E",
+                                                 "Title": "Teoh on Tech - Review of XP-Pen Artist Pro 19 (GEN2)",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2024-10-22"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=d8Ft3b002LM",
+                                                 "Title": "David Review - Review of XP-Pen Artist Pro 19 GEN2",
+                                                 "Author": "David Review",
+                                                 "PublishDate": "2024-11-20"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=eByrnaa0vf8",
+                                                 "Title": "Brad Colbow - XP Pen Artist Pro 19 (GEN 2) Review",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2024-08-27"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 19 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -2238,6 +2451,15 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD220FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=YfEfGOJOQJs",
+                                                 "Title": "Brad Colbow review of XP-Pen Artist 22 Plus",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2023-11-20"
+                                               }
+                                             ],
                                              "Name":  "Artist 22 Plus",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -2295,6 +2517,24 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD220QH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-22-gen-2.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.xp-pen.com/user-manual/artist-pro-22-gen-2.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=PMscqe2rO1M",
+                                                 "Title": "Teoh on Tech - review of XP-Pen Artist Pro 22",
+                                                 "Author": "Teoh on Tech"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 22 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -2568,6 +2808,32 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MT1592B",
+                                             "Links":  [
+                                               {
+                                                 "Type": "DISCUSSION",
+                                                 "URL": "https://www.reddit.com/r/XPpen/comments/1h66ei5/beware_of_the_deco_pro_gen_2_rant/",
+                                                 "Author": "r/XPpen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=itnwkJVlWiw",
+                                                 "Title": "EyekooDrawsStuff review of XP-Pen Deco Pro GEN2",
+                                                 "Author": "EyekooDrawsStuff",
+                                                 "PublishDate": "2024-11-29"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/h8NG0zmYdtE",
+                                                 "Title": "Teoh on Tech review of XP-Pen Deco Pro GEN2",
+                                                 "Author": "Teoh on Tech"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtu.be/pRLBRTWPlQU",
+                                                 "Title": "Joseph Montanez XP-Pen Deco Pro GEN2 XLW",
+                                                 "PublishDate": "2023-06-20"
+                                               }
+                                             ],
                                              "OTDNames":  ["XP-Pen Deco Pro XLW Gen2"],
                                              "Name":  "Deco Pro XLW GEN2",
                                              "Type":  "PENTABLET",
@@ -2611,6 +2877,36 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD121FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-12-3rd.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "USERMANUAL",
+                                                 "URL": "https://www.xp-pen.com/user-manual/artist-12-3rd.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=jkpUTfQGLwc",
+                                                 "Title": "Teoh on Tech - Review of Artist 12 3rd",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-12-17"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=LlqGM0rjG3g",
+                                                 "Title": "Brad Colbow - Review of Artist 12 3rd",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-11-17"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://youtube.com/live/teEGX7G-gYs?feature=share"
+                                               }
+                                             ],
                                              "Name":  "Artist 12 3rd",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -2753,6 +3049,29 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MDP1221",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
+                                                 "Title": "Teoh on Tech - Review of Magic Drawing Pad 2025 with Magic Note Pad",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-08-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=I0pPUT5WoLY",
+                                                 "Title": "Michael Clarida - review of XP-Pen Magic Drawing Pad 2025",
+                                                 "Author": "Michael Clarida",
+                                                 "PublishDate": "2025-07-09"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=VivJ6R7Cmwg",
+                                                 "Title": "Teoh on Tech - Review of XP-Pen Magic Drawing Pad 2025",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-08-14"
+                                               }
+                                             ],
                                              "Name":  "Magic Drawing Pad 2025",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
@@ -2925,6 +3244,26 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD270UH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=6ilVAoFGIrc",
+                                                 "Title": "Brad Colbow - XP Pen Artist Pro 27 Review",
+                                                 "Author": "Brad Colbow"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=Vq0hs7LeZtg",
+                                                 "Title": "David Revoy - XpPen Artist Pro 27 Gen2 - review on GNU/Linux",
+                                                 "Author": "David Revoy"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=yDuRYEd732U",
+                                                 "Title": "Teoh on Tech - XPPen Artist Pro 27 (gen 2) pen display has everything",
+                                                 "Author": "Teoh on Tech"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 27 (Gen 2)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2026",
@@ -2987,6 +3326,36 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MNP1095",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
+                                                 "Title": "Teoh on Tech - Review of Magic Drawing Pad 2025 with Magic Note Pad",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-08-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=EDYnCV500ls",
+                                                 "Title": "Brad Colbow - XP Pen Magic Note Pad Review",
+                                                 "Author": "Brad Colbow",
+                                                 "PublishDate": "2025-03-20"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=NBQVDfx1WtA",
+                                                 "Title": "Teoh on Tech - Note taking and JNotes review with XPPEN MAGIC NOTE PAD",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-03-26"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.youtube.com/watch?v=yXoHq2offvU",
+                                                 "Title": "Teoh on Tech - XPPen Magic Note Pad (artist review): Read, write & draw",
+                                                 "Author": "Teoh on Tech",
+                                                 "PublishDate": "2025-03-18"
+                                               }
+                                             ],
                                              "Name":  "Magic Note Pad",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2025",
