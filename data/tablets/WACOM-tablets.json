@@ -1166,8 +1166,10 @@
                                                  "PublishDate": "2024-11-15"
                                                },
                                                {
-                                                 "Type": "REVIEW",
-                                                 "URL": "https://www.youtube.com/watch?v=VANNNQkPvfg"
+                                                 "Type": "PRODUCTINFO",
+                                                 "URL": "https://www.youtube.com/watch?v=VANNNQkPvfg",
+                                                 "Title": "Wacom interview: Movink, color science & why software, hardware go hand in hand",
+                                                 "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -2254,12 +2256,14 @@
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=Pr1bAqkNhV4",
-                                                 "Title": "teardown 2"
+                                                 "Title": "[Attempting Repairs] Wacom Cintiq 22HD (DTK-2200)",
+                                                 "Author": "The Real Phpenix"
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=zip2xj-nBIw",
-                                                 "Title": "teardown 1"
+                                                 "Title": "Another Cintiq 22HD Repair Walkthrough 1/3 different symptoms, same problem",
+                                                 "Author": "Ian Tompkins"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -3492,7 +3496,9 @@
                                              "Links":  [
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://youtu.be/Tv_qX1Z9-wI"
+                                                 "URL": "https://youtu.be/Tv_qX1Z9-wI",
+                                                 "Title": "Is an EXTRA LARGE Pen tablet right for you? (Wacom Intuos 4 XL PTK-1240)",
+                                                 "Author": "SevenPens"
                                                }
                                              ],
                                              "OTDNames":  ["Wacom PTK-1240"],
@@ -4574,7 +4580,9 @@
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://youtu.be/NK2_dIGQKk8"
+                                                 "URL": "https://youtu.be/NK2_dIGQKk8",
+                                                 "Title": "Budget Android Drawing Tablet Recommendations for 2025",
+                                                 "Author": "SevenPens"
                                                }
                                              ],
                                              "Status":  "ACTIVE",

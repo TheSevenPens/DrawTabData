@@ -14,7 +14,6 @@
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/manaul_pdf/en/Inspiroy%20Giano.pdf",
-                                                 "Title": "G930L User Manual",
                                                  "Author": "Huion"
                                                },
                                                {
@@ -156,7 +155,6 @@
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/user-manual-70",
-                                                 "Title": "GS1331 User Manual",
                                                  "Author": "Huion"
                                                },
                                                {
@@ -260,7 +258,9 @@
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://www.youtube.com/watch?v=5QG6NfIFSjU"
+                                                 "URL": "https://www.youtube.com/watch?v=5QG6NfIFSjU",
+                                                 "Title": "Notes on Huion Kamvas 13 GEN3 (GS1333)",
+                                                 "Author": "SevenPens"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -395,19 +395,18 @@
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://driverdl.huion.com/instruction/Kamvas16-Gen3/User_Manual_Kamvas16_Gen3_en.pdf",
-                                                 "Title": "GS1536 User Manual",
                                                  "Author": "Huion"
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
-                                                 "Title": "Product page",
                                                  "Author": "Huion"
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=-qmdAHY4f40",
-                                                 "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)"
+                                                 "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)",
+                                                 "Author": "SevenPens"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -426,7 +425,8 @@
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=KSmhwa6MUjM",
-                                                 "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)"
+                                                 "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 2)",
+                                                 "Author": "SevenPens"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -780,7 +780,6 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
-                                                 "Title": "GT-156 V2 Product Page",
                                                  "Author": "Huion"
                                                },
                                                {
@@ -922,20 +921,18 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
-                                                 "Title": "List of Compatible Devices Support USB-C to USB-C Connection with Huion Displays",
+                                                 "Title": "**see this doc**",
                                                  "Author": "Huion"
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
-                                                 "Title": "GT-1902 product page",
                                                  "Author": "Huion"
                                                },
                                                {
-                                                 "Type": "REVIEW",
+                                                 "Type": "USERMANUAL",
                                                  "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
-                                                 "Title": "Tutorial | How to set up Kamvas pro 19 Touch function on macOS",
-                                                 "Author": "Huion"
+                                                 "Title": "Tutorial | How to set up Kamvas pro 19 Touch function on macOS"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -955,6 +952,7 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
                                                  "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
+                                                 "Author": "Seven Pens",
                                                  "PublishDate": "2024-03-05"
                                                },
                                                {
@@ -1008,9 +1006,7 @@
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://youtu.be/CnTBrhUhciM",
-                                                 "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
-                                                 "Author": "SevenPens"
+                                                 "URL": "https://youtu.be/CnTBrhUhciM"
                                                }
                                              ],
                                              "Name":  "Kamvas GT-190",
@@ -1076,12 +1072,13 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
-                                                 "Title": "GT-1902 Product Page",
                                                  "Author": "Huion"
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8"
+                                                 "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
+                                                 "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+                                                 "Author": "Seven Pens"
                                                },
                                                {
                                                  "Type": "REVIEW",
@@ -1101,6 +1098,7 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
                                                  "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
+                                                 "Author": "SevenPens",
                                                  "PublishDate": "2024-03-05"
                                                },
                                                {
@@ -1154,7 +1152,9 @@
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://youtu.be/CnTBrhUhciM"
+                                                 "URL": "https://youtu.be/CnTBrhUhciM",
+                                                 "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+                                                 "Author": "Seven Pens"
                                                }
                                              ],
                                              "Name":  "Kamvas Pro 19",
@@ -3344,17 +3344,22 @@
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://www.youtube.com/watch?v=3-Cl9_xKKKE"
+                                                 "URL": "https://www.youtube.com/watch?v=3-Cl9_xKKKE",
+                                                 "Title": "Notes on Huion Frego M (L610)",
+                                                 "Author": "SevenPens"
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=OpVhKZVFusQ",
                                                  "Title": "Review of Huion Inspiroy Frego (L610)",
+                                                 "Author": "Create Now Sleep Later",
                                                  "PublishDate": "2024-09-01"
                                                },
                                                {
                                                  "Type": "REVIEW",
-                                                 "URL": "https://www.youtube.com/watch?v=Oq6KeACQo68"
+                                                 "URL": "https://www.youtube.com/watch?v=Oq6KeACQo68",
+                                                 "Title": "Tutorial | How to connect Kamvas 13 (Gen 3) to your Android Phone",
+                                                 "Author": "Huion"
                                                }
                                              ],
                                              "Name":  "Inspiroy Frego M",
@@ -4231,7 +4236,6 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/kamvas-22-gen-3",
-                                                 "Title": "GS2203 Product Page",
                                                  "Author": "Huion"
                                                },
                                                {
