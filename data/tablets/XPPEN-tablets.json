@@ -3410,6 +3410,55 @@
                                                   "USB":  "USB-C",
                                                   "Speakers":  "YES"
                                               }
+                           },
+                           {
+                               "Model":  {
+                                             "Brand":  "XPPEN",
+                                             "Id":  "Deco Mini7 V2",
+                                             "Name":  "Deco Mini7 V2",
+                                             "Type":  "PENTABLET",
+                                             "LaunchYear":  "2024",
+                                             "Audience":  "Consumer",
+                                             "IncludedPen":  [
+                                                                 "xppen.pen.p05d"
+                                                             ],
+                                             "ProductLink":  "https://www.xp-pen.com/product/deco-mini7-v2.html",
+                                             "Links":  [
+                                                           {
+                                                               "Type":  "PRODUCTINFO",
+                                                               "URL":  "https://www.xp-pen.com/product/deco-mini7-v2.html",
+                                                               "Title":  "Deco mini7 V2 product page",
+                                                               "Author":  "XP-Pen"
+                                                           }
+                                                       ]
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  177.8,
+                                                                    "Height":  111.1
+                                                                },
+                                                 "Density":  "200",
+                                                 "ReportRate":  "220",
+                                                 "Tilt":  "60",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  260.2,
+                                                                   "Height":  162.2,
+                                                                   "Depth":  9.3
+                                                               },
+                                                "Weight":  "307"
+                                            },
+                               "Meta":  {
+                                            "EntityId":  "xppen.tablet.decomini7v2",
+                                            "_id":  "f705d567-6479-4c6a-8a73-b721acee3f7d",
+                                            "_CreateDate":  "2026-07-31T06:08:14.540Z",
+                                            "_ModifiedDate":  "2026-07-31T06:08:14.540Z"
+                                        }
                            }
                        ]
 }
