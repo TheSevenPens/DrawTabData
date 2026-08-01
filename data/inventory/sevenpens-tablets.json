@@ -1820,6 +1820,21 @@
       "_id": "c28ed90f-fd4e-4acf-a63e-e60551768385",
       "_CreateDate": "2026-06-24T00:00:00.000Z",
       "_ModifiedDate": "2026-06-24T00:00:00.000Z"
+    },
+    {
+      "TabletEntityId": "wacom.tablet.dth3220",
+      "Brand": "WACOM",
+      "ModelId": "DTH-3220",
+      "ModelName": "Cintiq Pro 32",
+      "TabletType": "PENDISPLAY",
+      "InventoryId": "WAT.0082",
+      "Vendor": "EBAY",
+      "OrderDate": "2026-07-27",
+      "Notes": "",
+      "Tags": [],
+      "_id": "e6d10a1d-e39e-43e8-a5c1-26127900e33e",
+      "_CreateDate": "2026-08-01T00:00:00.000Z",
+      "_ModifiedDate": "2026-08-01T00:00:00.000Z"
     }
   ]
 }
