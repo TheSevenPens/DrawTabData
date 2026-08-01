@@ -10,7 +10,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist12",
-                                             "OTDNames":  ["XP-Pen Artist 12"],
                                              "Name":  "Artist 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -65,7 +64,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist12Pro",
-                                             "OTDNames":  ["XP-Pen Artist 12 Pro"],
                                              "Name":  "Artist 12 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -123,7 +121,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist13.3Pro",
-                                             "OTDNames":  ["XP-Pen Artist 13.3 Pro"],
                                              "Name":  "Artist 13.3 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -184,7 +181,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist15.6",
-                                             "OTDNames":  ["XP-Pen Artist 15.6"],
                                              "Name":  "Artist 15.6",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -237,7 +233,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist15.6Pro",
-                                             "OTDNames":  ["XP-Pen Artist 15.6 Pro"],
                                              "Name":  "Artist 15.6 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -290,7 +285,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist16",
-                                             "OTDNames":  ["XP-Pen Artist 16"],
                                              "Name":  "Artist 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -500,7 +494,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist24Pro",
-                                             "OTDNames":  ["XP-Pen Artist 24 Pro"],
                                              "Name":  "Artist 24 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -1008,7 +1001,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CT1060",
-                                             "OTDNames":  ["XP-Pen CT1060"],
                                              "Name":  "Deco Fun L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1051,7 +1043,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CT430",
-                                             "OTDNames":  ["XP-Pen CT430"],
                                              "Name":  "Deco Fun XS",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1093,7 +1084,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CT640",
-                                             "OTDNames":  ["XP-Pen CT640"],
                                              "Name":  "Deco Fun S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1155,7 +1145,6 @@
                                                  "PublishDate": "2026-04-30"
                                                }
                                              ],
-                                             "OTDNames":  ["XP-Pen Deco 01"],
                                              "Name":  "Deco 01",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -1197,7 +1186,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 01 V2",
-                                             "OTDNames":  ["XP-Pen Deco 01 V2", "XP-Pen Deco 01 V2 (Variant 2)"],
                                              "Name":  "Deco 01 V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -1302,7 +1290,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 02",
-                                             "OTDNames":  ["XP-Pen Deco 02"],
                                              "Name":  "Deco 02",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -1343,7 +1330,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 03",
-                                             "OTDNames":  ["XP-Pen Deco 03"],
                                              "Name":  "Deco 03",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -1385,7 +1371,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Mini 4",
-                                             "OTDNames":  ["XP-Pen Deco mini4"],
                                              "Name":  "Deco Mini 4",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -1428,7 +1413,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Mini 7",
-                                             "OTDNames":  ["XP-Pen Deco mini7"],
                                              "Name":  "Deco Mini 7",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1596,7 +1580,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Pro SW",
-                                             "OTDNames":  ["XP-Pen Deco Pro SW"],
                                              "Name":  "Deco Pro SW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -1639,7 +1622,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "ID160F",
-                                             "OTDNames":  ["XP-Pen Innovator 16"],
                                              "Name":  "Innovator 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -1769,7 +1751,6 @@
                                                  "Author": "XP-Pen"
                                                }
                                              ],
-                                             "OTDNames":  ["XP-Pen Deco L"],
                                              "Name":  "Deco L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1898,7 +1879,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "IT850",
-                                             "OTDNames":  ["XP-Pen Deco M"],
                                              "Name":  "Deco M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -2160,7 +2140,6 @@
                                                  "PublishDate": "2025-09-25"
                                                }
                                              ],
-                                             "OTDNames":  ["XP-Pen Artist Pro 16TP"],
                                              "Name":  "Artist Pro 16TP",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -2766,7 +2745,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MT1172B",
-                                             "OTDNames":  ["XP-Pen Deco Pro LW Gen2"],
                                              "Name":  "Deco Pro LW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -2831,7 +2809,6 @@
                                                  "PublishDate": "2023-06-20"
                                                }
                                              ],
-                                             "OTDNames":  ["XP-Pen Deco Pro XLW Gen2"],
                                              "Name":  "Deco Pro XLW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -3209,7 +3186,6 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "G640",
-                                             "OTDNames":  ["XP-Pen Star G640"],
                                              "Name":  "Star G640",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
