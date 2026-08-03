@@ -499,6 +499,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-472",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/one-by-wacom/wacom-ctlx72-notes",
+                                                 "Title": "One by Wacom (CTL-x72) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "One by Wacom Small",
                                              "Type":  "PENTABLET",
@@ -675,6 +683,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-672",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/one-by-wacom/wacom-ctlx72-notes",
+                                                 "Title": "One by Wacom (CTL-x72) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "One by Wacom Medium",
                                              "Type":  "PENTABLET",
@@ -1795,6 +1811,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-3220",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth3220-notes",
+                                                 "Title": "Wacom Cintiq Pro 32 touch (DTH-3220) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Name":  "Cintiq Pro 32",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -2085,6 +2109,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2100",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-cintiq/wacom-dtk2100-notes",
+                                                 "Title": "Wacom Cintiq 21UX 2010 (DTK-2100) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Cintiq 21UX 2010",
@@ -2609,6 +2641,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTZ-2100",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-cintiq/wacom-dtz2100-notes",
+                                                 "Title": "Wacom Cintiq 21UX 2005 (DTZ-2100) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Cintiq 21UX 2005",
@@ -3145,6 +3185,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-460",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
+                                                 "Title": "Wacom Intuos Pro 2017 (PTH-x60) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Status":  "DISCONTINUED",
                                              "Name":  "Intuos Pro 2017 Small",
                                              "Type":  "PENTABLET",
@@ -3280,6 +3328,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-660",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
+                                                 "Title": "Wacom Intuos Pro 2017 (PTH-x60) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Name":  "Intuos Pro 2017 Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -3415,6 +3471,14 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-860",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
+                                                 "Title": "Wacom Intuos Pro 2017 (PTH-x60) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Name":  "Intuos Pro 2017 Large",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
