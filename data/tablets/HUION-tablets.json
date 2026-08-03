@@ -3768,6 +3768,14 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RTP700",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/huion/huion-rtp700-notes",
+                                                 "Title": "Huion Inspiroy RTP-700 notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy RTP-700",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",

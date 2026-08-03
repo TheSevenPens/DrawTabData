@@ -611,6 +611,14 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD120FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/xppen/xppen-cd120fh-notes",
+                                                 "Title": "XP-Pen Artist 12 Gen2 (CD120FH) notes",
+                                                 "Author": "Seven Pens"
+                                               }
+                                             ],
                                              "Name":  "Artist 12 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
