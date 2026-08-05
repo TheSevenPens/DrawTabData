@@ -68,7 +68,18 @@ const MetaSchema = v.strictObject({
 // One external reference link on a tablet/pen entity, curated from
 // DrawingTabletDocs via the /links-review page. URL is a key — store it
 // verbatim; the other fields are best-effort descriptors.
-export const LinkTypeSchema = v.picklist(["REVIEW", "PRODUCTINFO", "USERMANUAL", "STORE"]);
+// MANUFACTURER* variants mark the single canonical manufacturer link that
+// fills the derived Model.ProductLink / Model.UserManual accessors (at most one
+// of each per tablet). Plain PRODUCTINFO / USERMANUAL are other/secondary
+// product-info or manual links.
+export const LinkTypeSchema = v.picklist([
+  "REVIEW",
+  "MANUFACTURERPRODUCTINFO",
+  "PRODUCTINFO",
+  "MANUFACTURERUSERMANUAL",
+  "USERMANUAL",
+  "STORE",
+]);
 export const LinkSchema = v.strictObject({
   Type: LinkTypeSchema,
   URL: TrimmedString,
