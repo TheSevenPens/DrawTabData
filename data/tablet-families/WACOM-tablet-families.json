@@ -28,7 +28,7 @@
       "ModelPattern": "PTH-x51"
     },
     {
-      "EntityId": "wacom.tabletfamily.wacom_intuospro_2012",
+      "EntityId": "wacom.tabletfamily.wacom_intuos5_2012",
       "Brand": "WACOM",
       "FamilyName": "Wacom Intuos5 2012 tablet series",
       "_id": "24e009c1-63a3-4596-bab2-a2669ec4aeeb",
@@ -37,7 +37,7 @@
       "ModelPattern": "PTx-x50"
     },
     {
-      "EntityId": "wacom.tabletfamily.wacom_intuospro_2009",
+      "EntityId": "wacom.tabletfamily.wacom_intuos4_2009",
       "Brand": "WACOM",
       "FamilyName": "Wacom Intuos4 2009 tablet series",
       "_id": "32f11114-0456-4dcb-95fe-fc78dc892eab",
@@ -46,7 +46,7 @@
       "ModelPattern": "PTK-x40"
     },
     {
-      "EntityId": "wacom.tabletfamily.wacom_intuospro_2004",
+      "EntityId": "wacom.tabletfamily.wacom_intuos3_2004",
       "Brand": "WACOM",
       "FamilyName": "Wacom Intuos3 2004 tablet series",
       "_id": "b820b073-719c-40c1-be16-2b90e5f7acf6",
@@ -55,7 +55,7 @@
       "ModelPattern": "PTZ-x30"
     },
     {
-      "EntityId": "wacom.tabletfamily.wacom_intuospro_2001",
+      "EntityId": "wacom.tabletfamily.wacom_intuos2_2001",
       "Brand": "WACOM",
       "FamilyName": "Wacom Intuos2 2001 tablet series",
       "_id": "3477793f-ae35-4ec7-9c9a-a63b4cb0657b",
@@ -64,7 +64,7 @@
       "ModelPattern": "XD-*"
     },
     {
-      "EntityId": "wacom.tabletfamily.wacom_intuospro_1998",
+      "EntityId": "wacom.tabletfamily.wacom_intuos1_1998",
       "Brand": "WACOM",
       "FamilyName": "Wacom Intuos1 1998 tablet series",
       "_id": "33ebe793-c213-414d-bf32-e429f633f364",
