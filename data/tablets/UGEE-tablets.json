@@ -10,6 +10,14 @@
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "UE16",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/content/ugee-ue16-pen-display-review",
+                                                 "Title": "ugee UE16",
+                                                 "Author": "Parka Blogs"
+                                               }
+                                             ],
                                              "Name":  "Drawing Monitor UE16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -66,6 +74,14 @@
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "M908",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/content/review-ugee-m908-drawing-pen-tablet",
+                                                 "Title": "Ugee M908",
+                                                 "Author": "Parka Blogs"
+                                               }
+                                             ],
                                              "Name":  "M908 Drawing Tablet",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2026",
@@ -227,6 +243,14 @@
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "UE12-PLUS",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/content/review-ugee-ue12-plus-pen-display",
+                                                 "Title": "ugee UE12 Plus",
+                                                 "Author": "Parka Blogs"
+                                               }
+                                             ],
                                              "Name":  "UE12 Plus Drawing Monitor",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -275,6 +299,14 @@
                                "Model":  {
                                              "Brand":  "UGEE",
                                              "Id":  "U1200",
+                                             "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/content/artist-review-ugee-u1200-pen-display",
+                                                 "Title": "ugee U1200",
+                                                 "Author": "Parka Blogs"
+                                               }
+                                             ],
                                              "Name":  "U1200 Drawing Monitor",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",

@@ -2075,6 +2075,12 @@
                                              "Id":  "DTK-1300",
                                              "Links":  [
                                                {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/picture/review-wacom-cintiq-13hd-pen-display-tablet",
+                                                 "Title": "Wacom Cintiq 13HD",
+                                                 "Author": "Parka Blogs"
+                                               },
+                                               {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-br/products/cintiq-13-hd",
                                                  "Author": "Wacom"
@@ -2384,6 +2390,12 @@
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2200",
                                              "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/picture/review-wacom-cintiq-22hd-pen-display-tablet",
+                                                 "Title": "Wacom Cintiq 22HD",
+                                                 "Author": "Parka Blogs"
+                                               },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
@@ -2771,6 +2783,12 @@
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2700",
                                              "Links":  [
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.parkablogs.com/picture/wacom-previews-cintiq-27qhd-pen-display-tablet",
+                                                 "Title": "Wacom Cintiq 27QHD",
+                                                 "Author": "Parka Blogs"
+                                               },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
