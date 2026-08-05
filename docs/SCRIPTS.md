@@ -22,20 +22,6 @@ Output columns: Brand, ModelId, ModelName, Year, Type, Pen, Family, Diagonal(mm)
 **When to use:** Surveying tablets before creating families, checking
 which tablets exist for a brand, verifying data after bulk imports.
 
-### show-tablet
-
-Show all populated fields for a single tablet in a readable format.
-Accepts EntityId or ModelId.
-
-```bash
-npm run show-tablet -- WACOM.TABLET.PTK870
-npm run show-tablet -- PTK870
-```
-
-**When to use:** Comparing a tablet's stored data against a product page
-before or after importing specs. Checking what fields are already
-populated.
-
 ### find-unfamilied
 
 List tablets that have no `ModelFamily` assigned, grouped by brand.
@@ -136,7 +122,7 @@ without running the full cross-entity check.
 
 ### Importing a new tablet from a product page
 
-1. `npm run show-tablet -- ModelId` — check if it already exists
+1. `npm run list-tablets` — check the model isn't already present
 2. `npm run find-or-add-pen -- "<pen name>"` — confirm the included pen's EntityId
    (use `--add` if it's missing)
 3. Author the spec JSON (see `docs/IMPORTING-TABLETS.md` for shape)
