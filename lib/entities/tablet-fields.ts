@@ -5,6 +5,7 @@ import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
 import { ageInDays, formatAge } from "./age-format.js";
+import { tabletManufacturerProductLink, tabletManufacturerUserManual } from "./tablet-link-accessors.js";
 
 function notApplicable(t: Tablet): boolean {
   return t.Model.Type === "PENTABLET";
@@ -123,8 +124,8 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "LastSupportedWindowsDriver", label: "Last Windows Driver", getValue: (t) => t.Model.LastSupportedWindowsDriver ?? "", type: "string", group: "Model" },
   { key: "LastSupportedMacOSDriver", label: "Last macOS Driver", getValue: (t) => t.Model.LastSupportedMacOSDriver ?? "", type: "string", group: "Model" },
   { key: "ModelIncludedPen", label: "Included Pen", getValue: (t) => (t.Model.IncludedPen ?? []).join(", "), type: "string", group: "Model" },
-  { key: "ModelProductLink", label: "Product Link", getValue: (t) => t.Model.ProductLink ?? "", type: "string", group: "Model" },
-  { key: "ModelUserManual", label: "User Manual", getValue: (t) => t.Model.UserManual ?? "", type: "string", group: "Model" },
+  { key: "ModelProductLink", label: "Product Link", getValue: (t) => tabletManufacturerProductLink(t), type: "string", group: "Model" },
+  { key: "ModelUserManual", label: "User Manual", getValue: (t) => tabletManufacturerUserManual(t), type: "string", group: "Model" },
   { key: "ModelNotes", label: "Notes", getValue: (t) => t.Model.Notes ?? "", type: "string", group: "Model" },
   {
     key: "UnitsInInventory", label: "Units in Inventory",

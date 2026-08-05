@@ -106,8 +106,9 @@ const ModelSchema = v.strictObject({
   Audience: v.optional(v.picklist(["Consumer", "Enthusiast", "Professional"])),
   Family: v.optional(TrimmedString),
   IncludedPen: v.optional(v.array(TrimmedString)),
-  ProductLink: v.optional(TrimmedString),
-  UserManual: v.optional(TrimmedString),
+  // NOTE: the former ProductLink / UserManual fields were removed — the
+  // canonical manufacturer product page / manual now lives as a single
+  // MANUFACTURER* entry in Links, read via the tabletManufacturer* accessors.
   Status: v.optional(v.picklist(["ACTIVE", "AVAILABLE", "DISCONTINUED"])),
   // Wacom-only: matches a `sensorid` in data/wacom-update/products.json
   // and lets the Explorer surface the supported driver-version range.

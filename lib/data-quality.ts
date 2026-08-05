@@ -105,6 +105,29 @@ function checkTabletEntityId(t: RawRecord, file: string): Issue[] {
   return issues;
 }
 
+// Each MANUFACTURER* link type backs a single derived accessor
+// (tabletManufacturer{ProductLink,UserManual}), so a tablet must carry at most
+// one of each. More than one means the derived value is ambiguous.
+function checkTabletManufacturerLinks(t: RawRecord, file: string): Issue[] {
+  const issues: Issue[] = [];
+  const eid = getEntityId(t);
+  const model = (t as Record<string, unknown>).Model as Record<string, unknown> | undefined;
+  const links = (model?.Links as { Type?: string }[] | undefined) ?? [];
+  for (const type of ["MANUFACTURERPRODUCTINFO", "MANUFACTURERUSERMANUAL"] as const) {
+    const n = links.filter((l) => l.Type === type).length;
+    if (n > 1) {
+      issues.push({
+        file,
+        entityId: eid,
+        field: "Model.Links",
+        issue: `more than one ${type} entry`,
+        value: `found ${n}`,
+      });
+    }
+  }
+  return issues;
+}
+
 function checkPenEntityId(p: RawRecord, file: string): Issue[] {
   return checkDerivedEntityId(p, file, "PEN", "PenId");
 }
@@ -585,7 +608,7 @@ export function runDataQuality(dataDir: string): Issue[] {
       fileSuffix: "-tablets.json",
       rootKey: "DrawingTablets",
       schema: TabletSchema,
-      perRecordChecks: [checkTabletEntityId],
+      perRecordChecks: [checkTabletEntityId, checkTabletManufacturerLinks],
       dedupe: true,
     }),
     ...runEntityChecks(dataDir, {
