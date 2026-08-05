@@ -10,6 +10,13 @@
       "Model": {
         "Brand": "DIGIDRAW",
         "Id": "T410",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.turingdraw.com/page156",
+            "Author": "DigiDraw"
+          }
+        ],
         "Name": "Turing Basic S",
         "Type": "PENTABLET",
         "LaunchYear": "2025",
@@ -51,6 +58,11 @@
         "Brand": "DIGIDRAW",
         "Id": "T610",
         "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.turingdraw.com/page156",
+            "Author": "DigiDraw"
+          },
           {
             "Type": "REVIEW",
             "URL": "https://youtube.com/live/YSzg_U_3Rn0?feature=share",
@@ -99,6 +111,13 @@
       "Model": {
         "Brand": "DIGIDRAW",
         "Id": "TW410",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.turingdraw.com/page121",
+            "Author": "DigiDraw"
+          }
+        ],
         "Name": "Turing Smart S",
         "Type": "PENTABLET",
         "LaunchYear": "2025",
@@ -139,6 +158,13 @@
       "Model": {
         "Brand": "DIGIDRAW",
         "Id": "TW610",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.turingdraw.com/page121",
+            "Author": "DigiDraw"
+          }
+        ],
         "Name": "Turing Smart M",
         "Type": "PENTABLET",
         "LaunchYear": "2025",
@@ -180,6 +206,13 @@
       "Model": {
         "Brand": "DIGIDRAW",
         "Id": "D1401",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.turingdraw.com/page203",
+            "Author": "DigiDraw"
+          }
+        ],
         "Name": "Turing 14",
         "Type": "PENDISPLAY",
         "LaunchYear": "2026",
@@ -243,6 +276,13 @@
       "Model": {
         "Brand": "DIGIDRAW",
         "Id": "D1901T",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.turingdraw.com/page120",
+            "Author": "DigiDraw"
+          }
+        ],
         "Name": "Turing Pro 19 Touch",
         "Type": "PENDISPLAY",
         "LaunchYear": "2025",

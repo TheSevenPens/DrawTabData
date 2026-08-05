@@ -10,6 +10,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-12.9-Gen1",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111974",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 12.9-inch (1st generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2015",
@@ -60,6 +67,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-9.7",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111977",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 9.7-inch",
         "Type": "STANDALONE",
         "LaunchYear": "2016",
@@ -110,6 +124,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-12.9-Gen2",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111973",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 12.9-inch (2nd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2017",
@@ -160,6 +181,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-10.5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111976",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 10.5-inch",
         "Type": "STANDALONE",
         "LaunchYear": "2017",
@@ -210,6 +238,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-11-Gen1",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111972",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 11-inch (1st generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2018",
@@ -260,6 +295,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-12.9-Gen3",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111968",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 12.9-inch (3rd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2018",
@@ -310,6 +352,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-11-Gen2",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111966",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 11-inch (2nd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
@@ -360,6 +409,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-12.9-Gen4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111965",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 12.9-inch (4th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
@@ -410,6 +466,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-11-Gen3",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111964",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 11-inch (3rd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
@@ -460,6 +523,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-12.9-Gen5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111963",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 12.9-inch (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
@@ -510,6 +580,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-11-Gen4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111841",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 11-inch (4th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
@@ -560,6 +637,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-12.9-Gen6",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111840",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 12.9-inch (6th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
@@ -610,6 +694,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-11-M4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/119892",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 11-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
@@ -660,6 +751,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-13-M4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/119891",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 13-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
@@ -710,6 +808,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-11-M5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.apple.com/shop/buy-ipad/ipad-pro",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 11-inch (M5)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
@@ -760,6 +865,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Pro-13-M5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.apple.com/shop/buy-ipad/ipad-pro",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Pro 13-inch (M5)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
@@ -810,6 +922,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-Gen3",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111982",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air (3rd generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2019",
@@ -860,6 +979,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-Gen4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111981",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air (4th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
@@ -910,6 +1036,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-Gen5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111980",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
@@ -960,6 +1093,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-11-M2",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/119893",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air 11-inch (M2)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
@@ -1010,6 +1150,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-13-M2",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/119894",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air 13-inch (M2)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
@@ -1060,6 +1207,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-11-M3",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/121881",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air 11-inch (M3)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
@@ -1110,6 +1264,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-13-M3",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/121882",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air 13-inch (M3)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",
@@ -1160,6 +1321,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-11-M4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.apple.com/shop/buy-ipad/ipad-air",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air 11-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2026",
@@ -1210,6 +1378,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Air-13-M4",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.apple.com/shop/buy-ipad/ipad-air",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad Air 13-inch (M4)",
         "Type": "STANDALONE",
         "LaunchYear": "2026",
@@ -1260,6 +1435,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Mini-Gen5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111985",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad mini (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2019",
@@ -1310,6 +1492,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Mini-Gen6",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111984",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad mini (6th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
@@ -1360,6 +1549,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Mini-Gen7",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/121456",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad mini (7th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2024",
@@ -1410,6 +1606,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen5",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111978",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (5th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2017",
@@ -1460,6 +1663,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen6",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111971",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (6th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2018",
@@ -1510,6 +1720,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen7",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111970",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (7th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2019",
@@ -1560,6 +1777,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen8",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111969",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (8th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2020",
@@ -1610,6 +1834,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen9",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111967",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (9th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2021",
@@ -1660,6 +1891,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen10",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://support.apple.com/en-us/111842",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (10th generation)",
         "Type": "STANDALONE",
         "LaunchYear": "2022",
@@ -1710,6 +1948,13 @@
       "Model": {
         "Brand": "APPLE",
         "Id": "iPad-Gen11",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.apple.com/shop/buy-ipad/ipad",
+            "Author": "Apple"
+          }
+        ],
         "Name": "iPad (A16)",
         "Type": "STANDALONE",
         "LaunchYear": "2025",

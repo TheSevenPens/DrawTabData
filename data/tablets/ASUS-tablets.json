@@ -4,6 +4,13 @@
                                "Model":  {
                                              "Brand":  "ASUS",
                                              "Id":  "PA169CDV",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa169cdv/",
+                                                 "Author": "Asus"
+                                               }
+                                             ],
                                              "Name":  "ProArt Display PA169CDV",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",

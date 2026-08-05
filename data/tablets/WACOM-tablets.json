@@ -10,6 +10,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTC-4110WL",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-one",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/userhelp/en/toc/ctc4110wl.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 S",
                                              "Type":  "PENTABLET",
@@ -53,6 +65,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTC-6110WL",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-one",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/userhelp/en/toc/ctc6110wl.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 M",
                                              "Type":  "PENTABLET",
@@ -231,6 +255,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-490",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTH-490.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Draw|Art|Photo|Comic Small",
@@ -322,6 +358,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-690",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.parkablogs.com/node/12104",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Draw|Art|Photo|Comic Medium",
@@ -366,6 +409,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-4100",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-4100.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Intuos Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -410,6 +465,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-4100WL",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-4100wl.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Intuos Small Bluetooth",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -501,6 +568,11 @@
                                              "Id":  "CTL-472",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/one-by-wacom/wacom-ctlx72-notes",
                                                  "Title": "One by Wacom (CTL-x72) notes",
@@ -550,6 +622,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-490",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-490.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Small",
@@ -595,6 +679,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-6100",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-6100.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Intuos Medium",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -639,6 +735,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-6100WL",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-6100wl.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Intuos Medium Bluetooth",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -684,6 +792,16 @@
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-672",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-672.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/one-by-wacom/wacom-ctlx72-notes",
@@ -735,6 +853,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-690",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Medium",
@@ -780,6 +905,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTC-121",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-one",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/userhelp/en/toc/dtc121.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 12",
                                              "Type":  "PENDISPLAY",
@@ -840,7 +977,12 @@
                                              "Id":  "DTC-133",
                                              "Links":  [
                                                {
-                                                 "Type": "USERMANUAL",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTC133.html",
                                                  "Author": "Wacom"
                                                },
@@ -948,6 +1090,16 @@
                                              "Id":  "DTC-141",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-one",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/UserHelp/en/TOC/DTC141.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one",
                                                  "Author": "Wacom"
@@ -1019,6 +1171,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-1320",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1320.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Cintiq Pro 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2016",
@@ -1075,6 +1234,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-134",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-one",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/userhelp/en/toc/dth134.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Wacom One 2023 13 touch",
                                              "Type":  "PENDISPLAY",
@@ -1134,6 +1305,11 @@
                                              "Id":  "DTH-135",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/userhelp/en/toc/dth135.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH135TOC.html",
                                                  "Author": "Wacom"
@@ -1151,7 +1327,7 @@
                                                  "Author": "Wacom"
                                                },
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
                                                  "Author": "Wacom"
                                                },
@@ -1238,6 +1414,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-1620",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Cintiq Pro 16 2016",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2016",
@@ -1296,6 +1484,16 @@
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-167",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-16#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH167.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH167.html",
@@ -1389,7 +1587,12 @@
                                              "Id":  "DTH-172",
                                              "Links":  [
                                                {
-                                                 "Type": "STORE",
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH172.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
                                                  "Author": "Wacom"
                                                },
@@ -1466,7 +1669,12 @@
                                              "Id":  "DTH-227",
                                              "Links":  [
                                                {
-                                                 "Type": "USERMANUAL",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH227.html",
                                                  "Author": "Wacom"
                                                },
@@ -1545,6 +1753,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-2420",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-2420.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Cintiq Pro 24 Touch",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -1608,7 +1828,12 @@
                                              "Id":  "DTH-246",
                                              "Links":  [
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH246.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
                                                  "Author": "Wacom"
                                                },
@@ -1697,7 +1922,12 @@
                                              "Id":  "DTH-271",
                                              "Links":  [
                                                {
-                                                 "Type": "USERMANUAL",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH271.html",
                                                  "Author": "Wacom"
                                                },
@@ -1813,6 +2043,16 @@
                                              "Id":  "DTH-3220",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-3220.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth3220-notes",
                                                  "Title": "Wacom Cintiq Pro 32 touch (DTH-3220) notes",
@@ -1881,6 +2121,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-1300",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-br/products/cintiq-13-hd",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1300.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 13HD",
@@ -1940,6 +2192,16 @@
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-1660",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660E.html",
@@ -2041,7 +2303,12 @@
                                              "Id":  "DTK-168",
                                              "Links":  [
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK168.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
                                                  "Author": "Wacom"
                                                }
@@ -2170,6 +2437,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2200",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2200.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 22HD",
@@ -2231,7 +2510,12 @@
                                              "Id":  "DTK-2260",
                                              "Links":  [
                                                {
-                                                 "Type": "USERMANUAL",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
                                                  "Author": "Wacom"
                                                },
@@ -2342,6 +2626,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2400",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2400.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Cintiq 24 HD",
@@ -2395,6 +2686,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2420",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Cintiq Pro 24",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -2456,6 +2759,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-246",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK246.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Status":  "ACTIVE",
                                              "Name":  "Cintiq 24 2025",
                                              "Type":  "PENDISPLAY",
@@ -2519,6 +2834,11 @@
                                              "Brand":  "WACOM",
                                              "Id":  "DTK-2700",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "STORE",
                                                  "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
@@ -2814,6 +3134,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTF-521",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf521-manual.pdf?rev=49798cb00b0d4b288378a7b650f2b466&amp;hash=CE0B216130C791BC26193930707A2A90",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "5.3.5-3",
                                              "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "DTF-521",
@@ -2848,6 +3175,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTU-710",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtu710-manual.pdf?rev=bb8c71e1d0f046b287ce35cf1930b4b0&amp;hash=FEBFDF618D15CDC5CDC20FA4D52BDE14",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "5.3.5-3",
                                              "LastSupportedMacOSDriver":  "5.3.7-6",
                                              "Name":  "DTU-710",
@@ -3096,6 +3430,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-450",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 touch Small",
@@ -3141,6 +3482,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-451",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-451.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Intuos Pro 2013 Small",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -3186,6 +3539,16 @@
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-460",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
@@ -3237,6 +3600,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-650",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 touch Medium",
@@ -3282,6 +3652,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-651",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-651.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Pro 2013 Medium",
@@ -3329,6 +3711,16 @@
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-660",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
@@ -3380,6 +3772,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-850",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 touch Large",
@@ -3425,6 +3824,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-851",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/ipi/0x0315/IPI-EN.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-851.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Pro 2013 Large",
@@ -3472,6 +3883,16 @@
                                              "Brand":  "WACOM",
                                              "Id":  "PTH-860",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html",
+                                                 "Author": "Wacom"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
@@ -3525,6 +3946,11 @@
                                              "Id":  "PTK-1240",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/Tv_qX1Z9-wI",
                                                  "Title": "Is an EXTRA LARGE Pen tablet right for you? (Wacom Intuos 4 XL PTK-1240)",
@@ -3577,6 +4003,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-440",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.41-1",
                                              "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Small",
@@ -3623,6 +4056,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-450",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 Small",
@@ -3680,6 +4120,11 @@
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2025/wacom-ptkx70-notes",
                                                  "Title": "Wacom Intuos Pro 2025 (PTK-x70) notes",
@@ -3736,6 +4181,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-540WL",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.picmod.com/goods.php?id=143",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.41-1",
                                              "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Wireless",
@@ -3781,6 +4233,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-640",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.41-1",
                                              "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Medium",
@@ -3827,6 +4286,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-650",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos5 Medium",
@@ -3885,6 +4351,16 @@
                                              "UserManual":  "http://101.wacom.com/UserHelp/en/TOC/PTK670.html",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/PTK670.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2025/wacom-ptkx70-notes",
                                                  "Title": "Wacom Intuos Pro 2025 (PTK-x70) notes",
@@ -3941,6 +4417,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTK-840",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.41-1",
                                              "LastSupportedMacOSDriver":  "6.3.41-2",
                                              "Name":  "Intuos4 Large",
@@ -3999,6 +4482,11 @@
                                              "ProductLink":  "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2025/wacom-ptkx70-notes",
                                                  "Title": "Wacom Intuos Pro 2025 (PTK-x70) notes",
@@ -4055,6 +4543,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-1230",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 12x12",
@@ -4100,6 +4595,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-1231W",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 12x19",
@@ -4145,6 +4647,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-430",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 4x5",
@@ -4190,6 +4699,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-431W",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 4x6",
@@ -4235,6 +4751,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-630",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 6x8",
@@ -4280,6 +4803,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-631W",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 6x11",
@@ -4325,6 +4855,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "PTZ-930",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.15-3",
                                              "LastSupportedMacOSDriver":  "6.3.15-3",
                                              "Name":  "Intuos3 9x12",
@@ -4370,6 +4907,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0405-U",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.2.0w5",
                                              "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 4x5",
@@ -4415,6 +4959,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0608-U",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.2.0w5",
                                              "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 6x8",
@@ -4460,6 +5011,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-0912-U",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.2.0w5",
                                              "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 9x12",
@@ -4505,6 +5063,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-1212-U",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.2.0w5",
                                              "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 12x12",
@@ -4550,6 +5115,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "XD-1218-U",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.2.0w5",
                                              "LastSupportedMacOSDriver":  "6.2.0w4",
                                              "Name":  "Intuos2 12x18",
@@ -4615,7 +5187,7 @@
                                                  "Author": "Wacom"
                                                },
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-11",
                                                  "Author": "Wacom"
                                                },
@@ -4749,7 +5321,7 @@
                                              "Id":  "DTH-A140",
                                              "Links":  [
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14",
                                                  "Author": "Wacom"
                                                },
@@ -6425,6 +6997,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-680",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-680.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "Intuos 2013 CTL-680",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2013",
@@ -6502,6 +7081,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTL-480",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-480.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos 2013 CTL-480",
@@ -6542,6 +7128,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "CTH-480",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/CTH-480.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.3.46-2",
                                              "LastSupportedMacOSDriver":  "6.3.46-2",
                                              "Name":  "Intuos Pen \u0026 Touch S 2013",
@@ -7988,6 +8581,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-W1321",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-13-dthw1321hk0b.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-W1321.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "MobileStudio Pro 13 Gen2",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2019",
@@ -8056,6 +8661,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-W1620",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-gen-1-refurbished-product-udth-w1620m-eu.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "MobileStudio Pro 16",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2016",
@@ -8121,6 +8733,18 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-W1621",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-dthw1621hk0b.html",
+                                                 "Author": "Wacom"
+                                               },
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-W1621.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "Name":  "MobileStudio Pro 16 Gen 2",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2019",
@@ -8543,6 +9167,13 @@
                                "Model":  {
                                              "Brand":  "WACOM",
                                              "Id":  "DTH-2700",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERUSERMANUAL",
+                                                 "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
+                                                 "Author": "Wacom"
+                                               }
+                                             ],
                                              "LastSupportedWindowsDriver":  "6.4.10-3",
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Cintiq 27 QHD touch",

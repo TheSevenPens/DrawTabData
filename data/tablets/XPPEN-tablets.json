@@ -10,6 +10,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist12",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/64.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -64,6 +71,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist12Pro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/479.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 12 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -121,6 +135,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist13.3Pro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/464.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 13.3 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -181,6 +202,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist15.6",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/60.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 15.6",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -233,6 +261,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist15.6Pro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/65.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 15.6 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -285,6 +320,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist16",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.surfaceproartist.com/blog/2017/4/27/xp-pens-artist-16-is-a-price-performance-leader",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -328,6 +370,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist16Pro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/61.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 16 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -381,6 +430,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist22Pro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/62.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 22 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -437,6 +493,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist22RPro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/541.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 22R Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -494,6 +557,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Artist24Pro",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/602.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 24 Pro",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -551,6 +621,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD100FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-10-2nd-gen.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 10 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -612,6 +689,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "CD120FH",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/1069.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/xppen/xppen-cd120fh-notes",
@@ -680,6 +762,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "CD130FH",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/1263.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://download01.xp-pen.com/file/2022/07/Artist%20Series%20Drawing%20Display%20(2nd%20Gen)(English).pdf",
@@ -753,6 +840,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "CD160FH",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/1203.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-16-2nd-gen.html",
@@ -837,6 +929,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD220F",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/855.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 22 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -894,6 +993,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD240F",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/1356.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 24 FHD",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -950,6 +1056,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD240Q",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/932.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 24",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1009,6 +1122,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CT1060",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/905.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Fun L",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1051,6 +1171,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CT430",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/905.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Fun XS",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1092,6 +1219,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CT640",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/905.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Fun S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1135,6 +1269,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 01",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/84.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
@@ -1194,6 +1333,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 01 V2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/461.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco 01 V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -1244,7 +1390,7 @@
                                                  "Author": "XP-Pen"
                                                },
                                                {
-                                                 "Type": "USERMANUAL",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
                                                  "Author": "XP-Pen"
                                                },
@@ -1298,6 +1444,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 02",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/88.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco 02",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -1338,6 +1491,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco 03",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/89.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco 03",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -1379,6 +1539,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Mini 4",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/613.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Mini 4",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -1421,6 +1588,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Mini 7",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/639.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Mini 7",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1462,6 +1636,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Pro M",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/915.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Pro M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -1504,6 +1685,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Pro MW",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/915.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Pro MW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -1546,6 +1734,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Pro S",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/915.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Pro S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -1588,6 +1783,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "Deco Pro SW",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/915.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Pro SW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -1630,6 +1832,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "ID160F",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/638.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Innovator 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -1688,6 +1897,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "ID160F-E",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/977.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 16",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1749,6 +1965,11 @@
                                              "Id":  "IT1060",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/1168.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/download/deco-lw.html",
                                                  "Author": "XP-Pen"
@@ -1793,6 +2014,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "IT1060B",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/1168.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/download/deco-lw.html",
@@ -1845,6 +2071,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "IT640",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-640.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco 640",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2024",
@@ -1887,6 +2120,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "IT850",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/series/Deco-tablet.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -1929,6 +2169,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "IT850B",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/series/Deco-tablet.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco MW",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
@@ -1971,6 +2218,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD140FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-14-gen-2.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 14 GEN2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -2033,7 +2287,7 @@
                                              "Id":  "MD160QH",
                                              "Links":  [
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-16-gen-2.html",
                                                  "Author": "XP-Pen"
                                                },
@@ -2126,6 +2380,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "MD160U",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/927.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
@@ -2292,6 +2551,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD160FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-15-6-pro-v2.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 15.6 Pro V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2023",
@@ -2441,6 +2707,11 @@
                                              "Id":  "MD220FH",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-22-plus.html",
+                                                 "Author": "XP-Pen"
+                                               },
+                                               {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=YfEfGOJOQJs",
                                                  "Title": "Brad Colbow review of XP-Pen Artist 22 Plus",
@@ -2587,6 +2858,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD240QH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-24-gen-2-165hz.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 24 GEN2 165Hz",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -2649,6 +2927,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MD240UH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-24-gen-2-4k.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist Pro 24 GEN2 4K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -2711,6 +2996,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MT0962B",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Pro MW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -2753,6 +3045,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "MT1172B",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Deco Pro LW GEN2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -2796,6 +3095,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "MT1592B",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=itnwkJVlWiw",
@@ -2861,7 +3165,7 @@
                                              "Id":  "CD121FH",
                                              "Links":  [
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-12-3rd.html",
                                                  "Author": "XP-Pen"
                                                },
@@ -2954,6 +3258,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "9494G",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Magic Drawing Pad 2024",
                                              "Type":  "STANDALONE",
                                              "LaunchYear":  "2024",
@@ -3034,6 +3345,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "MDP1221",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
@@ -3131,6 +3447,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "CD161FH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/store/buy/artist-16-3rd.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Artist 16 3rd",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2026",
@@ -3194,6 +3517,13 @@
                                "Model":  {
                                              "Brand":  "XPPEN",
                                              "Id":  "G640",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/store/buy/star-g640.html",
+                                                 "Author": "XP-Pen"
+                                               }
+                                             ],
                                              "Name":  "Star G640",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -3228,6 +3558,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "MD270UH",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-pro-27-gen-2.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=6ilVAoFGIrc",
@@ -3310,6 +3645,11 @@
                                              "Brand":  "XPPEN",
                                              "Id":  "MNP1095",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/magic-note-pad.html",
+                                                 "Author": "XP-Pen"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
@@ -3409,7 +3749,7 @@
                                              "ProductLink":  "https://www.xp-pen.com/product/deco-mini7-v2.html",
                                              "Links":  [
                                                            {
-                                                               "Type":  "PRODUCTINFO",
+                                                               "Type":  "MANUFACTURERPRODUCTINFO",
                                                                "URL":  "https://www.xp-pen.com/product/deco-mini7-v2.html",
                                                                "Title":  "Deco mini7 V2 product page",
                                                                "Author":  "XP-Pen"

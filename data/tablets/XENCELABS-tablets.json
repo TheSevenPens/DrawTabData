@@ -10,6 +10,13 @@
       "Model": {
         "Brand": "XENCELABS",
         "Id": "BPH0812W-A",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
+            "Author": "Xencelabs"
+          }
+        ],
         "Name": "Pen Tablet Small",
         "Type": "PENTABLET",
         "LaunchYear": "2021",
@@ -52,6 +59,13 @@
       "Model": {
         "Brand": "XENCELABS",
         "Id": "BPH1212W-V1",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
+            "Author": "Xencelabs"
+          }
+        ],
         "Name": "Pen Tablet Medium V1",
         "Type": "PENTABLET",
         "LaunchYear": "2020",
@@ -94,6 +108,13 @@
       "Model": {
         "Brand": "XENCELABS",
         "Id": "BPH1212W-V2",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
+            "Author": "Xencelabs"
+          }
+        ],
         "Name": "Pen Tablet Medium V2",
         "Type": "PENTABLET",
         "LaunchYear": "2020",
@@ -138,7 +159,7 @@
         "Id": "LPH2412U-A",
         "Links": [
           {
-            "Type": "PRODUCTINFO",
+            "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.xencelabs.com/us/products/pen-display",
             "Author": "Xencelabs"
           },
@@ -228,6 +249,11 @@
         "Brand": "XENCELABS",
         "Id": "LPH1612U-A",
         "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xencelabs.com/us/products/pen-display-16-lite",
+            "Author": "Xencelabs"
+          },
           {
             "Type": "PRODUCTINFO",
             "URL": "https://www.xencelabs.com/us/products/pen-display-16",

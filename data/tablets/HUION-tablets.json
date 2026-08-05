@@ -12,6 +12,11 @@
                                              "Id":  "G930L",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/InspiroyGiano/inspiroy-giano.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/manaul_pdf/en/Inspiroy%20Giano.pdf",
                                                  "Author": "Huion"
@@ -88,6 +93,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1161",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-12.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -151,6 +163,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "GS1331",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-13.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/user-manual-70",
@@ -324,6 +341,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS1562",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-16-2021.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 16 (2021)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -394,7 +418,7 @@
                                                  "Author": "Huion"
                                                },
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
                                                  "Author": "Huion"
                                                },
@@ -495,6 +519,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2201",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.us/products/huion-kamvas-22",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 22",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -560,6 +591,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "GS2202",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.us/products/huion-kamvas-22-plus",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/GJxGzJgfYGA",
@@ -639,6 +675,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2401",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_display/Kamvas/kamvas-24.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 24",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -704,6 +747,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GS2402",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-24-plus.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 24 Plus",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -771,7 +821,7 @@
                                              "Id":  "GT-156 V2",
                                              "Links":  [
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
                                                  "Author": "Huion"
                                                },
@@ -846,6 +896,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-156HDV2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Huion/GT-156HD_V2.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas GT-156HD V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -910,6 +967,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "GT-190",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.ati.com.ph/huion/prod-gt190.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
@@ -1062,7 +1124,7 @@
                                                  "Author": "Huion"
                                                },
                                                {
-                                                 "Type": "PRODUCTINFO",
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
                                                  "Author": "Huion"
                                                },
@@ -1216,6 +1278,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-220V2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Huion/GT-220_V2.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas GT-220 V2",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2016",
@@ -1278,6 +1347,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT-2701",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 27",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2024",
@@ -1344,6 +1420,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT116",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_12.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 12",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -1408,6 +1491,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1302",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://store.huion.com/products/kamvas-pro-13-2k",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 13 2.5K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -1472,6 +1562,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT133",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_13.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 13",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -1536,6 +1633,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1561",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-4k.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 16 4K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -1600,6 +1704,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "GT1562",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-plus-4k.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/manaul_pdf/en/Kamvas%20Pro%2016%20Plus%20(4K).pdf",
@@ -1682,6 +1791,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1602",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://store.huion.com/products/kamvas-pro-16-2k",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 16 2.5K",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -1746,6 +1862,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT1901",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://store.huion.com/products/kamvas-pro-20-2019?vid=144",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 20 (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -1810,6 +1933,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT191",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Huion/GT-191.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas GT-191 (2017)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2017",
@@ -1873,6 +2003,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT191V2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Huion/GT-191_V2.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas GT-191 V2 (2018)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2018",
@@ -1935,6 +2072,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT2201",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://store.huion.com/products/kamvas-pro-22-2019",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas 22 Pro (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -1997,6 +2141,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT221",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_22.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 22 (2019)",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2019",
@@ -2061,6 +2212,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "GT240",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
@@ -2184,6 +2340,11 @@
                                              "Id":  "GT2401",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/manaul_pdf/de/Kamvas%20Pro%2024(4K).pdf",
                                                  "Author": "Huion"
@@ -2280,6 +2441,11 @@
                                              "Id":  "GT2402",
                                              "Links":  [
                                                {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
+                                                 "Author": "Huion"
+                                               },
+                                               {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
                                                  "Author": "Huion"
@@ -2373,6 +2539,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "GT2702",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27-144hz.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 27 144Hz",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2025",
@@ -2439,6 +2612,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H1060P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H1060P.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H1060P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2015",
@@ -2483,6 +2663,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "H1061P",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H1061P.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/H1061P.html",
@@ -2545,6 +2730,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H1161",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H1161.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H1161",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2587,6 +2779,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H320M",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/InspiroyInk/H320M.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "320M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -2629,6 +2828,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H420",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_tablet/Others/H420.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H420",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2016",
@@ -2672,6 +2878,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H420X",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H420X.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H420X",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -2713,6 +2926,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H430P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H430P.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H430P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -2756,6 +2976,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/HS/HS610.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H610",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -2799,6 +3026,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610PRO",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Huion/H610PRO.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H610PRO",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2016",
@@ -2842,6 +3076,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610PRO V2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Huion/H610PRO_V2.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H610PRO V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -2884,6 +3125,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H610X",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H610X.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H610X",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2021",
@@ -2926,6 +3174,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H640P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H640P.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H640P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -2969,6 +3224,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H641P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H641P.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy 2 S",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -3013,6 +3275,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H950P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H950P.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "H950P",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -3054,6 +3323,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "H951P",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/H951P.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy 2 M",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2023",
@@ -3098,6 +3374,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "HS610",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/HS/HS610.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "HS610",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -3141,6 +3424,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "HS611",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/HS/huion-hs611.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.huion.com/user-manual-69",
@@ -3210,6 +3498,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "HS64",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/HS/HS64.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "HS64",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -3372,6 +3667,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "NEW 1060 PLUS",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Huion/NEW_1060PLUS.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "NEW 1060 PLUS",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -3414,6 +3716,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q11K",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/Q11K.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy Q11K",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2017",
@@ -3457,6 +3766,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q11KV2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Q11K_V2.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy Q11K V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2020",
@@ -3499,6 +3815,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "Q620M",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy Dial",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2019",
@@ -3542,6 +3865,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "Q630M",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial-2.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/mXKoWtvKDi0",
@@ -3600,6 +3928,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RDS-160",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/RDS160.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas RDS-160",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2021",
@@ -3663,6 +3998,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RDS-220",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-rds-220.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas RDS-220",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2022",
@@ -3725,6 +4067,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RTM500",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/RTM500.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy RTM-500",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
@@ -3769,6 +4118,11 @@
                                              "Brand":  "HUION",
                                              "Id":  "RTP700",
                                              "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/RTP700.html",
+                                                 "Author": "Huion"
+                                               },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/huion/huion-rtp700-notes",
@@ -3819,6 +4173,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "RTS300",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/RTS300.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy RTS-300",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2022",
@@ -3862,6 +4223,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "UNK_Kamvas_16",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/Kamvas-16.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "IdSuffix":  "2019",
                                              "Name":  "Kamvas 16 (2019)",
                                              "Type":  "PENDISPLAY",
@@ -3926,6 +4294,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "UNK_Kamvas_20",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/Kamvas/Kamvas-20.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "IdSuffix":  "2019",
                                              "Name":  "Kamvas 20 (2019)",
                                              "Type":  "PENDISPLAY",
@@ -3988,6 +4363,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "UNK_Kamvas_Pro_16",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/Kamvas-Pro-16.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "IdSuffix":  "2019",
                                              "Name":  "Kamvas Pro 16 (2019)",
                                              "Type":  "PENDISPLAY",
@@ -4053,6 +4435,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "UNK Kamvas Pro 16 Premium",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_display/KamvasPro/Kamvas-Pro-16-Premium.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Kamvas Pro 16 Premium",
                                              "Type":  "PENDISPLAY",
                                              "LaunchYear":  "2020",
@@ -4116,6 +4505,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "WH1409 V2",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/WH1409_V2.html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy WH1409 V2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
@@ -4159,6 +4555,13 @@
                                "Model":  {
                                              "Brand":  "HUION",
                                              "Id":  "WH1409(8192)",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.huion.com/pen_tablet/Inspiroy/WH1409(8192).html",
+                                                 "Author": "Huion"
+                                               }
+                                             ],
                                              "Name":  "Inspiroy WH1409(8192)",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2016",

@@ -4,6 +4,13 @@
                                "Model":  {
                                              "Brand":  "GAOMON",
                                              "Id":  "M10K-2018",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://gaomon.net/products/m10k-2018-pen-tablet",
+                                                 "Author": "Gaomon"
+                                               }
+                                             ],
                                              "Name":  "M10K 2018",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2018",
