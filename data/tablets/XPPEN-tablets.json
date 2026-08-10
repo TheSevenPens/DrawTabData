@@ -14,7 +14,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/64.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 12 Pen Display Art Tablet for Beginners",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-12.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 12",
@@ -74,7 +82,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/479.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 12 Pro Portable fully laminated Pen display",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-12-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 12 Pro",
@@ -138,12 +154,26 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-artist-133-pro-pen-display",
                                                  "Title": "XP-PEN Artist 13.3 Pro",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/464.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 13.3 Pro affordable display graphic tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-13-3-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 13.3 Pro",
@@ -210,12 +240,26 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-artist-156-pen-display",
                                                  "Title": "XP-PEN Artist 15.6",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/60.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 15.6 drawing display tablet for illustrators",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-15-6.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 15.6",
@@ -273,7 +317,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/65.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 15.6 Pro Screen Animation Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-15-6-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 15.6 Pro",
@@ -332,12 +384,24 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/picture/review-xp-pen-artist-16-pen-digitizer-monitor",
                                                  "Title": "XP-PEN Artist 16",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.surfaceproartist.com/blog/2017/4/27/xp-pens-artist-16-is-a-price-performance-leader",
-                                                 "Author": "XP-Pen"
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "DEAD",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 404
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 16",
@@ -386,7 +450,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/61.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 16 Pro Professional Digital Art Tablet Monitor",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-16-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 16 Pro",
@@ -445,7 +517,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/62.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 22 Pro Large Pen Display Monitor",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-22-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 22 Pro",
@@ -507,7 +587,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/541.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 22R Pro Large Professional Drawing Tablet Monitor",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-22r-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 22R Pro",
@@ -571,12 +659,26 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-artist-24-pro-1440p-usb-c-pen-display",
                                                  "Title": "XP-Pen Artist 24 Pro",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/602.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 24 Pro QHD Professional Drawing Display Monitor",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-24-pro.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 24 Pro",
@@ -639,7 +741,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-10-2nd-gen.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 10 (2nd Generation) drawing screen monitor 10 inch",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 10 GEN2",
@@ -706,18 +815,38 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-artist-12-2nd-gen-gift-edition",
                                                  "Title": "XP-Pen Artist 12 (2nd gen)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/1069.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 12 (2nd Generation) best starter Pen Display tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-12-2nd-gen.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/xppen/xppen-cd120fh-notes",
                                                  "Title": "XP-Pen Artist 12 Gen2 (CD120FH) notes",
-                                                 "Author": "Seven Pens"
+                                                 "Author": "Seven Pens",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 12 GEN2",
@@ -783,18 +912,39 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/1263.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 13 (2nd Generation) affordable drawing screen",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-13-2nd-gen.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://download01.xp-pen.com/file/2022/07/Artist%20Series%20Drawing%20Display%20(2nd%20Gen)(English).pdf",
                                                  "Title": "user manual",
-                                                 "Author": "XP-Pen"
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "PDF",
+                                                 "Check": {
+                                                   "Status": "DEAD",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 404
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/ie-store/buy/artist-13-2nd-generation.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 13 (2nd Generation) Display Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 13 GEN2",
@@ -861,38 +1011,77 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-artist-16-2nd-gen",
                                                  "Title": "XP-Pen Artist 16 (2nd gen)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/1203.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 16 (2nd Generation) high performance drawing screen",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-16-2nd-gen.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-16-2nd-gen.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 16 (2nd Generation) high performance drawing screen",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/__NHuTlg-lE",
                                                  "Title": "Teoh on Tech: XP-Pen Artist 16 GEN2 Cursor Tracking & Offset test",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2022-06-06"
+                                                 "PublishDate": "2022-06-06",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/0yKRSAE8_Ng",
                                                  "Title": "Teoh on Tech review of XP-Pen Artist 16 GEN2",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2022-05-26"
+                                                 "PublishDate": "2022-05-26",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/4czV7jv9mPg",
                                                  "Title": "Brad Colbow review of XP-Pen Artist 16 GEN2",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2022-06-01"
+                                                 "PublishDate": "2022-06-01",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 16 GEN2",
@@ -955,7 +1144,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/855.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 22 (2nd Generation) Large Budget Pen Display",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-22-2nd-generation.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 22 GEN2",
@@ -1018,7 +1215,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/1356.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 24 Drawing Display (FHD)",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-24-drawing-display-fhd.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 24 FHD",
@@ -1080,7 +1285,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/932.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 24 Large display drawing tablet for artists",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-24.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 24",
@@ -1145,7 +1358,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/905.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Fun XS/S/L Good Starter Digital Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-fun-xs-s-l.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Fun L",
@@ -1193,7 +1414,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/905.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Fun XS/S/L Good Starter Digital Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-fun-xs-s-l.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Fun XS",
@@ -1240,7 +1469,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/905.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Fun XS/S/L Good Starter Digital Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-fun-xs-s-l.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Fun S",
@@ -1288,24 +1525,52 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/84.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco 01 Beginner Sketch Pad Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-01.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco 01 V3: Deco 01 V2's upgraded version",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "deco-01-v3",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
                                                  "Title": "Brad Colbow - Review of Deco 01 V3",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2026-04-30"
+                                                 "PublishDate": "2026-04-30",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco 01",
@@ -1352,7 +1617,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/461.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco 01 V2 Best Budget Android Graphic Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-01-v2.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco 01 V2",
@@ -1401,19 +1674,39 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco 01 V3: Deco 01 V2's upgraded version",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "deco-01-v3",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
                                                  "Title": "Brad Colbow - Review of Deco 01 V3",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2026-04-30"
+                                                 "PublishDate": "2026-04-30",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco 01 V3",
@@ -1461,7 +1754,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/88.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco 02 Creative Animation Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-02.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco 02",
@@ -1508,12 +1809,26 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-deco-03-graphics-drawing-tablet-wireless",
                                                  "Title": "XP-Pen Deco 03 wireless",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/89.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco 03 Wireless Graphic Art Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-03-wireless.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco 03",
@@ -1560,7 +1875,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/613.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco mini7 good starter graphic art tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-mini7.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Mini 4",
@@ -1608,7 +1931,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/639.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco mini4 small kids graphic drawing tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-mini4.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Mini 7",
@@ -1655,7 +1986,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/915.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro SW/MW Professional Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-pro-series-bluetooth.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro M",
@@ -1703,7 +2042,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/915.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro SW/MW Professional Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-pro-series-bluetooth.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro MW",
@@ -1751,7 +2098,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/915.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro SW/MW Professional Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-pro-series-bluetooth.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro S",
@@ -1799,7 +2154,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/915.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro SW/MW Professional Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-pro-series-bluetooth.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro SW",
@@ -1848,12 +2211,26 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xp-pen-innovator-16-pen-display",
                                                  "Title": "XP-Pen Innovator 16",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/638.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Innovator 16 best display drawing tablet for professionals",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/innovator-16.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Innovator 16",
@@ -1917,7 +2294,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/977.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist Pro 16 Creative Drawing Pen display monitor",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-pro-16.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 16",
@@ -1982,17 +2367,39 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/1168.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/download/deco-lw.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco LW|Drivers Download",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco L",
@@ -2031,17 +2438,39 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/1168.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/download/deco-lw.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco LW|Drivers Download",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco LW",
@@ -2088,7 +2517,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-640.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Deco 640: The Best Small Drawing Tablet for osu! Gameplay",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco 640",
@@ -2136,7 +2572,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/series/Deco-tablet.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Series Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/series/deco-series-drawing-tablet.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco M",
@@ -2184,7 +2628,15 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/series/Deco-tablet.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Series Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/series/deco-series-drawing-tablet.html"
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco MW",
@@ -2233,12 +2685,25 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-14-2nd-gen",
                                                  "Title": "XPPen Artist Pro 14 (gen 2)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-14-gen-2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist Pro 14 (Gen 2)",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 14 GEN2",
@@ -2305,42 +2770,87 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-16-gen-2-pen-display",
                                                  "Title": "XPPen Artist Pro 16 (gen 2)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-16-gen-2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Unleash Your Creativity with the Artist Pro 16 (Gen 2) - A Revolution in Digital Art Tablets",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/store/buy/3-in-1-cable-for-artist-2nd-gen-series-display.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "3 in 1 Cable for Artist 2nd Series Display",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.xp-pen.com/user-manual/artist-pro-16-2nd.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "artist-pro-16-2nd",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=41pv6STOBhY",
                                                  "Title": "MossCharmly - Huion Kamvas Pro 16 vs. XPpen Artist Pro 16",
-                                                 "Author": "MossCharmly"
+                                                 "Author": "MossCharmly",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/d3Th_HD0tbE?si=5tIvFmxSM2nvS1jh",
                                                  "Title": "Grant Abbitt review of XPPen Artist Pro (GEN 2)",
                                                  "Author": "Grant Abbitt",
-                                                 "PublishDate": "2023-08-20"
+                                                 "PublishDate": "2023-08-20",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/sc4tebm4TTw?si=Y18_c25g6BUvzwk3",
                                                  "Title": "Teoh on Tech review of XPPen Artist Pro 16 (GEN 2) review",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2023-09-09"
+                                                 "PublishDate": "2023-09-09",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 16 GEN2",
@@ -2403,28 +2913,54 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/927.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist Pro 16TP 4K UHD Multi Touch Screen Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "REDIRECT",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200,
+                                                   "FinalUrl": "https://www.xp-pen.com/product/artist-pro-16tp.html"
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
                                                  "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
                                                  "Author": "XP-Pen",
-                                                 "PublishDate": "2025-09-26"
+                                                 "PublishDate": "2025-09-26",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
                                                  "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2025-09-30"
+                                                 "PublishDate": "2025-09-30",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
                                                  "Title": "XP-Pen - Meet the Artist 16 Ultra",
                                                  "Author": "XP-Pen",
-                                                 "PublishDate": "2025-09-25"
+                                                 "PublishDate": "2025-09-25",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 16TP",
@@ -2489,28 +3025,52 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/xppen-artist-ultra-16-4k-oled-review",
                                                  "Title": "XPPen Artist Ultra 16",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
                                                  "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
                                                  "Author": "XP-Pen",
-                                                 "PublishDate": "2025-09-26"
+                                                 "PublishDate": "2025-09-26",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
                                                  "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2025-09-30"
+                                                 "PublishDate": "2025-09-30",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
                                                  "Title": "XP-Pen - Meet the Artist 16 Ultra",
                                                  "Author": "XP-Pen",
-                                                 "PublishDate": "2025-09-25"
+                                                 "PublishDate": "2025-09-25",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Ultra 16",
@@ -2581,12 +3141,25 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/xppen-artist-15-6-pro-v2-pen-display-review",
                                                  "Title": "XPPen Artist 15.6 Pro V2",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-15-6-pro-v2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 15.6 Pro V2: A Portable Drawing Tablet with Screen",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 15.6 Pro V2",
@@ -2656,33 +3229,64 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-19-gen-2",
                                                  "Title": "XPPen Artist Pro 19 (gen 2)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-19-gen-2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Artist Pro 19 (Gen 2): The Best 4K Drawing Tablet with 16K Pressure Sensitivity",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=d51hmYgfz5E",
                                                  "Title": "Teoh on Tech - Review of XP-Pen Artist Pro 19 (GEN2)",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2024-10-22"
+                                                 "PublishDate": "2024-10-22",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=d8Ft3b002LM",
                                                  "Title": "David Review - Review of XP-Pen Artist Pro 19 GEN2",
                                                  "Author": "David Review",
-                                                 "PublishDate": "2024-11-20"
+                                                 "PublishDate": "2024-11-20",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=eByrnaa0vf8",
                                                  "Title": "Brad Colbow - XP Pen Artist Pro 19 (GEN 2) Review",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2024-08-27"
+                                                 "PublishDate": "2024-08-27",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 19 GEN2",
@@ -2745,14 +3349,27 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-22-plus.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Explore Creativity: 22-inch Artist 22 Plus Tablet with X3 Pro Stylus",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=YfEfGOJOQJs",
                                                  "Title": "Brad Colbow review of XP-Pen Artist 22 Plus",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2023-11-20"
+                                                 "PublishDate": "2023-11-20",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 22 Plus",
@@ -2816,23 +3433,49 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-22-gen-2-pen-display",
                                                  "Title": "XPPen Artist Pro 22 (gen 2)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-22-gen-2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Artist Pro 22 (Gen 2):: 2.5K QHD 22-inch Calman Verified Drawing Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.xp-pen.com/user-manual/artist-pro-22-gen-2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "artist-pro-22-gen-2",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=PMscqe2rO1M",
                                                  "Title": "Teoh on Tech - review of XP-Pen Artist Pro 22",
-                                                 "Author": "Teoh on Tech"
+                                                 "Author": "Teoh on Tech",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 22 GEN2",
@@ -2903,7 +3546,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-24-gen-2-165hz.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Artist Pro 24 (Gen 2) 165Hz: World's First 165Hz Calman Verified 24-inch Drawing Display",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 24 GEN2 165Hz",
@@ -2972,12 +3622,25 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-24-gen-2-4k-pen-display",
                                                  "Title": "XPPen Artist Pro 24 (Gen 2) 4K",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-24-gen-2-4k.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Artist Pro 24 (Gen 2) 4K Drawing Tablet: World's First 4K Calman Verified 24-inch Drawing Display",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 24 GEN2 4K",
@@ -3045,7 +3708,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro (Gen 2) Series",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro MW GEN2",
@@ -3093,7 +3763,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro (Gen 2) Series",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro LW GEN2",
@@ -3141,27 +3818,52 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Deco Pro (Gen 2) Series",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=itnwkJVlWiw",
                                                  "Title": "EyekooDrawsStuff review of XP-Pen Deco Pro GEN2",
                                                  "Author": "EyekooDrawsStuff",
-                                                 "PublishDate": "2024-11-29"
+                                                 "PublishDate": "2024-11-29",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/h8NG0zmYdtE",
                                                  "Title": "Teoh on Tech review of XP-Pen Deco Pro GEN2",
-                                                 "Author": "Teoh on Tech"
+                                                 "Author": "Teoh on Tech",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtu.be/pRLBRTWPlQU",
                                                  "Title": "Joseph Montanez XP-Pen Deco Pro GEN2 XLW",
                                                  "Author": "Joseph Montanez",
-                                                 "PublishDate": "2023-06-20"
+                                                 "PublishDate": "2023-06-20",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Deco Pro XLW GEN2",
@@ -3210,37 +3912,75 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/xppen-artist-12-gen-3-review",
                                                  "Title": "XPPen Artist 12 3rd",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-12-3rd.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 12 3rd: 12-inch Drawing Tablet with Screen for Beginners",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://www.xp-pen.com/user-manual/artist-12-3rd.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "artist-12-3rd",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=jkpUTfQGLwc",
                                                  "Title": "Teoh on Tech - Review of Artist 12 3rd",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2025-12-17"
+                                                 "PublishDate": "2025-12-17",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=LlqGM0rjG3g",
                                                  "Title": "Brad Colbow - Review of Artist 12 3rd",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2025-11-17"
+                                                 "PublishDate": "2025-11-17",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://youtube.com/live/teEGX7G-gYs?feature=share",
                                                  "Title": "Unboxing & Testing: XP-Pen Artist 12 GEN3 (CD121FH)",
-                                                 "Author": "SevenPens"
+                                                 "Author": "SevenPens",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 12 3rd",
@@ -3309,7 +4049,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Magic Drawing Pad: The Ultimate Standalone Drawing Tablet, No Computer Needed",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Magic Drawing Pad 2024",
@@ -3394,28 +4141,53 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Magic Drawing Pad: The Ultimate Standalone Drawing Tablet, No Computer Needed",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
                                                  "Title": "Teoh on Tech - Review of Magic Drawing Pad 2025 with Magic Note Pad",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2025-08-26"
+                                                 "PublishDate": "2025-08-26",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=I0pPUT5WoLY",
                                                  "Title": "Michael Clarida - review of XP-Pen Magic Drawing Pad 2025",
                                                  "Author": "Michael Clarida",
-                                                 "PublishDate": "2025-07-09"
+                                                 "PublishDate": "2025-07-09",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=VivJ6R7Cmwg",
                                                  "Title": "Teoh on Tech - Review of XP-Pen Magic Drawing Pad 2025",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2025-08-14"
+                                                 "PublishDate": "2025-08-14",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Magic Drawing Pad 2025",
@@ -3496,7 +4268,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/store/buy/artist-16-3rd.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Artist 16 3rd Pen Display Tablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist 16 3rd",
@@ -3565,7 +4344,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/store/buy/star-g640.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Star G640 Sketch OSU Graphic DrawingTablet",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Star G640",
@@ -3605,30 +4391,61 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/xppen-artist-pro-27-gen-2-4k-touchscreen-pen-display",
                                                  "Title": "XPPen Artist Pro 27 (gen 2)",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/artist-pro-27-gen-2.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "XPPen Artist Pro 27 (Gen 2): 4K 120Hz Pen Display with X-Touch",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=6ilVAoFGIrc",
                                                  "Title": "Brad Colbow - XP Pen Artist Pro 27 Review",
-                                                 "Author": "Brad Colbow"
+                                                 "Author": "Brad Colbow",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=Vq0hs7LeZtg",
                                                  "Title": "David Revoy - XpPen Artist Pro 27 Gen2 - review on GNU/Linux",
-                                                 "Author": "David Revoy"
+                                                 "Author": "David Revoy",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=yDuRYEd732U",
                                                  "Title": "Teoh on Tech - XPPen Artist Pro 27 (gen 2) pen display has everything",
-                                                 "Author": "Teoh on Tech"
+                                                 "Author": "Teoh on Tech",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Artist Pro 27 (Gen 2)",
@@ -3696,35 +4513,66 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.xp-pen.com/product/magic-note-pad.html",
-                                                 "Author": "XP-Pen"
+                                                 "Title": "Magic Note Pad: A Paper-Like LCD Writing Tablet That's Perfect for Note-Taking",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
                                                  "Title": "Teoh on Tech - Review of Magic Drawing Pad 2025 with Magic Note Pad",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2025-08-26"
+                                                 "PublishDate": "2025-08-26",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=EDYnCV500ls",
                                                  "Title": "Brad Colbow - XP Pen Magic Note Pad Review",
                                                  "Author": "Brad Colbow",
-                                                 "PublishDate": "2025-03-20"
+                                                 "PublishDate": "2025-03-20",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=NBQVDfx1WtA",
                                                  "Title": "Teoh on Tech - Note taking and JNotes review with XPPEN MAGIC NOTE PAD",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2025-03-26"
+                                                 "PublishDate": "2025-03-26",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                },
                                                {
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.youtube.com/watch?v=yXoHq2offvU",
                                                  "Title": "Teoh on Tech - XPPen Magic Note Pad (artist review): Read, write & draw",
                                                  "Author": "Teoh on Tech",
-                                                 "PublishDate": "2025-03-18"
+                                                 "PublishDate": "2025-03-18",
+                                                 "ContentType": "VIDEO",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Magic Note Pad",
@@ -3794,12 +4642,18 @@
                                                                  "xppen.pen.p05d"
                                                              ],
                                              "Links":  [
-                                                           {
-                                                               "Type":  "MANUFACTURERPRODUCTINFO",
-                                                               "URL":  "https://www.xp-pen.com/product/deco-mini7-v2.html",
-                                                               "Title":  "Deco mini7 V2 product page",
-                                                               "Author":  "XP-Pen"
-                                                           }
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/deco-mini7-v2.html",
+                                                 "Title": "Deco mini7 V2 product page",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
+                                               }
                                                        ]
                                          },
                                "Digitizer":  {

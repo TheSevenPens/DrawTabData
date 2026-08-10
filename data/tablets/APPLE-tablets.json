@@ -14,7 +14,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111974",
-            "Author": "Apple"
+            "Title": "iPad Pro 11-inch (1st generation) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 12.9-inch (1st generation)",
@@ -70,7 +77,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111977",
-            "Author": "Apple"
+            "Title": "iPad Pro 12.9-inch (4th generation) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 9.7-inch",
@@ -126,7 +140,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111973",
-            "Author": "Apple"
+            "Title": "iPhone 5s - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 12.9-inch (2nd generation)",
@@ -182,7 +203,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111976",
-            "Author": "Apple"
+            "Title": "iPhone 8 - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 10.5-inch",
@@ -238,7 +266,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111972",
-            "Author": "Apple"
+            "Title": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 11-inch (1st generation)",
@@ -294,7 +329,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111968",
-            "Author": "Apple"
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "iPad Pro 12.9-inch (3rd generation)",
@@ -350,7 +391,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111966",
-            "Author": "Apple"
+            "Title": "MacBook Air (13-inch, Mid 2012) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 11-inch (2nd generation)",
@@ -406,7 +454,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111965",
-            "Author": "Apple"
+            "Title": "iPad Pro (9.7-inch) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 12.9-inch (4th generation)",
@@ -462,7 +517,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111964",
-            "Author": "Apple"
+            "Title": "iPad Pro (12.9-inch) (2nd generation) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 11-inch (3rd generation)",
@@ -518,7 +580,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111963",
-            "Author": "Apple"
+            "Title": "iMac (Retina 4K, 21.5-inch, 2019) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 12.9-inch (5th generation)",
@@ -574,7 +643,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111841",
-            "Author": "Apple"
+            "Title": "iPad Pro 12.9-inch (6th generation) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 11-inch (4th generation)",
@@ -630,7 +706,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111840",
-            "Author": "Apple"
+            "Title": "iPad (10th generation) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 12.9-inch (6th generation)",
@@ -686,7 +769,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/119892",
-            "Author": "Apple"
+            "Title": "iPad Pro 11‑inch (M4) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 11-inch (M4)",
@@ -742,7 +832,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/119891",
-            "Author": "Apple"
+            "Title": "iPad Pro 13‑inch (M4) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 13-inch (M4)",
@@ -798,7 +895,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.apple.com/shop/buy-ipad/ipad-pro",
-            "Author": "Apple"
+            "Title": "Shop iPad Pro - Apple",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 11-inch (M5)",
@@ -854,7 +958,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.apple.com/shop/buy-ipad/ipad-pro",
-            "Author": "Apple"
+            "Title": "Shop iPad Pro - Apple",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Pro 13-inch (M5)",
@@ -910,7 +1021,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111982",
-            "Author": "Apple"
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "iPad Air (3rd generation)",
@@ -966,7 +1083,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111981",
-            "Author": "Apple"
+            "Title": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Air (4th generation)",
@@ -1022,7 +1146,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111980",
-            "Author": "Apple"
+            "Title": "macOS Big Sur - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Air (5th generation)",
@@ -1078,7 +1209,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/119893",
-            "Author": "Apple"
+            "Title": "iPad Air 13-inch (M2) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Air 11-inch (M2)",
@@ -1134,7 +1272,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/119894",
-            "Author": "Apple"
+            "Title": "iPad Air 11-inch (M2) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Air 13-inch (M2)",
@@ -1190,7 +1335,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/121881",
-            "Author": "Apple"
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "iPad Air 11-inch (M3)",
@@ -1246,7 +1397,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/121882",
-            "Author": "Apple"
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "iPad Air 13-inch (M3)",
@@ -1302,7 +1459,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.apple.com/shop/buy-ipad/ipad-air",
-            "Author": "Apple"
+            "Title": "Shop iPad Air - Apple",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Air 11-inch (M4)",
@@ -1358,7 +1522,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.apple.com/shop/buy-ipad/ipad-air",
-            "Author": "Apple"
+            "Title": "Shop iPad Air - Apple",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad Air 13-inch (M4)",
@@ -1414,7 +1585,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111985",
-            "Author": "Apple"
+            "Title": "Apple Watch Series 1 - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad mini (5th generation)",
@@ -1470,7 +1648,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111984",
-            "Author": "Apple"
+            "Title": "Apple Watch Series 4 - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad mini (6th generation)",
@@ -1526,7 +1711,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/121456",
-            "Author": "Apple"
+            "Title": "iPad mini (A17 Pro) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad mini (7th generation)",
@@ -1582,7 +1774,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111978",
-            "Author": "Apple"
+            "Title": "iPad mini - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (5th generation)",
@@ -1638,7 +1837,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111971",
-            "Author": "Apple"
+            "Title": "MacBook Pro (Retina, 15-inch, Late 2013) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (6th generation)",
@@ -1694,7 +1900,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111970",
-            "Author": "Apple"
+            "Title": "iMac (27-inch, Late 2013) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (7th generation)",
@@ -1750,7 +1963,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111969",
-            "Author": "Apple"
+            "Title": "iMac (Retina 5K, 27-inch, 2017) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (8th generation)",
@@ -1806,7 +2026,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111967",
-            "Author": "Apple"
+            "Title": "iMac (21.5-inch, Late 2013) - Tech Specs - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (9th generation)",
@@ -1862,7 +2089,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://support.apple.com/en-us/111842",
-            "Author": "Apple"
+            "Title": "iPad Pro 11-inch (4th generation) - Technical Specifications - Apple Support",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (10th generation)",
@@ -1918,7 +2152,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.apple.com/shop/buy-ipad/ipad",
-            "Author": "Apple"
+            "Title": "Buy iPad - Apple",
+            "Author": "Apple",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "iPad (A16)",

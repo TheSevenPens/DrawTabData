@@ -14,7 +14,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.turingdraw.com/page156",
-            "Author": "DigiDraw"
+            "Author": "DigiDraw",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "Turing Basic S",
@@ -60,13 +66,25 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.turingdraw.com/page156",
-            "Author": "DigiDraw"
+            "Author": "DigiDraw",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://youtube.com/live/YSzg_U_3Rn0?feature=share",
             "Title": "DigiDraw Turing Basic M unboxing and testing + Q&A",
-            "Author": "SevenPens"
+            "Author": "SevenPens",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "Turing Basic M",
@@ -113,7 +131,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.turingdraw.com/page121",
-            "Author": "DigiDraw"
+            "Author": "DigiDraw",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "Turing Smart S",
@@ -159,7 +183,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.turingdraw.com/page121",
-            "Author": "DigiDraw"
+            "Author": "DigiDraw",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "Turing Smart M",
@@ -206,7 +236,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.turingdraw.com/page203",
-            "Author": "DigiDraw"
+            "Author": "DigiDraw",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "Turing 14",
@@ -275,7 +311,13 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.turingdraw.com/page120",
-            "Author": "DigiDraw"
+            "Author": "DigiDraw",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           }
         ],
         "Name": "Turing Pro 19 Touch",

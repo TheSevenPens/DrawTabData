@@ -8,7 +8,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa169cdv/",
-                                                 "Author": "Asus"
+                                                 "Title": "ProArt Display PA169CDV｜Monitors｜ASUS USA",
+                                                 "Author": "Asus",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "ProArt Display PA169CDV",

@@ -8,7 +8,14 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://gaomon.net/products/m10k-2018-pen-tablet",
-                                                 "Author": "Gaomon"
+                                                 "Title": "GAOMON M10K 2018 Graphics Drawing Tablet on Linux for Digital Painting",
+                                                 "Author": "Gaomon",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:52:57.144Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "M10K 2018",

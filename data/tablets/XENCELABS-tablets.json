@@ -14,7 +14,15 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-small/",
-            "Author": "Xencelabs"
+            "Title": "Pen Tablet Small",
+            "Author": "Xencelabs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "REDIRECT",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200,
+              "FinalUrl": "https://www.xencelabs.com/us/store/pen-tablets/xencelabs-pen-tablet-small"
+            }
           }
         ],
         "Name": "Pen Tablet Small",
@@ -62,7 +70,15 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
-            "Author": "Xencelabs"
+            "Title": "Xencelabs Pen Tablet Medium Series",
+            "Author": "Xencelabs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "REDIRECT",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200,
+              "FinalUrl": "https://www.xencelabs.com/products/pen-tablet-medium"
+            }
           }
         ],
         "Name": "Pen Tablet Medium V1",
@@ -110,7 +126,15 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
-            "Author": "Xencelabs"
+            "Title": "Xencelabs Pen Tablet Medium Series",
+            "Author": "Xencelabs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "REDIRECT",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200,
+              "FinalUrl": "https://www.xencelabs.com/products/pen-tablet-medium"
+            }
           }
         ],
         "Name": "Pen Tablet Medium V2",
@@ -158,35 +182,66 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.xencelabs.com/us/products/pen-display",
-            "Author": "Xencelabs"
+            "Title": "Xencelabs Pen Display 24",
+            "Author": "Xencelabs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=jLEj12-um3A",
             "Title": "Teoh on Tech - Xencelabs Pen Display 24 Announcement + My Thoughts",
             "Author": "Teoh on Tech",
-            "PublishDate": "2023-03-28"
+            "PublishDate": "2023-03-28",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=o6R07naf2es",
             "Title": "MobileTechReview review of Xencelabs Pen Display 24",
             "Author": "MobileTechReview",
-            "PublishDate": "2024-03-19"
+            "PublishDate": "2024-03-19",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Woe0_XSUtLE",
             "Title": "Grant Abbitt - Is the Xencelabs Pen Display 24\" a Serious Challenger to the Wacom Cintiq Pro",
             "Author": "Grant Abbitt",
-            "PublishDate": "2023-09-14"
+            "PublishDate": "2023-09-14",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/sr76rKKO4iQ",
             "Title": "Brad Colbow - Xencelabs Pen Display 24 Review",
             "Author": "Brad Colbow",
-            "PublishDate": "2023-06-04"
+            "PublishDate": "2023-06-04",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "Pen Display 24",
@@ -248,25 +303,52 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.xencelabs.com/us/products/pen-display-16-lite",
-            "Author": "Xencelabs"
+            "Title": "Xencelabs Pen Display 16 Lite – 4K OLED Portable Drawing Display",
+            "Author": "Xencelabs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "PRODUCTINFO",
             "URL": "https://www.xencelabs.com/us/products/pen-display-16",
-            "Author": "Xencelabs"
+            "Title": "Xencelabs Pen Display 16 Lite – 4K OLED Portable Drawing Display",
+            "Author": "Xencelabs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "REDIRECT",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200,
+              "FinalUrl": "https://www.xencelabs.com/us/products/pen-display-16-lite"
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=FCuVrJMncKI",
             "Title": "The Honest Laborers Review - Xencelabs 16-inch 4K Pen Display Hands-On and Test",
-            "Author": "The Honest Laborers Review"
+            "Author": "The Honest Laborers Review",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "DEAD",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 404
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=zGkTjf5HoB4",
             "Title": "Grant Abbitt - Review of Xencelabs Pen DIsplay 16",
             "Author": "Grant Abbitt",
-            "PublishDate": "2024-08-07"
+            "PublishDate": "2024-08-07",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "Pen Display 16 Lite",
