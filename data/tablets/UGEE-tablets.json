@@ -15,7 +15,13 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/ugee-ue16-pen-display-review",
                                                  "Title": "ugee UE16",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:55:00.789Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "Drawing Monitor UE16",
@@ -79,7 +85,13 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-ugee-m908-drawing-pen-tablet",
                                                  "Title": "Ugee M908",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:55:00.789Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "M908 Drawing Tablet",
@@ -248,7 +260,13 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/review-ugee-ue12-plus-pen-display",
                                                  "Title": "ugee UE12 Plus",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:55:00.789Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "UE12 Plus Drawing Monitor",
@@ -304,7 +322,13 @@
                                                  "Type": "REVIEW",
                                                  "URL": "https://www.parkablogs.com/content/artist-review-ugee-u1200-pen-display",
                                                  "Title": "ugee U1200",
-                                                 "Author": "Parka Blogs"
+                                                 "Author": "Parka Blogs",
+                                                 "ContentType": "HTML",
+                                                 "Check": {
+                                                   "Status": "OK",
+                                                   "CheckedAt": "2026-08-10T18:55:00.789Z",
+                                                   "HttpStatus": 200
+                                                 }
                                                }
                                              ],
                                              "Name":  "U1200 Drawing Monitor",
