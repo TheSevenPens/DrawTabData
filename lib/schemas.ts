@@ -80,12 +80,36 @@ export const LinkTypeSchema = v.picklist([
   "USERMANUAL",
   "STORE",
 ]);
+// What the URL leads to. A stable classification (a manual PDF stays a PDF),
+// derived from host + extension + Content-Type header — so a YouTube page counts
+// as VIDEO even though it serves text/html.
+export const LinkContentTypeSchema = v.picklist(["HTML", "PDF", "VIDEO", "IMAGE", "OTHER"]);
+
+// Result of the last automated liveness check of a Link.URL:
+//   OK=reachable · DEAD=gone (404/410) · BLOCKED=forbidden (403) ·
+//   ERROR=timeout/DNS/5xx · REDIRECT=reachable but the stored URL now resolves
+//   elsewhere (a stale-URL signal).
+export const LinkCheckStatusSchema = v.picklist(["OK", "DEAD", "BLOCKED", "ERROR", "REDIRECT"]);
+
+// Machine-collected provenance about a link, refreshed by the link-checker
+// script (scripts/backfill-link-titles.mjs). Kept separate from the curatorial
+// fields (Type/Title/Author) so a re-check just overwrites this block.
+export const LinkCheckSchema = v.strictObject({
+  Status: LinkCheckStatusSchema,
+  CheckedAt: IsoDateString,
+  HttpStatus: v.optional(v.number()),
+  // For REDIRECT: the URL the stored URL now lands on.
+  FinalUrl: v.optional(TrimmedString),
+});
+
 export const LinkSchema = v.strictObject({
   Type: LinkTypeSchema,
   URL: TrimmedString,
   Title: v.optional(TrimmedString),
   Author: v.optional(TrimmedString),
   PublishDate: v.optional(TrimmedString),
+  ContentType: v.optional(LinkContentTypeSchema),
+  Check: v.optional(LinkCheckSchema),
 });
 
 const ModelSchema = v.strictObject({
@@ -517,6 +541,8 @@ export const VersionInfoSchema = v.strictObject({
 
 export type Tablet = v.InferOutput<typeof TabletSchema>;
 export type Link = v.InferOutput<typeof LinkSchema>;
+export type LinkCheck = v.InferOutput<typeof LinkCheckSchema>;
+export type LinkContentType = v.InferOutput<typeof LinkContentTypeSchema>;
 export type Dimensions = v.InferOutput<typeof DimensionsSchema>;
 export type ColorGamuts = v.InferOutput<typeof ColorGamutsSchema>;
 export type Pen = v.InferOutput<typeof PenSchema>;
