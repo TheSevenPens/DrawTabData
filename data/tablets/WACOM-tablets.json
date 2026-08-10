@@ -567,7 +567,8 @@
                                              "Links":  [
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
-                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
+                                                 "URL": "https://www.wacom.com/en-ch/products/pen-tablets/one-by-wacom#Specifications",
+                                                 "Title": "One by Wacom: Creative Pen Tablet",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -684,6 +685,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-6100.html",
+                                                 "Title": "Wacom User Help (CTL-6100)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -739,6 +741,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-6100wl.html",
+                                                 "Title": "Wacom User Help (CTL-6100WL)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -787,12 +790,14 @@
                                              "Links":  [
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
-                                                 "URL": "https://www.wacom.com/en-us/products/pen-tablets/one-by-wacom#Specifications",
+                                                 "URL": "https://www.wacom.com/en-ch/products/pen-tablets/one-by-wacom#Specifications",
+                                                 "Title": "One by Wacom: Creative Pen Tablet",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-672.html",
+                                                 "Title": "Wacom User Help (CTL-672)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -905,6 +910,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/userhelp/en/toc/dtc121.html",
+                                                 "Title": "Wacom User Help (DTC121)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -968,11 +974,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
+                                                 "Title": "Wacom One DTC141 : Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTC133.html",
+                                                 "Title": "Wacom User Help (DTC133)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -983,6 +991,7 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/comp",
+                                                 "Title": "Compatibility",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1085,11 +1094,13 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTC141.html",
+                                                 "Title": "Wacom User Help (DTC141)",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one",
+                                                 "Title": "Wacom One DTC141 : Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1161,6 +1172,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1320.html",
+                                                 "Title": "Wacom User Help (DTH-1320)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -1229,6 +1241,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/userhelp/en/toc/dth134.html",
+                                                 "Title": "Wacom User Help (DTH134)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -1291,6 +1304,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/userhelp/en/toc/dth135.html",
+                                                 "Title": "Wacom User Help (DTH135)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1313,6 +1327,7 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
+                                                 "Title": "Wacom Movink Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1405,6 +1420,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html",
+                                                 "Title": "Wacom User Help (DTH-1620)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -1467,16 +1483,19 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-16#Specifications",
+                                                 "Title": "Wacom Cintiq Pro 16: creative pen display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH167.html",
+                                                 "Title": "Wacom User Help (DTH167)",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH167.html",
+                                                 "Title": "Wacom User Help (DTH167)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1567,6 +1586,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH172.html",
+                                                 "Title": "Wacom User Help (DTH172)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1652,6 +1672,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH227.html",
+                                                 "Title": "Wacom User Help (DTH227)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1662,6 +1683,7 @@
                                                {
                                                  "Type": "PRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-overview",
+                                                 "Title": "Wacom Cintiq Pro range: creative pen displays",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -1731,11 +1753,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
+                                                 "Title": "Wacom Cintiq Pro 24\": creative pen display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-2420.html",
+                                                 "Title": "Wacom User Help (DTH-2420)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -1802,11 +1826,13 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH246.html",
+                                                 "Title": "Wacom User Help (DTH246)",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
+                                                 "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -1894,11 +1920,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
+                                                 "Title": "Wacom Cintiq Pro 27: creative pen display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH271.html",
+                                                 "Title": "Wacom User Help (DTH271)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -2018,6 +2046,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-3220.html",
+                                                 "Title": "Wacom User Help (DTH-3220)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -2097,6 +2126,7 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-br/products/cintiq-13-hd",
+                                                 "Title": "Cintiq 13 HD Graphic Pen Tablet for Drawing",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -2165,16 +2195,19 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
+                                                 "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html",
+                                                 "Title": "Wacom User Help (DTK-1660)",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660E.html",
+                                                 "Title": "Wacom User Help (DTK-1660E)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -2273,11 +2306,13 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK168.html",
+                                                 "Title": "Wacom User Help (DTK168)",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
+                                                 "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -2413,6 +2448,7 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
+                                                 "Title": "Cintiq 22HD Interactive Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -2482,16 +2518,19 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
+                                                 "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+                                                 "Title": "Wacom User Help (DTK-2260)",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "USERMANUAL",
                                                  "URL": "https://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+                                                 "Title": "Wacom User Help (DTK-2260)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -2657,11 +2696,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
+                                                 "Title": "Wacom Cintiq Pro 24\": creative pen display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html",
+                                                 "Title": "Wacom User Help (DTK-2420)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -2728,11 +2769,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-cintiq",
+                                                 "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK246.html",
+                                                 "Title": "Wacom User Help (DTK246)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -3505,11 +3548,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+                                                 "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html",
+                                                 "Title": "Wacom User Help (PTH-460)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -3672,11 +3717,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+                                                 "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
+                                                 "Title": "Wacom User Help (PTH-660)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -3839,11 +3886,13 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+                                                 "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
                                                  "Author": "Wacom"
                                                },
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html",
+                                                 "Title": "Wacom User Help (PTH-860)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -4302,6 +4351,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/PTK670.html",
+                                                 "Title": "Wacom User Help (PTK670)",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -5120,6 +5170,7 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-11",
+                                                 "Title": "Wacom MovinkPad 11",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -5253,6 +5304,7 @@
                                                {
                                                  "Type": "MANUFACTURERPRODUCTINFO",
                                                  "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14",
+                                                 "Title": "Wacom MovinkPad Pro 14, A tool for creators that pushes the boundaries of the imagination",
                                                  "Author": "Wacom"
                                                },
                                                {
@@ -8516,6 +8568,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-W1321.html",
+                                                 "Title": "Wacom User Help (DTH-W1321)",
                                                  "Author": "Wacom"
                                                }
                                              ],
@@ -8665,6 +8718,7 @@
                                                {
                                                  "Type": "MANUFACTURERUSERMANUAL",
                                                  "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-W1621.html",
+                                                 "Title": "Wacom User Help (DTH-W1621)",
                                                  "Author": "Wacom"
                                                }
                                              ],
