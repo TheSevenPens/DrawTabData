@@ -108,19 +108,71 @@ function classifyContentType(url, header) {
   return "OTHER";
 }
 
-// Redirect key: ignore scheme (http↔https upgrade isn't "stale"), hash, and a
-// trailing slash — so REDIRECT flags only a genuine host/path move.
+// Redirect key: ignore scheme (http↔https upgrade isn't "stale"), hash, trailing
+// slash, and canonicalize YouTube to its video id (so youtu.be shortlinks
+// expanding to youtube.com/watch aren't flagged) — REDIRECT then means a genuine
+// host/path move.
 const normUrl = (u) => {
   try {
     const x = new URL(u);
-    return x.hostname.toLowerCase() + x.pathname.replace(/\/$/, "") + x.search;
+    const host = x.hostname.toLowerCase().replace(/^www\./, "");
+    if (host === "youtu.be") return "yt:" + x.pathname.slice(1).split("/")[0];
+    if (host === "youtube.com" || host === "m.youtube.com") {
+      const v = x.searchParams.get("v");
+      const seg = x.pathname.match(/\/(?:live|shorts|embed)\/([^/?#]+)/);
+      if (v || seg) return "yt:" + (v || seg[1]);
+    }
+    return host + x.pathname.replace(/\/$/, "") + x.search;
   } catch {
     return u;
   }
 };
 
-// ---- check one URL ----
-async function checkUrl(url) {
+// ---- check one URL (retries transient network errors) ----
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const hostOf = (u) => {
+  try {
+    return new URL(u).hostname;
+  } catch {
+    return "";
+  }
+};
+
+// YouTube throttles page fetches; use its oembed endpoint (built for programmatic
+// use) for liveness + title. ContentType is VIDEO by host, no page fetch needed.
+async function checkYouTube(url, attempt = 0) {
+  try {
+    const r = await fetch(
+      `https://www.youtube.com/oembed?url=${encodeURIComponent(url)}&format=json`,
+      { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(20000) },
+    );
+    if (r.ok) {
+      let title;
+      try {
+        const j = await r.json();
+        if (j.title) title = cleanTitle(j.title);
+      } catch {
+        /* ignore */
+      }
+      return { status: "OK", httpStatus: 200, contentType: "VIDEO", title };
+    }
+    // 401/403/404/400 from oembed = video removed/private/invalid.
+    return {
+      status: [400, 401, 404].includes(r.status) ? "DEAD" : "BLOCKED",
+      httpStatus: r.status,
+      contentType: "VIDEO",
+    };
+  } catch (e) {
+    if (attempt < 2) {
+      await sleep(600 * (attempt + 1));
+      return checkYouTube(url, attempt + 1);
+    }
+    return { status: "ERROR", contentType: "VIDEO", error: "oembed " + e.name };
+  }
+}
+
+async function checkUrl(url, attempt = 0) {
+  if (/(^|\.)youtube\.com$|(^|\.)youtu\.be$/i.test(hostOf(url))) return checkYouTube(url);
   try {
     const r = await fetch(url, {
       headers: { "User-Agent": UA, Accept: "text/html,*/*" },
@@ -154,6 +206,10 @@ async function checkUrl(url) {
       title,
     };
   } catch (e) {
+    if (attempt < 2) {
+      await sleep(600 * (attempt + 1)); // transient (timeout/reset) — back off and retry
+      return checkUrl(url, attempt + 1);
+    }
     return {
       status: "ERROR",
       contentType: classifyContentType(url, ""),
@@ -196,10 +252,14 @@ function renderLinkObj(l, base) {
 }
 
 // ---- apply to files (parse -> mutate -> re-render each touched Links array) ----
-const stats = { status: {}, contentType: {}, titled: 0, objects: 0, tablets: 0 };
+const stats = { status: {}, contentType: {}, titled: 0, objects: 0, tablets: 0, errored: 0 };
 for (const f of files) {
   const fp = path.join(TABLETS_DIR, f);
   let text = fs.readFileSync(fp, "utf8");
+  // Work in LF internally regardless of the file's on-disk ending (git may have
+  // checked it out as CRLF); restore the original ending on write.
+  const crlf = text.includes("\r\n");
+  if (crlf) text = text.replaceAll("\r\n", "\n");
   const j = JSON.parse(text);
   const mc = (text.match(/"Id":( +)"/)?.[1] ?? "  ").length;
   let fileChanged = false;
@@ -209,9 +269,16 @@ for (const f of files) {
     const links = t.Model.Links;
     if (!links?.length || !links.some((l) => results.has(l.URL))) continue;
 
+    let mutated = false;
     for (const l of links) {
       const r = results.get(l.URL);
       if (!r) continue;
+      // ERROR = no HTTP response (timeout/DNS/reset) — likely transient. Don't
+      // persist it; leave the link unchecked so a re-run retries it.
+      if (r.status === "ERROR") {
+        stats.errored++;
+        continue;
+      }
       if (r.title && !l.Title) {
         l.Title = r.title;
         stats.titled++;
@@ -226,24 +293,39 @@ for (const f of files) {
       stats.status[r.status] = (stats.status[r.status] ?? 0) + 1;
       stats.contentType[r.contentType] = (stats.contentType[r.contentType] ?? 0) + 1;
       stats.objects++;
+      mutated = true;
     }
+    if (!mutated) continue;
     stats.tablets++;
 
     if (!dryRun) {
-      const idKey = `"Id":${" ".repeat(mc)}"${t.Model.Id}",`;
-      const idIdx = text.indexOf(idKey);
-      const lineStart = text.lastIndexOf("\n", idIdx) + 1;
-      const base = idIdx - lineStart;
-      const openTag = `${" ".repeat(base)}"Links":${" ".repeat(mc)}[\n`;
-      const ks = text.indexOf(openTag, idIdx);
-      const bodyStart = ks + openTag.length;
-      const bodyEnd = text.indexOf(`\n${" ".repeat(base)}]`, bodyStart);
+      // Locate THIS tablet's Links array by its own actual indentation — the
+      // data isn't perfectly consistent (some Links keys sit a space off the
+      // Id line), so we can't assume Links indent == Id indent.
+      const idIdx = text.indexOf(`"Id":${" ".repeat(mc)}"${t.Model.Id}",`);
+      const openRe = /\n( *)"Links":( +)\[\n/g;
+      openRe.lastIndex = idIdx;
+      const lm = openRe.exec(text);
+      if (!lm) {
+        console.error(`no Links match: ${t.Model.Id} idIdx=${idIdx} mc=${mc}`);
+        process.exit(1);
+      }
+      const base = lm[1].length;
+      const bodyStart = lm.index + lm[0].length;
+      const bodyEnd = bodyStart + text.slice(bodyStart).search(/\n *\]/); // first "]" line = array close
       const body = links.map((l) => renderLinkObj(l, base)).join(",\n");
       text = text.slice(0, bodyStart) + body + text.slice(bodyEnd);
       fileChanged = true;
+      try {
+        JSON.parse(text);
+      } catch (e) {
+        console.error(`BROKE at ${t.Model.Id} in ${f}: ${e.message}`);
+        console.error(text.slice(bodyStart - 20, bodyStart + body.length + 40));
+        process.exit(1);
+      }
     }
   }
-  if (fileChanged) fs.writeFileSync(fp, text);
+  if (fileChanged) fs.writeFileSync(fp, crlf ? text.replaceAll("\n", "\r\n") : text);
 }
 
 // ---- report ----
@@ -260,5 +342,6 @@ console.log(
 console.log(
   dryRun
     ? `\nDRY RUN — no files written (${stats.objects} link objects would change).`
-    : `\nWrote ${stats.objects} link checks (${stats.titled} new titles) across ${stats.tablets} tablets.`,
+    : `\nWrote ${stats.objects} link checks (${stats.titled} new titles) across ${stats.tablets} tablets.` +
+        (stats.errored ? ` Left ${stats.errored} ERROR link(s) unchecked (re-run to retry).` : ""),
 );
