@@ -16,6 +16,39 @@ export function ageInDays(date: string | undefined): number | null {
   return Math.floor((Date.now() - t) / MS_PER_DAY);
 }
 
+/**
+ * The date an age should be measured from, for a record carrying both a
+ * (possibly absent) precise ReleaseDate and a coarse LaunchYear.
+ *
+ * ReleaseDate wins at any ISO precision. LaunchYear is only a fallback
+ * because it pins Jan 1, which overstates a mid-year release by up to a
+ * year — an April 2026 tablet read as Jan 1 2026 is ~106 days too old.
+ * Returns undefined when neither is usable.
+ */
+export function releaseOrigin(
+  releaseDate: string | undefined,
+  launchYear: string | undefined,
+): string | undefined {
+  if (releaseDate && !isNaN(new Date(releaseDate).getTime())) return releaseDate;
+  const year = parseInt(launchYear ?? "", 10);
+  return isNaN(year) ? undefined : `${year}-01-01`;
+}
+
+/**
+ * True when the record's origin date is still in the future — announced or
+ * up for pre-order but not yet shipped. Such a record has no age, and both
+ * ways of rendering one mislead: formatAge collapses a negative span to
+ * "today" (reads as "released today"), and a raw day count sorts the
+ * product among things that have actually shipped.
+ */
+export function isUnreleased(
+  releaseDate: string | undefined,
+  launchYear: string | undefined,
+): boolean {
+  const days = ageInDays(releaseOrigin(releaseDate, launchYear));
+  return days !== null && days < 0;
+}
+
 /** One-decimal, trailing-".0" trimmed (e.g. 3.5 → "3.5", 2.0 → "2"). */
 function trim1(n: number): string {
   return n.toFixed(1).replace(/\.0$/, "");

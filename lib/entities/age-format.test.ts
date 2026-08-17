@@ -1,5 +1,5 @@
-import { describe, it, expect } from "vitest";
-import { formatAge, ageInDays } from "./age-format.js";
+import { describe, it, expect, afterEach, vi } from "vitest";
+import { formatAge, ageInDays, releaseOrigin, isUnreleased } from "./age-format.js";
 
 describe("formatAge", () => {
   it("returns 'today' for zero or negative days", () => {
@@ -48,5 +48,60 @@ describe("ageInDays", () => {
     expect(ageInDays("2000-01-01")).toBeGreaterThan(0);
     expect(ageInDays("2007-11")).toBeGreaterThan(0);
     expect(ageInDays("1984")).toBeGreaterThan(0);
+  });
+});
+
+describe("releaseOrigin", () => {
+  it("prefers ReleaseDate at any ISO precision", () => {
+    expect(releaseOrigin("2026-04-17", "2026")).toBe("2026-04-17");
+    expect(releaseOrigin("2018-07", "2018")).toBe("2018-07");
+    expect(releaseOrigin("2018", "2018")).toBe("2018");
+  });
+
+  it("falls back to Jan 1 of LaunchYear when ReleaseDate is absent or junk", () => {
+    expect(releaseOrigin(undefined, "2026")).toBe("2026-01-01");
+    expect(releaseOrigin("", "2026")).toBe("2026-01-01");
+    expect(releaseOrigin("not-a-date", "2026")).toBe("2026-01-01");
+  });
+
+  it("returns undefined when neither is usable", () => {
+    expect(releaseOrigin(undefined, undefined)).toBeUndefined();
+    expect(releaseOrigin("not-a-date", "unknown")).toBeUndefined();
+  });
+});
+
+describe("isUnreleased", () => {
+  afterEach(() => {
+    vi.useRealTimers();
+  });
+
+  function at(iso: string) {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date(iso));
+  }
+
+  it("is true for a ship date still in the future", () => {
+    at("2026-08-17T00:00:00Z");
+    // The XPPen Artist Ultra 14 case: pre-order, ships 2026-08-31. Reading
+    // the age off LaunchYear alone made this look 227 days old.
+    expect(isUnreleased("2026-08-31", "2026")).toBe(true);
+  });
+
+  it("is false on and after the release date", () => {
+    at("2026-08-31T00:00:00Z");
+    expect(isUnreleased("2026-08-31", "2026")).toBe(false);
+    at("2026-09-01T00:00:00Z");
+    expect(isUnreleased("2026-08-31", "2026")).toBe(false);
+  });
+
+  it("uses the LaunchYear fallback when there is no ReleaseDate", () => {
+    at("2026-08-17T00:00:00Z");
+    expect(isUnreleased(undefined, "2027")).toBe(true);
+    expect(isUnreleased(undefined, "2026")).toBe(false);
+  });
+
+  it("is false when no date is usable — unknown is not unreleased", () => {
+    at("2026-08-17T00:00:00Z");
+    expect(isUnreleased(undefined, undefined)).toBe(false);
   });
 });

@@ -4,7 +4,7 @@ import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
-import { ageInDays, formatAge } from "./age-format.js";
+import { ageInDays, formatAge, isUnreleased, releaseOrigin } from "./age-format.js";
 import { tabletManufacturerProductLink, tabletManufacturerUserManual } from "./tablet-link-accessors.js";
 
 function notApplicable(t: Tablet): boolean {
@@ -93,11 +93,16 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
     // tablets don't imply false month precision.
     key: "Age", label: "Age", computed: true, type: "number", group: "Model",
     getValue: (t) => {
+      if (isUnreleased(t.Model.ReleaseDate, t.Model.LaunchYear)) return "";
       const year = parseInt(t.Model.LaunchYear, 10);
       return isNaN(year) ? "" : String(new Date().getFullYear() - year);
     },
     getDisplayValue: (t) => {
       const rd = t.Model.ReleaseDate;
+      // Announced or up for pre-order but not shipped yet. Without this,
+      // formatAge folds the negative span into "today", which reads as
+      // "released today" — the opposite of the truth.
+      if (isUnreleased(rd, t.Model.LaunchYear)) return "not yet released";
       if (rd && /^\d{4}-\d{2}/.test(rd)) {
         const days = ageInDays(rd);
         if (days !== null) return formatAge(days);
@@ -109,13 +114,13 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
     },
   },
   {
+    // Measures from ReleaseDate when there is one — LaunchYear alone pins
+    // Jan 1, which overstated every mid-year release by up to a year (and
+    // put a positive age on an unshipped product). Empty when unreleased.
     key: "AgeInDays", label: "Age (days)", computed: true, type: "number", group: "Model",
     getValue: (t) => {
-      const year = parseInt(t.Model.LaunchYear, 10);
-      if (isNaN(year)) return "";
-      const launchDate = new Date(year, 0, 1);
-      const days = Math.floor((Date.now() - launchDate.getTime()) / (1000 * 60 * 60 * 24));
-      return String(days);
+      const days = ageInDays(releaseOrigin(t.Model.ReleaseDate, t.Model.LaunchYear));
+      return days === null || days < 0 ? "" : String(days);
     },
   },
   { key: "ModelAudience", label: "Audience", getValue: (t) => t.Model.Audience ?? "", type: "enum", enumValues: ["Consumer", "Enthusiast", "Professional"], group: "Model" },
