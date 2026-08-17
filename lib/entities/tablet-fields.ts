@@ -4,7 +4,7 @@ import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
-import { ageInDays, formatAge, isUnreleased, releaseOrigin } from "./age-format.js";
+import { ageInDays, ageInYears, formatAge, isUnreleased, releaseOrigin } from "./age-format.js";
 import { tabletManufacturerProductLink, tabletManufacturerUserManual } from "./tablet-link-accessors.js";
 
 function notApplicable(t: Tablet): boolean {
@@ -87,15 +87,21 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.Model.LaunchYear, type: "number", group: "Model" },
   { key: "ReleaseDate", label: "Release Date", getValue: (t) => t.Model.ReleaseDate ?? "", type: "string", group: "Model" },
   {
-    // getValue stays whole years (numeric — sort/filter/analysis unchanged);
-    // getDisplayValue shows the same "nice" span as Driver.Age — exact when a
-    // month-precision ReleaseDate exists, else whole years so year-only
+    // getValue stays whole years (numeric — that's what sorts and filters
+    // see); getDisplayValue shows the same "nice" span as Driver.Age — exact
+    // when a month-precision ReleaseDate exists, else whole years so year-only
     // tablets don't imply false month precision.
+    //
+    // Both read the same origin date. They used to differ: getValue counted
+    // calendar years off LaunchYear while getDisplayValue measured from
+    // ReleaseDate, so a record whose two dates disagree (CT-0405-U: LaunchYear
+    // 2004, ReleaseDate 1997-11-01) displayed "28 years 9 months" but sorted
+    // as 22.
     key: "Age", label: "Age", computed: true, type: "number", group: "Model",
     getValue: (t) => {
       if (isUnreleased(t.Model.ReleaseDate, t.Model.LaunchYear)) return "";
-      const year = parseInt(t.Model.LaunchYear, 10);
-      return isNaN(year) ? "" : String(new Date().getFullYear() - year);
+      const days = ageInDays(releaseOrigin(t.Model.ReleaseDate, t.Model.LaunchYear));
+      return days === null ? "" : String(ageInYears(days));
     },
     getDisplayValue: (t) => {
       const rd = t.Model.ReleaseDate;

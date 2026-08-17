@@ -1,5 +1,5 @@
 import { describe, it, expect, afterEach, vi } from "vitest";
-import { formatAge, ageInDays, releaseOrigin, isUnreleased } from "./age-format.js";
+import { formatAge, ageInDays, ageInYears, releaseOrigin, isUnreleased } from "./age-format.js";
 
 describe("formatAge", () => {
   it("returns 'today' for zero or negative days", () => {
@@ -48,6 +48,23 @@ describe("ageInDays", () => {
     expect(ageInDays("2000-01-01")).toBeGreaterThan(0);
     expect(ageInDays("2007-11")).toBeGreaterThan(0);
     expect(ageInDays("1984")).toBeGreaterThan(0);
+  });
+});
+
+describe("ageInYears", () => {
+  it("floors to whole years on the same 365.25 basis as formatAge", () => {
+    expect(ageInYears(0)).toBe(0);
+    expect(ageInYears(122)).toBe(0); // "4 months"
+    expect(ageInYears(365)).toBe(0); // formatAge still says "12 months"
+    expect(ageInYears(366)).toBe(1); // formatAge says "1 year"
+    expect(ageInYears(730)).toBe(1); // 730 / 365.25 = 1.998
+    expect(ageInYears(731)).toBe(2);
+  });
+
+  it("agrees with the year formatAge names, across the CT-0405-U span", () => {
+    // The record that used to display "28 years 9 months" while sorting as 22.
+    expect(formatAge(10516)).toBe("28 years 9 months");
+    expect(ageInYears(10516)).toBe(28);
   });
 });
 

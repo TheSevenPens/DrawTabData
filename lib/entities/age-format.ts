@@ -49,6 +49,15 @@ export function isUnreleased(
   return days !== null && days < 0;
 }
 
+/**
+ * Whole years in a day count, on the same 365.25 basis formatAge uses — so a
+ * field's sortable number and its displayed span can't disagree about which
+ * year something falls in.
+ */
+export function ageInYears(days: number): number {
+  return Math.floor(days / DAYS_PER_YEAR);
+}
+
 /** One-decimal, trailing-".0" trimmed (e.g. 3.5 → "3.5", 2.0 → "2"). */
 function trim1(n: number): string {
   return n.toFixed(1).replace(/\.0$/, "");

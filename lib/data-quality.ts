@@ -105,6 +105,30 @@ function checkTabletEntityId(t: RawRecord, file: string): Issue[] {
   return issues;
 }
 
+// LaunchYear is the canonical year; ReleaseDate refines it. When the two
+// disagree about the year, one of them is wrong, and the UI shows both — the
+// Model tab prints LaunchYear as "Year" while Age is measured from
+// ReleaseDate, so a drifted record contradicts itself on screen. The gap is
+// usually a stale LaunchYear, but on the reused-Model.Id records (Wacom
+// shipped CT-0405-U in 1997, 2004 and 2005) it's the ReleaseDate that looks
+// inherited from the earlier generation. Either way a human has to pick.
+function checkTabletReleaseYearDrift(t: RawRecord, file: string): Issue[] {
+  const launchYear = getNestedString(t, "Model", "LaunchYear");
+  const releaseDate = getNestedString(t, "Model", "ReleaseDate");
+  if (!launchYear || !releaseDate) return [];
+  const releaseYear = releaseDate.slice(0, 4);
+  if (!/^\d{4}$/.test(releaseYear) || releaseYear === launchYear) return [];
+  return [
+    {
+      file,
+      entityId: getEntityId(t),
+      field: "Model.LaunchYear",
+      issue: "disagrees with the year in Model.ReleaseDate",
+      value: `LaunchYear "${launchYear}" vs ReleaseDate "${releaseDate}"`,
+    },
+  ];
+}
+
 // Each MANUFACTURER* link type backs a single derived accessor
 // (tabletManufacturer{ProductLink,UserManual}), so a tablet must carry at most
 // one of each. More than one means the derived value is ambiguous.
@@ -608,7 +632,11 @@ export function runDataQuality(dataDir: string): Issue[] {
       fileSuffix: "-tablets.json",
       rootKey: "DrawingTablets",
       schema: TabletSchema,
-      perRecordChecks: [checkTabletEntityId, checkTabletManufacturerLinks],
+      perRecordChecks: [
+        checkTabletEntityId,
+        checkTabletManufacturerLinks,
+        checkTabletReleaseYearDrift,
+      ],
       dedupe: true,
     }),
     ...runEntityChecks(dataDir, {
