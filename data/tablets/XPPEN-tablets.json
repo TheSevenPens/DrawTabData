@@ -4683,6 +4683,95 @@
                                             "_CreateDate":  "2026-07-31T06:08:14.540Z",
                                             "_ModifiedDate":  "2026-07-31T06:08:14.540Z"
                                         }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "xppen.tablet.md140qh",
+                                            "_id":  "b28a32ce-e147-4463-9e8f-92a61c2415e5",
+                                            "_CreateDate":  "2026-08-16T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-08-16T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "XPPEN",
+                                             "Id":  "MD140QH",
+                                             "Links":  [
+                                               {
+                                                 "Type": "MANUFACTURERPRODUCTINFO",
+                                                 "URL": "https://www.xp-pen.com/product/artist-ultra-14.html",
+                                                 "Title": "XPPen Artist Ultra 14",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML"
+                                               },
+                                               {
+                                                 "Type": "STORE",
+                                                 "URL": "https://www.xp-pen.com/store/buy/artist-ultra-14.html",
+                                                 "Title": "Artist Ultra 14 | XPPen US Official Store",
+                                                 "Author": "XP-Pen",
+                                                 "ContentType": "HTML"
+                                               },
+                                               {
+                                                 "Type": "REVIEW",
+                                                 "URL": "https://www.creativebloq.com/art/digital-art/xppens-new-artist-ultra-14-drawing-display-gets-the-important-specs-right",
+                                                 "Title": "XPPen's new Artist Ultra 14 drawing display gets the important specs right",
+                                                 "Author": "Creative Bloq",
+                                                 "ContentType": "HTML"
+                                               }
+                                             ],
+                                             "Name":  "Artist Ultra 14",
+                                             "Type":  "PENDISPLAY",
+                                             "LaunchYear":  "2026",
+                                             "ReleaseDate":  "2026-08-31",
+                                             "Audience":  "Professional",
+                                             "Family":  "xppen.tabletfamily.xppen_artistultra",
+                                             "IncludedPen":  [
+                                                                 "xppen.pen.pd21",
+                                                                 "xppen.pen.pd51"
+                                                             ],
+                                             "Status":  "AVAILABLE",
+                                             "Notes":  "Pre-order at time of entry (2026-08-16); XP-Pen store lists an expected ship date of Aug 31, 2026. Ships with the X3 Pro Smart Chip stylus (PD21D) and X3 Pro Slim stylus (PD51B); no on-device express keys - an ACK05 wireless shortcut remote is bundled."
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  301.8,
+                                                                    "Height":  188.6
+                                                                },
+                                                 "Density":  "200",
+                                                 "Tilt":  "60",
+                                                 "AccuracyCenter":  "0.4",
+                                                 "MaxHover":  "10",
+                                                 "SupportsTouch":  "YES"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  2880,
+                                                                       "Height":  1800
+                                                                   },
+                                               "PanelTech":  "OLED",
+                                               "Brightness":  "350",
+                                               "Contrast":  "100000",
+                                               "ColorBitDepth":  "10",
+                                               "ColorGamuts":  {
+                                                                   "SRGB":  99,
+                                                                   "ADOBERGB":  99,
+                                                                   "DISPLAYP3":  99
+                                                               },
+                                               "Lamination":  "YES",
+                                               "AntiGlare":  "ETCHEDGLASS",
+                                               "ResponseTime":  "1",
+                                               "RefreshRate":  "90",
+                                               "ViewingAngleHorizontal":  "178",
+                                               "ViewingAngleVertical":  "178"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  330.4,
+                                                                   "Height":  221.6,
+                                                                   "Depth":  8
+                                                               },
+                                                "Weight":  "720"
+                                            }
                            }
                        ]
 }
