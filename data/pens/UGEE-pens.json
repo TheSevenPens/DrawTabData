@@ -6,7 +6,7 @@
                      "PenId":  "U-Pencil",
                      "PenName":  "U-Pencil",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "ReleaseYear":  "",
                      "_id":  "a3498b9f-38f2-430b-a2f2-fbe78d5a0187",
                      "_CreateDate":  "2026-04-03T05:56:10.000Z",
                      "_ModifiedDate":  "2026-04-03T05:56:10.000Z"
@@ -17,7 +17,7 @@
                      "PenId":  "P01",
                      "PenName":  "P01",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "ReleaseYear":  "",
                      "Notes":  "Also compatible with XP-Pen Star 01, Star 02, Star 03, Star 06, G430, G430S, G540 (not yet in the dataset).",
                      "_id":  "cafb0401-ba46-4fff-b9f3-a1b3c5977409",
                      "_CreateDate":  "2026-04-03T06:01:40.000Z",
@@ -29,7 +29,7 @@
                      "PenId":  "PH12",
                      "PenName":  "PH12",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "ReleaseYear":  "",
                      "_id":  "8c1d758c-db7d-4634-96b0-0fb69d93e3ba",
                      "_CreateDate":  "2026-04-03T06:01:40.000Z",
                      "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
@@ -40,7 +40,7 @@
                      "PenId":  "PH01",
                      "PenName":  "PH01",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "ReleaseYear":  "",
                      "_id":  "af0517bf-180e-4466-8340-5d9c488fc81f",
                      "_CreateDate":  "2026-04-03T06:01:40.000Z",
                      "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
@@ -51,7 +51,7 @@
                      "PenId":  "P06",
                      "PenName":  "P06",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "ReleaseYear":  "",
                      "_id":  "586b0756-a5d8-431e-8382-7e437f18d0ac",
                      "_CreateDate":  "2026-04-03T06:01:40.000Z",
                      "_ModifiedDate":  "2026-04-03T06:01:40.000Z"
@@ -62,7 +62,7 @@
                      "PenId":  "M908Stylus",
                      "PenName":  "M908 Stylus",
                      "PenFamily":  "",
-                     "PenYear":  "",
+                     "ReleaseYear":  "",
                      "_id":  "a33cdf9e-b49d-45f1-b793-a2aa81cbfcdc",
                      "_CreateDate":  "2026-04-19T00:00:00.000Z",
                      "_ModifiedDate":  "2026-04-19T00:00:00.000Z"

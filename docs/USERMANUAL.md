@@ -244,11 +244,11 @@ console.log(`  ${ds.penToTablets.size} pens with known tablet compatibility`);
 
 ```typescript
 const pens2010s = pens.filter(p =>
-  p.Brand === "WACOM" && p.PenYear >= "2010" && p.PenYear <= "2019"
+  p.Brand === "WACOM" && p.ReleaseYear >= "2010" && p.ReleaseYear <= "2019"
 );
 
 for (const pen of pens2010s) {
-  console.log(`${pen.PenName} (${pen.PenId}) - ${pen.PenYear}`);
+  console.log(`${pen.PenName} (${pen.PenId}) - ${pen.ReleaseYear}`);
 }
 ```
 

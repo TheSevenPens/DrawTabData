@@ -54,7 +54,7 @@ Weight:
 Length:
 Diameter:
 PenFamily:
-PenYear:
+ReleaseYear:
 Notes:
 
 === PE330 (PE330)

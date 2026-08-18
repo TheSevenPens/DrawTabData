@@ -98,7 +98,7 @@ const record = {
   PenId: penId,
   PenName: penName,
   PenFamily: "",
-  PenYear: year,
+  ReleaseYear: year,
   _id: randomUUID(),
   _CreateDate: now,
   _ModifiedDate: now,

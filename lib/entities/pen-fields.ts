@@ -96,7 +96,7 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Model" },
   { key: "PenFamily", label: "Family", getValue: (p) => resolvePenFamily(p.PenFamily), type: "string", group: "Model" },
   { key: "PenTech", label: "Tech", getValue: (p) => p.PenTech ?? '', type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Model" },
-  { key: "PenYear", label: "Year", getValue: (p) => p.PenYear, type: "number", group: "Model" },
+  { key: "ReleaseYear", label: "Year", getValue: (p) => p.ReleaseYear, type: "number", group: "Model" },
   { key: "Notes", label: "Notes", getValue: (p) => p.Notes ?? '', type: "string", group: "Model" },
   { key: "Tags", label: "Tags", getValue: (p) => (p.Tags ?? []).join(', '), type: "string", group: "Model" },
   { key: "LinkCount", label: "Links", getValue: (p) => { const n = (p.Links ?? []).length; return n ? String(n) : ''; }, type: "number", group: "Model" },
@@ -129,14 +129,14 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
 ];
 
 export const PEN_DEFAULT_COLUMNS = [
-  "Brand", "PenId", "PenName", "PenFamily", "PenTech", "PenYear",
+  "Brand", "PenId", "PenName", "PenFamily", "PenTech", "ReleaseYear",
   "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory",
 ];
 
 export const PEN_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
-    fields: ["Brand", "PenName", "PenId", "PenFamily", "PenYear", "PenTech", "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory"],
+    fields: ["Brand", "PenName", "PenId", "PenFamily", "ReleaseYear", "PenTech", "PressureLevels", "ButtonCount", "Eraser", "UnitsInInventory"],
   },
   { kind: "sort", field: "PenId", direction: "asc" },
 ];

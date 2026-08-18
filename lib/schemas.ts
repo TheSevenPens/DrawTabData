@@ -241,7 +241,7 @@ export const PenSchema = v.strictObject({
   PenId: TrimmedString,
   PenName: TrimmedString,
   PenFamily: TrimmedString,
-  PenYear: TrimmedString,
+  ReleaseYear: TrimmedString,
   PenTech: v.optional(v.picklist(["PASSIVE_EMR", "ACTIVE_EMR"])),
   ButtonCount: v.optional(NumericString),
   PressureSensitive: v.optional(YesNo),
