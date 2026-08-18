@@ -2,6 +2,7 @@ import { describe, it, expect, beforeAll } from "vitest";
 import * as path from "path";
 import * as url from "url";
 import { DrawTabDataSet } from "./dataset.js";
+import { createDiskDataSet } from "./dataset-node.js";
 
 const dataDir = path.resolve(
   path.dirname(url.fileURLToPath(import.meta.url)),
@@ -12,7 +13,7 @@ const dataDir = path.resolve(
 // One dataset reused across all tests where caching isn't the subject.
 let ds: DrawTabDataSet;
 beforeAll(() => {
-  ds = new DrawTabDataSet({ kind: "disk", dataDir, userId: "sevenpens" });
+  ds = createDiskDataSet({ dataDir, userId: "sevenpens" });
 });
 
 describe("Query — materialisation", () => {
@@ -732,7 +733,7 @@ describe("Query — filter after summarize (SQL HAVING)", () => {
 
 describe("Query — caching", () => {
   it("collection is loaded once even when accessed via multiple queries", async () => {
-    const fresh = new DrawTabDataSet({ kind: "disk", dataDir });
+    const fresh = createDiskDataSet({ dataDir });
     const t1 = await fresh.Tablets.count();
     const t2 = await fresh.Tablets.filter("Brand", "==", "WACOM").count();
     expect(t1).toBeGreaterThan(0);
@@ -753,7 +754,7 @@ describe("Inventory access", () => {
   });
 
   it("throws when userId is missing", async () => {
-    const noUser = new DrawTabDataSet({ kind: "disk", dataDir });
+    const noUser = createDiskDataSet({ dataDir });
     await expect(noUser.InventoryPens.toArray()).rejects.toThrow(/requires a userId/);
   });
 });
@@ -924,5 +925,22 @@ describe("ds.getEntity — universal EntityId lookup", () => {
 
   it("throws on the empty string", async () => {
     await expect(() => ds.getEntity("")).rejects.toThrow();
+  });
+});
+
+describe("disk mode — loader injection", () => {
+  // The disk loader is injected rather than imported so that dataset.ts stays
+  // free of node:fs and browser bundles don't ship it. Constructing disk mode
+  // directly therefore can't work, and has to say so clearly rather than
+  // failing later with something cryptic.
+  it("constructing disk mode without a loader points at createDiskDataSet", () => {
+    // Throws from the constructor, not on first query — the loaders are all
+    // built up front, so the mistake surfaces at the call site that made it.
+    expect(() => new DrawTabDataSet({ kind: "disk", dataDir })).toThrow(/createDiskDataSet/);
+  });
+
+  it("createDiskDataSet wires one up and reads real data", async () => {
+    const wired = createDiskDataSet({ dataDir });
+    expect((await wired.Tablets.toArray()).length).toBeGreaterThan(100);
   });
 });

@@ -32,7 +32,6 @@ import {
   loadDocLinksFromURL,
   type DocLink,
 } from "./drawtab-loader.js";
-import { ShardedDiskLoader } from "./drawtab-loader-node.js";
 import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 import type { AnyFieldDef, Loader } from "@thesevenpens/queriton";
 import { Query, DataSet } from "@thesevenpens/queriton";
@@ -117,20 +116,45 @@ export type PressureRangeWithRels = PressureRange & {
 // `DrawTabDataSet` constructor below; the URL/disk split is the only place
 // this file needs to branch on source.kind.
 
-interface LoaderOpts<T, Raw = T> {
+export interface LoaderOpts<T, Raw = T> {
   shards: readonly string[];
   filePath: (shard: string) => string;
   rootKey: string;
   transform?: (raw: Raw[]) => T[];
 }
 
+/**
+ * Builds the disk branch's loader. Injected rather than imported: a static
+ * import of drawtab-loader-node.js pulls node:fs into this module, and this
+ * module is reachable from every browser bundle that touches the dataset —
+ * so the disk loader was shipping to browsers as dead code. Node callers get
+ * it wired for them by createDiskDataSet() in dataset-node.ts.
+ */
+export type DiskLoaderFactory = <T, Raw = T>(
+  dataDir: string,
+  opts: LoaderOpts<T, Raw>,
+) => Loader<T>;
+
+export interface DataSetOptions {
+  diskLoaderFactory?: DiskLoaderFactory;
+}
+
 function makeShardedLoader<T, Raw = T>(
   source: DataSource,
+  diskLoaderFactory: DiskLoaderFactory | undefined,
   opts: LoaderOpts<T, Raw>,
 ): Loader<T> {
-  return source.kind === "url"
-    ? new ShardedURLLoader<T, Raw>(source.baseUrl, opts)
-    : new ShardedDiskLoader<T, Raw>(source.dataDir, opts);
+  if (source.kind === "url") {
+    return new ShardedURLLoader<T, Raw>(source.baseUrl, opts);
+  }
+  if (!diskLoaderFactory) {
+    throw new Error(
+      'Disk-mode DrawTabDataSet needs a disk loader. Build it with createDiskDataSet() ' +
+        'from dataset-node.js rather than `new DrawTabDataSet({ kind: "disk", ... })` — ' +
+        "the disk loader is kept out of this module so browser bundles don't pull in node:fs.",
+    );
+  }
+  return diskLoaderFactory<T, Raw>(source.dataDir, opts);
 }
 
 function requireUserId(source: DataSource): string {
@@ -181,52 +205,52 @@ export class DrawTabDataSet extends DataSet {
   private cachedOtdEntityAudit?: Promise<Record<string, OTDAuditStatus>>;
   private cachedDocLinks?: Promise<DocLink[]>;
 
-  constructor(source: DataSource) {
+  constructor(source: DataSource, options: DataSetOptions = {}) {
     super();
     this.source = source;
 
-    const brandsLoader = makeShardedLoader<Brand>(source, {
+    const brandsLoader = makeShardedLoader<Brand>(source, options.diskLoaderFactory, {
       shards: ["brands"],
       filePath: (s) => `brands/${s}.json`,
       rootKey: "Brands",
     });
-    const tabletsLoader = makeShardedLoader<Tablet>(source, {
+    const tabletsLoader = makeShardedLoader<Tablet>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `tablets/${s}-tablets.json`,
       rootKey: "DrawingTablets",
     });
-    const tabletFamiliesLoader = makeShardedLoader<TabletFamily>(source, {
+    const tabletFamiliesLoader = makeShardedLoader<TabletFamily>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `tablet-families/${s}-tablet-families.json`,
       rootKey: "TabletFamilies",
     });
-    const pensLoader = makeShardedLoader<Pen>(source, {
+    const pensLoader = makeShardedLoader<Pen>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `pens/${s}-pens.json`,
       rootKey: "Pens",
     });
-    const penFamiliesLoader = makeShardedLoader<PenFamily>(source, {
+    const penFamiliesLoader = makeShardedLoader<PenFamily>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `pen-families/${s}-pen-families.json`,
       rootKey: "PenFamilies",
     });
-    const driversLoader = makeShardedLoader<Driver>(source, {
+    const driversLoader = makeShardedLoader<Driver>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `drivers/${s}-drivers.json`,
       rootKey: "Drivers",
     });
-    const penCompatLoader = makeShardedLoader<PenCompat, PenCompatGrouped>(source, {
+    const penCompatLoader = makeShardedLoader<PenCompat, PenCompatGrouped>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `pen-compat/${s}-pen-compat.json`,
       rootKey: "PenCompat",
       transform: expandPenCompat,
     });
-    const pressureResponseLoader = makeShardedLoader<PressureResponse>(source, {
+    const pressureResponseLoader = makeShardedLoader<PressureResponse>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `pressure-response/${s}-pressure-response.json`,
       rootKey: "PressureResponse",
     });
-    const pressureRangeLoader = makeShardedLoader<PressureRange>(source, {
+    const pressureRangeLoader = makeShardedLoader<PressureRange>(source, options.diskLoaderFactory, {
       shards: BRANDS,
       filePath: (s) => `pressure-range/${s}-pressure-range.json`,
       rootKey: "PressureRange",
@@ -284,7 +308,7 @@ export class DrawTabDataSet extends DataSet {
     this.registerCollection<InventoryPenWithRels>(
       "InventoryPens",
       async () => {
-        const loader = makeShardedLoader<InventoryPen>(source, {
+        const loader = makeShardedLoader<InventoryPen>(source, options.diskLoaderFactory, {
           shards: [requireUserId(source)],
           filePath: (s) => `inventory/${s}-pens.json`,
           rootKey: "InventoryPens",
@@ -296,7 +320,7 @@ export class DrawTabDataSet extends DataSet {
     this.registerCollection<InventoryTabletWithRels>(
       "InventoryTablets",
       async () => {
-        const loader = makeShardedLoader<InventoryTablet>(source, {
+        const loader = makeShardedLoader<InventoryTablet>(source, options.diskLoaderFactory, {
           shards: [requireUserId(source)],
           filePath: (s) => `inventory/${s}-tablets.json`,
           rootKey: "InventoryTablets",
