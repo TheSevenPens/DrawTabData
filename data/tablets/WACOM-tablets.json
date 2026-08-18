@@ -726,7 +726,7 @@
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Small",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2017",
+                                             "LaunchYear":  "2015",
                                              "ReleaseDate":  "2015-09-15",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
@@ -998,7 +998,7 @@
                                              "LastSupportedMacOSDriver":  "6.4.10-3",
                                              "Name":  "Intuos Medium",
                                              "Type":  "PENTABLET",
-                                             "LaunchYear":  "2017",
+                                             "LaunchYear":  "2015",
                                              "ReleaseDate":  "2015-09-15",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
@@ -2818,7 +2818,7 @@
                                              ],
                                              "Name":  "Cintiq 16",
                                              "Type":  "PENDISPLAY",
-                                             "LaunchYear":  "2018",
+                                             "LaunchYear":  "2019",
                                              "ReleaseDate":  "2019-01-08",
                                              "Audience":  "Consumer",
                                              "IncludedPen":  [
@@ -10357,7 +10357,6 @@
                                              "Name":  "PenPartner A8 USB",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2004",
-                                             "ReleaseDate":  "1997-11-01",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          }
@@ -10376,7 +10375,6 @@
                                              "Name":  "PenPartner 2",
                                              "Type":  "PENTABLET",
                                              "LaunchYear":  "2005",
-                                             "ReleaseDate":  "1998-02-01",
                                              "Status":  "DISCONTINUED",
                                              "Family":  "wacom.tabletfamily.wacom_penpartner_legacy"
                                          }
