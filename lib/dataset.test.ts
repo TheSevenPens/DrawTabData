@@ -55,20 +55,20 @@ describe("Query — fluent chain", () => {
   it("sort orders ascending by default", async () => {
     const sorted = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .sort("ModelLaunchYear")
+      .sort("ModelReleaseYear")
       .take(5)
       .toArray();
-    const years = sorted.map((t) => t.Model.LaunchYear).filter(Boolean);
+    const years = sorted.map((t) => t.Model.ReleaseYear).filter(Boolean);
     expect(years).toEqual([...years].sort());
   });
 
   it("sort descending reverses order", async () => {
     const sorted = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .sort("ModelLaunchYear", "desc")
+      .sort("ModelReleaseYear", "desc")
       .take(5)
       .toArray();
-    const years = sorted.map((t) => t.Model.LaunchYear).filter(Boolean);
+    const years = sorted.map((t) => t.Model.ReleaseYear).filter(Boolean);
     expect(years).toEqual([...years].sort().reverse());
   });
 
@@ -123,31 +123,31 @@ describe("Query — filter operators", () => {
   });
 
   it("numeric > and < bracket the dataset", async () => {
-    const after2020 = await ds.Tablets.filter("ModelLaunchYear", ">", 2020).toArray();
+    const after2020 = await ds.Tablets.filter("ModelReleaseYear", ">", 2020).toArray();
     expect(after2020.length).toBeGreaterThan(0);
-    expect(after2020.every((t) => (t.Model.LaunchYear ?? 0) > 2020)).toBe(true);
+    expect(after2020.every((t) => (t.Model.ReleaseYear ?? 0) > 2020)).toBe(true);
 
-    const before2000 = await ds.Tablets.filter("ModelLaunchYear", "<", 2000).toArray();
+    const before2000 = await ds.Tablets.filter("ModelReleaseYear", "<", 2000).toArray();
     expect(before2000.length).toBeGreaterThan(0);
-    expect(before2000.every((t) => Number(t.Model.LaunchYear) < 2000)).toBe(true);
+    expect(before2000.every((t) => Number(t.Model.ReleaseYear) < 2000)).toBe(true);
   });
 
   it("numeric >= and <= are inclusive at the boundary", async () => {
-    const ge = await ds.Tablets.filter("ModelLaunchYear", ">=", 2020).count();
-    const gt = await ds.Tablets.filter("ModelLaunchYear", ">", 2020).count();
-    const eq = await ds.Tablets.filter("ModelLaunchYear", "==", 2020).count();
+    const ge = await ds.Tablets.filter("ModelReleaseYear", ">=", 2020).count();
+    const gt = await ds.Tablets.filter("ModelReleaseYear", ">", 2020).count();
+    const eq = await ds.Tablets.filter("ModelReleaseYear", "==", 2020).count();
     expect(ge).toBe(gt + eq);
 
-    const le = await ds.Tablets.filter("ModelLaunchYear", "<=", 2020).count();
-    const lt = await ds.Tablets.filter("ModelLaunchYear", "<", 2020).count();
+    const le = await ds.Tablets.filter("ModelReleaseYear", "<=", 2020).count();
+    const lt = await ds.Tablets.filter("ModelReleaseYear", "<", 2020).count();
     expect(le).toBe(lt + eq);
   });
 
   it("numeric comparisons exclude blank values", async () => {
     // A very low lower bound: every row with a numeric year passes; rows with
-    // an empty ModelLaunchYear are excluded (engine bails on val === "").
-    const withYear = await ds.Tablets.filter("ModelLaunchYear", ">", -1).count();
-    const notEmpty = await ds.Tablets.filter("ModelLaunchYear", "notempty", "").count();
+    // an empty ModelReleaseYear are excluded (engine bails on val === "").
+    const withYear = await ds.Tablets.filter("ModelReleaseYear", ">", -1).count();
+    const notEmpty = await ds.Tablets.filter("ModelReleaseYear", "notempty", "").count();
     expect(withYear).toBe(notEmpty);
   });
 });
@@ -187,9 +187,9 @@ describe("Query — summarize", () => {
       .filter("Brand", "==", "WACOM")
       .summarize({
         by: "Brand",
-        avg: { avgYear: "ModelLaunchYear" },
-        min: { firstYear: "ModelLaunchYear" },
-        max: { lastYear: "ModelLaunchYear" },
+        avg: { avgYear: "ModelReleaseYear" },
+        min: { firstYear: "ModelReleaseYear" },
+        max: { lastYear: "ModelReleaseYear" },
       })
       .toArray();
     expect(rows.length).toBe(1);
@@ -251,7 +251,7 @@ describe("Query — summarize", () => {
   it("median is the middle value (even count → average of middle two)", async () => {
     const rows = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .summarize({ by: "Brand", median: { medianYear: "ModelLaunchYear" } })
+      .summarize({ by: "Brand", median: { medianYear: "ModelReleaseYear" } })
       .toArray();
     expect(rows.length).toBe(1);
     const m = rows[0].medianYear as number;
@@ -311,12 +311,12 @@ describe("Query — select (project)", () => {
   it("projects rows to only the requested fields", async () => {
     const rows = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .select(["Brand", "ModelId", "ModelLaunchYear"])
+      .select(["Brand", "ModelId", "ModelReleaseYear"])
       .take(3)
       .toArray();
     expect(rows.length).toBe(3);
     for (const r of rows) {
-      expect(Object.keys(r).sort()).toEqual(["Brand", "ModelId", "ModelLaunchYear"]);
+      expect(Object.keys(r).sort()).toEqual(["Brand", "ModelId", "ModelReleaseYear"]);
       expect(r.Brand).toBe("WACOM");
     }
   });
@@ -324,11 +324,11 @@ describe("Query — select (project)", () => {
   it("downstream sort/filter target projected columns", async () => {
     const rows = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .select(["ModelId", "ModelLaunchYear"])
-      .sort("ModelLaunchYear", "desc")
+      .select(["ModelId", "ModelReleaseYear"])
+      .sort("ModelReleaseYear", "desc")
       .take(5)
       .toArray();
-    const years = rows.map((r) => Number(r.ModelLaunchYear)).filter((n) => !isNaN(n));
+    const years = rows.map((r) => Number(r.ModelReleaseYear)).filter((n) => !isNaN(n));
     expect(years).toEqual([...years].sort((a, b) => b - a));
   });
 
@@ -371,19 +371,19 @@ describe("Query — distinct / values", () => {
 describe("Query — predicate filter", () => {
   it("filter(fn) applies an arbitrary predicate", async () => {
     const post2020 = await ds.Tablets
-      .filter((t) => (t.Model.LaunchYear ?? 0) >= 2020)
+      .filter((t) => (t.Model.ReleaseYear ?? 0) >= 2020)
       .toArray();
     expect(post2020.length).toBeGreaterThan(0);
-    expect(post2020.every((t) => (t.Model.LaunchYear ?? 0) >= 2020)).toBe(true);
+    expect(post2020.every((t) => (t.Model.ReleaseYear ?? 0) >= 2020)).toBe(true);
   });
 
   it("predicate composes with string-tuple filters", async () => {
     const wacomRecent = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .filter((t) => (t.Model.LaunchYear ?? 0) >= 2020)
+      .filter((t) => (t.Model.ReleaseYear ?? 0) >= 2020)
       .toArray();
     expect(wacomRecent.length).toBeGreaterThan(0);
-    expect(wacomRecent.every((t) => t.Model.Brand === "WACOM" && (t.Model.LaunchYear ?? 0) >= 2020)).toBe(true);
+    expect(wacomRecent.every((t) => t.Model.Brand === "WACOM" && (t.Model.ReleaseYear ?? 0) >= 2020)).toBe(true);
   });
 });
 
@@ -443,7 +443,7 @@ describe("Query — derive", () => {
     const rows = await ds.Tablets
       .filter("Brand", "==", "WACOM")
       .derive({
-        ageBucket: (t) => Math.floor((2026 - (t.Model.LaunchYear ?? 2026)) / 10) * 10,
+        ageBucket: (t) => Math.floor((2026 - (t.Model.ReleaseYear ?? 2026)) / 10) * 10,
       })
       .summarize({ by: "ageBucket", count: "tablets" })
       .sort("ageBucket", "asc")
@@ -456,7 +456,7 @@ describe("Query — derive", () => {
   it("derived columns can be sorted on", async () => {
     const rows = await ds.Tablets
       .filter("Brand", "==", "WACOM")
-      .derive({ yearMinus2000: (t) => (t.Model.LaunchYear ?? 2000) - 2000 })
+      .derive({ yearMinus2000: (t) => (t.Model.ReleaseYear ?? 2000) - 2000 })
       .sort("yearMinus2000", "desc")
       .take(3)
       .toArray();
@@ -506,28 +506,28 @@ describe("Query — join / semijoin", () => {
 
 describe("Query — skip / last / reverse", () => {
   it("skip drops the first N rows", async () => {
-    const all = await ds.Tablets.sort("ModelLaunchYear").toArray();
-    const skipped = await ds.Tablets.sort("ModelLaunchYear").skip(10).toArray();
+    const all = await ds.Tablets.sort("ModelReleaseYear").toArray();
+    const skipped = await ds.Tablets.sort("ModelReleaseYear").skip(10).toArray();
     expect(skipped.length).toBe(all.length - 10);
     expect(skipped[0]).toEqual(all[10]);
   });
 
   it("skip + take is a paged window", async () => {
-    const page1 = await ds.Tablets.sort("ModelLaunchYear").take(5).toArray();
-    const page2 = await ds.Tablets.sort("ModelLaunchYear").skip(5).take(5).toArray();
+    const page1 = await ds.Tablets.sort("ModelReleaseYear").take(5).toArray();
+    const page2 = await ds.Tablets.sort("ModelReleaseYear").skip(5).take(5).toArray();
     expect(page2.length).toBe(5);
     expect(page2[0]).not.toEqual(page1[0]);
   });
 
   it("last returns the trailing N rows in input order", async () => {
-    const sorted = await ds.Tablets.sort("ModelLaunchYear").toArray();
-    const last3 = await ds.Tablets.sort("ModelLaunchYear").last(3).toArray();
+    const sorted = await ds.Tablets.sort("ModelReleaseYear").toArray();
+    const last3 = await ds.Tablets.sort("ModelReleaseYear").last(3).toArray();
     expect(last3).toEqual(sorted.slice(-3));
   });
 
   it("reverse flips the order without re-sorting", async () => {
-    const asc = await ds.Tablets.sort("ModelLaunchYear").take(5).toArray();
-    const rev = await ds.Tablets.sort("ModelLaunchYear").take(5).reverse().toArray();
+    const asc = await ds.Tablets.sort("ModelReleaseYear").take(5).toArray();
+    const rev = await ds.Tablets.sort("ModelReleaseYear").take(5).reverse().toArray();
     expect(rev).toEqual([...asc].reverse());
   });
 });
@@ -538,7 +538,7 @@ describe("Query — multi-key sort", () => {
       .filterIn("Brand", ["WACOM", "HUION"])
       .sort([
         { field: "Brand", direction: "asc" },
-        { field: "ModelLaunchYear", direction: "desc" },
+        { field: "ModelReleaseYear", direction: "desc" },
       ])
       .toArray();
     expect(rows.length).toBeGreaterThan(0);
@@ -551,7 +551,7 @@ describe("Query — multi-key sort", () => {
     // Secondary desc on year — within each brand, years descending.
     const wacomYears = rows
       .filter((t) => t.Model.Brand === "WACOM")
-      .map((t) => Number(t.Model.LaunchYear))
+      .map((t) => Number(t.Model.ReleaseYear))
       .filter((n) => !isNaN(n));
     expect(wacomYears).toEqual([...wacomYears].sort((a, b) => b - a));
   });
@@ -574,11 +574,11 @@ describe("Query — new filter operators", () => {
 
   it("'between' is inclusive at both ends", async () => {
     const range = await ds.Tablets
-      .filter("ModelLaunchYear", "between", "2018|2022")
+      .filter("ModelReleaseYear", "between", "2018|2022")
       .toArray();
     expect(range.length).toBeGreaterThan(0);
     for (const t of range) {
-      const y = Number(t.Model.LaunchYear);
+      const y = Number(t.Model.ReleaseYear);
       expect(y).toBeGreaterThanOrEqual(2018);
       expect(y).toBeLessThanOrEqual(2022);
     }

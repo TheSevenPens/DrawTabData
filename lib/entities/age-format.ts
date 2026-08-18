@@ -18,19 +18,19 @@ export function ageInDays(date: string | undefined): number | null {
 
 /**
  * The date an age should be measured from, for a record carrying both a
- * (possibly absent) precise ReleaseDate and a coarse LaunchYear.
+ * (possibly absent) precise ReleaseDate and a coarse ReleaseYear.
  *
- * ReleaseDate wins at any ISO precision. LaunchYear is only a fallback
+ * ReleaseDate wins at any ISO precision. ReleaseYear is only a fallback
  * because it pins Jan 1, which overstates a mid-year release by up to a
  * year — an April 2026 tablet read as Jan 1 2026 is ~106 days too old.
  * Returns undefined when neither is usable.
  */
 export function releaseOrigin(
   releaseDate: string | undefined,
-  launchYear: string | undefined,
+  releaseYear: string | undefined,
 ): string | undefined {
   if (releaseDate && !isNaN(new Date(releaseDate).getTime())) return releaseDate;
-  const year = parseInt(launchYear ?? "", 10);
+  const year = parseInt(releaseYear ?? "", 10);
   return isNaN(year) ? undefined : `${year}-01-01`;
 }
 
@@ -43,9 +43,9 @@ export function releaseOrigin(
  */
 export function isUnreleased(
   releaseDate: string | undefined,
-  launchYear: string | undefined,
+  releaseYear: string | undefined,
 ): boolean {
-  const days = ageInDays(releaseOrigin(releaseDate, launchYear));
+  const days = ageInDays(releaseOrigin(releaseDate, releaseYear));
   return days !== null && days < 0;
 }
 

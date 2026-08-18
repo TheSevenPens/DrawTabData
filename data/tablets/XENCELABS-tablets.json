@@ -27,7 +27,7 @@
         ],
         "Name": "Pen Tablet Small",
         "Type": "PENTABLET",
-        "LaunchYear": "2021",
+        "ReleaseYear": "2021",
         "ReleaseDate": "2021",
         "Audience": "Professional",
         "IncludedPen": [
@@ -83,7 +83,7 @@
         ],
         "Name": "Pen Tablet Medium V1",
         "Type": "PENTABLET",
-        "LaunchYear": "2021",
+        "ReleaseYear": "2021",
         "ReleaseDate": "2021-02-23",
         "Audience": "Professional",
         "IncludedPen": [
@@ -139,7 +139,7 @@
         ],
         "Name": "Pen Tablet Medium V2",
         "Type": "PENTABLET",
-        "LaunchYear": "2025",
+        "ReleaseYear": "2025",
         "ReleaseDate": "2025",
         "Audience": "Professional",
         "IncludedPen": [
@@ -246,7 +246,7 @@
         ],
         "Name": "Pen Display 24",
         "Type": "PENDISPLAY",
-        "LaunchYear": "2023",
+        "ReleaseYear": "2023",
         "ReleaseDate": "2023-03-21",
         "Audience": "Professional",
         "IncludedPen": [
@@ -353,7 +353,7 @@
         ],
         "Name": "Pen Display 16 Lite",
         "Type": "PENDISPLAY",
-        "LaunchYear": "2024",
+        "ReleaseYear": "2024",
         "ReleaseDate": "2024-05-08",
         "Audience": "Professional",
         "IncludedPen": [

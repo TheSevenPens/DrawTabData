@@ -35,7 +35,7 @@ for (const t of tablets) {
     t.Brand,
     t.ModelId,
     t.ModelName,
-    t.ModelLaunchYear || "?",
+    t.ModelReleaseYear || "?",
     t.ModelType,
     (t.ModelIncludedPen ?? []).join(",") || "-",
     t.ModelFamily || "-",

@@ -14,7 +14,7 @@
 //   const ds = new DrawTabDataSet({ kind: "url", baseUrl: "" });
 //   const wacomTablets = await ds.Tablets
 //     .filter("Brand", "==", "WACOM")
-//     .sort("ModelLaunchYear", "desc")
+//     .sort("ModelReleaseYear", "desc")
 //     .take(20)
 //     .toArray();
 //

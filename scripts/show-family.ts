@@ -37,7 +37,7 @@ if (members.length === 0) {
   process.exit(0);
 }
 
-members.sort((a, b) => (a.ModelLaunchYear || "").localeCompare(b.ModelLaunchYear || "") || a.ModelName.localeCompare(b.ModelName));
+members.sort((a, b) => (a.ModelReleaseYear || "").localeCompare(b.ModelReleaseYear || "") || a.ModelName.localeCompare(b.ModelName));
 
 console.log(
   ["ModelId", "ModelName", "Year", "Type", "Pen", "Diagonal(mm)"]
@@ -49,7 +49,7 @@ for (const t of members) {
   console.log([
     t.ModelId,
     t.ModelName,
-    t.ModelLaunchYear || "?",
+    t.ModelReleaseYear || "?",
     t.ModelType,
     (t.ModelIncludedPen ?? []).join(",") || "-",
     diag ? diag.toFixed(1) : "-",

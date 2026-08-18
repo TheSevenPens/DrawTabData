@@ -10,7 +10,7 @@ export interface SimilarTabletsOptions {
   sameBrand?: boolean;
   /** Restrict to a specific brand (overrides sameBrand). */
   brand?: string;
-  /** Require Model.LaunchYear >= source year. */
+  /** Require Model.ReleaseYear >= source year. */
   sameYearOrLater?: boolean;
 }
 
@@ -54,9 +54,9 @@ export function findSimilarTablets(
     results = results.filter((t) => t.Model.Brand === source.Model.Brand);
   }
 
-  if (options.sameYearOrLater && source.Model.LaunchYear) {
+  if (options.sameYearOrLater && source.Model.ReleaseYear) {
     results = results.filter(
-      (t) => t.Model.LaunchYear && t.Model.LaunchYear >= source.Model.LaunchYear,
+      (t) => t.Model.ReleaseYear && t.Model.ReleaseYear >= source.Model.ReleaseYear,
     );
   }
 

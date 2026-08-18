@@ -75,7 +75,7 @@ describe("releaseOrigin", () => {
     expect(releaseOrigin("2018", "2018")).toBe("2018");
   });
 
-  it("falls back to Jan 1 of LaunchYear when ReleaseDate is absent or junk", () => {
+  it("falls back to Jan 1 of ReleaseYear when ReleaseDate is absent or junk", () => {
     expect(releaseOrigin(undefined, "2026")).toBe("2026-01-01");
     expect(releaseOrigin("", "2026")).toBe("2026-01-01");
     expect(releaseOrigin("not-a-date", "2026")).toBe("2026-01-01");
@@ -100,7 +100,7 @@ describe("isUnreleased", () => {
   it("is true for a ship date still in the future", () => {
     at("2026-08-17T00:00:00Z");
     // The XPPen Artist Ultra 14 case: pre-order, ships 2026-08-31. Reading
-    // the age off LaunchYear alone made this look 227 days old.
+    // the age off ReleaseYear alone made this look 227 days old.
     expect(isUnreleased("2026-08-31", "2026")).toBe(true);
   });
 
@@ -111,7 +111,7 @@ describe("isUnreleased", () => {
     expect(isUnreleased("2026-08-31", "2026")).toBe(false);
   });
 
-  it("uses the LaunchYear fallback when there is no ReleaseDate", () => {
+  it("uses the ReleaseYear fallback when there is no ReleaseDate", () => {
     at("2026-08-17T00:00:00Z");
     expect(isUnreleased(undefined, "2027")).toBe(true);
     expect(isUnreleased(undefined, "2026")).toBe(false);

@@ -84,7 +84,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "AlternateNames", label: "Alternate Names", getValue: (t) => (t.Model.AlternateNames ?? []).join(", "), type: "string", group: "Model" },
   { key: "LinkCount", label: "Links", getValue: (t) => { const n = (t.Model.Links ?? []).length; return n ? String(n) : ""; }, type: "number", group: "Model" },
   { key: "ModelType", label: "Type", getValue: (t) => t.Model.Type, type: "enum", enumValues: ["PENTABLET", "PENDISPLAY", "STANDALONE"], group: "Model" },
-  { key: "ModelLaunchYear", label: "Year", getValue: (t) => t.Model.LaunchYear, type: "number", group: "Model" },
+  { key: "ModelReleaseYear", label: "Year", getValue: (t) => t.Model.ReleaseYear, type: "number", group: "Model" },
   { key: "ReleaseDate", label: "Release Date", getValue: (t) => t.Model.ReleaseDate ?? "", type: "string", group: "Model" },
   {
     // getValue stays whole years (numeric — that's what sorts and filters
@@ -93,14 +93,14 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
     // tablets don't imply false month precision.
     //
     // Both read the same origin date. They used to differ: getValue counted
-    // calendar years off LaunchYear while getDisplayValue measured from
-    // ReleaseDate, so a record whose two dates disagree (CT-0405-U: LaunchYear
+    // calendar years off ReleaseYear while getDisplayValue measured from
+    // ReleaseDate, so a record whose two dates disagree (CT-0405-U: ReleaseYear
     // 2004, ReleaseDate 1997-11-01) displayed "28 years 9 months" but sorted
     // as 22.
     key: "Age", label: "Age", computed: true, type: "number", group: "Model",
     getValue: (t) => {
-      if (isUnreleased(t.Model.ReleaseDate, t.Model.LaunchYear)) return "";
-      const days = ageInDays(releaseOrigin(t.Model.ReleaseDate, t.Model.LaunchYear));
+      if (isUnreleased(t.Model.ReleaseDate, t.Model.ReleaseYear)) return "";
+      const days = ageInDays(releaseOrigin(t.Model.ReleaseDate, t.Model.ReleaseYear));
       return days === null ? "" : String(ageInYears(days));
     },
     getDisplayValue: (t) => {
@@ -108,24 +108,24 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
       // Announced or up for pre-order but not shipped yet. Without this,
       // formatAge folds the negative span into "today", which reads as
       // "released today" — the opposite of the truth.
-      if (isUnreleased(rd, t.Model.LaunchYear)) return "not yet released";
+      if (isUnreleased(rd, t.Model.ReleaseYear)) return "not yet released";
       if (rd && /^\d{4}-\d{2}/.test(rd)) {
         const days = ageInDays(rd);
         if (days !== null) return formatAge(days);
       }
-      const year = parseInt(rd || t.Model.LaunchYear, 10);
+      const year = parseInt(rd || t.Model.ReleaseYear, 10);
       if (isNaN(year)) return "";
       const years = new Date().getFullYear() - year;
       return years <= 0 ? "this year" : `${years} year${years === 1 ? "" : "s"}`;
     },
   },
   {
-    // Measures from ReleaseDate when there is one — LaunchYear alone pins
+    // Measures from ReleaseDate when there is one — ReleaseYear alone pins
     // Jan 1, which overstated every mid-year release by up to a year (and
     // put a positive age on an unshipped product). Empty when unreleased.
     key: "AgeInDays", label: "Age (days)", computed: true, type: "number", group: "Model",
     getValue: (t) => {
-      const days = ageInDays(releaseOrigin(t.Model.ReleaseDate, t.Model.LaunchYear));
+      const days = ageInDays(releaseOrigin(t.Model.ReleaseDate, t.Model.ReleaseYear));
       return days === null || days < 0 ? "" : String(days);
     },
   },
@@ -370,7 +370,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
 ];
 
 export const TABLET_DEFAULT_COLUMNS = [
-  "EntityId", "Brand", "ModelName", "ModelType", "ModelLaunchYear", "Age",
+  "EntityId", "Brand", "ModelName", "ModelType", "ModelReleaseYear", "Age",
   "DigitizerPressureLevels", "DigitizerTilt", "DigitizerDimensions",
   "DisplayPixelDimensions", "PhysicalWeight", "ModelStatus", "UnitsInInventory",
 ];
@@ -379,7 +379,7 @@ export const TABLET_DEFAULT_VIEW: Step[] = [
   {
     kind: "select",
     fields: [
-      "Brand", "ModelName", "ModelId", "AlternateNames", "ModelType", "ModelLaunchYear",
+      "Brand", "ModelName", "ModelId", "AlternateNames", "ModelType", "ModelReleaseYear",
       "DigitizerDiagonal", "ModelIncludedPen", "UnitsInInventory",
     ],
   },

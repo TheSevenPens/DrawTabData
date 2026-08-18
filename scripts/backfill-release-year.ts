@@ -1,7 +1,7 @@
-// Backfill Model.LaunchYear from Model.ReleaseDate when LaunchYear is empty.
-// ReleaseDate may be YYYY, YYYY-MM, or YYYY-MM-DD; the leading four digits become LaunchYear.
+// Backfill Model.ReleaseYear from Model.ReleaseDate when ReleaseYear is empty.
+// ReleaseDate may be YYYY, YYYY-MM, or YYYY-MM-DD; the leading four digits become ReleaseYear.
 //
-// Usage: npx tsx scripts/backfill-launch-year-from-release.ts [--dry-run]
+// Usage: npx tsx scripts/backfill-release-year.ts [--dry-run]
 
 import * as fs from "fs";
 import * as path from "path";
@@ -30,15 +30,15 @@ export function main(argv: string[] = process.argv): void {
 		const data = JSON.parse(content) as {
 			DrawingTablets: Array<{
 				Meta?: { EntityId?: string };
-				Model: { Id: string; LaunchYear?: string; ReleaseDate?: string };
+				Model: { Id: string; ReleaseYear?: string; ReleaseDate?: string };
 			}>;
 		};
 		let fileModified = false;
 
 		for (const tablet of data.DrawingTablets) {
-			const launchYear = (tablet.Model.LaunchYear ?? "").trim();
+			const releaseYear = (tablet.Model.ReleaseYear ?? "").trim();
 			const releaseDate = (tablet.Model.ReleaseDate ?? "").trim();
-			if (launchYear || !releaseDate) continue;
+			if (releaseYear || !releaseDate) continue;
 
 			const year = yearFromReleaseDate(releaseDate);
 			if (!year) {
@@ -50,18 +50,18 @@ export function main(argv: string[] = process.argv): void {
 
 			const modelId = tablet.Model.Id;
 			const pattern = new RegExp(
-				`("Id":\\s*"${escapeRegExp(modelId)}",[\\s\\S]{0,400}?"LaunchYear":\\s*)""`,
+				`("Id":\\s*"${escapeRegExp(modelId)}",[\\s\\S]{0,400}?"ReleaseYear":\\s*)""`,
 			);
 			if (!pattern.test(content)) {
 				console.warn(
-					`  skip ${tablet.Meta?.EntityId ?? modelId}: LaunchYear pattern not found in ${file}`,
+					`  skip ${tablet.Meta?.EntityId ?? modelId}: ReleaseYear pattern not found in ${file}`,
 				);
 				continue;
 			}
 
 			content = content.replace(pattern, `$1"${year}"`);
 			console.log(
-				`  ${file}: ${tablet.Meta?.EntityId ?? modelId} LaunchYear -> ${year} (from ${releaseDate})`,
+				`  ${file}: ${tablet.Meta?.EntityId ?? modelId} ReleaseYear -> ${year} (from ${releaseDate})`,
 			);
 			updated++;
 			fileModified = true;

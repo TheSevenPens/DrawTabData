@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { yearFromReleaseDate } from "./backfill-launch-year-from-release.js";
+import { yearFromReleaseDate } from "./backfill-release-year.js";
 
 describe("yearFromReleaseDate", () => {
 	it("parses YYYY-MM-DD", () => {

@@ -14,7 +14,7 @@ belong to an existing family or warrant a new one:
 2. **Model ID prefix** — manufacturers often use a consistent prefix
    within a generation (e.g., XP-Pen's `CD` prefix for Artist GEN2,
    `MD` prefix for Artist Pro GEN2, `MT` for Deco Pro GEN2).
-3. **Launch year** — models in a family typically launch within a 1-2
+3. **Release year** — models in a family typically launch within a 1-2
    year window.
 4. **Naming pattern** — "GEN2", "V2", "Pro", or a consistent size
    suffix (S/M/L/XL) across the line.

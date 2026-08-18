@@ -31,7 +31,7 @@ for (const [brand, tablets] of [...byBrand.entries()].sort((a, b) => a[0].locale
   console.log(`\n=== ${brand} (${tablets.length} unfamilied) ===`);
   tablets.sort((a, b) => a.ModelName.localeCompare(b.ModelName));
   for (const t of tablets) {
-    console.log(`  ${t.ModelId.padEnd(20)} ${t.ModelName.padEnd(30)} ${t.ModelLaunchYear || "?"} ${(t.ModelIncludedPen ?? []).join(",") || "-"}`);
+    console.log(`  ${t.ModelId.padEnd(20)} ${t.ModelName.padEnd(30)} ${t.ModelReleaseYear || "?"} ${(t.ModelIncludedPen ?? []).join(",") || "-"}`);
   }
 }
 

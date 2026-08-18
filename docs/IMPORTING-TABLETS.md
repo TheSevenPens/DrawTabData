@@ -31,7 +31,7 @@ full record, minus the `Meta` group (auto-filled). Example:
     "Id": "MNP1095",
     "Name": "Magic Note Pad",
     "Type": "STANDALONE",
-    "LaunchYear": "2025",
+    "ReleaseYear": "2025",
     "Audience": "Consumer",
     "IncludedPen": ["xppen.pen.x3propencilv2"],
     "ProductLink": "https://www.xp-pen.com/product/magic-note-pad.html",
@@ -75,7 +75,7 @@ Every tablet record must have these fields:
 | Model | `Brand` | Known from manufacturer | `XPPEN` |
 | Model | `Id` | From product page or model number | `CD100FH` |
 | Model | `Name` | From product page | `Artist 10 GEN2` |
-| Model | `LaunchYear` | From product page or press release | `2022` |
+| Model | `ReleaseYear` | From product page or press release | `2022` |
 | Model | `Type` | `PENTABLET`, `PENDISPLAY`, or `STANDALONE` | `PENDISPLAY` |
 
 ## Field mapping: product page to JSON
@@ -229,7 +229,7 @@ Source: https://www.xp-pen.com/product/artist-10-2nd-gen.html
     "Id": "CD100FH",
     "Name": "Artist 10 GEN2",
     "Type": "PENDISPLAY",
-    "LaunchYear": "2022",
+    "ReleaseYear": "2022",
     "Family": "XPPenArtistGen2",
     "IncludedPen": ["XPPEN.PEN.X3ELITE"],
     "ProductLink": "https://www.xp-pen.com/product/artist-10-2nd-gen.html"

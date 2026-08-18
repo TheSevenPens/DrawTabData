@@ -94,7 +94,7 @@ if (existing.some((t: any) => t?.Meta?.EntityId === eid)) {
 
 console.log(`Adding ${eid} (${spec.Model.Name}) to ${path.basename(filePath)}`);
 console.log(`  Type: ${type}`);
-console.log(`  LaunchYear: ${spec.Model.LaunchYear}`);
+console.log(`  ReleaseYear: ${spec.Model.ReleaseYear}`);
 if (spec.Model.IncludedPen?.length) {
   console.log(`  IncludedPen: ${spec.Model.IncludedPen.join(", ")}`);
 }
