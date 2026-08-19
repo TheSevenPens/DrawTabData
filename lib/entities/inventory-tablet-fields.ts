@@ -7,6 +7,8 @@ export interface InventoryTablet {
   ModelName: string;
   TabletType: string;
   InventoryId: string;
+  /** Manufacturer serial for this physical unit; absent when not recorded. */
+  SerialNumber?: string;
   Vendor: string;
   OrderDate: string;
   Notes: string;
@@ -21,6 +23,7 @@ export const INVENTORY_TABLET_FIELD_GROUPS = ["Tablet", "Acquisition"];
 
 export const INVENTORY_TABLET_FIELDS: FieldDisplayDef<InventoryTablet>[] = [
   { key: "InventoryId", label: "Inventory ID", getValue: (t) => t.InventoryId, type: "string", group: "Tablet" },
+  { key: "SerialNumber", label: "Serial Number", getValue: (t) => t.SerialNumber ?? "", type: "string", group: "Tablet" },
   { key: "TabletEntityId", label: "Tablet", getValue: (t) => t.TabletEntityId, type: "string", group: "Tablet" },
   { key: "Brand", label: "Brand", getValue: (t) => t.Brand, type: "string", group: "Tablet" },
   { key: "ModelId", label: "Model ID", getValue: (t) => t.ModelId, type: "string", group: "Tablet" },

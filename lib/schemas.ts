@@ -416,6 +416,10 @@ export const InventoryTabletSchema = v.strictObject({
   ModelName: TrimmedString,
   TabletType: v.picklist(["PENTABLET", "PENDISPLAY", "STANDALONE"]),
   InventoryId: TrimmedString,
+  // Manufacturer serial for this physical unit. Optional: every unit
+  // recorded before this field existed simply has none, and an absent
+  // serial means "not recorded" rather than "blank".
+  SerialNumber: v.optional(TrimmedString),
   Vendor: TrimmedString,
   OrderDate: TrimmedString,
   Notes: TrimmedString,
