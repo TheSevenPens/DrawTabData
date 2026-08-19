@@ -38,7 +38,7 @@ export const INVENTORY_TABLET_FIELDS: FieldDisplayDef<InventoryTablet>[] = [
 ];
 
 export const INVENTORY_TABLET_DEFAULT_COLUMNS = [
-  "InventoryId", "TabletEntityId", "Brand", "ModelId", "TabletType", "Vendor", "OrderDate",
+  "InventoryId", "SerialNumber", "TabletEntityId", "Brand", "ModelId", "TabletType", "Vendor", "OrderDate",
 ];
 
 export const INVENTORY_TABLET_DEFAULT_VIEW: Step[] = [
@@ -46,7 +46,7 @@ export const INVENTORY_TABLET_DEFAULT_VIEW: Step[] = [
     kind: "select",
     // Tablet column renders the tablet name (via cellLinks); show Model ID
     // beside it rather than a duplicate name column.
-    fields: ["InventoryId", "TabletEntityId", "Brand", "ModelId", "TabletType", "Vendor", "OrderDate"],
+    fields: ["InventoryId", "SerialNumber", "TabletEntityId", "Brand", "ModelId", "TabletType", "Vendor", "OrderDate"],
   },
   // Multi-key sort. JS Array.sort is stable, so insert in reverse order
   // of significance: least → most significant. Final ordering: Brand,
