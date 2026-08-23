@@ -1961,6 +1961,45 @@
       "_CreateDate": "2026-05-25T00:00:00.000Z",
       "_ModifiedDate": "2026-05-25T00:00:00.000Z",
       "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "wacom.pen.kp400e",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0082",
+      "Notes": "",
+      "Tags": [],
+      "_id": "89cef5ca-4bb3-4061-9d33-39dab707004d",
+      "_CreateDate": "2026-08-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-08-23T00:00:00.000Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "wacom.pen.kp505",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0083",
+      "Notes": "",
+      "Tags": [],
+      "_id": "eecfb653-50d6-4c37-b365-f16a2a6b26f2",
+      "_CreateDate": "2026-08-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-08-23T00:00:00.000Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "wacom.pen.kp503e",
+      "Brand": "WACOM",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "WAP.0084",
+      "Notes": "",
+      "Tags": [],
+      "_id": "03fc6247-de67-4562-90cc-f01c496348bd",
+      "_CreateDate": "2026-08-23T00:00:00.000Z",
+      "_ModifiedDate": "2026-08-23T00:00:00.000Z",
+      "WithTabletInventoryId": ""
     }
   ]
 }
