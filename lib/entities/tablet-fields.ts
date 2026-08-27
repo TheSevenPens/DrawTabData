@@ -16,6 +16,34 @@ function displayVal(t: Tablet, val: string | undefined): string {
   return val ?? "";
 }
 
+/** Colour-gamut coverage, in a stable display order.
+ *
+ * `Display.ColorGamuts` is an object of optional percentages rather than a
+ * string, which is why it had no field def and stayed invisible to anything
+ * driven by them — including the Explorer's field-completion tables once those
+ * stopped reading hand-maintained schema paths.
+ *
+ * Each key gets its own numeric field so coverage stays honest: of the 171
+ * tablets with a Display block, 108 carry some gamut data, but SRGB is on 75
+ * and DCIP3 on 15. A single combined row would average that away. The computed
+ * `DisplayColorGamuts` summary below is the readable one-line form for detail
+ * and comparison views. See DrawTabData#40. */
+const COLOR_GAMUT_ORDER = [
+  ["SRGB", "sRGB"],
+  ["ADOBERGB", "Adobe RGB"],
+  ["DCIP3", "DCI-P3"],
+  ["DISPLAYP3", "Display P3"],
+  ["NTSC", "NTSC"],
+  ["REC709", "Rec. 709"],
+] as const;
+
+type ColorGamutKey = (typeof COLOR_GAMUT_ORDER)[number][0];
+
+function gamutVal(t: Tablet, key: ColorGamutKey): string {
+  const v = t.Display?.ColorGamuts?.[key];
+  return displayVal(t, v == null ? undefined : String(v));
+}
+
 /** True when the tablet's Model.Id should be suppressed from formatted
  * names like "Brand Name (Id)". This is the case when:
  *   - the Id is already present in the Name (full string or whole token)
@@ -284,6 +312,23 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DisplayBrightnessPeak", label: "Peak Brightness (cd/m²)", getValue: (t) => displayVal(t, t.Display?.BrightnessPeak), type: "number", group: "Display" },
   { key: "DisplayContrast", label: "Contrast", getValue: (t) => displayVal(t, t.Display?.Contrast), type: "number", group: "Display" },
   { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => displayVal(t, t.Display?.ColorBitDepth), type: "number", group: "Display" },
+  { key: "DisplayGamutSRGB", label: "sRGB (%)", getValue: (t) => gamutVal(t, "SRGB"), type: "number", group: "Display" },
+  { key: "DisplayGamutAdobeRGB", label: "Adobe RGB (%)", getValue: (t) => gamutVal(t, "ADOBERGB"), type: "number", group: "Display" },
+  { key: "DisplayGamutDCIP3", label: "DCI-P3 (%)", getValue: (t) => gamutVal(t, "DCIP3"), type: "number", group: "Display" },
+  { key: "DisplayGamutDisplayP3", label: "Display P3 (%)", getValue: (t) => gamutVal(t, "DISPLAYP3"), type: "number", group: "Display" },
+  { key: "DisplayGamutNTSC", label: "NTSC (%)", getValue: (t) => gamutVal(t, "NTSC"), type: "number", group: "Display" },
+  { key: "DisplayGamutRec709", label: "Rec. 709 (%)", getValue: (t) => gamutVal(t, "REC709"), type: "number", group: "Display" },
+  {
+    key: "DisplayColorGamuts", label: "Color Gamuts", group: "Display", computed: true, type: "string",
+    getValue: (t) => {
+      if (notApplicable(t)) return "-";
+      const g = t.Display?.ColorGamuts;
+      if (!g) return "";
+      return COLOR_GAMUT_ORDER.filter(([k]) => g[k] != null)
+        .map(([k, label]) => `${label} ${g[k]}%`)
+        .join(" · ");
+    },
+  },
   { key: "DisplayLamination", label: "Lamination", getValue: (t) => displayVal(t, t.Display?.Lamination), type: "enum", enumValues: ["YES", "NO"], group: "Display" },
   { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => displayVal(t, t.Display?.AntiGlare), type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"], group: "Display" },
   { key: "DisplayResponseTime", label: "Response Time (ms)", getValue: (t) => displayVal(t, t.Display?.ResponseTime), type: "number", group: "Display" },
