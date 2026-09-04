@@ -1,0 +1,286 @@
+// Maps the codes printed on the MacHollywood reference page to our EntityIds,
+// writing data/machollywood/machollywood-pen-compat-annotations.json.
+//
+// This is a SEPARATE layer on purpose. The capture
+// (extract-machollywood-compat.ts) stays a faithful mirror of someone else's
+// page; all of our interpretation lives here, joined back by record id and
+// token. Nothing in the capture is edited, and nothing here edits our entity
+// data either - it only records "the page's DTH3220K0 is our
+// wacom.tablet.dth3220, and here is how confident that is".
+//
+// Match kinds, weakest claim last:
+//   EXACT     page code and our Id agree once punctuation is ignored
+//   PREFIX    page code is our Id plus a suffix (usually colour/variant: K0, WLK0)
+//   PARTIAL   our Id is the page code plus a suffix (we are more specific)
+//   AMBIGUOUS several of our entities are equally good candidates - unresolved
+//   NONE      nothing in our data looks like it
+//
+// Only EXACT is taken as settled. PREFIX/PARTIAL carry an entityId but are
+// flagged for review; AMBIGUOUS and NONE carry none. A human decision is kept
+// by setting "manual": true on an entry - re-running preserves those verbatim
+// and regenerates everything else.
+//
+// Three note fields, and the difference between them matters:
+//   pageNotes  on a record - what the PAGE says about the model (its
+//              description lines and bullets, verbatim). Generated from the
+//              capture on every run; never edit it.
+//   notes      on a record - what WE say. Hand-written, survives a re-run.
+//   note       on a mapping - why this one code maps the way it does.
+//              Hand-written, survives a re-run.
+// Ours live here rather than in the capture because the capture is rewritten
+// wholesale on every refresh and cannot hold anything of ours.
+//
+// Usage:
+//   tsx scripts/annotate-machollywood-compat.ts             # write annotations
+//   tsx scripts/annotate-machollywood-compat.ts --report    # print only
+//   tsx scripts/annotate-machollywood-compat.ts --unmatched # list what did not map
+
+import { existsSync, readFileSync, writeFileSync } from "fs";
+import * as path from "path";
+import { fileURLToPath } from "url";
+import {
+  extractPenTokens,
+  extractSkuTokens,
+  normalizeCode,
+  records,
+  type CodeToken,
+  type MacHollywoodDataset,
+} from "../lib/reference/machollywood.js";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const dataDir = path.join(__dirname, "..", "data");
+const refDir = path.join(dataDir, "machollywood");
+const datasetPath = path.join(refDir, "machollywood-pen-compat.json");
+const outPath = path.join(refDir, "machollywood-pen-compat-annotations.json");
+
+const args = process.argv.slice(2);
+const reportOnly = args.includes("--report");
+const showUnmatched = args.includes("--unmatched");
+
+type MatchKind = "EXACT" | "PREFIX" | "PARTIAL" | "AMBIGUOUS" | "NONE";
+
+interface Mapping {
+  /** The code as printed on the page. */
+  token: string;
+  from: CodeToken["from"];
+  /** The line the code appeared in, verbatim. */
+  context: string;
+  entityId: string | null;
+  match: MatchKind;
+  /** Our Id as we store it, when one was matched. */
+  ourId?: string;
+  /** Every candidate, when the match was not decisive. */
+  candidates?: string[];
+  /** True once a human has settled this entry; re-runs leave it alone. */
+  manual?: boolean;
+  /** Hand-written remark about this code. Survives re-runs; never generated. */
+  note?: string;
+}
+
+interface RecordAnnotation {
+  id: string;
+  heading: string;
+  /**
+   * What the page itself says about this model: its description lines and
+   * bullets, verbatim. GENERATED - a projection of the capture, refreshed on
+   * every run, so never edit it. It sits here rather than only in the capture
+   * because this is where the decision gets made about what (if anything) to
+   * carry into the entity's own Model.Notes.
+   */
+  pageNotes?: string[];
+  /**
+   * Hand-written remarks about this record: a caveat about the mapping, a
+   * decision we made, a fact worth carrying forward. Survives re-runs;
+   * nothing here is ever generated. Keep it separate from pageNotes so it is
+   * always clear which sentences are theirs and which are ours.
+   */
+  notes?: string[];
+  tablets: Mapping[];
+  pens: Mapping[];
+}
+
+const dataset: MacHollywoodDataset = JSON.parse(readFileSync(datasetPath, "utf-8"));
+
+/** normalized code -> { entityId, id } for one entity kind. */
+type Index = Map<string, { entityId: string; ourId: string }>;
+
+const tabletIndex: Index = new Map();
+for (const t of readJson<{ DrawingTablets: TabletRow[] }>("tablets/WACOM-tablets.json").DrawingTablets) {
+  tabletIndex.set(normalizeCode(t.Model.Id), { entityId: t.Meta.EntityId, ourId: t.Model.Id });
+}
+const penIndex: Index = new Map();
+for (const p of readJson<{ Pens: PenRow[] }>("pens/WACOM-pens.json").Pens) {
+  penIndex.set(normalizeCode(p.PenId), { entityId: p.EntityId, ourId: p.PenId });
+}
+
+const previous = loadPrevious();
+const previousNotes = loadPreviousNotes();
+
+const annotations: RecordAnnotation[] = records(dataset).map((r) => {
+  const notes = previousNotes.get(r.id);
+  const pageNotes = [...r.description, ...r.bullets];
+  return {
+    id: r.id,
+    heading: r.heading,
+    ...(pageNotes.length > 0 ? { pageNotes } : {}),
+    ...(notes && notes.length > 0 ? { notes } : {}),
+    tablets: extractSkuTokens(r).map((t) => resolve(r.id, "tablets", t, tabletIndex)),
+    pens: extractPenTokens(r).map((t) => resolve(r.id, "pens", t, penIndex)),
+  };
+});
+
+const output = {
+  source: {
+    dataset: path.basename(datasetPath),
+    textSha256: dataset.source.textSha256,
+    url: dataset.source.url,
+    generatedAt: new Date().toISOString().slice(0, 10),
+    note:
+      "Generated by scripts/annotate-machollywood-compat.ts. Only EXACT matches are " +
+      "settled; PREFIX and PARTIAL are proposals to review. Set \"manual\": true on an " +
+      "entry to pin a human decision - re-runs preserve those and regenerate the rest.",
+  },
+  records: annotations,
+};
+
+report();
+
+if (!reportOnly) {
+  writeFileSync(outPath, JSON.stringify(output, null, 2) + "\n", "utf-8");
+  console.log(`\nwrote ${path.relative(process.cwd(), outPath)}`);
+}
+
+/**
+ * Match one page code against our data.
+ *
+ * A human decision recorded on a previous run wins outright. Otherwise:
+ * exact first, then prefix in either direction, and anything with more than
+ * one candidate is left unresolved rather than guessed at.
+ */
+function resolve(recordId: string, kind: "tablets" | "pens", token: CodeToken, index: Index): Mapping {
+  const pinned = previous.get(`${recordId} ${kind} ${token.token} ${token.context}`);
+  if (pinned?.manual) return pinned;
+  // A note is ours, not the matcher's, so it outlives a recomputed match.
+  const carried = pinned?.note ? { note: pinned.note } : {};
+  return { ...matchCode(token, index), ...carried };
+}
+
+/** The matcher proper: page code in, our best reading of it out. */
+function matchCode(token: CodeToken, index: Index): Mapping {
+  const norm = normalizeCode(token.token);
+  const base: Mapping = { ...token, entityId: null, match: "NONE" };
+
+  const exact = index.get(norm);
+  if (exact) return { ...base, entityId: exact.entityId, match: "EXACT", ourId: exact.ourId };
+
+  // The page code extends one of ours (colour/variant suffix), or vice versa.
+  const longer = [...index.entries()].filter(([k]) => norm.startsWith(k));
+  const shorter = [...index.entries()].filter(([k]) => k.startsWith(norm));
+  if (longer.length === 0 && shorter.length === 0) return base;
+
+  // Both directions matching means the page code sits between two of our
+  // entities (LP-1100 is both LP-110 plus a digit and LP-1100K minus one), so
+  // there is nothing to prefer - leave it for a human.
+  if (longer.length > 0 && shorter.length > 0) {
+    return { ...base, match: "AMBIGUOUS", candidates: entityIds([...longer, ...shorter]) };
+  }
+
+  if (longer.length > 0) {
+    // Among our entities the code extends, the longest is the most specific:
+    // CTL6100WLK0 is the Bluetooth CTL-6100WL, not the plain CTL-6100.
+    const max = Math.max(...longer.map(([k]) => k.length));
+    const best = longer.filter(([k]) => k.length === max);
+    if (best.length > 1) return { ...base, match: "AMBIGUOUS", candidates: entityIds(best) };
+    const [, only] = best[0];
+    return { ...base, entityId: only.entityId, match: "PREFIX", ourId: only.ourId };
+  }
+
+  // Our Ids extend the page code: it named a family where we store variants
+  // (XD0405 is our XD-0405-R and XD-0405-U), so only a lone match is usable.
+  if (shorter.length > 1) return { ...base, match: "AMBIGUOUS", candidates: entityIds(shorter) };
+  const [, only] = shorter[0];
+  return { ...base, entityId: only.entityId, match: "PARTIAL", ourId: only.ourId };
+}
+
+/** Entity ids for a candidate list, sorted and de-duplicated. */
+function entityIds(entries: [string, { entityId: string; ourId: string }][]): string[] {
+  return [...new Set(entries.map(([, v]) => v.entityId))].sort();
+}
+
+function report(): void {
+  const all = annotations.flatMap((r) => [
+    ...r.tablets.map((m) => ({ kind: "tablet", r, m })),
+    ...r.pens.map((m) => ({ kind: "pen", r, m })),
+  ]);
+  for (const kind of ["tablet", "pen"] as const) {
+    const rows = all.filter((x) => x.kind === kind).map((x) => x.m);
+    const distinct = new Set(rows.map((m) => m.token));
+    console.log(`${kind}s: ${rows.length} references, ${distinct.size} distinct codes`);
+    for (const match of ["EXACT", "PREFIX", "PARTIAL", "AMBIGUOUS", "NONE"] as MatchKind[]) {
+      const n = new Set(rows.filter((m) => m.match === match).map((m) => m.token)).size;
+      if (n > 0) console.log(`  ${match.padEnd(9)} ${n}`);
+    }
+    const manual = rows.filter((m) => m.manual).length;
+    if (manual > 0) console.log(`  (manual)  ${manual}`);
+    const noted = rows.filter((m) => m.note).length;
+    if (noted > 0) console.log(`  (noted)   ${noted}`);
+  }
+  const withPage = annotations.filter((r) => r.pageNotes?.length).length;
+  const recordNotes = annotations.filter((r) => r.notes?.length).length;
+  console.log(`notes: ${withPage} record(s) carry the page's own text, ${recordNotes} carry ours`);
+
+  if (!showUnmatched) {
+    console.log("\nrun with --unmatched to list the codes that did not resolve");
+    return;
+  }
+  for (const kind of ["tablet", "pen"] as const) {
+    const rows = all.filter((x) => x.kind === kind && x.m.match !== "EXACT");
+    if (rows.length === 0) continue;
+    console.log(`\nunresolved or unreviewed ${kind} codes:`);
+    const seen = new Set<string>();
+    for (const { r, m } of rows) {
+      if (seen.has(m.token)) continue;
+      seen.add(m.token);
+      const target = m.entityId ? ` -> ${m.entityId}` : m.candidates ? ` ? ${m.candidates.join(", ")}` : "";
+      console.log(`  ${m.match.padEnd(9)} ${m.token.padEnd(14)}${target}   (${r.id})`);
+    }
+  }
+}
+
+/** Existing annotations, keyed so a token keeps its decision across re-runs. */
+function loadPrevious(): Map<string, Mapping> {
+  const map = new Map<string, Mapping>();
+  for (const r of priorRecords()) {
+    for (const kind of ["tablets", "pens"] as const) {
+      for (const m of r[kind]) {
+        map.set(`${r.id} ${kind} ${m.token} ${m.context}`, m);
+      }
+    }
+  }
+  return map;
+}
+
+/** Hand-written record notes from a previous run, by record id. */
+function loadPreviousNotes(): Map<string, string[]> {
+  const withNotes = priorRecords().filter((r) => r.notes && r.notes.length > 0);
+  return new Map(withNotes.map((r) => [r.id, r.notes!]));
+}
+
+function priorRecords(): RecordAnnotation[] {
+  if (!existsSync(outPath)) return [];
+  return (JSON.parse(readFileSync(outPath, "utf-8")) as { records: RecordAnnotation[] }).records;
+}
+
+function readJson<T>(rel: string): T {
+  return JSON.parse(readFileSync(path.join(dataDir, rel), "utf-8")) as T;
+}
+
+interface TabletRow {
+  Meta: { EntityId: string };
+  Model: { Id: string };
+}
+
+interface PenRow {
+  EntityId: string;
+  PenId: string;
+}

@@ -110,6 +110,124 @@ npm run validate-brand -- HUION
 Catches unknown fields, invalid enum values, and schema violations
 without running the full cross-entity check.
 
+## Reference capture scripts (third-party data)
+
+Scripts that mirror somebody else's published data into `data/<source>/`.
+Two rules make these safe to re-run and safe to trust:
+
+- **The capture is never edited by hand.** Re-run the script to refresh and
+  let `git diff` show what the source changed.
+- **Our reading of the data lives in a separate annotations file.** The
+  capture stays a faithful mirror; the mapping to our EntityIds is a layer
+  laid beside it, joined by record id.
+
+### extract-otd-configs
+
+Pulls OpenTabletDriver's per-model configurations from GitHub into
+`data/otd/otd-tablets.json` - the authoritative OTD model `Name`, physical
+and pen specs, and USB identifiers for every tablet OTD supports.
+
+```bash
+node scripts/extract-otd-configs.mjs            # latest master
+node scripts/extract-otd-configs.mjs <ref|sha>  # pin to a ref or SHA
+GITHUB_TOKEN=... node scripts/extract-otd-configs.mjs   # raise the API rate limit
+```
+
+It resolves the ref to a commit SHA and pins every file read to it, so
+re-running against an unchanged OTD rewrites an identical file - provenance
+is the commit, not the wall clock. The model key is the config's top-level
+`Name`, **not** the filename and **not** ProductID (many models share a
+VendorID+ProductID pair; see GitHub #308).
+
+The sibling `data/otd/otd-entity-audit.json` is not written by this script:
+it is our OTD-model-to-EntityId curation, saved from the `/otd-audit` page in
+the Explorer.
+
+**When to use:** to refresh the OTD mirror after upstream adds or corrects
+configurations.
+
+### capture-machollywood
+
+Captures the MacHollywood page ["Wacom Tablets and Cintiqs with Compatible
+Pens"](https://machollywood.com/blogs/news/wacom-tablets-and-cintiqs-with-compatible-pens)
+into `data/machollywood/` as `machollywood-pen-compat.txt` (the article text,
+verbatim) and `machollywood-pen-compat.json` (a structured view of that text).
+
+```bash
+npm run capture-machollywood                    # fetch and rewrite both files
+npm run capture-machollywood -- --check         # has the page changed? (exit 1 if so)
+npm run capture-machollywood -- --html page.html  # parse a saved copy instead
+```
+
+The `.txt` is the source of truth and the `.json` is derived from it: the
+script refuses to write unless the JSON reconstructs the text byte for byte,
+so the structured view can never quietly disagree with the page.
+
+**When to use:** to refresh the capture, or on a schedule via `--check` to
+notice that the page was updated.
+
+### annotate-machollywood
+
+Maps the model and pen codes printed on that page to our EntityIds, writing
+`machollywood-pen-compat-annotations.json`.
+
+```bash
+npm run annotate-machollywood                 # write annotations
+npm run annotate-machollywood -- --report     # print the summary only
+npm run annotate-machollywood -- --unmatched  # list what did not resolve cleanly
+```
+
+Each mapping carries how confident it is:
+
+| Match | Meaning |
+|---|---|
+| `EXACT` | the page code and our Id agree once punctuation is ignored |
+| `PREFIX` | the page code is our Id plus a suffix (usually colour/variant, e.g. `DTH3220K0` -> `DTH-3220`) |
+| `PARTIAL` | our Id is the page code plus a suffix (we are the more specific one) |
+| `AMBIGUOUS` | several of our entities are equally good candidates; left unresolved |
+| `NONE` | nothing in our data looks like it |
+
+**Only `EXACT` is settled.** `PREFIX` and `PARTIAL` carry an `entityId` but
+are proposals to review - prefix matching is genuinely wrong sometimes (the
+page's Colorelli `FT-0405U10` prefix-matches our Volito `FT-0405-U`). To pin a
+human decision, edit the entry and set `"manual": true`; re-runs preserve
+those verbatim and regenerate everything else.
+
+### Where commentary goes
+
+Three note fields, and the difference between them is the point:
+
+| Field | Where | Written by | For |
+|---|---|---|---|
+| `pageNotes` | on a record (`string[]`) | generated | what the **page** says about the model - its `description` lines and `bullets`, verbatim |
+| `notes` | on a record (`string[]`) | by hand | what **we** say: a caveat, a decision, a fact worth carrying forward |
+| `note` | on a mapping (`string`) | by hand | why this one code maps the way it does |
+
+`pageNotes` is a projection of the capture, refreshed on every run - **never
+edit it**, the edit would be overwritten. It is duplicated here on purpose:
+this file is where you decide what to carry into an entity's `Model.Notes`,
+and that decision is easier with the page's own words sitting next to the
+mapping.
+
+The two hand-written fields survive a re-run even when the match around them
+is recomputed, so a note can explain an `AMBIGUOUS` entry without freezing
+it. To freeze the match itself, add `"manual": true`.
+
+Two worked examples are seeded:
+
+- **`colorelli-ft-0405u10-discontinued`** - a wrong auto-match, pinned to
+  `NONE` with a note saying why (its SKU prefix-matches our `FT-0405-U`,
+  which is the Volito the page lists separately).
+- **`intuos2-xd`** - a note quoting the page's own SKU legend, which explains
+  why every XD code there is `AMBIGUOUS` between our `-R` and `-U` variants.
+
+Anything of ours belongs here rather than in the capture: the `.txt` and the
+structured `.json` are rewritten wholesale on every refresh, and the point of
+those two files is that they say exactly what the page says, nothing more.
+
+**When to use:** after a capture refresh, or after adding Wacom tablets/pens
+that the page references.
+
 ## Existing scripts
 
 | Script | Command | Purpose |

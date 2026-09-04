@@ -44,6 +44,20 @@ JSON files are organized by entity type, mostly partitioned by brand.
 			iso-paper-sizes.json
 			us-paper-sizes.json
 
+Third-party captures live in their own directories, one per source. These
+are mirrors of someone else's published data, kept verbatim and refreshed by
+a script; they are never hand-edited, and our reading of them lives in a
+separate annotations file rather than in the capture itself.
+
+	/data
+		/otd
+			otd-tablets.json          OpenTabletDriver configurations
+			otd-entity-audit.json
+		/machollywood
+			machollywood-pen-compat.txt              article text, verbatim
+			machollywood-pen-compat.json             structured, lossless
+			machollywood-pen-compat-annotations.json our EntityId mapping
+
 Each file wraps its records in a top-level key:
 - brands: { "Brands": [...] }
 - tablets: { "DrawingTablets": [...] }
@@ -59,11 +73,16 @@ Each file wraps its records in a top-level key:
 - iso paper sizes: { "ISOPaperSizes": [...] }
 - us paper sizes: { "USPaperSizes": [...] }
 
+Third-party captures do not follow that convention: they mirror a source, so
+each keeps whatever shape the capture script produces, with a "source" block
+carrying the provenance (URL/commit, retrieval date, content hash).
+
 File naming:
 - Most entities: BRAND-entitytype.json (e.g. WACOM-tablets.json)
 - Brands: brands.json (single file, not partitioned)
 - Inventory: USERNAME-entitytype.json (e.g. sevenpens-pens.json)
 - Reference: plain name, not partitioned (e.g. defect-kinds.json)
+- Third-party captures: SOURCE-topic.json under /SOURCE (e.g. machollywood/machollywood-pen-compat.json)
 
 See docs/DEFECTS.md for the Defects field on inventory records
 and the defect-kinds vocabulary.
