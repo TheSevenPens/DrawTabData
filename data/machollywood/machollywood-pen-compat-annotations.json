@@ -1026,8 +1026,9 @@
           "token": "DTF720",
           "from": "skuLine",
           "context": "SKU: DTF720, PL720",
-          "entityId": null,
-          "match": "NONE"
+          "entityId": "wacom.tablet.dtf720",
+          "match": "EXACT",
+          "ourId": "DTF-720"
         },
         {
           "token": "PL720",
@@ -1043,8 +1044,9 @@
           "token": "FP320",
           "from": "compatibility",
           "context": "Legacy Gens.: Pen FP320 or UP911E",
-          "entityId": null,
-          "match": "NONE"
+          "entityId": "wacom.pen.fp320",
+          "match": "EXACT",
+          "ourId": "FP-320"
         },
         {
           "token": "UP911E",
@@ -1085,8 +1087,9 @@
           "token": "UP818E",
           "from": "compatibility",
           "context": "Legacy Gens.: Grip Pens UP818E, or UP911E",
-          "entityId": null,
-          "match": "NONE"
+          "entityId": "wacom.pen.up818e",
+          "match": "EXACT",
+          "ourId": "UP-818E"
         },
         {
           "token": "UP911E",
@@ -1163,8 +1166,9 @@
           "token": "FP320",
           "from": "compatibility",
           "context": "Legacy Gens.: Pen FP320 or UP911E and UP813E",
-          "entityId": null,
-          "match": "NONE"
+          "entityId": "wacom.pen.fp320",
+          "match": "EXACT",
+          "ourId": "FP-320"
         },
         {
           "token": "UP911E",
@@ -3380,8 +3384,9 @@
           "token": "FT-0203V",
           "from": "heading",
           "context": "PenPartner, 2004 (FT-0203V) Discontinued",
-          "entityId": null,
-          "match": "NONE"
+          "entityId": "wacom.tablet.ft0203v",
+          "match": "EXACT",
+          "ourId": "FT-0203-V"
         }
       ],
       "pens": [

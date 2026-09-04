@@ -1333,6 +1333,20 @@
                      "_ModifiedDate":  "2026-05-01T00:00:00.000Z"
                  },
                  {
+                     "EntityId":  "wacom.pen.fp320",
+                     "Brand":  "WACOM",
+                     "PenId":  "FP-320",
+                     "PenName":  "FP-320",
+                     "PenFamily":  "wacom.penfamily.wacom_fp",
+                     "ReleaseYear":  "",
+                     "PressureSensitive":  "YES",
+                     "PressureLevels":  "512",
+                     "Notes":  "The pen shipped with the DTF-720; its manual lists \"Pen with replacement nibs (FP-320)\" and specifies 512 pressure levels and a rocker side switch. Button count not recorded: a rocker is ambiguous between one control and two.",
+                     "_id":  "30ff1fb6-f069-49cd-8af1-9b9a0869e663",
+                     "_CreateDate":  "2026-09-04T00:00:00.000Z",
+                     "_ModifiedDate":  "2026-09-04T00:00:00.000Z"
+                 },
+                 {
                      "EntityId":  "wacom.pen.fp410",
                      "Brand":  "WACOM",
                      "PenId":  "FP-410",
@@ -1560,6 +1574,18 @@
                      "_CreateDate":  "2026-04-07T01:00:00.000Z",
                      "_ModifiedDate":  "2026-05-11T19:19:45.128Z",
                      "PenTech":  "PASSIVE_EMR"
+                 },
+                 {
+                     "EntityId":  "wacom.pen.up818e",
+                     "Brand":  "WACOM",
+                     "PenId":  "UP-818E",
+                     "PenName":  "UP-818E",
+                     "PenFamily":  "wacom.penfamily.wacom_up",
+                     "ReleaseYear":  "",
+                     "Notes":  "Listed on machollywood.com's Wacom tablet-and-pen compatibility page; no specifications sourced yet.",
+                     "_id":  "1104862e-d48f-4f67-962e-22824460069b",
+                     "_CreateDate":  "2026-09-04T00:00:00.000Z",
+                     "_ModifiedDate":  "2026-09-04T00:00:00.000Z"
                  },
                  {
                      "EntityId":  "wacom.pen.up813e",

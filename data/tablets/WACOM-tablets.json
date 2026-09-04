@@ -3912,6 +3912,67 @@
                            },
                            {
                                "Meta":  {
+                                            "EntityId":  "wacom.tablet.dtf720",
+                                            "_id":  "1b899bfa-f9bd-454c-bddd-c5a8b98d3f26",
+                                            "_CreateDate":  "2026-09-04T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-09-04T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "DTF-720",
+                                             "Links":  [
+                                                           {
+                                                               "Type":  "MANUFACTURERUSERMANUAL",
+                                                               "URL":  "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf720-manual.pdf",
+                                                               "Title":  "Wacom DTF-720 Installation Guide & User's Manual",
+                                                               "Author":  "Wacom",
+                                                               "ContentType":  "PDF"
+                                                           }
+                                                       ],
+                                             "Status":  "DISCONTINUED",
+                                             "Name":  "DTF-720",
+                                             "Type":  "PENDISPLAY",
+                                             "ReleaseYear":  "2008",
+                                             "IncludedPen":  [
+                                                                 "wacom.pen.fp320"
+                                                             ],
+                                             "Notes":  "Specifications sourced from the Wacom DTF-720 Installation Guide & User's Manual, Version 2.1, Rev L2208 (copyright 2008). ReleaseYear is that manual's copyright year; because it is a version 2.1 revision the product may predate 2008. MacHollywood lists DTF-720 alongside PL-720 as SKUs of the Cintiq 17SX, mirroring how DTF-521 sits beside PL-521 and DTU-710 beside PL-710.",
+                                             "Family":  "wacom.tabletfamily.wacom_cintiqlegacy"
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "512",
+                                                 "Dimensions":  {
+                                                                    "Width":  337.9,
+                                                                    "Height":  270.3
+                                                                },
+                                                 "Density":  "20",
+                                                 "ReportRate":  "100",
+                                                 "AccuracyCenter":  "0.5",
+                                                 "MaxHover":  "5",
+                                                 "SupportsTouch":  "NO"
+                                             },
+                               "Display":  {
+                                               "PixelDimensions":  {
+                                                                       "Width":  1280,
+                                                                       "Height":  1024
+                                                                   },
+                                               "PanelTech":  "TFT",
+                                               "Brightness":  "300",
+                                               "Contrast":  "650",
+                                               "ColorBitDepth":  "8"
+                                           },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  400,
+                                                                   "Height":  362,
+                                                                   "Depth":  55.5
+                                                               },
+                                                "Weight":  "6000"
+                                            }
+                           },
+                           {
+                               "Meta":  {
                                             "EntityId":  "wacom.tablet.dtu710",
                                             "_id":  "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
                                             "_CreateDate":  "2026-04-03T00:00:00.000Z",
@@ -9058,6 +9119,24 @@
                                                  "Density":  "40",
                                                  "SupportsTouch":  "NO"
                                              }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "wacom.tablet.ft0203v",
+                                            "_id":  "1ebaa480-87c3-4db3-80da-268ea74f41b0",
+                                            "_CreateDate":  "2026-09-04T00:00:00.000Z",
+                                            "_ModifiedDate":  "2026-09-04T00:00:00.000Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "WACOM",
+                                             "Id":  "FT-0203-V",
+                                             "Status":  "DISCONTINUED",
+                                             "Name":  "PenPartner 2004",
+                                             "Type":  "PENTABLET",
+                                             "ReleaseYear":  "2004",
+                                             "Notes":  "Listed on machollywood.com's Wacom tablet-and-pen compatibility page (\"PenPartner, 2004\"), with the FP-100V as its pen. No manufacturer specifications sourced yet.",
+                                             "Family":  "wacom.tabletfamily.wacom_misc_preintuos"
+                                         }
                            },
                            {
                                "Meta":  {
