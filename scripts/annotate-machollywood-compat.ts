@@ -43,8 +43,11 @@ import {
   extractSkuTokens,
   normalizeCode,
   records,
+  type CodeMapping,
   type CodeToken,
+  type MacHollywoodAnnotations,
   type MacHollywoodDataset,
+  type RecordAnnotation,
 } from "../lib/reference/machollywood.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -57,47 +60,9 @@ const args = process.argv.slice(2);
 const reportOnly = args.includes("--report");
 const showUnmatched = args.includes("--unmatched");
 
-type MatchKind = "EXACT" | "PREFIX" | "PARTIAL" | "AMBIGUOUS" | "NONE";
-
-interface Mapping {
-  /** The code as printed on the page. */
-  token: string;
-  from: CodeToken["from"];
-  /** The line the code appeared in, verbatim. */
-  context: string;
-  entityId: string | null;
-  match: MatchKind;
-  /** Our Id as we store it, when one was matched. */
-  ourId?: string;
-  /** Every candidate, when the match was not decisive. */
-  candidates?: string[];
-  /** True once a human has settled this entry; re-runs leave it alone. */
-  manual?: boolean;
-  /** Hand-written remark about this code. Survives re-runs; never generated. */
-  note?: string;
-}
-
-interface RecordAnnotation {
-  id: string;
-  heading: string;
-  /**
-   * What the page itself says about this model: its description lines and
-   * bullets, verbatim. GENERATED - a projection of the capture, refreshed on
-   * every run, so never edit it. It sits here rather than only in the capture
-   * because this is where the decision gets made about what (if anything) to
-   * carry into the entity's own Model.Notes.
-   */
-  pageNotes?: string[];
-  /**
-   * Hand-written remarks about this record: a caveat about the mapping, a
-   * decision we made, a fact worth carrying forward. Survives re-runs;
-   * nothing here is ever generated. Keep it separate from pageNotes so it is
-   * always clear which sentences are theirs and which are ours.
-   */
-  notes?: string[];
-  tablets: Mapping[];
-  pens: Mapping[];
-}
+/** Alias kept for readability below; the shape lives in the shared lib. */
+type Mapping = CodeMapping;
+type MatchKind = Mapping["match"];
 
 const dataset: MacHollywoodDataset = JSON.parse(readFileSync(datasetPath, "utf-8"));
 
@@ -129,7 +94,7 @@ const annotations: RecordAnnotation[] = records(dataset).map((r) => {
   };
 });
 
-const output = {
+const output: MacHollywoodAnnotations = {
   source: {
     dataset: path.basename(datasetPath),
     textSha256: dataset.source.textSha256,

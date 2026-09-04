@@ -399,3 +399,55 @@ function matchAll(line: string, re: RegExp, from: CodeToken["from"]): CodeToken[
 export function normalizeCode(code: string): string {
   return code.toUpperCase().replace(/[^A-Z0-9]/g, "");
 }
+
+// ---------------------------------------------------------------------------
+// Annotations
+//
+// Our reading of the page, kept in a separate file from the capture and
+// joined back by record id. Written by scripts/annotate-machollywood-compat.ts
+// and read by the Explorer; the types live here so the two cannot drift.
+// ---------------------------------------------------------------------------
+
+/** How much a page code and one of our entities agree. Only EXACT is settled. */
+export type MatchKind = "EXACT" | "PREFIX" | "PARTIAL" | "AMBIGUOUS" | "NONE";
+
+/** One page code, and what (if anything) it maps to in our data. */
+export interface CodeMapping {
+  /** The code as printed on the page. */
+  token: string;
+  from: CodeToken["from"];
+  /** The line the code appeared in, verbatim. */
+  context: string;
+  entityId: string | null;
+  match: MatchKind;
+  /** Our Id as we store it, when one was matched. */
+  ourId?: string;
+  /** Every candidate, when the match was not decisive. */
+  candidates?: string[];
+  /** True once a human has settled this entry; re-runs leave it alone. */
+  manual?: boolean;
+  /** Hand-written remark about this code. Survives re-runs; never generated. */
+  note?: string;
+}
+
+export interface RecordAnnotation {
+  id: string;
+  heading: string;
+  /** What the page says about the model: description + bullets. Generated. */
+  pageNotes?: string[];
+  /** What we say. Hand-written, survives a re-run. */
+  notes?: string[];
+  tablets: CodeMapping[];
+  pens: CodeMapping[];
+}
+
+export interface MacHollywoodAnnotations {
+  source: {
+    dataset: string;
+    textSha256: string;
+    url: string;
+    generatedAt: string;
+    note: string;
+  };
+  records: RecordAnnotation[];
+}

@@ -246,6 +246,52 @@ export async function loadDocLinksFromURL(dataBaseUrl: string): Promise<DocLink[
   return data.links ?? [];
 }
 
+// --- MacHollywood pen-compatibility capture (data/machollywood/) ---
+//
+// A mirror of someone else's page, plus our reading of it, in two files that
+// deliberately stay apart: the capture says what the page says, the
+// annotations say what we make of it. Refresh both with
+// `npm run capture-machollywood` and `npm run annotate-machollywood`.
+
+export type {
+  MacHollywoodDataset,
+  MacHollywoodRecord,
+  MacHollywoodSegment,
+  MacHollywoodAnnotations,
+  RecordAnnotation as MacHollywoodRecordAnnotation,
+  CodeMapping as MacHollywoodCodeMapping,
+  MatchKind as MacHollywoodMatchKind,
+} from "./reference/machollywood.js";
+
+import type {
+  MacHollywoodAnnotations,
+  MacHollywoodDataset,
+} from "./reference/machollywood.js";
+
+/** Loads the structured capture (provenance + segments). Null if unavailable. */
+export async function loadMacHollywoodFromURL(
+  dataBaseUrl: string,
+): Promise<MacHollywoodDataset | null> {
+  const url = `${dataBaseUrl}/machollywood/machollywood-pen-compat.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return null;
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return null;
+  return (await resp.json()) as MacHollywoodDataset;
+}
+
+/** Loads our EntityId mapping over that capture. Null if unavailable. */
+export async function loadMacHollywoodAnnotationsFromURL(
+  dataBaseUrl: string,
+): Promise<MacHollywoodAnnotations | null> {
+  const url = `${dataBaseUrl}/machollywood/machollywood-pen-compat-annotations.json`;
+  const resp = await fetch(url);
+  if (!resp.ok) return null;
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (!contentType.includes("json")) return null;
+  return (await resp.json()) as MacHollywoodAnnotations;
+}
+
 // --- Brand loader ---
 
 export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {

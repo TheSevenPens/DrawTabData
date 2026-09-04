@@ -20,7 +20,7 @@
 //
 //   const pens = await wacomTablets[0].getCompatiblePens();
 
-import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct, OTDConfigFile, OTDAuditStatus } from "./drawtab-loader.js";
+import type { Tablet, Pen, PenFamily, TabletFamily, Driver, PenCompat, PressureResponse, PressureRange, Brand, VersionInfo, ISOPaperSize, USPaperSize, WacomUpdateProduct, OTDConfigFile, OTDAuditStatus, MacHollywoodDataset, MacHollywoodAnnotations } from "./drawtab-loader.js";
 import {
   ShardedURLLoader,
   loadVersionFromURL,
@@ -29,6 +29,8 @@ import {
   loadWacomUpdateProductsFromURL,
   loadOtdConfigFromURL,
   loadOtdEntityAuditFromURL,
+  loadMacHollywoodFromURL,
+  loadMacHollywoodAnnotationsFromURL,
   loadDocLinksFromURL,
   type DocLink,
 } from "./drawtab-loader.js";
@@ -203,6 +205,8 @@ export class DrawTabDataSet extends DataSet {
   private cachedWacomUpdateProducts?: Promise<WacomUpdateProduct[]>;
   private cachedOtdConfig?: Promise<OTDConfigFile | null>;
   private cachedOtdEntityAudit?: Promise<Record<string, OTDAuditStatus>>;
+  private cachedMacHollywood?: Promise<MacHollywoodDataset | null>;
+  private cachedMacHollywoodAnnotations?: Promise<MacHollywoodAnnotations | null>;
   private cachedDocLinks?: Promise<DocLink[]>;
 
   constructor(source: DataSource, options: DataSetOptions = {}) {
@@ -601,6 +605,20 @@ export class DrawTabDataSet extends DataSet {
   getOtdEntityAudit(): Promise<Record<string, OTDAuditStatus>> {
     return (this.cachedOtdEntityAudit ??= loadOtdEntityAuditFromURL(
       this.requireUrlSource("getOtdEntityAudit"),
+    ));
+  }
+
+  /** Load the MacHollywood pen-compatibility capture (the page, structured). */
+  getMacHollywood(): Promise<MacHollywoodDataset | null> {
+    return (this.cachedMacHollywood ??= loadMacHollywoodFromURL(
+      this.requireUrlSource("getMacHollywood"),
+    ));
+  }
+
+  /** Load our EntityId mapping over that capture. */
+  getMacHollywoodAnnotations(): Promise<MacHollywoodAnnotations | null> {
+    return (this.cachedMacHollywoodAnnotations ??= loadMacHollywoodAnnotationsFromURL(
+      this.requireUrlSource("getMacHollywoodAnnotations"),
     ));
   }
 
