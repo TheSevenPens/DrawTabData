@@ -13,6 +13,7 @@ import {
 } from "./schemas.js";
 import { BRANDS } from "./loader-shared.js";
 import { sessionEntityId } from "./pressure/session-id.js";
+import { findEncodingDamage, describeEncodingDamage } from "./encoding-damage.js";
 
 // --- Types ---
 
@@ -623,6 +624,74 @@ function runInventoryDuplicateCheck(dataDir: string): Issue[] {
   return issues;
 }
 
+// --- Encoding damage ---
+//
+// Text that survived a broken encoding round-trip: cp1252 mojibake, or a
+// U+FFFD where bytes were lost. Both arrive by the same route — extraction
+// from vendor pages — and neither shows up in any other check: the damage
+// passes the schema, breaks no join, and renders as something that merely
+// looks slightly odd. XPT.0007's ModelName carried "GEN2Â 165Hz" for five
+// months before anyone noticed. See GitHub #322.
+//
+// This walks every JSON file under data/, not just the entity directories,
+// because the one real instance lived in data/inventory/. Detection is in
+// encoding-damage.ts; what stays quiet matters as much as what fires.
+
+function listJsonFilesRecursive(dir: string): string[] {
+  const out: string[] = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...listJsonFilesRecursive(full));
+    else if (entry.name.endsWith(".json")) out.push(full);
+  }
+  return out;
+}
+
+/** Nearest identifier for a record, for a report that names the row. */
+function nearestId(node: RawRecord): string | undefined {
+  return getNestedString(node, "Meta", "EntityId")
+    ?? getString(node, "EntityId")
+    ?? getString(node, "InventoryId")
+    ?? getString(node, "PenId")
+    ?? getString(node, "ModelId");
+}
+
+function runEncodingChecks(dataDir: string): Issue[] {
+  if (!fs.existsSync(dataDir)) return [];
+  const issues: Issue[] = [];
+
+  for (const full of listJsonFilesRecursive(dataDir)) {
+    const file = path.relative(dataDir, full).split(path.sep).join("/");
+    const parsed: unknown = JSON.parse(fs.readFileSync(full, "utf-8"));
+
+    const walk = (node: unknown, trail: string[], id: string): void => {
+      if (typeof node === "string") {
+        for (const damage of findEncodingDamage(node)) {
+          issues.push({
+            file,
+            entityId: id,
+            field: trail.join("."),
+            issue: describeEncodingDamage(damage),
+            value: damage.excerpt,
+          });
+        }
+      } else if (Array.isArray(node)) {
+        node.forEach((child, i) => walk(child, [...trail, `[${i}]`], id));
+      } else if (node !== null && typeof node === "object") {
+        const record = node as RawRecord;
+        const here = nearestId(record) ?? id;
+        for (const [key, child] of Object.entries(record)) {
+          walk(child, [...trail, key], here);
+        }
+      }
+    };
+
+    walk(parsed, [], "UNKNOWN");
+  }
+
+  return issues;
+}
+
 // --- Runner ---
 
 export function runDataQuality(dataDir: string): Issue[] {
@@ -688,5 +757,6 @@ export function runDataQuality(dataDir: string): Issue[] {
     ...runBrandDriftCheck(dataDir),
     ...runCrossEntityChecks(dataDir),
     ...runInventoryDuplicateCheck(dataDir),
+    ...runEncodingChecks(dataDir),
   ];
 }
