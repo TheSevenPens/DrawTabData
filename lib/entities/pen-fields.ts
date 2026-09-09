@@ -97,7 +97,8 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   { key: "PenFamily", label: "Family", getValue: (p) => resolvePenFamily(p.PenFamily), type: "string", group: "Model" },
   { key: "PenTech", label: "Tech", getValue: (p) => p.PenTech ?? '', type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Model" },
   { key: "ReleaseYear", label: "Year", getValue: (p) => p.ReleaseYear, type: "number", group: "Model" },
-  { key: "Notes", label: "Notes", getValue: (p) => p.Notes ?? '', type: "string", group: "Model" },
+  // Free-form prose (often markdown) — see the ModelNotes note in tablet-fields.
+  { key: "Notes", label: "Notes", getValue: (p) => p.Notes ?? '', type: "string", group: "Model", multiline: true },
   { key: "Tags", label: "Tags", getValue: (p) => (p.Tags ?? []).join(', '), type: "string", group: "Model" },
   { key: "LinkCount", label: "Links", getValue: (p) => { const n = (p.Links ?? []).length; return n ? String(n) : ''; }, type: "number", group: "Model" },
   {
