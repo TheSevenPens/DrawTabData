@@ -27,6 +27,15 @@ lib/sources.ts (writeSourceRecord + regenerate), never the bundle; the
 Explorer's dev server regenerates automatically when a source changes.
 data-quality names the source file for tablet/pen issues.
 
+Merge conflicts: edits to different records merge cleanly, sources and
+bundle alike (tested: two EntityId-neighbours on separate branches).
+Two branches that each ADD a record at the same spot in the EntityId
+order conflict in the bundle only. Never hand-merge a bundle: take
+either side, regenerate, and commit.
+
+	git checkout --theirs data/tablets/WACOM-tablets.json
+	npx tsx scripts/generate.ts --write
+
 All other collections (families, pen-compat, drivers, pressure-*,
 inventory, brands, reference) are still edited directly in data/.
 
