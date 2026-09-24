@@ -5892,6 +5892,54 @@
                                                                    "Depth":  36.7
                                                                }
                                             }
+                           },
+                           {
+                               "Meta":  {
+                                            "EntityId":  "huion.tablet.q640m",
+                                            "_id":  "df69b1c3-4477-466c-b42a-c70e68006e7c",
+                                            "_CreateDate":  "2026-09-24T21:21:56.807Z",
+                                            "_ModifiedDate":  "2026-09-24T21:21:56.807Z"
+                                        },
+                               "Model":  {
+                                             "Brand":  "HUION",
+                                             "Id":  "Q640M",
+                                             "Name":  "Inspiroy Dial 2 V2",
+                                             "Type":  "PENTABLET",
+                                             "ReleaseYear":  "2026",
+                                             "IncludedPen":  [
+                                                                 "huion.pen.pw600"
+                                                             ],
+                                             "Links":  [
+                                                           {
+                                                               "Type":  "MANUFACTURERPRODUCTINFO",
+                                                               "URL":  "https://www.huion.com/products/inspiroy-dial-2-v2",
+                                                               "Title":  "Huion Inspiroy Dial 2 V2 | Wireless Pen Tablet with PenTech 4.0",
+                                                               "Author":  "Huion",
+                                                               "ContentType":  "HTML"
+                                                           }
+                                                       ]
+                                         },
+                               "Digitizer":  {
+                                                 "Type":  "PASSIVE_EMR",
+                                                 "PressureLevels":  "16384",
+                                                 "Dimensions":  {
+                                                                    "Width":  266.7,
+                                                                    "Height":  166.7
+                                                                },
+                                                 "Density":  "200",
+                                                 "ReportRate":  "300",
+                                                 "Tilt":  "60",
+                                                 "AccuracyCenter":  "0.3",
+                                                 "MaxHover":  "10"
+                                             },
+                               "Physical":  {
+                                                "Dimensions":  {
+                                                                   "Width":  356.6,
+                                                                   "Height":  207,
+                                                                   "Depth":  8
+                                                               },
+                                                "Weight":  "710"
+                                            }
                            }
                        ]
 }
