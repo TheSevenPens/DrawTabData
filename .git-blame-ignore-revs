@@ -1,0 +1,7 @@
+# Mechanical formatting commits (RFC #45 phase 1). Skip them in blame with:
+#   git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+# .gitattributes + line-ending renormalization (EOL only)
+6b237f1cd282795f7e40a1191a33e07db55c59c4
+# Reformat managed data files to the canonical format (values unchanged)
+edaa6be631d97859fac003105d12349e0fe942fc

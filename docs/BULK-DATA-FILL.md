@@ -83,17 +83,17 @@ Write a script in `scripts/` that:
 3. Bumps each touched record's `_ModifiedDate` to `new Date().toISOString()`.
 4. Optionally reorders fields to a canonical order so the file stays
    tidy.
-5. Writes back via PowerShell so the existing wide-indent format is
-   preserved. **Plain `JSON.stringify` will reformat the entire file
-   and create a huge diff.**
+5. Writes back with `writeDataJson` from `lib/data-json.ts`. Every
+   managed data file is in that canonical format (RFC #45), so the diff
+   is just the fields you changed. **Don't hand-roll `JSON.stringify` or
+   go through PowerShell** — see "Pitfalls".
 
 ```js
-import fs from 'node:fs';
-import path from 'node:path';
-import { execFileSync } from 'node:child_process';
+// Run with: npx tsx scripts/<one-shot>.mjs (from the Explorer root: data-repo/scripts/...)
+import { readDataJson, writeDataJson } from '../lib/data-json.ts';
 
-const pensPath = 'data-repo/data/pens/HUION-pens.json';
-const data = JSON.parse(fs.readFileSync(pensPath, 'utf8'));
+const pensPath = 'data/pens/HUION-pens.json';
+const data = readDataJson(pensPath);
 
 const updates = {
   PE150: { PenTech: 'PASSIVE_EMR', Hover: 'YES', ButtonCount: '2' /* ... */ },
@@ -108,16 +108,7 @@ for (const p of data.Pens) {
   p._ModifiedDate = now;
 }
 
-// Write back via ConvertTo-Json to preserve the wide-indent format.
-const tmp = pensPath + '.tmp';
-fs.writeFileSync(tmp, JSON.stringify(data));
-const ps = [
-  `$obj = Get-Content -LiteralPath '${tmp}' -Raw | ConvertFrom-Json`,
-  `$json = $obj | ConvertTo-Json -Depth 30`,
-  `[System.IO.File]::WriteAllText('${pensPath}', $json)`,
-].join('; ');
-execFileSync('powershell.exe', ['-NoProfile', '-Command', ps], { stdio: 'inherit' });
-fs.unlinkSync(tmp);
+writeDataJson(pensPath, data); // canonical: 2-space, LF, UTF-8, no BOM
 ```
 
 ### 5. Verify
@@ -151,9 +142,11 @@ script itself doesn't need to ship.
 
 ## Pitfalls
 
-- **PowerShell-only.** This relies on `powershell.exe` being on PATH.
-  On non-Windows, swap to a different format-preserving approach (or
-  accept the JSON.stringify reformat).
+- **Never round-trip through PowerShell `ConvertTo-Json`.** It read
+  BOM-less UTF-8 as ANSI and double-encoded non-ASCII text (#43), escaped
+  `&` and `'` as `&` / `'`, and re-indented every record.
+  `writeDataJson` works the same on every OS. `npx tsx
+  scripts/format-data.ts` checks the whole dataset (it runs in CI too).
 - **Don't run the script via `add-tablet.ts`.** That script is for
   adding new tablets one at a time and has its own validation flow.
 - **Schema changes go first.** If your worksheet introduces a field

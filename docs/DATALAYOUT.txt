@@ -2,6 +2,45 @@
 
 JSON files are organized by entity type, mostly partitioned by brand.
 
+## FILE FORMAT (RFC #45 phase 1)
+
+Every managed data file -- brands, tablets, pens, pen-families,
+tablet-families, pen-compat, drivers, pressure-response, pressure-range,
+inventory, reference -- is in one canonical format, defined by
+formatDataJson() in lib/data-json.ts:
+
+	- UTF-8, no BOM
+	- LF line endings (enforced for *.json by .gitattributes)
+	- JSON.stringify(value, null, 2) + "
+": two-space indent, key order
+	  as authored, & / ' / non-ASCII written literally, numbers in
+	  shortest form
+
+Tools read with readDataJson() and write with writeDataJson(). Never
+hand-roll JSON.stringify, splice text at an indentation, or round-trip
+through PowerShell ConvertTo-Json (#43).
+
+	npx tsx scripts/format-data.ts            # check, never writes; exit 1 on issues
+	npx tsx scripts/format-data.ts --write    # normalize
+
+Captures keep the bytes their extract scripts produce and are not
+managed: otd/, machollywood/, wacom-update/ (including source.xml),
+links/, and version.json.
+
+History: the formatting migration was two mechanical commits --
+6b237f1 (line endings) and edaa6be (reformat). Both are listed in
+.git-blame-ignore-revs, so blame skips them:
+
+	git config blame.ignoreRevsFile .git-blame-ignore-revs
+
+After pulling the line-ending commit into an EXISTING clone, refresh
+the working tree once (clean checkout only -- this discards local
+changes):
+
+	git rm -r --cached -q data && git reset -q --hard HEAD
+	git ls-files --eol data | grep -v "i/lf.*w/lf"   # data/wacom-update/source.xml only
+
+
 	/data
 		/brands
 			brands.json
