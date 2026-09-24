@@ -91,10 +91,16 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   // Model
   { key: "EntityId", label: "Entity ID", getValue: (p) => p.EntityId, type: "string", group: "Model" },
   { key: "FullName", label: "Full Name", getValue: (p) => penFullName(p), type: "string", group: "Model", computed: true },
-  { key: "Brand", label: "Brand", getValue: (p) => brandName(p.Brand), type: "enum", enumValues: [...BRANDS], group: "Model" },
+  // getValue is the stored code ("XPPEN"), getDisplayValue the label ("XP-Pen") —
+  // the same split as the tablet Brand field. It used to return the label,
+  // so a filter on the advertised enum value (Brand == WACOM) matched nothing.
+  { key: "Brand", label: "Brand", getValue: (p) => p.Brand, getDisplayValue: (p) => brandName(p.Brand), getHref: (p) => `/brands/${p.Brand}`, type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Model" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Model" },
-  { key: "PenFamily", label: "Family", getValue: (p) => resolvePenFamily(p.PenFamily), type: "string", group: "Model" },
+  // getValue is the family EntityId; only the display reads the name map. When
+  // getValue read it too, a query meant different things before and after
+  // setPenFamilyNames() ran.
+  { key: "PenFamily", label: "Family", getValue: (p) => p.PenFamily ?? "", getDisplayValue: (p) => (p.PenFamily ? resolvePenFamily(p.PenFamily) : ""), type: "string", group: "Model" },
   { key: "PenTech", label: "Tech", getValue: (p) => p.PenTech ?? '', type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Model" },
   { key: "ReleaseYear", label: "Year", getValue: (p) => p.ReleaseYear, type: "number", group: "Model" },
   // Free-form prose (often markdown) — see the ModelNotes note in tablet-fields.
