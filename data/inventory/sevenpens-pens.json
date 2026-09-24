@@ -2000,6 +2000,19 @@
       "_CreateDate": "2026-08-23T00:00:00.000Z",
       "_ModifiedDate": "2026-08-23T16:42:00.150Z",
       "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "huion.pen.pw600",
+      "Brand": "HUION",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "HUP.0031",
+      "Notes": "",
+      "Tags": [],
+      "_id": "51d6a8ca-ffce-46fd-b2d0-cee3b425e0fb",
+      "_CreateDate": "2026-09-24T21:25:55.517Z",
+      "_ModifiedDate": "2026-09-24T21:25:55.517Z",
+      "WithTabletInventoryId": "HUT.0021"
     }
   ]
 }
