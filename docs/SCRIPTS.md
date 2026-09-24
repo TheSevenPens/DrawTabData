@@ -61,12 +61,38 @@ npm run set-family -- XPPenArtistGen2 CD100FH CD120FH CD130FH CD160FH
 **When to use:** After identifying a group of tablets that belong to a
 family. Replaces writing throwaway Node scripts for bulk assignment.
 
+### format-data
+
+Check, or normalize, the formatting of every managed data file (RFC #45).
+Canonical form is defined by `formatDataJson()` in `lib/data-json.ts`:
+UTF-8 without BOM, LF, `JSON.stringify(value, null, 2) + "
+"`.
+
+```bash
+npx tsx scripts/format-data.ts            # check only; exit 1 on any issue (runs in CI)
+npx tsx scripts/format-data.ts --write    # rewrite non-canonical files
+```
+
+**Rule for every script that edits `data/`:** read with `readDataJson`,
+write with `writeDataJson`. Never splice text at an indentation or
+round-trip through PowerShell `ConvertTo-Json` (#43).
+
+### add-driver-record
+
+The write half of `Add-WacomDriver.ps1`. It takes a JSON file of new
+driver entries and inserts them into `data/drivers/<BRAND>-drivers.json`
+through `writeDataJson`. Each entry is validated against `DriverSchema`,
+and a DriverUID or EntityId that already exists is refused.
+`--after-version-prefix 6.4.` inserts after the last matching entry.
+The `.ps1` calls it; you rarely need to run it directly.
+
 ### add-tablet
 
 Add a new tablet record. Reads a partial spec from a JSON file, auto-fills
 `Meta` (EntityId, _id, _CreateDate, _ModifiedDate), validates the full
-record against `TabletSchema`, and inserts into `data/tablets/<BRAND>-tablets.json`
-preserving the existing wide-indent format.
+record against `TabletSchema`, and appends to `data/tablets/<BRAND>-tablets.json`
+through `writeDataJson` (canonical format, so the diff is just the new
+record). New records are ordered `Meta`, `Model`, then the spec's sections.
 
 ```bash
 npm run add-tablet -- spec.json
@@ -75,9 +101,8 @@ npm run add-tablet -- spec.json --dry-run    # preview without writing
 
 See `docs/IMPORTING-TABLETS.md` for the spec file shape and field mapping.
 
-**When to use:** any new tablet import. Replaces hand-formatting JSON
-that would otherwise need to match PowerShell's wide-indent style by
-hand.
+**When to use:** any new tablet import. Replaces hand-editing the brand
+file.
 
 ### find-or-add-pen
 
@@ -91,7 +116,7 @@ npm run find-or-add-pen -- --add XPPEN PD04B "X3 Note Pad Pen" --dry-run
 
 Search matches against PenName, PenId, and EntityId (alphanumerics,
 case-insensitive). Add mode validates against `PenSchema` and writes
-to `data/pens/<BRAND>-pens.json` preserving wide-indent format.
+to `data/pens/<BRAND>-pens.json` through `writeDataJson` (canonical format).
 
 **When to use:** before adding a tablet, to confirm the included pen's
 EntityId or scaffold a missing pen record.

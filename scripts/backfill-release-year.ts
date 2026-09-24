@@ -1,14 +1,15 @@
 // Backfill Model.ReleaseYear from Model.ReleaseDate when ReleaseYear is empty.
 // ReleaseDate may be YYYY, YYYY-MM, or YYYY-MM-DD; the leading four digits become ReleaseYear.
 //
-// Usage: npx tsx scripts/backfill-release-year.ts [--dry-run]
+// Usage: npx tsx scripts/backfill-release-year.ts [--dry-run] [--data-dir <dir>]
 
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
+import { readDataJson, writeDataJson } from "../lib/data-json.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const tabletsDir = path.join(__dirname, "..", "data", "tablets");
+const defaultDataDir = path.join(__dirname, "..", "data");
 
 export function yearFromReleaseDate(releaseDate: string): string | null {
 	const trimmed = releaseDate.trim();
@@ -16,23 +17,21 @@ export function yearFromReleaseDate(releaseDate: string): string | null {
 	return match ? match[1]! : null;
 }
 
-function escapeRegExp(value: string): string {
-	return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+interface TabletsFile {
+	DrawingTablets: Array<{
+		Meta?: { EntityId?: string };
+		Model: { Id: string; ReleaseYear?: string; ReleaseDate?: string };
+	}>;
 }
 
-export function main(argv: string[] = process.argv): void {
-	const dryRun = argv.includes("--dry-run");
+/** Fill empty ReleaseYear from ReleaseDate in every tablets file. Returns the number of tablets updated. */
+export function backfillReleaseYear(dataDir: string, { dryRun = false } = {}): number {
+	const tabletsDir = path.join(dataDir, "tablets");
 	let updated = 0;
 
 	for (const file of fs.readdirSync(tabletsDir).filter((f) => f.endsWith("-tablets.json"))) {
 		const filePath = path.join(tabletsDir, file);
-		let content = fs.readFileSync(filePath, "utf-8");
-		const data = JSON.parse(content) as {
-			DrawingTablets: Array<{
-				Meta?: { EntityId?: string };
-				Model: { Id: string; ReleaseYear?: string; ReleaseDate?: string };
-			}>;
-		};
+		const data = readDataJson<TabletsFile>(filePath);
 		let fileModified = false;
 
 		for (const tablet of data.DrawingTablets) {
@@ -48,30 +47,27 @@ export function main(argv: string[] = process.argv): void {
 				continue;
 			}
 
-			const modelId = tablet.Model.Id;
-			const pattern = new RegExp(
-				`("Id":\\s*"${escapeRegExp(modelId)}",[\\s\\S]{0,400}?"ReleaseYear":\\s*)""`,
-			);
-			if (!pattern.test(content)) {
-				console.warn(
-					`  skip ${tablet.Meta?.EntityId ?? modelId}: ReleaseYear pattern not found in ${file}`,
-				);
-				continue;
-			}
-
-			content = content.replace(pattern, `$1"${year}"`);
+			tablet.Model.ReleaseYear = year;
 			console.log(
-				`  ${file}: ${tablet.Meta?.EntityId ?? modelId} ReleaseYear -> ${year} (from ${releaseDate})`,
+				`  ${file}: ${tablet.Meta?.EntityId ?? tablet.Model.Id} ReleaseYear -> ${year} (from ${releaseDate})`,
 			);
 			updated++;
 			fileModified = true;
 		}
 
 		if (fileModified && !dryRun) {
-			fs.writeFileSync(filePath, content);
+			writeDataJson(filePath, data);
 		}
 	}
 
+	return updated;
+}
+
+export function main(argv: string[] = process.argv): void {
+	const dryRun = argv.includes("--dry-run");
+	const dataDirIdx = argv.indexOf("--data-dir");
+	const dataDir = dataDirIdx >= 0 ? path.resolve(argv[dataDirIdx + 1] ?? ".") : defaultDataDir;
+	const updated = backfillReleaseYear(dataDir, { dryRun });
 	console.log(`\n${dryRun ? "Would update" : "Updated"} ${updated} tablet(s).`);
 }
 

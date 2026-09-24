@@ -19,6 +19,15 @@
 .PARAMETER DryRun
     Show what would be added without modifying any files.
 
+.PARAMETER DataDir
+    Data directory to update (default: the repo's data\ folder). For testing
+    against a copy.
+
+.NOTES
+    The write goes through scripts/add-driver-record.ts (npx tsx), which uses
+    lib/data-json.ts so the file stays canonical: 2-space JSON, LF, UTF-8
+    without BOM. Needs Node and `npm install` in the repo.
+
 .EXAMPLE
     .\scripts\Add-WacomDriver.ps1 -Version "6.4.13-1" -ReleaseDate "2026-06-15"
 
@@ -38,14 +47,19 @@ param(
     [ValidateSet("Both", "Windows", "macOS")]
     [string]$OS = "Both",
 
-    [switch]$DryRun
+    [switch]$DryRun,
+
+    [Parameter(Mandatory = $false)]
+    [string]$DataDir = ""
 )
 
 $ErrorActionPreference = "Stop"
 
 # --- Locate repo root ---
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$jsonPath = Join-Path $repoRoot "data\drivers\WACOM-drivers.json"
+if (-not $DataDir) { $DataDir = Join-Path $repoRoot "data" }
+$DataDir = (Resolve-Path $DataDir).Path
+$jsonPath = Join-Path $DataDir "drivers\WACOM-drivers.json"
 
 if (-not (Test-Path $jsonPath)) {
     Write-Error "Cannot find WACOM-drivers.json at $jsonPath"
@@ -86,31 +100,6 @@ function New-DriverEntry {
         _CreateDate            = $now
         _ModifiedDate          = $now
     }
-}
-
-# Render an entry hashtable as a text block matching the file's existing
-# PowerShell wide-indent format (20-space braces, 24-space fields, two
-# spaces after each colon). Used by the format-preserving splice below
-# instead of ConvertTo-Json, which would reflow the whole file under
-# PowerShell 7. The closing "@ MUST stay at column 0.
-function Format-DriverEntryText {
-    param($e)
-    return @"
-                    {
-                        "DriverVersion":  "$($e.DriverVersion)",
-                        "OSFamily":  "$($e.OSFamily)",
-                        "ReleaseDate":  "$($e.ReleaseDate)",
-                        "DriverURLWacom":  "$($e.DriverURLWacom)",
-                        "DriverURLArchiveDotOrg":  "$($e.DriverURLArchiveDotOrg)",
-                        "ReleaseNotesURL":  "$($e.ReleaseNotesURL)",
-                        "DriverUID":  "$($e.DriverUID)",
-                        "Brand":  "$($e.Brand)",
-                        "EntityId":  "$($e.EntityId)",
-                        "_id":  "$($e._id)",
-                        "_CreateDate":  "$($e._CreateDate)",
-                        "_ModifiedDate":  "$($e._ModifiedDate)"
-                    }
-"@
 }
 
 $entriesToAdd = @()
@@ -163,46 +152,34 @@ if ($DryRun) {
     exit 0
 }
 
-# --- Update WACOM-drivers.json (format-preserving text splice) ---
+# --- Update WACOM-drivers.json ---
 #
-# We insert the new entries as text rather than re-serialising the whole
-# file via ConvertTo-Json. Under PowerShell 7, ConvertTo-Json reflows the
-# entire file out of the original wide-indent format (a huge spurious
-# diff), so instead we splice the formatted entry blocks in right after
-# the last existing 6.4.x entry, leaving every other byte untouched.
-Write-Host "Updating WACOM-drivers.json (format-preserving splice)..." -ForegroundColor Cyan
+# The write goes through scripts/add-driver-record.ts, which reads the file,
+# inserts the entries after the last existing 6.4.x entry (dated releases
+# stay together, ahead of the undated tail) and writes it back via
+# lib/data-json.ts in canonical form, so the diff is just the new entries.
+# Round-tripping the file through ConvertTo-Json here would reflow it, and
+# Windows PowerShell 5.1 would also mangle non-ASCII text (#43).
+Write-Host "Updating WACOM-drivers.json..." -ForegroundColor Cyan
 
-# Read raw and detect the file's existing newline style. We must NOT
-# normalise it — WACOM-drivers.json is committed with CRLF, and rewriting
-# it as LF would flip every line (a whole-file diff). The spliced block is
-# rendered with the same newline so only the new lines appear in the diff.
-$text = [System.IO.File]::ReadAllText($jsonPath)
-$nl = if ($text.Contains("`r`n")) { "`r`n" } else { "`n" }
+# Hand the entries over as a temp JSON file. Only the entries go through
+# ConvertTo-Json (ASCII version strings, URLs and GUIDs), never the dataset.
+$recordsPath = Join-Path ([System.IO.Path]::GetTempPath()) ("wacom-driver-" + [guid]::NewGuid().ToString() + ".json")
+$recordsJson = ConvertTo-Json -InputObject @($entries) -Depth 5
+[System.IO.File]::WriteAllText($recordsPath, $recordsJson, [System.Text.UTF8Encoding]::new($false))
 
-# Anchor: the closing "}," of the last existing 6.4.x entry.
-$dvMatches = [regex]::Matches($text, '"DriverVersion":\s*"6\.4\.[^"]*"')
-if ($dvMatches.Count -eq 0) {
-    Write-Error "No existing 6.4.x entry found to anchor the insertion."
+Push-Location $repoRoot
+try {
+    & npx tsx scripts/add-driver-record.ts $recordsPath --after-version-prefix "6.4." --data-dir $DataDir
+    $exitCode = $LASTEXITCODE
+} finally {
+    Pop-Location
+    Remove-Item -LiteralPath $recordsPath -ErrorAction SilentlyContinue
+}
+if ($exitCode -ne 0) {
+    Write-Error "add-driver-record.ts failed (exit $exitCode); WACOM-drivers.json was not changed."
     exit 1
 }
-$lastDvIdx = $dvMatches[$dvMatches.Count - 1].Index
-$closeMarker = $nl + (' ' * 20) + "},"
-$closeIdx = $text.IndexOf($closeMarker, $lastDvIdx)
-if ($closeIdx -lt 0) {
-    Write-Error "Could not locate the closing '},' of the last 6.4.x entry (is it the final array element?)."
-    exit 1
-}
-$insertAt = $closeIdx + $closeMarker.Length   # just past the comma
-
-$insertText = ""
-foreach ($entry in $entries) {
-    # Render the block, then force it to the file's own newline style.
-    $block = ((Format-DriverEntryText $entry) -replace "`r`n", "`n") -replace "`n", $nl
-    $insertText += $nl + $block + ","
-}
-
-$newText = $text.Substring(0, $insertAt) + $insertText + $text.Substring($insertAt)
-[System.IO.File]::WriteAllText($jsonPath, $newText, [System.Text.UTF8Encoding]::new($false))
 
 Write-Host "  Updated $jsonPath" -ForegroundColor Green
 

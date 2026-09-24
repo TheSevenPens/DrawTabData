@@ -1,33 +1,35 @@
-#!/usr/bin/env node
+#!/usr/bin/env -S npx tsx
 /**
  * Link checker + title backfill for data/tablets/*.json.
  *
- * For each link it fetches the URL once and records, format-preserving:
+ * For each link it fetches the URL once and records:
  *   - Title       : the page <title> (light-cleaned), only when the link has none.
  *   - ContentType : HTML | PDF | VIDEO | IMAGE | OTHER (host + extension + header).
  *   - Check       : { Status, CheckedAt, HttpStatus?, FinalUrl? } where Status is
  *                   OK | DEAD (404/410) | BLOCKED (401/403) | ERROR (timeout/5xx) |
  *                   REDIRECT (reachable but the stored URL now lands elsewhere).
  *
- * The whole Links array of each touched tablet is re-rendered in the existing
- * hand-format (1-space object colons), so unchanged links don't churn.
+ * Touched files are written with writeDataJson() (lib/data-json.ts), so they
+ * stay canonical and unchanged links don't churn.
  *
- * Usage: node scripts/backfill-link-titles.mjs [options]
+ * Usage: npx tsx scripts/backfill-link-titles.mjs [options]
+ *   (tsx, not node: it imports lib/data-json.ts)
  *   --brand WACOM[,HUION]   only tablets of these brands
  *   --limit N               only the first N distinct URLs (staged runs)
  *   --concurrency N         parallel fetches (default 6)
  *   --recheck               re-check links that already have a Check (refresh)
  *   --dry-run               fetch + report, do not write
  *   --verbatim              keep the raw <title> (skip the site-name strip)
+ *   --data-dir DIR          data directory to use (default: data/)
  *
  * Default (no --recheck) only touches links missing a Check, so re-runs are cheap.
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { readDataJson, writeDataJson } from "../lib/data-json.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const TABLETS_DIR = path.join(__dirname, "..", "data", "tablets");
 const UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
 const RUN_AT = new Date().toISOString();
@@ -44,6 +46,11 @@ const concurrency = getOpt("concurrency") ? Number(getOpt("concurrency")) : 6;
 const recheck = !!getOpt("recheck");
 const dryRun = !!getOpt("dry-run");
 const verbatim = !!getOpt("verbatim");
+const dataDirOpt = getOpt("data-dir");
+const TABLETS_DIR = path.join(
+  typeof dataDirOpt === "string" ? path.resolve(dataDirOpt) : path.join(__dirname, "..", "data"),
+  "tablets",
+);
 
 const inBrand = (t) => !brands || brands.includes(t.Model.Brand);
 
@@ -51,7 +58,7 @@ const inBrand = (t) => !brands || brands.includes(t.Model.Brand);
 const files = fs.readdirSync(TABLETS_DIR).filter((f) => f.endsWith("-tablets.json"));
 const urlInstances = new Map(); // url -> instance count
 for (const f of files) {
-  const j = JSON.parse(fs.readFileSync(path.join(TABLETS_DIR, f), "utf8"));
+  const j = readDataJson(path.join(TABLETS_DIR, f));
   for (const t of j.DrawingTablets ?? []) {
     if (!inBrand(t)) continue;
     for (const l of t.Model.Links ?? []) {
@@ -229,39 +236,27 @@ async function worker() {
 }
 await Promise.all(Array.from({ length: Math.min(concurrency, urls.length) || 1 }, worker));
 
-// ---- render a Links array body in the existing hand-format ----
-function renderLinkObj(l, base) {
-  const i2 = " ".repeat(base + 2),
-    i4 = " ".repeat(base + 4),
-    i6 = " ".repeat(base + 6);
-  const props = [];
-  for (const k of ["Type", "URL", "Title", "Author", "PublishDate", "ContentType"])
-    if (l[k] != null) props.push(`${i4}"${k}": ${JSON.stringify(l[k])}`);
-  if (l.Check) {
-    const cp = [];
-    for (const [k, v] of [
-      ["Status", l.Check.Status],
-      ["CheckedAt", l.Check.CheckedAt],
-      ["HttpStatus", l.Check.HttpStatus],
-      ["FinalUrl", l.Check.FinalUrl],
-    ])
-      if (v != null) cp.push(`${i6}"${k}": ${JSON.stringify(v)}`);
-    props.push(`${i4}"Check": {\n${cp.join(",\n")}\n${i4}}`);
-  }
-  return `${i2}{\n${props.join(",\n")}\n${i2}}`;
-}
+// ---- key order for a link object ----
+// LinkSchema order, so a newly added Title lands before Author rather than at
+// the end. Unknown keys (none — the schema is strict) would trail, not vanish.
+const LINK_KEYS = ["Type", "URL", "Title", "Author", "PublishDate", "ContentType", "Check"];
+const CHECK_KEYS = ["Status", "CheckedAt", "HttpStatus", "FinalUrl"];
+const inKeyOrder = (obj, keys) =>
+  Object.fromEntries([
+    ...keys.filter((k) => obj[k] != null).map((k) => [k, obj[k]]),
+    ...Object.entries(obj).filter(([k]) => !keys.includes(k)),
+  ]);
+const orderLink = (l) => {
+  const o = inKeyOrder(l, LINK_KEYS);
+  if (o.Check) o.Check = inKeyOrder(o.Check, CHECK_KEYS);
+  return o;
+};
 
-// ---- apply to files (parse -> mutate -> re-render each touched Links array) ----
+// ---- apply to files (parse -> mutate -> writeDataJson) ----
 const stats = { status: {}, contentType: {}, titled: 0, objects: 0, tablets: 0, errored: 0 };
 for (const f of files) {
   const fp = path.join(TABLETS_DIR, f);
-  let text = fs.readFileSync(fp, "utf8");
-  // Work in LF internally regardless of the file's on-disk ending (git may have
-  // checked it out as CRLF); restore the original ending on write.
-  const crlf = text.includes("\r\n");
-  if (crlf) text = text.replaceAll("\r\n", "\n");
-  const j = JSON.parse(text);
-  const mc = (text.match(/"Id":( +)"/)?.[1] ?? "  ").length;
+  const j = readDataJson(fp);
   let fileChanged = false;
 
   for (const t of j.DrawingTablets ?? []) {
@@ -297,35 +292,10 @@ for (const f of files) {
     }
     if (!mutated) continue;
     stats.tablets++;
-
-    if (!dryRun) {
-      // Locate THIS tablet's Links array by its own actual indentation — the
-      // data isn't perfectly consistent (some Links keys sit a space off the
-      // Id line), so we can't assume Links indent == Id indent.
-      const idIdx = text.indexOf(`"Id":${" ".repeat(mc)}"${t.Model.Id}",`);
-      const openRe = /\n( *)"Links":( +)\[\n/g;
-      openRe.lastIndex = idIdx;
-      const lm = openRe.exec(text);
-      if (!lm) {
-        console.error(`no Links match: ${t.Model.Id} idIdx=${idIdx} mc=${mc}`);
-        process.exit(1);
-      }
-      const base = lm[1].length;
-      const bodyStart = lm.index + lm[0].length;
-      const bodyEnd = bodyStart + text.slice(bodyStart).search(/\n *\]/); // first "]" line = array close
-      const body = links.map((l) => renderLinkObj(l, base)).join(",\n");
-      text = text.slice(0, bodyStart) + body + text.slice(bodyEnd);
-      fileChanged = true;
-      try {
-        JSON.parse(text);
-      } catch (e) {
-        console.error(`BROKE at ${t.Model.Id} in ${f}: ${e.message}`);
-        console.error(text.slice(bodyStart - 20, bodyStart + body.length + 40));
-        process.exit(1);
-      }
-    }
+    t.Model.Links = links.map(orderLink);
+    fileChanged = true;
   }
-  if (fileChanged) fs.writeFileSync(fp, crlf ? text.replaceAll("\n", "\r\n") : text);
+  if (fileChanged && !dryRun) writeDataJson(fp, j);
 }
 
 // ---- report ----

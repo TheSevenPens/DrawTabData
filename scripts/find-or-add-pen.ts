@@ -11,25 +11,32 @@
 //   tsx scripts/find-or-add-pen.ts --add ... --dry-run
 //     -- Print the record without writing.
 //
-// Format preservation: rewrites the brand JSON file via Windows
-// PowerShell ConvertTo-Json to keep the existing wide-indent format.
+//   --data-dir <dir>   use another data directory (default: data/)
+//
+// The brand file is written with writeDataJson() (lib/data-json.ts), so it
+// stays canonical and the diff is just the new record.
 
 import * as fs from "fs";
 import * as path from "path";
-import { execFileSync } from "child_process";
 import { fileURLToPath } from "url";
 import { randomUUID } from "crypto";
 import * as v from "valibot";
 import { PenSchema } from "../lib/schemas.js";
+import { formatDataJson, readDataJson, writeDataJson } from "../lib/data-json.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, "..", "data");
-const pensDir = path.join(dataDir, "pens");
 
 const args = process.argv.slice(2);
 const isAdd = args.includes("--add");
 const dryRun = args.includes("--dry-run");
-const positional = args.filter((a) => !a.startsWith("--"));
+const dataDirIdx = args.indexOf("--data-dir");
+const dataDir =
+  dataDirIdx >= 0 ? path.resolve(args[dataDirIdx + 1] ?? ".") : path.join(__dirname, "..", "data");
+const pensDir = path.join(dataDir, "pens");
+// Positional args, minus the values that belong to --data-dir / --year.
+const positional = args.filter(
+  (a, i) => !a.startsWith("--") && args[i - 1] !== "--data-dir" && args[i - 1] !== "--year",
+);
 
 if (!isAdd) {
   // --- Search mode ---
@@ -43,7 +50,7 @@ if (!isAdd) {
   const matches: Array<{ file: string; pen: any; score: number }> = [];
 
   for (const file of fs.readdirSync(pensDir).filter((f) => f.endsWith("-pens.json"))) {
-    const data = JSON.parse(fs.readFileSync(path.join(pensDir, file), "utf-8"));
+    const data = readDataJson<any>(path.join(pensDir, file));
     for (const pen of data.Pens ?? []) {
       const haystack = [pen.PenName, pen.PenId, pen.EntityId]
         .filter(Boolean)
@@ -120,7 +127,7 @@ if (!fs.existsSync(filePath)) {
   process.exit(1);
 }
 
-const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+const data = readDataJson<any>(filePath);
 const existing = data.Pens ?? [];
 
 if (existing.some((p: any) => p?.EntityId === entityId)) {
@@ -133,24 +140,12 @@ console.log(`Adding ${entityId} (${penName}) to ${path.basename(filePath)}`);
 if (dryRun) {
   console.log("\n--dry-run: no write.");
   console.log("\nRecord:");
-  console.log(JSON.stringify(record, null, 2));
+  process.stdout.write(formatDataJson(record));
   process.exit(0);
 }
 
+// Canonical format, so only the new record shows in the diff.
 data.Pens = [...existing, record];
-const tempFile = filePath + ".tmp";
-fs.writeFileSync(tempFile, JSON.stringify(data));
-
-const psScript = [
-  `$obj = Get-Content -LiteralPath '${tempFile}' -Raw | ConvertFrom-Json`,
-  `$json = $obj | ConvertTo-Json -Depth 30`,
-  `[System.IO.File]::WriteAllText('${filePath}', $json)`,
-].join("; ");
-
-try {
-  execFileSync("powershell.exe", ["-NoProfile", "-Command", psScript], { stdio: "inherit" });
-} finally {
-  if (fs.existsSync(tempFile)) fs.unlinkSync(tempFile);
-}
+writeDataJson(filePath, data);
 
 console.log(`\nWrote ${entityId}.`);

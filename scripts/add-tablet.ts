@@ -3,35 +3,38 @@
 // Usage:
 //   tsx scripts/add-tablet.ts <spec.json>
 //   tsx scripts/add-tablet.ts <spec.json> --dry-run
+//   tsx scripts/add-tablet.ts <spec.json> --data-dir <dir>   (default: data/)
 //
 // The spec file is a partial Tablet record. Meta (EntityId, _id,
 // _CreateDate, _ModifiedDate) is auto-filled if absent. The full record
 // is validated against TabletSchema before write.
 //
-// Format preservation: the brand JSON file is rewritten via Windows
-// PowerShell ConvertTo-Json so the existing wide-indent format is kept.
+// The brand file is written with writeDataJson() (lib/data-json.ts), so it
+// stays canonical and the diff is just the new record.
 
 import * as fs from "fs";
 import * as path from "path";
-import { execFileSync } from "child_process";
 import { fileURLToPath } from "url";
 import { randomUUID } from "crypto";
 import * as v from "valibot";
 import { TabletSchema } from "../lib/schemas.js";
 import { runDataQuality } from "../lib/data-quality.js";
+import { formatDataJson, readDataJson, writeDataJson } from "../lib/data-json.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(__dirname, "..", "data");
 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
-const specPath = args.find((a) => !a.startsWith("--"));
+const dataDirIdx = args.indexOf("--data-dir");
+const dataDir =
+  dataDirIdx >= 0 ? path.resolve(args[dataDirIdx + 1] ?? ".") : path.join(__dirname, "..", "data");
+const specPath = args.find((a, i) => !a.startsWith("--") && args[i - 1] !== "--data-dir");
 if (!specPath) {
-  console.error("Usage: tsx scripts/add-tablet.ts <spec.json> [--dry-run]");
+  console.error("Usage: tsx scripts/add-tablet.ts <spec.json> [--dry-run] [--data-dir <dir>]");
   process.exit(1);
 }
 
-const spec = JSON.parse(fs.readFileSync(specPath, "utf-8"));
+const spec = readDataJson<any>(specPath);
 const brand: string | undefined = spec?.Model?.Brand;
 const id: string | undefined = spec?.Model?.Id;
 const type: string | undefined = spec?.Model?.Type;
@@ -52,16 +55,23 @@ const derivedEntityId =
   normalize(id) +
   (idSuffix ? "_" + normalize(idSuffix) : "");
 
-spec.Meta = {
-  EntityId: spec.Meta?.EntityId ?? derivedEntityId,
-  _id: spec.Meta?._id ?? randomUUID(),
-  _CreateDate: spec.Meta?._CreateDate ?? now,
-  _ModifiedDate: spec.Meta?._ModifiedDate ?? now,
+// Existing records lead with Meta, then Model; the spec's other sections
+// (Digitizer, Display, Physical, ...) follow in the order the spec gives.
+const { Meta: specMeta, Model: specModel, ...specRest } = spec;
+const record = {
+  Meta: {
+    EntityId: specMeta?.EntityId ?? derivedEntityId,
+    _id: specMeta?._id ?? randomUUID(),
+    _CreateDate: specMeta?._CreateDate ?? now,
+    _ModifiedDate: specMeta?._ModifiedDate ?? now,
+  },
+  Model: specModel,
+  ...specRest,
 };
 
 // --- Validate ---
 
-const result = v.safeParse(TabletSchema, spec);
+const result = v.safeParse(TabletSchema, record);
 if (!result.success) {
   console.error("Validation failed:");
   for (const iss of result.issues) {
@@ -76,7 +86,7 @@ if (!result.success) {
 const filePath = path.join(dataDir, "tablets", `${brand}-tablets.json`);
 let data: { DrawingTablets: any[] };
 if (fs.existsSync(filePath)) {
-  data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  data = readDataJson<{ DrawingTablets: any[] }>(filePath);
   data.DrawingTablets ??= [];
 } else {
   console.log(`Brand file does not exist; creating ${path.basename(filePath)}`);
@@ -86,47 +96,30 @@ const existing = data.DrawingTablets;
 
 // --- Duplicate check ---
 
-const eid = spec.Meta.EntityId;
+const eid = record.Meta.EntityId;
 if (existing.some((t: any) => t?.Meta?.EntityId === eid)) {
   console.error(`Duplicate EntityId: ${eid}`);
   process.exit(1);
 }
 
-console.log(`Adding ${eid} (${spec.Model.Name}) to ${path.basename(filePath)}`);
+console.log(`Adding ${eid} (${record.Model.Name}) to ${path.basename(filePath)}`);
 console.log(`  Type: ${type}`);
-console.log(`  ReleaseYear: ${spec.Model.ReleaseYear}`);
-if (spec.Model.IncludedPen?.length) {
-  console.log(`  IncludedPen: ${spec.Model.IncludedPen.join(", ")}`);
+console.log(`  ReleaseYear: ${record.Model.ReleaseYear}`);
+if (record.Model.IncludedPen?.length) {
+  console.log(`  IncludedPen: ${record.Model.IncludedPen.join(", ")}`);
 }
 
 if (dryRun) {
   console.log("\n--dry-run: no write.");
   console.log("\nRecord:");
-  console.log(JSON.stringify(spec, null, 2));
+  process.stdout.write(formatDataJson(record));
   process.exit(0);
 }
 
-// --- Write back, preserving the existing PowerShell wide-indent format ---
+// --- Write back (canonical format, so only the new record shows in the diff) ---
 
-data.DrawingTablets = [...existing, spec];
-const tempFile = filePath + ".tmp";
-fs.writeFileSync(tempFile, JSON.stringify(data));
-
-// Use Windows PowerShell 5.1 (powershell.exe) for the legacy wide-indent
-// ConvertTo-Json format. UTF-8-without-BOM via WriteAllText.
-const psScript = [
-  `$obj = Get-Content -LiteralPath '${tempFile}' -Raw | ConvertFrom-Json`,
-  `$json = $obj | ConvertTo-Json -Depth 30`,
-  `[System.IO.File]::WriteAllText('${filePath}', $json)`,
-].join("; ");
-
-try {
-  execFileSync("powershell.exe", ["-NoProfile", "-Command", psScript], {
-    stdio: "inherit",
-  });
-} finally {
-  if (fs.existsSync(tempFile)) fs.unlinkSync(tempFile);
-}
+data.DrawingTablets = [...existing, record];
+writeDataJson(filePath, data);
 
 console.log(`\nWrote ${eid}.`);
 
