@@ -1,0 +1,6 @@
+# Dataset JSON is LF on every platform (RFC #45 phase 1). Without this, a
+# Windows clone with core.autocrlf=true checks files out as CRLF, and the
+# repository itself had drifted to a mix: 19 files stored CRLF, three
+# files mixed within the file. scripts/format-data.ts checks bytes
+# exactly, which only works when every checkout agrees on line endings.
+*.json text eol=lf
