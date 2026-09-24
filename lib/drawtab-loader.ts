@@ -16,6 +16,54 @@ export interface PenCompat {
   _ModifiedDate: string;
 }
 
+// --- Fetching one data file -----------------------------------------------
+//
+// Two outcomes used to look identical: "this file doesn't exist" (normal —
+// most brands have no pressure-response file, so the loaders probe every
+// brand in BRANDS) and "this file failed to load" (a 503, a dropped
+// connection, a truncated body). Both returned nothing, so a failed
+// WACOM-pens.json showed 64 of 143 pens as if that were the whole dataset
+// (TheSevenPens/DrawTabDataExplorer#331). Now only absence is quiet;
+// every failure throws a DataLoadError naming the file.
+
+/** A data file that exists but could not be loaded or has the wrong shape. */
+export class DataLoadError extends Error {
+  constructor(
+    readonly url: string,
+    readonly reason: string,
+    options?: { cause?: unknown },
+  ) {
+    super(`Couldn't load ${url}: ${reason}`, options);
+    this.name = "DataLoadError";
+  }
+}
+
+/**
+ * Fetch and parse one JSON data file.
+ *
+ * Returns `undefined` when the file is **absent**: an HTTP 404, or an HTML
+ * page served in its place (an SPA fallback answering 200 for a missing
+ * path). Throws `DataLoadError` for everything else — network failure, any
+ * other non-OK status, or a body that isn't valid JSON.
+ */
+export async function fetchDataFile(url: string): Promise<any> {
+  let resp: Response;
+  try {
+    resp = await fetch(url);
+  } catch (err) {
+    throw new DataLoadError(url, "network error", { cause: err });
+  }
+  if (resp.status === 404) return undefined;
+  if (!resp.ok) throw new DataLoadError(url, `HTTP ${resp.status}`);
+  const contentType = resp.headers.get("content-type") ?? "";
+  if (contentType.includes("text/html")) return undefined;
+  try {
+    return await resp.json();
+  } catch (err) {
+    throw new DataLoadError(url, "invalid JSON", { cause: err });
+  }
+}
+
 // --- Generic loader ---
 
 export async function loadBrandPartitionedDataFromURL<T>(
@@ -24,40 +72,23 @@ export async function loadBrandPartitionedDataFromURL<T>(
   rootKey: string,
   brands: string[] = BRANDS,
 ): Promise<T[]> {
-  const all: T[] = [];
-  const fetches = brands.map(async (brand) => {
-    const url = `${dataBaseUrl}/${entityPath}/${brand}-${entityPath}.json`;
-    let resp: Response;
-    try {
-      resp = await fetch(url);
-    } catch {
-      return;
-    }
-    if (!resp.ok) {
-      return;
-    }
-    const contentType = resp.headers.get("content-type") ?? "";
-    if (!contentType.includes("json")) {
-      return;
-    }
-    const data = await resp.json();
-    const items = data[rootKey];
-    if (Array.isArray(items)) {
-      all.push(...items);
-    }
-  });
-  await Promise.all(fetches);
-  return all;
+  return new ShardedURLLoader<T>(dataBaseUrl, {
+    shards: brands,
+    filePath: (brand) => `${entityPath}/${brand}-${entityPath}.json`,
+    rootKey,
+  }).load();
 }
 
 // --- Generic sharded loader class -----------------------------------------
 //
-// Class form of the brand-partitioned loader, generalised to any shard
-// list. One instance per collection. Same JSON convention:
-// each shard's file lives at `${baseUrl}/${filePath(shard)}`, and the
-// array of records lives under `data[rootKey]`. Missing/404 shards are
-// silently skipped (mirrors the free-function loader's behaviour, which
-// the `static/` symlink setup relies on).
+// One instance per collection. Each shard's file lives at
+// `${baseUrl}/${filePath(shard)}`, and the array of records lives under
+// `data[rootKey]`. An absent shard (see fetchDataFile) is skipped — the
+// loaders probe every brand, and most brands lack most files. A shard that
+// fails, or whose JSON has no array under `rootKey`, or whose array holds a
+// non-object, fails the whole load: a partial collection must never pass
+// for a complete one. Rows are returned in shard order, not in whichever
+// order the responses happened to arrive.
 //
 // Used by `DrawTabDataSet` to wire its collections; project-specific glue
 // because the JSON-shape convention is DrawTab's, but the class itself
@@ -84,26 +115,24 @@ export class ShardedURLLoader<T, Raw = T> implements Loader<T> {
   ) {}
 
   async load(): Promise<T[]> {
-    const raw: Raw[] = [];
-    await Promise.all(
-      this.opts.shards.map(async (shard) => {
+    const { rootKey } = this.opts;
+    const perShard = await Promise.all(
+      this.opts.shards.map(async (shard): Promise<Raw[]> => {
         const url = `${this.baseUrl}/${this.opts.filePath(shard)}`;
-        let resp: Response;
-        try {
-          resp = await fetch(url);
-        } catch {
-          return;
+        const data = await fetchDataFile(url);
+        if (data === undefined) return [];
+        const items = data?.[rootKey];
+        if (!Array.isArray(items)) {
+          throw new DataLoadError(url, `expected an array under "${rootKey}"`);
         }
-        if (!resp.ok) return;
-        const ct = resp.headers.get("content-type") ?? "";
-        if (!ct.includes("json")) return;
-        const data = await resp.json();
-        const items = data[this.opts.rootKey];
-        if (Array.isArray(items)) {
-          raw.push(...(items as Raw[]));
+        const bad = items.findIndex((r) => r === null || typeof r !== "object");
+        if (bad !== -1) {
+          throw new DataLoadError(url, `"${rootKey}"[${bad}] is not a record`);
         }
+        return items as Raw[];
       }),
     );
+    const raw = ([] as Raw[]).concat(...perShard);
     return this.opts.transform ? this.opts.transform(raw) : (raw as unknown as T[]);
   }
 }
@@ -153,21 +182,15 @@ export async function loadPressureResponseFromURL(dataBaseUrl: string): Promise<
 
 export async function loadInventoryPensFromURL(dataBaseUrl: string, userId: string): Promise<Record<string, unknown>[]> {
   const url = `${dataBaseUrl}/inventory/${userId}-pens.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
   return data.InventoryPens ?? [];
 }
 
 export async function loadInventoryTabletsFromURL(dataBaseUrl: string, userId: string): Promise<Record<string, unknown>[]> {
   const url = `${dataBaseUrl}/inventory/${userId}-tablets.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
   return data.InventoryTablets ?? [];
 }
 
@@ -177,11 +200,9 @@ export async function loadWacomUpdateProductsFromURL(
   dataBaseUrl: string,
 ): Promise<WacomUpdateProduct[]> {
   const url = `${dataBaseUrl}/wacom-update/products.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  return resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
+  return data;
 }
 
 // --- OpenTabletDriver config loader ---
@@ -192,11 +213,9 @@ export async function loadOtdConfigFromURL(
   dataBaseUrl: string,
 ): Promise<OTDConfigFile | null> {
   const url = `${dataBaseUrl}/otd/otd-tablets.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return null;
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return null;
-  return (await resp.json()) as OTDConfigFile;
+  const data = await fetchDataFile(url);
+  if (data === undefined) return null;
+  return data as OTDConfigFile;
 }
 
 /** Loads just the OTD tablet list (drops provenance). */
@@ -212,11 +231,8 @@ export async function loadOtdEntityAuditFromURL(
   dataBaseUrl: string,
 ): Promise<Record<string, OTDAuditStatus>> {
   const url = `${dataBaseUrl}/otd/otd-entity-audit.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return {};
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return {};
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return {};
   return data.audits ?? {};
 }
 
@@ -238,11 +254,8 @@ export interface DocLink {
 
 export async function loadDocLinksFromURL(dataBaseUrl: string): Promise<DocLink[]> {
   const url = `${dataBaseUrl}/links/doc-links.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
   return data.links ?? [];
 }
 
@@ -273,11 +286,9 @@ export async function loadMacHollywoodFromURL(
   dataBaseUrl: string,
 ): Promise<MacHollywoodDataset | null> {
   const url = `${dataBaseUrl}/machollywood/machollywood-pen-compat.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return null;
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return null;
-  return (await resp.json()) as MacHollywoodDataset;
+  const data = await fetchDataFile(url);
+  if (data === undefined) return null;
+  return data as MacHollywoodDataset;
 }
 
 /** Loads our EntityId mapping over that capture. Null if unavailable. */
@@ -285,22 +296,17 @@ export async function loadMacHollywoodAnnotationsFromURL(
   dataBaseUrl: string,
 ): Promise<MacHollywoodAnnotations | null> {
   const url = `${dataBaseUrl}/machollywood/machollywood-pen-compat-annotations.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return null;
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return null;
-  return (await resp.json()) as MacHollywoodAnnotations;
+  const data = await fetchDataFile(url);
+  if (data === undefined) return null;
+  return data as MacHollywoodAnnotations;
 }
 
 // --- Brand loader ---
 
 export async function loadBrandsFromURL(dataBaseUrl: string): Promise<Brand[]> {
   const url = `${dataBaseUrl}/brands/brands.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
   return data.Brands ?? [];
 }
 
@@ -317,11 +323,8 @@ export interface ISOPaperSize {
 
 export async function loadISOPaperSizesFromURL(dataBaseUrl: string): Promise<ISOPaperSize[]> {
   const url = `${dataBaseUrl}/reference/iso-paper-sizes.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
   return data.ISOPaperSizes ?? [];
 }
 
@@ -336,11 +339,8 @@ export interface USPaperSize {
 
 export async function loadUSPaperSizesFromURL(dataBaseUrl: string): Promise<USPaperSize[]> {
   const url = `${dataBaseUrl}/reference/us-paper-sizes.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return [];
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return [];
-  const data = await resp.json();
+  const data = await fetchDataFile(url);
+  if (data === undefined) return [];
   return data.USPaperSizes ?? [];
 }
 

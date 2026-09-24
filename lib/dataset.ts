@@ -199,15 +199,9 @@ function defineHidden<T extends object>(
  */
 export class DrawTabDataSet extends DataSet {
   private readonly source: DataSource;
-  private cachedVersion?: Promise<VersionInfo | null>;
-  private cachedISOPaperSizes?: Promise<ISOPaperSize[]>;
-  private cachedUSPaperSizes?: Promise<USPaperSize[]>;
-  private cachedWacomUpdateProducts?: Promise<WacomUpdateProduct[]>;
-  private cachedOtdConfig?: Promise<OTDConfigFile | null>;
-  private cachedOtdEntityAudit?: Promise<Record<string, OTDAuditStatus>>;
-  private cachedMacHollywood?: Promise<MacHollywoodDataset | null>;
-  private cachedMacHollywoodAnnotations?: Promise<MacHollywoodAnnotations | null>;
-  private cachedDocLinks?: Promise<DocLink[]>;
+  // Single-file resources, memoised per DataSet. A failed load is dropped
+  // from the cache so the next call retries (see cachedFile).
+  private readonly fileCache = new Map<string, Promise<unknown>>();
 
   constructor(source: DataSource, options: DataSetOptions = {}) {
     super();
@@ -558,6 +552,21 @@ export class DrawTabDataSet extends DataSet {
   // consumer currently needs these resources from disk (the CLI tools that
   // run in disk mode don't use version or paper sizes).
 
+  /** Memoise a single-file load, but never keep a failure: a rejected
+   * promise is evicted so one transient error doesn't stick for the
+   * session (TheSevenPens/DrawTabDataExplorer#331). */
+  private cachedFile<T>(key: string, load: () => Promise<T>): Promise<T> {
+    let p = this.fileCache.get(key) as Promise<T> | undefined;
+    if (!p) {
+      p = load().catch((err: unknown) => {
+        this.fileCache.delete(key);
+        throw err;
+      });
+      this.fileCache.set(key, p);
+    }
+    return p;
+  }
+
   private requireUrlSource(resource: string): string {
     if (this.source.kind !== "url") {
       throw new Error(
@@ -570,61 +579,61 @@ export class DrawTabDataSet extends DataSet {
 
   /** Load the dataset's `version.json` (schema version, commit, counts). */
   getVersion(): Promise<VersionInfo | null> {
-    return (this.cachedVersion ??= loadVersionFromURL(this.requireUrlSource("getVersion")));
+    return this.cachedFile("Version", () => loadVersionFromURL(this.requireUrlSource("getVersion")));
   }
 
   /** Load the ISO A-series paper-size reference dataset. */
   getISOPaperSizes(): Promise<ISOPaperSize[]> {
-    return (this.cachedISOPaperSizes ??= loadISOPaperSizesFromURL(
+    return this.cachedFile("ISOPaperSizes", () => loadISOPaperSizesFromURL(
       this.requireUrlSource("getISOPaperSizes"),
     ));
   }
 
   /** Load the US paper-size reference dataset. */
   getUSPaperSizes(): Promise<USPaperSize[]> {
-    return (this.cachedUSPaperSizes ??= loadUSPaperSizesFromURL(
+    return this.cachedFile("USPaperSizes", () => loadUSPaperSizesFromURL(
       this.requireUrlSource("getUSPaperSizes"),
     ));
   }
 
   /** Load the Wacom update.xml product manifest. */
   getWacomUpdateProducts(): Promise<WacomUpdateProduct[]> {
-    return (this.cachedWacomUpdateProducts ??= loadWacomUpdateProductsFromURL(
+    return this.cachedFile("WacomUpdateProducts", () => loadWacomUpdateProductsFromURL(
       this.requireUrlSource("getWacomUpdateProducts"),
     ));
   }
 
   /** Load the OpenTabletDriver config reference dataset (provenance + list). */
   getOtdConfig(): Promise<OTDConfigFile | null> {
-    return (this.cachedOtdConfig ??= loadOtdConfigFromURL(
+    return this.cachedFile("OtdConfig", () => loadOtdConfigFromURL(
       this.requireUrlSource("getOtdConfig"),
     ));
   }
 
   /** Load the OTD→entity audit overlay (`"<otdFile>|<entityId>"` → verdict). */
   getOtdEntityAudit(): Promise<Record<string, OTDAuditStatus>> {
-    return (this.cachedOtdEntityAudit ??= loadOtdEntityAuditFromURL(
+    return this.cachedFile("OtdEntityAudit", () => loadOtdEntityAuditFromURL(
       this.requireUrlSource("getOtdEntityAudit"),
     ));
   }
 
   /** Load the MacHollywood pen-compatibility capture (the page, structured). */
   getMacHollywood(): Promise<MacHollywoodDataset | null> {
-    return (this.cachedMacHollywood ??= loadMacHollywoodFromURL(
+    return this.cachedFile("MacHollywood", () => loadMacHollywoodFromURL(
       this.requireUrlSource("getMacHollywood"),
     ));
   }
 
   /** Load our EntityId mapping over that capture. */
   getMacHollywoodAnnotations(): Promise<MacHollywoodAnnotations | null> {
-    return (this.cachedMacHollywoodAnnotations ??= loadMacHollywoodAnnotationsFromURL(
+    return this.cachedFile("MacHollywoodAnnotations", () => loadMacHollywoodAnnotationsFromURL(
       this.requireUrlSource("getMacHollywoodAnnotations"),
     ));
   }
 
   /** Load the extracted doc-links review dataset (data/links/doc-links.json). */
   getDocLinks(): Promise<DocLink[]> {
-    return (this.cachedDocLinks ??= loadDocLinksFromURL(this.requireUrlSource("getDocLinks")));
+    return this.cachedFile("DocLinks", () => loadDocLinksFromURL(this.requireUrlSource("getDocLinks")));
   }
 
   /**

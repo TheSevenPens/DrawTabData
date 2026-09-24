@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeAll } from "vitest";
+import { describe, it, expect, beforeAll, vi } from "vitest";
 import * as path from "path";
 import * as url from "url";
 import { DrawTabDataSet } from "./dataset.js";
@@ -942,5 +942,44 @@ describe("disk mode — loader injection", () => {
   it("createDiskDataSet wires one up and reads real data", async () => {
     const wired = createDiskDataSet({ dataDir });
     expect((await wired.Tablets.toArray()).length).toBeGreaterThan(100);
+  });
+});
+
+describe("URL mode — failed loads are retried, not cached", () => {
+  it("a failed collection load retries on the next access", async () => {
+    let wacomCalls = 0;
+    vi.stubGlobal("fetch", async (u: string) => {
+      if (u === "/d/pens/WACOM-pens.json") {
+        wacomCalls++;
+        if (wacomCalls === 1) return new Response("down", { status: 503 });
+        return Response.json({ Pens: [] });
+      }
+      return new Response("", { status: 404 });
+    });
+    try {
+      const urlDs = new DrawTabDataSet({ kind: "url", baseUrl: "/d" });
+      await expect(urlDs.Pens.toArray()).rejects.toThrow("HTTP 503");
+      await expect(urlDs.Pens.toArray()).resolves.toEqual([]);
+      expect(wacomCalls).toBe(2);
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+
+  it("a failed single-file load retries on the next call", async () => {
+    let calls = 0;
+    vi.stubGlobal("fetch", async () => {
+      calls++;
+      if (calls === 1) return new Response("down", { status: 503 });
+      return Response.json({ ISOPaperSizes: [] });
+    });
+    try {
+      const urlDs = new DrawTabDataSet({ kind: "url", baseUrl: "/d" });
+      await expect(urlDs.getISOPaperSizes()).rejects.toThrow("HTTP 503");
+      await expect(urlDs.getISOPaperSizes()).resolves.toEqual([]);
+      expect(calls).toBe(2);
+    } finally {
+      vi.unstubAllGlobals();
+    }
   });
 });
