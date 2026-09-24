@@ -33,20 +33,74 @@
   "license": "ISC",
   "type": "module",
   "exports": {
-    "./loader": "./lib/drawtab-loader.js",
-    "./loader-node": "./lib/drawtab-loader-node.js",
-    "./all": "./lib/drawtab-all.js",
-    "./all-node": "./lib/drawtab-all-node.js",
-    "./compat": "./lib/compat-helpers.js",
-    "./reference": "./lib/reference-helpers.js",
-    "./units": "./lib/units.js",
-    "./entities/tablet": "./lib/entities/tablet-fields.js",
-    "./entities/pen": "./lib/entities/pen-fields.js",
-    "./entities/driver": "./lib/entities/driver-fields.js",
-    "./entities/pen-family": "./lib/entities/pen-family-fields.js",
-    "./entities/tablet-family": "./lib/entities/tablet-family-fields.js",
-    "./entities/pen-compat": "./lib/entities/pen-compat-fields.js"
+    "./dataset": {
+      "types": "./lib/dataset.ts",
+      "default": "./lib/dataset.ts"
+    },
+    "./dataset-node": {
+      "types": "./lib/dataset-node.ts",
+      "default": "./lib/dataset-node.ts"
+    },
+    "./loader": {
+      "types": "./lib/drawtab-loader.ts",
+      "default": "./lib/drawtab-loader.ts"
+    },
+    "./loader-node": {
+      "types": "./lib/drawtab-loader-node.ts",
+      "default": "./lib/drawtab-loader-node.ts"
+    },
+    "./all": {
+      "types": "./lib/drawtab-all.ts",
+      "default": "./lib/drawtab-all.ts"
+    },
+    "./all-node": {
+      "types": "./lib/drawtab-all-node.ts",
+      "default": "./lib/drawtab-all-node.ts"
+    },
+    "./compat": {
+      "types": "./lib/compat-helpers.ts",
+      "default": "./lib/compat-helpers.ts"
+    },
+    "./reference": {
+      "types": "./lib/reference-helpers.ts",
+      "default": "./lib/reference-helpers.ts"
+    },
+    "./units": {
+      "types": "./lib/units.ts",
+      "default": "./lib/units.ts"
+    },
+    "./entities/tablet": {
+      "types": "./lib/entities/tablet-fields.ts",
+      "default": "./lib/entities/tablet-fields.ts"
+    },
+    "./entities/pen": {
+      "types": "./lib/entities/pen-fields.ts",
+      "default": "./lib/entities/pen-fields.ts"
+    },
+    "./entities/driver": {
+      "types": "./lib/entities/driver-fields.ts",
+      "default": "./lib/entities/driver-fields.ts"
+    },
+    "./entities/pen-family": {
+      "types": "./lib/entities/pen-family-fields.ts",
+      "default": "./lib/entities/pen-family-fields.ts"
+    },
+    "./entities/tablet-family": {
+      "types": "./lib/entities/tablet-family-fields.ts",
+      "default": "./lib/entities/tablet-family-fields.ts"
+    },
+    "./entities/pen-compat": {
+      "types": "./lib/entities/pen-compat-fields.ts",
+      "default": "./lib/entities/pen-compat-fields.ts"
+    },
+    "./data/*": "./data/*"
   },
+  "files": [
+    "lib/**/*.ts",
+    "!lib/**/*.test.ts",
+    "data",
+    "README.md"
+  ],
   "devDependencies": {
     "@types/node": "^25.5.0",
     "tsx": "^4.21.0",
@@ -55,5 +109,8 @@
   },
   "dependencies": {
     "valibot": "^1.5.0"
+  },
+  "peerDependencies": {
+    "@thesevenpens/queriton": "^0.1.0"
   }
 }

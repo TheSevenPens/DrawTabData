@@ -4,17 +4,22 @@ Unified JSON datasets and TypeScript libraries for drawing tablets, pens, driver
 
 ## What's in the box
 
-| Entity | Records | Brands |
-|---|---|---|
-| Brands | 11 | All |
-| Tablets | 290 | GAOMON, HUION, UGEE, WACOM, XENCELABS, XPPEN |
-| Pens | 104 | HUION, SAMSUNG, WACOM, XENCELABS, XPPEN |
-| Pen Families | 10 | WACOM |
-| Tablet Families | 18 | WACOM |
-| Pen Compatibility | 100 groups | HUION, SAMSUNG, WACOM, XENCELABS, XPPEN |
-| Drivers | 246 | WACOM |
-| Pressure Response | 124 sessions | HUION, SAMSUNG, WACOM, XENCELABS, XPPEN |
-| Inventory | 263 items | Per-user (sevenpens) |
+| Entity | Files |
+|---|---|
+| Brands | `data/brands/brands.json` |
+| Tablets | `data/tablets/<BRAND>-tablets.json` |
+| Pens | `data/pens/<BRAND>-pens.json` |
+| Pen Families / Tablet Families | `data/pen-families/`, `data/tablet-families/` |
+| Pen Compatibility | `data/pen-compat/<BRAND>-pen-compat.json` |
+| Drivers | `data/drivers/<BRAND>-drivers.json` |
+| Pressure Response / Pressure Range | `data/pressure-response/`, `data/pressure-range/` |
+| Inventory | `data/inventory/<user>-{pens,tablets}.json` |
+
+Record counts are deliberately not listed here — a hand-maintained table
+went stale by ~90 tablets. For current counts, see the [DrawTabData
+Explorer's About page](https://thesevenpens.github.io/DrawTabDataExplorer/about)
+(generated at each deploy by `buildVersionInfo()` in `lib/version-info.ts`),
+or run `npm run version-info`.
 
 ## Quick start
 
@@ -47,6 +52,25 @@ const ds = await loadAllFromURL("https://thesevenpens.github.io/DrawTabData/data
 // From raw.githubusercontent
 const ds = await loadAllFromURL("https://raw.githubusercontent.com/TheSevenPens/DrawTabData/master/data");
 ```
+
+### Option 5: npm package (TypeScript source)
+
+The package ships its **TypeScript sources** (like its query engine,
+[`@thesevenpens/queriton`](https://github.com/TheSevenPens/queriton)), so
+consume it from a TypeScript-aware runtime or bundler — `tsx`, Vite,
+SvelteKit. `@thesevenpens/queriton` is a peer dependency.
+
+```typescript
+import { createDiskDataSet } from "drawtabdata/dataset-node";
+
+const ds = createDiskDataSet({ dataDir: "node_modules/drawtabdata/data" });
+console.log(await ds.Pens.filter("Brand", "==", "WACOM").count());
+```
+
+Entry points: `dataset`, `dataset-node`, `loader`, `loader-node`,
+`all`, `all-node`, `compat`, `reference`, `units`,
+`entities/<tablet|pen|driver|pen-family|tablet-family|pen-compat>`, and
+`data/*` for the JSON files.
 
 ### Load everything (Node.js)
 
