@@ -1,0 +1,62 @@
+name: CI
+
+# DrawTabData's own checks (RFC #45). The DrawTabDataExplorer runs the same
+# data checks when its submodule pointer moves; this catches problems in the
+# data PR itself, before any consumer picks it up.
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    strategy:
+      fail-fast: false
+      matrix:
+        # Windows matters: with core.autocrlf=true a checkout used to turn
+        # data files CRLF. .gitattributes forces LF; this proves it.
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      # Checks that never write come first, so a stale or non-canonical
+      # committed file fails here instead of being silently regenerated.
+      - name: Line endings (LF in index and working tree)
+        shell: bash
+        run: |
+          bad=$(git ls-files --eol -- '*.json' | grep -v "i/lf.*w/lf" || true)
+          if [ -n "$bad" ]; then echo "Not LF:"; echo "$bad"; exit 1; fi
+
+      - name: Data format
+        run: npm run format-data
+
+      - name: Generated bundles match their sources
+        run: npm run generate
+
+      # @thesevenpens/queriton is a peer dependency (inside the Explorer it
+      # resolves to the workspace copy). Install it here without saving, so
+      # package.json / the lockfile never pin a second copy.
+      - name: Peer dependency (queriton)
+        run: npm install --no-save github:TheSevenPens/queriton
+
+      - name: Type-check
+        run: npm run typecheck
+
+      - name: Tests
+        run: npm test
+
+      - name: Data quality
+        run: npm run data-quality

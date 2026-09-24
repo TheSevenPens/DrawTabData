@@ -8,6 +8,9 @@
   },
   "scripts": {
     "data-quality": "tsx lib/run-data-quality.ts",
+    "format-data": "tsx scripts/format-data.ts",
+    "generate": "tsx scripts/generate.ts",
+    "typecheck": "tsc --noEmit -p .",
     "version-info": "tsx scripts/generate-version.ts",
     "list-tablets": "tsx scripts/list-tablets.ts",
     "find-unfamilied": "tsx scripts/find-unfamilied.ts",

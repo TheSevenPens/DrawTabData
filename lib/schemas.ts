@@ -551,6 +551,20 @@ export const VersionInfoSchema = v.strictObject({
       pressureSessionsByPen: v.record(v.string(), v.number()),
     }),
   ),
+  // Verification metadata for consumers (RFC #45): which source snapshot
+  // produced the generated bundles, and each bundle's hash. Together with
+  // `commit` it lets anyone rebuild the bundles from that commit's source/
+  // and compare. The digest algorithm is documented in lib/sources.ts.
+  sourceDigest: v.optional(TrimmedString),
+  bundles: v.optional(
+    v.array(
+      v.strictObject({
+        path: TrimmedString,
+        sha256: TrimmedString,
+        count: v.number(),
+      }),
+    ),
+  ),
   // Added by a consumer that builds the metadata into its own deploy (the
   // Explorer does), naming the exact code that shipped with this data.
   build: v.optional(

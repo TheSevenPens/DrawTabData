@@ -87,3 +87,30 @@ describe("buildVersionInfo().indexes.pressureSessionsByPen", () => {
     expect(info.indexes?.pressureSessionsByPen).toEqual(expected);
   });
 });
+
+describe("verificationMetadata (RFC #45)", () => {
+  it("is empty without sources, and hashes each generated bundle when there are some", async () => {
+    const fsm = await import("node:fs");
+    const os = await import("node:os");
+    const { verificationMetadata } = await import("./version-info.js");
+    const { generateBundles } = await import("./sources.js");
+    const { formatDataJson } = await import("./data-json.js");
+    const crypto = await import("node:crypto");
+    const tmp = fsm.mkdtempSync(path.join(os.tmpdir(), "vmeta-"));
+    try {
+      expect(verificationMetadata(tmp)).toEqual({});
+      const rec = { EntityId: "wacom.pen.kp503e", Brand: "WACOM", PenId: "KP-503E" };
+      fsm.mkdirSync(path.join(tmp, "source/pens/wacom"), { recursive: true });
+      fsm.writeFileSync(path.join(tmp, "source/pens/wacom/wacom.pen.kp503e.json"), formatDataJson(rec));
+      generateBundles(tmp, { write: true });
+      const meta = verificationMetadata(tmp);
+      const bytes = fsm.readFileSync(path.join(tmp, "data/pens/WACOM-pens.json"));
+      expect(meta.sourceDigest).toMatch(/^[0-9a-f]{64}$/);
+      expect(meta.bundles).toEqual([
+        { path: "pens/WACOM-pens.json", sha256: crypto.createHash("sha256").update(bytes).digest("hex"), count: 1 },
+      ]);
+    } finally {
+      fsm.rmSync(tmp, { recursive: true, force: true });
+    }
+  });
+});

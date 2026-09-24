@@ -11,6 +11,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { execFileSync } from "child_process";
 import type { VersionInfo } from "./schemas.js";
+import { SOURCE_COLLECTIONS, existingBundles, fileSha256, sourceDigest } from "./sources.js";
 
 /**
  * The data's schema version. Hand-maintained, **not** derived: bump it only
@@ -75,6 +76,27 @@ export function pressureSessionsByPen(dataDir: string): Record<string, number> {
   return out;
 }
 
+/**
+ * sourceDigest + per-bundle hashes for the collections generated from
+ * source/ (RFC #45). Omitted entirely while there are no sources.
+ */
+export function verificationMetadata(repoRoot: string): Pick<VersionInfo, "sourceDigest" | "bundles"> {
+  const digest = sourceDigest(repoRoot);
+  if (!digest) return {};
+  const bundles = SOURCE_COLLECTIONS.flatMap((c) =>
+    existingBundles(repoRoot, c).map((rel) => {
+      const abs = path.join(repoRoot, rel);
+      const records = readJson(abs)[c.rootKey];
+      return {
+        path: rel.slice("data/".length),
+        sha256: fileSha256(abs),
+        count: Array.isArray(records) ? records.length : 0,
+      };
+    }),
+  );
+  return { sourceDigest: digest, bundles };
+}
+
 /** Version metadata for the data checkout at `repoRoot` (the dir holding `data/`). */
 export function buildVersionInfo(repoRoot: string): VersionInfo {
   const dataDir = path.join(repoRoot, "data");
@@ -97,5 +119,6 @@ export function buildVersionInfo(repoRoot: string): VersionInfo {
     },
     files: listDataFiles(dataDir),
     indexes: { pressureSessionsByPen: pressureSessionsByPen(dataDir) },
+    ...verificationMetadata(repoRoot),
   };
 }
