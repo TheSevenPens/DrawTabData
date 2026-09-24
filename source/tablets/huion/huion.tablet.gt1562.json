@@ -1,0 +1,114 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt1562",
+    "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T04:06:08.592Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT1562",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-plus-4k.html",
+        "Title": "Kamvas Pro 16 Plus (4K) - 15.6-Inch 4K UHD Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-pro-16-plus-4k"
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://www.huion.com/manaul_pdf/en/Kamvas%20Pro%2016%20Plus%20(4K).pdf",
+        "Author": "Huion",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/404"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=0sfbhhXoR8E",
+        "Title": "Teoh on Tech review of Huion Kamvas Pro 16 Plus 4K",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/aXXdPzw1FFk",
+        "Title": "Teoh on Tech - Huion Kamvas Pro 16 Plus vs XP-Pen Artist Pro 16TP",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2021-08-09",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 16 4K Plus",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-03",
+    "Audience": "Professional",
+    "Family": "huion.tabletfamily.huion_kamvaspro_2021",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 347,
+      "Height": 194
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "200",
+    "Contrast": "1200",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 145
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 402.7,
+      "Height": 257.4,
+      "Depth": 13
+    },
+    "Weight": "1270"
+  }
+}

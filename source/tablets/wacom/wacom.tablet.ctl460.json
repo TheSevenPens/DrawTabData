@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl460",
+    "_id": "c56e35e0-740f-4ae9-affc-52bbd3294cdf",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-460",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "Bamboo Pen 2009",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-09-24",
+    "Family": "wacom.tabletfamily.wacom_bamboopen_2009",
+    "IncludedPen": [
+      "wacom.pen.lp160"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 147.2,
+      "Height": 92
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 248.2,
+      "Height": 176.1,
+      "Depth": 8.5
+    },
+    "Weight": "360"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dthw1620",
+    "_id": "c9e1f247-3a5b-4d7e-8f0a-1b2c3d4e5f6a",
+    "_CreateDate": "2026-04-13T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-W1620",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-gen-1-refurbished-product-udth-w1620m-eu.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      }
+    ],
+    "Name": "MobileStudio Pro 16",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016-10-04",
+    "Audience": "Professional",
+    "Family": "wacom.tabletfamily.wacom_mobilestudiopro",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 345.3,
+      "Height": 194.3
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "ColorGamuts": {
+      "ADOBERGB": 94
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 419,
+      "Height": 262,
+      "Depth": 19
+    },
+    "Weight": "2200"
+  },
+  "Standalone": {
+    "OS": "Windows 10 Pro",
+    "Processor": "Intel Core i7-6567U",
+    "GPU": "NVIDIA Quadro M1000M",
+    "RAM": "16",
+    "Storage": "512",
+    "Wifi": "802.11a/b/g/n/ac",
+    "Bluetooth": "4.1",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.kt0608r",
+    "_id": "33c99a6b-311f-4bbb-abc0-f6618606e632",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "KT-0608-R",
+    "Status": "DISCONTINUED",
+    "Name": "ArtZ SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1994",
+    "ReleaseDate": "1994-07",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_artpad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 204.8,
+      "Height": 153.6
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 330,
+      "Height": 243,
+      "Depth": 13.9
+    },
+    "Weight": "900"
+  }
+}

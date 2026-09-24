@@ -1,0 +1,53 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.gd1218u",
+    "_id": "56824bb9-2dcf-446d-9ce1-919554f42cef",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "GD-1218-U",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
+        "Title": "Wacom Intuos1 (GD-xxxx) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.1.7-3",
+    "LastSupportedMacOSDriver": "6.1.6-4",
+    "Name": "Intuos 12x18 USB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1998",
+    "ReleaseDate": "1998-09-01",
+    "Family": "wacom.tabletfamily.wacom_intuos1_1998",
+    "IncludedPen": [
+      "wacom.pen.gp300e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 457.2,
+      "Height": 316.8
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 616,
+      "Height": 445.5,
+      "Depth": 37
+    },
+    "Weight": "3000"
+  }
+}

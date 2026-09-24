@@ -1,0 +1,58 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ptk440",
+    "_id": "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTK-440",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.41-1",
+    "LastSupportedMacOSDriver": "6.3.41-2",
+    "Name": "Intuos4 Small",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-03-24",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos4_2009"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 157.48,
+      "Height": 98.43
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "50",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 309,
+      "Height": 208,
+      "Depth": 12
+    },
+    "Weight": "700"
+  }
+}

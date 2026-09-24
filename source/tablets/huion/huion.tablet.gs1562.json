@@ -1,0 +1,89 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gs1562",
+    "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GS1562",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-huion-kamvas-16-2021-120-srgb-pen-display",
+        "Title": "Huion KAMVAS 16 (2021)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-16-2021.html",
+        "Title": "Huion Kamvas 16 (2021) - 15.6-Inch FHD Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-16-2021"
+        }
+      }
+    ],
+    "Name": "Kamvas 16 (2021)",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-06-15",
+    "Audience": "Consumer",
+    "Family": "huion.tabletfamily.huion_kamvas_2020",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 344,
+      "Height": 194
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 120
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 423.52,
+      "Height": 253,
+      "Depth": 12
+    },
+    "Weight": "1260"
+  }
+}

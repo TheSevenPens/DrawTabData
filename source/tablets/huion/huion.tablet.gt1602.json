@@ -1,0 +1,77 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt1602",
+    "_id": "a7a353cc-052c-4be6-abae-d4370d67d1fe",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT1602",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://store.huion.com/products/kamvas-pro-16-2k",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://store.huion.com/products/kamvas-16-gen-3"
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 16 2.5K",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-01-05",
+    "Audience": "Professional",
+    "Family": "huion.tabletfamily.huion_kamvaspro_2021",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 350,
+      "Height": 197
+    },
+    "Density": "200",
+    "ReportRate": "226",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1200",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 145
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "14",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 436.2,
+      "Height": 247.3,
+      "Depth": 11.5
+    },
+    "Weight": "1280"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.9494g",
+    "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
+    "_CreateDate": "2026-04-13T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "9494G",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/standalone-magic-drawing-pad.html",
+        "Title": "XPPen Magic Drawing Pad: The Ultimate Standalone Drawing Tablet, No Computer Needed",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Magic Drawing Pad 2024",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-01-22",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.pd04b"
+    ],
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 258,
+      "Height": 172
+    },
+    "Density": "100",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1.5",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2160,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "360",
+    "Contrast": "1200",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 109,
+      "ADOBERGB": 82,
+      "NTSC": 77
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 279,
+      "Height": 192,
+      "Depth": 6.9
+    },
+    "Weight": "599"
+  },
+  "Standalone": {
+    "OS": "Android 12",
+    "Processor": "MediaTek MT8771",
+    "GPU": "ARM Mali-G57 MC2",
+    "RAM": "8",
+    "Storage": "256",
+    "ExpandableStorage": "YES",
+    "MemoryCardSlot": "microSD",
+    "BatteryCapacity": "8000",
+    "BatteryChargingWatts": "20",
+    "Wifi": "802.11a/b/g/n/ac",
+    "Bluetooth": "5.1",
+    "USB": "USB-C (USB 2.0)",
+    "Speakers": "YES",
+    "FrontCamera": "8",
+    "RearCamera": "13"
+  }
+}

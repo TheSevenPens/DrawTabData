@@ -1,0 +1,36 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cth300",
+    "_id": "700f785f-aca8-403d-a347-4c9c7b342a2c",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-300",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Status": "DISCONTINUED",
+    "Name": "Wacom CTH-300",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2013",
+    "ReleaseDate": "2013",
+    "Family": "wacom.tabletfamily.wacom_bamboo_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 107,
+      "Height": 67
+    },
+    "Density": "20",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 141.4,
+      "Height": 166.5,
+      "Depth": 15.7
+    },
+    "Weight": "145"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.it850b",
+    "_id": "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "IT850B",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/series/Deco-tablet.html",
+        "Title": "Deco Series Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/series/deco-series-drawing-tablet.html"
+        }
+      }
+    ],
+    "Name": "Deco MW",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_deco_2021",
+    "IncludedPen": [
+      "xppen.pen.ph10b"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 203,
+      "Height": 127
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 259.8,
+      "Height": 157.8,
+      "Depth": 8.8
+    }
+  }
+}

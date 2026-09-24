@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadgen11",
+    "_id": "708e7b5e-380e-4416-9ab1-fb9c0b3e8f1d",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Gen11",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.apple.com/shop/buy-ipad/ipad",
+        "Title": "Buy iPad - Apple",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad (A16)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-03-12",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipad",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 229.4,
+      "Height": 159.4
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2360,
+      "Height": 1640
+    },
+    "PanelTech": "IPS",
+    "Lamination": "NO",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 248.6,
+      "Height": 179.5,
+      "Depth": 7
+    },
+    "Weight": "477"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A16",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

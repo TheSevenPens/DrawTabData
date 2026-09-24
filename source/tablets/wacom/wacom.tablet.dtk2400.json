@@ -1,0 +1,65 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk2400",
+    "_id": "0c884705-370d-47f8-ad60-ae939de51c2d",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-2400",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2400.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Cintiq 24 HD",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2011",
+    "ReleaseDate": "2011-09-13",
+    "Family": "wacom.tabletfamily.wacom_cintiq",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 518,
+      "Height": 324
+    },
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1200
+    },
+    "PanelTech": "IPS",
+    "Brightness": "190",
+    "Contrast": "550",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 92
+    },
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Weight": "29000"
+  }
+}

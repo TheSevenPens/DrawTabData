@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.rtm500",
+    "_id": "86333a6a-0a5d-43ef-bd01-72b719b09dae",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "RTM500",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/RTM500.html",
+        "Title": "Huion Inspiroy RTM-500 Mid-Size Pen Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-rtm-500"
+        }
+      }
+    ],
+    "Name": "Inspiroy RTM-500",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.pw400"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 221,
+      "Height": 138
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 288.3,
+      "Height": 178.2,
+      "Depth": 8.4
+    },
+    "Weight": "415"
+  }
+}

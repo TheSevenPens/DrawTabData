@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.rts300",
+    "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "RTS300",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/RTS300.html",
+        "Title": "Huion Inspiroy RTS-300 Pocket-Friendly Pen Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-rts-300"
+        }
+      }
+    ],
+    "Name": "Inspiroy RTS-300",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.pw400"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 160,
+      "Height": 100
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 200,
+      "Height": 163,
+      "Depth": 8.35
+    },
+    "Weight": "229"
+  }
+}

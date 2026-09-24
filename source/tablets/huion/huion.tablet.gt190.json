@@ -1,0 +1,255 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt190",
+    "_id": "056de896-c23f-4c31-b057-8fa49fe759ba",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT190",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-huion-kamvas-gt-190-pen-display",
+        "Title": "Huion GT-190",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.ati.com.ph/huion/prod-gt190.html",
+        "Title": "Huion GT-190 19\" TFT Graphic Tablet | American Technologies Inc. - The Better Solutions Company",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
+        "Title": "**see this doc**",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
+        "Title": "Huion Kamvas Pro 19 - 4K Touch Screen Drawing Tablet with PenTech 4.0",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-pro-19"
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
+        "Title": "Tutorial | How to set up Kamvas pro 19 Touch function on macOS",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=5AWpKgv8jdY",
+        "Title": "Create Now Sleep Later - Review of the Huion Kamvas Pro 19",
+        "Author": "Create Now Sleep Later",
+        "PublishDate": "2024-09-15",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
+        "Title": "Brad Colbow - Wacom Cintiq Pro 17 vs Huion Kamvas Pro 19",
+        "Author": "Brad Colbow",
+        "PublishDate": "2024-03-04",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
+        "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
+        "Author": "Seven Pens",
+        "PublishDate": "2024-03-05",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Hf01mwaGtdI",
+        "Title": "EyeKooDraws - Review of Huion Kamvas Pro 19",
+        "Author": "EyeKooDraws",
+        "PublishDate": "2025-09-13",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=hvrPw6mlrlQ",
+        "Title": "claybrush review of Huion Kamvas Pro 19",
+        "Author": "claybrush",
+        "PublishDate": "2024-01-09",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=M9VbiVJX-J4",
+        "Title": "David Revoy - Huion Kamvas Pro 19",
+        "Author": "David Revoy",
+        "PublishDate": "2024-11-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=oSdZYmkOGKE",
+        "Title": "Teoh on Tech - Huion Kamvas Pro 19 review: 4K touchscreen pen display",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2024-06-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=t-Qo1jTVibY",
+        "Title": "Yanick Paquette review of Huion Kamvas Pro 19",
+        "Author": "Yanick Paquette",
+        "PublishDate": "2024-02-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=WxdFXfuPvN4",
+        "Title": "Brad Colbow review of the Huion Kamvas Pro 19",
+        "Author": "Brad Colbow",
+        "PublishDate": "2024-02-14",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=znKvWJON_k8",
+        "Title": "Trent Kaniuga - Review of Huion Kamvas Pro 19",
+        "Author": "Trent Kaniuga",
+        "PublishDate": "2024-12-16",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/CnTBrhUhciM",
+        "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas GT-190",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015",
+    "IncludedPen": [
+      "huion.pen.pen68d"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 408,
+      "Height": 256
+    },
+    "Density": "200",
+    "ReportRate": "233",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1440,
+      "Height": 900
+    },
+    "PanelTech": "TFT",
+    "Brightness": "250",
+    "Contrast": "700",
+    "ColorBitDepth": "8",
+    "ResponseTime": "5",
+    "ViewingAngleHorizontal": "160",
+    "ViewingAngleVertical": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 454.4,
+      "Height": 351.8,
+      "Depth": 26
+    },
+    "Weight": "4300"
+  }
+}

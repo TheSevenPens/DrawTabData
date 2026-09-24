@@ -1,0 +1,76 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.rds220",
+    "_id": "84631815-e88d-4c66-a75e-385e077ce38a",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "RDS220",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-rds-220.html",
+        "Title": "Huion Kamvas RDS-220 - 21.5-Inch 2.5K QHD Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-rds-220"
+        }
+      }
+    ],
+    "Name": "Kamvas RDS-220",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 475,
+      "Height": 323
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1200",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 145
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "14",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 546,
+      "Height": 323,
+      "Depth": 26.7
+    },
+    "Weight": "3450.00"
+  }
+}

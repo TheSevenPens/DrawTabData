@@ -1,0 +1,75 @@
+{
+  "Meta": {
+    "EntityId": "digidraw.tablet.d1901t",
+    "_id": "df18d578-4201-4bfa-97da-4cc87c1f8661",
+    "_CreateDate": "2026-04-20T00:00:00Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "DIGIDRAW",
+    "Id": "D1901T",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.turingdraw.com/page120",
+        "Author": "DigiDraw",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "Turing Pro 19 Touch",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-09-05",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "digidraw.pen.m5"
+    ],
+    "Family": "digidraw.tabletfamily.digidraw_turing_display"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 408.96,
+      "Height": 230.04
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99.8,
+      "ADOBERGB": 96,
+      "DCIP3": 98
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 451.3,
+      "Height": 293.3,
+      "Depth": 14.75
+    },
+    "Weight": "2080"
+  }
+}

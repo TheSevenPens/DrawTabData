@@ -1,0 +1,107 @@
+{
+  "Meta": {
+    "EntityId": "xencelabs.tablet.lph1612ua",
+    "_id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
+    "_CreateDate": "2026-04-17T00:00:00Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "XENCELABS",
+    "Id": "LPH1612U-A",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xencelabs.com/us/products/pen-display-16-lite",
+        "Title": "Xencelabs Pen Display 16 Lite – 4K OLED Portable Drawing Display",
+        "Author": "Xencelabs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xencelabs.com/us/products/pen-display-16",
+        "Title": "Xencelabs Pen Display 16 Lite – 4K OLED Portable Drawing Display",
+        "Author": "Xencelabs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xencelabs.com/us/products/pen-display-16-lite"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=FCuVrJMncKI",
+        "Title": "The Honest Laborers Review - Xencelabs 16-inch 4K Pen Display Hands-On and Test",
+        "Author": "The Honest Laborers Review",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=zGkTjf5HoB4",
+        "Title": "Grant Abbitt - Review of Xencelabs Pen DIsplay 16",
+        "Author": "Grant Abbitt",
+        "PublishDate": "2024-08-07",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Pen Display 16 Lite",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-05-08",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xencelabs.pen.3buttonv2",
+      "xencelabs.pen.thinv2"
+    ],
+    "Family": "xencelabs.tabletfamily.xencelabs_pendisplay"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 344.2,
+      "Height": 193.6
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "Brightness": "300",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "ADOBERGB": 98,
+      "DCIP3": 98
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 410,
+      "Height": 259.4,
+      "Depth": 12
+    },
+    "Weight": "1200"
+  }
+}

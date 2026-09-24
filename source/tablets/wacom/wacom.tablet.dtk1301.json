@@ -1,0 +1,52 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-1301",
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Cintiq 13HD",
+    "AlternateNames": [
+      "Cintiq 13HD (DTK-1301)"
+    ],
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2013",
+    "IncludedPen": [
+      "wacom.pen.kp503e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq",
+    "Notes": "Later SKU revision of the Cintiq 13HD (DTK-1300); same specs."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 299,
+      "Height": 171
+    },
+    "Density": "200",
+    "Tilt": "40",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "250",
+    "Contrast": "700",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 75
+    },
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk1301",
+    "_id": "185bc0ec-1d1a-43f8-899e-86e51e4aba63",
+    "_CreateDate": "2026-07-19T04:01:50.281Z",
+    "_ModifiedDate": "2026-07-19T04:01:50.281Z"
+  }
+}

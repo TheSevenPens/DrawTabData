@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.kp300e",
+  "Brand": "WACOM",
+  "PenId": "KP-300E",
+  "PenName": "Intuos4 Classic Pen",
+  "PenFamily": "wacom.penfamily.wacom_kpgen1",
+  "ReleaseYear": "2005",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "2048",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "12",
+  "Length": "150.7",
+  "Diameter": "12.2",
+  "BarrelRotation": "NO",
+  "_id": "3bbdec04-feb1-4ff5-8012-2dc2b484b29f",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

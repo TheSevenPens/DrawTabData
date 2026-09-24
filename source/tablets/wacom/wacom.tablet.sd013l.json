@@ -1,0 +1,35 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.sd013l",
+    "_id": "edafa376-154d-48f3-b863-a62bd892f5e1",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "SD-013L",
+    "Name": "SD-013L",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1988",
+    "ReleaseDate": "1988-07",
+    "Family": "wacom.tabletfamily.wacom_sd_1988",
+    "IncludedPen": [],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 1193,
+      "Height": 889
+    },
+    "Density": "50",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 1454,
+      "Height": 1091,
+      "Depth": 30
+    },
+    "Weight": "33000"
+  }
+}

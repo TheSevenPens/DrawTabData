@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl660",
+    "_id": "9649dd11-ae4d-4447-a47c-53d2929dac57",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-660",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "CTL-660",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-09-24",
+    "Family": "wacom.tabletfamily.wacom_bamboopen_2009",
+    "IncludedPen": [
+      "wacom.pen.lp160"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 216.5,
+      "Height": 137
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 336.8,
+      "Height": 223,
+      "Depth": 8.5
+    },
+    "Weight": "600"
+  }
+}

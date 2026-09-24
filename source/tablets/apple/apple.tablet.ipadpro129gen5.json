@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro129gen5",
+    "_id": "29b30d1e-8cda-4914-bad6-6028fba2c9ae",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-12.9-Gen5",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111963",
+        "Title": "iMac (Retina 4K, 21.5-inch, 2019) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 12.9-inch (5th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-05-21",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 262.2,
+      "Height": 196.5
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2732,
+      "Height": 2048
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 280.6,
+      "Height": 214.9,
+      "Depth": 6.4
+    },
+    "Weight": "682"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M1",
+    "USB": "USB-C (Thunderbolt 4)",
+    "Speakers": "YES"
+  }
+}

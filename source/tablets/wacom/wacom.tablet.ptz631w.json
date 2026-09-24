@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ptz631w",
+    "_id": "1564fe9c-9490-4bfe-9338-7345a15a01e1",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTZ-631W",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.15-3",
+    "LastSupportedMacOSDriver": "6.3.15-3",
+    "Name": "Intuos3 6x11",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2004",
+    "ReleaseDate": "2004-09-14",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.zp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos3_2004"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 271,
+      "Height": 158.8
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 417.6,
+      "Height": 262,
+      "Depth": 14
+    },
+    "Weight": "1400"
+  }
+}

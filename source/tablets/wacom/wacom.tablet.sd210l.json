@@ -1,0 +1,34 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.sd210l",
+    "_id": "3d2cd174-ed7d-4253-99b7-55a6491c5178",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "SD-210L",
+    "Name": "SD-210L",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1988",
+    "ReleaseDate": "1988-07",
+    "Family": "wacom.tabletfamily.wacom_sd_1988",
+    "IncludedPen": [],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 635,
+      "Height": 462
+    },
+    "Density": "50",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 779,
+      "Height": 613
+    },
+    "Weight": "10500"
+  }
+}

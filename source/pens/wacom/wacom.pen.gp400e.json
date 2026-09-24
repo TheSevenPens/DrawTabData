@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.gp400e",
+  "Brand": "WACOM",
+  "PenId": "GP-400E",
+  "PenName": "Intuos1 Airbrush Pen",
+  "PenFamily": "wacom.penfamily.wacom_gp",
+  "ReleaseYear": "1998",
+  "ButtonCount": "1",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "YES",
+  "Eraser": "YES",
+  "Weight": "24",
+  "Length": "162.5",
+  "Diameter": "17.5",
+  "BarrelRotation": "NO",
+  "_id": "febdc99b-5724-44b5-9fe7-6f3115ba6cef",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:20:52.076Z",
+  "PenTech": "PASSIVE_EMR"
+}

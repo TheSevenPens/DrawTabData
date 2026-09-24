@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ud0608a",
+    "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "UD-0608-A",
+    "Status": "DISCONTINUED",
+    "Name": "Ultrapad Digitizer II 6x8 ADB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1996",
+    "ReleaseDate": "1996-03-01",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 204.8,
+      "Height": 153.6
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 330,
+      "Height": 243,
+      "Depth": 13.9
+    },
+    "Weight": "900"
+  }
+}

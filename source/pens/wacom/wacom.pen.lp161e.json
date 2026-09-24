@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.lp161e",
+  "Brand": "WACOM",
+  "PenId": "LP-161E",
+  "PenName": "LP-161E",
+  "PenFamily": "wacom.penfamily.wacom_lp",
+  "ReleaseYear": "2009",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "15",
+  "Length": "154",
+  "Diameter": "11.8",
+  "BarrelRotation": "NO",
+  "_id": "dbcd49d4-76c0-4ac4-bd93-14926dccff5a",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:21:28.965Z",
+  "PenTech": "PASSIVE_EMR"
+}

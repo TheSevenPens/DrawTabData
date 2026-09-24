@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro129gen6",
+    "_id": "ad04c96b-829c-413b-ad63-e71a6d009ffc",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-12.9-Gen6",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111840",
+        "Title": "iPad (10th generation) - Tech Specs - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 12.9-inch (6th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-10-26",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 262.2,
+      "Height": 196.5
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2732,
+      "Height": 2048
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 280.6,
+      "Height": 214.9,
+      "Depth": 6.4
+    },
+    "Weight": "682"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M2",
+    "USB": "USB-C (Thunderbolt 4)",
+    "Speakers": "YES"
+  }
+}

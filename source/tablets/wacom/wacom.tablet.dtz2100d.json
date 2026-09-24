@@ -1,0 +1,33 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtz2100d",
+    "_id": "5067122f-01f1-4721-aa24-022acaa68d4c",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTZ-2100D",
+    "Name": "Cintiq 21UX 2007",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2007",
+    "ReleaseDate": "2007-11",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "Dimensions": {
+      "Width": 432,
+      "Height": 324
+    },
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1600,
+      "Height": 1200
+    },
+    "RefreshRate": "60"
+  }
+}

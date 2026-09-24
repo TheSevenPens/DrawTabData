@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.ep140e",
+  "Brand": "WACOM",
+  "PenId": "EP-140E",
+  "PenName": "Graphire4 pen",
+  "PenFamily": "wacom.penfamily.wacom_ep",
+  "ReleaseYear": "2005",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "12",
+  "Length": "137.8",
+  "Diameter": "12",
+  "BarrelRotation": "NO",
+  "_id": "0ec200ea-d21d-4527-b0e5-b05131d24790",
+  "_CreateDate": "2026-04-01T18:26:13.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:15.137Z",
+  "PenTech": "PASSIVE_EMR"
+}

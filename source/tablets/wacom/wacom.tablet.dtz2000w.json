@@ -1,0 +1,50 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtz2000w",
+    "_id": "e22d56b9-f16e-4877-a1f3-434a62b465d0",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTZ-2000W",
+    "Name": "Cintiq 20WSX 2007",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2007",
+    "ReleaseDate": "2007-11-16",
+    "Family": "wacom.tabletfamily.wacom_cintiq",
+    "IncludedPen": [
+      "wacom.pen.zp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 433.4,
+      "Height": 270.9
+    },
+    "Density": "200",
+    "ReportRate": "136",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1680,
+      "Height": 1050
+    },
+    "PanelTech": "TFT",
+    "Brightness": "200",
+    "Contrast": "800",
+    "ColorBitDepth": "8",
+    "ResponseTime": "14",
+    "RefreshRate": "75"
+  },
+  "Physical": {
+    "Weight": "9100"
+  }
+}

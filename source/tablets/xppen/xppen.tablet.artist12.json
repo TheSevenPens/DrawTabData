@@ -1,0 +1,68 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist12",
+    "_id": "f1b5e880-3313-483c-892d-8ffc3ba0a3f1",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST12",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/64.html",
+        "Title": "Artist 12 Pen Display Art Tablet for Beginners",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-12.html"
+        }
+      }
+    ],
+    "Name": "Artist 12",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-07",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p06"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 256.32,
+      "Height": 144.18
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "2",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Contrast": "700",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 72
+    },
+    "ResponseTime": "14",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 364.11,
+      "Height": 218.87
+    }
+  }
+}

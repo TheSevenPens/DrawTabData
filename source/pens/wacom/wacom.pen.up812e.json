@@ -1,0 +1,18 @@
+{
+  "EntityId": "wacom.pen.up812e",
+  "Brand": "WACOM",
+  "PenId": "UP-812E",
+  "PenName": "UP-812E",
+  "PenFamily": "wacom.penfamily.wacom_up",
+  "ReleaseYear": "",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "BarrelRotation": "NO",
+  "_id": "e21f8c8b-bd9c-49f6-a9b8-e35729041007",
+  "_CreateDate": "2026-04-01T18:26:13.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

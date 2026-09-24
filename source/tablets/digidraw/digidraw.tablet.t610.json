@@ -1,0 +1,65 @@
+{
+  "Meta": {
+    "EntityId": "digidraw.tablet.t610",
+    "_id": "97db7e47-b7d9-481f-aceb-4a89733ac001",
+    "_CreateDate": "2026-04-20T00:00:00Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "DIGIDRAW",
+    "Id": "T610",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.turingdraw.com/page156",
+        "Author": "DigiDraw",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtube.com/live/YSzg_U_3Rn0?feature=share",
+        "Title": "DigiDraw Turing Basic M unboxing and testing + Q&A",
+        "Author": "SevenPens",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Turing Basic M",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-09-05",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "digidraw.pen.m3"
+    ],
+    "Family": "digidraw.tabletfamily.digidraw_turingbasic"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 158.8
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 304.6,
+      "Height": 220.9,
+      "Depth": 7.8
+    }
+  }
+}

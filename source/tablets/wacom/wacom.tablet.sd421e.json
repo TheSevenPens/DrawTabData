@@ -1,0 +1,35 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.sd421e",
+    "_id": "152561c4-2c4c-482d-9784-7b6598866055",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "SD-421E",
+    "Name": "SD-421E",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1988",
+    "ReleaseDate": "1988-07",
+    "Family": "wacom.tabletfamily.wacom_sd_1988",
+    "IncludedPen": [],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 304.8,
+      "Height": 304.8
+    },
+    "Density": "50",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 420,
+      "Height": 420,
+      "Depth": 70
+    },
+    "Weight": "4000"
+  }
+}

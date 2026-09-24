@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadgen10",
+    "_id": "a76ff98a-5dbd-4e12-a015-0e8666c46816",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Gen10",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111842",
+        "Title": "iPad Pro 11-inch (4th generation) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad (10th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-10-26",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipad",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 227.4,
+      "Height": 158
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2360,
+      "Height": 1640
+    },
+    "PanelTech": "IPS",
+    "Lamination": "NO",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 248.6,
+      "Height": 179.5,
+      "Depth": 7
+    },
+    "Weight": "477"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A14 Bionic",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

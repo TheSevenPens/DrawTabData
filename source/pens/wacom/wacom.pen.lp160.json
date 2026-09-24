@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.lp160",
+  "Brand": "WACOM",
+  "PenId": "LP-160",
+  "PenName": "Bamboo CTL Pen",
+  "PenFamily": "wacom.penfamily.wacom_lp",
+  "ReleaseYear": "2009",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "13",
+  "Length": "149",
+  "Diameter": "11.8",
+  "BarrelRotation": "NO",
+  "_id": "9a6cd959-56b3-4788-9f66-ed6d4283d6ff",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:21:28.965Z",
+  "PenTech": "PASSIVE_EMR"
+}

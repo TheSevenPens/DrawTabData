@@ -1,0 +1,67 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cth490",
+    "_id": "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-490",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/CTH-490.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Intuos Draw|Art|Photo|Comic Small",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-09-02",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp190"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos_2015"
+  },
+  "Digitizer": {
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 152,
+      "Height": 95
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "Tilt": "0",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 210,
+      "Height": 169.2,
+      "Depth": 10.7
+    },
+    "Weight": "290"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.kt0405a",
+    "_id": "379c2418-c8b5-4988-8a8d-8185dd1889b1",
+    "_CreateDate": "2026-04-07T00:42:47.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "KT-0405-A",
+    "Status": "DISCONTINUED",
+    "Name": "Artpad ADB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1994",
+    "ReleaseDate": "1994-07",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_artpad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 128,
+      "Height": 96
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  }
+}

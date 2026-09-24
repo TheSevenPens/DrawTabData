@@ -1,0 +1,52 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cth480",
+    "_id": "8be703ad-586c-4825-abaa-41070611bb2c",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-480",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/CTH-480.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Intuos Pen & Touch S 2013",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2013",
+    "ReleaseDate": "2013-09-04",
+    "Family": "wacom.tabletfamily.wacom_intuos_2013",
+    "IncludedPen": [
+      "wacom.pen.lp180e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 152,
+      "Height": 95
+    },
+    "Density": "100",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 209.9,
+      "Height": 177.5,
+      "Depth": 10
+    },
+    "Weight": "310"
+  }
+}

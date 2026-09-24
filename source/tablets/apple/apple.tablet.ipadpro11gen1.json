@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro11gen1",
+    "_id": "a3e6038e-f749-4008-a784-a87decf877d0",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-11-Gen1",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111972",
+        "Title": "MacBook Pro (13-inch, 2017, Four Thunderbolt 3 ports) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 11-inch (1st generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-11-07",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 229.1,
+      "Height": 160
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2388,
+      "Height": 1668
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 247.6,
+      "Height": 178.5,
+      "Depth": 5.9
+    },
+    "Weight": "468"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A12X Bionic",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

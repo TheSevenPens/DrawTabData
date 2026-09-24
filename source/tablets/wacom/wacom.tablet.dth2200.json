@@ -1,0 +1,48 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-2200",
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Cintiq 22HD Touch",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2013",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 479,
+      "Height": 271
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "H-IPS",
+    "Brightness": "210",
+    "Contrast": "900",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 72
+    },
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dth2200",
+    "_id": "0d8bdb56-2e37-4d3c-9886-5a159c78c83a",
+    "_CreateDate": "2026-07-19T04:01:44.987Z",
+    "_ModifiedDate": "2026-07-19T04:01:44.987Z"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h420x",
+    "_id": "480407c4-377a-432c-aa89-fdb3139c66d6",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H420X",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/H420X.html",
+        "Title": "Huion Inspiroy H420X 10th Anniversary Edition Pen Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-h420x"
+        }
+      }
+    ],
+    "Name": "H420X",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 106,
+      "Height": 66
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 172.01,
+      "Height": 109.6,
+      "Depth": 7
+    },
+    "Weight": "105"
+  }
+}

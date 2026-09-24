@@ -1,0 +1,50 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl680",
+    "_id": "97b64cdd-b2d0-43da-93b8-1110d92a6e42",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-680",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-680.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Intuos 2013 CTL-680",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2013",
+    "ReleaseDate": "2013-09-04",
+    "Family": "wacom.tabletfamily.wacom_intuos_2013",
+    "IncludedPen": [
+      "wacom.pen.lp180"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 216,
+      "Height": 135
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 275,
+      "Height": 221.5,
+      "Depth": 10.1
+    },
+    "Weight": "500"
+  }
+}

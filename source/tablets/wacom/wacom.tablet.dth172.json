@@ -1,0 +1,99 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth172",
+    "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-172",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH172.html",
+        "Title": "Wacom User Help (DTH172)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=JBn727A9pAc",
+        "Title": "Brad Colbow review of Cintiq Pro 17",
+        "Author": "Brad Colbow",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Cintiq Pro 17",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-10-19",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.acp500"
+    ],
+    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 382,
+      "Height": 215
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "400",
+    "Contrast": "1000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "DCIP3": 99,
+      "ADOBERGB": 88,
+      "REC709": 100
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "8",
+    "RefreshRate": "120",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 424,
+      "Height": 253,
+      "Depth": 21
+    },
+    "Weight": "2200"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.kp505",
+  "Brand": "WACOM",
+  "PenId": "KP-505",
+  "PenName": "Pro Pen 3D",
+  "PenFamily": "wacom.penfamily.wacom_kpgen2",
+  "ReleaseYear": "2017",
+  "ButtonCount": "3",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "15",
+  "Length": "157",
+  "Diameter": "15",
+  "BarrelRotation": "NO",
+  "_id": "16bff042-9d5c-4649-bdb3-d446cb97c27f",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

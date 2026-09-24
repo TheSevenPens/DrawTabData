@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.up201",
+  "Brand": "WACOM",
+  "PenId": "UP-201",
+  "PenName": "UP-201",
+  "PenFamily": "wacom.penfamily.wacom_up",
+  "ReleaseYear": "1994",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "256",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "8",
+  "Length": "140",
+  "Diameter": "9",
+  "BarrelRotation": "NO",
+  "_id": "d4183fff-1aae-4997-a0e5-21a9dd7681d6",
+  "_CreateDate": "2026-04-07T01:00:00.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

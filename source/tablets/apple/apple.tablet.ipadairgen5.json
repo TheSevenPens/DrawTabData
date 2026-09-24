@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadairgen5",
+    "_id": "5798525d-81fd-4930-a556-e9ed37da16d2",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Air-Gen5",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111980",
+        "Title": "macOS Big Sur - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Air (5th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-03-18",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadair",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 227.4,
+      "Height": 158
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2360,
+      "Height": 1640
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 247.6,
+      "Height": 178.5,
+      "Depth": 6.1
+    },
+    "Weight": "461"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M1",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

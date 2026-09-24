@@ -1,0 +1,70 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd240f",
+    "_id": "0fb7b995-4aba-49ee-b6bf-cc75b9578a57",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD240F",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/1356.html",
+        "Title": "Artist 24 Drawing Display (FHD)",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-24-drawing-display-fhd.html"
+        }
+      }
+    ],
+    "Name": "Artist 24 FHD",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p05r"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 527,
+      "Height": 296
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1.5",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "MVA",
+    "Brightness": "250",
+    "Contrast": "3000",
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 590,
+      "Height": 361,
+      "Depth": 34
+    }
+  }
+}

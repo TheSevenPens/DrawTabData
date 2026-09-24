@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pth450",
+    "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTH-450",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Intuos5 touch Small",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2012",
+    "ReleaseDate": "2012-03-01",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos5_2012"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 157.48,
+      "Height": 98.43
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 320,
+      "Height": 208.2,
+      "Depth": 12.7
+    },
+    "Weight": "660"
+  }
+}

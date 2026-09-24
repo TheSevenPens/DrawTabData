@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.up911e",
+  "Brand": "WACOM",
+  "PenId": "UP-911E",
+  "PenName": "UP-911E",
+  "PenFamily": "wacom.penfamily.wacom_up",
+  "ReleaseYear": "2002",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "16",
+  "Length": "159",
+  "Diameter": "14",
+  "BarrelRotation": "NO",
+  "_id": "34bac038-326d-4c4d-852e-9c2f99e31753",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

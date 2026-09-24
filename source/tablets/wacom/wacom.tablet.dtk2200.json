@@ -1,0 +1,94 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk2200",
+    "_id": "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-2200",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/picture/review-wacom-cintiq-22hd-pen-display-tablet",
+        "Title": "Wacom Cintiq 22HD",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-es/products/pen-displays/cintiq-22-hd-touch#Specifications",
+        "Title": "Cintiq 22HD Interactive Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2200.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Cintiq 22HD",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2012",
+    "ReleaseDate": "2012-07-10",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 479,
+      "Height": 271
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "H-IPS",
+    "Brightness": "210",
+    "Contrast": "900",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 72
+    },
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 650,
+      "Height": 400,
+      "Depth": 55
+    },
+    "Weight": "8500"
+  }
+}

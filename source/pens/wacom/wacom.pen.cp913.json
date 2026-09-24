@@ -1,0 +1,23 @@
+{
+  "EntityId": "wacom.pen.cp913",
+  "Brand": "WACOM",
+  "PenId": "CP-913",
+  "PenName": "Wacom One Pen",
+  "PenFamily": "wacom.penfamily.wacom_cp",
+  "ReleaseYear": "2020",
+  "ButtonCount": "1",
+  "PressureSensitive": "YES",
+  "PressureLevels": "4096",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "11.1",
+  "Length": "148.2",
+  "Diameter": "11.5",
+  "BarrelRotation": "NO",
+  "Tags": [
+    "UDEMR"
+  ],
+  "_id": "1b387c8c-8fcf-4d0e-aeff-98a7e43a12fa",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-01T00:00:00.000Z"
+}

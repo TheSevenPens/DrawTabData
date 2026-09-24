@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ud1212r",
+    "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "UD-1212-R",
+    "Status": "DISCONTINUED",
+    "Name": "Ultrapad Digitizer II 12x12 SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1996",
+    "ReleaseDate": "1996-03-01",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 304.8,
+      "Height": 304.8
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 407,
+      "Height": 417,
+      "Depth": 36
+    },
+    "Weight": "2200"
+  }
+}

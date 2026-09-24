@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadgen5",
+    "_id": "b34fea0f-bab3-4c59-82e6-8d7f27be44df",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Gen5",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111978",
+        "Title": "iPad mini - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad (5th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2017",
+    "ReleaseDate": "2017-03-24",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipad",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 197.1,
+      "Height": 147.8
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2048,
+      "Height": 1536
+    },
+    "PanelTech": "IPS",
+    "Lamination": "NO",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 240,
+      "Height": 169.5,
+      "Depth": 7.5
+    },
+    "Weight": "469"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A9",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

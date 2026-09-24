@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl471",
+    "_id": "5b23c5f4-37db-4423-954b-feb364d22c67",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-471",
+    "Name": "One by Wacom 2012 S",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2012",
+    "ReleaseDate": "2012-09",
+    "Family": "wacom.tabletfamily.wacom_onebywacom_2012",
+    "IncludedPen": [
+      "wacom.pen.lp171"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 152,
+      "Height": 95
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 210,
+      "Height": 146,
+      "Depth": 7.5
+    },
+    "Weight": "245"
+  }
+}

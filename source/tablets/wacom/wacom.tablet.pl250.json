@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl250",
+    "_id": "3475cf00-440d-4006-bc7a-c3d98a82cd06",
+    "_CreateDate": "2026-04-19T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-250",
+    "Name": "PL-250",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "1998",
+    "ReleaseDate": "1998-09",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "256",
+    "Dimensions": {
+      "Width": 192,
+      "Height": 144
+    },
+    "Density": "20",
+    "ReportRate": "205",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 640,
+      "Height": 480
+    },
+    "PanelTech": "TFT"
+  },
+  "Physical": {
+    "Weight": "2000"
+  }
+}

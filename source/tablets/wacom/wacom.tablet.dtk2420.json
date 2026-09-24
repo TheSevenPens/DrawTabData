@@ -1,0 +1,85 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk2420",
+    "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-2420",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
+        "Title": "Wacom Cintiq Pro 24\": creative pen display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html",
+        "Title": "Wacom User Help (DTK-2420)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Cintiq Pro 24",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-02-27",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 522,
+      "Height": 294
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "235",
+    "Contrast": "1000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "ADOBERGB": 99
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "14",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 677,
+      "Height": 394,
+      "Depth": 47
+    },
+    "Weight": "7200"
+  }
+}

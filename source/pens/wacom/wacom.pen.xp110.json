@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.xp110",
+  "Brand": "WACOM",
+  "PenId": "XP-110",
+  "PenName": "Intuos2 Ink Pen",
+  "PenFamily": "wacom.penfamily.wacom_xp",
+  "ReleaseYear": "2001",
+  "ButtonCount": "0",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "12",
+  "Length": "151",
+  "Diameter": "12.5",
+  "BarrelRotation": "NO",
+  "_id": "aa92b276-1af1-4ff4-ba49-32cd95dde699",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

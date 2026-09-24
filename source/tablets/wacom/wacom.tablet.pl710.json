@@ -1,0 +1,25 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl710",
+    "_id": "407a05eb-e2f8-43bd-b069-9d6932684264",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-710",
+    "Name": "Cintiq 17X",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2004",
+    "ReleaseDate": "2004-09",
+    "IncludedPen": [
+      "wacom.pen.up911e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "SupportsTouch": "NO"
+  }
+}

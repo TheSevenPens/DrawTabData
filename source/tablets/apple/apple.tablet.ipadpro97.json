@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro97",
+    "_id": "ebb80f16-c639-4c7a-8314-e64f16c6e6f9",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-9.7",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111977",
+        "Title": "iPad Pro 12.9-inch (4th generation) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 9.7-inch",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016-03-31",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 197.1,
+      "Height": 147.8
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2048,
+      "Height": 1536
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 240,
+      "Height": 169.5,
+      "Depth": 6.1
+    },
+    "Weight": "437"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A9X",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

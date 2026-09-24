@@ -1,0 +1,47 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTH-651SE",
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Intuos Pro 2013 Medium Special Edition",
+    "AlternateNames": [
+      "Intuos Pro Special Edition"
+    ],
+    "Type": "PENTABLET",
+    "ReleaseYear": "2013",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuospro_2013",
+    "Notes": "Special Edition of PTH-651 (Intuos Pro 2013 Medium); identical hardware, cosmetic finish."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 223.52,
+      "Height": 139.7
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 379.9,
+      "Height": 251.4,
+      "Depth": 11.5
+    },
+    "Weight": "990"
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.pth651se",
+    "_id": "465cf7e1-4bd3-42b4-a947-986ef7282b22",
+    "_CreateDate": "2026-07-19T04:12:16.715Z",
+    "_ModifiedDate": "2026-07-19T04:12:16.715Z"
+  }
+}

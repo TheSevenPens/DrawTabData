@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.kp132",
+  "Brand": "WACOM",
+  "PenId": "KP-132",
+  "PenName": "Finetip Pen for Intuos Pro",
+  "PenFamily": "wacom.penfamily.wacom_kpgen2",
+  "ReleaseYear": "2017",
+  "ButtonCount": "0",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "15",
+  "Length": "132.6",
+  "Diameter": "11",
+  "BarrelRotation": "NO",
+  "_id": "440abb2b-293d-490b-9419-c86d80288efa",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

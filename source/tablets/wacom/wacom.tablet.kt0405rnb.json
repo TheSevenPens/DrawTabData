@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.kt0405rnb",
+    "_id": "90d162e3-5d09-42e7-9e2e-9ef6d50da1b5",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "KT-0405-RNB",
+    "Status": "DISCONTINUED",
+    "Name": "Wacom KT-0405-RNB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1994",
+    "ReleaseDate": "1994-07",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_artpad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 128,
+      "Height": 96
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 191,
+      "Height": 175,
+      "Depth": 6.98
+    },
+    "Weight": "400"
+  }
+}

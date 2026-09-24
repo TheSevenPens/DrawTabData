@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h1060p",
+    "_id": "7eee1b16-3b9d-4a8b-ad10-95d083fd652e",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H1060P",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/H1060P.html",
+        "Title": "Huion Inspiroy H1060P Pen Tablet with Hard and Soft Keys",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-h1060p"
+        }
+      }
+    ],
+    "Name": "H1060P",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 159
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 360,
+      "Height": 240,
+      "Depth": 10
+    },
+    "Weight": "770"
+  }
+}

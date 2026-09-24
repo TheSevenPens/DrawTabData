@@ -1,0 +1,176 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth271",
+    "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-271",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-27",
+        "Title": "Wacom Cintiq Pro 27: creative pen display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH271.html",
+        "Title": "Wacom User Help (DTH271)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://content.wacom.com/acton/attachment/43270/f-82fbd755-3ca6-41b0-8603-0d7b59d041c2/1/-/-/-/-/Wacom%20Cintiq%20Pro%2027%20Product%20Event%20Q%26A_Oct%202022.pdf?sid=TV2:AJoJnUTl8",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://cdn-aorpci11.actonsoftware.com/acton/cdna/43270/f-82fbd755-3ca6-41b0-8603-0d7b59d041c2/1/5/Wacom%20Cintiq%20Pro%2027%20Product%20Event%20Q%26A_Oct%202022.pdf"
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://support.wacom.com/hc/en-us/articles/9170502251927-What-are-the-accessory-pens-I-can-use-with-the-Wacom-Cintiq-Pro-27-2022-",
+        "Title": "Wacom's list of supported pens for the Cintiq Pro 27",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=biol42fF0a0",
+        "Title": "Create Now Sleep Later review of Cintiq Pro 27",
+        "Author": "Create Now Sleep Later",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=gmISfMqr8Rg",
+        "Title": "Adam Duff - WACOM CINTIQ PRO 27 (vs Cintiq Pro 22, Cintiq 24, Xencelabs 24 & Huion Kamvas Pro 24 (gen 3)",
+        "Author": "Adam Duff",
+        "PublishDate": "2026-01-28",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/gKRxy3Yjjoo",
+        "Title": "Bara AlMakadma review of Cintiq Pro 27",
+        "Author": "Bara AlMakadma",
+        "PublishDate": "2022-10-28",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/LybW8WZBrrg",
+        "Title": "Aaron Rutten review of Cintiq Pro 27",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2022-10-14",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/x59b4nR3Y3E",
+        "Title": "Brad Colbow review of Cintiq Pro 27",
+        "Author": "Brad Colbow",
+        "PublishDate": "2022-10-14",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Cintiq Pro 27",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-09-28",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.acp500"
+    ],
+    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 596,
+      "Height": 335
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "400",
+    "Contrast": "1000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "DCIP3": 98,
+      "ADOBERGB": 99,
+      "REC709": 100
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "10",
+    "RefreshRate": "120",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 638,
+      "Height": 379,
+      "Depth": 31
+    },
+    "Weight": "7200"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadgen9",
+    "_id": "34449631-9f6a-4e9a-98d4-60356a045854",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Gen9",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111967",
+        "Title": "iMac (21.5-inch, Late 2013) - Tech Specs - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad (9th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-09-24",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipad",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 207.3,
+      "Height": 155.4
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2160,
+      "Height": 1620
+    },
+    "PanelTech": "IPS",
+    "Lamination": "NO",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 250.6,
+      "Height": 174.1,
+      "Depth": 7.5
+    },
+    "Weight": "487"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A13 Bionic",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

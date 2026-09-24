@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ptk650",
+    "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTK-650",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Intuos5 Medium",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2012",
+    "ReleaseDate": "2012-03-01",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos5_2012"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 223.52,
+      "Height": 139.7
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 381,
+      "Height": 251.46,
+      "Depth": 12.7
+    },
+    "Weight": "990"
+  }
+}

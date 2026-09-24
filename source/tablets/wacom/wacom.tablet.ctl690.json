@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl690",
+    "_id": "6cae6cd5-eaa2-43b1-ac8c-26379890532b",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-690",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/f/ipi/0x033c/IPI-EN.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Intuos Medium",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-09-15",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp190"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos_2015"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 216,
+      "Height": 135
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "Tilt": "0",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 275,
+      "Height": 217.2,
+      "Depth": 10.7
+    },
+    "Weight": "480"
+  }
+}

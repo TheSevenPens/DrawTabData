@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro129gen1",
+    "_id": "b464fa63-b13a-41bb-9abd-2510643bbef7",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-12.9-Gen1",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111974",
+        "Title": "iPad Pro 11-inch (1st generation) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 12.9-inch (1st generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-11-11",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 262.2,
+      "Height": 196.5
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2732,
+      "Height": 2048
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 305.7,
+      "Height": 220.6,
+      "Depth": 6.9
+    },
+    "Weight": "713"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A9X",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

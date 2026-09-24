@@ -1,0 +1,138 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd121fh",
+    "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
+    "_CreateDate": "2026-04-01T21:44:35.000Z",
+    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD121FH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/xppen-artist-12-gen-3-review",
+        "Title": "XPPen Artist 12 3rd",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-12-3rd.html",
+        "Title": "Artist 12 3rd: 12-inch Drawing Tablet with Screen for Beginners",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/artist-12-3rd.html",
+        "Title": "artist-12-3rd",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=jkpUTfQGLwc",
+        "Title": "Teoh on Tech - Review of Artist 12 3rd",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2025-12-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=LlqGM0rjG3g",
+        "Title": "Brad Colbow - Review of Artist 12 3rd",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-11-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtube.com/live/teEGX7G-gYs?feature=share",
+        "Title": "Unboxing & Testing: XP-Pen Artist 12 GEN3 (CD121FH)",
+        "Author": "SevenPens",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist 12 3rd",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-10-17",
+    "IncludedPen": [
+      "xppen.pen.pd52"
+    ],
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_artistgen3",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 264,
+      "Height": 149
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "260",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 97,
+      "DISPLAYP3": 97
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 327.2,
+      "Height": 189.1,
+      "Depth": 12
+    },
+    "Weight": "719"
+  }
+}

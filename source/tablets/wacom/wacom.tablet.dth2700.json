@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth2700",
+    "_id": "b1f8fdf3-b111-45f7-9586-10af017cc2ec",
+    "_CreateDate": "2026-04-21T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-2700",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Cintiq 27 QHD touch",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-01-06",
+    "IncludedPen": [
+      "wacom.pen.kp503e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 597,
+      "Height": 336
+    },
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "AHVA",
+    "Brightness": "330",
+    "Contrast": "970",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "ADOBERGB": 97
+    },
+    "ResponseTime": "12",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 770,
+      "Height": 465,
+      "Depth": 54.4
+    },
+    "Weight": "9000",
+    "WeightInclStand": "NO"
+  }
+}

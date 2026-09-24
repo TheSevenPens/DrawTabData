@@ -1,0 +1,44 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cte450",
+    "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTE-450",
+    "LastSupportedWindowsDriver": "5.2.5-5a",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "Bamboo Fun Small",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2007",
+    "ReleaseDate": "2007-05-15",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.ep155e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_bamboo_legacy"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "512",
+    "Dimensions": {
+      "Width": 147.6,
+      "Height": 92.3
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "Tilt": "0",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 210,
+      "Height": 194.1,
+      "Depth": 11.2
+    },
+    "Weight": "370"
+  }
+}

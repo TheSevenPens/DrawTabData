@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.it640",
+    "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "IT640",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-640.html",
+        "Title": "XPPen Deco 640: The Best Small Drawing Tablet for osu! Gameplay",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Deco 640",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p0116k"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 160,
+      "Height": 90
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 188.34,
+      "Height": 149.96,
+      "Depth": 7.7
+    },
+    "Weight": "170"
+  }
+}

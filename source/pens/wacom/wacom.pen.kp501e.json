@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.kp501e",
+  "Brand": "WACOM",
+  "PenId": "KP-501E",
+  "PenName": "Intuos4 Grip Pen",
+  "PenFamily": "wacom.penfamily.wacom_kpgen1",
+  "ReleaseYear": "2009",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "2048",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "17",
+  "Length": "156.5",
+  "Diameter": "14.9",
+  "BarrelRotation": "NO",
+  "_id": "e029b730-38bf-4d48-a53b-5fd5a0949356",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

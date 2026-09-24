@@ -1,0 +1,35 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl600",
+    "_id": "5eadeb3a-5032-415d-88d7-020c62449380",
+    "_CreateDate": "2026-04-19T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-600",
+    "Name": "PL-600",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "512",
+    "Dimensions": {
+      "Width": 311.04,
+      "Height": 248.83
+    },
+    "Density": "20",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1280,
+      "Height": 1024
+    },
+    "PanelTech": "TFT"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.xd1218r",
+    "_id": "c89d8229-6520-4560-b3ab-bcc9234079d2",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "XD-1218-R",
+    "LastSupportedWindowsDriver": "6.2.0w5",
+    "LastSupportedMacOSDriver": "6.2.0w4",
+    "Name": "Intuos2 12x18 SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09-10",
+    "Family": "wacom.tabletfamily.wacom_intuos2_2001",
+    "IncludedPen": [
+      "wacom.pen.xp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 457.2,
+      "Height": 316.8
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 616,
+      "Height": 445.5,
+      "Depth": 37
+    },
+    "Weight": "3000"
+  }
+}

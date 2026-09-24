@@ -1,0 +1,35 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctt460",
+    "_id": "95759bd5-ad90-4dc3-8b14-988bd3846aba",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTT-460",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Status": "DISCONTINUED",
+    "Name": "Bamboo Touch 2009",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-09-24",
+    "Family": "wacom.tabletfamily.wacom_bamboo_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 125,
+      "Height": 85
+    },
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 208.4,
+      "Height": 137.6,
+      "Depth": 7.5
+    },
+    "Weight": "210"
+  }
+}

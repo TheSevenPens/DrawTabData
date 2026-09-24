@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadgen8",
+    "_id": "62aa5b6d-9990-4321-9bae-f7012680ce03",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Gen8",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111969",
+        "Title": "iMac (Retina 5K, 27-inch, 2017) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad (8th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020-09-18",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipad",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 207.3,
+      "Height": 155.4
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2160,
+      "Height": 1620
+    },
+    "PanelTech": "IPS",
+    "Lamination": "NO",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 250.6,
+      "Height": 174.1,
+      "Depth": 7.5
+    },
+    "Weight": "490"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A12 Bionic",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

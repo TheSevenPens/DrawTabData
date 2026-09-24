@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.xd0912r",
+    "_id": "07ec96cf-c741-469c-ad9a-a20577da9365",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "XD-0912-R",
+    "LastSupportedWindowsDriver": "6.2.0w5",
+    "LastSupportedMacOSDriver": "6.2.0w4",
+    "Name": "Intuos2 9x12 SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09-10",
+    "Family": "wacom.tabletfamily.wacom_intuos2_2001",
+    "IncludedPen": [
+      "wacom.pen.xp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 304.8,
+      "Height": 240.6
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 456,
+      "Height": 361,
+      "Depth": 14
+    },
+    "Weight": "1600"
+  }
+}

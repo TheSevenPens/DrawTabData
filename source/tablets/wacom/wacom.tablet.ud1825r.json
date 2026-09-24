@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ud1825r",
+    "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "UD-1825-R",
+    "Status": "DISCONTINUED",
+    "Name": "Ultrapad Digitizer II 18x25 SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1996",
+    "ReleaseDate": "1996-03-01",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 635,
+      "Height": 462
+    },
+    "Density": "50",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 778,
+      "Height": 615,
+      "Depth": 78
+    },
+    "Weight": "9700"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.wt4400",
+    "_id": "e4daac3e-d942-4973-9e1b-58fd612d5fe7",
+    "_CreateDate": "2026-04-21T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "WT-4400",
+    "Status": "DISCONTINUED",
+    "Name": "WT-4400 (A4)",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1985",
+    "ReleaseDate": "1985-10",
+    "Notes": "World's first cordless pen.",
+    "Family": "wacom.tabletfamily.wacom_wt_legacy"
+  }
+}

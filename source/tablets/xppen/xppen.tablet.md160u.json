@@ -1,0 +1,111 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md160u",
+    "_id": "6a36faea-988a-4411-8f0b-6cea204c1207",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD160U",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/927.html",
+        "Title": "Artist Pro 16TP 4K UHD Multi Touch Screen Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-pro-16tp.html"
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
+        "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
+        "Author": "XP-Pen",
+        "PublishDate": "2025-09-26",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
+        "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-09-30",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
+        "Title": "XP-Pen - Meet the Artist 16 Ultra",
+        "Author": "XP-Pen",
+        "PublishDate": "2025-09-25",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 16TP",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-10-27",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xppen.pen.ph02"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 346,
+      "Height": 194
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1.5",
+    "MaxHover": "10",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "ADOBERGB": 92,
+      "NTSC": 88
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 406.4,
+      "Height": 263.1,
+      "Depth": 15.4
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.xp120",
+  "Brand": "WACOM",
+  "PenId": "XP-120",
+  "PenName": "Intuos2 Stroke Pen",
+  "PenFamily": "wacom.penfamily.wacom_xp",
+  "ReleaseYear": "2001",
+  "ButtonCount": "0",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "12",
+  "Length": "151",
+  "Diameter": "12.5",
+  "BarrelRotation": "NO",
+  "_id": "faafabaf-c2d5-4004-8a81-50ec93d5ec6d",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

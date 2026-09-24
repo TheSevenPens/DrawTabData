@@ -1,0 +1,73 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.id160fe",
+    "_id": "8da13172-0f45-487d-bb26-e0a53d40c25a",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ID160FE",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/977.html",
+        "Title": "Artist Pro 16 Creative Drawing Pen display monitor",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-pro-16.html"
+        }
+      }
+    ],
+    "Name": "Artist Pro 16",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-05-11",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xppen.pen.ph20b"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 341,
+      "Height": 192
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 94,
+      "SRGB": 133,
+      "ADOBERGB": 99
+    },
+    "Lamination": "YES",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 443.27,
+      "Height": 256.45,
+      "Depth": 9
+    }
+  }
+}

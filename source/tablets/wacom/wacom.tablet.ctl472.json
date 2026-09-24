@@ -1,0 +1,68 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl472",
+    "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-472",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-ch/products/pen-tablets/one-by-wacom#Specifications",
+        "Title": "One by Wacom: Creative Pen Tablet",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/one-by-wacom/wacom-ctlx72-notes",
+        "Title": "One by Wacom (CTL-x72) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "One by Wacom Small",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-05-10",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp190k"
+    ],
+    "Family": "wacom.tabletfamily.wacom_onebywacom_2019"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 152,
+      "Height": 95
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 210,
+      "Height": 146,
+      "Depth": 8.7
+    },
+    "Weight": "260"
+  }
+}

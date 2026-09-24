@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h1161",
+    "_id": "dd399ee1-ce80-4f6c-867f-7ef47f8f624f",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H1161",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/H1161.html",
+        "Title": "Huion Inspiroy H1161 Digital Pen Tablet with Touch Strip",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-h1161"
+        }
+      }
+    ],
+    "Name": "H1161",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 279,
+      "Height": 175
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 372.5,
+      "Height": 221.4,
+      "Depth": 8
+    },
+    "Weight": "570"
+  }
+}

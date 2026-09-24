@@ -1,0 +1,50 @@
+{
+  "Meta": {
+    "EntityId": "ugee.tablet.m908",
+    "_id": "e8d5a27c-2985-43c2-afd3-6b1c9d0b05f5",
+    "_CreateDate": "2026-04-03T06:01:40.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "UGEE",
+    "Id": "M908",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-ugee-m908-drawing-pen-tablet",
+        "Title": "Ugee M908",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:55:00.789Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "M908 Drawing Tablet",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-06"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 158.75
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 330.1,
+      "Height": 210.1,
+      "Depth": 9.3
+    }
+  }
+}

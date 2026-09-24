@@ -1,0 +1,26 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth1300",
+    "_id": "34036930-e9ad-47c6-95de-d09dddda173a",
+    "_CreateDate": "2026-04-21T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-1300",
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Status": "DISCONTINUED",
+    "Name": "Cintiq 13H touch",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-03-02",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    }
+  }
+}

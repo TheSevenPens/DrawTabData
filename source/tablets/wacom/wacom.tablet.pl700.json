@@ -1,0 +1,48 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl700",
+    "_id": "38eb1274-8e96-4961-8130-37ff54b1e21d",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-700",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.6-6",
+    "Name": "Cintiq 17SX 2002",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2002",
+    "ReleaseDate": "2002-09",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "512",
+    "Dimensions": {
+      "Width": 337.9,
+      "Height": 270.3
+    },
+    "Density": "20",
+    "ReportRate": "205",
+    "AccuracyCenter": "0.5",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1280,
+      "Height": 1024
+    },
+    "PanelTech": "TFT"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 418,
+      "Height": 362,
+      "Depth": 57
+    },
+    "Weight": "5400"
+  }
+}

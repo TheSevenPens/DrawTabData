@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.ep155e",
+  "Brand": "WACOM",
+  "PenId": "EP-155E",
+  "PenName": "EP-155E",
+  "PenFamily": "wacom.penfamily.wacom_ep",
+  "ReleaseYear": "2007",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "15",
+  "Length": "152.5",
+  "Diameter": "12",
+  "BarrelRotation": "NO",
+  "_id": "b3bf9089-7ae7-4aa4-bf08-28a0edfa650a",
+  "_CreateDate": "2026-04-01T18:26:13.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:15.137Z",
+  "PenTech": "PASSIVE_EMR"
+}

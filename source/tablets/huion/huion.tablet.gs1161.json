@@ -1,0 +1,76 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gs1161",
+    "_id": "0cb64320-e097-486a-8537-ea48d10076e3",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GS1161",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-12.html",
+        "Title": "Huion Kamvas 12 Slim & Compact Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-12"
+        }
+      }
+    ],
+    "Name": "Kamvas 12",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-06-15",
+    "Audience": "Consumer",
+    "Family": "huion.tabletfamily.huion_kamvas_2020",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 256,
+      "Height": 144
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "200",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 120
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 330.25,
+      "Height": 197,
+      "Depth": 11.8
+    },
+    "Weight": "735"
+  }
+}

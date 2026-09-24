@@ -1,0 +1,78 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt116",
+    "_id": "8dae172b-105b-47a5-82a6-5c3c2e377935",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT116",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/KamvasPro/Kamvas_Pro_12.html",
+        "Title": "Kamvas Pro 12 - Portable 11.6-Inch Pen Display with Full Lamination",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-pro-12"
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 12",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018",
+    "Audience": "Professional",
+    "Family": "huion.tabletfamily.huion_kamvaspro_2019",
+    "IncludedPen": [
+      "huion.pen.pw507"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 256,
+      "Height": 144
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 120
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 350,
+      "Height": 198.6,
+      "Depth": 11
+    },
+    "Weight": "765"
+  }
+}

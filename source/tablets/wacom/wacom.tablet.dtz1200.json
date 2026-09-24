@@ -1,0 +1,25 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTZ-1200",
+    "LastSupportedWindowsDriver": "6.3.40-2",
+    "LastSupportedMacOSDriver": "6.3.40-2",
+    "Name": "Cintiq 12WX",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2007",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1280,
+      "Height": 800
+    }
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dtz1200",
+    "_id": "dbb822bd-88eb-467e-823f-9dfb08b6cdd4",
+    "_CreateDate": "2026-07-19T04:01:48.501Z",
+    "_ModifiedDate": "2026-07-19T04:01:48.501Z"
+  }
+}

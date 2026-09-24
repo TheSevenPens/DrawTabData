@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.kt0405r",
+    "_id": "2d59e782-b141-45f4-879e-3123dadf4768",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "KT-0405-R",
+    "Status": "DISCONTINUED",
+    "Name": "Artpad SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1994",
+    "ReleaseDate": "1994-07",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_artpad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 128,
+      "Height": 96
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 191,
+      "Height": 175,
+      "Depth": 6.98
+    },
+    "Weight": "400"
+  }
+}

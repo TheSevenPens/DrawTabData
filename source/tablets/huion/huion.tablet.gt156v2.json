@@ -1,0 +1,102 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt156v2",
+    "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT156V2",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/huion-kamvas-pro-16-v2-pen-display-review",
+        "Title": "Huion Kamvas Pro 16 v2",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
+        "Title": "Kamvas Pro 16 V2 - Advanced 15.6-Inch Drawing Tablet with PenTech 4.0",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-pro-16-v2"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=CNDwMwp83JU",
+        "Title": "EyekooDrawsStuff - Huion Kamvas Pro 16 V2 Review",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2026-06-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 16 V2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-10-21",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw600a"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 344.16,
+      "Height": 193.59
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "REC709": 99
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 437.8,
+      "Height": 251.2,
+      "Depth": 11.5
+    },
+    "Weight": "1360"
+  }
+}

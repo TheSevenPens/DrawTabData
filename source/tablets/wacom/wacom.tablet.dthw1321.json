@@ -1,0 +1,91 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dthw1321",
+    "_id": "a7f3b829-1d4c-4e6a-9b2c-3d5e7f1a8b0c",
+    "_CreateDate": "2026-04-13T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-W1321",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-13-dthw1321hk0b.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-W1321.html",
+        "Title": "Wacom User Help (DTH-W1321)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "MobileStudio Pro 13 Gen2",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-09-04",
+    "Audience": "Professional",
+    "Family": "wacom.tabletfamily.wacom_mobilestudiopro",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 294.5,
+      "Height": 165.6
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "ColorGamuts": {
+      "ADOBERGB": 82
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 366.6,
+      "Height": 228.8,
+      "Depth": 17.4
+    },
+    "Weight": "1435"
+  },
+  "Standalone": {
+    "OS": "Windows 10 Pro",
+    "Processor": "Intel Core i7-8559U",
+    "RAM": "16",
+    "Storage": "512",
+    "BatteryLife": "5.5",
+    "Wifi": "802.11a/b/g/n/ac",
+    "Bluetooth": "5.0",
+    "USB": "3x USB-C",
+    "Speakers": "YES",
+    "FrontCamera": "5",
+    "RearCamera": "8"
+  }
+}

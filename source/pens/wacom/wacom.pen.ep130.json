@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.ep130",
+  "Brand": "WACOM",
+  "PenId": "EP-130",
+  "PenName": "Graphire3 pen",
+  "PenFamily": "wacom.penfamily.wacom_ep",
+  "ReleaseYear": "2003",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "11",
+  "Length": "145",
+  "Diameter": "12.5",
+  "BarrelRotation": "NO",
+  "_id": "a5ed6d37-00cb-4039-ae17-382d9a0f946b",
+  "_CreateDate": "2026-04-01T18:30:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:15.137Z",
+  "PenTech": "PASSIVE_EMR"
+}

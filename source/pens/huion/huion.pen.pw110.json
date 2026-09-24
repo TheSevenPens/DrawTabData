@@ -1,0 +1,31 @@
+{
+  "EntityId": "huion.pen.pw110",
+  "Brand": "HUION",
+  "PenId": "PW110",
+  "Links": [
+    {
+      "Type": "STORE",
+      "URL": "https://store.huion.com/products/battery-free-pen-pw110",
+      "Author": "Huion"
+    }
+  ],
+  "PenName": "PW110",
+  "PenFamily": "",
+  "ReleaseYear": "2023",
+  "PenTech": "PASSIVE_EMR",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "YES",
+  "ButtonCount": "2",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "STANDARD",
+  "Weight": "15.5",
+  "Length": "158.2",
+  "Diameter": "11.5",
+  "_id": "0951431e-69d4-47eb-8760-5b8e3128a90f",
+  "_CreateDate": "2026-04-01T20:29:11.000Z",
+  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+}

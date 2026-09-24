@@ -1,0 +1,53 @@
+{
+  "Meta": {
+    "EntityId": "digidraw.tablet.tw610",
+    "_id": "1cc63105-82d3-40a4-b1a2-ee4e072f00ca",
+    "_CreateDate": "2026-04-20T00:00:00Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "DIGIDRAW",
+    "Id": "TW610",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.turingdraw.com/page121",
+        "Author": "DigiDraw",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "Turing Smart M",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-09-05",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "digidraw.pen.m3"
+    ],
+    "Family": "digidraw.tabletfamily.digidraw_turingsmart"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 158.8
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 304.6,
+      "Height": 220.9,
+      "Depth": 7.8
+    }
+  }
+}

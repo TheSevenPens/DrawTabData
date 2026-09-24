@@ -1,0 +1,29 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ft0203u",
+    "_id": "3b998f71-1696-4a81-9432-f0a8c6005bf5",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "FT-0203-U",
+    "Status": "DISCONTINUED",
+    "Name": "PenPartner",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09-01",
+    "IncludedPen": [
+      "wacom.pen.fp110"
+    ],
+    "Family": "wacom.tabletfamily.wacom_misc_preintuos"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 65,
+      "Height": 46.4
+    },
+    "Density": "40",
+    "SupportsTouch": "NO"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ft0405u",
+    "_id": "57e86c16-60a6-47d6-9097-6537b9d258fc",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "FT-0405-U",
+    "Status": "DISCONTINUED",
+    "Name": "Wacom FT-0405-U",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2002",
+    "ReleaseDate": "2002",
+    "IncludedPen": [
+      "wacom.pen.fp100"
+    ],
+    "Family": "wacom.tabletfamily.wacom_misc_preintuos"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127.6,
+      "Height": 92.8
+    },
+    "Density": "40",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 224.1,
+      "Height": 221,
+      "Depth": 22.3
+    },
+    "Weight": "314"
+  }
+}

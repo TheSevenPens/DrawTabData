@@ -1,0 +1,45 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl500",
+    "_id": "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
+    "_CreateDate": "2026-04-19T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-500",
+    "LastSupportedWindowsDriver": "6.2.0w5",
+    "LastSupportedMacOSDriver": "6.2.0w4",
+    "Name": "PL-500",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "512",
+    "Dimensions": {
+      "Width": 307.2,
+      "Height": 230.4
+    },
+    "Density": "20",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1024,
+      "Height": 768
+    },
+    "PanelTech": "TFT"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 414,
+      "Height": 365,
+      "Depth": 51
+    },
+    "Weight": "4700"
+  }
+}

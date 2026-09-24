@@ -1,0 +1,51 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.gd0405a",
+    "_id": "c294637f-5926-4212-a392-f0c62a1f26ab",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "GD-0405-A",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
+        "Title": "Wacom Intuos1 (GD-xxxx) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Intuos 4x5 ADB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1998",
+    "ReleaseDate": "1998-09-01",
+    "Family": "wacom.tabletfamily.wacom_intuos1_1998",
+    "IncludedPen": [
+      "wacom.pen.gp300e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127,
+      "Height": 106
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 225,
+      "Height": 210,
+      "Depth": 7.5
+    },
+    "Weight": "520"
+  }
+}

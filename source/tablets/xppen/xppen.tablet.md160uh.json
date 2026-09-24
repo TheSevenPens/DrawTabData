@@ -1,0 +1,116 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md160uh",
+    "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
+    "_CreateDate": "2025-12-12T18:57:53.360Z",
+    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD160UH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/xppen-artist-ultra-16-4k-oled-review",
+        "Title": "XPPen Artist Ultra 16",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
+        "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
+        "Author": "XP-Pen",
+        "PublishDate": "2025-09-26",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
+        "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-09-30",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
+        "Title": "XP-Pen - Meet the Artist 16 Ultra",
+        "Author": "XP-Pen",
+        "PublishDate": "2025-09-25",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Ultra 16",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-09-04",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistultra",
+    "IncludedPen": [
+      "xppen.pen.pd21",
+      "xppen.pen.pd51"
+    ],
+    "Status": "AVAILABLE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 344.2,
+      "Height": 193.6
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "OLED",
+    "Brightness": "350",
+    "Contrast": "100000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "ADOBERGB": 99,
+      "SRGB": 99,
+      "DISPLAYP3": 98
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60",
+    "ViewingAngleVertical": "170"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 405,
+      "Height": 273,
+      "Depth": 13.5
+    },
+    "Weight": "1530"
+  }
+}

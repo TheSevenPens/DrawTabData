@@ -1,0 +1,80 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pth660",
+    "_id": "01d122e2-5c75-47df-bc91-171476994174",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTH-660",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
+        "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
+        "Title": "Wacom User Help (PTH-660)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos-pro-2017/wacom-pthx60-notes",
+        "Title": "Wacom Intuos Pro 2017 (PTH-x60) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Intuos Pro 2017 Medium",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2017",
+    "ReleaseDate": "2017-01-04",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuospro_2017"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 224,
+      "Height": 148
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 338,
+      "Height": 219,
+      "Depth": 8
+    },
+    "Weight": "700"
+  }
+}

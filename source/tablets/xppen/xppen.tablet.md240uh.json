@@ -1,0 +1,87 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md240uh",
+    "_id": "c1b05341-5d43-4003-bb7e-f8b6a5ca0181",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD240UH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-24-gen-2-4k-pen-display",
+        "Title": "XPPen Artist Pro 24 (Gen 2) 4K",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-24-gen-2-4k.html",
+        "Title": "XPPen Artist Pro 24 (Gen 2) 4K Drawing Tablet: World's First 4K Calman Verified 24-inch Drawing Display",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 24 GEN2 4K",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-10-22",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen2_2023",
+    "IncludedPen": [
+      "xppen.pen.pd21",
+      "xppen.pen.pd51"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 526,
+      "Height": 296
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "300",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 99,
+      "DISPLAYP3": 98
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 638,
+      "Height": 408,
+      "Depth": 44
+    },
+    "Weight": "7300",
+    "WeightInclStand": "YES"
+  }
+}

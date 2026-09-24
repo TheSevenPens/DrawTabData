@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist12pro",
+    "_id": "f19b0c47-2b3c-4130-8854-977149267fd4",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST12PRO",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/479.html",
+        "Title": "Artist 12 Pro Portable fully laminated Pen display",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-12-pro.html"
+        }
+      }
+    ],
+    "Name": "Artist 12 Pro",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-07-15",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen1_2019",
+    "IncludedPen": [
+      "xppen.pen.pa2"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 256,
+      "Height": 144
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 72
+    },
+    "ResponseTime": "14",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 351.52,
+      "Height": 225,
+      "Depth": 12.9
+    }
+  }
+}

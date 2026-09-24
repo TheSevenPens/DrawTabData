@@ -1,0 +1,20 @@
+{
+  "EntityId": "wacom.pen.fp410",
+  "Brand": "WACOM",
+  "PenId": "FP-410",
+  "PenName": "FP-410",
+  "PenFamily": "wacom.penfamily.wacom_fp",
+  "ReleaseYear": "2005",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "12",
+  "Length": "148",
+  "Diameter": "12.5",
+  "BarrelRotation": "NO",
+  "_id": "510e355c-771a-4513-b5a3-d9865f3f3c72",
+  "_CreateDate": "2026-04-01T18:30:12.000Z",
+  "_ModifiedDate": "2026-05-01T00:00:00.000Z"
+}

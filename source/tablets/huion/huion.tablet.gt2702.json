@@ -1,0 +1,79 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt2702",
+    "_id": "83578dc4-b766-4ca8-85b7-04f16b68caa6",
+    "_CreateDate": "2025-12-13T16:26:14.354Z",
+    "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT2702",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27-144hz.html",
+        "Title": "Kamvas Pro 27 (144Hz) - 4K Large Drawing Tablet with 144Hz High Refresh Rate",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 27 144Hz",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-12-01",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw600",
+      "huion.pen.pw600s"
+    ],
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 596.736,
+      "Height": 335.664
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1",
+    "MaxHover": "8",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "300",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 160
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "5",
+    "RefreshRate": "144",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 656.1,
+      "Height": 405,
+      "Depth": 22.7
+    },
+    "Weight": "7200",
+    "WeightInclStand": "NO"
+  }
+}

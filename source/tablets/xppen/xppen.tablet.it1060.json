@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.it1060",
+    "_id": "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "IT1060",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/1168.html",
+        "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html"
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/download/deco-lw.html",
+        "Title": "Deco LW|Drivers Download",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html",
+        "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Deco L",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_deco_2021",
+    "IncludedPen": [
+      "xppen.pen.ph10b"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 152
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  }
+}

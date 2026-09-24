@@ -1,0 +1,45 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl400",
+    "_id": "0dfe9a77-e190-4d30-a8aa-407cc77d7186",
+    "_CreateDate": "2026-04-19T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-400",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "PL-400",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "1999",
+    "ReleaseDate": "1999-11",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "512",
+    "Dimensions": {
+      "Width": 270.4,
+      "Height": 202.8
+    },
+    "Density": "20",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1024,
+      "Height": 768
+    },
+    "PanelTech": "TFT"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 349,
+      "Height": 298,
+      "Depth": 42
+    },
+    "Weight": "2900"
+  }
+}

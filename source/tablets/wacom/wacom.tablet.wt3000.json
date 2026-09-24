@@ -1,0 +1,19 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.wt3000",
+    "_id": "12ba8550-1819-48c0-8ece-d17e6e987230",
+    "_CreateDate": "2026-05-02T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "WT-3000",
+    "Name": "WT-3000 (A4)",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1984",
+    "ReleaseDate": "1984-10",
+    "Status": "DISCONTINUED",
+    "Notes": "World's first graphics tablet with a cordless cursor (puck). A4 size.",
+    "Family": "wacom.tabletfamily.wacom_wt_legacy"
+  }
+}

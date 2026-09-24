@@ -1,0 +1,82 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtc121",
+    "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTC-121",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/wacom-one",
+        "Title": "Wacom One DTC141 : Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://101.wacom.com/userhelp/en/toc/dtc121.html",
+        "Title": "Wacom User Help (DTC121)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Wacom One 12 2023",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-08-10",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.cp923"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "4096",
+    "Dimensions": {
+      "Width": 257,
+      "Height": 145
+    },
+    "Density": "100",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "275",
+    "Contrast": "1400",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99
+    },
+    "AntiGlare": "AGFILM",
+    "ResponseTime": "18"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 299,
+      "Height": 190,
+      "Depth": 11
+    },
+    "Weight": "700"
+  }
+}

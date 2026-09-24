@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist22rpro",
+    "_id": "e2d983ee-d901-4945-a1ea-3fd59a722e72",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST22RPRO",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/541.html",
+        "Title": "Artist 22R Pro Large Professional Drawing Tablet Monitor",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-22r-pro.html"
+        }
+      }
+    ],
+    "Name": "Artist 22R Pro",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-12-16",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen1_2019",
+    "IncludedPen": [
+      "xppen.pen.pa2"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 476.064,
+      "Height": 267.786
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 88,
+      "SRGB": 120,
+      "ADOBERGB": 90
+    },
+    "ResponseTime": "14"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 570,
+      "Height": 334.8,
+      "Depth": 44.8
+    }
+  }
+}

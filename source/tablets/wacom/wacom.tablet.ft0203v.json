@@ -1,0 +1,18 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ft0203v",
+    "_id": "1ebaa480-87c3-4db3-80da-268ea74f41b0",
+    "_CreateDate": "2026-09-04T00:00:00.000Z",
+    "_ModifiedDate": "2026-09-04T00:00:00.000Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "FT-0203-V",
+    "Status": "DISCONTINUED",
+    "Name": "PenPartner 2004",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2004",
+    "Notes": "Listed on machollywood.com's Wacom tablet-and-pen compatibility page (\"PenPartner, 2004\"), with the FP-100V as its pen. No manufacturer specifications sourced yet.",
+    "Family": "wacom.tabletfamily.wacom_misc_preintuos"
+  }
+}

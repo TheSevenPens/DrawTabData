@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.ep150e",
+  "Brand": "WACOM",
+  "PenId": "EP-150E",
+  "PenName": "Bamboo Pen",
+  "PenFamily": "wacom.penfamily.wacom_ep",
+  "ReleaseYear": "2007",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "12",
+  "Length": "142.5",
+  "Diameter": "11.4",
+  "BarrelRotation": "NO",
+  "_id": "f2d6f58a-823e-44d9-8669-d5978b2ba21e",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:15.137Z",
+  "PenTech": "PASSIVE_EMR"
+}

@@ -1,0 +1,70 @@
+{
+  "Meta": {
+    "EntityId": "ugee.tablet.u1200",
+    "_id": "c1270aa6-c0ce-48fe-9a0b-1861ed699645",
+    "_CreateDate": "2026-04-03T06:01:40.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "UGEE",
+    "Id": "U1200",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/artist-review-ugee-u1200-pen-display",
+        "Title": "ugee U1200",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:55:00.789Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "U1200 Drawing Monitor",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "IncludedPen": [
+      "ugee.pen.ph12"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 263.2,
+      "Height": 148.1
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 127,
+      "NTSC": 90,
+      "ADOBERGB": 94
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 323.92,
+      "Height": 208.54,
+      "Depth": 14.46
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "EntityId": "wacom.pen.cp923",
+  "Brand": "WACOM",
+  "PenId": "CP-923",
+  "Links": [
+    {
+      "Type": "REVIEW",
+      "URL": "https://youtu.be/415ngQOHiME",
+      "Title": "Pressure problems with new Wacom One (2023/GEN2) drawing tablets",
+      "Author": "SevenPens"
+    }
+  ],
+  "PenName": "Wacom One Standard Pen",
+  "PenFamily": "wacom.penfamily.wacom_cp",
+  "ReleaseYear": "2023",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "4096",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "9.9",
+  "Length": "149.9",
+  "Diameter": "9.8",
+  "BarrelRotation": "NO",
+  "Tags": [
+    "UDEMR"
+  ],
+  "_id": "c20e6dda-1f36-4616-89de-5245ab2436d4",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-01T00:00:00.000Z"
+}

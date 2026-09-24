@@ -1,0 +1,54 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl550",
+    "_id": "7ad4460a-8600-4c14-9916-69d0a7bab344",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-550",
+    "LastSupportedWindowsDriver": "6.2.0w5",
+    "LastSupportedMacOSDriver": "6.2.0w4",
+    "Name": "Cintiq 15X",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl",
+    "IncludedPen": [
+      "wacom.pen.up911e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "512",
+    "Dimensions": {
+      "Width": 304.1,
+      "Height": 228.1
+    },
+    "Density": "20",
+    "ReportRate": "93",
+    "AccuracyCenter": "0.5",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1024,
+      "Height": 768
+    },
+    "PanelTech": "TFT",
+    "Brightness": "270",
+    "Contrast": "200",
+    "ColorBitDepth": "8"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 405,
+      "Height": 340,
+      "Depth": 53
+    },
+    "Weight": "3860"
+  }
+}

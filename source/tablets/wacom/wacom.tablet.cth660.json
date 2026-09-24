@@ -1,0 +1,40 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-660",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "Bamboo Pen & Touch M",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-09-24",
+    "IncludedPen": [
+      "wacom.pen.lp160e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_bamboopen_2009",
+    "Notes": "Medium sibling of CTH-460; active area/enclosure mirrored from the medium Bamboo (CTH-661)."
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 216.48,
+      "Height": 137
+    },
+    "Density": "100",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 336.8,
+      "Height": 223,
+      "Depth": 8.5
+    },
+    "Weight": "740"
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.cth660",
+    "_id": "f2390f3b-b34b-44aa-8298-72ac4d8cfa6a",
+    "_CreateDate": "2026-07-19T04:12:14.950Z",
+    "_ModifiedDate": "2026-07-19T04:12:14.950Z"
+  }
+}

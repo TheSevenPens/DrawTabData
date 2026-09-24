@@ -1,0 +1,20 @@
+{
+  "EntityId": "wacom.pen.sp210a",
+  "Brand": "WACOM",
+  "PenId": "SP-210A",
+  "PenName": "SP-210A",
+  "PenFamily": "wacom.penfamily.wacom_sp",
+  "ReleaseYear": "1988",
+  "ButtonCount": "1",
+  "PressureSensitive": "NO",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "8.4",
+  "Length": "142.5",
+  "Diameter": "11",
+  "BarrelRotation": "NO",
+  "Notes": "Tip switch reports only on/off (2 states), not graded pressure.",
+  "_id": "cf5a191b-3440-45b1-a8bb-d1e04f1e541f",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-01T00:00:00.000Z"
+}

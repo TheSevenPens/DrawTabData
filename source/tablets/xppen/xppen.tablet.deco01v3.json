@@ -1,0 +1,80 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.deco01v3",
+    "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECO01V3",
+    "Links": [
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
+        "Title": "Deco 01 V3: Deco 01 V2's upgraded version",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
+        "Title": "deco-01-v3",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
+        "Title": "Brad Colbow - Review of Deco 01 V3",
+        "Author": "Brad Colbow",
+        "PublishDate": "2026-04-30",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Deco 01 V3",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p05"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 159
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 350.52,
+      "Height": 215.9,
+      "Depth": 8
+    },
+    "Weight": "570"
+  }
+}

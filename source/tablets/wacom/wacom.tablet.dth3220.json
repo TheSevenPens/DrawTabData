@@ -1,0 +1,98 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth3220",
+    "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-3220",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.wacom.com/en-us/eol/product-not-available"
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-3220.html",
+        "Title": "Wacom User Help (DTH-3220)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-cintiq-pro/wacom-dth3220-notes",
+        "Title": "Wacom Cintiq Pro 32 touch (DTH-3220) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Cintiq Pro 32",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-02-27",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 697,
+      "Height": 392
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "310",
+    "Contrast": "1000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "ADOBERGB": 98
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "8",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 854,
+      "Height": 506,
+      "Depth": 53.2
+    },
+    "Weight": "13000"
+  }
+}

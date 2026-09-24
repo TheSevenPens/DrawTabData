@@ -1,0 +1,68 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl6100wl",
+    "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-6100WL",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos#Specifications",
+        "Title": "Wacom Intuos: Creative Pen Tablet",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-6100wl.html",
+        "Title": "Wacom User Help (CTL-6100WL)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Intuos Medium Bluetooth",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-03-06",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp1100k"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos_2018"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "4096",
+    "Dimensions": {
+      "Width": 216,
+      "Height": 135
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "Tilt": "0",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 264,
+      "Height": 200,
+      "Depth": 8.8
+    },
+    "Weight": "410"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h610",
+    "_id": "959ca285-e3e4-4791-a35e-781a9ee000ae",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H610",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/HS/HS610.html",
+        "Title": "Huion HS610 On-The-Go Graphic Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/hs610"
+        }
+      }
+    ],
+    "Name": "H610",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2017",
+    "ReleaseDate": "2017",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 159
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 250,
+      "Height": 211,
+      "Depth": 8
+    },
+    "Weight": "600"
+  }
+}

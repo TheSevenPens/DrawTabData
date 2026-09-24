@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "ugee.tablet.m708",
+    "_id": "d3534ab9-00ec-4bfc-8ad1-501b83e192ce",
+    "_CreateDate": "2026-04-03T06:01:40.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "UGEE",
+    "Id": "M708",
+    "Name": "M708 Pen Tablet",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2014",
+    "ReleaseDate": "2014",
+    "IncludedPen": [
+      "xppen.pen.p01"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 152.4
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 359,
+      "Height": 210,
+      "Depth": 8
+    }
+  }
+}

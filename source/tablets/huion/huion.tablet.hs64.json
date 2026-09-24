@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.hs64",
+    "_id": "416c2abb-94fd-4564-87c1-c93e6fba1877",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "HS64",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/HS/HS64.html",
+        "Title": "Huion HS64 6.3-Inch Graphic Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/hs64"
+        }
+      }
+    ],
+    "Name": "HS64",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 160,
+      "Height": 102
+    },
+    "Density": "200",
+    "ReportRate": "233",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 200,
+      "Height": 166,
+      "Depth": 8
+    },
+    "Weight": "258"
+  }
+}

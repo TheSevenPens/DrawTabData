@@ -1,0 +1,54 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.deco02",
+    "_id": "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECO02",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/88.html",
+        "Title": "Deco 02 Creative Animation Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-02.html"
+        }
+      }
+    ],
+    "Name": "Deco 02",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-08",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p06"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 143
+    },
+    "Density": "200",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 362,
+      "Height": 210,
+      "Depth": 9
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.fb630",
+    "_id": "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "FB-630",
+    "Status": "DISCONTINUED",
+    "Name": "Wacom FB-630",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1998",
+    "ReleaseDate": "1998-09-01",
+    "IncludedPen": [
+      "wacom.pen.ep130"
+    ],
+    "Family": "wacom.tabletfamily.wacom_misc_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127.6,
+      "Height": 92.8
+    },
+    "Density": "80",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 210,
+      "Height": 208,
+      "Depth": 17.5
+    }
+  }
+}

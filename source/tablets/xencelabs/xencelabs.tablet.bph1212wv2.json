@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "xencelabs.tablet.bph1212wv2",
+    "_id": "a1c2d3e4-f5a6-7b8c-9d0e-1f2a3b4c5d6e",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "XENCELABS",
+    "Id": "BPH1212W-V2",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xencelabs.com/product/xencelabs-pen-tablet-medium/",
+        "Title": "Xencelabs Pen Tablet Medium Series",
+        "Author": "Xencelabs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xencelabs.com/products/pen-tablet-medium"
+        }
+      }
+    ],
+    "Name": "Pen Tablet Medium V2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xencelabs.pen.3buttonv2",
+      "xencelabs.pen.thinv2"
+    ],
+    "Family": "xencelabs.tabletfamily.xencelabs_pentablet"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 262,
+      "Height": 147
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 320.5,
+      "Height": 232.5,
+      "Depth": 8
+    },
+    "Weight": "715"
+  }
+}

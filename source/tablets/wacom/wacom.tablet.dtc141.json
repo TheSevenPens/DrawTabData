@@ -1,0 +1,108 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtc141",
+    "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTC-141",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/wacom-one",
+        "Title": "Wacom One DTC141 : Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://101.wacom.com/UserHelp/en/TOC/DTC141.html",
+        "Title": "Wacom User Help (DTC141)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one",
+        "Title": "Wacom One DTC141 : Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=GKxx9Vwz79U",
+        "Title": "Brad Colbow - Review of the Wacom One 14",
+        "Author": "Brad Colbow",
+        "PublishDate": "2024-11-10",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Wacom One 14 2025",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-09-17",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.cp923"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "4096",
+    "Dimensions": {
+      "Width": 309,
+      "Height": 174
+    },
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "285",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 98
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "16",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 336,
+      "Height": 201,
+      "Depth": 10
+    },
+    "Weight": "750"
+  }
+}

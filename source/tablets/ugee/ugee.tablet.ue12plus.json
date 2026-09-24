@@ -1,0 +1,62 @@
+{
+  "Meta": {
+    "EntityId": "ugee.tablet.ue12plus",
+    "_id": "c756b5cf-75dc-4b44-89ff-787433c1cd7b",
+    "_CreateDate": "2026-04-03T06:01:40.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "UGEE",
+    "Id": "UE12-PLUS",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-ugee-ue12-plus-pen-display",
+        "Title": "ugee UE12 Plus",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:55:00.789Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "UE12 Plus Drawing Monitor",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-10"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 263.2,
+      "Height": 148.1
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "200",
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "SRGB": 147
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 355,
+      "Height": 224,
+      "Depth": 12
+    }
+  }
+}

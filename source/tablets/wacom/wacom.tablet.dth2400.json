@@ -1,0 +1,48 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-2400",
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Cintiq 24HD Touch",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2013",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 518,
+      "Height": 324
+    },
+    "MaxHover": "5",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1200
+    },
+    "PanelTech": "IPS",
+    "Brightness": "190",
+    "Contrast": "550",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 92
+    },
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dth2400",
+    "_id": "7202f51a-6bd1-4b74-83f9-e1f34fd7d8cd",
+    "_CreateDate": "2026-07-19T04:01:46.760Z",
+    "_ModifiedDate": "2026-07-19T04:01:46.760Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.et0405au",
+    "_id": "0228d88a-29b6-4c72-a657-65c7713dc600",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "ET-0405A-U",
+    "LastSupportedWindowsDriver": "6.1.7-3",
+    "LastSupportedMacOSDriver": "6.1.6-4",
+    "Name": "Graphire2 USB",
+    "Status": "DISCONTINUED",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09",
+    "IncludedPen": [
+      "wacom.pen.ep120e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_graphire_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127.6,
+      "Height": 92.8
+    },
+    "Density": "40",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 216.1,
+      "Height": 218,
+      "Depth": 9.3
+    },
+    "Weight": "426"
+  }
+}

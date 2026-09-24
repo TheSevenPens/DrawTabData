@@ -1,0 +1,30 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-W1310",
+    "LastSupportedWindowsDriver": "6.4.7-3",
+    "LastSupportedMacOSDriver": "6.4.7-2",
+    "Name": "Cintiq Companion 2",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2015",
+    "Status": "DISCONTINUED",
+    "Notes": "Standalone Windows pen computer. Physical/Standalone SKU specs pending."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    }
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dthw1310",
+    "_id": "beddd516-fceb-41cd-a2c4-5359eda92a72",
+    "_CreateDate": "2026-07-19T04:17:19.215Z",
+    "_ModifiedDate": "2026-07-19T04:17:19.215Z"
+  }
+}

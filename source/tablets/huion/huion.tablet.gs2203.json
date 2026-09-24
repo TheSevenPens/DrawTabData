@@ -1,0 +1,135 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gs2203",
+    "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
+    "_CreateDate": "2026-04-01T21:44:35.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GS2203",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/huion-kamvas-22-gen-3-pen-display-review",
+        "Title": "Huion Kamvas 22 (Gen 3)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/products/kamvas-22-gen-3",
+        "Title": "Huion Kamvas 22 (Gen 3) - 22-Inch Drawing Tablet Benchmark | 2.5K Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=2mSJLNawCO4",
+        "Title": "Gartzia Artz - HUION IS BACK | Kamvas 22 gen 3 The new Queen Great Quality/Price",
+        "Author": "Gartzia Artz",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=IDvACjevj2A",
+        "Title": "Adam Duff LUCIDPIXUL - HUION Kamvas 22 (Gen 3) - A Turning Point For Huion!",
+        "Author": "Adam Duff LUCIDPIXUL",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Mbijan2Gm9U",
+        "Title": "Teoh on Tech - Huion Kamvas 22 (Gen 3) review: Sleek upgrade",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=OkoLPFYgiRU",
+        "Title": "Brad Colbow - Huion Kamvas 22 (Gen 3) Review",
+        "Author": "Brad Colbow",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas 22 GEN3",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-03-03",
+    "Family": "huion.tabletfamily.huion_kamvasgen3",
+    "IncludedPen": [
+      "huion.pen.pw600l"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 475.392,
+      "Height": 267.408
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 130
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "14",
+    "RefreshRate": "90",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 527.7,
+      "Height": 324.7,
+      "Depth": 36.7
+    }
+  }
+}

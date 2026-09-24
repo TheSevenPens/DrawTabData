@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ptz930",
+    "_id": "21159fc7-7147-4115-beb0-cb0371ddc8a5",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTZ-930",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.15-3",
+    "LastSupportedMacOSDriver": "6.3.15-3",
+    "Name": "Intuos3 9x12",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2004",
+    "ReleaseDate": "2004-09-14",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.zp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos3_2004"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 304.8,
+      "Height": 228.6
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 439.5,
+      "Height": 340,
+      "Depth": 14
+    },
+    "Weight": "1800"
+  }
+}

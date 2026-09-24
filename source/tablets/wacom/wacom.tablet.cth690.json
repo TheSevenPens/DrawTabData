@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cth690",
+    "_id": "21687a90-eddd-4727-81cc-bc30b4f04a21",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-690",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.parkablogs.com/node/12104",
+        "Title": "Review: Wacom Intuos 2015 tablet: Draw Art Photo Comic",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Intuos Draw|Art|Photo|Comic Medium",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-09-02",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp190"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos_2015"
+  },
+  "Digitizer": {
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 216,
+      "Height": 135
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "Tilt": "0",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 275,
+      "Height": 217.2,
+      "Depth": 10.7
+    },
+    "Weight": "480"
+  }
+}

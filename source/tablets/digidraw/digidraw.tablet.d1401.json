@@ -1,0 +1,75 @@
+{
+  "Meta": {
+    "EntityId": "digidraw.tablet.d1401",
+    "_id": "285c1c38-c057-4308-9724-157cd2bc683c",
+    "_CreateDate": "2026-04-20T00:00:00Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "DIGIDRAW",
+    "Id": "D1401",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.turingdraw.com/page203",
+        "Author": "DigiDraw",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "Turing 14",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-05-28",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "digidraw.pen.m5"
+    ],
+    "Family": "digidraw.tabletfamily.digidraw_turing_display"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 286.5,
+      "Height": 179
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1600
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99.5,
+      "ADOBERGB": 90,
+      "DCIP3": 93
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 329,
+      "Height": 234,
+      "Depth": 11.8
+    },
+    "Weight": "900"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cth680",
+    "_id": "7dcc5572-b598-4c26-8569-ea0a02ff7eeb",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-680",
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Intuos Pen & Touch M 2013",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2013",
+    "ReleaseDate": "2013-09-04",
+    "Family": "wacom.tabletfamily.wacom_intuos_2013",
+    "IncludedPen": [
+      "wacom.pen.lp180e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 216,
+      "Height": 135
+    },
+    "Density": "100",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 275,
+      "Height": 221.5,
+      "Depth": 10.1
+    },
+    "Weight": "520"
+  }
+}

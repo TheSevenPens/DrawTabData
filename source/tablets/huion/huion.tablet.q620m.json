@@ -1,0 +1,68 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.q620m",
+    "_id": "c9520e0b-5457-4474-8b10-109c08c153c6",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T04:03:26.201Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "Q620M",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-huion-inspiroy-dial-q620m-wireless-graphics-tablet",
+        "Title": "Huion Inspiroy Dial Q620M",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial.html",
+        "Title": "404",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/404"
+        }
+      }
+    ],
+    "Name": "Inspiroy Dial",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-10-13",
+    "IncludedPen": [
+      "huion.pen.pw500"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 267,
+      "Height": 167
+    },
+    "Density": "200",
+    "ReportRate": "233",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 375.5,
+      "Height": 220.4,
+      "Depth": 8
+    },
+    "Weight": "666"
+  }
+}

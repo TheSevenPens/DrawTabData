@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.decomini4",
+    "_id": "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECOMINI4",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/613.html",
+        "Title": "Deco mini7 good starter graphic art tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-mini7.html"
+        }
+      }
+    ],
+    "Name": "Deco Mini 4",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020-06",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p05d"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 101.6,
+      "Height": 76.2
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 260.2,
+      "Height": 162.2,
+      "Depth": 9.3
+    },
+    "Weight": "307"
+  }
+}

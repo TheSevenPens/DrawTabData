@@ -1,0 +1,98 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd120fh",
+    "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD120FH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xp-pen-artist-12-2nd-gen-gift-edition",
+        "Title": "XP-Pen Artist 12 (2nd gen)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/1069.html",
+        "Title": "Artist 12 (2nd Generation) best starter Pen Display tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-12-2nd-gen.html"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/xppen/xppen-cd120fh-notes",
+        "Title": "XP-Pen Artist 12 Gen2 (CD120FH) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist 12 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-09-01",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_artistgen2",
+    "IncludedPen": [
+      "xppen.pen.ph10b"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO",
+    "Dimensions": {
+      "Width": 263.23,
+      "Height": 148.07
+    },
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1",
+    "MaxHover": "10"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178",
+    "ColorGamuts": {
+      "NTSC": 90,
+      "SRGB": 127,
+      "ADOBERGB": 94
+    },
+    "Lamination": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 346.2,
+      "Height": 209,
+      "Depth": 12
+    }
+  }
+}

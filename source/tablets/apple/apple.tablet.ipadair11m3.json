@@ -1,0 +1,62 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadair11m3",
+    "_id": "cf849666-74a2-4d82-960e-9c4364715f8d",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Air-11-M3",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/121881",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "iPad Air 11-inch (M3)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-03-12",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadair",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 229.4,
+      "Height": 159.4
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2360,
+      "Height": 1640
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 247.6,
+      "Height": 178.5,
+      "Depth": 6.1
+    },
+    "Weight": "460"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M3",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

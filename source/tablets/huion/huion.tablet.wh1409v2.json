@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.wh1409v2",
+    "_id": "92357328-ae20-40a4-b570-af719320c879",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "WH1409V2",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/WH1409_V2.html",
+        "Title": "Huion WH1409 V2 Computer Pen Tablet & Art Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-wh1409-v2"
+        }
+      }
+    ],
+    "Name": "Inspiroy WH1409 V2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018",
+    "IncludedPen": [
+      "huion.pen.pw500"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 350,
+      "Height": 218
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 456,
+      "Height": 266,
+      "Depth": 15
+    },
+    "Weight": "1100"
+  }
+}

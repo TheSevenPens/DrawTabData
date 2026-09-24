@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.ep100e",
+  "Brand": "WACOM",
+  "PenId": "EP-100E",
+  "PenName": "Graphire1 pen",
+  "PenFamily": "wacom.penfamily.wacom_ep",
+  "ReleaseYear": "1999",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "11",
+  "Length": "145",
+  "Diameter": "12.5",
+  "BarrelRotation": "NO",
+  "_id": "45e7f4d5-f3bf-43f5-9a8f-5d92d60b6fba",
+  "_CreateDate": "2026-04-01T18:30:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:15.137Z",
+  "PenTech": "PASSIVE_EMR"
+}

@@ -1,0 +1,62 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro129gen3",
+    "_id": "2c5ed7b8-69f1-461d-8eea-0efe9749545f",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-12.9-Gen3",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111968",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "iPad Pro 12.9-inch (3rd generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-11-07",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 262.2,
+      "Height": 196.5
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2732,
+      "Height": 2048
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 280.6,
+      "Height": 214.9,
+      "Depth": 5.9
+    },
+    "Weight": "631"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A12X Bionic",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk1660",
+    "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-1660",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
+        "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html",
+        "Title": "Wacom User Help (DTK-1660)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660E.html",
+        "Title": "Wacom User Help (DTK-1660E)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://cdn.wacom.com/u/support/wiki_migration/c/cd/dtk-1660_en.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=ye8R0LAbkiE",
+        "Title": "Brad Colbow review of Wacom Cintiq 16",
+        "Author": "Brad Colbow",
+        "PublishDate": "2019-01-08",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/6_tMU5z6s9s",
+        "Title": "Ross Draws review of Wacom Cintiq 16",
+        "Author": "Ross Draws",
+        "PublishDate": "2019-02-22",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/nXrFULq096A",
+        "Title": "Aaron Rutten review of Wacom Cintiq 16",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2019-01-07",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/v4qDRupCLHY",
+        "Title": "MobileTechReview review of Wacom Cintiq 16",
+        "Author": "MobileTechReview",
+        "PublishDate": "2019-01-08",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Cintiq 16",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-01-08",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 344,
+      "Height": 194
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "210",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 72,
+      "SRGB": 96
+    },
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 422,
+      "Height": 285,
+      "Depth": 16.6
+    },
+    "Weight": "1900"
+  }
+}

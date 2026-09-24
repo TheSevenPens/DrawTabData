@@ -1,0 +1,39 @@
+{
+  "EntityId": "wacom.pen.acp500",
+  "Brand": "WACOM",
+  "PenId": "ACP-500",
+  "Links": [
+    {
+      "Type": "PRODUCTINFO",
+      "URL": "https://community.wacom.com/en-pe/craftsmanship-wacom-pro-pen-3/",
+      "Title": "Wacom - \"Igniting the creativity of professional artists! The pride of Wacom – Wacom Pro Pen 3\"",
+      "Author": "Wacom",
+      "PublishDate": "2025-01-25"
+    },
+    {
+      "Type": "REVIEW",
+      "URL": "https://www.youtube.com/watch?v=y0LJAcmI7aM",
+      "Title": "Wacom Pro Pen 3: All You Need to Know",
+      "Author": "Teoh On Tech"
+    }
+  ],
+  "PenName": "Pro Pen 3",
+  "PenFamily": "wacom.penfamily.wacom_acp",
+  "ReleaseYear": "2022",
+  "ButtonCount": "3",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "STANDARD",
+  "Weight": "9.1",
+  "Length": "160",
+  "Diameter": "8.4",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "YES",
+  "_id": "60e2abdf-8138-4a0a-a9eb-a82564d73fae",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:15.137Z",
+  "PenTech": "PASSIVE_EMR"
+}

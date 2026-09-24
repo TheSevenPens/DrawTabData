@@ -1,0 +1,67 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist16pro",
+    "_id": "3678e50b-e349-43b5-a90b-72792614a1f2",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST16PRO",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/61.html",
+        "Title": "Artist 16 Pro Professional Digital Art Tablet Monitor",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-16-pro.html"
+        }
+      }
+    ],
+    "Name": "Artist 16 Pro",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xppen.pen.p02s"
+    ]
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 344,
+      "Height": 194
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 92
+    },
+    "ResponseTime": "14",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 405,
+      "Height": 255,
+      "Depth": 30
+    }
+  }
+}

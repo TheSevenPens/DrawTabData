@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtu710",
+    "_id": "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
+    "_CreateDate": "2026-04-03T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTU-710",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtu710-manual.pdf?rev=bb8c71e1d0f046b287ce35cf1930b4b0&amp;hash=FEBFDF618D15CDC5CDC20FA4D52BDE14",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://cdn-media.wacom.com/en-us/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtu710-manual.pdf?rev=bb8c71e1d0f046b287ce35cf1930b4b0&hash=FEBFDF618D15CDC5CDC20FA4D52BDE14"
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "DTU-710",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2005",
+    "ReleaseDate": "2005-03",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqlegacy"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1280,
+      "Height": 1024
+    },
+    "PanelTech": "TFT",
+    "RefreshRate": "75"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 418,
+      "Height": 362,
+      "Depth": 57
+    },
+    "Weight": "5800"
+  }
+}

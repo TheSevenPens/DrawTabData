@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.zp501e",
+  "Brand": "WACOM",
+  "PenId": "ZP-501E",
+  "PenName": "Intuos3 Grip Pen",
+  "PenFamily": "wacom.penfamily.wacom_zp",
+  "ReleaseYear": "2004",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "17",
+  "Length": "174.8",
+  "Diameter": "14.8",
+  "BarrelRotation": "NO",
+  "_id": "2ba8e3c5-77c2-4e0f-9521-09ac35b806b3",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:57.945Z",
+  "PenTech": "PASSIVE_EMR"
+}

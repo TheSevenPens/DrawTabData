@@ -1,0 +1,151 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gs1563",
+    "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GS1563",
+    "Links": [
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://driverdl.huion.com/instruction/Kamvas16-Gen3/User_Manual_Kamvas16_Gen3_en.pdf",
+        "Author": "Huion",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
+        "Title": "Huion Kamvas 16 (Gen 3) - 2.5K QHD Pen Display with PenTech 4.0",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-16-gen-3"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=-qmdAHY4f40",
+        "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)",
+        "Author": "SevenPens",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=-Xq7oHPpUHQ",
+        "Title": "Teoh on Tech blog review of Huion Kamvas 16 GEN3 (GS1563)",
+        "Author": "Teoh on Tech blog",
+        "PublishDate": "2025-01-09",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=EA4A5B4GcUY",
+        "Title": "Adam Duff review of Huion Kamvas 16 GEN3 (GS1563)",
+        "Author": "Adam Duff",
+        "PublishDate": "2025-01-13",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=KSmhwa6MUjM",
+        "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 2)",
+        "Author": "SevenPens",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=t2gEAky5ns8",
+        "Title": "Brad Colbow review of Huion Kamvas 16 GEN3 (GS1563)",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-01-07",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas 16 GEN3",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-01-07",
+    "Audience": "Consumer",
+    "Family": "huion.tabletfamily.huion_kamvasgen3",
+    "IncludedPen": [
+      "huion.pen.pw600l"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 350,
+      "Height": 197
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 120
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 421.2,
+      "Height": 236.81,
+      "Depth": 12.62
+    },
+    "Weight": "1245",
+    "WeightInclStand": "NO"
+  }
+}

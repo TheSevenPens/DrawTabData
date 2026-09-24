@@ -1,0 +1,85 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md140fh",
+    "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD140FH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-14-2nd-gen",
+        "Title": "XPPen Artist Pro 14 (gen 2)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-14-gen-2.html",
+        "Title": "Artist Pro 14 (Gen 2)",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 14 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-08-14",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen2_2023",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 299,
+      "Height": 187
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "AccuracyCorner": "0.8",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1200
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "800",
+    "ColorBitDepth": "8",
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 359.3,
+      "Height": 268.57,
+      "Depth": 19.31
+    },
+    "Weight": "1415"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Meta": {
+    "EntityId": "ugee.tablet.ue12",
+    "_id": "47874a1b-e395-4d2a-b558-658dffcc2a83",
+    "_CreateDate": "2026-04-03T06:01:40.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "UGEE",
+    "Id": "UE12",
+    "Name": "UE12 Drawing Monitor",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-10"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 256.32,
+      "Height": 144.18
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "200",
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "SRGB": 124,
+      "ADOBERGB": 90,
+      "DCIP3": 90
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 355,
+      "Height": 224,
+      "Depth": 12
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h950p",
+    "_id": "356a2e97-a2f1-46bc-8562-c917c5d00f75",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H950P",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/H950P.html",
+        "Title": "Huion Inspiroy H950P Comfortable Pen Tablet for Beginners",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-h950p"
+        }
+      }
+    ],
+    "Name": "H950P",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 221,
+      "Height": 138
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 320.8,
+      "Height": 188.8,
+      "Depth": 8
+    },
+    "Weight": "497"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ct0405u_2004",
+    "_id": "801b8cd8-a4c2-487e-8d2b-13fdfc30fb52",
+    "_CreateDate": "2026-04-20T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CT-0405-U",
+    "IdSuffix": "2004",
+    "Name": "PenPartner A8 USB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2004",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_penpartner_legacy"
+  }
+}

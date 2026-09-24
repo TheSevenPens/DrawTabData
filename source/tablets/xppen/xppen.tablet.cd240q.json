@@ -1,0 +1,73 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd240q",
+    "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD240Q",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/932.html",
+        "Title": "Artist 24 Large display drawing tablet for artists",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-24.html"
+        }
+      }
+    ],
+    "Name": "Artist 24",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.pa6"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 527,
+      "Height": 296
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1.5",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "NTSC": 90,
+      "SRGB": 127,
+      "ADOBERGB": 94
+    },
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 590,
+      "Height": 361,
+      "Depth": 34
+    }
+  }
+}

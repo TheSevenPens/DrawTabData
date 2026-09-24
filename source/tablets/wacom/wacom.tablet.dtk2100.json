@@ -1,0 +1,67 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk2100",
+    "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-2100",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-cintiq/wacom-dtk2100-notes",
+        "Title": "Wacom Cintiq 21UX 2010 (DTK-2100) notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.15-3",
+    "LastSupportedMacOSDriver": "6.3.15-3",
+    "Name": "Cintiq 21UX 2010",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2010",
+    "ReleaseDate": "2010-03-26",
+    "Family": "wacom.tabletfamily.wacom_cintiq",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 432,
+      "Height": 324
+    },
+    "Density": "200",
+    "ReportRate": "133",
+    "Tilt": "40",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "4",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1600,
+      "Height": 1200
+    },
+    "PanelTech": "IPS",
+    "Brightness": "200",
+    "Contrast": "550",
+    "ColorBitDepth": "8",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "20"
+  },
+  "Physical": {
+    "Weight": "8700"
+  }
+}

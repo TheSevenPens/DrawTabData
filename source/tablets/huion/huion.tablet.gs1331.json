@@ -1,0 +1,141 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gs1331",
+    "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GS1331",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-huion-kamvas-13-pen-display-just-us-239",
+        "Title": "Huion KAMVAS 13",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-13.html",
+        "Title": "Huion Kamvas 13 Portable Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-13"
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://www.huion.com/user-manual-70",
+        "Title": "HUION Manual",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/manual/kamvas-13"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=ku8x1q_nhFQ",
+        "Title": "Brad Colbow review of Huion Kamvas 13",
+        "Author": "Brad Colbow",
+        "PublishDate": "2020-03-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=yn1eJFsrFnY",
+        "Title": "Teoh on Tech review of Huion Kamvas 13",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2020-05-01",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/rgaqRLhct0A",
+        "Title": "Create Now Sleep Later review of Huion Kamvas 13",
+        "Author": "Create Now Sleep Later",
+        "PublishDate": "2020-04-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas 13",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020-01-07",
+    "Audience": "Consumer",
+    "Family": "huion.tabletfamily.huion_kamvas_2020",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 294,
+      "Height": 165
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 120
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 366.5,
+      "Height": 217.4,
+      "Depth": 11.8
+    },
+    "Weight": "980"
+  }
+}

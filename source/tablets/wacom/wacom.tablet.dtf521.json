@@ -1,0 +1,47 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtf521",
+    "_id": "a7c3e1d2-5f84-4b9a-8e12-6d3a2c7f9b01",
+    "_CreateDate": "2026-04-03T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTF-521",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://cdn-media.wacom.com/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf521-manual.pdf?rev=49798cb00b0d4b288378a7b650f2b466&amp;hash=CE0B216130C791BC26193930707A2A90",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://cdn-media.wacom.com/en-us/events/-/media/graveyard/wacomdotcom/files/store-manuals/legacy-models/dtf521-manual.pdf?rev=49798cb00b0d4b288378a7b650f2b466&hash=CE0B216130C791BC26193930707A2A90"
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "DTF-521",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2005",
+    "ReleaseDate": "2005-03",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqlegacy"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1024,
+      "Height": 768
+    },
+    "PanelTech": "TFT",
+    "RefreshRate": "75"
+  }
+}

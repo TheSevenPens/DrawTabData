@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.mt0962b",
+    "_id": "2209f868-50c5-4720-8428-6b9197dbef57",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MT0962B",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
+        "Title": "Deco Pro (Gen 2) Series",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Deco Pro MW GEN2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-08-14",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_decoprogen2",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 229,
+      "Height": 152
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 283,
+      "Height": 227.1,
+      "Depth": 10.66
+    }
+  }
+}

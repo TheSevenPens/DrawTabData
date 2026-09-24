@@ -1,0 +1,123 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md270uh",
+    "_id": "7215483d-78a4-4cad-b6b8-b6acaea71091",
+    "_CreateDate": "2026-04-22T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD270UH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/xppen-artist-pro-27-gen-2-4k-touchscreen-pen-display",
+        "Title": "XPPen Artist Pro 27 (gen 2)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-27-gen-2.html",
+        "Title": "XPPen Artist Pro 27 (Gen 2): 4K 120Hz Pen Display with X-Touch",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=6ilVAoFGIrc",
+        "Title": "Brad Colbow - XP Pen Artist Pro 27 Review",
+        "Author": "Brad Colbow",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Vq0hs7LeZtg",
+        "Title": "David Revoy - XpPen Artist Pro 27 Gen2 - review on GNU/Linux",
+        "Author": "David Revoy",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=yDuRYEd732U",
+        "Title": "Teoh on Tech - XPPen Artist Pro 27 (gen 2) pen display has everything",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 27 (Gen 2)",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-03-20",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xppen.pen.pd21",
+      "xppen.pen.pd51"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 596.7,
+      "Height": 335.7
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "350",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 99,
+      "DISPLAYP3": 97
+    },
+    "Lamination": "YES",
+    "RefreshRate": "120",
+    "ResponseTime": "5",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 681.3,
+      "Height": 423.8,
+      "Depth": 44
+    },
+    "Weight": "7000"
+  }
+}

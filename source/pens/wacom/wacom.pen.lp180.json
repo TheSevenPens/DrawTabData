@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.lp180",
+  "Brand": "WACOM",
+  "PenId": "LP-180",
+  "PenName": "LP-180",
+  "PenFamily": "wacom.penfamily.wacom_lp",
+  "ReleaseYear": "2009",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "10.8",
+  "Length": "144.4",
+  "Diameter": "11.2",
+  "BarrelRotation": "NO",
+  "_id": "c88ce7ad-9ccd-4b75-8dc0-fcd8fd4f7d28",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:21:28.965Z",
+  "PenTech": "PASSIVE_EMR"
+}

@@ -1,0 +1,80 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth1620",
+    "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-1620",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html",
+        "Title": "Wacom User Help (DTH-1620)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Cintiq Pro 16 2016",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016-11-16",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 345,
+      "Height": 194
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ResponseTime": "25",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "176",
+    "ViewingAngleVertical": "176"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 410,
+      "Height": 265,
+      "Depth": 17.5
+    },
+    "Weight": "1500"
+  }
+}

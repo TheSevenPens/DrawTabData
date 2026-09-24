@@ -1,0 +1,18 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.wt460m",
+    "_id": "57c68629-5451-4a2d-8d19-925f0c658d2d",
+    "_CreateDate": "2026-04-21T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "WT-460M",
+    "Status": "DISCONTINUED",
+    "Name": "WT-460M (A5)",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1987",
+    "ReleaseDate": "1987-07",
+    "Family": "wacom.tabletfamily.wacom_wt_legacy"
+  }
+}

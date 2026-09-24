@@ -1,0 +1,69 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth1320",
+    "_id": "3b565a01-0544-4dee-bbd2-aeba06af96b4",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-1320",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1320.html",
+        "Title": "Wacom User Help (DTH-1320)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Cintiq Pro 13",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016-11-16",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 294,
+      "Height": 166
+    },
+    "Density": "200",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "250",
+    "Contrast": "930",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 87
+    },
+    "ResponseTime": "20",
+    "ViewingAngleHorizontal": "160",
+    "ViewingAngleVertical": "160"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 360,
+      "Height": 235,
+      "Depth": 11.9
+    },
+    "Weight": "1100"
+  }
+}

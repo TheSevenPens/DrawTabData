@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.lp1100k",
+  "Brand": "WACOM",
+  "PenId": "LP-1100K",
+  "PenName": "4K Pen",
+  "PenFamily": "wacom.penfamily.wacom_lp",
+  "ReleaseYear": "2018",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "4096",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "11",
+  "Length": "139",
+  "Diameter": "12",
+  "BarrelRotation": "NO",
+  "_id": "8c5116c8-ed64-4036-8cf8-7bead383d4ed",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:21:28.965Z",
+  "PenTech": "PASSIVE_EMR"
+}

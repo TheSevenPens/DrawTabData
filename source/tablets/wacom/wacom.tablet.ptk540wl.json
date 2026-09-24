@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ptk540wl",
+    "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTK-540WL",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.picmod.com/goods.php?id=143",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.41-1",
+    "LastSupportedMacOSDriver": "6.3.41-2",
+    "Name": "Intuos4 Wireless",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-03-24",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos4_2009"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 203.2,
+      "Height": 127
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 363,
+      "Height": 253,
+      "Depth": 15
+    },
+    "Weight": "900"
+  }
+}

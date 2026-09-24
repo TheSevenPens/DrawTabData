@@ -1,0 +1,70 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist22pro",
+    "_id": "3f6e570c-d6af-4b2f-80f8-1f0ee8b2ead6",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST22PRO",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/62.html",
+        "Title": "Artist 22 Pro Large Pen Display Monitor",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-22-pro.html"
+        }
+      }
+    ],
+    "Name": "Artist 22 Pro",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-12",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xppen.pen.p02s"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 477,
+      "Height": 268
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "15",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 77
+    },
+    "ResponseTime": "14",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 517,
+      "Height": 321,
+      "Depth": 30
+    }
+  }
+}

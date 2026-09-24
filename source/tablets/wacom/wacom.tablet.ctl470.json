@@ -1,0 +1,46 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl470",
+    "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-470",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "Bamboo Connect",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2011",
+    "ReleaseDate": "2011-09-27",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp170"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_bamboo_2011",
+    "AlternateNames": [
+      "Bamboo Pen S"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 147.2,
+      "Height": 92
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 278,
+      "Height": 176,
+      "Depth": 9.8
+    },
+    "Weight": "390"
+  }
+}

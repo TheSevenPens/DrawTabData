@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cte640",
+    "_id": "819a2d36-c970-4b7b-a0e5-17b96aebe911",
+    "_CreateDate": "2026-04-01T18:26:13.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTE-640",
+    "LastSupportedWindowsDriver": "5.2.5-5a",
+    "LastSupportedMacOSDriver": "5.3.0-3",
+    "Status": "DISCONTINUED",
+    "Name": "Graphire4 6x8",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2005",
+    "ReleaseDate": "2005-09-13",
+    "IncludedPen": [
+      "wacom.pen.ep140e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_graphire_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 208.8,
+      "Height": 150.8
+    },
+    "Density": "80",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 278,
+      "Height": 263.8,
+      "Depth": 18
+    },
+    "Weight": "860"
+  }
+}

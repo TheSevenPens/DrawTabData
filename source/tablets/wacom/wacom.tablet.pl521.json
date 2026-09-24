@@ -1,0 +1,22 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl521",
+    "_id": "5b6e3f51-abfc-44fb-9048-fcd40eef90b1",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-521",
+    "Name": "Cintiq 15SX",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2007",
+    "ReleaseDate": "2007-08",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "SupportsTouch": "NO"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk2700",
+    "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-2700",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/picture/wacom-previews-cintiq-27qhd-pen-display-tablet",
+        "Title": "Wacom Cintiq 27QHD",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2700.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
+        "Title": "product page",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/G8SYYpnXmHk",
+        "Title": "Jazza review of Wacom Cintiq 27 QHD",
+        "Author": "Jazza",
+        "PublishDate": "2016-02-07",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/rzzB2_iiJQA",
+        "Title": "Aaron Rutten review of Wacom Cintiq 27 QHD",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2016-11-07",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.4.10-3",
+    "LastSupportedMacOSDriver": "6.4.10-3",
+    "Name": "Cintiq 27 QHD",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2015",
+    "ReleaseDate": "2015-01-06",
+    "IncludedPen": [
+      "wacom.pen.kp503e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 597,
+      "Height": 336
+    },
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "AHVA",
+    "Brightness": "330",
+    "Contrast": "970",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "ADOBERGB": 97
+    },
+    "ResponseTime": "12",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 770,
+      "Height": 465,
+      "Depth": 54.4
+    },
+    "Weight": "9000",
+    "WeightInclStand": "NO"
+  }
+}

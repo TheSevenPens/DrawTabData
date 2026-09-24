@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro13m5",
+    "_id": "601c8103-f6d8-472d-9f25-d1ddba36ccc9",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-13-M5",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.apple.com/shop/buy-ipad/ipad-pro",
+        "Title": "Shop iPad Pro - Apple",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 13-inch (M5)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-10-22",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 264.2,
+      "Height": 198.1
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2752,
+      "Height": 2064
+    },
+    "PanelTech": "OLED",
+    "Lamination": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 281.6,
+      "Height": 215.5,
+      "Depth": 5.1
+    },
+    "Weight": "579"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M5",
+    "USB": "USB-C (Thunderbolt 5)",
+    "Speakers": "YES"
+  }
+}

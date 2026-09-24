@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h430p",
+    "_id": "61aef1d3-4824-4c09-8c87-f4e958b98e67",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H430P",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/H430P.html",
+        "Title": "Huion Inspiroy H430P Graphics Tablet for Beginners",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-h430p"
+        }
+      }
+    ],
+    "Name": "H430P",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2017",
+    "ReleaseDate": "2017",
+    "IncludedPen": [
+      "huion.pen.pw201"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "4096",
+    "Dimensions": {
+      "Width": 121.92,
+      "Height": 76.2
+    },
+    "Density": "200",
+    "ReportRate": "233",
+    "Tilt": "0",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 186.6,
+      "Height": 139.2,
+      "Depth": 6.3
+    },
+    "Weight": "135"
+  }
+}

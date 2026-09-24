@@ -1,0 +1,30 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-A1300",
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Cintiq Companion Hybrid",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2013",
+    "Status": "DISCONTINUED",
+    "Notes": "Standalone Android pen computer (also usable as a tethered Cintiq). Specs pending."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    }
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dtha1300",
+    "_id": "17fe5a44-7ce1-451e-929a-f7287dcfebf9",
+    "_CreateDate": "2026-07-19T04:17:17.523Z",
+    "_ModifiedDate": "2026-07-19T04:17:17.523Z"
+  }
+}

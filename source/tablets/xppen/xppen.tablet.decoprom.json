@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.decoprom",
+    "_id": "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECOPROM",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/915.html",
+        "Title": "Deco Pro SW/MW Professional Bluetooth Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-pro-series-bluetooth.html"
+        }
+      }
+    ],
+    "Name": "Deco Pro M",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-03",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_decopro_2019",
+    "IncludedPen": [
+      "xppen.pen.pa1"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 279,
+      "Height": 152
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 399.7,
+      "Height": 227,
+      "Depth": 16.5
+    }
+  }
+}

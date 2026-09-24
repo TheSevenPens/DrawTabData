@@ -1,0 +1,163 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtha140",
+    "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-A140",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/wacom-movinkpad-pro-14",
+        "Title": "Wacom MovinkPad Pro 14, A tool for creators that pushes the boundaries of the imagination",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=CRxC_tyyUCk",
+        "Title": "Teoh on Tech - Wacom MovinkPad Pro 14 review",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Hizl2R9qTGM",
+        "Title": "Teoh on Tech - Apple nano-texture glass vs MovinkPad Pro 14 matte glass",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=L2A1lis4_Ng",
+        "Title": "Gartzia Arts - Review of MovinkPad Pro 14",
+        "Author": "Gartzia Arts",
+        "PublishDate": "2025-12-16",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=lpBGmiO4f7I",
+        "Title": "Brad Colbow - Review MovinkPad Pro 14",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-10-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
+        "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+        "Author": "Brad Colbow",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=NK2_dIGQKk8",
+        "Title": "Seven Pens - Budget Android Drawing Tablet Recommendations for 2025",
+        "Author": "Seven Pens",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Wacom MovinkPad Pro 14",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-10-01",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.acp500"
+    ],
+    "Family": "wacom.tabletfamily.wacom_movinkpad_2025"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 302,
+      "Height": 189
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2880,
+      "Height": 1800
+    },
+    "PanelTech": "OLED",
+    "Brightness": "400",
+    "BrightnessPeak": "900",
+    "Contrast": "100000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "SRGB": 100,
+      "DCIP3": 100
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "120",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 323.3,
+      "Height": 210,
+      "Depth": 5.9
+    },
+    "Weight": "699"
+  },
+  "Standalone": {
+    "OS": "Android 15",
+    "Processor": "Snapdragon 8s Gen 3",
+    "RAM": "12",
+    "Storage": "256",
+    "ExpandableStorage": "YES",
+    "MemoryCardSlot": "microSD",
+    "BatteryCapacity": "10000",
+    "BatteryLife": "10.5",
+    "Wifi": "802.11a/b/g/n/ac/ax",
+    "Bluetooth": "5.4",
+    "USB": "USB-C (USB 2.0)",
+    "Speakers": "YES"
+  }
+}

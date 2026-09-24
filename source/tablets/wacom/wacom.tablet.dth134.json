@@ -1,0 +1,81 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth134",
+    "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-134",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/wacom-one",
+        "Title": "Wacom One DTC141 : Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://101.wacom.com/userhelp/en/toc/dth134.html",
+        "Title": "Wacom User Help (DTH134)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Wacom One 13 touch 2023",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-08-10",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.cp923"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "4096",
+    "Dimensions": {
+      "Width": 294,
+      "Height": 165
+    },
+    "Density": "100",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "320",
+    "Contrast": "2000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99
+    },
+    "AntiGlare": "AGFILM"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 336,
+      "Height": 222,
+      "Depth": 12
+    },
+    "Weight": "900"
+  }
+}

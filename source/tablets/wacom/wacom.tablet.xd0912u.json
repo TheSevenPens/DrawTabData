@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.xd0912u",
+    "_id": "06163869-1f1b-49c3-8797-8a6b29c0411f",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "XD-0912-U",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "http://101.wacom.com/productsupport/mac_manuals/IntuosUserManual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.2.0w5",
+    "LastSupportedMacOSDriver": "6.2.0w4",
+    "Name": "Intuos2 9x12 USB",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09-10",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.xp501e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_intuos2_2001"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 304.8,
+      "Height": 240.6
+    },
+    "Density": "100",
+    "ReportRate": "100",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 456,
+      "Height": 361,
+      "Depth": 14
+    },
+    "Weight": "1600"
+  }
+}

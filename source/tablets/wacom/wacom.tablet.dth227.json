@@ -1,0 +1,110 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth227",
+    "_id": "f74b002f-cac5-4490-9ace-943893d53427",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-227",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH227.html",
+        "Title": "Wacom User Help (DTH227)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://support.wacom.com/hc/en-us/articles/1500006268761-What-accessories-are-available-for-my-Wacom-Cintiq-22",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-overview",
+        "Title": "Wacom Cintiq Pro range: creative pen displays",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "ACTIVE",
+    "Name": "Cintiq Pro 22",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-10-19",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.acp500"
+    ],
+    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 476,
+      "Height": 268
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "300",
+    "Contrast": "1200",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "DCIP3": 99,
+      "ADOBERGB": 95,
+      "REC709": 100
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "12",
+    "RefreshRate": "120",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 517,
+      "Height": 312,
+      "Depth": 30
+    },
+    "Weight": "5000"
+  }
+}

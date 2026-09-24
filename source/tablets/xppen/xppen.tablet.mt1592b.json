@@ -1,0 +1,93 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.mt1592b",
+    "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MT1592B",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-pro-gen-2-series.html",
+        "Title": "Deco Pro (Gen 2) Series",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=itnwkJVlWiw",
+        "Title": "EyekooDrawsStuff review of XP-Pen Deco Pro GEN2",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2024-11-29",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/h8NG0zmYdtE",
+        "Title": "Teoh on Tech review of XP-Pen Deco Pro GEN2",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/pRLBRTWPlQU",
+        "Title": "Joseph Montanez XP-Pen Deco Pro GEN2 XLW",
+        "Author": "Joseph Montanez",
+        "PublishDate": "2023-06-20",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Deco Pro XLW GEN2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-08-14",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_decoprogen2",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 381,
+      "Height": 229
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 435,
+      "Height": 313.1,
+      "Depth": 10.66
+    }
+  }
+}

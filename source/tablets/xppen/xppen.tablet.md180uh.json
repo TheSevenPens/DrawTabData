@@ -1,0 +1,121 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md180uh",
+    "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD180UH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-19-gen-2",
+        "Title": "XPPen Artist Pro 19 (gen 2)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-19-gen-2.html",
+        "Title": "XPPen Artist Pro 19 (Gen 2): The Best 4K Drawing Tablet with 16K Pressure Sensitivity",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=d51hmYgfz5E",
+        "Title": "Teoh on Tech - Review of XP-Pen Artist Pro 19 (GEN2)",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2024-10-22",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=d8Ft3b002LM",
+        "Title": "David Review - Review of XP-Pen Artist Pro 19 GEN2",
+        "Author": "David Review",
+        "PublishDate": "2024-11-20",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=eByrnaa0vf8",
+        "Title": "Brad Colbow - XP Pen Artist Pro 19 (GEN 2) Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2024-08-27",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 19 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-08-19",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen2_2023",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 409,
+      "Height": 230
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "AccuracyCorner": "0.8",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "Brightness": "250",
+    "ColorBitDepth": "10",
+    "Lamination": "YES",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 460,
+      "Height": 306.6,
+      "Depth": 21.5
+    },
+    "Weight": "2230.00"
+  }
+}

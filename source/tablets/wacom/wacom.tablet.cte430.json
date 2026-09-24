@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cte430",
+    "_id": "77471e7e-24fb-4504-82f6-4383c87ef761",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTE-430",
+    "LastSupportedWindowsDriver": "5.2.5-5a",
+    "LastSupportedMacOSDriver": "5.2.6-5",
+    "Status": "DISCONTINUED",
+    "Name": "Graphire3 4x5",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2003",
+    "ReleaseDate": "2003-09",
+    "IncludedPen": [
+      "wacom.pen.ep130"
+    ],
+    "Family": "wacom.tabletfamily.wacom_graphire_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127.6,
+      "Height": 92.8
+    },
+    "Density": "80",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 210,
+      "Height": 208,
+      "Depth": 17.5
+    },
+    "Weight": "500"
+  }
+}

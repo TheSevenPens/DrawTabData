@@ -1,0 +1,67 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.deco03",
+    "_id": "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECO03",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xp-pen-deco-03-graphics-drawing-tablet-wireless",
+        "Title": "XP-Pen Deco 03 wireless",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/89.html",
+        "Title": "Deco 03 Wireless Graphic Art Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-03-wireless.html"
+        }
+      }
+    ],
+    "Name": "Deco 03",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018-10",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p05"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 143
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 354,
+      "Height": 218,
+      "Depth": 8
+    }
+  }
+}

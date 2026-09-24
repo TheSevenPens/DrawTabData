@@ -23,17 +23,6 @@
       "_ModifiedDate": "2026-04-26T00:00:00.000Z"
     },
     {
-      "EntityId": "apple.pen.a3085",
-      "Brand": "APPLE",
-      "PenId": "A3085",
-      "PenName": "Apple Pencil (USB-C)",
-      "PenFamily": "apple.penfamily.applepencil",
-      "ReleaseYear": "2023",
-      "_id": "893d55e9-3697-45c8-999b-eb566097c6df",
-      "_CreateDate": "2026-04-24T00:00:00.000Z",
-      "_ModifiedDate": "2026-04-26T00:00:00.000Z"
-    },
-    {
       "EntityId": "apple.pen.a2538",
       "Brand": "APPLE",
       "PenId": "A2538",
@@ -44,6 +33,17 @@
       "_id": "ef3d41f6-a7c4-4017-af6e-86e9ac292191",
       "_CreateDate": "2026-04-24T00:00:00.000Z",
       "_ModifiedDate": "2026-04-28T00:00:00.000Z"
+    },
+    {
+      "EntityId": "apple.pen.a3085",
+      "Brand": "APPLE",
+      "PenId": "A3085",
+      "PenName": "Apple Pencil (USB-C)",
+      "PenFamily": "apple.penfamily.applepencil",
+      "ReleaseYear": "2023",
+      "_id": "893d55e9-3697-45c8-999b-eb566097c6df",
+      "_CreateDate": "2026-04-24T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-26T00:00:00.000Z"
     }
   ]
 }

@@ -1,0 +1,143 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt2402",
+    "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
+    "_CreateDate": "2025-12-13T16:20:23.250Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT2402",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/huion-kamvas-pro-24-gen-3-2025-review",
+        "Title": "Huion Kamvas Pro 24 (gen 3)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
+        "Title": "Huion Kamvas Pro 24 (4K) - 23.8'' UHD Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-pro-24-4k"
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
+        "Author": "Huion",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=6E7fCBuXQlA",
+        "Title": "Teoh on Tech - Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2026-02-01",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=QXNex8UZZi8",
+        "Title": "Brad Colbow - Huion Kamvas 24 Pro (Gen 3) Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-10-24",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=XgOq3xCci20",
+        "Title": "Trent Kaniuga - Huion Kamvas Pro 24 Gen 3 Review",
+        "Author": "Trent Kaniuga",
+        "PublishDate": "2026-07-02",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 24 GEN3",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-10-17",
+    "Audience": "Professional",
+    "Family": "huion.tabletfamily.huion_kamvasgen3",
+    "IncludedPen": [
+      "huion.pen.pw600",
+      "huion.pen.pw600s"
+    ],
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 525.888,
+      "Height": 295.812
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1",
+    "MaxHover": "9",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "10",
+    "ColorGamuts": {
+      "SRGB": 140
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "14",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 589.2,
+      "Height": 364,
+      "Depth": 22.7
+    },
+    "Weight": "6365",
+    "WeightInclStand": "YES"
+  }
+}

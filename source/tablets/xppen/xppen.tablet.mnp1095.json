@@ -1,0 +1,131 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.mnp1095",
+    "_id": "c18123a6-c9c3-47cd-8a16-b3064069d79f",
+    "_CreateDate": "2026-04-26T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MNP1095",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/magic-note-pad.html",
+        "Title": "Magic Note Pad: A Paper-Like LCD Writing Tablet That's Perfect for Note-Taking",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
+        "Title": "Teoh on Tech - Review of Magic Drawing Pad 2025 with Magic Note Pad",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2025-08-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=EDYnCV500ls",
+        "Title": "Brad Colbow - XP Pen Magic Note Pad Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-03-20",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=NBQVDfx1WtA",
+        "Title": "Teoh on Tech - Note taking and JNotes review with XPPEN MAGIC NOTE PAD",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2025-03-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=yXoHq2offvU",
+        "Title": "Teoh on Tech - XPPen Magic Note Pad (artist review): Read, write & draw",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2025-03-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Magic Note Pad",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-03-19",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.pd04b"
+    ],
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 236,
+      "Height": 148
+    },
+    "Density": "200",
+    "AccuracyCenter": "0.4",
+    "AccuracyCorner": "1.5",
+    "MaxHover": "10",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1200
+    },
+    "Brightness": "400",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 95
+    },
+    "Lamination": "YES",
+    "RefreshRate": "90"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 259,
+      "Height": 182,
+      "Depth": 7
+    },
+    "Weight": "495"
+  },
+  "Standalone": {
+    "OS": "Android 14",
+    "Processor": "MediaTek MT8781",
+    "RAM": "6",
+    "Storage": "128",
+    "BatteryChargingWatts": "20",
+    "Wifi": "802.11a/b/g/n/ac",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

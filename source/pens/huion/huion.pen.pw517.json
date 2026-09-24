@@ -1,0 +1,37 @@
+{
+  "EntityId": "huion.pen.pw517",
+  "Brand": "HUION",
+  "PenId": "PW517",
+  "Links": [
+    {
+      "Type": "STORE",
+      "URL": "https://store.huion.com/products/battery-free-pen-pw517",
+      "Author": "Huion"
+    },
+    {
+      "Type": "REVIEW",
+      "URL": "https://youtu.be/vk4DlVGU6-Q",
+      "Title": "Huion PW550 pen versus PW517 pen",
+      "Author": "SevenPens"
+    }
+  ],
+  "PenName": "PW517",
+  "PenFamily": "",
+  "ReleaseYear": "2020",
+  "PenTech": "PASSIVE_EMR",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "YES",
+  "ButtonCount": "2",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "STANDARD",
+  "Weight": "14",
+  "Length": "163.7",
+  "Diameter": "14.3",
+  "_id": "5024f26b-1c19-42e5-8194-7cdf855a6c50",
+  "_CreateDate": "2026-04-01T20:29:11.000Z",
+  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+}

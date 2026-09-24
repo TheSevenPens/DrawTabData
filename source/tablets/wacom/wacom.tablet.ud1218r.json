@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ud1218r",
+    "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "UD-1218-R",
+    "Status": "DISCONTINUED",
+    "Name": "Ultrapad Digitizer II 12x18 SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1996",
+    "ReleaseDate": "1996-03-01",
+    "IncludedPen": [
+      "wacom.pen.up801e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 457.2,
+      "Height": 304.8
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 572,
+      "Height": 430,
+      "Depth": 56
+    },
+    "Weight": "3300"
+  }
+}

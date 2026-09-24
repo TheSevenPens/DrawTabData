@@ -1,0 +1,80 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt2701",
+    "_id": "28db076b-a8af-4681-abef-9b3018b0df04",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT2701",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-27.html",
+        "Title": "Huion Kamvas Pro 27 - 27&Prime; 4K Large Pen Display",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-pro-27"
+        }
+      }
+    ],
+    "Name": "Kamvas Pro 27",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-01-09",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw600"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 597,
+      "Height": 336
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "300",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "ADOBERGB": 98,
+      "SRGB": 99,
+      "DCIP3": 97
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "14",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 656.1,
+      "Height": 405,
+      "Depth": 22.7
+    },
+    "Weight": "8000",
+    "WeightInclStand": "NO"
+  }
+}

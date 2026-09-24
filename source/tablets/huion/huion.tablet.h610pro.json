@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h610pro",
+    "_id": "9679f7c4-6bb5-4be6-936c-3798700f0f0b",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H610PRO",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Huion/H610PRO.html",
+        "Title": "404",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/404"
+        }
+      }
+    ],
+    "Name": "H610PRO",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016",
+    "IncludedPen": [
+      "huion.pen.pen80"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 159
+    },
+    "Density": "200",
+    "ReportRate": "266",
+    "Tilt": "0",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "12",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 353,
+      "Height": 245,
+      "Depth": 10
+    },
+    "Weight": "635"
+  }
+}

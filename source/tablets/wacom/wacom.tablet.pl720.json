@@ -1,0 +1,25 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.pl720",
+    "_id": "45abe4ca-a680-4fcf-802e-07ca8a362d95",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PL-720",
+    "Name": "Cintiq 17SX 2009",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2009",
+    "ReleaseDate": "2009-09",
+    "IncludedPen": [
+      "wacom.pen.up911e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqpl"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "SupportsTouch": "NO"
+  }
+}

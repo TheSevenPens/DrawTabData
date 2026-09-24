@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.zp600",
+  "Brand": "WACOM",
+  "PenId": "ZP-600",
+  "PenName": "Intuos3 Art Marker Pen",
+  "PenFamily": "wacom.penfamily.wacom_zp",
+  "ReleaseYear": "2004",
+  "ButtonCount": "0",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "14",
+  "Length": "146.7",
+  "Diameter": "15.5",
+  "BarrelRotation": "YES",
+  "_id": "79d0abb9-038f-4e2d-ad43-d8c6394b33e4",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:24:57.945Z",
+  "PenTech": "PASSIVE_EMR"
+}

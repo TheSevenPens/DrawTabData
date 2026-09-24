@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.mte450",
+    "_id": "b1f9b803-7dd6-48c7-b007-9b772023da62",
+    "_CreateDate": "2026-04-01T18:26:13.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "MTE-450",
+    "LastSupportedWindowsDriver": "5.2.5-5a",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Status": "DISCONTINUED",
+    "Name": "Bamboo MTE-450",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2007",
+    "ReleaseDate": "2007-05-15",
+    "IncludedPen": [
+      "wacom.pen.ep150e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_bamboo_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 147.6,
+      "Height": 92.3
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 200,
+      "Height": 186,
+      "Depth": 10.7
+    },
+    "Weight": "370"
+  }
+}

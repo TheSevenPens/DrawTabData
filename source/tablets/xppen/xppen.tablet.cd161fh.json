@@ -1,0 +1,76 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd161fh",
+    "_id": "e209ec6c-8389-4041-b77f-25bf578d358b",
+    "_CreateDate": "2026-04-16T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD161FH",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/store/buy/artist-16-3rd.html",
+        "Title": "Artist 16 3rd Pen Display Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist 16 3rd",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-04-17",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_artistgen3",
+    "IncludedPen": [
+      "xppen.pen.pd52"
+    ],
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 342,
+      "Height": 193
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.2",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "270",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 98,
+      "DISPLAYP3": 97
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 407.9,
+      "Height": 232.8,
+      "Depth": 12.8
+    },
+    "Weight": "1355"
+  }
+}

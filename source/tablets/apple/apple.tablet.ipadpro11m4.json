@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadpro11m4",
+    "_id": "c9715808-922a-4052-a63e-85ce59bf2b2a",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Pro-11-M4",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/119892",
+        "Title": "iPad Pro 11‑inch (M4) - Tech Specs - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Pro 11-inch (M4)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-05-15",
+    "Audience": "Professional",
+    "Family": "apple.tabletfamily.ipadpro",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 230,
+      "Height": 158.6
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2420,
+      "Height": 1668
+    },
+    "PanelTech": "OLED",
+    "Lamination": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 249.7,
+      "Height": 177.5,
+      "Depth": 5.3
+    },
+    "Weight": "444"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M4",
+    "USB": "USB-C (Thunderbolt 4)",
+    "Speakers": "YES"
+  }
+}

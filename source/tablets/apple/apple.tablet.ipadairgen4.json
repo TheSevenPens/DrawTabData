@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadairgen4",
+    "_id": "d5d2568b-1a8a-47d7-af41-f2152c4ba674",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Air-Gen4",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111981",
+        "Title": "MacBook Pro (13-inch, 2020, Two Thunderbolt 3 ports) - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad Air (4th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020-10-23",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadair",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 227.4,
+      "Height": 158
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2360,
+      "Height": 1640
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 247.6,
+      "Height": 178.5,
+      "Depth": 6.1
+    },
+    "Weight": "458"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A14 Bionic",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.ct430",
+    "_id": "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CT430",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/905.html",
+        "Title": "Deco Fun XS/S/L Good Starter Digital Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-fun-xs-s-l.html"
+        }
+      }
+    ],
+    "Name": "Deco Fun XS",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_decofun",
+    "IncludedPen": [
+      "xppen.pen.p01"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 121.92,
+      "Height": 76.2
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 182.4,
+      "Height": 134.7,
+      "Depth": 10.5
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.unkkamvas16_2019",
+    "_id": "57514e2a-d827-4282-b13f-961d77c63ce7",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "UNK_Kamvas_16",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-huion-kamvas-16-pen-display",
+        "Title": "Huion KAMVAS 16 (2019)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_display/Kamvas/Kamvas-16.html",
+        "Title": "404",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/404"
+        }
+      }
+    ],
+    "IdSuffix": "2019",
+    "Name": "Kamvas 16 (2019)",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.pw507"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 344,
+      "Height": 194
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "200",
+    "Contrast": "1000",
+    "ColorBitDepth": "6",
+    "ColorGamuts": {
+      "SRGB": 100
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 432,
+      "Height": 263,
+      "Depth": 14.8
+    },
+    "Weight": "1500"
+  }
+}

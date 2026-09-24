@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cte440",
+    "_id": "8aa5061d-b26f-473c-878a-e3e8db4fd5f2",
+    "_CreateDate": "2026-04-01T18:26:13.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTE-440",
+    "LastSupportedWindowsDriver": "5.2.5-5a",
+    "LastSupportedMacOSDriver": "5.3.0-3",
+    "Status": "DISCONTINUED",
+    "Name": "Graphire4 4x5",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2005",
+    "ReleaseDate": "2005-09-13",
+    "IncludedPen": [
+      "wacom.pen.ep140e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_graphire_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127.6,
+      "Height": 92.8
+    },
+    "Density": "80",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 208,
+      "Height": 203.8,
+      "Depth": 17.8
+    },
+    "Weight": "500"
+  }
+}

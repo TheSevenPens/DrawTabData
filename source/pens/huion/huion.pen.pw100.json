@@ -1,0 +1,31 @@
+{
+  "EntityId": "huion.pen.pw100",
+  "Brand": "HUION",
+  "PenId": "PW100",
+  "Links": [
+    {
+      "Type": "STORE",
+      "URL": "https://store.huion.com/products/battery-free-pen-pw100",
+      "Author": "Huion"
+    }
+  ],
+  "PenName": "PW100",
+  "PenFamily": "",
+  "ReleaseYear": "2015",
+  "PenTech": "PASSIVE_EMR",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "YES",
+  "ButtonCount": "2",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "STANDARD",
+  "Weight": "13",
+  "Length": "163",
+  "Diameter": "10.8",
+  "_id": "c9e112a9-1d21-4df8-936d-895473f05182",
+  "_CreateDate": "2026-04-01T20:29:11.000Z",
+  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+}

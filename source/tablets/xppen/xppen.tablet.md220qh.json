@@ -1,0 +1,114 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md220qh",
+    "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD220QH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-22-gen-2-pen-display",
+        "Title": "XPPen Artist Pro 22 (gen 2)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-22-gen-2.html",
+        "Title": "XPPen Artist Pro 22 (Gen 2):: 2.5K QHD 22-inch Calman Verified Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/artist-pro-22-gen-2.html",
+        "Title": "artist-pro-22-gen-2",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=PMscqe2rO1M",
+        "Title": "Teoh on Tech - review of XP-Pen Artist Pro 22",
+        "Author": "Teoh on Tech",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 22 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-05-20",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen2_2023",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 475,
+      "Height": 267
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 99,
+      "DISPLAYP3": 94
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 547,
+      "Height": 362,
+      "Depth": 33.4
+    },
+    "Weight": "5550",
+    "WeightInclStand": "YES"
+  }
+}

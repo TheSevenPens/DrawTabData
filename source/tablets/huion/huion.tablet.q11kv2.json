@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.q11kv2",
+    "_id": "46cf628f-1a5d-420e-864e-3c8bb3076aee",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "Q11KV2",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Q11K_V2.html",
+        "Title": "Huion Inspiroy Q11K V2 Graphic Tablet for Laptop",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-q11k-v2"
+        }
+      }
+    ],
+    "Name": "Inspiroy Q11K V2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020",
+    "IncludedPen": [
+      "huion.pen.pw500"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 279,
+      "Height": 175
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "80",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 390,
+      "Height": 233,
+      "Depth": 11
+    },
+    "Weight": "880.00"
+  }
+}

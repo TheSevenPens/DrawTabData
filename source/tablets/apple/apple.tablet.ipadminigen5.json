@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadminigen5",
+    "_id": "cab6af4f-4523-43b5-8631-a6c808e7919c",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Mini-Gen5",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111985",
+        "Title": "Apple Watch Series 1 - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad mini (5th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-03-18",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadmini",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 160.5,
+      "Height": 120.4
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2048,
+      "Height": 1536
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 203.2,
+      "Height": 134.8,
+      "Depth": 6.1
+    },
+    "Weight": "300.5"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A12 Bionic",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

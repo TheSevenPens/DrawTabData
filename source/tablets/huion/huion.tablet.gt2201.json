@@ -1,0 +1,74 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt2201",
+    "_id": "7b6cdaf8-ddf9-4815-8589-92c60403a717",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT2201",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://store.huion.com/products/kamvas-pro-22-2019",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas 22 Pro (2019)",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw500"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 477,
+      "Height": 268
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 120
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "8",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 589,
+      "Height": 344,
+      "Depth": 21
+    },
+    "Weight": "4500",
+    "WeightInclStand": "YES"
+  }
+}

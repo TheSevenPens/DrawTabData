@@ -1,0 +1,46 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cth670",
+    "_id": "34947067-79d5-415a-b81a-e65e75d842be",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTH-670",
+    "LastSupportedWindowsDriver": "5.3.5-3",
+    "LastSupportedMacOSDriver": "5.3.7-6",
+    "Name": "Bamboo Create",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2011",
+    "ReleaseDate": "2011-09-27",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "wacom.pen.lp170e"
+    ],
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_bamboo_2011",
+    "AlternateNames": [
+      "Bamboo Fun Pen & Touch M"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 216.48,
+      "Height": 137
+    },
+    "Density": "100",
+    "ReportRate": "133",
+    "SupportsTouch": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 351.75,
+      "Height": 209,
+      "Depth": 9.8
+    },
+    "Weight": "635"
+  }
+}

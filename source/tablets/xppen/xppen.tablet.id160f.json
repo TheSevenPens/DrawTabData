@@ -1,0 +1,84 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.id160f",
+    "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ID160F",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xp-pen-innovator-16-pen-display",
+        "Title": "XP-Pen Innovator 16",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/638.html",
+        "Title": "Innovator 16 best display drawing tablet for professionals",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/innovator-16.html"
+        }
+      }
+    ],
+    "Name": "Innovator 16",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020-09",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.pa5"
+    ]
+  },
+  "Digitizer": {
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 344,
+      "Height": 194
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "250",
+    "Contrast": "1200",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 88,
+      "SRGB": 125,
+      "ADOBERGB": 92
+    },
+    "ResponseTime": "16.4",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 443.27,
+      "Height": 256.45,
+      "Depth": 9
+    }
+  }
+}

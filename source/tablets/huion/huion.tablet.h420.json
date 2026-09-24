@@ -1,0 +1,57 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h420",
+    "_id": "a6c1a9a1-8338-4004-9c2a-da4e3d3fce8e",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H420",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen_tablet/Others/H420.html",
+        "Title": "Huion H420 Pen Tablet for Drawing & Signature",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/h420"
+        }
+      }
+    ],
+    "Name": "H420",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.pen68"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 106,
+      "Height": 65
+    },
+    "Density": "157.4",
+    "ReportRate": "200",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "12",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 176,
+      "Height": 111,
+      "Depth": 7.5
+    },
+    "Weight": "167"
+  }
+}

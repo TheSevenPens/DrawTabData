@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ct0405r",
+    "_id": "62a21f41-f8de-4641-abc9-f0a071911f9a",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CT-0405-R",
+    "Status": "DISCONTINUED",
+    "Name": "PenPartner SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1997",
+    "ReleaseDate": "1997-11",
+    "IncludedPen": [
+      "wacom.pen.up703e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_penpartner_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 128,
+      "Height": 96
+    },
+    "Density": "40",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 196,
+      "Height": 181,
+      "Depth": 7
+    },
+    "Weight": "430"
+  }
+}

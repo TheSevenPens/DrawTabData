@@ -1,0 +1,62 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadair13m3",
+    "_id": "eb83a056-98d3-4b40-b8b0-6c1c9b82f122",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Air-13-M3",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/121882",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "iPad Air 13-inch (M3)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "ReleaseDate": "2025-03-12",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadair",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 264.2,
+      "Height": 198.1
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2732,
+      "Height": 2048
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 280.6,
+      "Height": 214.9,
+      "Depth": 6.1
+    },
+    "Weight": "617"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple M3",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

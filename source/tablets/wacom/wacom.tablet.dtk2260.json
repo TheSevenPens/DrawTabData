@@ -1,0 +1,173 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtk2260",
+    "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTK-2260",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
+        "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+        "Title": "Wacom User Help (DTK-2260)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
+        "Title": "Wacom User Help (DTK-2260)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=02kg7Oxxd20",
+        "Title": "Ross Draws review of Wacom Cintiq 22 (DTK-2260)",
+        "Author": "Ross Draws",
+        "PublishDate": "2019-08-23",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=03XtX5Gg76g",
+        "Title": "MobileTechReview review of Wacom Cintiq 22",
+        "Author": "MobileTechReview",
+        "PublishDate": "2019-07-19",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=662QvZMik4U",
+        "Title": "Brad Colbow review of Wacom Cintiq 22 (DTK-2260)",
+        "Author": "Brad Colbow",
+        "PublishDate": "2019-07-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Pr1bAqkNhV4",
+        "Title": "[Attempting Repairs] Wacom Cintiq 22HD (DTK-2200)",
+        "Author": "The Real Phpenix",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=zip2xj-nBIw",
+        "Title": "Another Cintiq 22HD Repair Walkthrough 1/3 different symptoms, same problem",
+        "Author": "Ian Tompkins",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/xBPNyYX6zi8",
+        "Title": "Aaron Rutten review of Wacom Cintiq 22",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2019-07-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Status": "DISCONTINUED",
+    "Name": "Cintiq 22",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-07-16",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Family": "wacom.tabletfamily.wacom_cintiq"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 476,
+      "Height": 268
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "210",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 72,
+      "SRGB": 96
+    },
+    "Lamination": "NO",
+    "ResponseTime": "22",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 570,
+      "Height": 359,
+      "Depth": 40
+    },
+    "Weight": "5600"
+  }
+}

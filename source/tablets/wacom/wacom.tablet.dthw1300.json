@@ -1,0 +1,29 @@
+{
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-W1300",
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "Name": "Cintiq Companion",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2013",
+    "Status": "DISCONTINUED",
+    "Notes": "Standalone Windows 8 pen computer. Physical/Standalone SKU specs pending."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "2048",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    }
+  },
+  "Meta": {
+    "EntityId": "wacom.tablet.dthw1300",
+    "_id": "5e0db01f-3e84-474b-b0a1-a8b3cb9e7e11",
+    "_CreateDate": "2026-07-19T04:17:15.777Z",
+    "_ModifiedDate": "2026-07-19T04:17:15.777Z"
+  }
+}

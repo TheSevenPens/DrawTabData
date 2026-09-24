@@ -1,0 +1,39 @@
+{
+  "EntityId": "huion.pen.pw550",
+  "Brand": "HUION",
+  "PenId": "PW550",
+  "Links": [
+    {
+      "Type": "STORE",
+      "URL": "https://store.huion.com/posts/introducing-huion-pentech3.0+-pw550-pw550s",
+      "Title": "Huion - Introducing Huion PenTech 3.0+ and PW550/PW550S",
+      "Author": "Huion",
+      "PublishDate": "2023-03-30"
+    },
+    {
+      "Type": "REVIEW",
+      "URL": "https://youtu.be/vk4DlVGU6-Q",
+      "Title": "Huion PW550 pen versus PW517 pen",
+      "Author": "SevenPens"
+    }
+  ],
+  "PenName": "PW550",
+  "PenFamily": "huion.penfamily.huion_pw550",
+  "ReleaseYear": "2024",
+  "PenTech": "PASSIVE_EMR",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "NO",
+  "ButtonCount": "2",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "STANDARD",
+  "Weight": "15.5",
+  "Length": "157.5",
+  "Diameter": "12",
+  "_id": "725013ee-bd80-4b68-91ee-6c66a56245cf",
+  "_CreateDate": "2026-04-04T00:00:00.000Z",
+  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+}

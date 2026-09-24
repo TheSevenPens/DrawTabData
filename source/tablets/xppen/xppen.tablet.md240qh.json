@@ -1,0 +1,75 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md240qh",
+    "_id": "c7d5b405-28c2-4256-ae0a-6b7cb2d5711d",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD240QH",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-24-gen-2-165hz.html",
+        "Title": "XPPen Artist Pro 24 (Gen 2) 165Hz: World's First 165Hz Calman Verified 24-inch Drawing Display",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 24 GEN2 165Hz",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-10-22",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen2_2023",
+    "IncludedPen": [
+      "xppen.pen.pd21",
+      "xppen.pen.pd51"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 526,
+      "Height": 296
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 99,
+      "DISPLAYP3": 94
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 638,
+      "Height": 408,
+      "Depth": 44
+    },
+    "Weight": "7300",
+    "WeightInclStand": "YES"
+  }
+}

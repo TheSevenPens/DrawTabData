@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.xd0405r",
+    "_id": "dac05628-6af6-4183-bd0c-c1a7fc650394",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "XD-0405-R",
+    "LastSupportedWindowsDriver": "6.2.0w5",
+    "LastSupportedMacOSDriver": "6.2.0w4",
+    "Name": "Intuos2 4x5 SERIAL",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09-10",
+    "Family": "wacom.tabletfamily.wacom_intuos2_2001",
+    "IncludedPen": [
+      "wacom.pen.xp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 127,
+      "Height": 106
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 225,
+      "Height": 210,
+      "Depth": 7.5
+    },
+    "Weight": "520"
+  }
+}

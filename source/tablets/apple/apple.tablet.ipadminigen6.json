@@ -1,0 +1,63 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadminigen6",
+    "_id": "d86b1e6b-ed13-4801-a2e3-0971f344f32c",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Mini-Gen6",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111984",
+        "Title": "Apple Watch Series 4 - Technical Specifications - Apple Support",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "iPad mini (6th generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-09-24",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadmini",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 176.2,
+      "Height": 115.7
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2266,
+      "Height": 1488
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 195.4,
+      "Height": 134.8,
+      "Depth": 6.3
+    },
+    "Weight": "293"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A15 Bionic",
+    "USB": "USB-C",
+    "Speakers": "YES"
+  }
+}

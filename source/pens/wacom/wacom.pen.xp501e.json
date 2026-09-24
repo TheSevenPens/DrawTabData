@@ -1,0 +1,21 @@
+{
+  "EntityId": "wacom.pen.xp501e",
+  "Brand": "WACOM",
+  "PenId": "XP-501E",
+  "PenName": "Intuos2 Grip Pen",
+  "PenFamily": "wacom.penfamily.wacom_xp",
+  "ReleaseYear": "2001",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "1024",
+  "Wheel": "NO",
+  "Eraser": "YES",
+  "Weight": "17",
+  "Length": "160",
+  "Diameter": "14",
+  "BarrelRotation": "NO",
+  "_id": "f0bd2e7f-3a93-4d92-be60-c1c8072fa21a",
+  "_CreateDate": "2026-04-01T09:11:12.000Z",
+  "_ModifiedDate": "2026-05-11T19:19:45.128Z",
+  "PenTech": "PASSIVE_EMR"
+}

@@ -1,0 +1,83 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md220fh",
+    "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD220FH",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-22-plus.html",
+        "Title": "Explore Creativity: 22-inch Artist 22 Plus Tablet with X3 Pro Stylus",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=YfEfGOJOQJs",
+        "Title": "Brad Colbow review of XP-Pen Artist 22 Plus",
+        "Author": "Brad Colbow",
+        "PublishDate": "2023-11-20",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist 22 Plus",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-06-19",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 476,
+      "Height": 268
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "ADOBERGB": 91,
+      "SRGB": 99
+    },
+    "Lamination": "YES",
+    "AntiGlare": "FILM",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 547,
+      "Height": 364.67,
+      "Depth": 33.4
+    }
+  }
+}

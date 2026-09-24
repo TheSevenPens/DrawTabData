@@ -1,0 +1,73 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd100fh",
+    "_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "_CreateDate": "2026-04-13T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD100FH",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-10-2nd-gen.html",
+        "Title": "Artist 10 (2nd Generation) drawing screen monitor 10 inch",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist 10 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-04-29",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_artistgen2",
+    "IncludedPen": [
+      "xppen.pen.ph10b"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 224.49,
+      "Height": 126.7
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "NTSC": 85,
+      "SRGB": 120,
+      "ADOBERGB": 88
+    },
+    "Lamination": "YES",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 299,
+      "Height": 173.3,
+      "Depth": 12.9
+    }
+  }
+}

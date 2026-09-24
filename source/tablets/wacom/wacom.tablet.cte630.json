@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.cte630",
+    "_id": "db9bef5c-47c5-4556-9532-77cb8903694b",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTE-630",
+    "LastSupportedWindowsDriver": "5.2.5-5a",
+    "LastSupportedMacOSDriver": "5.2.6-5",
+    "Status": "DISCONTINUED",
+    "Name": "Graphire3 6x8",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2003",
+    "ReleaseDate": "2003-09",
+    "IncludedPen": [
+      "wacom.pen.ep130"
+    ],
+    "Family": "wacom.tabletfamily.wacom_graphire_legacy"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 208.8,
+      "Height": 150.8
+    },
+    "Density": "80",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 275.5,
+      "Height": 256.8,
+      "Depth": 18.1
+    },
+    "Weight": "800"
+  }
+}

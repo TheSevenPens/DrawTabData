@@ -1,0 +1,20 @@
+{
+  "EntityId": "wacom.pen.fp100",
+  "Brand": "WACOM",
+  "PenId": "FP-100",
+  "PenName": "FP-100",
+  "PenFamily": "wacom.penfamily.wacom_fp",
+  "ReleaseYear": "2002",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Weight": "10",
+  "Length": "149",
+  "Diameter": "12.3",
+  "BarrelRotation": "NO",
+  "_id": "c122a605-87ba-4b4b-ba81-35ace5ccc6d1",
+  "_CreateDate": "2026-04-01T18:30:12.000Z",
+  "_ModifiedDate": "2026-05-01T00:00:00.000Z"
+}

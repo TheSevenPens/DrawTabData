@@ -1,0 +1,56 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.wh14098192",
+    "_id": "18bc12f9-b379-4747-955b-611af15a992a",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "WH1409(8192)",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/pen_tablet/Inspiroy/WH1409(8192).html",
+        "Title": "Huion Inspiroy WH1409(8192) Large Wireless Graphics Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/inspiroy-wh1409-8192"
+        }
+      }
+    ],
+    "Name": "Inspiroy WH1409(8192)",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2016",
+    "ReleaseDate": "2016",
+    "IncludedPen": [
+      "huion.pen.pe150"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 350,
+      "Height": 218
+    },
+    "Density": "200",
+    "ReportRate": "233",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "12",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 456,
+      "Height": 266,
+      "Depth": 16
+    },
+    "Weight": "1100"
+  }
+}

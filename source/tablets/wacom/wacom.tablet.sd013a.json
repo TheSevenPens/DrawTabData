@@ -1,0 +1,35 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.sd013a",
+    "_id": "e6c987f0-d35f-44f1-95e4-c4902c403994",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "SD-013A",
+    "Name": "SD-013A",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1988",
+    "ReleaseDate": "1988-07",
+    "Family": "wacom.tabletfamily.wacom_sd_1988",
+    "IncludedPen": [],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 1193,
+      "Height": 889
+    },
+    "Density": "50",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 1454,
+      "Height": 1091,
+      "Depth": 30
+    },
+    "Weight": "33000"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.l310",
+    "_id": "eca5c731-2985-42cb-8c3b-b5dc047788a4",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "L310",
+    "Name": "Inspiroy Frego S L310",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-08-16",
+    "Audience": "Consumer",
+    "Family": "huion.tabletfamily.huion_inspiroyfrego",
+    "IncludedPen": [
+      "huion.pen.pw550s"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 160,
+      "Height": 100
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 220,
+      "Height": 165.7,
+      "Depth": 8
+    },
+    "Weight": "280"
+  }
+}

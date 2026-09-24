@@ -1,0 +1,52 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctl480",
+    "_id": "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTL-480",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/CTL-480.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "LastSupportedWindowsDriver": "6.3.46-2",
+    "LastSupportedMacOSDriver": "6.3.46-2",
+    "Name": "Intuos 2013 CTL-480",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2013",
+    "ReleaseDate": "2013-09-04",
+    "Family": "wacom.tabletfamily.wacom_intuos_2013",
+    "IncludedPen": [
+      "wacom.pen.lp180"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 152,
+      "Height": 95
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 209.9,
+      "Height": 177.5,
+      "Depth": 10
+    },
+    "Weight": "300"
+  }
+}

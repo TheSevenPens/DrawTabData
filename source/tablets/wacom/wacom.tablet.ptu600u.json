@@ -1,0 +1,34 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ptu600u",
+    "_id": "55e9b443-d52f-4f4c-8d46-5816ab9f191b",
+    "_CreateDate": "2026-04-01T18:30:12.000Z",
+    "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "PTU-600U",
+    "Status": "DISCONTINUED",
+    "Name": "Wacom PTU-600U",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2001",
+    "ReleaseDate": "2001-09-01",
+    "Family": "wacom.tabletfamily.wacom_misc_preintuos"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 204.8,
+      "Height": 153.6
+    },
+    "Density": "100",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 330,
+      "Height": 243,
+      "Depth": 13.9
+    },
+    "Weight": "900"
+  }
+}

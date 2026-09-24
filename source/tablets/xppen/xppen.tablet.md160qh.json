@@ -1,0 +1,144 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md160qh",
+    "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD160QH",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xppen-artist-pro-16-gen-2-pen-display",
+        "Title": "XPPen Artist Pro 16 (gen 2)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-pro-16-gen-2.html",
+        "Title": "Unleash Your Creativity with the Artist Pro 16 (Gen 2) - A Revolution in Digital Art Tablets",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/store/buy/3-in-1-cable-for-artist-2nd-gen-series-display.html",
+        "Title": "3 in 1 Cable for Artist 2nd Series Display",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/artist-pro-16-2nd.html",
+        "Title": "artist-pro-16-2nd",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=41pv6STOBhY",
+        "Title": "MossCharmly - Huion Kamvas Pro 16 vs. XPpen Artist Pro 16",
+        "Author": "MossCharmly",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/d3Th_HD0tbE?si=5tIvFmxSM2nvS1jh",
+        "Title": "Grant Abbitt review of XPPen Artist Pro (GEN 2)",
+        "Author": "Grant Abbitt",
+        "PublishDate": "2023-08-20",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://youtu.be/sc4tebm4TTw?si=Y18_c25g6BUvzwk3",
+        "Title": "Teoh on Tech review of XPPen Artist Pro 16 (GEN 2) review",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2023-09-09",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist Pro 16 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023-08-14",
+    "Audience": "Professional",
+    "Family": "xppen.tabletfamily.xppen_artistprogen2_2023",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 345,
+      "Height": 215
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1600
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1200",
+    "ColorBitDepth": "8",
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "20",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 405.11,
+      "Height": 291.37,
+      "Depth": 20.23
+    }
+  }
+}

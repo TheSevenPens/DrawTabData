@@ -1,0 +1,17 @@
+{
+  "EntityId": "wacom.pen.fp110",
+  "Brand": "WACOM",
+  "PenId": "FP-110",
+  "PenName": "FP-110",
+  "PenFamily": "wacom.penfamily.wacom_fp",
+  "ReleaseYear": "",
+  "ButtonCount": "1",
+  "PressureSensitive": "YES",
+  "PressureLevels": "512",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "BarrelRotation": "NO",
+  "_id": "6bc262a3-9688-4d85-93ce-21a7c866fa64",
+  "_CreateDate": "2026-04-01T18:30:12.000Z",
+  "_ModifiedDate": "2026-05-01T00:00:00.000Z"
+}

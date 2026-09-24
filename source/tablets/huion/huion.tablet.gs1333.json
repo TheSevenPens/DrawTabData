@@ -1,0 +1,121 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gs1333",
+    "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GS1333",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/huion-kamvas-13-gen-3-pen-display-2024",
+        "Title": "Huion Kamvas 13 gen 3",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-13-gen-3.html",
+        "Title": "Huion Kamvas 13 (Gen 3) - Portable PenTech 4.0 Drawing Tablet for Beginners",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.huion.com/products/kamvas-13-gen-3"
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=2cJB3h8qbhY",
+        "Title": "Brad Colbow - Huion Kamvas 13 GEN3 (GS1333) Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2024-09-23",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=5QG6NfIFSjU",
+        "Title": "Notes on Huion Kamvas 13 GEN3 (GS1333)",
+        "Author": "SevenPens",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Ie39Mbsvc8s",
+        "Title": "EyekooDrawsStuff review of Huion Kamvas 13 GEN3 (GS1333)",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2025-01-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Kamvas 13 GEN3",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "ReleaseDate": "2024-09-01",
+    "Audience": "Consumer",
+    "Family": "huion.tabletfamily.huion_kamvasgen3",
+    "IncludedPen": [
+      "huion.pen.pw600l"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 294,
+      "Height": 165
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 90,
+      "REC709": 99
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "ViewingAngleHorizontal": "165",
+    "ViewingAngleVertical": "165"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 361.21,
+      "Height": 202.77,
+      "Depth": 11.7
+    },
+    "Weight": "865.00"
+  }
+}

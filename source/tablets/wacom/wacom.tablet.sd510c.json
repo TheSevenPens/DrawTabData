@@ -1,0 +1,49 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.sd510c",
+    "_id": "fdf42d74-d311-420e-830e-a098a2972799",
+    "_CreateDate": "2026-04-01T09:11:12.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "SD-510C",
+    "Links": [
+      {
+        "Type": "REVIEW",
+        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-sd-tablets/wacom-sd510c-notes",
+        "Title": "Wacom SD-510C notes",
+        "Author": "Seven Pens",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "SD-510C",
+    "Type": "PENTABLET",
+    "ReleaseYear": "1988",
+    "ReleaseDate": "1988-07",
+    "Family": "wacom.tabletfamily.wacom_sd_1988",
+    "IncludedPen": [],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 232,
+      "Height": 151
+    },
+    "Density": "20",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 327,
+      "Height": 238,
+      "Depth": 7.5
+    },
+    "Weight": "2000"
+  }
+}

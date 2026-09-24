@@ -1,0 +1,31 @@
+{
+  "EntityId": "huion.pen.pw500",
+  "Brand": "HUION",
+  "PenId": "PW500",
+  "Links": [
+    {
+      "Type": "STORE",
+      "URL": "https://store.huion.com/products/battery-free-pen-pw500",
+      "Author": "Huion"
+    }
+  ],
+  "PenName": "PW500",
+  "PenFamily": "",
+  "ReleaseYear": "2018",
+  "PenTech": "PASSIVE_EMR",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "YES",
+  "ButtonCount": "2",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "STANDARD",
+  "Weight": "14",
+  "Length": "163.7",
+  "Diameter": "14.3",
+  "_id": "793ae7e0-f67f-4bb4-aef3-b207231d7a2d",
+  "_CreateDate": "2026-04-01T20:29:11.000Z",
+  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+}

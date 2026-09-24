@@ -1,0 +1,55 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.decomini7",
+    "_id": "23d3caa6-4d93-46f0-9e60-871444fb265a",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECOMINI7",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/639.html",
+        "Title": "Deco mini4 small kids graphic drawing tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/deco-mini4.html"
+        }
+      }
+    ],
+    "Name": "Deco Mini 7",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "xppen.pen.p05d"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 177.8,
+      "Height": 111.1
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 178.2,
+      "Height": 125,
+      "Depth": 8
+    },
+    "Weight": "155"
+  }
+}

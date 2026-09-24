@@ -1,0 +1,98 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd130fh",
+    "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD130FH",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/1263.html",
+        "Title": "Artist 13 (2nd Generation) affordable drawing screen",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "REDIRECT",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200,
+          "FinalUrl": "https://www.xp-pen.com/product/artist-13-2nd-gen.html"
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://download01.xp-pen.com/file/2022/07/Artist%20Series%20Drawing%20Display%20(2nd%20Gen)(English).pdf",
+        "Title": "user manual",
+        "Author": "XP-Pen",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/ie-store/buy/artist-13-2nd-generation.html",
+        "Title": "Artist 13 (2nd Generation) Display Drawing Tablet",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "Artist 13 GEN2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2022",
+    "ReleaseDate": "2022-04-29",
+    "Audience": "Consumer",
+    "Family": "xppen.tabletfamily.xppen_artistgen2",
+    "IncludedPen": [
+      "xppen.pen.ph10b"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 294,
+      "Height": 165
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "1",
+    "MaxHover": "10",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "220",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "NTSC": 92,
+      "SRGB": 130
+    },
+    "Lamination": "YES",
+    "AntiGlare": "AGFILM",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 378,
+      "Height": 225,
+      "Depth": 11.99
+    }
+  }
+}

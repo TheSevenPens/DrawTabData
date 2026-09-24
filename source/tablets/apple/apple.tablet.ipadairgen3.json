@@ -1,0 +1,62 @@
+{
+  "Meta": {
+    "EntityId": "apple.tablet.ipadairgen3",
+    "_id": "04aefe22-287c-46aa-9055-aff87d22f513",
+    "_CreateDate": "2026-04-30T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+  },
+  "Model": {
+    "Brand": "APPLE",
+    "Id": "iPad-Air-Gen3",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://support.apple.com/en-us/111982",
+        "Author": "Apple",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "DEAD",
+          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 404
+        }
+      }
+    ],
+    "Name": "iPad Air (3rd generation)",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-03-18",
+    "Audience": "Consumer",
+    "Family": "apple.tabletfamily.ipadair",
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 213.4,
+      "Height": 160
+    },
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2224,
+      "Height": 1668
+    },
+    "PanelTech": "IPS",
+    "Lamination": "YES",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 250.6,
+      "Height": 174.1,
+      "Depth": 6.1
+    },
+    "Weight": "456"
+  },
+  "Standalone": {
+    "OS": "iPadOS",
+    "Processor": "Apple A12 Bionic",
+    "USB": "Lightning",
+    "Speakers": "YES"
+  }
+}

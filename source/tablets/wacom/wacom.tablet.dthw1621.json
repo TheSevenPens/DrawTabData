@@ -1,0 +1,96 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dthw1621",
+    "_id": "f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
+    "_CreateDate": "2026-04-13T00:00:00.000Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-W1621",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://estore.wacom.com/en-de/wacom-mobilestudio-pro-16-dthw1621hk0b.html",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-W1621.html",
+        "Title": "Wacom User Help (DTH-W1621)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      }
+    ],
+    "Name": "MobileStudio Pro 16 Gen 2",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2019",
+    "ReleaseDate": "2019-09-04",
+    "Audience": "Professional",
+    "Family": "wacom.tabletfamily.wacom_mobilestudiopro",
+    "IncludedPen": [
+      "wacom.pen.kp504e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 345.3,
+      "Height": 194.3
+    },
+    "Density": "200",
+    "Tilt": "60",
+    "SupportsTouch": "YES"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3840,
+      "Height": 2160
+    },
+    "PanelTech": "IPS",
+    "Brightness": "310",
+    "ColorGamuts": {
+      "ADOBERGB": 85
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 418,
+      "Height": 262,
+      "Depth": 21
+    },
+    "Weight": "2100"
+  },
+  "Standalone": {
+    "OS": "Windows 10 Pro",
+    "Processor": "Intel Core i7-8559U",
+    "GPU": "NVIDIA Quadro P1000",
+    "RAM": "16",
+    "Storage": "512",
+    "ExpandableStorage": "YES",
+    "MemoryCardSlot": "SDXC",
+    "BatteryCapacity": "4630",
+    "BatteryLife": "6",
+    "Wifi": "802.11a/b/g/n/ac",
+    "Bluetooth": "5.0",
+    "USB": "USB-C 3.1, 2x Thunderbolt 3",
+    "Speakers": "YES",
+    "FrontCamera": "5",
+    "RearCamera": "8"
+  }
+}

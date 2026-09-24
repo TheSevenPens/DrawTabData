@@ -1,0 +1,42 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtz1200w",
+    "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4",
+    "_CreateDate": "2025-12-12T12:33:46.983Z",
+    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTZ-1200W",
+    "Name": "Cintiq 12WX 2007",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2007",
+    "ReleaseDate": "2007-11-16",
+    "Family": "wacom.tabletfamily.wacom_cintiq",
+    "IncludedPen": [
+      "wacom.pen.zp501e"
+    ],
+    "Status": "DISCONTINUED"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "1024",
+    "Dimensions": {
+      "Width": 261.1,
+      "Height": 163.2
+    },
+    "Density": "200",
+    "ReportRate": "136",
+    "Tilt": "40",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "4",
+    "MaxHover": "5",
+    "SupportsTouch": "NO"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1280,
+      "Height": 800
+    }
+  }
+}
