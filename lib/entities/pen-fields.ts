@@ -3,48 +3,18 @@ import { brandName } from "../drawtab-loader.js";
 import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { BRANDS } from "../loader-shared.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
+import { computedOf } from "../computed.js";
 
 export type { Pen } from "../drawtab-loader.js";
 
-// Pages can call setPenFamilyNames() with an EntityId -> FamilyName map
-// loaded from the pen-families data so that the "Family" column shows
-// the human-readable name instead of the raw EntityId. Falls back to the
-// raw EntityId when no map is set or the family is unknown.
-let penFamilyNames: Record<string, string> = {};
-export function setPenFamilyNames(map: Record<string, string>): void {
-  penFamilyNames = map;
-}
-function resolvePenFamily(id: string): string {
-  return penFamilyNames[id] ?? id;
-}
+// Family name, inventory count and session count come from other
+// collections; the DrawTabDataSet computes them while loading Pens and
+// attaches them to each row (see ../computed.ts, #346). A pen that didn't
+// come from a dataset shows the raw family EntityId and 0 counts.
 
-/** Public lookup for the human-readable pen-family name. Returns the
- * EntityId itself if no map has been wired or the family is unknown,
- * matching `resolvePenFamily`'s fallback. */
-export function getPenFamilyName(entityId: string): string {
-  return penFamilyNames[entityId] ?? entityId;
-}
-
-// Pages (typically +layout.ts) call setPressureSessionCountByPenEntityId()
-// with a PenEntityId -> count map so the `PressureSessionCount` computed
-// FieldDef reflects how many pressure-response sessions exist for each
-// pen model. Defaults to an empty map so unwired consumers see 0 for
-// every row. Wire this at +layout.ts so every list page inherits accurate
-// values without per-page plumbing.
-let pressureSessionCountByPenEntityId: ReadonlyMap<string, number> = new Map();
-export function setPressureSessionCountByPenEntityId(
-  map: ReadonlyMap<string, number>,
-): void {
-  pressureSessionCountByPenEntityId = map;
-}
-
-// Same pattern for `UnitsInInventory`: PenEntityId -> count of physical
-// units we own of that model. Populated from InventoryPens in +layout.ts.
-let inventoryUnitCountByPenEntityId: ReadonlyMap<string, number> = new Map();
-export function setInventoryUnitCountByPenEntityId(
-  map: ReadonlyMap<string, number>,
-): void {
-  inventoryUnitCountByPenEntityId = map;
+/** Human-readable family name for a pen, falling back to the EntityId. */
+export function penFamilyName(pen: Pick<Pen, "PenFamily">): string {
+  return computedOf(pen).FamilyName ?? pen.PenFamily ?? "";
 }
 
 /** True when the pen's PenId is already present in its PenName (as the
@@ -97,10 +67,10 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   { key: "Brand", label: "Brand", getValue: (p) => p.Brand, getDisplayValue: (p) => brandName(p.Brand), getHref: (p) => `/brands/${p.Brand}`, type: "enum", enumValues: [...BRANDS], group: "Model" },
   { key: "PenId", label: "Pen ID", getValue: (p) => p.PenId, type: "string", group: "Model" },
   { key: "PenName", label: "Name", getValue: (p) => p.PenName, type: "string", group: "Model" },
-  // getValue is the family EntityId; only the display reads the name map. When
-  // getValue read it too, a query meant different things before and after
-  // setPenFamilyNames() ran.
-  { key: "PenFamily", label: "Family", getValue: (p) => p.PenFamily ?? "", getDisplayValue: (p) => (p.PenFamily ? resolvePenFamily(p.PenFamily) : ""), type: "string", group: "Model" },
+  // getValue is the family EntityId; only the display uses the name. When
+  // getValue returned the name, a query meant different things depending on
+  // whether the name lookup had been set up (#332).
+  { key: "PenFamily", label: "Family", getValue: (p) => p.PenFamily ?? "", getDisplayValue: (p) => penFamilyName(p), type: "string", group: "Model" },
   { key: "PenTech", label: "Tech", getValue: (p) => p.PenTech ?? '', type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Model" },
   { key: "ReleaseYear", label: "Year", getValue: (p) => p.ReleaseYear, type: "number", group: "Model" },
   // Free-form prose (often markdown) — see the ModelNotes note in tablet-fields.
@@ -110,7 +80,7 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   {
     key: "UnitsInInventory", label: "Units in Inventory",
     computed: true, type: "number", group: "Model",
-    getValue: (p) => String(inventoryUnitCountByPenEntityId.get(p.EntityId) ?? 0),
+    getValue: (p) => String(computedOf(p).UnitsInInventory ?? 0),
   },
   // Sensors
   { key: "PressureSensitive", label: "Pressure Sensitive", getValue: (p) => p.PressureSensitive ?? '', type: "string", group: "Sensors" },
@@ -122,7 +92,7 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
   {
     key: "PressureSessionCount", label: "Pressure Sessions",
     computed: true, type: "number", group: "Sensors",
-    getValue: (p) => String(pressureSessionCountByPenEntityId.get(p.EntityId) ?? 0),
+    getValue: (p) => String(computedOf(p).PressureSessionCount ?? 0),
   },
   // Controls
   { key: "ButtonCount", label: "Button Count", getValue: (p) => p.ButtonCount ?? '', type: "number", group: "Controls" },

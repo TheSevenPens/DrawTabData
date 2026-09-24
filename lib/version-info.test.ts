@@ -59,3 +59,31 @@ describe("loadVersionFromURL", () => {
     expect(await loadVersionFromURL("/d")).toBeNull();
   });
 });
+
+describe("buildVersionInfo().files", () => {
+  const info = buildVersionInfo(repoRoot);
+
+  it("lists data files relative to data/, sorted, excluding version.json", () => {
+    expect(info.files).toContain("pens/WACOM-pens.json");
+    expect(info.files).toContain("brands/brands.json");
+    expect(info.files).not.toContain("version.json");
+    expect(info.files).toEqual([...(info.files ?? [])].sort());
+    expect(info.files?.every((f) => !f.includes("\\"))).toBe(true);
+  });
+
+  it("omits brand files that don't exist (no LAMY pen-compat file)", () => {
+    expect(info.files).not.toContain("pen-compat/LAMY-pen-compat.json");
+  });
+});
+
+describe("buildVersionInfo().indexes.pressureSessionsByPen", () => {
+  it("equals counting the sessions the dataset loads", async () => {
+    const info = buildVersionInfo(repoRoot);
+    const ds = createDiskDataSet({ dataDir: path.join(repoRoot, "data") });
+    const expected: Record<string, number> = {};
+    for (const s of await ds.PressureResponse.toArray()) {
+      expected[s.PenEntityId] = (expected[s.PenEntityId] ?? 0) + 1;
+    }
+    expect(info.indexes?.pressureSessionsByPen).toEqual(expected);
+  });
+});

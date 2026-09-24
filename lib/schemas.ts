@@ -539,6 +539,18 @@ export const VersionInfoSchema = v.strictObject({
     brands: v.number(),
     pressureResponse: v.number(),
   }),
+  // Every data file that exists, as paths relative to data/ ("pens/WACOM-pens.json").
+  // Lets a URL loader fetch only files that exist instead of probing every
+  // brand, and treat a listed file that fails as an error (#346).
+  files: v.optional(v.array(TrimmedString)),
+  // Small build-time indexes that spare a URL consumer from downloading a
+  // whole collection to compute one number. pressureSessionsByPen replaces
+  // ~1.5 MB of pressure-response files for Pen.PressureSessionCount (#346).
+  indexes: v.optional(
+    v.strictObject({
+      pressureSessionsByPen: v.record(v.string(), v.number()),
+    }),
+  ),
   // Added by a consumer that builds the metadata into its own deploy (the
   // Explorer does), naming the exact code that shipped with this data.
   build: v.optional(

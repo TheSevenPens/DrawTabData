@@ -49,6 +49,18 @@ import { PRESSURE_RANGE_FIELDS } from "./entities/pressure-range-fields.js";
 import { INVENTORY_PEN_FIELDS, type InventoryPen } from "./entities/inventory-pen-fields.js";
 import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/inventory-tablet-fields.js";
 import { sessionEntityId } from "./pressure/session-id.js";
+import { buildInventoryDefects } from "./pressure/defects.js";
+import { attachComputed } from "./computed.js";
+
+/** Count rows per key, skipping rows with no key. */
+function countBy<T>(rows: readonly T[], key: (row: T) => string | undefined): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const r of rows) {
+    const k = key(r);
+    if (k) out.set(k, (out.get(k) ?? 0) + 1);
+  }
+  return out;
+}
 
 // --- Source ----------------------------------------------------------------
 
@@ -141,13 +153,16 @@ export interface DataSetOptions {
   diskLoaderFactory?: DiskLoaderFactory;
 }
 
+type Manifest = () => Promise<ReadonlySet<string> | null>;
+
 function makeShardedLoader<T, Raw = T>(
   source: DataSource,
   diskLoaderFactory: DiskLoaderFactory | undefined,
   opts: LoaderOpts<T, Raw>,
+  manifest?: Manifest,
 ): Loader<T> {
   if (source.kind === "url") {
-    return new ShardedURLLoader<T, Raw>(source.baseUrl, opts);
+    return new ShardedURLLoader<T, Raw>(source.baseUrl, { ...opts, manifest });
   }
   if (!diskLoaderFactory) {
     throw new Error(
@@ -207,53 +222,89 @@ export class DrawTabDataSet extends DataSet {
     super();
     this.source = source;
 
-    const brandsLoader = makeShardedLoader<Brand>(source, options.diskLoaderFactory, {
+    // Every sharded loader shares the build-time file manifest (URL mode).
+    const manifest: Manifest = () => this.fileManifest();
+    const loaderFor = <T, Raw = T>(opts: LoaderOpts<T, Raw>) =>
+      makeShardedLoader<T, Raw>(source, options.diskLoaderFactory, opts, manifest);
+
+    const brandsLoader = loaderFor<Brand>({
       shards: ["brands"],
       filePath: (s) => `brands/${s}.json`,
       rootKey: "Brands",
     });
-    const tabletsLoader = makeShardedLoader<Tablet>(source, options.diskLoaderFactory, {
+    const tabletsLoader = loaderFor<Tablet>({
       shards: BRANDS,
       filePath: (s) => `tablets/${s}-tablets.json`,
       rootKey: "DrawingTablets",
     });
-    const tabletFamiliesLoader = makeShardedLoader<TabletFamily>(source, options.diskLoaderFactory, {
+    const tabletFamiliesLoader = loaderFor<TabletFamily>({
       shards: BRANDS,
       filePath: (s) => `tablet-families/${s}-tablet-families.json`,
       rootKey: "TabletFamilies",
     });
-    const pensLoader = makeShardedLoader<Pen>(source, options.diskLoaderFactory, {
+    const pensLoader = loaderFor<Pen>({
       shards: BRANDS,
       filePath: (s) => `pens/${s}-pens.json`,
       rootKey: "Pens",
     });
-    const penFamiliesLoader = makeShardedLoader<PenFamily>(source, options.diskLoaderFactory, {
+    const penFamiliesLoader = loaderFor<PenFamily>({
       shards: BRANDS,
       filePath: (s) => `pen-families/${s}-pen-families.json`,
       rootKey: "PenFamilies",
     });
-    const driversLoader = makeShardedLoader<Driver>(source, options.diskLoaderFactory, {
+    const driversLoader = loaderFor<Driver>({
       shards: BRANDS,
       filePath: (s) => `drivers/${s}-drivers.json`,
       rootKey: "Drivers",
     });
-    const penCompatLoader = makeShardedLoader<PenCompat, PenCompatGrouped>(source, options.diskLoaderFactory, {
+    const penCompatLoader = loaderFor<PenCompat, PenCompatGrouped>({
       shards: BRANDS,
       filePath: (s) => `pen-compat/${s}-pen-compat.json`,
       rootKey: "PenCompat",
       transform: expandPenCompat,
     });
-    const pressureResponseLoader = makeShardedLoader<PressureResponse>(source, options.diskLoaderFactory, {
+    const pressureResponseLoader = loaderFor<PressureResponse>({
       shards: BRANDS,
       filePath: (s) => `pressure-response/${s}-pressure-response.json`,
       rootKey: "PressureResponse",
     });
-    const pressureRangeLoader = makeShardedLoader<PressureRange>(source, options.diskLoaderFactory, {
+    const pressureRangeLoader = loaderFor<PressureRange>({
       shards: BRANDS,
       filePath: (s) => `pressure-range/${s}-pressure-range.json`,
       rootKey: "PressureRange",
     });
 
+    // Raw files that more than one collection needs are memoised here (with
+    // the same evict-on-failure cache as the single-file resources), so
+    // e.g. Pens and PenFamilies share one fetch of the pen files.
+    const inventoryLoader = <T,>(kind: "pens" | "tablets", rootKey: string) =>
+      loaderFor<T>({
+        shards: [requireUserId(source)],
+        filePath: (s) => `inventory/${s}-${kind}.json`,
+        rootKey,
+      });
+    const rawPens = () => this.cachedFile("raw:Pens", () => pensLoader.load());
+    const rawPenFamilies = () => this.cachedFile("raw:PenFamilies", () => penFamiliesLoader.load());
+    const rawPressureResponse = () =>
+      this.cachedFile("raw:PressureResponse", () => pressureResponseLoader.load());
+    const rawInventoryPens = () =>
+      this.cachedFile("raw:InventoryPens", () =>
+        inventoryLoader<InventoryPen>("pens", "InventoryPens").load(),
+      );
+    const rawInventoryTablets = () =>
+      this.cachedFile("raw:InventoryTablets", () =>
+        inventoryLoader<InventoryTablet>("tablets", "InventoryTablets").load(),
+      );
+    // Computed fields degrade to 0 without a userId rather than failing the
+    // whole collection — a DataSet without one is still valid (#346).
+    const optionalInventoryPens = () => (source.userId ? rawInventoryPens() : Promise.resolve([]));
+    const optionalInventoryTablets = () =>
+      source.userId ? rawInventoryTablets() : Promise.resolve([]);
+
+    // Collections whose FieldDefs show values derived from other collections
+    // load exactly the inputs they need and attach the results to each row
+    // (see computed.ts). Nothing has to be preloaded by the app, and a
+    // consumer can't forget a setup step and read 0.
     this.registerCollection<BrandWithRels>(
       "Brands",
       async () => (await brandsLoader.load()).map((b) => this.wrapBrand(b)),
@@ -261,7 +312,15 @@ export class DrawTabDataSet extends DataSet {
     );
     this.registerCollection<TabletWithRels>(
       "Tablets",
-      async () => (await tabletsLoader.load()).map((t) => this.wrapTablet(t)),
+      async () => {
+        const [tablets, units] = await Promise.all([tabletsLoader.load(), optionalInventoryTablets()]);
+        const unitsByTablet = countBy(units, (u) => u.TabletEntityId);
+        return tablets.map((t) =>
+          attachComputed(this.wrapTablet(t), {
+            UnitsInInventory: unitsByTablet.get(t.Meta.EntityId) ?? 0,
+          }),
+        );
+      },
       TABLET_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<TabletFamilyWithRels>(
@@ -271,12 +330,52 @@ export class DrawTabDataSet extends DataSet {
     );
     this.registerCollection<PenWithRels>(
       "Pens",
-      async () => (await pensLoader.load()).map((p) => this.wrapPen(p)),
+      async () => {
+        const [pens, units, sessionsByPen, families] = await Promise.all([
+          rawPens(),
+          optionalInventoryPens(),
+          this.pressureSessionsByPen(rawPressureResponse),
+          rawPenFamilies(),
+        ]);
+        const unitsByPen = countBy(units, (u) => u.PenEntityId);
+        const familyNames = new Map(families.map((f) => [f.EntityId, f.FamilyName]));
+        return pens.map((p) =>
+          attachComputed(this.wrapPen(p), {
+            UnitsInInventory: unitsByPen.get(p.EntityId) ?? 0,
+            PressureSessionCount: sessionsByPen.get(p.EntityId) ?? 0,
+            FamilyName: p.PenFamily ? familyNames.get(p.PenFamily) : undefined,
+          }),
+        );
+      },
       PEN_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<PenFamilyWithRels>(
       "PenFamilies",
-      async () => (await penFamiliesLoader.load()).map((f) => this.wrapPenFamily(f)),
+      async () => {
+        const [families, pens, units] = await Promise.all([
+          rawPenFamilies(),
+          rawPens(),
+          optionalInventoryPens(),
+        ]);
+        const familyOfPen = new Map<string, string>();
+        const modelIds = new Map<string, string[]>();
+        for (const p of pens) {
+          if (!p.PenFamily) continue;
+          familyOfPen.set(p.EntityId, p.PenFamily);
+          const list = modelIds.get(p.PenFamily) ?? [];
+          list.push(p.PenId);
+          modelIds.set(p.PenFamily, list);
+        }
+        const unitsByFamily = countBy(units, (u) => familyOfPen.get(u.PenEntityId));
+        return families.map((f) => {
+          const ids = modelIds.get(f.EntityId) ?? [];
+          return attachComputed(this.wrapPenFamily(f), {
+            PenCount: ids.length,
+            InventoryCount: unitsByFamily.get(f.EntityId) ?? 0,
+            ModelIds: [...ids].sort((a, b) => a.localeCompare(b)).join(", "),
+          });
+        });
+      },
       PEN_FAMILY_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<DriverWithRels>(
@@ -291,7 +390,13 @@ export class DrawTabDataSet extends DataSet {
     );
     this.registerCollection<PressureResponseWithRels>(
       "PressureResponse",
-      async () => (await pressureResponseLoader.load()).map((s) => this.wrapPressureResponse(s)),
+      async () => {
+        const [sessions, units] = await Promise.all([rawPressureResponse(), optionalInventoryPens()]);
+        const defects = buildInventoryDefects(units);
+        return sessions.map((s) =>
+          attachComputed(this.wrapPressureResponse(s), { IsDefective: defects.has(s.InventoryId) }),
+        );
+      },
       PRESSURE_RESPONSE_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<PressureRangeWithRels>(
@@ -305,26 +410,12 @@ export class DrawTabDataSet extends DataSet {
     // is still usable for non-inventory collections.
     this.registerCollection<InventoryPenWithRels>(
       "InventoryPens",
-      async () => {
-        const loader = makeShardedLoader<InventoryPen>(source, options.diskLoaderFactory, {
-          shards: [requireUserId(source)],
-          filePath: (s) => `inventory/${s}-pens.json`,
-          rootKey: "InventoryPens",
-        });
-        return (await loader.load()).map((p) => this.wrapInventoryPen(p));
-      },
+      async () => (await rawInventoryPens()).map((p) => this.wrapInventoryPen(p)),
       INVENTORY_PEN_FIELDS as AnyFieldDef[],
     );
     this.registerCollection<InventoryTabletWithRels>(
       "InventoryTablets",
-      async () => {
-        const loader = makeShardedLoader<InventoryTablet>(source, options.diskLoaderFactory, {
-          shards: [requireUserId(source)],
-          filePath: (s) => `inventory/${s}-tablets.json`,
-          rootKey: "InventoryTablets",
-        });
-        return (await loader.load()).map((t) => this.wrapInventoryTablet(t));
-      },
+      async () => (await rawInventoryTablets()).map((t) => this.wrapInventoryTablet(t)),
       INVENTORY_TABLET_FIELDS as AnyFieldDef[],
     );
   }
@@ -565,6 +656,35 @@ export class DrawTabDataSet extends DataSet {
       this.fileCache.set(key, p);
     }
     return p;
+  }
+
+  /**
+   * PenEntityId -> session count for Pen.PressureSessionCount. In URL mode
+   * the build-time index in version.json answers this in ~3 KB; otherwise
+   * (disk mode, or no index) count the raw sessions — ~1.5 MB over URL,
+   * which is why the index exists (#346).
+   */
+  private async pressureSessionsByPen(
+    rawSessions: () => Promise<PressureResponse[]>,
+  ): Promise<ReadonlyMap<string, number>> {
+    if (this.source.kind === "url") {
+      const index = (await this.getVersion())?.indexes?.pressureSessionsByPen;
+      if (index) return new Map(Object.entries(index));
+    }
+    return countBy(await rawSessions(), (s) => s.PenEntityId);
+  }
+
+  /**
+   * The set of data files that exist, from version.json's `files` list
+   * (generated at build time — see version-info.ts). URL mode only; null
+   * when there is no manifest, in which case loaders probe every shard.
+   */
+  private fileManifest(): Promise<ReadonlySet<string> | null> {
+    if (this.source.kind !== "url") return Promise.resolve(null);
+    return this.cachedFile("manifest", async () => {
+      const files = (await this.getVersion())?.files;
+      return files ? new Set(files) : null;
+    });
   }
 
   private requireUrlSource(resource: string): string {

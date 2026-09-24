@@ -146,3 +146,41 @@ describe("free-function loaders share the same policy", () => {
     await expect(loadBrandsFromURL("/d")).rejects.toThrow("HTTP 503");
   });
 });
+
+describe("ShardedURLLoader with a file manifest (#346)", () => {
+  function trackingServe(routes: Record<string, unknown>) {
+    const requested: string[] = [];
+    vi.stubGlobal("fetch", async (u: string) => {
+      requested.push(u);
+      if (!(u in routes)) return new Response("", { status: 404 });
+      return Response.json(routes[u]);
+    });
+    return requested;
+  }
+  const withManifest = (files: string[] | null) =>
+    new ShardedURLLoader<{ Id: string }>("/d", {
+      shards: ["HUION", "WACOM", "XPPEN"],
+      filePath: (s) => `pens/${s}-pens.json`,
+      rootKey: "Pens",
+      manifest: async () => (files ? new Set(files) : null),
+    });
+
+  it("fetches only the shards the manifest lists", async () => {
+    const requested = trackingServe({ "/d/pens/WACOM-pens.json": { Pens: [{ Id: "W" }] } });
+    expect(await withManifest(["pens/WACOM-pens.json"]).load()).toEqual([{ Id: "W" }]);
+    expect(requested).toEqual(["/d/pens/WACOM-pens.json"]);
+  });
+
+  it("treats a listed file that is missing as an error, not an empty shard", async () => {
+    trackingServe({});
+    await expect(withManifest(["pens/WACOM-pens.json"]).load()).rejects.toThrow(
+      "listed in the file manifest but not found",
+    );
+  });
+
+  it("probes every shard when there is no manifest", async () => {
+    const requested = trackingServe({ "/d/pens/WACOM-pens.json": { Pens: [] } });
+    await withManifest(null).load();
+    expect(requested).toHaveLength(3);
+  });
+});

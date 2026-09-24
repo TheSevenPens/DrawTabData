@@ -983,3 +983,37 @@ describe("URL mode — failed loads are retried, not cached", () => {
     }
   });
 });
+
+describe("URL mode — build-time manifest and indexes (#346)", () => {
+  it("Pens uses the session-count index and never downloads pressure-response", async () => {
+    const requested: string[] = [];
+    vi.stubGlobal("fetch", async (u: string) => {
+      requested.push(u);
+      if (u === "/d/version.json") {
+        return Response.json({
+          schemaVersion: 1,
+          files: ["pens/WACOM-pens.json", "pen-families/WACOM-pen-families.json"],
+          indexes: { pressureSessionsByPen: { "wacom.pen.kp503e": 7 } },
+        });
+      }
+      if (u === "/d/pens/WACOM-pens.json") {
+        return Response.json({ Pens: [{ EntityId: "wacom.pen.kp503e", Brand: "WACOM", PenId: "KP-503E" }] });
+      }
+      if (u === "/d/pen-families/WACOM-pen-families.json") return Response.json({ PenFamilies: [] });
+      return new Response("", { status: 404 });
+    });
+    try {
+      const urlDs = new DrawTabDataSet({ kind: "url", baseUrl: "/d" });
+      const [pen] = await urlDs.Pens.toArray();
+      const field = (await import("./entities/pen-fields.js")).PEN_FIELDS.find(
+        (f) => f.key === "PressureSessionCount",
+      )!;
+      expect(field.getValue(pen)).toBe("7");
+      expect(requested.some((u) => u.includes("pressure-response"))).toBe(false);
+      // Only manifest-listed shards were requested: no probing of other brands.
+      expect(requested.filter((u) => u.includes("/pens/"))).toEqual(["/d/pens/WACOM-pens.json"]);
+    } finally {
+      vi.unstubAllGlobals();
+    }
+  });
+});

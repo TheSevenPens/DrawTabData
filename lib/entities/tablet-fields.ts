@@ -3,6 +3,7 @@ import { brandName } from "../drawtab-loader.js";
 import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
 import { BRANDS } from "../loader-shared.js";
+import { computedOf } from "../computed.js";
 import { brandPrefixesName, tokenAppearsInName } from "./name-formatting.js";
 import { ageInDays, ageInYears, formatAge, isUnreleased, releaseOrigin } from "./age-format.js";
 import { tabletManufacturerProductLink, tabletManufacturerUserManual } from "./tablet-link-accessors.js";
@@ -87,17 +88,6 @@ export function tabletNameAndId(tablet: Tablet): string {
     : `${tablet.Model.Name} (${tablet.Model.Id})`;
 }
 
-// Pages (typically +layout.ts) call setInventoryUnitCountByTabletEntityId()
-// with a TabletEntityId -> count map so the `UnitsInInventory` computed
-// FieldDef shows how many physical units we own of each model. Mirrors the
-// equivalent pattern on Pens (see pen-fields.ts). Defaults to an empty map
-// so unwired consumers see 0 for every row.
-let inventoryUnitCountByTabletEntityId: ReadonlyMap<string, number> = new Map();
-export function setInventoryUnitCountByTabletEntityId(
-  map: ReadonlyMap<string, number>,
-): void {
-  inventoryUnitCountByTabletEntityId = map;
-}
 
 export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
 
@@ -171,7 +161,8 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   {
     key: "UnitsInInventory", label: "Units in Inventory",
     computed: true, type: "number", group: "Model",
-    getValue: (t) => String(inventoryUnitCountByTabletEntityId.get(t.Meta.EntityId) ?? 0),
+    // Computed by the DrawTabDataSet while loading Tablets (#346).
+    getValue: (t) => String(computedOf(t).UnitsInInventory ?? 0),
   },
   // Digitizer
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.Digitizer?.Type ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },

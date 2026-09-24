@@ -12,7 +12,7 @@ import type { DrawTabDataSet } from "./dataset.js";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
 import { TABLET_FIELDS } from "./entities/tablet-fields.js";
 import { TABLET_FAMILY_FIELDS } from "./entities/tablet-family-fields.js";
-import { PEN_FIELDS, setPenFamilyNames } from "./entities/pen-fields.js";
+import { PEN_FIELDS } from "./entities/pen-fields.js";
 import { PEN_FAMILY_FIELDS } from "./entities/pen-family-fields.js";
 import { DRIVER_FIELDS } from "./entities/driver-fields.js";
 import { PEN_COMPAT_FIELDS } from "./entities/pen-compat-fields.js";
@@ -73,21 +73,12 @@ describe("pen fields: queries don't depend on display lookups", () => {
     expect(await ds.Pens.filter("Brand", "==", "Wacom").count()).toBe(0);
   });
 
-  it("PenFamily filters by EntityId, before and after setPenFamilyNames()", async () => {
+  it("PenFamily filters by EntityId; the name is display-only", async () => {
     const id = "apple.penfamily.applepencil";
-    setPenFamilyNames({});
-    const before = await ds.Pens.filter("PenFamily", "==", id).count();
-    setPenFamilyNames({ [id]: "Apple Pencil" });
-    try {
-      const after = await ds.Pens.filter("PenFamily", "==", id).count();
-      expect(before).toBeGreaterThan(0);
-      expect(after).toBe(before);
-      // ...while the display side does use the name.
-      const field = PEN_FIELDS.find((f) => f.key === "PenFamily")!;
-      const pen = (await ds.Pens.filter("PenFamily", "==", id).toArray())[0];
-      expect(field.getDisplayValue?.(pen)).toBe("Apple Pencil");
-    } finally {
-      setPenFamilyNames({});
-    }
+    const pens = await ds.Pens.filter("PenFamily", "==", id).toArray();
+    expect(pens.length).toBeGreaterThan(0);
+    const field = PEN_FIELDS.find((f) => f.key === "PenFamily")!;
+    expect(field.getValue(pens[0])).toBe(id);
+    expect(field.getDisplayValue?.(pens[0])).toBe("Apple Pencil pen series");
   });
 });

@@ -45,6 +45,36 @@ function countSingleFile(dataDir: string, file: string, rootKey: string): number
   return Array.isArray(items) ? items.length : 0;
 }
 
+/** Every .json under data/ except version.json itself, as sorted
+ * forward-slash paths relative to data/. */
+export function listDataFiles(dataDir: string): string[] {
+  const out: string[] = [];
+  const walk = (dir: string, rel: string) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const r = rel ? `${rel}/${entry.name}` : entry.name;
+      if (entry.isDirectory()) walk(path.join(dir, entry.name), r);
+      else if (entry.name.endsWith(".json") && r !== "version.json") out.push(r);
+    }
+  };
+  walk(dataDir, "");
+  return out.sort();
+}
+
+/** PenEntityId -> number of pressure-response sessions, across all brands. */
+export function pressureSessionsByPen(dataDir: string): Record<string, number> {
+  const out: Record<string, number> = {};
+  const dir = path.join(dataDir, "pressure-response");
+  if (!fs.existsSync(dir)) return out;
+  for (const f of fs.readdirSync(dir).filter((f) => f.endsWith("-pressure-response.json"))) {
+    const sessions = readJson(path.join(dir, f)).PressureResponse;
+    if (!Array.isArray(sessions)) continue;
+    for (const s of sessions as { PenEntityId?: string }[]) {
+      if (s.PenEntityId) out[s.PenEntityId] = (out[s.PenEntityId] ?? 0) + 1;
+    }
+  }
+  return out;
+}
+
 /** Version metadata for the data checkout at `repoRoot` (the dir holding `data/`). */
 export function buildVersionInfo(repoRoot: string): VersionInfo {
   const dataDir = path.join(repoRoot, "data");
@@ -65,5 +95,7 @@ export function buildVersionInfo(repoRoot: string): VersionInfo {
       brands: countSingleFile(dataDir, "brands/brands.json", "Brands"),
       pressureResponse: countRecords(dataDir, "pressure-response", "-pressure-response.json", "PressureResponse"),
     },
+    files: listDataFiles(dataDir),
+    indexes: { pressureSessionsByPen: pressureSessionsByPen(dataDir) },
   };
 }

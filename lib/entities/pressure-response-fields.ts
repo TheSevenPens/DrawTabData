@@ -2,37 +2,22 @@ import type { PressureResponse } from "../drawtab-loader.js";
 import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { BRANDS } from "../loader-shared.js";
 import { estimatePiaf, estimatePmax } from "../pressure/interpolate.js";
-import type { DefectInfo } from "../pressure/defects.js";
+import { computedOf } from "../computed.js";
 
 export type { PressureResponse } from "../drawtab-loader.js";
 
-// Pages can call setPenNameMap() with a PenEntityId -> "Brand PenName (PenId)"
-// map (typically built via buildPenNameMap() from $lib/pen-helpers) so the
-// "Pen" column shows a human-readable label instead of a raw EntityId.
-// Falls back to the raw EntityId when no map is set or the EntityId is
-// unknown.
-let penNameMap: Map<string, string> = new Map();
-export function setPenNameMap(map: Map<string, string>): void {
-  penNameMap = map;
-}
-
-// Pages call setDefectsByInventoryId() with the lookup built by
-// `buildInventoryDefects(inventoryPens)` so the `IsDefective` computed
-// field reflects true status. Defaults to an empty map so unwired
-// consumers see 'NO' for every row. Wire this at +layout.ts so every
-// consumer (list pages, /pen-analysis, /api-explorer) inherits accurate
-// values automatically.
-let defectsByInventoryId: ReadonlyMap<string, DefectInfo> = new Map();
-export function setDefectsByInventoryId(map: ReadonlyMap<string, DefectInfo>): void {
-  defectsByInventoryId = map;
-}
+// IsDefective depends on the inventory unit's recorded defects; the
+// DrawTabDataSet computes it while loading PressureResponse (see
+// ../computed.ts, #346). PenEntityId is the stored EntityId — pages draw a
+// label through cellLinks. (A setPenNameMap() hook for it existed but was
+// never called, so the field was already raw in practice.)
 
 export const PRESSURE_RESPONSE_FIELD_GROUPS = ["Session", "Environment"];
 
 export const PRESSURE_RESPONSE_FIELDS: FieldDisplayDef<PressureResponse>[] = [
   // Session
   { key: "Brand", label: "Brand", getValue: (s) => s.Brand, type: "enum", enumValues: [...BRANDS], group: "Session" },
-  { key: "PenEntityId", label: "Pen", getValue: (s) => penNameMap.get(s.PenEntityId) ?? s.PenEntityId, type: "string", group: "Session" },
+  { key: "PenEntityId", label: "Pen", getValue: (s) => s.PenEntityId, type: "string", group: "Session" },
   { key: "PenFamily", label: "Pen Family", getValue: (s) => s.PenFamily, type: "string", group: "Session" },
   { key: "InventoryId", label: "Inventory ID", getValue: (s) => s.InventoryId, type: "string", group: "Session" },
   { key: "Date", label: "Date", getValue: (s) => s.Date, type: "string", group: "Session" },
@@ -66,7 +51,7 @@ export const PRESSURE_RESPONSE_FIELDS: FieldDisplayDef<PressureResponse>[] = [
   {
     key: "IsDefective", label: "Defective unit", group: "Session", computed: true, type: "enum",
     enumValues: ["YES", "NO"],
-    getValue: (s) => defectsByInventoryId.has(s.InventoryId) ? "YES" : "NO",
+    getValue: (s) => (computedOf(s).IsDefective ? "YES" : "NO"),
   },
   // Environment
   { key: "TabletEntityId", label: "TabletEntityId", getValue: (s) => s.TabletEntityId, type: "string", group: "Environment" },

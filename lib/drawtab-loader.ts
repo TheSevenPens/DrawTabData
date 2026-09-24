@@ -106,6 +106,14 @@ export interface ShardedURLLoaderOptions<T, Raw = T> {
   /** Optional post-process applied to the concatenated raw rows (e.g.
    * `expandPenCompat` flattens grouped PenCompat into one row per pair). */
   transform?: (raw: Raw[]) => T[];
+  /**
+   * Which files exist, as paths relative to `baseUrl` (a build-time list —
+   * see VersionInfo.files). When it resolves to a set, shards not in it are
+   * skipped without a request, and a listed shard that comes back absent is
+   * an error: the manifest said it exists. When it resolves to null (no
+   * manifest available) every shard is probed, as before (#346).
+   */
+  manifest?: () => Promise<ReadonlySet<string> | null>;
 }
 
 export class ShardedURLLoader<T, Raw = T> implements Loader<T> {
@@ -116,11 +124,17 @@ export class ShardedURLLoader<T, Raw = T> implements Loader<T> {
 
   async load(): Promise<T[]> {
     const { rootKey } = this.opts;
+    const manifest = (await this.opts.manifest?.()) ?? null;
     const perShard = await Promise.all(
       this.opts.shards.map(async (shard): Promise<Raw[]> => {
-        const url = `${this.baseUrl}/${this.opts.filePath(shard)}`;
+        const file = this.opts.filePath(shard);
+        if (manifest && !manifest.has(file)) return [];
+        const url = `${this.baseUrl}/${file}`;
         const data = await fetchDataFile(url);
-        if (data === undefined) return [];
+        if (data === undefined) {
+          if (manifest) throw new DataLoadError(url, "listed in the file manifest but not found");
+          return [];
+        }
         const items = data?.[rootKey];
         if (!Array.isArray(items)) {
           throw new DataLoadError(url, `expected an array under "${rootKey}"`);
