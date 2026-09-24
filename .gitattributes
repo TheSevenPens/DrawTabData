@@ -4,3 +4,10 @@
 # files mixed within the file. scripts/format-data.ts checks bytes
 # exactly, which only works when every checkout agrees on line endings.
 *.json text eol=lf
+
+# Third-party captures are byte-preserved (tests compare them byte for
+# byte): never convert their line endings, on any platform.
+data/machollywood/** -text
+data/wacom-update/** -text
+data/otd/** -text
+data/links/** -text
