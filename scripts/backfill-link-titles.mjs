@@ -1,6 +1,6 @@
 #!/usr/bin/env -S npx tsx
 /**
- * Link checker + title backfill for data/tablets/*.json.
+ * Link checker + title backfill for tablet Links.
  *
  * For each link it fetches the URL once and records:
  *   - Title       : the page <title> (light-cleaned), only when the link has none.
@@ -9,25 +9,26 @@
  *                   OK | DEAD (404/410) | BLOCKED (401/403) | ERROR (timeout/5xx) |
  *                   REDIRECT (reachable but the stored URL now lands elsewhere).
  *
- * Touched files are written with writeDataJson() (lib/data-json.ts), so they
- * stay canonical and unchanged links don't churn.
+ * Edits the tablet SOURCE files (source/tablets/<brand>/<EntityId>.json) with
+ * writeSourceRecord() — canonical format, only changed records rewritten — then
+ * regenerates the data/tablets/ bundles once (RFC #45 — the bundles are
+ * generated, never edited).
  *
  * Usage: npx tsx scripts/backfill-link-titles.mjs [options]
- *   (tsx, not node: it imports lib/data-json.ts)
+ *   (tsx, not node: it imports lib/sources.ts)
  *   --brand WACOM[,HUION]   only tablets of these brands
  *   --limit N               only the first N distinct URLs (staged runs)
  *   --concurrency N         parallel fetches (default 6)
  *   --recheck               re-check links that already have a Check (refresh)
  *   --dry-run               fetch + report, do not write
  *   --verbatim              keep the raw <title> (skip the site-name strip)
- *   --data-dir DIR          data directory to use (default: data/)
+ *   --repo-root DIR         directory holding source/ and data/ (default: this data-repo)
  *
  * Default (no --recheck) only touches links missing a Check, so re-runs are cheap.
  */
-import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { readDataJson, writeDataJson } from "../lib/data-json.ts";
+import { readSources, regenerate, sourceCollection, writeSourceRecord } from "../lib/sources.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const UA =
@@ -46,25 +47,27 @@ const concurrency = getOpt("concurrency") ? Number(getOpt("concurrency")) : 6;
 const recheck = !!getOpt("recheck");
 const dryRun = !!getOpt("dry-run");
 const verbatim = !!getOpt("verbatim");
-const dataDirOpt = getOpt("data-dir");
-const TABLETS_DIR = path.join(
-  typeof dataDirOpt === "string" ? path.resolve(dataDirOpt) : path.join(__dirname, "..", "data"),
-  "tablets",
-);
+const repoRootOpt = getOpt("repo-root");
+const REPO_ROOT = typeof repoRootOpt === "string" ? path.resolve(repoRootOpt) : path.join(__dirname, "..");
+const TABLETS = sourceCollection("tablets");
 
 const inBrand = (t) => !brands || brands.includes(t.Model.Brand);
 
+// ---- read the tablet sources (stop before fetching if any is bad) ----
+const { records: sources, issues: sourceIssues } = readSources(REPO_ROOT, TABLETS);
+if (sourceIssues.length) {
+  console.error("Tablet source problems (fix these first; nothing was written):");
+  for (const i of sourceIssues) console.error(`  ${i.file}: ${i.problem}`);
+  process.exit(1);
+}
+
 // ---- collect distinct URLs needing work ----
-const files = fs.readdirSync(TABLETS_DIR).filter((f) => f.endsWith("-tablets.json"));
 const urlInstances = new Map(); // url -> instance count
-for (const f of files) {
-  const j = readDataJson(path.join(TABLETS_DIR, f));
-  for (const t of j.DrawingTablets ?? []) {
-    if (!inBrand(t)) continue;
-    for (const l of t.Model.Links ?? []) {
-      if (l.Check && !recheck) continue; // already checked
-      urlInstances.set(l.URL, (urlInstances.get(l.URL) ?? 0) + 1);
-    }
+for (const { record: t } of sources) {
+  if (!inBrand(t)) continue;
+  for (const l of t.Model.Links ?? []) {
+    if (l.Check && !recheck) continue; // already checked
+    urlInstances.set(l.URL, (urlInstances.get(l.URL) ?? 0) + 1);
   }
 }
 let urls = [...urlInstances.keys()].sort();
@@ -252,51 +255,45 @@ const orderLink = (l) => {
   return o;
 };
 
-// ---- apply to files (parse -> mutate -> writeDataJson) ----
+// ---- apply to sources (mutate -> writeSourceRecord), then regenerate once ----
 const stats = { status: {}, contentType: {}, titled: 0, objects: 0, tablets: 0, errored: 0 };
-for (const f of files) {
-  const fp = path.join(TABLETS_DIR, f);
-  const j = readDataJson(fp);
-  let fileChanged = false;
+for (const { record: t } of sources) {
+  if (!inBrand(t)) continue;
+  const links = t.Model.Links;
+  if (!links?.length || !links.some((l) => results.has(l.URL))) continue;
 
-  for (const t of j.DrawingTablets ?? []) {
-    if (!inBrand(t)) continue;
-    const links = t.Model.Links;
-    if (!links?.length || !links.some((l) => results.has(l.URL))) continue;
-
-    let mutated = false;
-    for (const l of links) {
-      const r = results.get(l.URL);
-      if (!r) continue;
-      // ERROR = no HTTP response (timeout/DNS/reset) — likely transient. Don't
-      // persist it; leave the link unchecked so a re-run retries it.
-      if (r.status === "ERROR") {
-        stats.errored++;
-        continue;
-      }
-      if (r.title && !l.Title) {
-        l.Title = r.title;
-        stats.titled++;
-      }
-      l.ContentType = r.contentType;
-      l.Check = {
-        Status: r.status,
-        CheckedAt: RUN_AT,
-        ...(r.httpStatus != null ? { HttpStatus: r.httpStatus } : {}),
-        ...(r.finalUrl ? { FinalUrl: r.finalUrl } : {}),
-      };
-      stats.status[r.status] = (stats.status[r.status] ?? 0) + 1;
-      stats.contentType[r.contentType] = (stats.contentType[r.contentType] ?? 0) + 1;
-      stats.objects++;
-      mutated = true;
+  let mutated = false;
+  for (const l of links) {
+    const r = results.get(l.URL);
+    if (!r) continue;
+    // ERROR = no HTTP response (timeout/DNS/reset) — likely transient. Don't
+    // persist it; leave the link unchecked so a re-run retries it.
+    if (r.status === "ERROR") {
+      stats.errored++;
+      continue;
     }
-    if (!mutated) continue;
-    stats.tablets++;
-    t.Model.Links = links.map(orderLink);
-    fileChanged = true;
+    if (r.title && !l.Title) {
+      l.Title = r.title;
+      stats.titled++;
+    }
+    l.ContentType = r.contentType;
+    l.Check = {
+      Status: r.status,
+      CheckedAt: RUN_AT,
+      ...(r.httpStatus != null ? { HttpStatus: r.httpStatus } : {}),
+      ...(r.finalUrl ? { FinalUrl: r.finalUrl } : {}),
+    };
+    stats.status[r.status] = (stats.status[r.status] ?? 0) + 1;
+    stats.contentType[r.contentType] = (stats.contentType[r.contentType] ?? 0) + 1;
+    stats.objects++;
+    mutated = true;
   }
-  if (fileChanged && !dryRun) writeDataJson(fp, j);
+  if (!mutated) continue;
+  stats.tablets++;
+  t.Model.Links = links.map(orderLink);
+  if (!dryRun) writeSourceRecord(REPO_ROOT, TABLETS, t);
 }
+const regenerated = !dryRun && stats.tablets > 0 ? regenerate(REPO_ROOT) : [];
 
 // ---- report ----
 const fetched = [...results.entries()];
@@ -313,5 +310,7 @@ console.log(
   dryRun
     ? `\nDRY RUN — no files written (${stats.objects} link objects would change).`
     : `\nWrote ${stats.objects} link checks (${stats.titled} new titles) across ${stats.tablets} tablets.` +
-        (stats.errored ? ` Left ${stats.errored} ERROR link(s) unchecked (re-run to retry).` : ""),
+        (stats.errored ? ` Left ${stats.errored} ERROR link(s) unchecked (re-run to retry).` : "") +
+        regenerated.map((f) => `
+Regenerated ${f}.`).join(""),
 );

@@ -1,38 +1,40 @@
 // Assign Model.Family to one or more tablets.
-// Usage: tsx scripts/set-family.ts <Family> <Tablet1> [Tablet2] [...] [--data-dir <dir>]
+// Usage: tsx scripts/set-family.ts <Family> <Tablet1> [Tablet2] [...] [--repo-root <dir>]
 //
 // <Family> is a tablet-family EntityId ("xppen.tabletfamily.xppenartistgen2")
 // or just its last segment ("XPPenArtistGen2", case-insensitive). Model.Family
 // is always written as the full EntityId.
 // Each <Tablet> is a Model.Id ("CD100FH") or a tablet EntityId.
 //
+// Edits each tablet's source file (source/tablets/<brand>/<EntityId>.json),
+// then regenerates the data/tablets/ bundles once (RFC #45 — the bundles are
+// generated, never edited). --repo-root is the directory holding source/ and
+// data/ (default: this data-repo; point it at a copy for testing).
+//
 // Example: tsx scripts/set-family.ts XPPenArtistGen2 CD100FH CD120FH CD130FH
 
-import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { loadTabletFamiliesFromDisk } from "../lib/drawtab-loader-node.js";
 import { findFamily } from "../lib/family-lookup.js";
-import { readDataJson, writeDataJson } from "../lib/data-json.js";
+import { readSources, regenerate, sourceCollection, writeSourceRecord } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const argv = process.argv.slice(2);
-const dataDirIdx = argv.indexOf("--data-dir");
-const dataDir =
-  dataDirIdx >= 0 ? path.resolve(argv[dataDirIdx + 1] ?? ".") : path.join(__dirname, "..", "data");
-const tabletsDir = path.join(dataDir, "tablets");
-const args = argv.filter((a, i) => a !== "--data-dir" && argv[i - 1] !== "--data-dir");
+const rootIdx = argv.indexOf("--repo-root");
+const repoRoot = rootIdx >= 0 ? path.resolve(argv[rootIdx + 1] ?? ".") : path.join(__dirname, "..");
+const args = argv.filter((a, i) => a !== "--repo-root" && argv[i - 1] !== "--repo-root");
 
 if (args.length < 2) {
-  console.error("Usage: tsx scripts/set-family.ts <Family> <Tablet1> [Tablet2] [...] [--data-dir <dir>]");
+  console.error("Usage: tsx scripts/set-family.ts <Family> <Tablet1> [Tablet2] [...] [--repo-root <dir>]");
   process.exit(1);
 }
 
 const [familyArg, ...tabletArgs] = args;
 
-// Verify family exists
-const families = loadTabletFamiliesFromDisk(dataDir);
+// Verify family exists (tablet families are still edited directly in data/)
+const families = loadTabletFamiliesFromDisk(path.join(repoRoot, "data"));
 const family = findFamily(families, familyArg);
 if (!family) {
   console.error(`Family not found: ${familyArg}`);
@@ -40,6 +42,14 @@ if (!family) {
   process.exit(1);
 }
 const familyId = family.EntityId;
+
+const tablets = sourceCollection("tablets");
+const { records, issues } = readSources(repoRoot, tablets);
+if (issues.length) {
+  console.error("Tablet source problems (fix these first; nothing was written):");
+  for (const i of issues) console.error(`  ${i.file}: ${i.problem}`);
+  process.exit(1);
+}
 
 console.log(`Assigning family "${family.FamilyName}" (${familyId}) to ${tabletArgs.length} tablet(s)...\n`);
 
@@ -51,27 +61,16 @@ interface TabletRecord {
   Model: { Id: string; Name?: string; Family?: string };
 }
 
-// Process each brand file
-const files = fs.readdirSync(tabletsDir).filter((f) => f.endsWith("-tablets.json"));
-for (const file of files) {
-  const filePath = path.join(tabletsDir, file);
-  const data = readDataJson<{ DrawingTablets: TabletRecord[] }>(filePath);
-  let fileModified = false;
-
-  for (const tablet of data.DrawingTablets) {
-    const key = [tablet.Model.Id, tablet.Meta?.EntityId].find((k) => k && pending.has(k));
-    if (!key) continue;
-    const old = tablet.Model.Family || "(none)";
-    tablet.Model.Family = familyId;
-    console.log(`  ${file}: ${tablet.Model.Id} (${tablet.Model.Name}) — ${old} -> ${familyId}`);
-    updated++;
-    fileModified = true;
-    pending.delete(key);
-  }
-
-  if (fileModified) {
-    writeDataJson(filePath, data);
-  }
+for (const { file, record } of records) {
+  const tablet = record as unknown as TabletRecord;
+  const key = [tablet.Model.Id, tablet.Meta?.EntityId].find((k) => k && pending.has(k));
+  if (!key) continue;
+  const old = tablet.Model.Family || "(none)";
+  tablet.Model.Family = familyId;
+  writeSourceRecord(repoRoot, tablets, record);
+  console.log(`  ${file}: ${tablet.Model.Id} (${tablet.Model.Name}) — ${old} -> ${familyId}`);
+  updated++;
+  pending.delete(key);
 }
 
 if (pending.size > 0) {
@@ -79,3 +78,4 @@ if (pending.size > 0) {
 }
 
 console.log(`\nUpdated ${updated} tablet(s).`);
+if (updated > 0) for (const f of regenerate(repoRoot)) console.log(`Regenerated ${f}.`);

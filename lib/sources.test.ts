@@ -92,6 +92,12 @@ describe("readSources diagnostics name the source file", () => {
     expect(problems()).toContainEqual(expect.stringMatching(/belongs in tablets\/huion\//));
   });
 
+  it("the EntityId prefix must be the record's brand", () => {
+    const t = { ...tablet("HUION", "q640m"), Meta: { EntityId: "wacom.tablet.q640m" } };
+    put("source/tablets/huion/wacom.tablet.q640m.json", t);
+    expect(problems()).toContainEqual(expect.stringMatching(/EntityId must start with "huion\."/));
+  });
+
   it("duplicate EntityIds are reported, case-insensitively", () => {
     // Two files that differ only in case would be ONE file on Windows or
     // macOS, so build the duplicates in ways every filesystem keeps apart:

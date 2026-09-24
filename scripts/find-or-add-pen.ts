@@ -5,16 +5,16 @@
 //     -- Search PenName, PenId, EntityId for a substring match.
 //
 //   tsx scripts/find-or-add-pen.ts --add <BRAND> <PenId> "<PenName>" [--year YYYY]
-//     -- Add a new pen record to data/pens/<BRAND>-pens.json.
+//     -- Add a new pen: writes source/pens/<brand>/<EntityId>.json, then
+//        regenerates the data/pens/ bundles from the sources (RFC #45 — the
+//        bundles are generated, never edited).
 //        EntityId derived as <brand>.pen.<penid> (lowercase, alphanumeric only).
 //
 //   tsx scripts/find-or-add-pen.ts --add ... --dry-run
 //     -- Print the record without writing.
 //
-//   --data-dir <dir>   use another data directory (default: data/)
-//
-// The brand file is written with writeDataJson() (lib/data-json.ts), so it
-// stays canonical and the diff is just the new record.
+//   --repo-root <dir>   the directory holding source/ and data/ (default:
+//                       this data-repo; point it at a copy for testing)
 
 import * as fs from "fs";
 import * as path from "path";
@@ -22,21 +22,30 @@ import { fileURLToPath } from "url";
 import { randomUUID } from "crypto";
 import * as v from "valibot";
 import { PenSchema } from "../lib/schemas.js";
-import { formatDataJson, readDataJson, writeDataJson } from "../lib/data-json.js";
+import { formatDataJson } from "../lib/data-json.js";
+import { readSources, regenerate, sourceCollection, sourcePath, writeSourceRecord } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const args = process.argv.slice(2);
 const isAdd = args.includes("--add");
 const dryRun = args.includes("--dry-run");
-const dataDirIdx = args.indexOf("--data-dir");
-const dataDir =
-  dataDirIdx >= 0 ? path.resolve(args[dataDirIdx + 1] ?? ".") : path.join(__dirname, "..", "data");
-const pensDir = path.join(dataDir, "pens");
-// Positional args, minus the values that belong to --data-dir / --year.
+const rootIdx = args.indexOf("--repo-root");
+const repoRoot = rootIdx >= 0 ? path.resolve(args[rootIdx + 1] ?? ".") : path.join(__dirname, "..");
+const pens = sourceCollection("pens");
+// Positional args, minus the values that belong to --repo-root / --year.
 const positional = args.filter(
-  (a, i) => !a.startsWith("--") && args[i - 1] !== "--data-dir" && args[i - 1] !== "--year",
+  (a, i) => !a.startsWith("--") && args[i - 1] !== "--repo-root" && args[i - 1] !== "--year",
 );
+
+// The sources are the authoritative copy. Stop on any problem in them —
+// regenerate() would refuse to write anyway.
+const { records: sources, issues: sourceIssues } = readSources(repoRoot, pens);
+if (sourceIssues.length) {
+  console.error("Pen source problems (fix these first; nothing was written):");
+  for (const i of sourceIssues) console.error(`  ${i.file}: ${i.problem}`);
+  process.exit(1);
+}
 
 if (!isAdd) {
   // --- Search mode ---
@@ -49,21 +58,19 @@ if (!isAdd) {
   const q = query.toLowerCase().replace(/[^a-z0-9]/g, "");
   const matches: Array<{ file: string; pen: any; score: number }> = [];
 
-  for (const file of fs.readdirSync(pensDir).filter((f) => f.endsWith("-pens.json"))) {
-    const data = readDataJson<any>(path.join(pensDir, file));
-    for (const pen of data.Pens ?? []) {
-      const haystack = [pen.PenName, pen.PenId, pen.EntityId]
-        .filter(Boolean)
-        .map((s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, ""))
-        .join(" ");
-      if (haystack.includes(q)) {
-        // exact-name match scores highest, then PenId, then substring
-        const score =
-          (pen.PenName?.toLowerCase().replace(/[^a-z0-9]/g, "") === q ? 100 : 0) +
-          (pen.PenId?.toLowerCase().replace(/[^a-z0-9]/g, "") === q ? 80 : 0) +
-          (haystack.includes(q) ? 10 : 0);
-        matches.push({ file, pen, score });
-      }
+  for (const { file, record } of sources) {
+    const pen = record as any;
+    const haystack = [pen.PenName, pen.PenId, pen.EntityId]
+      .filter(Boolean)
+      .map((s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, ""))
+      .join(" ");
+    if (haystack.includes(q)) {
+      // exact-name match scores highest, then PenId, then substring
+      const score =
+        (pen.PenName?.toLowerCase().replace(/[^a-z0-9]/g, "") === q ? 100 : 0) +
+        (pen.PenId?.toLowerCase().replace(/[^a-z0-9]/g, "") === q ? 80 : 0) +
+        (haystack.includes(q) ? 10 : 0);
+      matches.push({ file, pen, score });
     }
   }
 
@@ -121,21 +128,17 @@ if (!result.success) {
   process.exit(1);
 }
 
-const filePath = path.join(pensDir, `${brand}-pens.json`);
-if (!fs.existsSync(filePath)) {
-  console.error(`Brand file not found: ${filePath}`);
+const sourceRel = sourcePath(pens, brand, entityId);
+const clash = sources.find((r) => r.entityId.toLowerCase() === entityId);
+if (clash || fs.existsSync(path.join(repoRoot, sourceRel))) {
+  console.error(`Duplicate EntityId: ${entityId} (${clash?.file ?? sourceRel})`);
   process.exit(1);
 }
 
-const data = readDataJson<any>(filePath);
-const existing = data.Pens ?? [];
-
-if (existing.some((p: any) => p?.EntityId === entityId)) {
-  console.error(`Duplicate EntityId: ${entityId}`);
-  process.exit(1);
+if (!sources.some((r) => r.brand === brand)) {
+  console.log(`First ${brand} pen; the generator will create ${brand}-pens.json`);
 }
-
-console.log(`Adding ${entityId} (${penName}) to ${path.basename(filePath)}`);
+console.log(`Adding ${entityId} (${penName}) as ${sourceRel}`);
 
 if (dryRun) {
   console.log("\n--dry-run: no write.");
@@ -144,8 +147,10 @@ if (dryRun) {
   process.exit(0);
 }
 
-// Canonical format, so only the new record shows in the diff.
-data.Pens = [...existing, record];
-writeDataJson(filePath, data);
+writeSourceRecord(repoRoot, pens, record);
+console.log(`\nWrote ${sourceRel}.`);
+for (const f of regenerate(repoRoot)) console.log(`Regenerated ${f}.`);
 
-console.log(`\nWrote ${entityId}.`);
+console.log(
+  "\nReminder: data-repo changes need TWO commits — one inside data-repo/ (the new source file AND the regenerated bundle), then one in the outer repo to advance the submodule pointer.",
+);

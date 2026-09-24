@@ -140,6 +140,11 @@ export function readSources(
       if (dirent.name !== brand.toLowerCase()) {
         issues.push({ file, problem: `record Brand "${brand}" belongs in ${collection.name}/${brand.toLowerCase()}/` });
       }
+      // The EntityId prefix is the brand: sourcePathForEntityId() finds the
+      // file by it, so a record whose prefix disagrees would be unreachable.
+      if (!entityId.toLowerCase().startsWith(`${brand.toLowerCase()}.`)) {
+        issues.push({ file, problem: `EntityId must start with "${brand.toLowerCase()}." (the record Brand)` });
+      }
       records.push({ file, entityId, brand, record: rec });
     }
   }

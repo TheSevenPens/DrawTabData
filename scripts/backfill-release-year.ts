@@ -1,81 +1,85 @@
 // Backfill Model.ReleaseYear from Model.ReleaseDate when ReleaseYear is empty.
 // ReleaseDate may be YYYY, YYYY-MM, or YYYY-MM-DD; the leading four digits become ReleaseYear.
 //
-// Usage: npx tsx scripts/backfill-release-year.ts [--dry-run] [--data-dir <dir>]
+// Edits the tablet source files (source/tablets/<brand>/<EntityId>.json),
+// then regenerates the data/tablets/ bundles once (RFC #45 — the bundles are
+// generated, never edited).
+//
+// Usage: npx tsx scripts/backfill-release-year.ts [--dry-run] [--repo-root <dir>]
+//   --repo-root  the directory holding source/ and data/ (default: this data-repo)
 
-import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
-import { readDataJson, writeDataJson } from "../lib/data-json.js";
+import { readSources, regenerate, sourceCollection, writeSourceRecord } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const defaultDataDir = path.join(__dirname, "..", "data");
+const defaultRepoRoot = path.join(__dirname, "..");
 
 export function yearFromReleaseDate(releaseDate: string): string | null {
-	const trimmed = releaseDate.trim();
-	const match = trimmed.match(/^(\d{4})(?:-\d{2}(?:-\d{2})?)?$/);
-	return match ? match[1]! : null;
+  const trimmed = releaseDate.trim();
+  const match = trimmed.match(/^(\d{4})(?:-\d{2}(?:-\d{2})?)?$/);
+  return match ? match[1]! : null;
 }
 
-interface TabletsFile {
-	DrawingTablets: Array<{
-		Meta?: { EntityId?: string };
-		Model: { Id: string; ReleaseYear?: string; ReleaseDate?: string };
-	}>;
+interface TabletRecord {
+  Meta?: { EntityId?: string };
+  Model: { Id: string; ReleaseYear?: string; ReleaseDate?: string };
 }
 
-/** Fill empty ReleaseYear from ReleaseDate in every tablets file. Returns the number of tablets updated. */
-export function backfillReleaseYear(dataDir: string, { dryRun = false } = {}): number {
-	const tabletsDir = path.join(dataDir, "tablets");
-	let updated = 0;
+/**
+ * Fill empty ReleaseYear from ReleaseDate in every tablet source, then
+ * regenerate the bundles. Returns the number of tablets updated (or that
+ * would be, on a dry run). Throws, writing nothing, if a source has problems.
+ */
+export function backfillReleaseYear(repoRoot: string, { dryRun = false } = {}): number {
+  const tablets = sourceCollection("tablets");
+  const { records, issues } = readSources(repoRoot, tablets);
+  if (issues.length) {
+    throw new Error(
+      `tablet source problems; nothing was written:\n${issues.map((i) => `  ${i.file}: ${i.problem}`).join("\n")}`,
+    );
+  }
 
-	for (const file of fs.readdirSync(tabletsDir).filter((f) => f.endsWith("-tablets.json"))) {
-		const filePath = path.join(tabletsDir, file);
-		const data = readDataJson<TabletsFile>(filePath);
-		let fileModified = false;
+  let updated = 0;
+  for (const { file, record } of records) {
+    const tablet = record as unknown as TabletRecord;
+    const releaseYear = (tablet.Model.ReleaseYear ?? "").trim();
+    const releaseDate = (tablet.Model.ReleaseDate ?? "").trim();
+    if (releaseYear || !releaseDate) continue;
 
-		for (const tablet of data.DrawingTablets) {
-			const releaseYear = (tablet.Model.ReleaseYear ?? "").trim();
-			const releaseDate = (tablet.Model.ReleaseDate ?? "").trim();
-			if (releaseYear || !releaseDate) continue;
+    const year = yearFromReleaseDate(releaseDate);
+    if (!year) {
+      console.warn(
+        `  skip ${tablet.Meta?.EntityId ?? tablet.Model.Id}: cannot parse year from ReleaseDate "${releaseDate}"`,
+      );
+      continue;
+    }
 
-			const year = yearFromReleaseDate(releaseDate);
-			if (!year) {
-				console.warn(
-					`  skip ${tablet.Meta?.EntityId ?? tablet.Model.Id}: cannot parse year from ReleaseDate "${releaseDate}"`,
-				);
-				continue;
-			}
+    tablet.Model.ReleaseYear = year;
+    console.log(`  ${file}: ReleaseYear -> ${year} (from ${releaseDate})`);
+    updated++;
+    if (!dryRun) writeSourceRecord(repoRoot, tablets, record);
+  }
 
-			tablet.Model.ReleaseYear = year;
-			console.log(
-				`  ${file}: ${tablet.Meta?.EntityId ?? tablet.Model.Id} ReleaseYear -> ${year} (from ${releaseDate})`,
-			);
-			updated++;
-			fileModified = true;
-		}
-
-		if (fileModified && !dryRun) {
-			writeDataJson(filePath, data);
-		}
-	}
-
-	return updated;
+  if (!dryRun && updated > 0) {
+    for (const f of regenerate(repoRoot)) console.log(`  regenerated ${f}`);
+  }
+  return updated;
 }
 
 export function main(argv: string[] = process.argv): void {
-	const dryRun = argv.includes("--dry-run");
-	const dataDirIdx = argv.indexOf("--data-dir");
-	const dataDir = dataDirIdx >= 0 ? path.resolve(argv[dataDirIdx + 1] ?? ".") : defaultDataDir;
-	const updated = backfillReleaseYear(dataDir, { dryRun });
-	console.log(`\n${dryRun ? "Would update" : "Updated"} ${updated} tablet(s).`);
+  const dryRun = argv.includes("--dry-run");
+  const rootIdx = argv.indexOf("--repo-root");
+  const repoRoot = rootIdx >= 0 ? path.resolve(argv[rootIdx + 1] ?? ".") : defaultRepoRoot;
+  const updated = backfillReleaseYear(repoRoot, { dryRun });
+  console.log(`\n${dryRun ? "Would update" : "Updated"} ${updated} tablet(s).`);
 }
 
 const isMain =
-	typeof process !== "undefined" &&
-	process.argv[1] &&
-	path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));
+  typeof process !== "undefined" &&
+  process.argv[1] &&
+  path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));
 
 if (isMain) {
-	main();
+  main();
 }
