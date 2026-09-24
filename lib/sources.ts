@@ -283,3 +283,67 @@ export function sourceDigest(repoRoot: string): string | null {
 export function fileSha256(file: string): string {
   return crypto.createHash("sha256").update(fs.readFileSync(file)).digest("hex");
 }
+
+// --- Editing sources (for tools) -------------------------------------------
+//
+// Every tool that changes a tablet or pen edits its SOURCE file and then
+// regenerates the bundles — never the bundle. (A hand-edited bundle fails
+// `generate --check` in CI.)
+
+/** Source path for an EntityId: its first segment is the brand directory. */
+export function sourcePathForEntityId(collection: SourceCollection, entityId: string): string {
+  const brandDir = entityId.split(".")[0];
+  return `source/${collection.name}/${brandDir}/${entityId}.json`;
+}
+
+/** Read one record's source, or undefined when there is none. */
+export function readSourceRecord(
+  repoRoot: string,
+  collection: SourceCollection,
+  entityId: string,
+): Record<string, unknown> | undefined {
+  const abs = path.join(repoRoot, sourcePathForEntityId(collection, entityId));
+  if (!fs.existsSync(abs)) return undefined;
+  return parseDataJson(fs.readFileSync(abs, "utf8"), abs) as Record<string, unknown>;
+}
+
+/**
+ * Write one record to its source file (canonical format). The path comes
+ * from the record's own EntityId and Brand, so a record can't land in the
+ * wrong place. Returns the relative path written.
+ */
+export function writeSourceRecord(
+  repoRoot: string,
+  collection: SourceCollection,
+  record: Record<string, unknown>,
+): string {
+  const entityId = collection.entityId(record);
+  const brand = collection.brand(record);
+  if (typeof entityId !== "string" || !entityId) throw new Error("record has no EntityId");
+  if (typeof brand !== "string" || !brand) throw new Error(`${entityId}: record has no Brand`);
+  const rel = sourcePath(collection, brand, entityId);
+  const abs = path.join(repoRoot, rel);
+  fs.mkdirSync(path.dirname(abs), { recursive: true });
+  const text = formatDataJson(record);
+  if (!fs.existsSync(abs) || fs.readFileSync(abs, "utf8") !== text) {
+    const tmp = `${abs}.${process.pid}.tmp`;
+    fs.writeFileSync(tmp, text, "utf8");
+    fs.renameSync(tmp, abs);
+  }
+  return rel;
+}
+
+/**
+ * Regenerate the bundles after an edit. Throws — listing each source file
+ * and problem — instead of writing partial output when a source is bad.
+ * Returns the bundle files that changed.
+ */
+export function regenerate(repoRoot: string): string[] {
+  const r = generateBundles(repoRoot, { write: true });
+  if (r.sourceIssues.length) {
+    throw new Error(
+      `source problems; bundles not regenerated:\n${r.sourceIssues.map((i) => `  ${i.file}: ${i.problem}`).join("\n")}`,
+    );
+  }
+  return [...r.changed, ...r.missing, ...r.extra];
+}

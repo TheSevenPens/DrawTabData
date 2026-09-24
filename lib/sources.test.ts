@@ -205,3 +205,29 @@ describe("sourceDigest", () => {
     expect(sourceDigest(root)).toBe(d);
   });
 });
+
+describe("editing helpers", () => {
+  it("write → read → regenerate round-trips one record", async () => {
+    const { writeSourceRecord, readSourceRecord, regenerate, sourcePathForEntityId } = await import("./sources.js");
+    const t = tablet("WACOM", "ctl4100");
+    expect(writeSourceRecord(root, tablets, t)).toBe("source/tablets/wacom/wacom.tablet.ctl4100.json");
+    expect(sourcePathForEntityId(tablets, "wacom.tablet.ctl4100")).toBe("source/tablets/wacom/wacom.tablet.ctl4100.json");
+    expect(readSourceRecord(root, tablets, "wacom.tablet.ctl4100")).toEqual(t);
+    expect(readSourceRecord(root, tablets, "wacom.tablet.nope")).toBeUndefined();
+    expect(regenerate(root)).toEqual(["data/tablets/WACOM-tablets.json"]);
+    expect(regenerate(root)).toEqual([]);
+  });
+
+  it("writeSourceRecord refuses a record without EntityId or Brand", async () => {
+    const { writeSourceRecord } = await import("./sources.js");
+    expect(() => writeSourceRecord(root, pens, { Brand: "WACOM" })).toThrow(/no EntityId/);
+    expect(() => writeSourceRecord(root, pens, { EntityId: "x.pen.y" })).toThrow(/no Brand/);
+  });
+
+  it("regenerate throws, and writes nothing, when a source is bad", async () => {
+    const { regenerate } = await import("./sources.js");
+    put("source/tablets/wacom/bad.json", null, "{");
+    expect(() => regenerate(root)).toThrow(/bad\.json: invalid-json/);
+    expect(fs.existsSync(path.join(root, "data"))).toBe(false);
+  });
+});
