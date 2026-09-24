@@ -29,8 +29,8 @@ performing joins. Some fields on one entity reference the ID of another:
 | Field | On entity | References |
 |---|---|---|
 | `ModelIncludedPen` | Tablet | Array of PenIds (e.g. `["KP-501E"]` or `["PW600", "PW600S"]`) |
-| `ModelFamily` | Tablet | FamilyId on TabletFamily (e.g. `"WacomIntuosProGen8"`) |
-| `PenFamily` | Pen | FamilyId on PenFamily (e.g. `"WacomKPGEN1"`) |
+| `Model.Family` | Tablet | EntityId of a TabletFamily (e.g. `"wacom.tabletfamily.wacom_intuospro_2025"`) |
+| `PenFamily` | Pen | EntityId of a PenFamily (e.g. `"wacom.penfamily.wacom_kpgen1"`) |
 | `TabletId` | PenCompat | ModelId on Tablet (e.g. `"PTK-870"`) |
 | `PenId` | PenCompat | PenId on Pen (e.g. `"KP-501E"`) |
 

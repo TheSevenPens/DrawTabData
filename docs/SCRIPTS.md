@@ -24,7 +24,7 @@ which tablets exist for a brand, verifying data after bulk imports.
 
 ### find-unfamilied
 
-List tablets that have no `ModelFamily` assigned, grouped by brand.
+List tablets that have no `Model.Family` assigned, grouped by brand.
 
 ```bash
 npm run find-unfamilied                       # all brands
@@ -51,7 +51,7 @@ should join an existing family, reviewing family completeness.
 
 ### set-family
 
-Assign `ModelFamily` to one or more tablets by ModelId. Validates that
+Assign `Model.Family` (the family EntityId) to one or more tablets by ModelId or tablet EntityId. Validates that
 the family exists before writing.
 
 ```bash
@@ -272,7 +272,7 @@ that the page references.
 4. `npm run add-tablet -- spec.json --dry-run` — preview the auto-filled record
 5. `npm run add-tablet -- spec.json` — write
 6. `npm run find-unfamilied -- --brand BRAND` — check if it needs a family
-7. `npm run set-family -- FamilyId ModelId` — assign family if needed
+7. `npm run set-family -- <family> ModelId` — assign family if needed
 8. `npm run data-quality` — full validation before committing
 
 ### Creating a new tablet family
@@ -280,6 +280,6 @@ that the page references.
 1. `npm run list-tablets -- --brand BRAND` — survey tablets by brand
 2. Identify shared traits (pen, year, model ID prefix)
 3. Add family to `data/tablet-families/BRAND-tablet-families.json`
-4. `npm run set-family -- NewFamilyId ModelId1 ModelId2 ...` — assign members
-5. `npm run show-family -- NewFamilyId` — verify
+4. `npm run set-family -- <new-family> ModelId1 ModelId2 ...` — assign members
+5. `npm run show-family -- <new-family>` — verify
 6. `npm run data-quality` — validate

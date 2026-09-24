@@ -12,6 +12,7 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { loadTabletFamiliesFromDisk } from "../lib/drawtab-loader-node.js";
+import { findFamily } from "../lib/family-lookup.js";
 import { readDataJson, writeDataJson } from "../lib/data-json.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -32,10 +33,7 @@ const [familyArg, ...tabletArgs] = args;
 
 // Verify family exists
 const families = loadTabletFamiliesFromDisk(dataDir);
-const wanted = familyArg.toLowerCase();
-const family = families.find(
-  (f) => f.EntityId.toLowerCase() === wanted || f.EntityId.toLowerCase().split(".").pop() === wanted,
-);
+const family = findFamily(families, familyArg);
 if (!family) {
   console.error(`Family not found: ${familyArg}`);
   console.error(`Available: ${families.map((f) => f.EntityId).sort().join(", ")}`);
