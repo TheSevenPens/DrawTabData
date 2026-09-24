@@ -46,11 +46,19 @@ jobs:
       - name: Generated bundles match their sources
         run: npm run generate
 
-      # @thesevenpens/queriton is a peer dependency (inside the Explorer it
-      # resolves to the workspace copy). Install it here without saving, so
-      # package.json / the lockfile never pin a second copy.
-      - name: Peer dependency (queriton)
-        run: npm install --no-save github:TheSevenPens/queriton
+      # @thesevenpens/queriton is an (optional) peer dependency: inside the
+      # Explorer it resolves to the workspace copy, and it isn't on the public
+      # npm registry. Check it out and link it the way the workspace does
+      # (it has no runtime dependencies of its own). `npm install --no-save
+      # github:...` silently does nothing for a declared peer, hence the link.
+      - name: Checkout queriton (peer dependency)
+        uses: actions/checkout@v6
+        with:
+          repository: TheSevenPens/queriton
+          path: .queriton
+
+      - name: Link queriton
+        run: node -e "const fs=require('fs'),p=require('path');fs.mkdirSync('node_modules/@thesevenpens',{recursive:true});fs.symlinkSync(p.resolve('.queriton'),'node_modules/@thesevenpens/queriton','junction')"
 
       - name: Type-check
         run: npm run typecheck

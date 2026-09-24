@@ -115,5 +115,10 @@
   },
   "peerDependencies": {
     "@thesevenpens/queriton": "^0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@thesevenpens/queriton": {
+      "optional": true
+    }
   }
 }
