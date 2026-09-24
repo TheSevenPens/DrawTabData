@@ -33,6 +33,8 @@ Brands currently in the system:
 - XPPEN
 
 Datasets are partitioned as files by brand (e.g. WACOM-tablets.json).
+Tablets and pens are authored one record per file under source/ and the
+brand files are generated from them (see DATALAYOUT.txt).
 Inventory is partitioned by user (e.g. sevenpens-pens.json).
 Brands have display names (e.g. XPPEN -> "XP-Pen").
 

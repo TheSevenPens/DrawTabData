@@ -2,6 +2,42 @@
 
 JSON files are organized by entity type, mostly partitioned by brand.
 
+## SOURCE FILES: TABLETS AND PENS (RFC #45)
+
+Tablets and pens are authored ONE RECORD PER FILE:
+
+	source/tablets/<brand>/<EntityId>.json     e.g. source/tablets/wacom/wacom.tablet.ptk1240.json
+	source/pens/<brand>/<EntityId>.json        e.g. source/pens/wacom/wacom.pen.kp503e.json
+
+Each file holds the record object itself (no envelope). The file name
+must equal the record's EntityId and the directory its Brand, lowercase.
+
+The brand bundles data/tablets/<BRAND>-tablets.json and
+data/pens/<BRAND>-pens.json are GENERATED from those sources and stay
+tracked at the same paths, so every consumer keeps working. Never edit
+them by hand: CI regenerates them in memory and fails if the committed
+bytes differ.
+
+	npx tsx scripts/generate.ts            # check only; exit 1 on drift (runs in CI first)
+	npx tsx scripts/generate.ts --write    # regenerate after editing source/
+
+Records in a bundle are sorted by EntityId (plain code-unit order),
+brand files follow BRANDS order as before. Tools edit sources through
+lib/sources.ts (writeSourceRecord + regenerate), never the bundle; the
+Explorer's dev server regenerates automatically when a source changes.
+data-quality names the source file for tablet/pen issues.
+
+All other collections (families, pen-compat, drivers, pressure-*,
+inventory, brands, reference) are still edited directly in data/.
+
+History: the split was commit e3cf06e (scripts/split-sources.ts, kept as
+the record; it refuses to run again). A record's pre-split history is in
+the aggregate bundle file before that commit.
+
+Verification: the published version.json carries sourceDigest and
+bundles[] (path, sha256, count) next to the data commit — see
+CONSUMERS.md "Verifying a published snapshot".
+
 ## FILE FORMAT (RFC #45 phase 1)
 
 Every managed data file -- brands, tablets, pens, pen-families,

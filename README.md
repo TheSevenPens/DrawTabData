@@ -230,6 +230,12 @@ data/
 
 Files are partitioned by brand: `BRAND-entitytype.json` (e.g. `WACOM-tablets.json`).
 
+**Contributors:** tablets and pens are *authored* one record per file under
+`source/tablets/<brand>/<EntityId>.json` and `source/pens/<brand>/<EntityId>.json`.
+The `data/tablets/*` and `data/pens/*` bundles are generated from them
+(`npx tsx scripts/generate.ts --write`) — edit the source file, never the bundle.
+See `docs/DATALAYOUT.txt`.
+
 ## Documentation
 
 - [User Manual](docs/USERMANUAL.md) — detailed guide with all examples

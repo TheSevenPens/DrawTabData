@@ -77,6 +77,25 @@ npx tsx scripts/format-data.ts --write    # rewrite non-canonical files
 write with `writeDataJson`. Never splice text at an indentation or
 round-trip through PowerShell `ConvertTo-Json` (#43).
 
+### generate
+
+Regenerate the tablet and pen brand bundles from `source/` (RFC #45).
+
+```bash
+npx tsx scripts/generate.ts            # check only; exit 1 on drift (CI runs this first)
+npx tsx scripts/generate.ts --write    # after editing source/
+```
+
+`--write` refuses to write anything while a source file has problems
+(wrong name, wrong brand directory, duplicate EntityId, bad JSON), and
+deletes a bundle no source produces any more.
+
+### split-sources
+
+The ONE-TIME migration that created `source/` from the bundles (commit
+`e3cf06e`). Kept as the record of how the split was made; it refuses to
+run once `source/` exists.
+
 ### add-driver-record
 
 The write half of `Add-WacomDriver.ps1`. It takes a JSON file of new
@@ -90,7 +109,8 @@ The `.ps1` calls it; you rarely need to run it directly.
 
 Add a new tablet record. Reads a partial spec from a JSON file, auto-fills
 `Meta` (EntityId, _id, _CreateDate, _ModifiedDate), validates the full
-record against `TabletSchema`, and appends to `data/tablets/<BRAND>-tablets.json`
+record against `TabletSchema`, writes it to its source file
+`source/tablets/<brand>/<EntityId>.json` and regenerates `data/tablets/<BRAND>-tablets.json`
 through `writeDataJson` (canonical format, so the diff is just the new
 record). New records are ordered `Meta`, `Model`, then the spec's sections.
 
@@ -116,7 +136,8 @@ npm run find-or-add-pen -- --add XPPEN PD04B "X3 Note Pad Pen" --dry-run
 
 Search matches against PenName, PenId, and EntityId (alphanumerics,
 case-insensitive). Add mode validates against `PenSchema` and writes
-to `data/pens/<BRAND>-pens.json` through `writeDataJson` (canonical format).
+the pen to its source file `source/pens/<brand>/<EntityId>.json` and
+regenerates `data/pens/<BRAND>-pens.json`.
 
 **When to use:** before adding a tablet, to confirm the included pen's
 EntityId or scaffold a missing pen record.

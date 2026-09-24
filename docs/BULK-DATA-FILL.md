@@ -24,6 +24,7 @@ Show what's already set, what's still empty, and the schema-supported
 optional fields with their enum / numeric / string types. For example:
 
 ```js
+// Reading the generated bundle is fine for a survey.
 const j = require('./data-repo/data/pens/HUION-pens.json');
 const fields = {};
 for (const p of j.Pens) for (const k of Object.keys(p)) fields[k] = (fields[k] ?? 0) + 1;
@@ -78,22 +79,24 @@ Before any write:
 
 Write a script in `scripts/` that:
 
-1. Reads the brand JSON file with `JSON.parse`.
+1. Reads the records. **Tablets and pens** come from their per-record
+   source files (`source/<collection>/<brand>/<EntityId>.json`, RFC #45);
+   every other collection is still a `data/` file.
 2. Merges values per record (look up by `PenId` / `Model.Id` / EntityId).
 3. Bumps each touched record's `_ModifiedDate` to `new Date().toISOString()`.
-4. Optionally reorders fields to a canonical order so the file stays
-   tidy.
-5. Writes back with `writeDataJson` from `lib/data-json.ts`. Every
-   managed data file is in that canonical format (RFC #45), so the diff
-   is just the fields you changed. **Don't hand-roll `JSON.stringify` or
-   go through PowerShell** — see "Pitfalls".
+4. Writes back: tablets/pens with `writeSourceRecord` then one
+   `regenerate()` (lib/sources.ts); other collections with
+   `writeDataJson` (lib/data-json.ts). Both write the canonical format,
+   so the diff is just what you changed. **Never edit a generated
+   tablet/pen bundle, hand-roll `JSON.stringify`, or go through
+   PowerShell** — see "Pitfalls".
 
 ```js
-// Run with: npx tsx scripts/<one-shot>.mjs (from the Explorer root: data-repo/scripts/...)
-import { readDataJson, writeDataJson } from '../lib/data-json.ts';
+// Run with: npx tsx scripts/<one-shot>.mjs  (from data-repo/)
+import { readSources, regenerate, sourceCollection, writeSourceRecord } from '../lib/sources.ts';
 
-const pensPath = 'data/pens/HUION-pens.json';
-const data = readDataJson(pensPath);
+const pens = sourceCollection('pens');
+const { records } = readSources('.', pens);
 
 const updates = {
   PE150: { PenTech: 'PASSIVE_EMR', Hover: 'YES', ButtonCount: '2' /* ... */ },
@@ -101,18 +104,22 @@ const updates = {
 };
 
 const now = new Date().toISOString();
-for (const p of data.Pens) {
-  const u = updates[p.PenId];
+for (const { record } of records) {
+  const u = updates[record.PenId];
   if (!u) continue;
-  Object.assign(p, u);
-  p._ModifiedDate = now;
+  Object.assign(record, u);
+  record._ModifiedDate = now;
+  writeSourceRecord('.', pens, record); // canonical, one file per record
 }
-
-writeDataJson(pensPath, data); // canonical: 2-space, LF, UTF-8, no BOM
+regenerate('.'); // rebuild data/pens/*-pens.json from the sources
 ```
+
+For a collection that isn't split (e.g. pen-families), use
+`readDataJson` / `writeDataJson` from `lib/data-json.ts` on the `data/` file.
 
 ### 5. Verify
 
+- `npx tsx scripts/generate.ts` — bundles match their sources.
 - `npm run data-quality` — should be clean (or down to pre-existing
   issues only).
 - `npm test --prefix=data-repo` — Vitest covers DrawTabDataSet.

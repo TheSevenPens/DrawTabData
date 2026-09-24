@@ -51,3 +51,36 @@ git push
   difference.
 - All consumers should be on the same DrawTabData commit to avoid
   data drift. When bumping, update all four in one pass.
+
+## Verifying a published snapshot
+
+Tablets and pens are generated from per-record sources (RFC #45). A
+consumer holding published bundles (e.g. the Explorer's Pages site) can
+check them against this repository by hand. The published `version.json`
+records:
+
+| Field | Meaning |
+|---|---|
+| `commit` | the DrawTabData commit the bundles were built from |
+| `sourceDigest` | digest of every `source/` file at that commit (algorithm in `lib/sources.ts` → `sourceDigest`) |
+| `bundles[]` | each generated bundle's `path` (under `data/`), `sha256` and record `count` |
+
+1. **Integrity of what you downloaded:** `sha256sum WACOM-tablets.json`
+   must equal that bundle's `bundles[].sha256`.
+2. **Reproduce from the recorded commit:**
+   ```bash
+   git clone https://github.com/TheSevenPens/DrawTabData.git && cd DrawTabData
+   git checkout <commit>
+   npm ci
+   npx tsx scripts/generate.ts     # committed bundles == what the sources produce
+   npx tsx -e "import('./lib/sources.ts').then(m => console.log(m.sourceDigest('.')))"   # == sourceDigest
+   sha256sum data/tablets/*.json data/pens/*.json                                          # == bundles[].sha256
+   ```
+3. **Is it current?** Run the digest command on `master` (resolve it to a
+   commit first). Same digest → your snapshot matches today's sources,
+   even if later commits only touched docs or code. Different digest →
+   source records changed since your snapshot.
+
+Hashes prove the bytes match; rebuilding from the pinned commit (step 2)
+is the check that the bundles really come from those sources. A
+dedicated verification command is planned for later (RFC #45).
