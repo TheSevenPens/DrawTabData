@@ -347,3 +347,15 @@ export function regenerate(repoRoot: string): string[] {
   }
   return [...r.changed, ...r.missing, ...r.extra];
 }
+
+/**
+ * For a diagnostic reported against a generated bundle ("WACOM-tablets.json"
+ * or "data/tablets/WACOM-tablets.json") and a record EntityId, the source
+ * file to edit — or undefined when the file isn't a generated bundle.
+ */
+export function editableSourceFor(bundleFile: string, entityId: string | undefined): string | undefined {
+  const name = bundleFile.replace(/\\/g, "/").split("/").pop() ?? "";
+  const c = SOURCE_COLLECTIONS.find((c) => name.endsWith(`-${c.name}.json`));
+  if (!c || !entityId || !entityId.includes(".")) return undefined;
+  return sourcePathForEntityId(c, entityId);
+}

@@ -231,3 +231,17 @@ describe("editing helpers", () => {
     expect(fs.existsSync(path.join(root, "data"))).toBe(false);
   });
 });
+
+describe("editableSourceFor", () => {
+  it("maps a bundle diagnostic to the record's source file", async () => {
+    const { editableSourceFor } = await import("./sources.js");
+    expect(editableSourceFor("WACOM-tablets.json", "wacom.tablet.ctl4100")).toBe(
+      "source/tablets/wacom/wacom.tablet.ctl4100.json",
+    );
+    expect(editableSourceFor("data/pens/HUION-pens.json", "huion.pen.pw600")).toBe(
+      "source/pens/huion/huion.pen.pw600.json",
+    );
+    expect(editableSourceFor("WACOM-drivers.json", "wacom.driver.x")).toBeUndefined();
+    expect(editableSourceFor("WACOM-tablets.json", undefined)).toBeUndefined();
+  });
+});
