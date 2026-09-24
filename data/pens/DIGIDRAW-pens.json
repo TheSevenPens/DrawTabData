@@ -1,26 +1,26 @@
 {
-    "Pens":  [
-                 {
-                     "EntityId":  "digidraw.pen.m3",
-                     "Brand":  "DIGIDRAW",
-                     "PenId":  "M3",
-                     "PenName":  "M3 Pen",
-                     "PenFamily":  "digidraw.penfamily.digidraw_magicpen3",
-                     "ReleaseYear":  "",
-                     "_id":  "2af5daca-68c1-42d4-9a1c-f9e7dbf47c78",
-                     "_CreateDate":  "2026-04-20T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
-                 },
-                 {
-                     "EntityId":  "digidraw.pen.m5",
-                     "Brand":  "DIGIDRAW",
-                     "PenId":  "M5",
-                     "PenName":  "M5 Pen",
-                     "PenFamily":  "digidraw.penfamily.digidraw_magicpen5",
-                     "ReleaseYear":  "",
-                     "_id":  "08bf5f70-5d18-4652-847d-a4c65afed2de",
-                     "_CreateDate":  "2026-04-20T00:00:00.000Z",
-                     "_ModifiedDate":  "2026-04-20T00:00:00.000Z"
-                 }
-             ]
+  "Pens": [
+    {
+      "EntityId": "digidraw.pen.m3",
+      "Brand": "DIGIDRAW",
+      "PenId": "M3",
+      "PenName": "M3 Pen",
+      "PenFamily": "digidraw.penfamily.digidraw_magicpen3",
+      "ReleaseYear": "",
+      "_id": "2af5daca-68c1-42d4-9a1c-f9e7dbf47c78",
+      "_CreateDate": "2026-04-20T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-20T00:00:00.000Z"
+    },
+    {
+      "EntityId": "digidraw.pen.m5",
+      "Brand": "DIGIDRAW",
+      "PenId": "M5",
+      "PenName": "M5 Pen",
+      "PenFamily": "digidraw.penfamily.digidraw_magicpen5",
+      "ReleaseYear": "",
+      "_id": "08bf5f70-5d18-4652-847d-a4c65afed2de",
+      "_CreateDate": "2026-04-20T00:00:00.000Z",
+      "_ModifiedDate": "2026-04-20T00:00:00.000Z"
+    }
+  ]
 }
