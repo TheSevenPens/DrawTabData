@@ -16,6 +16,7 @@ export const PRESSURE_RESPONSE_FIELD_GROUPS = ["Session", "Environment"];
 
 export const PRESSURE_RESPONSE_FIELDS: FieldDisplayDef<PressureResponse>[] = [
   // Session
+  { key: "EntityId", label: "Entity ID", getValue: (s) => s.EntityId, type: "string", group: "Session" },
   { key: "Brand", label: "Brand", getValue: (s) => s.Brand, type: "enum", enumValues: [...BRANDS], group: "Session" },
   { key: "PenEntityId", label: "Pen", getValue: (s) => s.PenEntityId, type: "string", group: "Session" },
   { key: "PenFamily", label: "Pen Family", getValue: (s) => s.PenFamily, type: "string", group: "Session" },

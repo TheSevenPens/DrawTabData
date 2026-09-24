@@ -327,11 +327,18 @@ export const PenCompatGroupedSchema = v.strictObject({
 // --- Pressure response ---
 
 export const PressureResponseSchema = v.strictObject({
+  // Stored, and checked against Brand/InventoryId/Date(/IdSuffix) by
+  // data-quality — see lib/pressure/session-id.ts.
+  EntityId: TrimmedString,
   Brand: BrandEnum,
   PenEntityId: TrimmedString,
   PenFamily: TrimmedString,
   InventoryId: TrimmedString,
   Date: TrimmedString,
+  // Disambiguator appended to the derived EntityId as `_<IdSuffix>`, for a
+  // pen measured more than once on the same day (usually the device's model
+  // id, e.g. "galaxybook5pro360").
+  IdSuffix: v.optional(TrimmedString),
   User: TrimmedString,
   TabletEntityId: TrimmedString,
   Driver: TrimmedString,

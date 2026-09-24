@@ -23,7 +23,7 @@ import {
   isSessionDefective,
   excludedPensSummary,
 } from "./defects.js";
-import { sessionEntityId, parseSessionEntityId } from "./session-id.js";
+import { deriveSessionEntityId, sessionEntityId, parseSessionEntityId } from "./session-id.js";
 import {
   findNonMonotonicSessions,
   findMissingLowEnd,
@@ -260,9 +260,34 @@ describe("sessionEntityId", () => {
       sessionEntityId({ Brand: "WACOM", InventoryId: "  WAP.0030  ", Date: "2025-03-25" }),
     ).toBe("wacom.session.wap.0030_2025-03-25");
   });
+
+  it("returns the stored EntityId when there is one", () => {
+    expect(
+      sessionEntityId({ EntityId: "wacom.session.wap.0009_2026-05-25_galaxybook5pro360", Brand: "WACOM", InventoryId: "WAP.0009", Date: "2026-05-25" }),
+    ).toBe("wacom.session.wap.0009_2026-05-25_galaxybook5pro360");
+  });
+});
+
+describe("deriveSessionEntityId", () => {
+  it("appends a normalized IdSuffix", () => {
+    expect(
+      deriveSessionEntityId({ Brand: "WACOM", InventoryId: "WAP.0009", Date: "2026-05-25", IdSuffix: "Galaxy-Book5 Pro 360" }),
+    ).toBe("wacom.session.wap.0009_2026-05-25_galaxybook5pro360");
+  });
+
+  it("ignores a stored EntityId — it is what the fields imply", () => {
+    const s = { EntityId: "wacom.session.typo_2026-05-25", Brand: "WACOM", InventoryId: "WAP.0009", Date: "2026-05-25" };
+    expect(deriveSessionEntityId(s)).toBe("wacom.session.wap.0009_2026-05-25");
+  });
 });
 
 describe("parseSessionEntityId", () => {
+  it("returns the suffix after the date", () => {
+    expect(parseSessionEntityId("wacom.session.wap.0009_2026-05-25_galaxybook5pro360")).toEqual({
+      brand: "wacom", inventoryId: "wap.0009", date: "2026-05-25", idSuffix: "galaxybook5pro360",
+    });
+  });
+
   it("round-trips with sessionEntityId", () => {
     const id = sessionEntityId({ Brand: "HUION", InventoryId: "H.001", Date: "2024-06-01" });
     const parsed = parseSessionEntityId(id);

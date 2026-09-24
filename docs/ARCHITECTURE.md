@@ -65,7 +65,10 @@ top-level key (e.g. `{ "DrawingTablets": [...] }`).
 Inventory files are partitioned by user instead of brand.
 
 Pressure response files contain measurement sessions with `[gf, percent]`
-data point arrays.
+data point arrays. Each session stores its `EntityId`
+(`<brand>.session.<inventoryid>_<date>`, plus `_<IdSuffix>` when the same
+pen was measured twice on one day); data-quality checks it matches the
+fields and is unique. See `lib/pressure/session-id.ts`.
 
 ## Loaders
 

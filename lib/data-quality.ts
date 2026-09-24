@@ -12,7 +12,7 @@ import {
   PressureResponseSchema,
 } from "./schemas.js";
 import { BRANDS } from "./loader-shared.js";
-import { sessionEntityId } from "./pressure/session-id.js";
+import { deriveSessionEntityId, sessionEntityId } from "./pressure/session-id.js";
 import { findEncodingDamage, describeEncodingDamage } from "./encoding-damage.js";
 
 // --- Types ---
@@ -155,6 +155,30 @@ function checkTabletManufacturerLinks(t: RawRecord, file: string): Issue[] {
 
 function checkPenEntityId(p: RawRecord, file: string): Issue[] {
   return checkDerivedEntityId(p, file, "PEN", "PenId");
+}
+
+function checkSessionEntityId(s: RawRecord, file: string): Issue[] {
+  const brand = getString(s, "Brand");
+  const invId = getString(s, "InventoryId");
+  const date = getString(s, "Date");
+  const entityId = getString(s, "EntityId");
+  if (!brand || !invId || !date) return [];
+  const expected = deriveSessionEntityId({
+    Brand: brand,
+    InventoryId: invId,
+    Date: date,
+    IdSuffix: getString(s, "IdSuffix"),
+  });
+  if (entityId === expected) return [];
+  return [
+    {
+      file,
+      entityId: entityId ?? expected,
+      field: "EntityId",
+      issue: "does not match derived value",
+      value: `got "${entityId}", expected "${expected}"`,
+    },
+  ];
 }
 
 function checkDriverEntityId(d: RawRecord, file: string): Issue[] {
@@ -512,7 +536,7 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
     const date = getString(record, "Date");
     const eid =
       brand && invId && date
-        ? sessionEntityId({ Brand: brand, InventoryId: invId, Date: date })
+        ? sessionEntityId({ EntityId: getString(record, "EntityId"), Brand: brand, InventoryId: invId, Date: date })
         : getEntityId(record);
     const penRef = getString(record, "PenEntityId");
     if (penRef && !penEntityIds.has(penRef)) {
@@ -751,6 +775,7 @@ export function runDataQuality(dataDir: string): Issue[] {
       fileSuffix: "-pressure-response.json",
       rootKey: "PressureResponse",
       schema: PressureResponseSchema,
+      perRecordChecks: [checkSessionEntityId],
       dedupe: true,
     }),
     ...runBrandsChecks(dataDir),
