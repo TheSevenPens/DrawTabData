@@ -1864,6 +1864,21 @@
       "_id": "5c210e57-c863-457b-8ee9-ad514f768146",
       "_CreateDate": "2026-08-20T00:00:00.000Z",
       "_ModifiedDate": "2026-08-23T07:31:38.136Z"
+    },
+    {
+      "TabletEntityId": "samsung.tablet.galaxybook5pro360",
+      "Brand": "SAMSUNG",
+      "ModelId": "Galaxy-Book5-Pro-360",
+      "ModelName": "Galaxy Book5 Pro 360",
+      "TabletType": "STANDALONE",
+      "InventoryId": "SAT.0001",
+      "Vendor": "",
+      "OrderDate": "",
+      "Notes": "",
+      "Tags": [],
+      "_id": "9abc9b8d-6da8-4853-8dc3-bff1024070f5",
+      "_CreateDate": "2026-09-24T21:18:27.900Z",
+      "_ModifiedDate": "2026-09-24T21:18:27.900Z"
     }
   ]
 }
