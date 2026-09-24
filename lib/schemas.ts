@@ -539,6 +539,15 @@ export const VersionInfoSchema = v.strictObject({
     brands: v.number(),
     pressureResponse: v.number(),
   }),
+  // Added by a consumer that builds the metadata into its own deploy (the
+  // Explorer does), naming the exact code that shipped with this data.
+  build: v.optional(
+    v.strictObject({
+      appCommit: TrimmedString,
+      queritonCommit: TrimmedString,
+      builtAt: TrimmedString,
+    }),
+  ),
 });
 
 // --- Inferred types ---

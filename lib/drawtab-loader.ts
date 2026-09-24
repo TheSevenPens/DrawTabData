@@ -346,13 +346,16 @@ export async function loadUSPaperSizesFromURL(dataBaseUrl: string): Promise<USPa
 
 // --- Version info ---
 
+/** Version metadata is informational: the app shows a "version unavailable"
+ * banner rather than failing, so *any* failure here — absent, network, bad
+ * JSON — yields null. (Contrast the entity loaders, which must throw.) */
 export async function loadVersionFromURL(dataBaseUrl: string): Promise<VersionInfo | null> {
-  const url = `${dataBaseUrl}/version.json`;
-  const resp = await fetch(url);
-  if (!resp.ok) return null;
-  const contentType = resp.headers.get("content-type") ?? "";
-  if (!contentType.includes("json")) return null;
-  return (await resp.json()) as VersionInfo;
+  try {
+    const data = await fetchDataFile(`${dataBaseUrl}/version.json`);
+    return (data ?? null) as VersionInfo | null;
+  } catch {
+    return null;
+  }
 }
 
 // --- Brand names ---

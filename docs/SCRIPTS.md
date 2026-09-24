@@ -233,7 +233,7 @@ that the page references.
 | Script | Command | Purpose |
 |---|---|---|
 | `data-quality` | `tsx lib/run-data-quality.ts` | Full data quality checks across all entities |
-| `version-info` | `tsx scripts/generate-version.ts` | Regenerate `data/version.json` |
+| `version-info` | `tsx scripts/generate-version.ts` | Regenerate `data/version.json` (the Explorer builds its own via `lib/version-info.ts`) |
 | `build` | `tsc` | TypeScript compilation |
 
 ## Typical workflows
