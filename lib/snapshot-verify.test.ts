@@ -4,7 +4,7 @@ import * as os from "node:os";
 import * as path from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { formatDataJson } from "./data-json.js";
-import { type Snapshot, checkFreshness, checkIntegrity, checkReproduction } from "./snapshot-verify.js";
+import { type Snapshot, checkFreshness, checkIntegrity, checkReproduction, fetchRemote } from "./snapshot-verify.js";
 import { generateBundles, sourceCollection, sourcePath } from "./sources.js";
 import { verificationMetadata } from "./version-info.js";
 
@@ -126,5 +126,53 @@ describe("checkFreshness", () => {
 
   it("is unable for a ref that doesn't resolve", () => {
     expect(checkFreshness(snapshotAt(c1), repo, "no-such-branch").status).toBe("unable");
+  });
+});
+
+describe("fetchRemote (--fetch)", () => {
+  // Plain git in any directory — the suite's git() helper is bound to `repo`.
+  const gitIn = (dir: string, ...args: string[]) => {
+    const r = spawnSync(
+      "git",
+      ["-C", dir, "-c", "user.name=t", "-c", "user.email=t@example.com", "-c", "core.autocrlf=false", ...args],
+      { encoding: "utf8" },
+    );
+    if (r.status !== 0) throw new Error(`git ${args.join(" ")}: ${r.stderr}`);
+  };
+
+  it("updates origin/master so freshness sees upstream changes; touches no local branch", () => {
+    const bare = fs.mkdtempSync(path.join(os.tmpdir(), "snapverify-origin-"));
+    const other = fs.mkdtempSync(path.join(os.tmpdir(), "snapverify-other-"));
+    try {
+      gitIn(bare, "init", "-q", "--bare");
+      git("remote", "add", "origin", bare);
+      git("push", "-q", "origin", "master");
+      git("fetch", "-q", "origin");
+      const snap = snapshotAt(c1);
+      expect(checkFreshness(snap, repo, "origin/master").status).toBe("current");
+
+      // Someone else adds a pen upstream.
+      gitIn(other, "clone", "-q", bare, ".");
+      const abs = path.join(other, sourcePath(pens, "WACOM", "wacom.pen.upstream"));
+      fs.mkdirSync(path.dirname(abs), { recursive: true });
+      fs.writeFileSync(abs, formatDataJson({ EntityId: "wacom.pen.upstream", Brand: "WACOM", PenId: "upstream" }));
+      gitIn(other, "add", "-A");
+      gitIn(other, "commit", "-q", "-m", "upstream pen");
+      gitIn(other, "push", "-q", "origin", "HEAD:master");
+
+      expect(checkFreshness(snap, repo, "origin/master").status).toBe("current"); // not fetched yet
+      expect(fetchRemote(repo)).toEqual({ ok: true, remote: "origin" });
+      expect(checkFreshness(snap, repo, "origin/master").status).toBe("historical");
+      expect(git("rev-parse", "master")).toBe(c1); // local branch untouched
+    } finally {
+      fs.rmSync(bare, { recursive: true, force: true });
+      fs.rmSync(other, { recursive: true, force: true });
+    }
+  });
+
+  it("reports a remote it can't fetch instead of throwing", () => {
+    const r = fetchRemote(repo, "nosuch");
+    expect(r.ok).toBe(false);
+    expect(r.reason).toMatch(/nosuch/);
   });
 });

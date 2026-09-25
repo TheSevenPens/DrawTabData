@@ -19,7 +19,10 @@
 //
 // Git is read-only here: the commit's source/ tree is read with
 // `git cat-file --batch` into a temp directory, so the caller's checkout,
-// index and branches are never touched and nothing is fetched.
+// index and branches are never touched. Nothing is fetched unless the
+// caller asks: fetchRemote() updates remote-tracking refs (origin/master)
+// only — never a local branch — so freshness can be judged against today's
+// upstream without a manual `git fetch`.
 //
 // Node-only (child_process, fs); not part of the browser bundle.
 
@@ -188,7 +191,11 @@ export function checkReproduction(snapshot: Snapshot, repo: string): ReproduceRe
   const base = { commit: snapshot.commit, differences: [] as string[] };
   const commit = resolveCommit(repo, snapshot.commit);
   if (!commit) {
-    return { ...base, status: "unable", reason: `commit ${snapshot.commit} is not in ${repo} (git fetch first?)` };
+    return {
+      ...base,
+      status: "unable",
+      reason: `commit ${snapshot.commit} is not in ${repo} (git fetch first, or pass --fetch)`,
+    };
   }
   const out = withSources(repo, commit, (dir) => {
     const differences: string[] = [];
@@ -227,12 +234,33 @@ export function checkReproduction(snapshot: Snapshot, repo: string): ReproduceRe
   };
 }
 
+// --- fetch (opt-in) ---------------------------------------------------------
+
+export interface FetchResult {
+  ok: boolean;
+  remote: string;
+  reason?: string;
+}
+
+/**
+ * `git fetch <remote>`: brings the remote-tracking refs (origin/master) and
+ * any commits they reach up to date, so a snapshot's commit is present and
+ * the default freshness ref is today's upstream. Touches no local branch,
+ * index or working tree. A failure (offline, no such remote) is reported,
+ * not thrown — the checks then run on what the clone already has.
+ */
+export function fetchRemote(repo: string, remote = "origin"): FetchResult {
+  const r = spawnSync("git", ["-C", repo, "fetch", "--quiet", remote], { encoding: "utf8" });
+  if (r.status === 0 && !r.error) return { ok: true, remote };
+  return { ok: false, remote, reason: (r.stderr || r.error?.message || "git fetch failed").trim() };
+}
+
 // --- freshness ---------------------------------------------------------------
 
 /**
  * Compare the snapshot's sourceDigest with `ref`'s sources. `ref` is
  * resolved to one commit first (a moving branch is only meaningful as a
- * point in time); nothing is fetched, so a stale local ref gives a stale
+ * point in time); nothing is fetched here, so a stale local ref gives a stale
  * answer — the result names the commit it compared against.
  */
 export function checkFreshness(snapshot: Snapshot, repo: string, ref: string): FreshnessResult {

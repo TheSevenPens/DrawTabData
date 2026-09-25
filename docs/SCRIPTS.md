@@ -132,10 +132,14 @@ published snapshot".
 ```bash
 npm run verify-snapshot -- https://thesevenpens.github.io/DrawTabDataExplorer/version.json
 npm run verify-snapshot -- path/to/version.json --json
+npm run verify-snapshot -- <url> --fetch   # compare with today's origin/master
 ```
 
-Read-only: nothing is fetched and the checkout isn't touched. The
-Explorer's CI runs it on every build's own `version.json`.
+The checkout is never touched. Nothing is fetched unless you pass
+`--fetch`, which runs `git fetch origin` first (`--remote <name>` for
+another) so freshness is judged against today's upstream; it updates
+remote-tracking refs only. The Explorer's CI runs it, without `--fetch`,
+on every build's own `version.json`.
 
 ### add-driver-record
 

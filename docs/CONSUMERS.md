@@ -71,7 +71,7 @@ records:
 ```bash
 git clone https://github.com/TheSevenPens/DrawTabData.git && cd DrawTabData
 npm ci
-npm run verify-snapshot -- https://thesevenpens.github.io/DrawTabDataExplorer/version.json
+npm run verify-snapshot -- https://thesevenpens.github.io/DrawTabDataExplorer/version.json --fetch
 ```
 
 ```
@@ -90,9 +90,12 @@ Bundles are read next to `version.json` unless `--bundles <dir or URL>`
 says otherwise; `--json` prints the full result for scripts. Exit code
 0 = intact and reproduced, 1 = something mismatched, 2 = a check could
 not run. Freshness never fails the run: a historical snapshot is not a
-wrong one. The tool never fetches — resolve `--ref` to the commit you
-mean (`git fetch` first for today's `master`); the output names the
-commit it compared against.
+wrong one. By default the tool doesn't touch the network for git: freshness
+is judged against your clone's `origin/master` as last fetched. Add
+`--fetch` to run `git fetch` first (`--remote <name>` for another remote),
+so the comparison is against today's upstream and a snapshot commit your
+clone lacks is pulled in. It updates remote-tracking refs only, never a
+local branch. The output names the commit it compared against.
 
 ### By hand
 

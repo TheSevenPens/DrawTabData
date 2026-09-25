@@ -5,7 +5,11 @@
 //   npx tsx scripts/verify-snapshot.ts <version.json path or URL>
 //       [--bundles <dir or URL>]   where the bundles are (default: next to version.json)
 //       [--repo <dir>]             DrawTabData checkout to verify against (default: this one)
-//       [--ref <rev>]              freshness reference (default: origin/master, else HEAD)
+//       [--ref <rev>]              freshness reference (default: <remote>/master, else HEAD)
+//       [--fetch]                  git fetch the remote first, so <remote>/master is
+//                                  today's upstream and a snapshot commit the clone
+//                                  lacks gets pulled in
+//       [--remote <name>]          the remote --fetch and the default ref use (default origin)
 //       [--json]                   machine-readable result on stdout
 //
 // Example — the Explorer's live site:
@@ -14,7 +18,8 @@
 // Exit code: 0 when the bundles are intact AND reproduce from their commit;
 // 1 when anything mismatches; 2 when nothing mismatched but a check could not
 // run. Freshness is reported, never an exit failure — an older snapshot is
-// "historical", not wrong. Nothing is fetched and the checkout isn't touched.
+// "historical", not wrong. The checkout is never touched, and nothing is
+// fetched unless --fetch asks (it updates remote-tracking refs only).
 
 import * as fs from "node:fs";
 import * as path from "node:path";
@@ -25,6 +30,7 @@ import {
   checkFreshness,
   checkIntegrity,
   checkReproduction,
+  fetchRemote,
   resolveCommit,
 } from "../lib/snapshot-verify.js";
 
@@ -34,12 +40,14 @@ const flag = (name: string) => {
   return i >= 0 ? argv.splice(i, 2)[1] : undefined;
 };
 const asJson = argv.includes("--json");
+const doFetch = argv.includes("--fetch");
 const bundlesArg = flag("--bundles");
 const repoArg = flag("--repo");
 const refArg = flag("--ref");
+const remote = flag("--remote") ?? "origin";
 const target = argv.find((a) => !a.startsWith("--"));
 if (!target) {
-  console.error("Usage: npx tsx scripts/verify-snapshot.ts <version.json path or URL> [--bundles …] [--repo …] [--ref …] [--json]");
+  console.error("Usage: npx tsx scripts/verify-snapshot.ts <version.json path or URL> [--bundles …] [--repo …] [--ref …] [--fetch] [--remote …] [--json]");
   process.exit(2);
 }
 
@@ -77,7 +85,8 @@ const bundlesBase =
 const here = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const top = spawnSync("git", ["-C", repoArg ?? here, "rev-parse", "--show-toplevel"], { encoding: "utf8" });
 const repo = top.status === 0 ? top.stdout.trim() : path.resolve(repoArg ?? here);
-const ref = refArg ?? (resolveCommit(repo, "origin/master") ? "origin/master" : "HEAD");
+const fetched = doFetch ? fetchRemote(repo, remote) : undefined;
+const ref = refArg ?? (resolveCommit(repo, `${remote}/master`) ? `${remote}/master` : "HEAD");
 
 const integrity = await checkIntegrity(snapshot, (p) => readBytes(joinLoc(bundlesBase, p)));
 const reproduction = checkReproduction(snapshot, repo);
@@ -90,7 +99,7 @@ const exitCode = failed ? 1 : unable ? 2 : 0;
 if (asJson) {
   console.log(
     JSON.stringify(
-      { snapshot: { source: target, commit: snapshot.commit, sourceDigest: snapshot.sourceDigest }, bundlesBase, repo, integrity, reproduction, freshness, exitCode },
+      { snapshot: { source: target, commit: snapshot.commit, sourceDigest: snapshot.sourceDigest }, bundlesBase, repo, fetched, integrity, reproduction, freshness, exitCode },
       null,
       2,
     ),
@@ -100,7 +109,11 @@ if (asJson) {
   console.log(`Snapshot  ${target}`);
   console.log(`          commit ${short(snapshot.commit)}, sourceDigest ${short(snapshot.sourceDigest)}`);
   console.log(`Bundles   ${bundlesBase}`);
-  console.log(`Repo      ${repo}\n`);
+  console.log(`Repo      ${repo}`);
+  if (fetched) {
+    console.log(fetched.ok ? `Fetched   ${fetched.remote}` : `Fetch     FAILED (${fetched.remote}): ${fetched.reason}`);
+  }
+  console.log("");
 
   const bad = integrity.bundles.filter((b) => b.status !== "ok");
   console.log(`integrity  ${integrity.status.toUpperCase()}  (${integrity.bundles.length - bad.length}/${integrity.bundles.length} bundles match)`);
