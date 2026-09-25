@@ -1,9 +1,18 @@
 import type { Tablet, Pen, PenCompat } from "./drawtab-loader.js";
 import { getDiagonal, brandName } from "./drawtab-loader.js";
 
+/** How far a diagonal may fall short of the source's and still count as "the same size". */
+export const SIZE_TOLERANCE = 0.1;
+
 export interface SimilarTabletsOptions {
   /** Restrict to tablets within ±10% diagonal of the source. */
   similarSize?: boolean;
+  /**
+   * Restrict to tablets the same size or larger: diagonal at least 90% of
+   * the source's — the similar-size band plus everything bigger. For "what
+   * could I move up to without losing area".
+   */
+  sameSizeOrLarger?: boolean;
   /** Require overlap on at least one Model.IncludedPen entry. */
   samePen?: boolean;
   /** Require the same Brand. */
@@ -29,15 +38,21 @@ export function findSimilarTablets(
     (t) => t.Meta.EntityId !== source.Meta.EntityId && t.Model.Type === source.Model.Type,
   );
 
-  if (options.similarSize) {
-    const sourceDiag = getDiagonal(source.Digitizer?.Dimensions);
-    if (sourceDiag) {
-      const tolerance = sourceDiag * 0.1;
-      results = results.filter((t) => {
-        const d = getDiagonal(t.Digitizer?.Dimensions);
-        return d !== null && Math.abs(d - sourceDiag) <= tolerance;
-      });
-    }
+  const sourceDiag = getDiagonal(source.Digitizer?.Dimensions);
+  if (options.similarSize && sourceDiag) {
+    const tolerance = sourceDiag * SIZE_TOLERANCE;
+    results = results.filter((t) => {
+      const d = getDiagonal(t.Digitizer?.Dimensions);
+      return d !== null && Math.abs(d - sourceDiag) <= tolerance;
+    });
+  }
+
+  if (options.sameSizeOrLarger && sourceDiag) {
+    const floor = sourceDiag * (1 - SIZE_TOLERANCE);
+    results = results.filter((t) => {
+      const d = getDiagonal(t.Digitizer?.Dimensions);
+      return d !== null && d >= floor;
+    });
   }
 
   if (options.samePen && source.Model.IncludedPen && source.Model.IncludedPen.length > 0) {
