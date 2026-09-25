@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.fb630",
     "_id": "5569279b-1a79-4e02-a55f-bbb9fafa4a4a",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+    "_ModifiedDate": "2026-09-25T00:56:56.027Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -13,9 +13,6 @@
     "Type": "PENTABLET",
     "ReleaseYear": "1998",
     "ReleaseDate": "1998-09-01",
-    "IncludedPen": [
-      "wacom.pen.ep130"
-    ],
     "Family": "wacom.tabletfamily.wacom_misc_legacy"
   },
   "Digitizer": {
