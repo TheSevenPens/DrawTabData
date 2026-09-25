@@ -57,7 +57,7 @@ git push
 Tablets, pens and pressure-response sessions are generated from
 per-record sources (RFC #45). A
 consumer holding published bundles (e.g. the Explorer's Pages site) can
-check them against this repository by hand. The published `version.json`
+check them against this repository. The published `version.json`
 records:
 
 | Field | Meaning |
@@ -65,6 +65,38 @@ records:
 | `commit` | the DrawTabData commit the bundles were built from |
 | `sourceDigest` | digest of every `source/` file at that commit (algorithm in `lib/sources.ts` → `sourceDigest`) |
 | `bundles[]` | each generated bundle's `path` (under `data/`), `sha256` and record `count` |
+
+### With the tool
+
+```bash
+git clone https://github.com/TheSevenPens/DrawTabData.git && cd DrawTabData
+npm ci
+npm run verify-snapshot -- https://thesevenpens.github.io/DrawTabDataExplorer/version.json
+```
+
+```
+integrity  OK  (27/27 bundles match)
+reproduce  REPRODUCED  (regenerated from fbdd73651241)
+freshness  CURRENT  (vs origin/master = fbdd73651241)
+```
+
+| Check | Question | Outcomes |
+|---|---|---|
+| integrity | Do the bundles hash and count as `version.json` records? | `ok` · `mismatch` (names each bundle, including missing ones) · `unable` |
+| reproduce | Does regenerating from `commit`'s `source/` give exactly those bundles and that `sourceDigest`? | `reproduced` · `mismatch` (lists every difference) · `unable` (e.g. the commit isn't in your clone — `git fetch`) |
+| freshness | Is the snapshot's source content what `--ref` (default `origin/master`) has now? | `current` · `historical` (valid for its commit; records changed since) · `not-on-ref` · `unable` |
+
+Bundles are read next to `version.json` unless `--bundles <dir or URL>`
+says otherwise; `--json` prints the full result for scripts. Exit code
+0 = intact and reproduced, 1 = something mismatched, 2 = a check could
+not run. Freshness never fails the run: a historical snapshot is not a
+wrong one. The tool never fetches — resolve `--ref` to the commit you
+mean (`git fetch` first for today's `master`); the output names the
+commit it compared against.
+
+### By hand
+
+The same checks without the tool:
 
 1. **Integrity of what you downloaded:** `sha256sum WACOM-tablets.json`
    must equal that bundle's `bundles[].sha256`.
@@ -75,7 +107,7 @@ records:
    npm ci
    npx tsx scripts/generate.ts     # committed bundles == what the sources produce
    npx tsx -e "import('./lib/sources.ts').then(m => console.log(m.sourceDigest('.')))"   # == sourceDigest
-   sha256sum data/tablets/*.json data/pens/*.json                                          # == bundles[].sha256
+   sha256sum data/tablets/*.json data/pens/*.json data/pressure-response/*.json   # == bundles[].sha256
    ```
 3. **Is it current?** Run the digest command on `master` (resolve it to a
    commit first). Same digest → your snapshot matches today's sources,
@@ -83,5 +115,4 @@ records:
    source records changed since your snapshot.
 
 Hashes prove the bytes match; rebuilding from the pinned commit (step 2)
-is the check that the bundles really come from those sources. A
-dedicated verification command is planned for later (RFC #45).
+is the check that the bundles really come from those sources.

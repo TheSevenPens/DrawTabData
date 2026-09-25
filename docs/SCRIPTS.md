@@ -79,7 +79,8 @@ round-trip through PowerShell `ConvertTo-Json` (#43).
 
 ### generate
 
-Regenerate the tablet and pen brand bundles from `source/` (RFC #45).
+Regenerate the tablet, pen and pressure-response brand bundles from
+`source/` (RFC #45).
 
 ```bash
 npx tsx scripts/generate.ts            # check only; exit 1 on drift (CI runs this first)
@@ -92,9 +93,24 @@ deletes a bundle no source produces any more.
 
 ### split-sources
 
-The ONE-TIME migration that created `source/` from the bundles (commit
-`e3cf06e`). Kept as the record of how the split was made; it refuses to
-run once `source/` exists.
+The ONE-TIME migration per collection that created `source/<collection>/`
+from its bundles (tablets + pens `e3cf06e`, pressure-response `44eb0cb`).
+Kept as the record of how each split was made; it refuses a collection
+that is already split.
+
+### verify-snapshot
+
+Checks a published snapshot — a `version.json` plus the bundles it lists —
+against this repository (RFC #45). See CONSUMERS.md "Verifying a
+published snapshot".
+
+```bash
+npm run verify-snapshot -- https://thesevenpens.github.io/DrawTabDataExplorer/version.json
+npm run verify-snapshot -- path/to/version.json --json
+```
+
+Read-only: nothing is fetched and the checkout isn't touched. The
+Explorer's CI runs it on every build's own `version.json`.
 
 ### add-driver-record
 
