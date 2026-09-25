@@ -1,0 +1,43 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.g960",
+    "_id": "06d33795-37f5-4390-8e7a-191647f13a6e",
+    "_CreateDate": "2026-09-25T01:31:11.827Z",
+    "_ModifiedDate": "2026-09-25T01:31:11.827Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "G960",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-g960.html",
+        "Title": "Star G960",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star G960",
+    "Type": "PENTABLET",
+    "ReleaseYear": "",
+    "IncludedPen": [],
+    "Notes": "8.35 x 5.33 in, 4 express keys, PH3 pen (no pen record yet); specs from XP-Pen's product page. ReleaseYear left empty: no dated source found (#42)."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 212,
+      "Height": 135
+    },
+    "ReportRate": "130",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 319.5,
+      "Height": 209.5,
+      "Depth": 10
+    }
+  }
+}

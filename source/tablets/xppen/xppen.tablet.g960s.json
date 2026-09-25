@@ -1,0 +1,44 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.g960s",
+    "_id": "2b4990fd-2a1f-4dc5-8f8d-8a39462ca43b",
+    "_CreateDate": "2026-09-25T01:31:13.012Z",
+    "_ModifiedDate": "2026-09-25T01:31:13.012Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "G960S",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-g960s-star-g960s-plus.html",
+        "Title": "Star G960S",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star G960S",
+    "Type": "PENTABLET",
+    "ReleaseYear": "",
+    "IncludedPen": [],
+    "Notes": "9 x 6 in, 4 express keys, PH3 pen (no pen record yet); specs from XP-Pen's product page. ReleaseYear left empty: no dated source found (#42)."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 228.8,
+      "Height": 152.6
+    },
+    "ReportRate": "220",
+    "Tilt": "60",
+    "SupportsTouch": "NO"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 319.5,
+      "Height": 209.5,
+      "Depth": 10
+    }
+  }
+}

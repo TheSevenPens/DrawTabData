@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.star06",
+    "_id": "0785cd66-d503-483d-98b5-f5adb79f2624",
+    "_CreateDate": "2026-09-25T01:31:18.880Z",
+    "_ModifiedDate": "2026-09-25T01:31:18.880Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "STAR06",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-06-wireless.html",
+        "Title": "Star 06 Wireless",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star 06 Wireless",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2017",
+    "IncludedPen": [
+      "xppen.pen.p06"
+    ],
+    "Notes": "10 x 6 in, 6 touch keys and a touch dial, 2.4 GHz wireless or USB, up to 16 h on battery; specs from XP-Pen's product page. Released June 2017 (Parka Blogs review; Amazon listing of the same period). Page lists PH01 or P06 pens; PH01 has no pen record yet."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 152
+    },
+    "SupportsTouch": "NO"
+  }
+}

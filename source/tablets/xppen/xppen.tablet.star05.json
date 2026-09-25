@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.star05",
+    "_id": "f11c579f-b87d-4419-ba20-fb9fe326b65e",
+    "_CreateDate": "2026-09-25T01:31:17.718Z",
+    "_ModifiedDate": "2026-09-25T01:31:17.718Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "STAR05",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-05-wireless.html",
+        "Title": "Star 05 Wireless",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star 05 Wireless",
+    "Type": "PENTABLET",
+    "ReleaseYear": "",
+    "IncludedPen": [
+      "xppen.pen.p03"
+    ],
+    "Notes": "8 x 5 in, 6 touch keys, 2.4 GHz wireless or USB, up to 14 h on battery; specs from XP-Pen's product page. ReleaseYear left empty: no dated source found (#42)."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 203,
+      "Height": 127
+    },
+    "SupportsTouch": "NO"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.g430s",
+    "_id": "b63fe887-2cf4-45a5-b9ae-2bc89348e2d3",
+    "_CreateDate": "2026-09-25T01:31:10.646Z",
+    "_ModifiedDate": "2026-09-25T01:31:10.646Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "G430S",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-g430s.html",
+        "Title": "Star G430S",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star G430S",
+    "Type": "PENTABLET",
+    "ReleaseYear": "",
+    "IncludedPen": [
+      "xppen.pen.p01"
+    ],
+    "Notes": "4 x 3 in, 2 mm thick; specs from XP-Pen's product page. ReleaseYear left empty: no dated source found (#42). An Amazon listing id from early 2016 may predate it (possibly a reused G430 listing)."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 101.6,
+      "Height": 76.2
+    },
+    "Density": "200",
+    "ReportRate": "233",
+    "SupportsTouch": "NO"
+  }
+}

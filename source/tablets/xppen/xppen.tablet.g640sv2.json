@@ -1,0 +1,37 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.g640sv2",
+    "_id": "30fe1f87-01cc-4daa-af5e-453d3c1e997f",
+    "_CreateDate": "2026-09-25T01:31:15.366Z",
+    "_ModifiedDate": "2026-09-25T01:31:15.366Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "G640SV2",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-g640s-v2-android.html",
+        "Title": "Star G640S V2 Android",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star G640S V2 Android",
+    "Type": "PENTABLET",
+    "ReleaseYear": "",
+    "IncludedPen": [
+      "xppen.pen.p05"
+    ],
+    "Notes": "6.5 x 4 in, 6 express keys, 9 mm thick, works with Android over OTG; specs from XP-Pen's product page. ReleaseYear left empty: no dated source found (#42)."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 165,
+      "Height": 102
+    },
+    "SupportsTouch": "NO"
+  }
+}

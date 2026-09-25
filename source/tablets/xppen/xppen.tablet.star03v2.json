@@ -1,0 +1,38 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.star03v2",
+    "_id": "53c2fab5-e0a4-4a51-a7da-213ec9c258f8",
+    "_CreateDate": "2026-09-25T01:31:16.558Z",
+    "_ModifiedDate": "2026-09-25T01:31:16.558Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "STAR03V2",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/star-03-v2.html",
+        "Title": "Star 03 V2",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Star 03 V2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "",
+    "IncludedPen": [
+      "xppen.pen.p01"
+    ],
+    "Notes": "10 x 6 in, 8 express keys, wired; specs from XP-Pen's product page. ReleaseYear left empty: no dated source found (#42)."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 152
+    },
+    "ReportRate": "266",
+    "SupportsTouch": "NO"
+  }
+}
