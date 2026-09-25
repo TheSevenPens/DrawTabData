@@ -1,10 +1,13 @@
 // Per-record source files and the bundles generated from them (RFC #45,
 // phases 2–3).
 //
-// Tablets and pens are authored one record per file:
+// Tablets, pens and pressure-response sessions are authored one record
+// per file:
 //
 //   source/tablets/<brand>/<EntityId>.json     -> data/tablets/<BRAND>-tablets.json
 //   source/pens/<brand>/<EntityId>.json        -> data/pens/<BRAND>-pens.json
+//   source/pressure-response/<brand>/<EntityId>.json
+//                                              -> data/pressure-response/<BRAND>-pressure-response.json
 //
 // The files under source/ are the only editable copy. The brand bundles
 // under data/ are generated from them, kept tracked at their old paths so
@@ -27,9 +30,9 @@ import { checkDataJsonText, formatDataJson, parseDataJson } from "./data-json.js
 
 export interface SourceCollection {
   /** Collection name, also the source/ and data/ subdirectory. */
-  name: "tablets" | "pens";
+  name: "tablets" | "pens" | "pressure-response";
   /** Root key of the generated bundle envelope. */
-  rootKey: "DrawingTablets" | "Pens";
+  rootKey: "DrawingTablets" | "Pens" | "PressureResponse";
   entityId(record: Record<string, unknown>): unknown;
   brand(record: Record<string, unknown>): unknown;
 }
@@ -44,6 +47,14 @@ export const SOURCE_COLLECTIONS: readonly SourceCollection[] = [
   {
     name: "pens",
     rootKey: "Pens",
+    entityId: (r) => r.EntityId,
+    brand: (r) => r.Brand,
+  },
+  {
+    // One session per file (RFC #45 phase 5). Sessions store their EntityId
+    // (lib/pressure/session-id.ts), so the file name is stable.
+    name: "pressure-response",
+    rootKey: "PressureResponse",
     entityId: (r) => r.EntityId,
     brand: (r) => r.Brand,
   },
@@ -291,7 +302,7 @@ export function fileSha256(file: string): string {
 
 // --- Editing sources (for tools) -------------------------------------------
 //
-// Every tool that changes a tablet or pen edits its SOURCE file and then
+// Every tool that changes a tablet, pen or session edits its SOURCE file and then
 // regenerates the bundles — never the bundle. (A hand-edited bundle fails
 // `generate --check` in CI.)
 

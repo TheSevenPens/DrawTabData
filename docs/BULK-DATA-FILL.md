@@ -79,16 +79,16 @@ Before any write:
 
 Write a script in `scripts/` that:
 
-1. Reads the records. **Tablets and pens** come from their per-record
+1. Reads the records. **Tablets, pens and pressure sessions** come from their per-record
    source files (`source/<collection>/<brand>/<EntityId>.json`, RFC #45);
    every other collection is still a `data/` file.
 2. Merges values per record (look up by `PenId` / `Model.Id` / EntityId).
 3. Bumps each touched record's `_ModifiedDate` to `new Date().toISOString()`.
-4. Writes back: tablets/pens with `writeSourceRecord` then one
+4. Writes back: tablets/pens/sessions with `writeSourceRecord` then one
    `regenerate()` (lib/sources.ts); other collections with
    `writeDataJson` (lib/data-json.ts). Both write the canonical format,
    so the diff is just what you changed. **Never edit a generated
-   tablet/pen bundle, hand-roll `JSON.stringify`, or go through
+   tablet/pen/session bundle, hand-roll `JSON.stringify`, or go through
    PowerShell** — see "Pitfalls".
 
 ```js

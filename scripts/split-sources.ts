@@ -1,12 +1,13 @@
-// ONE-TIME migration (RFC #45 phase 3): split the tablet and pen brand
+// ONE-TIME migration per collection (RFC #45): split a collection's brand
 // bundles into one source file per record, then regenerate the bundles
-// from those sources. Kept in the repo as the record of how the split
-// was made; it refuses to run once source/ exists.
+// from those sources. Kept in the repo as the record of how each split
+// was made; it refuses a collection whose source/<collection>/ exists.
 //
-//   npx tsx scripts/split-sources.ts
+//   npx tsx scripts/split-sources.ts <collection> [<collection> ...]
 //
-// Afterwards source/tablets and source/pens are the editable copy and
-// data/tablets/*, data/pens/* are generated (scripts/generate.ts).
+// Done so far: tablets + pens (e3cf06e, phase 3), pressure-response
+// (phase 5). Afterwards source/<collection> is the editable copy and
+// data/<collection>/* is generated (scripts/generate.ts).
 //
 // Proof it's a pure re-layout: after generation, each bundle is compared
 // against the ORIGINAL records re-sorted by EntityId (deepStrictEqual,
@@ -23,20 +24,29 @@ import {
   compareEntityIds,
   existingBundles,
   generateBundles,
+  sourceCollection,
   sourcePath,
 } from "../lib/sources.js";
 
 const repoRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 
-if (fs.existsSync(path.join(repoRoot, "source"))) {
-  console.error("source/ already exists — the split has been done. Edit source/ and run scripts/generate.ts.");
+const names = process.argv.slice(2);
+if (names.length === 0) {
+  console.error(`Usage: npx tsx scripts/split-sources.ts <${SOURCE_COLLECTIONS.map((c) => c.name).join("|")}> ...`);
   process.exit(1);
+}
+const toSplit = names.map(sourceCollection);
+for (const c of toSplit) {
+  if (fs.existsSync(path.join(repoRoot, "source", c.name))) {
+    console.error(`source/${c.name}/ already exists — that split has been done. Edit source/ and run scripts/generate.ts.`);
+    process.exit(1);
+  }
 }
 
 type Rec = Record<string, unknown>;
 const originals = new Map<string, Rec[]>(); // bundle path -> records as they were
 
-for (const c of SOURCE_COLLECTIONS) {
+for (const c of toSplit) {
   let written = 0;
   for (const rel of existingBundles(repoRoot, c)) {
     const records = readDataJson<Record<string, Rec[]>>(path.join(repoRoot, rel))[c.rootKey];
@@ -69,7 +79,7 @@ const keyOrder = (v: unknown): unknown =>
   Array.isArray(v) ? v.map(keyOrder) : v && typeof v === "object" ? Object.entries(v).map(([k, x]) => [k, keyOrder(x)]) : v;
 
 let reordered = 0;
-for (const c of SOURCE_COLLECTIONS) {
+for (const c of toSplit) {
   for (const rel of existingBundles(repoRoot, c)) {
     const before = originals.get(rel);
     assert.ok(before, `${rel}: generated a bundle that didn't exist before`);
@@ -82,7 +92,7 @@ for (const c of SOURCE_COLLECTIONS) {
 }
 assert.strictEqual(
   [...originals.keys()].length,
-  SOURCE_COLLECTIONS.flatMap((c) => existingBundles(repoRoot, c)).length,
+  toSplit.flatMap((c) => existingBundles(repoRoot, c)).length,
   "bundle set changed",
 );
 console.log(`Verified: every bundle equals its original records sorted by EntityId (${reordered} bundle(s) reordered).`);

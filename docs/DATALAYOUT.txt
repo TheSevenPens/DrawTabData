@@ -2,12 +2,18 @@
 
 JSON files are organized by entity type, mostly partitioned by brand.
 
-## SOURCE FILES: TABLETS AND PENS (RFC #45)
+## SOURCE FILES: TABLETS, PENS, PRESSURE SESSIONS (RFC #45)
 
-Tablets and pens are authored ONE RECORD PER FILE:
+Tablets, pens and pressure-response sessions are authored ONE RECORD
+PER FILE:
 
 	source/tablets/<brand>/<EntityId>.json     e.g. source/tablets/wacom/wacom.tablet.ptk1240.json
 	source/pens/<brand>/<EntityId>.json        e.g. source/pens/wacom/wacom.pen.kp503e.json
+	source/pressure-response/<brand>/<EntityId>.json
+	                                           e.g. .../wacom/wacom.session.wap.0009_2026-05-25.json
+
+Sessions store their EntityId (lib/pressure/session-id.ts): a pen measured
+twice on one day carries an IdSuffix, e.g. ..._2026-05-25_galaxybook5pro360.
 
 Each file holds the record object itself (no envelope). The file name
 must equal the record's EntityId and the directory its Brand, lowercase.
@@ -25,7 +31,7 @@ Records in a bundle are sorted by EntityId (plain code-unit order),
 brand files follow BRANDS order as before. Tools edit sources through
 lib/sources.ts (writeSourceRecord + regenerate), never the bundle; the
 Explorer's dev server regenerates automatically when a source changes.
-data-quality names the source file for tablet/pen issues.
+data-quality names the source file for tablet/pen/session issues.
 
 Merge conflicts: edits to different records merge cleanly, sources and
 bundle alike (tested: two EntityId-neighbours on separate branches).
@@ -36,12 +42,13 @@ either side, regenerate, and commit.
 	git checkout --theirs data/tablets/WACOM-tablets.json
 	npx tsx scripts/generate.ts --write
 
-All other collections (families, pen-compat, drivers, pressure-*,
+All other collections (families, pen-compat, drivers, pressure-range,
 inventory, brands, reference) are still edited directly in data/.
 
-History: the split was commit e3cf06e (scripts/split-sources.ts, kept as
-the record; it refuses to run again). A record's pre-split history is in
-the aggregate bundle file before that commit.
+History: tablets and pens were split in e3cf06e, pressure-response in the
+phase-5 split commit (scripts/split-sources.ts <collection>, kept as the
+record; it refuses a collection already split). A record's pre-split
+history is in the aggregate bundle file before that commit.
 
 Verification: the published version.json carries sourceDigest and
 bundles[] (path, sha256, count) next to the data commit — see

@@ -76,6 +76,19 @@ describe("buildBundles", () => {
       Pens: [pen("WACOM", "kp503e")],
     });
   });
+
+  it("sessions: PressureResponse envelope, suffixed IDs after the plain one, Records untouched", () => {
+    const sessions = sourceCollection("pressure-response");
+    const s = (id: string) => ({ EntityId: id, Brand: "WACOM", Records: [[10, 0], [2.5, 1.25]] });
+    for (const id of ["wacom.session.wap.0009_2026-05-25_galaxybook5pro360", "wacom.session.wap.0009_2026-05-25"]) {
+      put(sourcePath(sessions, "WACOM", id), s(id));
+    }
+    const { records, issues } = readSources(root, sessions);
+    expect(issues).toEqual([]);
+    expect(JSON.parse(buildBundles(sessions, records).get("data/pressure-response/WACOM-pressure-response.json")!)).toEqual({
+      PressureResponse: [s("wacom.session.wap.0009_2026-05-25"), s("wacom.session.wap.0009_2026-05-25_galaxybook5pro360")],
+    });
+  });
 });
 
 describe("readSources diagnostics name the source file", () => {

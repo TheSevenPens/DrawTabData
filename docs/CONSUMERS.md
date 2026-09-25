@@ -54,7 +54,8 @@ git push
 
 ## Verifying a published snapshot
 
-Tablets and pens are generated from per-record sources (RFC #45). A
+Tablets, pens and pressure-response sessions are generated from
+per-record sources (RFC #45). A
 consumer holding published bundles (e.g. the Explorer's Pages site) can
 check them against this repository by hand. The published `version.json`
 records:
