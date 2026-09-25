@@ -45,8 +45,8 @@ either side, regenerate, and commit.
 All other collections (families, pen-compat, drivers, pressure-range,
 inventory, brands, reference) are still edited directly in data/.
 
-History: tablets and pens were split in e3cf06e, pressure-response in the
-phase-5 split commit (scripts/split-sources.ts <collection>, kept as the
+History: tablets and pens were split in e3cf06e, pressure-response in
+44eb0cb (scripts/split-sources.ts <collection>, kept as the
 record; it refuses a collection already split). A record's pre-split
 history is in the aggregate bundle file before that commit.
 
