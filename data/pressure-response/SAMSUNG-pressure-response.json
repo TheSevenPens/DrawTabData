@@ -83,276 +83,6 @@
       "TabletEntityId": "wacom.tablet.ctc6110wl"
     },
     {
-      "EntityId": "samsung.session.sap.0002_2024-09-30",
-      "Brand": "SAMSUNG",
-      "PenFamily": "",
-      "InventoryId": "SAP.0002",
-      "Date": "2024-09-30",
-      "User": "sevenpens",
-      "Driver": "WACOM",
-      "OS": "WINDOWS",
-      "Notes": "",
-      "Records": [
-        [
-          5.6,
-          0
-        ],
-        [
-          6.1,
-          0.02
-        ],
-        [
-          20.8,
-          0.9
-        ],
-        [
-          24.2,
-          4.7
-        ],
-        [
-          27.7,
-          8.2
-        ],
-        [
-          31.7,
-          17.1
-        ],
-        [
-          37.2,
-          22.7
-        ],
-        [
-          41.6,
-          26.5
-        ],
-        [
-          46.6,
-          31.5
-        ],
-        [
-          53.9,
-          39.9
-        ],
-        [
-          61.2,
-          49.5
-        ],
-        [
-          70.3,
-          55.2
-        ],
-        [
-          74.9,
-          60.7
-        ],
-        [
-          88.4,
-          68.7
-        ],
-        [
-          104.1,
-          76.9
-        ],
-        [
-          125.5,
-          83.2
-        ],
-        [
-          153,
-          89.4
-        ],
-        [
-          170,
-          92.5
-        ],
-        [
-          187.4,
-          95.2
-        ],
-        [
-          204.2,
-          96.3
-        ],
-        [
-          221.6,
-          98.7
-        ],
-        [
-          238.2,
-          99.6
-        ],
-        [
-          248,
-          100
-        ]
-      ],
-      "_id": "b2930abb-d05f-4e38-a404-c0fea76e742d",
-      "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "samsung.pen.spen",
-      "TabletEntityId": "wacom.tablet.ctc6110wl"
-    },
-    {
-      "EntityId": "samsung.session.sap.0003_2024-09-30",
-      "Brand": "SAMSUNG",
-      "PenFamily": "",
-      "InventoryId": "SAP.0003",
-      "Date": "2024-09-30",
-      "User": "sevenpens",
-      "Driver": "WACOM",
-      "OS": "WINDOWS",
-      "Notes": "",
-      "Records": [
-        [
-          5.5,
-          0
-        ],
-        [
-          14,
-          3.4
-        ],
-        [
-          21,
-          3.6
-        ],
-        [
-          27.6,
-          5.7
-        ],
-        [
-          34.5,
-          10.5
-        ],
-        [
-          51.3,
-          45.1
-        ],
-        [
-          64.3,
-          55.8
-        ],
-        [
-          84,
-          68.4
-        ],
-        [
-          102.1,
-          77.1
-        ],
-        [
-          124.3,
-          82.9
-        ],
-        [
-          143.5,
-          88.4
-        ],
-        [
-          164.2,
-          92.8
-        ],
-        [
-          190.4,
-          96.3
-        ],
-        [
-          240,
-          97.5
-        ],
-        [
-          256.3,
-          98.4
-        ],
-        [
-          279.5,
-          99.7
-        ],
-        [
-          289.1,
-          100
-        ]
-      ],
-      "_id": "09b3ade7-0798-490a-bf87-c30b664271d2",
-      "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "samsung.pen.spen",
-      "TabletEntityId": "wacom.tablet.ctc6110wl"
-    },
-    {
-      "EntityId": "samsung.session.sap.0004_2024-09-30",
-      "Brand": "SAMSUNG",
-      "PenFamily": "",
-      "InventoryId": "SAP.0004",
-      "Date": "2024-09-30",
-      "User": "sevenpens",
-      "Driver": "WACOM",
-      "OS": "WINDOWS",
-      "Notes": "",
-      "Records": [
-        [
-          4.7,
-          0
-        ],
-        [
-          5.2,
-          0.02
-        ],
-        [
-          14.1,
-          0.5
-        ],
-        [
-          21.6,
-          16.5
-        ],
-        [
-          35.2,
-          35.3
-        ],
-        [
-          47.7,
-          47.5
-        ],
-        [
-          73.1,
-          68.9
-        ],
-        [
-          85.9,
-          74.4
-        ],
-        [
-          103.3,
-          82.5
-        ],
-        [
-          120.3,
-          87.6
-        ],
-        [
-          141.1,
-          91.6
-        ],
-        [
-          166.6,
-          95.7
-        ],
-        [
-          186.8,
-          99.6
-        ],
-        [
-          191.3,
-          100
-        ]
-      ],
-      "_id": "df41a5fb-13b9-4ebd-b1a7-8fdc3b1a4f14",
-      "_CreateDate": "2026-04-01T20:54:34.000Z",
-      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
-      "PenEntityId": "samsung.pen.spencreator",
-      "TabletEntityId": "wacom.tablet.ctc6110wl"
-    },
-    {
       "EntityId": "samsung.session.sap.0001_2026-05-26",
       "Brand": "SAMSUNG",
       "PenFamily": "samsung.penfamily.spen",
@@ -643,6 +373,116 @@
       "_id": "04eee7ef-46b7-4ee2-9319-424fa64e6a48",
       "_CreateDate": "2026-05-26T00:00:00.000Z",
       "_ModifiedDate": "2026-05-26T00:00:00.000Z",
+      "PenEntityId": "samsung.pen.spen",
+      "TabletEntityId": "wacom.tablet.ctc6110wl"
+    },
+    {
+      "EntityId": "samsung.session.sap.0002_2024-09-30",
+      "Brand": "SAMSUNG",
+      "PenFamily": "",
+      "InventoryId": "SAP.0002",
+      "Date": "2024-09-30",
+      "User": "sevenpens",
+      "Driver": "WACOM",
+      "OS": "WINDOWS",
+      "Notes": "",
+      "Records": [
+        [
+          5.6,
+          0
+        ],
+        [
+          6.1,
+          0.02
+        ],
+        [
+          20.8,
+          0.9
+        ],
+        [
+          24.2,
+          4.7
+        ],
+        [
+          27.7,
+          8.2
+        ],
+        [
+          31.7,
+          17.1
+        ],
+        [
+          37.2,
+          22.7
+        ],
+        [
+          41.6,
+          26.5
+        ],
+        [
+          46.6,
+          31.5
+        ],
+        [
+          53.9,
+          39.9
+        ],
+        [
+          61.2,
+          49.5
+        ],
+        [
+          70.3,
+          55.2
+        ],
+        [
+          74.9,
+          60.7
+        ],
+        [
+          88.4,
+          68.7
+        ],
+        [
+          104.1,
+          76.9
+        ],
+        [
+          125.5,
+          83.2
+        ],
+        [
+          153,
+          89.4
+        ],
+        [
+          170,
+          92.5
+        ],
+        [
+          187.4,
+          95.2
+        ],
+        [
+          204.2,
+          96.3
+        ],
+        [
+          221.6,
+          98.7
+        ],
+        [
+          238.2,
+          99.6
+        ],
+        [
+          248,
+          100
+        ]
+      ],
+      "_id": "b2930abb-d05f-4e38-a404-c0fea76e742d",
+      "_CreateDate": "2026-04-01T20:54:34.000Z",
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
       "PenEntityId": "samsung.pen.spen",
       "TabletEntityId": "wacom.tablet.ctc6110wl"
     },
@@ -965,6 +805,92 @@
       "_id": "cf164fe3-e7df-4caa-b226-1c21ee807d7e",
       "_CreateDate": "2026-05-26T00:00:00.000Z",
       "_ModifiedDate": "2026-05-26T00:00:00.000Z",
+      "PenEntityId": "samsung.pen.spen",
+      "TabletEntityId": "wacom.tablet.ctc6110wl"
+    },
+    {
+      "EntityId": "samsung.session.sap.0003_2024-09-30",
+      "Brand": "SAMSUNG",
+      "PenFamily": "",
+      "InventoryId": "SAP.0003",
+      "Date": "2024-09-30",
+      "User": "sevenpens",
+      "Driver": "WACOM",
+      "OS": "WINDOWS",
+      "Notes": "",
+      "Records": [
+        [
+          5.5,
+          0
+        ],
+        [
+          14,
+          3.4
+        ],
+        [
+          21,
+          3.6
+        ],
+        [
+          27.6,
+          5.7
+        ],
+        [
+          34.5,
+          10.5
+        ],
+        [
+          51.3,
+          45.1
+        ],
+        [
+          64.3,
+          55.8
+        ],
+        [
+          84,
+          68.4
+        ],
+        [
+          102.1,
+          77.1
+        ],
+        [
+          124.3,
+          82.9
+        ],
+        [
+          143.5,
+          88.4
+        ],
+        [
+          164.2,
+          92.8
+        ],
+        [
+          190.4,
+          96.3
+        ],
+        [
+          240,
+          97.5
+        ],
+        [
+          256.3,
+          98.4
+        ],
+        [
+          279.5,
+          99.7
+        ],
+        [
+          289.1,
+          100
+        ]
+      ],
+      "_id": "09b3ade7-0798-490a-bf87-c30b664271d2",
+      "_CreateDate": "2026-04-01T20:54:34.000Z",
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
       "PenEntityId": "samsung.pen.spen",
       "TabletEntityId": "wacom.tablet.ctc6110wl"
     },
@@ -1348,6 +1274,80 @@
       "_CreateDate": "2026-05-26T00:00:00.000Z",
       "_ModifiedDate": "2026-05-26T00:00:00.000Z",
       "PenEntityId": "samsung.pen.spen",
+      "TabletEntityId": "wacom.tablet.ctc6110wl"
+    },
+    {
+      "EntityId": "samsung.session.sap.0004_2024-09-30",
+      "Brand": "SAMSUNG",
+      "PenFamily": "",
+      "InventoryId": "SAP.0004",
+      "Date": "2024-09-30",
+      "User": "sevenpens",
+      "Driver": "WACOM",
+      "OS": "WINDOWS",
+      "Notes": "",
+      "Records": [
+        [
+          4.7,
+          0
+        ],
+        [
+          5.2,
+          0.02
+        ],
+        [
+          14.1,
+          0.5
+        ],
+        [
+          21.6,
+          16.5
+        ],
+        [
+          35.2,
+          35.3
+        ],
+        [
+          47.7,
+          47.5
+        ],
+        [
+          73.1,
+          68.9
+        ],
+        [
+          85.9,
+          74.4
+        ],
+        [
+          103.3,
+          82.5
+        ],
+        [
+          120.3,
+          87.6
+        ],
+        [
+          141.1,
+          91.6
+        ],
+        [
+          166.6,
+          95.7
+        ],
+        [
+          186.8,
+          99.6
+        ],
+        [
+          191.3,
+          100
+        ]
+      ],
+      "_id": "df41a5fb-13b9-4ebd-b1a7-8fdc3b1a4f14",
+      "_CreateDate": "2026-04-01T20:54:34.000Z",
+      "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+      "PenEntityId": "samsung.pen.spencreator",
       "TabletEntityId": "wacom.tablet.ctc6110wl"
     },
     {

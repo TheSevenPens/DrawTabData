@@ -1,0 +1,74 @@
+{
+  "EntityId": "samsung.session.sap.0004_2024-09-30",
+  "Brand": "SAMSUNG",
+  "PenFamily": "",
+  "InventoryId": "SAP.0004",
+  "Date": "2024-09-30",
+  "User": "sevenpens",
+  "Driver": "WACOM",
+  "OS": "WINDOWS",
+  "Notes": "",
+  "Records": [
+    [
+      4.7,
+      0
+    ],
+    [
+      5.2,
+      0.02
+    ],
+    [
+      14.1,
+      0.5
+    ],
+    [
+      21.6,
+      16.5
+    ],
+    [
+      35.2,
+      35.3
+    ],
+    [
+      47.7,
+      47.5
+    ],
+    [
+      73.1,
+      68.9
+    ],
+    [
+      85.9,
+      74.4
+    ],
+    [
+      103.3,
+      82.5
+    ],
+    [
+      120.3,
+      87.6
+    ],
+    [
+      141.1,
+      91.6
+    ],
+    [
+      166.6,
+      95.7
+    ],
+    [
+      186.8,
+      99.6
+    ],
+    [
+      191.3,
+      100
+    ]
+  ],
+  "_id": "df41a5fb-13b9-4ebd-b1a7-8fdc3b1a4f14",
+  "_CreateDate": "2026-04-01T20:54:34.000Z",
+  "_ModifiedDate": "2026-04-01T20:54:34.000Z",
+  "PenEntityId": "samsung.pen.spencreator",
+  "TabletEntityId": "wacom.tablet.ctc6110wl"
+}
