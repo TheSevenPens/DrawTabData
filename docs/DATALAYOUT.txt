@@ -27,6 +27,9 @@ bytes differ.
 	npx tsx scripts/generate.ts            # check only; exit 1 on drift (runs in CI first)
 	npx tsx scripts/generate.ts --write    # regenerate after editing source/
 
+To change one record: npm run edit -- <EntityId> Field=value (validates,
+regenerates, and reverts an edit that breaks data-quality).
+
 Records in a bundle are sorted by EntityId (plain code-unit order),
 brand files follow BRANDS order as before. Tools edit sources through
 lib/sources.ts (writeSourceRecord + regenerate), never the bundle; the

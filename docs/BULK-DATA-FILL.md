@@ -10,7 +10,8 @@ the worksheet round-trips cleanly through a chat / paste flow.
 
 ## When to use it
 
-- You have 5+ records to update.
+- You have 5+ records to update. For one or two, use `npm run edit --
+  <EntityId> Field=value` instead (docs/SCRIPTS.md → edit).
 - The fields are well-defined (in the Valibot schema) or you're willing
   to add a schema slot for any new ones.
 - You're filling at most a few dozen fields per record. (For deeper

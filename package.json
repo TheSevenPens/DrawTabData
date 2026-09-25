@@ -11,6 +11,7 @@
     "format-data": "tsx scripts/format-data.ts",
     "generate": "tsx scripts/generate.ts",
     "verify-snapshot": "tsx scripts/verify-snapshot.ts",
+    "edit": "tsx scripts/edit.ts",
     "typecheck": "tsc --noEmit -p .",
     "version-info": "tsx scripts/generate-version.ts",
     "list-tablets": "tsx scripts/list-tablets.ts",

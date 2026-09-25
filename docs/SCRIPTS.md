@@ -98,6 +98,31 @@ from its bundles (tablets + pens `e3cf06e`, pressure-response `44eb0cb`).
 Kept as the record of how each split was made; it refuses a collection
 that is already split.
 
+### edit
+
+Edit one tablet, pen or pressure session by EntityId — the "edit this
+EntityId" command RFC #45 left for later. It finds the source file, applies
+the assignments, validates the record against its schema, bumps
+`_ModifiedDate`, writes and regenerates.
+
+```bash
+npm run edit -- wacom.pen.kp504e ReleaseYear=2016
+npm run edit -- xppen.tablet.g430s Digitizer.Tilt=60 'Model.AlternateNames:=["Star G430S OSU"]'
+npm run edit -- wacom.tablet.fb630 --unset Model.IncludedPen
+npm run edit -- <EntityId> ... --dry-run
+```
+
+- `Field=value` sets a string (a number where the field already holds one);
+  `Field:=json` sets any JSON value; `--unset Field` removes one.
+- A bare name resolves against the schema when unambiguous
+  (`ReleaseYear` on a tablet is `Model.ReleaseYear`), so a field the
+  record doesn't have yet still works; otherwise give the dotted path.
+- Refuses identity fields (EntityId, Brand, model id, session identity):
+  changing those is a migration, not an edit.
+- After writing it runs data-quality. If the edit caused a new issue —
+  on this record or on one that references it, e.g. re-dating a pen after a
+  tablet that ships it — it puts the file back. `--force` keeps it.
+
 ### verify-snapshot
 
 Checks a published snapshot — a `version.json` plus the bundles it lists —
