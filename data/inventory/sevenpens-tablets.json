@@ -3,7 +3,7 @@
     {
       "TabletEntityId": "gaomon.tablet.m10k2018",
       "Brand": "GAOMON",
-      "ModelId": "M10K_2018",
+      "ModelId": "M10K-2018",
       "ModelName": "M10K 2018",
       "TabletType": "PENTABLET",
       "InventoryId": "GAT.0001",
@@ -13,7 +13,7 @@
       "Tags": [],
       "_id": "36b8cf06-ed47-44b0-a77e-7ad45127f564",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "huion.tablet.hs611",
@@ -33,7 +33,7 @@
     {
       "TabletEntityId": "huion.tablet.rtp700",
       "Brand": "HUION",
-      "ModelId": "RTP-700",
+      "ModelId": "RTP700",
       "ModelName": "Inspiroy RTP-700",
       "TabletType": "PENTABLET",
       "InventoryId": "HUT.0002",
@@ -43,7 +43,7 @@
       "Tags": [],
       "_id": "84aed6d8-28dc-46b8-869b-3d89bc0aa889",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "huion.tablet.l610",
@@ -286,9 +286,9 @@
       "_ModifiedDate": "2026-04-01T21:33:59Z"
     },
     {
-      "TabletEntityId": "huion.tablet.hs640p",
+      "TabletEntityId": "huion.tablet.h640p",
       "Brand": "HUION",
-      "ModelId": "HS640P",
+      "ModelId": "H640P",
       "ModelName": "Inspiroy H640P",
       "TabletType": "PENTABLET",
       "InventoryId": "HUT.0018",
@@ -298,7 +298,7 @@
       "Tags": [],
       "_id": "62c08a54-4d69-4edf-8740-dbe5df295d3d",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "huion.tablet.gt2402",
@@ -603,9 +603,9 @@
       "_ModifiedDate": "2026-04-01T21:33:59Z"
     },
     {
-      "TabletEntityId": "wacom.tablet.ptk851",
+      "TabletEntityId": "wacom.tablet.pth851",
       "Brand": "WACOM",
-      "ModelId": "PTK-851",
+      "ModelId": "PTH-851",
       "ModelName": "Intuos Pro 2013 Large",
       "TabletType": "PENTABLET",
       "InventoryId": "WAT.0019",
@@ -615,12 +615,12 @@
       "Tags": [],
       "_id": "c07423f3-8aba-46f6-9664-a4a40b3f17f8",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
-      "TabletEntityId": "wacom.tablet.ptk851",
+      "TabletEntityId": "wacom.tablet.pth851",
       "Brand": "WACOM",
-      "ModelId": "PTK-851",
+      "ModelId": "PTH-851",
       "ModelName": "Intuos Pro 2013 Large",
       "TabletType": "PENTABLET",
       "InventoryId": "WAT.0020",
@@ -630,7 +630,7 @@
       "Tags": [],
       "_id": "f79e15d8-e337-48ed-87c6-ef582874257c",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "wacom.tablet.pth850",
@@ -1447,7 +1447,7 @@
     {
       "TabletEntityId": "wacom.tablet.dtha140",
       "Brand": "WACOM",
-      "ModelId": "DTHA140",
+      "ModelId": "DTH-A140",
       "ModelName": "MovinkPad Pro 14",
       "TabletType": "STANDALONE",
       "InventoryId": "WAT.0075",
@@ -1457,7 +1457,7 @@
       "Tags": [],
       "_id": "caa409e7-ecd2-4cde-8925-d83b92e6cc5b",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "wacom.tablet.dtc141",
@@ -1642,7 +1642,7 @@
     {
       "TabletEntityId": "xppen.tablet.deco01v2",
       "Brand": "XPPEN",
-      "ModelId": "Deco 01 V2",
+      "ModelId": "DECO01V2",
       "ModelName": "Deco 01 V2",
       "TabletType": "PENTABLET",
       "InventoryId": "XPT.0005",
@@ -1652,7 +1652,7 @@
       "Tags": [],
       "_id": "c6949d0e-09e4-4e11-96b1-5cdf01794b74",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "xppen.tablet.mt0962b",
@@ -1777,7 +1777,7 @@
     {
       "TabletEntityId": "xppen.tablet.deco01v3",
       "Brand": "XPPEN",
-      "ModelId": "DECO_01_V3",
+      "ModelId": "DECO01V3",
       "ModelName": "Deco 01 V3",
       "TabletType": "PENTABLET",
       "InventoryId": "XPT.0014",
@@ -1787,7 +1787,7 @@
       "Tags": [],
       "_id": "1f7f07a4-5c67-43c9-a92d-db003abf777c",
       "_CreateDate": "2026-04-01T21:33:59Z",
-      "_ModifiedDate": "2026-04-01T21:33:59Z"
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     },
     {
       "TabletEntityId": "xppen.tablet.cd121fh",
@@ -1894,6 +1894,21 @@
       "_id": "e94a76e0-c67e-40b1-83c4-fa04ec8667a7",
       "_CreateDate": "2026-09-24T21:25:55.517Z",
       "_ModifiedDate": "2026-09-24T21:29:07.046Z"
+    },
+    {
+      "TabletEntityId": "wacom.tablet.dtk168",
+      "Brand": "WACOM",
+      "ModelId": "DTK-168",
+      "ModelName": "Cintiq 16 2025",
+      "TabletType": "PENDISPLAY",
+      "InventoryId": "WAT.0084",
+      "Vendor": "WACOM",
+      "OrderDate": "2025-06-28",
+      "Notes": "",
+      "Tags": [],
+      "_id": "c2939dca-a20f-445f-841d-03b6f26c0754",
+      "_CreateDate": "2026-09-25T01:17:38.337Z",
+      "_ModifiedDate": "2026-09-25T01:17:38.337Z"
     }
   ]
 }

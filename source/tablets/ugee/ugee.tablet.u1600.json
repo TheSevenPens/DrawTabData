@@ -1,0 +1,41 @@
+{
+  "Meta": {
+    "EntityId": "ugee.tablet.u1600",
+    "_id": "5ca874a8-ba5a-4940-a019-a20faf568051",
+    "_CreateDate": "2026-09-25T01:17:20.118Z",
+    "_ModifiedDate": "2026-09-25T01:17:20.118Z"
+  },
+  "Model": {
+    "Brand": "UGEE",
+    "Id": "U1600",
+    "Name": "U1600 Drawing Monitor",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2021",
+    "IncludedPen": [
+      "ugee.pen.ph12"
+    ],
+    "Notes": "Minimal record, added for inventory unit UGT.0002. Specs from ugee's U1600 specification page. ReleaseYear 2021 is inferred: ugee sells it as a pair with the U1200 (2021), same PH12 pen, and the earliest dated U-series manual is November 2021."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 341,
+      "Height": 191.8
+    }
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    }
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 402,
+      "Height": 263,
+      "Depth": 14.74
+    },
+    "Weight": "1320"
+  }
+}

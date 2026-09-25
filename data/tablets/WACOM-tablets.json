@@ -9950,6 +9950,25 @@
     },
     {
       "Meta": {
+        "EntityId": "wacom.tablet.sd320l",
+        "_id": "10a09c18-1999-422d-ad0a-da9120e6e0a9",
+        "_CreateDate": "2026-09-25T01:17:22.480Z",
+        "_ModifiedDate": "2026-09-25T01:17:22.480Z"
+      },
+      "Model": {
+        "Brand": "WACOM",
+        "Id": "SD-320L",
+        "Name": "SD-320L",
+        "Type": "PENTABLET",
+        "ReleaseYear": "1988",
+        "Family": "wacom.tabletfamily.wacom_sd_1988",
+        "IncludedPen": [],
+        "Status": "DISCONTINUED",
+        "Notes": "Minimal record, added for inventory unit WAT.0077. The SD-320L is listed among the Wacom SD-series models. ReleaseYear 1988 is taken from its sibling, the SD-320E, not independently sourced."
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "wacom.tablet.sd321e",
         "_id": "3d44fa2b-b989-4b2b-bb63-47ad00e83229",
         "_CreateDate": "2026-04-01T09:11:12.000Z",

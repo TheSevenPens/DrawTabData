@@ -1,0 +1,33 @@
+{
+  "Meta": {
+    "EntityId": "veikk.tablet.vo1060",
+    "_id": "9766917d-c53e-4a6b-b195-f2c8787a5e1a",
+    "_CreateDate": "2026-09-25T01:17:21.308Z",
+    "_ModifiedDate": "2026-09-25T01:17:21.308Z"
+  },
+  "Model": {
+    "Brand": "VEIKK",
+    "Id": "VO1060",
+    "Name": "Voila L",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2022",
+    "IncludedPen": [],
+    "Notes": "Minimal record, added for inventory unit VET.0001. 10 x 6 in active area, 5080 LPI and 326 x 206 x 9 mm from VEIKK's product listing. ReleaseYear 2022 from the earliest reviews (December 2022). The bundled P05 pen has no pen record yet, and pressure levels are left out: listings give both 8192 and 16384."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "Dimensions": {
+      "Width": 254,
+      "Height": 152.4
+    },
+    "Density": "200",
+    "Tilt": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 326,
+      "Height": 206,
+      "Depth": 9
+    }
+  }
+}
