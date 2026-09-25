@@ -615,6 +615,56 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
     }
   }
 
+  // Inventory -> the models it records units of (DrawTabData #44). Six tablet
+  // units pointed at EntityIds no tablet has (a typo, a PTK- for a PTH-, three
+  // models never added), and five ModelIds held a name or a differently
+  // punctuated id — anything joining on either silently lost those units.
+  const tabletModelIdByEntityId = new Map<string, string | undefined>();
+  for (const { record } of tablets) {
+    const id = getNestedString(record, "Meta", "EntityId");
+    if (id) tabletModelIdByEntityId.set(id, getNestedString(record, "Model", "Id"));
+  }
+  const inventoryTablets = readAllInDir(dataDir, "inventory", "InventoryTablets");
+  const tabletUnitIds = new Set<string>();
+  for (const { file, record } of inventoryTablets) {
+    const unit = getString(record, "InventoryId") ?? "UNKNOWN";
+    tabletUnitIds.add(unit);
+    const ref = getString(record, "TabletEntityId");
+    if (!ref) continue;
+    if (!tabletModelIdByEntityId.has(ref)) {
+      issues.push({ file, entityId: unit, field: "TabletEntityId", issue: "references unknown Tablet", value: ref });
+      continue;
+    }
+    const modelId = getString(record, "ModelId");
+    const expected = tabletModelIdByEntityId.get(ref);
+    if (modelId !== undefined && modelId !== expected) {
+      issues.push({
+        file,
+        entityId: unit,
+        field: "ModelId",
+        issue: "is not the tablet's Model.Id",
+        value: `got "${modelId}", ${ref} has "${expected}"`,
+      });
+    }
+  }
+  for (const { file, record } of readAllInDir(dataDir, "inventory", "InventoryPens")) {
+    const unit = getString(record, "InventoryId") ?? "UNKNOWN";
+    const ref = getString(record, "PenEntityId");
+    if (ref && !penEntityIds.has(ref)) {
+      issues.push({ file, entityId: unit, field: "PenEntityId", issue: "references unknown Pen", value: ref });
+    }
+    const withTablet = getString(record, "WithTabletInventoryId");
+    if (withTablet && !tabletUnitIds.has(withTablet)) {
+      issues.push({
+        file,
+        entityId: unit,
+        field: "WithTabletInventoryId",
+        issue: "references unknown tablet inventory unit",
+        value: withTablet,
+      });
+    }
+  }
+
   // PenCompat.PenId / TabletIds -> Pen.PenId / Tablet.Model.Id
   for (const { file, record } of penCompat) {
     const penId = getString(record, "PenId");
