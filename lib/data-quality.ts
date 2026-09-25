@@ -15,6 +15,7 @@ import { BRANDS } from "./loader-shared.js";
 import { deriveSessionEntityId, sessionEntityId } from "./pressure/session-id.js";
 import { findEncodingDamage, describeEncodingDamage } from "./encoding-damage.js";
 import { releaseOrigin } from "./entities/age-format.js";
+import { buildDriverIndex, LAST_SUPPORTED_DRIVER_FIELDS, resolveDriver, UNRECORDED_DRIVERS } from "./driver-lookup.js";
 
 // --- Types ---
 
@@ -662,6 +663,34 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
         issue: "references unknown tablet inventory unit",
         value: withTablet,
       });
+    }
+  }
+
+  // Last-supported-driver strings must name a Driver (#307): resolved on
+  // read, exactly or across the build-number separator, never stored as an
+  // id. UNRECORDED_DRIVERS lists the macOS builds knowingly left unlinked.
+  const driverIndex = buildDriverIndex(
+    readAllInDir(dataDir, "drivers", "Drivers").map(({ record }) => ({
+      EntityId: getString(record, "EntityId") ?? "",
+      Brand: getString(record, "Brand") ?? "",
+      DriverVersion: getString(record, "DriverVersion") ?? "",
+      OSFamily: getString(record, "OSFamily") ?? "",
+    })),
+  );
+  for (const { file, record } of tablets) {
+    const brand = getNestedString(record, "Model", "Brand") ?? "";
+    for (const { field, platform } of LAST_SUPPORTED_DRIVER_FIELDS) {
+      const version = getNestedString(record, "Model", field);
+      if (!version || UNRECORDED_DRIVERS.has(`${platform}|${version}`)) continue;
+      if (!resolveDriver(driverIndex, brand, platform, version)) {
+        issues.push({
+          file,
+          entityId: getEntityId(record),
+          field: `Model.${field}`,
+          issue: "references unknown Driver",
+          value: `${platform} ${version}`,
+        });
+      }
     }
   }
 

@@ -147,3 +147,27 @@ describe("runBrandDriftCheck", () => {
     ]);
   });
 });
+
+describe("last-supported-driver references (#307)", () => {
+  const unknownDriver = /references unknown Driver/;
+  function withLastDrivers(model: Record<string, string>) {
+    put("tablets/WACOM-tablets.json", {
+      DrawingTablets: [{ Meta: { EntityId: "wacom.tablet.pth660" }, Model: { Brand: "WACOM", Id: "PTH-660", ...model } }],
+    });
+    put("drivers/WACOM-drivers.json", {
+      Drivers: [{ EntityId: "wacom.driver.6.3.46.2_windows", Brand: "WACOM", DriverVersion: "6.3.46.2", OSFamily: "WINDOWS" }],
+    });
+  }
+
+  it("resolves across the build-number separator and exempts the unrecorded macOS builds", () => {
+    withLastDrivers({ LastSupportedWindowsDriver: "6.3.46-2", LastSupportedMacOSDriver: "6.3.46-2" });
+    expect(issues(unknownDriver)).toEqual([]);
+  });
+
+  it("reports a version no Driver has", () => {
+    withLastDrivers({ LastSupportedWindowsDriver: "6.3.47-1" });
+    expect(issues(unknownDriver)).toEqual([
+      "wacom.tablet.pth660 Model.LastSupportedWindowsDriver: references unknown Driver (WINDOWS 6.3.47-1)",
+    ]);
+  });
+});
