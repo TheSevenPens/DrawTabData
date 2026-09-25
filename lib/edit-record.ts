@@ -19,10 +19,11 @@
 // file and orphans every reference, which is a migration, not an edit.
 
 import * as v from "valibot";
+import { isDeepStrictEqual } from "node:util";
+import { updateDataset } from "./update-dataset.js";
 import { PenSchema, PressureResponseSchema, TabletSchema } from "./schemas.js";
-import * as path from "node:path";
-import { runDataQuality, type Issue } from "./data-quality.js";
-import { readSourceRecord, regenerate, sourceCollection, writeSourceRecord, type SourceCollection } from "./sources.js";
+import { type Issue } from "./data-quality.js";
+import { readSourceRecord, sourceCollection, type SourceCollection } from "./sources.js";
 
 type Json = unknown;
 type Rec = Record<string, Json>;
@@ -45,9 +46,9 @@ const SCHEMAS: Record<string, v.GenericSchema> = {
 
 /** Paths whose change is a reference migration, not an edit. */
 const IDENTITY_PATHS: Record<string, readonly string[]> = {
-  tablets: ["Meta.EntityId", "Meta._id", "Model.Brand", "Model.Id", "Model.IdSuffix"],
-  pens: ["EntityId", "_id", "Brand", "PenId"],
-  "pressure-response": ["EntityId", "_id", "Brand", "InventoryId", "Date", "IdSuffix"],
+  tablets: ["Meta.EntityId", "Meta._id", "Meta._CreateDate", "Model.Brand", "Model.Id", "Model.IdSuffix"],
+  pens: ["EntityId", "_id", "_CreateDate", "Brand", "PenId"],
+  "pressure-response": ["EntityId", "_id", "_CreateDate", "Brand", "InventoryId", "Date", "IdSuffix"],
 };
 
 const MODIFIED_PATH: Record<string, string> = {
@@ -136,6 +137,7 @@ function getAt(record: Rec, path: string): Json {
 
 function setAt(record: Rec, path: string, value: Json): void {
   const parts = path.split(".");
+  if (parts.some(p => ["__proto__", "prototype", "constructor"].includes(p))) throw new Error("Unsafe field path");
   let cur: Rec = record;
   for (const part of parts.slice(0, -1)) {
     if (cur[part] === undefined) cur[part] = {};
@@ -147,6 +149,7 @@ function setAt(record: Rec, path: string, value: Json): void {
 
 function unsetAt(record: Rec, path: string): void {
   const parts = path.split(".");
+  if (parts.some(p => ["__proto__", "prototype", "constructor"].includes(p))) throw new Error("Unsafe field path");
   const parent = getAt(record, parts.slice(0, -1).join("."));
   const target = parts.length === 1 ? record : parent;
   if (isObject(target)) delete target[parts[parts.length - 1]];
@@ -194,6 +197,11 @@ export function applyEdit(
     const after = getAt(record, path);
     if (JSON.stringify(before) !== JSON.stringify(after)) changes.push({ path, before, after });
   }
+  for (const path of [...IDENTITY_PATHS[collection.name], MODIFIED_PATH[collection.name]]) {
+    if (!isDeepStrictEqual(getAt(original, path), getAt(record, path))) {
+      throw new Error(`${path} is an identity/tracking field; nothing was written`);
+    }
+  }
   if (changes.length === 0) throw new Error(`${entityId}: nothing to change — the record already has those values`);
 
   const parsed = v.safeParse(SCHEMAS[collection.name], record);
@@ -226,11 +234,9 @@ export interface EditOutcome extends EditResult {
 }
 
 /**
- * Validate, write the source, regenerate — then run data-quality and, if the
- * edit introduced any issue — on this record, or on another record it
- * breaks (a pen re-dated after a tablet that ships it flags the *tablet*) —
- * put the file back and regenerate
- * again. `force` keeps a write despite new issues; `dryRun` writes nothing.
+ * Validate the candidate source, bundles and full data-quality graph before
+ * any live write. A failed commit restores exact prior bytes. `force` permits
+ * new graph issues, never invalid schemas/UUIDs; `dryRun` writes nothing.
  */
 export function editRecord(
   repoRoot: string,
@@ -239,20 +245,6 @@ export function editRecord(
   opts: { dryRun?: boolean; force?: boolean; now?: string } = {},
 ): EditOutcome {
   const result = applyEdit(repoRoot, entityId, assignments, opts.now);
-  if (opts.dryRun) return { ...result, newIssues: [], written: false };
-
-  const dataDir = path.join(repoRoot, "data");
-  const key = (i: Issue) => `${i.file}|${i.entityId}|${i.field}|${i.issue}|${i.value ?? ""}`;
-  const before = new Set(runDataQuality(dataDir).map(key));
-  const original = readSourceRecord(repoRoot, result.collection, entityId)!;
-
-  writeSourceRecord(repoRoot, result.collection, result.record);
-  regenerate(repoRoot);
-  const newIssues = runDataQuality(dataDir).filter((i) => !before.has(key(i)));
-  if (newIssues.length > 0 && !opts.force) {
-    writeSourceRecord(repoRoot, result.collection, original);
-    regenerate(repoRoot);
-    return { ...result, newIssues, written: false };
-  }
-  return { ...result, newIssues, written: true };
+  const outcome = updateDataset(repoRoot, [{ collection: result.collection.name, record: result.record }], opts);
+  return { ...result, newIssues: outcome.newIssues, written: outcome.written };
 }

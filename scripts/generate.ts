@@ -10,7 +10,7 @@
 
 import * as path from "node:path";
 import { fileURLToPath } from "node:url";
-import { generateBundles } from "../lib/sources.js";
+import { generateDataset } from "../lib/generate-dataset.js";
 
 const argv = process.argv.slice(2);
 const dirIdx = argv.indexOf("--repo-root");
@@ -18,11 +18,7 @@ const repoRoot =
   dirIdx >= 0 ? path.resolve(argv[dirIdx + 1] ?? ".") : path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const write = argv.includes("--write");
 
-const r = generateBundles(repoRoot, { write });
-if (r.collections.length === 0) {
-  console.log("No source/ collections yet — nothing to generate.");
-  process.exit(0);
-}
+const r = generateDataset(repoRoot, { write });
 for (const i of r.sourceIssues) console.error(`${i.file}: ${i.problem}`);
 if (r.sourceIssues.length) {
   console.error(`\n${r.sourceIssues.length} source problem(s); nothing was written.`);

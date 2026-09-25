@@ -1,3 +1,4 @@
+import { commitDatasetUpdate } from "../lib/update-dataset.js";
 // Find a pen by name/id, or scaffold a new one.
 //
 // Usage:
@@ -23,7 +24,7 @@ import { randomUUID } from "crypto";
 import * as v from "valibot";
 import { PenSchema } from "../lib/schemas.js";
 import { formatDataJson } from "../lib/data-json.js";
-import { readSources, regenerate, sourceCollection, sourcePath, writeSourceRecord } from "../lib/sources.js";
+import { readSources, sourceCollection, sourcePath } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -147,9 +148,9 @@ if (dryRun) {
   process.exit(0);
 }
 
-writeSourceRecord(repoRoot, pens, record);
+const updated = commitDatasetUpdate(repoRoot, [{ collection: "pens", record }]);
 console.log(`\nWrote ${sourceRel}.`);
-for (const f of regenerate(repoRoot)) console.log(`Regenerated ${f}.`);
+for (const f of updated.changed) console.log(`Regenerated ${f}.`);
 
 console.log(
   "\nReminder: data-repo changes need TWO commits — one inside data-repo/ (the new source file AND the regenerated bundle), then one in the outer repo to advance the submodule pointer.",

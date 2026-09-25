@@ -1,3 +1,4 @@
+import { initSources, penFixture } from "../test/fixtures.js";
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
@@ -16,6 +17,7 @@ let root: string;
 const read = (rel: string) => JSON.parse(fs.readFileSync(path.join(root, rel), "utf8"));
 beforeEach(() => {
   root = fs.mkdtempSync(path.join(os.tmpdir(), "edit-record-"));
+  initSources(root);
   for (const rel of [TABLET, PEN]) {
     fs.mkdirSync(path.dirname(path.join(root, rel)), { recursive: true });
     fs.copyFileSync(path.join(REAL, rel), path.join(root, rel));

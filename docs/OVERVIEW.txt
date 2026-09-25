@@ -64,7 +64,8 @@ This repo includes TypeScript libraries for consumers:
 - lib/units.ts — metric/imperial unit conversion
 - lib/data-quality.ts — schema-driven validation across all entities (npm run data-quality)
 - scripts/generate-version.ts — regenerates data/version.json (npm run version-info)
-- data/version.json — schemaVersion, date-version, commit SHA, and per-entity counts
+- data/version.json — deterministic schemaVersion, counts, manifest, indexes and verification hashes
+- publication metadata adds commit/date/provenance (see docs/CONSUMERS.md)
 
 # How consumers use the data
 

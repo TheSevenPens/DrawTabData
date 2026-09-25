@@ -1,16 +1,279 @@
 {
   "schemaVersion": 1,
-  "version": "2026.04.06",
-  "commit": "bfde6d8ca29dc5e5ad4a125333ff649729d58e59",
-  "shortCommit": "bfde6d8",
-  "commitDate": "2026-04-06T19:00:19-07:00",
   "counts": {
-    "tablets": 300,
-    "pens": 125,
-    "penFamilies": 13,
-    "tabletFamilies": 18,
-    "drivers": 246,
-    "brands": 11,
-    "pressureResponse": 124
+    "tablets": 391,
+    "pens": 143,
+    "penFamilies": 24,
+    "tabletFamilies": 59,
+    "drivers": 250,
+    "brands": 13,
+    "pressureResponse": 156
+  },
+  "files": [
+    "brands/brands.json",
+    "drivers/WACOM-drivers.json",
+    "inventory/sevenpens-pens.json",
+    "inventory/sevenpens-tablets.json",
+    "links/doc-links.json",
+    "machollywood/machollywood-pen-compat-annotations.json",
+    "machollywood/machollywood-pen-compat.json",
+    "otd/otd-entity-audit.json",
+    "otd/otd-tablets.json",
+    "pen-compat/APPLE-pen-compat.json",
+    "pen-compat/ASUS-pen-compat.json",
+    "pen-compat/DIGIDRAW-pen-compat.json",
+    "pen-compat/GAOMON-pen-compat.json",
+    "pen-compat/HUION-pen-compat.json",
+    "pen-compat/SAMSUNG-pen-compat.json",
+    "pen-compat/UGEE-pen-compat.json",
+    "pen-compat/WACOM-pen-compat.json",
+    "pen-compat/XENCELABS-pen-compat.json",
+    "pen-compat/XPPEN-pen-compat.json",
+    "pen-families/APPLE-pen-families.json",
+    "pen-families/ASUS-pen-families.json",
+    "pen-families/DIGIDRAW-pen-families.json",
+    "pen-families/HUION-pen-families.json",
+    "pen-families/SAMSUNG-pen-families.json",
+    "pen-families/STAEDTLER-pen-families.json",
+    "pen-families/WACOM-pen-families.json",
+    "pen-families/XENCELABS-pen-families.json",
+    "pen-families/XPPEN-pen-families.json",
+    "pens/APPLE-pens.json",
+    "pens/ASUS-pens.json",
+    "pens/DIGIDRAW-pens.json",
+    "pens/GAOMON-pens.json",
+    "pens/HUION-pens.json",
+    "pens/LAMY-pens.json",
+    "pens/SAMSUNG-pens.json",
+    "pens/STAEDTLER-pens.json",
+    "pens/UGEE-pens.json",
+    "pens/WACOM-pens.json",
+    "pens/XENCELABS-pens.json",
+    "pens/XPPEN-pens.json",
+    "pressure-range/ASUS-pressure-range.json",
+    "pressure-range/HUION-pressure-range.json",
+    "pressure-range/LAMY-pressure-range.json",
+    "pressure-range/SAMSUNG-pressure-range.json",
+    "pressure-range/STAEDTLER-pressure-range.json",
+    "pressure-range/WACOM-pressure-range.json",
+    "pressure-range/XENCELABS-pressure-range.json",
+    "pressure-range/XPPEN-pressure-range.json",
+    "pressure-response/HUION-pressure-response.json",
+    "pressure-response/SAMSUNG-pressure-response.json",
+    "pressure-response/WACOM-pressure-response.json",
+    "pressure-response/XENCELABS-pressure-response.json",
+    "pressure-response/XPPEN-pressure-response.json",
+    "reference/defect-kinds.json",
+    "reference/iso-paper-sizes.json",
+    "reference/us-paper-sizes.json",
+    "tablet-families/APPLE-tablet-families.json",
+    "tablet-families/DIGIDRAW-tablet-families.json",
+    "tablet-families/HUION-tablet-families.json",
+    "tablet-families/WACOM-tablet-families.json",
+    "tablet-families/XENCELABS-tablet-families.json",
+    "tablet-families/XPPEN-tablet-families.json",
+    "tablets/APPLE-tablets.json",
+    "tablets/ASUS-tablets.json",
+    "tablets/DIGIDRAW-tablets.json",
+    "tablets/GAOMON-tablets.json",
+    "tablets/HUION-tablets.json",
+    "tablets/SAMSUNG-tablets.json",
+    "tablets/UGEE-tablets.json",
+    "tablets/VEIKK-tablets.json",
+    "tablets/WACOM-tablets.json",
+    "tablets/XENCELABS-tablets.json",
+    "tablets/XPPEN-tablets.json",
+    "wacom-update/products.json"
+  ],
+  "indexes": {
+    "pressureSessionsByPen": {
+      "huion.pen.pw517": 13,
+      "huion.pen.pw550": 7,
+      "huion.pen.pw550s": 1,
+      "huion.pen.pw600s": 2,
+      "huion.pen.pw110": 2,
+      "huion.pen.pw500": 1,
+      "huion.pen.pw600": 7,
+      "huion.pen.pw600l": 3,
+      "huion.pen.pw100": 2,
+      "samsung.pen.spen": 8,
+      "samsung.pen.spencreator": 2,
+      "wacom.pen.kp504e": 14,
+      "wacom.pen.lp1100k": 3,
+      "wacom.pen.cp923": 15,
+      "wacom.pen.kp501e": 3,
+      "wacom.pen.kp701e": 4,
+      "wacom.pen.lp190k": 3,
+      "wacom.pen.acp500": 6,
+      "wacom.pen.cp913": 12,
+      "wacom.pen.kp503e": 2,
+      "wacom.pen.acp700": 3,
+      "xencelabs.pen.3buttonv1": 1,
+      "xencelabs.pen.3buttonv2": 3,
+      "xencelabs.pen.thinv2": 3,
+      "xppen.pen.pd21": 11,
+      "xppen.pen.p05": 7,
+      "xppen.pen.pd22": 2,
+      "xppen.pen.pd51": 7,
+      "xppen.pen.ph10b": 7,
+      "xppen.pen.pd04b": 2
+    }
+  },
+  "sourceDigest": "3bfaf397c7236f231d1c3fb7665bf791f72aaed590c422c503aa7aec5916f541",
+  "bundles": [
+    {
+      "path": "tablets/APPLE-tablets.json",
+      "sha256": "863ce571907933ff330d66b5bc83a2b32d07421c884aa209154250231c8f5a01",
+      "count": 35
+    },
+    {
+      "path": "tablets/ASUS-tablets.json",
+      "sha256": "cf111a1599499566ec01253c380555e3afabf00db613d7de7a39226324751c5d",
+      "count": 1
+    },
+    {
+      "path": "tablets/DIGIDRAW-tablets.json",
+      "sha256": "d123910c489349e7a77ec983e51085bcfcf98478d9ab53565982d505a76e2abc",
+      "count": 6
+    },
+    {
+      "path": "tablets/GAOMON-tablets.json",
+      "sha256": "4c921e1bf3cd4da3b60b8de2215b1500e7f056933806cb32deb0f52c79909e3c",
+      "count": 1
+    },
+    {
+      "path": "tablets/HUION-tablets.json",
+      "sha256": "2339479193ea5dd1bb8c424b92d4715548feba8d96892c897a9a802a9e08cc9e",
+      "count": 69
+    },
+    {
+      "path": "tablets/SAMSUNG-tablets.json",
+      "sha256": "ff917809a382b8971eaaadd008eb29ca4f664dd46af44a012b0082d99bf812ee",
+      "count": 1
+    },
+    {
+      "path": "tablets/UGEE-tablets.json",
+      "sha256": "3ed65e338648a1326d0ad1ad9ef8e695741b0c28a25b677f54e0c09976d75173",
+      "count": 8
+    },
+    {
+      "path": "tablets/VEIKK-tablets.json",
+      "sha256": "6d63c03fa57624c34c16783e19cb629572db873596927c2b33fd81b044b035c6",
+      "count": 1
+    },
+    {
+      "path": "tablets/WACOM-tablets.json",
+      "sha256": "16235cfe6420d182e9407d846b3cb8061e5cc07dce16175cf6704cde78c71849",
+      "count": 195
+    },
+    {
+      "path": "tablets/XENCELABS-tablets.json",
+      "sha256": "4f698c2de7efe599cb6654ac0e0b3fe6cf59d51bee675a57ed4b5aef20068109",
+      "count": 5
+    },
+    {
+      "path": "tablets/XPPEN-tablets.json",
+      "sha256": "6833e63045a581ff1697bf24966d13850f0759fb6b7d0b356a40b690a7cbfb52",
+      "count": 69
+    },
+    {
+      "path": "pens/APPLE-pens.json",
+      "sha256": "9e48390abce7f669e515176b5aed8c731ffe9238fd667c973b14e79e138ce0ef",
+      "count": 4
+    },
+    {
+      "path": "pens/ASUS-pens.json",
+      "sha256": "8860f511c336a185f1c9d208add0b3091a8e93417174cf9d74fb16c5e9c2d465",
+      "count": 1
+    },
+    {
+      "path": "pens/DIGIDRAW-pens.json",
+      "sha256": "d9afd70d5239e391d6f5fd2e2cadaadd25ab231e386466597fa59c46a25751d0",
+      "count": 2
+    },
+    {
+      "path": "pens/GAOMON-pens.json",
+      "sha256": "07e461ee3cf58cb59e19316faa8e23578971b92091aa502f6e0782934bed263d",
+      "count": 1
+    },
+    {
+      "path": "pens/HUION-pens.json",
+      "sha256": "3f5f876cf5096c3cd7eb926ec8b84af69fe87455358154ff11972769cf96e5ba",
+      "count": 19
+    },
+    {
+      "path": "pens/LAMY-pens.json",
+      "sha256": "14d8a6189de809f8a77b68d6f16c3b76ab5757143cc577407598e7b9749d87ab",
+      "count": 1
+    },
+    {
+      "path": "pens/SAMSUNG-pens.json",
+      "sha256": "375fa8d3e24bd50148a6a3ac37f25a9e7a27062608f960261d8abb56590214bf",
+      "count": 2
+    },
+    {
+      "path": "pens/STAEDTLER-pens.json",
+      "sha256": "2adffa6d15da2d022d8b9fd88305facb7546e02a9063c0ce154db266089cac3d",
+      "count": 3
+    },
+    {
+      "path": "pens/UGEE-pens.json",
+      "sha256": "edfafa3173bfdb7aaf2739512bd323a20590ec8c773c01fdb74d9cd6d7a199cf",
+      "count": 6
+    },
+    {
+      "path": "pens/WACOM-pens.json",
+      "sha256": "98f3dce4cf5104fdbf9f4867e9ef197dced8c147c7fd131897f7b1fbea9ed05f",
+      "count": 79
+    },
+    {
+      "path": "pens/XENCELABS-pens.json",
+      "sha256": "f3eb6259d40cd6541a4e6275774da7699618559a73b44afe24b4382e028f246d",
+      "count": 4
+    },
+    {
+      "path": "pens/XPPEN-pens.json",
+      "sha256": "a581093b3761091fa4a5d3578f23dfb62cb6a2f2c33ad8c7ebbb7a49092db9a4",
+      "count": 21
+    },
+    {
+      "path": "pressure-response/HUION-pressure-response.json",
+      "sha256": "0857798851ae8312a64487728488d6fc6383d64bb28a7cac0c054b736a0cfdf6",
+      "count": 38
+    },
+    {
+      "path": "pressure-response/SAMSUNG-pressure-response.json",
+      "sha256": "97f7f1a27d41b922934e2c8d3eb73d855cf521da73c86369e6dadbae3a404bfb",
+      "count": 10
+    },
+    {
+      "path": "pressure-response/WACOM-pressure-response.json",
+      "sha256": "0fa2f41eadb08208c21af63e31bc449c138481c4116e374990b0d6b1c36e16eb",
+      "count": 65
+    },
+    {
+      "path": "pressure-response/XENCELABS-pressure-response.json",
+      "sha256": "2a33898b84dbcda19a1dfb189335bbc17a4ca7f86f3e451fbd1fc4eb8f55c30e",
+      "count": 7
+    },
+    {
+      "path": "pressure-response/XPPEN-pressure-response.json",
+      "sha256": "001144d13182a6795c94616c32a03e5d2327607c9bcd7dc8247a7ee8be339d21",
+      "count": 36
+    }
+  ],
+  "generatorVersion": 1,
+  "verification": {
+    "version": 1,
+    "covers": [
+      "source/tablets",
+      "source/pens",
+      "source/pressure-response"
+    ],
+    "bundleRootKeys": {
+      "tablets": "DrawingTablets",
+      "pens": "Pens",
+      "pressure-response": "PressureResponse"
+    }
   }
 }

@@ -1,3 +1,4 @@
+import { initSources, penFixture } from "../test/fixtures.js";
 import { spawnSync } from "node:child_process";
 import * as fs from "node:fs";
 import * as os from "node:os";
@@ -23,7 +24,7 @@ function git(...args: string[]): string {
 function addPen(id: string) {
   const abs = path.join(repo, sourcePath(pens, "WACOM", `wacom.pen.${id}`));
   fs.mkdirSync(path.dirname(abs), { recursive: true });
-  fs.writeFileSync(abs, formatDataJson({ EntityId: `wacom.pen.${id}`, Brand: "WACOM", PenId: id }));
+  fs.writeFileSync(abs, formatDataJson(penFixture("WACOM", id)));
   generateBundles(repo, { write: true });
 }
 function commit(msg: string): string {
@@ -41,6 +42,7 @@ let base: string;
 let c1: string;
 beforeEach(() => {
   repo = fs.mkdtempSync(path.join(os.tmpdir(), "snapverify-"));
+  initSources(repo);
   git("init", "-q", "-b", "master");
   fs.writeFileSync(path.join(repo, "README.md"), "x\n");
   base = commit("base");

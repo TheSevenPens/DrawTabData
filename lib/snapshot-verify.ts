@@ -32,6 +32,7 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 import { SOURCE_COLLECTIONS, buildBundles, readSources, sourceDigest } from "./sources.js";
+import { GENERATOR_VERSION, VERIFICATION_VERSION } from "./version-info.js";
 
 export interface SnapshotBundle {
   path: string;
@@ -40,7 +41,10 @@ export interface SnapshotBundle {
 }
 
 export interface Snapshot {
-  commit: string;
+  commit?: string;
+  provenance?: { commit: string; dirty: boolean; dirtyPaths?: string[] };
+  generatorVersion?: number;
+  verification?: { version: number; covers: string[]; bundleRootKeys: Record<string, string> };
   sourceDigest?: string;
   bundles?: SnapshotBundle[];
 }
@@ -66,7 +70,7 @@ export interface IntegrityResult {
 
 export interface ReproduceResult {
   status: ReproduceStatus;
-  commit: string;
+  commit?: string;
   sourceDigest?: string;
   /** Human-readable differences; empty when reproduced. */
   differences: string[];
@@ -79,6 +83,7 @@ export interface FreshnessResult {
   refCommit?: string;
   refSourceDigest?: string;
   reason?: string;
+  cached?: Omit<FreshnessResult, "cached">;
 }
 
 export const sha256Hex = (bytes: Buffer | string) => crypto.createHash("sha256").update(bytes).digest("hex");
@@ -113,7 +118,7 @@ export async function checkIntegrity(
     const actualSha256 = sha256Hex(bytes);
     let actualCount: number | undefined;
     try {
-      const key = rootKeyFor(b.path);
+      const key = snapshot.verification?.bundleRootKeys[b.path.split("/")[0]] ?? rootKeyFor(b.path);
       const arr = key ? (JSON.parse(bytes.toString("utf8")) as Record<string, unknown>)[key] : undefined;
       actualCount = Array.isArray(arr) ? arr.length : undefined;
     } catch {
@@ -188,13 +193,29 @@ function withSources<T>(repo: string, commit: string, fn: (dir: string) => T): T
 
 /** Regenerate the bundles from the snapshot's commit and compare. */
 export function checkReproduction(snapshot: Snapshot, repo: string): ReproduceResult {
-  const base = { commit: snapshot.commit, differences: [] as string[] };
-  const commit = resolveCommit(repo, snapshot.commit);
+  const recorded = snapshot.provenance?.commit ?? snapshot.commit;
+  const base = { commit: recorded, differences: [] as string[] };
+  if (snapshot.provenance?.dirty) return { ...base, status: "unable", reason: "snapshot was built from dirty inputs; the commit names its base, not an exact source snapshot" };
+  if (snapshot.generatorVersion !== undefined && snapshot.generatorVersion !== GENERATOR_VERSION) {
+    return { ...base, status: "unable", reason: `unsupported generator version ${snapshot.generatorVersion}; this verifier supports ${GENERATOR_VERSION}` };
+  }
+  if (snapshot.verification && snapshot.verification.version !== VERIFICATION_VERSION) {
+    return { ...base, status: "unable", reason: `unsupported verification version ${snapshot.verification.version}` };
+  }
+  if (snapshot.verification) {
+    const expected = SOURCE_COLLECTIONS.map(c => `source/${c.name}`).sort();
+    if (JSON.stringify([...snapshot.verification.covers].sort()) !== JSON.stringify(expected) ||
+        SOURCE_COLLECTIONS.some(c => snapshot.verification!.bundleRootKeys[c.name] !== c.rootKey)) {
+      return { ...base, status: "unable", reason: "unsupported verification coverage or bundle root keys" };
+    }
+  }
+  if (!recorded) return { ...base, status: "unable", reason: "deterministic metadata has no commit; pass --commit <revision> to reproduce a tracked snapshot" };
+  const commit = resolveCommit(repo, recorded);
   if (!commit) {
     return {
       ...base,
       status: "unable",
-      reason: `commit ${snapshot.commit} is not in ${repo} (git fetch first, or pass --fetch)`,
+      reason: `commit ${recorded} is not in ${repo} (git fetch first, or pass --fetch)`,
     };
   }
   const out = withSources(repo, commit, (dir) => {
@@ -205,7 +226,7 @@ export function checkReproduction(snapshot: Snapshot, repo: string): ReproduceRe
     }
     const generated = new Map<string, { sha256: string; count: number }>();
     for (const c of SOURCE_COLLECTIONS) {
-      const { records, issues } = readSources(dir, c);
+      const { records, issues } = readSources(dir, c, { allowMissing: true });
       for (const i of issues) differences.push(`source problem at that commit: ${i.file}: ${i.problem}`);
       for (const [rel, text] of buildBundles(c, records)) {
         const key = rel.slice("data/".length);
@@ -274,9 +295,10 @@ export function checkFreshness(snapshot: Snapshot, repo: string, ref: string): F
     return { status: "unable", ref, refCommit, reason: `could not read source/ at ${refCommit}` };
   }
   if (refSourceDigest === snapshot.sourceDigest) return { status: "current", ref, refCommit, refSourceDigest };
-  const snapCommit = resolveCommit(repo, snapshot.commit);
+  const recorded = snapshot.provenance?.commit ?? snapshot.commit;
+  const snapCommit = recorded ? resolveCommit(repo, recorded) : undefined;
   if (!snapCommit) {
-    return { status: "unable", ref, refCommit, refSourceDigest, reason: `commit ${snapshot.commit} is not in ${repo}` };
+    return { status: "unable", ref, refCommit, refSourceDigest, reason: recorded ? `commit ${recorded} is not in ${repo}` : "no recorded commit to classify this older snapshot" };
   }
   const isAncestor = spawnSync("git", ["-C", repo, "merge-base", "--is-ancestor", snapCommit, refCommit]).status === 0;
   return { status: isAncestor ? "historical" : "not-on-ref", ref, refCommit, refSourceDigest };

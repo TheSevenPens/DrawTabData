@@ -7,6 +7,7 @@
     "url": "https://github.com/TheSevenPens/DrawTabData.git"
   },
   "scripts": {
+    "prepack": "tsx scripts/prepare-package.ts",
     "data-quality": "tsx lib/run-data-quality.ts",
     "format-data": "tsx scripts/format-data.ts",
     "generate": "tsx scripts/generate.ts",
@@ -25,7 +26,8 @@
     "annotate-machollywood": "tsx scripts/annotate-machollywood-compat.ts",
     "build": "tsc",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "typecheck:scripts": "tsc --noEmit -p tsconfig.scripts.json"
   },
   "keywords": [
     "drawing-tablet",
@@ -38,6 +40,7 @@
   "license": "ISC",
   "type": "module",
   "exports": {
+    "./snapshot": "./package-snapshot.json",
     "./dataset": {
       "types": "./lib/dataset.ts",
       "default": "./lib/dataset.ts"
@@ -101,6 +104,7 @@
     "./data/*": "./data/*"
   },
   "files": [
+    "package-snapshot.json",
     "lib/**/*.ts",
     "!lib/**/*.test.ts",
     "data",

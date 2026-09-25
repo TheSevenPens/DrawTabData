@@ -28,11 +28,11 @@ bytes differ.
 	npx tsx scripts/generate.ts --write    # regenerate after editing source/
 
 To change one record: npm run edit -- <EntityId> Field=value (validates,
-regenerates, and reverts an edit that breaks data-quality).
+previews regeneration and data-quality, then commits the whole change).
 
 Records in a bundle are sorted by EntityId (plain code-unit order),
 brand files follow BRANDS order as before. Tools edit sources through
-lib/sources.ts (writeSourceRecord + regenerate), never the bundle; the
+lib/update-dataset.ts (commitDatasetUpdate), never the bundle; the
 Explorer's dev server regenerates automatically when a source changes.
 data-quality names the source file for tablet/pen/session issues.
 
@@ -45,8 +45,17 @@ either side, regenerate, and commit.
 	git checkout --theirs data/tablets/WACOM-tablets.json
 	npx tsx scripts/generate.ts --write
 
+All three source collection directories must exist, even when empty
+(use a .gitkeep file to track an intentionally empty collection). Missing
+collections fail check and write modes. Schemas and dataset-wide UUID
+uniqueness are checked before output is written.
+
 All other collections (families, pen-compat, drivers, pressure-range,
-inventory, brands, reference) are still edited directly in data/.
+inventory, brands, reference) are still authored in data/. Import tools
+include these via commitDatasetUpdate's dataFiles option, so metadata stays
+current. Manual edits require generate.ts --write before committing.
+The shared transaction restores exact previous bytes on write exceptions;
+it does not promise crash-atomic multi-file publication.
 
 History: tablets and pens were split in e3cf06e, pressure-response in
 44eb0cb (scripts/split-sources.ts <collection>, kept as the

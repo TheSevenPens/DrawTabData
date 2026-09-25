@@ -1,11 +1,5 @@
-// Builds the dataset's version metadata (schema version, data commit,
-// record counts) from a checkout. Node-only.
-//
-// It used to live only inside scripts/generate-version.ts, which wrote the
-// tracked data/version.json by hand — so nothing kept it current, and the
-// Explorer's About page showed an April snapshot (300 tablets) against a
-// dataset of 377 (TheSevenPens/DrawTabDataExplorer#333). Consumers now call
-// buildVersionInfo() at *their* build time instead of trusting that file.
+// Deterministic tracked content metadata and separate publication provenance.
+// Node-only. See docs/CONSUMERS.md for the verification contract.
 
 import * as fs from "fs";
 import * as path from "path";
@@ -19,6 +13,9 @@ import { SOURCE_COLLECTIONS, existingBundles, fileSha256, sourceDigest } from ".
  * Explorer compares it with its SUPPORTED_SCHEMA_MAJOR.
  */
 export const DATA_SCHEMA_VERSION = 1;
+/** Bump when source-to-bundle transformation semantics change. */
+export const GENERATOR_VERSION = 1;
+export const VERIFICATION_VERSION = 1;
 
 function git(cwd: string, ...args: string[]): string {
   return execFileSync("git", args, { cwd }).toString().trim();
@@ -57,7 +54,7 @@ export function listDataFiles(dataDir: string): string[] {
       else if (entry.name.endsWith(".json") && r !== "version.json") out.push(r);
     }
   };
-  walk(dataDir, "");
+  if (fs.existsSync(dataDir)) walk(dataDir, "");
   return out.sort();
 }
 
@@ -80,7 +77,7 @@ export function pressureSessionsByPen(dataDir: string): Record<string, number> {
  * sourceDigest + per-bundle hashes for the collections generated from
  * source/ (RFC #45). Omitted entirely while there are no sources.
  */
-export function verificationMetadata(repoRoot: string): Pick<VersionInfo, "sourceDigest" | "bundles"> {
+export function verificationMetadata(repoRoot: string): Pick<VersionInfo, "sourceDigest" | "bundles" | "verification" | "generatorVersion"> {
   const digest = sourceDigest(repoRoot);
   if (!digest) return {};
   const bundles = SOURCE_COLLECTIONS.flatMap((c) =>
@@ -94,20 +91,21 @@ export function verificationMetadata(repoRoot: string): Pick<VersionInfo, "sourc
       };
     }),
   );
-  return { sourceDigest: digest, bundles };
+  return {
+    sourceDigest: digest, bundles, generatorVersion: GENERATOR_VERSION,
+    verification: {
+      version: VERIFICATION_VERSION,
+      covers: SOURCE_COLLECTIONS.map(c => `source/${c.name}`),
+      bundleRootKeys: Object.fromEntries(SOURCE_COLLECTIONS.map(c => [c.name, c.rootKey])),
+    },
+  };
 }
 
-/** Version metadata for the data checkout at `repoRoot` (the dir holding `data/`). */
-export function buildVersionInfo(repoRoot: string): VersionInfo {
+/** Deterministic tracked metadata, with no self-referential commit or dates. */
+export function buildContentInfo(repoRoot: string): VersionInfo {
   const dataDir = path.join(repoRoot, "data");
-  const commit = git(repoRoot, "rev-parse", "HEAD");
-  const commitDate = git(repoRoot, "log", "-1", "--format=%cI");
   return {
     schemaVersion: DATA_SCHEMA_VERSION,
-    version: commitDate.slice(0, 10).replace(/-/g, "."), // YYYY.MM.DD
-    commit,
-    shortCommit: commit.slice(0, 7),
-    commitDate,
     counts: {
       tablets: countRecords(dataDir, "tablets", "-tablets.json", "DrawingTablets"),
       pens: countRecords(dataDir, "pens", "-pens.json", "Pens"),
@@ -121,4 +119,35 @@ export function buildVersionInfo(repoRoot: string): VersionInfo {
     indexes: { pressureSessionsByPen: pressureSessionsByPen(dataDir) },
     ...verificationMetadata(repoRoot),
   };
+}
+
+/** Capture relevant dirty paths, including untracked records and generator inputs. */
+export function buildProvenance(repoRoot: string): NonNullable<VersionInfo["provenance"]> {
+  const commit = git(repoRoot, "rev-parse", "HEAD");
+  const raw = execFileSync("git", ["status", "--porcelain=v1", "-z", "--untracked-files=all", "--",
+    "source", "data", "lib", "scripts", "package.json", "package-lock.json", "tsconfig*.json", ".gitattributes"],
+    { cwd: repoRoot, encoding: "utf8" });
+  const entries = raw.split("\0");
+  const dirtyPaths: string[] = [];
+  for (let i = 0; i < entries.length; i++) {
+    const entry = entries[i];
+    if (!entry) continue;
+    dirtyPaths.push(entry.slice(3).replace(/\\/g, "/"));
+    if (/[RC]/.test(entry.slice(0, 2)) && entries[i + 1]) dirtyPaths.push(entries[++i].replace(/\\/g, "/"));
+  }
+  return { commit, dirty: dirtyPaths.length > 0, ...(dirtyPaths.length ? { dirtyPaths: [...new Set(dirtyPaths)].sort() } : {}) };
+}
+
+/** Publication adds provenance to the same content metadata used in Git. */
+export function buildVersionInfo(repoRoot: string) {
+  const provenance = buildProvenance(repoRoot);
+  const commitDate = git(repoRoot, "log", "-1", "--format=%cI");
+  return {
+    ...buildContentInfo(repoRoot),
+    version: commitDate.slice(0, 10).replace(/-/g, "."),
+    commit: provenance.commit,
+    shortCommit: provenance.commit.slice(0, 7),
+    commitDate,
+    provenance,
+  } satisfies VersionInfo;
 }

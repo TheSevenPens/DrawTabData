@@ -1,3 +1,4 @@
+import { initSources, tabletFixture, penFixture, sessionFixture } from "../test/fixtures.js";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import * as fs from "node:fs";
 import * as os from "node:os";
@@ -16,15 +17,13 @@ import {
 const tablets = sourceCollection("tablets");
 const pens = sourceCollection("pens");
 
-const tablet = (brand: string, id: string, extra: Record<string, unknown> = {}) => ({
-  Meta: { EntityId: `${brand.toLowerCase()}.tablet.${id}`, _id: "x" },
-  Model: { Brand: brand, Id: id.toUpperCase(), Name: `Tablet ${id}`, ...extra },
-});
-const pen = (brand: string, id: string) => ({ EntityId: `${brand.toLowerCase()}.pen.${id}`, Brand: brand, PenId: id });
+const tablet = tabletFixture;
+const pen = penFixture;
 
 let root: string;
 beforeEach(() => {
   root = fs.mkdtempSync(path.join(os.tmpdir(), "sources-"));
+  initSources(root);
 });
 afterEach(() => fs.rmSync(root, { recursive: true, force: true }));
 
@@ -79,7 +78,7 @@ describe("buildBundles", () => {
 
   it("sessions: PressureResponse envelope, suffixed IDs after the plain one, Records untouched", () => {
     const sessions = sourceCollection("pressure-response");
-    const s = (id: string) => ({ EntityId: id, Brand: "WACOM", Records: [[10, 0], [2.5, 1.25]] });
+    const s = sessionFixture;
     for (const id of ["wacom.session.wap.0009_2026-05-25_galaxybook5pro360", "wacom.session.wap.0009_2026-05-25"]) {
       put(sourcePath(sessions, "WACOM", id), s(id));
     }
@@ -150,10 +149,11 @@ describe("generateBundles", () => {
     putTablet(tablet("HUION", "q640m"));
   });
 
-  it("does nothing for collections without a source/ directory", () => {
+  it("reports a missing required collection even when its old bundle remains", () => {
+    fs.rmSync(path.join(root, "source/pens"), { recursive: true });
     put("data/pens/WACOM-pens.json", { Pens: [] });
     const r = generateBundles(root, { write: false });
-    expect(r.collections).toEqual(["tablets"]);
+    expect(r.sourceIssues).toContainEqual({ file: "source/pens", problem: "required source collection is missing" });
   });
 
   it("check mode reports missing bundles and writes nothing", () => {
@@ -197,7 +197,7 @@ describe("generateBundles", () => {
 
 describe("sourceDigest", () => {
   it("is null without sources, stable, and changes with content or file set", () => {
-    expect(sourceDigest(root)).toBeNull();
+    expect(sourceDigest(root)).toMatch(/^[0-9a-f]{64}$/);
     putTablet(tablet("WACOM", "a1"));
     const d1 = sourceDigest(root);
     expect(d1).toMatch(/^[0-9a-f]{64}$/);

@@ -1,15 +1,20 @@
 # Data Consumers
 
+**Audience:** contributors and data consumers.
+
 Projects that consume DrawTabData as a git submodule.
 
 ## Consumer list
 
-| Project | Repo | Description | Data submodule commit | Last bumped |
-|---|---|---|---|---|
-| DrawTabDataExplorer | [TheSevenPens/DrawTabDataExplorer](https://github.com/TheSevenPens/DrawTabDataExplorer) | Interactive explorer UI with filtering, comparison, histograms | `cf424cd` | 2026-04-13 |
-| PenPressureData | [TheSevenPens/PenPressureData](https://github.com/TheSevenPens/PenPressureData) | Pressure response curve viewer and comparison tool | `cf424cd` | 2026-04-13 |
-| Wacom-Driver-List | [TheSevenPens/Wacom-Driver-List](https://github.com/TheSevenPens/Wacom-Driver-List) | Wacom driver version listing | `cf424cd` | 2026-04-13 |
-| DrawTabInventory | [TheSevenPens/DrawTabInventory](https://github.com/TheSevenPens/DrawTabInventory) | Personal pen/tablet inventory viewer | `cf424cd` | 2026-04-13 |
+| Project | Repo | Description |
+|---|---|---|
+| DrawTabDataExplorer | [TheSevenPens/DrawTabDataExplorer](https://github.com/TheSevenPens/DrawTabDataExplorer) | Interactive explorer UI with filtering, comparison, histograms |
+| PenPressureData | [TheSevenPens/PenPressureData](https://github.com/TheSevenPens/PenPressureData) | Pressure response curve viewer and comparison tool |
+| Wacom-Driver-List | [TheSevenPens/Wacom-Driver-List](https://github.com/TheSevenPens/Wacom-Driver-List) | Wacom driver version listing |
+| DrawTabInventory | [TheSevenPens/DrawTabInventory](https://github.com/TheSevenPens/DrawTabInventory) | Personal pen/tablet inventory viewer |
+
+Read current consumer pins from their Git trees (`git ls-tree HEAD data-repo`),
+not a manually maintained table.
 
 ## Updating consumers
 
@@ -54,68 +59,91 @@ git push
 
 ## Verifying a published snapshot
 
-Tablets, pens and pressure-response sessions are generated from
-per-record sources (RFC #45). A
-consumer holding published bundles (e.g. the Explorer's Pages site) can
-check them against this repository. The published `version.json`
-records:
+Tracked `data/version.json` describes content deterministically and is generated
+and drift-checked with bundles. It contains no Git commit or build time.
+Publication adds provenance without modifying that tracked file:
+
+| Artifact | Content |
+|---|---|
+| Git/raw `data/version.json` | Counts, files, indexes, source digest, generated bundle hashes, versions |
+| Explorer public `version.json` | Content plus data commit/date, dirty provenance and app/build information |
+| npm `drawtabdata/snapshot` | `package-snapshot.json` created by prepack with data commit/date and dirty provenance; bundles remain under `data/` |
+
+CI rejects publication with dirty source, data, library, scripts, package or
+relevant configuration inputs. Local builds warn and set `provenance.dirty`
+with affected paths. A dirty snapshot cannot claim clean-commit reproduction.
+Documentation-only changes do not dirty data provenance.
+
+### Verification contract (version 1)
 
 | Field | Meaning |
 |---|---|
-| `commit` | the DrawTabData commit the bundles were built from |
-| `sourceDigest` | digest of every `source/` file at that commit (algorithm in `lib/sources.ts` → `sourceDigest`) |
-| `bundles[]` | each generated bundle's `path` (under `data/`), `sha256` and record `count` |
+| `generatorVersion` | Source-to-bundle semantics; bump when those semantics change |
+| `verification.version` | Digest and bundle-verification contract version |
+| `verification.covers` | `source/tablets`, `source/pens`, `source/pressure-response` |
+| `verification.bundleRootKeys` | tablets → DrawingTablets; pens → Pens; pressure-response → PressureResponse |
+| `sourceDigest` | SHA-256 of the source listing described below |
+| `bundles[]` | Paths relative to `data/`, exact-byte SHA-256 and record count |
+| `provenance` | Publication commit, dirty flag and optional dirty paths |
+
+The source digest enumerates JSON files recursively under `source/` in plain
+code-unit path order, with forward-slash paths relative to the repository.
+Normalize CRLF to LF in each UTF-8 source and compute its lowercase hex SHA-256.
+Concatenate `path + NUL + fileHash + LF` for every file and SHA-256 that UTF-8
+listing. Empty source collections are valid when explicitly present. Bundle
+hashes cover exact bytes, without newline normalization.
+
+Coverage includes the three migrated collections. Grouped drivers, inventory,
+compatibility and reference JSON are listed in the file manifest and validated
+by data-quality, but are **not** covered by sourceDigest or generated-bundle
+reproduction. Hashes prove consistency, not publisher identity.
 
 ### With the tool
 
-```bash
-git clone https://github.com/TheSevenPens/DrawTabData.git && cd DrawTabData
+~~~bash
+git clone https://github.com/TheSevenPens/DrawTabData.git
+cd DrawTabData
 npm ci
 npm run verify-snapshot -- https://thesevenpens.github.io/DrawTabDataExplorer/version.json --fetch
-```
+~~~
 
-```
-integrity  OK  (27/27 bundles match)
-reproduce  REPRODUCED  (regenerated from fbdd73651241)
-freshness  CURRENT  (vs origin/master = fbdd73651241)
-```
+For raw/tracked metadata, name the commit containing it. For a package, use its
+companion manifest and data directory:
+
+~~~bash
+npm run verify-snapshot -- data/version.json --commit HEAD --ref HEAD
+npm run verify-snapshot -- /path/to/node_modules/drawtabdata/package-snapshot.json --bundles /path/to/node_modules/drawtabdata/data --fetch
+~~~
 
 | Check | Question | Outcomes |
 |---|---|---|
-| integrity | Do the bundles hash and count as `version.json` records? | `ok` · `mismatch` (names each bundle, including missing ones) · `unable` |
-| reproduce | Does regenerating from `commit`'s `source/` give exactly those bundles and that `sourceDigest`? | `reproduced` · `mismatch` (lists every difference) · `unable` (e.g. the commit isn't in your clone — `git fetch`) |
-| freshness | Is the snapshot's source content what `--ref` (default `origin/master`) has now? | `current` · `historical` (valid for its commit; records changed since) · `not-on-ref` · `unable` |
+| integrity | Do bundle bytes/counts match the manifest? | ok, mismatch, unable |
+| reproduce | Do the recorded commit's sources regenerate those bundles and digest? | reproduced, mismatch, unable |
+| freshness | Does that source content match the chosen reference? | current, historical, not-on-ref, unable |
 
-Bundles are read next to `version.json` unless `--bundles <dir or URL>`
-says otherwise; `--json` prints the full result for scripts. Exit code
-0 = intact and reproduced, 1 = something mismatched, 2 = a check could
-not run. Freshness never fails the run: a historical snapshot is not a
-wrong one. By default the tool doesn't touch the network for git: freshness
-is judged against your clone's `origin/master` as last fetched. Add
-`--fetch` to run `git fetch` first (`--remote <name>` for another remote),
-so the comparison is against today's upstream and a snapshot commit your
-clone lacks is pulled in. It updates remote-tracking refs only, never a
-local branch. The output names the commit it compared against.
+`--bundles` defaults to the directory/URL next to the manifest; `--json` returns
+structured results. `--ref` defaults to cached origin/master (or HEAD when
+absent). Without `--fetch` this comparison uses locally cached refs.
+`--fetch` refreshes remote-tracking refs, never a local branch. If fetching
+fails, upstream freshness is **unable**, a separately labelled `freshness.cached`
+comparison may still appear, and exit status is 2 unless a real integrity or
+reproduction mismatch already requires 1. Cached CURRENT does not establish
+current upstream state.
+
+Exit 0 means intact and reproduced; historical freshness alone is not a failure.
+Exit 1 means a mismatch. Exit 2 means integrity/reproduction could not run, or
+requested upstream freshness could not be established. Missing commits, dirty
+inputs and unsupported generator/verification versions report unable. The tool
+does not execute historical generator code. For an unsupported version, use the
+matching tool from the recorded commit in a separate checkout. Legacy manifests
+without version fields retain version-1 behavior.
 
 ### By hand
 
-The same checks without the tool:
-
-1. **Integrity of what you downloaded:** `sha256sum WACOM-tablets.json`
-   must equal that bundle's `bundles[].sha256`.
-2. **Reproduce from the recorded commit:**
-   ```bash
-   git clone https://github.com/TheSevenPens/DrawTabData.git && cd DrawTabData
-   git checkout <commit>
-   npm ci
-   npx tsx scripts/generate.ts     # committed bundles == what the sources produce
-   npx tsx -e "import('./lib/sources.ts').then(m => console.log(m.sourceDigest('.')))"   # == sourceDigest
-   sha256sum data/tablets/*.json data/pens/*.json data/pressure-response/*.json   # == bundles[].sha256
-   ```
-3. **Is it current?** Run the digest command on `master` (resolve it to a
-   commit first). Same digest → your snapshot matches today's sources,
-   even if later commits only touched docs or code. Different digest →
-   source records changed since your snapshot.
-
-Hashes prove the bytes match; rebuilding from the pinned commit (step 2)
-is the check that the bundles really come from those sources.
+1. Compare downloaded bundle SHA-256 hashes and counts with the manifest.
+2. Check out the publication commit separately, install dependencies and run
+   `npm run generate`. Compare its bundle hashes and sourceDigest with the
+   publication manifest.
+3. Fetch upstream and compare source digests against an explicitly resolved
+   master commit. Equal digests mean equal covered source content, even when
+   intervening commits changed only documentation or code.

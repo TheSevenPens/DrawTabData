@@ -1,3 +1,4 @@
+import { initSources, penFixture } from "../test/fixtures.js";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import * as path from "path";
 import * as url from "url";
@@ -99,7 +100,8 @@ describe("verificationMetadata (RFC #45)", () => {
     const tmp = fsm.mkdtempSync(path.join(os.tmpdir(), "vmeta-"));
     try {
       expect(verificationMetadata(tmp)).toEqual({});
-      const rec = { EntityId: "wacom.pen.kp503e", Brand: "WACOM", PenId: "KP-503E" };
+      initSources(tmp);
+      const rec = penFixture("WACOM", "kp503e");
       fsm.mkdirSync(path.join(tmp, "source/pens/wacom"), { recursive: true });
       fsm.writeFileSync(path.join(tmp, "source/pens/wacom/wacom.pen.kp503e.json"), formatDataJson(rec));
       generateBundles(tmp, { write: true });

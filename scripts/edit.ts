@@ -55,9 +55,9 @@ try {
   }
   if (dryRun) console.log("\n--dry-run: nothing written.");
   else if (!out.written) {
-    console.log("\nReverted: the source file is back as it was. Fix the data, or rerun with --force to keep it.");
+    console.log("\nRejected: nothing was written. Fix the data, or rerun with --force to accept the new quality issues.");
     process.exit(1);
-  } else console.log("\nWritten; bundles regenerated. Commit the source file and its bundle together.");
+  } else console.log("\nWritten; bundles and metadata regenerated. Commit the source and generated files together.");
 } catch (e) {
   console.error((e as Error).message);
   process.exit(1);

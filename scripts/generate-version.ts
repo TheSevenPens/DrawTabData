@@ -1,4 +1,4 @@
-// Generates data/version.json with git metadata and record counts.
+// Regenerates bundles and deterministic data/version.json together.
 // Run via `npm run version-info` from the data-repo root.
 //
 // The DrawTabDataExplorer no longer reads this file: it calls
@@ -9,12 +9,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
-import { buildVersionInfo } from "../lib/version-info.js";
+import { regenerateDataset } from "../lib/generate-dataset.js";
 
 const repoRoot = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const versionInfo = buildVersionInfo(repoRoot);
-
-const outPath = path.join(repoRoot, "data", "version.json");
-fs.writeFileSync(outPath, JSON.stringify(versionInfo, null, 2) + "\n");
-console.log(`Wrote ${outPath}`);
-console.log(JSON.stringify(versionInfo, null, 2));
+for (const file of regenerateDataset(repoRoot)) console.log(`Generated ${file}`);

@@ -18,10 +18,11 @@
 // Readers stay tolerant (a BOM is skipped); the writer and checkFile() are
 // strict so nothing non-canonical comes back.
 //
-// Only node: imports on purpose — plain .mjs scripts can load this file
+// Only Node builtins and the file-plan helper on purpose — plain .mjs scripts can load this file
 // through tsx without pulling in the rest of the library.
 
 import * as fs from "node:fs";
+import { atomicWriteFile } from "./file-plan.js";
 import * as path from "node:path";
 
 /**
@@ -122,9 +123,7 @@ export function readDataJson<T = unknown>(file: string): T {
 export function writeDataJson(file: string, value: unknown): boolean {
   const text = formatDataJson(value);
   if (fs.existsSync(file) && fs.readFileSync(file, "utf8") === text) return false;
-  const tmp = `${file}.${process.pid}.tmp`;
-  fs.writeFileSync(tmp, text, { encoding: "utf8" });
-  fs.renameSync(tmp, file);
+  atomicWriteFile(file, text);
   return true;
 }
 

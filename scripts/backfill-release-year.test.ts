@@ -1,3 +1,4 @@
+import { initSources, tabletFixture } from "../test/fixtures.js";
 import { afterEach, beforeEach, describe, it, expect, vi } from "vitest";
 import * as fs from "node:fs";
 import * as os from "node:os";
@@ -26,13 +27,12 @@ describe("yearFromReleaseDate", () => {
 });
 
 describe("backfillReleaseYear", () => {
-  // A temp data-repo root: source/tablets/acme/<EntityId>.json plus the
-  // generated data/tablets/ACME-tablets.json bundle.
+  // A temp data-repo root: source/tablets/wacom/<EntityId>.json plus the
+  // generated data/tablets/WACOM-tablets.json bundle.
   let root: string;
   const tablet = (id: string, model: Record<string, string>) => ({
-    Meta: { EntityId: `acme.tablet.${id.toLowerCase()}` },
-    Model: { Brand: "ACME", Id: id, Name: `Café “${id}” & Co`, ReleaseYear: "", ...model },
-    Physical: { Weight: 5, Depth: 92.3 },
+    ...tabletFixture("WACOM", id.toLowerCase(), { Name: `Café “${id}” & Co`, ...model }),
+    Physical: { Weight: "5", Dimensions: { Depth: 92.3 } },
   });
   const fixture = [
     tablet("A1", { ReleaseDate: "2024-06-24" }),
@@ -40,8 +40,8 @@ describe("backfillReleaseYear", () => {
     tablet("C3", {}),
     tablet("D4", { ReleaseDate: "soon" }),
   ];
-  const source = (id: string) => path.join(root, "source", "tablets", "acme", `acme.tablet.${id}.json`);
-  const bundle = () => path.join(root, "data", "tablets", "ACME-tablets.json");
+  const source = (id: string) => path.join(root, "source", "tablets", "wacom", `wacom.tablet.${id}.json`);
+  const bundle = () => path.join(root, "data", "tablets", "WACOM-tablets.json");
   const snapshot = () =>
     Object.fromEntries(
       [...["a1", "b2", "c3", "d4"].map(source), bundle()].map((f) => [f, fs.readFileSync(f, "utf8")]),
@@ -49,6 +49,7 @@ describe("backfillReleaseYear", () => {
 
   beforeEach(() => {
     root = fs.mkdtempSync(path.join(os.tmpdir(), "backfill-release-year-"));
+    initSources(root);
     for (const t of fixture) writeSourceRecord(root, sourceCollection("tablets"), structuredClone(t));
     regenerate(root);
     vi.spyOn(console, "log").mockImplementation(() => {});
@@ -81,7 +82,7 @@ describe("backfillReleaseYear", () => {
   });
 
   it("refuses, writing nothing, when a source has problems", () => {
-    fs.writeFileSync(path.join(root, "source", "tablets", "acme", "stray.txt"), "x");
+    fs.writeFileSync(path.join(root, "source", "tablets", "wacom", "stray.txt"), "x");
     const before = snapshot();
     expect(() => backfillReleaseYear(root)).toThrow(/stray\.txt/);
     expect(snapshot()).toEqual(before);

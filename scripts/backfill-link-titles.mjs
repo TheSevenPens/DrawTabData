@@ -26,9 +26,10 @@
  *
  * Default (no --recheck) only touches links missing a Check, so re-runs are cheap.
  */
+import { commitDatasetUpdate } from "../lib/update-dataset.ts";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { readSources, regenerate, sourceCollection, writeSourceRecord } from "../lib/sources.ts";
+import { readSources, sourceCollection } from "../lib/sources.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const UA =
@@ -255,6 +256,8 @@ const orderLink = (l) => {
   return o;
 };
 
+const pendingUpdates = [];
+
 // ---- apply to sources (mutate -> writeSourceRecord), then regenerate once ----
 const stats = { status: {}, contentType: {}, titled: 0, objects: 0, tablets: 0, errored: 0 };
 for (const { record: t } of sources) {
@@ -291,9 +294,9 @@ for (const { record: t } of sources) {
   if (!mutated) continue;
   stats.tablets++;
   t.Model.Links = links.map(orderLink);
-  if (!dryRun) writeSourceRecord(REPO_ROOT, TABLETS, t);
+  pendingUpdates.push({ collection: "tablets", record: t });
 }
-const regenerated = !dryRun && stats.tablets > 0 ? regenerate(REPO_ROOT) : [];
+const regenerated = stats.tablets > 0 ? commitDatasetUpdate(REPO_ROOT, pendingUpdates, { dryRun }).changed : [];
 
 // ---- report ----
 const fetched = [...results.entries()];

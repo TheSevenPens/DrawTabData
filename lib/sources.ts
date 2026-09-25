@@ -20,19 +20,23 @@
 // EntityId (plain code-unit comparison, no locale), each file is written by
 // formatDataJson(), and nothing time-dependent is included.
 //
-// Only node: imports and ./data-json — keeps this loadable from Vite
-// config and plain tsx scripts.
+// Node-only; every source is schema-validated before output is written.
 
 import * as crypto from "node:crypto";
 import * as fs from "node:fs";
 import * as path from "node:path";
-import { checkDataJsonText, formatDataJson, parseDataJson } from "./data-json.js";
+import * as v from "valibot";
+import { TabletSchema, PenSchema, PressureResponseSchema } from "./schemas.js";
+import { duplicateUuids } from "./record-uuid.js";
+import { applyFilePlan, type FilePlan } from "./file-plan.js";
+import { checkDataJsonText, formatDataJson, parseDataJson, writeDataJson } from "./data-json.js";
 
 export interface SourceCollection {
   /** Collection name, also the source/ and data/ subdirectory. */
   name: "tablets" | "pens" | "pressure-response";
   /** Root key of the generated bundle envelope. */
   rootKey: "DrawingTablets" | "Pens" | "PressureResponse";
+  schema: v.GenericSchema;
   entityId(record: Record<string, unknown>): unknown;
   brand(record: Record<string, unknown>): unknown;
 }
@@ -41,12 +45,14 @@ export const SOURCE_COLLECTIONS: readonly SourceCollection[] = [
   {
     name: "tablets",
     rootKey: "DrawingTablets",
+    schema: TabletSchema,
     entityId: (r) => (r.Meta as { EntityId?: unknown } | undefined)?.EntityId,
     brand: (r) => (r.Model as { Brand?: unknown } | undefined)?.Brand,
   },
   {
     name: "pens",
     rootKey: "Pens",
+    schema: PenSchema,
     entityId: (r) => r.EntityId,
     brand: (r) => r.Brand,
   },
@@ -55,10 +61,14 @@ export const SOURCE_COLLECTIONS: readonly SourceCollection[] = [
     // (lib/pressure/session-id.ts), so the file name is stable.
     name: "pressure-response",
     rootKey: "PressureResponse",
+    schema: PressureResponseSchema,
     entityId: (r) => r.EntityId,
     brand: (r) => r.Brand,
   },
 ];
+
+/** All migrated collections must exist, even when deliberately empty. */
+export const REQUIRED_SOURCE_COLLECTIONS = SOURCE_COLLECTIONS.map(c => c.name);
 
 export function sourceCollection(name: string): SourceCollection {
   const c = SOURCE_COLLECTIONS.find((c) => c.name === name);
@@ -99,13 +109,19 @@ const SAFE_NAME = /^[a-z0-9][a-z0-9._-]*$/;
 export function readSources(
   repoRoot: string,
   collection: SourceCollection,
+  options: { allowMissing?: boolean } = {},
 ): { records: SourceRecord[]; issues: SourceIssue[] } {
   const records: SourceRecord[] = [];
   const issues: SourceIssue[] = [];
   const root = path.join(repoRoot, "source", collection.name);
-  if (!fs.existsSync(root)) return { records, issues };
+  if (!fs.existsSync(root)) {
+    if (!options.allowMissing) issues.push({ file: `source/${collection.name}`, problem: "required source collection is missing" });
+    return { records, issues };
+  }
 
   for (const dirent of fs.readdirSync(root, { withFileTypes: true })) {
+    // Git cannot store an empty directory; an empty collection may keep this marker.
+    if (dirent.name === ".gitkeep" && dirent.isFile() && fs.statSync(path.join(root, dirent.name)).size === 0) continue;
     const dirRel = `source/${collection.name}/${dirent.name}`;
     if (!dirent.isDirectory()) {
       issues.push({ file: dirRel, problem: "unexpected file; sources live in <brand>/ subdirectories" });
@@ -120,7 +136,12 @@ export function readSources(
         issues.push({ file, problem: "not a .json file" });
         continue;
       }
-      const text = fs.readFileSync(path.join(root, dirent.name, f), "utf8");
+      const abs = path.join(root, dirent.name, f);
+      if (!fs.lstatSync(abs).isFile()) {
+        issues.push({ file, problem: "source must be a regular JSON file" });
+        continue;
+      }
+      const text = fs.readFileSync(abs, "utf8");
       const formatIssues = checkDataJsonText(text, file);
       const fatal = formatIssues.find((i) => i.problem === "invalid-json" || i.problem === "duplicate-keys");
       if (fatal) {
@@ -135,6 +156,10 @@ export function readSources(
         continue;
       }
       const rec = record as Record<string, unknown>;
+      const parsed = v.safeParse(collection.schema, rec);
+      if (!parsed.success) for (const issue of parsed.issues) {
+        issues.push({ file, problem: `schema ${v.getDotPath(issue) ?? "(record)"}: ${issue.message}` });
+      }
       const entityId = collection.entityId(rec);
       const brand = collection.brand(rec);
       if (typeof entityId !== "string" || !entityId) {
@@ -168,6 +193,9 @@ export function readSources(
     const prior = seen.get(key);
     if (prior) issues.push({ file: r.file, problem: `duplicate EntityId (also in ${prior})` });
     else seen.set(key, r.file);
+  }
+  for (const { current, prior, uuid } of duplicateUuids(records)) {
+    issues.push({ file: current.file, problem: `duplicate UUID ${uuid} (also in ${prior.file})` });
   }
   return { records, issues };
 }
@@ -206,7 +234,7 @@ export function existingBundles(repoRoot: string, collection: SourceCollection):
 }
 
 export interface GenerateResult {
-  /** Collections that have sources (the others are left untouched). */
+  /** Required migrated collections inspected by this run. */
   collections: string[];
   sourceIssues: SourceIssue[];
   changed: string[];
@@ -216,44 +244,45 @@ export interface GenerateResult {
 
 /**
  * Compare (check) or rewrite (write) the generated bundles of every
- * collection that has a source/ directory. In check mode nothing is
+ * required migrated collection. Missing directories are errors. In check mode nothing is
  * written. In write mode nothing is written either when the sources have
  * problems — a bad source must fail the build, not publish partial output.
  */
-export function generateBundles(repoRoot: string, { write }: { write: boolean }): GenerateResult {
+export function planBundles(repoRoot: string): { result: GenerateResult; files: FilePlan } {
   const result: GenerateResult = { collections: [], sourceIssues: [], changed: [], missing: [], extra: [] };
-  const plans: { expected: Map<string, string>; existing: string[] }[] = [];
+  const files = new Map<string, Buffer | null>();
+  const allRecords: SourceRecord[] = [];
 
   for (const collection of SOURCE_COLLECTIONS) {
-    if (!fs.existsSync(path.join(repoRoot, "source", collection.name))) continue;
     result.collections.push(collection.name);
     const { records, issues } = readSources(repoRoot, collection);
+    allRecords.push(...records);
     result.sourceIssues.push(...issues);
     const expected = buildBundles(collection, records);
     const existing = existingBundles(repoRoot, collection);
     for (const [rel, text] of expected) {
+      const bytes = Buffer.from(text, "utf8");
+      files.set(rel, bytes);
       const abs = path.join(repoRoot, rel);
       if (!fs.existsSync(abs)) result.missing.push(rel);
-      else if (fs.readFileSync(abs, "utf8") !== text) result.changed.push(rel);
+      else if (!fs.readFileSync(abs).equals(bytes)) result.changed.push(rel);
     }
-    for (const rel of existing) if (!expected.has(rel)) result.extra.push(rel);
-    plans.push({ expected, existing });
+    for (const rel of existing) if (!expected.has(rel)) {
+      result.extra.push(rel);
+      files.set(rel, null);
+    }
   }
+  for (const { current, prior, uuid } of duplicateUuids(allRecords)) {
+    const issue = { file: current.file, problem: `duplicate UUID ${uuid} (also in ${prior.file})` };
+    if (!result.sourceIssues.some(i => i.file === issue.file && i.problem === issue.problem)) result.sourceIssues.push(issue);
+  }
+  return { result, files };
+}
 
-  if (write && result.sourceIssues.length === 0) {
-    for (const { expected, existing } of plans) {
-      for (const [rel, text] of expected) {
-        const abs = path.join(repoRoot, rel);
-        if (fs.existsSync(abs) && fs.readFileSync(abs, "utf8") === text) continue;
-        fs.mkdirSync(path.dirname(abs), { recursive: true });
-        const tmp = `${abs}.${process.pid}.tmp`;
-        fs.writeFileSync(tmp, text, "utf8");
-        fs.renameSync(tmp, abs);
-      }
-      // A deleted or renamed source must not leave its old bundle behind.
-      for (const rel of existing) if (!expected.has(rel)) fs.rmSync(path.join(repoRoot, rel));
-    }
-  }
+/** Check never writes; write validates all sources before committing. */
+export function generateBundles(repoRoot: string, { write }: { write: boolean }): GenerateResult {
+  const { result, files } = planBundles(repoRoot);
+  if (write && !result.sourceIssues.length) applyFilePlan(repoRoot, files);
   return result;
 }
 
@@ -286,7 +315,7 @@ export function listSourceFiles(repoRoot: string): string[] {
  */
 export function sourceDigest(repoRoot: string): string | null {
   const files = listSourceFiles(repoRoot);
-  if (files.length === 0) return null;
+  if (files.length === 0 && !fs.existsSync(path.join(repoRoot, "source"))) return null;
   const h = crypto.createHash("sha256");
   for (const rel of files) {
     const text = fs.readFileSync(path.join(repoRoot, rel), "utf8").replace(/\r\n/g, "\n");
@@ -337,15 +366,13 @@ export function writeSourceRecord(
   const brand = collection.brand(record);
   if (typeof entityId !== "string" || !entityId) throw new Error("record has no EntityId");
   if (typeof brand !== "string" || !brand) throw new Error(`${entityId}: record has no Brand`);
+  if (!SAFE_NAME.test(entityId) || !SAFE_NAME.test(brand.toLowerCase()) || !entityId.startsWith(`${brand.toLowerCase()}.`)) {
+    throw new Error(`${entityId}: invalid source identity/path`);
+  }
   const rel = sourcePath(collection, brand, entityId);
   const abs = path.join(repoRoot, rel);
   fs.mkdirSync(path.dirname(abs), { recursive: true });
-  const text = formatDataJson(record);
-  if (!fs.existsSync(abs) || fs.readFileSync(abs, "utf8") !== text) {
-    const tmp = `${abs}.${process.pid}.tmp`;
-    fs.writeFileSync(tmp, text, "utf8");
-    fs.renameSync(tmp, abs);
-  }
+  writeDataJson(abs, record);
   return rel;
 }
 

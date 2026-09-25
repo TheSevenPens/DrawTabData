@@ -19,10 +19,10 @@ const typeFilter = getArg("type")?.toUpperCase();
 
 let tablets = loadTabletsFromDisk(dataDir);
 
-if (brandFilter) tablets = tablets.filter(t => t.Brand === brandFilter);
-if (typeFilter) tablets = tablets.filter(t => t.ModelType === typeFilter);
+if (brandFilter) tablets = tablets.filter(t => t.Model.Brand === brandFilter);
+if (typeFilter) tablets = tablets.filter(t => t.Model.Type === typeFilter);
 
-tablets.sort((a, b) => a.Brand.localeCompare(b.Brand) || a.ModelName.localeCompare(b.ModelName));
+tablets.sort((a, b) => a.Model.Brand.localeCompare(b.Model.Brand) || a.Model.Name.localeCompare(b.Model.Name));
 
 console.log(
   ["Brand", "ModelId", "ModelName", "Year", "Type", "Pen", "Family", "Diagonal(mm)"]
@@ -30,15 +30,15 @@ console.log(
 );
 
 for (const t of tablets) {
-  const diag = getDiagonal(t.DigitizerDimensions);
+  const diag = getDiagonal(t.Digitizer?.Dimensions);
   console.log([
-    t.Brand,
-    t.ModelId,
-    t.ModelName,
-    t.ModelReleaseYear || "?",
-    t.ModelType,
-    (t.ModelIncludedPen ?? []).join(",") || "-",
-    t.ModelFamily || "-",
+    t.Model.Brand,
+    t.Model.Id,
+    t.Model.Name,
+    t.Model.ReleaseYear || "?",
+    t.Model.Type,
+    (t.Model.IncludedPen ?? []).join(",") || "-",
+    t.Model.Family || "-",
     diag ? diag.toFixed(1) : "-",
   ].join("\t"));
 }

@@ -1,4 +1,6 @@
+// @vitest-environment node
 import { describe, expect, it } from "vitest";
+import { readFileSync } from "node:fs";
 import { buildDriverIndex, driverVersionKey, resolveDriver, UNRECORDED_DRIVERS } from "./driver-lookup.js";
 
 const drivers = [
@@ -7,6 +9,15 @@ const drivers = [
   { EntityId: "wacom.driver.5.3.7-6_macos", Brand: "WACOM", DriverVersion: "5.3.7-6", OSFamily: "MACOS" },
 ];
 const index = buildDriverIndex(drivers);
+
+it("requires removing exemptions once the real dataset supplies that driver", () => {
+  const actual = JSON.parse(readFileSync(new URL("../data/drivers/WACOM-drivers.json", import.meta.url), "utf8"));
+  const realIndex = buildDriverIndex(actual.Drivers);
+  for (const key of UNRECORDED_DRIVERS) {
+    const [platform, version] = key.split("|");
+    expect(resolveDriver(realIndex, "WACOM", platform as "MACOS", version), `Remove stale exemption ${key}`).toBeUndefined();
+  }
+});
 
 describe("driverVersionKey", () => {
   it("treats - and . before the build number as the same", () => {

@@ -1,3 +1,4 @@
+import { commitDatasetUpdate } from "../lib/update-dataset.js";
 // Add a new tablet: writes its source file
 // source/tablets/<brand>/<EntityId>.json, then regenerates the brand bundles
 // under data/tablets/ (RFC #45 — the bundles are generated, never edited).
@@ -22,7 +23,7 @@ import * as v from "valibot";
 import { TabletSchema } from "../lib/schemas.js";
 import { runDataQuality } from "../lib/data-quality.js";
 import { formatDataJson, readDataJson } from "../lib/data-json.js";
-import { readSources, regenerate, sourceCollection, sourcePath, writeSourceRecord } from "../lib/sources.js";
+import { readSources, sourceCollection, sourcePath } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -122,9 +123,9 @@ if (dryRun) {
 
 // --- Write the source, then regenerate the bundles from it ---
 
-writeSourceRecord(repoRoot, tablets, record);
+const updated = commitDatasetUpdate(repoRoot, [{ collection: "tablets", record }]);
 console.log(`\nWrote ${sourceRel}.`);
-for (const f of regenerate(repoRoot)) console.log(`Regenerated ${f}.`);
+for (const f of updated.changed) console.log(`Regenerated ${f}.`);
 
 // --- Inline data-quality, scoped to the affected brand bundle ---
 

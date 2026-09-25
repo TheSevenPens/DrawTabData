@@ -3,6 +3,8 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 import { insertDriverRecords, main, type DriverRecord } from "./add-driver-record.js";
+import { randomUUID } from "node:crypto";
+import { initSources } from "../test/fixtures.js";
 import { formatDataJson } from "../lib/data-json.js";
 
 function driver(version: string, os: "WINDOWS" | "MACOS", releaseDate = ""): DriverRecord {
@@ -16,7 +18,7 @@ function driver(version: string, os: "WINDOWS" | "MACOS", releaseDate = ""): Dri
     DriverUID: `${version}_${os}`,
     Brand: "WACOM",
     EntityId: `wacom.driver.${version}_${os}`.toLowerCase(),
-    _id: "9d5e9b18-5e9c-4c22-929e-2bda35d60d5f",
+    _id: randomUUID(),
     _CreateDate: "2026-04-01T08:52:45.000Z",
     _ModifiedDate: "2026-04-01T08:52:45.000Z",
   };
@@ -67,10 +69,14 @@ describe("insertDriverRecords", () => {
 
 describe("main", () => {
   let dir: string;
+  let root: string;
   const driversFile = () => path.join(dir, "drivers", "WACOM-drivers.json");
 
   beforeEach(() => {
-    dir = fs.mkdtempSync(path.join(os.tmpdir(), "add-driver-record-"));
+    root = fs.mkdtempSync(path.join(os.tmpdir(), "add-driver-record-"));
+    initSources(root);
+    dir = path.join(root, "data");
+    fs.mkdirSync(dir);
     fs.mkdirSync(path.join(dir, "drivers"));
     fs.writeFileSync(driversFile(), formatDataJson({ Drivers: existing }));
     vi.spyOn(console, "log").mockImplementation(() => {});
@@ -78,12 +84,12 @@ describe("main", () => {
   });
   afterEach(() => {
     vi.restoreAllMocks();
-    fs.rmSync(dir, { recursive: true, force: true });
+    fs.rmSync(root, { recursive: true, force: true });
   });
 
   it("writes the file in canonical form with the records in place", () => {
     const added = [driver("6.4.13-1", "WINDOWS", "2026-06-15")];
-    const recordsFile = path.join(dir, "records.json");
+    const recordsFile = path.join(root, "records.json");
     // A single object (not an array), with a BOM as Windows PowerShell 5.1 might write.
     fs.writeFileSync(recordsFile, "﻿" + JSON.stringify(added[0]));
     expect(main([recordsFile, "--after-version-prefix", "6.4.", "--data-dir", dir])).toBe(0);
@@ -94,7 +100,7 @@ describe("main", () => {
 
   it("leaves the file untouched on a duplicate or an invalid record", () => {
     const before = fs.readFileSync(driversFile(), "utf8");
-    const recordsFile = path.join(dir, "records.json");
+    const recordsFile = path.join(root, "records.json");
     fs.writeFileSync(recordsFile, JSON.stringify([existing[0]]));
     expect(main([recordsFile, "--data-dir", dir])).toBe(1);
     fs.writeFileSync(recordsFile, JSON.stringify([{ ...driver("7.0", "MACOS"), _id: "nope" }]));

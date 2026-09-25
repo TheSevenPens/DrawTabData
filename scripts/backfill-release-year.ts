@@ -1,3 +1,4 @@
+import { commitDatasetUpdate, type RecordUpdate } from "../lib/update-dataset.js";
 // Backfill Model.ReleaseYear from Model.ReleaseDate when ReleaseYear is empty.
 // ReleaseDate may be YYYY, YYYY-MM, or YYYY-MM-DD; the leading four digits become ReleaseYear.
 //
@@ -10,7 +11,7 @@
 
 import * as path from "path";
 import { fileURLToPath } from "url";
-import { readSources, regenerate, sourceCollection, writeSourceRecord } from "../lib/sources.js";
+import { readSources, sourceCollection } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const defaultRepoRoot = path.join(__dirname, "..");
@@ -41,6 +42,7 @@ export function backfillReleaseYear(repoRoot: string, { dryRun = false } = {}): 
   }
 
   let updated = 0;
+  const changes: RecordUpdate[] = [];
   for (const { file, record } of records) {
     const tablet = record as unknown as TabletRecord;
     const releaseYear = (tablet.Model.ReleaseYear ?? "").trim();
@@ -58,11 +60,11 @@ export function backfillReleaseYear(repoRoot: string, { dryRun = false } = {}): 
     tablet.Model.ReleaseYear = year;
     console.log(`  ${file}: ReleaseYear -> ${year} (from ${releaseDate})`);
     updated++;
-    if (!dryRun) writeSourceRecord(repoRoot, tablets, record);
+    changes.push({ collection: "tablets", record });
   }
 
-  if (!dryRun && updated > 0) {
-    for (const f of regenerate(repoRoot)) console.log(`  regenerated ${f}`);
+  if (updated > 0) {
+    for (const f of commitDatasetUpdate(repoRoot, changes, { dryRun }).changed) console.log(`  regenerated ${f}`);
   }
   return updated;
 }

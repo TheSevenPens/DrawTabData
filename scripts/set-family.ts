@@ -1,3 +1,4 @@
+import { commitDatasetUpdate, type RecordUpdate } from "../lib/update-dataset.js";
 // Assign Model.Family to one or more tablets.
 // Usage: tsx scripts/set-family.ts <Family> <Tablet1> [Tablet2] [...] [--repo-root <dir>]
 //
@@ -17,7 +18,7 @@ import * as path from "path";
 import { fileURLToPath } from "url";
 import { loadTabletFamiliesFromDisk } from "../lib/drawtab-loader-node.js";
 import { findFamily } from "../lib/family-lookup.js";
-import { readSources, regenerate, sourceCollection, writeSourceRecord } from "../lib/sources.js";
+import { readSources, sourceCollection } from "../lib/sources.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -55,6 +56,7 @@ console.log(`Assigning family "${family.FamilyName}" (${familyId}) to ${tabletAr
 
 const pending = new Set(tabletArgs);
 let updated = 0;
+const changes: RecordUpdate[] = [];
 
 interface TabletRecord {
   Meta?: { EntityId?: string };
@@ -67,7 +69,7 @@ for (const { file, record } of records) {
   if (!key) continue;
   const old = tablet.Model.Family || "(none)";
   tablet.Model.Family = familyId;
-  writeSourceRecord(repoRoot, tablets, record);
+  changes.push({ collection: "tablets", record });
   console.log(`  ${file}: ${tablet.Model.Id} (${tablet.Model.Name}) — ${old} -> ${familyId}`);
   updated++;
   pending.delete(key);
@@ -78,4 +80,4 @@ if (pending.size > 0) {
 }
 
 console.log(`\nUpdated ${updated} tablet(s).`);
-if (updated > 0) for (const f of regenerate(repoRoot)) console.log(`Regenerated ${f}.`);
+if (updated > 0) for (const f of commitDatasetUpdate(repoRoot, changes).changed) console.log(`Regenerated ${f}.`);

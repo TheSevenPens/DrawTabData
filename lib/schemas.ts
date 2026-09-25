@@ -533,10 +533,21 @@ export const DefectKindsFileSchema = v.strictObject({
 
 export const VersionInfoSchema = v.strictObject({
   schemaVersion: v.number(),
-  version: TrimmedString,
-  commit: TrimmedString,
-  shortCommit: TrimmedString,
-  commitDate: TrimmedString,
+  version: v.optional(TrimmedString),
+  commit: v.optional(TrimmedString),
+  shortCommit: v.optional(TrimmedString),
+  commitDate: v.optional(TrimmedString),
+  provenance: v.optional(v.strictObject({
+    commit: TrimmedString,
+    dirty: v.boolean(),
+    dirtyPaths: v.optional(v.array(TrimmedString)),
+  })),
+  generatorVersion: v.optional(v.number()),
+  verification: v.optional(v.strictObject({
+    version: v.number(),
+    covers: v.array(TrimmedString),
+    bundleRootKeys: v.record(v.string(), TrimmedString),
+  })),
   counts: v.strictObject({
     tablets: v.number(),
     pens: v.number(),

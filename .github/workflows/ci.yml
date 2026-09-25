@@ -55,6 +55,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: TheSevenPens/queriton
+          ref: e80b3d89a62ad322c492f54f78e06b89096e0c46
           path: .queriton
 
       - name: Link queriton
@@ -62,6 +63,9 @@ jobs:
 
       - name: Type-check
         run: npm run typecheck
+
+      - name: Type-check scripts
+        run: npm run typecheck:scripts
 
       - name: Tests
         run: npm test

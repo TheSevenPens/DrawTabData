@@ -5,6 +5,7 @@
 //   npx tsx scripts/verify-snapshot.ts <version.json path or URL>
 //       [--bundles <dir or URL>]   where the bundles are (default: next to version.json)
 //       [--repo <dir>]             DrawTabData checkout to verify against (default: this one)
+//       [--commit <rev>]           commit for tracked deterministic metadata
 //       [--ref <rev>]              freshness reference (default: <remote>/master, else HEAD)
 //       [--fetch]                  git fetch the remote first, so <remote>/master is
 //                                  today's upstream and a snapshot commit the clone
@@ -17,7 +18,7 @@
 //
 // Exit code: 0 when the bundles are intact AND reproduce from their commit;
 // 1 when anything mismatches; 2 when nothing mismatched but a check could not
-// run. Freshness is reported, never an exit failure — an older snapshot is
+// run (including a failed requested fetch). An older snapshot is
 // "historical", not wrong. The checkout is never touched, and nothing is
 // fetched unless --fetch asks (it updates remote-tracking refs only).
 
@@ -44,10 +45,11 @@ const doFetch = argv.includes("--fetch");
 const bundlesArg = flag("--bundles");
 const repoArg = flag("--repo");
 const refArg = flag("--ref");
+const commitArg = flag("--commit");
 const remote = flag("--remote") ?? "origin";
 const target = argv.find((a) => !a.startsWith("--"));
 if (!target) {
-  console.error("Usage: npx tsx scripts/verify-snapshot.ts <version.json path or URL> [--bundles …] [--repo …] [--ref …] [--fetch] [--remote …] [--json]");
+  console.error("Usage: npx tsx scripts/verify-snapshot.ts <version.json path or URL> [--bundles …] [--repo …] [--ref …] [--commit …] [--fetch] [--remote …] [--json]");
   process.exit(2);
 }
 
@@ -74,9 +76,16 @@ if (!versionBytes) {
   process.exit(2);
 }
 const snapshot = JSON.parse(versionBytes.toString("utf8")) as Snapshot;
-if (typeof snapshot.commit !== "string" || !snapshot.commit) {
-  console.error(`${target} has no "commit" — not a DrawTabData version.json`);
+if (!Array.isArray(snapshot.bundles) && !snapshot.commit) {
+  console.error(`${target} is not a DrawTabData verification manifest`);
   process.exit(2);
+}
+if (commitArg) {
+  if (snapshot.commit && snapshot.commit !== commitArg) {
+    console.error("--commit is for deterministic metadata without publication provenance");
+    process.exit(2);
+  }
+  snapshot.commit = commitArg;
 }
 
 const bundlesBase =
@@ -90,10 +99,13 @@ const ref = refArg ?? (resolveCommit(repo, `${remote}/master`) ? `${remote}/mast
 
 const integrity = await checkIntegrity(snapshot, (p) => readBytes(joinLoc(bundlesBase, p)));
 const reproduction = checkReproduction(snapshot, repo);
-const freshness = checkFreshness(snapshot, repo, ref);
+const cached = checkFreshness(snapshot, repo, ref);
+const freshness = fetched && !fetched.ok
+  ? { status: "unable" as const, ref, reason: `fetch failed: ${fetched.reason}`, cached }
+  : cached;
 
 const failed = integrity.status === "mismatch" || reproduction.status === "mismatch";
-const unable = integrity.status === "unable" || reproduction.status === "unable";
+const unable = integrity.status === "unable" || reproduction.status === "unable" || (doFetch && freshness.status === "unable");
 const exitCode = failed ? 1 : unable ? 2 : 0;
 
 if (asJson) {
@@ -131,6 +143,7 @@ if (asJson) {
 
   console.log(`freshness  ${freshness.status.toUpperCase()}  (vs ${freshness.ref} = ${short(freshness.refCommit)})`);
   if (freshness.reason) console.log(`           ${freshness.reason}`);
+  if (freshness.cached) console.log(`cached     ${freshness.cached.status.toUpperCase()} (vs cached ${freshness.cached.ref} = ${short(freshness.cached.refCommit)})`);
   if (freshness.status === "historical") {
     console.log("           valid for its commit; source records have changed since");
   } else if (freshness.status === "not-on-ref") {

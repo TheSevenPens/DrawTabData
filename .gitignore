@@ -22,3 +22,6 @@ dist/
 # Project
 .claude/settings.local.json
 .queriton/
+
+# Generated publication metadata for npm pack
+/package-snapshot.json

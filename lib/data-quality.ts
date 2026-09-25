@@ -1,6 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
 import * as v from "valibot";
+import { listManagedDataFiles, readDataJson } from "./data-json.js";
+import { duplicateUuids, type UuidRecord } from "./record-uuid.js";
 import {
   TabletSchema,
   PenSchema,
@@ -10,6 +12,9 @@ import {
   BrandSchema,
   PenCompatGroupedSchema,
   PressureResponseSchema,
+  PressureRangeSchema,
+  InventoryPenSchema,
+  InventoryTabletSchema,
 } from "./schemas.js";
 import { BRANDS } from "./loader-shared.js";
 import { deriveSessionEntityId, sessionEntityId } from "./pressure/session-id.js";
@@ -842,8 +847,32 @@ function runEncodingChecks(dataDir: string): Issue[] {
 
 // --- Runner ---
 
+export function runUuidChecks(dataDir: string): Issue[] {
+  const records: UuidRecord[] = [];
+  for (const file of listManagedDataFiles(dataDir)) {
+    const envelope = readDataJson<Record<string, unknown>>(file);
+    for (const value of Object.values(envelope)) {
+      if (!Array.isArray(value)) continue;
+      for (const record of value) if (record && typeof record === "object" && !Array.isArray(record)) {
+        records.push({ file: path.relative(dataDir, file).replace(/\\/g, "/"),
+          entityId: getString(record, "InventoryId") ?? getEntityId(record), record });
+      }
+    }
+  }
+  return duplicateUuids(records).map(({ current, prior, uuid }) => ({
+    file: current.file,
+    entityId: current.entityId ?? "UNKNOWN",
+    field: current.record.Meta ? "Meta._id" : "_id",
+    issue: `duplicate UUID (also in ${prior.file}, ${prior.entityId})`, value: uuid,
+  }));
+}
+
 export function runDataQuality(dataDir: string): Issue[] {
   return [
+    ...runUuidChecks(dataDir),
+    ...runEntityChecks(dataDir, { dirName: "pressure-range", fileSuffix: "-pressure-range.json", rootKey: "PressureRange", schema: PressureRangeSchema }),
+    ...runEntityChecks(dataDir, { dirName: "inventory", fileSuffix: "-pens.json", rootKey: "InventoryPens", schema: InventoryPenSchema }),
+    ...runEntityChecks(dataDir, { dirName: "inventory", fileSuffix: "-tablets.json", rootKey: "InventoryTablets", schema: InventoryTabletSchema }),
     ...runEntityChecks(dataDir, {
       dirName: "tablets",
       fileSuffix: "-tablets.json",

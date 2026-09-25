@@ -18,7 +18,9 @@ import * as path from "path";
 import { fileURLToPath } from "url";
 import * as v from "valibot";
 import { DriverSchema } from "../lib/schemas.js";
-import { readDataJson, writeDataJson } from "../lib/data-json.js";
+import { readDataJson } from "../lib/data-json.js";
+
+import { commitDatasetUpdate } from "../lib/update-dataset.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -103,7 +105,9 @@ export function main(argv: string[] = process.argv.slice(2)): number {
     console.error(e instanceof Error ? e.message : String(e));
     return 1;
   }
-  writeDataJson(filePath, data);
+  commitDatasetUpdate(path.dirname(dataDir), [], {
+    dataFiles: new Map([[`data/drivers/${[...brands][0]}-drivers.json`, data]]),
+  });
   for (const r of records) console.log(`  Added ${r.DriverUID} to ${path.basename(filePath)}`);
   return 0;
 }
