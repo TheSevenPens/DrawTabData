@@ -14,6 +14,7 @@ import {
 import { BRANDS } from "./loader-shared.js";
 import { deriveSessionEntityId, sessionEntityId } from "./pressure/session-id.js";
 import { findEncodingDamage, describeEncodingDamage } from "./encoding-damage.js";
+import { releaseOrigin } from "./entities/age-format.js";
 
 // --- Types ---
 
@@ -511,6 +512,50 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
         issue: "references unknown PenFamily",
         value: family,
       });
+    }
+  }
+
+  // Tablet.Model.IncludedPen -> Pen.EntityId, and a tablet can't ship a pen
+  // introduced after it (#312). The Medium V2 had ReleaseYear 2020 with two
+  // 2023 pens and nothing noticed: its own year fields agreed with each
+  // other, so only a check across records could see it. Direction matters —
+  // a tablet newer than its pens is normal. Pens without a year are skipped.
+  const penYearById = new Map<string, number | undefined>();
+  for (const { record } of pens) {
+    const id = getString(record, "EntityId");
+    const year = parseInt(getString(record, "ReleaseYear") ?? "", 10);
+    if (id) penYearById.set(id, isNaN(year) ? undefined : year);
+  }
+  for (const { file, record } of tablets) {
+    const included = (record.Model as { IncludedPen?: unknown } | undefined)?.IncludedPen;
+    if (!Array.isArray(included)) continue;
+    const origin = releaseOrigin(
+      getNestedString(record, "Model", "ReleaseDate"),
+      getNestedString(record, "Model", "ReleaseYear"),
+    );
+    const tabletYear = origin ? parseInt(origin.slice(0, 4), 10) : undefined;
+    for (const penId of included) {
+      if (typeof penId !== "string") continue;
+      if (!penYearById.has(penId)) {
+        issues.push({
+          file,
+          entityId: getEntityId(record),
+          field: "Model.IncludedPen",
+          issue: "references unknown Pen",
+          value: penId,
+        });
+        continue;
+      }
+      const penYear = penYearById.get(penId);
+      if (tabletYear !== undefined && penYear !== undefined && tabletYear < penYear) {
+        issues.push({
+          file,
+          entityId: getEntityId(record),
+          field: "Model.IncludedPen",
+          issue: "ships a pen introduced later than the tablet",
+          value: `tablet ${tabletYear} vs ${penId} ${penYear}`,
+        });
+      }
     }
   }
 
