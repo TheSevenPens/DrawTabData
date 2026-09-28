@@ -5,11 +5,12 @@ This guide explains how to add newly released Wacom drivers to `data/drivers/WAC
 ## Quick Version
 
 ```powershell
-# 1. Check if there's a new driver
+# 1. List missing drivers; it prints the exact commands to add them
 .\scripts\Check-WacomDriverUpdates.ps1
 
-# 2. If an update is available, add it (get the release date from the release notes page)
-.\scripts\Add-WacomDriver.ps1 -Version "6.4.13-1" -ReleaseDate "2026-06-15"
+# 2. Run the commands it printed, e.g.
+.\scripts\Add-WacomDriver.ps1 -Version "6.4.14-1" -ReleaseDate "2026-08-26"
+.\scripts\Add-WacomDriver.ps1 -Version "6.4.14-2" -ReleaseDate "2026-09-22" -OS macOS
 
 # 3. Commit and push
 git add data/drivers/WACOM-drivers.json
@@ -27,13 +28,21 @@ Then bump the submodule in any consumer projects (Wacom-Driver-List, DrawTabData
 .\scripts\Check-WacomDriverUpdates.ps1
 ```
 
-This fetches Wacom's update manifest (`https://link.wacom.com/wdc/update.xml`) and compares the latest version against what's in `WACOM-drivers.json`. It reports either "UP TO DATE" or tells you the missing version.
+This fetches Wacom's update manifest (`https://link.wacom.com/wdc/update.xml`) and checks **every** driver it lists against `WACOM-drivers.json`, Windows and macOS separately. It reports either "UP TO DATE" or each missing driver with its release date, followed by the `Add-WacomDriver.ps1` commands that add them.
+
+What it handles that is easy to miss by hand:
+
+- **Windows and macOS can have different build numbers.** 6.4.14 shipped as 6.4.14-1 on Windows but 6.4.14-2 on macOS, so each OS is checked on its own.
+- **The manifest lists only the current build.** When a build replaces an earlier one (macOS 6.4.14-2 replaced 6.4.14-1), the earlier one drops out of the manifest. For each missing version the script probes the CDN for lower builds of that release on both OSes and reports them as "superseded".
+- **Repackaged builds** (`WacomTablet_6.3.24-5a_WDC.exe`) are stored under their file-name version and count as present.
+
+Options: `-NoProbe` skips the CDN probe and release-date lookups; `-ManifestPath` reads a saved manifest; `-DataDir` checks a copy of the data.
 
 You can also check manually at: https://www.wacom.com/en-us/support/product-support/drivers
 
 ### Step 2: Get the Release Date
 
-The release date is not in the XML manifest. Find it from the release notes:
+`Check-WacomDriverUpdates.ps1` fills this in for you. The date is not in the XML manifest; it comes from the "Released on ..." line of the release notes page. To look one up by hand:
 
 - **Windows**: `https://cdn.wacom.com/u/productsupport/drivers/win/professional/releasenotes/Windows_{VERSION}.html`
 - **macOS**: `https://cdn.wacom.com/u/productsupport/drivers/mac/professional/releasenotes/Mac_{VERSION}.html`
