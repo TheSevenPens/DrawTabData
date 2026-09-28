@@ -158,7 +158,7 @@
         "EntityId": "wacom.tablet.ctc4110wl",
         "_id": "25487c6c-8759-473d-b92a-68be45189112",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:37:55.689Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -219,7 +219,18 @@
         "Weight": "200"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.1",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -227,7 +238,7 @@
         "EntityId": "wacom.tablet.ctc6110wl",
         "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:37:59.888Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -288,7 +299,18 @@
         "Weight": "350"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.1",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -1355,7 +1377,7 @@
         "EntityId": "wacom.tablet.ctl4100",
         "_id": "c0b798db-e061-45fe-8ba5-b82bc6497936",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:04.120Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1417,7 +1439,17 @@
         "Weight": "230"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "4"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -1425,7 +1457,7 @@
         "EntityId": "wacom.tablet.ctl4100wl",
         "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:08.331Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1486,7 +1518,17 @@
         "Weight": "230"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "4"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -1535,7 +1577,7 @@
         "EntityId": "wacom.tablet.ctl470",
         "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:41:19.770Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1553,7 +1595,9 @@
         "Status": "DISCONTINUED",
         "Family": "wacom.tabletfamily.wacom_bamboo_2011",
         "AlternateNames": [
-          "Bamboo Pen S"
+          "Bamboo Pen S",
+          "Bamboo",
+          "Bamboo Splash"
         ]
       },
       "Digitizer": {
@@ -1622,7 +1666,7 @@
         "EntityId": "wacom.tablet.ctl472",
         "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:12.557Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1673,7 +1717,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "60"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1684,7 +1728,18 @@
         "Weight": "260"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -1815,7 +1870,7 @@
         "EntityId": "wacom.tablet.ctl6100",
         "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:16.783Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1877,7 +1932,17 @@
         "Weight": "410"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "4"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -1885,7 +1950,7 @@
         "EntityId": "wacom.tablet.ctl6100wl",
         "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:20.946Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1947,7 +2012,17 @@
         "Weight": "410"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "4"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -2035,7 +2110,7 @@
         "EntityId": "wacom.tablet.ctl672",
         "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:25.344Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2098,7 +2173,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "60"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -2109,7 +2184,18 @@
         "Weight": "447"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -2265,7 +2351,7 @@
         "EntityId": "wacom.tablet.dtc121",
         "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:29.521Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2330,7 +2416,8 @@
           "SRGB": 99
         },
         "AntiGlare": "AGFILM",
-        "ResponseTime": "18"
+        "ResponseTime": "18",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2338,10 +2425,24 @@
           "Height": 190,
           "Depth": 11
         },
-        "Weight": "700"
+        "Weight": "700",
+        "Legs": "NO",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -2349,7 +2450,7 @@
         "EntityId": "wacom.tablet.dtc133",
         "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:33.784Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2508,10 +2609,20 @@
           "Height": 225,
           "Depth": 14.6
         },
-        "Weight": "1000"
+        "Weight": "1000",
+        "Legs": "YES",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -2519,7 +2630,7 @@
         "EntityId": "wacom.tablet.dtc141",
         "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:37.982Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2593,7 +2704,8 @@
           "Width": 309,
           "Height": 174
         },
-        "Tilt": "60"
+        "Tilt": "60",
+        "Density": "100"
       },
       "Display": {
         "PixelDimensions": {
@@ -2610,7 +2722,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "16",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "Lamination": "YES"
       },
       "Physical": {
         "Dimensions": {
@@ -2618,10 +2731,23 @@
           "Height": 201,
           "Depth": 10
         },
-        "Weight": "750"
+        "Weight": "750",
+        "IncludedStand": "NO",
+        "Legs": "NO",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -2838,7 +2964,7 @@
         "EntityId": "wacom.tablet.dth134",
         "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:42.277Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2902,7 +3028,8 @@
         "ColorGamuts": {
           "SRGB": 99
         },
-        "AntiGlare": "AGFILM"
+        "AntiGlare": "AGFILM",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2910,10 +3037,24 @@
           "Height": 222,
           "Depth": 12
         },
-        "Weight": "900"
+        "Weight": "900",
+        "Legs": "NO",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -2921,7 +3062,7 @@
         "EntityId": "wacom.tablet.dth135",
         "_id": "8d4308af-a529-453e-a394-1a739a337785",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:46.505Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3071,10 +3212,25 @@
           "Height": 205.2,
           "Depth": 6.6
         },
-        "Weight": "420"
+        "Weight": "420",
+        "IncludedStand": "NO",
+        "Legs": "NO",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -3164,7 +3320,7 @@
         "EntityId": "wacom.tablet.dth167",
         "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:50.724Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3300,10 +3456,27 @@
           "Height": 266,
           "Depth": 22
         },
-        "Weight": "1900"
+        "Weight": "1900",
+        "IncludedStand": "NO",
+        "Legs": "NO",
+        "VesaMount": "YES"
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "DisplayPort Alt Mode"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
       }
     },
     {
@@ -3462,7 +3635,7 @@
         "EntityId": "wacom.tablet.dth227",
         "_id": "f74b002f-cac5-4490-9ace-943893d53427",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:55.050Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3563,10 +3736,17 @@
           "Height": 312,
           "Depth": 30
         },
-        "Weight": "5000"
+        "Weight": "5000",
+        "IncludedStand": "NO",
+        "Legs": "NO",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "100x100"
+        ]
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "8"
       }
     },
     {
@@ -3624,7 +3804,7 @@
         "EntityId": "wacom.tablet.dth2420",
         "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:38:59.228Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3704,6 +3884,45 @@
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "DisplayPort Alt Mode"
+          },
+          {
+            "Type": "DISPLAYPORT"
+          },
+          {
+            "Type": "HDMI",
+            "Detail": "HDMI 2.0"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
       }
     },
     {
@@ -3711,7 +3930,7 @@
         "EntityId": "wacom.tablet.dth246",
         "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:03.483Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3789,7 +4008,7 @@
         "IncludedPen": [
           "wacom.pen.acp500"
         ],
-        "Family": "wacom.tabletfamily.wacom_cintiqpro"
+        "Family": "wacom.tabletfamily.wacom_cintiq"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -3826,10 +4045,34 @@
           "Height": 568,
           "Depth": 21
         },
-        "Weight": "5000"
+        "Weight": "5000",
+        "IncludedStand": "YES",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "75x75"
+        ]
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Power"
+          },
+          {
+            "Type": "MINI_HDMI"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Video and data"
+          }
+        ]
       }
     },
     {
@@ -3910,7 +4153,7 @@
         "EntityId": "wacom.tablet.dth271",
         "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:07.712Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4077,10 +4320,39 @@
           "Height": 379,
           "Depth": 31
         },
-        "Weight": "7200"
+        "Weight": "7200",
+        "IncludedStand": "NO",
+        "Legs": "NO",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "100x100"
+        ]
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "8"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_DISPLAYPORT"
+          },
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
       }
     },
     {
@@ -4088,7 +4360,7 @@
         "EntityId": "wacom.tablet.dth3220",
         "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:12.005Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4177,7 +4449,9 @@
           "Height": 506,
           "Depth": 53.2
         },
-        "Weight": "13000"
+        "Weight": "13000",
+        "IncludedStand": "NO",
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "YES"
@@ -4462,7 +4736,7 @@
         "EntityId": "wacom.tablet.dtha140",
         "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:16.289Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4594,7 +4868,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "RefreshRate": "120",
         "ViewingAngleHorizontal": "170",
-        "ViewingAngleVertical": "170"
+        "ViewingAngleVertical": "170",
+        "ResponseTime": "1"
       },
       "Physical": {
         "Dimensions": {
@@ -4602,10 +4877,14 @@
           "Height": 210,
           "Depth": 5.9
         },
-        "Weight": "699"
+        "Weight": "699",
+        "IncludedStand": "NO",
+        "Legs": "NO",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "0"
       },
       "Connectivity": {
         "Ports": [
@@ -4616,7 +4895,8 @@
         ],
         "Bluetooth": "YES",
         "BluetoothVersion": "5.4",
-        "Wifi": "802.11a/b/g/n/ac/ax"
+        "Wifi": "802.11a/b/g/n/ac/ax",
+        "AttachedCable": []
       },
       "Standalone": {
         "OS": "Android 15",
@@ -5352,7 +5632,7 @@
         "EntityId": "wacom.tablet.dtk168",
         "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:20.480Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5430,10 +5710,34 @@
           "Height": 384,
           "Depth": 15
         },
-        "Weight": "2000"
+        "Weight": "2000",
+        "IncludedStand": "NO",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "75x75"
+        ]
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Power"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Power, video and data"
+          },
+          {
+            "Type": "MINI_HDMI"
+          }
+        ]
       }
     },
     {
@@ -5441,7 +5745,7 @@
         "EntityId": "wacom.tablet.dtk2100",
         "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:24.794Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5503,6 +5807,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "AttachedCable": [
+          "USB_A",
+          "DVI",
+          "DC_POWER"
+        ]
       }
     },
     {
@@ -5875,7 +6186,7 @@
         "EntityId": "wacom.tablet.dtk2420",
         "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:28.989Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5915,7 +6226,7 @@
           "wacom.pen.kp504e"
         ],
         "Status": "DISCONTINUED",
-        "Family": "wacom.tabletfamily.wacom_cintiq"
+        "Family": "wacom.tabletfamily.wacom_cintiqpro"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -5955,6 +6266,45 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "DisplayPort Alt Mode"
+          },
+          {
+            "Type": "DISPLAYPORT"
+          },
+          {
+            "Type": "HDMI",
+            "Detail": "HDMI 2.0"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
       }
     },
     {
@@ -8942,7 +9292,7 @@
         "EntityId": "wacom.tablet.ptk1240",
         "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:33.130Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9007,6 +9357,11 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "AttachedCable": [
+          "USB_A"
+        ]
       }
     },
     {
@@ -9133,7 +9488,7 @@
         "EntityId": "wacom.tablet.ptk470",
         "_id": "f710bda9-5117-4828-bf93-c6303182a107",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:37.325Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9230,7 +9585,18 @@
         "Weight": "240"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "4",
+        "Dials": "1"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -9416,7 +9782,7 @@
         "EntityId": "wacom.tablet.ptk670",
         "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:41.492Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9525,7 +9891,18 @@
         "Weight": "411"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8",
+        "Dials": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -9593,7 +9970,7 @@
         "EntityId": "wacom.tablet.ptk870",
         "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:45.719Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9690,7 +10067,18 @@
         "Weight": "660"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8",
+        "Dials": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -9734,7 +10122,7 @@
         "EntityId": "wacom.tablet.ptz1230",
         "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:39:49.865Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9786,6 +10174,12 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "AttachedCable": [
+          "USB_A"
+        ],
+        "Bluetooth": "NO"
       }
     },
     {
@@ -10660,7 +11054,7 @@
         "EntityId": "wacom.tablet.ud0608a",
         "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:39:54.084Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10673,7 +11067,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A5"
+        ]
       },
       "Digitizer": {
         "Dimensions": {
@@ -10699,7 +11096,7 @@
         "EntityId": "wacom.tablet.ud0608r",
         "_id": "a70e90a9-1511-4b03-a7bc-0335e129332e",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:39:58.369Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10712,7 +11109,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A5"
+        ]
       },
       "Digitizer": {
         "Dimensions": {
@@ -10738,7 +11138,7 @@
         "EntityId": "wacom.tablet.ud1212a",
         "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:40:02.584Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10751,7 +11151,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A4"
+        ]
       },
       "Digitizer": {
         "Dimensions": {
@@ -10777,7 +11180,7 @@
         "EntityId": "wacom.tablet.ud1212r",
         "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:40:06.979Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10790,7 +11193,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A4"
+        ]
       },
       "Digitizer": {
         "Dimensions": {
@@ -10816,7 +11222,7 @@
         "EntityId": "wacom.tablet.ud1218a",
         "_id": "d0e57e62-6372-46bf-890b-6b5d844df7a3",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:40:11.369Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10829,7 +11235,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A3"
+        ]
       },
       "Digitizer": {
         "Dimensions": {
@@ -10855,7 +11264,7 @@
         "EntityId": "wacom.tablet.ud1218r",
         "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:40:15.757Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10868,7 +11277,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A3"
+        ]
       },
       "Digitizer": {
         "Dimensions": {
@@ -10894,7 +11306,7 @@
         "EntityId": "wacom.tablet.ud1825r",
         "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+        "_ModifiedDate": "2026-09-28T01:40:20.171Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10907,7 +11319,10 @@
         "IncludedPen": [
           "wacom.pen.up801e"
         ],
-        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+        "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+        "AlternateNames": [
+          "UltraPad A2"
+        ]
       },
       "Digitizer": {
         "Dimensions": {

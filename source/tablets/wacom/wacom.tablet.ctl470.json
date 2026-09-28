@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl470",
     "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:41:19.770Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -21,7 +21,9 @@
     "Status": "DISCONTINUED",
     "Family": "wacom.tabletfamily.wacom_bamboo_2011",
     "AlternateNames": [
-      "Bamboo Pen S"
+      "Bamboo Pen S",
+      "Bamboo",
+      "Bamboo Splash"
     ]
   },
   "Digitizer": {

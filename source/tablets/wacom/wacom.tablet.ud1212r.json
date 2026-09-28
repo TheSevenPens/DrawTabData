@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud1212r",
     "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+    "_ModifiedDate": "2026-09-28T01:40:06.979Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -16,7 +16,10 @@
     "IncludedPen": [
       "wacom.pen.up801e"
     ],
-    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+    "AlternateNames": [
+      "UltraPad A4"
+    ]
   },
   "Digitizer": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc133",
     "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:33.784Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -162,9 +162,19 @@
       "Height": 225,
       "Depth": 14.6
     },
-    "Weight": "1000"
+    "Weight": "1000",
+    "Legs": "YES",
+    "VesaMount": "NO"
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

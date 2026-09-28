@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc141",
     "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:37.982Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -77,7 +77,8 @@
       "Width": 309,
       "Height": 174
     },
-    "Tilt": "60"
+    "Tilt": "60",
+    "Density": "100"
   },
   "Display": {
     "PixelDimensions": {
@@ -94,7 +95,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "16",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "Lamination": "YES"
   },
   "Physical": {
     "Dimensions": {
@@ -102,9 +104,22 @@
       "Height": 201,
       "Depth": 10
     },
-    "Weight": "750"
+    "Weight": "750",
+    "IncludedStand": "NO",
+    "Legs": "NO",
+    "VesaMount": "NO"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0",
+    "Dials": "0"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

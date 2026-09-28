@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt2401",
     "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+    "_ModifiedDate": "2026-09-28T01:37:21.381Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -125,7 +125,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "10",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {
@@ -134,9 +135,42 @@
       "Depth": 22.7
     },
     "Weight": "6300",
-    "WeightInclStand": "YES"
+    "WeightInclStand": "YES",
+    "IncludedStand": "NO",
+    "Legs": "YES",
+    "VesaMount": "YES"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Ports": [
+      {
+        "Type": "DC_POWER"
+      },
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "DISPLAYPORT"
+      },
+      {
+        "Type": "HDMI"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs2202",
     "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+    "_ModifiedDate": "2026-09-28T01:37:08.566Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -102,9 +102,16 @@
       "Depth": 19
     },
     "Weight": "2900",
-    "WeightInclStand": "YES"
+    "WeightInclStand": "YES",
+    "IncludedStand": "YES",
+    "Legs": "NO",
+    "VesaMount": "YES"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
   }
 }

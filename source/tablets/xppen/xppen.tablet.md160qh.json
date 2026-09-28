@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md160qh",
     "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+    "_ModifiedDate": "2026-09-28T01:40:54.294Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -131,16 +131,31 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "20",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {
       "Width": 405.11,
       "Height": 291.37,
       "Depth": 20.23
-    }
+    },
+    "Legs": "YES",
+    "VesaMount": "NO"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

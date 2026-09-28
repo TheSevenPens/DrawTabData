@@ -213,7 +213,7 @@
         "EntityId": "digidraw.tablet.t610",
         "_id": "97db7e47-b7d9-481f-aceb-4a89733ac001",
         "_CreateDate": "2026-04-20T00:00:00Z",
-        "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+        "_ModifiedDate": "2026-09-28T01:36:46.789Z"
       },
       "Model": {
         "Brand": "DIGIDRAW",
@@ -272,7 +272,20 @@
         }
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {

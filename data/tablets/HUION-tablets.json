@@ -5,7 +5,7 @@
         "EntityId": "huion.tablet.g930l",
         "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-09-28T01:36:51.284Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -133,6 +133,10 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0"
       }
     },
     {
@@ -361,7 +365,7 @@
         "EntityId": "huion.tablet.gs1333",
         "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-09-28T01:36:55.823Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -450,7 +454,9 @@
         },
         "Density": "200",
         "ReportRate": "260",
-        "Tilt": "60"
+        "Tilt": "60",
+        "AccuracyCenter": "0.3",
+        "AccuracyCorner": "2"
       },
       "Display": {
         "PixelDimensions": {
@@ -465,7 +471,12 @@
         },
         "AntiGlare": "ETCHEDGLASS",
         "ViewingAngleHorizontal": "165",
-        "ViewingAngleVertical": "165"
+        "ViewingAngleVertical": "165",
+        "Brightness": "220",
+        "Contrast": "1000",
+        "Lamination": "YES",
+        "RefreshRate": "60",
+        "ResponseTime": "25"
       },
       "Physical": {
         "Dimensions": {
@@ -473,10 +484,25 @@
           "Height": 202.77,
           "Depth": 11.7
         },
-        "Weight": "865.00"
+        "Weight": "865.00",
+        "Legs": "NO",
+        "VesaMount": "NO"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "5",
+        "Dials": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -484,7 +510,7 @@
         "EntityId": "huion.tablet.gs1562",
         "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-09-28T01:37:00.040Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -567,7 +593,19 @@
         "Weight": "1260"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "10"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -575,7 +613,7 @@
         "EntityId": "huion.tablet.gs1563",
         "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:04.297Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -703,12 +741,16 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "SRGB": 120
+          "SRGB": 120,
+          "ADOBERGB": 90,
+          "REC709": 99
         },
         "AntiGlare": "ETCHEDGLASS",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "Lamination": "YES",
+        "ResponseTime": "14"
       },
       "Physical": {
         "Dimensions": {
@@ -717,10 +759,26 @@
           "Depth": 12.62
         },
         "Weight": "1245",
-        "WeightInclStand": "NO"
+        "WeightInclStand": "NO",
+        "IncludedStand": "YES",
+        "Legs": "NO"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "6",
+        "Dials": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Full-featured"
+          }
+        ]
       }
     },
     {
@@ -800,7 +858,7 @@
         "EntityId": "huion.tablet.gs2202",
         "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-09-28T01:37:08.566Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -899,10 +957,17 @@
           "Depth": 19
         },
         "Weight": "2900",
-        "WeightInclStand": "YES"
+        "WeightInclStand": "YES",
+        "IncludedStand": "YES",
+        "Legs": "NO",
+        "VesaMount": "YES"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
       }
     },
     {
@@ -910,7 +975,7 @@
         "EntityId": "huion.tablet.gs2203",
         "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:12.834Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1036,10 +1101,31 @@
           "Width": 527.7,
           "Height": 324.7,
           "Depth": 36.7
-        }
+        },
+        "IncludedStand": "YES",
+        "VesaMount": "YES"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "DC_POWER"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Full-featured"
+          },
+          {
+            "Type": "HDMI"
+          }
+        ]
       }
     },
     {
@@ -2251,7 +2337,7 @@
         "EntityId": "huion.tablet.gt1902",
         "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:17.076Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2489,7 +2575,13 @@
           "Depth": 21.3
         },
         "Weight": "2000",
-        "WeightInclStand": "NO"
+        "WeightInclStand": "NO",
+        "IncludedStand": "NO",
+        "Legs": "YES",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "75x75"
+        ]
       },
       "OtherInputs": {
         "Touch": "YES"
@@ -3106,7 +3198,7 @@
         "EntityId": "huion.tablet.gt2401",
         "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-09-28T01:37:21.381Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3228,7 +3320,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "10",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -3237,10 +3330,43 @@
           "Depth": 22.7
         },
         "Weight": "6300",
-        "WeightInclStand": "YES"
+        "WeightInclStand": "YES",
+        "IncludedStand": "NO",
+        "Legs": "YES",
+        "VesaMount": "YES"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "DC_POWER"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "DISPLAYPORT"
+          },
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "USB_A"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          }
+        ]
       }
     },
     {
@@ -3248,7 +3374,7 @@
         "EntityId": "huion.tablet.gt2402",
         "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
         "_CreateDate": "2025-12-13T16:20:23.250Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:25.682Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3385,7 +3511,26 @@
         "WeightInclStand": "YES"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Ports": [
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "DISPLAYPORT"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Full-featured"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
       }
     },
     {
@@ -3615,7 +3760,7 @@
         "EntityId": "huion.tablet.h1061p",
         "_id": "44cb8880-a0d6-40d6-9d85-79ec87203849",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:30.022Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3704,7 +3849,16 @@
         "Weight": "600.00"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8"
+      },
+      "Connectivity": {
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4543,7 +4697,7 @@
         "EntityId": "huion.tablet.hs611",
         "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:34.327Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4657,7 +4811,18 @@
         "Weight": "500"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "10",
+        "TouchStrips": "1"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4767,7 +4932,7 @@
         "EntityId": "huion.tablet.l610",
         "_id": "0d85fd3d-7029-43c7-bd1e-3b6f0f1110d6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-09-28T01:37:38.545Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4879,7 +5044,19 @@
         "Weight": "546"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -5144,7 +5321,7 @@
         "EntityId": "huion.tablet.q630m",
         "_id": "d238bade-9633-4b9f-a4ad-dc9f8472808f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-09-28T01:37:42.850Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5233,7 +5410,8 @@
         "Weight": "710"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Dials": "2"
       }
     },
     {
@@ -5241,7 +5419,7 @@
         "EntityId": "huion.tablet.q640m",
         "_id": "df69b1c3-4477-466c-b42a-c70e68006e7c",
         "_CreateDate": "2026-09-24T21:21:56.807Z",
-        "_ModifiedDate": "2026-09-24T21:21:56.807Z"
+        "_ModifiedDate": "2026-09-28T01:37:47.064Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5283,6 +5461,14 @@
           "Depth": 8
         },
         "Weight": "710"
+      },
+      "Connectivity": {
+        "Bluetooth": "YES"
+      },
+      "OtherInputs": {
+        "Buttons": "6",
+        "Dials": "2",
+        "Touch": "NO"
       }
     },
     {
@@ -5506,7 +5692,7 @@
         "EntityId": "huion.tablet.rtp700",
         "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-09-28T01:37:51.304Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5569,7 +5755,9 @@
         "Weight": "637"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "6",
+        "TouchStrips": "1"
       }
     },
     {

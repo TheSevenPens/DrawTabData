@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl672",
     "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:25.344Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -66,7 +66,7 @@
     },
     "Density": "100",
     "ReportRate": "133",
-    "Tilt": "60"
+    "Tilt": "0"
   },
   "Physical": {
     "Dimensions": {
@@ -77,6 +77,17 @@
     "Weight": "447"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0",
+    "Dials": "0"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Bluetooth": "NO",
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ]
   }
 }

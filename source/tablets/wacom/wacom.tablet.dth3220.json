@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth3220",
     "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:39:12.005Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -92,7 +92,9 @@
       "Height": 506,
       "Depth": 53.2
     },
-    "Weight": "13000"
+    "Weight": "13000",
+    "IncludedStand": "NO",
+    "Legs": "YES"
   },
   "OtherInputs": {
     "Touch": "YES"

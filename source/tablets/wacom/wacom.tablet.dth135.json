@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth135",
     "_id": "8d4308af-a529-453e-a394-1a739a337785",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:46.505Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -153,9 +153,24 @@
       "Height": 205.2,
       "Depth": 6.6
     },
-    "Weight": "420"
+    "Weight": "420",
+    "IncludedStand": "NO",
+    "Legs": "NO",
+    "VesaMount": "NO"
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Bluetooth": "NO",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

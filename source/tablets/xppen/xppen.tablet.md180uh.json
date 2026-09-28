@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md180uh",
     "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+    "_ModifiedDate": "2026-09-28T01:41:02.890Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -107,7 +107,14 @@
     "Lamination": "YES",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "AntiGlare": "ETCHEDGLASS",
+    "ColorGamuts": {
+      "SRGB": 99.8,
+      "ADOBERGB": 96,
+      "DISPLAYP3": 98
+    },
+    "PanelTech": "IPS"
   },
   "Physical": {
     "Dimensions": {
@@ -115,9 +122,26 @@
       "Height": 306.6,
       "Depth": 21.5
     },
-    "Weight": "2230.00"
+    "Weight": "2230.00",
+    "IncludedStand": "NO",
+    "Legs": "YES",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "75x75"
+    ]
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth2420",
     "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:59.228Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -83,5 +83,44 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "DisplayPort Alt Mode"
+      },
+      {
+        "Type": "DISPLAYPORT"
+      },
+      {
+        "Type": "HDMI",
+        "Detail": "HDMI 2.0"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "USB_A"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      },
+      {
+        "Type": "DC_POWER"
+      }
+    ]
   }
 }

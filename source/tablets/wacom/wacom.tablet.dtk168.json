@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk168",
     "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:39:20.480Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -81,9 +81,33 @@
       "Height": 384,
       "Depth": 15
     },
-    "Weight": "2000"
+    "Weight": "2000",
+    "IncludedStand": "NO",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "75x75"
+    ]
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "Power"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "Power, video and data"
+      },
+      {
+        "Type": "MINI_HDMI"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xencelabs.tablet.lph2412ua",
     "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+    "_ModifiedDate": "2026-09-28T01:40:28.743Z"
   },
   "Model": {
     "Brand": "XENCELABS",
@@ -107,7 +107,8 @@
       "DCIP3": 93
     },
     "Lamination": "YES",
-    "AntiGlare": "ETCHEDGLASS"
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "apple.tablet.ipadpro11gen4",
     "_id": "4bfe9a3f-c929-4b97-9c2a-9301c2636381",
     "_CreateDate": "2026-04-30T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+    "_ModifiedDate": "2026-09-28T01:36:42.550Z"
   },
   "Model": {
     "Brand": "APPLE",
@@ -43,7 +43,8 @@
     },
     "PanelTech": "IPS",
     "Lamination": "YES",
-    "RefreshRate": "120"
+    "RefreshRate": "120",
+    "Brightness": "600"
   },
   "Physical": {
     "Dimensions": {

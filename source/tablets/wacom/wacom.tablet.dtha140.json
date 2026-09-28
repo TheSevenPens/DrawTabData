@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha140",
     "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:39:16.289Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -135,7 +135,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "RefreshRate": "120",
     "ViewingAngleHorizontal": "170",
-    "ViewingAngleVertical": "170"
+    "ViewingAngleVertical": "170",
+    "ResponseTime": "1"
   },
   "Physical": {
     "Dimensions": {
@@ -143,10 +144,14 @@
       "Height": 210,
       "Depth": 5.9
     },
-    "Weight": "699"
+    "Weight": "699",
+    "IncludedStand": "NO",
+    "Legs": "NO",
+    "VesaMount": "NO"
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "0"
   },
   "Connectivity": {
     "Ports": [
@@ -157,7 +162,8 @@
     ],
     "Bluetooth": "YES",
     "BluetoothVersion": "5.4",
-    "Wifi": "802.11a/b/g/n/ac/ax"
+    "Wifi": "802.11a/b/g/n/ac/ax",
+    "AttachedCable": []
   },
   "Standalone": {
     "OS": "Android 15",

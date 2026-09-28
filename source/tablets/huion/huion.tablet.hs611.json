@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.hs611",
     "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-09-28T01:37:34.327Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -117,6 +117,17 @@
     "Weight": "500"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "10",
+    "TouchStrips": "1"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Bluetooth": "NO",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

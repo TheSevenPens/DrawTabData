@@ -3,7 +3,7 @@
     "EntityId": "xencelabs.tablet.lph1612ua",
     "_id": "b2c3d4e5-f6a7-8b9c-0d1e-2f3a4b5c6d7e",
     "_CreateDate": "2026-04-17T00:00:00Z",
-    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+    "_ModifiedDate": "2026-09-28T01:40:24.396Z"
   },
   "Model": {
     "Brand": "XENCELABS",
@@ -90,10 +90,14 @@
     "ColorBitDepth": "10",
     "ColorGamuts": {
       "ADOBERGB": 98,
-      "DCIP3": 98
+      "DCIP3": 98,
+      "REC709": 99
     },
     "Lamination": "YES",
-    "AntiGlare": "ETCHEDGLASS"
+    "AntiGlare": "ETCHEDGLASS",
+    "Contrast": "100000",
+    "PanelTech": "OLED",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

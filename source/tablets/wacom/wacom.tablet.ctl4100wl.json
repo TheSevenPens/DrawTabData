@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl4100wl",
     "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:08.331Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -64,6 +64,16 @@
     "Weight": "230"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "4"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Bluetooth": "YES",
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ]
   }
 }

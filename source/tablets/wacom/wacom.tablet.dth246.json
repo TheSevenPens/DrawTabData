@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth246",
     "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:39:03.483Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -81,7 +81,7 @@
     "IncludedPen": [
       "wacom.pen.acp500"
     ],
-    "Family": "wacom.tabletfamily.wacom_cintiqpro"
+    "Family": "wacom.tabletfamily.wacom_cintiq"
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
@@ -118,9 +118,33 @@
       "Height": 568,
       "Depth": 21
     },
-    "Weight": "5000"
+    "Weight": "5000",
+    "IncludedStand": "YES",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "75x75"
+    ]
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "Power"
+      },
+      {
+        "Type": "MINI_HDMI"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "Video and data"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud0608a",
     "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-06-19T03:46:26.546Z"
+    "_ModifiedDate": "2026-09-28T01:39:54.084Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -16,7 +16,10 @@
     "IncludedPen": [
       "wacom.pen.up801e"
     ],
-    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy"
+    "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
+    "AlternateNames": [
+      "UltraPad A5"
+    ]
   },
   "Digitizer": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth227",
     "_id": "f74b002f-cac5-4490-9ace-943893d53427",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:38:55.050Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -104,9 +104,16 @@
       "Height": 312,
       "Depth": 30
     },
-    "Weight": "5000"
+    "Weight": "5000",
+    "IncludedStand": "NO",
+    "Legs": "NO",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "100x100"
+    ]
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "8"
   }
 }

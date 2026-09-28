@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md160uh",
     "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
     "_CreateDate": "2025-12-12T18:57:53.360Z",
-    "_ModifiedDate": "2026-06-19T03:32:57.818Z"
+    "_ModifiedDate": "2026-09-28T01:40:58.674Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -102,7 +102,8 @@
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
     "RefreshRate": "60",
-    "ViewingAngleVertical": "170"
+    "ViewingAngleVertical": "170",
+    "ResponseTime": "1"
   },
   "Physical": {
     "Dimensions": {

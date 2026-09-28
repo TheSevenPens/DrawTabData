@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.q640m",
     "_id": "df69b1c3-4477-466c-b42a-c70e68006e7c",
     "_CreateDate": "2026-09-24T21:21:56.807Z",
-    "_ModifiedDate": "2026-09-24T21:21:56.807Z"
+    "_ModifiedDate": "2026-09-28T01:37:47.064Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -45,5 +45,13 @@
       "Depth": 8
     },
     "Weight": "710"
+  },
+  "Connectivity": {
+    "Bluetooth": "YES"
+  },
+  "OtherInputs": {
+    "Buttons": "6",
+    "Dials": "2",
+    "Touch": "NO"
   }
 }

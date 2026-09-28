@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1563",
     "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-09-28T01:37:04.297Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -131,12 +131,16 @@
     "Contrast": "1000",
     "ColorBitDepth": "8",
     "ColorGamuts": {
-      "SRGB": 120
+      "SRGB": 120,
+      "ADOBERGB": 90,
+      "REC709": 99
     },
     "AntiGlare": "ETCHEDGLASS",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "Lamination": "YES",
+    "ResponseTime": "14"
   },
   "Physical": {
     "Dimensions": {
@@ -145,9 +149,25 @@
       "Depth": 12.62
     },
     "Weight": "1245",
-    "WeightInclStand": "NO"
+    "WeightInclStand": "NO",
+    "IncludedStand": "YES",
+    "Legs": "NO"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "6",
+    "Dials": "2"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "Full-featured"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h1061p",
     "_id": "44cb8880-a0d6-40d6-9d85-79ec87203849",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-09-28T01:37:30.022Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -92,6 +92,15 @@
     "Weight": "600.00"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "8"
+  },
+  "Connectivity": {
+    "Bluetooth": "NO",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }
