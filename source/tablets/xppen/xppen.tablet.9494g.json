@@ -41,8 +41,7 @@
     },
     "Density": "100",
     "AccuracyCenter": "0.5",
-    "AccuracyCorner": "1.5",
-    "SupportsTouch": "YES"
+    "AccuracyCorner": "1.5"
   },
   "Display": {
     "PixelDimensions": {
@@ -72,6 +71,20 @@
     },
     "Weight": "599"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "USB 2.0"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.1",
+    "Wifi": "802.11a/b/g/n/ac"
+  },
   "Standalone": {
     "OS": "Android 12",
     "Processor": "MediaTek MT8771",
@@ -82,9 +95,6 @@
     "MemoryCardSlot": "microSD",
     "BatteryCapacity": "8000",
     "BatteryChargingWatts": "20",
-    "Wifi": "802.11a/b/g/n/ac",
-    "Bluetooth": "5.1",
-    "USB": "USB-C (USB 2.0)",
     "Speakers": "YES",
     "FrontCamera": "8",
     "RearCamera": "13"

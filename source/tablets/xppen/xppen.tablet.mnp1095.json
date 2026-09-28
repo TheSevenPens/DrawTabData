@@ -94,8 +94,7 @@
     "Density": "200",
     "AccuracyCenter": "0.4",
     "AccuracyCorner": "1.5",
-    "MaxHover": "10",
-    "SupportsTouch": "YES"
+    "MaxHover": "10"
   },
   "Display": {
     "PixelDimensions": {
@@ -118,14 +117,23 @@
     },
     "Weight": "495"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "Wifi": "802.11a/b/g/n/ac"
+  },
   "Standalone": {
     "OS": "Android 14",
     "Processor": "MediaTek MT8781",
     "RAM": "6",
     "Storage": "128",
     "BatteryChargingWatts": "20",
-    "Wifi": "802.11a/b/g/n/ac",
-    "USB": "USB-C",
     "Speakers": "YES"
   }
 }

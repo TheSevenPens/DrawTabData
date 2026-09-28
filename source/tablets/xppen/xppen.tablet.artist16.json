@@ -49,8 +49,7 @@
     "Dimensions": {
       "Width": 344,
       "Height": 194
-    },
-    "SupportsTouch": "NO"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -63,5 +62,8 @@
     },
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

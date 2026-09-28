@@ -63,7 +63,6 @@
     "Density": "200",
     "ReportRate": "200",
     "Tilt": "60",
-    "SupportsTouch": "NO",
     "Dimensions": {
       "Width": 263.23,
       "Height": 148.07
@@ -94,5 +93,8 @@
       "Height": 209,
       "Depth": 12
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

@@ -36,8 +36,7 @@
         "Dimensions": {
           "Width": 229.4,
           "Height": 159.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -56,10 +55,19 @@
         },
         "Weight": "462"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M2",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -98,8 +106,7 @@
         "Dimensions": {
           "Width": 229.4,
           "Height": 159.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -118,10 +125,19 @@
         },
         "Weight": "460"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M3",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -161,8 +177,7 @@
         "Dimensions": {
           "Width": 229.4,
           "Height": 159.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -181,10 +196,19 @@
         },
         "Weight": "464"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M4",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -224,8 +248,7 @@
         "Dimensions": {
           "Width": 264.2,
           "Height": 198.1
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -244,10 +267,19 @@
         },
         "Weight": "617"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M2",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -286,8 +318,7 @@
         "Dimensions": {
           "Width": 264.2,
           "Height": 198.1
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -306,10 +337,19 @@
         },
         "Weight": "617"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M3",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -349,8 +389,7 @@
         "Dimensions": {
           "Width": 264.2,
           "Height": 198.1
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -369,10 +408,19 @@
         },
         "Weight": "616"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M4",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -411,8 +459,7 @@
         "Dimensions": {
           "Width": 213.4,
           "Height": 160
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -431,10 +478,19 @@
         },
         "Weight": "456"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12 Bionic",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -474,8 +530,7 @@
         "Dimensions": {
           "Width": 227.4,
           "Height": 158
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -494,10 +549,19 @@
         },
         "Weight": "458"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A14 Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -537,8 +601,7 @@
         "Dimensions": {
           "Width": 227.4,
           "Height": 158
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -557,10 +620,19 @@
         },
         "Weight": "461"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M1",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -600,8 +672,7 @@
         "Dimensions": {
           "Width": 227.4,
           "Height": 158
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -620,10 +691,19 @@
         },
         "Weight": "477"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A14 Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -663,8 +743,7 @@
         "Dimensions": {
           "Width": 229.4,
           "Height": 159.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -683,10 +762,19 @@
         },
         "Weight": "477"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A16",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -726,8 +814,7 @@
         "Dimensions": {
           "Width": 197.1,
           "Height": 147.8
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -746,10 +833,19 @@
         },
         "Weight": "469"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A9",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -789,8 +885,7 @@
         "Dimensions": {
           "Width": 197.1,
           "Height": 147.8
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -809,10 +904,19 @@
         },
         "Weight": "469"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A10 Fusion",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -852,8 +956,7 @@
         "Dimensions": {
           "Width": 207.3,
           "Height": 155.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -872,10 +975,19 @@
         },
         "Weight": "483"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A10 Fusion",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -915,8 +1027,7 @@
         "Dimensions": {
           "Width": 207.3,
           "Height": 155.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -935,10 +1046,19 @@
         },
         "Weight": "490"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12 Bionic",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -978,8 +1098,7 @@
         "Dimensions": {
           "Width": 207.3,
           "Height": 155.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -998,10 +1117,19 @@
         },
         "Weight": "487"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A13 Bionic",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -1041,8 +1169,7 @@
         "Dimensions": {
           "Width": 160.5,
           "Height": 120.4
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1061,10 +1188,19 @@
         },
         "Weight": "300.5"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12 Bionic",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -1104,8 +1240,7 @@
         "Dimensions": {
           "Width": 176.2,
           "Height": 115.7
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1124,10 +1259,19 @@
         },
         "Weight": "293"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A15 Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -1167,8 +1311,7 @@
         "Dimensions": {
           "Width": 176.2,
           "Height": 115.7
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1187,10 +1330,19 @@
         },
         "Weight": "293"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A17 Pro",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -1230,8 +1382,7 @@
         "Dimensions": {
           "Width": 213.4,
           "Height": 160
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1250,10 +1401,19 @@
         },
         "Weight": "469"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A10X Fusion",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -1293,8 +1453,7 @@
         "Dimensions": {
           "Width": 229.1,
           "Height": 160
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1313,10 +1472,19 @@
         },
         "Weight": "468"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12X Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -1356,8 +1524,7 @@
         "Dimensions": {
           "Width": 229.1,
           "Height": 160
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1376,10 +1543,19 @@
         },
         "Weight": "471"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12Z Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -1419,8 +1595,7 @@
         "Dimensions": {
           "Width": 229.1,
           "Height": 160
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1439,10 +1614,20 @@
         },
         "Weight": "466"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 4"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M1",
-        "USB": "USB-C (Thunderbolt 4)",
         "Speakers": "YES"
       }
     },
@@ -1482,8 +1667,7 @@
         "Dimensions": {
           "Width": 229.1,
           "Height": 160
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1502,10 +1686,20 @@
         },
         "Weight": "466"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 4"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M2",
-        "USB": "USB-C (Thunderbolt 4)",
         "Speakers": "YES"
       }
     },
@@ -1545,8 +1739,7 @@
         "Dimensions": {
           "Width": 230,
           "Height": 158.6
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1565,10 +1758,20 @@
         },
         "Weight": "444"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 4"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M4",
-        "USB": "USB-C (Thunderbolt 4)",
         "Speakers": "YES"
       }
     },
@@ -1608,8 +1811,7 @@
         "Dimensions": {
           "Width": 230,
           "Height": 158.6
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1628,10 +1830,20 @@
         },
         "Weight": "444"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 5"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M5",
-        "USB": "USB-C (Thunderbolt 5)",
         "Speakers": "YES"
       }
     },
@@ -1671,8 +1883,7 @@
         "Dimensions": {
           "Width": 262.2,
           "Height": 196.5
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1691,10 +1902,19 @@
         },
         "Weight": "713"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A9X",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -1734,8 +1954,7 @@
         "Dimensions": {
           "Width": 262.2,
           "Height": 196.5
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1754,10 +1973,19 @@
         },
         "Weight": "692"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A10X Fusion",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     },
@@ -1796,8 +2024,7 @@
         "Dimensions": {
           "Width": 262.2,
           "Height": 196.5
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1816,10 +2043,19 @@
         },
         "Weight": "631"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12X Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -1859,8 +2095,7 @@
         "Dimensions": {
           "Width": 262.2,
           "Height": 196.5
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1879,10 +2114,19 @@
         },
         "Weight": "641"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A12Z Bionic",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -1922,8 +2166,7 @@
         "Dimensions": {
           "Width": 262.2,
           "Height": 196.5
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -1942,10 +2185,20 @@
         },
         "Weight": "682"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 4"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M1",
-        "USB": "USB-C (Thunderbolt 4)",
         "Speakers": "YES"
       }
     },
@@ -1985,8 +2238,7 @@
         "Dimensions": {
           "Width": 262.2,
           "Height": 196.5
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -2005,10 +2257,20 @@
         },
         "Weight": "682"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 4"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M2",
-        "USB": "USB-C (Thunderbolt 4)",
         "Speakers": "YES"
       }
     },
@@ -2048,8 +2310,7 @@
         "Dimensions": {
           "Width": 264.2,
           "Height": 198.1
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -2068,10 +2329,20 @@
         },
         "Weight": "579"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 4"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M4",
-        "USB": "USB-C (Thunderbolt 4)",
         "Speakers": "YES"
       }
     },
@@ -2111,8 +2382,7 @@
         "Dimensions": {
           "Width": 264.2,
           "Height": 198.1
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -2131,10 +2401,20 @@
         },
         "Weight": "579"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 5"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple M5",
-        "USB": "USB-C (Thunderbolt 5)",
         "Speakers": "YES"
       }
     },
@@ -2174,8 +2454,7 @@
         "Dimensions": {
           "Width": 197.1,
           "Height": 147.8
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -2194,10 +2473,19 @@
         },
         "Weight": "437"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "LIGHTNING"
+          }
+        ]
+      },
       "Standalone": {
         "OS": "iPadOS",
         "Processor": "Apple A9X",
-        "USB": "Lightning",
         "Speakers": "YES"
       }
     }

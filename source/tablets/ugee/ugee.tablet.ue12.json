@@ -22,8 +22,7 @@
     },
     "Density": "200",
     "Tilt": "60",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Display": {
     "PixelDimensions": {
@@ -46,5 +45,8 @@
       "Height": 224,
       "Depth": 12
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

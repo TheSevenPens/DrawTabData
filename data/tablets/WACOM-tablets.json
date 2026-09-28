@@ -25,8 +25,7 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -35,6 +34,9 @@
           "Depth": 7
         },
         "Weight": "430"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -62,8 +64,7 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -72,6 +73,9 @@
           "Depth": 7
         },
         "Weight": "430"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -99,8 +103,7 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -109,6 +112,9 @@
           "Depth": 7
         },
         "Weight": "430"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -202,8 +208,7 @@
           "Height": 95
         },
         "Density": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -212,6 +217,9 @@
           "Depth": 8
         },
         "Weight": "200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -269,8 +277,7 @@
           "Height": 135
         },
         "Density": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -279,6 +286,9 @@
           "Depth": 8
         },
         "Weight": "350"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -308,8 +318,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "80",
-        "SupportsTouch": "NO"
+        "Density": "80"
       },
       "Physical": {
         "Dimensions": {
@@ -318,6 +327,9 @@
           "Depth": 17.5
         },
         "Weight": "500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -347,8 +359,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "80",
-        "SupportsTouch": "NO"
+        "Density": "80"
       },
       "Physical": {
         "Dimensions": {
@@ -357,6 +368,9 @@
           "Depth": 17.8
         },
         "Weight": "500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -391,8 +405,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -401,6 +414,9 @@
           "Depth": 11.2
         },
         "Weight": "370"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -430,8 +446,7 @@
           "Width": 147.6,
           "Height": 92.3
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -440,6 +455,9 @@
           "Depth": 10.7
         },
         "Weight": "300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -469,8 +487,7 @@
           "Width": 208.8,
           "Height": 150.8
         },
-        "Density": "80",
-        "SupportsTouch": "NO"
+        "Density": "80"
       },
       "Physical": {
         "Dimensions": {
@@ -479,6 +496,9 @@
           "Depth": 18.1
         },
         "Weight": "800"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -508,14 +528,16 @@
           "Width": 208.8,
           "Height": 150.8
         },
-        "Density": "80",
-        "SupportsTouch": "NO"
+        "Density": "80"
       },
       "Physical": {
         "Dimensions": {
           "Width": 257,
           "Height": 280
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -545,8 +567,7 @@
           "Width": 208.8,
           "Height": 150.8
         },
-        "Density": "80",
-        "SupportsTouch": "NO"
+        "Density": "80"
       },
       "Physical": {
         "Dimensions": {
@@ -555,6 +576,9 @@
           "Depth": 18
         },
         "Weight": "860"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -589,8 +613,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -599,6 +622,9 @@
           "Depth": 11
         },
         "Weight": "550"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -628,8 +654,7 @@
           "Width": 216.5,
           "Height": 135.3
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -638,6 +663,9 @@
           "Depth": 10.7
         },
         "Weight": "490"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -665,8 +693,7 @@
           "Width": 81.2,
           "Height": 58
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -675,6 +702,9 @@
           "Depth": 8.5
         },
         "Weight": "160"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -704,8 +734,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -714,6 +743,9 @@
           "Depth": 12.9
         },
         "Weight": "340"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -743,8 +775,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -753,6 +784,9 @@
           "Depth": 10.7
         },
         "Weight": "300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -779,8 +813,7 @@
           "Width": 107,
           "Height": 67
         },
-        "Density": "20",
-        "SupportsTouch": "YES"
+        "Density": "20"
       },
       "Physical": {
         "Dimensions": {
@@ -789,6 +822,9 @@
           "Depth": 15.7
         },
         "Weight": "145"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -815,8 +851,7 @@
           "Width": 107,
           "Height": 67
         },
-        "Density": "20",
-        "SupportsTouch": "YES"
+        "Density": "20"
       },
       "Physical": {
         "Dimensions": {
@@ -825,6 +860,9 @@
           "Depth": 15.7
         },
         "Weight": "140"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -854,8 +892,7 @@
           "Width": 147.2,
           "Height": 92
         },
-        "Density": "100",
-        "SupportsTouch": "YES"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -864,6 +901,9 @@
           "Depth": 8.5
         },
         "Weight": "360"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -893,8 +933,7 @@
           "Width": 147.2,
           "Height": 92
         },
-        "Density": "100",
-        "SupportsTouch": "YES"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -903,6 +942,9 @@
           "Depth": 8.5
         },
         "Weight": "420"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -940,8 +982,7 @@
           "Height": 92
         },
         "Density": "100",
-        "ReportRate": "133",
-        "SupportsTouch": "YES"
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -950,6 +991,9 @@
           "Depth": 9.8
         },
         "Weight": "390"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -992,8 +1036,7 @@
           "Width": 152,
           "Height": 95
         },
-        "Density": "100",
-        "SupportsTouch": "YES"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1002,6 +1045,9 @@
           "Depth": 10
         },
         "Weight": "310"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -1059,8 +1105,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "YES"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1069,6 +1114,9 @@
           "Depth": 10.7
         },
         "Weight": "290"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -1093,8 +1141,7 @@
           "Width": 216.48,
           "Height": 137
         },
-        "Density": "100",
-        "SupportsTouch": "YES"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1103,6 +1150,9 @@
           "Depth": 8.5
         },
         "Weight": "740"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       },
       "Meta": {
         "EntityId": "wacom.tablet.cth660",
@@ -1138,8 +1188,7 @@
           "Width": 216.48,
           "Height": 137
         },
-        "Density": "100",
-        "SupportsTouch": "YES"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1148,6 +1197,9 @@
           "Depth": 8.5
         },
         "Weight": "740"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -1184,8 +1236,7 @@
           "Height": 137
         },
         "Density": "100",
-        "ReportRate": "133",
-        "SupportsTouch": "YES"
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -1194,6 +1245,9 @@
           "Depth": 9.8
         },
         "Weight": "635"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -1223,8 +1277,7 @@
           "Width": 216,
           "Height": 135
         },
-        "Density": "100",
-        "SupportsTouch": "YES"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1233,6 +1286,9 @@
           "Depth": 10.1
         },
         "Weight": "520"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -1280,8 +1336,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "YES"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1290,6 +1345,9 @@
           "Depth": 10.7
         },
         "Weight": "480"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -1348,8 +1406,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1358,6 +1415,9 @@
           "Depth": 8.8
         },
         "Weight": "230"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1415,8 +1475,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1425,6 +1484,9 @@
           "Depth": 8.8
         },
         "Weight": "230"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1454,8 +1516,7 @@
           "Width": 147.2,
           "Height": 92
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1464,6 +1525,9 @@
           "Depth": 8.5
         },
         "Weight": "360"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1500,8 +1564,7 @@
           "Height": 92
         },
         "Density": "100",
-        "ReportRate": "133",
-        "SupportsTouch": "NO"
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -1510,6 +1573,9 @@
           "Depth": 9.8
         },
         "Weight": "390"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1537,8 +1603,7 @@
           "Width": 152,
           "Height": 95
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1547,6 +1612,9 @@
           "Depth": 7.5
         },
         "Weight": "245"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1605,8 +1673,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -1615,6 +1682,9 @@
           "Depth": 8.7
         },
         "Weight": "260"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1657,8 +1727,7 @@
           "Width": 152,
           "Height": 95
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1667,6 +1736,9 @@
           "Depth": 10
         },
         "Weight": "300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1724,8 +1796,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1734,6 +1805,9 @@
           "Depth": 10.7
         },
         "Weight": "290"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1792,8 +1866,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1802,6 +1875,9 @@
           "Depth": 8.8
         },
         "Weight": "410"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1860,8 +1936,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -1870,6 +1945,9 @@
           "Depth": 8.8
         },
         "Weight": "410"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1899,8 +1977,7 @@
           "Width": 216.5,
           "Height": 137
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1909,6 +1986,9 @@
           "Depth": 8.5
         },
         "Weight": "600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1936,8 +2016,7 @@
           "Width": 216,
           "Height": 135
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -1946,6 +2025,9 @@
           "Depth": 7.5
         },
         "Weight": "422"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2016,8 +2098,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2026,6 +2107,9 @@
           "Depth": 8.7
         },
         "Weight": "447"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2066,8 +2150,7 @@
           "Width": 216,
           "Height": 135
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -2076,6 +2159,9 @@
           "Depth": 10.1
         },
         "Weight": "500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2123,8 +2209,7 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0",
-        "SupportsTouch": "NO"
+        "Tilt": "0"
       },
       "Physical": {
         "Dimensions": {
@@ -2133,6 +2218,9 @@
           "Depth": 10.7
         },
         "Weight": "480"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2158,8 +2246,7 @@
         "Dimensions": {
           "Width": 125,
           "Height": 85
-        },
-        "SupportsTouch": "YES"
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -2168,6 +2255,9 @@
           "Depth": 7.5
         },
         "Weight": "210"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -2225,8 +2315,7 @@
           "Height": 145
         },
         "Density": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -2250,6 +2339,9 @@
           "Depth": 11
         },
         "Weight": "700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2391,8 +2483,7 @@
           "Height": 166
         },
         "Density": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -2418,6 +2509,9 @@
           "Depth": 14.6
         },
         "Weight": "1000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2499,8 +2593,7 @@
           "Width": 309,
           "Height": 174
         },
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -2526,6 +2619,9 @@
           "Depth": 10
         },
         "Weight": "750"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2563,8 +2659,7 @@
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -2573,6 +2668,9 @@
         },
         "PanelTech": "TFT",
         "RefreshRate": "75"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2614,8 +2712,7 @@
         "Density": "20",
         "ReportRate": "100",
         "AccuracyCenter": "0.5",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -2634,6 +2731,9 @@
           "Depth": 55.5
         },
         "Weight": "6000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2704,8 +2804,7 @@
           "Width": 294,
           "Height": 166
         },
-        "Density": "200",
-        "SupportsTouch": "YES"
+        "Density": "200"
       },
       "Display": {
         "PixelDimensions": {
@@ -2729,6 +2828,9 @@
           "Depth": 11.9
         },
         "Weight": "1100"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -2786,8 +2888,7 @@
           "Height": 165
         },
         "Density": "100",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -2810,6 +2911,9 @@
           "Depth": 12
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -2940,8 +3044,7 @@
           "Height": 165
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -2969,6 +3072,9 @@
           "Depth": 6.6
         },
         "Weight": "420"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3025,8 +3131,7 @@
           "Height": 194
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3049,6 +3154,9 @@
           "Depth": 17.5
         },
         "Weight": "1500"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3166,8 +3274,7 @@
           "Height": 194
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3194,6 +3301,9 @@
           "Depth": 22
         },
         "Weight": "1900"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3262,8 +3372,7 @@
           "Height": 215
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3293,6 +3402,9 @@
           "Depth": 21
         },
         "Weight": "2200"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3318,8 +3430,7 @@
           "Height": 271
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3341,6 +3452,9 @@
         "_id": "0d8bdb56-2e37-4d3c-9886-5a159c78c83a",
         "_CreateDate": "2026-07-19T04:01:44.987Z",
         "_ModifiedDate": "2026-07-19T04:01:44.987Z"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3420,8 +3534,7 @@
           "Height": 268
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3451,6 +3564,9 @@
           "Depth": 30
         },
         "Weight": "5000"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3475,8 +3591,7 @@
           "Width": 518,
           "Height": 324
         },
-        "MaxHover": "5",
-        "SupportsTouch": "YES"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -3499,6 +3614,9 @@
         "_id": "7202f51a-6bd1-4b74-83f9-e1f34fd7d8cd",
         "_CreateDate": "2026-07-19T04:01:46.760Z",
         "_ModifiedDate": "2026-07-19T04:01:46.760Z"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3556,8 +3674,7 @@
           "Height": 294
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3584,6 +3701,9 @@
           "Depth": 47
         },
         "Weight": "7200"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3679,8 +3799,7 @@
           "Height": 296
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3708,6 +3827,9 @@
           "Depth": 21
         },
         "Weight": "5000"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3752,8 +3874,7 @@
           "Width": 597,
           "Height": 336
         },
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3779,6 +3900,9 @@
         },
         "Weight": "9000",
         "WeightInclStand": "NO"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3924,8 +4048,7 @@
           "Height": 335
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -3955,6 +4078,9 @@
           "Depth": 31
         },
         "Weight": "7200"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4024,8 +4150,7 @@
           "Height": 392
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4053,6 +4178,9 @@
           "Depth": 53.2
         },
         "Weight": "13000"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4236,8 +4364,7 @@
           "Height": 159
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4265,15 +4392,26 @@
         },
         "Weight": "588"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "USB 2.0"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.2",
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Android 14",
         "Processor": "MediaTek Helio G99",
         "RAM": "8",
         "Storage": "128",
         "BatteryCapacity": "7700",
-        "Wifi": "802.11a/b/g/n/ac",
-        "Bluetooth": "5.2",
-        "USB": "USB-C (USB 2.0)",
         "Speakers": "YES",
         "FrontCamera": "5",
         "RearCamera": "4.7"
@@ -4293,8 +4431,7 @@
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
-        "PressureLevels": "2048",
-        "SupportsTouch": "YES"
+        "PressureLevels": "2048"
       },
       "Display": {
         "PixelDimensions": {
@@ -4307,6 +4444,9 @@
         "_id": "17fe5a44-7ce1-451e-929a-f7287dcfebf9",
         "_CreateDate": "2026-07-19T04:17:17.523Z",
         "_ModifiedDate": "2026-07-19T04:17:17.523Z"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4426,8 +4566,7 @@
           "Height": 189
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4457,6 +4596,20 @@
         },
         "Weight": "699"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "USB 2.0"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.4",
+        "Wifi": "802.11a/b/g/n/ac/ax"
+      },
       "Standalone": {
         "OS": "Android 15",
         "Processor": "Snapdragon 8s Gen 3",
@@ -4466,9 +4619,6 @@
         "MemoryCardSlot": "microSD",
         "BatteryCapacity": "10000",
         "BatteryLife": "10.5",
-        "Wifi": "802.11a/b/g/n/ac/ax",
-        "Bluetooth": "5.4",
-        "USB": "USB-C (USB 2.0)",
         "Speakers": "YES"
       }
     },
@@ -4485,8 +4635,7 @@
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
-        "PressureLevels": "2048",
-        "SupportsTouch": "YES"
+        "PressureLevels": "2048"
       },
       "Display": {
         "PixelDimensions": {
@@ -4499,6 +4648,9 @@
         "_id": "5e0db01f-3e84-474b-b0a1-a8b3cb9e7e11",
         "_CreateDate": "2026-07-19T04:17:15.777Z",
         "_ModifiedDate": "2026-07-19T04:17:15.777Z"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4515,8 +4667,7 @@
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
-        "PressureLevels": "2048",
-        "SupportsTouch": "YES"
+        "PressureLevels": "2048"
       },
       "Display": {
         "PixelDimensions": {
@@ -4529,6 +4680,9 @@
         "_id": "beddd516-fceb-41cd-a2c4-5359eda92a72",
         "_CreateDate": "2026-07-19T04:17:19.215Z",
         "_ModifiedDate": "2026-07-19T04:17:19.215Z"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4551,8 +4705,7 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "8192",
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4565,6 +4718,9 @@
         "_id": "2fd0da23-3a4e-4951-b2d7-040b4758ac05",
         "_CreateDate": "2026-07-19T04:17:14.020Z",
         "_ModifiedDate": "2026-07-19T04:17:14.020Z"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4621,8 +4777,7 @@
           "Height": 165.6
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4644,15 +4799,31 @@
         },
         "Weight": "1435"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Windows 10 Pro",
         "Processor": "Intel Core i7-8559U",
         "RAM": "16",
         "Storage": "512",
         "BatteryLife": "5.5",
-        "Wifi": "802.11a/b/g/n/ac",
-        "Bluetooth": "5.0",
-        "USB": "3x USB-C",
         "Speakers": "YES",
         "FrontCamera": "5",
         "RearCamera": "8"
@@ -4700,8 +4871,7 @@
           "Height": 194.3
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4723,15 +4893,25 @@
         },
         "Weight": "2200"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "4.1",
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Windows 10 Pro",
         "Processor": "Intel Core i7-6567U",
         "GPU": "NVIDIA Quadro M1000M",
         "RAM": "16",
         "Storage": "512",
-        "Wifi": "802.11a/b/g/n/ac",
-        "Bluetooth": "4.1",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -4789,8 +4969,7 @@
           "Height": 194.3
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -4813,6 +4992,28 @@
         },
         "Weight": "2100"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "USB 3.1"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 3"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "Thunderbolt 3"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Windows 10 Pro",
         "Processor": "Intel Core i7-8559U",
@@ -4823,9 +5024,6 @@
         "MemoryCardSlot": "SDXC",
         "BatteryCapacity": "4630",
         "BatteryLife": "6",
-        "Wifi": "802.11a/b/g/n/ac",
-        "Bluetooth": "5.0",
-        "USB": "USB-C 3.1, 2x Thunderbolt 3",
         "Speakers": "YES",
         "FrontCamera": "5",
         "RearCamera": "8"
@@ -4898,8 +5096,7 @@
           "Height": 171
         },
         "Density": "200",
-        "Tilt": "40",
-        "SupportsTouch": "NO"
+        "Tilt": "40"
       },
       "Display": {
         "PixelDimensions": {
@@ -4922,6 +5119,9 @@
           "Height": 248,
           "Depth": 13
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4951,8 +5151,7 @@
           "Height": 171
         },
         "Density": "200",
-        "Tilt": "40",
-        "SupportsTouch": "NO"
+        "Tilt": "40"
       },
       "Display": {
         "PixelDimensions": {
@@ -4974,6 +5173,9 @@
         "_id": "185bc0ec-1d1a-43f8-899e-86e51e4aba63",
         "_CreateDate": "2026-07-19T04:01:50.281Z",
         "_ModifiedDate": "2026-07-19T04:01:50.281Z"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5106,8 +5308,7 @@
           "Height": 194
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5133,6 +5334,9 @@
           "Depth": 16.6
         },
         "Weight": "1900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5190,8 +5394,7 @@
           "Height": 215
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5220,6 +5423,9 @@
           "Depth": 15
         },
         "Weight": "2000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5270,8 +5476,7 @@
         "Tilt": "40",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "4",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -5287,6 +5492,9 @@
       },
       "Physical": {
         "Weight": "8700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5356,8 +5564,7 @@
           "Height": 271
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5381,6 +5588,9 @@
           "Depth": 55
         },
         "Weight": "8500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5526,8 +5736,7 @@
           "Height": 268
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5554,6 +5763,9 @@
           "Depth": 40
         },
         "Weight": "5600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5598,8 +5810,7 @@
           "Width": 518,
           "Height": 324
         },
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -5619,6 +5830,9 @@
       },
       "Physical": {
         "Weight": "29000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5676,8 +5890,7 @@
           "Height": 294
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5704,6 +5917,9 @@
           "Depth": 47
         },
         "Weight": "7200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5761,8 +5977,7 @@
           "Height": 296
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5790,6 +6005,9 @@
           "Depth": 21
         },
         "Weight": "4800"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5884,8 +6102,7 @@
           "Width": 597,
           "Height": 336
         },
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -5911,6 +6128,9 @@
         },
         "Weight": "9000",
         "WeightInclStand": "NO"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5948,8 +6168,7 @@
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -5966,6 +6185,9 @@
           "Depth": 57
         },
         "Weight": "5800"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6025,14 +6247,16 @@
         "Tilt": "40",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "4",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
           "Width": 1280,
           "Height": 800
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6066,8 +6290,7 @@
         "ReportRate": "136",
         "Tilt": "60",
         "AccuracyCenter": "0.5",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -6083,6 +6306,9 @@
       },
       "Physical": {
         "Weight": "9100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6135,8 +6361,7 @@
         "ReportRate": "133",
         "Tilt": "40",
         "AccuracyCenter": "0.5",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -6157,6 +6382,9 @@
           "Depth": 47.8
         },
         "Weight": "8700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6181,8 +6409,7 @@
         "Dimensions": {
           "Width": 432,
           "Height": 324
-        },
-        "SupportsTouch": "NO"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -6190,6 +6417,9 @@
           "Height": 1200
         },
         "RefreshRate": "60"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6219,8 +6449,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -6229,6 +6458,9 @@
           "Depth": 9.3
         },
         "Weight": "426"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6258,8 +6490,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -6268,6 +6499,9 @@
           "Depth": 9.3
         },
         "Weight": "342"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6297,8 +6531,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -6307,6 +6540,9 @@
           "Depth": 9.3
         },
         "Weight": "342"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6334,8 +6570,7 @@
           "Width": 174.4,
           "Height": 127.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -6344,6 +6579,9 @@
           "Depth": 9.8
         },
         "Weight": "560"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6368,8 +6606,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "80",
-        "SupportsTouch": "NO"
+        "Density": "80"
       },
       "Physical": {
         "Dimensions": {
@@ -6377,6 +6614,9 @@
           "Height": 208,
           "Depth": 17.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6404,8 +6644,10 @@
           "Width": 65,
           "Height": 46.4
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6451,8 +6693,7 @@
           "Width": 127.6,
           "Height": 92.8
         },
-        "Density": "40",
-        "SupportsTouch": "NO"
+        "Density": "40"
       },
       "Physical": {
         "Dimensions": {
@@ -6461,6 +6702,9 @@
           "Depth": 22.3
         },
         "Weight": "314"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6488,8 +6732,7 @@
           "Width": 104.4,
           "Height": 78.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6498,6 +6741,9 @@
           "Depth": 23
         },
         "Weight": "300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6539,8 +6785,7 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6549,6 +6794,9 @@
           "Depth": 7.5
         },
         "Weight": "520"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6592,8 +6840,7 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6602,6 +6849,9 @@
           "Depth": 7.5
         },
         "Weight": "520"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6645,8 +6895,7 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6655,6 +6904,9 @@
           "Depth": 7.5
         },
         "Weight": "520"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6696,8 +6948,7 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6706,6 +6957,9 @@
           "Depth": 14
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6749,8 +7003,7 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6759,6 +7012,9 @@
           "Depth": 14
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6802,8 +7058,7 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6812,6 +7067,9 @@
           "Depth": 14
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6853,8 +7111,7 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6863,6 +7120,9 @@
           "Depth": 14
         },
         "Weight": "1600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6906,8 +7166,7 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6916,6 +7175,9 @@
           "Depth": 14
         },
         "Weight": "1600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -6959,8 +7221,7 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -6969,6 +7230,9 @@
           "Depth": 14
         },
         "Weight": "1600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7012,8 +7276,7 @@
           "Width": 304.8,
           "Height": 316.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7022,6 +7285,9 @@
           "Depth": 37
         },
         "Weight": "2100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7065,8 +7331,7 @@
           "Width": 304.8,
           "Height": 316.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7075,6 +7340,9 @@
           "Depth": 37
         },
         "Weight": "2100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7118,8 +7386,7 @@
           "Width": 457.2,
           "Height": 316.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7128,6 +7395,9 @@
           "Depth": 37
         },
         "Weight": "3000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7171,8 +7441,7 @@
           "Width": 457.2,
           "Height": 316.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7181,6 +7450,9 @@
           "Depth": 37
         },
         "Weight": "3000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7208,8 +7480,10 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7237,8 +7511,7 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7247,6 +7520,9 @@
           "Depth": 6.98
         },
         "Weight": "400"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7274,8 +7550,7 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7284,6 +7559,9 @@
           "Depth": 6.98
         },
         "Weight": "400"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7311,8 +7589,7 @@
           "Width": 128,
           "Height": 96
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7321,6 +7598,9 @@
           "Depth": 6.98
         },
         "Weight": "400"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7348,8 +7628,7 @@
           "Width": 204.8,
           "Height": 153.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7358,6 +7637,9 @@
           "Depth": 13.9
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7387,8 +7669,7 @@
           "Width": 147.6,
           "Height": 92.3
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -7397,6 +7678,9 @@
           "Depth": 10.7
         },
         "Weight": "370"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7424,8 +7708,7 @@
           "Height": 144
         },
         "Density": "20",
-        "ReportRate": "205",
-        "SupportsTouch": "NO"
+        "ReportRate": "205"
       },
       "Display": {
         "PixelDimensions": {
@@ -7436,6 +7719,9 @@
       },
       "Physical": {
         "Weight": "2000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7463,8 +7749,7 @@
           "Width": 211.2,
           "Height": 158.4
         },
-        "Density": "20",
-        "SupportsTouch": "NO"
+        "Density": "20"
       },
       "Display": {
         "PixelDimensions": {
@@ -7475,6 +7760,9 @@
       },
       "Physical": {
         "Weight": "2000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7503,8 +7791,7 @@
           "Width": 210.82,
           "Height": 157.48
         },
-        "Density": "20",
-        "SupportsTouch": "NO"
+        "Density": "20"
       },
       "Display": {
         "PixelDimensions": {
@@ -7520,6 +7807,9 @@
           "Depth": 38.1
         },
         "Weight": "2200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7548,8 +7838,7 @@
           "Width": 270.4,
           "Height": 202.8
         },
-        "Density": "20",
-        "SupportsTouch": "NO"
+        "Density": "20"
       },
       "Display": {
         "PixelDimensions": {
@@ -7565,6 +7854,9 @@
           "Depth": 42
         },
         "Weight": "2900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7593,8 +7885,7 @@
           "Width": 307.2,
           "Height": 230.4
         },
-        "Density": "20",
-        "SupportsTouch": "NO"
+        "Density": "20"
       },
       "Display": {
         "PixelDimensions": {
@@ -7610,6 +7901,9 @@
           "Depth": 51
         },
         "Weight": "4700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7630,8 +7924,10 @@
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
       },
       "Digitizer": {
-        "Type": "PASSIVE_EMR",
-        "SupportsTouch": "NO"
+        "Type": "PASSIVE_EMR"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7666,8 +7962,7 @@
         "Density": "20",
         "ReportRate": "93",
         "AccuracyCenter": "0.5",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -7686,6 +7981,9 @@
           "Depth": 53
         },
         "Weight": "3860"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7712,8 +8010,7 @@
           "Width": 311.04,
           "Height": 248.83
         },
-        "Density": "20",
-        "SupportsTouch": "NO"
+        "Density": "20"
       },
       "Display": {
         "PixelDimensions": {
@@ -7721,6 +8018,9 @@
           "Height": 1024
         },
         "PanelTech": "TFT"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7752,8 +8052,7 @@
         "Density": "20",
         "ReportRate": "205",
         "AccuracyCenter": "0.5",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -7769,6 +8068,9 @@
           "Depth": 57
         },
         "Weight": "5400"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7792,8 +8094,10 @@
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
       },
       "Digitizer": {
-        "Type": "PASSIVE_EMR",
-        "SupportsTouch": "NO"
+        "Type": "PASSIVE_EMR"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7817,8 +8121,10 @@
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
       },
       "Digitizer": {
-        "Type": "PASSIVE_EMR",
-        "SupportsTouch": "NO"
+        "Type": "PASSIVE_EMR"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7853,8 +8159,7 @@
         "Density": "20",
         "ReportRate": "205",
         "AccuracyCenter": "0.5",
-        "MaxHover": "5",
-        "SupportsTouch": "NO"
+        "MaxHover": "5"
       },
       "Display": {
         "PixelDimensions": {
@@ -7873,6 +8178,9 @@
           "Depth": 70
         },
         "Weight": "7700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -7920,8 +8228,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -7930,6 +8237,9 @@
           "Depth": 12.7
         },
         "Weight": "660"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -7986,8 +8296,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -7996,6 +8305,9 @@
           "Depth": 11.5
         },
         "Weight": "660"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -8003,7 +8315,7 @@
         "EntityId": "wacom.tablet.pth460",
         "_id": "8ab0e087-96ce-41cd-aaae-95e09aec20be",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:03:13.866Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8066,8 +8378,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8076,6 +8387,22 @@
           "Depth": 8
         },
         "Weight": "450"
+      },
+      "OtherInputs": {
+        "Buttons": "6",
+        "Dials": "0",
+        "TouchRings": "1",
+        "TouchStrips": "0",
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": [],
+        "Bluetooth": "YES"
       }
     },
     {
@@ -8123,8 +8450,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8133,6 +8459,9 @@
           "Depth": 12.7
         },
         "Weight": "990"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -8191,8 +8520,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8201,6 +8529,9 @@
           "Depth": 11.5
         },
         "Weight": "990"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -8232,8 +8563,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8242,6 +8572,9 @@
           "Depth": 11.5
         },
         "Weight": "990"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       },
       "Meta": {
         "EntityId": "wacom.tablet.pth651se",
@@ -8255,7 +8588,7 @@
         "EntityId": "wacom.tablet.pth660",
         "_id": "01d122e2-5c75-47df-bc91-171476994174",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:03:19.296Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8318,8 +8651,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8328,6 +8660,22 @@
           "Depth": 8
         },
         "Weight": "700"
+      },
+      "OtherInputs": {
+        "Buttons": "8",
+        "Dials": "0",
+        "TouchRings": "1",
+        "TouchStrips": "0",
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": [],
+        "Bluetooth": "YES"
       }
     },
     {
@@ -8375,8 +8723,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8385,6 +8732,9 @@
           "Depth": 12.7
         },
         "Weight": "1800"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -8443,8 +8793,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8453,6 +8802,9 @@
           "Depth": 12
         },
         "Weight": "1800"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -8460,7 +8812,7 @@
         "EntityId": "wacom.tablet.pth860",
         "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:03:24.777Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8523,8 +8875,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "YES"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8533,6 +8884,22 @@
           "Depth": 8
         },
         "Weight": "1300"
+      },
+      "OtherInputs": {
+        "Buttons": "8",
+        "Dials": "0",
+        "TouchRings": "1",
+        "TouchStrips": "0",
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": [],
+        "Bluetooth": "YES"
       }
     },
     {
@@ -8593,8 +8960,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -8603,6 +8969,9 @@
           "Depth": 28
         },
         "Weight": "3500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -8651,8 +9020,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "50",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -8661,6 +9029,9 @@
           "Depth": 12
         },
         "Weight": "700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -8708,8 +9079,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8718,6 +9088,9 @@
           "Depth": 12.7
         },
         "Weight": "660"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -8811,8 +9184,7 @@
           "Height": 105
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8821,6 +9193,9 @@
           "Depth": 7
         },
         "Weight": "240"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -8868,8 +9243,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -8878,6 +9252,9 @@
           "Depth": 15
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -8926,8 +9303,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -8936,6 +9312,9 @@
           "Depth": 12
         },
         "Weight": "1000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -8983,8 +9362,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -8993,6 +9371,9 @@
           "Depth": 12.7
         },
         "Weight": "990"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9098,8 +9479,7 @@
           "Height": 148
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9108,6 +9488,9 @@
           "Depth": 7
         },
         "Weight": "411"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9156,8 +9539,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -9166,6 +9548,9 @@
           "Depth": 14
         },
         "Weight": "1800"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9259,8 +9644,7 @@
           "Height": 195
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9269,6 +9653,9 @@
           "Depth": 7
         },
         "Weight": "660"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9293,8 +9680,7 @@
           "Width": 204.8,
           "Height": 153.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -9303,6 +9689,9 @@
           "Depth": 13.9
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9350,8 +9739,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9360,6 +9748,9 @@
           "Depth": 36.4
         },
         "Weight": "2100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9407,8 +9798,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9417,6 +9807,9 @@
           "Depth": 36.4
         },
         "Weight": "3000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9464,8 +9857,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9474,6 +9866,9 @@
           "Depth": 13
         },
         "Weight": "600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9521,8 +9916,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9531,6 +9925,9 @@
           "Depth": 13
         },
         "Weight": "800"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9578,8 +9975,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9588,6 +9984,9 @@
           "Depth": 13
         },
         "Weight": "1000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9635,8 +10034,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9645,6 +10043,9 @@
           "Depth": 14
         },
         "Weight": "1400"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9692,8 +10093,7 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -9702,6 +10102,9 @@
           "Depth": 14
         },
         "Weight": "1800"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9727,8 +10130,7 @@
           "Width": 1193,
           "Height": 889
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9737,6 +10139,9 @@
           "Depth": 30
         },
         "Weight": "33000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9762,8 +10167,7 @@
           "Width": 1193,
           "Height": 889
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9772,6 +10176,9 @@
           "Depth": 30
         },
         "Weight": "33000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9797,8 +10204,7 @@
           "Width": 635,
           "Height": 462
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9806,6 +10212,9 @@
           "Height": 613
         },
         "Weight": "10500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9831,8 +10240,7 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9841,6 +10249,9 @@
           "Depth": 70
         },
         "Weight": "5200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9866,8 +10277,7 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9876,6 +10286,9 @@
           "Depth": 70
         },
         "Weight": "5200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9901,8 +10314,7 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9911,6 +10323,9 @@
           "Depth": 70
         },
         "Weight": "5200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9936,8 +10351,7 @@
           "Width": 361,
           "Height": 361
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -9946,6 +10360,9 @@
           "Depth": 77
         },
         "Weight": "5500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -9990,8 +10407,7 @@
           "Width": 361,
           "Height": 361
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -10000,6 +10416,9 @@
           "Depth": 77
         },
         "Weight": "5500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10025,8 +10444,7 @@
           "Width": 361,
           "Height": 361
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -10035,6 +10453,9 @@
           "Depth": 77
         },
         "Weight": "5500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10060,8 +10481,7 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -10070,6 +10490,9 @@
           "Depth": 70
         },
         "Weight": "4000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10095,8 +10518,7 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -10105,6 +10527,9 @@
           "Depth": 70
         },
         "Weight": "4000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10130,8 +10555,7 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -10140,6 +10564,9 @@
           "Depth": 70
         },
         "Weight": "4000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10179,8 +10606,7 @@
           "Width": 232,
           "Height": 151
         },
-        "Density": "20",
-        "SupportsTouch": "NO"
+        "Density": "20"
       },
       "Physical": {
         "Dimensions": {
@@ -10189,6 +10615,9 @@
           "Depth": 7.5
         },
         "Weight": "2000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10216,8 +10645,7 @@
           "Width": 204.8,
           "Height": 153.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10226,6 +10654,9 @@
           "Depth": 13.9
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10253,8 +10684,7 @@
           "Width": 204.8,
           "Height": 153.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10263,6 +10693,9 @@
           "Depth": 13.9
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10290,8 +10723,7 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10300,6 +10732,9 @@
           "Depth": 36
         },
         "Weight": "2200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10327,8 +10762,7 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10337,6 +10771,9 @@
           "Depth": 36
         },
         "Weight": "2200"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10364,8 +10801,7 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10374,6 +10810,9 @@
           "Depth": 56
         },
         "Weight": "3300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10401,8 +10840,7 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10411,6 +10849,9 @@
           "Depth": 56
         },
         "Weight": "3300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10438,8 +10879,7 @@
           "Width": 635,
           "Height": 462
         },
-        "Density": "50",
-        "SupportsTouch": "NO"
+        "Density": "50"
       },
       "Physical": {
         "Dimensions": {
@@ -10448,6 +10888,9 @@
           "Depth": 78
         },
         "Weight": "9700"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10533,8 +10976,7 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10543,6 +10985,9 @@
           "Depth": 7.5
         },
         "Weight": "520"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10590,8 +11035,7 @@
         },
         "Density": "100",
         "ReportRate": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -10600,6 +11044,9 @@
           "Depth": 7.5
         },
         "Weight": "520"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10629,8 +11076,7 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10639,6 +11085,9 @@
           "Depth": 14
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10686,8 +11135,7 @@
         },
         "Density": "100",
         "ReportRate": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -10696,6 +11144,9 @@
           "Depth": 14
         },
         "Weight": "900"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10725,8 +11176,7 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10735,6 +11185,9 @@
           "Depth": 14
         },
         "Weight": "1600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10782,8 +11235,7 @@
         },
         "Density": "100",
         "ReportRate": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -10792,6 +11244,9 @@
           "Depth": 14
         },
         "Weight": "1600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10821,8 +11276,7 @@
           "Width": 304.8,
           "Height": 316.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10831,6 +11285,9 @@
           "Depth": 37
         },
         "Weight": "2100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10878,8 +11335,7 @@
         },
         "Density": "100",
         "ReportRate": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -10888,6 +11344,9 @@
           "Depth": 37
         },
         "Weight": "2100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10917,8 +11376,7 @@
           "Width": 457.2,
           "Height": 316.8
         },
-        "Density": "100",
-        "SupportsTouch": "NO"
+        "Density": "100"
       },
       "Physical": {
         "Dimensions": {
@@ -10927,6 +11385,9 @@
           "Depth": 37
         },
         "Weight": "3000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -10974,8 +11435,7 @@
         },
         "Density": "100",
         "ReportRate": "100",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -10984,6 +11444,9 @@
           "Depth": 37
         },
         "Weight": "3000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     }
   ]

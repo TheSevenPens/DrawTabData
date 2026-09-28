@@ -228,8 +228,7 @@
       "Height": 256
     },
     "Density": "200",
-    "ReportRate": "233",
-    "SupportsTouch": "NO"
+    "ReportRate": "233"
   },
   "Display": {
     "PixelDimensions": {
@@ -251,5 +250,8 @@
       "Depth": 26
     },
     "Weight": "4300"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

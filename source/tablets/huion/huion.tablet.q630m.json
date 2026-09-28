@@ -81,8 +81,7 @@
     "ReportRate": "300",
     "Tilt": "60",
     "AccuracyCenter": "0.3",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -91,5 +90,8 @@
       "Depth": 8
     },
     "Weight": "710"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

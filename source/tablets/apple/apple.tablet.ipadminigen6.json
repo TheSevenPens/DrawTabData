@@ -34,8 +34,7 @@
     "Dimensions": {
       "Width": 176.2,
       "Height": 115.7
-    },
-    "SupportsTouch": "YES"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -54,10 +53,19 @@
     },
     "Weight": "293"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
   "Standalone": {
     "OS": "iPadOS",
     "Processor": "Apple A15 Bionic",
-    "USB": "USB-C",
     "Speakers": "YES"
   }
 }

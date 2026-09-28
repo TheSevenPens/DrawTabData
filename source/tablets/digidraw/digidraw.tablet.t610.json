@@ -52,8 +52,7 @@
     },
     "Density": "200",
     "Tilt": "60",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -61,5 +60,8 @@
       "Height": 220.9,
       "Depth": 7.8
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

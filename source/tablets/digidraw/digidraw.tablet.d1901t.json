@@ -43,8 +43,7 @@
     "Tilt": "60",
     "AccuracyCenter": "0.3",
     "AccuracyCorner": "1",
-    "MaxHover": "10",
-    "SupportsTouch": "YES"
+    "MaxHover": "10"
   },
   "Display": {
     "PixelDimensions": {
@@ -71,5 +70,8 @@
       "Depth": 14.75
     },
     "Weight": "2080"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   }
 }

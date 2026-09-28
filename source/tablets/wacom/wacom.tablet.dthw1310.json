@@ -12,8 +12,7 @@
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
-    "PressureLevels": "2048",
-    "SupportsTouch": "YES"
+    "PressureLevels": "2048"
   },
   "Display": {
     "PixelDimensions": {
@@ -26,5 +25,8 @@
     "_id": "beddd516-fceb-41cd-a2c4-5359eda92a72",
     "_CreateDate": "2026-07-19T04:17:19.215Z",
     "_ModifiedDate": "2026-07-19T04:17:19.215Z"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   }
 }

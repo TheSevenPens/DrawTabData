@@ -33,8 +33,7 @@
       "Width": 345.6,
       "Height": 194.4
     },
-    "Tilt": "40",
-    "SupportsTouch": "YES"
+    "Tilt": "40"
   },
   "Display": {
     "PixelDimensions": {
@@ -66,6 +65,9 @@
       "Depth": 12
     },
     "Weight": "1070"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   },
   "Meta": {
     "EntityId": "asus.tablet.pa169cdv",

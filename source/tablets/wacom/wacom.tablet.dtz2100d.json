@@ -20,8 +20,7 @@
     "Dimensions": {
       "Width": 432,
       "Height": 324
-    },
-    "SupportsTouch": "NO"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -29,5 +28,8 @@
       "Height": 1200
     },
     "RefreshRate": "60"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

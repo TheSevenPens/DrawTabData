@@ -25,8 +25,7 @@
       "Height": 171
     },
     "Density": "200",
-    "Tilt": "40",
-    "SupportsTouch": "NO"
+    "Tilt": "40"
   },
   "Display": {
     "PixelDimensions": {
@@ -48,5 +47,8 @@
     "_id": "185bc0ec-1d1a-43f8-899e-86e51e4aba63",
     "_CreateDate": "2026-07-19T04:01:50.281Z",
     "_ModifiedDate": "2026-07-19T04:01:50.281Z"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

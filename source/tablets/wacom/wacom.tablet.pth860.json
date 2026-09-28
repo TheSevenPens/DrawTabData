@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pth860",
     "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:03:24.777Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -66,8 +66,7 @@
     },
     "Density": "200",
     "ReportRate": "200",
-    "Tilt": "60",
-    "SupportsTouch": "YES"
+    "Tilt": "60"
   },
   "Physical": {
     "Dimensions": {
@@ -76,5 +75,21 @@
       "Depth": 8
     },
     "Weight": "1300"
+  },
+  "OtherInputs": {
+    "Buttons": "8",
+    "Dials": "0",
+    "TouchRings": "1",
+    "TouchStrips": "0",
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "AttachedCable": [],
+    "Bluetooth": "YES"
   }
 }

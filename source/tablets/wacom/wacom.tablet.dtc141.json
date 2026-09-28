@@ -77,8 +77,7 @@
       "Width": 309,
       "Height": 174
     },
-    "Tilt": "60",
-    "SupportsTouch": "NO"
+    "Tilt": "60"
   },
   "Display": {
     "PixelDimensions": {
@@ -104,5 +103,8 @@
       "Depth": 10
     },
     "Weight": "750"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

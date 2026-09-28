@@ -65,7 +65,9 @@
       "Height": 152
     },
     "Density": "200",
-    "Tilt": "60",
-    "SupportsTouch": "NO"
+    "Tilt": "60"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

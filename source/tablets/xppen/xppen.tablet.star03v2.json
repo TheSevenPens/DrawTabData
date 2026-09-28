@@ -32,7 +32,9 @@
       "Width": 254,
       "Height": 152
     },
-    "ReportRate": "266",
-    "SupportsTouch": "NO"
+    "ReportRate": "266"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

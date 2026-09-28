@@ -32,14 +32,16 @@
     "Dimensions": {
       "Width": 255,
       "Height": 159
-    },
-    "SupportsTouch": "NO"
+    }
   },
   "Physical": {
     "Dimensions": {
       "Depth": 10.5
     },
     "Weight": "690"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   },
   "Meta": {
     "EntityId": "gaomon.tablet.m10k2018",

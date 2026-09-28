@@ -43,8 +43,7 @@
     },
     "Density": "200",
     "ReportRate": "200",
-    "Tilt": "60",
-    "SupportsTouch": "YES"
+    "Tilt": "60"
   },
   "Physical": {
     "Dimensions": {
@@ -53,5 +52,8 @@
       "Depth": 12.7
     },
     "Weight": "990"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   }
 }

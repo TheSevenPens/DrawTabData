@@ -40,8 +40,7 @@
       "Width": 294,
       "Height": 166
     },
-    "Density": "200",
-    "SupportsTouch": "YES"
+    "Density": "200"
   },
   "Display": {
     "PixelDimensions": {
@@ -65,5 +64,8 @@
       "Depth": 11.9
     },
     "Weight": "1100"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   }
 }

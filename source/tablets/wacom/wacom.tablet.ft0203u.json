@@ -23,7 +23,9 @@
       "Width": 65,
       "Height": 46.4
     },
-    "Density": "40",
-    "SupportsTouch": "NO"
+    "Density": "40"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

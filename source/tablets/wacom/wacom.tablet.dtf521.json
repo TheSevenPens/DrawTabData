@@ -33,8 +33,7 @@
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
-    "MaxHover": "5",
-    "SupportsTouch": "NO"
+    "MaxHover": "5"
   },
   "Display": {
     "PixelDimensions": {
@@ -43,5 +42,8 @@
     },
     "PanelTech": "TFT",
     "RefreshRate": "75"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

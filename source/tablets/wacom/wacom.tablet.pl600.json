@@ -22,8 +22,7 @@
       "Width": 311.04,
       "Height": 248.83
     },
-    "Density": "20",
-    "SupportsTouch": "NO"
+    "Density": "20"
   },
   "Display": {
     "PixelDimensions": {
@@ -31,5 +30,8 @@
       "Height": 1024
     },
     "PanelTech": "TFT"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

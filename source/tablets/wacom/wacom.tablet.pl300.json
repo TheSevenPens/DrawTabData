@@ -24,8 +24,7 @@
       "Width": 210.82,
       "Height": 157.48
     },
-    "Density": "20",
-    "SupportsTouch": "NO"
+    "Density": "20"
   },
   "Display": {
     "PixelDimensions": {
@@ -41,5 +40,8 @@
       "Depth": 38.1
     },
     "Weight": "2200"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

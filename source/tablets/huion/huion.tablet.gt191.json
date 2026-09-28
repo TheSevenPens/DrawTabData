@@ -57,8 +57,7 @@
     "Tilt": "0",
     "AccuracyCenter": "0.5",
     "AccuracyCorner": "3",
-    "MaxHover": "12",
-    "SupportsTouch": "NO"
+    "MaxHover": "12"
   },
   "Display": {
     "PixelDimensions": {
@@ -85,5 +84,8 @@
     },
     "Weight": "3300",
     "WeightInclStand": "YES"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

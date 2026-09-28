@@ -40,6 +40,7 @@ full record, minus the `Meta` group (auto-filled). Example:
   "Digitizer": { "Type": "PASSIVE_EMR", "PressureLevels": "16384", ... },
   "Display": { "PixelDimensions": { "Width": 1920, "Height": 1200 }, ... },
   "Physical": { "Dimensions": { ... }, "Weight": "495" },
+  "Connectivity": { "Ports": [{ "Type": "USB_C" }], "Wifi": "802.11a/b/g/n/ac" },
   "Standalone": { "OS": "Android 14", ... }
 }
 ```
@@ -57,8 +58,10 @@ Tablet records use nested JSON groups. The top-level keys are:
   "Model":      { ... },   -- product classification
   "Digitizer":  { ... },   -- drawing surface (all tablets)
   "Display":    { ... },   -- screen (PENDISPLAY and STANDALONE only)
-  "Physical":   { ... },   -- physical dimensions and weight (all tablets)
-  "Standalone": { ... }    -- compute/battery/connectivity (STANDALONE only)
+  "Physical":     { ... }, -- physical dimensions and weight (all tablets)
+  "OtherInputs":  { ... }, -- buttons, dials, touch rings/strips, finger touch (all tablets)
+  "Connectivity": { ... }, -- ports, attached cable, Bluetooth, Wi-Fi (all tablets)
+  "Standalone":   { ... }  -- compute/battery/hardware (STANDALONE only)
 }
 ```
 
@@ -92,7 +95,6 @@ Every tablet record must have these fields:
 | Accuracy (center) | `Digitizer.AccuracyCenter` | mm | String: `"0.5"` |
 | Accuracy (corner/edge) | `Digitizer.AccuracyCorner` | mm | String: `"1"` |
 | Reading Height / Hover | `Digitizer.MaxHover` | mm | String: `"10"` |
-| Touch Support | `Digitizer.SupportsTouch` | — | `"YES"` or `"NO"` |
 | Digitizer Type | `Digitizer.Type` | — | `"PASSIVE_EMR"` or `"ACTIVE_EMR"` |
 
 ### Display (pen displays only)
@@ -117,6 +119,33 @@ Every tablet record must have these fields:
 |---|---|---|---|
 | Weight | `Physical.Weight` | grams | String: `"1447"`. Convert kg to g (multiply by 1000) |
 | Dimensions | `Physical.Dimensions` | mm | Object: `{ "Width": 442.91, "Height": 279.91, "Depth": 12.9 }`. Width = longest side |
+| VESA mount | `Physical.VesaMount` | — | `"YES"` or `"NO"`. Pen displays and standalones only |
+| VESA pattern | `Physical.VesaPattern` | mm | Array: `["75x75"]`, or several: `["75x75", "100x100"]`. Only when the manufacturer states it |
+| Built-in legs / kickstand | `Physical.Legs` | — | `"YES"` or `"NO"`. Legs attached to the device that fold out — not a separate stand |
+| Stand included | `Physical.IncludedStand` | — | `"YES"` or `"NO"`. A separate stand in the box (e.g. Huion ST100, XP-Pen AC18) |
+
+### Other inputs (all tablet types)
+
+Counts are integer strings; `"0"` = explicitly none, omit if unknown. See
+`docs/FIELDS.txt` § OtherInputs group for the full counting rules.
+
+| Product page label | JSON field | Unit | Conversion notes |
+|---|---|---|---|
+| ExpressKeys / Shortcut keys | `OtherInputs.Buttons` | — | String: `"8"`. Only buttons you can assign a shortcut to — not power, Bluetooth, touch on/off or display/OSD buttons |
+| Dial / Wheel | `OtherInputs.Dials` | — | String: `"1"`. Mechanical rotary dials. XP-Pen's "double wheel" counts as one dial ([#47](https://github.com/TheSevenPens/DrawTabData/issues/47)) |
+| Touch Ring | `OtherInputs.TouchRings` | — | String: `"1"`. Touch-sensitive rings |
+| Touch Strip / Touch Bar | `OtherInputs.TouchStrips` | — | String: `"2"` |
+| Touch Support / Multi-touch | `OtherInputs.Touch` | — | `"YES"` or `"NO"`. Finger touch on the drawing surface |
+
+### Connectivity (all tablet types)
+
+| Product page label | JSON field | Unit | Conversion notes |
+|---|---|---|---|
+| Ports / Interface | `Connectivity.Ports` | — | Array, **one entry per physical port**: `[{ "Type": "USB_C" }, { "Type": "USB_C", "Detail": "Thunderbolt 4" }]`. `Type` is one of `USB_C`, `MICRO_USB`, `MINI_USB`, `USB_A`, `USB_B`, `LIGHTNING`, `HDMI`, `MINI_HDMI`, `DISPLAYPORT`, `MINI_DISPLAYPORT`, `DVI`, `VGA`, `DC_POWER`, `AUDIO_3_5MM`, `SERIAL`, `ADB`, `PROPRIETARY`; `Detail` is optional free text. `[]` = no ports; omit if unknown |
+| Attached / captive cable | `Connectivity.AttachedCable` | — | Array of port types at the computer end of a permanently attached cable, e.g. `["USB_A"]`; a splitter lists several (`["USB_A", "HDMI"]`). `[]` = no attached cable; omit if unknown |
+| Bluetooth | `Connectivity.Bluetooth` | — | `"YES"` or `"NO"`. Omit if unknown — don't write `"NO"` just because the page doesn't mention it |
+| Bluetooth version | `Connectivity.BluetoothVersion` | — | Numeric string: `"5.2"` |
+| Wi-Fi | `Connectivity.Wifi` | — | Standard string: `"802.11a/b/g/n/ac"`, `"Wi-Fi 6"` |
 
 ### Standalone (STANDALONE only)
 
@@ -135,14 +164,11 @@ The schema rejects this group on `PENTABLET` or `PENDISPLAY` records.
 | Battery Capacity | `Standalone.BatteryCapacity` | mAh | String: `"8000"` |
 | Battery Life | `Standalone.BatteryLife` | hours | String: `"12"` |
 | Charging Wattage / Power Adapter | `Standalone.BatteryChargingWatts` | W | String: `"20"`. From "Power Adapter 20W" or PD spec |
-| Wi-Fi | `Standalone.Wifi` | — | Standard string: `"802.11a/b/g/n/ac"`, `"Wi-Fi 6"` |
-| Bluetooth | `Standalone.Bluetooth` | — | Version string: `"5.2"` |
-| USB | `Standalone.USB` | — | Free text: `"USB-C (USB 2.0)"`, `"USB-C"` |
 | Speakers | `Standalone.Speakers` | — | `"YES"` or `"NO"`. Speaker count goes in count-style spec sheets but the field is binary. |
 | Front Camera | `Standalone.FrontCamera` | MP | String: `"5"` |
 | Rear Camera | `Standalone.RearCamera` | MP | String: `"13"` |
 
-For STANDALONE Android tablets, `Digitizer.SupportsTouch` is almost
+For STANDALONE Android tablets, `OtherInputs.Touch` is almost
 always `"YES"` (the OS shell needs touch). Confirm against the spec
 sheet rather than assuming.
 
@@ -236,7 +262,6 @@ Source: https://www.xp-pen.com/product/artist-10-2nd-gen.html
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
-    "SupportsTouch": "NO",
     "PressureLevels": "8192",
     "Tilt": "60",
     "Density": "200",
@@ -255,7 +280,8 @@ Source: https://www.xp-pen.com/product/artist-10-2nd-gen.html
   },
   "Physical": {
     "Dimensions": { "Width": 299, "Height": 173.3, "Depth": 12.9 }
-  }
+  },
+  "OtherInputs": { "Touch": "NO" }
 }
 ```
 

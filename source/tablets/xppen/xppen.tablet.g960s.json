@@ -31,8 +31,7 @@
       "Height": 152.6
     },
     "ReportRate": "220",
-    "Tilt": "60",
-    "SupportsTouch": "NO"
+    "Tilt": "60"
   },
   "Physical": {
     "Dimensions": {
@@ -40,5 +39,8 @@
       "Height": 209.5,
       "Depth": 10
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

@@ -105,8 +105,7 @@
     "Density": "200",
     "Tilt": "60",
     "AccuracyCenter": "0.2",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Display": {
     "PixelDimensions": {
@@ -134,5 +133,8 @@
       "Depth": 12
     },
     "Weight": "719"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

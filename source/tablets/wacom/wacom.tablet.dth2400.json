@@ -20,8 +20,7 @@
       "Width": 518,
       "Height": 324
     },
-    "MaxHover": "5",
-    "SupportsTouch": "YES"
+    "MaxHover": "5"
   },
   "Display": {
     "PixelDimensions": {
@@ -44,5 +43,8 @@
     "_id": "7202f51a-6bd1-4b74-83f9-e1f34fd7d8cd",
     "_CreateDate": "2026-07-19T04:01:46.760Z",
     "_ModifiedDate": "2026-07-19T04:01:46.760Z"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   }
 }

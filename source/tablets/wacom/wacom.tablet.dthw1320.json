@@ -18,8 +18,7 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Density": "200",
-    "Tilt": "60",
-    "SupportsTouch": "YES"
+    "Tilt": "60"
   },
   "Display": {
     "PixelDimensions": {
@@ -32,5 +31,8 @@
     "_id": "2fd0da23-3a4e-4951-b2d7-040b4758ac05",
     "_CreateDate": "2026-07-19T04:17:14.020Z",
     "_ModifiedDate": "2026-07-19T04:17:14.020Z"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
   }
 }

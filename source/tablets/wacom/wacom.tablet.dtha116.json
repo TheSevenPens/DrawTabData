@@ -179,8 +179,7 @@
       "Height": 159
     },
     "Density": "200",
-    "Tilt": "60",
-    "SupportsTouch": "YES"
+    "Tilt": "60"
   },
   "Display": {
     "PixelDimensions": {
@@ -208,15 +207,26 @@
     },
     "Weight": "588"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "USB 2.0"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.2",
+    "Wifi": "802.11a/b/g/n/ac"
+  },
   "Standalone": {
     "OS": "Android 14",
     "Processor": "MediaTek Helio G99",
     "RAM": "8",
     "Storage": "128",
     "BatteryCapacity": "7700",
-    "Wifi": "802.11a/b/g/n/ac",
-    "Bluetooth": "5.2",
-    "USB": "USB-C (USB 2.0)",
     "Speakers": "YES",
     "FrontCamera": "5",
     "RearCamera": "4.7"

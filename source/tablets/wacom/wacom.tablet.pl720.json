@@ -19,7 +19,9 @@
     "Family": "wacom.tabletfamily.wacom_cintiqpl"
   },
   "Digitizer": {
-    "Type": "PASSIVE_EMR",
-    "SupportsTouch": "NO"
+    "Type": "PASSIVE_EMR"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

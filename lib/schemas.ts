@@ -12,8 +12,10 @@
 //   Model      — product identity (Brand, Name, Type, Year, ...)
 //   Digitizer  — digitizer specs
 //   Display    — display specs  (PENDISPLAY + STANDALONE only)
-//   Physical   — physical dimensions and weight
-//   Standalone — compute/battery/connectivity/hardware (STANDALONE only)
+//   Physical     — physical dimensions and weight
+//   OtherInputs  — buttons, dials, touch rings/strips, finger touch (all tablet types)
+//   Connectivity — ports, attached cable, Bluetooth, Wi-Fi (all tablet types)
+//   Standalone   — compute/battery/hardware (STANDALONE only)
 
 import * as v from "valibot";
 
@@ -159,7 +161,6 @@ const DigitizerSchema = v.strictObject({
   AccuracyCenter: v.optional(NumericString),
   AccuracyCorner: v.optional(NumericString),
   MaxHover: v.optional(NumericString),
-  SupportsTouch: v.optional(YesNo),
 });
 
 const DisplaySchema = v.strictObject({
@@ -178,10 +179,109 @@ const DisplaySchema = v.strictObject({
   ViewingAngleVertical: v.optional(NumericString),
 });
 
+/** A VESA mounting-hole pattern in mm, "<width>x<height>", e.g. "100x100". */
+const VesaPatternString = v.pipe(
+  TrimmedString,
+  v.regex(/^\d+(\.\d+)?x\d+(\.\d+)?$/, 'expected a VESA pattern like "100x100"'),
+);
+
 const PhysicalSchema = v.strictObject({
   Dimensions: v.optional(DimensionsSchema),
   Weight: v.optional(NumericString),
   WeightInclStand: v.optional(YesNo),
+  /** Whether the device can be VESA-mounted. */
+  VesaMount: v.optional(YesNo),
+  /** VESA pattern(s) the manufacturer states; several if it lists several. */
+  VesaPattern: v.optional(v.array(VesaPatternString)),
+  /** BUILT-IN fold-out legs attached to the device (not a separate stand). */
+  Legs: v.optional(YesNo),
+  /** A separate stand ships in the box (e.g. Huion ST100). Unrelated to Legs. */
+  IncludedStand: v.optional(YesNo),
+});
+
+/**
+ * Inputs other than the pen. Allowed on every tablet type; an absent key
+ * means unknown, and a count of "0" means explicitly none. Counting rules
+ * (what is a button, the XP-Pen double-wheel hybrid) are in docs/FIELDS.txt.
+ * The group name is under discussion (DrawTabData #48).
+ */
+const OtherInputsSchema = v.strictObject({
+  /** Buttons you can assign a shortcut to (ExpressKeys, shortcut keys). */
+  Buttons: v.optional(NumericString),
+  /** Mechanical rotary dials / wheels. */
+  Dials: v.optional(NumericString),
+  /** Touch-sensitive (capacitive) rings. */
+  TouchRings: v.optional(NumericString),
+  /** Touch-sensitive strips or bars. */
+  TouchStrips: v.optional(NumericString),
+  /** Finger touch on the drawing surface. */
+  Touch: v.optional(YesNo),
+});
+
+/** Physical connector types, for Connectivity.Ports and AttachedCable. */
+export const PORT_TYPES = [
+  "USB_C",
+  "MICRO_USB",
+  "MINI_USB",
+  "USB_A",
+  "USB_B",
+  "LIGHTNING",
+  "HDMI",
+  "MINI_HDMI",
+  "DISPLAYPORT",
+  "MINI_DISPLAYPORT",
+  "DVI",
+  "VGA",
+  "DC_POWER",
+  "AUDIO_3_5MM",
+  "SERIAL",
+  "ADB",
+  "PROPRIETARY",
+] as const;
+export const PortTypeSchema = v.picklist(PORT_TYPES);
+export type PortType = v.InferOutput<typeof PortTypeSchema>;
+
+/** Human-readable label for each PortType, for display and docs. */
+export const PORT_TYPE_LABELS: Readonly<Record<PortType, string>> = {
+  USB_C: "USB-C",
+  MICRO_USB: "Micro-USB",
+  MINI_USB: "Mini-USB",
+  USB_A: "USB-A",
+  USB_B: "USB-B",
+  LIGHTNING: "Lightning",
+  HDMI: "HDMI",
+  MINI_HDMI: "Mini HDMI",
+  DISPLAYPORT: "DisplayPort",
+  MINI_DISPLAYPORT: "Mini DisplayPort",
+  DVI: "DVI",
+  VGA: "VGA",
+  DC_POWER: "DC power",
+  AUDIO_3_5MM: "3.5 mm audio",
+  SERIAL: "Serial",
+  ADB: "ADB",
+  PROPRIETARY: "Proprietary",
+};
+
+/** One physical port on the device. Detail qualifies it, e.g. "Thunderbolt 4". */
+export const PortSchema = v.strictObject({
+  Type: PortTypeSchema,
+  Detail: v.optional(TrimmedString),
+});
+
+/**
+ * How the tablet connects. Allowed on every tablet type.
+ *
+ * Ports lists ONE ENTRY PER PHYSICAL PORT (two USB-C ports are two entries).
+ * AttachedCable lists the connector(s) at the computer end of a permanently
+ * attached (captive) cable; a splitter cable lists several. For both, []
+ * means explicitly none and an absent key means unknown.
+ */
+const ConnectivitySchema = v.strictObject({
+  Ports: v.optional(v.array(PortSchema)),
+  AttachedCable: v.optional(v.array(PortTypeSchema)),
+  Bluetooth: v.optional(YesNo),
+  BluetoothVersion: v.optional(NumericString),
+  Wifi: v.optional(TrimmedString),
 });
 
 const StandaloneSchema = v.strictObject({
@@ -195,9 +295,6 @@ const StandaloneSchema = v.strictObject({
   BatteryCapacity: v.optional(NumericString),
   BatteryLife: v.optional(NumericString),
   BatteryChargingWatts: v.optional(NumericString),
-  Wifi: v.optional(TrimmedString),
-  Bluetooth: v.optional(TrimmedString),
-  USB: v.optional(TrimmedString),
   Speakers: v.optional(YesNo),
   FrontCamera: v.optional(NumericString),
   RearCamera: v.optional(NumericString),
@@ -215,6 +312,8 @@ export const TabletSchema = v.pipe(
     Digitizer: v.optional(DigitizerSchema),
     Display: v.optional(DisplaySchema),
     Physical: v.optional(PhysicalSchema),
+    OtherInputs: v.optional(OtherInputsSchema),
+    Connectivity: v.optional(ConnectivitySchema),
     Standalone: v.optional(StandaloneSchema),
   }),
   v.rawCheck(({ dataset, addIssue }) => {
@@ -602,6 +701,7 @@ export type LinkCheck = v.InferOutput<typeof LinkCheckSchema>;
 export type LinkContentType = v.InferOutput<typeof LinkContentTypeSchema>;
 export type Dimensions = v.InferOutput<typeof DimensionsSchema>;
 export type ColorGamuts = v.InferOutput<typeof ColorGamutsSchema>;
+export type Port = v.InferOutput<typeof PortSchema>;
 export type Pen = v.InferOutput<typeof PenSchema>;
 export type PenFamily = v.InferOutput<typeof PenFamilySchema>;
 export type TabletFamily = v.InferOutput<typeof TabletFamilySchema>;

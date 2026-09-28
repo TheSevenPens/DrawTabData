@@ -31,7 +31,9 @@
     "Dimensions": {
       "Width": 203,
       "Height": 127
-    },
-    "SupportsTouch": "NO"
+    }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

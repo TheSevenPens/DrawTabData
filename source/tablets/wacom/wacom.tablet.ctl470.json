@@ -32,8 +32,7 @@
       "Height": 92
     },
     "Density": "100",
-    "ReportRate": "133",
-    "SupportsTouch": "NO"
+    "ReportRate": "133"
   },
   "Physical": {
     "Dimensions": {
@@ -42,5 +41,8 @@
       "Depth": 9.8
     },
     "Weight": "390"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

@@ -57,8 +57,7 @@
     "ReportRate": "220",
     "Tilt": "60",
     "AccuracyCenter": "0.25",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Display": {
     "PixelDimensions": {
@@ -82,5 +81,8 @@
       "Height": 249.98,
       "Depth": 12.9
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

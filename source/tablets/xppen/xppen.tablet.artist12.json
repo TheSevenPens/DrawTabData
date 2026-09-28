@@ -42,8 +42,7 @@
     "Density": "200",
     "ReportRate": "266",
     "AccuracyCenter": "0.5",
-    "AccuracyCorner": "2",
-    "SupportsTouch": "NO"
+    "AccuracyCorner": "2"
   },
   "Display": {
     "PixelDimensions": {
@@ -64,5 +63,8 @@
       "Width": 364.11,
       "Height": 218.87
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

@@ -33,7 +33,9 @@
       "Height": 76.2
     },
     "Density": "200",
-    "ReportRate": "233",
-    "SupportsTouch": "NO"
+    "ReportRate": "233"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

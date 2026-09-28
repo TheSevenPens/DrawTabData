@@ -34,8 +34,7 @@
     "Dimensions": {
       "Width": 229.1,
       "Height": 160
-    },
-    "SupportsTouch": "YES"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -54,10 +53,20 @@
     },
     "Weight": "466"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "Thunderbolt 4"
+      }
+    ]
+  },
   "Standalone": {
     "OS": "iPadOS",
     "Processor": "Apple M2",
-    "USB": "USB-C (Thunderbolt 4)",
     "Speakers": "YES"
   }
 }

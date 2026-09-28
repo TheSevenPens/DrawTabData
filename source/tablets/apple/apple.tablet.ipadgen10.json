@@ -34,8 +34,7 @@
     "Dimensions": {
       "Width": 227.4,
       "Height": 158
-    },
-    "SupportsTouch": "YES"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -54,10 +53,19 @@
     },
     "Weight": "477"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
   "Standalone": {
     "OS": "iPadOS",
     "Processor": "Apple A14 Bionic",
-    "USB": "USB-C",
     "Speakers": "YES"
   }
 }

@@ -44,8 +44,7 @@
     "Density": "200",
     "ReportRate": "200",
     "Tilt": "50",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -54,5 +53,8 @@
       "Depth": 12
     },
     "Weight": "700"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

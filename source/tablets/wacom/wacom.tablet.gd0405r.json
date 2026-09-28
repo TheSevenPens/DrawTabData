@@ -39,8 +39,7 @@
       "Width": 127,
       "Height": 106
     },
-    "Density": "100",
-    "SupportsTouch": "NO"
+    "Density": "100"
   },
   "Physical": {
     "Dimensions": {
@@ -49,5 +48,8 @@
       "Depth": 7.5
     },
     "Weight": "520"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

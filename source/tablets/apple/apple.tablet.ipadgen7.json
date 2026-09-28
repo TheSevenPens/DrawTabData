@@ -34,8 +34,7 @@
     "Dimensions": {
       "Width": 207.3,
       "Height": 155.4
-    },
-    "SupportsTouch": "YES"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -54,10 +53,19 @@
     },
     "Weight": "483"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "LIGHTNING"
+      }
+    ]
+  },
   "Standalone": {
     "OS": "iPadOS",
     "Processor": "Apple A10 Fusion",
-    "USB": "Lightning",
     "Speakers": "YES"
   }
 }

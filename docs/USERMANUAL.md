@@ -270,7 +270,7 @@ for (const pen of separatePens) {
 ### List all tablets that support touch
 
 ```typescript
-const touchTablets = tablets.filter(t => t.DigitizerSupportsTouch === "YES");
+const touchTablets = tablets.filter(t => t.OtherInputs?.Touch === "YES");
 
 for (const tablet of touchTablets) {
   console.log(`${tablet.ModelName} (${tablet.ModelId}) - ${tablet.Brand}`);

@@ -43,8 +43,7 @@
         },
         "Density": "100",
         "AccuracyCenter": "0.5",
-        "AccuracyCorner": "1.5",
-        "SupportsTouch": "YES"
+        "AccuracyCorner": "1.5"
       },
       "Display": {
         "PixelDimensions": {
@@ -74,6 +73,20 @@
         },
         "Weight": "599"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "USB 2.0"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.1",
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Android 12",
         "Processor": "MediaTek MT8771",
@@ -84,9 +97,6 @@
         "MemoryCardSlot": "microSD",
         "BatteryCapacity": "8000",
         "BatteryChargingWatts": "20",
-        "Wifi": "802.11a/b/g/n/ac",
-        "Bluetooth": "5.1",
-        "USB": "USB-C (USB 2.0)",
         "Speakers": "YES",
         "FrontCamera": "8",
         "RearCamera": "13"
@@ -136,8 +146,7 @@
         "Density": "200",
         "ReportRate": "266",
         "AccuracyCenter": "0.5",
-        "AccuracyCorner": "2",
-        "SupportsTouch": "NO"
+        "AccuracyCorner": "2"
       },
       "Display": {
         "PixelDimensions": {
@@ -158,6 +167,9 @@
           "Width": 364.11,
           "Height": 218.87
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -206,8 +218,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -229,6 +240,9 @@
           "Height": 225,
           "Depth": 12.9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -290,8 +304,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -315,6 +328,9 @@
           "Height": 249.98,
           "Depth": 12.9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -372,8 +388,7 @@
           "Height": 194
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -393,6 +408,9 @@
           "Height": 280,
           "Depth": 12.6
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -437,8 +455,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -459,6 +476,9 @@
           "Height": 280,
           "Depth": 12.6
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -512,8 +532,7 @@
         "Dimensions": {
           "Width": 344,
           "Height": 194
-        },
-        "SupportsTouch": "NO"
+        }
       },
       "Display": {
         "PixelDimensions": {
@@ -526,6 +545,9 @@
         },
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -570,8 +592,7 @@
           "Height": 194
         },
         "Density": "200",
-        "ReportRate": "266",
-        "SupportsTouch": "NO"
+        "ReportRate": "266"
       },
       "Display": {
         "PixelDimensions": {
@@ -593,6 +614,9 @@
           "Height": 255,
           "Depth": 30
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -640,8 +664,7 @@
         "Density": "200",
         "ReportRate": "266",
         "AccuracyCenter": "0.25",
-        "MaxHover": "15",
-        "SupportsTouch": "NO"
+        "MaxHover": "15"
       },
       "Display": {
         "PixelDimensions": {
@@ -663,6 +686,9 @@
           "Height": 321,
           "Depth": 30
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -711,8 +737,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -734,6 +759,9 @@
           "Height": 334.8,
           "Depth": 44.8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -794,8 +822,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -817,6 +844,9 @@
           "Height": 370,
           "Depth": 44.8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -865,8 +895,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -890,6 +919,9 @@
           "Height": 173.3,
           "Depth": 12.9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -957,7 +989,6 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "SupportsTouch": "NO",
         "Dimensions": {
           "Width": 263.23,
           "Height": 148.07
@@ -988,6 +1019,9 @@
           "Height": 209,
           "Depth": 12
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1097,8 +1131,7 @@
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1126,6 +1159,9 @@
           "Depth": 12
         },
         "Weight": "719"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1198,8 +1234,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1224,6 +1259,9 @@
           "Height": 225,
           "Depth": 11.99
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1336,8 +1374,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1358,6 +1395,9 @@
           "Height": 255.8,
           "Depth": 12.89
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1405,8 +1445,7 @@
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1434,6 +1473,9 @@
           "Depth": 12.8
         },
         "Weight": "1355"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1482,8 +1524,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1.5",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1505,6 +1546,9 @@
           "Height": 332,
           "Depth": 25.8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1553,8 +1597,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1.5",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1575,6 +1618,9 @@
           "Height": 361,
           "Depth": 34
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1623,8 +1669,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1.5",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1648,6 +1693,9 @@
           "Height": 361,
           "Depth": 34
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1695,8 +1743,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -1704,6 +1751,9 @@
           "Height": 222.9,
           "Depth": 12.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1750,8 +1800,7 @@
         },
         "Density": "200",
         "ReportRate": "220",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -1759,6 +1808,9 @@
           "Height": 134.7,
           "Depth": 10.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1806,8 +1858,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -1815,6 +1866,9 @@
           "Height": 159.8,
           "Depth": 12.9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1898,8 +1952,7 @@
         "Density": "200",
         "ReportRate": "266",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -1907,6 +1960,9 @@
           "Height": 217,
           "Depth": 8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1954,8 +2010,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -1964,6 +2019,9 @@
           "Depth": 8
         },
         "Weight": "570"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2034,8 +2092,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2044,6 +2101,9 @@
           "Depth": 8
         },
         "Weight": "570"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2089,8 +2149,7 @@
         },
         "Density": "200",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2098,6 +2157,9 @@
           "Height": 210,
           "Depth": 9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2156,8 +2218,7 @@
         "Density": "200",
         "ReportRate": "266",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2165,6 +2226,9 @@
           "Height": 218,
           "Depth": 8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2211,8 +2275,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2221,6 +2284,9 @@
           "Depth": 9.3
         },
         "Weight": "307"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2266,8 +2332,7 @@
         },
         "Density": "200",
         "ReportRate": "220",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2276,6 +2341,9 @@
           "Depth": 8
         },
         "Weight": "155"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2314,8 +2382,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2324,6 +2391,9 @@
           "Depth": 9.3
         },
         "Weight": "307"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       },
       "Meta": {
         "EntityId": "xppen.tablet.decomini7v2",
@@ -2377,8 +2447,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2386,6 +2455,9 @@
           "Height": 227,
           "Depth": 16.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2433,8 +2505,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2442,6 +2513,9 @@
           "Height": 227,
           "Depth": 16.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2489,8 +2563,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2498,6 +2571,9 @@
           "Height": 199.5,
           "Depth": 16.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2544,8 +2620,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -2553,6 +2628,9 @@
           "Height": 199.5,
           "Depth": 16.5
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2590,8 +2668,10 @@
           "Height": 76.2
         },
         "Density": "200",
-        "ReportRate": "233",
-        "SupportsTouch": "NO"
+        "ReportRate": "233"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2636,8 +2716,10 @@
         },
         "Density": "200",
         "ReportRate": "233",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2673,8 +2755,10 @@
         "Dimensions": {
           "Width": 165,
           "Height": 102
-        },
-        "SupportsTouch": "NO"
+        }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2709,8 +2793,7 @@
           "Width": 212,
           "Height": 135
         },
-        "ReportRate": "130",
-        "SupportsTouch": "NO"
+        "ReportRate": "130"
       },
       "Physical": {
         "Dimensions": {
@@ -2718,6 +2801,9 @@
           "Height": 209.5,
           "Depth": 10
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2753,8 +2839,7 @@
           "Height": 152.6
         },
         "ReportRate": "220",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2762,6 +2847,9 @@
           "Height": 209.5,
           "Depth": 10
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2797,8 +2885,7 @@
           "Height": 152.6
         },
         "ReportRate": "220",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2806,6 +2893,9 @@
           "Height": 209.5,
           "Depth": 10
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2864,8 +2954,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.25",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2890,6 +2979,9 @@
           "Height": 256.45,
           "Depth": 9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2938,8 +3030,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2963,6 +3054,9 @@
           "Height": 256.45,
           "Depth": 9
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3032,8 +3126,10 @@
           "Height": 152
         },
         "Density": "200",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3104,8 +3200,7 @@
         },
         "Density": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3113,6 +3208,9 @@
           "Height": 187,
           "Depth": 8.8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3158,8 +3256,7 @@
         "Density": "200",
         "ReportRate": "220",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3168,6 +3265,9 @@
           "Depth": 7.7
         },
         "Weight": "170"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3215,8 +3315,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3224,6 +3323,9 @@
           "Height": 157.8,
           "Depth": 8.8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3271,8 +3373,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3280,6 +3381,9 @@
           "Height": 157.8,
           "Depth": 8.8
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3340,8 +3444,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.4",
         "AccuracyCorner": "0.8",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3365,6 +3468,9 @@
           "Depth": 19.31
         },
         "Weight": "1415"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3423,8 +3529,7 @@
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "YES"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3454,6 +3559,9 @@
           "Depth": 8
         },
         "Weight": "720"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3513,8 +3621,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.4",
         "AccuracyCorner": "0.8",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3542,6 +3649,9 @@
           "Depth": 12.9
         },
         "Weight": "1447"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3662,8 +3772,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3686,6 +3795,9 @@
           "Height": 291.37,
           "Depth": 20.23
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3773,8 +3885,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1.5",
-        "MaxHover": "10",
-        "SupportsTouch": "YES"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3797,6 +3908,9 @@
           "Height": 263.1,
           "Depth": 15.4
         }
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3884,8 +3998,7 @@
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "YES"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3913,6 +4026,9 @@
           "Depth": 13.5
         },
         "Weight": "1530"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -4012,8 +4128,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.4",
         "AccuracyCorner": "0.8",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4034,6 +4149,9 @@
           "Depth": 21.5
         },
         "Weight": "2230.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4093,8 +4211,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4117,6 +4234,9 @@
           "Height": 364.67,
           "Depth": 33.4
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4200,8 +4320,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4231,6 +4350,9 @@
         },
         "Weight": "5550",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4279,8 +4401,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4306,6 +4427,9 @@
         },
         "Weight": "7300",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4366,8 +4490,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4393,6 +4516,9 @@
         },
         "Weight": "7300",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4487,8 +4613,7 @@
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4516,6 +4641,9 @@
           "Depth": 44
         },
         "Weight": "7000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4601,8 +4729,7 @@
         "Density": "100",
         "Tilt": "60",
         "AccuracyCenter": "0.4",
-        "AccuracyCorner": "1.5",
-        "SupportsTouch": "YES"
+        "AccuracyCorner": "1.5"
       },
       "Display": {
         "PixelDimensions": {
@@ -4627,6 +4754,19 @@
         },
         "Weight": "590"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.1",
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Android 14",
         "Processor": "MediaTek MT8781",
@@ -4637,9 +4777,6 @@
         "BatteryCapacity": "8000",
         "BatteryLife": "13",
         "BatteryChargingWatts": "33",
-        "Wifi": "802.11a/b/g/n/ac",
-        "Bluetooth": "5.1",
-        "USB": "USB-C",
         "Speakers": "YES",
         "FrontCamera": "8",
         "RearCamera": "13"
@@ -4741,8 +4878,7 @@
         "Density": "200",
         "AccuracyCenter": "0.4",
         "AccuracyCorner": "1.5",
-        "MaxHover": "10",
-        "SupportsTouch": "YES"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -4765,14 +4901,23 @@
         },
         "Weight": "495"
       },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "Wifi": "802.11a/b/g/n/ac"
+      },
       "Standalone": {
         "OS": "Android 14",
         "Processor": "MediaTek MT8781",
         "RAM": "6",
         "Storage": "128",
         "BatteryChargingWatts": "20",
-        "Wifi": "802.11a/b/g/n/ac",
-        "USB": "USB-C",
         "Speakers": "YES"
       }
     },
@@ -4820,8 +4965,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4829,6 +4973,9 @@
           "Height": 227.1,
           "Depth": 10.66
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4875,8 +5022,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4884,6 +5030,9 @@
           "Height": 258.1,
           "Depth": 10.66
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4968,8 +5117,7 @@
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4977,6 +5125,9 @@
           "Height": 313.1,
           "Depth": 10.66
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5013,8 +5164,10 @@
           "Width": 254,
           "Height": 152
         },
-        "ReportRate": "266",
-        "SupportsTouch": "NO"
+        "ReportRate": "266"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5050,8 +5203,10 @@
         "Dimensions": {
           "Width": 203,
           "Height": 127
-        },
-        "SupportsTouch": "NO"
+        }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5087,8 +5242,10 @@
         "Dimensions": {
           "Width": 254,
           "Height": 152
-        },
-        "SupportsTouch": "NO"
+        }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5124,8 +5281,10 @@
         "Dimensions": {
           "Width": 254,
           "Height": 152
-        },
-        "SupportsTouch": "NO"
+        }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     }
   ]

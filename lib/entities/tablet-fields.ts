@@ -1,4 +1,7 @@
 import type { Tablet } from "../drawtab-loader.js";
+import { PORT_TYPE_LABELS, type Port, type PortType } from "../schemas.js";
+// Re-exported so package consumers (./entities/tablet) can label connectors.
+export { PORT_TYPES, PORT_TYPE_LABELS } from "../schemas.js";
 import { brandName } from "../drawtab-loader.js";
 import type { FieldDisplayDef, Step } from "@thesevenpens/queriton";
 import { aspectRatioCategory, ASPECT_RATIO_CATEGORIES } from "../aspect-ratio.js";
@@ -88,8 +91,26 @@ export function tabletNameAndId(tablet: Tablet): string {
     : `${tablet.Model.Name} (${tablet.Model.Id})`;
 }
 
+/** "USB-C" or "USB-C (Thunderbolt 4)" for one connector. */
+export function formatConnector(port: PortType | Port): string {
+  if (typeof port === "string") return PORT_TYPE_LABELS[port];
+  const label = PORT_TYPE_LABELS[port.Type];
+  return port.Detail ? `${label} (${port.Detail})` : label;
+}
 
-export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", "Standalone"];
+/** One label per connector joined with ", " — "USB-C, USB-C, HDMI".
+ * An empty list is an explicit "None"; an absent one is unknown (""). */
+export function formatConnectors(ports: readonly (PortType | Port)[] | undefined): string {
+  if (ports === undefined) return "";
+  if (ports.length === 0) return "None";
+  return ports.map(formatConnector).join(", ");
+}
+
+/** Display name of the OtherInputs group. A placeholder under discussion in
+ * DrawTabData #48 — rename it here, not at call sites. */
+export const OTHER_INPUTS_GROUP = "Other Inputs";
+
+export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", OTHER_INPUTS_GROUP, "Connectivity", "Standalone"];
 
 export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   // Model
@@ -173,7 +194,6 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DigitizerAccuracyCenter", label: "Accuracy Center (mm)", getValue: (t) => t.Digitizer?.AccuracyCenter ?? "", type: "number", group: "Digitizer", unit: "mm" },
   { key: "DigitizerAccuracyCorner", label: "Accuracy Corner (mm)", getValue: (t) => t.Digitizer?.AccuracyCorner ?? "", type: "number", group: "Digitizer", unit: "mm" },
   { key: "DigitizerMaxHover", label: "Max Hover (mm)", getValue: (t) => t.Digitizer?.MaxHover ?? "", type: "number", group: "Digitizer", unit: "mm" },
-  { key: "DigitizerSupportsTouch", label: "Touch", getValue: (t) => t.Digitizer?.SupportsTouch ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Digitizer" },
   {
     key: "DigitizerDimensions", label: "Dimensions (mm)", group: "Digitizer", unit: "mm",
     getValue: (t) => { const d = t.Digitizer?.Dimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
@@ -385,6 +405,22 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
     },
     type: "string",
   },
+  { key: "PhysicalVesaMount", label: "VESA Mount", getValue: (t) => t.Physical?.VesaMount ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Physical" },
+  { key: "PhysicalVesaPattern", label: "VESA Pattern", getValue: (t) => (t.Physical?.VesaPattern ?? []).join(", "), type: "string", group: "Physical" },
+  { key: "PhysicalLegs", label: "Legs", getValue: (t) => t.Physical?.Legs ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Physical" },
+  { key: "PhysicalIncludedStand", label: "Included Stand", getValue: (t) => t.Physical?.IncludedStand ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Physical" },
+  // Other inputs — every tablet type (JSON group OtherInputs)
+  { key: "OtherInputsButtons", label: "Buttons", getValue: (t) => t.OtherInputs?.Buttons ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsDials", label: "Dials", getValue: (t) => t.OtherInputs?.Dials ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsTouchRings", label: "Touch Rings", getValue: (t) => t.OtherInputs?.TouchRings ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsTouchStrips", label: "Touch Strips", getValue: (t) => t.OtherInputs?.TouchStrips ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsTouch", label: "Touch", getValue: (t) => t.OtherInputs?.Touch ?? "", type: "enum", enumValues: ["YES", "NO"], group: OTHER_INPUTS_GROUP },
+  // Connectivity — every tablet type
+  { key: "ConnectivityPorts", label: "Ports", getValue: (t) => formatConnectors(t.Connectivity?.Ports), type: "string", group: "Connectivity" },
+  { key: "ConnectivityAttachedCable", label: "Attached Cable", getValue: (t) => formatConnectors(t.Connectivity?.AttachedCable), type: "string", group: "Connectivity" },
+  { key: "ConnectivityBluetooth", label: "Bluetooth", getValue: (t) => t.Connectivity?.Bluetooth ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Connectivity" },
+  { key: "ConnectivityBluetoothVersion", label: "Bluetooth Version", getValue: (t) => t.Connectivity?.BluetoothVersion ?? "", type: "string", group: "Connectivity" },
+  { key: "ConnectivityWifi", label: "Wi-Fi", getValue: (t) => t.Connectivity?.Wifi ?? "", type: "string", group: "Connectivity" },
   // Standalone — Compute
   { key: "ComputeOS", label: "OS", getValue: (t) => t.Standalone?.OS ?? "", type: "string", group: "Standalone" },
   { key: "ComputeProcessor", label: "Processor", getValue: (t) => t.Standalone?.Processor ?? "", type: "string", group: "Standalone" },
@@ -397,10 +433,6 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "BatteryCapacity", label: "Capacity (mAh)", getValue: (t) => t.Standalone?.BatteryCapacity ?? "", type: "number", group: "Standalone" },
   { key: "BatteryLife", label: "Battery Life (hrs)", getValue: (t) => t.Standalone?.BatteryLife ?? "", type: "number", group: "Standalone" },
   { key: "BatteryChargingWatts", label: "Charging (W)", getValue: (t) => t.Standalone?.BatteryChargingWatts ?? "", type: "number", group: "Standalone" },
-  // Standalone — Connectivity
-  { key: "ConnectivityWifi", label: "Wi-Fi", getValue: (t) => t.Standalone?.Wifi ?? "", type: "string", group: "Standalone" },
-  { key: "ConnectivityBluetooth", label: "Bluetooth", getValue: (t) => t.Standalone?.Bluetooth ?? "", type: "string", group: "Standalone" },
-  { key: "ConnectivityUSB", label: "USB", getValue: (t) => t.Standalone?.USB ?? "", type: "string", group: "Standalone" },
   // Standalone — Hardware
   { key: "HardwareSpeakers", label: "Speakers", getValue: (t) => t.Standalone?.Speakers ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Standalone" },
   { key: "HardwareFrontCamera", label: "Front Camera (MP)", getValue: (t) => t.Standalone?.FrontCamera ?? "", type: "number", group: "Standalone" },

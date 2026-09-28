@@ -53,8 +53,7 @@
       "Height": 296
     },
     "Density": "200",
-    "Tilt": "60",
-    "SupportsTouch": "NO"
+    "Tilt": "60"
   },
   "Display": {
     "PixelDimensions": {
@@ -82,5 +81,8 @@
       "Depth": 21
     },
     "Weight": "4800"
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

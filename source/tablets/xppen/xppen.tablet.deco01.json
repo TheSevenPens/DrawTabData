@@ -79,8 +79,7 @@
     "Density": "200",
     "ReportRate": "266",
     "AccuracyCenter": "0.25",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -88,5 +87,8 @@
       "Height": 217,
       "Depth": 8
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

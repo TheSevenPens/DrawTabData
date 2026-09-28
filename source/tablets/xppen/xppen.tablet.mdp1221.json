@@ -81,8 +81,7 @@
     "Density": "100",
     "Tilt": "60",
     "AccuracyCenter": "0.4",
-    "AccuracyCorner": "1.5",
-    "SupportsTouch": "YES"
+    "AccuracyCorner": "1.5"
   },
   "Display": {
     "PixelDimensions": {
@@ -107,6 +106,19 @@
     },
     "Weight": "590"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.1",
+    "Wifi": "802.11a/b/g/n/ac"
+  },
   "Standalone": {
     "OS": "Android 14",
     "Processor": "MediaTek MT8781",
@@ -117,9 +129,6 @@
     "BatteryCapacity": "8000",
     "BatteryLife": "13",
     "BatteryChargingWatts": "33",
-    "Wifi": "802.11a/b/g/n/ac",
-    "Bluetooth": "5.1",
-    "USB": "USB-C",
     "Speakers": "YES",
     "FrontCamera": "8",
     "RearCamera": "13"

@@ -115,8 +115,7 @@
       "Height": 189
     },
     "Density": "200",
-    "Tilt": "60",
-    "SupportsTouch": "YES"
+    "Tilt": "60"
   },
   "Display": {
     "PixelDimensions": {
@@ -146,6 +145,20 @@
     },
     "Weight": "699"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "USB 2.0"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.4",
+    "Wifi": "802.11a/b/g/n/ac/ax"
+  },
   "Standalone": {
     "OS": "Android 15",
     "Processor": "Snapdragon 8s Gen 3",
@@ -155,9 +168,6 @@
     "MemoryCardSlot": "microSD",
     "BatteryCapacity": "10000",
     "BatteryLife": "10.5",
-    "Wifi": "802.11a/b/g/n/ac/ax",
-    "Bluetooth": "5.4",
-    "USB": "USB-C (USB 2.0)",
     "Speakers": "YES"
   }
 }

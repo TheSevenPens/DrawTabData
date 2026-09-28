@@ -121,8 +121,7 @@
         "ReportRate": "300",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -131,6 +130,9 @@
           "Depth": 9
         },
         "Weight": "1145"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -179,8 +181,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -207,6 +208,9 @@
           "Depth": 11.8
         },
         "Weight": "735"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -320,8 +324,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -348,6 +351,9 @@
           "Depth": 11.8
         },
         "Weight": "980"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -444,8 +450,7 @@
         },
         "Density": "200",
         "ReportRate": "260",
-        "Tilt": "60",
-        "SupportsTouch": "NO"
+        "Tilt": "60"
       },
       "Display": {
         "PixelDimensions": {
@@ -469,6 +474,9 @@
           "Depth": 11.7
         },
         "Weight": "865.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -530,8 +538,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -558,6 +565,9 @@
           "Depth": 12
         },
         "Weight": "1260"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -681,8 +691,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -709,6 +718,9 @@
         },
         "Weight": "1245",
         "WeightInclStand": "NO"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -750,8 +762,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -779,6 +790,9 @@
         },
         "Weight": "3900",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -858,8 +872,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -887,6 +900,9 @@
         },
         "Weight": "2900",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -994,8 +1010,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1022,6 +1037,9 @@
           "Height": 324.7,
           "Depth": 36.7
         }
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1071,8 +1089,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1101,6 +1118,9 @@
         },
         "Weight": "5600",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1150,8 +1170,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1180,6 +1199,9 @@
         },
         "Weight": "5600",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1230,8 +1252,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1258,6 +1279,9 @@
           "Depth": 11
         },
         "Weight": "765"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1305,8 +1329,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1334,6 +1357,9 @@
           "Depth": 10
         },
         "Weight": "1000"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1384,8 +1410,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1412,6 +1437,9 @@
           "Depth": 11
         },
         "Weight": "910"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1473,8 +1501,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1501,6 +1528,9 @@
           "Depth": 13
         },
         "Weight": "1270"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1587,8 +1617,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1615,6 +1644,9 @@
           "Depth": 13
         },
         "Weight": "1270"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1664,8 +1696,7 @@
         "Tilt": "0",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Display": {
         "PixelDimensions": {
@@ -1692,6 +1723,9 @@
           "Depth": 14.8
         },
         "Weight": "1500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1765,8 +1799,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1794,6 +1827,9 @@
           "Depth": 11.5
         },
         "Weight": "1360"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -1842,8 +1878,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -1871,6 +1906,9 @@
           "Depth": 11.5
         },
         "Weight": "1280"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2103,8 +2141,7 @@
           "Height": 256
         },
         "Density": "200",
-        "ReportRate": "233",
-        "SupportsTouch": "NO"
+        "ReportRate": "233"
       },
       "Display": {
         "PixelDimensions": {
@@ -2126,6 +2163,9 @@
           "Depth": 26
         },
         "Weight": "4300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2174,8 +2214,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2202,6 +2241,9 @@
         },
         "Weight": "3600",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2417,8 +2459,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "YES"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2449,6 +2490,9 @@
         },
         "Weight": "2000",
         "WeightInclStand": "NO"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -2510,8 +2554,7 @@
         "Tilt": "0",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Display": {
         "PixelDimensions": {
@@ -2538,6 +2581,9 @@
         },
         "Weight": "3300",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2587,8 +2633,7 @@
         "Tilt": "0",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2614,6 +2659,9 @@
           "Depth": 35
         },
         "Weight": "3300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2660,8 +2708,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2688,6 +2735,9 @@
         },
         "Weight": "4500",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2737,8 +2787,7 @@
         "Tilt": "0",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Display": {
         "PixelDimensions": {
@@ -2764,6 +2813,9 @@
         },
         "Weight": "3700",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -2813,8 +2865,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -2841,6 +2892,9 @@
         },
         "Weight": "4500",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3014,8 +3068,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3043,6 +3096,9 @@
         },
         "Weight": "6000",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3154,8 +3210,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3183,6 +3238,9 @@
         },
         "Weight": "6300",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3296,8 +3354,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "1",
-        "MaxHover": "9",
-        "SupportsTouch": "YES"
+        "MaxHover": "9"
       },
       "Display": {
         "PixelDimensions": {
@@ -3326,6 +3383,9 @@
         },
         "Weight": "6365",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3374,8 +3434,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "1",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -3406,6 +3465,9 @@
         },
         "Weight": "8000",
         "WeightInclStand": "NO"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3455,8 +3517,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "1",
-        "MaxHover": "8",
-        "SupportsTouch": "YES"
+        "MaxHover": "8"
       },
       "Display": {
         "PixelDimensions": {
@@ -3485,6 +3546,9 @@
         },
         "Weight": "7200",
         "WeightInclStand": "NO"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
       }
     },
     {
@@ -3532,8 +3596,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3542,6 +3605,9 @@
           "Depth": 10
         },
         "Weight": "770"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3627,8 +3693,7 @@
         "ReportRate": "260",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3637,6 +3702,9 @@
           "Depth": 9.5
         },
         "Weight": "600.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3683,8 +3751,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3693,6 +3760,9 @@
           "Depth": 8
         },
         "Weight": "570"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3739,8 +3809,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3749,6 +3818,9 @@
           "Depth": 9
         },
         "Weight": "450"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3796,8 +3868,7 @@
         "Density": "157.4",
         "ReportRate": "200",
         "AccuracyCenter": "0.3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Physical": {
         "Dimensions": {
@@ -3806,6 +3877,9 @@
           "Depth": 7.5
         },
         "Weight": "167"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3851,8 +3925,7 @@
         "Density": "200",
         "ReportRate": "300",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3861,6 +3934,9 @@
           "Depth": 7
         },
         "Weight": "105"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3908,8 +3984,7 @@
         "ReportRate": "233",
         "Tilt": "0",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3918,6 +3993,9 @@
           "Depth": 6.3
         },
         "Weight": "135"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -3965,8 +4043,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -3975,6 +4052,9 @@
           "Depth": 8
         },
         "Weight": "600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4022,8 +4102,7 @@
         "ReportRate": "266",
         "Tilt": "0",
         "AccuracyCenter": "0.3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Physical": {
         "Dimensions": {
@@ -4032,6 +4111,9 @@
           "Depth": 10
         },
         "Weight": "635"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4078,8 +4160,7 @@
         "ReportRate": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4088,6 +4169,9 @@
           "Depth": 12
         },
         "Weight": "635"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4134,8 +4218,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4144,6 +4227,9 @@
           "Depth": 8
         },
         "Weight": "515"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4191,8 +4277,7 @@
         "ReportRate": "233",
         "Tilt": "0",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4201,6 +4286,9 @@
           "Depth": 8
         },
         "Weight": "277"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4249,8 +4337,7 @@
         "ReportRate": "260",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4259,6 +4346,9 @@
           "Depth": 9.5
         },
         "Weight": "275.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4304,8 +4394,7 @@
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4314,6 +4403,9 @@
           "Depth": 8
         },
         "Weight": "497"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4362,8 +4454,7 @@
         "ReportRate": "260",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4372,6 +4463,9 @@
           "Depth": 7.5
         },
         "Weight": "420.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4430,8 +4524,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4440,6 +4533,9 @@
           "Depth": 8
         },
         "Weight": "600"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4550,8 +4646,7 @@
         "ReportRate": "233",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4560,6 +4655,9 @@
           "Depth": 7.3
         },
         "Weight": "500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4606,8 +4704,7 @@
         "ReportRate": "233",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4616,6 +4713,9 @@
           "Depth": 8
         },
         "Weight": "258"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4648,8 +4748,7 @@
         "Density": "200",
         "ReportRate": "300",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4658,6 +4757,9 @@
           "Depth": 8
         },
         "Weight": "280"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4766,8 +4868,7 @@
         "Density": "200",
         "ReportRate": "300",
         "Tilt": "60",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4776,6 +4877,9 @@
           "Depth": 8
         },
         "Weight": "546"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4822,8 +4926,7 @@
         "ReportRate": "233",
         "Tilt": "0",
         "AccuracyCenter": "0.3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Physical": {
         "Dimensions": {
@@ -4832,6 +4935,9 @@
           "Depth": 10
         },
         "Weight": "770"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4891,8 +4997,7 @@
         "ReportRate": "233",
         "Tilt": "0",
         "AccuracyCenter": "0.3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Physical": {
         "Dimensions": {
@@ -4901,6 +5006,9 @@
           "Depth": 11
         },
         "Weight": "880.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -4947,8 +5055,7 @@
         "ReportRate": "220",
         "Tilt": "80",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -4957,6 +5064,9 @@
           "Depth": 11
         },
         "Weight": "880.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5015,8 +5125,7 @@
         "ReportRate": "233",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -5025,6 +5134,9 @@
           "Depth": 8
         },
         "Weight": "666"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5110,8 +5222,7 @@
         "ReportRate": "300",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -5120,6 +5231,9 @@
           "Depth": 8
         },
         "Weight": "710"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5217,8 +5331,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -5246,6 +5359,9 @@
         },
         "Weight": "1260",
         "WeightInclStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5294,8 +5410,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.3",
         "AccuracyCorner": "2",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -5322,6 +5437,9 @@
           "Depth": 26.7
         },
         "Weight": "3450.00"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5369,8 +5487,7 @@
         "ReportRate": "300",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -5379,6 +5496,9 @@
           "Depth": 8.4
         },
         "Weight": "415"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5438,8 +5558,7 @@
         "ReportRate": "300",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -5448,6 +5567,9 @@
           "Depth": 8.5
         },
         "Weight": "637"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5495,8 +5617,7 @@
         "ReportRate": "300",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -5505,6 +5626,9 @@
           "Depth": 8.35
         },
         "Weight": "229"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5567,8 +5691,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -5595,6 +5718,9 @@
           "Depth": 14.8
         },
         "Weight": "1500"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5644,8 +5770,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -5671,6 +5796,9 @@
           "Depth": 35
         },
         "Weight": "3300"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5722,8 +5850,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -5750,6 +5877,9 @@
           "Depth": 11.5
         },
         "Weight": "1350"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5799,8 +5929,7 @@
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Display": {
         "PixelDimensions": {
@@ -5827,6 +5956,9 @@
           "Depth": 11.5
         },
         "Weight": "1350"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5873,8 +6005,7 @@
         "Density": "200",
         "ReportRate": "233",
         "AccuracyCenter": "0.3",
-        "MaxHover": "12",
-        "SupportsTouch": "NO"
+        "MaxHover": "12"
       },
       "Physical": {
         "Dimensions": {
@@ -5883,6 +6014,9 @@
           "Depth": 16
         },
         "Weight": "1100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     },
     {
@@ -5930,8 +6064,7 @@
         "ReportRate": "220",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10",
-        "SupportsTouch": "NO"
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -5940,6 +6073,9 @@
           "Depth": 15
         },
         "Weight": "1100"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
       }
     }
   ]

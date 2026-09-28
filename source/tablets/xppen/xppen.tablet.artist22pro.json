@@ -43,8 +43,7 @@
     "Density": "200",
     "ReportRate": "266",
     "AccuracyCenter": "0.25",
-    "MaxHover": "15",
-    "SupportsTouch": "NO"
+    "MaxHover": "15"
   },
   "Display": {
     "PixelDimensions": {
@@ -66,5 +65,8 @@
       "Height": 321,
       "Depth": 30
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

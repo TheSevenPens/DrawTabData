@@ -41,8 +41,7 @@
     },
     "Density": "200",
     "AccuracyCenter": "0.25",
-    "MaxHover": "10",
-    "SupportsTouch": "NO"
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -50,5 +49,8 @@
       "Height": 210,
       "Depth": 9
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

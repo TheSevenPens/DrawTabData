@@ -65,8 +65,7 @@
       "Height": 171
     },
     "Density": "200",
-    "Tilt": "40",
-    "SupportsTouch": "NO"
+    "Tilt": "40"
   },
   "Display": {
     "PixelDimensions": {
@@ -89,5 +88,8 @@
       "Height": 248,
       "Depth": 13
     }
+  },
+  "OtherInputs": {
+    "Touch": "NO"
   }
 }

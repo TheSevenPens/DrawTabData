@@ -33,8 +33,7 @@
     "Dimensions": {
       "Width": 213.4,
       "Height": 160
-    },
-    "SupportsTouch": "YES"
+    }
   },
   "Display": {
     "PixelDimensions": {
@@ -53,10 +52,19 @@
     },
     "Weight": "456"
   },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "LIGHTNING"
+      }
+    ]
+  },
   "Standalone": {
     "OS": "iPadOS",
     "Processor": "Apple A12 Bionic",
-    "USB": "Lightning",
     "Speakers": "YES"
   }
 }
