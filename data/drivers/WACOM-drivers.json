@@ -2577,6 +2577,48 @@
       "_ModifiedDate": "2026-06-01T22:50:24.000Z"
     },
     {
+      "DriverVersion": "6.4.14-1",
+      "OSFamily": "WINDOWS",
+      "ReleaseDate": "2026-08-26",
+      "DriverURLWacom": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/WacomTablet_6.4.14-1.exe",
+      "DriverURLArchiveDotOrg": "",
+      "ReleaseNotesURL": "https://cdn.wacom.com/u/productsupport/drivers/win/professional/releasenotes/Windows_6.4.14-1.html",
+      "DriverUID": "6.4.14-1_WINDOWS",
+      "Brand": "WACOM",
+      "EntityId": "wacom.driver.6.4.14-1_windows",
+      "_id": "3419c2ea-b7b7-4a04-903a-33638b6cea37",
+      "_CreateDate": "2026-09-28T10:43:07.000Z",
+      "_ModifiedDate": "2026-09-28T10:43:07.000Z"
+    },
+    {
+      "DriverVersion": "6.4.14-1",
+      "OSFamily": "MACOS",
+      "ReleaseDate": "2026-08-26",
+      "DriverURLWacom": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.14-1.dmg",
+      "DriverURLArchiveDotOrg": "",
+      "ReleaseNotesURL": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/releasenotes/Mac_6.4.14-1.html",
+      "DriverUID": "6.4.14-1_MACOS",
+      "Brand": "WACOM",
+      "EntityId": "wacom.driver.6.4.14-1_macos",
+      "_id": "277d6000-ffc4-411e-9f16-6d0bb472992d",
+      "_CreateDate": "2026-09-28T10:43:07.000Z",
+      "_ModifiedDate": "2026-09-28T10:43:07.000Z"
+    },
+    {
+      "DriverVersion": "6.4.14-2",
+      "OSFamily": "MACOS",
+      "ReleaseDate": "2026-09-22",
+      "DriverURLWacom": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/WacomTablet_6.4.14-2.dmg",
+      "DriverURLArchiveDotOrg": "",
+      "ReleaseNotesURL": "https://cdn.wacom.com/u/productsupport/drivers/mac/professional/releasenotes/Mac_6.4.14-2.html",
+      "DriverUID": "6.4.14-2_MACOS",
+      "Brand": "WACOM",
+      "EntityId": "wacom.driver.6.4.14-2_macos",
+      "_id": "e5c7768b-fe2d-4d78-a28a-8a6f08d301c8",
+      "_CreateDate": "2026-09-28T10:43:33.000Z",
+      "_ModifiedDate": "2026-09-28T10:43:33.000Z"
+    },
+    {
       "DriverVersion": "4.95-6",
       "OSFamily": "WINDOWS",
       "ReleaseDate": "",
