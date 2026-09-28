@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2260",
     "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:14:59.988Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -159,7 +159,9 @@
     "Lamination": "NO",
     "ResponseTime": "22",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60",
+    "AntiGlare": "AGFILM"
   },
   "Physical": {
     "Dimensions": {
@@ -167,9 +169,34 @@
       "Height": 359,
       "Depth": 40
     },
-    "Weight": "5600"
+    "Weight": "5600",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "100x100"
+    ],
+    "Legs": "NO",
+    "IncludedStand": "YES"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "DC_POWER"
+      },
+      {
+        "Type": "USB_B"
+      },
+      {
+        "Type": "HDMI"
+      }
+    ],
+    "AttachedCable": [],
+    "Bluetooth": "NO"
   }
 }

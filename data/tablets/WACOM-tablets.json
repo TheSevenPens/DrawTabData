@@ -4188,7 +4188,7 @@
         "EntityId": "wacom.tablet.dtha116",
         "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:15:05.129Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4390,10 +4390,17 @@
           "Height": 182,
           "Depth": 7
         },
-        "Weight": "588"
+        "Weight": "588",
+        "VesaMount": "NO",
+        "Legs": "NO",
+        "IncludedStand": "NO"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
       },
       "Connectivity": {
         "Ports": [
@@ -4404,7 +4411,8 @@
         ],
         "Bluetooth": "YES",
         "BluetoothVersion": "5.2",
-        "Wifi": "802.11a/b/g/n/ac"
+        "Wifi": "802.11a/b/g/n/ac",
+        "AttachedCable": []
       },
       "Standalone": {
         "OS": "Android 14",
@@ -5598,7 +5606,7 @@
         "EntityId": "wacom.tablet.dtk2260",
         "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-09-28T01:14:59.988Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5754,7 +5762,9 @@
         "Lamination": "NO",
         "ResponseTime": "22",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60",
+        "AntiGlare": "AGFILM"
       },
       "Physical": {
         "Dimensions": {
@@ -5762,10 +5772,35 @@
           "Height": 359,
           "Depth": 40
         },
-        "Weight": "5600"
+        "Weight": "5600",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "100x100"
+        ],
+        "Legs": "NO",
+        "IncludedStand": "YES"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "0",
+        "Dials": "0",
+        "TouchRings": "0",
+        "TouchStrips": "0"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "DC_POWER"
+          },
+          {
+            "Type": "USB_B"
+          },
+          {
+            "Type": "HDMI"
+          }
+        ],
+        "AttachedCable": [],
+        "Bluetooth": "NO"
       }
     },
     {

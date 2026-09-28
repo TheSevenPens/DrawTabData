@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha116",
     "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-09-28T01:15:05.129Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -205,10 +205,17 @@
       "Height": 182,
       "Depth": 7
     },
-    "Weight": "588"
+    "Weight": "588",
+    "VesaMount": "NO",
+    "Legs": "NO",
+    "IncludedStand": "NO"
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
   },
   "Connectivity": {
     "Ports": [
@@ -219,7 +226,8 @@
     ],
     "Bluetooth": "YES",
     "BluetoothVersion": "5.2",
-    "Wifi": "802.11a/b/g/n/ac"
+    "Wifi": "802.11a/b/g/n/ac",
+    "AttachedCable": []
   },
   "Standalone": {
     "OS": "Android 14",
