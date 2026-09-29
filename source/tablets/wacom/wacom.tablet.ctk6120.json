@@ -1,0 +1,58 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.ctk6120",
+    "_id": "bd9a2f40-b2f6-498f-9f85-0942ff50d80f",
+    "_CreateDate": "2026-09-29T12:27:10.486Z",
+    "_ModifiedDate": "2026-09-29T12:29:31.886Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "CTK-6120",
+    "Name": "Intuos 2026 Medium",
+    "AlternateNames": [
+      "影拓创意数位板 M号"
+    ],
+    "Type": "PENTABLET",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-09-29",
+    "Audience": "Consumer",
+    "Status": "ACTIVE",
+    "Family": "wacom.tabletfamily.wacom_intuos_2026",
+    "IncludedPen": [
+      "wacom.pen.litepen"
+    ],
+    "Notes": "Specs from Wacom China's spec sheet for the medium (announced and opened for pre-order 2026-09-29) and Kuuube's Wacom Tablet Mastersheet. Ships with the Wacom Lite Pen, recorded under the placeholder PenId LITE-PEN until Wacom publishes its model code. Also works with Pro Pen 3 nibs and pens, the Wacom One pen, and Wacom-EMR stationery pens. Requires Windows 11, macOS 14, Android 14 or HarmonyOS 7 or later."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 240,
+      "Height": 135
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "Tilt": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 272,
+      "Height": 179,
+      "Depth": 8.3
+    },
+    "Weight": "370"
+  },
+  "OtherInputs": {
+    "Touch": "NO",
+    "Buttons": "0"
+  },
+  "Connectivity": {
+    "AttachedCable": [],
+    "Bluetooth": "NO",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  }
+}

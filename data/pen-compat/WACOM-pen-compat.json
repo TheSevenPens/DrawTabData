@@ -4,6 +4,8 @@
       "Brand": "WACOM",
       "PenId": "ACP-500",
       "TabletIds": [
+        "CTK-4120",
+        "CTK-6120",
         "DTH-135",
         "DTH-172",
         "DTH-227",
@@ -22,6 +24,8 @@
       "Brand": "WACOM",
       "PenId": "ACP-501E",
       "TabletIds": [
+        "CTK-4120",
+        "CTK-6120",
         "DTH-135",
         "DTH-246",
         "DTH-A116",
@@ -49,6 +53,8 @@
       "TabletIds": [
         "CTC-4110WL",
         "CTC-6110WL",
+        "CTK-4120",
+        "CTK-6120",
         "DTC-133",
         "DTC-141",
         "DTH-A116",
@@ -61,6 +67,8 @@
       "TabletIds": [
         "CTC-4110WL",
         "CTC-6110WL",
+        "CTK-4120",
+        "CTK-6120",
         "DTC-121",
         "DTC-141",
         "DTH-134",
@@ -410,6 +418,14 @@
         "CTL-4100WL",
         "CTL-6100",
         "CTL-6100WL"
+      ]
+    },
+    {
+      "Brand": "WACOM",
+      "PenId": "LITE-PEN",
+      "TabletIds": [
+        "CTK-4120",
+        "CTK-6120"
       ]
     },
     {

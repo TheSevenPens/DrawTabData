@@ -314,6 +314,15 @@
       "_CreateDate": "2026-05-11T00:00:00Z",
       "_ModifiedDate": "2026-05-11T00:00:00Z",
       "ModelPattern": ""
+    },
+    {
+      "EntityId": "wacom.tabletfamily.wacom_intuos_2026",
+      "Brand": "WACOM",
+      "FamilyName": "Wacom Intuos 2026 tablet series",
+      "_id": "fe2d1b6e-420b-4540-8705-ccdc5e7e1717",
+      "_CreateDate": "2026-09-29T12:27:10.486Z",
+      "_ModifiedDate": "2026-09-29T12:27:10.486Z",
+      "ModelPattern": "CTK-x120"
     }
   ]
 }
