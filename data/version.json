@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "counts": {
-    "tablets": 393,
-    "pens": 144,
+    "tablets": 394,
+    "pens": 145,
     "penFamilies": 24,
     "tabletFamilies": 60,
     "drivers": 253,
@@ -119,7 +119,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "ff36ce48aa6c944421050f6308000b922887692c0982e6a4e8757fe891699e99",
+  "sourceDigest": "ad529695d499d5bc1238145713ff83f5b0670222684aa22f2ab5fe3c9a63d0ef",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -143,8 +143,8 @@
     },
     {
       "path": "tablets/HUION-tablets.json",
-      "sha256": "d85ac7d48b6a6ae0f26c2a7920f2b96a1ec72ccdc9ec35698e31aeaa3d5ebe6f",
-      "count": 69
+      "sha256": "7e57c551b1479034c779e6b3dc0d7c27af4f08d6f1c50bc92bacc64a3c68cd15",
+      "count": 70
     },
     {
       "path": "tablets/SAMSUNG-tablets.json",
@@ -198,8 +198,8 @@
     },
     {
       "path": "pens/HUION-pens.json",
-      "sha256": "3f5f876cf5096c3cd7eb926ec8b84af69fe87455358154ff11972769cf96e5ba",
-      "count": 19
+      "sha256": "dccf211aca0112fa1170853c46da9b8c71a233fe10379565499992bb6581b039",
+      "count": 20
     },
     {
       "path": "pens/LAMY-pens.json",

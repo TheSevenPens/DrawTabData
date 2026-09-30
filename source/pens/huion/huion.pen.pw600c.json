@@ -1,0 +1,21 @@
+{
+  "EntityId": "huion.pen.pw600c",
+  "Brand": "HUION",
+  "PenId": "PW600C",
+  "PenName": "PW600C",
+  "PenFamily": "huion.penfamily.huion_pw600",
+  "ReleaseYear": "2026",
+  "_id": "55ca7d8b-3da9-4866-8347-053f3d934cb9",
+  "_CreateDate": "2026-09-30T20:08:38.493Z",
+  "_ModifiedDate": "2026-09-30T20:08:57.456Z",
+  "PenTech": "PASSIVE_EMR",
+  "PressureSensitive": "YES",
+  "PressureLevels": "16384",
+  "Tilt": "YES",
+  "BarrelRotation": "NO",
+  "Hover": "YES",
+  "ButtonCount": "1",
+  "Wheel": "NO",
+  "Eraser": "NO",
+  "Shape": "THIN"
+}

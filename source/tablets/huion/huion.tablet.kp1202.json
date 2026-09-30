@@ -1,0 +1,121 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.kp1202",
+    "_id": "8a3a2451-e06c-461c-8b3b-255e8479a80a",
+    "_CreateDate": "2026-09-30T20:10:14.420Z",
+    "_ModifiedDate": "2026-09-30T20:10:14.420Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KP1202",
+    "Name": "Kamvas Pad 12",
+    "Type": "STANDALONE",
+    "Status": "ACTIVE",
+    "ReleaseYear": "2026",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.pw600c"
+    ],
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/kamvas-pad-12",
+        "Title": "Huion Kamvas Pad 12",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=LIXwSRkvejg",
+        "Title": "Teoh on Tech - Huion Kamvas Pad 12 (review)",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2026-09-07",
+        "ContentType": "VIDEO"
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=3URKxRcZ-Gk",
+        "Title": "Brad Colbow - huion kamvas pad 12 review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2026-09-08",
+        "ContentType": "VIDEO"
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=I6MxWzDY_LY",
+        "Title": "Adam Duff - Huion Kamvas Pad 12 (Budget Standalone Android Drawing Tablet)",
+        "Author": "Adam Duff",
+        "PublishDate": "2026-09-08",
+        "ContentType": "VIDEO"
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=OnEQSgQ2PCM",
+        "Title": "Gartzia Artz - The tablet Huion should have released 3 years ago | Kamvas Pad 12",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2026-09-30",
+        "ContentType": "VIDEO"
+      }
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 257.9,
+      "Height": 171.9
+    },
+    "Density": "200",
+    "ReportRate": "260",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "0.6"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2400,
+      "Height": 1600
+    },
+    "Brightness": "350",
+    "Contrast": "1000",
+    "ColorGamuts": {
+      "SRGB": 99
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 281.5,
+      "Height": 195.5,
+      "Depth": 7.8
+    },
+    "Weight": "665"
+  },
+  "OtherInputs": {
+    "Touch": "YES",
+    "Buttons": "0",
+    "Dials": "0",
+    "TouchRings": "0",
+    "TouchStrips": "0"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.4",
+    "Wifi": "2.4GHz, 5GHz"
+  },
+  "Standalone": {
+    "OS": "Android 16",
+    "Processor": "MediaTek Genio 720",
+    "RAM": "8",
+    "Storage": "256",
+    "ExpandableStorage": "YES",
+    "MemoryCardSlot": "microSD",
+    "BatteryCapacity": "8000"
+  }
+}
