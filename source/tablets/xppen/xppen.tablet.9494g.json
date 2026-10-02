@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.9494g",
     "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -186,6 +186,9 @@
     "Bluetooth": "YES",
     "BluetoothVersion": "5.1",
     "Wifi": "802.11a/b/g/n/ac"
+  },
+  "Power": {
+    "OutputWatts": "2"
   },
   "Standalone": {
     "OS": "Android 12",

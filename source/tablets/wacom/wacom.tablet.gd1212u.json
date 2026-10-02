@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.gd1212u",
     "_id": "ca0039b4-86c7-4683-bc32-104ffa430808",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -64,5 +64,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.5",
+    "ConsumptionWatts": "2"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.mdp1221",
     "_id": "e4f7a8b2-c3d1-4e5f-9a0b-1c2d3e4f5a6b",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -156,6 +156,10 @@
     "Bluetooth": "YES",
     "BluetoothVersion": "5.1",
     "Wifi": "802.11a/b/g/n/ac"
+  },
+  "Power": {
+    "InputVoltage": "9",
+    "InputCurrent": "2"
   },
   "Standalone": {
     "OS": "Android 14",

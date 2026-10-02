@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt2402",
     "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
     "_CreateDate": "2025-12-13T16:20:23.250Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -197,5 +197,9 @@
         "Type": "DC_POWER"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "19",
+    "InputCurrent": "3"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md180uh",
     "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -215,5 +215,9 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputCurrent": "2"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xencelabs.tablet.lph2412ua",
     "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XENCELABS",
@@ -132,5 +132,9 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputCurrent": "5"
   }
 }

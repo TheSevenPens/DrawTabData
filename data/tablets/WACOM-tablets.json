@@ -2760,7 +2760,7 @@
         "EntityId": "wacom.tablet.dtc121",
         "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2890,6 +2890,16 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3",
+        "InputSource": "USB_PD",
+        "AltInputVoltage": "9",
+        "AltInputCurrent": "2.77",
+        "AltInputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "14",
+        "StandbyWatts": "1.5"
       }
     },
     {
@@ -2897,7 +2907,7 @@
         "EntityId": "wacom.tablet.dtc133",
         "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3089,6 +3099,13 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2",
+        "ConsumptionMaxWatts": "10",
+        "StandbyWatts": "0.5",
+        "AdapterWatts": "10"
       }
     },
     {
@@ -3501,7 +3518,7 @@
         "EntityId": "wacom.tablet.dth134",
         "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3682,6 +3699,16 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3",
+        "InputSource": "USB_PD",
+        "AltInputVoltage": "9",
+        "AltInputCurrent": "2.77",
+        "AltInputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "15",
+        "StandbyWatts": "1.5"
       }
     },
     {
@@ -3689,7 +3716,7 @@
         "EntityId": "wacom.tablet.dth135",
         "_id": "8d4308af-a529-453e-a394-1a739a337785",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3872,6 +3899,14 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3",
+        "InputSource": "USB_PD",
+        "AltInputVoltage": "9",
+        "AltInputCurrent": "2.77",
+        "AltInputSource": "ADAPTER"
       }
     },
     {
@@ -3879,7 +3914,7 @@
         "EntityId": "wacom.tablet.dth1620",
         "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3982,6 +4017,12 @@
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Power": {
+        "InputVoltage": "20",
+        "InputCurrent": "2.25",
+        "ConsumptionMaxWatts": "33",
+        "StandbyWatts": "3"
       }
     },
     {
@@ -3989,7 +4030,7 @@
         "EntityId": "wacom.tablet.dth167",
         "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4159,6 +4200,10 @@
             "Type": "DC_POWER"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "5"
       }
     },
     {
@@ -4166,7 +4211,7 @@
         "EntityId": "wacom.tablet.dth172",
         "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4285,6 +4330,10 @@
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Power": {
+        "InputVoltage": "20",
+        "InputCurrent": "3.25"
       }
     },
     {
@@ -4342,7 +4391,7 @@
         "EntityId": "wacom.tablet.dth227",
         "_id": "f74b002f-cac5-4490-9ace-943893d53427",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4454,6 +4503,10 @@
       "OtherInputs": {
         "Touch": "YES",
         "Buttons": "8"
+      },
+      "Power": {
+        "InputVoltage": "19",
+        "InputCurrent": "8.4"
       }
     },
     {
@@ -4511,7 +4564,7 @@
         "EntityId": "wacom.tablet.dth2420",
         "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4670,6 +4723,9 @@
             "Type": "DC_POWER"
           }
         ]
+      },
+      "Power": {
+        "AdapterWatts": "180"
       }
     },
     {
@@ -4677,7 +4733,7 @@
         "EntityId": "wacom.tablet.dth246",
         "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4833,6 +4889,10 @@
             "Detail": "Video and data"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "20",
+        "InputCurrent": "1.8"
       }
     },
     {
@@ -4913,7 +4973,7 @@
         "EntityId": "wacom.tablet.dth271",
         "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5152,6 +5212,12 @@
             "Type": "DC_POWER"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "19",
+        "InputCurrent": "8.4",
+        "ConsumptionMaxWatts": "85",
+        "StandbyWatts": "1.5"
       }
     },
     {
@@ -5159,7 +5225,7 @@
         "EntityId": "wacom.tablet.dth3220",
         "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5294,6 +5360,9 @@
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Power": {
+        "AdapterWatts": "180"
       }
     },
     {
@@ -6430,7 +6499,7 @@
         "EntityId": "wacom.tablet.dtk1660",
         "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6572,6 +6641,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "3",
+        "ConsumptionMaxWatts": "27",
+        "StandbyWatts": "0.5",
+        "AdapterWatts": "36"
       }
     },
     {
@@ -6579,7 +6655,7 @@
         "EntityId": "wacom.tablet.dtk168",
         "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6723,6 +6799,14 @@
             "Type": "MINI_HDMI"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "9",
+        "InputCurrent": "2.77",
+        "InputSource": "ADAPTER",
+        "AltInputVoltage": "5",
+        "AltInputCurrent": "3",
+        "AltInputSource": "USB_PD"
       }
     },
     {
@@ -6902,7 +6986,7 @@
         "EntityId": "wacom.tablet.dtk2260",
         "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7049,6 +7133,11 @@
         ],
         "AttachedCable": [],
         "Bluetooth": "NO"
+      },
+      "Power": {
+        "ConsumptionMaxWatts": "48",
+        "StandbyWatts": "0.5",
+        "AdapterWatts": "60"
       }
     },
     {
@@ -7123,7 +7212,7 @@
         "EntityId": "wacom.tablet.dtk2420",
         "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7282,6 +7371,9 @@
             "Type": "DC_POWER"
           }
         ]
+      },
+      "Power": {
+        "AdapterWatts": "180"
       }
     },
     {
@@ -8234,7 +8326,7 @@
         "EntityId": "wacom.tablet.gd0405u",
         "_id": "fae00305-bb28-4557-ab7f-a446a189e2da",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8282,6 +8374,11 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.5",
+        "ConsumptionWatts": "2"
       }
     },
     {
@@ -8397,7 +8494,7 @@
         "EntityId": "wacom.tablet.gd0608u",
         "_id": "0da481a9-30de-499d-ad13-e4257f985488",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8445,6 +8542,11 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.5",
+        "ConsumptionWatts": "2"
       }
     },
     {
@@ -8560,7 +8662,7 @@
         "EntityId": "wacom.tablet.gd0912u",
         "_id": "ff77a7b3-3aba-4592-b58a-98203dec4a04",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8608,6 +8710,11 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.5",
+        "ConsumptionWatts": "2"
       }
     },
     {
@@ -8670,7 +8777,7 @@
         "EntityId": "wacom.tablet.gd1212u",
         "_id": "ca0039b4-86c7-4683-bc32-104ffa430808",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8731,6 +8838,11 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.5",
+        "ConsumptionWatts": "2"
       }
     },
     {
@@ -8793,7 +8905,7 @@
         "EntityId": "wacom.tablet.gd1218u",
         "_id": "56824bb9-2dcf-446d-9ce1-919554f42cef",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8841,6 +8953,11 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.5",
+        "ConsumptionWatts": "2"
       }
     },
     {
@@ -10402,7 +10519,7 @@
         "EntityId": "wacom.tablet.ptk1240",
         "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10486,6 +10603,10 @@
         "AttachedCable": [
           "USB_A"
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.3"
       }
     },
     {
@@ -11510,7 +11631,7 @@
         "EntityId": "wacom.tablet.ptz1230",
         "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11568,6 +11689,11 @@
           "USB_A"
         ],
         "Bluetooth": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "0.3",
+        "ConsumptionWatts": "1.5"
       }
     },
     {

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc133",
     "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -195,5 +195,12 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2",
+    "ConsumptionMaxWatts": "10",
+    "StandbyWatts": "0.5",
+    "AdapterWatts": "10"
   }
 }

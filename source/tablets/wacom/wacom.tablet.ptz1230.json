@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptz1230",
     "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -61,5 +61,10 @@
       "USB_A"
     ],
     "Bluetooth": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.3",
+    "ConsumptionWatts": "1.5"
   }
 }

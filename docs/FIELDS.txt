@@ -401,6 +401,77 @@ Format: string (e.g. "802.11a/b/g/n/ac", "Wi-Fi 6")
 Required: no
 
 
+## Power group
+
+Power the tablet needs and supplies, as the manufacturer states it.
+Allowed on all tablet types. Every field is optional; leave a field out
+when the manufacturer doesn't state it -- don't derive one value from
+another (e.g. don't compute InputWatts from volts x amps unless the spec
+sheet itself gives watts). Battery capacity and life for standalone
+devices stay in the Standalone group.
+
+### Power.InputVoltage
+The tablet's rated power input voltage (its DC or USB input, not the
+wall side of the adapter).
+Format: numeric string (e.g. "12", "5", "20")
+Unit: V
+Required: no
+
+### Power.InputCurrent
+The tablet's rated power input current.
+Format: numeric string (e.g. "1.5", "3")
+Unit: A
+Required: no
+
+### Power.InputWatts
+The tablet's rated input power, when the manufacturer states it in watts.
+Format: numeric string (e.g. "18", "65")
+Unit: W
+Required: no
+
+### Power.InputSource
+How the main input is supplied.
+Format: one of "ADAPTER" (the AC power adapter), "USB_PD" (the computer's
+USB-C Power Delivery port), "USB" (a plain USB port)
+Required: no
+
+### Power.AltInputVoltage / Power.AltInputCurrent / Power.AltInputSource
+A second way to power the same tablet, for displays whose spec lists two
+(e.g. Wacom Movink: USB-C PD 5 V 3 A, or AC adapter 9 V 2.77 A). Same
+units and values as InputVoltage / InputCurrent / InputSource.
+Required: no
+
+### Power.ConsumptionWatts
+Power consumption as the manufacturer states it (typical or rated).
+Format: numeric string (e.g. "10")
+Unit: W
+Required: no
+
+### Power.ConsumptionMaxWatts
+Maximum power consumption, when listed separately from typical.
+Format: numeric string (e.g. "26")
+Unit: W
+Required: no
+
+### Power.StandbyWatts
+Power consumption in standby / sleep.
+Format: numeric string (e.g. "0.5")
+Unit: W
+Required: no
+
+### Power.AdapterWatts
+Rated output of the power adapter included in the box.
+Format: numeric string (e.g. "30", "65")
+Unit: W
+Required: no
+
+### Power.OutputWatts
+Power the tablet can supply to a connected device, e.g. USB-C power
+delivery to a laptop through the tablet.
+Format: numeric string (e.g. "65")
+Unit: W
+Required: no
+
 ## Standalone group
 
 Compute, battery, and hardware specs. Present on STANDALONE only.

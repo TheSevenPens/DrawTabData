@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md220fh",
     "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -135,5 +135,9 @@
         "Type": "AUDIO_3_5MM"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputCurrent": "3"
   }
 }

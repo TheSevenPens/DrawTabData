@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd130fh",
     "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -170,5 +170,9 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2"
   }
 }

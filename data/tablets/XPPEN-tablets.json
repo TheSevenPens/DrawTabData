@@ -5,7 +5,7 @@
         "EntityId": "xppen.tablet.9494g",
         "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
         "_CreateDate": "2026-04-13T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -188,6 +188,9 @@
         "Bluetooth": "YES",
         "BluetoothVersion": "5.1",
         "Wifi": "802.11a/b/g/n/ac"
+      },
+      "Power": {
+        "OutputWatts": "2"
       },
       "Standalone": {
         "OS": "Android 12",
@@ -1031,7 +1034,7 @@
         "EntityId": "xppen.tablet.cd120fh",
         "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1175,6 +1178,10 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2"
       }
     },
     {
@@ -1182,7 +1189,7 @@
         "EntityId": "xppen.tablet.cd121fh",
         "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1391,6 +1398,10 @@
             "Detail": "3-in-1"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2"
       }
     },
     {
@@ -1398,7 +1409,7 @@
         "EntityId": "xppen.tablet.cd130fh",
         "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1565,6 +1576,10 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2"
       }
     },
     {
@@ -1572,7 +1587,7 @@
         "EntityId": "xppen.tablet.cd160fh",
         "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1723,6 +1738,10 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2"
       }
     },
     {
@@ -3446,7 +3465,7 @@
         "EntityId": "xppen.tablet.it1060",
         "_id": "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3515,6 +3534,10 @@
       },
       "Connectivity": {
         "Bluetooth": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "1"
       }
     },
     {
@@ -3522,7 +3545,7 @@
         "EntityId": "xppen.tablet.it1060b",
         "_id": "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3636,6 +3659,10 @@
       },
       "Connectivity": {
         "Bluetooth": "YES"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "1"
       }
     },
     {
@@ -3816,7 +3843,7 @@
         "EntityId": "xppen.tablet.md140fh",
         "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3959,6 +3986,10 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2.3"
       }
     },
     {
@@ -4162,7 +4193,7 @@
         "EntityId": "xppen.tablet.md160qh",
         "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4375,6 +4406,10 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3"
       }
     },
     {
@@ -4495,7 +4530,7 @@
         "EntityId": "xppen.tablet.md160uh",
         "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
         "_CreateDate": "2025-12-12T18:57:53.360Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4682,6 +4717,10 @@
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "2.5"
       }
     },
     {
@@ -4689,7 +4728,7 @@
         "EntityId": "xppen.tablet.md180uh",
         "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4901,6 +4940,10 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "2"
       }
     },
     {
@@ -4908,7 +4951,7 @@
         "EntityId": "xppen.tablet.md220fh",
         "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5040,6 +5083,10 @@
             "Type": "AUDIO_3_5MM"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "3"
       }
     },
     {
@@ -5047,7 +5094,7 @@
         "EntityId": "xppen.tablet.md220qh",
         "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5228,6 +5275,10 @@
             "Type": "AUDIO_3_5MM"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "3"
       }
     },
     {
@@ -5401,7 +5452,7 @@
         "EntityId": "xppen.tablet.md270uh",
         "_id": "7215483d-78a4-4cad-b6b8-b6acaea71091",
         "_CreateDate": "2026-04-22T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5555,6 +5606,10 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "5"
       }
     },
     {
@@ -5562,7 +5617,7 @@
         "EntityId": "xppen.tablet.mdp1221",
         "_id": "e4f7a8b2-c3d1-4e5f-9a0b-1c2d3e4f5a6b",
         "_CreateDate": "2026-04-13T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5716,6 +5771,10 @@
         "BluetoothVersion": "5.1",
         "Wifi": "802.11a/b/g/n/ac"
       },
+      "Power": {
+        "InputVoltage": "9",
+        "InputCurrent": "2"
+      },
       "Standalone": {
         "OS": "Android 14",
         "Processor": "MediaTek MT8781",
@@ -5736,7 +5795,7 @@
         "EntityId": "xppen.tablet.mnp1095",
         "_id": "c18123a6-c9c3-47cd-8a16-b3064069d79f",
         "_CreateDate": "2026-04-26T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5923,6 +5982,11 @@
           }
         ],
         "Wifi": "802.11a/b/g/n/ac"
+      },
+      "Power": {
+        "InputVoltage": "9",
+        "InputCurrent": "2.22",
+        "AdapterWatts": "20"
       },
       "Standalone": {
         "OS": "Android 14",
