@@ -256,6 +256,9 @@ const OtherInputsSchema = v.strictObject({
   MultimediaKeys: v.optional(NumericString),
   /** Scroll wheels / scrollers that are not rotary dials. */
   Scrollers: v.optional(NumericString),
+  /** Keys that switch between sets of button functions (Huion "Group Keys");
+   *  not assignable to shortcuts, so not counted in Buttons. */
+  SwitcherKeys: v.optional(NumericString),
   /** Mechanical rotary dials / wheels. */
   Dials: v.optional(NumericString),
   /** Touch-sensitive (capacitive) rings. */

@@ -367,6 +367,12 @@ not counted in Buttons, which only counts programmable buttons.
 Format: numeric string (e.g. "8")
 Required: no
 
+### OtherInputs.SwitcherKeys
+Keys that switch between sets of button functions (Huion's "Group Keys").
+Not assignable to shortcuts, so not counted in Buttons.
+Format: numeric string (e.g. "3")
+Required: no
+
 ### OtherInputs.Scrollers
 Scroll wheels / scrollers that aren't rotary dials (e.g. Huion's "Scroller").
 Format: numeric string (e.g. "1")

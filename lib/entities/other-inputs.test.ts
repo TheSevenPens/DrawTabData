@@ -35,6 +35,7 @@ describe("OtherInputs group", () => {
       "OtherInputsDials",
       "OtherInputsMultimediaKeys",
       "OtherInputsScrollers",
+      "OtherInputsSwitcherKeys",
       "OtherInputsTouchRings",
       "OtherInputsTouchStrips",
       "OtherInputsTouch",

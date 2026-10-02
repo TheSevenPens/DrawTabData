@@ -443,6 +443,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "OtherInputsDials", label: "Dials", getValue: (t) => t.OtherInputs?.Dials ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsMultimediaKeys", label: "Multimedia Keys", getValue: (t) => t.OtherInputs?.MultimediaKeys ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsScrollers", label: "Scrollers", getValue: (t) => t.OtherInputs?.Scrollers ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsSwitcherKeys", label: "Switcher Keys", getValue: (t) => t.OtherInputs?.SwitcherKeys ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsTouchRings", label: "Touch Rings", getValue: (t) => t.OtherInputs?.TouchRings ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsTouchStrips", label: "Touch Strips", getValue: (t) => t.OtherInputs?.TouchStrips ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsTouch", label: "Touch", getValue: (t) => t.OtherInputs?.Touch ?? "", type: "enum", enumValues: ["YES", "NO"], group: OTHER_INPUTS_GROUP },

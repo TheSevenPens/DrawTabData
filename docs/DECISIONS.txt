@@ -16,7 +16,9 @@ Decided by the author while reviewing the source checks:
 - Color depth: ColorBitDepth is the native panel depth; ColorBitDepthFRC
   holds the depth claimed with FRC, only when the manufacturer says FRC.
 - Buttons means programmable buttons only. Fixed multimedia keys go in
-  OtherInputs.MultimediaKeys and scroll wheels in OtherInputs.Scrollers.
+  OtherInputs.MultimediaKeys, scroll wheels in OtherInputs.Scrollers, and
+  "switcher" keys that change button sets (Huion Group Keys) in
+  OtherInputs.SwitcherKeys.
 
 ## 2026-10-02: Gamut coverage vs area, and surface coatings
 
