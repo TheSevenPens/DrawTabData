@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt116",
     "_id": "8dae172b-105b-47a5-82a6-5c3c2e377935",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -57,7 +57,7 @@
     "Brightness": "220",
     "Contrast": "1000",
     "ColorBitDepth": "8",
-    "ColorGamuts": {
+    "ColorGamutAreas": {
       "SRGB": 120
     },
     "Lamination": "YES",

@@ -133,7 +133,7 @@
         "EntityId": "ugee.tablet.u1200",
         "_id": "c1270aa6-c0ce-48fe-9a0b-1861ed699645",
         "_CreateDate": "2026-04-03T06:01:40.000Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -180,9 +180,11 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "SRGB": 127,
           "NTSC": 90,
           "ADOBERGB": 94
+        },
+        "ColorGamutAreas": {
+          "SRGB": 127
         },
         "Lamination": "YES",
         "AntiGlare": "AGFILM",
@@ -246,7 +248,7 @@
         "EntityId": "ugee.tablet.ue12",
         "_id": "47874a1b-e395-4d2a-b558-658dffcc2a83",
         "_CreateDate": "2026-04-03T06:01:40.000Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -275,9 +277,11 @@
         "Brightness": "200",
         "Contrast": "1000",
         "ColorGamuts": {
-          "SRGB": 124,
           "ADOBERGB": 90,
           "DCIP3": 90
+        },
+        "ColorGamutAreas": {
+          "SRGB": 124
         },
         "Lamination": "YES",
         "AntiGlare": "AGFILM"
@@ -298,7 +302,7 @@
         "EntityId": "ugee.tablet.ue12plus",
         "_id": "c756b5cf-75dc-4b44-89ff-787433c1cd7b",
         "_CreateDate": "2026-04-03T06:01:40.000Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -340,7 +344,7 @@
         },
         "Brightness": "200",
         "Contrast": "1000",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 147
         },
         "Lamination": "YES",
@@ -362,7 +366,7 @@
         "EntityId": "ugee.tablet.ue16",
         "_id": "ba2046ee-5f3c-4606-b542-72e779c545c9",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -408,7 +412,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 143,
           "NTSC": 104,
           "ADOBERGB": 109,

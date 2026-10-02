@@ -3,7 +3,7 @@
     "EntityId": "ugee.tablet.ue12",
     "_id": "47874a1b-e395-4d2a-b558-658dffcc2a83",
     "_CreateDate": "2026-04-03T06:01:40.000Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "UGEE",
@@ -32,9 +32,11 @@
     "Brightness": "200",
     "Contrast": "1000",
     "ColorGamuts": {
-      "SRGB": 124,
       "ADOBERGB": 90,
       "DCIP3": 90
+    },
+    "ColorGamutAreas": {
+      "SRGB": 124
     },
     "Lamination": "YES",
     "AntiGlare": "AGFILM"

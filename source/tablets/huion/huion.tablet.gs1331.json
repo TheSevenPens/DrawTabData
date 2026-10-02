@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1331",
     "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -156,7 +156,7 @@
     "Brightness": "220",
     "Contrast": "1000",
     "ColorBitDepth": "8",
-    "ColorGamuts": {
+    "ColorGamutAreas": {
       "SRGB": 120
     },
     "Lamination": "YES",

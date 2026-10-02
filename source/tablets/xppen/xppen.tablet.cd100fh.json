@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd100fh",
     "_id": "426c93bb-789a-480c-bb85-62f65cb0875d",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-09-25T14:43:45.125Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -55,8 +55,10 @@
     "Contrast": "1000",
     "ColorGamuts": {
       "NTSC": 85,
-      "SRGB": 120,
       "ADOBERGB": 88
+    },
+    "ColorGamutAreas": {
+      "SRGB": 120
     },
     "Lamination": "YES",
     "ViewingAngleHorizontal": "178",

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.artist133pro",
     "_id": "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -68,8 +68,10 @@
     "ColorBitDepth": "8",
     "ColorGamuts": {
       "NTSC": 88,
-      "SRGB": 123,
       "ADOBERGB": 91
+    },
+    "ColorGamutAreas": {
+      "SRGB": 123
     },
     "ResponseTime": "14",
     "ViewingAngleHorizontal": "178",

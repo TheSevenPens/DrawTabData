@@ -50,7 +50,22 @@ export const DimensionsSchema = v.strictObject({
   Depth: v.optional(v.number()),
 });
 
+// Coverage: the share of the standard's gamut the panel reproduces, so it
+// can never exceed 100%. Manufacturers also publish gamut *area* (the panel's
+// gamut size relative to the standard, e.g. "120% sRGB"), which can exceed
+// 100% and isn't comparable with coverage; that goes in ColorGamutAreas.
+const Coverage = v.pipe(v.number(), v.minValue(0), v.maxValue(100, "gamut coverage can't exceed 100%; use ColorGamutAreas for area ratios"));
 export const ColorGamutsSchema = v.strictObject({
+  SRGB: v.optional(Coverage),
+  ADOBERGB: v.optional(Coverage),
+  DCIP3: v.optional(Coverage),
+  DISPLAYP3: v.optional(Coverage),
+  NTSC: v.optional(Coverage),
+  REC709: v.optional(Coverage),
+});
+
+// Gamut area relative to each standard, in % (may exceed 100).
+export const ColorGamutAreasSchema = v.strictObject({
   SRGB: v.optional(v.number()),
   ADOBERGB: v.optional(v.number()),
   DCIP3: v.optional(v.number()),
@@ -176,8 +191,14 @@ const DisplaySchema = v.strictObject({
   Contrast: v.optional(NumericString),
   ColorBitDepth: v.optional(v.picklist(["6", "8", "10"])),
   ColorGamuts: v.optional(ColorGamutsSchema),
+  ColorGamutAreas: v.optional(ColorGamutAreasSchema),
   Lamination: v.optional(YesNo),
   AntiGlare: v.optional(v.picklist(["AGFILM", "ETCHEDGLASS", "FILM"])),
+  // Coatings on top of the anti-glare surface, as the manufacturer lists them
+  // (e.g. "AG + AF glass"). AntiGlare says how the matte surface is made;
+  // these say which coatings sit on it.
+  AntiFingerprint: v.optional(YesNo),
+  AntiReflection: v.optional(YesNo),
   ResponseTime: v.optional(NumericString),
   RefreshRate: v.optional(NumericString),
   ViewingAngleHorizontal: v.optional(NumericString),

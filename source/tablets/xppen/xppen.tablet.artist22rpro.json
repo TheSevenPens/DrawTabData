@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.artist22rpro",
     "_id": "e2d983ee-d901-4945-a1ea-3fd59a722e72",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -55,8 +55,10 @@
     "ColorBitDepth": "8",
     "ColorGamuts": {
       "NTSC": 88,
-      "SRGB": 120,
       "ADOBERGB": 90
+    },
+    "ColorGamutAreas": {
+      "SRGB": 120
     },
     "ResponseTime": "14"
   },

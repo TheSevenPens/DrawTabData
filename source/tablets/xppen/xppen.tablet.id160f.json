@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.id160f",
     "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -66,8 +66,10 @@
     "ColorBitDepth": "8",
     "ColorGamuts": {
       "NTSC": 88,
-      "SRGB": 125,
       "ADOBERGB": 92
+    },
+    "ColorGamutAreas": {
+      "SRGB": 125
     },
     "ResponseTime": "16.4",
     "ViewingAngleHorizontal": "178",
