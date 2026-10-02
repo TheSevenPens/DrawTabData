@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.l610",
     "_id": "0d85fd3d-7029-43c7-bd1e-3b6f0f1110d6",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T16:46:58.491Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -54,9 +54,8 @@
         "PublishDate": "2024-09-01",
         "ContentType": "VIDEO",
         "Check": {
-          "Status": "DEAD",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 401
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:46:56.000Z"
         }
       },
       {
