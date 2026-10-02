@@ -63,3 +63,36 @@ describe("IncludedPen checks", () => {
     ]);
   });
 });
+
+describe("IncludedPen vs pen-compat", () => {
+  function compatIssues(tabletIds: string[] | null) {
+    put("tablets/WACOM-tablets.json", {
+      DrawingTablets: [tablet({ ReleaseYear: "2016", IncludedPen: ["wacom.pen.kp504e"] })],
+    });
+    put("pens/WACOM-pens.json", {
+      Pens: [{ EntityId: "wacom.pen.kp504e", Brand: "WACOM", PenId: "KP-504E", ReleaseYear: "2016" }],
+    });
+    put("pen-compat/WACOM-pen-compat.json", {
+      PenCompat: tabletIds ? [{ Brand: "WACOM", PenId: "KP-504E", TabletIds: tabletIds }] : [],
+    });
+    return runDataQuality(dataDir)
+      .filter((i) => i.field === "PenCompat")
+      .map((i) => `${i.issue}: ${i.value}`);
+  }
+
+  it("accepts an included pen whose compat row lists the tablet", () => {
+    expect(compatIssues(["T0", "T1"])).toEqual([]);
+  });
+
+  it("reports an included pen whose compat row leaves the tablet out", () => {
+    expect(compatIssues(["T0"])).toEqual([
+      "ships a pen its pen-compat row doesn't list: wacom.pen.kp504e (add T1 to WACOM KP-504E)",
+    ]);
+  });
+
+  it("reports an included pen with no compat row at all", () => {
+    expect(compatIssues(null)).toEqual([
+      "ships a pen its pen-compat row doesn't list: wacom.pen.kp504e (add T1 to WACOM KP-504E)",
+    ]);
+  });
+});

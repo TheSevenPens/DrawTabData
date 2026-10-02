@@ -1752,7 +1752,7 @@
         "EntityId": "wacom.tablet.ctl4100wl",
         "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T19:57:22.862Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1840,7 +1840,8 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0"
+        "Tilt": "0",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -4733,7 +4734,7 @@
         "EntityId": "wacom.tablet.dth246",
         "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T19:57:18.221Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4857,8 +4858,8 @@
       },
       "Physical": {
         "Dimensions": {
-          "Width": 340,
-          "Height": 568,
+          "Width": 568,
+          "Height": 340,
           "Depth": 21
         },
         "Weight": "5000",
@@ -6655,7 +6656,7 @@
         "EntityId": "wacom.tablet.dtk168",
         "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+        "_ModifiedDate": "2026-10-02T19:57:21.120Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6767,8 +6768,8 @@
       },
       "Physical": {
         "Dimensions": {
-          "Width": 259,
-          "Height": 384,
+          "Width": 384,
+          "Height": 259,
           "Depth": 15
         },
         "Weight": "2000",
@@ -7381,7 +7382,7 @@
         "EntityId": "wacom.tablet.dtk246",
         "_id": "98f59bc7-4ba6-49f0-b3b2-4acafcffe64c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T19:57:19.680Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7454,8 +7455,8 @@
       },
       "Physical": {
         "Dimensions": {
-          "Width": 340,
-          "Height": 568,
+          "Width": 568,
+          "Height": 340,
           "Depth": 21
         },
         "Weight": "4800"
