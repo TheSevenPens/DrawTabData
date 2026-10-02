@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk670",
     "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:41.492Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -59,6 +59,7 @@
         "URL": "https://www.youtube.com/watch?v=Ko0sovi0rX4",
         "Title": "2025 Wacom Intuos Pro Review",
         "Author": "Brad Colbow",
+        "PublishDate": "2025-04-14",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -71,6 +72,7 @@
         "URL": "https://www.youtube.com/watch?v=Rf66Lqx9NFc",
         "Title": "2025 Intuos Pro - Everything You Need to Know (Review)",
         "Author": "Aaron Rutten",
+        "PublishDate": "2025-04-26",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -83,10 +85,88 @@
         "URL": "https://www.youtube.com/watch?v=Q2rH32pBpq0",
         "Title": "Notes on Wacom Intuos Pro 2025",
         "Author": "Seven Pens",
+        "PublishDate": "2025-04-23",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-intuos-pro-medium-m-ptk670k0a.html",
+        "Title": "Wacom Intuos Pro Medium (eStore)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=ZfB2MXQgAZc",
+        "Title": "Wacom Intuos pro 2025 review & comparison",
+        "Author": "JEEJON 技冏",
+        "PublishDate": "2025-11-03",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=KawJkmmDuPE",
+        "Title": "I Don't Recommend The New Intuos Pro 2025 Series",
+        "Author": "JEEJON 技冏",
+        "PublishDate": "2025-05-07",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Abegz9US7Lg",
+        "Title": "Unboxing the Wacom Intuos Pro 2025 - First Impressions",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2025-07-13",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Vs9IZ0cejKY",
+        "Title": "Wacom Intuos Pro 2025 Medium (PTK-670) Live Unboxing and Testing",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-03-31",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=fMjU-0ciml0",
+        "Title": "Live Wacom Intuos Pro 2025 PTK-670 medium testing and Q&A",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-03-31",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

@@ -12,7 +12,14 @@
       {
         "Type": "MANUFACTURERPRODUCTINFO",
         "URL": "https://www.huion.us/products/huion-kamvas-22",
-        "Author": "Huion"
+        "Title": "Redirecting...",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       }
     ],
     "Name": "Kamvas 22",

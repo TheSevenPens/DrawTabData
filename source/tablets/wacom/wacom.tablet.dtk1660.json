@@ -3,24 +3,12 @@
     "EntityId": "wacom.tablet.dtk1660",
     "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "DTK-1660",
     "Links": [
-      {
-        "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
-        "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 200
-        }
-      },
       {
         "Type": "MANUFACTURERUSERMANUAL",
         "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html",
@@ -59,7 +47,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=ye8R0LAbkiE",
-        "Title": "Brad Colbow review of Wacom Cintiq 16",
+        "Title": "Wacom Cintiq 16 Review (A $650 Wacom Drawing Tablet!)",
         "Author": "Brad Colbow",
         "PublishDate": "2019-01-08",
         "ContentType": "VIDEO",
@@ -72,7 +60,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/6_tMU5z6s9s",
-        "Title": "Ross Draws review of Wacom Cintiq 16",
+        "Title": "Wacom Cintiq 16 Review + SKETCH!",
         "Author": "Ross Draws",
         "PublishDate": "2019-02-22",
         "ContentType": "VIDEO",
@@ -85,7 +73,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/nXrFULq096A",
-        "Title": "Aaron Rutten review of Wacom Cintiq 16",
+        "Title": "Wacom CINTIQ 16 - Drawing Tablet Review",
         "Author": "Aaron Rutten",
         "PublishDate": "2019-01-07",
         "ContentType": "VIDEO",
@@ -98,7 +86,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/v4qDRupCLHY",
-        "Title": "MobileTechReview review of Wacom Cintiq 16",
+        "Title": "Wacom Cintiq 16 Review - the Much More Affordable Cintiq",
         "Author": "MobileTechReview",
         "PublishDate": "2019-01-08",
         "ContentType": "VIDEO",

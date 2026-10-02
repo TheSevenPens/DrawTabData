@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc141",
     "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T15:30:02.418Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -48,13 +48,77 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=GKxx9Vwz79U",
-        "Title": "Brad Colbow - Review of the Wacom One 14",
+        "Title": "Wacom One 14 Review",
         "Author": "Brad Colbow",
-        "PublishDate": "2024-11-10",
+        "PublishDate": "2025-11-10",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-one-14-dtc141w0.html",
+        "Title": "Wacom One 14 Pen Display",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=XDZzzs6e7zU",
+        "Title": "Wacom One 14 Review (with Comparisons to 13 Touch & MovinkPad)",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2026-02-05",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=eDu-6BBp8JI",
+        "Title": "Notes on Wacom One 14 (DTC-141)",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-10-15",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=v8kZk0eldHI",
+        "Title": "DRAFT Review of Wacom One 14 (DTC-141)",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-10-10",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=mz7-ufAIXcw",
+        "Title": "Unboxing and Testing: Wacom One 14 (DTC-141)",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-09-29",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

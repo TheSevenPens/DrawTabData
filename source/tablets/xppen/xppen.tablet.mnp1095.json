@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.mnp1095",
     "_id": "c18123a6-c9c3-47cd-8a16-b3064069d79f",
     "_CreateDate": "2026-04-26T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -24,7 +24,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=bGotT7ciMhA",
-        "Title": "Teoh on Tech - Review of Magic Drawing Pad 2025 with Magic Note Pad",
+        "Title": "XPPen Magic Drawing Pad vs Magic Note Pad",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-08-26",
         "ContentType": "VIDEO",
@@ -37,7 +37,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=EDYnCV500ls",
-        "Title": "Brad Colbow - XP Pen Magic Note Pad Review",
+        "Title": "XP Pen Magic Note Pad Review",
         "Author": "Brad Colbow",
         "PublishDate": "2025-03-20",
         "ContentType": "VIDEO",
@@ -50,7 +50,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=NBQVDfx1WtA",
-        "Title": "Teoh on Tech - Note taking and JNotes review with XPPEN MAGIC NOTE PAD",
+        "Title": "Note taking and JNotes review with XPPEN MAGIC NOTE PAD",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-03-26",
         "ContentType": "VIDEO",
@@ -63,13 +63,76 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=yXoHq2offvU",
-        "Title": "Teoh on Tech - XPPen Magic Note Pad (artist review): Read, write & draw",
+        "Title": "XPPen Magic Note Pad (artist review): Read, write & draw",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-03-18",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/magic-note-pad.html",
+        "Title": "Magic Note Pad",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/magic-note-pad-1095.html",
+        "Title": "magic-note-pad-1095",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/artist-review-xppen-magic-note-pad",
+        "Title": "Artist Review: XPPen Magic Note Pad",
+        "Author": "Parka Blogs",
+        "PublishDate": "2025-03-19",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=jS5Jman-4zg",
+        "Title": "Live Unboxing & Review of XP-Pen Magic Note pad",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-03-23",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=o9KLfVRGwLY",
+        "Title": "¿El mejor \"EBook\" que existe? Review a fondo XP Pen Magic Note Pad",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2025-04-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

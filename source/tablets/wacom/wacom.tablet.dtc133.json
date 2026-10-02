@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc133",
     "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:33.784Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -11,13 +11,13 @@
     "Links": [
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
-        "Title": "Wacom One DTC141 : Pen Display",
+        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-gen1",
+        "Title": "Wacom One (Gen. 1)",
         "Author": "Wacom",
         "ContentType": "HTML",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       },
@@ -34,17 +34,6 @@
         }
       },
       {
-        "Type": "STORE",
-        "URL": "https://estore.wacom.com/en-us/wacom-one-x-shape-cable.html",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "BLOCKED",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 403
-        }
-      },
-      {
         "Type": "PRODUCTINFO",
         "URL": "https://www.wacom.com/en-us/comp",
         "Title": "Compatibility",
@@ -52,15 +41,16 @@
         "ContentType": "HTML",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=D4DFFH-hPr8",
-        "Title": "Aaron Rutten review of Wacom One 2019 DTC-133",
+        "Title": "WACOM ONE 1st Gen. - Review",
         "Author": "Aaron Rutten",
+        "PublishDate": "2020-01-16",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -71,8 +61,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=EFvpOWZDGUU",
-        "Title": "Brad Colbow review of Wacom One 2018 DTC-133",
+        "Title": "REVIEW: The Wacom One",
         "Author": "Brad Colbow",
+        "PublishDate": "2020-01-27",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -83,21 +74,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=Hv2dpHkLAOE",
-        "Title": "Teoh On Tech review of Wacom One 2019 DTC-133",
-        "Author": "Teoh On Tech",
-        "ContentType": "VIDEO",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:51:48.289Z",
-          "HttpStatus": 200
-        }
-      },
-      {
-        "Type": "REVIEW",
-        "URL": "https://www.youtube.com/watch?v=rCXvaMhW3xI",
-        "Title": "Teoh on Tech - Wacom One pen vs other EMR pens",
+        "Title": "Review: Wacom One 13.3\" Pen Display",
         "Author": "Teoh on Tech",
-        "PublishDate": "2023-09-07",
+        "PublishDate": "2020-02-13",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -108,12 +87,52 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/VPbAUF7AZhA",
-        "Title": "Create Now Sleep Later review of Wacom One 2019 DTC-133",
+        "Title": "Wacom One Pen Display | Good as Cintiq?",
         "Author": "Create Now Sleep Later",
+        "PublishDate": "2020-01-20",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-wacom-one-133-inch-pen-display",
+        "Title": "Review: Wacom One 13.3-inch pen display",
+        "Author": "Parka Blogs",
+        "PublishDate": "2020-02-11",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=FLHf2G8CxEQ",
+        "Title": "Wacom One vs iPad",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2020-02-14",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=lQGeqT6YA7Y",
+        "Title": "Wacom One 13 Touch - 1st Gen. VS 2nd Gen. (2023) - Comparison",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2023-09-19",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

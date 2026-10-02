@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc121",
     "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:29.521Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -11,13 +11,13 @@
     "Links": [
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.wacom.com/en-us/products/wacom-one",
-        "Title": "Wacom One DTC141 : Pen Display",
+        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-pen-tablet",
+        "Title": "Wacom One: creative pen display and pen tablet",
         "Author": "Wacom",
         "ContentType": "HTML",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       },
@@ -30,6 +30,44 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.wacom.com/en-us/comp",
+        "Title": "Compatibility",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=X_FrZGl0lYM",
+        "Title": "Wacom One 12 & 13 Touch (2023) - Review",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2023-09-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=SBlliNcRKNw",
+        "Title": "Wacom One 12\" Pen Display Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2023-08-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

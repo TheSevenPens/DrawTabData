@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud1212r",
     "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-09-28T01:40:06.979Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -19,6 +19,20 @@
     "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
     "AlternateNames": [
       "UltraPad A4"
+    ],
+    "Links": [
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+        "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      }
     ]
   },
   "Digitizer": {

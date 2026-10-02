@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.hs611",
     "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:37:34.327Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -23,34 +23,32 @@
       },
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.huion.com/pen_tablet/HS/huion-hs611.html",
+        "URL": "https://www.huion.com/products/hs611",
         "Title": "Huion HS611 Slim Pen Tablet",
         "Author": "Huion",
         "ContentType": "HTML",
         "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.huion.com/products/hs611"
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
         }
       },
       {
-        "Type": "USERMANUAL",
-        "URL": "https://www.huion.com/user-manual-69",
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.huion.com/manual/hs611",
         "Title": "HUION Manual",
         "Author": "Huion",
         "ContentType": "HTML",
         "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.huion.com/manual/hs611"
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
         }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=1RcUCSL5azU",
-        "Title": "Teoh on Tech review of Huion HS611",
+        "Title": "Review: Huion HS611 drawing tablet (10 x 6\", tilt, Android)",
         "Author": "Teoh on Tech",
         "PublishDate": "2021-02-14",
         "ContentType": "VIDEO",
@@ -63,7 +61,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=IHV7LsbxqsU",
-        "Title": "Brad Colbow review of Huion HS611",
+        "Title": "Huion HS611 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2020-03-23",
         "ContentType": "VIDEO",
@@ -76,13 +74,25 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=WEXXbXDrd-Y",
-        "Title": "Nemanja Sekulic review of Huion HS611",
+        "Title": "Huion HS611 Drawing Tablet review | All you need?",
         "Author": "Nemanja Sekulic",
         "PublishDate": "2020-04-28",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/huion-hs611",
+        "Title": "Huion HS611",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

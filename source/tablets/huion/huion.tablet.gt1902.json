@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt1902",
     "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T15:29:58.159Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -12,7 +12,7 @@
       {
         "Type": "PRODUCTINFO",
         "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
-        "Title": "**see this doc**",
+        "Title": "List of Compatible Devices Support USB-C to USB-C Connection with Huion Displays",
         "Author": "Huion",
         "ContentType": "HTML",
         "Check": {
@@ -23,33 +23,20 @@
       },
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
+        "URL": "https://www.huion.com/products/kamvas-pro-19",
         "Title": "Huion Kamvas Pro 19 - 4K Touch Screen Drawing Tablet with PenTech 4.0",
         "Author": "Huion",
         "ContentType": "HTML",
         "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.huion.com/products/kamvas-pro-19"
-        }
-      },
-      {
-        "Type": "REVIEW",
-        "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
-        "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
-        "Author": "Seven Pens",
-        "ContentType": "VIDEO",
-        "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=5AWpKgv8jdY",
-        "Title": "Create Now Sleep Later - Review of the Huion Kamvas Pro 19",
+        "Title": "Huion Kamvas Pro 19 Review: Can It beat the Wacom Cintiq? 🎨🖊️",
         "Author": "Create Now Sleep Later",
         "PublishDate": "2024-09-15",
         "ContentType": "VIDEO",
@@ -62,21 +49,21 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
-        "Title": "Brad Colbow - Wacom Cintiq Pro 17 vs Huion Kamvas Pro 19",
+        "Title": "Wacom Cintiq Pro 17 -VS- Huion Kamvas Pro 19",
         "Author": "Brad Colbow",
         "PublishDate": "2024-03-04",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
-        "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
-        "Author": "SevenPens",
+        "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+        "Author": "Seven Pens",
         "PublishDate": "2024-03-05",
         "ContentType": "VIDEO",
         "Check": {
@@ -88,8 +75,8 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=Hf01mwaGtdI",
-        "Title": "EyeKooDraws - Review of Huion Kamvas Pro 19",
-        "Author": "EyeKooDraws",
+        "Title": "Huion goes for gold - Kamvas Pro 19 Drawing Tablet Review",
+        "Author": "EyekooDrawsStuff",
         "PublishDate": "2025-09-13",
         "ContentType": "VIDEO",
         "Check": {
@@ -101,7 +88,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=hvrPw6mlrlQ",
-        "Title": "claybrush review of Huion Kamvas Pro 19",
+        "Title": "4K Display Pen Tablet for Digital Art | @HuionTablet  Kamvas Pro 19",
         "Author": "claybrush",
         "PublishDate": "2024-01-09",
         "ContentType": "VIDEO",
@@ -114,7 +101,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=M9VbiVJX-J4",
-        "Title": "David Revoy - Huion Kamvas Pro 19",
+        "Title": "Huion Kamvas Pro 19 - review",
         "Author": "David Revoy",
         "PublishDate": "2024-11-21",
         "ContentType": "VIDEO",
@@ -127,7 +114,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=oSdZYmkOGKE",
-        "Title": "Teoh on Tech - Huion Kamvas Pro 19 review: 4K touchscreen pen display",
+        "Title": "Huion Kamvas Pro 19 review: 4K touchscreen pen display",
         "Author": "Teoh on Tech",
         "PublishDate": "2024-06-21",
         "ContentType": "VIDEO",
@@ -140,7 +127,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=t-Qo1jTVibY",
-        "Title": "Yanick Paquette review of Huion Kamvas Pro 19",
+        "Title": "Yanick's Huion Kamvas Pro 19 Review.",
         "Author": "Yanick Paquette",
         "PublishDate": "2024-02-21",
         "ContentType": "VIDEO",
@@ -153,7 +140,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=WxdFXfuPvN4",
-        "Title": "Brad Colbow review of the Huion Kamvas Pro 19",
+        "Title": "Huion Kamvas Pro 19 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2024-02-14",
         "ContentType": "VIDEO",
@@ -166,7 +153,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=znKvWJON_k8",
-        "Title": "Trent Kaniuga - Review of Huion Kamvas Pro 19",
+        "Title": "The HUION KAMVAS PRO 19 is...  VERY IMPRESSIVE!",
         "Author": "Trent Kaniuga",
         "PublishDate": "2024-12-16",
         "ContentType": "VIDEO",
@@ -177,14 +164,52 @@
         }
       },
       {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/kamvas-pro-19",
+        "Title": "Huion Store - Kamvas Pro 19",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
         "Type": "REVIEW",
-        "URL": "https://youtu.be/CnTBrhUhciM",
-        "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
-        "Author": "Seven Pens",
+        "URL": "https://www.parkablogs.com/content/review-huion-kamvas-pro-19-pen-display-2024-touch-support",
+        "Title": "Review: Huion Kamvas Pro 19 pen display (2024) with touch support",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=LfGWH_p7MB4",
+        "Title": "Huion Kamvas Pro 19 vs XPPen Artist Pro 19 (gen 2) pen displays",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2024-10-30",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=5zoTQu0S0us",
+        "Title": "¡LA HUION KAMVAS PRO 19 ES INCREIBLE!",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2024-11-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

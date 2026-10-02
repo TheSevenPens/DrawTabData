@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md160qh",
     "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:40:54.294Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -34,19 +34,7 @@
         }
       },
       {
-        "Type": "PRODUCTINFO",
-        "URL": "https://www.xp-pen.com/store/buy/3-in-1-cable-for-artist-2nd-gen-series-display.html",
-        "Title": "3 in 1 Cable for Artist 2nd Series Display",
-        "Author": "XP-Pen",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200
-        }
-      },
-      {
-        "Type": "USERMANUAL",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://www.xp-pen.com/user-manual/artist-pro-16-2nd.html",
         "Title": "artist-pro-16-2nd",
         "Author": "XP-Pen",
@@ -60,7 +48,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=41pv6STOBhY",
-        "Title": "MossCharmly - Huion Kamvas Pro 16 vs. XPpen Artist Pro 16",
+        "Title": "Huion Kamvas pro16 2.5K vs. XP-pen Artist pro16 GEN2",
         "Author": "MossCharmly",
         "ContentType": "VIDEO",
         "Check": {
@@ -72,7 +60,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/d3Th_HD0tbE?si=5tIvFmxSM2nvS1jh",
-        "Title": "Grant Abbitt review of XPPen Artist Pro (GEN 2)",
+        "Title": "My favourite Display Tablet - XPPen Artist Pro 2nd Gen",
         "Author": "Grant Abbitt",
         "PublishDate": "2023-08-20",
         "ContentType": "VIDEO",
@@ -85,13 +73,84 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/sc4tebm4TTw?si=Y18_c25g6BUvzwk3",
-        "Title": "Teoh on Tech review of XPPen Artist Pro 16 (GEN 2) review",
+        "Title": "XPPen Artist Pro 16 (gen 2) review: Huge upgrade over older model",
         "Author": "Teoh on Tech",
         "PublishDate": "2023-09-09",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/artist-pro-16-gen2.html",
+        "Title": "Artist Pro 16 (Gen 2) Pen Display Tablet | XPPen US Official Store",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=NF-zDMfmgY8",
+        "Title": "XP-Pen Artist Pro 16 (Gen 2) Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2023-09-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=gmmIwkvZagU",
+        "Title": "XPPen Artist Pro 16 (Gen 2) - review on GNU/Linux",
+        "Author": "David Revoy",
+        "PublishDate": "2023-11-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.davidrevoy.com/article1004/xppen-artist-pro-16-gen-2-review-on-gnulinux",
+        "Title": "XPPen Artist Pro 16 (Gen 2) - review on GNU/Linux",
+        "Author": "David Revoy",
+        "PublishDate": "2023-11-17"
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=3UpKDJgppcA",
+        "Title": "¡SE HAN PASADO EL JUEGO! La mejor tableta gráfica | Review tras 4 meses XP Pen Artist Pro 16 Gen 2",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2023-10-10",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=kqX05ld4oDY",
+        "Title": "Notes on XP-Pen Artist Pro 16 GEN2 (MD160QH)",
+        "Author": "Seven Pens",
+        "PublishDate": "2024-10-27",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

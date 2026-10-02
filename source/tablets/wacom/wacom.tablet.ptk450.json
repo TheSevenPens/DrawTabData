@@ -3,20 +3,33 @@
     "EntityId": "wacom.tablet.ptk450",
     "_id": "7b7e2368-695a-417a-b6c9-50e79092911b",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "PTK-450",
     "Links": [
       {
-        "Type": "MANUFACTURERPRODUCTINFO",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
         "Author": "Wacom",
         "ContentType": "PDF",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=4bNXtZCVg54",
+        "Title": "Wacom Intuos 5 Review",
+        "Author": "Terry Lee White",
+        "PublishDate": "2012-03-15",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth246",
     "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:03.483Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -36,7 +36,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=0mXPOLiSNv0",
-        "Title": "Brad Colbow - Wacom Cintiq 24 Touch Review",
+        "Title": "Wacom Cintiq 24 Touch Review",
         "Author": "Brad Colbow",
         "PublishDate": "2025-07-28",
         "ContentType": "VIDEO",
@@ -49,7 +49,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=Oo4m5EgCSWE",
-        "Title": "Aaron Rutten - review of Cintiq 24 touch",
+        "Title": "2025 Wacom Cintiq 24 Touch (Review)",
         "Author": "Aaron Rutten",
         "PublishDate": "2025-07-01",
         "ContentType": "VIDEO",
@@ -61,14 +61,27 @@
       },
       {
         "Type": "REVIEW",
-        "URL": "https://youtube.com/live/1q3xNSkTW54?feature=share",
-        "Title": "Drawing",
+        "URL": "https://www.youtube.com/watch?v=Lm-5X-gFtuw",
+        "Title": "New Wacom Cintiq 24 Touch (2025) unboxing and testing",
+        "Author": "Seven Pens",
         "PublishDate": "2025-06-25",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-24-touch-dth246k0a.html",
+        "Title": "Wacom Cintiq 24 Touch (eStore)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
         }
       }
     ],

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.9494g",
     "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -18,6 +18,108 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/magic-drawing-pad.html",
+        "Title": "magic-drawing-pad",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=1VWWiR6zlbs",
+        "Title": "XP Pen Magic Drawing Pad - 1 Year Later",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-02-04",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=6Ko-SgLJ26U",
+        "Title": "XP-Pen Magic Drawing Pad Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2024-01-22",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=gVfGU_3-SyY",
+        "Title": "XPPen Magic Drawing Pad (review): Surprisingly good but...",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2024-01-29",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/magic-drawing-pad.html",
+        "Title": "Magic Drawing Pad",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xppen-magic-drawing-pad-122-inch-android-tablet-artists",
+        "Title": "Review: XPPen Magic Drawing Pad: 12.2-inch Android tablet for artists",
+        "Author": "Parka Blogs",
+        "PublishDate": "2024-01-28",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=CM70CPu1T44",
+        "Title": "LA MEJOR TABLET DE DIBUJO! Grande y barata | Review XP Pen Magic Drawing Pad",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2024-01-22",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=8pdH_Ib7ENM",
+        "Title": "Magic Drawing Pad Review - XPPEN's first Android tablet",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2025-06-29",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

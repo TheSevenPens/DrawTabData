@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs2203",
     "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
     "_CreateDate": "2026-04-01T21:44:35.000Z",
-    "_ModifiedDate": "2026-09-28T01:37:12.834Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -22,7 +22,7 @@
         }
       },
       {
-        "Type": "PRODUCTINFO",
+        "Type": "MANUFACTURERPRODUCTINFO",
         "URL": "https://www.huion.com/products/kamvas-22-gen-3",
         "Title": "Huion Kamvas 22 (Gen 3) - 22-Inch Drawing Tablet Benchmark | 2.5K Display",
         "Author": "Huion",
@@ -36,8 +36,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=2mSJLNawCO4",
-        "Title": "Gartzia Artz - HUION IS BACK | Kamvas 22 gen 3 The new Queen Great Quality/Price",
+        "Title": "HUION HA VUELTO | Kamvas 22 gen 3 La nueva Reina Calidad / Precio grande",
         "Author": "Gartzia Artz",
+        "PublishDate": "2026-03-03",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -48,8 +49,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=IDvACjevj2A",
-        "Title": "Adam Duff LUCIDPIXUL - HUION Kamvas 22 (Gen 3) - A Turning Point For Huion!",
+        "Title": "HUION Kamvas 22 (Gen 3) - A Turning Point For Huion!",
         "Author": "Adam Duff LUCIDPIXUL",
+        "PublishDate": "2026-03-03",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -60,8 +62,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=Mbijan2Gm9U",
-        "Title": "Teoh on Tech - Huion Kamvas 22 (Gen 3) review: Sleek upgrade",
+        "Title": "Huion Kamvas 22 (Gen 3) review: It's been 6 years",
         "Author": "Teoh on Tech",
+        "PublishDate": "2026-03-03",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -72,12 +75,38 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=OkoLPFYgiRU",
-        "Title": "Brad Colbow - Huion Kamvas 22 (Gen 3) Review",
+        "Title": "Huion Kamvas 22 (Gen 3) Review",
         "Author": "Brad Colbow",
+        "PublishDate": "2026-03-05",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/kamvas-22-gen-3",
+        "Title": "Huion Store - Kamvas 22 (Gen 3)",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=r70dDzgDd8U",
+        "Title": "Unboxing & Testing: Huion Kamvas 22 GEN3 (GS2203)",
+        "Author": "Seven Pens",
+        "PublishDate": "2026-03-08",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

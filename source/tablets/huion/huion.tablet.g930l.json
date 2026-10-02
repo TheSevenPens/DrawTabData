@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.g930l",
     "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:36:51.284Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -23,33 +23,32 @@
       },
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.huion.com/pen_tablet/InspiroyGiano/inspiroy-giano.html",
+        "URL": "https://www.huion.com/products/inspiroy-giano",
         "Title": "Huion Inspiroy Giano - Professional Bluetooth 5.0 Pen Tablet",
         "Author": "Huion",
         "ContentType": "HTML",
         "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.huion.com/products/inspiroy-giano"
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
         }
       },
       {
-        "Type": "USERMANUAL",
-        "URL": "https://www.huion.com/manaul_pdf/en/Inspiroy%20Giano.pdf",
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.huion.com/manual/inspiroy-giano",
+        "Title": "HUION Manual - Inspiroy Giano",
         "Author": "Huion",
-        "ContentType": "PDF",
+        "ContentType": "HTML",
         "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.huion.com/404"
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
         }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=03auOS8lgAE",
-        "Title": "Anna Sok review of Huion Inspiroy Giano G930L",
+        "Title": "IT'S HUGE! Huion Inspiroy Giano Review and Painting on Mac, PC, Android //graphic tablet for PROS",
         "Author": "Anna Sok",
         "PublishDate": "2022-10-04",
         "ContentType": "VIDEO",
@@ -62,7 +61,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=2XcP_Db9e_w",
-        "Title": "Teoh on Tech review of Huion Inspiroy Giano G930L",
+        "Title": "Huion Inspiroy Giano G930L (review): Largest Bluetooth Drawing Tablet",
         "Author": "Teoh on Tech",
         "PublishDate": "2022-05-25",
         "ContentType": "VIDEO",
@@ -75,7 +74,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=CcrTe2J5Ho8",
-        "Title": "Create Now Sleep Later review of Huion Inspiroy Giano G930L",
+        "Title": "Huion Inspiroy Giano Review | LARGE Graphics Pen Tablet",
         "Author": "Create Now Sleep Later",
         "PublishDate": "2022-08-08",
         "ContentType": "VIDEO",
@@ -88,13 +87,64 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=DiRwtSonevY",
-        "Title": "Brad Colbow review of Huion Inspiroy Giano G930L",
+        "Title": "Huion Inspiroy Giano Review",
         "Author": "Brad Colbow",
         "PublishDate": "2022-07-06",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://sweetmonia.com/Sweet-Drawing-Blog/huion-inspiroy-giano-graphics-tablet-review-a-large-drawing-area-for-your-heart-content/",
+        "Title": "Huion Inspiroy Giano graphics tablet Review:- a large drawing area for your heart content",
+        "Author": "SweetMonia",
+        "PublishDate": "2024-03-14",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/inspiroy-giano",
+        "Title": "Huion Store - Inspiroy Giano",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=43dZC0j0T1k",
+        "Title": "Reviewing Huion's HUGE Inspiroy Giano for digital drawing and painting",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2023-05-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=RAHxGExeAgU",
+        "Title": "¿WACOM INTUOS PRO L KILLER? HUION INSPIROY GIANO REVIEW En Español | Tableta gráfica inalámbrica XL",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2022-07-15",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

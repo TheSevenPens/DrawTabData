@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.it1060",
     "_id": "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:40:45.781Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -11,38 +11,37 @@
     "Links": [
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.xp-pen.com/product/1168.html",
-        "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
-        "Author": "XP-Pen",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html"
-        }
-      },
-      {
-        "Type": "PRODUCTINFO",
-        "URL": "https://www.xp-pen.com/download/deco-lw.html",
-        "Title": "Deco LW|Drivers Download",
-        "Author": "XP-Pen",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200
-        }
-      },
-      {
-        "Type": "PRODUCTINFO",
         "URL": "https://www.xp-pen.com/product/deco-l-deco-lw-bluetooth.html",
         "Title": "Deco L & Deco LW Bluetooth Drawing Tablet",
         "Author": "XP-Pen",
         "ContentType": "HTML",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/deco-l.html",
+        "Title": "XPPen Deco L Drawing Tablet User Manual",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/review-xp-pen-deco-lw-pen-tablet-bluetooth",
+        "Title": "Review: XP-Pen Deco LW pen tablet (Bluetooth)",
+        "Author": "Parka Blogs",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

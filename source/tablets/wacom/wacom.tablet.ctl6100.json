@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl6100",
     "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:16.783Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -30,6 +30,32 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=H-ZYte_UOVM",
+        "Title": "Wacom Intuos Small / Medium (2018) Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2018-03-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=WLclWCHmrjg",
+        "Title": "INTUOS Small & Medium - Wacom Drawing Tablet for Beginners (Review) ✏️",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2018-03-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

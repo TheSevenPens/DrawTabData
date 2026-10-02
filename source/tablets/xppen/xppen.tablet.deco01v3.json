@@ -3,14 +3,14 @@
     "EntityId": "xppen.tablet.deco01v3",
     "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
     "Id": "DECO01V3",
     "Links": [
       {
-        "Type": "PRODUCTINFO",
+        "Type": "MANUFACTURERPRODUCTINFO",
         "URL": "https://www.xp-pen.com/product/deco-01-v3.html",
         "Title": "Deco 01 V3: Deco 01 V2's upgraded version",
         "Author": "XP-Pen",
@@ -22,7 +22,7 @@
         }
       },
       {
-        "Type": "MANUFACTURERPRODUCTINFO",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
         "Title": "deco-01-v3",
         "Author": "XP-Pen",
@@ -36,7 +36,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
-        "Title": "Brad Colbow - Review of Deco 01 V3",
+        "Title": "The Cheapest Drawing Tablet That I Recommend - XP Pen Deco 1 v3",
         "Author": "Brad Colbow",
         "PublishDate": "2026-04-30",
         "ContentType": "VIDEO",
@@ -45,6 +45,38 @@
           "CheckedAt": "2026-08-10T18:52:57.144Z",
           "HttpStatus": 200
         }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/deco-01-v3.html",
+        "Title": "Deco 01 V3 Drawing Pen Tablet | XPPen US Official Store",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=trXxX3ZY5FM",
+        "Title": "XpPen Deco 01V3 - review on GNU/Linux",
+        "Author": "David Revoy",
+        "PublishDate": "2025-03-05",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.davidrevoy.com/article1066/xppen-deco-01v3-review-on-gnulinux",
+        "Title": "XpPen Deco 01V3 - review on GNU/Linux",
+        "Author": "David Revoy",
+        "PublishDate": "2025-03-04"
       }
     ],
     "Name": "Deco 01 V3",

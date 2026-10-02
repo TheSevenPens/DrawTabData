@@ -3,24 +3,12 @@
     "EntityId": "wacom.tablet.pth660",
     "_id": "01d122e2-5c75-47df-bc91-171476994174",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:03:19.296Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "PTH-660",
     "Links": [
-      {
-        "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
-        "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 200
-        }
-      },
       {
         "Type": "MANUFACTURERUSERMANUAL",
         "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
@@ -42,6 +30,45 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=bbOGvAW3o-M",
+        "Title": "Review: Intuos Pro Medium Paper Edition",
+        "Author": "Brad Colbow",
+        "PublishDate": "2017-02-06",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=lKJYuRQfLkc",
+        "Title": "Wacom Intuos Pro Medium Review  #Wacom #ProPen2 #Intuospro",
+        "Author": "Cladio Juliano",
+        "PublishDate": "2018-03-24",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=XozM9fs9Jlc",
+        "Title": "Still my favourite drawing tablet - 2022 review of the Wacom Intuos Pro Medium",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2022-05-13",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

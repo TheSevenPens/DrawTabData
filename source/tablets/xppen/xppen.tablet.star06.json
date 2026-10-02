@@ -14,7 +14,12 @@
         "URL": "https://www.xp-pen.com/product/star-06-wireless.html",
         "Title": "Star 06 Wireless",
         "Author": "XP-Pen",
-        "ContentType": "HTML"
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       }
     ],
     "Name": "Star 06 Wireless",

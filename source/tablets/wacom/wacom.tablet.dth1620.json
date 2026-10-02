@@ -3,23 +3,12 @@
     "EntityId": "wacom.tablet.dth1620",
     "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "DTH-1620",
     "Links": [
-      {
-        "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "BLOCKED",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 403
-        }
-      },
       {
         "Type": "MANUFACTURERUSERMANUAL",
         "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html",
@@ -29,6 +18,45 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=JQxsD_EfGAE",
+        "Title": "Wacom Cintiq Pro 16 Review",
+        "Author": "Unskilled Guy",
+        "PublishDate": "2017-03-29",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=g4RMx17npmU",
+        "Title": "Wacom Cintiq Pro 16 Review",
+        "Author": "MobileTechReview",
+        "PublishDate": "2017-07-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=jdjgIdu7Gik",
+        "Title": "¡¡LA TABLETA MÁS PREMIUM!! CINTIQ 16 PRO ¡Sigue mejorando! / Comparativa modelo de 2021 vs 2017",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2023-04-30",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

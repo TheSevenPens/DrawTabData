@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth271",
     "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:07.712Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -60,8 +60,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=biol42fF0a0",
-        "Title": "Create Now Sleep Later review of Cintiq Pro 27",
+        "Title": "Is the Wacom Cintiq Pro 27 Worth The Upgrade?",
         "Author": "Create Now Sleep Later",
+        "PublishDate": "2022-11-05",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -72,7 +73,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=gmISfMqr8Rg",
-        "Title": "Adam Duff - WACOM CINTIQ PRO 27 (vs Cintiq Pro 22, Cintiq 24, Xencelabs 24 & Huion Kamvas Pro 24 (gen 3)",
+        "Title": "WACOM CINTIQ PRO 27 (vs Cintiq Pro 22, Cintiq 24, Xencelabs 24 & Huion Kamvas Pro 24 (gen 3)",
         "Author": "Adam Duff",
         "PublishDate": "2026-01-28",
         "ContentType": "VIDEO",
@@ -85,7 +86,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/gKRxy3Yjjoo",
-        "Title": "Bara AlMakadma review of Cintiq Pro 27",
+        "Title": "Wacom Cintiq Pro 27 Review - Buyers Remorse and Frustration. Potentially the Greatest Pen Display.",
         "Author": "Bara AlMakadma",
         "PublishDate": "2022-10-28",
         "ContentType": "VIDEO",
@@ -98,7 +99,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/LybW8WZBrrg",
-        "Title": "Aaron Rutten review of Cintiq Pro 27",
+        "Title": "Ultimate Wacom CINTIQ PRO 27 Review + Ergo Stand & Pro Pen 3",
         "Author": "Aaron Rutten",
         "PublishDate": "2022-10-14",
         "ContentType": "VIDEO",
@@ -111,13 +112,51 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/x59b4nR3Y3E",
-        "Title": "Brad Colbow review of Cintiq Pro 27",
+        "Title": "Wacom Cintiq Pro 27 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2022-10-14",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-27-interactive-pen-display-dth271k0a.html",
+        "Title": "Wacom Cintiq Pro 27 (eStore)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=6S5pXLsThj0",
+        "Title": "My First Impression of the Wacom CINTIQ PRO 27",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2022-09-27",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=IzBZx3LBclk",
+        "Title": "REVIEW CINTIQ PRO 27 | La mejor (y más cara) tableta gráfica que ha existido | Review en Español",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2022-12-09",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

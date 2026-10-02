@@ -14,21 +14,36 @@
         "URL": "https://www.xp-pen.com/product/artist-ultra-14.html",
         "Title": "XPPen Artist Ultra 14",
         "Author": "XP-Pen",
-        "ContentType": "HTML"
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       },
       {
         "Type": "STORE",
         "URL": "https://www.xp-pen.com/store/buy/artist-ultra-14.html",
         "Title": "Artist Ultra 14 | XPPen US Official Store",
         "Author": "XP-Pen",
-        "ContentType": "HTML"
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.creativebloq.com/art/digital-art/xppens-new-artist-ultra-14-drawing-display-gets-the-important-specs-right",
         "Title": "XPPen's new Artist Ultra 14 drawing display gets the important specs right",
         "Author": "Creative Bloq",
-        "ContentType": "HTML"
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       }
     ],
     "Name": "Artist Ultra 14",

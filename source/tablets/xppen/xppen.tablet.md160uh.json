@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md160uh",
     "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
     "_CreateDate": "2025-12-12T18:57:53.360Z",
-    "_ModifiedDate": "2026-09-28T01:40:58.674Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -22,11 +22,10 @@
         }
       },
       {
-        "Type": "PRODUCTINFO",
+        "Type": "MANUFACTURERPRODUCTINFO",
         "URL": "https://www.xp-pen.com/product/artist-ultra-16.html",
-        "Title": "Gartzia Artz - Review of XP-Pen Artist Ultra 16",
+        "Title": "Artist Ultra 16: 15.6-inch 4K OLED touch-screen drawing tablet",
         "Author": "XP-Pen",
-        "PublishDate": "2025-09-26",
         "ContentType": "HTML",
         "Check": {
           "Status": "OK",
@@ -37,7 +36,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=1Wj-dbQmlG4",
-        "Title": "Brad Colbow Review of XP-Pen Artist Ultra 16",
+        "Title": "XP Pen Artist Ultra 16 4k OLED - Review",
         "Author": "Brad Colbow",
         "PublishDate": "2025-09-30",
         "ContentType": "VIDEO",
@@ -48,15 +47,91 @@
         }
       },
       {
-        "Type": "REVIEW",
+        "Type": "PRODUCTINFO",
         "URL": "https://www.youtube.com/watch?v=k1kmo6r8WqQ",
-        "Title": "XP-Pen - Meet the Artist 16 Ultra",
+        "Title": "Meet Artist Ultra 16 - New-gen Touch Screen Drawing Display: 4K OLED | X-Touch Solution | 16K",
         "Author": "XP-Pen",
         "PublishDate": "2025-09-25",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=CbW03mQvygA",
+        "Title": "Review Xencelabs 16 Lite VS Artist 16 Ultra ¿La Mejor Tableta Gráfica OLED?",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2025-11-28",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/artist-ultra-16.html",
+        "Title": "Artist Ultra 16 | XPPen US Official Store",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/artist-ultra-16.html",
+        "Title": "Artist Ultra 16 User Manual",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=4zCKJx8XZ6g",
+        "Title": "Xppen Artist Ultra 16 (review): Good pen, 4K OLED, but touchscreen is...",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2025-10-03",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=0vqgJaxFvvo",
+        "Title": "Artist Ultra 16 review - XPPEN’s 4k OLED with multitouch",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2025-11-06",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=A6DlKBXBFjE",
+        "Title": "La Tableta Gráfica del Futuro | Review XP Pen Artist 16 Ultra",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2025-09-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

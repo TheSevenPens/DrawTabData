@@ -158,7 +158,7 @@
         "EntityId": "wacom.tablet.ctc4110wl",
         "_id": "25487c6c-8759-473d-b92a-68be45189112",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:55.689Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -166,13 +166,13 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/wacom-one",
-            "Title": "Wacom One DTC141 : Pen Display",
+            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-pen-tablet",
+            "Title": "Wacom One: creative pen display and pen tablet",
             "Author": "Wacom",
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
@@ -185,6 +185,70 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=5CPEqVOTRN0",
+            "Title": "Review: Wacom One Pen Tablets",
+            "Author": "Brad Colbow",
+            "PublishDate": "2023-09-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=w7QLQFOK_eU",
+            "Title": "Wacom One Small & Medium 2023 - Drawing Tablet for Beginners (Review)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2023-09-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-one-s-ctc4110wlw0a.html",
+            "Title": "Wacom One S",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=415ngQOHiME",
+            "Title": "Pressure problems with new Wacom One (2023/GEN2) drawing tablets",
+            "Author": "Seven Pens",
+            "PublishDate": "2023-09-11",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=_A6hmEay-xs",
+            "Title": "Pressure Improvements for Wacom One 2023 pen tablets (firmware update 1.7.0.0)",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-02-23",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -238,7 +302,7 @@
         "EntityId": "wacom.tablet.ctc6110wl",
         "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:59.888Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -246,13 +310,13 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/wacom-one",
-            "Title": "Wacom One DTC141 : Pen Display",
+            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-pen-tablet",
+            "Title": "Wacom One: creative pen display and pen tablet",
             "Author": "Wacom",
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
@@ -265,6 +329,83 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=5CPEqVOTRN0",
+            "Title": "Review: Wacom One Pen Tablets",
+            "Author": "Brad Colbow",
+            "PublishDate": "2023-09-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=w7QLQFOK_eU",
+            "Title": "Wacom One Small & Medium 2023 - Drawing Tablet for Beginners (Review)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2023-09-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.androidpolice.com/wacom-one-m-review/",
+            "Title": "Wacom One M review",
+            "Author": "Android Police",
+            "PublishDate": "2024-04-26",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-one-m-ctc6110wlw0a.html",
+            "Title": "Wacom One M",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=415ngQOHiME",
+            "Title": "Pressure problems with new Wacom One (2023/GEN2) drawing tablets",
+            "Author": "Seven Pens",
+            "PublishDate": "2023-09-11",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=_A6hmEay-xs",
+            "Title": "Pressure Improvements for Wacom One 2023 pen tablets (firmware update 1.7.0.0)",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-02-23",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -1493,7 +1634,7 @@
         "EntityId": "wacom.tablet.ctl4100",
         "_id": "c0b798db-e061-45fe-8ba5-b82bc6497936",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:04.120Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1521,6 +1662,44 @@
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
               "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=H-ZYte_UOVM",
+            "Title": "Wacom Intuos Small / Medium (2018) Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2018-03-26",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=WLclWCHmrjg",
+            "Title": "INTUOS Small & Medium - Wacom Drawing Tablet for Beginners (Review) ✏️",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-03-21",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-intuos-s-black-us-ctl4100.html",
+            "Title": "Wacom Intuos Small Black",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
             }
           }
         ],
@@ -1573,7 +1752,7 @@
         "EntityId": "wacom.tablet.ctl4100wl",
         "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:08.331Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1601,6 +1780,44 @@
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
               "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=H-ZYte_UOVM",
+            "Title": "Wacom Intuos Small / Medium (2018) Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2018-03-26",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=WLclWCHmrjg",
+            "Title": "INTUOS Small & Medium - Wacom Drawing Tablet for Beginners (Review) ✏️",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-03-21",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-US/tablets/wacom-intuos-s-bluetooth-black-us-ctl4100wlk0.html",
+            "Title": "Wacom Intuos Small Bluetooth Black (CTL4100WLK0)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
             }
           }
         ],
@@ -1782,7 +1999,7 @@
         "EntityId": "wacom.tablet.ctl472",
         "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:12.557Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1809,6 +2026,18 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/UserHelp/en/TOC/CTL-472.html",
+            "Title": "Wacom User Help (CTL-472)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -1986,7 +2215,7 @@
         "EntityId": "wacom.tablet.ctl6100",
         "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:16.783Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2013,6 +2242,32 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=H-ZYte_UOVM",
+            "Title": "Wacom Intuos Small / Medium (2018) Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2018-03-26",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=WLclWCHmrjg",
+            "Title": "INTUOS Small & Medium - Wacom Drawing Tablet for Beginners (Review) ✏️",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-03-21",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -2066,7 +2321,7 @@
         "EntityId": "wacom.tablet.ctl6100wl",
         "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:20.946Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2094,6 +2349,44 @@
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
               "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=H-ZYte_UOVM",
+            "Title": "Wacom Intuos Small / Medium (2018) Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2018-03-26",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=WLclWCHmrjg",
+            "Title": "INTUOS Small & Medium - Wacom Drawing Tablet for Beginners (Review) ✏️",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-03-21",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-intuos-m-bluetooth-black-us-ctl6100wlk0.html",
+            "Title": "Wacom Intuos Medium Bluetooth Black",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
             }
           }
         ],
@@ -2467,7 +2760,7 @@
         "EntityId": "wacom.tablet.dtc121",
         "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:29.521Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2475,13 +2768,13 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/wacom-one",
-            "Title": "Wacom One DTC141 : Pen Display",
+            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-pen-tablet",
+            "Title": "Wacom One: creative pen display and pen tablet",
             "Author": "Wacom",
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
@@ -2494,6 +2787,44 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.wacom.com/en-us/comp",
+            "Title": "Compatibility",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=X_FrZGl0lYM",
+            "Title": "Wacom One 12 & 13 Touch (2023) - Review",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2023-09-18",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=SBlliNcRKNw",
+            "Title": "Wacom One 12\" Pen Display Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2023-08-18",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -2566,7 +2897,7 @@
         "EntityId": "wacom.tablet.dtc133",
         "_id": "24a318ae-8530-4678-ad33-ff117efe7b57",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:33.784Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2574,13 +2905,13 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one#Specifications",
-            "Title": "Wacom One DTC141 : Pen Display",
+            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-gen1",
+            "Title": "Wacom One (Gen. 1)",
             "Author": "Wacom",
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
@@ -2597,17 +2928,6 @@
             }
           },
           {
-            "Type": "STORE",
-            "URL": "https://estore.wacom.com/en-us/wacom-one-x-shape-cable.html",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "BLOCKED",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 403
-            }
-          },
-          {
             "Type": "PRODUCTINFO",
             "URL": "https://www.wacom.com/en-us/comp",
             "Title": "Compatibility",
@@ -2615,15 +2935,16 @@
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=D4DFFH-hPr8",
-            "Title": "Aaron Rutten review of Wacom One 2019 DTC-133",
+            "Title": "WACOM ONE 1st Gen. - Review",
             "Author": "Aaron Rutten",
+            "PublishDate": "2020-01-16",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -2634,8 +2955,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=EFvpOWZDGUU",
-            "Title": "Brad Colbow review of Wacom One 2018 DTC-133",
+            "Title": "REVIEW: The Wacom One",
             "Author": "Brad Colbow",
+            "PublishDate": "2020-01-27",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -2646,21 +2968,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Hv2dpHkLAOE",
-            "Title": "Teoh On Tech review of Wacom One 2019 DTC-133",
-            "Author": "Teoh On Tech",
-            "ContentType": "VIDEO",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:51:48.289Z",
-              "HttpStatus": 200
-            }
-          },
-          {
-            "Type": "REVIEW",
-            "URL": "https://www.youtube.com/watch?v=rCXvaMhW3xI",
-            "Title": "Teoh on Tech - Wacom One pen vs other EMR pens",
+            "Title": "Review: Wacom One 13.3\" Pen Display",
             "Author": "Teoh on Tech",
-            "PublishDate": "2023-09-07",
+            "PublishDate": "2020-02-13",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -2671,12 +2981,52 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/VPbAUF7AZhA",
-            "Title": "Create Now Sleep Later review of Wacom One 2019 DTC-133",
+            "Title": "Wacom One Pen Display | Good as Cintiq?",
             "Author": "Create Now Sleep Later",
+            "PublishDate": "2020-01-20",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/review-wacom-one-133-inch-pen-display",
+            "Title": "Review: Wacom One 13.3-inch pen display",
+            "Author": "Parka Blogs",
+            "PublishDate": "2020-02-11",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=FLHf2G8CxEQ",
+            "Title": "Wacom One vs iPad",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2020-02-14",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=lQGeqT6YA7Y",
+            "Title": "Wacom One 13 Touch - 1st Gen. VS 2nd Gen. (2023) - Comparison",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2023-09-19",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -2746,7 +3096,7 @@
         "EntityId": "wacom.tablet.dtc141",
         "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T15:30:02.418Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2791,13 +3141,77 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=GKxx9Vwz79U",
-            "Title": "Brad Colbow - Review of the Wacom One 14",
+            "Title": "Wacom One 14 Review",
             "Author": "Brad Colbow",
-            "PublishDate": "2024-11-10",
+            "PublishDate": "2025-11-10",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-one-14-dtc141w0.html",
+            "Title": "Wacom One 14 Pen Display",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=XDZzzs6e7zU",
+            "Title": "Wacom One 14 Review (with Comparisons to 13 Touch & MovinkPad)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2026-02-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=eDu-6BBp8JI",
+            "Title": "Notes on Wacom One 14 (DTC-141)",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-10-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=v8kZk0eldHI",
+            "Title": "DRAFT Review of Wacom One 14 (DTC-141)",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-10-10",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=mz7-ufAIXcw",
+            "Title": "Unboxing and Testing: Wacom One 14 (DTC-141)",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-09-29",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3087,7 +3501,7 @@
         "EntityId": "wacom.tablet.dth134",
         "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:42.277Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3095,13 +3509,13 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/wacom-one",
-            "Title": "Wacom One DTC141 : Pen Display",
+            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-one-pen-tablet",
+            "Title": "Wacom One: creative pen display and pen tablet",
             "Author": "Wacom",
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
@@ -3114,6 +3528,96 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=lQGeqT6YA7Y",
+            "Title": "Wacom One 13 Touch - 1st Gen. VS 2nd Gen. (2023) - Comparison",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2023-09-19",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.wacom.com/en-us/comp",
+            "Title": "Compatibility",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=X_FrZGl0lYM",
+            "Title": "Wacom One 12 & 13 Touch (2023) - Review",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2023-09-18",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=VXtQvhrV6WY",
+            "Title": "Wacom One 13 Touch Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2023-09-25",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://drawyourweapon.com/tablet-review-wacom-one-13-touch/",
+            "Title": "Wacom One 13 Touch – a digital painter's review",
+            "Author": "EyekooDrawsStuff",
+            "PublishDate": "2024-01-19",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.tomsguide.com/reviews/wacom-one-13-touch",
+            "Title": "Wacom One 13 touch review",
+            "Author": "Tom's Guide",
+            "PublishDate": "2023-08-10",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=8GdVv-XHxto",
+            "Title": "Muy Buena PEEERO... La tableta gráfica TÁCTIL más BARATA | Review Wacom One 13 Touch",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2023-10-14",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3185,7 +3689,7 @@
         "EntityId": "wacom.tablet.dth135",
         "_id": "8d4308af-a529-453e-a394-1a739a337785",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:46.505Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3215,30 +3719,6 @@
             }
           },
           {
-            "Type": "STORE",
-            "URL": "https://estore.wacom.com/en-us/wacom-converter-ack45219z.html",
-            "Title": "**Wacom Converter (ACK45219Z)**",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "BLOCKED",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 403
-            }
-          },
-          {
-            "Type": "STORE",
-            "URL": "https://estore.wacom.com/en-us/wacom-one-3-in-1-cable-ack4490602z.html",
-            "Title": "**3-in-1 Cable for Wacom One 2023 Pen Displays (ACK4490602Z)**",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "BLOCKED",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 403
-            }
-          },
-          {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
             "Title": "Wacom Movink Pen Display",
@@ -3253,7 +3733,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=ifWwffBQ8VQ",
-            "Title": "Teoh on Tech - Review of Wacom Movink 13",
+            "Title": "Wacom Movink 13.3-inch OLED pen display FULL REVIEW",
             "Author": "Teoh on Tech",
             "PublishDate": "2024-11-15",
             "ContentType": "VIDEO",
@@ -3278,13 +3758,51 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Y3ASJNcFinI",
-            "Title": "Brad Colbow - Review of Wacom Movink 13",
+            "Title": "Wacom Movink 13 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2024-05-16",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-movink-dth135k0a.html",
+            "Title": "Wacom Movink 13",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/wacom-movink-oled-touchscreen-pen-display",
+            "Title": "Review: Wacom Movink 13.3-inch OLED touchscreen pen display",
+            "Author": "Parka Blogs",
+            "PublishDate": "2024-11-12",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=tB3LvEDvqaE",
+            "Title": "Wacom Movink (DTH-135) testing and Q&A stream",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-03-17",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3361,23 +3879,12 @@
         "EntityId": "wacom.tablet.dth1620",
         "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTH-1620",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.techhypermart.com/wacom-cintiq-pro-16-pen-touch-dth-1620-k2-cx-active-area-345-x-194-mm-wacom-pro-pen-2",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "BLOCKED",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 403
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-1620.html",
@@ -3387,6 +3894,45 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=JQxsD_EfGAE",
+            "Title": "Wacom Cintiq Pro 16 Review",
+            "Author": "Unskilled Guy",
+            "PublishDate": "2017-03-29",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=g4RMx17npmU",
+            "Title": "Wacom Cintiq Pro 16 Review",
+            "Author": "MobileTechReview",
+            "PublishDate": "2017-07-17",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=jdjgIdu7Gik",
+            "Title": "¡¡LA TABLETA MÁS PREMIUM!! CINTIQ 16 PRO ¡Sigue mejorando! / Comparativa modelo de 2021 vs 2017",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2023-04-30",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3443,7 +3989,7 @@
         "EntityId": "wacom.tablet.dth167",
         "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:50.724Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3488,7 +4034,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=0B8cNzyO4bs",
-            "Title": "Brad Colbow review of Cintiq Pro 16",
+            "Title": "Wacom Cintiq Pro 16 Review",
             "Author": "Brad Colbow",
             "ContentType": "VIDEO",
             "Check": {
@@ -3500,7 +4046,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=IU-QOOB2AsU",
-            "Title": "MobileTechReview review of Cintiq Pro 16",
+            "Title": "Wacom Cintiq Pro 16 Gen 2 (2021) Review",
             "Author": "MobileTechReview",
             "ContentType": "VIDEO",
             "Check": {
@@ -3512,7 +4058,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=oROcuvimy18",
-            "Title": "Aaron Blaise review of Cintiq Pro 16",
+            "Title": "The Wacom Cintiq Pro 16 Unboxing and Review",
             "Author": "Aaron Blaise",
             "ContentType": "VIDEO",
             "Check": {
@@ -3524,12 +4070,25 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=v9pWwWE_vRM",
-            "Title": "Aaron Rutten review of Cintiq Pro 16",
+            "Title": "Wacom CINTIQ PRO 16 Review (2021 Version)",
             "Author": "Aaron Rutten",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=jdjgIdu7Gik",
+            "Title": "¡¡LA TABLETA MÁS PREMIUM!! CINTIQ 16 PRO ¡Sigue mejorando! / Comparativa modelo de 2021 vs 2017",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2023-04-30",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3607,7 +4166,7 @@
         "EntityId": "wacom.tablet.dth172",
         "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3626,7 +4185,7 @@
             }
           },
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "STORE",
             "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-17-dth172k0a.html",
             "Author": "Wacom",
             "ContentType": "HTML",
@@ -3639,12 +4198,37 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=JBn727A9pAc",
-            "Title": "Brad Colbow review of Cintiq Pro 17",
+            "Title": "Wacom Cintiq Pro 17 Review",
             "Author": "Brad Colbow",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
+            "Title": "Wacom Cintiq Pro 17 -VS- Huion Kamvas Pro 19",
+            "Author": "Brad Colbow",
+            "PublishDate": "2024-03-04",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-overview",
+            "Title": "Wacom Cintiq Pro range: creative pen displays",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3758,17 +4342,22 @@
         "EntityId": "wacom.tablet.dth227",
         "_id": "f74b002f-cac5-4490-9ace-943893d53427",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:01:19.941Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTH-227",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "STORE",
             "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-22-dth227k0a.html",
             "Author": "Wacom",
-            "ContentType": "HTML"
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
           },
           {
             "Type": "MANUFACTURERUSERMANUAL",
@@ -3794,14 +4383,14 @@
             }
           },
           {
-            "Type": "PRODUCTINFO",
+            "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.wacom.com/en-us/products/wacom-cintiq-pro-overview",
             "Title": "Wacom Cintiq Pro range: creative pen displays",
             "Author": "Wacom",
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3922,24 +4511,12 @@
         "EntityId": "wacom.tablet.dth2420",
         "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:59.228Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTH-2420",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
-            "Title": "Wacom Cintiq Pro 24\": creative pen display",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-2420.html",
@@ -3949,6 +4526,58 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=lvSeRhrUcCY",
+            "Title": "Wacom CINTIQ PRO 24 & 32 Review (In-Depth)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-12-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=BjzYm_o9qXw",
+            "Title": "Wacom Cintiq Pro 24 Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2018-11-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=YVCFkutFwvE",
+            "Title": "Wacom Cintiq Pro 24 Review",
+            "Author": "MobileTechReview",
+            "PublishDate": "2018-10-09",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=ERza2YeJTLw",
+            "Title": "Wacom Cintiq Pro 24\" Review",
+            "Author": "Brian Allen",
+            "PublishDate": "2018-05-01",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -4048,7 +4677,7 @@
         "EntityId": "wacom.tablet.dth246",
         "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:03.483Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4081,7 +4710,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=0mXPOLiSNv0",
-            "Title": "Brad Colbow - Wacom Cintiq 24 Touch Review",
+            "Title": "Wacom Cintiq 24 Touch Review",
             "Author": "Brad Colbow",
             "PublishDate": "2025-07-28",
             "ContentType": "VIDEO",
@@ -4094,7 +4723,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Oo4m5EgCSWE",
-            "Title": "Aaron Rutten - review of Cintiq 24 touch",
+            "Title": "2025 Wacom Cintiq 24 Touch (Review)",
             "Author": "Aaron Rutten",
             "PublishDate": "2025-07-01",
             "ContentType": "VIDEO",
@@ -4106,14 +4735,27 @@
           },
           {
             "Type": "REVIEW",
-            "URL": "https://youtube.com/live/1q3xNSkTW54?feature=share",
-            "Title": "Drawing",
+            "URL": "https://www.youtube.com/watch?v=Lm-5X-gFtuw",
+            "Title": "New Wacom Cintiq 24 Touch (2025) unboxing and testing",
+            "Author": "Seven Pens",
             "PublishDate": "2025-06-25",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-cintiq-24-touch-dth246k0a.html",
+            "Title": "Wacom Cintiq 24 Touch (eStore)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
             }
           }
         ],
@@ -4271,7 +4913,7 @@
         "EntityId": "wacom.tablet.dth271",
         "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:07.712Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4328,8 +4970,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=biol42fF0a0",
-            "Title": "Create Now Sleep Later review of Cintiq Pro 27",
+            "Title": "Is the Wacom Cintiq Pro 27 Worth The Upgrade?",
             "Author": "Create Now Sleep Later",
+            "PublishDate": "2022-11-05",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -4340,7 +4983,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=gmISfMqr8Rg",
-            "Title": "Adam Duff - WACOM CINTIQ PRO 27 (vs Cintiq Pro 22, Cintiq 24, Xencelabs 24 & Huion Kamvas Pro 24 (gen 3)",
+            "Title": "WACOM CINTIQ PRO 27 (vs Cintiq Pro 22, Cintiq 24, Xencelabs 24 & Huion Kamvas Pro 24 (gen 3)",
             "Author": "Adam Duff",
             "PublishDate": "2026-01-28",
             "ContentType": "VIDEO",
@@ -4353,7 +4996,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/gKRxy3Yjjoo",
-            "Title": "Bara AlMakadma review of Cintiq Pro 27",
+            "Title": "Wacom Cintiq Pro 27 Review - Buyers Remorse and Frustration. Potentially the Greatest Pen Display.",
             "Author": "Bara AlMakadma",
             "PublishDate": "2022-10-28",
             "ContentType": "VIDEO",
@@ -4366,7 +5009,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/LybW8WZBrrg",
-            "Title": "Aaron Rutten review of Cintiq Pro 27",
+            "Title": "Ultimate Wacom CINTIQ PRO 27 Review + Ergo Stand & Pro Pen 3",
             "Author": "Aaron Rutten",
             "PublishDate": "2022-10-14",
             "ContentType": "VIDEO",
@@ -4379,13 +5022,51 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/x59b4nR3Y3E",
-            "Title": "Brad Colbow review of Cintiq Pro 27",
+            "Title": "Wacom Cintiq Pro 27 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2022-10-14",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-cintiq-pro-27-interactive-pen-display-dth271k0a.html",
+            "Title": "Wacom Cintiq Pro 27 (eStore)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=6S5pXLsThj0",
+            "Title": "My First Impression of the Wacom CINTIQ PRO 27",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2022-09-27",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=IzBZx3LBclk",
+            "Title": "REVIEW CINTIQ PRO 27 | La mejor (y más cara) tableta gráfica que ha existido | Review en Español",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2022-12-09",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -4478,24 +5159,12 @@
         "EntityId": "wacom.tablet.dth3220",
         "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:12.005Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTH-3220",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-32#Specifications",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.wacom.com/en-us/eol/product-not-available"
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH-3220.html",
@@ -4517,6 +5186,58 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=lvSeRhrUcCY",
+            "Title": "Wacom CINTIQ PRO 24 & 32 Review (In-Depth)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-12-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=GgYu9zXD8Gk",
+            "Title": "REVIEW/IN-USE VIDEO Wacom Cintiq Pro 32 - by digital artist/creative entrepreneur Wieger Poutsma.",
+            "Author": "Wieger Poutsma",
+            "PublishDate": "2018-11-19",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=HLHda7w_ttY",
+            "Title": "Wacom Cintiq Pro 32 Unboxing",
+            "Author": "The Art of Aaron Blaise",
+            "PublishDate": "2019-01-24",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=hUFB9kBYy4E",
+            "Title": "Cintiq Pro 32 (DTH-3220 ) Live testing and Q&A",
+            "Author": "Seven Pens",
+            "PublishDate": "2026-08-01",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -4580,7 +5301,7 @@
         "EntityId": "wacom.tablet.dtha116",
         "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T15:29:59.371Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4637,7 +5358,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=9Pr9Et7_ezY",
-            "Title": "Aaron Rutten - Review of MovinkPad 11",
+            "Title": "Wacom MovinkPad 11 Review - Better Than iPad for Beginners, Kids & Teens?",
             "Author": "Aaron Rutten",
             "PublishDate": "2025-07-31",
             "ContentType": "VIDEO",
@@ -4650,7 +5371,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=CmspIjH5XgE",
-            "Title": "Teoh on Tech - Wacom MovinkPad 11 with other EMR pens",
+            "Title": "Wacom MovinkPad 11 with other EMR pens",
             "Author": "Teoh on Tech",
             "PublishDate": "2025-09-03",
             "ContentType": "VIDEO",
@@ -4663,8 +5384,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
-            "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+            "Title": "Wacom Movink Pad 11 and 14 - 8 Months Later",
             "Author": "Brad Colbow",
+            "PublishDate": "2026-05-08",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -4675,7 +5397,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=rgoyTfEkLrQ",
-            "Title": "Teoh on Tech - Review of Wacom MovinkPad 11",
+            "Title": "Wacom MovinkPad 11 review: Into the top 3 with Apple & Samsung",
             "Author": "Teoh on Tech",
             "PublishDate": "2025-08-24",
             "ContentType": "VIDEO",
@@ -4688,7 +5410,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=SY2cBbGFpCE",
-            "Title": "Teoh on Tech - Note taking on the Wacom MovinkPad 11",
+            "Title": "Note taking on the Wacom MovinkPad 11",
             "Author": "Teoh on Tech",
             "PublishDate": "2025-09-09",
             "ContentType": "VIDEO",
@@ -4701,7 +5423,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=TnGji_u53UQ",
-            "Title": "Brad Colbow - Review of MovinkPad 11",
+            "Title": "Wacom Movink Pad 11 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2025-08-07",
             "ContentType": "VIDEO",
@@ -4714,7 +5436,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=xQR-sIQNExg",
-            "Title": "Gartzia Artz - Review of Wacom MovinkPad 11",
+            "Title": "¿El iPad de Wacom? Review y comparativa MovinkPad 11",
             "Author": "Gartzia Artz",
             "PublishDate": "2025-07-31",
             "ContentType": "VIDEO",
@@ -4725,14 +5447,40 @@
             }
           },
           {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-movinkpad-11-dtha116cl0z.html",
+            "Title": "Wacom MovinkPad 11",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
             "Type": "REVIEW",
-            "URL": "https://youtu.be/NK2_dIGQKk8",
-            "Title": "Budget Android Drawing Tablet Recommendations for 2025",
-            "Author": "SevenPens",
+            "URL": "https://www.parkablogs.com/content/wacom-movink-pad-11-review",
+            "Title": "Review: Wacom MovinkPad 11 with Pro Pen 3",
+            "Author": "Parka Blogs",
+            "PublishDate": "2025-08-18",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=a8-YZ-QSmOs",
+            "Title": "Wacom MovinkPad 11: Unboxing and Testing",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-07-23",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -4860,7 +5608,7 @@
         "EntityId": "wacom.tablet.dtha140",
         "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T15:30:00.772Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4881,8 +5629,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=CRxC_tyyUCk",
-            "Title": "Teoh on Tech - Wacom MovinkPad Pro 14 review",
+            "Title": "Wacom MovinkPad Pro 14 (review): BEST portable drawing tablet of 2025",
             "Author": "Teoh on Tech",
+            "PublishDate": "2025-11-22",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -4893,8 +5642,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Hizl2R9qTGM",
-            "Title": "Teoh on Tech - Apple nano-texture glass vs MovinkPad Pro 14 matte glass",
+            "Title": "Apple nano-texture glass vs MovinkPad Pro 14 matte glass",
             "Author": "Teoh on Tech",
+            "PublishDate": "2025-12-08",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -4905,9 +5655,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=L2A1lis4_Ng",
-            "Title": "Gartzia Arts - Review of MovinkPad Pro 14",
-            "Author": "Gartzia Arts",
-            "PublishDate": "2025-12-16",
+            "Title": "La MEJOR Tablet de DIBUJO! Review a fondo Wacom MovinkPad Pro 14",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2025-12-18",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -4918,7 +5668,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=lpBGmiO4f7I",
-            "Title": "Brad Colbow - Review MovinkPad Pro 14",
+            "Title": "Wacom Movink Pad Pro 14 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2025-10-17",
             "ContentType": "VIDEO",
@@ -4931,8 +5681,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
-            "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+            "Title": "Wacom Movink Pad 11 and 14 - 8 Months Later",
             "Author": "Brad Colbow",
+            "PublishDate": "2026-05-08",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -4941,14 +5692,92 @@
             }
           },
           {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-movinkpad-pro-14-dtha140l0z.html",
+            "Title": "Wacom MovinkPad Pro 14",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
             "Type": "REVIEW",
-            "URL": "https://www.youtube.com/watch?v=NK2_dIGQKk8",
-            "Title": "Seven Pens - Budget Android Drawing Tablet Recommendations for 2025",
-            "Author": "Seven Pens",
+            "URL": "https://www.youtube.com/watch?v=CI6j3x_ab0c",
+            "Title": "Wacom MovinkPad Pro 14: The Best Mobile Art Tablet Ever!",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2025-11-08",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/wacom-movinkpad-pro-14-review",
+            "Title": "Review: Wacom MovinkPad Pro 14",
+            "Author": "Parka Blogs",
+            "PublishDate": "2025-11-19",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=f7MRMWMKGeg",
+            "Title": "Wacom MovinkPad Pro 14 (DTH-A140): Unboxing and testing",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-10-25",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=oxxeD6y5CWA",
+            "Title": "MovinkPad Pro 14 months later and accessories to get",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2026-03-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=7eGfzl42bCM",
+            "Title": "Wacom MovinkPad Pro 14 vs iPad Pro 13: Which I prefer months later",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2026-06-06",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=6thKViZAo2g",
+            "Title": "M4 iPad Air vs MovinkPad Pro 14: Which is better for artists?",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2026-03-18",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -5601,24 +6430,12 @@
         "EntityId": "wacom.tablet.dtk1660",
         "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTK-1660",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
-            "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-1660.html",
@@ -5657,7 +6474,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=ye8R0LAbkiE",
-            "Title": "Brad Colbow review of Wacom Cintiq 16",
+            "Title": "Wacom Cintiq 16 Review (A $650 Wacom Drawing Tablet!)",
             "Author": "Brad Colbow",
             "PublishDate": "2019-01-08",
             "ContentType": "VIDEO",
@@ -5670,7 +6487,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/6_tMU5z6s9s",
-            "Title": "Ross Draws review of Wacom Cintiq 16",
+            "Title": "Wacom Cintiq 16 Review + SKETCH!",
             "Author": "Ross Draws",
             "PublishDate": "2019-02-22",
             "ContentType": "VIDEO",
@@ -5683,7 +6500,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/nXrFULq096A",
-            "Title": "Aaron Rutten review of Wacom Cintiq 16",
+            "Title": "Wacom CINTIQ 16 - Drawing Tablet Review",
             "Author": "Aaron Rutten",
             "PublishDate": "2019-01-07",
             "ContentType": "VIDEO",
@@ -5696,7 +6513,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/v4qDRupCLHY",
-            "Title": "MobileTechReview review of Wacom Cintiq 16",
+            "Title": "Wacom Cintiq 16 Review - the Much More Affordable Cintiq",
             "Author": "MobileTechReview",
             "PublishDate": "2019-01-08",
             "ContentType": "VIDEO",
@@ -5762,7 +6579,7 @@
         "EntityId": "wacom.tablet.dtk168",
         "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:20.480Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5789,6 +6606,44 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-cintiq-16-dtk168k0a.html",
+            "Title": "Wacom Cintiq 16 (eStore)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=QQsKS17j0BQ",
+            "Title": "2025 Wacom Cintiq 16 Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2025-07-02",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=en2RYaJoms4",
+            "Title": "Wacom Cintiq 16 (2025) Unboxing and Testing",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-07-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -6047,24 +6902,12 @@
         "EntityId": "wacom.tablet.dtk2260",
         "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:14:59.988Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTK-2260",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-es/products/pen-displays/wacom-cintiq#Specifications",
-            "Title": "Wacom Cintiq DTK168 / DTK246 / DTH246 : Pen Display",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
@@ -6078,21 +6921,9 @@
             }
           },
           {
-            "Type": "USERMANUAL",
-            "URL": "https://101.wacom.com/UserHelp/en/TOC/DTK-2260.html",
-            "Title": "Wacom User Help (DTK-2260)",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
-          {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=02kg7Oxxd20",
-            "Title": "Ross Draws review of Wacom Cintiq 22 (DTK-2260)",
+            "Title": "Wacom Cintiq 22 Review + Painting Test!",
             "Author": "Ross Draws",
             "PublishDate": "2019-08-23",
             "ContentType": "VIDEO",
@@ -6105,7 +6936,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=03XtX5Gg76g",
-            "Title": "MobileTechReview review of Wacom Cintiq 22",
+            "Title": "Wacom Cintiq 22 Review",
             "Author": "MobileTechReview",
             "PublishDate": "2019-07-19",
             "ContentType": "VIDEO",
@@ -6118,7 +6949,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=662QvZMik4U",
-            "Title": "Brad Colbow review of Wacom Cintiq 22 (DTK-2260)",
+            "Title": "Wacom Cintiq 22 Review (2019)",
             "Author": "Brad Colbow",
             "PublishDate": "2019-07-18",
             "ContentType": "VIDEO",
@@ -6130,32 +6961,8 @@
           },
           {
             "Type": "REVIEW",
-            "URL": "https://www.youtube.com/watch?v=Pr1bAqkNhV4",
-            "Title": "[Attempting Repairs] Wacom Cintiq 22HD (DTK-2200)",
-            "Author": "The Real Phpenix",
-            "ContentType": "VIDEO",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:51:48.289Z",
-              "HttpStatus": 200
-            }
-          },
-          {
-            "Type": "REVIEW",
-            "URL": "https://www.youtube.com/watch?v=zip2xj-nBIw",
-            "Title": "Another Cintiq 22HD Repair Walkthrough 1/3 different symptoms, same problem",
-            "Author": "Ian Tompkins",
-            "ContentType": "VIDEO",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:51:48.289Z",
-              "HttpStatus": 200
-            }
-          },
-          {
-            "Type": "REVIEW",
             "URL": "https://youtu.be/xBPNyYX6zi8",
-            "Title": "Aaron Rutten review of Wacom Cintiq 22",
+            "Title": "Wacom CINTIQ 22 - Drawing Tablet Review",
             "Author": "Aaron Rutten",
             "PublishDate": "2019-07-17",
             "ContentType": "VIDEO",
@@ -6316,24 +7123,12 @@
         "EntityId": "wacom.tablet.dtk2420",
         "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:28.989Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "DTK-2420",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
-            "Title": "Wacom Cintiq Pro 24\": creative pen display",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html",
@@ -6343,6 +7138,58 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=lvSeRhrUcCY",
+            "Title": "Wacom CINTIQ PRO 24 & 32 Review (In-Depth)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2018-12-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=BjzYm_o9qXw",
+            "Title": "Wacom Cintiq Pro 24 Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2018-11-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=YVCFkutFwvE",
+            "Title": "Wacom Cintiq Pro 24 Review",
+            "Author": "MobileTechReview",
+            "PublishDate": "2018-10-09",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=ERza2YeJTLw",
+            "Title": "Wacom Cintiq Pro 24\" Review",
+            "Author": "Brian Allen",
+            "PublishDate": "2018-05-01",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -6530,7 +7377,7 @@
         "EntityId": "wacom.tablet.dtk2700",
         "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6539,7 +7386,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.parkablogs.com/picture/wacom-previews-cintiq-27qhd-pen-display-tablet",
-            "Title": "Wacom Cintiq 27QHD",
+            "Title": "Wacom Previews Cintiq 27QHD Pen Display Tablet",
             "Author": "Parka Blogs",
             "ContentType": "HTML",
             "Check": {
@@ -6560,21 +7407,9 @@
             }
           },
           {
-            "Type": "STORE",
-            "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
-            "Title": "product page",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "BLOCKED",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 403
-            }
-          },
-          {
             "Type": "REVIEW",
             "URL": "https://youtu.be/G8SYYpnXmHk",
-            "Title": "Jazza review of Wacom Cintiq 27 QHD",
+            "Title": "Wacom Cintiq 27QHD Touch - Review",
             "Author": "Jazza",
             "PublishDate": "2016-02-07",
             "ContentType": "VIDEO",
@@ -6587,13 +7422,25 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/rzzB2_iiJQA",
-            "Title": "Aaron Rutten review of Wacom Cintiq 27 QHD",
+            "Title": "Wacom CINTIQ 27 QHD TOUCH Review",
             "Author": "Aaron Rutten",
             "PublishDate": "2016-11-07",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://101.wacom.com/UserHelpPDF_Legacy/DTK-2700_en.pdf",
+            "Title": "Wacom Cintiq 27QHD user manual (PDF)",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -6831,7 +7678,7 @@
         "EntityId": "wacom.tablet.dtz2100",
         "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6846,6 +7693,19 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=i-FUIJMcxn4",
+            "Title": "My first pen display: Cintiq 21UX 2005 (DTZ-2100)",
+            "Author": "Seven Pens",
+            "PublishDate": "2026-03-07",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -7374,21 +8234,21 @@
         "EntityId": "wacom.tablet.gd0405u",
         "_id": "fae00305-bb28-4557-ab7f-a446a189e2da",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "GD-0405-U",
         "Links": [
           {
-            "Type": "REVIEW",
-            "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
-            "Title": "Wacom Intuos1 (GD-xxxx) notes",
-            "Author": "Seven Pens",
-            "ContentType": "HTML",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
+            "Title": "Intuos User's Manual for Windows",
+            "Author": "Wacom",
+            "ContentType": "PDF",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -7537,21 +8397,21 @@
         "EntityId": "wacom.tablet.gd0608u",
         "_id": "0da481a9-30de-499d-ad13-e4257f985488",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "GD-0608-U",
         "Links": [
           {
-            "Type": "REVIEW",
-            "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
-            "Title": "Wacom Intuos1 (GD-xxxx) notes",
-            "Author": "Seven Pens",
-            "ContentType": "HTML",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
+            "Title": "Intuos User's Manual for Windows",
+            "Author": "Wacom",
+            "ContentType": "PDF",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -7700,21 +8560,21 @@
         "EntityId": "wacom.tablet.gd0912u",
         "_id": "ff77a7b3-3aba-4592-b58a-98203dec4a04",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "GD-0912-U",
         "Links": [
           {
-            "Type": "REVIEW",
-            "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
-            "Title": "Wacom Intuos1 (GD-xxxx) notes",
-            "Author": "Seven Pens",
-            "ContentType": "HTML",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
+            "Title": "Intuos User's Manual for Windows",
+            "Author": "Wacom",
+            "ContentType": "PDF",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -7810,21 +8670,34 @@
         "EntityId": "wacom.tablet.gd1212u",
         "_id": "ca0039b4-86c7-4683-bc32-104ffa430808",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "GD-1212-U",
         "Links": [
           {
-            "Type": "REVIEW",
-            "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
-            "Title": "Wacom Intuos1 (GD-xxxx) notes",
-            "Author": "Seven Pens",
-            "ContentType": "HTML",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
+            "Title": "Intuos User's Manual for Windows",
+            "Author": "Wacom",
+            "ContentType": "PDF",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=eXgcuOzg1-M",
+            "Title": "This 23 year old tablet is still going!",
+            "Author": "EyekooDrawsStuff",
+            "PublishDate": "2021-10-27",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -7920,21 +8793,21 @@
         "EntityId": "wacom.tablet.gd1218u",
         "_id": "56824bb9-2dcf-446d-9ce1-919554f42cef",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "GD-1218-U",
         "Links": [
           {
-            "Type": "REVIEW",
-            "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-intuos1/wacom-gdxxxx-notes",
-            "Title": "Wacom Intuos1 (GD-xxxx) notes",
-            "Author": "Seven Pens",
-            "ContentType": "HTML",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/productsupport/manual/IntuosUserManual.pdf",
+            "Title": "Intuos User's Manual for Windows",
+            "Author": "Wacom",
+            "ContentType": "PDF",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -8703,20 +9576,33 @@
         "EntityId": "wacom.tablet.pth450",
         "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTH-450",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=4bNXtZCVg54",
+            "Title": "Wacom Intuos 5 Review",
+            "Author": "Terry Lee White",
+            "PublishDate": "2012-03-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -8830,24 +9716,12 @@
         "EntityId": "wacom.tablet.pth460",
         "_id": "8ab0e087-96ce-41cd-aaae-95e09aec20be",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:03:13.866Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTH-460",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
-            "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-460.html",
@@ -8869,6 +9743,32 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=VhR4dcxd_DU",
+            "Title": "Intuos Pro Small (2019) Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2019-05-09",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=ZHIsUKtVbio",
+            "Title": "Wacom INTUOS PRO Small Review (2019 Model)",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2019-05-09",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -8925,20 +9825,59 @@
         "EntityId": "wacom.tablet.pth650",
         "_id": "743c5ec8-3a09-42aa-9a0d-1863a1094440",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTH-650",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=4bNXtZCVg54",
+            "Title": "Wacom Intuos 5 Review",
+            "Author": "Terry Lee White",
+            "PublishDate": "2012-03-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=KXoYgYUdVyY",
+            "Title": "Wacom Intuos 5 Medium Touch Tablet Review",
+            "Author": "New Brit Workshop (Peter)",
+            "PublishDate": "2013-01-22",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/review-wacom-intuos5-medium-touch-tablet",
+            "Title": "Review: Wacom Intuos5 Medium Touch Tablet",
+            "Author": "Parka Blogs",
+            "PublishDate": "2012-12-03",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9103,24 +10042,12 @@
         "EntityId": "wacom.tablet.pth660",
         "_id": "01d122e2-5c75-47df-bc91-171476994174",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:03:19.296Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTH-660",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
-            "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-660.html",
@@ -9142,6 +10069,45 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=bbOGvAW3o-M",
+            "Title": "Review: Intuos Pro Medium Paper Edition",
+            "Author": "Brad Colbow",
+            "PublishDate": "2017-02-06",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=lKJYuRQfLkc",
+            "Title": "Wacom Intuos Pro Medium Review  #Wacom #ProPen2 #Intuospro",
+            "Author": "Cladio Juliano",
+            "PublishDate": "2018-03-24",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=XozM9fs9Jlc",
+            "Title": "Still my favourite drawing tablet - 2022 review of the Wacom Intuos Pro Medium",
+            "Author": "EyekooDrawsStuff",
+            "PublishDate": "2022-05-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9198,20 +10164,33 @@
         "EntityId": "wacom.tablet.pth850",
         "_id": "954412d1-5297-4801-b185-745d4f55e1f1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTH-850",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=4bNXtZCVg54",
+            "Title": "Wacom Intuos 5 Review",
+            "Author": "Terry Lee White",
+            "PublishDate": "2012-03-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9327,24 +10306,12 @@
         "EntityId": "wacom.tablet.pth860",
         "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:03:24.777Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTH-860",
         "Links": [
-          {
-            "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
-            "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
-            "Author": "Wacom",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          },
           {
             "Type": "MANUFACTURERUSERMANUAL",
             "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html",
@@ -9366,6 +10333,19 @@
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=YCmVugc3w_g",
+            "Title": "Is a LARGE pen tablet right for you? (Wacom Intuos Pro Large PTH-860)",
+            "Author": "Seven Pens",
+            "PublishDate": "2022-06-27",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9422,14 +10402,14 @@
         "EntityId": "wacom.tablet.ptk1240",
         "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:33.130Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTK-1240",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
@@ -9443,11 +10423,25 @@
             "Type": "REVIEW",
             "URL": "https://youtu.be/Tv_qX1Z9-wI",
             "Title": "Is an EXTRA LARGE Pen tablet right for you? (Wacom Intuos 4 XL PTK-1240)",
-            "Author": "SevenPens",
+            "Author": "Seven Pens",
+            "PublishDate": "2022-07-25",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=Tv_qX1Z9-wI",
+            "Title": "Is an EXTRA LARGE Pen tablet right for you? (Wacom Intuos 4 XL PTK-1240)",
+            "Author": "Seven Pens",
+            "PublishDate": "2022-07-25",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9559,20 +10553,33 @@
         "EntityId": "wacom.tablet.ptk450",
         "_id": "7b7e2368-695a-417a-b6c9-50e79092911b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTK-450",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=4bNXtZCVg54",
+            "Title": "Wacom Intuos 5 Review",
+            "Author": "Terry Lee White",
+            "PublishDate": "2012-03-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9618,7 +10625,7 @@
         "EntityId": "wacom.tablet.ptk470",
         "_id": "f710bda9-5117-4828-bf93-c6303182a107",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:37.325Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9662,6 +10669,7 @@
             "URL": "https://www.youtube.com/watch?v=Ko0sovi0rX4",
             "Title": "2025 Wacom Intuos Pro Review",
             "Author": "Brad Colbow",
+            "PublishDate": "2025-04-14",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -9674,6 +10682,7 @@
             "URL": "https://www.youtube.com/watch?v=Rf66Lqx9NFc",
             "Title": "2025 Intuos Pro - Everything You Need to Know (Review)",
             "Author": "Aaron Rutten",
+            "PublishDate": "2025-04-26",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -9686,10 +10695,87 @@
             "URL": "https://www.youtube.com/watch?v=Q2rH32pBpq0",
             "Title": "Notes on Wacom Intuos Pro 2025",
             "Author": "Seven Pens",
+            "PublishDate": "2025-04-23",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-intuos-pro-small-s-ptk470k0a.html",
+            "Title": "Wacom Intuos Pro Small (eStore)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/UserHelp/en/TOC/PTK470.html",
+            "Title": "Wacom User Help (PTK470)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=ZfB2MXQgAZc",
+            "Title": "Wacom Intuos pro 2025 review & comparison",
+            "Author": "JEEJON 技冏",
+            "PublishDate": "2025-11-03",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=KawJkmmDuPE",
+            "Title": "I Don't Recommend The New Intuos Pro 2025 Series",
+            "Author": "JEEJON 技冏",
+            "PublishDate": "2025-05-07",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=Abegz9US7Lg",
+            "Title": "Unboxing the Wacom Intuos Pro 2025 - First Impressions",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2025-07-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=A9Rk_BdMR50",
+            "Title": "Wacom Intuos Pro Large and Small: Unboxing and Q&A",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-05-24",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9853,20 +10939,33 @@
         "EntityId": "wacom.tablet.ptk650",
         "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTK-650",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/f/manuals/en/Intuos5-Users-Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:50:26.160Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=4bNXtZCVg54",
+            "Title": "Wacom Intuos 5 Review",
+            "Author": "Terry Lee White",
+            "PublishDate": "2012-03-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -9912,7 +11011,7 @@
         "EntityId": "wacom.tablet.ptk670",
         "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:41.492Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9968,6 +11067,7 @@
             "URL": "https://www.youtube.com/watch?v=Ko0sovi0rX4",
             "Title": "2025 Wacom Intuos Pro Review",
             "Author": "Brad Colbow",
+            "PublishDate": "2025-04-14",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -9980,6 +11080,7 @@
             "URL": "https://www.youtube.com/watch?v=Rf66Lqx9NFc",
             "Title": "2025 Intuos Pro - Everything You Need to Know (Review)",
             "Author": "Aaron Rutten",
+            "PublishDate": "2025-04-26",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -9992,10 +11093,88 @@
             "URL": "https://www.youtube.com/watch?v=Q2rH32pBpq0",
             "Title": "Notes on Wacom Intuos Pro 2025",
             "Author": "Seven Pens",
+            "PublishDate": "2025-04-23",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-intuos-pro-medium-m-ptk670k0a.html",
+            "Title": "Wacom Intuos Pro Medium (eStore)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=ZfB2MXQgAZc",
+            "Title": "Wacom Intuos pro 2025 review & comparison",
+            "Author": "JEEJON 技冏",
+            "PublishDate": "2025-11-03",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=KawJkmmDuPE",
+            "Title": "I Don't Recommend The New Intuos Pro 2025 Series",
+            "Author": "JEEJON 技冏",
+            "PublishDate": "2025-05-07",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=Abegz9US7Lg",
+            "Title": "Unboxing the Wacom Intuos Pro 2025 - First Impressions",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2025-07-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=Vs9IZ0cejKY",
+            "Title": "Wacom Intuos Pro 2025 Medium (PTK-670) Live Unboxing and Testing",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-03-31",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=fMjU-0ciml0",
+            "Title": "Live Wacom Intuos Pro 2025 PTK-670 medium testing and Q&A",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-03-31",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -10100,7 +11279,7 @@
         "EntityId": "wacom.tablet.ptk870",
         "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:45.719Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10144,6 +11323,7 @@
             "URL": "https://www.youtube.com/watch?v=Ko0sovi0rX4",
             "Title": "2025 Wacom Intuos Pro Review",
             "Author": "Brad Colbow",
+            "PublishDate": "2025-04-14",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -10156,6 +11336,7 @@
             "URL": "https://www.youtube.com/watch?v=Rf66Lqx9NFc",
             "Title": "2025 Intuos Pro - Everything You Need to Know (Review)",
             "Author": "Aaron Rutten",
+            "PublishDate": "2025-04-26",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -10168,10 +11349,87 @@
             "URL": "https://www.youtube.com/watch?v=Q2rH32pBpq0",
             "Title": "Notes on Wacom Intuos Pro 2025",
             "Author": "Seven Pens",
+            "PublishDate": "2025-04-23",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:51:48.289Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://estore.wacom.com/en-us/wacom-intuos-pro-large-l-ptk870k0a.html",
+            "Title": "Wacom Intuos Pro Large (eStore)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "BLOCKED",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 403
+            }
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://101.wacom.com/UserHelp/en/TOC/PTK870.html",
+            "Title": "Wacom User Help (PTK870)",
+            "Author": "Wacom",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=ZfB2MXQgAZc",
+            "Title": "Wacom Intuos pro 2025 review & comparison",
+            "Author": "JEEJON 技冏",
+            "PublishDate": "2025-11-03",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=KawJkmmDuPE",
+            "Title": "I Don't Recommend The New Intuos Pro 2025 Series",
+            "Author": "JEEJON 技冏",
+            "PublishDate": "2025-05-07",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=Abegz9US7Lg",
+            "Title": "Unboxing the Wacom Intuos Pro 2025 - First Impressions",
+            "Author": "Aaron Rutten",
+            "PublishDate": "2025-07-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=A9Rk_BdMR50",
+            "Title": "Wacom Intuos Pro Large and Small: Unboxing and Q&A",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-05-24",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -10252,14 +11510,14 @@
         "EntityId": "wacom.tablet.ptz1230",
         "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:49.865Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PTZ-1230",
         "Links": [
           {
-            "Type": "MANUFACTURERPRODUCTINFO",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos3/User%27s%20Manual.pdf",
             "Author": "Wacom",
             "ContentType": "PDF",
@@ -11133,25 +12391,12 @@
         "EntityId": "wacom.tablet.sd510c",
         "_id": "fdf42d74-d311-420e-830e-a098a2972799",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "SD-510C",
-        "Links": [
-          {
-            "Type": "REVIEW",
-            "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/wacom/wacom-sd-tablets/wacom-sd510c-notes",
-            "Title": "Wacom SD-510C notes",
-            "Author": "Seven Pens",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "OK",
-              "CheckedAt": "2026-08-10T18:50:26.160Z",
-              "HttpStatus": 200
-            }
-          }
-        ],
+        "Links": [],
         "Name": "SD-510C",
         "Type": "PENTABLET",
         "ReleaseYear": "1988",
@@ -11184,7 +12429,7 @@
         "EntityId": "wacom.tablet.ud0608a",
         "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:39:54.084Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11200,6 +12445,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A5"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -11226,7 +12485,7 @@
         "EntityId": "wacom.tablet.ud0608r",
         "_id": "a70e90a9-1511-4b03-a7bc-0335e129332e",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:39:58.369Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11242,6 +12501,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A5"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -11268,7 +12541,7 @@
         "EntityId": "wacom.tablet.ud1212a",
         "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:40:02.584Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11284,6 +12557,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A4"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -11310,7 +12597,7 @@
         "EntityId": "wacom.tablet.ud1212r",
         "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:40:06.979Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11326,6 +12613,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A4"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -11352,7 +12653,7 @@
         "EntityId": "wacom.tablet.ud1218a",
         "_id": "d0e57e62-6372-46bf-890b-6b5d844df7a3",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:40:11.369Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11368,6 +12669,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A3"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -11394,7 +12709,7 @@
         "EntityId": "wacom.tablet.ud1218r",
         "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:40:15.757Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11410,6 +12725,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A3"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -11436,7 +12765,7 @@
         "EntityId": "wacom.tablet.ud1825r",
         "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:40:20.171Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11452,6 +12781,20 @@
         "Family": "wacom.tabletfamily.wacom_ultrapad_legacy",
         "AlternateNames": [
           "UltraPad A2"
+        ],
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://vt100.net/wacom/wacom-progman.pdf",
+            "Title": "Wacom Software Interface Reference Manual for the UD, KT, and SD series",
+            "Author": "Wacom",
+            "ContentType": "PDF",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          }
         ]
       },
       "Digitizer": {

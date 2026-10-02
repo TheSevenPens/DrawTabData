@@ -3,14 +3,14 @@
     "EntityId": "huion.tablet.l610",
     "_id": "0d85fd3d-7029-43c7-bd1e-3b6f0f1110d6",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:37:38.545Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "HUION",
     "Id": "L610",
     "Links": [
       {
-        "Type": "USERMANUAL",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://driverdl.huion.com/instruction/en/User_Manual_inspiroy_frego_EN.pdf",
         "Author": "Huion",
         "ContentType": "PDF",
@@ -34,23 +34,11 @@
         }
       },
       {
-        "Type": "PRODUCTINFO",
-        "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Inspiroy-Frego-S.html",
-        "Title": "Huion Inspiroy Frego S - Easy-to-use Pen Tablet in Bluetooth",
-        "Author": "Huion",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 200,
-          "FinalUrl": "https://www.huion.com/products/inspiroy-frego-s"
-        }
-      },
-      {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=3-Cl9_xKKKE",
         "Title": "Notes on Huion Frego M (L610)",
-        "Author": "SevenPens",
+        "Author": "Seven Pens",
+        "PublishDate": "2024-10-11",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -61,7 +49,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=OpVhKZVFusQ",
-        "Title": "Review of Huion Inspiroy Frego (L610)",
+        "Title": "Best Graphics Tablet for Artists in 2024? Huion Inspiroy Frego Review",
         "Author": "Create Now Sleep Later",
         "PublishDate": "2024-09-01",
         "ContentType": "VIDEO",
@@ -73,13 +61,51 @@
       },
       {
         "Type": "REVIEW",
-        "URL": "https://www.youtube.com/watch?v=Oq6KeACQo68",
-        "Title": "Tutorial | How to connect Kamvas 13 (Gen 3) to your Android Phone",
-        "Author": "Huion",
+        "URL": "https://www.parkablogs.com/content/huion-inspiroy-frego-drawing-pen-tablet",
+        "Title": "Review: Huion Inspiroy Frego pen tablet",
+        "Author": "Parka Blogs",
+        "PublishDate": "2024-08-23",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=W5vTPouuQtM",
+        "Title": "Review: Huion Inspiroy Frego pen tablet - Works great with Android, iPad, iOS",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2024-09-13",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/inspiroy-frego-m",
+        "Title": "Huion Inspiroy Frego M - Simple Bluetooth Pen Tablet",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/inspiroy-frego-m",
+        "Title": "Huion Inspiroy Frego M",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

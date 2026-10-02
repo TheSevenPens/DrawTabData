@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha140",
     "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T15:30:00.772Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -24,8 +24,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=CRxC_tyyUCk",
-        "Title": "Teoh on Tech - Wacom MovinkPad Pro 14 review",
+        "Title": "Wacom MovinkPad Pro 14 (review): BEST portable drawing tablet of 2025",
         "Author": "Teoh on Tech",
+        "PublishDate": "2025-11-22",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -36,8 +37,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=Hizl2R9qTGM",
-        "Title": "Teoh on Tech - Apple nano-texture glass vs MovinkPad Pro 14 matte glass",
+        "Title": "Apple nano-texture glass vs MovinkPad Pro 14 matte glass",
         "Author": "Teoh on Tech",
+        "PublishDate": "2025-12-08",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -48,9 +50,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=L2A1lis4_Ng",
-        "Title": "Gartzia Arts - Review of MovinkPad Pro 14",
-        "Author": "Gartzia Arts",
-        "PublishDate": "2025-12-16",
+        "Title": "La MEJOR Tablet de DIBUJO! Review a fondo Wacom MovinkPad Pro 14",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2025-12-18",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -61,7 +63,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=lpBGmiO4f7I",
-        "Title": "Brad Colbow - Review MovinkPad Pro 14",
+        "Title": "Wacom Movink Pad Pro 14 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2025-10-17",
         "ContentType": "VIDEO",
@@ -74,8 +76,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
-        "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+        "Title": "Wacom Movink Pad 11 and 14 - 8 Months Later",
         "Author": "Brad Colbow",
+        "PublishDate": "2026-05-08",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -84,14 +87,92 @@
         }
       },
       {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-movinkpad-pro-14-dtha140l0z.html",
+        "Title": "Wacom MovinkPad Pro 14",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
         "Type": "REVIEW",
-        "URL": "https://www.youtube.com/watch?v=NK2_dIGQKk8",
-        "Title": "Seven Pens - Budget Android Drawing Tablet Recommendations for 2025",
-        "Author": "Seven Pens",
+        "URL": "https://www.youtube.com/watch?v=CI6j3x_ab0c",
+        "Title": "Wacom MovinkPad Pro 14: The Best Mobile Art Tablet Ever!",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2025-11-08",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/wacom-movinkpad-pro-14-review",
+        "Title": "Review: Wacom MovinkPad Pro 14",
+        "Author": "Parka Blogs",
+        "PublishDate": "2025-11-19",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=f7MRMWMKGeg",
+        "Title": "Wacom MovinkPad Pro 14 (DTH-A140): Unboxing and testing",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-10-25",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=oxxeD6y5CWA",
+        "Title": "MovinkPad Pro 14 months later and accessories to get",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2026-03-05",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=7eGfzl42bCM",
+        "Title": "Wacom MovinkPad Pro 14 vs iPad Pro 13: Which I prefer months later",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2026-06-06",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=6thKViZAo2g",
+        "Title": "M4 iPad Air vs MovinkPad Pro 14: Which is better for artists?",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2026-03-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }
