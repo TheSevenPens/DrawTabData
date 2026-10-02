@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd121fh",
     "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
     "_CreateDate": "2026-04-01T21:44:35.000Z",
-    "_ModifiedDate": "2026-10-02T15:03:16.348Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -34,7 +34,7 @@
         }
       },
       {
-        "Type": "USERMANUAL",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://www.xp-pen.com/user-manual/artist-12-3rd.html",
         "Title": "artist-12-3rd",
         "Author": "XP-Pen",
@@ -48,7 +48,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=jkpUTfQGLwc",
-        "Title": "Teoh on Tech - Review of Artist 12 3rd",
+        "Title": "XPPen Artist 12 3rd (review): Pen is even better now",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-12-17",
         "ContentType": "VIDEO",
@@ -61,7 +61,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=LlqGM0rjG3g",
-        "Title": "Brad Colbow - Review of Artist 12 3rd",
+        "Title": "XP Pen Artist 12 3rd Review",
         "Author": "Brad Colbow",
         "PublishDate": "2025-11-17",
         "ContentType": "VIDEO",
@@ -75,13 +75,59 @@
         "Type": "REVIEW",
         "URL": "https://youtube.com/live/teEGX7G-gYs?feature=share",
         "Title": "Unboxing & Testing: XP-Pen Artist 12 GEN3 (CD121FH)",
-        "Author": "SevenPens",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-10-25",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:52:57.144Z",
           "HttpStatus": 200
         }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/artist-12-3rd.html",
+        "Title": "Artist 12 3rd Pen Display Tablet | XPPen US Official Store",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=2dM1gbjzGgQ",
+        "Title": "Review Artist 12 Gen 3 | TOP mejores Tabletas Gráficas principiantes 2026",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2025-10-20",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=7deVfSmdSdc",
+        "Title": "XPpen Artist 12 3rd review",
+        "Author": "David Revoy",
+        "PublishDate": "2026-08-27",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.davidrevoy.com/article1169/xppen-artist-12-3rd-review-on-gnulinux",
+        "Title": "XPpen Artist 12 3rd - review on GNU/Linux",
+        "Author": "David Revoy",
+        "PublishDate": "2026-08-27"
       }
     ],
     "Name": "Artist 12 3rd",

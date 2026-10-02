@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.deco01",
     "_id": "611b4eed-7e42-4818-859e-a7f8ac5b9623",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -35,7 +35,7 @@
         }
       },
       {
-        "Type": "USERMANUAL",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://www.xp-pen.com/user-manual/deco-01-v3.html",
         "Title": "deco-01-v3",
         "Author": "XP-Pen",
@@ -49,7 +49,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=2-TKwccrvuE",
-        "Title": "Brad Colbow - Review of Deco 01 V3",
+        "Title": "The Cheapest Drawing Tablet That I Recommend - XP Pen Deco 1 v3",
         "Author": "Brad Colbow",
         "PublishDate": "2026-04-30",
         "ContentType": "VIDEO",

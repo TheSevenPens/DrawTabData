@@ -3,14 +3,14 @@
     "EntityId": "wacom.tablet.ptk1240",
     "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:33.130Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "PTK-1240",
     "Links": [
       {
-        "Type": "MANUFACTURERPRODUCTINFO",
+        "Type": "MANUFACTURERUSERMANUAL",
         "URL": "https://cdn.wacom.com/u/productsupport/manuals/Intuos4/User%27s%20Manual.pdf",
         "Author": "Wacom",
         "ContentType": "PDF",
@@ -24,11 +24,25 @@
         "Type": "REVIEW",
         "URL": "https://youtu.be/Tv_qX1Z9-wI",
         "Title": "Is an EXTRA LARGE Pen tablet right for you? (Wacom Intuos 4 XL PTK-1240)",
-        "Author": "SevenPens",
+        "Author": "Seven Pens",
+        "PublishDate": "2022-07-25",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=Tv_qX1Z9-wI",
+        "Title": "Is an EXTRA LARGE Pen tablet right for you? (Wacom Intuos 4 XL PTK-1240)",
+        "Author": "Seven Pens",
+        "PublishDate": "2022-07-25",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

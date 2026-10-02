@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl4100wl",
     "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:08.331Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -31,6 +31,44 @@
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
           "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=H-ZYte_UOVM",
+        "Title": "Wacom Intuos Small / Medium (2018) Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2018-03-26",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=WLclWCHmrjg",
+        "Title": "INTUOS Small & Medium - Wacom Drawing Tablet for Beginners (Review) ✏️",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2018-03-21",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-US/tablets/wacom-intuos-s-bluetooth-black-us-ctl4100wlk0.html",
+        "Title": "Wacom Intuos Small Bluetooth Black (CTL4100WLK0)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
         }
       }
     ],

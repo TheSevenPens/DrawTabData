@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha116",
     "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T15:29:59.371Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -60,7 +60,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=9Pr9Et7_ezY",
-        "Title": "Aaron Rutten - Review of MovinkPad 11",
+        "Title": "Wacom MovinkPad 11 Review - Better Than iPad for Beginners, Kids & Teens?",
         "Author": "Aaron Rutten",
         "PublishDate": "2025-07-31",
         "ContentType": "VIDEO",
@@ -73,7 +73,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=CmspIjH5XgE",
-        "Title": "Teoh on Tech - Wacom MovinkPad 11 with other EMR pens",
+        "Title": "Wacom MovinkPad 11 with other EMR pens",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-09-03",
         "ContentType": "VIDEO",
@@ -86,8 +86,9 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=NEEm1xAVJrQ",
-        "Title": "Brad Colbow - Wacom Movink Pad 11 and 14 - 8 Months Later",
+        "Title": "Wacom Movink Pad 11 and 14 - 8 Months Later",
         "Author": "Brad Colbow",
+        "PublishDate": "2026-05-08",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
@@ -98,7 +99,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=rgoyTfEkLrQ",
-        "Title": "Teoh on Tech - Review of Wacom MovinkPad 11",
+        "Title": "Wacom MovinkPad 11 review: Into the top 3 with Apple & Samsung",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-08-24",
         "ContentType": "VIDEO",
@@ -111,7 +112,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=SY2cBbGFpCE",
-        "Title": "Teoh on Tech - Note taking on the Wacom MovinkPad 11",
+        "Title": "Note taking on the Wacom MovinkPad 11",
         "Author": "Teoh on Tech",
         "PublishDate": "2025-09-09",
         "ContentType": "VIDEO",
@@ -124,7 +125,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=TnGji_u53UQ",
-        "Title": "Brad Colbow - Review of MovinkPad 11",
+        "Title": "Wacom Movink Pad 11 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2025-08-07",
         "ContentType": "VIDEO",
@@ -137,7 +138,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=xQR-sIQNExg",
-        "Title": "Gartzia Artz - Review of Wacom MovinkPad 11",
+        "Title": "¿El iPad de Wacom? Review y comparativa MovinkPad 11",
         "Author": "Gartzia Artz",
         "PublishDate": "2025-07-31",
         "ContentType": "VIDEO",
@@ -148,14 +149,40 @@
         }
       },
       {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-movinkpad-11-dtha116cl0z.html",
+        "Title": "Wacom MovinkPad 11",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
         "Type": "REVIEW",
-        "URL": "https://youtu.be/NK2_dIGQKk8",
-        "Title": "Budget Android Drawing Tablet Recommendations for 2025",
-        "Author": "SevenPens",
+        "URL": "https://www.parkablogs.com/content/wacom-movink-pad-11-review",
+        "Title": "Review: Wacom MovinkPad 11 with Pro Pen 3",
+        "Author": "Parka Blogs",
+        "PublishDate": "2025-08-18",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=a8-YZ-QSmOs",
+        "Title": "Wacom MovinkPad 11: Unboxing and Testing",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-07-23",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

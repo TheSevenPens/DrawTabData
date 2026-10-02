@@ -3,7 +3,7 @@
     "EntityId": "digidraw.tablet.t610",
     "_id": "97db7e47-b7d9-481f-aceb-4a89733ac001",
     "_CreateDate": "2026-04-20T00:00:00Z",
-    "_ModifiedDate": "2026-09-28T01:36:46.789Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "DIGIDRAW",
@@ -11,24 +11,25 @@
     "Links": [
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.turingdraw.com/page156",
+        "URL": "https://www.digidraw.com/en/product/T610T410",
+        "Title": "DIGIDRAW | T610T410 (Turing Basic S / M)",
         "Author": "DigiDraw",
         "ContentType": "HTML",
         "Check": {
-          "Status": "DEAD",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
-          "HttpStatus": 404
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
         }
       },
       {
         "Type": "REVIEW",
-        "URL": "https://youtube.com/live/YSzg_U_3Rn0?feature=share",
-        "Title": "DigiDraw Turing Basic M unboxing and testing + Q&A",
-        "Author": "SevenPens",
+        "URL": "https://www.youtube.com/watch?v=YSzg_U_3Rn0",
+        "Title": "Tablets & Chill: 2026-04-22 - DigiDraw Turing Basic M unboxing and testing + Q&A",
+        "Author": "Seven Pens",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

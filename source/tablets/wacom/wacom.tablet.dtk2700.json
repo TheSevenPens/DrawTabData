@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2700",
     "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -12,7 +12,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.parkablogs.com/picture/wacom-previews-cintiq-27qhd-pen-display-tablet",
-        "Title": "Wacom Cintiq 27QHD",
+        "Title": "Wacom Previews Cintiq 27QHD Pen Display Tablet",
         "Author": "Parka Blogs",
         "ContentType": "HTML",
         "Check": {
@@ -33,21 +33,9 @@
         }
       },
       {
-        "Type": "STORE",
-        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-22-dtk2260k0a.html",
-        "Title": "product page",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "BLOCKED",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 403
-        }
-      },
-      {
         "Type": "REVIEW",
         "URL": "https://youtu.be/G8SYYpnXmHk",
-        "Title": "Jazza review of Wacom Cintiq 27 QHD",
+        "Title": "Wacom Cintiq 27QHD Touch - Review",
         "Author": "Jazza",
         "PublishDate": "2016-02-07",
         "ContentType": "VIDEO",
@@ -60,13 +48,25 @@
       {
         "Type": "REVIEW",
         "URL": "https://youtu.be/rzzB2_iiJQA",
-        "Title": "Aaron Rutten review of Wacom Cintiq 27 QHD",
+        "Title": "Wacom CINTIQ 27 QHD TOUCH Review",
         "Author": "Aaron Rutten",
         "PublishDate": "2016-11-07",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://101.wacom.com/UserHelpPDF_Legacy/DTK-2700_en.pdf",
+        "Title": "Wacom Cintiq 27QHD user manual (PDF)",
+        "Author": "Wacom",
+        "ContentType": "PDF",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd120fh",
     "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -23,26 +23,77 @@
       },
       {
         "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.xp-pen.com/product/1069.html",
+        "URL": "https://www.xp-pen.com/product/artist-12-2nd-gen.html",
         "Title": "Artist 12 (2nd Generation) best starter Pen Display tablet",
         "Author": "XP-Pen",
         "ContentType": "HTML",
         "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://www.xp-pen.com/store/buy/artist-12-2nd-gen.html",
+        "Title": "Artist 12 (2nd Gen) Pen Display Tablet | XPPen US Official Store",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/artist-12-2nd.html",
+        "Title": "XPPen Artist 12 (Gen 2) Pen Display User Manual",
+        "Author": "XP-Pen",
+        "ContentType": "HTML",
+        "Check": {
           "Status": "REDIRECT",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200,
-          "FinalUrl": "https://www.xp-pen.com/product/artist-12-2nd-gen.html"
+          "FinalUrl": "https://www.xp-pen.com/user-manual/artist-12-2nd"
         }
       },
       {
         "Type": "REVIEW",
-        "URL": "https://docs.sevenpens.com/drawtab/catalog/drawtabs/xppen/xppen-cd120fh-notes",
-        "Title": "XP-Pen Artist 12 Gen2 (CD120FH) notes",
-        "Author": "Seven Pens",
-        "ContentType": "HTML",
+        "URL": "https://www.youtube.com/watch?v=M0ULxV-oOf0",
+        "Title": "XP-Pen Artist 12 (2nd gen) review: HUGE improvement over 1st gen",
+        "Author": "Teoh on Tech",
+        "PublishDate": "2021-11-19",
+        "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
-          "CheckedAt": "2026-08-10T18:52:57.144Z",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=O6OzBT7BLsA",
+        "Title": "XP-Pen Artist 12 (2nd Gen) review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2021-12-13",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=CJuDEe3qyl8",
+        "Title": "A cheap drawing tablet with a screen - XPPEN's Artist 12 2nd Gen Review",
+        "Author": "EyekooDrawsStuff",
+        "PublishDate": "2022-11-18",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

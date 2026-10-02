@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.kp1202",
     "_id": "8a3a2451-e06c-461c-8b3b-255e8479a80a",
     "_CreateDate": "2026-09-30T20:10:14.420Z",
-    "_ModifiedDate": "2026-09-30T20:10:14.420Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -22,39 +22,89 @@
         "URL": "https://www.huion.com/products/kamvas-pad-12",
         "Title": "Huion Kamvas Pad 12",
         "Author": "Huion",
-        "ContentType": "HTML"
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=LIXwSRkvejg",
-        "Title": "Teoh on Tech - Huion Kamvas Pad 12 (review)",
+        "Title": "Huion Kamvas Pad 12 (review): PenTech 4 to the rescue",
         "Author": "Teoh on Tech",
         "PublishDate": "2026-09-07",
-        "ContentType": "VIDEO"
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=3URKxRcZ-Gk",
-        "Title": "Brad Colbow - huion kamvas pad 12 review",
+        "Title": "Huion Kamvas Pad 12 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2026-09-08",
-        "ContentType": "VIDEO"
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=I6MxWzDY_LY",
-        "Title": "Adam Duff - Huion Kamvas Pad 12 (Budget Standalone Android Drawing Tablet)",
+        "Title": "Huion Kamvas Pad 12 (Budget Standalone Android Drawing Tablet)",
         "Author": "Adam Duff",
         "PublishDate": "2026-09-08",
-        "ContentType": "VIDEO"
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       },
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=OnEQSgQ2PCM",
-        "Title": "Gartzia Artz - The tablet Huion should have released 3 years ago | Kamvas Pad 12",
+        "Title": "La tableta que Huion debió sacar hace 3 años | Kamvas Pad 12",
         "Author": "Gartzia Artz",
         "PublishDate": "2026-09-30",
-        "ContentType": "VIDEO"
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/huion-kamvas-pad-12-review",
+        "Title": "Review: Huion Kamvas Pad 12 portable drawing tablet",
+        "Author": "Parka Blogs",
+        "PublishDate": "2026-09-08",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/kamvas-pad-12",
+        "Title": "Huion Kamvas Pad 12",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       }
     ]
   },

@@ -3,24 +3,12 @@
     "EntityId": "wacom.tablet.dtk2420",
     "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:28.989Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "DTK-2420",
     "Links": [
-      {
-        "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-cintiq-pro-24#Specifications",
-        "Title": "Wacom Cintiq Pro 24\": creative pen display",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 200
-        }
-      },
       {
         "Type": "MANUFACTURERUSERMANUAL",
         "URL": "http://101.wacom.com/UserHelp/en/TOC/DTK-2420.html",
@@ -30,6 +18,58 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=lvSeRhrUcCY",
+        "Title": "Wacom CINTIQ PRO 24 & 32 Review (In-Depth)",
+        "Author": "Aaron Rutten",
+        "PublishDate": "2018-12-13",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=BjzYm_o9qXw",
+        "Title": "Wacom Cintiq Pro 24 Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2018-11-05",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=YVCFkutFwvE",
+        "Title": "Wacom Cintiq Pro 24 Review",
+        "Author": "MobileTechReview",
+        "PublishDate": "2018-10-09",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=ERza2YeJTLw",
+        "Title": "Wacom Cintiq Pro 24\" Review",
+        "Author": "Brian Allen",
+        "PublishDate": "2018-05-01",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk168",
     "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:20.480Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -30,6 +30,44 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-cintiq-16-dtk168k0a.html",
+        "Title": "Wacom Cintiq 16 (eStore)",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=QQsKS17j0BQ",
+        "Title": "2025 Wacom Cintiq 16 Review",
+        "Author": "Brad Colbow",
+        "PublishDate": "2025-07-02",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=en2RYaJoms4",
+        "Title": "Wacom Cintiq 16 (2025) Unboxing and Testing",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-07-05",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

@@ -3,24 +3,12 @@
     "EntityId": "wacom.tablet.pth860",
     "_id": "adc0adc8-d2dc-4208-abd3-ec22fb66951d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:03:24.777Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "PTH-860",
     "Links": [
-      {
-        "Type": "MANUFACTURERPRODUCTINFO",
-        "URL": "https://www.wacom.com/en-us/products/pen-tablets/wacom-intuos-pro#Specifications",
-        "Title": "Wacom Intuos Pro (2025) – The Ultimate Creative Pen Tablet",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 200
-        }
-      },
       {
         "Type": "MANUFACTURERUSERMANUAL",
         "URL": "http://101.wacom.com/UserHelp/en/TOC/PTH-860.html",
@@ -42,6 +30,19 @@
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:50:26.160Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=YCmVugc3w_g",
+        "Title": "Is a LARGE pen tablet right for you? (Wacom Intuos Pro Large PTH-860)",
+        "Author": "Seven Pens",
+        "PublishDate": "2022-06-27",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

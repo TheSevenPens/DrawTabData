@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth135",
     "_id": "8d4308af-a529-453e-a394-1a739a337785",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:46.505Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -33,30 +33,6 @@
         }
       },
       {
-        "Type": "STORE",
-        "URL": "https://estore.wacom.com/en-us/wacom-converter-ack45219z.html",
-        "Title": "**Wacom Converter (ACK45219Z)**",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "BLOCKED",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 403
-        }
-      },
-      {
-        "Type": "STORE",
-        "URL": "https://estore.wacom.com/en-us/wacom-one-3-in-1-cable-ack4490602z.html",
-        "Title": "**3-in-1 Cable for Wacom One 2023 Pen Displays (ACK4490602Z)**",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "BLOCKED",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 403
-        }
-      },
-      {
         "Type": "MANUFACTURERPRODUCTINFO",
         "URL": "https://www.wacom.com/en-us/products/pen-displays/wacom-movink",
         "Title": "Wacom Movink Pen Display",
@@ -71,7 +47,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=ifWwffBQ8VQ",
-        "Title": "Teoh on Tech - Review of Wacom Movink 13",
+        "Title": "Wacom Movink 13.3-inch OLED pen display FULL REVIEW",
         "Author": "Teoh on Tech",
         "PublishDate": "2024-11-15",
         "ContentType": "VIDEO",
@@ -96,13 +72,51 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=Y3ASJNcFinI",
-        "Title": "Brad Colbow - Review of Wacom Movink 13",
+        "Title": "Wacom Movink 13 Review",
         "Author": "Brad Colbow",
         "PublishDate": "2024-05-16",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://estore.wacom.com/en-us/wacom-movink-dth135k0a.html",
+        "Title": "Wacom Movink 13",
+        "Author": "Wacom",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "BLOCKED",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 403
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/wacom-movink-oled-touchscreen-pen-display",
+        "Title": "Review: Wacom Movink 13.3-inch OLED touchscreen pen display",
+        "Author": "Parka Blogs",
+        "PublishDate": "2024-11-12",
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=tB3LvEDvqaE",
+        "Title": "Wacom Movink (DTH-135) testing and Q&A stream",
+        "Author": "Seven Pens",
+        "PublishDate": "2025-03-17",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

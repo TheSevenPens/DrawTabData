@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth167",
     "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:50.724Z"
+    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -48,7 +48,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=0B8cNzyO4bs",
-        "Title": "Brad Colbow review of Cintiq Pro 16",
+        "Title": "Wacom Cintiq Pro 16 Review",
         "Author": "Brad Colbow",
         "ContentType": "VIDEO",
         "Check": {
@@ -60,7 +60,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=IU-QOOB2AsU",
-        "Title": "MobileTechReview review of Cintiq Pro 16",
+        "Title": "Wacom Cintiq Pro 16 Gen 2 (2021) Review",
         "Author": "MobileTechReview",
         "ContentType": "VIDEO",
         "Check": {
@@ -72,7 +72,7 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=oROcuvimy18",
-        "Title": "Aaron Blaise review of Cintiq Pro 16",
+        "Title": "The Wacom Cintiq Pro 16 Unboxing and Review",
         "Author": "Aaron Blaise",
         "ContentType": "VIDEO",
         "Check": {
@@ -84,12 +84,25 @@
       {
         "Type": "REVIEW",
         "URL": "https://www.youtube.com/watch?v=v9pWwWE_vRM",
-        "Title": "Aaron Rutten review of Cintiq Pro 16",
+        "Title": "Wacom CINTIQ PRO 16 Review (2021 Version)",
         "Author": "Aaron Rutten",
         "ContentType": "VIDEO",
         "Check": {
           "Status": "OK",
           "CheckedAt": "2026-08-10T18:51:48.289Z",
+          "HttpStatus": 200
+        }
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.youtube.com/watch?v=jdjgIdu7Gik",
+        "Title": "¡¡LA TABLETA MÁS PREMIUM!! CINTIQ 16 PRO ¡Sigue mejorando! / Comparativa modelo de 2021 vs 2017",
+        "Author": "Gartzia Artz",
+        "PublishDate": "2023-04-30",
+        "ContentType": "VIDEO",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
           "HttpStatus": 200
         }
       }

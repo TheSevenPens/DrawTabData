@@ -14,7 +14,12 @@
         "URL": "https://www.xp-pen.com/product/star-g430s.html",
         "Title": "Star G430S",
         "Author": "XP-Pen",
-        "ContentType": "HTML"
+        "ContentType": "HTML",
+        "Check": {
+          "Status": "OK",
+          "CheckedAt": "2026-10-02T16:42:12.857Z",
+          "HttpStatus": 200
+        }
       }
     ],
     "Name": "Star G430S",

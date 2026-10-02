@@ -5,7 +5,7 @@
         "EntityId": "huion.tablet.g930l",
         "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:36:51.284Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -25,33 +25,32 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_tablet/InspiroyGiano/inspiroy-giano.html",
+            "URL": "https://www.huion.com/products/inspiroy-giano",
             "Title": "Huion Inspiroy Giano - Professional Bluetooth 5.0 Pen Tablet",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/inspiroy-giano"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
-            "Type": "USERMANUAL",
-            "URL": "https://www.huion.com/manaul_pdf/en/Inspiroy%20Giano.pdf",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manual/inspiroy-giano",
+            "Title": "HUION Manual - Inspiroy Giano",
             "Author": "Huion",
-            "ContentType": "PDF",
+            "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/404"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=03auOS8lgAE",
-            "Title": "Anna Sok review of Huion Inspiroy Giano G930L",
+            "Title": "IT'S HUGE! Huion Inspiroy Giano Review and Painting on Mac, PC, Android //graphic tablet for PROS",
             "Author": "Anna Sok",
             "PublishDate": "2022-10-04",
             "ContentType": "VIDEO",
@@ -64,7 +63,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=2XcP_Db9e_w",
-            "Title": "Teoh on Tech review of Huion Inspiroy Giano G930L",
+            "Title": "Huion Inspiroy Giano G930L (review): Largest Bluetooth Drawing Tablet",
             "Author": "Teoh on Tech",
             "PublishDate": "2022-05-25",
             "ContentType": "VIDEO",
@@ -77,7 +76,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=CcrTe2J5Ho8",
-            "Title": "Create Now Sleep Later review of Huion Inspiroy Giano G930L",
+            "Title": "Huion Inspiroy Giano Review | LARGE Graphics Pen Tablet",
             "Author": "Create Now Sleep Later",
             "PublishDate": "2022-08-08",
             "ContentType": "VIDEO",
@@ -90,13 +89,64 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=DiRwtSonevY",
-            "Title": "Brad Colbow review of Huion Inspiroy Giano G930L",
+            "Title": "Huion Inspiroy Giano Review",
             "Author": "Brad Colbow",
             "PublishDate": "2022-07-06",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://sweetmonia.com/Sweet-Drawing-Blog/huion-inspiroy-giano-graphics-tablet-review-a-large-drawing-area-for-your-heart-content/",
+            "Title": "Huion Inspiroy Giano graphics tablet Review:- a large drawing area for your heart content",
+            "Author": "SweetMonia",
+            "PublishDate": "2024-03-14",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/inspiroy-giano",
+            "Title": "Huion Store - Inspiroy Giano",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=43dZC0j0T1k",
+            "Title": "Reviewing Huion's HUGE Inspiroy Giano for digital drawing and painting",
+            "Author": "EyekooDrawsStuff",
+            "PublishDate": "2023-05-26",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=RAHxGExeAgU",
+            "Title": "¿WACOM INTUOS PRO L KILLER? HUION INSPIROY GIANO REVIEW En Español | Tableta gráfica inalámbrica XL",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2022-07-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -222,7 +272,7 @@
         "EntityId": "huion.tablet.gs1331",
         "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -242,34 +292,32 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-13.html",
+            "URL": "https://www.huion.com/products/kamvas-13",
             "Title": "Huion Kamvas 13 Portable Pen Display",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-13"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
-            "Type": "USERMANUAL",
-            "URL": "https://www.huion.com/user-manual-70",
-            "Title": "HUION Manual",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manual/kamvas-13",
+            "Title": "HUION Manual - Kamvas 13",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/manual/kamvas-13"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=ku8x1q_nhFQ",
-            "Title": "Brad Colbow review of Huion Kamvas 13",
+            "Title": "Huion Kamvas 13 Review (2020 version)",
             "Author": "Brad Colbow",
             "PublishDate": "2020-03-26",
             "ContentType": "VIDEO",
@@ -282,7 +330,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=yn1eJFsrFnY",
-            "Title": "Teoh on Tech review of Huion Kamvas 13",
+            "Title": "Review: Huion Kamvas 13 Pen Display (Just $239)",
             "Author": "Teoh on Tech",
             "PublishDate": "2020-05-01",
             "ContentType": "VIDEO",
@@ -295,13 +343,51 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/rgaqRLhct0A",
-            "Title": "Create Now Sleep Later review of Huion Kamvas 13",
+            "Title": "Huion Kamvas 13 Review: Huion beats Wacom?",
             "Author": "Create Now Sleep Later",
             "PublishDate": "2020-04-17",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-13",
+            "Title": "Huion Store - Kamvas 13",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=vP_-kE0b8WE",
+            "Title": "Wacom One - VS -  Huion Kamvas 13 - Smackdown!",
+            "Author": "Brad Colbow",
+            "PublishDate": "2020-04-06",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=LZqJ6snjWTc",
+            "Title": "Huion Kamvas 13 Drawing Performance",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2020-07-07",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -365,7 +451,7 @@
         "EntityId": "huion.tablet.gs1333",
         "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:36:55.823Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -384,22 +470,21 @@
             }
           },
           {
-            "Type": "PRODUCTINFO",
-            "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-13-gen-3.html",
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/kamvas-13-gen-3",
             "Title": "Huion Kamvas 13 (Gen 3) - Portable PenTech 4.0 Drawing Tablet for Beginners",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-13-gen-3"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=2cJB3h8qbhY",
-            "Title": "Brad Colbow - Huion Kamvas 13 GEN3 (GS1333) Review",
+            "Title": "Huion Kamvas 13 (Gen 3) Review",
             "Author": "Brad Colbow",
             "PublishDate": "2024-09-23",
             "ContentType": "VIDEO",
@@ -413,7 +498,8 @@
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=5QG6NfIFSjU",
             "Title": "Notes on Huion Kamvas 13 GEN3 (GS1333)",
-            "Author": "SevenPens",
+            "Author": "Seven Pens",
+            "PublishDate": "2024-11-08",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -424,13 +510,51 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Ie39Mbsvc8s",
-            "Title": "EyekooDrawsStuff review of Huion Kamvas 13 GEN3 (GS1333)",
+            "Title": "Kamvas 13 Gen 3 review - HUION's best beginner display tablet",
             "Author": "EyekooDrawsStuff",
             "PublishDate": "2025-01-21",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-13-gen-3",
+            "Title": "Huion Store - Kamvas 13 (Gen 3)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=8btDW6eV_HY",
+            "Title": "Huion Kamvas 13 (gen 3) pen display REVIEW: This is a good one",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2024-09-02",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=F0E7Ttq79n4",
+            "Title": "¡LA MEJOR TABLETA GRÁFICA BARATA de 2024! Review Kamvas 13 Gen3",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2024-11-28",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -510,7 +634,7 @@
         "EntityId": "huion.tablet.gs1562",
         "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:00.040Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -530,15 +654,65 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_display/Kamvas/kamvas-16-2021.html",
+            "URL": "https://www.huion.com/products/kamvas-16-2021",
             "Title": "Huion Kamvas 16 (2021) - 15.6-Inch FHD Pen Display",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-16-2021"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-16-2021",
+            "Title": "Huion Store - Kamvas 16 (2021)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=k4SDAIAnSjg",
+            "Title": "Huion Kamvas 16 (2021) Review",
+            "Author": "Brad Colbow",
+            "PublishDate": "2020-12-01",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=xymOF8FXgO0",
+            "Title": "Review: Huion Kamvas 16 (2021) pen display",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2020-12-22",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=h0puxdOcvQU",
+            "Title": "Huion Kamvas 16 (2021): Laminated Display, Pen Performance, Cursor Tracking",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2021-03-31",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           }
         ],
@@ -613,14 +787,14 @@
         "EntityId": "huion.tablet.gs1563",
         "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T15:29:56.767Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
         "Id": "GS1563",
         "Links": [
           {
-            "Type": "USERMANUAL",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://driverdl.huion.com/instruction/Kamvas16-Gen3/User_Manual_Kamvas16_Gen3_en.pdf",
             "Author": "Huion",
             "ContentType": "PDF",
@@ -632,22 +806,22 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://huion.com/products/pen_display/Kamvas/kamvas-16-gen-3.html",
+            "URL": "https://www.huion.com/products/kamvas-16-gen-3",
             "Title": "Huion Kamvas 16 (Gen 3) - 2.5K QHD Pen Display with PenTech 4.0",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-16-gen-3"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=-qmdAHY4f40",
             "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 1)",
-            "Author": "SevenPens",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-01-10",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -658,8 +832,8 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=-Xq7oHPpUHQ",
-            "Title": "Teoh on Tech blog review of Huion Kamvas 16 GEN3 (GS1563)",
-            "Author": "Teoh on Tech blog",
+            "Title": "Huion Kamvas 16 (Gen 3) Pen Display FULL REVIEW: Many upgrades",
+            "Author": "Teoh on Tech",
             "PublishDate": "2025-01-09",
             "ContentType": "VIDEO",
             "Check": {
@@ -671,7 +845,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=EA4A5B4GcUY",
-            "Title": "Adam Duff review of Huion Kamvas 16 GEN3 (GS1563)",
+            "Title": "I Don't Know What Huion's Been Up To Lately, But I Like It! -  Huion Kamvas 16 (gen 3)",
             "Author": "Adam Duff",
             "PublishDate": "2025-01-13",
             "ContentType": "VIDEO",
@@ -685,7 +859,8 @@
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=KSmhwa6MUjM",
             "Title": "Live unboxing of Huion Kamvas 16 GEN3 (PART 2)",
-            "Author": "SevenPens",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-01-10",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -696,13 +871,38 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=t2gEAky5ns8",
-            "Title": "Brad Colbow review of Huion Kamvas 16 GEN3 (GS1563)",
+            "Title": "Huion Kamvas 16 (Gen 3) Review",
             "Author": "Brad Colbow",
             "PublishDate": "2025-01-07",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://magma.com/blog/huion-kamvas-16-gen-3-review",
+            "Title": "Huion Kamvas 16 Gen 3 Review",
+            "Author": "Ryan Allan",
+            "PublishDate": "2025-01-07",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-16-gen-3",
+            "Title": "Huion Store - Kamvas 16 (Gen 3)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -809,7 +1009,14 @@
           {
             "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.huion.us/products/huion-kamvas-22",
-            "Author": "Huion"
+            "Title": "Redirecting...",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           }
         ],
         "Name": "Kamvas 22",
@@ -872,7 +1079,7 @@
         "EntityId": "huion.tablet.gs2202",
         "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:08.566Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -892,13 +1099,20 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.us/products/huion-kamvas-22-plus",
-            "Author": "Huion"
+            "URL": "https://www.huion.com/products/kamvas-22-plus",
+            "Title": "Huion Kamvas 22 Plus - 21.5-Inch Pen Display with 140% sRGB",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/GJxGzJgfYGA",
-            "Title": "Brad Colbow review of Huion Kamvas 22 Plus",
+            "Title": "Huion Kamvas 22 Plus Review",
             "Author": "Brad Colbow",
             "PublishDate": "2020-09-08",
             "ContentType": "VIDEO",
@@ -911,13 +1125,51 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/mlYTRD2KmeY",
-            "Title": "Nemanja Sekulic review of Huion Kamvas 22 Plus",
+            "Title": "Huion Kamvas 22 Plus - Display Tablet Review",
             "Author": "Nemanja Sekulic",
             "PublishDate": "2022-03-04",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-22-series",
+            "Title": "Huion Store - Kamvas 22 series (Kamvas 22 / 22 Plus)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=s41Svr_7HWg",
+            "Title": "Huion Kamvas 22 Plus laminated display is better than iPad Pro's",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2020-08-06",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=OdWsAKd4EoI",
+            "Title": "XP Pen Artist 22 vs Huion Kamvas 22 Plus",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2021-02-09",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -989,7 +1241,7 @@
         "EntityId": "huion.tablet.gs2203",
         "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-09-28T01:37:12.834Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1008,7 +1260,7 @@
             }
           },
           {
-            "Type": "PRODUCTINFO",
+            "Type": "MANUFACTURERPRODUCTINFO",
             "URL": "https://www.huion.com/products/kamvas-22-gen-3",
             "Title": "Huion Kamvas 22 (Gen 3) - 22-Inch Drawing Tablet Benchmark | 2.5K Display",
             "Author": "Huion",
@@ -1022,8 +1274,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=2mSJLNawCO4",
-            "Title": "Gartzia Artz - HUION IS BACK | Kamvas 22 gen 3 The new Queen Great Quality/Price",
+            "Title": "HUION HA VUELTO | Kamvas 22 gen 3 La nueva Reina Calidad / Precio grande",
             "Author": "Gartzia Artz",
+            "PublishDate": "2026-03-03",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -1034,8 +1287,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=IDvACjevj2A",
-            "Title": "Adam Duff LUCIDPIXUL - HUION Kamvas 22 (Gen 3) - A Turning Point For Huion!",
+            "Title": "HUION Kamvas 22 (Gen 3) - A Turning Point For Huion!",
             "Author": "Adam Duff LUCIDPIXUL",
+            "PublishDate": "2026-03-03",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -1046,8 +1300,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Mbijan2Gm9U",
-            "Title": "Teoh on Tech - Huion Kamvas 22 (Gen 3) review: Sleek upgrade",
+            "Title": "Huion Kamvas 22 (Gen 3) review: It's been 6 years",
             "Author": "Teoh on Tech",
+            "PublishDate": "2026-03-03",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -1058,12 +1313,38 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=OkoLPFYgiRU",
-            "Title": "Brad Colbow - Huion Kamvas 22 (Gen 3) Review",
+            "Title": "Huion Kamvas 22 (Gen 3) Review",
             "Author": "Brad Colbow",
+            "PublishDate": "2026-03-05",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-22-gen-3",
+            "Title": "Huion Store - Kamvas 22 (Gen 3)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=r70dDzgDd8U",
+            "Title": "Unboxing & Testing: Huion Kamvas 22 GEN3 (GS2203)",
+            "Author": "Seven Pens",
+            "PublishDate": "2026-03-08",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -1561,7 +1842,7 @@
             "ContentType": "HTML",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
@@ -1638,7 +1919,7 @@
         "EntityId": "huion.tablet.gt1562",
         "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T04:06:08.592Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1646,34 +1927,34 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-16-plus-4k.html",
+            "URL": "https://www.huion.com/products/kamvas-pro-16-plus-4k",
             "Title": "Kamvas Pro 16 Plus (4K) - 15.6-Inch 4K UHD Pen Display",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-pro-16-plus-4k"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
-            "Type": "USERMANUAL",
-            "URL": "https://www.huion.com/manaul_pdf/en/Kamvas%20Pro%2016%20Plus%20(4K).pdf",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manual/kamvas-pro-16-plus-4k",
+            "Title": "HUION Manual - Kamvas Pro 16 Plus (4K)",
             "Author": "Huion",
-            "ContentType": "PDF",
+            "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/404"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=0sfbhhXoR8E",
-            "Title": "Teoh on Tech review of Huion Kamvas Pro 16 Plus 4K",
+            "Title": "Review: Huion Kamvas Pro 16 Plus (4K) pen display",
             "Author": "Teoh on Tech",
+            "PublishDate": "2021-06-10",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -1684,13 +1965,62 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/aXXdPzw1FFk",
-            "Title": "Teoh on Tech - Huion Kamvas Pro 16 Plus vs XP-Pen Artist Pro 16TP",
+            "Title": "Huion Kamvas Pro 16 Plus vs XP-Pen Artist Pro 16TP",
             "Author": "Teoh on Tech",
             "PublishDate": "2021-08-09",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-pro-16-4k-series",
+            "Title": "Huion Store - Kamvas Pro 16 (4K) series",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/review-huion-kamvas-pro-16-plus-4k",
+            "Title": "Review: Huion Kamvas Pro 16 Plus (4K)",
+            "Author": "Parka Blogs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/huion-kamvas-pro-16-plus-4k-vs-xp-pen-artist-pro-16tp",
+            "Title": "Huion Kamvas Pro 16 Plus (4K) vs XP-Pen Artist Pro 16TP",
+            "Author": "Parka Blogs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=9l2UljGrWdQ",
+            "Title": "Huion Kamvas Pro 16 Plus (4K): Unboxing and First Impression",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2021-05-05",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -1833,7 +2163,7 @@
         "EntityId": "huion.tablet.gt156v2",
         "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1853,27 +2183,51 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/products/pen_display/KamvasPro/kamvas-pro-16-v2.html",
+            "URL": "https://www.huion.com/products/kamvas-pro-16-v2",
             "Title": "Kamvas Pro 16 V2 - Advanced 15.6-Inch Drawing Tablet with PenTech 4.0",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-pro-16-v2"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=CNDwMwp83JU",
-            "Title": "EyekooDrawsStuff - Huion Kamvas Pro 16 V2 Review",
+            "Title": "Huion Kamvas Pro 16 V2 Review",
             "Author": "EyekooDrawsStuff",
             "PublishDate": "2026-06-26",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-pro-16-v2",
+            "Title": "Huion Store - Kamvas Pro 16 V2",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=7lR83wtaBk4",
+            "Title": "Huion Kamvas Pro 16 v2 (review): Better pen performance",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2025-10-18",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -2016,7 +2370,7 @@
         "EntityId": "huion.tablet.gt190",
         "_id": "056de896-c23f-4c31-b057-8fa49fe759ba",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2085,7 +2439,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=5AWpKgv8jdY",
-            "Title": "Create Now Sleep Later - Review of the Huion Kamvas Pro 19",
+            "Title": "Huion Kamvas Pro 19 Review: Can It beat the Wacom Cintiq? 🎨🖊️",
             "Author": "Create Now Sleep Later",
             "PublishDate": "2024-09-15",
             "ContentType": "VIDEO",
@@ -2098,20 +2452,20 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
-            "Title": "Brad Colbow - Wacom Cintiq Pro 17 vs Huion Kamvas Pro 19",
+            "Title": "Wacom Cintiq Pro 17 -VS- Huion Kamvas Pro 19",
             "Author": "Brad Colbow",
             "PublishDate": "2024-03-04",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
-            "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
+            "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
             "Author": "Seven Pens",
             "PublishDate": "2024-03-05",
             "ContentType": "VIDEO",
@@ -2124,8 +2478,8 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Hf01mwaGtdI",
-            "Title": "EyeKooDraws - Review of Huion Kamvas Pro 19",
-            "Author": "EyeKooDraws",
+            "Title": "Huion goes for gold - Kamvas Pro 19 Drawing Tablet Review",
+            "Author": "EyekooDrawsStuff",
             "PublishDate": "2025-09-13",
             "ContentType": "VIDEO",
             "Check": {
@@ -2137,7 +2491,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=hvrPw6mlrlQ",
-            "Title": "claybrush review of Huion Kamvas Pro 19",
+            "Title": "4K Display Pen Tablet for Digital Art | @HuionTablet  Kamvas Pro 19",
             "Author": "claybrush",
             "PublishDate": "2024-01-09",
             "ContentType": "VIDEO",
@@ -2150,7 +2504,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=M9VbiVJX-J4",
-            "Title": "David Revoy - Huion Kamvas Pro 19",
+            "Title": "Huion Kamvas Pro 19 - review",
             "Author": "David Revoy",
             "PublishDate": "2024-11-21",
             "ContentType": "VIDEO",
@@ -2163,7 +2517,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=oSdZYmkOGKE",
-            "Title": "Teoh on Tech - Huion Kamvas Pro 19 review: 4K touchscreen pen display",
+            "Title": "Huion Kamvas Pro 19 review: 4K touchscreen pen display",
             "Author": "Teoh on Tech",
             "PublishDate": "2024-06-21",
             "ContentType": "VIDEO",
@@ -2176,7 +2530,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=t-Qo1jTVibY",
-            "Title": "Yanick Paquette review of Huion Kamvas Pro 19",
+            "Title": "Yanick's Huion Kamvas Pro 19 Review.",
             "Author": "Yanick Paquette",
             "PublishDate": "2024-02-21",
             "ContentType": "VIDEO",
@@ -2189,7 +2543,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=WxdFXfuPvN4",
-            "Title": "Brad Colbow review of the Huion Kamvas Pro 19",
+            "Title": "Huion Kamvas Pro 19 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2024-02-14",
             "ContentType": "VIDEO",
@@ -2202,7 +2556,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=znKvWJON_k8",
-            "Title": "Trent Kaniuga - Review of Huion Kamvas Pro 19",
+            "Title": "The HUION KAMVAS PRO 19 is...  VERY IMPRESSIVE!",
             "Author": "Trent Kaniuga",
             "PublishDate": "2024-12-16",
             "ContentType": "VIDEO",
@@ -2216,6 +2570,7 @@
             "Type": "REVIEW",
             "URL": "https://youtu.be/CnTBrhUhciM",
             "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+            "Author": "Seven Pens",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -2351,7 +2706,7 @@
         "EntityId": "huion.tablet.gt1902",
         "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T15:29:58.159Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2360,7 +2715,7 @@
           {
             "Type": "PRODUCTINFO",
             "URL": "https://support.huion.com/en/support/solutions/articles/44002011098-list-of-compatible-devices-support-usb-c-to-usb-c-connection-with-huion-displays",
-            "Title": "**see this doc**",
+            "Title": "List of Compatible Devices Support USB-C to USB-C Connection with Huion Displays",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
@@ -2371,33 +2726,20 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/products/pen_display/KamvasPro/Kamvas-Pro-19.html",
+            "URL": "https://www.huion.com/products/kamvas-pro-19",
             "Title": "Huion Kamvas Pro 19 - 4K Touch Screen Drawing Tablet with PenTech 4.0",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-pro-19"
-            }
-          },
-          {
-            "Type": "REVIEW",
-            "URL": "https://www.youtube.com/watch?v=4D0_OpPIgC8",
-            "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
-            "Author": "Seven Pens",
-            "ContentType": "VIDEO",
-            "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=5AWpKgv8jdY",
-            "Title": "Create Now Sleep Later - Review of the Huion Kamvas Pro 19",
+            "Title": "Huion Kamvas Pro 19 Review: Can It beat the Wacom Cintiq? 🎨🖊️",
             "Author": "Create Now Sleep Later",
             "PublishDate": "2024-09-15",
             "ContentType": "VIDEO",
@@ -2410,21 +2752,21 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=6kh07G_L_qU",
-            "Title": "Brad Colbow - Wacom Cintiq Pro 17 vs Huion Kamvas Pro 19",
+            "Title": "Wacom Cintiq Pro 17 -VS- Huion Kamvas Pro 19",
             "Author": "Brad Colbow",
             "PublishDate": "2024-03-04",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=CnTBrhUhciM",
-            "Title": "TheSevenPens Notes on the Huion Kamvas Pro 19",
-            "Author": "SevenPens",
+            "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
+            "Author": "Seven Pens",
             "PublishDate": "2024-03-05",
             "ContentType": "VIDEO",
             "Check": {
@@ -2436,8 +2778,8 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=Hf01mwaGtdI",
-            "Title": "EyeKooDraws - Review of Huion Kamvas Pro 19",
-            "Author": "EyeKooDraws",
+            "Title": "Huion goes for gold - Kamvas Pro 19 Drawing Tablet Review",
+            "Author": "EyekooDrawsStuff",
             "PublishDate": "2025-09-13",
             "ContentType": "VIDEO",
             "Check": {
@@ -2449,7 +2791,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=hvrPw6mlrlQ",
-            "Title": "claybrush review of Huion Kamvas Pro 19",
+            "Title": "4K Display Pen Tablet for Digital Art | @HuionTablet  Kamvas Pro 19",
             "Author": "claybrush",
             "PublishDate": "2024-01-09",
             "ContentType": "VIDEO",
@@ -2462,7 +2804,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=M9VbiVJX-J4",
-            "Title": "David Revoy - Huion Kamvas Pro 19",
+            "Title": "Huion Kamvas Pro 19 - review",
             "Author": "David Revoy",
             "PublishDate": "2024-11-21",
             "ContentType": "VIDEO",
@@ -2475,7 +2817,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=oSdZYmkOGKE",
-            "Title": "Teoh on Tech - Huion Kamvas Pro 19 review: 4K touchscreen pen display",
+            "Title": "Huion Kamvas Pro 19 review: 4K touchscreen pen display",
             "Author": "Teoh on Tech",
             "PublishDate": "2024-06-21",
             "ContentType": "VIDEO",
@@ -2488,7 +2830,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=t-Qo1jTVibY",
-            "Title": "Yanick Paquette review of Huion Kamvas Pro 19",
+            "Title": "Yanick's Huion Kamvas Pro 19 Review.",
             "Author": "Yanick Paquette",
             "PublishDate": "2024-02-21",
             "ContentType": "VIDEO",
@@ -2501,7 +2843,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=WxdFXfuPvN4",
-            "Title": "Brad Colbow review of the Huion Kamvas Pro 19",
+            "Title": "Huion Kamvas Pro 19 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2024-02-14",
             "ContentType": "VIDEO",
@@ -2514,7 +2856,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=znKvWJON_k8",
-            "Title": "Trent Kaniuga - Review of Huion Kamvas Pro 19",
+            "Title": "The HUION KAMVAS PRO 19 is...  VERY IMPRESSIVE!",
             "Author": "Trent Kaniuga",
             "PublishDate": "2024-12-16",
             "ContentType": "VIDEO",
@@ -2525,14 +2867,52 @@
             }
           },
           {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-pro-19",
+            "Title": "Huion Store - Kamvas Pro 19",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
             "Type": "REVIEW",
-            "URL": "https://youtu.be/CnTBrhUhciM",
-            "Title": "Notes on Huion Kamvas Pro 19 (GT1902)",
-            "Author": "Seven Pens",
+            "URL": "https://www.parkablogs.com/content/review-huion-kamvas-pro-19-pen-display-2024-touch-support",
+            "Title": "Review: Huion Kamvas Pro 19 pen display (2024) with touch support",
+            "Author": "Parka Blogs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=LfGWH_p7MB4",
+            "Title": "Huion Kamvas Pro 19 vs XPPen Artist Pro 19 (gen 2) pen displays",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2024-10-30",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=5zoTQu0S0us",
+            "Title": "¡LA HUION KAMVAS PRO 19 ES INCREIBLE!",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2024-11-21",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3021,7 +3401,7 @@
         "EntityId": "huion.tablet.gt240",
         "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3053,7 +3433,7 @@
             }
           },
           {
-            "Type": "USERMANUAL",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
             "Author": "Huion",
             "ContentType": "PDF",
@@ -3090,7 +3470,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=6E7fCBuXQlA",
-            "Title": "Teoh on Tech - Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
+            "Title": "Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
             "Author": "Teoh on Tech",
             "PublishDate": "2026-02-01",
             "ContentType": "VIDEO",
@@ -3103,7 +3483,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=HvQxDrzgbOo",
-            "Title": "Brad Colbow review of Review of Huion Kamvas Pro 24 4K",
+            "Title": "Huion Kamvas 24 Pro 4k Review (2021)",
             "Author": "Brad Colbow",
             "PublishDate": "2021-09-02",
             "ContentType": "VIDEO",
@@ -3116,7 +3496,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=QXNex8UZZi8",
-            "Title": "Brad Colbow - Huion Kamvas 24 Pro (Gen 3) Review",
+            "Title": "Huion Kamvas 24 Pro (Gen 3) Review",
             "Author": "Brad Colbow",
             "PublishDate": "2025-10-24",
             "ContentType": "VIDEO",
@@ -3129,8 +3509,8 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=r8k5qsgJXlM",
-            "Title": "Teoh Yi Chie review of Huion Kamvas Pro 24 4K",
-            "Author": "Teoh Yi Chie",
+            "Title": "Review: Huion Kamvas Pro 24 (4K)",
+            "Author": "Teoh on Tech",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -3141,7 +3521,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=XgOq3xCci20",
-            "Title": "Trent Kaniuga - Huion Kamvas Pro 24 Gen 3 Review",
+            "Title": "Huion Kamvas Pro 24 Gen 3 Review  Is This Drawing Tablet Screen TOO Big?",
             "Author": "Trent Kaniuga",
             "PublishDate": "2026-07-02",
             "ContentType": "VIDEO",
@@ -3154,7 +3534,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=XwD_7x2S-7g",
-            "Title": "MossCharmly 2 year review Huion Kamvas Pro 24 4K",
+            "Title": "2 Year Review of Huion Kamvas Pro 24 (4K)!",
             "Author": "MossCharmly 2 year",
             "PublishDate": "2023-12-09",
             "ContentType": "VIDEO",
@@ -3225,7 +3605,7 @@
         "EntityId": "huion.tablet.gt2401",
         "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:21.381Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3233,15 +3613,14 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
+            "URL": "https://www.huion.com/products/kamvas-pro-24-4k",
             "Title": "Huion Kamvas Pro 24 (4K) - 23.8'' UHD Pen Display",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-pro-24-4k"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
@@ -3256,22 +3635,21 @@
             }
           },
           {
-            "Type": "USERMANUAL",
-            "URL": "https://www.huion.com/user-manual-90",
-            "Title": "HUION Manual",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manual/kamvas-pro-24-4k",
+            "Title": "HUION Manual - Kamvas Pro 24 (4K)",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/manual/kamvas-pro-24-4k"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=HvQxDrzgbOo",
-            "Title": "Brad Colbow review of Review of Huion Kamvas Pro 24 4K",
+            "Title": "Huion Kamvas 24 Pro 4k Review (2021)",
             "Author": "Brad Colbow",
             "PublishDate": "2021-09-02",
             "ContentType": "VIDEO",
@@ -3284,8 +3662,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=r8k5qsgJXlM",
-            "Title": "Teoh Yi Chie review of Huion Kamvas Pro 24 4K",
-            "Author": "Teoh Yi Chie",
+            "Title": "Review: Huion Kamvas Pro 24 (4K)",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2021-08-17",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -3296,13 +3675,50 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=XwD_7x2S-7g",
-            "Title": "MossCharmly 2 year review Huion Kamvas Pro 24 4K",
-            "Author": "MossCharmly 2 year",
+            "Title": "2 Year Review of Huion Kamvas Pro 24 (4K)!",
+            "Author": "MossCharmly presents",
             "PublishDate": "2023-12-09",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-pro-24-4k",
+            "Title": "Huion Store - Kamvas Pro 24 (4K)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/artist-review-huion-kamvas-pro-24-4k-pen-display",
+            "Title": "Artist Review: Huion Kamvas Pro 24 (4K) pen display",
+            "Author": "Parka Blogs",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=f200vERwcms",
+            "Title": "Huion Kamvas Pro 24 (4K) Unboxing + First Impression",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2021-07-30",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3401,7 +3817,7 @@
         "EntityId": "huion.tablet.gt2402",
         "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
         "_CreateDate": "2025-12-13T16:20:23.250Z",
-        "_ModifiedDate": "2026-09-28T01:37:25.682Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3421,19 +3837,18 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_display/KamvasPro/kamvas-pro-24-4k.html",
-            "Title": "Huion Kamvas Pro 24 (4K) - 23.8'' UHD Pen Display",
+            "URL": "https://www.huion.com/products/kamvas-pro-24-gen-3",
+            "Title": "Huion Kamvas Pro 24 (Gen 3) - 4K PenTech 4.0 Drawing Tablet",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/kamvas-pro-24-4k"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
-            "Type": "USERMANUAL",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://driverdl.huion.com/instruction/Kamvas_Pro_24Gen3/User_Manual_Kamvas_Pro_24Gen3_EN.pdf",
             "Author": "Huion",
             "ContentType": "PDF",
@@ -3446,7 +3861,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=6E7fCBuXQlA",
-            "Title": "Teoh on Tech - Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
+            "Title": "Huion Kamvas Pro 24 (gen 3) now with TOUCH (full review)",
             "Author": "Teoh on Tech",
             "PublishDate": "2026-02-01",
             "ContentType": "VIDEO",
@@ -3459,7 +3874,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=QXNex8UZZi8",
-            "Title": "Brad Colbow - Huion Kamvas 24 Pro (Gen 3) Review",
+            "Title": "Huion Kamvas 24 Pro (Gen 3) Review",
             "Author": "Brad Colbow",
             "PublishDate": "2025-10-24",
             "ContentType": "VIDEO",
@@ -3472,13 +3887,51 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=XgOq3xCci20",
-            "Title": "Trent Kaniuga - Huion Kamvas Pro 24 Gen 3 Review",
+            "Title": "Huion Kamvas Pro 24 Gen 3 Review  Is This Drawing Tablet Screen TOO Big?",
             "Author": "Trent Kaniuga",
             "PublishDate": "2026-07-02",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-pro-24-gen-3",
+            "Title": "Huion Store - Kamvas Pro 24 (Gen 3)",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=nqrwEZj3SgA",
+            "Title": "Unboxing & Testing: Huion Kamvas Pro 24 GEN3",
+            "Author": "Seven Pens",
+            "PublishDate": "2025-12-13",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=pGm87_lK7gM",
+            "Title": "Enorme 4K y Táctil! Huion Kamvas 24 Pro Gen 3",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2025-10-22",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -3787,7 +4240,7 @@
         "EntityId": "huion.tablet.h1061p",
         "_id": "44cb8880-a0d6-40d6-9d85-79ec87203849",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:30.022Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3795,15 +4248,14 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_tablet/Inspiroy/H1061P.html",
+            "URL": "https://www.huion.com/products/inspiroy-2-l",
             "Title": "Huion Inspiroy 2 L - Large Drawing Pen Tablet",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/inspiroy-2-l"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
@@ -3822,8 +4274,9 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/L6mgOluUApE",
-            "Title": "Create Now Sleep Later review of Huion Inspiroy 2 L",
+            "Title": "Huion Inspiroy 2 Series Pen Tablet Review: Is it Worth it?",
             "Author": "Create Now Sleep Later",
+            "PublishDate": "2023-04-24",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -3834,12 +4287,64 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/mgDDBJf96U8",
-            "Title": "Teoh on tech review of Huion Inspiroy 2 L",
-            "Author": "Teoh on tech",
+            "Title": "Review: Huion Inspiroy 2 pen tablet - Works great. Good price.",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2023-02-15",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://sweetmonia.com/Sweet-Drawing-Blog/huion-inspiroy-2-l-review-a-great-elegant-tablet-with-a-comparison-to-huion-inspiroy-2-dial/",
+            "Title": "Huion Inspiroy 2 L Review, a great elegant tablet (with a comparison to Huion Inspiroy 2 Dial)",
+            "Author": "SweetMonia",
+            "PublishDate": "2023-02-14",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=55bgWDoC-Ks",
+            "Title": "¡HUION INSPIROY 2 L y M Las tabletas gráficas BARATAS más PREMIUM!! SE HAN SUPERADO",
+            "Author": "Gartzia Artz",
+            "PublishDate": "2023-02-24",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/review-huion-inspiroy-2-pen-tablet",
+            "Title": "Review: Huion Inspiroy 2 pen tablet",
+            "Author": "Parka Blogs",
+            "PublishDate": "2023-02-11",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/inspiroy-2-l",
+            "Title": "Huion Inspiroy 2 L",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -4724,7 +5229,7 @@
         "EntityId": "huion.tablet.hs611",
         "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:34.327Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4744,34 +5249,32 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_tablet/HS/huion-hs611.html",
+            "URL": "https://www.huion.com/products/hs611",
             "Title": "Huion HS611 Slim Pen Tablet",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/hs611"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
-            "Type": "USERMANUAL",
-            "URL": "https://www.huion.com/user-manual-69",
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manual/hs611",
             "Title": "HUION Manual",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/manual/hs611"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=1RcUCSL5azU",
-            "Title": "Teoh on Tech review of Huion HS611",
+            "Title": "Review: Huion HS611 drawing tablet (10 x 6\", tilt, Android)",
             "Author": "Teoh on Tech",
             "PublishDate": "2021-02-14",
             "ContentType": "VIDEO",
@@ -4784,7 +5287,7 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=IHV7LsbxqsU",
-            "Title": "Brad Colbow review of Huion HS611",
+            "Title": "Huion HS611 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2020-03-23",
             "ContentType": "VIDEO",
@@ -4797,13 +5300,25 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=WEXXbXDrd-Y",
-            "Title": "Nemanja Sekulic review of Huion HS611",
+            "Title": "Huion HS611 Drawing Tablet review | All you need?",
             "Author": "Nemanja Sekulic",
             "PublishDate": "2020-04-28",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/huion-hs611",
+            "Title": "Huion HS611",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -4915,7 +5430,7 @@
         "EntityId": "huion.tablet.kp1202",
         "_id": "8a3a2451-e06c-461c-8b3b-255e8479a80a",
         "_CreateDate": "2026-09-30T20:10:14.420Z",
-        "_ModifiedDate": "2026-09-30T20:10:14.420Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4934,39 +5449,89 @@
             "URL": "https://www.huion.com/products/kamvas-pad-12",
             "Title": "Huion Kamvas Pad 12",
             "Author": "Huion",
-            "ContentType": "HTML"
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=LIXwSRkvejg",
-            "Title": "Teoh on Tech - Huion Kamvas Pad 12 (review)",
+            "Title": "Huion Kamvas Pad 12 (review): PenTech 4 to the rescue",
             "Author": "Teoh on Tech",
             "PublishDate": "2026-09-07",
-            "ContentType": "VIDEO"
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=3URKxRcZ-Gk",
-            "Title": "Brad Colbow - huion kamvas pad 12 review",
+            "Title": "Huion Kamvas Pad 12 Review",
             "Author": "Brad Colbow",
             "PublishDate": "2026-09-08",
-            "ContentType": "VIDEO"
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=I6MxWzDY_LY",
-            "Title": "Adam Duff - Huion Kamvas Pad 12 (Budget Standalone Android Drawing Tablet)",
+            "Title": "Huion Kamvas Pad 12 (Budget Standalone Android Drawing Tablet)",
             "Author": "Adam Duff",
             "PublishDate": "2026-09-08",
-            "ContentType": "VIDEO"
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           },
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=OnEQSgQ2PCM",
-            "Title": "Gartzia Artz - The tablet Huion should have released 3 years ago | Kamvas Pad 12",
+            "Title": "La tableta que Huion debió sacar hace 3 años | Kamvas Pad 12",
             "Author": "Gartzia Artz",
             "PublishDate": "2026-09-30",
-            "ContentType": "VIDEO"
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.parkablogs.com/content/huion-kamvas-pad-12-review",
+            "Title": "Review: Huion Kamvas Pad 12 portable drawing tablet",
+            "Author": "Parka Blogs",
+            "PublishDate": "2026-09-08",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/kamvas-pad-12",
+            "Title": "Huion Kamvas Pad 12",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           }
         ]
       },
@@ -5036,7 +5601,7 @@
         "EntityId": "huion.tablet.l310",
         "_id": "eca5c731-2985-42cb-8c3b-b5dc047788a4",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5049,6 +5614,21 @@
         "Family": "huion.tabletfamily.huion_inspiroyfrego",
         "IncludedPen": [
           "huion.pen.pw550s"
+        ],
+        "Links": [
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Inspiroy-Frego-S.html",
+            "Title": "Huion Inspiroy Frego S - Easy-to-use Pen Tablet in Bluetooth",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "REDIRECT",
+              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200,
+              "FinalUrl": "https://www.huion.com/products/inspiroy-frego-s"
+            }
+          }
         ]
       },
       "Digitizer": {
@@ -5080,14 +5660,14 @@
         "EntityId": "huion.tablet.l610",
         "_id": "0d85fd3d-7029-43c7-bd1e-3b6f0f1110d6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:38.545Z"
+        "_ModifiedDate": "2026-10-02T16:46:58.491Z"
       },
       "Model": {
         "Brand": "HUION",
         "Id": "L610",
         "Links": [
           {
-            "Type": "USERMANUAL",
+            "Type": "MANUFACTURERUSERMANUAL",
             "URL": "https://driverdl.huion.com/instruction/en/User_Manual_inspiroy_frego_EN.pdf",
             "Author": "Huion",
             "ContentType": "PDF",
@@ -5111,23 +5691,11 @@
             }
           },
           {
-            "Type": "PRODUCTINFO",
-            "URL": "https://www.huion.com/products/pen_tablet/Inspiroy/Inspiroy-Frego-S.html",
-            "Title": "Huion Inspiroy Frego S - Easy-to-use Pen Tablet in Bluetooth",
-            "Author": "Huion",
-            "ContentType": "HTML",
-            "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/inspiroy-frego-s"
-            }
-          },
-          {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=3-Cl9_xKKKE",
             "Title": "Notes on Huion Frego M (L610)",
-            "Author": "SevenPens",
+            "Author": "Seven Pens",
+            "PublishDate": "2024-10-11",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
@@ -5138,25 +5706,62 @@
           {
             "Type": "REVIEW",
             "URL": "https://www.youtube.com/watch?v=OpVhKZVFusQ",
-            "Title": "Review of Huion Inspiroy Frego (L610)",
+            "Title": "Best Graphics Tablet for Artists in 2024? Huion Inspiroy Frego Review",
             "Author": "Create Now Sleep Later",
             "PublishDate": "2024-09-01",
             "ContentType": "VIDEO",
             "Check": {
-              "Status": "DEAD",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 401
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:46:56.000Z"
             }
           },
           {
             "Type": "REVIEW",
-            "URL": "https://www.youtube.com/watch?v=Oq6KeACQo68",
-            "Title": "Tutorial | How to connect Kamvas 13 (Gen 3) to your Android Phone",
-            "Author": "Huion",
+            "URL": "https://www.parkablogs.com/content/huion-inspiroy-frego-drawing-pen-tablet",
+            "Title": "Review: Huion Inspiroy Frego pen tablet",
+            "Author": "Parka Blogs",
+            "PublishDate": "2024-08-23",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=W5vTPouuQtM",
+            "Title": "Review: Huion Inspiroy Frego pen tablet - Works great with Android, iPad, iOS",
+            "Author": "Teoh on Tech",
+            "PublishDate": "2024-09-13",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/inspiroy-frego-m",
+            "Title": "Huion Inspiroy Frego M - Simple Bluetooth Pen Tablet",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/inspiroy-frego-m",
+            "Title": "Huion Inspiroy Frego M",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -5469,7 +6074,7 @@
         "EntityId": "huion.tablet.q630m",
         "_id": "d238bade-9633-4b9f-a4ad-dc9f8472808f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:42.850Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5489,21 +6094,20 @@
           },
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_tablet/InspiroyDial/inspiroy-dial-2.html",
+            "URL": "https://www.huion.com/products/inspiroy-dial-2",
             "Title": "Huion Inspiroy Dial 2 - Wireless Pen Tablet with Dual Dials & Bluetooth",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/inspiroy-dial-2"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/mXKoWtvKDi0",
-            "Title": "Create Now Sleep Later review of Huion Inspiroy Dial 2",
+            "Title": "Huion Inspiroy Dial 2 Graphic Tablet - Review",
             "Author": "Create Now Sleep Later",
             "PublishDate": "2022-08-26",
             "ContentType": "VIDEO",
@@ -5516,13 +6120,50 @@
           {
             "Type": "REVIEW",
             "URL": "https://youtu.be/OCNsJ1gqnZ0",
-            "Title": "Teoh on Tech review of Huion Inspiroy Dial 2",
+            "Title": "Huion Inspiroy Dial 2 (Q630M) review",
             "Author": "Teoh on Tech",
             "PublishDate": "2022-08-16",
             "ContentType": "VIDEO",
             "Check": {
               "Status": "OK",
               "CheckedAt": "2026-08-10T18:52:57.144Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://sweetmonia.com/Sweet-Drawing-Blog/huion-inspiroy-2-dial-review-the-elegant-power-of-dials-combined-with-wireless-low-iaf/",
+            "Title": "Huion Inspiroy 2 Dial Review:- The elegant power of dials combined with wireless & low IAF",
+            "Author": "SweetMonia",
+            "PublishDate": "2022-09-19",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manual/inspiroy-dial-2",
+            "Title": "HUION Manual",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/inspiroy-dial-2",
+            "Title": "Huion Inspiroy Dial 2",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
               "HttpStatus": 200
             }
           }
@@ -5567,7 +6208,7 @@
         "EntityId": "huion.tablet.q640m",
         "_id": "df69b1c3-4477-466c-b42a-c70e68006e7c",
         "_CreateDate": "2026-09-24T21:21:56.807Z",
-        "_ModifiedDate": "2026-09-28T01:37:47.064Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5585,7 +6226,37 @@
             "URL": "https://www.huion.com/products/inspiroy-dial-2-v2",
             "Title": "Huion Inspiroy Dial 2 V2 | Wireless Pen Tablet with PenTech 4.0",
             "Author": "Huion",
-            "ContentType": "HTML"
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "REVIEW",
+            "URL": "https://www.youtube.com/watch?v=flGAjQkXULw",
+            "Title": "Huion Dial 2 V2 unboxing and testing",
+            "Author": "Seven Pens",
+            "PublishDate": "2026-09-15",
+            "ContentType": "VIDEO",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/inspiroy-dial-2-v2",
+            "Title": "Huion Inspiroy Dial 2 V2",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
           }
         ]
       },
@@ -5840,7 +6511,7 @@
         "EntityId": "huion.tablet.rtp700",
         "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:51.304Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5848,15 +6519,14 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_tablet/Inspiroy/RTP700.html",
+            "URL": "https://www.huion.com/products/inspiroy-rtp-700",
             "Title": "Huion Inspiroy RTM-700 Pro-level Pen Tablet",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/inspiroy-rtp-700"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           },
           {
@@ -6360,7 +7030,7 @@
         "EntityId": "huion.tablet.wh1409v2",
         "_id": "92357328-ae20-40a4-b570-af719320c879",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6368,15 +7038,26 @@
         "Links": [
           {
             "Type": "MANUFACTURERPRODUCTINFO",
-            "URL": "https://www.huion.com/pen_tablet/Inspiroy/WH1409_V2.html",
+            "URL": "https://www.huion.com/products/inspiroy-wh1409-v2",
             "Title": "Huion WH1409 V2 Computer Pen Tablet & Art Tablet",
             "Author": "Huion",
             "ContentType": "HTML",
             "Check": {
-              "Status": "REDIRECT",
-              "CheckedAt": "2026-08-10T18:52:57.144Z",
-              "HttpStatus": 200,
-              "FinalUrl": "https://www.huion.com/products/inspiroy-wh1409-v2"
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
+            }
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/products/inspiroy-wh1409-v2",
+            "Title": "Huion Inspiroy WH1409 V2",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "Check": {
+              "Status": "OK",
+              "CheckedAt": "2026-10-02T16:42:12.857Z",
+              "HttpStatus": 200
             }
           }
         ],
