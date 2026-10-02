@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha140",
     "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -220,6 +220,8 @@
     },
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES",
+    "AntiReflection": "YES",
     "RefreshRate": "120",
     "ViewingAngleHorizontal": "170",
     "ViewingAngleVertical": "170",

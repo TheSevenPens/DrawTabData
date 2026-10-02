@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth134",
     "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -158,6 +158,7 @@
       "SRGB": 99
     },
     "AntiGlare": "AGFILM",
+    "AntiFingerprint": "YES",
     "RefreshRate": "60"
   },
   "Physical": {

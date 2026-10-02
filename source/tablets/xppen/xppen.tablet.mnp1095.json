@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.mnp1095",
     "_id": "c18123a6-c9c3-47cd-8a16-b3064069d79f",
     "_CreateDate": "2026-04-26T00:00:00.000Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -170,7 +170,8 @@
       "SRGB": 95
     },
     "Lamination": "YES",
-    "RefreshRate": "90"
+    "RefreshRate": "90",
+    "AntiGlare": "ETCHEDGLASS"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.9494g",
     "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -154,15 +154,14 @@
     "Brightness": "360",
     "Contrast": "1200",
     "ColorBitDepth": "8",
-    "ColorGamuts": {
-      "ADOBERGB": 82,
-      "NTSC": 77
-    },
     "ColorGamutAreas": {
-      "SRGB": 109
+      "SRGB": 109,
+      "NTSC": 77,
+      "ADOBERGB": 82
     },
     "Lamination": "YES",
     "AntiGlare": "AGFILM",
+    "AntiFingerprint": "YES",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178"

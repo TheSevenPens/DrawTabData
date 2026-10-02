@@ -460,7 +460,7 @@
         "EntityId": "huion.tablet.gs1333",
         "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -599,8 +599,11 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "SRGB": 99,
-          "ADOBERGB": 90,
-          "REC709": 99
+          "REC709": 99,
+          "ADOBERGB": 90
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "AntiGlare": "ETCHEDGLASS",
         "ViewingAngleHorizontal": "165",
@@ -806,7 +809,7 @@
         "EntityId": "huion.tablet.gs1563",
         "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -974,8 +977,9 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "ADOBERGB": 90,
-          "REC709": 99
+          "SRGB": 99,
+          "REC709": 99,
+          "ADOBERGB": 90
         },
         "ColorGamutAreas": {
           "SRGB": 120
@@ -1273,7 +1277,7 @@
         "EntityId": "huion.tablet.gs2203",
         "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1421,7 +1425,13 @@
         "ResponseTime": "14",
         "RefreshRate": "90",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "REC709": 99,
+          "ADOBERGB": 90,
+          "DISPLAYP3": 94
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -2210,7 +2220,7 @@
         "EntityId": "huion.tablet.gt156v2",
         "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2314,6 +2324,9 @@
         "ColorGamuts": {
           "SRGB": 99,
           "REC709": 99
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
@@ -2759,7 +2772,7 @@
         "EntityId": "huion.tablet.gt1902",
         "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3017,9 +3030,12 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "ADOBERGB": 96,
           "SRGB": 99,
+          "ADOBERGB": 96,
           "DCIP3": 98
+        },
+        "ColorGamutAreas": {
+          "SRGB": 150
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
@@ -3883,7 +3899,7 @@
         "EntityId": "huion.tablet.gt2402",
         "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
         "_CreateDate": "2025-12-13T16:20:23.250Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4042,10 +4058,17 @@
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ResponseTime": "14",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "ADOBERGB": 99,
+          "DCIP3": 98,
+          "DISPLAYP3": 98
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -5500,7 +5523,7 @@
         "EntityId": "huion.tablet.kp1202",
         "_id": "8a3a2451-e06c-461c-8b3b-255e8479a80a",
         "_CreateDate": "2026-09-30T20:10:14.420Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5628,8 +5651,12 @@
         "ColorGamuts": {
           "SRGB": 99
         },
+        "ColorGamutAreas": {
+          "SRGB": 99
+        },
         "Lamination": "YES",
-        "AntiGlare": "ETCHEDGLASS"
+        "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES"
       },
       "Physical": {
         "Dimensions": {

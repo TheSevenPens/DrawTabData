@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth1620",
     "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -94,7 +94,14 @@
     "ResponseTime": "25",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "176",
-    "ViewingAngleVertical": "176"
+    "ViewingAngleVertical": "176",
+    "ColorGamuts": {
+      "ADOBERGB": 85
+    },
+    "ColorGamutAreas": {
+      "ADOBERGB": 94
+    },
+    "AntiGlare": "ETCHEDGLASS"
   },
   "Physical": {
     "Dimensions": {

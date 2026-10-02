@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc141",
     "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -164,6 +164,7 @@
       "SRGB": 98
     },
     "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES",
     "ResponseTime": "16",
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178",

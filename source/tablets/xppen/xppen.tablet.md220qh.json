@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md220qh",
     "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -150,6 +150,7 @@
     },
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178"

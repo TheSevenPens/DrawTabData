@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth167",
     "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -138,7 +138,7 @@
     "Contrast": "1000",
     "ColorBitDepth": "8",
     "ColorGamuts": {
-      "ADOBERGB": 95
+      "ADOBERGB": 98
     },
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "30",
