@@ -7,7 +7,9 @@
         "CT1060",
         "CT430",
         "CT640",
-        "G640"
+        "G430S",
+        "G640",
+        "STAR03V2"
       ]
     },
     {
@@ -29,7 +31,8 @@
       "Brand": "XPPEN",
       "PenId": "P03",
       "TabletIds": [
-        "DECO01"
+        "DECO01",
+        "STAR05"
       ]
     },
     {
@@ -39,7 +42,8 @@
         "ARTIST15.6",
         "DECO01V2",
         "DECO01V3",
-        "DECO03"
+        "DECO03",
+        "G640SV2"
       ]
     },
     {
@@ -47,7 +51,8 @@
       "PenId": "P05D",
       "TabletIds": [
         "DECOMINI4",
-        "DECOMINI7"
+        "DECOMINI7",
+        "DECOMINI7V2"
       ]
     },
     {
@@ -62,7 +67,9 @@
       "PenId": "P06",
       "TabletIds": [
         "ARTIST12",
-        "DECO02"
+        "DECO02",
+        "STAR06",
+        "STAR06C"
       ]
     },
     {

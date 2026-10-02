@@ -565,6 +565,41 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
     }
   }
 
+  // A pen a tablet ships with works with that tablet, so pen-compat must say
+  // so. Sixteen tablets shipped a pen their pen-compat row didn't list, and
+  // the pen pages showed those tablets as incompatible (DrawTabData #54).
+  const compatKeys = new Set<string>();
+  for (const { record } of penCompat) {
+    const brand = getString(record, "Brand");
+    const penId = getString(record, "PenId");
+    const tabletIds = (record as { TabletIds?: unknown }).TabletIds;
+    if (!brand || !penId || !Array.isArray(tabletIds)) continue;
+    for (const tid of tabletIds) compatKeys.add(`${brand}|${penId}|${tid}`);
+  }
+  const penById = new Map<string, { brand?: string; penId?: string }>();
+  for (const { record } of pens) {
+    const id = getString(record, "EntityId");
+    if (id) penById.set(id, { brand: getString(record, "Brand"), penId: getString(record, "PenId") });
+  }
+  for (const { file, record } of tablets) {
+    const included = (record.Model as { IncludedPen?: unknown } | undefined)?.IncludedPen;
+    const tabletId = getNestedString(record, "Model", "Id");
+    if (!Array.isArray(included) || !tabletId) continue;
+    for (const penEntityId of included) {
+      const pen = typeof penEntityId === "string" ? penById.get(penEntityId) : undefined;
+      if (!pen?.brand || !pen.penId) continue; // unknown pens are reported above
+      if (!compatKeys.has(`${pen.brand}|${pen.penId}|${tabletId}`)) {
+        issues.push({
+          file,
+          entityId: getEntityId(record),
+          field: "PenCompat",
+          issue: "ships a pen its pen-compat row doesn't list",
+          value: `${penEntityId} (add ${tabletId} to ${pen.brand} ${pen.penId})`,
+        });
+      }
+    }
+  }
+
   // Pressure response references
   const pressureResponse = readAllInDir(
     dataDir,

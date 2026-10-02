@@ -171,7 +171,8 @@
         "GT1902",
         "GT2701",
         "GT2402",
-        "GT2702"
+        "GT2702",
+        "Q640M"
       ]
     },
     {
@@ -179,6 +180,13 @@
       "PenId": "PW600A",
       "TabletIds": [
         "GT156V2"
+      ]
+    },
+    {
+      "Brand": "HUION",
+      "PenId": "PW600C",
+      "TabletIds": [
+        "KP1202"
       ]
     },
     {

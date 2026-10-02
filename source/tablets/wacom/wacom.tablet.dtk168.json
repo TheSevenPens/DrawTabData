@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk168",
     "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+    "_ModifiedDate": "2026-10-02T19:57:21.120Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -115,8 +115,8 @@
   },
   "Physical": {
     "Dimensions": {
-      "Width": 259,
-      "Height": 384,
+      "Width": 384,
+      "Height": 259,
       "Depth": 15
     },
     "Weight": "2000",
