@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha140",
     "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-09-28T01:39:16.289Z"
+    "_ModifiedDate": "2026-10-02T15:30:00.772Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -105,7 +105,13 @@
     "IncludedPen": [
       "wacom.pen.acp500"
     ],
-    "Family": "wacom.tabletfamily.wacom_movinkpad_2025"
+    "Family": "wacom.tabletfamily.wacom_movinkpad_2025",
+    "IncludedInBox": [
+      "Tablet",
+      "Pro Pen 3 (no grip)",
+      "USB-C charging cable",
+      "3 nibs stored in the pen: Carbon Shaft POM x1, Felt x1, POM x1"
+    ]
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",

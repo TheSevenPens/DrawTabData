@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtha116",
     "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-09-28T01:15:05.129Z"
+    "_ModifiedDate": "2026-10-02T15:29:59.371Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -169,7 +169,13 @@
     "IncludedPen": [
       "wacom.pen.acp500"
     ],
-    "Family": "wacom.tabletfamily.wacom_movinkpad_2025"
+    "Family": "wacom.tabletfamily.wacom_movinkpad_2025",
+    "IncludedInBox": [
+      "MovinkPad 11",
+      "USB-C to C charging cable",
+      "Wacom Pro Pen 3 (slim barrel) with nib holder",
+      "3 felt nibs"
+    ]
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",

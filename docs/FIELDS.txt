@@ -89,6 +89,13 @@ The pen model(s) included with the tablet. Array of pen EntityId strings.
 Example: ["HUION.PEN.PW600", "HUION.PEN.PW600S"]
 Required: no
 
+### Model.IncludedInBox
+What ships in the retail box, one item per string, written as the
+manufacturer lists it with its quantity. Free text; the included pen's
+structured link is Model.IncludedPen.
+Example: ["Drawing Display x 1", "X4 Smart Chip Stylus x 1", "Pen Nibs x 10"]
+Required: no
+
 ### Model.ProductLink
 URL to the manufacturer's official product page.
 Required: no

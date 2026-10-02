@@ -132,6 +132,10 @@ const ModelSchema = v.strictObject({
   Audience: v.optional(v.picklist(["Consumer", "Enthusiast", "Professional"])),
   Family: v.optional(TrimmedString),
   IncludedPen: v.optional(v.array(TrimmedString)),
+  // What ships in the retail box, one item per string as the manufacturer
+  // lists it, quantity included (e.g. "Pen Nibs x 10"). Free text on purpose:
+  // the included pen's structured link is IncludedPen.
+  IncludedInBox: v.optional(v.array(TrimmedString)),
   // NOTE: the former ProductLink / UserManual fields were removed — the
   // canonical manufacturer product page / manual now lives as a single
   // MANUFACTURER* entry in Links, read via the tabletManufacturer* accessors.

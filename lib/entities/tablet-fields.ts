@@ -174,6 +174,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "LastSupportedWindowsDriver", label: "Last Windows Driver", getValue: (t) => t.Model.LastSupportedWindowsDriver ?? "", type: "string", group: "Model" },
   { key: "LastSupportedMacOSDriver", label: "Last macOS Driver", getValue: (t) => t.Model.LastSupportedMacOSDriver ?? "", type: "string", group: "Model" },
   { key: "ModelIncludedPen", label: "Included Pen", getValue: (t) => (t.Model.IncludedPen ?? []).join(", "), type: "string", group: "Model" },
+  { key: "IncludedInBox", label: "Included in Box", getValue: (t) => (t.Model.IncludedInBox ?? []).join(", "), type: "string", group: "Model" },
   { key: "ModelProductLink", label: "Product Link", getValue: (t) => tabletManufacturerProductLink(t), type: "string", group: "Model" },
   { key: "ModelUserManual", label: "User Manual", getValue: (t) => tabletManufacturerUserManual(t), type: "string", group: "Model" },
   // Free-form prose (often markdown). `multiline` moves it out of the spec

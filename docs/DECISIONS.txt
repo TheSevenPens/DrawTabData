@@ -3,6 +3,30 @@
 This document records key design decisions for the DrawTabData project.
 
 
+## 2026-10-02: Model.IncludedInBox is a list of free-text items
+
+### Context
+Catalog notes pages in DrawingTabletDocs have a hand-written "What's in
+the box" list. Moving it into the data lets the Explorer show it and the
+notes pages generate it, like the rest of the specs.
+
+### Options considered
+1. One multiline text field, like Model.Notes.
+2. An array of strings, one item per string, like Model.AlternateNames.
+3. An array of `{ Item, Quantity }` objects.
+
+### Decision
+Option 2. Each string is one item as the manufacturer lists it,
+quantity included (e.g. "Pen Nibs x 10").
+
+### Rationale
+- The content is a list already; a text block would need a separator
+  rule every consumer splits on.
+- Quantities are written inconsistently and nothing filters or sorts on
+  them yet. Moving to `{ Item, Quantity }` later is mechanical.
+- The included pen already has a structured link in Model.IncludedPen.
+
+
 ## 2026-04-16: Per-unit defects on inventory records, controlled by a vocabulary file
 
 ### Context
