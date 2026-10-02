@@ -5,7 +5,7 @@
         "EntityId": "huion.tablet.g930l",
         "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -187,6 +187,9 @@
       "Connectivity": {
         "Bluetooth": "YES",
         "BluetoothVersion": "5.0"
+      },
+      "Power": {
+        "ConsumptionWatts": "0.3"
       }
     },
     {
@@ -272,7 +275,7 @@
         "EntityId": "huion.tablet.gs1331",
         "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -444,6 +447,12 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2",
+        "ConsumptionWatts": "7",
+        "StandbyWatts": "0.3"
       }
     },
     {
@@ -451,7 +460,7 @@
         "EntityId": "huion.tablet.gs1333",
         "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -627,6 +636,10 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2"
       }
     },
     {
@@ -634,7 +647,7 @@
         "EntityId": "huion.tablet.gs1562",
         "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -780,6 +793,12 @@
             "Type": "USB_C"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2",
+        "ConsumptionWatts": "10",
+        "StandbyWatts": "0.3"
       }
     },
     {
@@ -787,7 +806,7 @@
         "EntityId": "huion.tablet.gs1563",
         "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -993,6 +1012,11 @@
             "Detail": "Full-featured"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3",
+        "ConsumptionWatts": "7"
       }
     },
     {
@@ -1079,7 +1103,7 @@
         "EntityId": "huion.tablet.gs2202",
         "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1234,6 +1258,12 @@
         "Dials": "0",
         "TouchRings": "0",
         "TouchStrips": "0"
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "3",
+        "ConsumptionWatts": "24",
+        "StandbyWatts": "0.3"
       }
     },
     {
@@ -1241,7 +1271,7 @@
         "EntityId": "huion.tablet.gs2203",
         "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1421,6 +1451,11 @@
             "Type": "HDMI"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "3",
+        "ConsumptionWatts": "32"
       }
     },
     {
@@ -1919,7 +1954,7 @@
         "EntityId": "huion.tablet.gt1562",
         "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2077,6 +2112,12 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3",
+        "ConsumptionWatts": "15",
+        "StandbyWatts": "0.3"
       }
     },
     {
@@ -2163,7 +2204,7 @@
         "EntityId": "huion.tablet.gt156v2",
         "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2284,6 +2325,12 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputCurrent": "1",
+        "ConsumptionWatts": "9",
+        "StandbyWatts": "0.2"
       }
     },
     {
@@ -2706,7 +2753,7 @@
         "EntityId": "huion.tablet.gt1902",
         "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2992,6 +3039,13 @@
       },
       "OtherInputs": {
         "Touch": "YES"
+      },
+      "Power": {
+        "InputVoltage": "20",
+        "InputCurrent": "3.25",
+        "ConsumptionWatts": "18",
+        "AdapterWatts": "65",
+        "OutputWatts": "40"
       }
     },
     {
@@ -3605,7 +3659,7 @@
         "EntityId": "huion.tablet.gt2401",
         "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3810,6 +3864,12 @@
             "Type": "AUDIO_3_5MM"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "19",
+        "InputCurrent": "3",
+        "ConsumptionWatts": "35",
+        "StandbyWatts": "0.4"
       }
     },
     {
@@ -3817,7 +3877,7 @@
         "EntityId": "huion.tablet.gt2402",
         "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
         "_CreateDate": "2025-12-13T16:20:23.250Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4011,6 +4071,10 @@
             "Type": "DC_POWER"
           }
         ]
+      },
+      "Power": {
+        "InputVoltage": "19",
+        "InputCurrent": "3"
       }
     },
     {

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1563",
     "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -209,5 +209,10 @@
         "Detail": "Full-featured"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "3",
+    "ConsumptionWatts": "7"
   }
 }

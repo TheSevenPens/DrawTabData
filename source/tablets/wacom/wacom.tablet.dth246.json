@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth246",
     "_id": "62cd9b73-c996-422b-93c4-4c128acdaf6e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -159,5 +159,9 @@
         "Detail": "Video and data"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "20",
+    "InputCurrent": "1.8"
   }
 }

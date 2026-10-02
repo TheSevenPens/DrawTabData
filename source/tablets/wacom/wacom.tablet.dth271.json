@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth271",
     "_id": "8bcb5bb8-87eb-4afb-b6e2-8bbb78675d0c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -242,5 +242,11 @@
         "Type": "DC_POWER"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "19",
+    "InputCurrent": "8.4",
+    "ConsumptionMaxWatts": "85",
+    "StandbyWatts": "1.5"
   }
 }

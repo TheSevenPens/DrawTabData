@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2420",
     "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -162,5 +162,8 @@
         "Type": "DC_POWER"
       }
     ]
+  },
+  "Power": {
+    "AdapterWatts": "180"
   }
 }

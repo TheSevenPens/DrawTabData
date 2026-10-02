@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth1620",
     "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -106,5 +106,11 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Power": {
+    "InputVoltage": "20",
+    "InputCurrent": "2.25",
+    "ConsumptionMaxWatts": "33",
+    "StandbyWatts": "3"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.g930l",
     "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -185,5 +185,8 @@
   "Connectivity": {
     "Bluetooth": "YES",
     "BluetoothVersion": "5.0"
+  },
+  "Power": {
+    "ConsumptionWatts": "0.3"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md140fh",
     "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -146,5 +146,9 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2.3"
   }
 }
