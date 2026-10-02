@@ -173,6 +173,14 @@ Format: integer string (e.g. "10", "12")
 Unit: mm
 Required: no
 
+### Digitizer.MaxHoverMin
+The low end when the manufacturer gives hover height as a range ("Reading
+Height 10~20 mm"): MaxHover holds the maximum and MaxHoverMin the minimum. A
+single hover value is treated as the maximum (MaxHover).
+Format: integer string (e.g. "10")
+Unit: mm
+Required: no
+
 
 ## Display group
 

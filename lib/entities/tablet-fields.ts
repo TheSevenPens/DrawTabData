@@ -202,6 +202,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DigitizerAccuracyCenter", label: "Accuracy Center (mm)", getValue: (t) => t.Digitizer?.AccuracyCenter ?? "", type: "number", group: "Digitizer", unit: "mm" },
   { key: "DigitizerAccuracyCorner", label: "Accuracy Corner (mm)", getValue: (t) => t.Digitizer?.AccuracyCorner ?? "", type: "number", group: "Digitizer", unit: "mm" },
   { key: "DigitizerMaxHover", label: "Max Hover (mm)", getValue: (t) => t.Digitizer?.MaxHover ?? "", type: "number", group: "Digitizer", unit: "mm" },
+  { key: "DigitizerMaxHoverMin", label: "Max Hover, Low End (mm)", getValue: (t) => t.Digitizer?.MaxHoverMin ?? "", type: "number", group: "Digitizer", unit: "mm" },
   {
     key: "DigitizerDimensions", label: "Dimensions (mm)", group: "Digitizer", unit: "mm",
     getValue: (t) => { const d = t.Digitizer?.Dimensions; return d ? `${d.Width} x ${d.Height}` : ""; },
