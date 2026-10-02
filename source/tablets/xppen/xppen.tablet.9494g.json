@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.9494g",
     "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T21:41:21.053Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -143,7 +143,9 @@
     },
     "Density": "100",
     "AccuracyCenter": "0.5",
-    "AccuracyCorner": "1.5"
+    "AccuracyCorner": "1.5",
+    "MaxHover": "20",
+    "MaxHoverMin": "10"
   },
   "Display": {
     "PixelDimensions": {

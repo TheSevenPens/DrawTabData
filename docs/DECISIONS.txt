@@ -8,6 +8,8 @@ This document records key design decisions for the DrawTabData project.
 Decided by the author while reviewing the source checks:
 - Physical depth ranges ("19~26.7 mm") are stored as Depth (max) and
   DepthMin (min); a single depth is the max.
+- Hover ranges ("Reading Height 10~20 mm") work the same way: MaxHover
+  (max) and MaxHoverMin (min); a single hover value is the max.
 - A single accuracy figure with no center/corner split goes in
   AccuracyCenter.
 - A built-in fold-out stand counts as Legs only, not IncludedStand.

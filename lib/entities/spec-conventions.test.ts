@@ -24,6 +24,13 @@ describe("spec conventions (#54)", () => {
     expect(v.safeParse(TabletSchema, { ...base, Digitizer: { Dimensions: { Width: 1, Height: 1, DepthMin: 1 } } }).success).toBe(false);
   });
 
+  it("stores a hover range as MaxHoverMin and MaxHover (max)", () => {
+    const t = { ...base, Digitizer: { MaxHover: "20", MaxHoverMin: "10" } };
+    expect(v.safeParse(TabletSchema, t).success).toBe(true);
+    expect(field("DigitizerMaxHover").getValue(t as unknown as Tablet)).toBe("20");
+    expect(field("DigitizerMaxHoverMin").getValue(t as unknown as Tablet)).toBe("10");
+  });
+
   it("keeps a separate Bluetooth report rate", () => {
     const t = { ...base, Digitizer: { ReportRate: "300", ReportRateBluetooth: "133" } };
     expect(v.safeParse(TabletSchema, t).success).toBe(true);

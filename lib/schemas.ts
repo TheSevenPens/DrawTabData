@@ -193,7 +193,10 @@ const DigitizerSchema = v.strictObject({
   Tilt: v.optional(NumericString),
   AccuracyCenter: v.optional(NumericString),
   AccuracyCorner: v.optional(NumericString),
+  // A spec that gives hover as a range ("10~20 mm") stores the maximum in
+  // MaxHover and the minimum in MaxHoverMin; a single value is the maximum.
   MaxHover: v.optional(NumericString),
+  MaxHoverMin: v.optional(NumericString),
 });
 
 const DisplaySchema = v.strictObject({
