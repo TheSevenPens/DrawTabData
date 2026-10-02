@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md220fh",
     "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -102,11 +102,15 @@
     "Brightness": "250",
     "Contrast": "1000",
     "ColorGamuts": {
-      "ADOBERGB": 91,
-      "SRGB": 99
+      "SRGB": 99,
+      "ADOBERGB": 91
+    },
+    "ColorGamutAreas": {
+      "SRGB": 130,
+      "ADOBERGB": 103
     },
     "Lamination": "YES",
-    "AntiGlare": "FILM",
+    "AntiGlare": "AGFILM",
     "RefreshRate": "60"
   },
   "Physical": {

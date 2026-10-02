@@ -2761,7 +2761,7 @@
         "EntityId": "wacom.tablet.dtc121",
         "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2864,6 +2864,7 @@
           "SRGB": 99
         },
         "AntiGlare": "AGFILM",
+        "AntiFingerprint": "YES",
         "ResponseTime": "18",
         "RefreshRate": "60"
       },
@@ -3114,7 +3115,7 @@
         "EntityId": "wacom.tablet.dtc141",
         "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3275,6 +3276,7 @@
           "SRGB": 98
         },
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ResponseTime": "16",
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178",
@@ -3519,7 +3521,7 @@
         "EntityId": "wacom.tablet.dth134",
         "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3674,6 +3676,7 @@
           "SRGB": 99
         },
         "AntiGlare": "AGFILM",
+        "AntiFingerprint": "YES",
         "RefreshRate": "60"
       },
       "Physical": {
@@ -3717,7 +3720,7 @@
         "EntityId": "wacom.tablet.dth135",
         "_id": "8d4308af-a529-453e-a394-1a739a337785",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3870,6 +3873,7 @@
           "ADOBERGB": 95
         },
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ResponseTime": "0.2",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "170",
@@ -3915,7 +3919,7 @@
         "EntityId": "wacom.tablet.dth1620",
         "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4006,7 +4010,14 @@
         "ResponseTime": "25",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "176",
-        "ViewingAngleVertical": "176"
+        "ViewingAngleVertical": "176",
+        "ColorGamuts": {
+          "ADOBERGB": 85
+        },
+        "ColorGamutAreas": {
+          "ADOBERGB": 94
+        },
+        "AntiGlare": "ETCHEDGLASS"
       },
       "Physical": {
         "Dimensions": {
@@ -4031,7 +4042,7 @@
         "EntityId": "wacom.tablet.dth167",
         "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4166,7 +4177,7 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "ADOBERGB": 95
+          "ADOBERGB": 98
         },
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "30",
@@ -5371,7 +5382,7 @@
         "EntityId": "wacom.tablet.dtha116",
         "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5596,6 +5607,7 @@
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "RefreshRate": "90",
         "ViewingAngleHorizontal": "170",
         "ViewingAngleVertical": "170"
@@ -5678,7 +5690,7 @@
         "EntityId": "wacom.tablet.dtha140",
         "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -5895,6 +5907,8 @@
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
+        "AntiReflection": "YES",
         "RefreshRate": "120",
         "ViewingAngleHorizontal": "170",
         "ViewingAngleVertical": "170",
@@ -6500,7 +6514,7 @@
         "EntityId": "wacom.tablet.dtk1660",
         "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6630,7 +6644,8 @@
         },
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "AntiGlare": "AGFILM"
       },
       "Physical": {
         "Dimensions": {

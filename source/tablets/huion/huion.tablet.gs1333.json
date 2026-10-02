@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1333",
     "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -142,8 +142,11 @@
     "ColorBitDepth": "8",
     "ColorGamuts": {
       "SRGB": 99,
-      "ADOBERGB": 90,
-      "REC709": 99
+      "REC709": 99,
+      "ADOBERGB": 90
+    },
+    "ColorGamutAreas": {
+      "SRGB": 120
     },
     "AntiGlare": "ETCHEDGLASS",
     "ViewingAngleHorizontal": "165",

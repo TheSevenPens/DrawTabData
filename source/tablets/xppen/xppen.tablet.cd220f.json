@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd220f",
     "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -53,7 +53,7 @@
     },
     "Brightness": "250",
     "Contrast": "800",
-    "ColorGamuts": {
+    "ColorGamutAreas": {
       "SRGB": 122
     },
     "Lamination": "YES",

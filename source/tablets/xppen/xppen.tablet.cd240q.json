@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd240q",
     "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -56,8 +56,10 @@
     "Contrast": "1000",
     "ColorGamuts": {
       "NTSC": 90,
-      "SRGB": 127,
       "ADOBERGB": 94
+    },
+    "ColorGamutAreas": {
+      "SRGB": 127
     },
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178"

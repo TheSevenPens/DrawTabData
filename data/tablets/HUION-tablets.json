@@ -197,7 +197,7 @@
         "EntityId": "huion.tablet.gs1161",
         "_id": "0cb64320-e097-486a-8537-ea48d10076e3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -249,7 +249,7 @@
         "Brightness": "200",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -275,7 +275,7 @@
         "EntityId": "huion.tablet.gs1331",
         "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -428,7 +428,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -460,7 +460,7 @@
         "EntityId": "huion.tablet.gs1333",
         "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -599,8 +599,11 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "SRGB": 99,
-          "ADOBERGB": 90,
-          "REC709": 99
+          "REC709": 99,
+          "ADOBERGB": 90
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "AntiGlare": "ETCHEDGLASS",
         "ViewingAngleHorizontal": "165",
@@ -647,7 +650,7 @@
         "EntityId": "huion.tablet.gs1562",
         "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -762,7 +765,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -806,7 +809,7 @@
         "EntityId": "huion.tablet.gs1563",
         "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -974,9 +977,12 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "SRGB": 120,
-          "ADOBERGB": 90,
-          "REC709": 99
+          "SRGB": 99,
+          "REC709": 99,
+          "ADOBERGB": 90
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "AntiGlare": "ETCHEDGLASS",
         "RefreshRate": "60",
@@ -1024,7 +1030,7 @@
         "EntityId": "huion.tablet.gs2201",
         "_id": "737d63f7-a797-4ce2-b813-14c00d2be899",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1076,7 +1082,7 @@
         "Brightness": "250",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "NO",
@@ -1103,7 +1109,7 @@
         "EntityId": "huion.tablet.gs2202",
         "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1231,7 +1237,7 @@
         "Brightness": "250",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 140
         },
         "Lamination": "YES",
@@ -1271,7 +1277,7 @@
         "EntityId": "huion.tablet.gs2203",
         "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1411,7 +1417,7 @@
         "Brightness": "250",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 130
         },
         "Lamination": "YES",
@@ -1419,7 +1425,13 @@
         "ResponseTime": "14",
         "RefreshRate": "90",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "REC709": 99,
+          "ADOBERGB": 90,
+          "DISPLAYP3": 94
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -1463,7 +1475,7 @@
         "EntityId": "huion.tablet.gs2401",
         "_id": "e0166391-4204-4fbf-8a33-932c643dc733",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1517,8 +1529,10 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "SRGB": 120,
           "NTSC": 85
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "Lamination": "NO",
         "AntiGlare": "AGFILM",
@@ -1544,7 +1558,7 @@
         "EntityId": "huion.tablet.gs2402",
         "_id": "37a6dd3c-5e82-44c9-9cef-c08aee9dcbfb",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1598,7 +1612,9 @@
         "Contrast": "1200",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "NTSC": 97,
+          "NTSC": 97
+        },
+        "ColorGamutAreas": {
           "SRGB": 140
         },
         "Lamination": "YES",
@@ -1625,7 +1641,7 @@
         "EntityId": "huion.tablet.gt116",
         "_id": "8dae172b-105b-47a5-82a6-5c3c2e377935",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1679,7 +1695,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -1705,7 +1721,7 @@
         "EntityId": "huion.tablet.gt1302",
         "_id": "c228176c-d5f1-485d-982e-79a114ead86a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1756,7 +1772,7 @@
         "Brightness": "220",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 145
         },
         "Lamination": "YES",
@@ -1783,7 +1799,7 @@
         "EntityId": "huion.tablet.gt133",
         "_id": "202d284e-921c-424d-aeaa-1a491c49d2a0",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T04:03:26.201Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1837,7 +1853,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -1863,7 +1879,7 @@
         "EntityId": "huion.tablet.gt1561",
         "_id": "ffe844ea-86e7-42d7-8904-f62294276f6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:29:50.232Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1928,7 +1944,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -1954,7 +1970,7 @@
         "EntityId": "huion.tablet.gt1562",
         "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2093,7 +2109,7 @@
         "Brightness": "200",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 145
         },
         "Lamination": "YES",
@@ -2204,7 +2220,7 @@
         "EntityId": "huion.tablet.gt156v2",
         "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2309,6 +2325,9 @@
           "SRGB": 99,
           "REC709": 99
         },
+        "ColorGamutAreas": {
+          "SRGB": 120
+        },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
@@ -2338,7 +2357,7 @@
         "EntityId": "huion.tablet.gt1602",
         "_id": "a7a353cc-052c-4be6-abae-d4370d67d1fe",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2390,7 +2409,7 @@
         "Brightness": "220",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 145
         },
         "Lamination": "YES",
@@ -2675,7 +2694,7 @@
         "EntityId": "huion.tablet.gt1901",
         "_id": "d4ef79e8-754b-4b99-8af4-336a81e6b211",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2727,7 +2746,7 @@
         "Brightness": "250",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -2753,7 +2772,7 @@
         "EntityId": "huion.tablet.gt1902",
         "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3011,9 +3030,12 @@
         "Contrast": "1000",
         "ColorBitDepth": "8",
         "ColorGamuts": {
-          "ADOBERGB": 96,
           "SRGB": 99,
+          "ADOBERGB": 96,
           "DCIP3": 98
+        },
+        "ColorGamutAreas": {
+          "SRGB": 150
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
@@ -3222,7 +3244,7 @@
         "EntityId": "huion.tablet.gt2201",
         "_id": "7b6cdaf8-ddf9-4815-8589-92c60403a717",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3272,7 +3294,7 @@
         "Brightness": "250",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "AntiGlare": "ETCHEDGLASS",
@@ -3455,7 +3477,7 @@
         "EntityId": "huion.tablet.gt240",
         "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3632,7 +3654,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -3659,7 +3681,7 @@
         "EntityId": "huion.tablet.gt2401",
         "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3810,7 +3832,7 @@
         "Brightness": "220",
         "Contrast": "1200",
         "ColorBitDepth": "10",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 140
         },
         "Lamination": "YES",
@@ -3877,7 +3899,7 @@
         "EntityId": "huion.tablet.gt2402",
         "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
         "_CreateDate": "2025-12-13T16:20:23.250Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4031,15 +4053,22 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "10",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 140
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ResponseTime": "14",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "ADOBERGB": 99,
+          "DCIP3": 98,
+          "DISPLAYP3": 98
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -4164,7 +4193,7 @@
         "EntityId": "huion.tablet.gt2702",
         "_id": "83578dc4-b766-4ca8-85b7-04f16b68caa6",
         "_CreateDate": "2025-12-13T16:26:14.354Z",
-        "_ModifiedDate": "2026-06-19T03:23:34.071Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4217,7 +4246,7 @@
         "Brightness": "300",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 160
         },
         "Lamination": "YES",
@@ -5494,7 +5523,7 @@
         "EntityId": "huion.tablet.kp1202",
         "_id": "8a3a2451-e06c-461c-8b3b-255e8479a80a",
         "_CreateDate": "2026-09-30T20:10:14.420Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5622,8 +5651,12 @@
         "ColorGamuts": {
           "SRGB": 99
         },
+        "ColorGamutAreas": {
+          "SRGB": 99
+        },
         "Lamination": "YES",
-        "AntiGlare": "ETCHEDGLASS"
+        "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES"
       },
       "Physical": {
         "Dimensions": {
@@ -6359,7 +6392,7 @@
         "EntityId": "huion.tablet.rds160",
         "_id": "5ef9fa8b-f4f0-4bfb-a1dd-2032a570178d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6411,7 +6444,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 145
         },
         "Lamination": "YES",
@@ -6438,7 +6471,7 @@
         "EntityId": "huion.tablet.rds220",
         "_id": "84631815-e88d-4c66-a75e-385e077ce38a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6490,7 +6523,7 @@
         "Brightness": "220",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 145
         },
         "Lamination": "YES",
@@ -6798,7 +6831,7 @@
         "EntityId": "huion.tablet.unkkamvas20_2019",
         "_id": "3ead65af-c913-4243-8b60-dc83e13ed3d2",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6851,7 +6884,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "AntiGlare": "ETCHEDGLASS",
@@ -6876,7 +6909,7 @@
         "EntityId": "huion.tablet.unkkamvaspro16_2019",
         "_id": "2633b9d4-991f-4d72-b170-85a7b9fb4ebf",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T04:03:26.201Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6931,7 +6964,7 @@
         "Brightness": "220",
         "Contrast": "1000",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -6957,7 +6990,7 @@
         "EntityId": "huion.tablet.unkkamvaspro16premium",
         "_id": "397197ea-56f3-45e7-8196-8ef3ef0e716b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -7010,7 +7043,7 @@
         "Brightness": "220",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 150
         },
         "Lamination": "YES",

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd160fh",
     "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -130,6 +130,9 @@
     "Contrast": "1000",
     "ColorGamuts": {
       "NTSC": 90,
+      "ADOBERGB": 94
+    },
+    "ColorGamutAreas": {
       "SRGB": 127
     },
     "ViewingAngleHorizontal": "178",

@@ -3,6 +3,30 @@
 This document records key design decisions for the DrawTabData project.
 
 
+## 2026-10-02: Gamut coverage vs area, and surface coatings
+
+### Context
+Display.ColorGamuts was documented as % coverage, but 45 values were above
+100% -- manufacturers' gamut-area figures ("120% sRGB"), which can't be
+coverage and aren't comparable with it (#51). Separately, AntiGlare could
+only say how the matte surface is made (etched glass vs AG film), while
+spec sheets also list coatings on top, mostly anti-fingerprint (#56).
+
+### Decision
+- ColorGamuts holds coverage only and the schema caps it at 100.
+  A new ColorGamutAreas, with the same keys, holds area ratios. Where a
+  manufacturer publishes both, both are kept. Every existing value above
+  100 moved to ColorGamutAreas; values at or under 100 were checked against
+  the manufacturer's wording for tablets with DrawingTabletDocs notes pages.
+- AntiGlare stays as is. Two YES/NO flags, AntiFingerprint and
+  AntiReflection, record the coatings the manufacturer lists.
+
+### Rationale
+- Two fields keep each published number where it belongs, which was the
+  author's direction ("collect both values where possible").
+- Flags over a list of treatments: smallest change, existing AntiGlare
+  values stay valid, and the Explorer and Specs code need no new types.
+
 ## 2026-10-02: Power group for power input, consumption and output
 
 ### Context

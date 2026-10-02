@@ -3,7 +3,7 @@
     "EntityId": "xencelabs.tablet.lph2412ua",
     "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XENCELABS",
@@ -116,7 +116,9 @@
     "ColorBitDepth": "10",
     "ColorGamuts": {
       "ADOBERGB": 99,
-      "DCIP3": 93
+      "DCIP3": 93,
+      "REC709": 99,
+      "SRGB": 99
     },
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",

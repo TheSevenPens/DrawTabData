@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc121",
     "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T18:08:36.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -106,6 +106,7 @@
       "SRGB": 99
     },
     "AntiGlare": "AGFILM",
+    "AntiFingerprint": "YES",
     "ResponseTime": "18",
     "RefreshRate": "60"
   },

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.unkkamvas20_2019",
     "_id": "3ead65af-c913-4243-8b60-dc83e13ed3d2",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -56,7 +56,7 @@
     "Brightness": "220",
     "Contrast": "1000",
     "ColorBitDepth": "8",
-    "ColorGamuts": {
+    "ColorGamutAreas": {
       "SRGB": 120
     },
     "AntiGlare": "ETCHEDGLASS",

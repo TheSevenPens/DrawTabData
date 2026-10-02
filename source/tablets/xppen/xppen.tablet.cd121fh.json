@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd121fh",
     "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
     "_CreateDate": "2026-04-01T21:44:35.000Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -180,6 +180,7 @@
     },
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "170",
     "ViewingAngleVertical": "170"

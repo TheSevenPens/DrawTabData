@@ -48,6 +48,12 @@ function gamutVal(t: Tablet, key: ColorGamutKey): string {
   return displayVal(t, v == null ? undefined : String(v));
 }
 
+/** Gamut area relative to the standard (Display.ColorGamutAreas), which can exceed 100%. */
+function gamutAreaVal(t: Tablet, key: ColorGamutKey): string {
+  const v = t.Display?.ColorGamutAreas?.[key];
+  return displayVal(t, v == null ? undefined : String(v));
+}
+
 /** True when the tablet's Model.Id should be suppressed from formatted
  * names like "Brand Name (Id)". This is the case when:
  *   - the Id is already present in the Name (full string or whole token)
@@ -332,6 +338,12 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DisplayGamutDisplayP3", label: "Display P3 (%)", getValue: (t) => gamutVal(t, "DISPLAYP3"), type: "number", group: "Display" },
   { key: "DisplayGamutNTSC", label: "NTSC (%)", getValue: (t) => gamutVal(t, "NTSC"), type: "number", group: "Display" },
   { key: "DisplayGamutRec709", label: "Rec. 709 (%)", getValue: (t) => gamutVal(t, "REC709"), type: "number", group: "Display" },
+  { key: "DisplayGamutAreaSRGB", label: "sRGB Area (%)", getValue: (t) => gamutAreaVal(t, "SRGB"), type: "number", group: "Display" },
+  { key: "DisplayGamutAreaAdobeRGB", label: "Adobe RGB Area (%)", getValue: (t) => gamutAreaVal(t, "ADOBERGB"), type: "number", group: "Display" },
+  { key: "DisplayGamutAreaDCIP3", label: "DCI-P3 Area (%)", getValue: (t) => gamutAreaVal(t, "DCIP3"), type: "number", group: "Display" },
+  { key: "DisplayGamutAreaDisplayP3", label: "Display P3 Area (%)", getValue: (t) => gamutAreaVal(t, "DISPLAYP3"), type: "number", group: "Display" },
+  { key: "DisplayGamutAreaNTSC", label: "NTSC Area (%)", getValue: (t) => gamutAreaVal(t, "NTSC"), type: "number", group: "Display" },
+  { key: "DisplayGamutAreaRec709", label: "Rec. 709 Area (%)", getValue: (t) => gamutAreaVal(t, "REC709"), type: "number", group: "Display" },
   {
     key: "DisplayColorGamuts", label: "Color Gamuts", group: "Display", computed: true, type: "string",
     getValue: (t) => {
@@ -343,8 +355,21 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
         .join(" · ");
     },
   },
+  {
+    key: "DisplayColorGamutAreas", label: "Color Gamut Areas", group: "Display", computed: true, type: "string",
+    getValue: (t) => {
+      if (notApplicable(t)) return "-";
+      const g = t.Display?.ColorGamutAreas;
+      if (!g) return "";
+      return COLOR_GAMUT_ORDER.filter(([k]) => g[k] != null)
+        .map(([k, label]) => `${label} ${g[k]}%`)
+        .join(" · ");
+    },
+  },
   { key: "DisplayLamination", label: "Lamination", getValue: (t) => displayVal(t, t.Display?.Lamination), type: "enum", enumValues: ["YES", "NO"], group: "Display" },
   { key: "DisplayAntiGlare", label: "Anti-Glare", getValue: (t) => displayVal(t, t.Display?.AntiGlare), type: "enum", enumValues: ["AGFILM", "ETCHEDGLASS", "FILM"], group: "Display" },
+  { key: "DisplayAntiFingerprint", label: "Anti-Fingerprint", getValue: (t) => displayVal(t, t.Display?.AntiFingerprint), type: "enum", enumValues: ["YES", "NO"], group: "Display" },
+  { key: "DisplayAntiReflection", label: "Anti-Reflection", getValue: (t) => displayVal(t, t.Display?.AntiReflection), type: "enum", enumValues: ["YES", "NO"], group: "Display" },
   { key: "DisplayResponseTime", label: "Response Time (ms)", getValue: (t) => displayVal(t, t.Display?.ResponseTime), type: "number", group: "Display" },
   { key: "DisplayRefreshRate", label: "Refresh Rate (Hz)", getValue: (t) => displayVal(t, t.Display?.RefreshRate), type: "number", group: "Display" },
   {

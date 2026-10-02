@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.artist156pro",
     "_id": "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -48,7 +48,9 @@
       "Height": 1080
     },
     "ColorGamuts": {
-      "NTSC": 88,
+      "NTSC": 88
+    },
+    "ColorGamutAreas": {
       "SRGB": 120
     },
     "Lamination": "YES",

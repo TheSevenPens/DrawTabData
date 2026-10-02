@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt240",
     "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -180,7 +180,7 @@
     "Brightness": "220",
     "Contrast": "1000",
     "ColorBitDepth": "8",
-    "ColorGamuts": {
+    "ColorGamutAreas": {
       "SRGB": 120
     },
     "Lamination": "YES",

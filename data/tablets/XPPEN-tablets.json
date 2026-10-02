@@ -5,7 +5,7 @@
         "EntityId": "xppen.tablet.9494g",
         "_id": "b4c5d6e7-f8a9-4b0c-d1e2-f3a4b5c6d7e8",
         "_CreateDate": "2026-04-13T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -156,13 +156,14 @@
         "Brightness": "360",
         "Contrast": "1200",
         "ColorBitDepth": "8",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 109,
-          "ADOBERGB": 82,
-          "NTSC": 77
+          "NTSC": 77,
+          "ADOBERGB": 82
         },
         "Lamination": "YES",
         "AntiGlare": "AGFILM",
+        "AntiFingerprint": "YES",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178"
@@ -355,7 +356,7 @@
         "EntityId": "xppen.tablet.artist133pro",
         "_id": "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -420,8 +421,10 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "NTSC": 88,
-          "SRGB": 123,
           "ADOBERGB": 91
+        },
+        "ColorGamutAreas": {
+          "SRGB": 123
         },
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
@@ -523,7 +526,7 @@
         "EntityId": "xppen.tablet.artist156pro",
         "_id": "d33a5470-4a2e-4e05-aa5e-f2a9fc592bfa",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -568,7 +571,9 @@
           "Height": 1080
         },
         "ColorGamuts": {
-          "NTSC": 88,
+          "NTSC": 88
+        },
+        "ColorGamutAreas": {
           "SRGB": 120
         },
         "Lamination": "YES",
@@ -801,7 +806,7 @@
         "EntityId": "xppen.tablet.artist22rpro",
         "_id": "e2d983ee-d901-4945-a1ea-3fd59a722e72",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -853,8 +858,10 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "NTSC": 88,
-          "SRGB": 120,
           "ADOBERGB": 90
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "ResponseTime": "14"
       },
@@ -959,7 +966,7 @@
         "EntityId": "xppen.tablet.cd100fh",
         "_id": "426c93bb-789a-480c-bb85-62f65cb0875d",
         "_CreateDate": "2026-04-13T00:00:00.000Z",
-        "_ModifiedDate": "2026-09-25T14:43:45.125Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1011,8 +1018,10 @@
         "Contrast": "1000",
         "ColorGamuts": {
           "NTSC": 85,
-          "SRGB": 120,
           "ADOBERGB": 88
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
         },
         "Lamination": "YES",
         "ViewingAngleHorizontal": "178",
@@ -1034,7 +1043,7 @@
         "EntityId": "xppen.tablet.cd120fh",
         "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1164,8 +1173,10 @@
         "ViewingAngleVertical": "178",
         "ColorGamuts": {
           "NTSC": 90,
-          "SRGB": 127,
           "ADOBERGB": 94
+        },
+        "ColorGamutAreas": {
+          "SRGB": 127
         },
         "Lamination": "YES"
       },
@@ -1189,7 +1200,7 @@
         "EntityId": "xppen.tablet.cd121fh",
         "_id": "2c4eed78-b6ac-46e3-89b9-c5b34f4f689d",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1366,6 +1377,7 @@
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "170",
         "ViewingAngleVertical": "170"
@@ -1409,7 +1421,7 @@
         "EntityId": "xppen.tablet.cd130fh",
         "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1549,6 +1561,9 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "NTSC": 92,
+          "ADOBERGB": 96
+        },
+        "ColorGamutAreas": {
           "SRGB": 130
         },
         "Lamination": "YES",
@@ -1587,7 +1602,7 @@
         "EntityId": "xppen.tablet.cd160fh",
         "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1714,6 +1729,9 @@
         "Contrast": "1000",
         "ColorGamuts": {
           "NTSC": 90,
+          "ADOBERGB": 94
+        },
+        "ColorGamutAreas": {
           "SRGB": 127
         },
         "ViewingAngleHorizontal": "178",
@@ -1827,7 +1845,7 @@
         "EntityId": "xppen.tablet.cd220f",
         "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1877,7 +1895,7 @@
         },
         "Brightness": "250",
         "Contrast": "800",
-        "ColorGamuts": {
+        "ColorGamutAreas": {
           "SRGB": 122
         },
         "Lamination": "YES",
@@ -1972,7 +1990,7 @@
         "EntityId": "xppen.tablet.cd240q",
         "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2025,8 +2043,10 @@
         "Contrast": "1000",
         "ColorGamuts": {
           "NTSC": 90,
-          "SRGB": 127,
           "ADOBERGB": 94
+        },
+        "ColorGamutAreas": {
+          "SRGB": 127
         },
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178"
@@ -3304,7 +3324,7 @@
         "EntityId": "xppen.tablet.id160f",
         "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3367,8 +3387,10 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "NTSC": 88,
-          "SRGB": 125,
           "ADOBERGB": 92
+        },
+        "ColorGamutAreas": {
+          "SRGB": 125
         },
         "ResponseTime": "16.4",
         "ViewingAngleHorizontal": "178",
@@ -3390,7 +3412,7 @@
         "EntityId": "xppen.tablet.id160fe",
         "_id": "8da13172-0f45-487d-bb26-e0a53d40c25a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3442,8 +3464,10 @@
         "ColorBitDepth": "8",
         "ColorGamuts": {
           "NTSC": 94,
-          "SRGB": 133,
           "ADOBERGB": 99
+        },
+        "ColorGamutAreas": {
+          "SRGB": 133
         },
         "Lamination": "YES",
         "ViewingAngleHorizontal": "178",
@@ -3843,7 +3867,7 @@
         "EntityId": "xppen.tablet.md140fh",
         "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3972,9 +3996,18 @@
         "ColorBitDepth": "8",
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "ADOBERGB": 85
+        },
+        "ColorGamutAreas": {
+          "SRGB": 123,
+          "ADOBERGB": 91
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -4193,7 +4226,7 @@
         "EntityId": "xppen.tablet.md160qh",
         "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4378,10 +4411,21 @@
         "ColorBitDepth": "8",
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ResponseTime": "20",
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178",
-        "RefreshRate": "60"
+        "RefreshRate": "60",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "ADOBERGB": 97,
+          "DCIP3": 99
+        },
+        "ColorGamutAreas": {
+          "SRGB": 159,
+          "ADOBERGB": 118,
+          "DCIP3": 117
+        }
       },
       "Physical": {
         "Dimensions": {
@@ -4530,7 +4574,7 @@
         "EntityId": "xppen.tablet.md160uh",
         "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
         "_CreateDate": "2025-12-12T18:57:53.360Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4701,8 +4745,14 @@
           "SRGB": 99,
           "DISPLAYP3": 98
         },
+        "ColorGamutAreas": {
+          "SRGB": 156,
+          "ADOBERGB": 116,
+          "DISPLAYP3": 115
+        },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "RefreshRate": "60",
         "ViewingAngleVertical": "170",
         "ResponseTime": "1"
@@ -4728,7 +4778,7 @@
         "EntityId": "xppen.tablet.md180uh",
         "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4906,10 +4956,16 @@
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "ColorGamuts": {
           "SRGB": 99.8,
           "ADOBERGB": 96,
           "DISPLAYP3": 98
+        },
+        "ColorGamutAreas": {
+          "SRGB": 156,
+          "ADOBERGB": 116,
+          "DISPLAYP3": 115
         },
         "PanelTech": "IPS"
       },
@@ -4951,7 +5007,7 @@
         "EntityId": "xppen.tablet.md220fh",
         "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5050,11 +5106,15 @@
         "Brightness": "250",
         "Contrast": "1000",
         "ColorGamuts": {
-          "ADOBERGB": 91,
-          "SRGB": 99
+          "SRGB": 99,
+          "ADOBERGB": 91
+        },
+        "ColorGamutAreas": {
+          "SRGB": 130,
+          "ADOBERGB": 103
         },
         "Lamination": "YES",
-        "AntiGlare": "FILM",
+        "AntiGlare": "AGFILM",
         "RefreshRate": "60"
       },
       "Physical": {
@@ -5094,7 +5154,7 @@
         "EntityId": "xppen.tablet.md220qh",
         "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5241,6 +5301,7 @@
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178"
@@ -5452,7 +5513,7 @@
         "EntityId": "xppen.tablet.md270uh",
         "_id": "7215483d-78a4-4cad-b6b8-b6acaea71091",
         "_CreateDate": "2026-04-22T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5590,11 +5651,18 @@
           "ADOBERGB": 99,
           "DISPLAYP3": 97
         },
+        "ColorGamutAreas": {
+          "SRGB": 149,
+          "ADOBERGB": 110,
+          "DISPLAYP3": 110
+        },
         "Lamination": "YES",
         "RefreshRate": "120",
         "ResponseTime": "5",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "AntiFingerprint": "YES",
+        "AntiGlare": "ETCHEDGLASS"
       },
       "Physical": {
         "Dimensions": {
@@ -5617,7 +5685,7 @@
         "EntityId": "xppen.tablet.mdp1221",
         "_id": "e4f7a8b2-c3d1-4e5f-9a0b-1c2d3e4f5a6b",
         "_CreateDate": "2026-04-13T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5748,6 +5816,7 @@
           "SRGB": 97
         },
         "AntiGlare": "AGFILM",
+        "AntiFingerprint": "YES",
         "RefreshRate": "60"
       },
       "Physical": {
@@ -5795,7 +5864,7 @@
         "EntityId": "xppen.tablet.mnp1095",
         "_id": "c18123a6-c9c3-47cd-8a16-b3064069d79f",
         "_CreateDate": "2026-04-26T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5962,7 +6031,8 @@
           "SRGB": 95
         },
         "Lamination": "YES",
-        "RefreshRate": "90"
+        "RefreshRate": "90",
+        "AntiGlare": "ETCHEDGLASS"
       },
       "Physical": {
         "Dimensions": {

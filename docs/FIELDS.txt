@@ -205,10 +205,22 @@ Unit: bits
 Required: no
 
 ### Display.ColorGamuts
-Color gamut coverage keyed by canonical gamut name.
-Format: object { "GamutName": number, ... } (e.g. { "SRGB": 120, "ADOBERGB": 90 })
-Unit: % coverage
+Color gamut COVERAGE keyed by canonical gamut name: the share of the
+standard's gamut the panel reproduces. Never above 100 (the schema rejects
+it). Record a figure here only when the manufacturer calls it coverage, or
+when it's the usual "99% sRGB" style and nothing says it's an area ratio.
+Format: object { "GamutName": number, ... } (e.g. { "SRGB": 99, "ADOBERGB": 90 })
+Unit: % coverage (0-100)
 Canonical gamut names: SRGB, ADOBERGB, DCIP3, DISPLAYP3, NTSC, REC709
+Required: no
+
+### Display.ColorGamutAreas
+Color gamut AREA (also "volume" or "ratio") relative to each standard: the
+size of the panel's gamut compared with the standard's. Can exceed 100, e.g.
+"120% sRGB". Not comparable with coverage: a 99% coverage panel can cover
+more of sRGB than a 120% area one. Same keys as ColorGamuts.
+Format: object { "GamutName": number, ... } (e.g. { "SRGB": 120 })
+Unit: % of the standard's area
 Required: no
 
 ### Display.Lamination
@@ -219,6 +231,18 @@ Required: no
 ### Display.AntiGlare
 The type of anti-glare treatment on the display surface.
 Values: AGFILM, ETCHEDGLASS, FILM
+Required: no
+
+### Display.AntiFingerprint
+Whether the manufacturer lists an anti-fingerprint (AF) coating on the
+surface (e.g. "AG + AF glass"). Leave out when not stated.
+Values: YES, NO
+Required: no
+
+### Display.AntiReflection
+Whether the manufacturer lists an anti-reflection (AR) coating on the
+surface (e.g. "AR/AG/AF"). Leave out when not stated.
+Values: YES, NO
 Required: no
 
 ### Display.ResponseTime
