@@ -333,6 +333,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DisplayBrightnessPeak", label: "Peak Brightness (cd/m²)", getValue: (t) => displayVal(t, t.Display?.BrightnessPeak), type: "number", group: "Display" },
   { key: "DisplayContrast", label: "Contrast", getValue: (t) => displayVal(t, t.Display?.Contrast), type: "number", group: "Display" },
   { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => displayVal(t, t.Display?.ColorBitDepth), type: "number", group: "Display" },
+  { key: "DisplayColorBitDepthFRC", label: "Bit Depth with FRC", getValue: (t) => displayVal(t, t.Display?.ColorBitDepthFRC), type: "number", group: "Display" },
   { key: "DisplayGamutSRGB", label: "sRGB (%)", getValue: (t) => gamutVal(t, "SRGB"), type: "number", group: "Display" },
   { key: "DisplayGamutAdobeRGB", label: "Adobe RGB (%)", getValue: (t) => gamutVal(t, "ADOBERGB"), type: "number", group: "Display" },
   { key: "DisplayGamutDCIP3", label: "DCI-P3 (%)", getValue: (t) => gamutVal(t, "DCIP3"), type: "number", group: "Display" },

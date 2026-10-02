@@ -13,6 +13,8 @@ Decided by the author while reviewing the source checks:
 - A built-in fold-out stand counts as Legs only, not IncludedStand.
 - Report rate: ReportRate is wired (or the only one given);
   ReportRateBluetooth holds a separate Bluetooth rate.
+- Color depth: ColorBitDepth is the native panel depth; ColorBitDepthFRC
+  holds the depth claimed with FRC, only when the manufacturer says FRC.
 - Buttons means programmable buttons only. Fixed multimedia keys go in
   OtherInputs.MultimediaKeys and scroll wheels in OtherInputs.Scrollers.
 

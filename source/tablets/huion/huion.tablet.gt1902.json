@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt1902",
     "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:16.896Z"
+    "_ModifiedDate": "2026-10-02T21:19:46.373Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -273,7 +273,8 @@
     "ResponseTime": "15",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "170",
-    "ViewingAngleVertical": "170"
+    "ViewingAngleVertical": "170",
+    "ColorBitDepthFRC": "10"
   },
   "Physical": {
     "Dimensions": {

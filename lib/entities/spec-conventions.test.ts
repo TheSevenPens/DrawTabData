@@ -36,4 +36,12 @@ describe("spec conventions (#54)", () => {
     expect(field("OtherInputsMultimediaKeys").getValue(t as unknown as Tablet)).toBe("8");
     expect(field("OtherInputsScrollers").getValue(t as unknown as Tablet)).toBe("1");
   });
+
+  it("keeps native color depth and the FRC-claimed depth apart", () => {
+    const d = { ...base, Model: { ...base.Model, Type: "PENDISPLAY" } };
+    const t = { ...d, Display: { ColorBitDepth: "8", ColorBitDepthFRC: "10" } };
+    expect(v.safeParse(TabletSchema, t).success).toBe(true);
+    expect(field("DisplayColorBitDepthFRC").getValue(t as unknown as Tablet)).toBe("10");
+    expect(v.safeParse(TabletSchema, { ...d, Display: { ColorBitDepthFRC: "12" } }).success).toBe(false);
+  });
 });

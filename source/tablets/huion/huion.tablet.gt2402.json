@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt2402",
     "_id": "4becadaf-648c-4559-87e2-032aa3d6ae2b",
     "_CreateDate": "2025-12-13T16:20:23.250Z",
-    "_ModifiedDate": "2026-10-02T20:40:20.255Z"
+    "_ModifiedDate": "2026-10-02T21:19:50.071Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -156,7 +156,7 @@
     "PanelTech": "IPS",
     "Brightness": "250",
     "Contrast": "1000",
-    "ColorBitDepth": "10",
+    "ColorBitDepth": "8",
     "ColorGamutAreas": {
       "SRGB": 140
     },
@@ -172,7 +172,8 @@
       "ADOBERGB": 99,
       "DCIP3": 98,
       "DISPLAYP3": 98
-    }
+    },
+    "ColorBitDepthFRC": "10"
   },
   "Physical": {
     "Dimensions": {

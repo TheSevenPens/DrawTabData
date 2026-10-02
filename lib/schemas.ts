@@ -202,7 +202,11 @@ const DisplaySchema = v.strictObject({
   Brightness: v.optional(NumericString),
   BrightnessPeak: v.optional(NumericString),
   Contrast: v.optional(NumericString),
+  // Native panel depth. ColorBitDepthFRC is the depth the manufacturer
+  // claims with FRC dithering ("8-bit + FRC" = 8 native, 10 with FRC); set
+  // only when the spec says FRC (or claims 1.07B colors on an 8-bit panel).
   ColorBitDepth: v.optional(v.picklist(["6", "8", "10"])),
+  ColorBitDepthFRC: v.optional(v.picklist(["8", "10"])),
   ColorGamuts: v.optional(ColorGamutsSchema),
   ColorGamutAreas: v.optional(ColorGamutAreasSchema),
   Lamination: v.optional(YesNo),

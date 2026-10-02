@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt2401",
     "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:18.590Z"
+    "_ModifiedDate": "2026-10-02T21:19:48.185Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -153,7 +153,7 @@
     "PanelTech": "IPS",
     "Brightness": "220",
     "Contrast": "1200",
-    "ColorBitDepth": "10",
+    "ColorBitDepth": "8",
     "ColorGamutAreas": {
       "SRGB": 140
     },
@@ -162,7 +162,8 @@
     "ResponseTime": "10",
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178",
-    "RefreshRate": "60"
+    "RefreshRate": "60",
+    "ColorBitDepthFRC": "10"
   },
   "Physical": {
     "Dimensions": {
