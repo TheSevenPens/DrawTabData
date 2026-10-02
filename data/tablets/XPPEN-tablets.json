@@ -5685,7 +5685,7 @@
         "EntityId": "xppen.tablet.mdp1221",
         "_id": "e4f7a8b2-c3d1-4e5f-9a0b-1c2d3e4f5a6b",
         "_CreateDate": "2026-04-13T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:27:03.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5815,7 +5815,7 @@
         "ColorGamuts": {
           "SRGB": 97
         },
-        "AntiGlare": "AGFILM",
+        "AntiGlare": "ETCHEDGLASS",
         "AntiFingerprint": "YES",
         "RefreshRate": "60"
       },
