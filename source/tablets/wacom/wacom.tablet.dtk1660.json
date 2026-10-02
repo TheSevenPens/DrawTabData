@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk1660",
     "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:07.691Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -132,17 +132,18 @@
       "SRGB": 96
     },
     "ResponseTime": "25",
-    "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178",
+    "ViewingAngleHorizontal": "176",
+    "ViewingAngleVertical": "176",
     "AntiGlare": "AGFILM"
   },
   "Physical": {
     "Dimensions": {
       "Width": 422,
       "Height": 285,
-      "Depth": 16.6
+      "Depth": 25
     },
-    "Weight": "1900"
+    "Weight": "1900",
+    "Legs": "YES"
   },
   "OtherInputs": {
     "Touch": "NO"

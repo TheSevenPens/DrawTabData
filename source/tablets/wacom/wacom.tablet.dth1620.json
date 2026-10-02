@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth1620",
     "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:59.242Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -109,7 +109,8 @@
       "Height": 265,
       "Depth": 17.5
     },
-    "Weight": "1500"
+    "Weight": "1500",
+    "Legs": "YES"
   },
   "OtherInputs": {
     "Touch": "YES"
@@ -119,5 +120,21 @@
     "InputCurrent": "2.25",
     "ConsumptionMaxWatts": "33",
     "StandbyWatts": "3"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      }
+    ]
   }
 }

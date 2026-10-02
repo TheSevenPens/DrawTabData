@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.gd0405r",
     "_id": "554aef9c-b553-487a-ac8a-b51b9d4bbc05",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T20:41:19.640Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -39,7 +39,13 @@
       "Width": 127,
       "Height": 106
     },
-    "Density": "100"
+    "Density": "100",
+    "PressureLevels": "1024",
+    "Type": "PASSIVE_EMR",
+    "ReportRate": "200",
+    "Tilt": "50",
+    "MaxHover": "6",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {

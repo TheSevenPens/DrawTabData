@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk650",
     "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:49.382Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -56,7 +56,8 @@
     },
     "Density": "200",
     "ReportRate": "200",
-    "Tilt": "60"
+    "Tilt": "60",
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -67,6 +68,8 @@
     "Weight": "990"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "TouchRings": "1",
+    "Buttons": "8"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rtp700",
     "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:35.548Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -68,5 +68,12 @@
     "Touch": "NO",
     "Buttons": "6",
     "TouchStrips": "1"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

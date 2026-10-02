@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1562",
     "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:08.367Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -99,8 +99,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 344,
-      "Height": 194
+      "Width": 344.16,
+      "Height": 193.59
     },
     "Density": "200",
     "ReportRate": "220",

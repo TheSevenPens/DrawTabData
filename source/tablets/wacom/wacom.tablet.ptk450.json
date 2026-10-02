@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk450",
     "_id": "7b7e2368-695a-417a-b6c9-50e79092911b",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:45.970Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -56,7 +56,8 @@
     },
     "Density": "200",
     "ReportRate": "200",
-    "Tilt": "60"
+    "Tilt": "60",
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -67,6 +68,8 @@
     "Weight": "660"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "TouchRings": "1",
+    "Buttons": "6"
   }
 }

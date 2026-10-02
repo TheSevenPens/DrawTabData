@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cth690",
     "_id": "21687a90-eddd-4727-81cc-bc30b4f04a21",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+    "_ModifiedDate": "2026-10-02T20:40:38.994Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -36,14 +36,17 @@
     "Family": "wacom.tabletfamily.wacom_intuos_2015"
   },
   "Digitizer": {
-    "PressureLevels": "1024",
+    "PressureLevels": "2048",
     "Dimensions": {
       "Width": 216,
       "Height": 135
     },
     "Density": "100",
     "ReportRate": "133",
-    "Tilt": "0"
+    "Tilt": "0",
+    "Type": "PASSIVE_EMR",
+    "AccuracyCenter": "0.5",
+    "MaxHover": "7"
   },
   "Physical": {
     "Dimensions": {
@@ -54,6 +57,7 @@
     "Weight": "480"
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "4"
   }
 }

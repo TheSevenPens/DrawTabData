@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt2401",
     "_id": "5fcb2d3d-7404-4ec6-90b6-c96674ebfd97",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:18.590Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -135,8 +135,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 527,
-      "Height": 296
+      "Width": 527.04,
+      "Height": 296.46
     },
     "Density": "200",
     "ReportRate": "300",
@@ -166,7 +166,7 @@
   },
   "Physical": {
     "Dimensions": {
-      "Width": 589,
+      "Width": 589.2,
       "Height": 364,
       "Depth": 22.7
     },

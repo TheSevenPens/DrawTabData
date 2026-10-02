@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs2202",
     "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:10.065Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -112,8 +112,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 477,
-      "Height": 268
+      "Width": 476.64,
+      "Height": 268.11
     },
     "Density": "200",
     "ReportRate": "220",
@@ -146,7 +146,7 @@
       "Height": 323,
       "Depth": 19
     },
-    "Weight": "2900",
+    "Weight": "3900",
     "WeightInclStand": "YES",
     "IncludedStand": "YES",
     "Legs": "NO",
@@ -164,5 +164,16 @@
     "InputCurrent": "3",
     "ConsumptionWatts": "24",
     "StandbyWatts": "0.3"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "Full-featured"
+      }
+    ]
   }
 }

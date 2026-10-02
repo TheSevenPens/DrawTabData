@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt1562",
     "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:13.480Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -123,8 +123,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 347,
-      "Height": 194
+      "Width": 345.6,
+      "Height": 194.4
     },
     "Density": "200",
     "ReportRate": "220",
@@ -167,5 +167,16 @@
     "InputCurrent": "3",
     "ConsumptionWatts": "15",
     "StandbyWatts": "0.3"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "Full-featured"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2700",
     "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:14.625Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -87,10 +87,11 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "2048",
     "Dimensions": {
-      "Width": 597,
-      "Height": 336
+      "Width": 596.7,
+      "Height": 335.6
     },
-    "Tilt": "60"
+    "Tilt": "60",
+    "Density": "200"
   },
   "Display": {
     "PixelDimensions": {
@@ -115,7 +116,8 @@
       "Depth": 54.4
     },
     "Weight": "9000",
-    "WeightInclStand": "NO"
+    "WeightInclStand": "NO",
+    "Legs": "YES"
   },
   "OtherInputs": {
     "Touch": "NO"

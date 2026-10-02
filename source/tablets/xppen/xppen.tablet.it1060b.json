@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.it1060b",
     "_id": "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:25.105Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -113,10 +113,17 @@
     }
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "8"
   },
   "Connectivity": {
-    "Bluetooth": "YES"
+    "Bluetooth": "YES",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "BluetoothVersion": "5.0"
   },
   "Power": {
     "InputVoltage": "5",

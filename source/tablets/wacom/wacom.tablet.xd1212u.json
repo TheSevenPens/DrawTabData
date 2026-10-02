@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.xd1212u",
     "_id": "422f0225-5495-47d8-9e14-2625502092de",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T20:42:10.493Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -42,8 +42,10 @@
       "Height": 316.8
     },
     "Density": "100",
-    "ReportRate": "100",
-    "Tilt": "60"
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "6",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {

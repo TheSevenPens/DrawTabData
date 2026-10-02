@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth135",
     "_id": "8d4308af-a529-453e-a394-1a739a337785",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:57.557Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -174,7 +174,8 @@
     "VesaMount": "NO"
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "2"
   },
   "Connectivity": {
     "AttachedCable": [],

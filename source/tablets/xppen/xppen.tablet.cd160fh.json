@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd160fh",
     "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:19.616Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -112,8 +112,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 341,
-      "Height": 192
+      "Width": 340.99,
+      "Height": 191.81
     },
     "Density": "200",
     "ReportRate": "200",
@@ -136,7 +136,11 @@
       "SRGB": 127
     },
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "Brightness": "220",
+    "PanelTech": "IPS",
+    "ColorBitDepth": "8",
+    "Lamination": "YES"
   },
   "Physical": {
     "Dimensions": {
@@ -146,7 +150,8 @@
     }
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "10"
   },
   "Connectivity": {
     "Ports": [

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl6100wl",
     "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:49.140Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -92,7 +92,8 @@
     },
     "Density": "100",
     "ReportRate": "133",
-    "Tilt": "0"
+    "Tilt": "0",
+    "MaxHover": "7"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "xencelabs.tablet.bph1212wv1",
     "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:12.329Z"
   },
   "Model": {
     "Brand": "XENCELABS",
@@ -127,8 +127,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 262,
-      "Height": 147
+      "Width": 262.4,
+      "Height": 147.4
     },
     "Density": "200",
     "Tilt": "60"
@@ -143,5 +143,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

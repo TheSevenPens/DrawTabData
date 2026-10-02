@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.kp1202",
     "_id": "8a3a2451-e06c-461c-8b3b-255e8479a80a",
     "_CreateDate": "2026-09-30T20:10:14.420Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:27.022Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -136,7 +136,9 @@
     },
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
-    "AntiFingerprint": "YES"
+    "AntiFingerprint": "YES",
+    "RefreshRate": "90",
+    "ColorBitDepth": "8"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd130fh",
     "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:17.722Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -124,14 +124,15 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 294,
-      "Height": 165
+      "Width": 293.76,
+      "Height": 165.24
     },
     "Density": "200",
     "Tilt": "60",
     "AccuracyCenter": "0.5",
     "AccuracyCorner": "1",
-    "MaxHover": "10"
+    "MaxHover": "10",
+    "ReportRate": "200"
   },
   "Display": {
     "PixelDimensions": {
@@ -151,7 +152,8 @@
     "Lamination": "YES",
     "AntiGlare": "AGFILM",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "PanelTech": "IPS"
   },
   "Physical": {
     "Dimensions": {
@@ -161,7 +163,8 @@
     }
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "9"
   },
   "Connectivity": {
     "AttachedCable": [],

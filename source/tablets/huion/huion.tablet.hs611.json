@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.hs611",
     "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:25.334Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -109,8 +109,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 258,
-      "Height": 162
+      "Width": 258.4,
+      "Height": 161.5
     },
     "Density": "200",
     "ReportRate": "233",
@@ -121,10 +121,10 @@
   "Physical": {
     "Dimensions": {
       "Width": 333.4,
-      "Height": 218,
+      "Height": 218.4,
       "Depth": 7.3
     },
-    "Weight": "500"
+    "Weight": "550"
   },
   "OtherInputs": {
     "Touch": "NO",

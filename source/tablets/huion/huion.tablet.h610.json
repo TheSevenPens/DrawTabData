@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h610",
     "_id": "959ca285-e3e4-4791-a35e-781a9ee000ae",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-10-02T20:40:23.622Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -47,13 +47,15 @@
   },
   "Physical": {
     "Dimensions": {
-      "Width": 250,
-      "Height": 211,
+      "Width": 350,
+      "Height": 211.8,
       "Depth": 8
     },
     "Weight": "600"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "12",
+    "TouchRings": "1"
   }
 }

@@ -1043,7 +1043,7 @@
         "EntityId": "xppen.tablet.cd120fh",
         "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:15.912Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1178,7 +1178,9 @@
         "ColorGamutAreas": {
           "SRGB": 127
         },
-        "Lamination": "YES"
+        "Lamination": "YES",
+        "PanelTech": "IPS",
+        "ColorBitDepth": "8"
       },
       "Physical": {
         "Dimensions": {
@@ -1188,11 +1190,22 @@
         }
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8"
       },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "2"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -1421,7 +1434,7 @@
         "EntityId": "xppen.tablet.cd130fh",
         "_id": "e17e45dc-e43b-41ad-b891-c2784e8b1fdb",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:17.722Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1542,14 +1555,15 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "8192",
         "Dimensions": {
-          "Width": 294,
-          "Height": 165
+          "Width": 293.76,
+          "Height": 165.24
         },
         "Density": "200",
         "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "1",
-        "MaxHover": "10"
+        "MaxHover": "10",
+        "ReportRate": "200"
       },
       "Display": {
         "PixelDimensions": {
@@ -1569,7 +1583,8 @@
         "Lamination": "YES",
         "AntiGlare": "AGFILM",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "PanelTech": "IPS"
       },
       "Physical": {
         "Dimensions": {
@@ -1579,7 +1594,8 @@
         }
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "9"
       },
       "Connectivity": {
         "AttachedCable": [],
@@ -1602,7 +1618,7 @@
         "EntityId": "xppen.tablet.cd160fh",
         "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:19.616Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -1711,8 +1727,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "8192",
         "Dimensions": {
-          "Width": 341,
-          "Height": 192
+          "Width": 340.99,
+          "Height": 191.81
         },
         "Density": "200",
         "ReportRate": "200",
@@ -1735,7 +1751,11 @@
           "SRGB": 127
         },
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "Brightness": "220",
+        "PanelTech": "IPS",
+        "ColorBitDepth": "8",
+        "Lamination": "YES"
       },
       "Physical": {
         "Dimensions": {
@@ -1745,7 +1765,8 @@
         }
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "10"
       },
       "Connectivity": {
         "Ports": [
@@ -2393,7 +2414,7 @@
         "EntityId": "xppen.tablet.deco01v3",
         "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:21.541Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2499,7 +2520,8 @@
         "Weight": "570"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8"
       }
     },
     {
@@ -3489,7 +3511,7 @@
         "EntityId": "xppen.tablet.it1060",
         "_id": "7b02abea-4132-43cb-9a5e-6b45b99e72d7",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:23.320Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3554,14 +3576,27 @@
         "MaxHover": "10"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8"
       },
       "Connectivity": {
-        "Bluetooth": "NO"
+        "Bluetooth": "NO",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 315,
+          "Height": 187,
+          "Depth": 8.8
+        }
       }
     },
     {
@@ -3569,7 +3604,7 @@
         "EntityId": "xppen.tablet.it1060b",
         "_id": "c42b7728-2148-49e8-ae8d-4d78f19ece0a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:25.105Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3679,10 +3714,17 @@
         }
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8"
       },
       "Connectivity": {
-        "Bluetooth": "YES"
+        "Bluetooth": "YES",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "BluetoothVersion": "5.0"
       },
       "Power": {
         "InputVoltage": "5",
@@ -3867,7 +3909,7 @@
         "EntityId": "xppen.tablet.md140fh",
         "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:26.853Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3975,8 +4017,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "16384",
         "Dimensions": {
-          "Width": 299,
-          "Height": 187
+          "Width": 298.94,
+          "Height": 186.84
         },
         "Density": "200",
         "ReportRate": "200",
@@ -3992,7 +4034,7 @@
         },
         "PanelTech": "IPS",
         "Brightness": "250",
-        "Contrast": "800",
+        "Contrast": "1000",
         "ColorBitDepth": "8",
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
@@ -4023,6 +4065,16 @@
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "2.3"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4226,7 +4278,7 @@
         "EntityId": "xppen.tablet.md160qh",
         "_id": "0e548aa4-000f-4eeb-9a5d-6d42b4397b63",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:28.767Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4392,13 +4444,15 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "16384",
         "Dimensions": {
-          "Width": 345,
-          "Height": 215
+          "Width": 344.68,
+          "Height": 215.42
         },
         "Density": "200",
         "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10"
+        "MaxHover": "10",
+        "AccuracyCenter": "0.4",
+        "AccuracyCorner": "0.8"
       },
       "Display": {
         "PixelDimensions": {
@@ -4574,7 +4628,7 @@
         "EntityId": "xppen.tablet.md160uh",
         "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
         "_CreateDate": "2025-12-12T18:57:53.360Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:30.558Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4755,7 +4809,8 @@
         "AntiFingerprint": "YES",
         "RefreshRate": "60",
         "ViewingAngleVertical": "170",
-        "ResponseTime": "1"
+        "ResponseTime": "1",
+        "ViewingAngleHorizontal": "170"
       },
       "Physical": {
         "Dimensions": {
@@ -4771,6 +4826,16 @@
       "Power": {
         "InputVoltage": "12",
         "InputCurrent": "2.5"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -5007,7 +5072,7 @@
         "EntityId": "xppen.tablet.md220fh",
         "_id": "6ed132b8-b231-41e3-a188-5bc7aa23971a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:32.885Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5089,8 +5154,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "16384",
         "Dimensions": {
-          "Width": 476,
-          "Height": 268
+          "Width": 476.06,
+          "Height": 267.79
         },
         "Density": "200",
         "ReportRate": "200",
@@ -5115,7 +5180,11 @@
         },
         "Lamination": "YES",
         "AntiGlare": "AGFILM",
-        "RefreshRate": "60"
+        "RefreshRate": "60",
+        "ColorBitDepth": "8",
+        "ResponseTime": "14",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178"
       },
       "Physical": {
         "Dimensions": {
@@ -5154,7 +5223,7 @@
         "EntityId": "xppen.tablet.md220qh",
         "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:34.850Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5276,8 +5345,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "16384",
         "Dimensions": {
-          "Width": 475,
-          "Height": 267
+          "Width": 475.39,
+          "Height": 267.41
         },
         "Density": "200",
         "ReportRate": "220",
@@ -5315,7 +5384,10 @@
         "Weight": "5550",
         "WeightInclStand": "YES",
         "IncludedStand": "YES",
-        "VesaMount": "YES"
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "100x100"
+        ]
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -5513,7 +5585,7 @@
         "EntityId": "xppen.tablet.md270uh",
         "_id": "7215483d-78a4-4cad-b6b8-b6acaea71091",
         "_CreateDate": "2026-04-22T00:00:00.000Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:36.602Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -5673,11 +5745,30 @@
         "Weight": "7000"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "YES"
       },
       "Power": {
         "InputVoltage": "12",
         "InputCurrent": "5"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "DISPLAYPORT"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
       }
     },
     {
@@ -6186,7 +6277,7 @@
         "EntityId": "xppen.tablet.mt1592b",
         "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:38.338Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6327,6 +6418,15 @@
       "OtherInputs": {
         "Touch": "NO",
         "Buttons": "0"
+      },
+      "Connectivity": {
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {

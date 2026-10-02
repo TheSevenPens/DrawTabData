@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtz1200w",
     "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T20:41:16.323Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -26,8 +26,8 @@
       "Height": 163.2
     },
     "Density": "200",
-    "ReportRate": "136",
-    "Tilt": "40",
+    "ReportRate": "133",
+    "Tilt": "60",
     "AccuracyCenter": "0.5",
     "AccuracyCorner": "4",
     "MaxHover": "5"
@@ -36,9 +36,25 @@
     "PixelDimensions": {
       "Width": 1280,
       "Height": 800
-    }
+    },
+    "Brightness": "180",
+    "Contrast": "600",
+    "ResponseTime": "25",
+    "ColorBitDepth": "8",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "10",
+    "TouchStrips": "2"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 405,
+      "Height": 270,
+      "Depth": 17
+    },
+    "Weight": "2000"
   }
 }

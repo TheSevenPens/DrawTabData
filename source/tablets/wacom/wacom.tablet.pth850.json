@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pth850",
     "_id": "954412d1-5297-4801-b185-745d4f55e1f1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:42.549Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -56,7 +56,9 @@
     },
     "Density": "200",
     "ReportRate": "200",
-    "Tilt": "60"
+    "Tilt": "60",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "10"
   },
   "Physical": {
     "Dimensions": {
@@ -67,6 +69,8 @@
     "Weight": "1800"
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "8",
+    "TouchRings": "1"
   }
 }
