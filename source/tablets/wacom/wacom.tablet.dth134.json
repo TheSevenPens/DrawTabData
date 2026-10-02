@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth134",
     "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T18:08:36.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -188,6 +188,10 @@
   "Power": {
     "InputVoltage": "5",
     "InputCurrent": "3",
+    "InputSource": "USB_PD",
+    "AltInputVoltage": "9",
+    "AltInputCurrent": "2.77",
+    "AltInputSource": "ADAPTER",
     "ConsumptionMaxWatts": "15",
     "StandbyWatts": "1.5"
   }

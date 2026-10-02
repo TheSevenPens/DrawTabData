@@ -2760,7 +2760,7 @@
         "EntityId": "wacom.tablet.dtc121",
         "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2894,6 +2894,10 @@
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "3",
+        "InputSource": "USB_PD",
+        "AltInputVoltage": "9",
+        "AltInputCurrent": "2.77",
+        "AltInputSource": "ADAPTER",
         "ConsumptionMaxWatts": "14",
         "StandbyWatts": "1.5"
       }
@@ -3514,7 +3518,7 @@
         "EntityId": "wacom.tablet.dth134",
         "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3699,6 +3703,10 @@
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "3",
+        "InputSource": "USB_PD",
+        "AltInputVoltage": "9",
+        "AltInputCurrent": "2.77",
+        "AltInputSource": "ADAPTER",
         "ConsumptionMaxWatts": "15",
         "StandbyWatts": "1.5"
       }
@@ -3708,7 +3716,7 @@
         "EntityId": "wacom.tablet.dth135",
         "_id": "8d4308af-a529-453e-a394-1a739a337785",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3894,7 +3902,11 @@
       },
       "Power": {
         "InputVoltage": "5",
-        "InputCurrent": "3"
+        "InputCurrent": "3",
+        "InputSource": "USB_PD",
+        "AltInputVoltage": "9",
+        "AltInputCurrent": "2.77",
+        "AltInputSource": "ADAPTER"
       }
     },
     {
@@ -6643,7 +6655,7 @@
         "EntityId": "wacom.tablet.dtk168",
         "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T18:08:36.000Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6790,7 +6802,11 @@
       },
       "Power": {
         "InputVoltage": "9",
-        "InputCurrent": "2.77"
+        "InputCurrent": "2.77",
+        "InputSource": "ADAPTER",
+        "AltInputVoltage": "5",
+        "AltInputCurrent": "3",
+        "AltInputSource": "USB_PD"
       }
     },
     {

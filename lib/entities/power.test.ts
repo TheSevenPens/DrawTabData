@@ -32,6 +32,13 @@ describe("Power group", () => {
     expect(TABLET_FIELD_GROUPS).toContain("Power");
   });
 
+  it("records a second input path with its source", () => {
+    const t = { ...base, Power: { InputVoltage: "5", InputCurrent: "3", InputSource: "USB_PD", AltInputVoltage: "9", AltInputCurrent: "2.77", AltInputSource: "ADAPTER" } };
+    expect(v.safeParse(TabletSchema, t).success).toBe(true);
+    expect(field("PowerAltInputSource").getValue(t as unknown as Tablet)).toBe("ADAPTER");
+    expect(v.safeParse(TabletSchema, { ...base, Power: { InputSource: "WALL" } }).success).toBe(false);
+  });
+
   it("rejects non-numeric values and unknown keys", () => {
     expect(v.safeParse(TabletSchema, { ...base, Power: { InputWatts: "18W" } }).success).toBe(false);
     expect(v.safeParse(TabletSchema, { ...base, Power: { Watts: "18" } }).success).toBe(false);

@@ -24,6 +24,11 @@ AdapterWatts and OutputWatts, all numeric strings in V / A / W.
 - Matches how every other spec group is stored, so the Explorer's field
   definitions, filters and the DrawingTabletDocs Specs generator handle it
   without new code paths.
+- Some displays list two ways to be powered (USB-C PD from the computer,
+  or the AC adapter). Input* holds the main path and AltInput* the other,
+  each with a Source (ADAPTER / USB_PD / USB), rather than a list of
+  inputs: two is the most any tablet lists, and flat fields keep the
+  Explorer and Specs code simple.
 - Each value is recorded only as stated by the manufacturer; nothing is
   derived, so a missing value stays "unknown".
 - Standalone battery fields (capacity, life, charging watts) already live

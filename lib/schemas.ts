@@ -293,12 +293,24 @@ const ConnectivitySchema = v.strictObject({
 // are numeric strings in the units named by the field. Input* is what the
 // tablet itself needs (its DC/USB input, e.g. 12 V 1.5 A); Adapter* is the
 // power adapter in the box; Output* is power the tablet supplies to a
-// connected device (e.g. USB-C power delivery to a laptop). Battery fields for
+// connected device (e.g. USB-C power delivery to a laptop). Input*/AltInput* are
+// the main and an alternative way to power the tablet. Battery fields for
 // standalone devices stay in Standalone.
+// How a power input is supplied: the AC power adapter, or the computer's
+// USB-C Power Delivery port / a plain USB port.
+export const POWER_SOURCES = ["ADAPTER", "USB_PD", "USB"] as const;
+const PowerSourceSchema = v.picklist(POWER_SOURCES);
+
 const PowerSchema = v.strictObject({
   InputVoltage: v.optional(NumericString),
   InputCurrent: v.optional(NumericString),
   InputWatts: v.optional(NumericString),
+  InputSource: v.optional(PowerSourceSchema),
+  // A second way to power the same tablet (e.g. USB-C PD from the computer
+  // vs the AC adapter), for displays whose spec lists both.
+  AltInputVoltage: v.optional(NumericString),
+  AltInputCurrent: v.optional(NumericString),
+  AltInputSource: v.optional(PowerSourceSchema),
   ConsumptionWatts: v.optional(NumericString),
   ConsumptionMaxWatts: v.optional(NumericString),
   StandbyWatts: v.optional(NumericString),

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk168",
     "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T18:08:36.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -150,6 +150,10 @@
   },
   "Power": {
     "InputVoltage": "9",
-    "InputCurrent": "2.77"
+    "InputCurrent": "2.77",
+    "InputSource": "ADAPTER",
+    "AltInputVoltage": "5",
+    "AltInputCurrent": "3",
+    "AltInputSource": "USB_PD"
   }
 }

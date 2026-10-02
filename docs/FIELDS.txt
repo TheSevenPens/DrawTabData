@@ -429,6 +429,18 @@ Format: numeric string (e.g. "18", "65")
 Unit: W
 Required: no
 
+### Power.InputSource
+How the main input is supplied.
+Format: one of "ADAPTER" (the AC power adapter), "USB_PD" (the computer's
+USB-C Power Delivery port), "USB" (a plain USB port)
+Required: no
+
+### Power.AltInputVoltage / Power.AltInputCurrent / Power.AltInputSource
+A second way to power the same tablet, for displays whose spec lists two
+(e.g. Wacom Movink: USB-C PD 5 V 3 A, or AC adapter 9 V 2.77 A). Same
+units and values as InputVoltage / InputCurrent / InputSource.
+Required: no
+
 ### Power.ConsumptionWatts
 Power consumption as the manufacturer states it (typical or rated).
 Format: numeric string (e.g. "10")
