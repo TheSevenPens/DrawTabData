@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtz2100",
     "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:17.991Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -52,14 +52,14 @@
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
-    "PressureLevels": "2048",
+    "PressureLevels": "1024",
     "Dimensions": {
       "Width": 432,
       "Height": 324
     },
     "Density": "200",
     "ReportRate": "133",
-    "Tilt": "40",
+    "Tilt": "60",
     "AccuracyCenter": "0.5",
     "MaxHover": "5"
   },
@@ -69,11 +69,13 @@
       "Height": 1200
     },
     "PanelTech": "IPS",
-    "Brightness": "200",
+    "Brightness": "220",
     "Contrast": "550",
     "ColorBitDepth": "8",
     "AntiGlare": "ETCHEDGLASS",
-    "ResponseTime": "20"
+    "ResponseTime": "20",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
   },
   "Physical": {
     "Dimensions": {
@@ -81,9 +83,15 @@
       "Height": 421,
       "Depth": 47.8
     },
-    "Weight": "8700"
+    "Weight": "8480",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "100x100"
+    ]
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "8",
+    "TouchStrips": "2"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud1212a",
     "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T21:30:22.578Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -40,13 +40,18 @@
       "Width": 304.8,
       "Height": 304.8
     },
-    "Density": "100"
+    "Density": "100",
+    "PressureLevels": "256",
+    "ReportRate": "205",
+    "MaxHover": "5",
+    "Type": "PASSIVE_EMR",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {
-      "Width": 407,
-      "Height": 417,
-      "Depth": 36
+      "Width": 406,
+      "Height": 419,
+      "Depth": 51
     },
     "Weight": "2200"
   },

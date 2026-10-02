@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud1825r",
     "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T21:30:26.308Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -38,9 +38,14 @@
   "Digitizer": {
     "Dimensions": {
       "Width": 635,
-      "Height": 462
+      "Height": 457.2
     },
-    "Density": "50"
+    "Density": "100",
+    "PressureLevels": "256",
+    "ReportRate": "205",
+    "MaxHover": "5",
+    "Type": "PASSIVE_EMR",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {

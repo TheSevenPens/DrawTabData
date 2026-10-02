@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.gd0608a",
     "_id": "0dee8028-0d66-46df-a2c8-5bf496b59334",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-10-02T21:30:00.984Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,7 +37,13 @@
       "Width": 203.2,
       "Height": 162.4
     },
-    "Density": "100"
+    "Density": "100",
+    "Tilt": "60",
+    "AccuracyCenter": "0.25",
+    "MaxHover": "6",
+    "ReportRate": "200",
+    "PressureLevels": "1024",
+    "Type": "PASSIVE_EMR"
   },
   "Physical": {
     "Dimensions": {

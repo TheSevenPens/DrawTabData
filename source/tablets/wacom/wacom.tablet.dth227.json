@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth227",
     "_id": "f74b002f-cac5-4490-9ace-943893d53427",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:04.291Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -119,5 +119,24 @@
   "Power": {
     "InputVoltage": "19",
     "InputCurrent": "8.4"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_DISPLAYPORT"
+      },
+      {
+        "Type": "HDMI"
+      },
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_A"
+      }
+    ]
   }
 }

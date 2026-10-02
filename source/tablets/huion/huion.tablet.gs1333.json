@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1333",
     "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:06.659Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -125,14 +125,15 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "16384",
     "Dimensions": {
-      "Width": 294,
-      "Height": 165
+      "Width": 293.8,
+      "Height": 165.2
     },
     "Density": "200",
     "ReportRate": "260",
     "Tilt": "60",
     "AccuracyCenter": "0.3",
-    "AccuracyCorner": "2"
+    "AccuracyCorner": "2",
+    "MaxHover": "10"
   },
   "Display": {
     "PixelDimensions": {
@@ -149,13 +150,14 @@
       "SRGB": 120
     },
     "AntiGlare": "ETCHEDGLASS",
-    "ViewingAngleHorizontal": "165",
-    "ViewingAngleVertical": "165",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178",
     "Brightness": "220",
     "Contrast": "1000",
     "Lamination": "YES",
     "RefreshRate": "60",
-    "ResponseTime": "25"
+    "ResponseTime": "25",
+    "PanelTech": "IPS"
   },
   "Physical": {
     "Dimensions": {

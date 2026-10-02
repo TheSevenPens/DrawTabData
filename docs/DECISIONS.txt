@@ -3,6 +3,23 @@
 This document records key design decisions for the DrawTabData project.
 
 
+## 2026-10-02: Spec conventions from the #54 audit
+
+Decided by the author while reviewing the source checks:
+- Physical depth ranges ("19~26.7 mm") are stored as Depth (max) and
+  DepthMin (min); a single depth is the max.
+- A single accuracy figure with no center/corner split goes in
+  AccuracyCenter.
+- A built-in fold-out stand counts as Legs only, not IncludedStand.
+- Report rate: ReportRate is wired (or the only one given);
+  ReportRateBluetooth holds a separate Bluetooth rate.
+- Color depth: ColorBitDepth is the native panel depth; ColorBitDepthFRC
+  holds the depth claimed with FRC, only when the manufacturer says FRC.
+- Buttons means programmable buttons only. Fixed multimedia keys go in
+  OtherInputs.MultimediaKeys, scroll wheels in OtherInputs.Scrollers, and
+  "switcher" keys that change button sets (Huion Group Keys) in
+  OtherInputs.SwitcherKeys.
+
 ## 2026-10-02: Gamut coverage vs area, and surface coatings
 
 ### Context

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.mt1592b",
     "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:38.338Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -144,5 +144,14 @@
   "OtherInputs": {
     "Touch": "NO",
     "Buttons": "0"
+  },
+  "Connectivity": {
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

@@ -63,7 +63,7 @@
         "EntityId": "xencelabs.tablet.bph1212wv1",
         "_id": "33b484c8-e083-4051-821c-c6a61092aa0d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:12.329Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -187,8 +187,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "8192",
         "Dimensions": {
-          "Width": 262,
-          "Height": 147
+          "Width": 262.4,
+          "Height": 147.4
         },
         "Density": "200",
         "Tilt": "60"
@@ -203,6 +203,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -463,7 +470,7 @@
         "EntityId": "xencelabs.tablet.lph2412ua",
         "_id": "15671d6e-a392-47be-87a6-3f8925e0a563",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:42:14.216Z"
       },
       "Model": {
         "Brand": "XENCELABS",
@@ -561,8 +568,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "8192",
         "Dimensions": {
-          "Width": 527,
-          "Height": 296
+          "Width": 527.04,
+          "Height": 296.46
         },
         "Density": "200",
         "Tilt": "60"

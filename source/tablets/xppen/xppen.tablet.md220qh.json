@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md220qh",
     "_id": "dfa7f7b1-d1d8-4cbf-aa57-2a3df52cfe29",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:34.850Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -125,8 +125,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "16384",
     "Dimensions": {
-      "Width": 475,
-      "Height": 267
+      "Width": 475.39,
+      "Height": 267.41
     },
     "Density": "200",
     "ReportRate": "220",
@@ -164,7 +164,10 @@
     "Weight": "5550",
     "WeightInclStand": "YES",
     "IncludedStand": "YES",
-    "VesaMount": "YES"
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "100x100"
+    ]
   },
   "OtherInputs": {
     "Touch": "NO"

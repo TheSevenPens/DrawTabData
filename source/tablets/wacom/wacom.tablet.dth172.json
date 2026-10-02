@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth172",
     "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:02.602Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -118,13 +118,32 @@
       "Height": 253,
       "Depth": 21
     },
-    "Weight": "2200"
+    "Weight": "2200",
+    "IncludedStand": "YES",
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "75x75"
+    ]
   },
   "OtherInputs": {
-    "Touch": "YES"
+    "Touch": "YES",
+    "Buttons": "8"
   },
   "Power": {
     "InputVoltage": "20",
     "InputCurrent": "3.25"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_DISPLAYPORT"
+      },
+      {
+        "Type": "HDMI"
+      },
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

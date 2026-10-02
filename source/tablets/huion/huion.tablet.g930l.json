@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.g930l",
     "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:03.235Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -162,8 +162,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "8192",
     "Dimensions": {
-      "Width": 345,
-      "Height": 216
+      "Width": 345.4,
+      "Height": 215.9
     },
     "Density": "200",
     "ReportRate": "300",
@@ -174,17 +174,23 @@
   "Physical": {
     "Dimensions": {
       "Width": 429,
-      "Height": 260,
+      "Height": 260.9,
       "Depth": 9
     },
     "Weight": "1145"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "6"
   },
   "Connectivity": {
     "Bluetooth": "YES",
-    "BluetoothVersion": "5.0"
+    "BluetoothVersion": "5.0",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   },
   "Power": {
     "ConsumptionWatts": "0.3"

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.deco01v3",
     "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:42:21.541Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -109,6 +109,7 @@
     "Weight": "570"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "8"
   }
 }

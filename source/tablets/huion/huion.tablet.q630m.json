@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.q630m",
     "_id": "d238bade-9633-4b9f-a4ad-dc9f8472808f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:30.478Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -129,6 +129,16 @@
   },
   "OtherInputs": {
     "Touch": "NO",
-    "Dials": "2"
+    "Dials": "2",
+    "Buttons": "6"
+  },
+  "Connectivity": {
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

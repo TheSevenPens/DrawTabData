@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2420",
     "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:12.934Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -110,8 +110,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "14",
     "RefreshRate": "60",
-    "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleHorizontal": "176",
+    "ViewingAngleVertical": "176"
   },
   "Physical": {
     "Dimensions": {
@@ -119,7 +119,8 @@
       "Height": 394,
       "Depth": 47
     },
-    "Weight": "7200"
+    "Weight": "7200",
+    "Legs": "YES"
   },
   "OtherInputs": {
     "Touch": "NO"

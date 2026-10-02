@@ -1459,7 +1459,7 @@
         "EntityId": "wacom.tablet.cth690",
         "_id": "21687a90-eddd-4727-81cc-bc30b4f04a21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+        "_ModifiedDate": "2026-10-02T20:40:38.994Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1492,14 +1492,17 @@
         "Family": "wacom.tabletfamily.wacom_intuos_2015"
       },
       "Digitizer": {
-        "PressureLevels": "1024",
+        "PressureLevels": "2048",
         "Dimensions": {
           "Width": 216,
           "Height": 135
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0"
+        "Tilt": "0",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.5",
+        "MaxHover": "7"
       },
       "Physical": {
         "Dimensions": {
@@ -1510,7 +1513,8 @@
         "Weight": "480"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "4"
       }
     },
     {
@@ -1634,7 +1638,7 @@
         "EntityId": "wacom.tablet.ctl4100",
         "_id": "c0b798db-e061-45fe-8ba5-b82bc6497936",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:15:12.823Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1723,7 +1727,9 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0"
+        "Tilt": "0",
+        "MaxHover": "7",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -1752,7 +1758,7 @@
         "EntityId": "wacom.tablet.ctl4100wl",
         "_id": "8e17d9b8-7a38-4c37-9add-6bdc82091525",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T19:57:22.862Z"
+        "_ModifiedDate": "2026-10-02T21:15:14.547Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1841,7 +1847,9 @@
         "Density": "100",
         "ReportRate": "133",
         "Tilt": "0",
-        "Type": "PASSIVE_EMR"
+        "Type": "PASSIVE_EMR",
+        "MaxHover": "7",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -1849,7 +1857,7 @@
           "Height": 160,
           "Depth": 8.8
         },
-        "Weight": "230"
+        "Weight": "250"
       },
       "OtherInputs": {
         "Touch": "NO",
@@ -1911,7 +1919,7 @@
         "EntityId": "wacom.tablet.ctl470",
         "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:41:19.770Z"
+        "_ModifiedDate": "2026-10-02T20:40:44.101Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1942,7 +1950,8 @@
           "Height": 92
         },
         "Density": "100",
-        "ReportRate": "133"
+        "ReportRate": "133",
+        "AccuracyCenter": "0.5"
       },
       "Physical": {
         "Dimensions": {
@@ -1954,6 +1963,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -2000,7 +2016,7 @@
         "EntityId": "wacom.tablet.ctl472",
         "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:40:45.785Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2071,7 +2087,7 @@
           "Height": 146,
           "Depth": 8.7
         },
-        "Weight": "260"
+        "Weight": "250"
       },
       "OtherInputs": {
         "Touch": "NO",
@@ -2216,7 +2232,7 @@
         "EntityId": "wacom.tablet.ctl6100",
         "_id": "592ea84b-72ab-4a58-8085-bbb92bd848e3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:15:16.323Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2293,7 +2309,9 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0"
+        "Tilt": "0",
+        "MaxHover": "7",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -2322,7 +2340,7 @@
         "EntityId": "wacom.tablet.ctl6100wl",
         "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:15:18.115Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2411,7 +2429,9 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0"
+        "Tilt": "0",
+        "MaxHover": "7",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -2520,7 +2540,7 @@
         "EntityId": "wacom.tablet.ctl672",
         "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:25.344Z"
+        "_ModifiedDate": "2026-10-02T20:40:50.816Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2591,7 +2611,7 @@
           "Height": 189,
           "Depth": 8.7
         },
-        "Weight": "447"
+        "Weight": "432"
       },
       "OtherInputs": {
         "Touch": "NO",
@@ -2665,7 +2685,7 @@
         "EntityId": "wacom.tablet.ctl690",
         "_id": "6cae6cd5-eaa2-43b1-ac8c-26379890532b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:40:52.486Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2705,7 +2725,9 @@
         },
         "Density": "100",
         "ReportRate": "133",
-        "Tilt": "0"
+        "Tilt": "0",
+        "AccuracyCenter": "0.5",
+        "MaxHover": "7"
       },
       "Physical": {
         "Dimensions": {
@@ -2716,7 +2738,8 @@
         "Weight": "480"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "4"
       }
     },
     {
@@ -2761,7 +2784,7 @@
         "EntityId": "wacom.tablet.dtc121",
         "_id": "488f6512-a695-49d9-83fe-92d90b70a5d3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:40:54.185Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2863,10 +2886,12 @@
         "ColorGamuts": {
           "SRGB": 99
         },
-        "AntiGlare": "AGFILM",
+        "AntiGlare": "ETCHEDGLASS",
         "AntiFingerprint": "YES",
         "ResponseTime": "18",
-        "RefreshRate": "60"
+        "RefreshRate": "60",
+        "ViewingAngleHorizontal": "170",
+        "ViewingAngleVertical": "170"
       },
       "Physical": {
         "Dimensions": {
@@ -3521,7 +3546,7 @@
         "EntityId": "wacom.tablet.dth134",
         "_id": "d7c42106-22bf-4ce6-94a6-69780728df21",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:40:55.861Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3675,9 +3700,12 @@
         "ColorGamuts": {
           "SRGB": 99
         },
-        "AntiGlare": "AGFILM",
+        "AntiGlare": "ETCHEDGLASS",
         "AntiFingerprint": "YES",
-        "RefreshRate": "60"
+        "RefreshRate": "60",
+        "ViewingAngleHorizontal": "170",
+        "ViewingAngleVertical": "170",
+        "ResponseTime": "19"
       },
       "Physical": {
         "Dimensions": {
@@ -3720,7 +3748,7 @@
         "EntityId": "wacom.tablet.dth135",
         "_id": "8d4308af-a529-453e-a394-1a739a337785",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:40:57.557Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -3891,7 +3919,8 @@
         "VesaMount": "NO"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "2"
       },
       "Connectivity": {
         "AttachedCable": [],
@@ -3919,7 +3948,7 @@
         "EntityId": "wacom.tablet.dth1620",
         "_id": "10e6422e-9fd3-47dd-9a57-e356ce4ca446",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:40:59.242Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4025,7 +4054,8 @@
           "Height": 265,
           "Depth": 17.5
         },
-        "Weight": "1500"
+        "Weight": "1500",
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "YES"
@@ -4035,6 +4065,22 @@
         "InputCurrent": "2.25",
         "ConsumptionMaxWatts": "33",
         "StandbyWatts": "3"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          }
+        ]
       }
     },
     {
@@ -4042,7 +4088,7 @@
         "EntityId": "wacom.tablet.dth167",
         "_id": "6211dc1c-5a5c-45f3-988f-917870e4e0c1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:00.931Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4193,11 +4239,12 @@
         },
         "Weight": "1900",
         "IncludedStand": "NO",
-        "Legs": "NO",
+        "Legs": "YES",
         "VesaMount": "YES"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "8"
       },
       "Connectivity": {
         "Ports": [
@@ -4223,7 +4270,7 @@
         "EntityId": "wacom.tablet.dth172",
         "_id": "89036dec-a3cc-4f7a-8ee8-1d9ff9faadba",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:02.602Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4338,14 +4385,33 @@
           "Height": 253,
           "Depth": 21
         },
-        "Weight": "2200"
+        "Weight": "2200",
+        "IncludedStand": "YES",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "75x75"
+        ]
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "8"
       },
       "Power": {
         "InputVoltage": "20",
         "InputCurrent": "3.25"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_DISPLAYPORT"
+          },
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4403,7 +4469,7 @@
         "EntityId": "wacom.tablet.dth227",
         "_id": "f74b002f-cac5-4490-9ace-943893d53427",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:04.291Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4519,6 +4585,25 @@
       "Power": {
         "InputVoltage": "19",
         "InputCurrent": "8.4"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_DISPLAYPORT"
+          },
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "USB_A"
+          }
+        ]
       }
     },
     {
@@ -4576,7 +4661,7 @@
         "EntityId": "wacom.tablet.dth2420",
         "_id": "b70dbf2f-ceb0-415c-873f-33b4a0e07ad3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:05.977Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4683,8 +4768,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "RefreshRate": "60",
-        "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleHorizontal": "176",
+        "ViewingAngleVertical": "176"
       },
       "Physical": {
         "Dimensions": {
@@ -4692,7 +4777,8 @@
           "Height": 394,
           "Depth": 47
         },
-        "Weight": "7200"
+        "Weight": "7200",
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "YES"
@@ -6514,7 +6600,7 @@
         "EntityId": "wacom.tablet.dtk1660",
         "_id": "2c1a78ac-9e67-4650-96cb-c0b526034f5c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:07.691Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6643,17 +6729,18 @@
           "SRGB": 96
         },
         "ResponseTime": "25",
-        "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178",
+        "ViewingAngleHorizontal": "176",
+        "ViewingAngleVertical": "176",
         "AntiGlare": "AGFILM"
       },
       "Physical": {
         "Dimensions": {
           "Width": 422,
           "Height": 285,
-          "Depth": 16.6
+          "Depth": 25
         },
-        "Weight": "1900"
+        "Weight": "1900",
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -6671,7 +6758,7 @@
         "EntityId": "wacom.tablet.dtk168",
         "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T19:57:21.120Z"
+        "_ModifiedDate": "2026-10-02T20:41:09.389Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6776,7 +6863,7 @@
         },
         "Lamination": "YES",
         "AntiGlare": "ETCHEDGLASS",
-        "ResponseTime": "8",
+        "ResponseTime": "12",
         "RefreshRate": "60",
         "ViewingAngleHorizontal": "178",
         "ViewingAngleVertical": "178"
@@ -6792,7 +6879,8 @@
         "VesaMount": "YES",
         "VesaPattern": [
           "75x75"
-        ]
+        ],
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "NO",
@@ -6830,7 +6918,7 @@
         "EntityId": "wacom.tablet.dtk2100",
         "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:39:24.794Z"
+        "_ModifiedDate": "2026-10-02T20:41:11.259Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -6865,8 +6953,8 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "2048",
         "Dimensions": {
-          "Width": 432,
-          "Height": 324
+          "Width": 431.8,
+          "Height": 323.9
         },
         "Density": "200",
         "ReportRate": "133",
@@ -6885,13 +6973,22 @@
         "Contrast": "550",
         "ColorBitDepth": "8",
         "AntiGlare": "ETCHEDGLASS",
-        "ResponseTime": "20"
+        "ResponseTime": "20",
+        "ViewingAngleHorizontal": "170",
+        "ViewingAngleVertical": "170"
       },
       "Physical": {
-        "Weight": "8700"
+        "Weight": "8700",
+        "Dimensions": {
+          "Width": 561,
+          "Height": 421,
+          "Depth": 47.8
+        }
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "16",
+        "TouchStrips": "2"
       },
       "Connectivity": {
         "AttachedCable": [
@@ -7228,7 +7325,7 @@
         "EntityId": "wacom.tablet.dtk2420",
         "_id": "c7993e5b-4283-4365-8a0d-97fece793f37",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:12.934Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7335,8 +7432,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "RefreshRate": "60",
-        "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleHorizontal": "176",
+        "ViewingAngleVertical": "176"
       },
       "Physical": {
         "Dimensions": {
@@ -7344,7 +7441,8 @@
           "Height": 394,
           "Depth": 47
         },
-        "Weight": "7200"
+        "Weight": "7200",
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -7485,7 +7583,7 @@
         "EntityId": "wacom.tablet.dtk2700",
         "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:14.625Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7569,10 +7667,11 @@
         "Type": "PASSIVE_EMR",
         "PressureLevels": "2048",
         "Dimensions": {
-          "Width": 597,
-          "Height": 336
+          "Width": 596.7,
+          "Height": 335.6
         },
-        "Tilt": "60"
+        "Tilt": "60",
+        "Density": "200"
       },
       "Display": {
         "PixelDimensions": {
@@ -7597,7 +7696,8 @@
           "Depth": 54.4
         },
         "Weight": "9000",
-        "WeightInclStand": "NO"
+        "WeightInclStand": "NO",
+        "Legs": "YES"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -7690,7 +7790,7 @@
         "EntityId": "wacom.tablet.dtz1200w",
         "_id": "74531bc3-5b9e-4154-8293-3f4055de69d4",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:41:16.323Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7713,8 +7813,8 @@
           "Height": 163.2
         },
         "Density": "200",
-        "ReportRate": "136",
-        "Tilt": "40",
+        "ReportRate": "133",
+        "Tilt": "60",
         "AccuracyCenter": "0.5",
         "AccuracyCorner": "4",
         "MaxHover": "5"
@@ -7723,10 +7823,26 @@
         "PixelDimensions": {
           "Width": 1280,
           "Height": 800
-        }
+        },
+        "Brightness": "180",
+        "Contrast": "600",
+        "ResponseTime": "25",
+        "ColorBitDepth": "8",
+        "ViewingAngleHorizontal": "170",
+        "ViewingAngleVertical": "170"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "10",
+        "TouchStrips": "2"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 405,
+          "Height": 270,
+          "Depth": 17
+        },
+        "Weight": "2000"
       }
     },
     {
@@ -7786,7 +7902,7 @@
         "EntityId": "wacom.tablet.dtz2100",
         "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:17.991Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7835,14 +7951,14 @@
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
-        "PressureLevels": "2048",
+        "PressureLevels": "1024",
         "Dimensions": {
           "Width": 432,
           "Height": 324
         },
         "Density": "200",
         "ReportRate": "133",
-        "Tilt": "40",
+        "Tilt": "60",
         "AccuracyCenter": "0.5",
         "MaxHover": "5"
       },
@@ -7852,11 +7968,13 @@
           "Height": 1200
         },
         "PanelTech": "IPS",
-        "Brightness": "200",
+        "Brightness": "220",
         "Contrast": "550",
         "ColorBitDepth": "8",
         "AntiGlare": "ETCHEDGLASS",
-        "ResponseTime": "20"
+        "ResponseTime": "20",
+        "ViewingAngleHorizontal": "170",
+        "ViewingAngleVertical": "170"
       },
       "Physical": {
         "Dimensions": {
@@ -7864,10 +7982,16 @@
           "Height": 421,
           "Depth": 47.8
         },
-        "Weight": "8700"
+        "Weight": "8480",
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "100x100"
+        ]
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8",
+        "TouchStrips": "2"
       }
     },
     {
@@ -8234,7 +8358,7 @@
         "EntityId": "wacom.tablet.gd0405a",
         "_id": "c294637f-5926-4212-a392-f0c62a1f26ab",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T21:29:59.184Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8268,7 +8392,13 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100"
+        "Density": "100",
+        "Tilt": "50",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "ReportRate": "200",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8287,7 +8417,7 @@
         "EntityId": "wacom.tablet.gd0405r",
         "_id": "554aef9c-b553-487a-ac8a-b51b9d4bbc05",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:41:19.640Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8323,7 +8453,13 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR",
+        "ReportRate": "200",
+        "Tilt": "50",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -8342,7 +8478,7 @@
         "EntityId": "wacom.tablet.gd0405u",
         "_id": "fae00305-bb28-4557-ab7f-a446a189e2da",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:21.310Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8378,7 +8514,13 @@
           "Width": 127,
           "Height": 106
         },
-        "Density": "100"
+        "Density": "100",
+        "Tilt": "50",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "ReportRate": "200",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8402,7 +8544,7 @@
         "EntityId": "wacom.tablet.gd0608a",
         "_id": "0dee8028-0d66-46df-a2c8-5bf496b59334",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T21:30:00.984Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8436,7 +8578,13 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100"
+        "Density": "100",
+        "Tilt": "60",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "ReportRate": "200",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8455,7 +8603,7 @@
         "EntityId": "wacom.tablet.gd0608r",
         "_id": "04298ee7-bdce-40be-a9e4-7d96d399e2bc",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:41:23.018Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8491,7 +8639,13 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -8510,7 +8664,7 @@
         "EntityId": "wacom.tablet.gd0608u",
         "_id": "0da481a9-30de-499d-ad13-e4257f985488",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:24.855Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8546,7 +8700,13 @@
           "Width": 203.2,
           "Height": 162.4
         },
-        "Density": "100"
+        "Density": "100",
+        "Tilt": "60",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "ReportRate": "200",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8570,7 +8730,7 @@
         "EntityId": "wacom.tablet.gd0912a",
         "_id": "7105650d-11d9-4894-91cf-b862d5cb4c0d",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T21:30:02.698Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8604,7 +8764,13 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Tilt": "60",
+        "ReportRate": "200",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8623,7 +8789,7 @@
         "EntityId": "wacom.tablet.gd0912r",
         "_id": "b4f0b327-7a06-49b2-9be6-38a23700304f",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:41:26.635Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8659,7 +8825,13 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -8678,7 +8850,7 @@
         "EntityId": "wacom.tablet.gd0912u",
         "_id": "ff77a7b3-3aba-4592-b58a-98203dec4a04",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:28.407Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8714,7 +8886,13 @@
           "Width": 304.8,
           "Height": 240.6
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Tilt": "60",
+        "ReportRate": "200",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8731,6 +8909,11 @@
         "InputVoltage": "5",
         "InputCurrent": "0.5",
         "ConsumptionWatts": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [
+          "USB_A"
+        ]
       }
     },
     {
@@ -8738,7 +8921,7 @@
         "EntityId": "wacom.tablet.gd1212r",
         "_id": "916f5176-f538-4865-9259-25b7ed872408",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:41:30.214Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8774,7 +8957,13 @@
           "Width": 304.8,
           "Height": 316.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -8793,7 +8982,7 @@
         "EntityId": "wacom.tablet.gd1212u",
         "_id": "ca0039b4-86c7-4683-bc32-104ffa430808",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:31.975Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8842,7 +9031,13 @@
           "Width": 304.8,
           "Height": 316.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Tilt": "60",
+        "ReportRate": "200",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8859,6 +9054,11 @@
         "InputVoltage": "5",
         "InputCurrent": "0.5",
         "ConsumptionWatts": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [
+          "USB_A"
+        ]
       }
     },
     {
@@ -8866,7 +9066,7 @@
         "EntityId": "wacom.tablet.gd1218r",
         "_id": "f00aad3f-2aef-4975-8952-7e0994183cdd",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:41:33.808Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8902,7 +9102,13 @@
           "Width": 457.2,
           "Height": 316.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Type": "PASSIVE_EMR",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -8921,7 +9127,7 @@
         "EntityId": "wacom.tablet.gd1218u",
         "_id": "56824bb9-2dcf-446d-9ce1-919554f42cef",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:35.579Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8957,7 +9163,13 @@
           "Width": 457.2,
           "Height": 316.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "Tilt": "60",
+        "ReportRate": "200",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6",
+        "Type": "PASSIVE_EMR"
       },
       "Physical": {
         "Dimensions": {
@@ -8974,6 +9186,11 @@
         "InputVoltage": "5",
         "InputCurrent": "0.5",
         "ConsumptionWatts": "2"
+      },
+      "Connectivity": {
+        "AttachedCable": [
+          "USB_A"
+        ]
       }
     },
     {
@@ -9709,7 +9926,7 @@
         "EntityId": "wacom.tablet.pth450",
         "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:37.393Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9762,7 +9979,9 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -9773,7 +9992,9 @@
         "Weight": "660"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "6",
+        "TouchRings": "1"
       }
     },
     {
@@ -9849,7 +10070,7 @@
         "EntityId": "wacom.tablet.pth460",
         "_id": "8ab0e087-96ce-41cd-aaae-95e09aec20be",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:39.109Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9932,7 +10153,7 @@
         "Dimensions": {
           "Width": 269.2,
           "Height": 170.1,
-          "Depth": 8
+          "Depth": 8.45
         },
         "Weight": "450"
       },
@@ -9958,7 +10179,7 @@
         "EntityId": "wacom.tablet.pth650",
         "_id": "743c5ec8-3a09-42aa-9a0d-1863a1094440",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:40.867Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10037,7 +10258,9 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -10048,7 +10271,9 @@
         "Weight": "990"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "8",
+        "TouchRings": "1"
       }
     },
     {
@@ -10297,7 +10522,7 @@
         "EntityId": "wacom.tablet.pth850",
         "_id": "954412d1-5297-4801-b185-745d4f55e1f1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:42.549Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10350,7 +10575,9 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -10361,7 +10588,9 @@
         "Weight": "1800"
       },
       "OtherInputs": {
-        "Touch": "YES"
+        "Touch": "YES",
+        "Buttons": "8",
+        "TouchRings": "1"
       }
     },
     {
@@ -10535,7 +10764,7 @@
         "EntityId": "wacom.tablet.ptk1240",
         "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:44.261Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10600,9 +10829,10 @@
           "Height": 304.8
         },
         "Density": "200",
-        "ReportRate": "220",
+        "ReportRate": "200",
         "Tilt": "60",
-        "MaxHover": "10"
+        "MaxHover": "10",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -10613,7 +10843,9 @@
         "Weight": "3500"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "Buttons": "8",
+        "TouchRings": "1"
       },
       "Connectivity": {
         "AttachedCable": [
@@ -10690,7 +10922,7 @@
         "EntityId": "wacom.tablet.ptk450",
         "_id": "7b7e2368-695a-417a-b6c9-50e79092911b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:45.970Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10743,7 +10975,8 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -10754,7 +10987,9 @@
         "Weight": "660"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "TouchRings": "1",
+        "Buttons": "6"
       }
     },
     {
@@ -10762,7 +10997,7 @@
         "EntityId": "wacom.tablet.ptk470",
         "_id": "f710bda9-5117-4828-bf93-c6303182a107",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:47.682Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -10939,7 +11174,7 @@
       },
       "OtherInputs": {
         "Touch": "NO",
-        "Buttons": "4",
+        "Buttons": "5",
         "Dials": "1"
       },
       "Connectivity": {
@@ -11076,7 +11311,7 @@
         "EntityId": "wacom.tablet.ptk650",
         "_id": "2ca2ae10-5e55-44ec-9356-0f81683cd9b2",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:49.382Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11129,7 +11364,8 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "MaxHover": "10"
       },
       "Physical": {
         "Dimensions": {
@@ -11140,7 +11376,9 @@
         "Weight": "990"
       },
       "OtherInputs": {
-        "Touch": "NO"
+        "Touch": "NO",
+        "TouchRings": "1",
+        "Buttons": "8"
       }
     },
     {
@@ -11148,7 +11386,7 @@
         "EntityId": "wacom.tablet.ptk670",
         "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:51.104Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11338,7 +11576,7 @@
       },
       "OtherInputs": {
         "Touch": "NO",
-        "Buttons": "8",
+        "Buttons": "10",
         "Dials": "2"
       },
       "Connectivity": {
@@ -11416,7 +11654,7 @@
         "EntityId": "wacom.tablet.ptk870",
         "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:52.897Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11593,7 +11831,7 @@
       },
       "OtherInputs": {
         "Touch": "NO",
-        "Buttons": "8",
+        "Buttons": "10",
         "Dials": "2"
       },
       "Connectivity": {
@@ -11647,7 +11885,7 @@
         "EntityId": "wacom.tablet.ptz1230",
         "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+        "_ModifiedDate": "2026-10-02T20:41:54.607Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11687,7 +11925,9 @@
         },
         "Density": "200",
         "ReportRate": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "AccuracyCenter": "0.25",
+        "MaxHover": "6"
       },
       "Physical": {
         "Dimensions": {
@@ -12571,7 +12811,7 @@
         "EntityId": "wacom.tablet.ud0608a",
         "_id": "259c29d5-2754-4d17-9802-95eafff798ba",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:14.802Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12608,7 +12848,13 @@
           "Width": 204.8,
           "Height": 153.6
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Tilt": "60",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -12616,7 +12862,7 @@
           "Height": 243,
           "Depth": 13.9
         },
-        "Weight": "900"
+        "Weight": "862"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -12627,7 +12873,7 @@
         "EntityId": "wacom.tablet.ud0608r",
         "_id": "a70e90a9-1511-4b03-a7bc-0335e129332e",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:16.742Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12664,7 +12910,13 @@
           "Width": 204.8,
           "Height": 153.6
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Tilt": "60",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -12672,7 +12924,7 @@
           "Height": 243,
           "Depth": 13.9
         },
-        "Weight": "900"
+        "Weight": "862"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -12683,7 +12935,7 @@
         "EntityId": "wacom.tablet.ud1212a",
         "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:22.578Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12720,13 +12972,18 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
-          "Width": 407,
-          "Height": 417,
-          "Depth": 36
+          "Width": 406,
+          "Height": 419,
+          "Depth": 51
         },
         "Weight": "2200"
       },
@@ -12739,7 +12996,7 @@
         "EntityId": "wacom.tablet.ud1212r",
         "_id": "f5deab7f-97a3-4793-9fe8-28f64830ad71",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:24.471Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12776,13 +13033,18 @@
           "Width": 304.8,
           "Height": 304.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
-          "Width": 407,
-          "Height": 417,
-          "Depth": 36
+          "Width": 406,
+          "Height": 419,
+          "Depth": 51
         },
         "Weight": "2200"
       },
@@ -12795,7 +13057,7 @@
         "EntityId": "wacom.tablet.ud1218a",
         "_id": "d0e57e62-6372-46bf-890b-6b5d844df7a3",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:18.663Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12832,7 +13094,12 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -12840,7 +13107,7 @@
           "Height": 430,
           "Depth": 56
         },
-        "Weight": "3300"
+        "Weight": "3402"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -12851,7 +13118,7 @@
         "EntityId": "wacom.tablet.ud1218r",
         "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:20.622Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12888,7 +13155,12 @@
           "Width": 457.2,
           "Height": 304.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -12896,7 +13168,7 @@
           "Height": 430,
           "Depth": 56
         },
-        "Weight": "3300"
+        "Weight": "3402"
       },
       "OtherInputs": {
         "Touch": "NO"
@@ -12907,7 +13179,7 @@
         "EntityId": "wacom.tablet.ud1825r",
         "_id": "865d1d09-a650-450f-b4a1-157f73ba10e9",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-10-02T21:30:26.308Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12942,9 +13214,14 @@
       "Digitizer": {
         "Dimensions": {
           "Width": 635,
-          "Height": 462
+          "Height": 457.2
         },
-        "Density": "50"
+        "Density": "100",
+        "PressureLevels": "256",
+        "ReportRate": "205",
+        "MaxHover": "5",
+        "Type": "PASSIVE_EMR",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -13319,7 +13596,7 @@
         "EntityId": "wacom.tablet.xd1212r",
         "_id": "493f6f71-796b-4357-a8c8-50314df4a24a",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:42:08.674Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -13341,7 +13618,12 @@
           "Width": 304.8,
           "Height": 316.8
         },
-        "Density": "100"
+        "Density": "100",
+        "PressureLevels": "1024",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {
@@ -13360,7 +13642,7 @@
         "EntityId": "wacom.tablet.xd1212u",
         "_id": "422f0225-5495-47d8-9e14-2625502092de",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-10-02T20:42:10.493Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -13399,8 +13681,10 @@
           "Height": 316.8
         },
         "Density": "100",
-        "ReportRate": "100",
-        "Tilt": "60"
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "6",
+        "AccuracyCenter": "0.25"
       },
       "Physical": {
         "Dimensions": {

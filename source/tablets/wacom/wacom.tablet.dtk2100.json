@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2100",
     "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:39:24.794Z"
+    "_ModifiedDate": "2026-10-02T20:41:11.259Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -38,8 +38,8 @@
     "Type": "PASSIVE_EMR",
     "PressureLevels": "2048",
     "Dimensions": {
-      "Width": 432,
-      "Height": 324
+      "Width": 431.8,
+      "Height": 323.9
     },
     "Density": "200",
     "ReportRate": "133",
@@ -58,13 +58,22 @@
     "Contrast": "550",
     "ColorBitDepth": "8",
     "AntiGlare": "ETCHEDGLASS",
-    "ResponseTime": "20"
+    "ResponseTime": "20",
+    "ViewingAngleHorizontal": "170",
+    "ViewingAngleVertical": "170"
   },
   "Physical": {
-    "Weight": "8700"
+    "Weight": "8700",
+    "Dimensions": {
+      "Width": 561,
+      "Height": 421,
+      "Depth": 47.8
+    }
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "16",
+    "TouchStrips": "2"
   },
   "Connectivity": {
     "AttachedCable": [

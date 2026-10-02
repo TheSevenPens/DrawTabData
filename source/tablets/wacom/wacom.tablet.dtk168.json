@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk168",
     "_id": "fae638fa-e305-434a-a2a6-f6852ec8c02e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T19:57:21.120Z"
+    "_ModifiedDate": "2026-10-02T20:41:09.389Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -108,7 +108,7 @@
     },
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
-    "ResponseTime": "8",
+    "ResponseTime": "12",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "178",
     "ViewingAngleVertical": "178"
@@ -124,7 +124,8 @@
     "VesaMount": "YES",
     "VesaPattern": [
       "75x75"
-    ]
+    ],
+    "Legs": "YES"
   },
   "OtherInputs": {
     "Touch": "NO",

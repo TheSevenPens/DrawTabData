@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md180uh",
     "_id": "29e11217-cdbb-4def-af59-bc470fd55223",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T21:19:51.879Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -175,7 +175,7 @@
       "Height": 2160
     },
     "Brightness": "250",
-    "ColorBitDepth": "10",
+    "ColorBitDepth": "8",
     "Lamination": "YES",
     "RefreshRate": "60",
     "ViewingAngleHorizontal": "178",
@@ -192,7 +192,8 @@
       "ADOBERGB": 116,
       "DISPLAYP3": 115
     },
-    "PanelTech": "IPS"
+    "PanelTech": "IPS",
+    "ColorBitDepthFRC": "10"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud0608r",
     "_id": "a70e90a9-1511-4b03-a7bc-0335e129332e",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T21:30:16.742Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -40,7 +40,13 @@
       "Width": 204.8,
       "Height": 153.6
     },
-    "Density": "100"
+    "Density": "100",
+    "PressureLevels": "256",
+    "ReportRate": "205",
+    "MaxHover": "5",
+    "Tilt": "60",
+    "Type": "PASSIVE_EMR",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {
@@ -48,7 +54,7 @@
       "Height": 243,
       "Depth": 13.9
     },
-    "Weight": "900"
+    "Weight": "862"
   },
   "OtherInputs": {
     "Touch": "NO"

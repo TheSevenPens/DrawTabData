@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.wh1409v2",
     "_id": "92357328-ae20-40a4-b570-af719320c879",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:37.268Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -60,11 +60,19 @@
     "Dimensions": {
       "Width": 456,
       "Height": 266,
-      "Depth": 15
+      "Depth": 16
     },
     "Weight": "1100"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "12"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ]
   }
 }

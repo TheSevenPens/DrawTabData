@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud1218r",
     "_id": "2203c1bc-0b49-4714-a05e-a77ae4a16754",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T21:30:20.622Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -40,7 +40,12 @@
       "Width": 457.2,
       "Height": 304.8
     },
-    "Density": "100"
+    "Density": "100",
+    "PressureLevels": "256",
+    "ReportRate": "205",
+    "MaxHover": "5",
+    "Type": "PASSIVE_EMR",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {
@@ -48,7 +53,7 @@
       "Height": 430,
       "Depth": 56
     },
-    "Weight": "3300"
+    "Weight": "3402"
   },
   "OtherInputs": {
     "Touch": "NO"

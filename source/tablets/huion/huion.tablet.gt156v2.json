@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt156v2",
     "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:21:11.000Z"
+    "_ModifiedDate": "2026-10-02T20:40:15.184Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -126,12 +126,21 @@
     "Weight": "1360"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "6",
+    "TouchStrips": "1"
   },
   "Power": {
     "InputVoltage": "12",
     "InputCurrent": "1",
     "ConsumptionWatts": "9",
     "StandbyWatts": "0.2"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

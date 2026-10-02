@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk1240",
     "_id": "91008a79-9e7a-47b3-9394-9b127ce13af5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:44.261Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -68,9 +68,10 @@
       "Height": 304.8
     },
     "Density": "200",
-    "ReportRate": "220",
+    "ReportRate": "200",
     "Tilt": "60",
-    "MaxHover": "10"
+    "MaxHover": "10",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {
@@ -81,7 +82,9 @@
     "Weight": "3500"
   },
   "OtherInputs": {
-    "Touch": "NO"
+    "Touch": "NO",
+    "Buttons": "8",
+    "TouchRings": "1"
   },
   "Connectivity": {
     "AttachedCable": [

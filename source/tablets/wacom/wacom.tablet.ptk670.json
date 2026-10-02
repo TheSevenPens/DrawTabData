@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk670",
     "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-10-02T20:41:51.104Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -193,7 +193,7 @@
   },
   "OtherInputs": {
     "Touch": "NO",
-    "Buttons": "8",
+    "Buttons": "10",
     "Dials": "2"
   },
   "Connectivity": {

@@ -196,6 +196,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.Digitizer?.Type ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
   { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.Digitizer?.PressureLevels ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerReportRate", label: "Report Rate (Hz)", getValue: (t) => t.Digitizer?.ReportRate ?? "", type: "number", group: "Digitizer" },
+  { key: "DigitizerReportRateBluetooth", label: "Report Rate, Bluetooth (Hz)", getValue: (t) => t.Digitizer?.ReportRateBluetooth ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerDensity", label: "Density (LPmm)", getValue: (t) => t.Digitizer?.Density ?? "", type: "number", group: "Digitizer", unit: "LPmm" },
   { key: "DigitizerTilt", label: "Tilt (degrees)", getValue: (t) => t.Digitizer?.Tilt ?? "", type: "number", group: "Digitizer" },
   { key: "DigitizerAccuracyCenter", label: "Accuracy Center (mm)", getValue: (t) => t.Digitizer?.AccuracyCenter ?? "", type: "number", group: "Digitizer", unit: "mm" },
@@ -332,6 +333,7 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "DisplayBrightnessPeak", label: "Peak Brightness (cd/m²)", getValue: (t) => displayVal(t, t.Display?.BrightnessPeak), type: "number", group: "Display" },
   { key: "DisplayContrast", label: "Contrast", getValue: (t) => displayVal(t, t.Display?.Contrast), type: "number", group: "Display" },
   { key: "DisplayColorBitDepth", label: "Bit Depth", getValue: (t) => displayVal(t, t.Display?.ColorBitDepth), type: "number", group: "Display" },
+  { key: "DisplayColorBitDepthFRC", label: "Bit Depth with FRC", getValue: (t) => displayVal(t, t.Display?.ColorBitDepthFRC), type: "number", group: "Display" },
   { key: "DisplayGamutSRGB", label: "sRGB (%)", getValue: (t) => gamutVal(t, "SRGB"), type: "number", group: "Display" },
   { key: "DisplayGamutAdobeRGB", label: "Adobe RGB (%)", getValue: (t) => gamutVal(t, "ADOBERGB"), type: "number", group: "Display" },
   { key: "DisplayGamutDCIP3", label: "DCI-P3 (%)", getValue: (t) => gamutVal(t, "DCIP3"), type: "number", group: "Display" },
@@ -427,7 +429,8 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
     getValue: (t) => {
       const d = t.Physical?.Dimensions;
       if (!d) return "";
-      return d.Depth ? `${d.Width} x ${d.Height} x ${d.Depth}` : `${d.Width} x ${d.Height}`;
+      const depth = d.DepthMin != null && d.Depth != null ? `${d.DepthMin}-${d.Depth}` : d.Depth;
+      return depth ? `${d.Width} x ${d.Height} x ${depth}` : `${d.Width} x ${d.Height}`;
     },
     type: "string",
   },
@@ -438,6 +441,9 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   // Other inputs — every tablet type (JSON group OtherInputs)
   { key: "OtherInputsButtons", label: "Buttons", getValue: (t) => t.OtherInputs?.Buttons ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsDials", label: "Dials", getValue: (t) => t.OtherInputs?.Dials ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsMultimediaKeys", label: "Multimedia Keys", getValue: (t) => t.OtherInputs?.MultimediaKeys ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsScrollers", label: "Scrollers", getValue: (t) => t.OtherInputs?.Scrollers ?? "", type: "number", group: OTHER_INPUTS_GROUP },
+  { key: "OtherInputsSwitcherKeys", label: "Switcher Keys", getValue: (t) => t.OtherInputs?.SwitcherKeys ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsTouchRings", label: "Touch Rings", getValue: (t) => t.OtherInputs?.TouchRings ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsTouchStrips", label: "Touch Strips", getValue: (t) => t.OtherInputs?.TouchStrips ?? "", type: "number", group: OTHER_INPUTS_GROUP },
   { key: "OtherInputsTouch", label: "Touch", getValue: (t) => t.OtherInputs?.Touch ?? "", type: "enum", enumValues: ["YES", "NO"], group: OTHER_INPUTS_GROUP },
