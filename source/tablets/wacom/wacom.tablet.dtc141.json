@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtc141",
     "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-09-28T01:38:37.982Z"
+    "_ModifiedDate": "2026-10-02T15:30:02.418Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -68,7 +68,14 @@
     "IncludedPen": [
       "wacom.pen.cp923"
     ],
-    "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2"
+    "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2",
+    "IncludedInBox": [
+      "1 x Display Device",
+      "1 x Wacom One Standard Pen",
+      "3 x Wacom One Pen Standard Nib",
+      "1 x nib removal tool",
+      "1 x USB Type-C Cable (1.8m)"
+    ]
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",

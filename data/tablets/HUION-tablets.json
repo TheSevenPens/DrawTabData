@@ -613,7 +613,7 @@
         "EntityId": "huion.tablet.gs1563",
         "_id": "75b9e4de-b543-41c8-9f07-7f90329d812d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:04.297Z"
+        "_ModifiedDate": "2026-10-02T15:29:56.767Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -715,6 +715,20 @@
         "Family": "huion.tabletfamily.huion_kamvasgen3",
         "IncludedPen": [
           "huion.pen.pw600l"
+        ],
+        "IncludedInBox": [
+          "Kamvas 16 (Gen 3) ×1",
+          "Foldable Stand ST300 ×1",
+          "Battery-free Pen PW600L ×1",
+          "Standard Pen Nibs (inside the Pen Holder) ×10",
+          "Pen Holder ×1",
+          "3-in-1 Cable (1.8m) ×1",
+          "USB Extension Cable (1.2m) ×1",
+          "USB-C to USB-C Cable (1m) ×1",
+          "USB-C to USB-A Cable (1m) ×1",
+          "Power Adapter ×1",
+          "Artist Glove ×1",
+          "Cleaning Cloth ×1"
         ]
       },
       "Digitizer": {
@@ -2337,7 +2351,7 @@
         "EntityId": "huion.tablet.gt1902",
         "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:37:17.076Z"
+        "_ModifiedDate": "2026-10-02T15:29:58.159Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2531,6 +2545,19 @@
         "IncludedPen": [
           "huion.pen.pw600",
           "huion.pen.pw600s"
+        ],
+        "IncludedInBox": [
+          "Kamvas Pro 19 Pen Display",
+          "PD Power Adapter",
+          "3-in-2 Cable (1.8m)",
+          "Full-featured USB-C Cable (1.8m)",
+          "USB-C to USB-C Cable (1.8m)",
+          "PW600 Digital Pen",
+          "PW600S Digital Pen",
+          "PN06 Standard Pen Nib x 5 (inside the pen case)",
+          "PN06F Felt Pen Nib x 5 (inside the pen case)",
+          "Pen Case",
+          "Built-in nib clip (pen nibs)"
         ]
       },
       "Digitizer": {

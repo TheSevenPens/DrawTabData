@@ -2746,7 +2746,7 @@
         "EntityId": "wacom.tablet.dtc141",
         "_id": "79fc0e63-3dc7-4a14-9e99-dc1400196da7",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-09-28T01:38:37.982Z"
+        "_ModifiedDate": "2026-10-02T15:30:02.418Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2811,7 +2811,14 @@
         "IncludedPen": [
           "wacom.pen.cp923"
         ],
-        "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2"
+        "Family": "wacom.tabletfamily.wacom_ondpendisplaygen2",
+        "IncludedInBox": [
+          "1 x Display Device",
+          "1 x Wacom One Standard Pen",
+          "3 x Wacom One Pen Standard Nib",
+          "1 x nib removal tool",
+          "1 x USB Type-C Cable (1.8m)"
+        ]
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -4578,7 +4585,7 @@
         "EntityId": "wacom.tablet.dtha116",
         "_id": "32f29f75-b050-4e0c-bc11-8cb519fae278",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:15:05.129Z"
+        "_ModifiedDate": "2026-10-02T15:29:59.371Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4744,7 +4751,13 @@
         "IncludedPen": [
           "wacom.pen.acp500"
         ],
-        "Family": "wacom.tabletfamily.wacom_movinkpad_2025"
+        "Family": "wacom.tabletfamily.wacom_movinkpad_2025",
+        "IncludedInBox": [
+          "MovinkPad 11",
+          "USB-C to C charging cable",
+          "Wacom Pro Pen 3 (slim barrel) with nib holder",
+          "3 felt nibs"
+        ]
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -4852,7 +4865,7 @@
         "EntityId": "wacom.tablet.dtha140",
         "_id": "26effca9-b80a-4a60-acba-73e88d635bf0",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-09-28T01:39:16.289Z"
+        "_ModifiedDate": "2026-10-02T15:30:00.772Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -4954,7 +4967,13 @@
         "IncludedPen": [
           "wacom.pen.acp500"
         ],
-        "Family": "wacom.tabletfamily.wacom_movinkpad_2025"
+        "Family": "wacom.tabletfamily.wacom_movinkpad_2025",
+        "IncludedInBox": [
+          "Tablet",
+          "Pro Pen 3 (no grip)",
+          "USB-C charging cable",
+          "3 nibs stored in the pen: Carbon Shaft POM x1, Felt x1, POM x1"
+        ]
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
