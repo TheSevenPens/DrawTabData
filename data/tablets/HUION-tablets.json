@@ -1129,7 +1129,7 @@
         "EntityId": "huion.tablet.gs2202",
         "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:10.065Z"
+        "_ModifiedDate": "2026-10-02T21:15:04.203Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1270,7 +1270,8 @@
         "Dimensions": {
           "Width": 546,
           "Height": 323,
-          "Depth": 19
+          "Depth": 26.7,
+          "DepthMin": 19
         },
         "Weight": "3900",
         "WeightInclStand": "YES",
@@ -1308,7 +1309,7 @@
         "EntityId": "huion.tablet.gs2203",
         "_id": "69fba686-d206-4a4d-bc2b-d88ababdf735",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-10-02T20:40:11.788Z"
+        "_ModifiedDate": "2026-10-02T21:15:05.968Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1468,7 +1469,8 @@
         "Dimensions": {
           "Width": 527.7,
           "Height": 324.7,
-          "Depth": 36.7
+          "Depth": 36.7,
+          "DepthMin": 16
         },
         "IncludedStand": "YES",
         "VesaMount": "YES",
@@ -4408,7 +4410,7 @@
         "EntityId": "huion.tablet.h1061p",
         "_id": "44cb8880-a0d6-40d6-9d85-79ec87203849",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:21.930Z"
+        "_ModifiedDate": "2026-10-02T21:15:07.693Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4550,7 +4552,8 @@
       },
       "OtherInputs": {
         "Touch": "NO",
-        "Buttons": "8"
+        "Buttons": "8",
+        "Scrollers": "1"
       },
       "Connectivity": {
         "Bluetooth": "NO",
@@ -5399,7 +5402,7 @@
         "EntityId": "huion.tablet.hs611",
         "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:25.334Z"
+        "_ModifiedDate": "2026-10-02T21:15:09.417Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5525,7 +5528,8 @@
       "OtherInputs": {
         "Touch": "NO",
         "Buttons": "10",
-        "TouchStrips": "1"
+        "TouchStrips": "1",
+        "MultimediaKeys": "8"
       },
       "Connectivity": {
         "AttachedCable": [],
@@ -6394,7 +6398,7 @@
         "EntityId": "huion.tablet.q640m",
         "_id": "df69b1c3-4477-466c-b42a-c70e68006e7c",
         "_CreateDate": "2026-09-24T21:21:56.807Z",
-        "_ModifiedDate": "2026-10-02T20:40:32.167Z"
+        "_ModifiedDate": "2026-10-02T21:15:11.111Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6457,7 +6461,8 @@
         "ReportRate": "300",
         "Tilt": "60",
         "AccuracyCenter": "0.3",
-        "MaxHover": "10"
+        "MaxHover": "10",
+        "ReportRateBluetooth": "133"
       },
       "Physical": {
         "Dimensions": {

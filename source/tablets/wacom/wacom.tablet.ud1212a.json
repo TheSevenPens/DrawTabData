@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ud1212a",
     "_id": "facf128c-9b68-4f28-bff1-5504b7b6f1f1",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-10-02T20:41:59.704Z"
+    "_ModifiedDate": "2026-10-02T21:15:23.394Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -44,7 +44,8 @@
     "PressureLevels": "256",
     "ReportRate": "205",
     "MaxHover": "5",
-    "Type": "PASSIVE_EMR"
+    "Type": "PASSIVE_EMR",
+    "AccuracyCenter": "0.25"
   },
   "Physical": {
     "Dimensions": {

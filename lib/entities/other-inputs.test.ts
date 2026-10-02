@@ -33,6 +33,8 @@ describe("OtherInputs group", () => {
     expect(keys).toEqual([
       "OtherInputsButtons",
       "OtherInputsDials",
+      "OtherInputsMultimediaKeys",
+      "OtherInputsScrollers",
       "OtherInputsTouchRings",
       "OtherInputsTouchStrips",
       "OtherInputsTouch",

@@ -140,6 +140,13 @@ Format: integer string (e.g. "300", "266")
 Unit: Hz (reports per second)
 Required: no
 
+### Digitizer.ReportRateBluetooth
+The report rate over Bluetooth, when the spec lists it separately from the
+wired rate. When the spec gives only one rate, it goes in ReportRate (wired).
+Format: numeric string (e.g. "133")
+Unit: Hz (reports per second)
+Required: no
+
 ### Digitizer.Tilt
 The maximum tilt angle the digitizer can detect. A value of "0" means tilt is not supported.
 Format: integer string (e.g. "60")
@@ -147,6 +154,8 @@ Unit: degrees
 Required: no
 
 ### Digitizer.AccuracyCenter
+(A single accuracy figure with no center/corner split is stored here.)
+
 Pen positional accuracy at the center of the active area.
 Format: numeric string (e.g. "0.3", "0.5")
 Unit: mm
@@ -276,7 +285,10 @@ Physical characteristics. Present on all tablet types.
 
 ### Physical.Dimensions
 The overall physical dimensions of the tablet. Depth may be absent if unknown.
-Format: object { "Width": number, "Height": number, "Depth": number }
+When the spec gives the depth as a range (thinnest to thickest, e.g. "19~26.7
+mm"), Depth is the maximum and DepthMin the minimum. A single depth value is
+treated as the maximum (Depth).
+Format: object { "Width": number, "Height": number, "Depth": number, "DepthMin": number }
 Unit: mm
 Required: no
 
@@ -339,6 +351,17 @@ display/OSD menu/brightness buttons. A button in the center of a touch
 ring or dial counts only if the manufacturer's driver lets the user assign
 it a shortcut; one that only cycles the ring/dial modes does not.
 Format: integer string (e.g. "8", "0")
+Required: no
+
+### OtherInputs.MultimediaKeys
+Fixed-function multimedia keys (volume, play/pause, ...). Not programmable, so
+not counted in Buttons, which only counts programmable buttons.
+Format: numeric string (e.g. "8")
+Required: no
+
+### OtherInputs.Scrollers
+Scroll wheels / scrollers that aren't rotary dials (e.g. Huion's "Scroller").
+Format: numeric string (e.g. "1")
 Required: no
 
 ### OtherInputs.Dials

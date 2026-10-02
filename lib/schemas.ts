@@ -50,6 +50,16 @@ export const DimensionsSchema = v.strictObject({
   Depth: v.optional(v.number()),
 });
 
+// Body size. A spec that gives the depth as a range ("19~26.7 mm", thinnest to
+// thickest point) stores the maximum in Depth and the minimum in DepthMin; a
+// single depth value is treated as the maximum.
+export const PhysicalDimensionsSchema = v.strictObject({
+  Width: v.optional(v.number()),
+  Height: v.optional(v.number()),
+  Depth: v.optional(v.number()),
+  DepthMin: v.optional(v.number()),
+});
+
 // Coverage: the share of the standard's gamut the panel reproduces, so it
 // can never exceed 100%. Manufacturers also publish gamut *area* (the panel's
 // gamut size relative to the standard, e.g. "120% sRGB"), which can exceed
@@ -176,7 +186,10 @@ const DigitizerSchema = v.strictObject({
   PressureLevels: v.optional(NumericString),
   Dimensions: v.optional(DimensionsSchema),
   Density: v.optional(NumericString),
+  // ReportRate is the wired rate (or the only rate the spec gives);
+  // ReportRateBluetooth is the rate over Bluetooth when the spec lists it separately.
   ReportRate: v.optional(NumericString),
+  ReportRateBluetooth: v.optional(NumericString),
   Tilt: v.optional(NumericString),
   AccuracyCenter: v.optional(NumericString),
   AccuracyCorner: v.optional(NumericString),
@@ -212,7 +225,7 @@ const VesaPatternString = v.pipe(
 );
 
 const PhysicalSchema = v.strictObject({
-  Dimensions: v.optional(DimensionsSchema),
+  Dimensions: v.optional(PhysicalDimensionsSchema),
   Weight: v.optional(NumericString),
   WeightInclStand: v.optional(YesNo),
   /** Whether the device can be VESA-mounted. */
@@ -232,8 +245,13 @@ const PhysicalSchema = v.strictObject({
  * The group name is under discussion (DrawTabData #48).
  */
 const OtherInputsSchema = v.strictObject({
-  /** Buttons you can assign a shortcut to (ExpressKeys, shortcut keys). */
+  /** Programmable buttons you can assign a shortcut to (ExpressKeys, shortcut
+   *  keys). Fixed-function keys are counted separately below. */
   Buttons: v.optional(NumericString),
+  /** Fixed multimedia keys (volume, play/pause, ...), not programmable. */
+  MultimediaKeys: v.optional(NumericString),
+  /** Scroll wheels / scrollers that are not rotary dials. */
+  Scrollers: v.optional(NumericString),
   /** Mechanical rotary dials / wheels. */
   Dials: v.optional(NumericString),
   /** Touch-sensitive (capacitive) rings. */

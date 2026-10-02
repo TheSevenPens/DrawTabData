@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs2202",
     "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:10.065Z"
+    "_ModifiedDate": "2026-10-02T21:15:04.203Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -144,7 +144,8 @@
     "Dimensions": {
       "Width": 546,
       "Height": 323,
-      "Depth": 19
+      "Depth": 26.7,
+      "DepthMin": 19
     },
     "Weight": "3900",
     "WeightInclStand": "YES",

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.hs611",
     "_id": "93009765-9e1e-4ab9-94f6-91f4e3acfbc5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:25.334Z"
+    "_ModifiedDate": "2026-10-02T21:15:09.417Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -129,7 +129,8 @@
   "OtherInputs": {
     "Touch": "NO",
     "Buttons": "10",
-    "TouchStrips": "1"
+    "TouchStrips": "1",
+    "MultimediaKeys": "8"
   },
   "Connectivity": {
     "AttachedCable": [],
