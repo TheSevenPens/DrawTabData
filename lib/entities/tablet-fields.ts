@@ -110,7 +110,7 @@ export function formatConnectors(ports: readonly (PortType | Port)[] | undefined
  * DrawTabData #48 — rename it here, not at call sites. */
 export const OTHER_INPUTS_GROUP = "Other Inputs";
 
-export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", OTHER_INPUTS_GROUP, "Connectivity", "Standalone"];
+export const TABLET_FIELD_GROUPS = ["Model", "Digitizer", "Display", "Physical", OTHER_INPUTS_GROUP, "Connectivity", "Power", "Standalone"];
 
 export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   // Model
@@ -422,6 +422,14 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
   { key: "ConnectivityBluetooth", label: "Bluetooth", getValue: (t) => t.Connectivity?.Bluetooth ?? "", type: "enum", enumValues: ["YES", "NO"], group: "Connectivity" },
   { key: "ConnectivityBluetoothVersion", label: "Bluetooth Version", getValue: (t) => t.Connectivity?.BluetoothVersion ?? "", type: "string", group: "Connectivity" },
   { key: "ConnectivityWifi", label: "Wi-Fi", getValue: (t) => t.Connectivity?.Wifi ?? "", type: "string", group: "Connectivity" },
+  { key: "PowerInputVoltage", label: "Input Voltage (V)", getValue: (t) => t.Power?.InputVoltage ?? "", type: "number", group: "Power", unit: "V" },
+  { key: "PowerInputCurrent", label: "Input Current (A)", getValue: (t) => t.Power?.InputCurrent ?? "", type: "number", group: "Power", unit: "A" },
+  { key: "PowerInputWatts", label: "Input Power (W)", getValue: (t) => t.Power?.InputWatts ?? "", type: "number", group: "Power", unit: "W" },
+  { key: "PowerConsumptionWatts", label: "Power Consumption (W)", getValue: (t) => t.Power?.ConsumptionWatts ?? "", type: "number", group: "Power", unit: "W" },
+  { key: "PowerConsumptionMaxWatts", label: "Max Power Consumption (W)", getValue: (t) => t.Power?.ConsumptionMaxWatts ?? "", type: "number", group: "Power", unit: "W" },
+  { key: "PowerStandbyWatts", label: "Standby Power (W)", getValue: (t) => t.Power?.StandbyWatts ?? "", type: "number", group: "Power", unit: "W" },
+  { key: "PowerAdapterWatts", label: "Power Adapter (W)", getValue: (t) => t.Power?.AdapterWatts ?? "", type: "number", group: "Power", unit: "W" },
+  { key: "PowerOutputWatts", label: "Power Output (W)", getValue: (t) => t.Power?.OutputWatts ?? "", type: "number", group: "Power", unit: "W" },
   // Standalone — Compute
   { key: "ComputeOS", label: "OS", getValue: (t) => t.Standalone?.OS ?? "", type: "string", group: "Standalone" },
   { key: "ComputeProcessor", label: "Processor", getValue: (t) => t.Standalone?.Processor ?? "", type: "string", group: "Standalone" },

@@ -15,6 +15,7 @@
 //   Physical     — physical dimensions and weight
 //   OtherInputs  — buttons, dials, touch rings/strips, finger touch (all tablet types)
 //   Connectivity — ports, attached cable, Bluetooth, Wi-Fi (all tablet types)
+//   Power        — power input, consumption and output (all tablet types)
 //   Standalone   — compute/battery/hardware (STANDALONE only)
 
 import * as v from "valibot";
@@ -288,6 +289,23 @@ const ConnectivitySchema = v.strictObject({
   Wifi: v.optional(TrimmedString),
 });
 
+// Power the tablet takes and gives, as the manufacturer states it. All values
+// are numeric strings in the units named by the field. Input* is what the
+// tablet itself needs (its DC/USB input, e.g. 12 V 1.5 A); Adapter* is the
+// power adapter in the box; Output* is power the tablet supplies to a
+// connected device (e.g. USB-C power delivery to a laptop). Battery fields for
+// standalone devices stay in Standalone.
+const PowerSchema = v.strictObject({
+  InputVoltage: v.optional(NumericString),
+  InputCurrent: v.optional(NumericString),
+  InputWatts: v.optional(NumericString),
+  ConsumptionWatts: v.optional(NumericString),
+  ConsumptionMaxWatts: v.optional(NumericString),
+  StandbyWatts: v.optional(NumericString),
+  AdapterWatts: v.optional(NumericString),
+  OutputWatts: v.optional(NumericString),
+});
+
 const StandaloneSchema = v.strictObject({
   OS: v.optional(TrimmedString),
   Processor: v.optional(TrimmedString),
@@ -318,6 +336,7 @@ export const TabletSchema = v.pipe(
     Physical: v.optional(PhysicalSchema),
     OtherInputs: v.optional(OtherInputsSchema),
     Connectivity: v.optional(ConnectivitySchema),
+    Power: v.optional(PowerSchema),
     Standalone: v.optional(StandaloneSchema),
   }),
   v.rawCheck(({ dataset, addIssue }) => {
