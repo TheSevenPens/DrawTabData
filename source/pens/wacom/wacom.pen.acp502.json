@@ -1,0 +1,20 @@
+{
+  "EntityId": "wacom.pen.acp502",
+  "Brand": "WACOM",
+  "PenId": "ACP-502",
+  "PenName": "Lite Pen",
+  "PenFamily": "wacom.penfamily.wacom_acp",
+  "ReleaseYear": "2026",
+  "PenTech": "PASSIVE_EMR",
+  "ButtonCount": "2",
+  "PressureSensitive": "YES",
+  "PressureLevels": "8192",
+  "Weight": "10.8",
+  "Length": "160",
+  "Diameter": "10.4",
+  "Tilt": "YES",
+  "Notes": "Ships with the Intuos 2026 (CTK-4120 / CTK-6120), announced 2026-09-29; first recorded under the placeholder PenId LITE-PEN until its model code was published. Specs from Wacom China's spec sheet: tapers from 10.4 mm to 9 mm in diameter, 160 mm long excluding the lanyard loop, comes with 5 standard POM nibs, and also takes Pro Pen 3 POM, carbon-shaft POM, felt and carbon-shaft rubber nibs.",
+  "_id": "ccbb88d1-add0-49f7-98b9-a04ebb48f595",
+  "_CreateDate": "2026-09-29T12:29:31.886Z",
+  "_ModifiedDate": "2026-10-03T03:11:56.792Z"
+}
