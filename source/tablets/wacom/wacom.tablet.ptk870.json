@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk870",
     "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:52.897Z"
+    "_ModifiedDate": "2026-10-03T21:22:42.862Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -168,7 +168,9 @@
       "Height": 195
     },
     "Density": "200",
-    "Tilt": "60"
+    "Tilt": "60",
+    "ReportRate": "300",
+    "ReportRateBluetooth": "230"
   },
   "Physical": {
     "Dimensions": {
