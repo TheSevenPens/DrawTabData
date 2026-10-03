@@ -10997,7 +10997,7 @@
         "EntityId": "wacom.tablet.ptk470",
         "_id": "f710bda9-5117-4828-bf93-c6303182a107",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:41:47.682Z"
+        "_ModifiedDate": "2026-10-03T21:22:40.121Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11162,7 +11162,9 @@
           "Height": 105
         },
         "Density": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "ReportRate": "300",
+        "ReportRateBluetooth": "230"
       },
       "Physical": {
         "Dimensions": {
@@ -11386,7 +11388,7 @@
         "EntityId": "wacom.tablet.ptk670",
         "_id": "5da0b9e8-2bb6-4b3e-a586-186eda0a3a5e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:41:51.104Z"
+        "_ModifiedDate": "2026-10-03T21:22:41.476Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11564,7 +11566,9 @@
           "Height": 148
         },
         "Density": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "ReportRate": "300",
+        "ReportRateBluetooth": "230"
       },
       "Physical": {
         "Dimensions": {
@@ -11654,7 +11658,7 @@
         "EntityId": "wacom.tablet.ptk870",
         "_id": "14541a09-3326-4ab0-90e7-92ffa5f49d95",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:41:52.897Z"
+        "_ModifiedDate": "2026-10-03T21:22:42.862Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11819,7 +11823,9 @@
           "Height": 195
         },
         "Density": "200",
-        "Tilt": "60"
+        "Tilt": "60",
+        "ReportRate": "300",
+        "ReportRateBluetooth": "230"
       },
       "Physical": {
         "Dimensions": {
