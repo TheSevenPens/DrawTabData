@@ -5,12 +5,15 @@
         "EntityId": "samsung.tablet.galaxybook5pro360",
         "_id": "d98ac606-74a8-4c17-81f5-c7609b7567cc",
         "_CreateDate": "2026-09-24T16:21:12.270Z",
-        "_ModifiedDate": "2026-09-24T16:21:12.270Z"
+        "_ModifiedDate": "2026-10-05T17:11:59.310Z"
       },
       "Model": {
         "Brand": "SAMSUNG",
         "Id": "Galaxy-Book5-Pro-360",
         "Name": "Galaxy Book5 Pro 360",
+        "AlternateNames": [
+          "NP960QHA-KG1US"
+        ],
         "Type": "STANDALONE",
         "ReleaseYear": "2024"
       },
