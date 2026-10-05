@@ -660,10 +660,17 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
   // units pointed at EntityIds no tablet has (a typo, a PTK- for a PTH-, three
   // models never added), and five ModelIds held a name or a differently
   // punctuated id — anything joining on either silently lost those units.
-  const tabletModelIdByEntityId = new Map<string, string | undefined>();
+  // TabletType restates the tablet's Model.Type, so it must agree: HUT.0019,
+  // a Kamvas Pro 24 pen display, was recorded as a PENTABLET for six months.
+  const tabletModelByEntityId = new Map<string, { id?: string; type?: string }>();
   for (const { record } of tablets) {
     const id = getNestedString(record, "Meta", "EntityId");
-    if (id) tabletModelIdByEntityId.set(id, getNestedString(record, "Model", "Id"));
+    if (id) {
+      tabletModelByEntityId.set(id, {
+        id: getNestedString(record, "Model", "Id"),
+        type: getNestedString(record, "Model", "Type"),
+      });
+    }
   }
   const inventoryTablets = readAllInDir(dataDir, "inventory", "InventoryTablets");
   const tabletUnitIds = new Set<string>();
@@ -672,19 +679,29 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
     tabletUnitIds.add(unit);
     const ref = getString(record, "TabletEntityId");
     if (!ref) continue;
-    if (!tabletModelIdByEntityId.has(ref)) {
+    const model = tabletModelByEntityId.get(ref);
+    if (!model) {
       issues.push({ file, entityId: unit, field: "TabletEntityId", issue: "references unknown Tablet", value: ref });
       continue;
     }
     const modelId = getString(record, "ModelId");
-    const expected = tabletModelIdByEntityId.get(ref);
-    if (modelId !== undefined && modelId !== expected) {
+    if (modelId !== undefined && modelId !== model.id) {
       issues.push({
         file,
         entityId: unit,
         field: "ModelId",
         issue: "is not the tablet's Model.Id",
-        value: `got "${modelId}", ${ref} has "${expected}"`,
+        value: `got "${modelId}", ${ref} has "${model.id}"`,
+      });
+    }
+    const tabletType = getString(record, "TabletType");
+    if (tabletType !== undefined && tabletType !== model.type) {
+      issues.push({
+        file,
+        entityId: unit,
+        field: "TabletType",
+        issue: "is not the tablet's Model.Type",
+        value: `got "${tabletType}", ${ref} has "${model.type}"`,
       });
     }
   }
