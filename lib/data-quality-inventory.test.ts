@@ -1,6 +1,6 @@
-// Inventory rows must point at real models, with the tablet's own Model.Id,
-// and a pen unit's WithTabletInventoryId at a real tablet unit
-// (DrawTabData #44).
+// Inventory rows must point at real models, with the tablet's own Model.Id
+// and Model.Type, and a pen unit's WithTabletInventoryId at a real tablet
+// unit (DrawTabData #44).
 import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
@@ -12,7 +12,9 @@ let dataDir: string;
 beforeEach(() => {
   dataDir = fs.mkdtempSync(path.join(os.tmpdir(), "dq-inventory-"));
   put("tablets/WACOM-tablets.json", {
-    DrawingTablets: [{ Meta: { EntityId: "wacom.tablet.dtk168" }, Model: { Brand: "WACOM", Id: "DTK-168" } }],
+    DrawingTablets: [
+      { Meta: { EntityId: "wacom.tablet.dtk168" }, Model: { Brand: "WACOM", Id: "DTK-168", Type: "PENDISPLAY" } },
+    ],
   });
   put("pens/WACOM-pens.json", { Pens: [{ EntityId: "wacom.pen.kp504e", Brand: "WACOM", PenId: "KP-504E" }] });
 });
@@ -24,7 +26,7 @@ function put(rel: string, value: unknown) {
   fs.writeFileSync(abs, formatDataJson(value));
 }
 
-const INVENTORY_FIELDS = new Set(["TabletEntityId", "ModelId", "PenEntityId", "WithTabletInventoryId"]);
+const INVENTORY_FIELDS = new Set(["TabletEntityId", "ModelId", "TabletType", "PenEntityId", "WithTabletInventoryId"]);
 function inventoryIssues(tablets: object[], pens: object[] = []) {
   put("inventory/sevenpens-tablets.json", { InventoryTablets: tablets });
   put("inventory/sevenpens-pens.json", { InventoryPens: pens });
@@ -33,7 +35,7 @@ function inventoryIssues(tablets: object[], pens: object[] = []) {
     .map((i) => `${i.entityId} ${i.field}: ${i.issue}${i.value ? ` (${i.value})` : ""}`);
 }
 
-const unit = { InventoryId: "WAT.0084", TabletEntityId: "wacom.tablet.dtk168", ModelId: "DTK-168" };
+const unit = { InventoryId: "WAT.0084", TabletEntityId: "wacom.tablet.dtk168", ModelId: "DTK-168", TabletType: "PENDISPLAY" };
 
 describe("inventory reference checks", () => {
   it("accepts rows that point at real models and units", () => {
@@ -52,6 +54,19 @@ describe("inventory reference checks", () => {
     expect(inventoryIssues([{ ...unit, ModelId: "DTK168" }])).toEqual([
       'WAT.0084 ModelId: is not the tablet\'s Model.Id (got "DTK168", wacom.tablet.dtk168 has "DTK-168")',
     ]);
+  });
+
+  it("reports a TabletType that isn't the tablet's Model.Type", () => {
+    expect(inventoryIssues([{ ...unit, TabletType: "PENTABLET" }])).toEqual([
+      'WAT.0084 TabletType: is not the tablet\'s Model.Type (got "PENTABLET", wacom.tablet.dtk168 has "PENDISPLAY")',
+    ]);
+  });
+
+  it("leaves a missing TabletType to the schema check, without a second mismatch issue", () => {
+    const { TabletType: _, ...untyped } = unit;
+    const issues = inventoryIssues([untyped]);
+    expect(issues).toHaveLength(1);
+    expect(issues[0]).not.toContain("is not the tablet's Model.Type");
   });
 
   it("reports a pen unit with an unknown pen or tablet unit", () => {
