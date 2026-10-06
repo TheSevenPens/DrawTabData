@@ -20,6 +20,24 @@
       "Standalone": {
         "OS": "Windows"
       }
+    },
+    {
+      "Meta": {
+        "EntityId": "samsung.tablet.galaxytabs6lite2022",
+        "_id": "ab1c0a05-70e8-49eb-9b36-13fd988a21b7",
+        "_CreateDate": "2026-10-06T16:30:00.000Z",
+        "_ModifiedDate": "2026-10-06T16:30:00.000Z"
+      },
+      "Model": {
+        "Brand": "SAMSUNG",
+        "Id": "Galaxy-Tab-S6-Lite-2022",
+        "Name": "Galaxy Tab S6 Lite (2022)",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2022"
+      },
+      "Standalone": {
+        "OS": "Android"
+      }
     }
   ]
 }
