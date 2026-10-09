@@ -20,6 +20,214 @@
       "Standalone": {
         "OS": "Windows"
       }
+    },
+    {
+      "Meta": {
+        "EntityId": "samsung.tablet.galaxytabs11ultra",
+        "_id": "4cc5328f-b80f-4ef9-bf37-fd88513297b9",
+        "_CreateDate": "2026-10-09T18:39:59.106Z",
+        "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+      },
+      "Model": {
+        "Brand": "SAMSUNG",
+        "Id": "Galaxy-Tab-S11-Ultra",
+        "Name": "Galaxy Tab S11 Ultra",
+        "AlternateNames": [
+          "SM-X930",
+          "SM-X936B"
+        ],
+        "Type": "STANDALONE",
+        "ReleaseYear": "2025",
+        "IncludedPen": [
+          "samsung.pen.spen"
+        ]
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2960,
+          "Height": 1848
+        },
+        "PanelTech": "OLED",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 326.7,
+          "Height": 208.4,
+          "Depth": 5.1
+        },
+        "Weight": "692"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
+      "Standalone": {
+        "OS": "Android",
+        "Processor": "MediaTek Dimensity 9400+"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "samsung.tablet.galaxytabs6lite2022",
+        "_id": "3f966b92-b724-40aa-860b-dabc350194f6",
+        "_CreateDate": "2026-10-09T18:39:59.106Z",
+        "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+      },
+      "Model": {
+        "Brand": "SAMSUNG",
+        "Id": "Galaxy-Tab-S6-Lite-2022",
+        "Name": "Galaxy Tab S6 Lite (2022)",
+        "AlternateNames": [
+          "SM-P613",
+          "SM-P619"
+        ],
+        "Type": "STANDALONE",
+        "ReleaseYear": "2022",
+        "IncludedPen": [
+          "samsung.pen.spen"
+        ]
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2000,
+          "Height": 1200
+        },
+        "PanelTech": "TFT",
+        "RefreshRate": "60"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 244.5,
+          "Height": 154.3,
+          "Depth": 7
+        },
+        "Weight": "465"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
+      "Standalone": {
+        "OS": "Android",
+        "Processor": "Qualcomm Snapdragon 720G"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "samsung.tablet.galaxytabs8ultra",
+        "_id": "ea7cdd1f-9f6e-4d9b-a955-1af86153a3b0",
+        "_CreateDate": "2026-10-09T18:39:59.106Z",
+        "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+      },
+      "Model": {
+        "Brand": "SAMSUNG",
+        "Id": "Galaxy-Tab-S8-Ultra",
+        "Name": "Galaxy Tab S8 Ultra",
+        "AlternateNames": [
+          "SM-X900",
+          "SM-X906"
+        ],
+        "Type": "STANDALONE",
+        "ReleaseYear": "2022",
+        "IncludedPen": [
+          "samsung.pen.spen"
+        ]
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2960,
+          "Height": 1848
+        },
+        "PanelTech": "OLED",
+        "RefreshRate": "120"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 326.4,
+          "Height": 208.6,
+          "Depth": 5.5
+        },
+        "Weight": "726"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
+      "Standalone": {
+        "OS": "Android",
+        "Processor": "Qualcomm Snapdragon 8 Gen 1"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "samsung.tablet.galaxytabs9fe",
+        "_id": "1078ab7e-c782-4976-8da0-7ebbbd6d4615",
+        "_CreateDate": "2026-10-09T18:39:59.106Z",
+        "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+      },
+      "Model": {
+        "Brand": "SAMSUNG",
+        "Id": "Galaxy-Tab-S9-FE",
+        "Name": "Galaxy Tab S9 FE",
+        "AlternateNames": [
+          "SM-X510",
+          "SM-X516B"
+        ],
+        "Type": "STANDALONE",
+        "ReleaseYear": "2023",
+        "IncludedPen": [
+          "samsung.pen.spen"
+        ]
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2304,
+          "Height": 1440
+        },
+        "PanelTech": "TFT",
+        "RefreshRate": "90"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 254.3,
+          "Height": 165.8,
+          "Depth": 6.5
+        },
+        "Weight": "523"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
+      "Standalone": {
+        "OS": "Android",
+        "Processor": "Samsung Exynos 1380"
+      }
     }
   ]
 }

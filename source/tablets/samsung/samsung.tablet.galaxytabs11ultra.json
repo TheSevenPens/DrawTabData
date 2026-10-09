@@ -1,0 +1,52 @@
+{
+  "Meta": {
+    "EntityId": "samsung.tablet.galaxytabs11ultra",
+    "_id": "4cc5328f-b80f-4ef9-bf37-fd88513297b9",
+    "_CreateDate": "2026-10-09T18:39:59.106Z",
+    "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+  },
+  "Model": {
+    "Brand": "SAMSUNG",
+    "Id": "Galaxy-Tab-S11-Ultra",
+    "Name": "Galaxy Tab S11 Ultra",
+    "AlternateNames": [
+      "SM-X930",
+      "SM-X936B"
+    ],
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "IncludedPen": [
+      "samsung.pen.spen"
+    ]
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2960,
+      "Height": 1848
+    },
+    "PanelTech": "OLED",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 326.7,
+      "Height": 208.4,
+      "Depth": 5.1
+    },
+    "Weight": "692"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
+  "Standalone": {
+    "OS": "Android",
+    "Processor": "MediaTek Dimensity 9400+"
+  }
+}

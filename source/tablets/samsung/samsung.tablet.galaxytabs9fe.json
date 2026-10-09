@@ -1,0 +1,52 @@
+{
+  "Meta": {
+    "EntityId": "samsung.tablet.galaxytabs9fe",
+    "_id": "1078ab7e-c782-4976-8da0-7ebbbd6d4615",
+    "_CreateDate": "2026-10-09T18:39:59.106Z",
+    "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+  },
+  "Model": {
+    "Brand": "SAMSUNG",
+    "Id": "Galaxy-Tab-S9-FE",
+    "Name": "Galaxy Tab S9 FE",
+    "AlternateNames": [
+      "SM-X510",
+      "SM-X516B"
+    ],
+    "Type": "STANDALONE",
+    "ReleaseYear": "2023",
+    "IncludedPen": [
+      "samsung.pen.spen"
+    ]
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2304,
+      "Height": 1440
+    },
+    "PanelTech": "TFT",
+    "RefreshRate": "90"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 254.3,
+      "Height": 165.8,
+      "Depth": 6.5
+    },
+    "Weight": "523"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
+  "Standalone": {
+    "OS": "Android",
+    "Processor": "Samsung Exynos 1380"
+  }
+}
