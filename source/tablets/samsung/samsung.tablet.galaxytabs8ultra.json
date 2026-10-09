@@ -1,0 +1,52 @@
+{
+  "Meta": {
+    "EntityId": "samsung.tablet.galaxytabs8ultra",
+    "_id": "ea7cdd1f-9f6e-4d9b-a955-1af86153a3b0",
+    "_CreateDate": "2026-10-09T18:39:59.106Z",
+    "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+  },
+  "Model": {
+    "Brand": "SAMSUNG",
+    "Id": "Galaxy-Tab-S8-Ultra",
+    "Name": "Galaxy Tab S8 Ultra",
+    "AlternateNames": [
+      "SM-X900",
+      "SM-X906"
+    ],
+    "Type": "STANDALONE",
+    "ReleaseYear": "2022",
+    "IncludedPen": [
+      "samsung.pen.spen"
+    ]
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2960,
+      "Height": 1848
+    },
+    "PanelTech": "OLED",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 326.4,
+      "Height": 208.6,
+      "Depth": 5.5
+    },
+    "Weight": "726"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
+  "Standalone": {
+    "OS": "Android",
+    "Processor": "Qualcomm Snapdragon 8 Gen 1"
+  }
+}

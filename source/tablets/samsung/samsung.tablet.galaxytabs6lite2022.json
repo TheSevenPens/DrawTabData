@@ -1,0 +1,52 @@
+{
+  "Meta": {
+    "EntityId": "samsung.tablet.galaxytabs6lite2022",
+    "_id": "3f966b92-b724-40aa-860b-dabc350194f6",
+    "_CreateDate": "2026-10-09T18:39:59.106Z",
+    "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+  },
+  "Model": {
+    "Brand": "SAMSUNG",
+    "Id": "Galaxy-Tab-S6-Lite-2022",
+    "Name": "Galaxy Tab S6 Lite (2022)",
+    "AlternateNames": [
+      "SM-P613",
+      "SM-P619"
+    ],
+    "Type": "STANDALONE",
+    "ReleaseYear": "2022",
+    "IncludedPen": [
+      "samsung.pen.spen"
+    ]
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2000,
+      "Height": 1200
+    },
+    "PanelTech": "TFT",
+    "RefreshRate": "60"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 244.5,
+      "Height": 154.3,
+      "Depth": 7
+    },
+    "Weight": "465"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
+  "Standalone": {
+    "OS": "Android",
+    "Processor": "Qualcomm Snapdragon 720G"
+  }
+}

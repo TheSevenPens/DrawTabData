@@ -1909,6 +1909,66 @@
       "_id": "c2939dca-a20f-445f-841d-03b6f26c0754",
       "_CreateDate": "2026-09-25T01:17:38.337Z",
       "_ModifiedDate": "2026-09-25T01:17:38.337Z"
+    },
+    {
+      "TabletEntityId": "samsung.tablet.galaxytabs6lite2022",
+      "Brand": "SAMSUNG",
+      "ModelId": "Galaxy-Tab-S6-Lite-2022",
+      "ModelName": "Galaxy Tab S6 Lite (2022)",
+      "TabletType": "STANDALONE",
+      "InventoryId": "SAT.0002",
+      "Vendor": "",
+      "OrderDate": "",
+      "Notes": "",
+      "Tags": [],
+      "_id": "13fe5f01-2bd1-4cfb-a387-80aebca1ca64",
+      "_CreateDate": "2026-10-09T18:39:59.106Z",
+      "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+    },
+    {
+      "TabletEntityId": "samsung.tablet.galaxytabs9fe",
+      "Brand": "SAMSUNG",
+      "ModelId": "Galaxy-Tab-S9-FE",
+      "ModelName": "Galaxy Tab S9 FE",
+      "TabletType": "STANDALONE",
+      "InventoryId": "SAT.0003",
+      "Vendor": "",
+      "OrderDate": "",
+      "Notes": "",
+      "Tags": [],
+      "_id": "feb01660-2a95-43b1-b20d-7fbdabc90204",
+      "_CreateDate": "2026-10-09T18:39:59.106Z",
+      "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+    },
+    {
+      "TabletEntityId": "samsung.tablet.galaxytabs8ultra",
+      "Brand": "SAMSUNG",
+      "ModelId": "Galaxy-Tab-S8-Ultra",
+      "ModelName": "Galaxy Tab S8 Ultra",
+      "TabletType": "STANDALONE",
+      "InventoryId": "SAT.0004",
+      "Vendor": "",
+      "OrderDate": "",
+      "Notes": "",
+      "Tags": [],
+      "_id": "8b56638d-043e-42f9-a521-18e6d69f7459",
+      "_CreateDate": "2026-10-09T18:39:59.106Z",
+      "_ModifiedDate": "2026-10-09T18:39:59.106Z"
+    },
+    {
+      "TabletEntityId": "samsung.tablet.galaxytabs11ultra",
+      "Brand": "SAMSUNG",
+      "ModelId": "Galaxy-Tab-S11-Ultra",
+      "ModelName": "Galaxy Tab S11 Ultra",
+      "TabletType": "STANDALONE",
+      "InventoryId": "SAT.0005",
+      "Vendor": "",
+      "OrderDate": "",
+      "Notes": "",
+      "Tags": [],
+      "_id": "e81929ac-3025-48e3-963d-1493d46f91a7",
+      "_CreateDate": "2026-10-09T18:39:59.106Z",
+      "_ModifiedDate": "2026-10-09T18:39:59.106Z"
     }
   ]
 }
