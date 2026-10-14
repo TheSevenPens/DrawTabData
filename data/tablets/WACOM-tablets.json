@@ -6739,6 +6739,15 @@
         "ConsumptionMaxWatts": "27",
         "StandbyWatts": "0.5",
         "AdapterWatts": "36"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "PROPRIETARY",
+            "Detail": "3-in-1 cable port: HDMI, USB-A and power at the computer end"
+          }
+        ],
+        "AttachedCable": []
       }
     },
     {
