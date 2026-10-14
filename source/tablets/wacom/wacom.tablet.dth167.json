@@ -23,18 +23,6 @@
       },
       {
         "Type": "MANUFACTURERUSERMANUAL",
-        "URL": "http://101.wacom.com/UserHelp/en/TOC/DTH167.html",
-        "Title": "Wacom User Help (DTH167)",
-        "Author": "Wacom",
-        "ContentType": "HTML",
-        "Check": {
-          "Status": "OK",
-          "CheckedAt": "2026-08-10T18:50:26.160Z",
-          "HttpStatus": 200
-        }
-      },
-      {
-        "Type": "USERMANUAL",
         "URL": "https://101.wacom.com/UserHelp/en/TOC/DTH167.html",
         "Title": "Wacom User Help (DTH167)",
         "Author": "Wacom",
