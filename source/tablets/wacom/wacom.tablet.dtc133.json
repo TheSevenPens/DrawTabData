@@ -192,7 +192,8 @@
     "AttachedCable": [],
     "Ports": [
       {
-        "Type": "USB_C"
+        "Type": "USB_C",
+        "Detail": "Works only with the cable Wacom supplies for it, even though other USB-C cables fit the port"
       }
     ]
   },
