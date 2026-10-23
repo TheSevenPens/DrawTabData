@@ -1,0 +1,79 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.g940l",
+    "_id": "002afb51-6e9d-4f6c-83aa-6f31f9742212",
+    "_CreateDate": "2026-10-23T12:20:33.246Z",
+    "_ModifiedDate": "2026-10-23T12:20:33.246Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "G940L",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/inspiroy-giano-v2",
+        "Title": "Huion Inspiroy Giano V2",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/products/inspiroy-giano-v2",
+        "Title": "Huion Store - Inspiroy Giano V2",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Inspiroy Giano V2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2026",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw600"
+    ],
+    "IncludedInBox": [
+      "Inspiroy Giano V2 Pen Tablet",
+      "Battery-free Pen",
+      "USB-C Cable",
+      "Pen Holder",
+      "Standard Pen Nib x 5",
+      "Felt Pen Nib x 5",
+      "Drawing Glove",
+      "Quick Start Guide"
+    ]
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 345.4,
+      "Height": 215.9
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "ReportRateBluetooth": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 429,
+      "Height": 260.9,
+      "Depth": 9
+    },
+    "Weight": "1145"
+  },
+  "OtherInputs": {
+    "Buttons": "6"
+  },
+  "Connectivity": {
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0",
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  }
+}
