@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pl300",
     "_id": "29b85b2f-fd34-45dc-93ce-13a67bdaf7a7",
     "_CreateDate": "2026-04-19T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-01T11:38:38.882Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -12,8 +12,8 @@
     "LastSupportedMacOSDriver": "5.3.7-6",
     "Name": "PL-300",
     "Type": "PENDISPLAY",
-    "ReleaseYear": "2001",
-    "ReleaseDate": "2001-09",
+    "ReleaseYear": "1996",
+    "ReleaseDate": "1996",
     "Status": "DISCONTINUED",
     "Family": "wacom.tabletfamily.wacom_cintiqpl"
   },

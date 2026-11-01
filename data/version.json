@@ -119,7 +119,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "baed618f87d55ba8d538d989301b98b2c6cbd5b76ef3afd3127d061494660621",
+  "sourceDigest": "f1a7e1a6becddb3025c871fa3840849f9d439355db2b7b76cdcbb78135b98b80",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -143,7 +143,7 @@
     },
     {
       "path": "tablets/HUION-tablets.json",
-      "sha256": "cd7d02fc9083583cb94bc5fa1651c105a5fb184c899488e4531ece1dcd4d96c7",
+      "sha256": "8fb5d2a0becb5a4f6f5ade75b695dff3be6814b21baa6f74e9206d2cddb2011a",
       "count": 70
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "path": "tablets/UGEE-tablets.json",
-      "sha256": "3f4be3ca625b269ff91ab7f41094a724bc7691c46eb7efe2e5dbba20c605dfc5",
+      "sha256": "e412f3379604b3164b6a11371e8dc0900d64c21ca5bce01781e86c4b4d171e00",
       "count": 8
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "path": "tablets/WACOM-tablets.json",
-      "sha256": "4b21a349a7ed36e953436a15cb7991446f3f06d651efe21b0a1665e5a131444f",
+      "sha256": "0747f8271dd2865d454a4b2ccbac1f582ba7ecedadd443a5a04b265a9d5aff58",
       "count": 197
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "path": "tablets/XPPEN-tablets.json",
-      "sha256": "ac475528545dd74ec919110486375545a77b02e2296a540a351f9fa05bf4ea5e",
+      "sha256": "7f35ae02f1af4b08f13ae3e508bc030cd5cb5ec76ab198d3e5a5cf7f824c6364",
       "count": 69
     },
     {
@@ -198,7 +198,7 @@
     },
     {
       "path": "pens/HUION-pens.json",
-      "sha256": "dccf211aca0112fa1170853c46da9b8c71a233fe10379565499992bb6581b039",
+      "sha256": "ac1d6a11757c0ce7350f0d008e716c4500d559d04a6fb93ad9fe6e26385f64da",
       "count": 20
     },
     {

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rtm500",
     "_id": "86333a6a-0a5d-43ef-bd01-72b719b09dae",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-01T11:38:58.172Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -25,8 +25,8 @@
     ],
     "Name": "Inspiroy RTM-500",
     "Type": "PENTABLET",
-    "ReleaseYear": "2022",
-    "ReleaseDate": "2022",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-06-15",
     "Audience": "Consumer",
     "IncludedPen": [
       "huion.pen.pw400"

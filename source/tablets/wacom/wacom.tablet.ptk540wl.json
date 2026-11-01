@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk540wl",
     "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-01T11:38:30.492Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -25,8 +25,8 @@
     "LastSupportedMacOSDriver": "6.3.41-2",
     "Name": "Intuos4 Wireless",
     "Type": "PENTABLET",
-    "ReleaseYear": "2009",
-    "ReleaseDate": "2009-03-24",
+    "ReleaseYear": "2010",
+    "ReleaseDate": "2010-02-01",
     "Audience": "Professional",
     "IncludedPen": [
       "wacom.pen.kp501e"

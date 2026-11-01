@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.decoprosw",
     "_id": "6ac45e5a-b656-4895-901b-82247f575392",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+    "_ModifiedDate": "2026-11-01T11:38:43.655Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -25,12 +25,13 @@
     ],
     "Name": "Deco Pro SW",
     "Type": "PENTABLET",
-    "ReleaseYear": "2019",
+    "ReleaseYear": "2021",
     "Audience": "Professional",
     "Family": "xppen.tabletfamily.xppen_decopro_2019",
     "IncludedPen": [
       "xppen.pen.pa1"
-    ]
+    ],
+    "ReleaseDate": "2021-07"
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",

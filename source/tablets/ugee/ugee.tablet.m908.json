@@ -3,7 +3,7 @@
     "EntityId": "ugee.tablet.m908",
     "_id": "e8d5a27c-2985-43c2-afd3-6b1c9d0b05f5",
     "_CreateDate": "2026-04-03T06:01:40.000Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-01T11:39:07.595Z"
   },
   "Model": {
     "Brand": "UGEE",
@@ -24,8 +24,8 @@
     ],
     "Name": "M908 Drawing Tablet",
     "Type": "PENTABLET",
-    "ReleaseYear": "2026",
-    "ReleaseDate": "2026-06"
+    "ReleaseYear": "2023",
+    "ReleaseDate": "2023"
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
