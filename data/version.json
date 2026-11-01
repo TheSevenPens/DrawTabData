@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "counts": {
-    "tablets": 398,
+    "tablets": 399,
     "pens": 145,
     "penFamilies": 24,
     "tabletFamilies": 60,
@@ -119,7 +119,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "baed618f87d55ba8d538d989301b98b2c6cbd5b76ef3afd3127d061494660621",
+  "sourceDigest": "3aeba6d4b335661cf79ecd5ae9a1e2a3b012d4a549687d0cd093e2c9e51e74d9",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -173,8 +173,8 @@
     },
     {
       "path": "tablets/XPPEN-tablets.json",
-      "sha256": "ac475528545dd74ec919110486375545a77b02e2296a540a351f9fa05bf4ea5e",
-      "count": 69
+      "sha256": "752b7119d89e391c6236aa03659ed466bbd472b225375e175306372d802fefa4",
+      "count": 70
     },
     {
       "path": "pens/APPLE-pens.json",
