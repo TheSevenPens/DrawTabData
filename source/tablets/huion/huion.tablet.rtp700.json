@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rtp700",
     "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:35.548Z"
+    "_ModifiedDate": "2026-11-01T11:38:59.353Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -36,8 +36,8 @@
     ],
     "Name": "Inspiroy RTP-700",
     "Type": "PENTABLET",
-    "ReleaseYear": "2022",
-    "ReleaseDate": "2022",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-06-15",
     "Audience": "Consumer",
     "IncludedPen": [
       "huion.pen.pw400"

@@ -6,12 +6,13 @@
     "LastSupportedMacOSDriver": "6.3.46-2",
     "Name": "Cintiq 24HD Touch",
     "Type": "PENDISPLAY",
-    "ReleaseYear": "2013",
+    "ReleaseYear": "2012",
     "IncludedPen": [
       "wacom.pen.kp501e"
     ],
     "Status": "DISCONTINUED",
-    "Family": "wacom.tabletfamily.wacom_cintiq"
+    "Family": "wacom.tabletfamily.wacom_cintiq",
+    "ReleaseDate": "2012-07-10"
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
@@ -42,7 +43,7 @@
     "EntityId": "wacom.tablet.dth2400",
     "_id": "7202f51a-6bd1-4b74-83f9-e1f34fd7d8cd",
     "_CreateDate": "2026-07-19T04:01:46.760Z",
-    "_ModifiedDate": "2026-07-19T04:01:46.760Z"
+    "_ModifiedDate": "2026-11-01T11:38:23.393Z"
   },
   "OtherInputs": {
     "Touch": "YES"

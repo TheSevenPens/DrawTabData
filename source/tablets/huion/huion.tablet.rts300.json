@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rts300",
     "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-01T11:39:00.531Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -25,8 +25,8 @@
     ],
     "Name": "Inspiroy RTS-300",
     "Type": "PENTABLET",
-    "ReleaseYear": "2022",
-    "ReleaseDate": "2022",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021-06-15",
     "Audience": "Consumer",
     "IncludedPen": [
       "huion.pen.pw400"

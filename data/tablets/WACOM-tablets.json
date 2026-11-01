@@ -83,7 +83,7 @@
         "EntityId": "wacom.tablet.ct0405u",
         "_id": "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:18.471Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -91,8 +91,8 @@
         "Status": "DISCONTINUED",
         "Name": "PenPartner USB",
         "Type": "PENTABLET",
-        "ReleaseYear": "1997",
-        "ReleaseDate": "1997-11",
+        "ReleaseYear": "1999",
+        "ReleaseDate": "1999",
         "IncludedPen": [
           "wacom.pen.up703e"
         ],
@@ -541,7 +541,7 @@
         "EntityId": "wacom.tablet.cte450",
         "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:19.234Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -551,7 +551,7 @@
         "Name": "Bamboo Fun Small",
         "Type": "PENTABLET",
         "ReleaseYear": "2007",
-        "ReleaseDate": "2007-05-15",
+        "ReleaseDate": "2007-09",
         "Audience": "Consumer",
         "IncludedPen": [
           "wacom.pen.ep155e"
@@ -669,7 +669,7 @@
         "EntityId": "wacom.tablet.cte630bt",
         "_id": "fb5f0dbe-189f-4fcd-9594-a689384c9b77",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:20.139Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -680,7 +680,7 @@
         "Name": "Graphire4 BT",
         "Type": "PENTABLET",
         "ReleaseYear": "2005",
-        "ReleaseDate": "2005-09-13",
+        "ReleaseDate": "2005-04-15",
         "IncludedPen": [
           "wacom.pen.ep130e"
         ],
@@ -749,7 +749,7 @@
         "EntityId": "wacom.tablet.cte650",
         "_id": "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:21.065Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -759,7 +759,7 @@
         "Name": "Bamboo Fun Medium",
         "Type": "PENTABLET",
         "ReleaseYear": "2007",
-        "ReleaseDate": "2007-05-15",
+        "ReleaseDate": "2007-09",
         "Audience": "Consumer",
         "IncludedPen": [
           "wacom.pen.ep155e"
@@ -995,7 +995,7 @@
         "EntityId": "wacom.tablet.cth301",
         "_id": "a976874a-31ba-4db5-a51e-12b6d45e98ca",
         "_CreateDate": "2026-04-01T18:30:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:22.184Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1005,8 +1005,8 @@
         "Status": "DISCONTINUED",
         "Name": "Wacom CTH-301",
         "Type": "PENTABLET",
-        "ReleaseYear": "2014",
-        "ReleaseDate": "2014",
+        "ReleaseYear": "2013",
+        "ReleaseDate": "2013-09-10",
         "Family": "wacom.tabletfamily.wacom_bamboo_legacy"
       },
       "Digitizer": {
@@ -2016,7 +2016,7 @@
         "EntityId": "wacom.tablet.ctl472",
         "_id": "3d706816-ba5d-4787-a333-bea467bed0b3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:45.785Z"
+        "_ModifiedDate": "2026-11-01T11:38:36.493Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2062,8 +2062,8 @@
         "Status": "ACTIVE",
         "Name": "One by Wacom Small",
         "Type": "PENTABLET",
-        "ReleaseYear": "2019",
-        "ReleaseDate": "2019-05-10",
+        "ReleaseYear": "2017",
+        "ReleaseDate": "2017",
         "Audience": "Consumer",
         "IncludedPen": [
           "wacom.pen.lp190k"
@@ -2540,7 +2540,7 @@
         "EntityId": "wacom.tablet.ctl672",
         "_id": "1590d7ad-3e30-40ef-95ee-95ecaa36bd65",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:50.816Z"
+        "_ModifiedDate": "2026-11-01T11:38:37.645Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2586,8 +2586,8 @@
         "Status": "ACTIVE",
         "Name": "One by Wacom Medium",
         "Type": "PENTABLET",
-        "ReleaseYear": "2019",
-        "ReleaseDate": "2019-05-10",
+        "ReleaseYear": "2017",
+        "ReleaseDate": "2017",
         "Audience": "Consumer",
         "IncludedPen": [
           "wacom.pen.lp190k"
@@ -4603,12 +4603,13 @@
         "LastSupportedMacOSDriver": "6.3.46-2",
         "Name": "Cintiq 24HD Touch",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2013",
+        "ReleaseYear": "2012",
         "IncludedPen": [
           "wacom.pen.kp501e"
         ],
         "Status": "DISCONTINUED",
-        "Family": "wacom.tabletfamily.wacom_cintiq"
+        "Family": "wacom.tabletfamily.wacom_cintiq",
+        "ReleaseDate": "2012-07-10"
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -4639,7 +4640,7 @@
         "EntityId": "wacom.tablet.dth2400",
         "_id": "7202f51a-6bd1-4b74-83f9-e1f34fd7d8cd",
         "_CreateDate": "2026-07-19T04:01:46.760Z",
-        "_ModifiedDate": "2026-07-19T04:01:46.760Z"
+        "_ModifiedDate": "2026-11-01T11:38:23.393Z"
       },
       "OtherInputs": {
         "Touch": "YES"
@@ -7706,7 +7707,7 @@
         "EntityId": "wacom.tablet.dtu710",
         "_id": "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
         "_CreateDate": "2026-04-03T00:00:00.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:24.590Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -7729,8 +7730,8 @@
         "LastSupportedMacOSDriver": "5.3.7-6",
         "Name": "DTU-710",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2005",
-        "ReleaseDate": "2005-03",
+        "ReleaseYear": "2004",
+        "ReleaseDate": "2004-10-18",
         "Status": "DISCONTINUED",
         "Family": "wacom.tabletfamily.wacom_cintiqlegacy"
       },
@@ -8317,7 +8318,7 @@
         "EntityId": "wacom.tablet.fw300",
         "_id": "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
         "_CreateDate": "2026-04-01T18:26:13.000Z",
-        "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+        "_ModifiedDate": "2026-11-01T11:38:25.762Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -8325,8 +8326,8 @@
         "Status": "DISCONTINUED",
         "Name": "Wacom FW-300",
         "Type": "PENTABLET",
-        "ReleaseYear": "2003",
-        "ReleaseDate": "2003-09-01",
+        "ReleaseYear": "2002",
+        "ReleaseDate": "2002-11-11",
         "IncludedPen": [
           "wacom.pen.up812e"
         ],
@@ -9424,15 +9425,15 @@
         "EntityId": "wacom.tablet.pl250",
         "_id": "3475cf00-440d-4006-bc7a-c3d98a82cd06",
         "_CreateDate": "2026-04-19T00:00:00.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:26.942Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PL-250",
         "Name": "PL-250",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "1998",
-        "ReleaseDate": "1998-09",
+        "ReleaseYear": "1996",
+        "ReleaseDate": "1996-09",
         "Status": "DISCONTINUED",
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
       },
@@ -9465,15 +9466,15 @@
         "EntityId": "wacom.tablet.pl270",
         "_id": "ce0deb21-7f2d-4b66-9a70-f9925798302b",
         "_CreateDate": "2026-04-19T00:00:00.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:28.143Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PL-270",
         "Name": "PL-270",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "1998",
-        "ReleaseDate": "1998-09",
+        "ReleaseYear": "2000",
+        "ReleaseDate": "2000-03",
         "Status": "DISCONTINUED",
         "Notes": "Launch year unconfirmed; estimated based on PL-series numbering (sits between PL-250 in 1998 and PL-400 in 1999).",
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
@@ -9506,7 +9507,7 @@
         "EntityId": "wacom.tablet.pl300",
         "_id": "29b85b2f-fd34-45dc-93ce-13a67bdaf7a7",
         "_CreateDate": "2026-04-19T00:00:00.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:38.882Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9515,8 +9516,8 @@
         "LastSupportedMacOSDriver": "5.3.7-6",
         "Name": "PL-300",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2001",
-        "ReleaseDate": "2001-09",
+        "ReleaseYear": "1996",
+        "ReleaseDate": "1996",
         "Status": "DISCONTINUED",
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
       },
@@ -9600,7 +9601,7 @@
         "EntityId": "wacom.tablet.pl500",
         "_id": "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
         "_CreateDate": "2026-04-19T00:00:00.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:29.341Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -9609,8 +9610,8 @@
         "LastSupportedMacOSDriver": "6.2.0w4",
         "Name": "PL-500",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2001",
-        "ReleaseDate": "2001-09",
+        "ReleaseYear": "2000",
+        "ReleaseDate": "2000-09",
         "Status": "DISCONTINUED",
         "Family": "wacom.tabletfamily.wacom_cintiqpl"
       },
@@ -9841,15 +9842,15 @@
         "EntityId": "wacom.tablet.pl720",
         "_id": "45abe4ca-a680-4fcf-802e-07ca8a362d95",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:40.094Z"
       },
       "Model": {
         "Brand": "WACOM",
         "Id": "PL-720",
         "Name": "Cintiq 17SX 2009",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2009",
-        "ReleaseDate": "2009-09",
+        "ReleaseYear": "2006",
+        "ReleaseDate": "2006",
         "IncludedPen": [
           "wacom.pen.up911e"
         ],
@@ -11192,7 +11193,7 @@
         "EntityId": "wacom.tablet.ptk540wl",
         "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:30.492Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11214,8 +11215,8 @@
         "LastSupportedMacOSDriver": "6.3.41-2",
         "Name": "Intuos4 Wireless",
         "Type": "PENTABLET",
-        "ReleaseYear": "2009",
-        "ReleaseDate": "2009-03-24",
+        "ReleaseYear": "2010",
+        "ReleaseDate": "2010-02-01",
         "Audience": "Professional",
         "IncludedPen": [
           "wacom.pen.kp501e"
@@ -11889,7 +11890,7 @@
         "EntityId": "wacom.tablet.ptz1230",
         "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:41:54.607Z"
+        "_ModifiedDate": "2026-11-01T11:38:31.659Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11911,8 +11912,8 @@
         "LastSupportedMacOSDriver": "6.3.15-3",
         "Name": "Intuos3 12x12",
         "Type": "PENTABLET",
-        "ReleaseYear": "2004",
-        "ReleaseDate": "2004-09-14",
+        "ReleaseYear": "2006",
+        "ReleaseDate": "2006-01-09",
         "Audience": "Professional",
         "IncludedPen": [
           "wacom.pen.zp501e"
@@ -11961,7 +11962,7 @@
         "EntityId": "wacom.tablet.ptz1231w",
         "_id": "ce2beb7a-b86b-4bd3-84b1-da25d29694bf",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:32.812Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -11983,8 +11984,8 @@
         "LastSupportedMacOSDriver": "6.3.15-3",
         "Name": "Intuos3 12x19",
         "Type": "PENTABLET",
-        "ReleaseYear": "2004",
-        "ReleaseDate": "2004-09-14",
+        "ReleaseYear": "2006",
+        "ReleaseDate": "2006-01-09",
         "Audience": "Professional",
         "IncludedPen": [
           "wacom.pen.zp501e"
@@ -12079,7 +12080,7 @@
         "EntityId": "wacom.tablet.ptz431w",
         "_id": "b87675fc-0b37-46aa-9db8-f12376de3980",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:34.033Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12101,8 +12102,8 @@
         "LastSupportedMacOSDriver": "6.3.15-3",
         "Name": "Intuos3 4x6",
         "Type": "PENTABLET",
-        "ReleaseYear": "2004",
-        "ReleaseDate": "2004-09-14",
+        "ReleaseYear": "2006",
+        "ReleaseDate": "2006-09",
         "Audience": "Professional",
         "IncludedPen": [
           "wacom.pen.zp501e"
@@ -12197,7 +12198,7 @@
         "EntityId": "wacom.tablet.ptz631w",
         "_id": "1564fe9c-9490-4bfe-9338-7345a15a01e1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-01T11:38:35.248Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -12219,8 +12220,8 @@
         "LastSupportedMacOSDriver": "6.3.15-3",
         "Name": "Intuos3 6x11",
         "Type": "PENTABLET",
-        "ReleaseYear": "2004",
-        "ReleaseDate": "2004-09-14",
+        "ReleaseYear": "2005",
+        "ReleaseDate": "2005-11-01",
         "Audience": "Professional",
         "IncludedPen": [
           "wacom.pen.zp501e"
