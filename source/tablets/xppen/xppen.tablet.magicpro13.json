@@ -1,0 +1,100 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.magicpro13",
+    "_id": "e6cc26a0-888e-4d5b-8afe-120e6c330690",
+    "_CreateDate": "2026-11-01T16:25:28.399Z",
+    "_ModifiedDate": "2026-11-01T16:25:28.399Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MagicPro13",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/magic-pro-13.html",
+        "Title": "XPPen Magic Pro 13",
+        "Author": "XP-Pen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "REVIEW",
+        "URL": "https://www.parkablogs.com/content/xppen-magic-pro-13-portable-drawing-tablet-review",
+        "Title": "Review: XPPen Magic Pro 13 portable drawing tablet",
+        "Author": "Parka Blogs",
+        "PublishDate": "2026-10-27",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Magic Pro 13",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2026",
+    "ReleaseDate": "2026-10-27",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "xppen.pen.pd52"
+    ],
+    "Status": "ACTIVE",
+    "IncludedInBox": [
+      "Drawing Pad x 1",
+      "X4 Smart Chip Stylus x 1",
+      "Full-featured USB-C Cable x 1",
+      "Pen Nibs x 8 (4 POM, 4 felt)",
+      "Nib Extractor x 1",
+      "Glove x 1",
+      "Ejector Tool x 1"
+    ],
+    "Notes": "XP-Pen publishes no model code, so Id is the product name. Specs from XP-Pen's product page; release date and early-bird price (USD 899, USD 999 list) from XP-Pen's launch news. Not on the product page: active area, panel type, touch, Wi-Fi/Bluetooth versions (Parka Blogs lists Wi-Fi 6E and Bluetooth 5.4). Can also run as a pen display over one USB-C cable, and has DP-out."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Density": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.2",
+    "MaxHover": "10"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 3096,
+      "Height": 2064
+    },
+    "Brightness": "650",
+    "ColorGamuts": {
+      "SRGB": 100,
+      "DCIP3": 96
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES",
+    "RefreshRate": "120"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 298.94,
+      "Height": 205.28,
+      "Depth": 6.65
+    },
+    "Weight": "655"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
+  "Standalone": {
+    "OS": "Android 16",
+    "Processor": "MediaTek Dimensity 8300",
+    "RAM": "8",
+    "Storage": "256",
+    "ExpandableStorage": "YES",
+    "BatteryCapacity": "10200",
+    "BatteryChargingWatts": "45",
+    "Speakers": "YES",
+    "FrontCamera": "8",
+    "RearCamera": "13"
+  }
+}
