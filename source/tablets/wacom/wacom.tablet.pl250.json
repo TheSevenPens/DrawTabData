@@ -3,15 +3,15 @@
     "EntityId": "wacom.tablet.pl250",
     "_id": "3475cf00-440d-4006-bc7a-c3d98a82cd06",
     "_CreateDate": "2026-04-19T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-01T11:38:26.942Z"
   },
   "Model": {
     "Brand": "WACOM",
     "Id": "PL-250",
     "Name": "PL-250",
     "Type": "PENDISPLAY",
-    "ReleaseYear": "1998",
-    "ReleaseDate": "1998-09",
+    "ReleaseYear": "1996",
+    "ReleaseDate": "1996-09",
     "Status": "DISCONTINUED",
     "Family": "wacom.tabletfamily.wacom_cintiqpl"
   },

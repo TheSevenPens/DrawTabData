@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pl500",
     "_id": "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
     "_CreateDate": "2026-04-19T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-01T11:38:29.341Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -12,8 +12,8 @@
     "LastSupportedMacOSDriver": "6.2.0w4",
     "Name": "PL-500",
     "Type": "PENDISPLAY",
-    "ReleaseYear": "2001",
-    "ReleaseDate": "2001-09",
+    "ReleaseYear": "2000",
+    "ReleaseDate": "2000-09",
     "Status": "DISCONTINUED",
     "Family": "wacom.tabletfamily.wacom_cintiqpl"
   },

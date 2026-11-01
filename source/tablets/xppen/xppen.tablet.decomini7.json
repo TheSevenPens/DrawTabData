@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.decomini7",
     "_id": "23d3caa6-4d93-46f0-9e60-871444fb265a",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-01T11:38:50.877Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -25,8 +25,8 @@
     ],
     "Name": "Deco Mini 7",
     "Type": "PENTABLET",
-    "ReleaseYear": "2021",
-    "ReleaseDate": "2021",
+    "ReleaseYear": "2020",
+    "ReleaseDate": "2020",
     "Audience": "Consumer",
     "IncludedPen": [
       "xppen.pen.p05d"

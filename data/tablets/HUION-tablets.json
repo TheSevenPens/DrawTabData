@@ -283,7 +283,7 @@
         "EntityId": "huion.tablet.gs1161",
         "_id": "0cb64320-e097-486a-8537-ea48d10076e3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-11-01T11:39:02.809Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -305,8 +305,8 @@
         ],
         "Name": "Kamvas 12",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2021",
-        "ReleaseDate": "2021-06-15",
+        "ReleaseYear": "2020",
+        "ReleaseDate": "2020",
         "Audience": "Consumer",
         "Family": "huion.tabletfamily.huion_kamvas_2020",
         "IncludedPen": [
@@ -750,7 +750,7 @@
         "EntityId": "huion.tablet.gs1562",
         "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:08.367Z"
+        "_ModifiedDate": "2026-11-01T11:39:03.988Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -834,8 +834,8 @@
         ],
         "Name": "Kamvas 16 (2021)",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2021",
-        "ReleaseDate": "2021-06-15",
+        "ReleaseYear": "2020",
+        "ReleaseDate": "2020",
         "Audience": "Consumer",
         "Family": "huion.tabletfamily.huion_kamvas_2020",
         "IncludedPen": [
@@ -3626,7 +3626,7 @@
         "EntityId": "huion.tablet.gt240",
         "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-11-01T11:38:56.959Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3772,8 +3772,8 @@
         ],
         "Name": "Kamvas Pro 24",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2021",
-        "ReleaseDate": "2021",
+        "ReleaseYear": "2020",
+        "ReleaseDate": "2020-05-25",
         "Audience": "Professional",
         "Family": "huion.tabletfamily.huion_kamvaspro_2021",
         "IncludedPen": [
@@ -6152,7 +6152,7 @@
         "EntityId": "huion.tablet.q11kv2",
         "_id": "46cf628f-1a5d-420e-864e-3c8bb3076aee",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-01T11:39:05.238Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6174,8 +6174,8 @@
         ],
         "Name": "Inspiroy Q11K V2",
         "Type": "PENTABLET",
-        "ReleaseYear": "2020",
-        "ReleaseDate": "2020",
+        "ReleaseYear": "2019",
+        "ReleaseDate": "2019",
         "IncludedPen": [
           "huion.pen.pw500"
         ]
@@ -6676,7 +6676,7 @@
         "EntityId": "huion.tablet.rtm500",
         "_id": "86333a6a-0a5d-43ef-bd01-72b719b09dae",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-01T11:38:58.172Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6698,8 +6698,8 @@
         ],
         "Name": "Inspiroy RTM-500",
         "Type": "PENTABLET",
-        "ReleaseYear": "2022",
-        "ReleaseDate": "2022",
+        "ReleaseYear": "2021",
+        "ReleaseDate": "2021-06-15",
         "Audience": "Consumer",
         "IncludedPen": [
           "huion.pen.pw400"
@@ -6735,7 +6735,7 @@
         "EntityId": "huion.tablet.rtp700",
         "_id": "800bc8fe-5ff0-4450-8547-dc860091d0a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:40:35.548Z"
+        "_ModifiedDate": "2026-11-01T11:38:59.353Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6768,8 +6768,8 @@
         ],
         "Name": "Inspiroy RTP-700",
         "Type": "PENTABLET",
-        "ReleaseYear": "2022",
-        "ReleaseDate": "2022",
+        "ReleaseYear": "2021",
+        "ReleaseDate": "2021-06-15",
         "Audience": "Consumer",
         "IncludedPen": [
           "huion.pen.pw400"
@@ -6814,7 +6814,7 @@
         "EntityId": "huion.tablet.rts300",
         "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-01T11:39:00.531Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6836,8 +6836,8 @@
         ],
         "Name": "Inspiroy RTS-300",
         "Type": "PENTABLET",
-        "ReleaseYear": "2022",
-        "ReleaseDate": "2022",
+        "ReleaseYear": "2021",
+        "ReleaseDate": "2021-06-15",
         "Audience": "Consumer",
         "IncludedPen": [
           "huion.pen.pw400"
@@ -7124,7 +7124,7 @@
         "EntityId": "huion.tablet.unkkamvaspro16premium",
         "_id": "397197ea-56f3-45e7-8196-8ef3ef0e716b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+        "_ModifiedDate": "2026-11-01T11:39:01.659Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -7146,8 +7146,8 @@
         ],
         "Name": "Kamvas Pro 16 Premium",
         "Type": "PENDISPLAY",
-        "ReleaseYear": "2020",
-        "ReleaseDate": "2020",
+        "ReleaseYear": "2019",
+        "ReleaseDate": "2019-06-30",
         "Audience": "Professional",
         "Family": "huion.tabletfamily.huion_kamvaspro_2019",
         "IncludedPen": [

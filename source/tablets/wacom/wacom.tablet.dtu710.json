@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtu710",
     "_id": "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
     "_CreateDate": "2026-04-03T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-01T11:38:24.590Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -26,8 +26,8 @@
     "LastSupportedMacOSDriver": "5.3.7-6",
     "Name": "DTU-710",
     "Type": "PENDISPLAY",
-    "ReleaseYear": "2005",
-    "ReleaseDate": "2005-03",
+    "ReleaseYear": "2004",
+    "ReleaseDate": "2004-10-18",
     "Status": "DISCONTINUED",
     "Family": "wacom.tabletfamily.wacom_cintiqlegacy"
   },

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptz1230",
     "_id": "619de4d6-97c3-4cf4-88fd-f29a8d91f78c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:54.607Z"
+    "_ModifiedDate": "2026-11-01T11:38:31.659Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -25,8 +25,8 @@
     "LastSupportedMacOSDriver": "6.3.15-3",
     "Name": "Intuos3 12x12",
     "Type": "PENTABLET",
-    "ReleaseYear": "2004",
-    "ReleaseDate": "2004-09-14",
+    "ReleaseYear": "2006",
+    "ReleaseDate": "2006-01-09",
     "Audience": "Professional",
     "IncludedPen": [
       "wacom.pen.zp501e"

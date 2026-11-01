@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.fw300",
     "_id": "6f75a7a6-eee6-4fe8-aa28-aa0bf8b4ff8a",
     "_CreateDate": "2026-04-01T18:26:13.000Z",
-    "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+    "_ModifiedDate": "2026-11-01T11:38:25.762Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -11,8 +11,8 @@
     "Status": "DISCONTINUED",
     "Name": "Wacom FW-300",
     "Type": "PENTABLET",
-    "ReleaseYear": "2003",
-    "ReleaseDate": "2003-09-01",
+    "ReleaseYear": "2002",
+    "ReleaseDate": "2002-11-11",
     "IncludedPen": [
       "wacom.pen.up812e"
     ],
