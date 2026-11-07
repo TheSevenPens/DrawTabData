@@ -119,7 +119,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "a410a97732edbdab33d50f2d0c9f0ffeb779ca22150e95fbfa360aa310ee8a6b",
+  "sourceDigest": "b155cd239ead84ae046a82325e8b3bd5ab7ac992fb09ebbad7abe7798dfc8b61",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -163,7 +163,7 @@
     },
     {
       "path": "tablets/WACOM-tablets.json",
-      "sha256": "0747f8271dd2865d454a4b2ccbac1f582ba7ecedadd443a5a04b265a9d5aff58",
+      "sha256": "fb26f8d0735ad3f30d482c51269a236a4842c51f29e675aacee7b2cc48b8ba3b",
       "count": 197
     },
     {

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl480",
     "_id": "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-07T20:18:50.868Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -31,14 +31,16 @@
     "IncludedPen": [
       "wacom.pen.lp180"
     ],
-    "Status": "DISCONTINUED"
+    "Status": "DISCONTINUED",
+    "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
   },
   "Digitizer": {
     "Dimensions": {
       "Width": 152,
       "Height": 95
     },
-    "Density": "100"
+    "Density": "100",
+    "ReportRate": "133"
   },
   "Physical": {
     "Dimensions": {

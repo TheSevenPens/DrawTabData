@@ -158,7 +158,7 @@
         "EntityId": "wacom.tablet.ctc4110wl",
         "_id": "25487c6c-8759-473d-b92a-68be45189112",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-11-07T20:18:43.898Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -262,7 +262,8 @@
         "IncludedPen": [
           "wacom.pen.cp923"
         ],
-        "Family": "wacom.tabletfamily.wacom_one_2023"
+        "Family": "wacom.tabletfamily.wacom_one_2023",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -272,7 +273,8 @@
           "Height": 95
         },
         "Density": "100",
-        "Tilt": "60"
+        "Tilt": "60",
+        "ReportRate": "240"
       },
       "Physical": {
         "Dimensions": {
@@ -302,7 +304,7 @@
         "EntityId": "wacom.tablet.ctc6110wl",
         "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+        "_ModifiedDate": "2026-11-07T20:18:44.963Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -419,7 +421,8 @@
         "IncludedPen": [
           "wacom.pen.cp923"
         ],
-        "Family": "wacom.tabletfamily.wacom_one_2023"
+        "Family": "wacom.tabletfamily.wacom_one_2023",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Type": "PASSIVE_EMR",
@@ -429,7 +432,8 @@
           "Height": 135
         },
         "Density": "100",
-        "Tilt": "60"
+        "Tilt": "60",
+        "ReportRate": "240"
       },
       "Physical": {
         "Dimensions": {
@@ -1164,7 +1168,7 @@
         "EntityId": "wacom.tablet.cth480",
         "_id": "8be703ad-586c-4825-abaa-41070611bb2c",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-07T20:18:46.243Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1192,14 +1196,16 @@
         "IncludedPen": [
           "wacom.pen.lp180e"
         ],
-        "Status": "DISCONTINUED"
+        "Status": "DISCONTINUED",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Dimensions": {
           "Width": 152,
           "Height": 95
         },
-        "Density": "100"
+        "Density": "100",
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -1418,7 +1424,7 @@
         "EntityId": "wacom.tablet.cth680",
         "_id": "7dcc5572-b598-4c26-8569-ea0a02ff7eeb",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-07T20:18:47.599Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1433,14 +1439,16 @@
         "IncludedPen": [
           "wacom.pen.lp180e"
         ],
-        "Status": "DISCONTINUED"
+        "Status": "DISCONTINUED",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Dimensions": {
           "Width": 216,
           "Height": 135
         },
-        "Density": "100"
+        "Density": "100",
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -1977,7 +1985,7 @@
         "EntityId": "wacom.tablet.ctl471",
         "_id": "5b23c5f4-37db-4423-954b-feb364d22c67",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-07T20:18:49.121Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -1990,14 +1998,16 @@
         "IncludedPen": [
           "wacom.pen.lp171"
         ],
-        "Status": "DISCONTINUED"
+        "Status": "DISCONTINUED",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Dimensions": {
           "Width": 152,
           "Height": 95
         },
-        "Density": "100"
+        "Density": "100",
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -2109,7 +2119,7 @@
         "EntityId": "wacom.tablet.ctl480",
         "_id": "dbb3fc45-aae1-4cfc-ab11-2925964676cd",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-07T20:18:50.868Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2137,14 +2147,16 @@
         "IncludedPen": [
           "wacom.pen.lp180"
         ],
-        "Status": "DISCONTINUED"
+        "Status": "DISCONTINUED",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Dimensions": {
           "Width": 152,
           "Height": 95
         },
-        "Density": "100"
+        "Density": "100",
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -2501,7 +2513,7 @@
         "EntityId": "wacom.tablet.ctl671",
         "_id": "734c2cd3-2723-413d-8d1c-151aa0942b4a",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-07T20:18:52.557Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2514,14 +2526,16 @@
         "IncludedPen": [
           "wacom.pen.lp171"
         ],
-        "Status": "DISCONTINUED"
+        "Status": "DISCONTINUED",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Dimensions": {
           "Width": 216,
           "Height": 135
         },
-        "Density": "100"
+        "Density": "100",
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
@@ -2633,7 +2647,7 @@
         "EntityId": "wacom.tablet.ctl680",
         "_id": "97b64cdd-b2d0-43da-93b8-1110d92a6e42",
         "_CreateDate": "2026-04-01T09:11:12.000Z",
-        "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+        "_ModifiedDate": "2026-11-07T20:18:54.099Z"
       },
       "Model": {
         "Brand": "WACOM",
@@ -2659,14 +2673,16 @@
         "IncludedPen": [
           "wacom.pen.lp180"
         ],
-        "Status": "DISCONTINUED"
+        "Status": "DISCONTINUED",
+        "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
       },
       "Digitizer": {
         "Dimensions": {
           "Width": 216,
           "Height": 135
         },
-        "Density": "100"
+        "Density": "100",
+        "ReportRate": "133"
       },
       "Physical": {
         "Dimensions": {
