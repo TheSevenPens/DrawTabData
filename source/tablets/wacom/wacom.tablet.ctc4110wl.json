@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctc4110wl",
     "_id": "25487c6c-8759-473d-b92a-68be45189112",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-11-07T20:18:43.898Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -107,7 +107,8 @@
     "IncludedPen": [
       "wacom.pen.cp923"
     ],
-    "Family": "wacom.tabletfamily.wacom_one_2023"
+    "Family": "wacom.tabletfamily.wacom_one_2023",
+    "Notes": "Report rate is Kuuube's measurement (Pen/Mouse Report Rate column of Kuuube's Wacom Tablet Mastersheet), not a manufacturer spec."
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
@@ -117,7 +118,8 @@
       "Height": 95
     },
     "Density": "100",
-    "Tilt": "60"
+    "Tilt": "60",
+    "ReportRate": "240"
   },
   "Physical": {
     "Dimensions": {
