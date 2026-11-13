@@ -13,6 +13,10 @@ import {
   PenCompatGroupedSchema,
   PressureResponseSchema,
   PressureRangeSchema,
+  RatingSchema,
+  RecommendationNoteSchema,
+  RecommendationListSchema,
+  PriceSchema,
   InventoryPenSchema,
   InventoryTabletSchema,
 } from "./schemas.js";
@@ -723,6 +727,28 @@ function runCrossEntityChecks(dataDir: string): Issue[] {
     }
   }
 
+  // Recommendations and prices -> the tablet or pen they are about. Brand
+  // restates the EntityId's first segment, so it must agree.
+  const deviceIds = new Set<string>([...tabletModelByEntityId.keys(), ...penEntityIds]);
+  for (const [dir, rootKey] of [
+    ["recommendations", "Ratings"],
+    ["recommendations", "Notes"],
+    ["recommendations", "Lists"],
+    ["prices", "Prices"],
+  ] as const) {
+    for (const { file, record } of readAllInDir(dataDir, dir, rootKey)) {
+      const ref = getString(record, "EntityId");
+      const id = getString(record, "_id") ?? "UNKNOWN";
+      if (ref && !deviceIds.has(ref)) {
+        issues.push({ file, entityId: id, field: "EntityId", issue: "references unknown Tablet or Pen", value: ref });
+      }
+      const brand = getString(record, "Brand");
+      if (ref && brand && ref.split(".")[0].toUpperCase() !== brand) {
+        issues.push({ file, entityId: ref, field: "Brand", issue: "does not match the EntityId's brand", value: brand });
+      }
+    }
+  }
+
   // Last-supported-driver strings must name a Driver (#307): resolved on
   // read, exactly or across the build-number separator, never stored as an
   // id. UNRECORDED_DRIVERS lists the macOS builds knowingly left unlinked.
@@ -923,6 +949,10 @@ export function runDataQuality(dataDir: string): Issue[] {
   return [
     ...runUuidChecks(dataDir),
     ...runEntityChecks(dataDir, { dirName: "pressure-range", fileSuffix: "-pressure-range.json", rootKey: "PressureRange", schema: PressureRangeSchema }),
+    ...runEntityChecks(dataDir, { dirName: "recommendations", fileSuffix: "-ratings.json", rootKey: "Ratings", schema: RatingSchema }),
+    ...runEntityChecks(dataDir, { dirName: "recommendations", fileSuffix: "-notes.json", rootKey: "Notes", schema: RecommendationNoteSchema }),
+    ...runEntityChecks(dataDir, { dirName: "recommendations", fileSuffix: "-lists.json", rootKey: "Lists", schema: RecommendationListSchema }),
+    ...runEntityChecks(dataDir, { dirName: "prices", fileSuffix: "-prices.json", rootKey: "Prices", schema: PriceSchema }),
     ...runEntityChecks(dataDir, { dirName: "inventory", fileSuffix: "-pens.json", rootKey: "InventoryPens", schema: InventoryPenSchema }),
     ...runEntityChecks(dataDir, { dirName: "inventory", fileSuffix: "-tablets.json", rootKey: "InventoryTablets", schema: InventoryTabletSchema }),
     ...runEntityChecks(dataDir, {

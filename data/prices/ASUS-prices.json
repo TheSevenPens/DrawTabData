@@ -1,0 +1,49 @@
+{
+  "Prices": [
+    {
+      "EntityId": "asus.tablet.pa169cdv",
+      "Brand": "ASUS",
+      "Kind": "CURRENT",
+      "Amount": "649",
+      "Currency": "USD",
+      "Date": "2026-11-04",
+      "DatePrecision": "day",
+      "CheckedOn": "2026-11-04",
+      "Seller": "B&H",
+      "Market": "United States",
+      "Basis": "displayed new retail",
+      "Package": "new",
+      "Availability": "In Stock",
+      "URL": "https://www.bhphotovideo.com/c/product/1788537-REG/asus_15_6_ips_proart_pa169cdv.html",
+      "Note": "PA169CDV monitor with included ProArt pen; not optional colorimeter bundle. New monitor-only configuration USD 649.00; In Stock; used quote separately shown and excluded. Opened page text unless stated otherwise",
+      "Primary": true,
+      "EvidenceId": "P002",
+      "Source": "pen-tablet-and-display-prices.xlsx (checked 2026-11-04)",
+      "_id": "ae1564e0-2246-567f-9250-bef9dafff6cc",
+      "_CreateDate": "2026-11-04T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "EntityId": "asus.tablet.pa169cdv",
+      "Brand": "ASUS",
+      "Kind": "RETAIL",
+      "Amount": "899",
+      "Currency": "USD",
+      "Date": "2023-10-02",
+      "DatePrecision": "day",
+      "CheckedOn": "2026-11-04",
+      "Seller": "Parka Blogs / Teoh Yi Chie",
+      "Market": "United States",
+      "Basis": "reported early retail / prerelease quote, not confirmed MSRP",
+      "Package": "new",
+      "URL": "https://www.parkablogs.com/index.php/content/review-asus-pa169cdv-pen-display-wacom-emr-tech",
+      "Note": "Reports USD 899 retail price in October 2, 2023 review. Release date was still unknown to reviewer. Price is a reported early retail quote, not manufacturer-certified launch MSRP. Review pages may be updated. Opened page text unless stated otherwise",
+      "Primary": true,
+      "EvidenceId": "P001",
+      "Source": "pen-tablet-and-display-prices.xlsx (checked 2026-11-04)",
+      "_id": "c40db906-587f-5a92-a178-96d514d10eaa",
+      "_CreateDate": "2026-11-04T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-04T00:00:00.000Z"
+    }
+  ]
+}

@@ -10,6 +10,9 @@ import type { PenCompatGrouped } from "./schemas.js";
 // no other list updates required.
 export const BRANDS = ["APPLE", "ASUS", "DIGIDRAW", "GAOMON", "HUION", "LAMY", "SAMSUNG", "STAEDTLER", "UGEE", "VEIKK", "WACOM", "XENCELABS", "XPPEN"];
 
+// Publishers of recommendation data (data/recommendations/<publisher>-*.json).
+export const RECOMMENDERS = ["sevenpens"];
+
 export type { PenCompatGrouped };
 
 export function expandPenCompat(grouped: PenCompatGrouped[]): PenCompat[] {

@@ -14,6 +14,8 @@ Unified JSON datasets and TypeScript libraries for drawing tablets, pens, driver
 | Drivers | `data/drivers/<BRAND>-drivers.json` |
 | Pressure Response / Pressure Range | `data/pressure-response/`, `data/pressure-range/` |
 | Inventory | `data/inventory/<user>-{pens,tablets}.json` |
+| Recommendations (ratings, notes, lists) | `data/recommendations/<publisher>-{ratings,notes,lists}.json` |
+| Prices | `data/prices/<BRAND>-prices.json` |
 
 Record counts are deliberately not listed here — a hand-maintained table
 went stale by ~90 tablets. For current counts, see the [DrawTabData
@@ -242,6 +244,8 @@ See `docs/DATALAYOUT.txt`.
 - [Architecture](docs/ARCHITECTURE.md) — project structure and library design
 - [Fields](docs/FIELDS.txt) — tablet field definitions with formats and units
 - [Data Layout](docs/DATALAYOUT.txt) — JSON file organization
+- [Recommendations](docs/RECOMMENDATIONS.md) — dated ratings, notes and lists
+- [Prices](docs/PRICES.md) — dated price observations and how to import them
 - [Decisions](docs/DECISIONS.txt) — design decision log
 - [Futures](docs/FUTURES.txt) — roadmap
 

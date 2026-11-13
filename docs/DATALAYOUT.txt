@@ -51,7 +51,7 @@ collections fail check and write modes. Schemas and dataset-wide UUID
 uniqueness are checked before output is written.
 
 All other collections (families, pen-compat, drivers, pressure-range,
-inventory, brands, reference) are still authored in data/. Import tools
+inventory, recommendations, prices, brands, reference) are still authored in data/. Import tools
 include these via commitDatasetUpdate's dataFiles option, so metadata stays
 current. Manual edits require generate.ts --write before committing.
 The shared transaction restores exact previous bytes on write exceptions;
@@ -70,7 +70,7 @@ CONSUMERS.md "Verifying a published snapshot".
 
 Every managed data file -- brands, tablets, pens, pen-families,
 tablet-families, pen-compat, drivers, pressure-response, pressure-range,
-inventory, reference -- is in one canonical format, defined by
+inventory, recommendations, prices, reference -- is in one canonical format, defined by
 formatDataJson() in lib/data-json.ts:
 
 	- UTF-8, no BOM
@@ -142,6 +142,14 @@ changes):
 		/inventory
 			sevenpens-pens.json
 			sevenpens-tablets.json
+		/recommendations
+			sevenpens-ratings.json
+			sevenpens-notes.json
+			sevenpens-lists.json
+		/prices
+			HUION-prices.json
+			WACOM-prices.json
+			... one per brand
 		/reference
 			defect-kinds.json
 			iso-paper-sizes.json
@@ -172,6 +180,10 @@ Each file wraps its records in a top-level key:
 - pressure-response: { "PressureResponse": [...] }
 - inventory pens: { "InventoryPens": [...] }
 - inventory tablets: { "InventoryTablets": [...] }
+- recommendation ratings: { "Ratings": [...] }
+- recommendation notes: { "Notes": [...] }
+- recommendation lists: { "Lists": [...] }
+- prices: { "Prices": [...] }
 - defect kinds: { "DefectKinds": [...] }
 - iso paper sizes: { "ISOPaperSizes": [...] }
 - us paper sizes: { "USPaperSizes": [...] }
@@ -184,6 +196,7 @@ File naming:
 - Most entities: BRAND-entitytype.json (e.g. WACOM-tablets.json)
 - Brands: brands.json (single file, not partitioned)
 - Inventory: USERNAME-entitytype.json (e.g. sevenpens-pens.json)
+- Recommendations: PUBLISHER-entitytype.json (e.g. sevenpens-ratings.json)
 - Reference: plain name, not partitioned (e.g. defect-kinds.json)
 - Third-party captures: SOURCE-topic.json under /SOURCE (e.g. machollywood/machollywood-pen-compat.json)
 

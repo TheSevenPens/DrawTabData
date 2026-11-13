@@ -572,6 +572,101 @@ export const PressureRangeFileSchema = v.strictObject({
   PressureRange: v.array(PressureRangeSchema),
 });
 
+// --- Recommendations (Seven Pens ratings, notes and lists) ---
+//
+// Editorial records about a tablet or pen, kept per publisher like inventory
+// (data/recommendations/sevenpens-*.json). Every record is dated and never
+// edited: to re-rate a device, add a rating. A device's current rating is
+// its newest non-DELISTED rating; records imported from the old docs pages
+// carry the page they came from as Context, and the current rating is the
+// newest across contexts. See docs/RECOMMENDATIONS.md.
+export const RatingEnum = v.picklist(["EXCELLENT", "VERY GOOD", "GOOD", "OK", "AVOID", "DELISTED"]);
+export const RATINGS = ["EXCELLENT", "VERY GOOD", "GOOD", "OK", "AVOID", "DELISTED"] as const;
+
+const RecordMeta = {
+  _id: UuidString,
+  _CreateDate: IsoDateString,
+  _ModifiedDate: IsoDateString,
+};
+const DayString = v.pipe(TrimmedString, v.isoDate("expected YYYY-MM-DD"));
+
+export const RatingSchema = v.strictObject({
+  // Tablet or pen EntityId.
+  EntityId: TrimmedString,
+  Brand: BrandEnum,
+  Date: DayString,
+  Rating: RatingEnum,
+  // The label as first published, when it has since been renamed (DECENT -> OK).
+  OriginalRating: v.optional(TrimmedString),
+  // The docs page an imported rating came from, e.g. "pen-display-recs-medium".
+  Context: v.optional(TrimmedString),
+  // SPECS_ONLY: rated from the published specs, before Seven had used it.
+  Basis: v.optional(v.picklist(["SPECS_ONLY"])),
+  Source: TrimmedString,
+  ...RecordMeta,
+});
+export const RatingFileSchema = v.strictObject({ Ratings: v.array(RatingSchema) });
+
+export const RecommendationNoteSchema = v.strictObject({
+  EntityId: TrimmedString,
+  Brand: BrandEnum,
+  Date: DayString,
+  Kind: v.picklist(["INFO", "TIP", "WARNING"]),
+  Text: TrimmedString,
+  ...RecordMeta,
+});
+export const RecommendationNoteFileSchema = v.strictObject({ Notes: v.array(RecommendationNoteSchema) });
+
+export const RecommendationListSchema = v.strictObject({
+  EntityId: TrimmedString,
+  Brand: BrandEnum,
+  Date: DayString,
+  // A curated list the device is on, e.g. BEGINNER (good first tablets).
+  List: v.picklist(["BEGINNER"]),
+  ...RecordMeta,
+});
+export const RecommendationListFileSchema = v.strictObject({ Lists: v.array(RecommendationListSchema) });
+
+// --- Prices (dated price observations) ---
+//
+// One record per price seen: a store listing on a date, or a launch
+// announcement. Never edited: a later price check adds records, so the
+// history accumulates. Amounts are in Currency and never converted.
+// Imported by scripts/import-prices.py. See docs/PRICES.md.
+export const PriceKindEnum = v.picklist(["LAUNCH", "RETAIL", "LIST", "CURRENT"]);
+
+export const PriceSchema = v.strictObject({
+  EntityId: TrimmedString,
+  Brand: BrandEnum,
+  // LAUNCH: launch MSRP or announced price. RETAIL: dated store price, not
+  // MSRP. LIST: later list / compare-at price. CURRENT: advertised new
+  // retail price on the date checked.
+  Kind: PriceKindEnum,
+  Amount: NumericString,
+  // ISO 4217 code, e.g. USD.
+  Currency: v.pipe(TrimmedString, v.regex(/^[A-Z]{3}$/, "expected an ISO 4217 currency code")),
+  // When the price applied: YYYY-MM-DD or YYYY-MM (see DatePrecision).
+  // Missing when the source gives no date.
+  Date: v.optional(v.pipe(TrimmedString, v.regex(/^\d{4}-\d{2}(-\d{2})?$/, "expected YYYY-MM-DD or YYYY-MM"))),
+  DatePrecision: v.optional(v.picklist(["day", "month"])),
+  // When the researcher looked.
+  CheckedOn: DayString,
+  Seller: v.optional(TrimmedString),
+  Market: v.optional(TrimmedString),
+  Basis: v.optional(TrimmedString),
+  Package: v.optional(TrimmedString),
+  Availability: v.optional(TrimmedString),
+  URL: v.optional(TrimmedString),
+  Note: v.optional(v.string()),
+  // The record the research picked as the headline price of its Kind.
+  Primary: v.boolean(),
+  // Row id in the research workbook's evidence sheet, when there is one.
+  EvidenceId: v.optional(TrimmedString),
+  Source: TrimmedString,
+  ...RecordMeta,
+});
+export const PriceFileSchema = v.strictObject({ Prices: v.array(PriceSchema) });
+
 // --- Inventory ---
 
 /** A single defect entry on a per-unit inventory record. */
@@ -794,6 +889,10 @@ export type Brand = v.InferOutput<typeof BrandSchema>;
 export type PenCompatGrouped = v.InferOutput<typeof PenCompatGroupedSchema>;
 export type PressureResponse = v.InferOutput<typeof PressureResponseSchema>;
 export type PressureRange = v.InferOutput<typeof PressureRangeSchema>;
+export type Rating = v.InferOutput<typeof RatingSchema>;
+export type RecommendationNote = v.InferOutput<typeof RecommendationNoteSchema>;
+export type RecommendationList = v.InferOutput<typeof RecommendationListSchema>;
+export type Price = v.InferOutput<typeof PriceSchema>;
 export type InventoryPen = v.InferOutput<typeof InventoryPenSchema>;
 export type InventoryTablet = v.InferOutput<typeof InventoryTabletSchema>;
 export type DefectKind = v.InferOutput<typeof DefectKindSchema>;

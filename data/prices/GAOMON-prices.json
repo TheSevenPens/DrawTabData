@@ -1,0 +1,45 @@
+{
+  "Prices": [
+    {
+      "EntityId": "gaomon.tablet.m10k2018",
+      "Brand": "GAOMON",
+      "Kind": "CURRENT",
+      "Amount": "55.99",
+      "Currency": "USD",
+      "Date": "2026-11-04",
+      "DatePrecision": "day",
+      "CheckedOn": "2026-11-04",
+      "Seller": "GAOMON",
+      "Market": "United States",
+      "Basis": "Advertised price; stock unclear from extracted page",
+      "Package": "M10K 2018, AP31, 8192 pressure",
+      "Availability": "Unclear: conflicting stock/add-to-cart text",
+      "URL": "https://gaomon.net/products/m10k-2018-pen-tablet",
+      "Note": "Do not substitute today's $69.99 compare-at for launch MSRP. Manufacturer historical promo defines US price $75.99 and 5% sale $72.19 during Nov 5-Dec 5 2018.\nCurrent compare-at/list price: USD 69.99. Not evidence of launch MSRP.",
+      "Primary": true,
+      "Source": "pen-tablet-and-display-prices.xlsx (checked 2026-11-04)",
+      "_id": "2bf3bd05-7acb-5e72-a9f4-1316e89f1479",
+      "_CreateDate": "2026-11-04T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "EntityId": "gaomon.tablet.m10k2018",
+      "Brand": "GAOMON",
+      "Kind": "RETAIL",
+      "Amount": "75.99",
+      "Currency": "USD",
+      "Date": "2018-11-10",
+      "DatePrecision": "day",
+      "CheckedOn": "2026-11-04",
+      "Market": "United States",
+      "Basis": "Release-month regular retail price, not explicit MSRP",
+      "Package": "M10K 2018, AP31, 8192 pressure",
+      "URL": "https://blog.gaomon.net/2018_amazon_black_friday_deals/",
+      "Primary": true,
+      "Source": "pen-tablet-and-display-prices.xlsx (checked 2026-11-04)",
+      "_id": "2e6c0623-c928-5096-ac14-bcf904acd9d5",
+      "_CreateDate": "2026-11-04T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-04T00:00:00.000Z"
+    }
+  ]
+}
