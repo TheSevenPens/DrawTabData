@@ -192,6 +192,11 @@ export const TABLET_FIELDS: FieldDisplayDef<Tablet>[] = [
     // Computed by the DrawTabDataSet while loading Tablets (#346).
     getValue: (t) => String(computedOf(t).UnitsInInventory ?? 0),
   },
+  // Seven Pens' current rating and the newest U.S. store price, computed
+  // from data/recommendations and data/prices while loading (#346).
+  { key: "Rating", label: "Seven Pens Rating", computed: true, type: "enum", enumValues: ["EXCELLENT", "VERY GOOD", "GOOD", "OK", "AVOID"], group: "Model", getValue: (t) => computedOf(t).Rating ?? "" },
+  { key: "PriceUSD", label: "Price (USD)", computed: true, type: "number", unit: "USD", group: "Model", getValue: (t) => computedOf(t).PriceUSD ?? "" },
+  { key: "PriceUSDDate", label: "Price Date", computed: true, type: "string", group: "Model", getValue: (t) => computedOf(t).PriceUSDDate ?? "" },
   // Digitizer
   { key: "DigitizerType", label: "Digitizer Type", getValue: (t) => t.Digitizer?.Type ?? "", type: "enum", enumValues: ["PASSIVE_EMR", "ACTIVE_EMR"], group: "Digitizer" },
   { key: "DigitizerPressureLevels", label: "Pressure Levels", getValue: (t) => t.Digitizer?.PressureLevels ?? "", type: "number", group: "Digitizer" },

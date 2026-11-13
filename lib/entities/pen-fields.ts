@@ -82,6 +82,11 @@ export const PEN_FIELDS: FieldDisplayDef<Pen>[] = [
     computed: true, type: "number", group: "Model",
     getValue: (p) => String(computedOf(p).UnitsInInventory ?? 0),
   },
+  // Seven Pens' current rating and the newest U.S. store price, computed
+  // from data/recommendations and data/prices while loading (#346).
+  { key: "Rating", label: "Seven Pens Rating", computed: true, type: "enum", enumValues: ["EXCELLENT", "VERY GOOD", "GOOD", "OK", "AVOID"], group: "Model", getValue: (p) => computedOf(p).Rating ?? "" },
+  { key: "PriceUSD", label: "Price (USD)", computed: true, type: "number", unit: "USD", group: "Model", getValue: (p) => computedOf(p).PriceUSD ?? "" },
+  { key: "PriceUSDDate", label: "Price Date", computed: true, type: "string", group: "Model", getValue: (p) => computedOf(p).PriceUSDDate ?? "" },
   // Sensors
   { key: "PressureSensitive", label: "Pressure Sensitive", getValue: (p) => p.PressureSensitive ?? '', type: "string", group: "Sensors" },
   { key: "PressureLevels", label: "Pressure Levels", getValue: (p) => p.PressureLevels ?? '', type: "number", group: "Sensors" },

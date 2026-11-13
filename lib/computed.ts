@@ -32,6 +32,11 @@ export interface ComputedValues {
   ModelIds?: string;
   // Pressure-response session
   IsDefective?: boolean;
+  // Tablet and pen: Seven Pens' current rating and the newest U.S. store
+  // price (data/recommendations, data/prices).
+  Rating?: string;
+  PriceUSD?: string;
+  PriceUSDDate?: string;
 }
 
 type WithComputed = { [COMPUTED]?: ComputedValues };

@@ -54,6 +54,7 @@ import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/invent
 import { sessionEntityId } from "./pressure/session-id.js";
 import { buildInventoryDefects } from "./pressure/defects.js";
 import { attachComputed } from "./computed.js";
+import { currentPrice, currentRating } from "./recommendations.js";
 
 /** Count rows per key, skipping rows with no key. */
 function countBy<T>(rows: readonly T[], key: (row: T) => string | undefined): Map<string, number> {
@@ -288,6 +289,25 @@ export class DrawTabDataSet extends DataSet {
       rootKey: "Prices",
     });
 
+    const rawRatings = () => this.cachedFile("raw:Ratings", () => ratingsLoader.load());
+    const rawPrices = () => this.cachedFile("raw:Prices", () => pricesLoader.load());
+    /** Current rating and current USD price per EntityId (Tablets and Pens). */
+    const recsByEntity = async () => {
+      const [ratings, prices] = await Promise.all([rawRatings(), rawPrices()]);
+      const group = <T extends { EntityId: string }>(rows: T[]) => {
+        const m = new Map<string, T[]>();
+        for (const r of rows) (m.get(r.EntityId) ?? m.set(r.EntityId, []).get(r.EntityId)!).push(r);
+        return m;
+      };
+      const out = new Map<string, { Rating?: string; PriceUSD?: string; PriceUSDDate?: string }>();
+      for (const [id, rs] of group(ratings)) out.set(id, { Rating: currentRating(rs)?.rating });
+      for (const [id, ps] of group(prices)) {
+        const p = currentPrice(ps);
+        if (p) out.set(id, { ...out.get(id), PriceUSD: p.Amount, PriceUSDDate: p.Date });
+      }
+      return out;
+    };
+
     // Raw files that more than one collection needs are memoised here (with
     // the same evict-on-failure cache as the single-file resources), so
     // e.g. Pens and PenFamilies share one fetch of the pen files.
@@ -327,11 +347,12 @@ export class DrawTabDataSet extends DataSet {
     this.registerCollection<TabletWithRels>(
       "Tablets",
       async () => {
-        const [tablets, units] = await Promise.all([tabletsLoader.load(), optionalInventoryTablets()]);
+        const [tablets, units, recs] = await Promise.all([tabletsLoader.load(), optionalInventoryTablets(), recsByEntity()]);
         const unitsByTablet = countBy(units, (u) => u.TabletEntityId);
         return tablets.map((t) =>
           attachComputed(this.wrapTablet(t), {
             UnitsInInventory: unitsByTablet.get(t.Meta.EntityId) ?? 0,
+            ...recs.get(t.Meta.EntityId),
           }),
         );
       },
@@ -345,11 +366,12 @@ export class DrawTabDataSet extends DataSet {
     this.registerCollection<PenWithRels>(
       "Pens",
       async () => {
-        const [pens, units, sessionsByPen, families] = await Promise.all([
+        const [pens, units, sessionsByPen, families, recs] = await Promise.all([
           rawPens(),
           optionalInventoryPens(),
           this.pressureSessionsByPen(rawPressureResponse),
           rawPenFamilies(),
+          recsByEntity(),
         ]);
         const unitsByPen = countBy(units, (u) => u.PenEntityId);
         const familyNames = new Map(families.map((f) => [f.EntityId, f.FamilyName]));
@@ -358,6 +380,7 @@ export class DrawTabDataSet extends DataSet {
             UnitsInInventory: unitsByPen.get(p.EntityId) ?? 0,
             PressureSessionCount: sessionsByPen.get(p.EntityId) ?? 0,
             FamilyName: p.PenFamily ? familyNames.get(p.PenFamily) : undefined,
+            ...recs.get(p.EntityId),
           }),
         );
       },
@@ -421,10 +444,10 @@ export class DrawTabDataSet extends DataSet {
 
     // Recommendations (dated ratings, notes, lists) and dated price
     // observations. See docs/RECOMMENDATIONS.md and docs/PRICES.md.
-    this.registerCollection<Rating>("Ratings", () => ratingsLoader.load(), RATING_FIELDS as AnyFieldDef[]);
+    this.registerCollection<Rating>("Ratings", () => rawRatings(), RATING_FIELDS as AnyFieldDef[]);
     this.registerCollection<RecommendationNote>("RecommendationNotes", () => notesLoader.load(), RECOMMENDATION_NOTE_FIELDS as AnyFieldDef[]);
     this.registerCollection<RecommendationList>("RecommendationLists", () => listsLoader.load(), RECOMMENDATION_LIST_FIELDS as AnyFieldDef[]);
-    this.registerCollection<Price>("Prices", () => pricesLoader.load(), PRICE_FIELDS as AnyFieldDef[]);
+    this.registerCollection<Price>("Prices", () => rawPrices(), PRICE_FIELDS as AnyFieldDef[]);
 
     // Inventory: user-sharded, not brand-sharded. The userId is required
     // at *load* time, not at construction — a DataSet without a userId

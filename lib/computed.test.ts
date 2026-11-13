@@ -23,6 +23,25 @@ beforeAll(() => {
 });
 
 describe("computed values match their source collections", () => {
+  it("Tablet and Pen Rating / PriceUSD come from the newest records", async () => {
+    const [tablets, pens, ratings, prices] = await Promise.all([
+      ds.Tablets.toArray(),
+      ds.Pens.toArray(),
+      ds.Ratings.toArray(),
+      ds.Prices.toArray(),
+    ]);
+    const { currentPrice, currentRating } = await import("./recommendations.js");
+    const priced = tablets.find((t) => prices.some((p) => p.EntityId === t.Meta.EntityId && p.Kind === "CURRENT" && p.Currency === "USD"))!;
+    expect(priced).toBeDefined();
+    expect(field(TABLET_FIELDS, "PriceUSD").getValue(priced)).toBe(
+      currentPrice(prices.filter((p) => p.EntityId === priced.Meta.EntityId))!.Amount,
+    );
+    const ratedPen = pens.find((p) => ratings.some((r) => r.EntityId === p.EntityId))!;
+    expect(ratedPen).toBeDefined();
+    expect(field(PEN_FIELDS, "Rating").getValue(ratedPen)).toBe(
+      currentRating(ratings.filter((r) => r.EntityId === ratedPen.EntityId))?.rating ?? "",
+    );
+  });
   it("Pen.UnitsInInventory and Pen.PressureSessionCount", async () => {
     const [pens, units, sessions] = await Promise.all([
       ds.Pens.toArray(),
