@@ -201,6 +201,20 @@ npm run validate-brand -- HUION
 Catches unknown fields, invalid enum values, and schema violations
 without running the full cross-entity check.
 
+### import-prices
+
+```bash
+pip install openpyxl
+python scripts/import-prices.py path/to/pen-tablet-and-display-prices.xlsx
+npm run generate -- --write
+```
+
+Reads a price-research workbook and adds one record per price seen to
+`data/prices/<BRAND>-prices.json`. Append-only: an observation already
+stored (same entity, kind, amount, currency, date and URL) is skipped, so
+running it on a newer workbook adds the new checks and keeps the history.
+See [PRICES.md](PRICES.md).
+
 ## Reference capture scripts (third-party data)
 
 Scripts that mirror somebody else's published data into `data/<source>/`.

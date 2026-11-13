@@ -1,0 +1,354 @@
+{
+  "Notes": [
+    {
+      "EntityId": "huion.tablet.gt1562",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Lots of anti-glare sparkle.",
+      "_id": "5c1e1db3-3e64-5c61-ab3a-db7ba9247d6c",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.h1061p",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "TIP",
+      "Text": "The included PW110 pen behaves like the older PW517. The PW550 pen is generally better.",
+      "_id": "15d07552-e09c-501b-8268-1d01b74ca50a",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.h951p",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "TIP",
+      "Text": "The included PW110 pen behaves like the older PW517. The PW550 pen is generally better.",
+      "_id": "0a1e90d6-3ba1-5145-b3c6-013ab88c7d48",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.hs611",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Older Huion tablet with older tech, but it works fine.",
+      "_id": "ec140748-c6df-55bb-abab-9df2c01ca041",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.kp1202",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "No hands-on experience with this tablet.",
+      "_id": "2effc9da-e0f9-5673-8990-b6fb242b6238",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.l310",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Some people dislike the scratchy sound of the surface, and some report air bubbles under it.",
+      "_id": "3345fd96-c7c3-5429-83db-e7e073447bb0",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.l610",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Some people dislike the scratchy sound of the surface, and some report air bubbles under it.",
+      "_id": "d57a8ea8-a5c0-522e-91a0-df6831dc8007",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.q640m",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Different from the Huion Dial 2 (Q630M); they use different pens.",
+      "_id": "6dfafe8b-7aad-579e-ab52-b49cc318f9a0",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "huion.tablet.rtp700",
+      "Brand": "HUION",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Seems OK, but limited hands-on time.",
+      "_id": "440db2f6-7a87-5460-a103-814373a4eb68",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "samsung.tablet.galaxytabs9fe",
+      "Brand": "SAMSUNG",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "General-purpose pick. The S Pen's high initial activation force makes drawing basic.",
+      "_id": "5c0ca83f-9274-5915-9a11-7cdaafd35f09",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.pen.acp502",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Not released yet (pre-order only). Its rating is based on the specs Wacom has published, not hands-on testing.",
+      "_id": "2875a307-a391-559e-8e27-ef207bfebe75",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctc4110wl",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Slight pressure banding; a firmware update fixes about 90% of it. The CP-923 pen has high IAF and low maximum pressure.",
+      "_id": "adc6ecee-fd87-5a5e-bced-32b1d8b01261",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctc6110wl",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Slight pressure banding; a firmware update fixes about 90% of it. The CP-923 pen has high IAF and low maximum pressure.",
+      "_id": "47244362-3080-5f08-a6db-9d1d1faa80f4",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctk4120",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Not released yet (pre-order only). Its rating is based on the specs Wacom has published, not hands-on testing.",
+      "_id": "24a5379c-c178-5a39-9b35-4130eb986734",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctk6120",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Not released yet (pre-order only). Its rating is based on the specs Wacom has published, not hands-on testing.",
+      "_id": "636f0433-9193-5a64-acdc-b771185e2ebb",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctl4100",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Very expensive for what it is: a consumer tablet at a professional price.",
+      "_id": "67e55c15-b64a-59f1-9212-d0aa40761818",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctl472",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Discontinued and getting harder to find. Wacom will eventually drop driver support, but older drivers keep working.",
+      "_id": "bc9cdee0-5410-503c-a4af-105ca5a57222",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctl6100",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Very expensive for what it is: a consumer tablet at a professional price.",
+      "_id": "8b4d0ecb-89ed-5125-9922-305832a0032b",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctl672",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Discontinued and getting harder to find. Wacom will eventually drop driver support, but older drivers keep working.",
+      "_id": "465544a2-d19b-529a-94b8-26cafa371166",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.ctl672",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "TIP",
+      "Text": "Uses micro-USB on the tablet, not USB-C. Keep that in mind if you ever need to replace the cable.",
+      "_id": "65e77399-1d26-58d3-be62-59fe13e10a64",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtc133",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Expensive for what it is and dated, but decent. A good candidate for buying used.",
+      "_id": "e481076d-e14e-51ad-b860-29557eb1e078",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtha116",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "TIP",
+      "Text": "The Pro Pen 3 is expensive to replace. UD EMR pens such as the Wacom One pen and the Samsung S Pen work as cheaper backups.",
+      "_id": "23599588-120b-5a79-a523-468851440b0a",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtha116",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Not the same product as the Movink 13, which is a pen display that needs a computer.",
+      "_id": "90c415f7-9f93-5497-b320-2b2013280ff8",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtha116",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "It runs a customized Android, and some apps (for example ones that need a Meta login) have problems. For mainly general tablet use, a Galaxy Tab S is safer.",
+      "_id": "9a8bf7af-917b-5fb1-b78a-350f2a3b80ab",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtha140",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Best drawing experience of any current standalone tablet.",
+      "_id": "6a16c3a8-aae4-5dfb-bf0d-01910b3ee18d",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtk1660",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Excellent drawing experience but a very dated screen.",
+      "_id": "9f549ae0-1829-50a9-9f99-6d2e5ecb056d",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "wacom.tablet.dtk2260",
+      "Brand": "WACOM",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Excellent drawing experience. Outdated screen.",
+      "_id": "eecaf8e4-e50c-50f4-bccb-264d00f76207",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xencelabs.tablet.lph1612ua",
+      "Brand": "XENCELABS",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "The 16 Lite is the same tablet as the original Pen Display 16, sold with fewer accessories in the box. Seven's rating comes from the original.",
+      "_id": "435033fd-dc88-5ccc-a3fc-870a7b069d96",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.9494g",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "No hands-on experience with this tablet.",
+      "_id": "a47b04d6-0c22-54bf-8cd5-d312191f8ee6",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.cd160fh",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Excessive diagonal wobble.",
+      "_id": "2dd928aa-805d-5ecb-8308-23aea8c51123",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.deco01v3",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Supposed to work well with Android, but strokes were distorted on Seven's Android devices. Some people report it works.",
+      "_id": "c7ba7c63-8518-571b-a2e9-9f1f0b74a4e5",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.mdp1221",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "DP-IN over USB-C means it also works as an external monitor and as a pen display.",
+      "_id": "3663341a-c639-5bc0-9ad2-888b9d789578",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.mdp1221",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "WARNING",
+      "Text": "Tilt is noisy; turn it off in brush settings if you notice it.",
+      "_id": "39adca30-2966-54b5-99df-f1bf9b1f5e84",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.mdp1221",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "TIP",
+      "Text": "Stores often list the 2024 and 2025 models under the same name. Check for model number MDP1221 (Android 14).",
+      "_id": "cdd73d0d-a157-5e07-b287-f38f0f33ce78",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "EntityId": "xppen.tablet.mnp1095",
+      "Brand": "XPPEN",
+      "Date": "2026-11-13",
+      "Kind": "INFO",
+      "Text": "Best value. Same tilt problem as the Magic Drawing Pad; no DP-IN.",
+      "_id": "a172db91-fe5c-5508-977b-bbc4f81b8ea5",
+      "_CreateDate": "2026-11-13T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-13T00:00:00.000Z"
+    }
+  ]
+}

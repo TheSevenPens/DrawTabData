@@ -34,7 +34,7 @@ import {
   loadDocLinksFromURL,
   type DocLink,
 } from "./drawtab-loader.js";
-import { BRANDS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
+import { BRANDS, RECOMMENDERS, expandPenCompat, type PenCompatGrouped } from "./loader-shared.js";
 import type { AnyFieldDef, Loader } from "@thesevenpens/queriton";
 import { Query, DataSet } from "@thesevenpens/queriton";
 import { BRAND_FIELDS } from "./entities/brand-fields.js";
@@ -46,6 +46,9 @@ import { DRIVER_FIELDS } from "./entities/driver-fields.js";
 import { PEN_COMPAT_FIELDS } from "./entities/pen-compat-fields.js";
 import { PRESSURE_RESPONSE_FIELDS } from "./entities/pressure-response-fields.js";
 import { PRESSURE_RANGE_FIELDS } from "./entities/pressure-range-fields.js";
+import { RATING_FIELDS, RECOMMENDATION_NOTE_FIELDS, RECOMMENDATION_LIST_FIELDS } from "./entities/recommendation-fields.js";
+import { PRICE_FIELDS } from "./entities/price-fields.js";
+import type { Rating, RecommendationNote, RecommendationList, Price } from "./schemas.js";
 import { INVENTORY_PEN_FIELDS, type InventoryPen } from "./entities/inventory-pen-fields.js";
 import { INVENTORY_TABLET_FIELDS, type InventoryTablet } from "./entities/inventory-tablet-fields.js";
 import { sessionEntityId } from "./pressure/session-id.js";
@@ -274,6 +277,17 @@ export class DrawTabDataSet extends DataSet {
       rootKey: "PressureRange",
     });
 
+    const recLoader = <T,>(kind: string, rootKey: string) =>
+      loaderFor<T>({ shards: RECOMMENDERS, filePath: (s) => `recommendations/${s}-${kind}.json`, rootKey });
+    const ratingsLoader = recLoader<Rating>("ratings", "Ratings");
+    const notesLoader = recLoader<RecommendationNote>("notes", "Notes");
+    const listsLoader = recLoader<RecommendationList>("lists", "Lists");
+    const pricesLoader = loaderFor<Price>({
+      shards: BRANDS,
+      filePath: (s) => `prices/${s}-prices.json`,
+      rootKey: "Prices",
+    });
+
     // Raw files that more than one collection needs are memoised here (with
     // the same evict-on-failure cache as the single-file resources), so
     // e.g. Pens and PenFamilies share one fetch of the pen files.
@@ -405,6 +419,13 @@ export class DrawTabDataSet extends DataSet {
       PRESSURE_RANGE_FIELDS as AnyFieldDef[],
     );
 
+    // Recommendations (dated ratings, notes, lists) and dated price
+    // observations. See docs/RECOMMENDATIONS.md and docs/PRICES.md.
+    this.registerCollection<Rating>("Ratings", () => ratingsLoader.load(), RATING_FIELDS as AnyFieldDef[]);
+    this.registerCollection<RecommendationNote>("RecommendationNotes", () => notesLoader.load(), RECOMMENDATION_NOTE_FIELDS as AnyFieldDef[]);
+    this.registerCollection<RecommendationList>("RecommendationLists", () => listsLoader.load(), RECOMMENDATION_LIST_FIELDS as AnyFieldDef[]);
+    this.registerCollection<Price>("Prices", () => pricesLoader.load(), PRICE_FIELDS as AnyFieldDef[]);
+
     // Inventory: user-sharded, not brand-sharded. The userId is required
     // at *load* time, not at construction — a DataSet without a userId
     // is still usable for non-inventory collections.
@@ -513,6 +534,10 @@ export class DrawTabDataSet extends DataSet {
   get PenCompat(): Query<PenCompat> { return this.get<PenCompat>("PenCompat"); }
   get PressureResponse(): Query<PressureResponseWithRels> { return this.get<PressureResponseWithRels>("PressureResponse"); }
   get PressureRange(): Query<PressureRangeWithRels> { return this.get<PressureRangeWithRels>("PressureRange"); }
+  get Ratings(): Query<Rating> { return this.get<Rating>("Ratings"); }
+  get RecommendationNotes(): Query<RecommendationNote> { return this.get<RecommendationNote>("RecommendationNotes"); }
+  get RecommendationLists(): Query<RecommendationList> { return this.get<RecommendationList>("RecommendationLists"); }
+  get Prices(): Query<Price> { return this.get<Price>("Prices"); }
   /** Per-user inventory. Requires `userId` on the DataSource — accessing
    * the query throws on materialisation if none was supplied. */
   get InventoryPens(): Query<InventoryPenWithRels> { return this.get<InventoryPenWithRels>("InventoryPens"); }

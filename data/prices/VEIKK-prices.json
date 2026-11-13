@@ -1,0 +1,43 @@
+{
+  "Prices": [
+    {
+      "EntityId": "veikk.tablet.vo1060",
+      "Brand": "VEIKK",
+      "Kind": "CURRENT",
+      "Amount": "41.99",
+      "Currency": "USD",
+      "Date": "2026-11-04",
+      "DatePrecision": "day",
+      "CheckedOn": "2026-11-04",
+      "Seller": "VEIKK",
+      "Market": "United States",
+      "Basis": "Named-model current price, revision caveat; stock unclear",
+      "Package": "Current Voila L listing advertises 16K pressure; original launch 8K",
+      "Availability": "Unclear: conflicting stock/add-to-cart text",
+      "URL": "https://veikk.com/products/voila-l",
+      "Note": "Preserve the word 'from' for launch MSRP. Current named product has changed pressure specification versus launch; exact revision identity unresolved. Do not present it as an exact like-for-like original hardware price.\nCurrent compare-at/list price: USD 65.99. Not evidence of launch MSRP.",
+      "Primary": true,
+      "Source": "pen-tablet-and-display-prices.xlsx (checked 2026-11-04)",
+      "_id": "c2f31b64-a257-512a-9389-a87b11c857a1",
+      "_CreateDate": "2026-11-04T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "EntityId": "veikk.tablet.vo1060",
+      "Brand": "VEIKK",
+      "Kind": "LAUNCH",
+      "Amount": "49.99",
+      "Currency": "USD",
+      "CheckedOn": "2026-11-04",
+      "Market": "United States",
+      "Basis": "Manufacturer suggested retail FROM price",
+      "Package": "Current Voila L listing advertises 16K pressure; original launch 8K",
+      "URL": "https://veikk.com/en-my/blogs/news/meet-voila-l-with-extraordinary-feel-and-personality-design",
+      "Primary": true,
+      "Source": "pen-tablet-and-display-prices.xlsx (checked 2026-11-04)",
+      "_id": "6d56ea66-55cd-5efc-bbbd-bbc13ef27d71",
+      "_CreateDate": "2026-11-04T00:00:00.000Z",
+      "_ModifiedDate": "2026-11-04T00:00:00.000Z"
+    }
+  ]
+}

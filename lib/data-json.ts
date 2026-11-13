@@ -42,6 +42,8 @@ export const MANAGED_DATA_DIRS = [
   "pressure-response",
   "pressure-range",
   "inventory",
+  "recommendations",
+  "prices",
   "reference",
 ] as const;
 
