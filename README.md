@@ -25,7 +25,7 @@ or run `npm run version-info`.
 
 ## Investigations
 
-- [Tablet driver filesystem inventory](investigations/tablet-driver-filesystem/README.md) covers sampled Windows, macOS, and Linux installer artifacts, file fingerprints, and path evidence.
+- [DrawTabResearch](https://github.com/TheSevenPens/DrawTabResearch) hosts the tablet driver filesystem investigation and other research.
 
 ## Quick start
 
