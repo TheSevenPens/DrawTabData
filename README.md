@@ -23,6 +23,10 @@ Explorer's About page](https://thesevenpens.github.io/DrawTabDataExplorer/about)
 (generated at each deploy by `buildVersionInfo()` in `lib/version-info.ts`),
 or run `npm run version-info`.
 
+## Investigations
+
+- [Tablet driver filesystem inventory](investigations/tablet-driver-filesystem/README.md) covers sampled Windows, macOS, and Linux installer artifacts, file fingerprints, and path evidence.
+
 ## Quick start
 
 ### Option 1: Git submodule (recommended)
