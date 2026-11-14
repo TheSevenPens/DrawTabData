@@ -4,6 +4,13 @@ The inventories describe drawing-tablet drivers on Windows, macOS, and Linux. Th
 
 ## Dataset files
 
+The platform analyses summarize the sampled builds, their filesystem paths, and the checks that still need a live system.
+
+- [Windows installer analysis](windows-installer-analysis.md)
+- [macOS installer analysis](macos-installer-analysis.md)
+- [Linux installer analysis](linux-installer-analysis.md)
+- [Multi-driver installation analysis](multi-driver-installation-analysis.md)
+
 | File | Directly inspected payloads | Extracted file records |
 | --- | --- | ---: |
 | [Windows](windows-tablet-driver-filesystem.json) | Wacom, Huion, XPPen, and Xencelabs, including selected Windows ARM64 payloads | 192 |
