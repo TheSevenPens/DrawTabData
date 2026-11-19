@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pl700",
     "_id": "38eb1274-8e96-4961-8130-37ff54b1e21d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T14:21:38.568Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -46,5 +46,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "InputVoltage": "18",
+    "ConsumptionMaxWatts": "45"
   }
 }
