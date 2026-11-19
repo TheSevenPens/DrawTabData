@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth3220",
     "_id": "98f3cf20-2478-4184-a94d-bafcf512f740",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-11-19T04:17:07.514Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -140,6 +140,9 @@
     "Touch": "YES"
   },
   "Power": {
-    "AdapterWatts": "180"
+    "AdapterWatts": "180",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "129",
+    "StandbyWatts": "1.5"
   }
 }

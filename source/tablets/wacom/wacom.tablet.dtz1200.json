@@ -20,6 +20,12 @@
     "EntityId": "wacom.tablet.dtz1200",
     "_id": "dbb822bd-88eb-467e-823f-9dfb08b6cdd4",
     "_CreateDate": "2026-07-19T04:01:48.501Z",
-    "_ModifiedDate": "2026-07-19T04:01:48.501Z"
+    "_ModifiedDate": "2026-11-19T04:17:03.645Z"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "InputVoltage": "12",
+    "ConsumptionMaxWatts": "29",
+    "StandbyWatts": "2"
   }
 }
