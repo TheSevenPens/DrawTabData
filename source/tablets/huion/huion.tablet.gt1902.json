@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt1902",
     "_id": "bd5c2fa8-b6c4-40a4-af52-1184950f95a3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T21:19:46.373Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -294,13 +294,6 @@
   "OtherInputs": {
     "Touch": "YES"
   },
-  "Power": {
-    "InputVoltage": "20",
-    "InputCurrent": "3.25",
-    "ConsumptionWatts": "18",
-    "AdapterWatts": "65",
-    "OutputWatts": "40"
-  },
   "Connectivity": {
     "Ports": [
       {
@@ -313,5 +306,13 @@
         "Type": "AUDIO_3_5MM"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "20",
+    "InputCurrent": "3.25",
+    "InputSource": "USB_PD",
+    "ConsumptionMaxWatts": "18",
+    "AdapterWatts": "65",
+    "OutputWatts": "40"
   }
 }

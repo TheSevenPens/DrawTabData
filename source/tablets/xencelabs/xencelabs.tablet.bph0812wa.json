@@ -3,7 +3,7 @@
     "EntityId": "xencelabs.tablet.bph0812wa",
     "_id": "a41b1c0c-ccf6-4337-8643-df8b9e494541",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XENCELABS",
@@ -54,5 +54,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

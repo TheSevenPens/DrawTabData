@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt1561",
     "_id": "ffe844ea-86e7-42d7-8904-f62294276f6e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -87,5 +87,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB",
+    "ConsumptionMaxWatts": "15",
+    "StandbyWatts": "0.3"
   }
 }

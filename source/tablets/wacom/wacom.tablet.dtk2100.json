@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2100",
     "_id": "b13e7ee2-a6ce-4f84-9648-8122fadfe38b",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:11.259Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -81,5 +81,11 @@
       "DVI",
       "DC_POWER"
     ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "54",
+    "StandbyWatts": "2"
   }
 }

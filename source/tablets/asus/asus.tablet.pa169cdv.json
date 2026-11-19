@@ -1,4 +1,10 @@
 {
+  "Meta": {
+    "EntityId": "asus.tablet.pa169cdv",
+    "_id": "91a78504-9558-49fd-a9a8-136fd807107d",
+    "_CreateDate": "2026-04-27T21:28:02.863Z",
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+  },
   "Model": {
     "Brand": "ASUS",
     "Id": "PA169CDV",
@@ -69,10 +75,11 @@
   "OtherInputs": {
     "Touch": "YES"
   },
-  "Meta": {
-    "EntityId": "asus.tablet.pa169cdv",
-    "_id": "91a78504-9558-49fd-a9a8-136fd807107d",
-    "_CreateDate": "2026-04-27T21:28:02.863Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+  "Power": {
+    "InputSource": "ADAPTER",
+    "AltInputSource": "USB_PD",
+    "ConsumptionWatts": "15",
+    "StandbyWatts": "0.5",
+    "AdapterWatts": "65"
   }
 }

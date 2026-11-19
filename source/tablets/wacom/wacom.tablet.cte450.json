@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cte450",
     "_id": "f9c2d80a-e669-4d11-b06a-bb1de35c495b",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:38:19.234Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -42,5 +42,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.06",
+    "InputSource": "USB",
+    "ConsumptionWatts": "0.3"
   }
 }

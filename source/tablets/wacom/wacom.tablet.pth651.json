@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pth651",
     "_id": "5d496d0e-128b-4d06-93cb-6d59e3674bc4",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -66,5 +66,8 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

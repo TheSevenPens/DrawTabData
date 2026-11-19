@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtf521",
     "_id": "a7c3e1d2-5f84-4b9a-8e12-6d3a2c7f9b01",
     "_CreateDate": "2026-04-03T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -45,5 +45,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "23",
+    "StandbyWatts": "2"
   }
 }

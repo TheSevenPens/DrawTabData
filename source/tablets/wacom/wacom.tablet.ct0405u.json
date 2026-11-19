@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ct0405u",
     "_id": "17707ed9-a9b9-4af6-8ba1-c1517cfa8eaf",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-11-01T11:38:18.471Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -35,5 +35,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.1",
+    "InputSource": "USB",
+    "ConsumptionWatts": "0.5"
   }
 }

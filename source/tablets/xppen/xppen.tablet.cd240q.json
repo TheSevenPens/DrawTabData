@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd240q",
     "_id": "ecb1e93a-3a89-4cc0-a8b9-628cf734fcef",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -73,5 +73,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputCurrent": "3",
+    "InputSource": "ADAPTER"
   }
 }

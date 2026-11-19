@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2260",
     "_id": "105e4152-9817-43dc-9a12-33a64bb9d820",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T17:46:31.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -152,6 +152,8 @@
     "Bluetooth": "NO"
   },
   "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
     "ConsumptionMaxWatts": "48",
     "StandbyWatts": "0.5",
     "AdapterWatts": "60"

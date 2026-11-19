@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.artist12pro",
     "_id": "f19b0c47-2b3c-4130-8854-977149267fd4",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:38:41.758Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -69,5 +69,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

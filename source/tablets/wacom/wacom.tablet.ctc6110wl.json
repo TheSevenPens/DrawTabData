@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctc6110wl",
     "_id": "0f06387e-bc05-4ebf-804f-48baaa5ec759",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-07T20:18:44.963Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -155,5 +155,10 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.5",
+    "InputSource": "USB"
   }
 }

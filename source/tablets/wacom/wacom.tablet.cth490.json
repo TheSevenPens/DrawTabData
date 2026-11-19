@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cth490",
     "_id": "eefb4b7e-5061-4a89-8b9a-de7515d462e5",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:52:40.846Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -65,5 +65,8 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

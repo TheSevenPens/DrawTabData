@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.decoprom",
     "_id": "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -54,5 +54,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.5",
+    "InputSource": "USB"
   }
 }

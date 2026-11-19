@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs2402",
     "_id": "37a6dd3c-5e82-44c9-9cef-c08aee9dcbfb",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -79,5 +79,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "20",
+    "StandbyWatts": "0.3"
   }
 }

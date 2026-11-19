@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk440",
     "_id": "e9a12edb-531b-4019-b5bd-dcf17f1bb4d2",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -56,5 +56,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.3",
+    "InputSource": "USB"
   }
 }

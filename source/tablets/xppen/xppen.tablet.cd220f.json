@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd220f",
     "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -69,5 +69,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "20",
+    "StandbyWatts": "3.2"
   }
 }

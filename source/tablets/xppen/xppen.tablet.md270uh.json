@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md270uh",
     "_id": "7215483d-78a4-4cad-b6b8-b6acaea71091",
     "_CreateDate": "2026-04-22T00:00:00.000Z",
-    "_ModifiedDate": "2026-10-02T20:42:36.602Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -165,10 +165,6 @@
   "OtherInputs": {
     "Touch": "YES"
   },
-  "Power": {
-    "InputVoltage": "12",
-    "InputCurrent": "5"
-  },
   "Connectivity": {
     "Ports": [
       {
@@ -187,5 +183,10 @@
         "Type": "DC_POWER"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputCurrent": "5",
+    "InputSource": "ADAPTER"
   }
 }

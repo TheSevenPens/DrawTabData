@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtz2100",
     "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:17.991Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -93,5 +93,10 @@
     "Touch": "NO",
     "Buttons": "8",
     "TouchStrips": "2"
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "54"
   }
 }

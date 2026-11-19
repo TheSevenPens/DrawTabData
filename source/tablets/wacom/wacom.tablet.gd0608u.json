@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.gd0608u",
     "_id": "0da481a9-30de-499d-ad13-e4257f985488",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T20:41:24.855Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -61,6 +61,7 @@
   "Power": {
     "InputVoltage": "5",
     "InputCurrent": "0.5",
+    "InputSource": "USB",
     "ConsumptionWatts": "2"
   }
 }

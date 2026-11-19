@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptz1231w",
     "_id": "ce2beb7a-b86b-4bd3-84b1-da25d29694bf",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:38:32.812Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -55,5 +55,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.3",
+    "InputSource": "USB",
+    "ConsumptionMaxWatts": "1.5"
   }
 }

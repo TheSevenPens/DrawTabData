@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth227",
     "_id": "f74b002f-cac5-4490-9ace-943893d53427",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:04.291Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -116,10 +116,6 @@
     "Touch": "YES",
     "Buttons": "8"
   },
-  "Power": {
-    "InputVoltage": "19",
-    "InputCurrent": "8.4"
-  },
   "Connectivity": {
     "Ports": [
       {
@@ -138,5 +134,12 @@
         "Type": "USB_A"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "19",
+    "InputCurrent": "8.4",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "100",
+    "StandbyWatts": "1.5"
   }
 }

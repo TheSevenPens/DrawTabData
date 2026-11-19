@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rds160",
     "_id": "5ef9fa8b-f4f0-4bfb-a1dd-2032a570178d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:33.858Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -76,5 +76,11 @@
   "OtherInputs": {
     "Touch": "NO",
     "Buttons": "10"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputSource": "USB",
+    "ConsumptionMaxWatts": "10",
+    "StandbyWatts": "0.3"
   }
 }

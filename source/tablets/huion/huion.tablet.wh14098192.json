@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.wh14098192",
     "_id": "18bc12f9-b379-4747-955b-611af15a992a",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -54,5 +54,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

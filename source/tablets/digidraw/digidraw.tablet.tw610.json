@@ -3,7 +3,7 @@
     "EntityId": "digidraw.tablet.tw610",
     "_id": "1cc63105-82d3-40a4-b1a2-ee4e072f00ca",
     "_CreateDate": "2026-04-20T00:00:00Z",
-    "_ModifiedDate": "2026-06-18T18:36:16.429Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "DIGIDRAW",
@@ -51,5 +51,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

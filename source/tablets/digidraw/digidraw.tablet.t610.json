@@ -3,7 +3,7 @@
     "EntityId": "digidraw.tablet.t610",
     "_id": "97db7e47-b7d9-481f-aceb-4a89733ac001",
     "_CreateDate": "2026-04-20T00:00:00Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "DIGIDRAW",
@@ -77,5 +77,8 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }
