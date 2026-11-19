@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl470",
     "_id": "487092fc-f2ff-4438-9926-32df9efc80be",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:44.101Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -54,5 +54,10 @@
         "Type": "MICRO_USB"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.036",
+    "InputSource": "USB"
   }
 }

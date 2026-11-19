@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk1300",
     "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -91,5 +91,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "19",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "9",
+    "StandbyWatts": "1"
   }
 }

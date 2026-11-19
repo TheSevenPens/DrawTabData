@@ -5,7 +5,7 @@
         "EntityId": "veikk.tablet.vo1060",
         "_id": "9766917d-c53e-4a6b-b195-f2c8787a5e1a",
         "_CreateDate": "2026-09-25T01:17:21.308Z",
-        "_ModifiedDate": "2026-09-25T01:17:21.308Z"
+        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
       },
       "Model": {
         "Brand": "VEIKK",
@@ -31,6 +31,9 @@
           "Height": 206,
           "Depth": 9
         }
+      },
+      "Power": {
+        "InputSource": "USB"
       }
     }
   ]

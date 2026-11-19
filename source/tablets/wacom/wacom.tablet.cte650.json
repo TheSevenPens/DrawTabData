@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cte650",
     "_id": "9ea9f3d5-5e72-4a58-8775-aea516cf45e2",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:38:21.065Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -42,5 +42,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.06",
+    "InputSource": "USB",
+    "ConsumptionWatts": "0.3"
   }
 }

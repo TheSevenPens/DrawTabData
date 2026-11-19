@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl471",
     "_id": "5b23c5f4-37db-4423-954b-feb364d22c67",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-11-07T20:18:49.121Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,5 +37,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.025",
+    "InputSource": "USB"
   }
 }

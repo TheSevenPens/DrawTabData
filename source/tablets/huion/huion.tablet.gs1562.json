@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1562",
     "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:39:03.988Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -153,7 +153,8 @@
   "Power": {
     "InputVoltage": "5",
     "InputCurrent": "2",
-    "ConsumptionWatts": "10",
+    "InputSource": "USB",
+    "ConsumptionMaxWatts": "10",
     "StandbyWatts": "0.3"
   }
 }

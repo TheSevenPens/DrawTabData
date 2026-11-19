@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md140qh",
     "_id": "b28a32ce-e147-4463-9e8f-92a61c2415e5",
     "_CreateDate": "2026-08-16T00:00:00.000Z",
-    "_ModifiedDate": "2026-11-01T11:38:46.144Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -102,5 +102,9 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "AltInputSource": "USB"
   }
 }

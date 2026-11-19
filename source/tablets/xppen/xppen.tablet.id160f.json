@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.id160f",
     "_id": "35d6319b-0de4-444f-a978-eefd59a30f9c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -84,5 +84,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB",
+    "ConsumptionMaxWatts": "8",
+    "StandbyWatts": "1.8"
   }
 }

@@ -1,6 +1,12 @@
 {
   "DrawingTablets": [
     {
+      "Meta": {
+        "EntityId": "gaomon.tablet.m10k2018",
+        "_id": "5ac045f8-8a74-4e56-9177-8548d4b7282d",
+        "_CreateDate": "2026-04-28T19:08:02.606Z",
+        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+      },
       "Model": {
         "Brand": "GAOMON",
         "Id": "M10K-2018",
@@ -45,11 +51,8 @@
       "OtherInputs": {
         "Touch": "NO"
       },
-      "Meta": {
-        "EntityId": "gaomon.tablet.m10k2018",
-        "_id": "5ac045f8-8a74-4e56-9177-8548d4b7282d",
-        "_CreateDate": "2026-04-28T19:08:02.606Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+      "Power": {
+        "InputSource": "USB"
       }
     }
   ]

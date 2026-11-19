@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd161fh",
     "_id": "e209ec6c-8389-4041-b77f-25bf578d358b",
     "_CreateDate": "2026-04-16T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -74,5 +74,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2",
+    "InputSource": "USB"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd120fh",
     "_id": "c0aff2d4-c1fa-4edf-93ee-994e87aa19ae",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:42:15.912Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -153,10 +153,6 @@
     "Touch": "NO",
     "Buttons": "8"
   },
-  "Power": {
-    "InputVoltage": "5",
-    "InputCurrent": "2"
-  },
   "Connectivity": {
     "Ports": [
       {
@@ -166,5 +162,10 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2",
+    "InputSource": "USB"
   }
 }

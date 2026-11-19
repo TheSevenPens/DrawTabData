@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pl720",
     "_id": "45abe4ca-a680-4fcf-802e-07ca8a362d95",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:38:40.094Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -23,5 +23,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "37",
+    "StandbyWatts": "2"
   }
 }

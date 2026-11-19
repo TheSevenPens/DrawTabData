@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt2701",
     "_id": "28db076b-a8af-4681-abef-9b3018b0df04",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -78,5 +78,9 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "45"
   }
 }

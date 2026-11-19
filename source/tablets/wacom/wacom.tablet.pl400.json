@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pl400",
     "_id": "0dfe9a77-e190-4d30-a8aa-407cc77d7186",
     "_CreateDate": "2026-04-19T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -43,5 +43,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER"
   }
 }

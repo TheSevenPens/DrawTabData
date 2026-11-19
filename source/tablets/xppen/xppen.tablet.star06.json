@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.star06",
     "_id": "0785cd66-d503-483d-98b5-f5adb79f2624",
     "_CreateDate": "2026-09-25T01:31:18.880Z",
-    "_ModifiedDate": "2026-09-25T01:31:18.880Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -40,5 +40,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

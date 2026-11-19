@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt156hdv2",
     "_id": "08e4e2c1-5332-4979-a105-a0b79986cc1e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -75,5 +75,9 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "ConsumptionWatts": "7.5"
   }
 }

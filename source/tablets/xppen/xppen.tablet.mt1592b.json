@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.mt1592b",
     "_id": "2c83e70a-40b7-481f-93cd-73d645d1eeb4",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:38:55.759Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -153,5 +153,8 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

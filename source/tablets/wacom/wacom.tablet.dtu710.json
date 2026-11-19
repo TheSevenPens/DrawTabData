@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtu710",
     "_id": "b4d2f7a1-3e96-4c8b-a5f0-9e1b8d6c4a23",
     "_CreateDate": "2026-04-03T00:00:00.000Z",
-    "_ModifiedDate": "2026-11-01T11:38:24.590Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -53,5 +53,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "45",
+    "StandbyWatts": "5"
   }
 }

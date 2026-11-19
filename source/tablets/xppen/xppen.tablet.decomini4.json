@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.decomini4",
     "_id": "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T03:40:28.878Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -54,5 +54,8 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

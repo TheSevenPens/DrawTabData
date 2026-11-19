@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.it640",
     "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -53,5 +53,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "1",
+    "InputSource": "USB"
   }
 }

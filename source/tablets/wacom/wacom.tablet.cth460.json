@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cth460",
     "_id": "15a60887-ce11-472c-9ad0-36d96ad91df5",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,5 +37,10 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.065",
+    "InputSource": "USB"
   }
 }

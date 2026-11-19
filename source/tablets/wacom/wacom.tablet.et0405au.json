@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.et0405au",
     "_id": "0228d88a-29b6-4c72-a657-65c7713dc600",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,5 +37,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.04",
+    "InputSource": "USB",
+    "ConsumptionWatts": "0.2"
   }
 }

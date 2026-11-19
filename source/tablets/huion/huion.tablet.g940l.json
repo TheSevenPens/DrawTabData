@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.g940l",
     "_id": "002afb51-6e9d-4f6c-83aa-6f31f9742212",
     "_CreateDate": "2026-10-23T12:20:33.246Z",
-    "_ModifiedDate": "2026-10-23T19:20:49.268Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -76,5 +76,8 @@
         "Type": "USB_C"
       }
     ]
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

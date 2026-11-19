@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.g930l",
     "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:40:03.235Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -193,6 +193,7 @@
     ]
   },
   "Power": {
+    "InputSource": "USB",
     "ConsumptionWatts": "0.3"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pth450",
     "_id": "2b73410e-33e6-44f0-9a30-f7df1eaf24b1",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:37.393Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -72,5 +72,8 @@
     "Touch": "YES",
     "Buttons": "6",
     "TouchRings": "1"
+  },
+  "Power": {
+    "InputSource": "USB"
   }
 }

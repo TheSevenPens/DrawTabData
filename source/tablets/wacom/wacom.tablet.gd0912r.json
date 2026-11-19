@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.gd0912r",
     "_id": "b4f0b327-7a06-49b2-9be6-38a23700304f",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T20:41:26.635Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -57,5 +57,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputCurrent": "0.2",
+    "InputSource": "ADAPTER",
+    "ConsumptionWatts": "1.2"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth1300",
     "_id": "34036930-e9ad-47c6-95de-d09dddda173a",
     "_CreateDate": "2026-04-21T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -22,5 +22,10 @@
       "Width": 1920,
       "Height": 1080
     }
+  },
+  "Power": {
+    "InputVoltage": "19",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "10"
   }
 }

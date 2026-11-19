@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl6100wl",
     "_id": "7ceb1b93-8807-4054-99b4-5ad82c4907ce",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T21:15:18.115Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -116,5 +116,10 @@
         "Type": "MICRO_USB"
       }
     ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "0.5",
+    "InputSource": "USB"
   }
 }

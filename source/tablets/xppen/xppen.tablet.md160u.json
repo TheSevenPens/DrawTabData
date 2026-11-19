@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md160u",
     "_id": "6a36faea-988a-4411-8f0b-6cea204c1207",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T16:41:18.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -109,5 +109,11 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "AltInputSource": "USB",
+    "ConsumptionWatts": "15",
+    "StandbyWatts": "1"
   }
 }

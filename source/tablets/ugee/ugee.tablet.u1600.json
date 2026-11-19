@@ -3,7 +3,7 @@
     "EntityId": "ugee.tablet.u1600",
     "_id": "5ca874a8-ba5a-4940-a019-a20faf568051",
     "_CreateDate": "2026-09-25T01:17:20.118Z",
-    "_ModifiedDate": "2026-09-25T01:17:20.118Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "UGEE",
@@ -37,5 +37,10 @@
       "Depth": 14.74
     },
     "Weight": "1320"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2",
+    "InputSource": "USB"
   }
 }

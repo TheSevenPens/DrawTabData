@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2700",
     "_id": "d8b80e4e-6210-418c-a611-cfc63cfc5635",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-10-02T20:41:14.625Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -121,5 +121,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "24",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "80",
+    "StandbyWatts": "0.5"
   }
 }

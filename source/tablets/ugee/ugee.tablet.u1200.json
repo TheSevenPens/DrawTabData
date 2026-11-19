@@ -3,7 +3,7 @@
     "EntityId": "ugee.tablet.u1200",
     "_id": "c1270aa6-c0ce-48fe-9a0b-1861ed699645",
     "_CreateDate": "2026-04-03T06:01:40.000Z",
-    "_ModifiedDate": "2026-10-02T20:12:15.000Z"
+    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
   },
   "Model": {
     "Brand": "UGEE",
@@ -70,5 +70,10 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2",
+    "InputSource": "USB"
   }
 }
