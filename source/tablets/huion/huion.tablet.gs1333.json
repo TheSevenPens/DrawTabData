@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1333",
     "_id": "db7e6991-76fe-4b8b-9535-183839f4991f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-20T01:14:35.966Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -188,6 +188,7 @@
   "Power": {
     "InputVoltage": "5",
     "InputCurrent": "2",
-    "InputSource": "USB"
+    "InputSource": "USB",
+    "StandbyWatts": "0.3"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "counts": {
-    "tablets": 399,
+    "tablets": 404,
     "pens": 145,
     "penFamilies": 24,
     "tabletFamilies": 60,
@@ -131,7 +131,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "90d0b4a0cac628e3ad2900e1cb64744e65fd2e610ceca7dab5372ef8f1a54ad1",
+  "sourceDigest": "3561ce1c54c788221abf07a36466a5796cbf73db25e5081f99279d201fe94167",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -155,7 +155,7 @@
     },
     {
       "path": "tablets/HUION-tablets.json",
-      "sha256": "65b85a1662dd0fad04953ebcf07aa94a5cd80408652c13fac6444dfa3f97fc1a",
+      "sha256": "c4def1c9a31e0b6ec260f9e14c43467a362b7d98e16fe70a53a5d3a84446752e",
       "count": 70
     },
     {
@@ -175,8 +175,8 @@
     },
     {
       "path": "tablets/WACOM-tablets.json",
-      "sha256": "7f7a85696cb4e8eba67acab5404ff8810498562014ff0902b665117da157a53c",
-      "count": 197
+      "sha256": "f81bb1783f2842d2e1779fc286c22b2dc0807b5ef2d89510eb6d7dea792e3010",
+      "count": 202
     },
     {
       "path": "tablets/XENCELABS-tablets.json",
@@ -185,7 +185,7 @@
     },
     {
       "path": "tablets/XPPEN-tablets.json",
-      "sha256": "451f3a56ac446b05887adb263898927eeaab11f78faede81d958d535d8a916cc",
+      "sha256": "1de02fa4d07772c414e7b1280328ed87ff7fb3d7846eba8e2d3b535cfcee740a",
       "count": 70
     },
     {

@@ -1,0 +1,31 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtu1631",
+    "_id": "e615381b-a9f1-45d8-a6f1-fff739edce18",
+    "_CreateDate": "2026-11-20T01:16:27.002Z",
+    "_ModifiedDate": "2026-11-20T01:16:27.002Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTU-1631",
+    "Name": "DTU-1631",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2010",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://cdn-media.wacom.com/en-us/events/-/media/graveyard/wacomdotcom/files/store-manuals/dtu-2231-dtu-1631-manual.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF"
+      }
+    ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "29",
+    "StandbyWatts": "2"
+  }
+}
