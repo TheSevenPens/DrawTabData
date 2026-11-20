@@ -1,0 +1,30 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dth1152",
+    "_id": "4298e139-ddbb-4f23-9411-5ceff251a0e5",
+    "_CreateDate": "2026-11-20T01:16:29.845Z",
+    "_ModifiedDate": "2026-11-20T01:16:29.845Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTH-1152",
+    "Name": "DTH-1152",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2017",
+    "Status": "DISCONTINUED",
+    "SensorId": "90833754",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://cdn-media.wacom.com/en-us/for-business/-/media/project/wacom/sites/bsu/products/hardware/pen-displays/dth-1152/2021-datasheets/wacom-for-business-datasheet-dth-1152-en-global-20210120.pdf?hash=DBCA1E990E4DF321991BD3CA0961E4DB&rev=-1",
+        "Author": "Wacom",
+        "ContentType": "PDF"
+      }
+    ]
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "10",
+    "StandbyWatts": "0.5"
+  }
+}

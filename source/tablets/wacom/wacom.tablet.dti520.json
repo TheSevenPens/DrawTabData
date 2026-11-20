@@ -1,0 +1,36 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dti520",
+    "_id": "888ecb08-d981-4fd2-b7ce-b1fc2b9fe3da",
+    "_CreateDate": "2026-11-20T01:16:24.471Z",
+    "_ModifiedDate": "2026-11-20T01:16:24.471Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTI-520",
+    "Name": "DTI-520",
+    "AlternateNames": [
+      "DTI-520U",
+      "DTI-520U/G0",
+      "DTI-520/L0"
+    ],
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2005",
+    "ReleaseDate": "2005-02-10",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+    "Links": [
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://tablet.wacom.co.jp/download/dti-520m1003.pdf",
+        "Author": "Wacom",
+        "ContentType": "PDF"
+      }
+    ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "23"
+  }
+}

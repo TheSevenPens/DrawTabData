@@ -3500,6 +3500,40 @@
     },
     {
       "Meta": {
+        "EntityId": "wacom.tablet.dtf510",
+        "_id": "b746098e-7824-4ea4-a4a1-a6de465889f2",
+        "_CreateDate": "2026-11-20T01:16:25.689Z",
+        "_ModifiedDate": "2026-11-20T01:16:25.689Z"
+      },
+      "Model": {
+        "Brand": "WACOM",
+        "Id": "DTF-510",
+        "Name": "DTF-510",
+        "AlternateNames": [
+          "DTF-510U"
+        ],
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2003",
+        "Status": "DISCONTINUED",
+        "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+        "Links": [
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://fccid.io/NJC-DTF-510/User-Manual/Users-Manual-344700",
+            "Author": "Wacom",
+            "ContentType": "HTML"
+          }
+        ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "40",
+        "StandbyWatts": "5"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "wacom.tablet.dtf521",
         "_id": "a7c3e1d2-5f84-4b9a-8e12-6d3a2c7f9b01",
         "_CreateDate": "2026-04-03T00:00:00.000Z",
@@ -3620,6 +3654,36 @@
         "InputSource": "ADAPTER",
         "ConsumptionMaxWatts": "37",
         "StandbyWatts": "2"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "wacom.tablet.dth1152",
+        "_id": "4298e139-ddbb-4f23-9411-5ceff251a0e5",
+        "_CreateDate": "2026-11-20T01:16:29.845Z",
+        "_ModifiedDate": "2026-11-20T01:16:29.845Z"
+      },
+      "Model": {
+        "Brand": "WACOM",
+        "Id": "DTH-1152",
+        "Name": "DTH-1152",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2017",
+        "Status": "DISCONTINUED",
+        "SensorId": "90833754",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://cdn-media.wacom.com/en-us/for-business/-/media/project/wacom/sites/bsu/products/hardware/pen-displays/dth-1152/2021-datasheets/wacom-for-business-datasheet-dth-1152-en-global-20210120.pdf?hash=DBCA1E990E4DF321991BD3CA0961E4DB&rev=-1",
+            "Author": "Wacom",
+            "ContentType": "PDF"
+          }
+        ]
+      },
+      "Power": {
+        "InputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "10",
+        "StandbyWatts": "0.5"
       }
     },
     {
@@ -6662,6 +6726,42 @@
     },
     {
       "Meta": {
+        "EntityId": "wacom.tablet.dti520",
+        "_id": "888ecb08-d981-4fd2-b7ce-b1fc2b9fe3da",
+        "_CreateDate": "2026-11-20T01:16:24.471Z",
+        "_ModifiedDate": "2026-11-20T01:16:24.471Z"
+      },
+      "Model": {
+        "Brand": "WACOM",
+        "Id": "DTI-520",
+        "Name": "DTI-520",
+        "AlternateNames": [
+          "DTI-520U",
+          "DTI-520U/G0",
+          "DTI-520/L0"
+        ],
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2005",
+        "ReleaseDate": "2005-02-10",
+        "Status": "DISCONTINUED",
+        "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+        "Links": [
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://tablet.wacom.co.jp/download/dti-520m1003.pdf",
+            "Author": "Wacom",
+            "ContentType": "PDF"
+          }
+        ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "23"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "wacom.tablet.dtk1300",
         "_id": "be7822d8-d208-4ff2-9bcd-fedef488048d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -7971,6 +8071,68 @@
         "InputSource": "ADAPTER",
         "ConsumptionMaxWatts": "80",
         "StandbyWatts": "0.5"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "wacom.tablet.dtu1631",
+        "_id": "e615381b-a9f1-45d8-a6f1-fff739edce18",
+        "_CreateDate": "2026-11-20T01:16:27.002Z",
+        "_ModifiedDate": "2026-11-20T01:16:27.002Z"
+      },
+      "Model": {
+        "Brand": "WACOM",
+        "Id": "DTU-1631",
+        "Name": "DTU-1631",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2010",
+        "Status": "DISCONTINUED",
+        "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+        "Links": [
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://cdn-media.wacom.com/en-us/events/-/media/graveyard/wacomdotcom/files/store-manuals/dtu-2231-dtu-1631-manual.pdf",
+            "Author": "Wacom",
+            "ContentType": "PDF"
+          }
+        ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "29",
+        "StandbyWatts": "2"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "wacom.tablet.dtu2231",
+        "_id": "fd87fd41-a7bf-4d45-8b8b-2bf1c61d8526",
+        "_CreateDate": "2026-11-20T01:16:28.554Z",
+        "_ModifiedDate": "2026-11-20T01:16:28.554Z"
+      },
+      "Model": {
+        "Brand": "WACOM",
+        "Id": "DTU-2231",
+        "Name": "DTU-2231",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2010",
+        "Status": "DISCONTINUED",
+        "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+        "Links": [
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://cdn-media.wacom.com/en-us/events/-/media/graveyard/wacomdotcom/files/store-manuals/dtu-2231-dtu-1631-manual.pdf",
+            "Author": "Wacom",
+            "ContentType": "PDF"
+          }
+        ]
+      },
+      "Power": {
+        "InputVoltage": "12",
+        "InputSource": "ADAPTER",
+        "ConsumptionMaxWatts": "39",
+        "StandbyWatts": "2"
       }
     },
     {

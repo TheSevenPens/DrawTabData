@@ -1,0 +1,34 @@
+{
+  "Meta": {
+    "EntityId": "wacom.tablet.dtf510",
+    "_id": "b746098e-7824-4ea4-a4a1-a6de465889f2",
+    "_CreateDate": "2026-11-20T01:16:25.689Z",
+    "_ModifiedDate": "2026-11-20T01:16:25.689Z"
+  },
+  "Model": {
+    "Brand": "WACOM",
+    "Id": "DTF-510",
+    "Name": "DTF-510",
+    "AlternateNames": [
+      "DTF-510U"
+    ],
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2003",
+    "Status": "DISCONTINUED",
+    "Family": "wacom.tabletfamily.wacom_cintiqlegacy",
+    "Links": [
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://fccid.io/NJC-DTF-510/User-Manual/Users-Manual-344700",
+        "Author": "Wacom",
+        "ContentType": "HTML"
+      }
+    ]
+  },
+  "Power": {
+    "InputVoltage": "12",
+    "InputSource": "ADAPTER",
+    "ConsumptionMaxWatts": "40",
+    "StandbyWatts": "5"
+  }
+}
