@@ -63,7 +63,8 @@
         "Type": "MINI_USB"
       },
       {
-        "Type": "MINI_USB"
+        "Type": "MINI_USB",
+        "Detail": "Alternate side; sliding cover exposes one socket at a time"
       }
     ],
     "AttachedCable": []
