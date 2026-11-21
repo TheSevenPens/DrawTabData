@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cth470",
     "_id": "e1a691a6-d73e-4f48-9d92-9185ed816be3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -45,6 +45,14 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputVoltage": "5",

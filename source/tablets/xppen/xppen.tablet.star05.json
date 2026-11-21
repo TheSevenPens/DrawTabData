@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.star05",
     "_id": "f11c579f-b87d-4419-ba20-fb9fe326b65e",
     "_CreateDate": "2026-09-25T01:31:17.718Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -40,6 +40,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputSource": "USB"

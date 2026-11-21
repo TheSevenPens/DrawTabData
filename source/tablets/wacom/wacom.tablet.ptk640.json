@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk640",
     "_id": "d146cdd3-05c0-466a-beba-32167f5c8c29",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -56,6 +56,17 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      },
+      {
+        "Type": "MINI_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputVoltage": "5",

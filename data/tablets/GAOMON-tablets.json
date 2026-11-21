@@ -5,7 +5,7 @@
         "EntityId": "gaomon.tablet.m10k2018",
         "_id": "5ac045f8-8a74-4e56-9177-8548d4b7282d",
         "_CreateDate": "2026-04-28T19:08:02.606Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "GAOMON",
@@ -50,6 +50,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       },
       "Power": {
         "InputSource": "USB"

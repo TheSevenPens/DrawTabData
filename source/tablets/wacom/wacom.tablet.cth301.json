@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cth301",
     "_id": "a976874a-31ba-4db5-a51e-12b6d45e98ca",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-11-01T11:38:22.184Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -34,5 +34,13 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ],
+    "AttachedCable": []
   }
 }

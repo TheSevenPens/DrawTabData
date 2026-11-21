@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.q620m",
     "_id": "c9520e0b-5457-4474-8b10-109c08c153c6",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -66,6 +66,13 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   },
   "Power": {
     "InputSource": "USB"

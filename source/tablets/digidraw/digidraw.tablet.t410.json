@@ -3,7 +3,7 @@
     "EntityId": "digidraw.tablet.t410",
     "_id": "083d34e6-e632-40da-bf46-780b15e16b57",
     "_CreateDate": "2026-04-20T00:00:00Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "DIGIDRAW",
@@ -50,6 +50,13 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   },
   "Power": {
     "InputSource": "USB"

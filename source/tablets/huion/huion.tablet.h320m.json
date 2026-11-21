@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h320m",
     "_id": "72568bb0-376a-4a39-a909-b95c1ae4af83",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -54,5 +54,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

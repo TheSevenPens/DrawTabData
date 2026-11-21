@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.g960",
     "_id": "06d33795-37f5-4390-8e7a-191647f13a6e",
     "_CreateDate": "2026-09-25T01:31:11.827Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -46,6 +46,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "USB_A"
+    ]
   },
   "Power": {
     "InputSource": "USB"

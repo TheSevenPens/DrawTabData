@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h420",
     "_id": "a6c1a9a1-8338-4004-9c2a-da4e3d3fce8e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -55,5 +55,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h1161",
     "_id": "dd399ee1-ce80-4f6c-867f-7ef47f8f624f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -54,5 +54,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctl671",
     "_id": "734c2cd3-2723-413d-8d1c-151aa0942b4a",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-11-07T20:18:52.557Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,5 +37,13 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ],
+    "AttachedCable": []
   }
 }

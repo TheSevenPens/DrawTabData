@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h1060p",
     "_id": "7eee1b16-3b9d-4a8b-ad10-95d083fd652e",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -55,5 +55,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ]
   }
 }

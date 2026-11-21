@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rts300",
     "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-01T11:39:00.531Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -55,5 +55,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   }
 }

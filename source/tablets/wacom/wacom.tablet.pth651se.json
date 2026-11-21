@@ -44,6 +44,14 @@
     "EntityId": "wacom.tablet.pth651se",
     "_id": "465cf7e1-4bd3-42b4-a947-986ef7282b22",
     "_CreateDate": "2026-07-19T04:12:16.715Z",
-    "_ModifiedDate": "2026-07-19T04:12:16.715Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ],
+    "AttachedCable": []
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.deco01v3",
     "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -111,6 +111,14 @@
   "OtherInputs": {
     "Touch": "NO",
     "Buttons": "8"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputSource": "USB"

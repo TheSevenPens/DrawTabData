@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.mte450",
     "_id": "b1f9b803-7dd6-48c7-b007-9b772023da62",
     "_CreateDate": "2026-04-01T18:26:13.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,6 +37,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputVoltage": "5",

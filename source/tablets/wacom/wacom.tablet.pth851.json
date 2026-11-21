@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pth851",
     "_id": "f56f9476-b272-42b7-99cd-53d198a5fe53",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -66,6 +66,14 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputSource": "USB"

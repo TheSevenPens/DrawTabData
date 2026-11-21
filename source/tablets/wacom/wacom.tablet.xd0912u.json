@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.xd0912u",
     "_id": "06163869-1f1b-49c3-8797-8a6b29c0411f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -55,6 +55,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "USB_A"
+    ]
   },
   "Power": {
     "InputVoltage": "5",

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cth461",
     "_id": "547b265d-6040-4ec3-a0d7-75c9477c23ab",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,6 +37,12 @@
   },
   "OtherInputs": {
     "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "USB_A"
+    ]
   },
   "Power": {
     "InputVoltage": "5",
