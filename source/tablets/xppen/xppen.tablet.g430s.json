@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.g430s",
     "_id": "b63fe887-2cf4-45a5-b9ae-2bc89348e2d3",
     "_CreateDate": "2026-09-25T01:31:10.646Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -42,6 +42,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "USB_A"
+    ]
   },
   "Power": {
     "InputSource": "USB"

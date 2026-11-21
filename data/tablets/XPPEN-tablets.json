@@ -2153,7 +2153,7 @@
         "EntityId": "xppen.tablet.ct1060",
         "_id": "3ae93286-d961-4d2a-a3b7-f42d6cbd9c62",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2205,6 +2205,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -2216,7 +2224,7 @@
         "EntityId": "xppen.tablet.ct430",
         "_id": "cc701b52-ebd9-4f6e-9e02-f30c5c9d96bf",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2267,6 +2275,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -2278,7 +2294,7 @@
         "EntityId": "xppen.tablet.ct640",
         "_id": "a2f70186-10e2-47a7-9dde-5b1d89103a71",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2330,6 +2346,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -2341,7 +2365,7 @@
         "EntityId": "xppen.tablet.deco01",
         "_id": "611b4eed-7e42-4818-859e-a7f8ac5b9623",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2429,6 +2453,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2438,7 +2470,7 @@
         "EntityId": "xppen.tablet.deco01v2",
         "_id": "adcb93c5-9ce2-46bc-93b2-a25df2769f6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2491,6 +2523,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2500,7 +2540,7 @@
         "EntityId": "xppen.tablet.deco01v3",
         "_id": "bba04737-3e98-43f4-acd7-d9cce6ae05b9",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2609,6 +2649,14 @@
         "Touch": "NO",
         "Buttons": "8"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2618,7 +2666,7 @@
         "EntityId": "xppen.tablet.deco02",
         "_id": "28c9ecd7-8ff5-4c4c-b5c7-9a31de0cf34b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2668,6 +2716,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2677,7 +2733,7 @@
         "EntityId": "xppen.tablet.deco03",
         "_id": "34bd05bb-1e1a-4937-bc5b-e997e1eb41e9",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2740,6 +2796,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2749,7 +2813,7 @@
         "EntityId": "xppen.tablet.decomini4",
         "_id": "1d3c87e9-6ea7-403c-9ad7-c0b3a03ab951",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2801,6 +2865,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2810,7 +2882,7 @@
         "EntityId": "xppen.tablet.decomini7",
         "_id": "23d3caa6-4d93-46f0-9e60-871444fb265a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2861,6 +2933,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2870,7 +2950,7 @@
         "EntityId": "xppen.tablet.decomini7v2",
         "_id": "f705d567-6479-4c6a-8a73-b721acee3f7d",
         "_CreateDate": "2026-07-31T06:08:14.540Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2920,6 +3000,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -2929,7 +3017,7 @@
         "EntityId": "xppen.tablet.decoprom",
         "_id": "c3e485e9-2d40-4f7a-b939-8a191f6d5b7b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -2981,6 +3069,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "0.5",
@@ -2992,7 +3088,7 @@
         "EntityId": "xppen.tablet.decopromw",
         "_id": "fa271dfe-fd5d-44a0-b993-ebccc65ef632",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3044,6 +3140,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -3055,7 +3159,7 @@
         "EntityId": "xppen.tablet.decopros",
         "_id": "e38187ce-c3e9-40dd-b440-bf5fccead639",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3107,6 +3211,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "0.5",
@@ -3118,7 +3230,7 @@
         "EntityId": "xppen.tablet.decoprosw",
         "_id": "6ac45e5a-b656-4895-901b-82247f575392",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3170,6 +3282,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -3181,7 +3301,7 @@
         "EntityId": "xppen.tablet.g430s",
         "_id": "b63fe887-2cf4-45a5-b9ae-2bc89348e2d3",
         "_CreateDate": "2026-09-25T01:31:10.646Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3221,6 +3341,12 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [],
+        "AttachedCable": [
+          "USB_A"
+        ]
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -3230,7 +3356,7 @@
         "EntityId": "xppen.tablet.g640",
         "_id": "e361f132-1079-4860-a67d-fc60ac74d238",
         "_CreateDate": "2026-04-22T00:00:00.000Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3272,6 +3398,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -3281,7 +3415,7 @@
         "EntityId": "xppen.tablet.g640sv2",
         "_id": "30fe1f87-01cc-4daa-af5e-453d3c1e997f",
         "_CreateDate": "2026-09-25T01:31:15.366Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3319,6 +3453,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -3328,7 +3470,7 @@
         "EntityId": "xppen.tablet.g960",
         "_id": "06d33795-37f5-4390-8e7a-191647f13a6e",
         "_CreateDate": "2026-09-25T01:31:11.827Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3372,6 +3514,12 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [],
+        "AttachedCable": [
+          "USB_A"
+        ]
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -3381,7 +3529,7 @@
         "EntityId": "xppen.tablet.g960s",
         "_id": "2b4990fd-2a1f-4dc5-8f8d-8a39462ca43b",
         "_CreateDate": "2026-09-25T01:31:13.012Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3426,6 +3574,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -3435,7 +3591,7 @@
         "EntityId": "xppen.tablet.g960splus",
         "_id": "832d1151-64e7-4574-bbce-76fc0d34d842",
         "_CreateDate": "2026-09-25T01:31:14.213Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3479,6 +3635,14 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
       },
       "Power": {
         "InputSource": "USB"
@@ -3891,7 +4055,7 @@
         "EntityId": "xppen.tablet.it640",
         "_id": "3bf8f6d5-3a6f-4750-9d83-dda5230da26c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -3942,6 +4106,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -3953,7 +4125,7 @@
         "EntityId": "xppen.tablet.it850",
         "_id": "5eaceb43-bf80-4ca5-ba79-8041c1fd1ddd",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4005,6 +4177,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputVoltage": "5",
         "InputCurrent": "1",
@@ -4016,7 +4196,7 @@
         "EntityId": "xppen.tablet.it850b",
         "_id": "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -4067,6 +4247,14 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
       },
       "Power": {
         "InputVoltage": "5",
@@ -6467,7 +6655,7 @@
         "EntityId": "xppen.tablet.mt0962b",
         "_id": "2209f868-50c5-4720-8428-6b9197dbef57",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6518,6 +6706,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -6527,7 +6723,7 @@
         "EntityId": "xppen.tablet.mt1172b",
         "_id": "689b42c0-16a8-439e-8579-8a07b0c0f67f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6577,6 +6773,14 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": []
       },
       "Power": {
         "InputSource": "USB"
@@ -6747,7 +6951,7 @@
         "EntityId": "xppen.tablet.star03v2",
         "_id": "53c2fab5-e0a4-4a51-a7da-213ec9c258f8",
         "_CreateDate": "2026-09-25T01:31:16.558Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6786,6 +6990,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -6795,7 +7007,7 @@
         "EntityId": "xppen.tablet.star05",
         "_id": "f11c579f-b87d-4419-ba20-fb9fe326b65e",
         "_CreateDate": "2026-09-25T01:31:17.718Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6833,6 +7045,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -6842,7 +7062,7 @@
         "EntityId": "xppen.tablet.star06",
         "_id": "0785cd66-d503-483d-98b5-f5adb79f2624",
         "_CreateDate": "2026-09-25T01:31:18.880Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6880,6 +7100,14 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ],
+        "AttachedCable": []
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -6889,7 +7117,7 @@
         "EntityId": "xppen.tablet.star06c",
         "_id": "f189d228-6cc4-4867-88e9-a7dbbd24d364",
         "_CreateDate": "2026-09-25T01:31:20.033Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "XPPEN",
@@ -6926,6 +7154,14 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ],
+        "AttachedCable": []
       },
       "Power": {
         "InputSource": "USB"

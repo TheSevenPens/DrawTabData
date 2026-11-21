@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.it850b",
     "_id": "fc47faa2-5a0f-4693-a7d0-7fba820c4f23",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -54,6 +54,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputVoltage": "5",

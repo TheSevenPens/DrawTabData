@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.q11kv2",
     "_id": "46cf628f-1a5d-420e-864e-3c8bb3076aee",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -54,6 +54,13 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ]
   },
   "Power": {
     "InputSource": "USB"

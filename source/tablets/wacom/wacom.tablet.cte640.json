@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.cte640",
     "_id": "819a2d36-c970-4b7b-a0e5-17b96aebe911",
     "_CreateDate": "2026-04-01T18:26:13.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,6 +37,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "USB_A"
+    ]
   },
   "Power": {
     "InputVoltage": "5",

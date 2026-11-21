@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.g640",
     "_id": "e361f132-1079-4860-a67d-fc60ac74d238",
     "_CreateDate": "2026-04-22T00:00:00.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -44,6 +44,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputSource": "USB"

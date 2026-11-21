@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.xd1218r",
     "_id": "c89d8229-6520-4560-b3ab-bcc9234079d2",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -37,6 +37,13 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "SERIAL",
+      "DC_POWER"
+    ]
   },
   "Power": {
     "InputVoltage": "12",

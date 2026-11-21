@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ctf221",
     "_id": "7a4254fc-d326-400c-a360-ee865bbb7ca1",
     "_CreateDate": "2026-04-01T18:30:12.000Z",
-    "_ModifiedDate": "2026-06-19T03:54:49.351Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -35,5 +35,11 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "USB_A"
+    ]
   }
 }

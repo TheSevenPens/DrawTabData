@@ -3,7 +3,7 @@
     "EntityId": "ugee.tablet.m908",
     "_id": "e8d5a27c-2985-43c2-afd3-6b1c9d0b05f5",
     "_CreateDate": "2026-04-03T06:01:40.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "UGEE",
@@ -48,6 +48,13 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
   },
   "Power": {
     "InputSource": "USB"

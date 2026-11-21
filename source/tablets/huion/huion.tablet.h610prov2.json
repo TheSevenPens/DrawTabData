@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.h610prov2",
     "_id": "6cf4f9bd-488f-48d3-a551-37c38a5ec77f",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-06-19T04:03:26.201Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -54,5 +54,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ]
   }
 }

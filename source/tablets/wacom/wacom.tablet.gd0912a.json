@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.gd0912a",
     "_id": "7105650d-11d9-4894-91cf-b862d5cb4c0d",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-10-02T21:30:02.698Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -55,5 +55,12 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [],
+    "AttachedCable": [
+      "ADB",
+      "ADB"
+    ]
   }
 }

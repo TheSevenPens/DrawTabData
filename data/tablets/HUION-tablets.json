@@ -4544,7 +4544,7 @@
         "EntityId": "huion.tablet.h1060p",
         "_id": "7eee1b16-3b9d-4a8b-ad10-95d083fd652e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4596,6 +4596,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -4763,7 +4770,7 @@
         "EntityId": "huion.tablet.h1161",
         "_id": "dd399ee1-ce80-4f6c-867f-7ef47f8f624f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4814,6 +4821,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4821,7 +4835,7 @@
         "EntityId": "huion.tablet.h320m",
         "_id": "72568bb0-376a-4a39-a909-b95c1ae4af83",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4872,6 +4886,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4879,7 +4900,7 @@
         "EntityId": "huion.tablet.h420",
         "_id": "a6c1a9a1-8338-4004-9c2a-da4e3d3fce8e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4931,6 +4952,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_USB"
+          }
+        ]
       }
     },
     {
@@ -4938,7 +4966,7 @@
         "EntityId": "huion.tablet.h420x",
         "_id": "480407c4-377a-432c-aa89-fdb3139c66d6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -4988,6 +5016,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -4995,7 +5030,7 @@
         "EntityId": "huion.tablet.h430p",
         "_id": "61aef1d3-4824-4c09-8c87-f4e958b98e67",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5047,6 +5082,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -5054,7 +5096,7 @@
         "EntityId": "huion.tablet.h610pro",
         "_id": "9679f7c4-6bb5-4be6-936c-3798700f0f0b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5106,6 +5148,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_USB"
+          }
+        ]
       }
     },
     {
@@ -5113,7 +5162,7 @@
         "EntityId": "huion.tablet.h610prov2",
         "_id": "6cf4f9bd-488f-48d3-a551-37c38a5ec77f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-19T04:03:26.201Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5164,6 +5213,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_USB"
+          }
+        ]
       }
     },
     {
@@ -5171,7 +5227,7 @@
         "EntityId": "huion.tablet.h610x",
         "_id": "79529177-2e4c-49d9-a014-30a73569f047",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5222,6 +5278,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -5229,7 +5292,7 @@
         "EntityId": "huion.tablet.h640p",
         "_id": "3079d659-46c5-4e8f-a0f0-b47fe608246b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5281,6 +5344,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -5288,7 +5358,7 @@
         "EntityId": "huion.tablet.h641p",
         "_id": "fdd476e6-e631-4605-988c-166803a1df5e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5341,6 +5411,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -5348,7 +5425,7 @@
         "EntityId": "huion.tablet.h950p",
         "_id": "356a2e97-a2f1-46bc-8562-c917c5d00f75",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5398,6 +5475,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -5405,7 +5489,7 @@
         "EntityId": "huion.tablet.h951p",
         "_id": "76feb9b1-d4f4-40ae-8add-a023946db39a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5458,6 +5542,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -5465,7 +5556,7 @@
         "EntityId": "huion.tablet.hs610",
         "_id": "198f8590-7929-441e-bc0c-312cb32f06f9",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-10-02T21:29:38.206Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5531,6 +5622,13 @@
         "Touch": "NO",
         "Buttons": "12",
         "TouchRings": "1"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -5682,7 +5780,7 @@
         "EntityId": "huion.tablet.hs64",
         "_id": "416c2abb-94fd-4564-87c1-c93e6fba1877",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5733,6 +5831,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -5917,7 +6022,7 @@
         "EntityId": "huion.tablet.l310",
         "_id": "eca5c731-2985-42cb-8c3b-b5dc047788a4",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -5969,6 +6074,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       },
       "Power": {
         "InputSource": "USB"
@@ -6139,7 +6251,7 @@
         "EntityId": "huion.tablet.new1060plus",
         "_id": "e1784c20-a81a-49ed-8f1a-d80c506b8100",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6190,6 +6302,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -6197,7 +6316,7 @@
         "EntityId": "huion.tablet.q11k",
         "_id": "918b88cd-b6f1-4da3-a962-55bfb04d7463",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-06-18T18:36:51.565Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6261,6 +6380,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {
@@ -6268,7 +6394,7 @@
         "EntityId": "huion.tablet.q11kv2",
         "_id": "46cf628f-1a5d-420e-864e-3c8bb3076aee",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6320,6 +6446,13 @@
       "OtherInputs": {
         "Touch": "NO"
       },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
+      },
       "Power": {
         "InputSource": "USB"
       }
@@ -6329,7 +6462,7 @@
         "EntityId": "huion.tablet.q620m",
         "_id": "c9520e0b-5457-4474-8b10-109c08c153c6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6392,6 +6525,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       },
       "Power": {
         "InputSource": "USB"
@@ -6815,7 +6955,7 @@
         "EntityId": "huion.tablet.rtm500",
         "_id": "86333a6a-0a5d-43ef-bd01-72b719b09dae",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-01T11:38:58.172Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6867,6 +7007,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -6953,7 +7100,7 @@
         "EntityId": "huion.tablet.rts300",
         "_id": "92d35c3d-b153-40d9-b20c-adf0b0b6cd9d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-01T11:39:00.531Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -7005,6 +7152,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
       }
     },
     {
@@ -7355,7 +7509,7 @@
         "EntityId": "huion.tablet.wh14098192",
         "_id": "18bc12f9-b379-4747-955b-611af15a992a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-21T22:30:00.000Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -7406,6 +7560,13 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       },
       "Power": {
         "InputSource": "USB"

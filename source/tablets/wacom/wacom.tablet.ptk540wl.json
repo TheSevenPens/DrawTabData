@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.ptk540wl",
     "_id": "04ea669b-224c-4bb7-989d-8f80f7deb273",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -55,6 +55,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputVoltage": "5",

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.sd420e",
     "_id": "cf1894fe-84c4-4b20-a35a-f5d038fc00cf",
     "_CreateDate": "2026-04-01T09:11:12.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -33,5 +33,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "SERIAL",
+        "Detail": "RS-232C DE-9"
+      }
+    ],
+    "AttachedCable": []
   }
 }

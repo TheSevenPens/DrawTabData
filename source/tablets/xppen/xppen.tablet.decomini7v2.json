@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.decomini7v2",
     "_id": "f705d567-6479-4c6a-8a73-b721acee3f7d",
     "_CreateDate": "2026-07-31T06:08:14.540Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-21T22:30:00.000Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -52,6 +52,14 @@
   },
   "OtherInputs": {
     "Touch": "NO"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "AttachedCable": []
   },
   "Power": {
     "InputSource": "USB"
