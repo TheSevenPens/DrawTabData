@@ -798,7 +798,8 @@
             "Type": "DC_POWER"
           }
         ],
-        "AttachedCable": []
+        "AttachedCable": [],
+        "Bluetooth": "YES"
       }
     },
     {
@@ -12283,7 +12284,8 @@
             "Type": "MINI_USB"
           }
         ],
-        "AttachedCable": []
+        "AttachedCable": [],
+        "Bluetooth": "YES"
       },
       "Power": {
         "InputVoltage": "5",
