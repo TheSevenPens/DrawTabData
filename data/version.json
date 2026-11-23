@@ -131,7 +131,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "7dba7617d78845847daa23e307649bbcd53b455b60efb50a0e8739f2243dc7e7",
+  "sourceDigest": "bc41eb2a0bb75d59ae935ca643d8cf9b6682f94a9fb8d3d8871dd06f752bbbe3",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -185,7 +185,7 @@
     },
     {
       "path": "tablets/XPPEN-tablets.json",
-      "sha256": "a3d854bc3af3f824a0d89d4359764ec6548086b84c37d6420069e7a5159bb97c",
+      "sha256": "8b2f71d4f320da8035fe814c1eba93467e764271143d8c05ca80affd5d363160",
       "count": 70
     },
     {
