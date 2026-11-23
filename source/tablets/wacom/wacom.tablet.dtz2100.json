@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtz2100",
     "_id": "59d61fb8-2078-434a-809b-4c05f3537e1c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -75,7 +75,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "20",
     "ViewingAngleHorizontal": "170",
-    "ViewingAngleVertical": "170"
+    "ViewingAngleVertical": "170",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd160fh",
     "_id": "780901b9-0e48-4697-bbdf-8f0767d91234",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -140,7 +140,8 @@
     "Brightness": "220",
     "PanelTech": "IPS",
     "ColorBitDepth": "8",
-    "Lamination": "YES"
+    "Lamination": "YES",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

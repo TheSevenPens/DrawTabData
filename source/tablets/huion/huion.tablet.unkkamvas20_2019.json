@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.unkkamvas20_2019",
     "_id": "3ead65af-c913-4243-8b60-dc83e13ed3d2",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -62,7 +62,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "25",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

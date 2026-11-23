@@ -287,7 +287,7 @@
         "EntityId": "huion.tablet.gs1161",
         "_id": "0cb64320-e097-486a-8537-ea48d10076e3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -346,7 +346,8 @@
         "AntiGlare": "AGFILM",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "170",
-        "ViewingAngleVertical": "170"
+        "ViewingAngleVertical": "170",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -371,7 +372,7 @@
         "EntityId": "huion.tablet.gs1331",
         "_id": "410e957a-d3ea-45e2-867c-a3ea616e1223",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -531,7 +532,8 @@
         "AntiGlare": "AGFILM",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -763,7 +765,7 @@
         "EntityId": "huion.tablet.gs1562",
         "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -885,7 +887,8 @@
         "AntiGlare": "AGFILM",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -1145,7 +1148,7 @@
         "EntityId": "huion.tablet.gs2201",
         "_id": "737d63f7-a797-4ce2-b813-14c00d2be899",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1204,7 +1207,8 @@
         "AntiGlare": "AGFILM",
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -1229,7 +1233,7 @@
         "EntityId": "huion.tablet.gs2202",
         "_id": "f0bf0b5f-dc6e-47da-826d-3586590dc939",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1364,7 +1368,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -1701,7 +1706,7 @@
         "EntityId": "huion.tablet.gs2402",
         "_id": "37a6dd3c-5e82-44c9-9cef-c08aee9dcbfb",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1764,7 +1769,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -1789,7 +1795,7 @@
         "EntityId": "huion.tablet.gt116",
         "_id": "8dae172b-105b-47a5-82a6-5c3c2e377935",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -1850,7 +1856,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2042,7 +2049,7 @@
         "EntityId": "huion.tablet.gt1561",
         "_id": "ffe844ea-86e7-42d7-8904-f62294276f6e",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2114,7 +2121,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2138,7 +2146,7 @@
         "EntityId": "huion.tablet.gt1562",
         "_id": "3fbc428c-b009-4952-811c-1db2af964fa6",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2284,7 +2292,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2404,7 +2413,7 @@
         "EntityId": "huion.tablet.gt156v2",
         "_id": "baab2cd3-d7e2-4c07-8b6d-a8758def35db",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2516,7 +2525,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -2896,7 +2906,7 @@
         "EntityId": "huion.tablet.gt1901",
         "_id": "d4ef79e8-754b-4b99-8af4-336a81e6b211",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -2954,7 +2964,8 @@
         "Lamination": "YES",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -3298,7 +3309,7 @@
         "EntityId": "huion.tablet.gt191",
         "_id": "478ce434-6f08-43d8-865e-c76ec9777e4f",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3369,7 +3380,8 @@
         "Lamination": "NO",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -3475,7 +3487,7 @@
         "EntityId": "huion.tablet.gt2201",
         "_id": "7b6cdaf8-ddf9-4815-8589-92c60403a717",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3531,7 +3543,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "8",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -3556,7 +3569,7 @@
         "EntityId": "huion.tablet.gt220v2",
         "_id": "4d2be310-8277-45c6-bdc8-0065fb41a689",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3614,7 +3627,8 @@
         },
         "Lamination": "NO",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -3638,7 +3652,7 @@
         "EntityId": "huion.tablet.gt221",
         "_id": "6e0f82e2-69a7-476b-813c-fc67eb22f38c",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3697,7 +3711,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -3721,7 +3736,7 @@
         "EntityId": "huion.tablet.gt240",
         "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -3905,7 +3920,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -6786,7 +6802,7 @@
         "EntityId": "huion.tablet.rds160",
         "_id": "5ef9fa8b-f4f0-4bfb-a1dd-2032a570178d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6845,7 +6861,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -6872,7 +6889,7 @@
         "EntityId": "huion.tablet.rds220",
         "_id": "84631815-e88d-4c66-a75e-385e077ce38a",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -6931,7 +6948,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "14",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -7258,7 +7276,7 @@
         "EntityId": "huion.tablet.unkkamvas20_2019",
         "_id": "3ead65af-c913-4243-8b60-dc83e13ed3d2",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "HUION",
@@ -7317,7 +7335,8 @@
         "AntiGlare": "ETCHEDGLASS",
         "ResponseTime": "25",
         "ViewingAngleHorizontal": "178",
-        "ViewingAngleVertical": "178"
+        "ViewingAngleVertical": "178",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {

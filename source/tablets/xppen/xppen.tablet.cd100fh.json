@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.cd100fh",
     "_id": "426c93bb-789a-480c-bb85-62f65cb0875d",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -62,7 +62,8 @@
     },
     "Lamination": "YES",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {
