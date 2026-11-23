@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt191v2",
     "_id": "53363949-0e82-4c88-b231-e1e77cd95c89",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T20:27:43.029Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -62,7 +62,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "25",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {
