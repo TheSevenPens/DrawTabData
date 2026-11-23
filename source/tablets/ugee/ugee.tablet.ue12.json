@@ -3,7 +3,7 @@
     "EntityId": "ugee.tablet.ue12",
     "_id": "47874a1b-e395-4d2a-b558-658dffcc2a83",
     "_CreateDate": "2026-04-03T06:01:40.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "UGEE",
@@ -39,7 +39,8 @@
       "SRGB": 124
     },
     "Lamination": "YES",
-    "AntiGlare": "AGFILM"
+    "AntiGlare": "AGFILM",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

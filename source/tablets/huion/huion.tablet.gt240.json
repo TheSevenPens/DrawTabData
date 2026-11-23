@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gt240",
     "_id": "fc740de6-090e-484d-8cbc-1af3b005aaa3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -187,7 +187,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "14",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

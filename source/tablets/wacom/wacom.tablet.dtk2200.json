@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtk2200",
     "_id": "5157afe7-e4d2-4cdb-89f2-a9f314c16eaa",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -80,7 +80,8 @@
       "ADOBERGB": 72
     },
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

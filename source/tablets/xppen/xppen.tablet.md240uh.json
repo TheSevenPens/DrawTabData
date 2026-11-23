@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md240uh",
     "_id": "c1b05341-5d43-4003-bb7e-f8b6a5ca0181",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -72,7 +72,8 @@
       "DISPLAYP3": 98
     },
     "Lamination": "YES",
-    "AntiGlare": "ETCHEDGLASS"
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

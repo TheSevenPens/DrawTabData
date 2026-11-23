@@ -18,13 +18,14 @@
     "PixelDimensions": {
       "Width": 1920,
       "Height": 1080
-    }
+    },
+    "RefreshRate": "60"
   },
   "Meta": {
     "EntityId": "wacom.tablet.dtha1300",
     "_id": "17fe5a44-7ce1-451e-929a-f7287dcfebf9",
     "_CreateDate": "2026-07-19T04:17:17.523Z",
-    "_ModifiedDate": "2026-07-19T04:17:17.523Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "OtherInputs": {
     "Touch": "YES"

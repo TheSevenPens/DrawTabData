@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dti520",
     "_id": "888ecb08-d981-4fd2-b7ce-b1fc2b9fe3da",
     "_CreateDate": "2026-11-20T01:16:24.471Z",
-    "_ModifiedDate": "2026-11-20T01:16:24.471Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -32,5 +32,8 @@
     "InputVoltage": "12",
     "InputSource": "ADAPTER",
     "ConsumptionMaxWatts": "23"
+  },
+  "Display": {
+    "RefreshRate": "60"
   }
 }

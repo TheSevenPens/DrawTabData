@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dtu2231",
     "_id": "fd87fd41-a7bf-4d45-8b8b-2bf1c61d8526",
     "_CreateDate": "2026-11-20T01:16:28.554Z",
-    "_ModifiedDate": "2026-11-20T01:16:28.554Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -27,5 +27,8 @@
     "InputSource": "ADAPTER",
     "ConsumptionMaxWatts": "39",
     "StandbyWatts": "2"
+  },
+  "Display": {
+    "RefreshRate": "60"
   }
 }

@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.gs1562",
     "_id": "480759f8-807e-4e21-ab91-1e00e5bcc12c",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -125,7 +125,8 @@
     "AntiGlare": "AGFILM",
     "ResponseTime": "25",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

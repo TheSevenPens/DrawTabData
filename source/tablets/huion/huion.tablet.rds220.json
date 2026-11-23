@@ -3,7 +3,7 @@
     "EntityId": "huion.tablet.rds220",
     "_id": "84631815-e88d-4c66-a75e-385e077ce38a",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "HUION",
@@ -62,7 +62,8 @@
     "AntiGlare": "ETCHEDGLASS",
     "ResponseTime": "14",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {
