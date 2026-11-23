@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.pl500",
     "_id": "45b2408d-d4f2-422c-a42d-1f0e845f85e4",
     "_CreateDate": "2026-04-19T00:00:00.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -31,7 +31,8 @@
       "Width": 1024,
       "Height": 768
     },
-    "PanelTech": "TFT"
+    "PanelTech": "TFT",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

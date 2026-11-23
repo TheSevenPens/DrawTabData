@@ -40,13 +40,14 @@
     },
     "ResponseTime": "25",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Meta": {
     "EntityId": "wacom.tablet.dtk1301",
     "_id": "185bc0ec-1d1a-43f8-899e-86e51e4aba63",
     "_CreateDate": "2026-07-19T04:01:50.281Z",
-    "_ModifiedDate": "2026-11-19T04:17:02.683Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "OtherInputs": {
     "Touch": "NO"

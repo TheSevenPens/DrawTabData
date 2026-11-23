@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth2200",
     "_id": "0d8bdb56-2e37-4d3c-9886-5a159c78c83a",
     "_CreateDate": "2026-07-19T04:01:44.987Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -42,7 +42,8 @@
       "ADOBERGB": 72
     },
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "OtherInputs": {
     "Touch": "YES"

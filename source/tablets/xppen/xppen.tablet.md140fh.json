@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md140fh",
     "_id": "98de78f7-80de-4d08-8a88-742f84f113d3",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -143,7 +143,8 @@
     "ColorGamutAreas": {
       "SRGB": 123,
       "ADOBERGB": 91
-    }
+    },
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

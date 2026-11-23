@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth2700",
     "_id": "b1f8fdf3-b111-45f7-9586-10af017cc2ec",
     "_CreateDate": "2026-04-21T00:00:00.000Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -56,7 +56,8 @@
     },
     "ResponseTime": "12",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

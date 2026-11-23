@@ -5,7 +5,7 @@
         "EntityId": "samsung.tablet.galaxybook5pro360",
         "_id": "d98ac606-74a8-4c17-81f5-c7609b7567cc",
         "_CreateDate": "2026-09-24T16:21:12.270Z",
-        "_ModifiedDate": "2026-10-05T17:11:59.310Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "SAMSUNG",
@@ -19,6 +19,9 @@
       },
       "Standalone": {
         "OS": "Windows"
+      },
+      "Display": {
+        "RefreshRate": "120"
       }
     },
     {

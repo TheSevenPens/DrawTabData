@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.artist24pro",
     "_id": "3ba56e15-bbcc-4944-a784-0b4d9363945d",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:27:16.482Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -60,8 +60,8 @@
   },
   "Display": {
     "PixelDimensions": {
-      "Width": 1920,
-      "Height": 1080
+      "Width": 2560,
+      "Height": 1440
     },
     "Contrast": "1000",
     "ColorBitDepth": "8",
@@ -70,7 +70,8 @@
     },
     "ResponseTime": "14",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

@@ -244,7 +244,7 @@
         "EntityId": "ugee.tablet.u1600",
         "_id": "5ca874a8-ba5a-4940-a019-a20faf568051",
         "_CreateDate": "2026-09-25T01:17:20.118Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -269,7 +269,8 @@
         "PixelDimensions": {
           "Width": 1920,
           "Height": 1080
-        }
+        },
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -290,7 +291,7 @@
         "EntityId": "ugee.tablet.ue12",
         "_id": "47874a1b-e395-4d2a-b558-658dffcc2a83",
         "_CreateDate": "2026-04-03T06:01:40.000Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -326,7 +327,8 @@
           "SRGB": 124
         },
         "Lamination": "YES",
-        "AntiGlare": "AGFILM"
+        "AntiGlare": "AGFILM",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -347,7 +349,7 @@
         "EntityId": "ugee.tablet.ue12plus",
         "_id": "c756b5cf-75dc-4b44-89ff-787433c1cd7b",
         "_CreateDate": "2026-04-03T06:01:40.000Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -393,7 +395,8 @@
           "SRGB": 147
         },
         "Lamination": "YES",
-        "AntiGlare": "AGFILM"
+        "AntiGlare": "AGFILM",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {
@@ -414,7 +417,7 @@
         "EntityId": "ugee.tablet.ue16",
         "_id": "ba2046ee-5f3c-4606-b542-72e779c545c9",
         "_CreateDate": "2026-04-01T21:44:35.000Z",
-        "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+        "_ModifiedDate": "2026-11-23T07:14:28.101Z"
       },
       "Model": {
         "Brand": "UGEE",
@@ -467,7 +470,8 @@
           "DCIP3": 108
         },
         "Lamination": "YES",
-        "AntiGlare": "AGFILM"
+        "AntiGlare": "AGFILM",
+        "RefreshRate": "60"
       },
       "Physical": {
         "Dimensions": {

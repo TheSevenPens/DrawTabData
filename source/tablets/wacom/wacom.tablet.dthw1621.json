@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dthw1621",
     "_id": "f1a2b3c4-d5e6-4f7a-8b9c-0d1e2f3a4b5c",
     "_CreateDate": "2026-04-13T00:00:00.000Z",
-    "_ModifiedDate": "2026-06-18T18:13:44.058Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -65,7 +65,8 @@
       "ADOBERGB": 85
     },
     "Lamination": "YES",
-    "AntiGlare": "ETCHEDGLASS"
+    "AntiGlare": "ETCHEDGLASS",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

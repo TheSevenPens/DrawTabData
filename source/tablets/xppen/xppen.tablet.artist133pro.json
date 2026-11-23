@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.artist133pro",
     "_id": "9183bb8a-fbfa-4b52-a77b-2d48f7a9a480",
     "_CreateDate": "2025-12-12T12:33:46.983Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -75,7 +75,8 @@
     },
     "ResponseTime": "14",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

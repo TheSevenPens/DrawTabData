@@ -3,7 +3,7 @@
     "EntityId": "digidraw.tablet.d1901t",
     "_id": "df18d578-4201-4bfa-97da-4cc87c1f8661",
     "_CreateDate": "2026-04-20T00:00:00Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "DIGIDRAW",
@@ -61,7 +61,8 @@
     "Lamination": "YES",
     "AntiGlare": "ETCHEDGLASS",
     "ViewingAngleHorizontal": "178",
-    "ViewingAngleVertical": "178"
+    "ViewingAngleVertical": "178",
+    "RefreshRate": "60"
   },
   "Physical": {
     "Dimensions": {

@@ -3,7 +3,7 @@
     "EntityId": "wacom.tablet.dth1152",
     "_id": "4298e139-ddbb-4f23-9411-5ceff251a0e5",
     "_CreateDate": "2026-11-20T01:16:29.845Z",
-    "_ModifiedDate": "2026-11-20T01:16:29.845Z"
+    "_ModifiedDate": "2026-11-23T07:14:28.101Z"
   },
   "Model": {
     "Brand": "WACOM",
@@ -26,5 +26,8 @@
     "InputSource": "ADAPTER",
     "ConsumptionMaxWatts": "10",
     "StandbyWatts": "0.5"
+  },
+  "Display": {
+    "RefreshRate": "60"
   }
 }
