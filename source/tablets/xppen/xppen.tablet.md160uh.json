@@ -3,7 +3,7 @@
     "EntityId": "xppen.tablet.md160uh",
     "_id": "f8a037ae-45ef-4392-8b61-d3b09f33166b",
     "_CreateDate": "2025-12-12T18:57:53.360Z",
-    "_ModifiedDate": "2026-11-19T01:23:09.255Z"
+    "_ModifiedDate": "2026-11-23T07:01:25.043Z"
   },
   "Model": {
     "Brand": "XPPEN",
@@ -146,7 +146,25 @@
       "xppen.pen.pd21",
       "xppen.pen.pd51"
     ],
-    "Status": "AVAILABLE"
+    "Status": "AVAILABLE",
+    "IncludedInBox": [
+      "Artist Ultra 16 Drawing Display x 1",
+      "X3 Pro Smart Chip Stylus x 1",
+      "X3 Pro Slim Stylus x 1",
+      "Pen case with nibs (X3 Pro Slim Stylus nibs x 4, X3 Pro Stylus felt nibs x 4)",
+      "ACK05 Shortcut Remote x 1",
+      "Bluetooth Receiver x 1",
+      "USB-C to USB-C Cables x 2",
+      "USB-C to USB-A Cable x 1",
+      "Power Adapter x 1",
+      "3-in-1 Cable x 1",
+      "X3 Pro Slim Stylus nibs x 10",
+      "X3 Pro Stylus Standard Nibs x 10",
+      "ACS 16 Stand x 1",
+      "Cleaning Cloth x 1",
+      "Glove x 1"
+    ],
+    "Notes": "Ships with the X3 Pro Smart Chip stylus (PD21D) and X3 Pro Slim stylus (PD51B); no on-device express keys - an ACK05 wireless shortcut remote (40 customizable keys) is bundled. Panel is AMOLED; the power adapter takes AC 100-240 V."
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
