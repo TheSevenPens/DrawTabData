@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "counts": {
-    "tablets": 404,
+    "tablets": 410,
     "pens": 145,
     "penFamilies": 24,
     "tabletFamilies": 60,
@@ -131,7 +131,7 @@
       "xppen.pen.pd04b": 2
     }
   },
-  "sourceDigest": "483130b511d93041c13bbd27522c18835a92fcc3ef09ff766bdb9fa00b7a700d",
+  "sourceDigest": "ddfca6827fb0096d86810eb871f0d91391b90cf5cd2efad916d807212f3f8b2e",
   "bundles": [
     {
       "path": "tablets/APPLE-tablets.json",
@@ -155,8 +155,8 @@
     },
     {
       "path": "tablets/HUION-tablets.json",
-      "sha256": "8c23e645b79a4a57437dd83bd2377c6bc82b85b3da19c96e021b027fa6ed2932",
-      "count": 70
+      "sha256": "deb2ad75d482ea34c622a245c9e96780d76fd179033ed5e40d56413692c7c742",
+      "count": 76
     },
     {
       "path": "tablets/SAMSUNG-tablets.json",
