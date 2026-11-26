@@ -2,6 +2,72 @@
   "DrawingTablets": [
     {
       "Meta": {
+        "EntityId": "huion.tablet.420",
+        "_id": "05988fb0-a04e-4760-9630-f8241f03253d",
+        "_CreateDate": "2026-11-26T04:53:54.000Z",
+        "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "420",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/420",
+            "Title": "Huion 420 specifications",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://store.huion.com/global/about",
+            "Title": "Huion corporate history: 420 and H420 launch",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Name": "Inspiroy 420",
+        "Type": "PENTABLET",
+        "IncludedPen": [
+          "huion.pen.pen68"
+        ],
+        "Notes": "Supports drawing and electronic signatures. Unlike the H420, the 420 has no programmable tablet buttons.",
+        "ReleaseYear": "2013"
+      },
+      "Digitizer": {
+        "Type": "ACTIVE_EMR",
+        "PressureLevels": "2048",
+        "Dimensions": {
+          "Width": 106,
+          "Height": 64.6
+        },
+        "Density": "157.48",
+        "ReportRate": "200",
+        "AccuracyCenter": "0.3",
+        "MaxHover": "12"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 176,
+          "Height": 111,
+          "Depth": 7.5
+        },
+        "Weight": "167"
+      },
+      "OtherInputs": {
+        "Touch": "NO",
+        "Buttons": "0"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MINI_USB"
+          }
+        ]
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "huion.tablet.g930l",
         "_id": "6fda48fc-98fa-46ca-9fe1-d2c953ca70a1",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -3485,6 +3551,117 @@
     },
     {
       "Meta": {
+        "EntityId": "huion.tablet.gt192",
+        "_id": "d7715f80-9062-415f-b22b-cfda6c35019b",
+        "_CreateDate": "2026-11-26T04:53:54.000Z",
+        "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "GT-192",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/pen-display/KamvasPro/kamvas-pro-20-2019",
+            "Title": "Huion comparison: original GT-192 and GT1901",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/news/11",
+            "Title": "Huion announces the original Kamvas Pro 20 at its Philippine launch",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://support.huion.com/en/support/solutions/articles/44002285343-anti-glare-introduction-and-its-production",
+            "Title": "Huion anti-glare technology and models",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Name": "Kamvas Pro 20",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2018",
+        "ReleaseDate": "2018",
+        "IncludedPen": [
+          "huion.pen.pw500"
+        ],
+        "Notes": "Original 2018 model, distinct from GT1901 (2019). Huion specifies a report rate over 200 PPS."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 434.88,
+          "Height": 238.68
+        },
+        "Density": "200",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "AccuracyCenter": "0.5",
+        "AccuracyCorner": "3",
+        "MaxHover": "10"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1080
+        },
+        "PanelTech": "IPS",
+        "Brightness": "250",
+        "Contrast": "1000",
+        "ColorBitDepth": "8",
+        "ColorGamutAreas": {
+          "SRGB": 100
+        },
+        "AntiGlare": "ETCHEDGLASS",
+        "ResponseTime": "25",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 552.2,
+          "Height": 315.3,
+          "Depth": 21
+        },
+        "Weight": "3600",
+        "WeightInclStand": "YES",
+        "IncludedStand": "YES"
+      },
+      "OtherInputs": {
+        "Buttons": "16",
+        "TouchStrips": "2"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "DISPLAYPORT"
+          },
+          {
+            "Type": "VGA"
+          },
+          {
+            "Type": "DC_POWER"
+          }
+        ]
+      },
+      "Power": {
+        "InputSource": "ADAPTER",
+        "InputVoltage": "12",
+        "InputCurrent": "3",
+        "ConsumptionMaxWatts": "18",
+        "StandbyWatts": "0.3"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "huion.tablet.gt2201",
         "_id": "7b6cdaf8-ddf9-4815-8589-92c60403a717",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -5110,6 +5287,74 @@
     },
     {
       "Meta": {
+        "EntityId": "huion.tablet.h580x",
+        "_id": "f0d50372-1bf6-4ab2-8be5-59f39a602e3f",
+        "_CreateDate": "2026-11-26T04:53:54.000Z",
+        "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "H580X",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/inspiroy-h580x",
+            "Title": "Huion Inspiroy H580X specifications",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/about-us",
+            "Title": "Huion corporate history: H580X tenth anniversary release",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Name": "Inspiroy H580X",
+        "Type": "PENTABLET",
+        "ReleaseYear": "2021",
+        "ReleaseDate": "2021",
+        "IncludedPen": [
+          "huion.pen.pw100"
+        ],
+        "Notes": "Huion specifies a report rate over 220 PPS."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 203.2,
+          "Height": 127
+        },
+        "Density": "200",
+        "ReportRate": "220",
+        "Tilt": "60",
+        "AccuracyCenter": "0.3",
+        "MaxHover": "10"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 276.7,
+          "Height": 170.6,
+          "Depth": 8
+        },
+        "Weight": "343"
+      },
+      "OtherInputs": {
+        "Touch": "NO",
+        "Buttons": "8"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "huion.tablet.h610pro",
         "_id": "9679f7c4-6bb5-4be6-936c-3798700f0f0b",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -5855,6 +6100,77 @@
             "Type": "MICRO_USB"
           }
         ]
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.kd200",
+        "_id": "dc750102-338f-401c-a7a0-5e5dc4c88ddd",
+        "_CreateDate": "2026-11-26T04:53:54.000Z",
+        "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KD200",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/inspiroy-keydial-kd200",
+            "Title": "Huion Inspiroy Keydial KD200 specifications",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/news/34",
+            "Title": "Huion introduces the Inspiroy Keydial KD200",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Name": "Inspiroy Keydial",
+        "Type": "PENTABLET",
+        "ReleaseYear": "2021",
+        "ReleaseDate": "2021",
+        "IncludedPen": [
+          "huion.pen.pw517"
+        ],
+        "Notes": "Huion specifies a report rate over 220 PPS. The 23 standard keyboard keys are not counted as programmable tablet buttons."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 226,
+          "Height": 142.88
+        },
+        "Density": "200",
+        "ReportRate": "220",
+        "Tilt": "60",
+        "AccuracyCenter": "0.3",
+        "MaxHover": "10"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 394.5,
+          "Height": 187.7,
+          "Depth": 8.5
+        },
+        "Weight": "650"
+      },
+      "OtherInputs": {
+        "Touch": "NO",
+        "Buttons": "5",
+        "Dials": "1"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0"
       }
     },
     {
@@ -6800,6 +7116,113 @@
     },
     {
       "Meta": {
+        "EntityId": "huion.tablet.rds130",
+        "_id": "b6749728-f711-4241-bc3f-6283a41dacd8",
+        "_CreateDate": "2026-11-26T04:53:54.000Z",
+        "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "RDS-130",
+        "Links": [
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/jp/products/kamvas-13-gen-3-se",
+            "Title": "Huion Japan store: Kamvas 13 (Gen 3) SE",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/download/driver-update-log",
+            "Title": "Huion driver update log lists RDS-130 separately",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://www.newegg.com/p/3C6-02AV-00XX6",
+            "Title": "Newegg lists the Kamvas 13 (Gen 3) SE in November 2025",
+            "Author": "Newegg",
+            "ContentType": "HTML"
+          }
+        ],
+        "Name": "Kamvas 13 (Gen 3) SE",
+        "Type": "PENDISPLAY",
+        "Notes": "The Huion Japan store identifies the SE as a Japan/US variant and lists PW600A in the box but PW600L in its specifications. Bundled pen not recorded pending reconciliation.",
+        "Family": "huion.tabletfamily.huion_kamvasgen3",
+        "ReleaseYear": "2025"
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "16384",
+        "Dimensions": {
+          "Width": 293.8,
+          "Height": 165.2
+        },
+        "Density": "200",
+        "Tilt": "60",
+        "AccuracyCenter": "0.3",
+        "AccuracyCorner": "2",
+        "MaxHover": "10"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1080
+        },
+        "PanelTech": "IPS",
+        "Brightness": "200",
+        "Contrast": "1000",
+        "ColorBitDepth": "8",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "REC709": 99,
+          "ADOBERGB": 90
+        },
+        "ColorGamutAreas": {
+          "SRGB": 120
+        },
+        "AntiGlare": "ETCHEDGLASS",
+        "ResponseTime": "25",
+        "RefreshRate": "60",
+        "ViewingAngleHorizontal": "170",
+        "ViewingAngleVertical": "170"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 361.21,
+          "Height": 202.77,
+          "Depth": 11.7
+        },
+        "Weight": "865",
+        "VesaMount": "NO",
+        "IncludedStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "NO"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "HDMI signal"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "DisplayPort signal"
+          }
+        ]
+      },
+      "Power": {
+        "InputSource": "USB",
+        "InputVoltage": "5",
+        "InputCurrent": "2",
+        "ConsumptionMaxWatts": "7"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "huion.tablet.rds160",
         "_id": "5ef9fa8b-f4f0-4bfb-a1dd-2032a570178d",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -6967,6 +7390,72 @@
         "InputSource": "ADAPTER",
         "ConsumptionMaxWatts": "30",
         "StandbyWatts": "0.5"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.rte100",
+        "_id": "0dd8fb9f-035d-4704-a83b-a48dd733b353",
+        "_CreateDate": "2026-11-26T04:53:54.000Z",
+        "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "RTE-100",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/inspiroy-rte-100",
+            "Title": "Huion Inspiroy RTE-100 specifications",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manaul_pdf/en/RTE-100.pdf",
+            "Title": "Inspiroy RTE-100 user manual",
+            "Author": "Huion",
+            "ContentType": "PDF"
+          }
+        ],
+        "Name": "Inspiroy RTE-100",
+        "Type": "PENTABLET",
+        "IncludedPen": [
+          "huion.pen.pw400"
+        ],
+        "Notes": "The recorded active area is for computer mode. Huion specifies a report rate over 300 PPS. Manufacturer manual copyright 2021; actual retail release year not verified.",
+        "ReleaseYear": ""
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 121.9,
+          "Height": 76.2
+        },
+        "Density": "200",
+        "ReportRate": "300",
+        "AccuracyCenter": "0.3",
+        "MaxHover": "10"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 185.7,
+          "Height": 138.2,
+          "Depth": 6.3
+        },
+        "Weight": "150"
+      },
+      "OtherInputs": {
+        "Touch": "NO",
+        "Buttons": "4"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "MICRO_USB"
+          }
+        ]
       }
     },
     {

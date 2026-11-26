@@ -1,0 +1,68 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.h580x",
+    "_id": "f0d50372-1bf6-4ab2-8be5-59f39a602e3f",
+    "_CreateDate": "2026-11-26T04:53:54.000Z",
+    "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "H580X",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/inspiroy-h580x",
+        "Title": "Huion Inspiroy H580X specifications",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/about-us",
+        "Title": "Huion corporate history: H580X tenth anniversary release",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Inspiroy H580X",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "IncludedPen": [
+      "huion.pen.pw100"
+    ],
+    "Notes": "Huion specifies a report rate over 220 PPS."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 203.2,
+      "Height": 127
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 276.7,
+      "Height": 170.6,
+      "Depth": 8
+    },
+    "Weight": "343"
+  },
+  "OtherInputs": {
+    "Touch": "NO",
+    "Buttons": "8"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  }
+}

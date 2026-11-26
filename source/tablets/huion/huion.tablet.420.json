@@ -1,0 +1,66 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.420",
+    "_id": "05988fb0-a04e-4760-9630-f8241f03253d",
+    "_CreateDate": "2026-11-26T04:53:54.000Z",
+    "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "420",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/420",
+        "Title": "Huion 420 specifications",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://store.huion.com/global/about",
+        "Title": "Huion corporate history: 420 and H420 launch",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Inspiroy 420",
+    "Type": "PENTABLET",
+    "IncludedPen": [
+      "huion.pen.pen68"
+    ],
+    "Notes": "Supports drawing and electronic signatures. Unlike the H420, the 420 has no programmable tablet buttons.",
+    "ReleaseYear": "2013"
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "2048",
+    "Dimensions": {
+      "Width": 106,
+      "Height": 64.6
+    },
+    "Density": "157.48",
+    "ReportRate": "200",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "12"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 176,
+      "Height": 111,
+      "Depth": 7.5
+    },
+    "Weight": "167"
+  },
+  "OtherInputs": {
+    "Touch": "NO",
+    "Buttons": "0"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MINI_USB"
+      }
+    ]
+  }
+}

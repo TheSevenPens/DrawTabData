@@ -1,0 +1,111 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.gt192",
+    "_id": "d7715f80-9062-415f-b22b-cfda6c35019b",
+    "_CreateDate": "2026-11-26T04:53:54.000Z",
+    "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "GT-192",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/pen-display/KamvasPro/kamvas-pro-20-2019",
+        "Title": "Huion comparison: original GT-192 and GT1901",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/news/11",
+        "Title": "Huion announces the original Kamvas Pro 20 at its Philippine launch",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://support.huion.com/en/support/solutions/articles/44002285343-anti-glare-introduction-and-its-production",
+        "Title": "Huion anti-glare technology and models",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Kamvas Pro 20",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "ReleaseDate": "2018",
+    "IncludedPen": [
+      "huion.pen.pw500"
+    ],
+    "Notes": "Original 2018 model, distinct from GT1901 (2019). Huion specifies a report rate over 200 PPS."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 434.88,
+      "Height": 238.68
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3",
+    "MaxHover": "10"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "250",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamutAreas": {
+      "SRGB": 100
+    },
+    "AntiGlare": "ETCHEDGLASS",
+    "ResponseTime": "25",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 552.2,
+      "Height": 315.3,
+      "Depth": 21
+    },
+    "Weight": "3600",
+    "WeightInclStand": "YES",
+    "IncludedStand": "YES"
+  },
+  "OtherInputs": {
+    "Buttons": "16",
+    "TouchStrips": "2"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "HDMI"
+      },
+      {
+        "Type": "DISPLAYPORT"
+      },
+      {
+        "Type": "VGA"
+      },
+      {
+        "Type": "DC_POWER"
+      }
+    ]
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "InputVoltage": "12",
+    "InputCurrent": "3",
+    "ConsumptionMaxWatts": "18",
+    "StandbyWatts": "0.3"
+  }
+}
