@@ -1,0 +1,130 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.ks2201",
+    "_id": "ab76453d-2dd9-4b55-ae1e-bfaaa2cb652f",
+    "_CreateDate": "2026-11-26T04:54:35.198Z",
+    "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KS2201",
+    "Name": "Kamvas Studio 22",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2020",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw500"
+    ],
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://b2b.huion.cn/news/company/25.html",
+        "Title": "Huion Kamvas Studio 22 mainland launch",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "PublishDate": "2020-05-20"
+      },
+      {
+        "Type": "USERMANUAL",
+        "URL": "https://manualsnet.com/huion/kamvas-studio-22-ks2201",
+        "Title": "Huion Kamvas Studio 22 user manual (manufacturer manual mirrored by Manualsnet)",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://support.huion.com/en/support/solutions/articles/44002370314-how-can-you-make-osd-adjustment-in-macos-driver-work",
+        "Title": "Huion support identifies KS2201",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Notes": "Release date is the mainland China launch. Huion lists 8 GB RAM with 120 GB SSD + 1 TB HDD or 16 GB RAM with 240 GB SSD + 1 TB HDD. Its mainland announcement lists Windows 10 Home, while the English manual lists Windows 10 Professional. The manual also lists a Gigabit Ethernet port.",
+    "ReleaseDate": "2020-05-20"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 476.64,
+      "Height": 268.11
+    },
+    "PressureLevels": "8192",
+    "Type": "PASSIVE_EMR",
+    "Density": "200",
+    "MaxHover": "10",
+    "ReportRate": "200",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "ResponseTime": "8",
+    "ColorBitDepth": "8",
+    "Contrast": "1000",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178",
+    "ColorGamutAreas": {
+      "SRGB": 120
+    }
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 589,
+      "Height": 344,
+      "Depth": 21
+    },
+    "Weight": "4750"
+  },
+  "OtherInputs": {
+    "Buttons": "20"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "VGA"
+      },
+      {
+        "Type": "HDMI"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "DC_POWER"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      },
+      {
+        "Type": "AUDIO_3_5MM",
+        "Detail": "Microphone input"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "4.2",
+    "Wifi": "802.11 a/b/g/n/ac"
+  },
+  "Standalone": {
+    "OS": "Windows 10",
+    "Processor": "Intel Core i5-8400",
+    "GPU": "Intel UHD Graphics 630",
+    "Speakers": "YES"
+  }
+}

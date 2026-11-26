@@ -1,0 +1,152 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.ks2401",
+    "_id": "f30f0e6e-a5a5-47f9-8477-2f9a165d4d33",
+    "_CreateDate": "2026-11-26T04:54:35.198Z",
+    "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KS2401",
+    "Name": "Kamvas Studio 24",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2023",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw550",
+      "huion.pen.pw550s"
+    ],
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/kamvas-studio-24",
+        "Title": "Huion Kamvas Studio 24",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.huion.com/manaul_pdf/en/KS2401.pdf",
+        "Title": "Kamvas Studio 24 user manual",
+        "Author": "Huion",
+        "ContentType": "PDF"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/news/the-official-preorder-for-Kamvasstudio16-24-is-available",
+        "Title": "Official Kamvas Studio 16 and 24 preorder announcement",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "PublishDate": "2023-02-14"
+      }
+    ],
+    "Notes": "Dimensions exclude the ST100C stand. Huion also lists an RJ45 Ethernet port, which has no enum entry. Huion describes the digitizer report rate as over 300 PPS.",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 526.85,
+      "Height": 296.35
+    },
+    "PressureLevels": "8192",
+    "Type": "PASSIVE_EMR",
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "AccuracyCenter": "0.5",
+    "AccuracyCorner": "3"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "220",
+    "ResponseTime": "14",
+    "ColorBitDepth": "8",
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178",
+    "ColorGamuts": {
+      "SRGB": 99
+    }
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 581.85,
+      "Height": 361.7,
+      "Depth": 86.6
+    },
+    "Weight": "8700",
+    "IncludedStand": "YES"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "HDMI"
+      },
+      {
+        "Type": "DVI"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 2.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 2.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "USB_A",
+        "Detail": "USB 3.0"
+      },
+      {
+        "Type": "DC_POWER"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      },
+      {
+        "Type": "AUDIO_3_5MM",
+        "Detail": "Microphone input"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.2",
+    "Wifi": "Wi-Fi 6"
+  },
+  "Standalone": {
+    "OS": "Windows 11 Professional",
+    "Processor": "Intel Core i7-12700F",
+    "GPU": "NVIDIA GeForce GTX 1650",
+    "RAM": "32",
+    "Storage": "1000",
+    "Speakers": "YES",
+    "FrontCamera": "5"
+  },
+  "Power": {
+    "InputSource": "ADAPTER",
+    "InputVoltage": "19",
+    "InputCurrent": "14.2"
+  }
+}
