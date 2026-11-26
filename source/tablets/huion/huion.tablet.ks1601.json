@@ -1,0 +1,125 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.ks1601",
+    "_id": "e4906b6f-085a-49a0-bccb-68a62ff7b195",
+    "_CreateDate": "2026-11-26T04:54:35.198Z",
+    "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KS1601",
+    "Name": "Kamvas Studio 16",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2023",
+    "Audience": "Professional",
+    "IncludedPen": [
+      "huion.pen.pw550s"
+    ],
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/kamvas-studio-16",
+        "Title": "Huion Kamvas Studio 16",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/news/the-official-preorder-for-Kamvasstudio16-24-is-available",
+        "Title": "Official Kamvas Studio 16 and 24 preorder announcement",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "PublishDate": "2023-02-14"
+      },
+      {
+        "Type": "STORE",
+        "URL": "https://store.huion.com/eu/products/kamvas-studio-16",
+        "Title": "Kamvas Studio 16 (Huion Europe store)",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Notes": "Specs describe the original Core i7-1165G7 configuration documented by Huion. The Europe store lists a Core i7-1355U / LPDDR5 configuration under the same KS1601 ID. The original battery is rated 58 Wh; no mAh figure is entered. Huion describes the digitizer report rate as over 300 PPS.",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 349.6,
+      "Height": 196.7
+    },
+    "PressureLevels": "8192",
+    "Type": "PASSIVE_EMR",
+    "Density": "200",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "1"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "PanelTech": "IPS",
+    "Brightness": "400",
+    "ResponseTime": "14",
+    "ColorBitDepth": "8",
+    "Contrast": "1200",
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178",
+    "ColorGamuts": {
+      "ADOBERGB": 100
+    }
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 384,
+      "Height": 234,
+      "Depth": 11.9
+    },
+    "Weight": "1700",
+    "Legs": "YES",
+    "IncludedStand": "YES"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "DisplayPort 1.4 and USB 3.2"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "DisplayPort 1.4 and USB 3.2"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0",
+    "Wifi": "Wi-Fi 6"
+  },
+  "Standalone": {
+    "OS": "Windows 11 Professional",
+    "Processor": "Intel Core i7-1165G7",
+    "GPU": "Intel Iris Xe Graphics",
+    "RAM": "16",
+    "Storage": "512",
+    "BatteryLife": "6",
+    "BatteryChargingWatts": "65",
+    "Speakers": "YES",
+    "FrontCamera": "5",
+    "RearCamera": "8"
+  },
+  "Power": {
+    "InputSource": "USB_PD",
+    "InputWatts": "65",
+    "AdapterWatts": "65",
+    "OutputWatts": "15"
+  }
+}
