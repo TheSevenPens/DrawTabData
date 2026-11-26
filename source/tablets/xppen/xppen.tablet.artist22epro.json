@@ -1,0 +1,69 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist22epro",
+    "_id": "16d1ed01-9596-4654-9677-ccbacc49ea07",
+    "_CreateDate": "2026-11-26T04:53:17.671Z",
+    "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST22EPRO",
+    "Name": "Artist 22E Pro",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2018",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-22e-pro.html",
+        "Title": "Artist 22E Pro",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://download01.xp-pen.com/file/2020/06/Artist%2022E%20Pro%20User%20Manual%28English%29.pdf",
+        "Title": "Artist 22E Pro English manual",
+        "Author": "XPPen",
+        "ContentType": "PDF"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.xp-pen.com/news/first-ever-product-launch-event.html",
+        "Title": "XPPen product launch event recap",
+        "Author": "XPPen",
+        "ContentType": "HTML",
+        "PublishDate": "2018-07-20"
+      }
+    ],
+    "IncludedPen": [
+      "xppen.pen.p02s"
+    ],
+    "Notes": "XPPen identifies it by the model name. This is the display with 16 shortcut buttons, distinct from the Artist 22 Pro. The manufacturer documents 77–82% Adobe RGB coverage."
+  },
+  "Digitizer": {
+    "Type": "ACTIVE_EMR",
+    "PressureLevels": "8192"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS",
+    "AntiReflection": "YES",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "VesaMount": "YES",
+    "VesaPattern": [
+      "75x75"
+    ]
+  },
+  "OtherInputs": {
+    "Buttons": "16"
+  },
+  "Power": {
+    "InputSource": "ADAPTER"
+  }
+}

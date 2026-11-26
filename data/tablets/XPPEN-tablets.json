@@ -457,6 +457,55 @@
     },
     {
       "Meta": {
+        "EntityId": "xppen.tablet.artist133v2",
+        "_id": "be4ee8f6-e201-4867-a250-c9873b2c4220",
+        "_CreateDate": "2026-11-26T04:53:17.671Z",
+        "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+      },
+      "Model": {
+        "Brand": "XPPEN",
+        "Id": "ARTIST133V2",
+        "Name": "Artist 13.3 V2",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xp-pen.com/product/artist-13-3-v2.html",
+            "Title": "Artist 13.3 V2",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://download01.xp-pen.com/file/2020/06/Artist%2013.3%20V2%20User%20Manual%28English%29%20.pdf",
+            "Title": "Artist 13.3 V2 English manual",
+            "Author": "XPPen",
+            "ContentType": "PDF"
+          }
+        ],
+        "IncludedPen": [
+          "xppen.pen.p05"
+        ],
+        "Notes": "XPPen identifies this display by the product name. No separate model code or reliable launch date verified. Not the Artist 13 (2nd Gen), Artist 13.3 Pro or Artist 13.3 Pro V2."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1080
+        },
+        "PanelTech": "IPS"
+      },
+      "OtherInputs": {
+        "Buttons": "6"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "xppen.tablet.artist156",
         "_id": "90a67454-8ccd-4d62-a8d1-f849fce201bf",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -754,6 +803,75 @@
       },
       "OtherInputs": {
         "Touch": "NO"
+      },
+      "Power": {
+        "InputSource": "ADAPTER"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "xppen.tablet.artist22epro",
+        "_id": "16d1ed01-9596-4654-9677-ccbacc49ea07",
+        "_CreateDate": "2026-11-26T04:53:17.671Z",
+        "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+      },
+      "Model": {
+        "Brand": "XPPEN",
+        "Id": "ARTIST22EPRO",
+        "Name": "Artist 22E Pro",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2018",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xp-pen.com/product/artist-22e-pro.html",
+            "Title": "Artist 22E Pro",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://download01.xp-pen.com/file/2020/06/Artist%2022E%20Pro%20User%20Manual%28English%29.pdf",
+            "Title": "Artist 22E Pro English manual",
+            "Author": "XPPen",
+            "ContentType": "PDF"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.xp-pen.com/news/first-ever-product-launch-event.html",
+            "Title": "XPPen product launch event recap",
+            "Author": "XPPen",
+            "ContentType": "HTML",
+            "PublishDate": "2018-07-20"
+          }
+        ],
+        "IncludedPen": [
+          "xppen.pen.p02s"
+        ],
+        "Notes": "XPPen identifies it by the model name. This is the display with 16 shortcut buttons, distinct from the Artist 22 Pro. The manufacturer documents 77–82% Adobe RGB coverage."
+      },
+      "Digitizer": {
+        "Type": "ACTIVE_EMR",
+        "PressureLevels": "8192"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1080
+        },
+        "PanelTech": "IPS",
+        "AntiReflection": "YES",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178"
+      },
+      "Physical": {
+        "VesaMount": "YES",
+        "VesaPattern": [
+          "75x75"
+        ]
+      },
+      "OtherInputs": {
+        "Buttons": "16"
       },
       "Power": {
         "InputSource": "ADAPTER"
@@ -1927,6 +2045,94 @@
     },
     {
       "Meta": {
+        "EntityId": "xppen.tablet.cd161qh",
+        "_id": "715d8547-df0b-4a19-be93-a86516bfd48b",
+        "_CreateDate": "2026-11-26T04:53:17.671Z",
+        "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+      },
+      "Model": {
+        "Brand": "XPPEN",
+        "Id": "CD161QH",
+        "Name": "Artist 16 3rd (2.5K)",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2026",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xp-pen.com/product/artist-16-3rd-25k.html",
+            "Title": "Artist 16 3rd (2.5K)",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://prtimes.jp/main/html/rd/p/000000050.000090174.html",
+            "Title": "Artist 16 3rd 2.5K Japanese launch",
+            "Author": "XPPen",
+            "ContentType": "HTML",
+            "PublishDate": "2026-11-16"
+          }
+        ],
+        "ReleaseDate": "2026-11-16",
+        "Notes": "Release date is the Japan launch. This is the QHD model, distinct from the FHD CD161FH. XPPen specifies an included X4 Smart Chip Stylus but does not list its pen model number in these specifications.",
+        "Family": "xppen.tabletfamily.xppen_artistgen3"
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "16384",
+        "Dimensions": {
+          "Width": 350.44,
+          "Height": 197.56
+        },
+        "AccuracyCenter": "0.2",
+        "MaxHover": "10"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2560,
+          "Height": 1440
+        },
+        "Brightness": "270",
+        "Contrast": "1000",
+        "ColorBitDepth": "8",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "ADOBERGB": 91,
+          "DISPLAYP3": 96
+        },
+        "Lamination": "YES",
+        "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 418.6,
+          "Height": 241.6,
+          "Depth": 13.2
+        },
+        "Weight": "1305",
+        "IncludedStand": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "Full-featured"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "3-in-1"
+          }
+        ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "3",
+        "InputSource": "USB"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "xppen.tablet.cd220f",
         "_id": "50732cec-fead-413c-ae21-0d72e061ee12",
         "_CreateDate": "2025-12-12T12:33:46.983Z",
@@ -3024,6 +3230,170 @@
           }
         ],
         "AttachedCable": []
+      },
+      "Power": {
+        "InputSource": "USB"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "xppen.tablet.decomini7w",
+        "_id": "e6b3627c-3918-4eba-a8cd-5f87fb37ba78",
+        "_CreateDate": "2026-11-26T04:53:17.671Z",
+        "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+      },
+      "Model": {
+        "Brand": "XPPEN",
+        "Id": "DECOMINI7W",
+        "Name": "Deco mini7W",
+        "Type": "PENTABLET",
+        "ReleaseYear": "2021",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xp-pen.com/product/deco-mini7w-wireless.html",
+            "Title": "Deco mini7W wireless",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.ask-corp.jp/products/xp-pen/pen-tablet/deco-mini-7w.html",
+            "Title": "Deco Mini 7W release timing and specifications",
+            "Author": "ASK Corporation",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://fccid.io/2AKDT-DECOMINI7W",
+            "Title": "FCC filing for Deco mini7W",
+            "Author": "XPPen (FCC filing)",
+            "ContentType": "HTML"
+          }
+        ],
+        "ReleaseDate": "2021-01-15",
+        "IncludedPen": [
+          "xppen.pen.p05d"
+        ],
+        "Notes": "Release date is the documented Japan launch; FCC authorization predates it. The original uses a proprietary 2.4 GHz USB receiver, not Bluetooth."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "8192",
+        "Dimensions": {
+          "Width": 177.8,
+          "Height": 111.1
+        },
+        "Density": "200",
+        "ReportRate": "220",
+        "Tilt": "60",
+        "MaxHover": "10"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 260.2,
+          "Height": 162.2,
+          "Depth": 9.3
+        },
+        "Weight": "330"
+      },
+      "OtherInputs": {
+        "Buttons": "8"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": [],
+        "Bluetooth": "NO"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputSource": "USB"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "xppen.tablet.decomini7wv2",
+        "_id": "be037888-e3f5-444f-a3db-af8d6309442f",
+        "_CreateDate": "2026-11-26T04:53:17.671Z",
+        "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+      },
+      "Model": {
+        "Brand": "XPPEN",
+        "Id": "DECOMINI7WV2",
+        "Name": "Deco mini7W V2",
+        "Type": "PENTABLET",
+        "ReleaseYear": "2026",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xp-pen.com/product/deco-mini7w-v2.html",
+            "Title": "Deco mini7W V2",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.xp-pen.com/user-manual/deco-mini7w-v2.html",
+            "Title": "Deco mini7W V2 manual",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://fccid.io/2AKDT-DECOMINI7WV2",
+            "Title": "FCC filing for Deco mini7W V2",
+            "Author": "XPPen (FCC filing)",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://b2b.ask-corp.jp/view/item/000000000536",
+            "Title": "Deco mini7W V2 Japan release timing",
+            "Author": "ASK Corporation",
+            "ContentType": "HTML"
+          }
+        ],
+        "ReleaseDate": "2026-07-31",
+        "IncludedPen": [
+          "xppen.pen.p05d"
+        ],
+        "Notes": "Release date is the documented Japan launch. Earlier dated FCC and driver materials are not retail launch dates. This is the Bluetooth 5.0 model, distinct from the original 2.4 GHz receiver model and the wired Deco mini7 V2."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "16384",
+        "Dimensions": {
+          "Width": 177.8,
+          "Height": 111
+        },
+        "Density": "200",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "MaxHover": "10"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 260,
+          "Height": 162,
+          "Depth": 9
+        }
+      },
+      "OtherInputs": {
+        "Buttons": "8"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ],
+        "AttachedCable": [],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0"
       },
       "Power": {
         "InputSource": "USB"
@@ -4379,6 +4749,97 @@
         "Speakers": "YES",
         "FrontCamera": "8",
         "RearCamera": "13"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "xppen.tablet.md130fh",
+        "_id": "124fee39-1d5a-4650-bcc5-96d632627726",
+        "_CreateDate": "2026-11-26T04:53:17.671Z",
+        "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+      },
+      "Model": {
+        "Brand": "XPPEN",
+        "Id": "MD130FH",
+        "Name": "Artist 13.3 Pro V2",
+        "Type": "PENDISPLAY",
+        "ReleaseYear": "2024",
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.xp-pen.com/product/artist-13-3-pro-v2.html",
+            "Title": "Artist 13.3 Pro V2",
+            "Author": "XPPen",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://prtimes.jp/main/html/rd/p/000000030.000090174.html",
+            "Title": "Artist 13.3 Pro V2 Japanese launch announcement",
+            "Author": "XPPen",
+            "ContentType": "HTML",
+            "PublishDate": "2024-12-06"
+          }
+        ],
+        "ReleaseDate": "2024-12-06",
+        "IncludedPen": [
+          "xppen.pen.pd21"
+        ],
+        "Notes": "Date is the Japanese launch announcement. XPPen gives a report rate of at least 200 RPS. Included X3 Pro Smart Chip Stylus is specified as PD21C, a PD21 variant."
+      },
+      "Digitizer": {
+        "Type": "PASSIVE_EMR",
+        "PressureLevels": "16384",
+        "Dimensions": {
+          "Width": 294.76,
+          "Height": 166.24
+        },
+        "Density": "200",
+        "ReportRate": "200",
+        "Tilt": "60",
+        "AccuracyCenter": "0.4",
+        "MaxHover": "10"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1080
+        },
+        "Brightness": "250",
+        "ColorGamuts": {
+          "SRGB": 99,
+          "ADOBERGB": 89,
+          "DISPLAYP3": 95
+        },
+        "Lamination": "YES",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178"
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 390.4,
+          "Height": 249.98,
+          "Depth": 12.9
+        },
+        "Weight": "1139",
+        "WeightInclStand": "NO",
+        "IncludedStand": "YES"
+      },
+      "OtherInputs": {
+        "Buttons": "8",
+        "Dials": "1"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          }
+        ]
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputCurrent": "2",
+        "InputSource": "USB"
       }
     },
     {
