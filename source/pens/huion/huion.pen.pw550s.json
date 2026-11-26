@@ -4,7 +4,7 @@
   "PenId": "PW550S",
   "PenName": "PW550S",
   "PenFamily": "huion.penfamily.huion_pw550",
-  "ReleaseYear": "2024",
+  "ReleaseYear": "2023",
   "PenTech": "PASSIVE_EMR",
   "PressureSensitive": "YES",
   "PressureLevels": "8192",
@@ -21,5 +21,15 @@
   "Diameter": "9.5",
   "_id": "7eff5e99-e9c8-497a-be0c-c5c148fa0530",
   "_CreateDate": "2026-04-01T20:29:11.000Z",
-  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+  "_ModifiedDate": "2026-11-26T04:54:35.198Z",
+  "Links": [
+    {
+      "Type": "PRODUCTINFO",
+      "URL": "https://www.huion.com/news/the-official-preorder-for-Kamvasstudio16-24-is-available",
+      "Title": "Official Kamvas Studio 16 and 24 preorder announcement",
+      "Author": "Huion",
+      "ContentType": "HTML",
+      "PublishDate": "2023-02-14"
+    }
+  ]
 }

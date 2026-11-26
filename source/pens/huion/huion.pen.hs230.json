@@ -1,0 +1,32 @@
+{
+  "EntityId": "huion.pen.hs230",
+  "Brand": "HUION",
+  "PenId": "HS230",
+  "PenName": "H-Pencil (HS230)",
+  "PenFamily": "",
+  "ReleaseYear": "2025",
+  "PressureSensitive": "YES",
+  "PressureLevels": "4096",
+  "Tilt": "YES",
+  "Hover": "YES",
+  "Notes": "Rechargeable active-capacitive stylus, not EMR.",
+  "Links": [
+    {
+      "Type": "MANUFACTURERPRODUCTINFO",
+      "URL": "https://www.huion.com/products/kamvas-slate-11",
+      "Title": "Huion Kamvas Slate 11",
+      "Author": "Huion",
+      "ContentType": "HTML"
+    },
+    {
+      "Type": "MANUFACTURERUSERMANUAL",
+      "URL": "https://driverdl.huion.com/instruction/Kamvas-Slate-11/User_Manual_Kamvas_Slate_11_EN.pdf",
+      "Title": "Kamvas Slate 11 user manual",
+      "Author": "Huion",
+      "ContentType": "PDF"
+    }
+  ],
+  "_id": "1b5f4777-0c6c-4e85-974b-f3e443cd6955",
+  "_CreateDate": "2026-11-26T04:54:35.198Z",
+  "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+}
