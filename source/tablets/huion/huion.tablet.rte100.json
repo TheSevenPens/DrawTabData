@@ -1,0 +1,66 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.rte100",
+    "_id": "0dd8fb9f-035d-4704-a83b-a48dd733b353",
+    "_CreateDate": "2026-11-26T04:53:54.000Z",
+    "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "RTE-100",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/inspiroy-rte-100",
+        "Title": "Huion Inspiroy RTE-100 specifications",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.huion.com/manaul_pdf/en/RTE-100.pdf",
+        "Title": "Inspiroy RTE-100 user manual",
+        "Author": "Huion",
+        "ContentType": "PDF"
+      }
+    ],
+    "Name": "Inspiroy RTE-100",
+    "Type": "PENTABLET",
+    "IncludedPen": [
+      "huion.pen.pw400"
+    ],
+    "Notes": "The recorded active area is for computer mode. Huion specifies a report rate over 300 PPS. Manufacturer manual copyright 2021; actual retail release year not verified.",
+    "ReleaseYear": ""
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 121.9,
+      "Height": 76.2
+    },
+    "Density": "200",
+    "ReportRate": "300",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 185.7,
+      "Height": 138.2,
+      "Depth": 6.3
+    },
+    "Weight": "150"
+  },
+  "OtherInputs": {
+    "Touch": "NO",
+    "Buttons": "4"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "MICRO_USB"
+      }
+    ]
+  }
+}

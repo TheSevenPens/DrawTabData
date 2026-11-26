@@ -1,0 +1,71 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.kd200",
+    "_id": "dc750102-338f-401c-a7a0-5e5dc4c88ddd",
+    "_CreateDate": "2026-11-26T04:53:54.000Z",
+    "_ModifiedDate": "2026-11-26T04:53:54.000Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KD200",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/inspiroy-keydial-kd200",
+        "Title": "Huion Inspiroy Keydial KD200 specifications",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/news/34",
+        "Title": "Huion introduces the Inspiroy Keydial KD200",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      }
+    ],
+    "Name": "Inspiroy Keydial",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "ReleaseDate": "2021",
+    "IncludedPen": [
+      "huion.pen.pw517"
+    ],
+    "Notes": "Huion specifies a report rate over 220 PPS. The 23 standard keyboard keys are not counted as programmable tablet buttons."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 226,
+      "Height": 142.88
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "AccuracyCenter": "0.3",
+    "MaxHover": "10"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 394.5,
+      "Height": 187.7,
+      "Depth": 8.5
+    },
+    "Weight": "650"
+  },
+  "OtherInputs": {
+    "Touch": "NO",
+    "Buttons": "5",
+    "Dials": "1"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0"
+  }
+}
