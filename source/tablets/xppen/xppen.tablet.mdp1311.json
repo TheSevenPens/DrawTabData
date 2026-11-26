@@ -1,13 +1,13 @@
 {
   "Meta": {
-    "EntityId": "xppen.tablet.magicpro13",
+    "EntityId": "xppen.tablet.mdp1311",
     "_id": "e6cc26a0-888e-4d5b-8afe-120e6c330690",
     "_CreateDate": "2026-11-01T16:25:28.399Z",
-    "_ModifiedDate": "2026-11-01T16:25:28.399Z"
+    "_ModifiedDate": "2026-11-26T11:21:50.905Z"
   },
   "Model": {
     "Brand": "XPPEN",
-    "Id": "MagicPro13",
+    "Id": "MDP1311",
     "Links": [
       {
         "Type": "MANUFACTURERPRODUCTINFO",
@@ -43,7 +43,7 @@
       "Glove x 1",
       "Ejector Tool x 1"
     ],
-    "Notes": "XP-Pen publishes no model code, so Id is the product name. Specs from XP-Pen's product page; release date and early-bird price (USD 899, USD 999 list) from XP-Pen's launch news. Not on the product page: active area, panel type, touch, Wi-Fi/Bluetooth versions (Parka Blogs lists Wi-Fi 6E and Bluetooth 5.4). Can also run as a pen display over one USB-C cable, and has DP-out."
+    "Notes": "Model number MDP1311 from Seven Pens' hands-on notes (XP-Pen's product page publishes no model code). Specs from XP-Pen's product page; release date and early-bird price (USD 899, USD 999 list) from XP-Pen's launch news. Not on the product page: active area, panel type, touch, Wi-Fi/Bluetooth versions (Parka Blogs lists Wi-Fi 6E and Bluetooth 5.4). Can also run as a pen display over one USB-C cable, and has DP-out."
   },
   "Digitizer": {
     "Type": "PASSIVE_EMR",
