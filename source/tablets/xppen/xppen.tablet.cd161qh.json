@@ -1,0 +1,88 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.cd161qh",
+    "_id": "715d8547-df0b-4a19-be93-a86516bfd48b",
+    "_CreateDate": "2026-11-26T04:53:17.671Z",
+    "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "CD161QH",
+    "Name": "Artist 16 3rd (2.5K)",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2026",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-16-3rd-25k.html",
+        "Title": "Artist 16 3rd (2.5K)",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://prtimes.jp/main/html/rd/p/000000050.000090174.html",
+        "Title": "Artist 16 3rd 2.5K Japanese launch",
+        "Author": "XPPen",
+        "ContentType": "HTML",
+        "PublishDate": "2026-11-16"
+      }
+    ],
+    "ReleaseDate": "2026-11-16",
+    "Notes": "Release date is the Japan launch. This is the QHD model, distinct from the FHD CD161FH. XPPen specifies an included X4 Smart Chip Stylus but does not list its pen model number in these specifications.",
+    "Family": "xppen.tabletfamily.xppen_artistgen3"
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 350.44,
+      "Height": 197.56
+    },
+    "AccuracyCenter": "0.2",
+    "MaxHover": "10"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 2560,
+      "Height": 1440
+    },
+    "Brightness": "270",
+    "Contrast": "1000",
+    "ColorBitDepth": "8",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 91,
+      "DISPLAYP3": 96
+    },
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 418.6,
+      "Height": 241.6,
+      "Depth": 13.2
+    },
+    "Weight": "1305",
+    "IncludedStand": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C",
+        "Detail": "Full-featured"
+      },
+      {
+        "Type": "USB_C",
+        "Detail": "3-in-1"
+      }
+    ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "3",
+    "InputSource": "USB"
+  }
+}

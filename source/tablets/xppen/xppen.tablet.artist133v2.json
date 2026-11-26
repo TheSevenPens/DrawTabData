@@ -1,0 +1,49 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.artist133v2",
+    "_id": "be4ee8f6-e201-4867-a250-c9873b2c4220",
+    "_CreateDate": "2026-11-26T04:53:17.671Z",
+    "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "ARTIST133V2",
+    "Name": "Artist 13.3 V2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-13-3-v2.html",
+        "Title": "Artist 13.3 V2",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://download01.xp-pen.com/file/2020/06/Artist%2013.3%20V2%20User%20Manual%28English%29%20.pdf",
+        "Title": "Artist 13.3 V2 English manual",
+        "Author": "XPPen",
+        "ContentType": "PDF"
+      }
+    ],
+    "IncludedPen": [
+      "xppen.pen.p05"
+    ],
+    "Notes": "XPPen identifies this display by the product name. No separate model code or reliable launch date verified. Not the Artist 13 (2nd Gen), Artist 13.3 Pro or Artist 13.3 Pro V2."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "PanelTech": "IPS"
+  },
+  "OtherInputs": {
+    "Buttons": "6"
+  }
+}

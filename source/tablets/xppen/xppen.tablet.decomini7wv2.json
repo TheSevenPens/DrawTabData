@@ -1,0 +1,85 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.decomini7wv2",
+    "_id": "be037888-e3f5-444f-a3db-af8d6309442f",
+    "_CreateDate": "2026-11-26T04:53:17.671Z",
+    "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECOMINI7WV2",
+    "Name": "Deco mini7W V2",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2026",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-mini7w-v2.html",
+        "Title": "Deco mini7W V2",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://www.xp-pen.com/user-manual/deco-mini7w-v2.html",
+        "Title": "Deco mini7W V2 manual",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://fccid.io/2AKDT-DECOMINI7WV2",
+        "Title": "FCC filing for Deco mini7W V2",
+        "Author": "XPPen (FCC filing)",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://b2b.ask-corp.jp/view/item/000000000536",
+        "Title": "Deco mini7W V2 Japan release timing",
+        "Author": "ASK Corporation",
+        "ContentType": "HTML"
+      }
+    ],
+    "ReleaseDate": "2026-07-31",
+    "IncludedPen": [
+      "xppen.pen.p05d"
+    ],
+    "Notes": "Release date is the documented Japan launch. Earlier dated FCC and driver materials are not retail launch dates. This is the Bluetooth 5.0 model, distinct from the original 2.4 GHz receiver model and the wired Deco mini7 V2."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 177.8,
+      "Height": 111
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "MaxHover": "10"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 260,
+      "Height": 162,
+      "Depth": 9
+    }
+  },
+  "OtherInputs": {
+    "Buttons": "8"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "AttachedCable": [],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0"
+  },
+  "Power": {
+    "InputSource": "USB"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.decomini7w",
+    "_id": "e6b3627c-3918-4eba-a8cd-5f87fb37ba78",
+    "_CreateDate": "2026-11-26T04:53:17.671Z",
+    "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "DECOMINI7W",
+    "Name": "Deco mini7W",
+    "Type": "PENTABLET",
+    "ReleaseYear": "2021",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/deco-mini7w-wireless.html",
+        "Title": "Deco mini7W wireless",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.ask-corp.jp/products/xp-pen/pen-tablet/deco-mini-7w.html",
+        "Title": "Deco Mini 7W release timing and specifications",
+        "Author": "ASK Corporation",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://fccid.io/2AKDT-DECOMINI7W",
+        "Title": "FCC filing for Deco mini7W",
+        "Author": "XPPen (FCC filing)",
+        "ContentType": "HTML"
+      }
+    ],
+    "ReleaseDate": "2021-01-15",
+    "IncludedPen": [
+      "xppen.pen.p05d"
+    ],
+    "Notes": "Release date is the documented Japan launch; FCC authorization predates it. The original uses a proprietary 2.4 GHz USB receiver, not Bluetooth."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "8192",
+    "Dimensions": {
+      "Width": 177.8,
+      "Height": 111.1
+    },
+    "Density": "200",
+    "ReportRate": "220",
+    "Tilt": "60",
+    "MaxHover": "10"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 260.2,
+      "Height": 162.2,
+      "Depth": 9.3
+    },
+    "Weight": "330"
+  },
+  "OtherInputs": {
+    "Buttons": "8"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ],
+    "AttachedCable": [],
+    "Bluetooth": "NO"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputSource": "USB"
+  }
+}

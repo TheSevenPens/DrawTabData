@@ -24,6 +24,7 @@
       "PenId": "P02S",
       "TabletIds": [
         "ARTIST16PRO",
+        "ARTIST22EPRO",
         "ARTIST22PRO"
       ]
     },
@@ -39,6 +40,7 @@
       "Brand": "XPPEN",
       "PenId": "P05",
       "TabletIds": [
+        "ARTIST133V2",
         "ARTIST15.6",
         "DECO01V2",
         "DECO01V3",
@@ -52,7 +54,9 @@
       "TabletIds": [
         "DECOMINI4",
         "DECOMINI7",
-        "DECOMINI7V2"
+        "DECOMINI7V2",
+        "DECOMINI7W",
+        "DECOMINI7WV2"
       ]
     },
     {
@@ -154,6 +158,7 @@
       "Brand": "XPPEN",
       "PenId": "PD21",
       "TabletIds": [
+        "MD130FH",
         "MD140FH",
         "MD140QH",
         "MD160FH",

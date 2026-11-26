@@ -1,0 +1,91 @@
+{
+  "Meta": {
+    "EntityId": "xppen.tablet.md130fh",
+    "_id": "124fee39-1d5a-4650-bcc5-96d632627726",
+    "_CreateDate": "2026-11-26T04:53:17.671Z",
+    "_ModifiedDate": "2026-11-26T04:53:17.671Z"
+  },
+  "Model": {
+    "Brand": "XPPEN",
+    "Id": "MD130FH",
+    "Name": "Artist 13.3 Pro V2",
+    "Type": "PENDISPLAY",
+    "ReleaseYear": "2024",
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.xp-pen.com/product/artist-13-3-pro-v2.html",
+        "Title": "Artist 13.3 Pro V2",
+        "Author": "XPPen",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://prtimes.jp/main/html/rd/p/000000030.000090174.html",
+        "Title": "Artist 13.3 Pro V2 Japanese launch announcement",
+        "Author": "XPPen",
+        "ContentType": "HTML",
+        "PublishDate": "2024-12-06"
+      }
+    ],
+    "ReleaseDate": "2024-12-06",
+    "IncludedPen": [
+      "xppen.pen.pd21"
+    ],
+    "Notes": "Date is the Japanese launch announcement. XPPen gives a report rate of at least 200 RPS. Included X3 Pro Smart Chip Stylus is specified as PD21C, a PD21 variant."
+  },
+  "Digitizer": {
+    "Type": "PASSIVE_EMR",
+    "PressureLevels": "16384",
+    "Dimensions": {
+      "Width": 294.76,
+      "Height": 166.24
+    },
+    "Density": "200",
+    "ReportRate": "200",
+    "Tilt": "60",
+    "AccuracyCenter": "0.4",
+    "MaxHover": "10"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1080
+    },
+    "Brightness": "250",
+    "ColorGamuts": {
+      "SRGB": 99,
+      "ADOBERGB": 89,
+      "DISPLAYP3": 95
+    },
+    "Lamination": "YES",
+    "ViewingAngleHorizontal": "178",
+    "ViewingAngleVertical": "178"
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 390.4,
+      "Height": 249.98,
+      "Depth": 12.9
+    },
+    "Weight": "1139",
+    "WeightInclStand": "NO",
+    "IncludedStand": "YES"
+  },
+  "OtherInputs": {
+    "Buttons": "8",
+    "Dials": "1"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      }
+    ]
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputCurrent": "2",
+    "InputSource": "USB"
+  }
+}
