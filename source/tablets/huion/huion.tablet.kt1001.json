@@ -1,0 +1,116 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.kt1001",
+    "_id": "b021ffb3-2736-4209-8f58-27e603f7115d",
+    "_CreateDate": "2026-11-26T04:54:35.198Z",
+    "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KT1001",
+    "Name": "Kamvas Slate 10",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2023",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.hs200"
+    ],
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/kamvas-slate-10",
+        "Title": "Huion Kamvas Slate 10",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://driverdl.huion.com/instruction/KT1001/User_Manual_kamvas_slate_10_240507.pdf",
+        "Title": "Kamvas Slate 10 user manual",
+        "Author": "Huion",
+        "ContentType": "PDF"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.youtube.com/watch?v=vFgSFN-mjrQ",
+        "Title": "Huion introduces Kamvas Slate 10",
+        "Author": "Huion",
+        "ContentType": "VIDEO",
+        "PublishDate": "2023-11-30"
+      }
+    ],
+    "Notes": "Huion introduced this model in November 2023. Uses a rechargeable active-capacitive HS200 stylus, not EMR. The digitizer type enum does not currently have an active-capacitive value.",
+    "Status": "ACTIVE"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 216.57,
+      "Height": 135.36
+    },
+    "PressureLevels": "4096",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "0.6"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1200
+    },
+    "PanelTech": "IPS",
+    "Brightness": "260",
+    "ResponseTime": "25",
+    "ColorBitDepth": "8",
+    "Contrast": "1000",
+    "Lamination": "YES",
+    "ViewingAngleHorizontal": "160",
+    "ViewingAngleVertical": "160",
+    "ColorGamutAreas": {
+      "NTSC": 65,
+      "SRGB": 90,
+      "ADOBERGB": 66
+    }
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 243,
+      "Height": 161,
+      "Depth": 8.6
+    },
+    "Weight": "575"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0",
+    "Wifi": "802.11 b/g/n/ac"
+  },
+  "Standalone": {
+    "OS": "Android 12",
+    "Processor": "Unisoc Tiger T616",
+    "RAM": "8",
+    "Storage": "128",
+    "ExpandableStorage": "YES",
+    "MemoryCardSlot": "microSD",
+    "BatteryCapacity": "6000",
+    "BatteryLife": "7",
+    "Speakers": "YES",
+    "FrontCamera": "5",
+    "RearCamera": "13"
+  },
+  "Power": {
+    "InputVoltage": "5",
+    "InputSource": "USB"
+  }
+}

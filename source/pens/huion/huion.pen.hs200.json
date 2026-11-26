@@ -1,0 +1,33 @@
+{
+  "EntityId": "huion.pen.hs200",
+  "Brand": "HUION",
+  "PenId": "HS200",
+  "PenName": "H-Pencil (HS200)",
+  "PenFamily": "",
+  "ReleaseYear": "2023",
+  "PressureSensitive": "YES",
+  "PressureLevels": "4096",
+  "Tilt": "YES",
+  "Hover": "YES",
+  "Notes": "Rechargeable active-capacitive stylus, not EMR.",
+  "Links": [
+    {
+      "Type": "MANUFACTURERPRODUCTINFO",
+      "URL": "https://www.huion.com/products/kamvas-slate-10",
+      "Title": "Huion Kamvas Slate 10",
+      "Author": "Huion",
+      "ContentType": "HTML"
+    },
+    {
+      "Type": "MANUFACTURERUSERMANUAL",
+      "URL": "https://driverdl.huion.com/instruction/KT1001/User_Manual_kamvas_slate_10_240507.pdf",
+      "Title": "Kamvas Slate 10 user manual",
+      "Author": "Huion",
+      "ContentType": "PDF"
+    }
+  ],
+  "_id": "a66f4312-8f04-423f-9bc3-ceab71c27b03",
+  "_CreateDate": "2026-11-26T04:54:35.198Z",
+  "_ModifiedDate": "2026-11-26T04:54:35.198Z",
+  "ButtonCount": "2"
+}

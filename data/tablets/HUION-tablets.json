@@ -6352,6 +6352,793 @@
     },
     {
       "Meta": {
+        "EntityId": "huion.tablet.ks1601",
+        "_id": "e4906b6f-085a-49a0-bccb-68a62ff7b195",
+        "_CreateDate": "2026-11-26T04:54:35.198Z",
+        "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KS1601",
+        "Name": "Kamvas Studio 16",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2023",
+        "Audience": "Professional",
+        "IncludedPen": [
+          "huion.pen.pw550s"
+        ],
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/kamvas-studio-16",
+            "Title": "Huion Kamvas Studio 16",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/news/the-official-preorder-for-Kamvasstudio16-24-is-available",
+            "Title": "Official Kamvas Studio 16 and 24 preorder announcement",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "PublishDate": "2023-02-14"
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/eu/products/kamvas-studio-16",
+            "Title": "Kamvas Studio 16 (Huion Europe store)",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Notes": "Specs describe the original Core i7-1165G7 configuration documented by Huion. The Europe store lists a Core i7-1355U / LPDDR5 configuration under the same KS1601 ID. The original battery is rated 58 Wh; no mAh figure is entered. Huion describes the digitizer report rate as over 300 PPS.",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 349.6,
+          "Height": 196.7
+        },
+        "PressureLevels": "8192",
+        "Type": "PASSIVE_EMR",
+        "Density": "200",
+        "Tilt": "60",
+        "MaxHover": "10",
+        "AccuracyCenter": "0.3",
+        "AccuracyCorner": "1"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2560,
+          "Height": 1440
+        },
+        "PanelTech": "IPS",
+        "Brightness": "400",
+        "ResponseTime": "14",
+        "ColorBitDepth": "8",
+        "Contrast": "1200",
+        "Lamination": "YES",
+        "AntiGlare": "ETCHEDGLASS",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "ADOBERGB": 100
+        }
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 384,
+          "Height": 234,
+          "Depth": 11.9
+        },
+        "Weight": "1700",
+        "Legs": "YES",
+        "IncludedStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C",
+            "Detail": "DisplayPort 1.4 and USB 3.2"
+          },
+          {
+            "Type": "USB_C",
+            "Detail": "DisplayPort 1.4 and USB 3.2"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Wifi": "Wi-Fi 6"
+      },
+      "Standalone": {
+        "OS": "Windows 11 Professional",
+        "Processor": "Intel Core i7-1165G7",
+        "GPU": "Intel Iris Xe Graphics",
+        "RAM": "16",
+        "Storage": "512",
+        "BatteryLife": "6",
+        "BatteryChargingWatts": "65",
+        "Speakers": "YES",
+        "FrontCamera": "5",
+        "RearCamera": "8"
+      },
+      "Power": {
+        "InputSource": "USB_PD",
+        "InputWatts": "65",
+        "AdapterWatts": "65",
+        "OutputWatts": "15"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.ks2201",
+        "_id": "ab76453d-2dd9-4b55-ae1e-bfaaa2cb652f",
+        "_CreateDate": "2026-11-26T04:54:35.198Z",
+        "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KS2201",
+        "Name": "Kamvas Studio 22",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2020",
+        "Audience": "Professional",
+        "IncludedPen": [
+          "huion.pen.pw500"
+        ],
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://b2b.huion.cn/news/company/25.html",
+            "Title": "Huion Kamvas Studio 22 mainland launch",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "PublishDate": "2020-05-20"
+          },
+          {
+            "Type": "USERMANUAL",
+            "URL": "https://manualsnet.com/huion/kamvas-studio-22-ks2201",
+            "Title": "Huion Kamvas Studio 22 user manual (manufacturer manual mirrored by Manualsnet)",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://support.huion.com/en/support/solutions/articles/44002370314-how-can-you-make-osd-adjustment-in-macos-driver-work",
+            "Title": "Huion support identifies KS2201",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Notes": "Release date is the mainland China launch. Huion lists 8 GB RAM with 120 GB SSD + 1 TB HDD or 16 GB RAM with 240 GB SSD + 1 TB HDD. Its mainland announcement lists Windows 10 Home, while the English manual lists Windows 10 Professional. The manual also lists a Gigabit Ethernet port.",
+        "ReleaseDate": "2020-05-20"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 476.64,
+          "Height": 268.11
+        },
+        "PressureLevels": "8192",
+        "Type": "PASSIVE_EMR",
+        "Density": "200",
+        "MaxHover": "10",
+        "ReportRate": "200",
+        "AccuracyCenter": "0.5",
+        "AccuracyCorner": "3"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1080
+        },
+        "PanelTech": "IPS",
+        "Brightness": "220",
+        "ResponseTime": "8",
+        "ColorBitDepth": "8",
+        "Contrast": "1000",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178",
+        "ColorGamutAreas": {
+          "SRGB": 120
+        }
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 589,
+          "Height": 344,
+          "Depth": 21
+        },
+        "Weight": "4750"
+      },
+      "OtherInputs": {
+        "Buttons": "20"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "VGA"
+          },
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "DC_POWER"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "AUDIO_3_5MM",
+            "Detail": "Microphone input"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "4.2",
+        "Wifi": "802.11 a/b/g/n/ac"
+      },
+      "Standalone": {
+        "OS": "Windows 10",
+        "Processor": "Intel Core i5-8400",
+        "GPU": "Intel UHD Graphics 630",
+        "Speakers": "YES"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.ks2401",
+        "_id": "f30f0e6e-a5a5-47f9-8477-2f9a165d4d33",
+        "_CreateDate": "2026-11-26T04:54:35.198Z",
+        "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KS2401",
+        "Name": "Kamvas Studio 24",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2023",
+        "Audience": "Professional",
+        "IncludedPen": [
+          "huion.pen.pw550",
+          "huion.pen.pw550s"
+        ],
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/kamvas-studio-24",
+            "Title": "Huion Kamvas Studio 24",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://www.huion.com/manaul_pdf/en/KS2401.pdf",
+            "Title": "Kamvas Studio 24 user manual",
+            "Author": "Huion",
+            "ContentType": "PDF"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/news/the-official-preorder-for-Kamvasstudio16-24-is-available",
+            "Title": "Official Kamvas Studio 16 and 24 preorder announcement",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "PublishDate": "2023-02-14"
+          }
+        ],
+        "Notes": "Dimensions exclude the ST100C stand. Huion also lists an RJ45 Ethernet port, which has no enum entry. Huion describes the digitizer report rate as over 300 PPS.",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 526.85,
+          "Height": 296.35
+        },
+        "PressureLevels": "8192",
+        "Type": "PASSIVE_EMR",
+        "Density": "200",
+        "Tilt": "60",
+        "MaxHover": "10",
+        "AccuracyCenter": "0.5",
+        "AccuracyCorner": "3"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2560,
+          "Height": 1440
+        },
+        "PanelTech": "IPS",
+        "Brightness": "220",
+        "ResponseTime": "14",
+        "ColorBitDepth": "8",
+        "Lamination": "YES",
+        "AntiGlare": "ETCHEDGLASS",
+        "ViewingAngleHorizontal": "178",
+        "ViewingAngleVertical": "178",
+        "ColorGamuts": {
+          "SRGB": 99
+        }
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 581.85,
+          "Height": 361.7,
+          "Depth": 86.6
+        },
+        "Weight": "8700",
+        "IncludedStand": "YES"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "HDMI"
+          },
+          {
+            "Type": "DVI"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 2.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 2.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "USB_A",
+            "Detail": "USB 3.0"
+          },
+          {
+            "Type": "DC_POWER"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "AUDIO_3_5MM",
+            "Detail": "Microphone input"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.2",
+        "Wifi": "Wi-Fi 6"
+      },
+      "Standalone": {
+        "OS": "Windows 11 Professional",
+        "Processor": "Intel Core i7-12700F",
+        "GPU": "NVIDIA GeForce GTX 1650",
+        "RAM": "32",
+        "Storage": "1000",
+        "Speakers": "YES",
+        "FrontCamera": "5"
+      },
+      "Power": {
+        "InputSource": "ADAPTER",
+        "InputVoltage": "19",
+        "InputCurrent": "14.2"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.kt1001",
+        "_id": "b021ffb3-2736-4209-8f58-27e603f7115d",
+        "_CreateDate": "2026-11-26T04:54:35.198Z",
+        "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KT1001",
+        "Name": "Kamvas Slate 10",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2023",
+        "Audience": "Consumer",
+        "IncludedPen": [
+          "huion.pen.hs200"
+        ],
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/kamvas-slate-10",
+            "Title": "Huion Kamvas Slate 10",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://driverdl.huion.com/instruction/KT1001/User_Manual_kamvas_slate_10_240507.pdf",
+            "Title": "Kamvas Slate 10 user manual",
+            "Author": "Huion",
+            "ContentType": "PDF"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.youtube.com/watch?v=vFgSFN-mjrQ",
+            "Title": "Huion introduces Kamvas Slate 10",
+            "Author": "Huion",
+            "ContentType": "VIDEO",
+            "PublishDate": "2023-11-30"
+          }
+        ],
+        "Notes": "Huion introduced this model in November 2023. Uses a rechargeable active-capacitive HS200 stylus, not EMR. The digitizer type enum does not currently have an active-capacitive value.",
+        "Status": "ACTIVE"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 216.57,
+          "Height": 135.36
+        },
+        "PressureLevels": "4096",
+        "Tilt": "60",
+        "MaxHover": "10",
+        "AccuracyCenter": "0.3",
+        "AccuracyCorner": "0.6"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1200
+        },
+        "PanelTech": "IPS",
+        "Brightness": "260",
+        "ResponseTime": "25",
+        "ColorBitDepth": "8",
+        "Contrast": "1000",
+        "Lamination": "YES",
+        "ViewingAngleHorizontal": "160",
+        "ViewingAngleVertical": "160",
+        "ColorGamutAreas": {
+          "NTSC": 65,
+          "SRGB": 90,
+          "ADOBERGB": 66
+        }
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 243,
+          "Height": 161,
+          "Depth": 8.6
+        },
+        "Weight": "575"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Wifi": "802.11 b/g/n/ac"
+      },
+      "Standalone": {
+        "OS": "Android 12",
+        "Processor": "Unisoc Tiger T616",
+        "RAM": "8",
+        "Storage": "128",
+        "ExpandableStorage": "YES",
+        "MemoryCardSlot": "microSD",
+        "BatteryCapacity": "6000",
+        "BatteryLife": "7",
+        "Speakers": "YES",
+        "FrontCamera": "5",
+        "RearCamera": "13"
+      },
+      "Power": {
+        "InputVoltage": "5",
+        "InputSource": "USB"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.kt1101",
+        "_id": "7f78b8b2-dbf9-4c8f-baa4-205d1e5e2a28",
+        "_CreateDate": "2026-11-26T04:54:35.198Z",
+        "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KT1101",
+        "Name": "Kamvas Slate 11",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2025",
+        "Audience": "Consumer",
+        "IncludedPen": [
+          "huion.pen.hs230"
+        ],
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/kamvas-slate-11",
+            "Title": "Huion Kamvas Slate 11",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/news/huion-launches-kamvas-slate-11-13",
+            "Title": "Huion launches Kamvas Slate 11 & 13",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "PublishDate": "2025-04-18"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://support.huion.com/en/support/solutions/articles/44002617276-kamvas-slate-11-13-faq",
+            "Title": "Huion Kamvas Slate 11 / 13 FAQ",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "MANUFACTURERUSERMANUAL",
+            "URL": "https://driverdl.huion.com/instruction/Kamvas-Slate-11/User_Manual_Kamvas_Slate_11_EN.pdf",
+            "Title": "Kamvas Slate 11 user manual",
+            "Author": "Huion",
+            "ContentType": "PDF"
+          }
+        ],
+        "Notes": "Uses a rechargeable active-capacitive HS230 H-Pencil, not EMR. Fast charging is supported, but the standard package does not include a charger.",
+        "Status": "ACTIVE",
+        "ReleaseDate": "2025-04-18"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 235.9,
+          "Height": 147.4
+        },
+        "PressureLevels": "4096",
+        "Tilt": "60",
+        "MaxHover": "10",
+        "AccuracyCenter": "0.3",
+        "AccuracyCorner": "0.6"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 1920,
+          "Height": 1200
+        },
+        "PanelTech": "IPS",
+        "Brightness": "350",
+        "ResponseTime": "25",
+        "ColorBitDepth": "8",
+        "Contrast": "1000",
+        "Lamination": "YES",
+        "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
+        "RefreshRate": "90",
+        "ViewingAngleHorizontal": "160",
+        "ViewingAngleVertical": "160",
+        "ColorGamutAreas": {
+          "SRGB": 99
+        }
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 256.8,
+          "Height": 168.3,
+          "Depth": 7.5
+        },
+        "Weight": "500"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "PROPRIETARY",
+            "Detail": "Keyboard pogo pins"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Wifi": "802.11 a/b/g/n/ac"
+      },
+      "Standalone": {
+        "OS": "Android 14",
+        "Processor": "MediaTek Helio G99",
+        "RAM": "8",
+        "Storage": "128",
+        "ExpandableStorage": "YES",
+        "MemoryCardSlot": "microSD",
+        "BatteryCapacity": "8000",
+        "BatteryLife": "11",
+        "BatteryChargingWatts": "18",
+        "Speakers": "YES",
+        "FrontCamera": "8",
+        "RearCamera": "13"
+      },
+      "Power": {
+        "InputVoltage": "9",
+        "InputCurrent": "2",
+        "InputWatts": "18",
+        "InputSource": "USB_PD"
+      }
+    },
+    {
+      "Meta": {
+        "EntityId": "huion.tablet.kt1201",
+        "_id": "093e9a21-125a-4339-9798-c25480ba822f",
+        "_CreateDate": "2026-11-26T04:54:35.198Z",
+        "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+      },
+      "Model": {
+        "Brand": "HUION",
+        "Id": "KT1201",
+        "Name": "Kamvas Slate 13",
+        "Type": "STANDALONE",
+        "ReleaseYear": "2025",
+        "Audience": "Consumer",
+        "IncludedPen": [
+          "huion.pen.hs230"
+        ],
+        "Links": [
+          {
+            "Type": "MANUFACTURERPRODUCTINFO",
+            "URL": "https://www.huion.com/products/kamvas-slate-13",
+            "Title": "Huion Kamvas Slate 13",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://www.huion.com/news/huion-launches-kamvas-slate-11-13",
+            "Title": "Huion launches Kamvas Slate 11 & 13",
+            "Author": "Huion",
+            "ContentType": "HTML",
+            "PublishDate": "2025-04-18"
+          },
+          {
+            "Type": "PRODUCTINFO",
+            "URL": "https://support.huion.com/en/support/solutions/articles/44002617276-kamvas-slate-11-13-faq",
+            "Title": "Huion Kamvas Slate 11 / 13 FAQ",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          },
+          {
+            "Type": "STORE",
+            "URL": "https://store.huion.com/eu/products/kamvas-slate-13",
+            "Title": "Kamvas Slate 13 (Huion Europe store)",
+            "Author": "Huion",
+            "ContentType": "HTML"
+          }
+        ],
+        "Notes": "Uses a rechargeable active-capacitive HS230 H-Pencil, not EMR. Fast charging is supported, but the standard package does not include a charger. The model-specific FAQ says 60 Hz, while the joint launch announcement mentions 90 Hz without distinguishing the two models.",
+        "Status": "ACTIVE",
+        "ReleaseDate": "2025-04-18"
+      },
+      "Digitizer": {
+        "Dimensions": {
+          "Width": 259.8,
+          "Height": 191
+        },
+        "PressureLevels": "4096",
+        "Tilt": "60",
+        "MaxHover": "10",
+        "AccuracyCenter": "0.3",
+        "AccuracyCorner": "0.6"
+      },
+      "Display": {
+        "PixelDimensions": {
+          "Width": 2176,
+          "Height": 1600
+        },
+        "PanelTech": "IPS",
+        "Brightness": "350",
+        "ResponseTime": "25",
+        "ColorBitDepth": "8",
+        "Contrast": "1000",
+        "Lamination": "YES",
+        "AntiGlare": "ETCHEDGLASS",
+        "AntiFingerprint": "YES",
+        "RefreshRate": "60",
+        "ViewingAngleHorizontal": "160",
+        "ViewingAngleVertical": "160",
+        "ColorGamutAreas": {
+          "SRGB": 99
+        }
+      },
+      "Physical": {
+        "Dimensions": {
+          "Width": 280.6,
+          "Height": 211.8,
+          "Depth": 7.5
+        },
+        "Weight": "682"
+      },
+      "OtherInputs": {
+        "Touch": "YES"
+      },
+      "Connectivity": {
+        "Ports": [
+          {
+            "Type": "USB_C"
+          },
+          {
+            "Type": "AUDIO_3_5MM"
+          },
+          {
+            "Type": "PROPRIETARY",
+            "Detail": "Keyboard pogo pins"
+          }
+        ],
+        "Bluetooth": "YES",
+        "BluetoothVersion": "5.0",
+        "Wifi": "802.11 a/b/g/n/ac"
+      },
+      "Standalone": {
+        "OS": "Android 14",
+        "Processor": "MediaTek Helio G99",
+        "RAM": "8",
+        "Storage": "256",
+        "ExpandableStorage": "YES",
+        "MemoryCardSlot": "microSD",
+        "BatteryCapacity": "10000",
+        "BatteryLife": "14",
+        "BatteryChargingWatts": "18",
+        "Speakers": "YES",
+        "FrontCamera": "8",
+        "RearCamera": "13"
+      },
+      "Power": {
+        "InputVoltage": "9",
+        "InputCurrent": "2",
+        "InputWatts": "18",
+        "InputSource": "USB_PD"
+      }
+    },
+    {
+      "Meta": {
         "EntityId": "huion.tablet.l310",
         "_id": "eca5c731-2985-42cb-8c3b-b5dc047788a4",
         "_CreateDate": "2025-12-12T12:33:46.983Z",

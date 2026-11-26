@@ -15,11 +15,19 @@
       "URL": "https://youtu.be/vk4DlVGU6-Q",
       "Title": "Huion PW550 pen versus PW517 pen",
       "Author": "SevenPens"
+    },
+    {
+      "Type": "PRODUCTINFO",
+      "URL": "https://www.huion.com/news/the-official-preorder-for-Kamvasstudio16-24-is-available",
+      "Title": "Official Kamvas Studio 16 and 24 preorder announcement",
+      "Author": "Huion",
+      "ContentType": "HTML",
+      "PublishDate": "2023-02-14"
     }
   ],
   "PenName": "PW550",
   "PenFamily": "huion.penfamily.huion_pw550",
-  "ReleaseYear": "2024",
+  "ReleaseYear": "2023",
   "PenTech": "PASSIVE_EMR",
   "PressureSensitive": "YES",
   "PressureLevels": "8192",
@@ -35,5 +43,5 @@
   "Diameter": "12",
   "_id": "725013ee-bd80-4b68-91ee-6c66a56245cf",
   "_CreateDate": "2026-04-04T00:00:00.000Z",
-  "_ModifiedDate": "2026-05-11T18:39:40.252Z"
+  "_ModifiedDate": "2026-11-26T04:54:35.198Z"
 }

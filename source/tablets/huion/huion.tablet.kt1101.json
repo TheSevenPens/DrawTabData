@@ -1,0 +1,132 @@
+{
+  "Meta": {
+    "EntityId": "huion.tablet.kt1101",
+    "_id": "7f78b8b2-dbf9-4c8f-baa4-205d1e5e2a28",
+    "_CreateDate": "2026-11-26T04:54:35.198Z",
+    "_ModifiedDate": "2026-11-26T04:54:35.198Z"
+  },
+  "Model": {
+    "Brand": "HUION",
+    "Id": "KT1101",
+    "Name": "Kamvas Slate 11",
+    "Type": "STANDALONE",
+    "ReleaseYear": "2025",
+    "Audience": "Consumer",
+    "IncludedPen": [
+      "huion.pen.hs230"
+    ],
+    "Links": [
+      {
+        "Type": "MANUFACTURERPRODUCTINFO",
+        "URL": "https://www.huion.com/products/kamvas-slate-11",
+        "Title": "Huion Kamvas Slate 11",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://www.huion.com/news/huion-launches-kamvas-slate-11-13",
+        "Title": "Huion launches Kamvas Slate 11 & 13",
+        "Author": "Huion",
+        "ContentType": "HTML",
+        "PublishDate": "2025-04-18"
+      },
+      {
+        "Type": "PRODUCTINFO",
+        "URL": "https://support.huion.com/en/support/solutions/articles/44002617276-kamvas-slate-11-13-faq",
+        "Title": "Huion Kamvas Slate 11 / 13 FAQ",
+        "Author": "Huion",
+        "ContentType": "HTML"
+      },
+      {
+        "Type": "MANUFACTURERUSERMANUAL",
+        "URL": "https://driverdl.huion.com/instruction/Kamvas-Slate-11/User_Manual_Kamvas_Slate_11_EN.pdf",
+        "Title": "Kamvas Slate 11 user manual",
+        "Author": "Huion",
+        "ContentType": "PDF"
+      }
+    ],
+    "Notes": "Uses a rechargeable active-capacitive HS230 H-Pencil, not EMR. Fast charging is supported, but the standard package does not include a charger.",
+    "Status": "ACTIVE",
+    "ReleaseDate": "2025-04-18"
+  },
+  "Digitizer": {
+    "Dimensions": {
+      "Width": 235.9,
+      "Height": 147.4
+    },
+    "PressureLevels": "4096",
+    "Tilt": "60",
+    "MaxHover": "10",
+    "AccuracyCenter": "0.3",
+    "AccuracyCorner": "0.6"
+  },
+  "Display": {
+    "PixelDimensions": {
+      "Width": 1920,
+      "Height": 1200
+    },
+    "PanelTech": "IPS",
+    "Brightness": "350",
+    "ResponseTime": "25",
+    "ColorBitDepth": "8",
+    "Contrast": "1000",
+    "Lamination": "YES",
+    "AntiGlare": "ETCHEDGLASS",
+    "AntiFingerprint": "YES",
+    "RefreshRate": "90",
+    "ViewingAngleHorizontal": "160",
+    "ViewingAngleVertical": "160",
+    "ColorGamutAreas": {
+      "SRGB": 99
+    }
+  },
+  "Physical": {
+    "Dimensions": {
+      "Width": 256.8,
+      "Height": 168.3,
+      "Depth": 7.5
+    },
+    "Weight": "500"
+  },
+  "OtherInputs": {
+    "Touch": "YES"
+  },
+  "Connectivity": {
+    "Ports": [
+      {
+        "Type": "USB_C"
+      },
+      {
+        "Type": "AUDIO_3_5MM"
+      },
+      {
+        "Type": "PROPRIETARY",
+        "Detail": "Keyboard pogo pins"
+      }
+    ],
+    "Bluetooth": "YES",
+    "BluetoothVersion": "5.0",
+    "Wifi": "802.11 a/b/g/n/ac"
+  },
+  "Standalone": {
+    "OS": "Android 14",
+    "Processor": "MediaTek Helio G99",
+    "RAM": "8",
+    "Storage": "128",
+    "ExpandableStorage": "YES",
+    "MemoryCardSlot": "microSD",
+    "BatteryCapacity": "8000",
+    "BatteryLife": "11",
+    "BatteryChargingWatts": "18",
+    "Speakers": "YES",
+    "FrontCamera": "8",
+    "RearCamera": "13"
+  },
+  "Power": {
+    "InputVoltage": "9",
+    "InputCurrent": "2",
+    "InputWatts": "18",
+    "InputSource": "USB_PD"
+  }
+}
