@@ -2026,6 +2026,45 @@
       "_CreateDate": "2026-10-26T07:30:00.000Z",
       "_ModifiedDate": "2026-10-26T07:30:00.000Z",
       "WithTabletInventoryId": "HUT.0022"
+    },
+    {
+      "PenEntityId": "xppen.pen.pd52",
+      "Brand": "XPPEN",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "XPP.0022",
+      "Notes": "",
+      "Tags": [],
+      "_id": "6d65e544-07bd-401c-833e-cd9ddbf8f0c3",
+      "_CreateDate": "2026-11-27T04:19:14.338Z",
+      "_ModifiedDate": "2026-11-27T04:19:14.338Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "xppen.pen.pd52",
+      "Brand": "XPPEN",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "XPP.0023",
+      "Notes": "",
+      "Tags": [],
+      "_id": "070bba7c-e475-4760-9c82-33397c68c448",
+      "_CreateDate": "2026-11-27T04:19:14.338Z",
+      "_ModifiedDate": "2026-11-27T04:19:14.338Z",
+      "WithTabletInventoryId": ""
+    },
+    {
+      "PenEntityId": "xppen.pen.pd52",
+      "Brand": "XPPEN",
+      "PenTech": "EMR",
+      "PenTechSubtype": "",
+      "InventoryId": "XPP.0024",
+      "Notes": "",
+      "Tags": [],
+      "_id": "c069b5b5-895d-4c6b-b00b-8f28c30165e6",
+      "_CreateDate": "2026-11-27T04:19:14.338Z",
+      "_ModifiedDate": "2026-11-27T04:19:14.338Z",
+      "WithTabletInventoryId": ""
     }
   ]
 }
